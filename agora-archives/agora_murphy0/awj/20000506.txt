@@ -1,0 +1,424 @@
+From ford@jps.net Sat May  6 23:17:41 2000
+Date: Sat, 06 May 2000 13:02:33 -0700
+From: Ed Murphy <ford@jps.net>
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Agoran Weekly Journal
+
+      THE AGORAN WEEKLY JOURNAL
+      VOLUME 46, ISSUE 16
+      May 6, 2000
+
+
+ADOPTED PROPOSALS
+-----------------
+
+"Compensations" by harvel - Proposal 3998 adopted 5/2
+   The New Player Award, Judicial Salary, and Distributor's Gratuity are
+     made part of the Budget.
+
+"Nomic Entity Reform" by harvel - Proposal 3999 adopted 5/2
+   The term "Nomic Entity" is removed from all Rules.
+
+"Oligarchy Auctions 'in progress'" by Steve - Proposal 4000 adopted 5/2
+   An Oligarch Auction is deemed to be 'in progress' until all positions
+     being Auctioned are filled, or one week after the most recent billing
+     of a winning Bidder, whichever occurs first.
+   If a Player becomes an Oligarch during an Oligarch Auction, all eir Bids
+     are cancelled.
+   If a winning Bid in an Oligarch Auction is not paid within a week, then
+     the bill is vacated, the Bidder is penalized 2 Blots, and a new Auction
+     for that position occurs.
+   A winning Bidder assumes eir Oligarch position when eir bill is satisfied,
+     even if e does not satisfy it emself.
+   Only winning Bids are considered when determining the amount that winning
+     Bidders in any sort of Auction are billed.
+
+"Please, Be Nice to the Payroll Clerk" by lee - Proposal 3996 adopted 4/23
+   Repeal Trade Fellowships, which are inadvertently required by be
+     paid out of Player funds (impossible and unintended).
+
+REJECTED PROPOSALS
+------------------
+
+"Auction fix" by Taral - Proposal 3997 rejected 4/23
+    Bids may not be cancelled, but may be replaced with higher Bids.
+    Auctions end after 7 days, regardless of Bid timing.
+    If the highest losing Bid is less than the lowest winning Bid, then
+      the winners are billed the highest losing Bid + 1 MUQ of the Currency.
+    Rule 1888 (Private Auctions) is repealed.
+
+PENDING PROPOSALS
+-----------------
+
+"Blots Hurt" by t - Proposal 4003
+   Being Blotted is a Win-Preventing Condition.
+
+"Free Oligarchy Votes" by Elysion (Steve?) - Proposal 4001
+   Votes on Ordinary Proposals have no VT cost.
+
+"Milder Blot Penalties" by t
+   Players with more than 7 (not 5) Blots are Mute.
+   Players with more than 6 (not 3) Blots are Denied.
+   Players with more than 4 (not 0) Blots cannot Nominate for Office.
+
+"Mistakes Happen" by Taral - Proposal 4005
+   Promotor Misrepresentation is a Class 2 (not 1) Crime, but only occurs
+     when the Promotor deliberately distributes a Proposal not in the
+     Current Batch.
+
+"Officer Reform" by harvel - Proposal 4002
+   If an Office's duties include being the Recordkeepor of a Currency, then
+     records for that Currency are part of that Office's Report.
+   Monthly Reports are defined.
+   Various reporting duties are merged into the Rules defining the Offices.
+
+"Probate Fix" by Peekee (unsuccessful; Peekee is Mute)
+   Executorless entities possessing Currency/credits/debts enter Probate
+     automatically.
+   "Estate" and "Terminal" are no longer defined.
+   When executing a Will, the Notary (not "Executor in Probate") will perform
+     any actions required of em by the Will as Executor of the entity in
+     Probate - not just submit Transfer Orders required by the Will.
+   The Notary may not act as Executor of an entity in Probate except as
+     defined by Rule 1908 (Automatic Dispensation).
+   Upon performing the actions required by Rule 1908, the entity ceases to
+     be in Probate, and the Notary ceases to be eir Executor.
+   Rule 1757 (Implementation of Probate Plans) is repealed.
+
+"Simplify 'ASAP'" by Steve - Proposal 4004
+   ASAP means "within a week".
+   Tardiness is a Class 1 (not 2) Infraction.
+   Following clauses are deleted from Rule 1023 (now "Definition of 'as soon
+     as possible'"):
+       * Precedence claim over Rules defining a later cutoff time
+       * Explicit allowance for Rules to define an earlier cutoff time
+       * Explicit allowance for Rules to define different cutoff times for
+           Official Duties and Inactive Players; however, explicit allowance
+           is made for Rules to define later cutoff times for Inactive Players
+
+"Urgency Must Be Paid For" by Wes
+   Urgent Proposals are distributed ahead of the next scheduled Batch
+     only if their Priority exceeds that of any other Proposal in the Queue.
+
+[old]
+"Consistent Batch Sizes" by Steve
+   Amend Rule 1839 (The Promotor Can Change the Batch Size) to require the
+     Batch Size to be from 1 to 4, inclusive.  (Currently, one clause
+     requires it to be from 2 to 6, and another requires it to be from
+     1 to 3.)
+
+"Score fix" by Taral
+   A Player gaining the Patent Title of Distributor does not receive
+     Points for it.
+
+"Speaker Delegation" by Taral
+   The Speaker may delegate any Office e holds, even if e is not Electee.
+
+PROTO-PROPOSALS
+---------------
+
+"Fix Ratification" by Murphy
+   "Official Document" is replaced with "document".
+   A document's eligiblity for ratification is measured only at the time
+     that an attempt to ratify it occurs, and is not tied to any specific
+     method of ratification.
+
+"Fuzzy Logic" by Elysion
+   The Fuzzy Logic Rule shall submit Proposals to amend Rules (randomly
+     selected by the Speaker) by replacing "and" with "xor", "xor" with
+     "or", and "or" with "and".
+
+"Mistakes Happen 2" by Taral
+   Misappropriation is a Class 15 (not 20) Crime, and only occurs when
+     an improper Transfer Order is executed (not submitted).
+
+"Probate Yet Again" by Wes
+   Wills are no longer SLCs.
+   While the Executor of an entity in Probate, the Notary may only act as
+     required by "Automatic Dispensation":
+       1) Pay debts.
+       2) Expunge Blots.
+       3) Implement Will.
+       4) Transfer Currency to Bank; vacate credits.
+       5) Declare end of Probate.
+   Rule 1757 (Implementation of Probate Plans) is repealed as redundant.
+
+"Property" by Kelly
+   Property is a generalization of Currency.
+   Currency is a subset of Property where individual units with the same
+     owner are indistinguishable.
+   Payment Orders are replaced with Debts.
+   "Limited Executor" is defined.
+   More of Probate is left to the Notary's discretion.
+   Each Bank Currency Recordkeepor is a Limited Executor of a single Bank.
+   Voting is free.
+
+"Proposal Slots" by Steve
+   Proposal submissions are paid for with Proposal Slots, a new Currency
+     auctioned monthly (Bids in P-Notes).
+
+"Real Support, redux" by Murphy
+   A Player may not give Support to an action that e emself intends to take.
+
+[old]
+"Distributor Salary" by Taral
+   The Distributor Salary is made part of the Budget.
+
+"Extreme Measures take 5" by Taral
+   A Legislator may, Without Objection, and with the support of two Senators
+     (other than emself) within four days, cause a Proposal to be adopted.
+
+"New Terminology" by Wes
+   "Fees" are defined.
+   "Public message" is defined as "message sent to the Public Forum".
+
+
+CALLS FOR JUDGEMENT
+-------------------
+
+CFJ 1209 "The change to the minimum wage on March 30, 2000 was invalid
+[FALSE]   and the subsequent minimum wage PO's were incorrect."
+          4/17     Called by lee
+          4/17-24  Assigned to Chuck, who Judges FALSE
+          Caller's argument (summary):  Rule 1893 (The Treasuror's Budget)
+            requires the Minimum Income to be an integer multiple of 0.1
+            times the Basic Officer Salary, but the attempted change on
+            3/30 was to 0.25 times the Basic Officer Salary.
+          Judge's refutation (summary):  Rule 1893 requires the Minimum
+            Income to be "given in" such a multiple - that is, requires
+            the Treasuror to choose only such a multiple.  Rule 1906
+            (Amending the Budget) permits the Treasuror to choose a value
+            that is not such a multiple, and have it take effect, though
+            e violates Rule 1893 by doing so.
+
+CFJ 1210 "Kelly is not the nickname of a Player"
+          5/1  Called by Palnatoke
+          5/1  Assigned to Murphy
+
+CFJ 1211 "The announcement required by Rule 1927 must contain the number
+[DISMISS] of new units of Currency the Executor intends to Mint."
+          5/2    Called by Taral
+          5/2-3  Assigned to Kelly, who dismisses the CFJ
+          Judge's reasoning (summary):  Rule 1927 does not require any
+            announcement to be made; it only prevents Minting in the
+            absence of an announcement.
+
+CFJ 1212 "Wes became the High Oligarch on Wed, 3 May 2000 12:48:35 +0300."
+          5/4    Called by t
+          5/?-5  Assigned to Peekee, who tentatively agrees with #2 below
+                   (but has not given any reasoning)
+          Caller's argument (summary):  Rule 1937 (Filling Vacancies in the
+            Oligarchy) specifies that the Low Oligarchs select a Middle
+            Oligarch to become High Oligarch, but does not specify when the
+            selection takes effect.  Reasonable possibilities are:
+              #1) Wed, 3 May 2000 09:49:12 +0100 - Majority established
+              #2) Wed, 3 May 2000 12:48:35 +0300 - All three votes cast
+              #3) Thu, 4 May 2000 00:00:00 GMT   - Three-day deadline expires
+
+[old]
+CFJ 1206 "Peekee did not gain 2 Blots due to Tardiness, because of Oerjan's
+[FALSE]   Probate."
+          4/1      Called by Peekee
+          4/2-7    Assigned to Sherlock, who Judges TRUE
+          4/9      Appealed by Steve, Wes, and lee
+          4/10-14  Appeal assigned to Chuck, Blob, and Murphy, who unanimously
+                     move to overturn and reassign
+          4/14-15  Reassigned to Anthony, who becomes a Zombie
+          4/16-18  Reassigned to else...if, who Judges TRUE
+          Caller's argument (summary):  Rule 1908 (Automatic Dispensation)
+            requires the Notary to perform certain actions in order, and
+            Rule 1023 (Definition of ASAP) explicitly allows its timing
+            requirements on Official duties to be changed by other Rules.
+            Furthermore, the Notary cannot perform certain actions required
+            by Rule 1908, because Oerjan is no longer in Probate.
+          Counterarguments:  Wes's claim of Tardiness is sufficient to Blot
+            the Notary.  Peekee transferred a total of 94 VTs from Oerjan,
+            but Oerjan had 124 VTs per the Accountor's Report of 3/25, so
+            Peekee was indeed Tardy; and this is a cause of eir being Blotted,
+            albeit possibly an indirect cause.  Rule 1908's ordering
+            requirement is in addition to (not instead of) the normal timing
+            requirements of ASAP.  The Notary's inability to perform an action
+            does not prevent em from being required to perform it, unless the
+            Rules explicitly say so.
+
+CFJ 1207 "An Official Report ratified according to Rule 1791 (Ratification
+[FALSE]   Without Objection) is ratified by an Officer, not by Rule 1791
+           itself. Rule 1791 is an Instrument, but Officers are not
+           Instruments, so Rule 1550 (Ratification) does not attempt to
+           prohibit this method of ratification."
+          4/13     Called by Murphy
+          4/13-14  Assigned to Wes, who Judges FALSE
+          Judge's refutation (summary):  Rule 1791 attempts to allow the
+            Speaker to Ratify Reports, possibly without holding any Office,
+            so the first sentence is not always true.
+
+CFJ 1208 "The Herald's Report was last ratified after 01Feb2000"
+[TRUE]   4/14     Called by Elysion
+          4/16-19  Assigned to Blob, who Judges TRUE
+          Caller's argument (summary):  Elysion allegedly ratified the
+            Herald's Report, Without Objection, on 2/14.  Kelly and Wes
+            argue that Rule 1552 (Requirements for Ratification), by
+            declaring a document legal to ratify "at the time the Proposal
+            which would ratify it is Proposed", implies that no document
+            is legal to ratify when no such Proposal exists.
+          Judge's opinion (summary):  When no such Proposal exists, Rule
+            1552 is void, and Rule 101 then makes any document legal to
+            ratify.
+
+
+OFFICES
+-------
+
+4/30  Elections begin for Assessor, Priest, and Herald.
+
+5/1   Elysion Nominates for Priest and Herald.
+
+       t Nominates for Assessor.
+
+5/2   Low Oligarch harvel selects Wes to become High Oligarch.
+
+5/3   Low Oligarch t selects Wes to become High Oligarch.
+
+       High Oligarch Wes attempts to initiate an Auction for the vacant
+         Low Oligarch seat.  However, there is no vacant Low Oligarch
+         seat, because e has not yet selected a Low Oligarch to become
+         Middle Oligarch.
+
+5/4   High Oligarch Wes selects harvel to become Middle Oligarch, and
+         initiates an Auction to the now-vacant Low Oligarch seat.
+
+[old]
+4/14  Blob is elected Justiciar and Notary.
+
+4/16  Crito is elected Accountor.
+
+       Taral is elected Promotor.
+
+       Referenda to Impeach Peekee as Accountor and Promotor both fail.
+
+
+OTHER
+-----
+
+4/27  Notary Blob distributes Oerjan's remaining Currency, in accordance
+         with Probate.  E does not remove Oerjan from Probate, because the
+         only Rule permitting it uses the now-undefined term "Trustee".
+
+4/28  Wes wins the Anthony Zombie with a Bid of 6.9 Indulgences.
+
+4/30  Promotor Taral changes the Batch Size to 2.
+
+5/1   Kelly registers.
+
+       An Auction for 14 Indulgences begins.
+
+       harvel makes emself eligible to Judge CFJs.
+
+5/2   Peekee comes Off Hold.
+
+       Treasuror lee (with Support from Taral and harvel) amends the
+         Budget by changing the Distributor's Gratuity to 0.3 and the
+         New Player's Award to 2.7.
+
+       Promotor Taral announces eir intent to mint some P-Notes.  lee
+         gives eir Support.
+
+       Payroll Clerk lee announces eir intent to tax 50% of all Stems,
+         exempting 200 Stems per Player, on 5/9.
+
+5/3   Novalis Abandons the game.  An Auction for the Novalis Zombie
+         begins.
+
+       Distributor Steve announces that www.escribe.com is now archiving
+         the Agora mailing lists.
+
+[old]
+4/6   Blob becomes High Priest of the Order of the Evil Eye.
+
+4/14  else...if registers.
+
+4/15  The Agoran Carnival destroys the Currency Denaria.  (Denaria has
+         recently been redefined as a non-Currency.)
+
+       Anthony has been Active and Quiet for over two weeks.  Registrar
+         Michael makes em a Zombie, and initiates an Auction with a
+         Starting Bid of 3 Indulgences.
+
+       The Harlequin Zombie is auctioned to Elysion for 7.5 Indulgences.
+
+       Registrar Michael makes Steve the new Distributor.
+
+4/16  elJefe deregisters.
+
+4/17  Treasuror lee announces eir intent to decrease the Minimum Income
+         from 0.25 to 0.2 times the Basic Officer Salary.  Taral gives
+         Support, but lee does not make the change.
+
+       Treasuror lee announces eir intent to decrease the Basic Officer
+         Salary from 75 to 38 Stems, and double all figures (Officer
+         Salaries, Minimum Income, Speaker's Gratuity) expressed in
+         terms of the BOS.  Taral gives Support, and lee makes the change.
+       (The Minimum Income is changed to 0.5 times the BOS.  This is based
+         on its alleged previous value of 0.25 times the BOS, which may
+         not have been valid; see CFJ 1209.)
+
+       Treasuror lee announces eir intent to increase the Basic Officer
+         Salary from 38 to 40 Stems.  Taral and Steve give Support, and
+         lee makes the change.
+
+       Assessor t announces eir intent to change the Voting Mode on
+         Proposals to Public.  Taral and harvel give Support, and t
+         makes the change.
+
+       Promotor Taral changes Batch Size to 3.  E later attempts to
+         change it back to 2, but Rule 1839 (The Promotor Can Change
+         the Batch Size) prevents em from making a second change within
+         the same week.
+
+4/22  Palnatoke comes Off Hold, and makes emself ineligible to Judge or
+         otherwise oversee a CFJ until 5/1.
+
+
+TRADE OFFERS
+------------
+
+Ongoing offers:
+
+Player    Date  Will sell        In return for
+-----------------------------------------------------------------------
+Carnival  9/16  +0.01 VT         1 Denaria
+Carnival  9/16  10 Denaria       On a Player's birthday, sing "Happy
+                                    Birthday" to em in a key with at
+                                    least four sharps
+OotEE     9/13  1 Iris           1 VT; non-members subject to 9% Tariff
+Wes       4/5   1 Twig           Commenting on and changing a proto
+Wes       4/5   ad space         1 Twig per 30 days
+
+Recent one-time offers:
+
+Player    Date  Will sell        In return for
+-----------------------------------------------------------------------
+Kelly     5/4   Any Basic        Negotiable; e has 170 Stems, no ABC
+                   Currency
+Murphy    5/6   VTs, P-Notes     IATs; one-to-one basis
+Murphy    5/6   33 P-Notes       0.9 Indulgences; directed to t, if
+                                    Peekee turns down eir offer
+Peekee    5/5   VTs, P-Notes     IATs; 1.1 VTs/P-Notes per IAT
+Peekee    5/2   50 VTs or        1 Indulgence
+                   P-Notes
+t         5/2   0.9 Indulgences  33 P-Notes from Peekee; will not sell
+                                    at any price to an Immaculate Player
+Taral     5/4   P-Notes          VTs; directed to Kelly
+
+
+ERRATA
+------
+
+4/23  "Ratification fix" was rejected.  "Simplify Power" was adopted.  (harvel)
+
+
+--
+Ed Murphy <ford@jps.net>     http://rivendell.fortunecity.com/meridian/309/
+           "Most of the time, it seemed sublimely unaware of its limbs,
+            though it was beginning to suspect it had hands."

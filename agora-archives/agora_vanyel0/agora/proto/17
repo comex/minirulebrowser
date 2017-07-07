@@ -1,0 +1,792 @@
+From blahedo Fri Oct  7 12:38:15 1994
+Return-Path: <blahedo>
+Message-Id: <m0qtJFC-000mXIC@Shamino.quincy.edu>
+From: blahedo (Don Blaheta)
+Subject: Re: gray proposals
+To: nomic-discussion@teleport.com
+Date: Fri, 7 Oct 1994 12:38:10 -0500 (CDT)
+In-Reply-To: <9410070748.AA17342@LL.MIT.EDU> from "David Cogen" at Oct 7, 94 07:48:21 am
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 8bit
+Content-Length: 3780      
+Status: RO
+
+KoJen requests:
+> 
+> > Uh, KoJen, as Stella? pointed out with his original Black repeals,
+> > we have *never* had workable proposal limits in this Game.
+> 
+> Let's try again, then. I would prefer something with 
+> 
+> 1) limit on total number of props submitted and/or up for vote.
+> 
+> 2) individual proposal limit per player.
+> 
+> 3) Waiving the per-player limit if the total number over all players is low.
+
+All right, then:
+
+PROTO-Proposal DB17 (Vanyel)
+Proposal Limits
+(Amends a Rule)
+
+Amend [whatever the proposal rule is] to read:
+
+Each Player shall have a Proposal queue.  Any time a Player sends a
+Proposal to the Speaker, eir Proposal is added to eir queue.
+
+In any Nomic Week no more than 30 Proposals may be up for Vote.  If there
+are less than 30 Proposals in the Proposal queues of all Players, then all
+will be cleared from their queues and added to the for-Vote queue.  If more
+than 30 Proposals are sent to the Speaker, then e shall go through the
+following process to determine which are added to the for-Vote queue:
+     1)	E shall make a list of all Players in descending order by Honour.
+     2)	E shall go through the list and remove all Players without any
+	Proposals in eir queue.
+     3) E shall go through the list in order, taking the first Proposal
+	in the queue of each Player and adding it to the for-Vote queue
+	until the for-Vote queue is full (30 Proposals).
+     4) If the Speaker completes the list, having taken one Proposal from
+	each Player's Proposal queue, e shall return to Step 2 and repeat.
+After the Speaker has determined which Proposals would go in the for-Vote
+queue, e shall post the Proposals in the queue to the Public Forum and
+clear the for-Vote queue.
+
+The only way a Proposal may be prematurely removed from a Player's 
+Proposal Queue is if e, the Player, specifically requests such to the
+Speaker.  The Player may not replace a Proposal with another; if e
+removes it from the queue, all lower positions move up one to clear
+the hole.  Such a removal is irrevocable.
+
+In certain special cases, a Player may want a block of Proposals to 
+be certain of being proposed at the same time; this may be done by
+sending a message to the Speaker requesting to "Clump" certain Proposals.
+These Proposals *must* be adjacent in the Player's Proposal queue.
+In order to Clump Proposals, a Player must pay .5 Mark for 5 or less
+Proposals or 1 Mark for 10 or less.  No Clumps may be of more than
+10 Proposals.  If the Speaker has received more than 30 requests and
+is cycling through the Player's queues, and he comes across one proposal
+of a Clump, all Proposals in the Clump shall be moved to the for-Vote
+queue, unless there are more than (30-(Number of Proposals in Clump))
+Proposals already in the for-Vote queue, in which case *no* Proposals
+from the Clump shall be added to the for-Vote queue.
+***END PROTO
+
+proposal history:
+first proto 7 Oct 12:35 PM CDT
+
+This takes care of all the problems I've noticed with limits.  (Oh, btw,
+is 30 too steep?  I wasn't sure.)  Things to notice: All players should
+get at least one proposal in; the players that miss out are the least
+honourable ones (the honourable ones are more likely to propose beneficial
+reform).  Proposals remain in a Player's Proposal Queue, unless they
+request that they be removed.  "Clumps" enable packages to pass through
+legislation.
+
+Comments, questions?
+
+> -- -- KoJen
+
+Vanyel
+
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Don Blaheta       | GAT d?(--) H+ s-:- g-(+) p?>! !au a-- w+ v+ C++(+++) USL
+dblaheta@aol.com  | !3 E--- N++ K- W--- M++ !v -po+ Y+ t++>+++ 5- jx R(+) G+
+blahedo@quincy.edu| tv-- b+++ D--- B-- e(*)(+>+++) u++ h(*) f+ r-- n---- !y*
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+From teleport.com!nomic-discussion-owner Fri Oct  7 17:42:22 1994
+Return-Path: <nomic-discussion-owner@teleport.com>
+Received: (from daemon@localhost) by teleport.com (8.6.9/8.6.9) id PAA01708 for nomic-discussion-outgoing; Fri, 7 Oct 1994 15:39:24 -0700
+Received: from math.uwaterloo.ca (root@math.uwaterloo.ca [129.97.140.144]) by teleport.com (8.6.9/8.6.9) with SMTP id PAA01697 for <nomic-discussion@teleport.com>; Fri, 7 Oct 1994 15:39:15 -0700
+Received: by math.uwaterloo.ca id <78067-2>; Fri, 7 Oct 1994 18:39:00 -0400
+From: Dave Wagner <dgwagner@math.uwaterloo.ca>
+To: nomic-discussion@teleport.com
+Subject: Re:  Proto
+Message-Id: <94Oct7.183900edt.78067-2@math.uwaterloo.ca>
+Date: Fri, 7 Oct 1994 18:38:57 -0400
+Sender: owner-nomic-discussion@teleport.com
+Precedence: bulk
+Reply-To: nomic-discussion@teleport.com
+Status: RO
+
+! PROTO-Proposal DB17 (Vanyel)
+! Proposal Limits
+! (Amends a Rule)
+! 
+! Amend [whatever the proposal rule is] to read:
+! 
+! Each Player shall have a Proposal queue.  Any time a Player sends a
+! Proposal to the Speaker, eir Proposal is added to eir queue.
+! 
+! In any Nomic Week no more than 30 Proposals may be up for Vote.  If there
+! are less than 30 Proposals in the Proposal queues of all Players, then all
+! will be cleared from their queues and added to the for-Vote queue.  If more
+! than 30 Proposals are sent to the Speaker, then e shall go through the
+! following process to determine which are added to the for-Vote queue:
+
+Question... is this all happening at the beginning of each Nomic Week?
+If so, then we will get our 30 Proposals per week in "batch mode".  This
+is not necessarily a bad thing.  If not, then when does the Speaker do this.
+BTW, it seems like a lot of extra work to maintain seperate queues for 
+each Player.
+
+!   1)	E shall make a list of all Players in descending order by Honour.
+
+<grin!>
+
+!   2)	E shall go through the list and remove all Players without any
+! 	Proposals in eir queue.
+!   3)	E shall go through the list in order, taking the first Proposal
+! 	in the queue of each Player and adding it to the for-Vote queue
+!	until the for-Vote queue is full (30 Proposals).
+!   4)	If the Speaker completes the list, having taken one Proposal from
+!	each Player's Proposal queue, e shall return to Step 2 and repeat.
+! After the Speaker has determined which Proposals would go in the for-Vote
+! queue, e shall post the Proposals in the queue to the Public Forum and
+! clear the for-Vote queue.
+! 
+! The only way a Proposal may be prematurely removed from a Player's 
+! Proposal Queue is if e, the Player, specifically requests such to the
+! Speaker.  The Player may not replace a Proposal with another; if e
+! removes it from the queue, all lower positions move up one to clear
+! the hole.  Such a removal is irrevocable.
+! 
+! In certain special cases, a Player may want a block of Proposals to 
+! be certain of being proposed at the same time; this may be done by
+! sending a message to the Speaker requesting to "Clump" certain Proposals.
+! These Proposals *must* be adjacent in the Player's Proposal queue.
+! In order to Clump Proposals, a Player must pay .5 Mark for 5 or less
+! Proposals or 1 Mark for 10 or less.  No Clumps may be of more than
+! 10 Proposals.  If the Speaker has received more than 30 requests and
+! is cycling through the Player's queues, and he comes across one proposal
+! of a Clump, all Proposals in the Clump shall be moved to the for-Vote
+! queue, unless there are more than (30-(Number of Proposals in Clump))
+! Proposals already in the for-Vote queue, in which case *no* Proposals
+! from the Clump shall be added to the for-Vote queue.
+
+10 Proposals is a pretty big clump!
+
+Good idea, but I fear it might be too much additional work to maintain.
+
+Cheers!
+Waggie
+
+From teleport.com!nomic-discussion-owner Sat Oct  8 00:24:42 1994
+Return-Path: <nomic-discussion-owner@teleport.com>
+Received: (from daemon@localhost) by teleport.com (8.6.9/8.6.9) id WAA07801 for nomic-discussion-outgoing; Fri, 7 Oct 1994 22:27:16 -0700
+Received: from Shamino.quincy.edu (root@shamino.quincy.edu [192.217.45.2]) by teleport.com (8.6.9/8.6.9) with SMTP id WAA07786 for <nomic-discussion@teleport.com>; Fri, 7 Oct 1994 22:27:07 -0700
+Message-Id: <m0qtUDc-000mXRC@Shamino.quincy.edu>
+From: blahedo@quincy.edu (Don Blaheta)
+Subject: Re: Proto
+To: nomic-discussion@teleport.com
+Date: Sat, 8 Oct 1994 00:21:16 -0500 (CDT)
+In-Reply-To: <9410072339.17d0@poverty.bloomington.in.us> from "Kelly Martin" at Oct 7, 94 06:39:38 pm
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 8bit
+Content-Length: 738       
+Sender: owner-nomic-discussion@teleport.com
+Precedence: bulk
+Reply-To: nomic-discussion@teleport.com
+Status: RO
+
+Kelly notes:
+> 
+> "Dave" == Dave Wagner <dgwagner@math.uwaterloo.ca> writes:
+> 
+> Dave> 10 Proposals is a pretty big clump!
+> 
+> i have a pending clump which is either 31 or 32 Proposals.
+
+But which can probably be broken up into groups of 5-10.  I note that
+the rate is graduated, so that little Clumps cost less than major Clumps...
+ 
+> k.
+
+Vanyel
+
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Don Blaheta       | GAT d?(--) H+ s-:- g-(+) p?>! !au a-- w+ v+ C++(+++) USL
+blahedo@quincy.edu| !3 E--- N++ K- W--- M++ !v -po+ Y+ t++>+++ 5- jx R(+) G+
+dblaheta@aol.com  | tv-- b+++ D--- B-- e(*)(+>+++) u++ h(*) f+ r-- n---- !y*
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+From teleport.com!nomic-discussion-owner Sat Oct  8 00:34:38 1994
+Return-Path: <nomic-discussion-owner@teleport.com>
+Received: (from daemon@localhost) by teleport.com (8.6.9/8.6.9) id WAA08159 for nomic-discussion-outgoing; Fri, 7 Oct 1994 22:33:36 -0700
+Received: from Shamino.quincy.edu (root@shamino.quincy.edu [192.217.45.2]) by teleport.com (8.6.9/8.6.9) with SMTP id WAA08050 for <nomic-discussion@teleport.com>; Fri, 7 Oct 1994 22:33:12 -0700
+Message-Id: <m0qtUJV-000mXRC@Shamino.quincy.edu>
+From: blahedo@quincy.edu (Don Blaheta)
+Subject: Re: Proto
+To: nomic-discussion@teleport.com
+Date: Sat, 8 Oct 1994 00:27:21 -0500 (CDT)
+In-Reply-To: <94Oct7.183900edt.78067-2@math.uwaterloo.ca> from "Dave Wagner" at Oct 7, 94 06:38:57 pm
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 8bit
+Content-Length: 1525      
+Sender: owner-nomic-discussion@teleport.com
+Precedence: bulk
+Reply-To: nomic-discussion@teleport.com
+Status: RO
+
+Waggie comments:
+> 
+> [deletia]
+>
+> Question... is this all happening at the beginning of each Nomic Week?
+> If so, then we will get our 30 Proposals per week in "batch mode".  This
+> is not necessarily a bad thing.  If not, then when does the Speaker do this.
+> BTW, it seems like a lot of extra work to maintain seperate queues for 
+> each Player.
+
+Yes, at the beginning of a Nomic Week; I'll specify that in my next revision.
+As for "separate queues" that is merely to keep the legalese straight; if the
+Speaker wants he may merely maintain a chronological list of proposals, and
+by whom.  The "queue" may be purely mental.  It's just there to clear up
+the language later on.
+ 
+> !   1)	E shall make a list of all Players in descending order by Honour.
+> 
+> <grin!>
+
+It made sense to me.  I couldn't figure out any other reasonable criterion.
+
+> 10 Proposals is a pretty big clump!
+
+Not really.
+ 
+> Good idea, but I fear it might be too much additional work to maintain.
+
+Effectively, the bookkeeping could be the same as it is now.  The only 
+difference is the Speaker would need a handy list of Honour.
+ 
+> Cheers!
+> Waggie
+
+Vanyel
+
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Don Blaheta       | GAT d?(--) H+ s-:- g-(+) p?>! !au a-- w+ v+ C++(+++) USL
+blahedo@quincy.edu| !3 E--- N++ K- W--- M++ !v -po+ Y+ t++>+++ 5- jx R(+) G+
+dblaheta@aol.com  | tv-- b+++ D--- B-- e(*)(+>+++) u++ h(*) f+ r-- n---- !y*
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+From teleport.com!nomic-discussion-owner Sat Oct  8 01:25:53 1994
+Return-Path: <nomic-discussion-owner@teleport.com>
+Received: (from daemon@localhost) by teleport.com (8.6.9/8.6.9) id XAA11230 for nomic-discussion-outgoing; Fri, 7 Oct 1994 23:29:12 -0700
+Received: from Shamino.quincy.edu (root@shamino.quincy.edu [192.217.45.2]) by teleport.com (8.6.9/8.6.9) with SMTP id XAA11222 for <nomic-discussion@teleport.com>; Fri, 7 Oct 1994 23:29:02 -0700
+Message-Id: <m0qtVBV-000mXRC@Shamino.quincy.edu>
+From: blahedo@quincy.edu (Don Blaheta)
+Subject: Re: Proto
+To: nomic-discussion@teleport.com
+Date: Sat, 8 Oct 1994 01:23:08 -0500 (CDT)
+In-Reply-To: <9410080607.17fx@poverty.bloomington.in.us> from "Kelly Martin" at Oct 8, 94 01:07:21 am
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 8bit
+Content-Length: 1126      
+Sender: owner-nomic-discussion@teleport.com
+Precedence: bulk
+Reply-To: nomic-discussion@teleport.com
+Status: RO
+
+Kelly corrects:
+> 
+> Don> But which can probably be broken up into groups of 5-10.
+> 
+> not really.  remember that the Rules i am proposing to modify deal
+> with Proposals and Rule Changes.  if only some of the changes were
+> made, the Ruleset might find itself in an inconsistent state, such
+> that further play would be impossible.
+
+And that would end the Game.  Pity...
+ 
+> it turns out that there are, out of 31 proposals, 10 that can be
+> proposed independently of each other, one group of 11 that must go
+> together, and one group of 10 that must go together.  this may have
+> changed; i did this analysis some time ago and i've since made
+> significant revisions to the proposals.
+
+Would an upper limit of 15 be OK?
+ 
+> k.
+
+Vanyel
+
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Don Blaheta       | GAT d?(--) H+ s-:- g-(+) p?>! !au a-- w+ v+ C++(+++) USL
+blahedo@quincy.edu| !3 E--- N++ K- W--- M++ !v -po+ Y+ t++>+++ 5- jx R(+) G+
+dblaheta@aol.com  | tv-- b+++ D--- B-- e(*)(+>+++) u++ h(*) f+ r-- n---- !y*
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+From teleport.com!nomic-discussion-owner Sat Oct  8 10:45:16 1994
+Return-Path: <nomic-discussion-owner@teleport.com>
+Received: (from daemon@localhost) by teleport.com (8.6.9/8.6.9) id IAA03296 for nomic-discussion-outgoing; Sat, 8 Oct 1994 08:48:17 -0700
+Received: from k12.ucs.umass.edu (k12.ucs.umass.edu [128.119.175.2]) by teleport.com (8.6.9/8.6.9) with ESMTP id IAA03284 for <nomic-discussion@teleport.com>; Sat, 8 Oct 1994 08:48:09 -0700
+Received: (jhigham@localhost) by k12.ucs.umass.edu (8.6.8.1/8.6.4) id LAA04772; Sat, 8 Oct 1994 11:43:14 -0400
+Date: Sat, 8 Oct 1994 11:43:14 -0400
+Message-Id: <199410081543.LAA04772@k12.ucs.umass.edu>
+From: jhigham@k12.ucs.umass.edu (Joshua Higham (NMH96))
+To: nomic-discussion@teleport.com
+Subject: Re:  Proto
+Sender: owner-nomic-discussion@teleport.com
+Precedence: bulk
+Reply-To: nomic-discussion@teleport.com
+Status: RO
+
+
+
+>
+>! PROTO-Proposal DB17 (Vanyel)
+>! Proposal Limits
+>! (Amends a Rule)
+<deletia>
+>Question... is this all happening at the beginning of each Nomic Week?
+>If so, then we will get our 30 Proposals per week in "batch mode".  This
+>is not necessarily a bad thing.  If not, then when does the Speaker do this.
+>BTW, it seems like a lot of extra work to maintain seperate queues for 
+>each Player.
+
+Perhaps the Speaker should just ask each player in turn which proposal e
+would like to submit.
+
+I also think 10 proposals are a big clump, considering there are only 30
+proposals in all.  
+
+--
+Einstein				From Big Sky Country
+Ghast					The finest player in all of history.
+	Have fun and don't take life too seriously :)
+
+
+From teleport.com!nomic-discussion-owner Wed Oct 12 13:07:00 1994
+Return-Path: <nomic-discussion-owner@teleport.com>
+Received: (from daemon@localhost) by teleport.com (8.6.9/8.6.9) id LAA19294 for nomic-discussion-outgoing; Wed, 12 Oct 1994 11:09:34 -0700
+Received: from torii.triple-i.com (torii.triple-i.com [192.94.150.1]) by teleport.com (8.6.9/8.6.9) with SMTP id LAA19054 for <nomic-discussion@teleport.com>; Wed, 12 Oct 1994 11:09:01 -0700
+Received: from Camex.COM by torii.triple-i.com (4.1/SMI-4.1)
+	id AA23059; Wed, 12 Oct 94 11:08:40 PDT
+Received: from lloyd.noname by Camex.COM (4.1/SMI-4.2)
+	id AA19675; Wed, 12 Oct 94 14:08:46 EDT
+Date: Wed, 12 Oct 94 14:08:46 EDT
+From: jlc@Camex.COM (Jeff Caruso)
+Message-Id: <9410121808.AA19675@Camex.COM>
+To: nomic-discussion@teleport.com
+Subject: Proposal limits
+Sender: owner-nomic-discussion@teleport.com
+Precedence: bulk
+Reply-To: nomic-discussion@teleport.com
+Status: RO
+
+
+I like this, but I have a comment or two:
+
+> ...
+> In any Nomic Week no more than 30 Proposals may be up for Vote.
+
+Actually it works out conveniently to have as many proposals as there
+are registered players at the beginning of the week.  Otherwise if
+we ever grow to 60 players we could easily have half the players
+unable to propose.
+ 
+
+> In order to Clump Proposals, a Player must pay .5 Mark for 5 or less
+> Proposals or 1 Mark for 10 or less.  No Clumps may be of more than
+> 10 Proposals.
+
+Marks are too chaotic right now.  Let the payment be in points, and
+let it be a flat 3 points per proposal, up to a limit of 10; and 
+make that an actual payment--don't allow the clumping unless the
+player appears to have enough points.
+
+========================
+
+Actually, here's an interesting question:  as Scorekeepor, I sometimes
+get a request from the Speaker asking how many points a certain player
+has.  The response is used to decide whether to allow the player to 
+send points to the Vototron.
+
+Now what if some monstrous CFJ goes through, affecting all the scores
+retroactively in various ways?  Then it could happen that the information I 
+gave to the Speaker is wrong, and a player gets to use the Vototron that 
+shouldn't have. This could easily affect the outcome of a vote.
+
+For certain decisions (like: Vototron, or the clumping payment),
+could we maybe allow the Speaker to rely on best evidence (such as
+the most recent undisputed Scorekeepor's report), and not have his 
+decision changed even if the report was not quite correct?
+
+Anyway, I do like Vanyel's idea.
+
+Regards,
+- elJefe
+
+******************************************************************
+  Dr. Jeffrey L. Caruso <jlc@triple-i.com>
+  Information International
+
+From blahedo Fri Oct 14 17:40:57 1994
+Return-Path: <blahedo>
+Message-Id: <m0qvvIx-000mXOC@Shamino.quincy.edu>
+From: blahedo (Don Blaheta)
+Subject: Re: Proposal limits
+To: nomic-discussion@teleport.com (Agora Nomic)
+Date: Fri, 14 Oct 1994 17:40:51 -0500 (CDT)
+In-Reply-To: <m0qtJFC-000mXIC@Shamino.quincy.edu> from "Don Blaheta" at Oct 7, 94 12:38:10 pm
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 8bit
+Content-Length: 4305      
+Status: RO
+
+
+PROTO-Proposal DB17 (Vanyel)
+Proposal Limits
+(Amends a Rule)
+
+Amend [whatever the proposal rule is] to read:
+
+Each Player shall have a Proposal queue.  Any time a Player sends a
+Proposal to the Speaker, eir Proposal is added to eir queue.  The
+maximum number of Proposals up for Vote at any time may not be 
+more than the number of Active Players at the beginning of the
+current Nomic Week.  Proposals are to be put up for Vote exactly
+once a week, as soon as possible after the beginning of the Nomic
+Week.  This takes precedence over any Rule which states otherwise.
+
+If, when Proposals are being put up for vote, there are less than 
+the maximum number of Proposals, then all will be cleared from the
+Players' queues and added to the for-Vote queue.  If more than the
+maximum are sent to the Speaker, then e shall go through the following
+process to determine which Proposals are to be added to the for-Vote
+queue:
+     1)	E shall make a list of all Players in descending order by Honour.
+     2)	E shall go through the list and remove all Players without any
+	Proposals in eir queue.
+     3) E shall go through the list in order, taking the first Proposal
+	in the queue of each Player and adding it to the for-Vote queue
+	until the for-Vote queue is full.
+     4) If the Speaker completes the list, having taken one Proposal from
+	each Player's Proposal queue, e shall return to Step 2 and repeat.
+After the Speaker has determined which Proposals would go in the for-Vote
+queue, e shall post the Proposals in the queue to the Public Forum and
+clear the for-Vote queue.
+
+The only way a Proposal may be prematurely removed from a Player's 
+Proposal Queue is if e, the Player, specifically requests such to the
+Speaker.  The Player may not replace a Proposal with another; if e
+removes it from the queue, all lower positions move up one to clear
+the hole.  Such a removal is irrevocable.
+
+The Player may also request that a Proposal authored by eim
+be removed from the Vote in the Public Forum; the Speaker shall post
+a message to the Public Forum stating that said Proposal has been
+removed from the Vote.  The Proposal is then discarded.  
+
+[This allows people to replace Proposals already for Vote.  It does not,
+however, confusingly renumber anything, or allow them to change the 
+Proposal after it has been partially Voted on.  They may remove their
+Proposal from the Vote, but must resubmit their revision at the end
+of the queue.]
+
+In certain special cases, a Player may want a block of Proposals to 
+be certain of being proposed at the same time; this may be done by
+sending a message to the Speaker requesting to "Clump" certain Proposals.
+These Proposals *must* be adjacent in the Player's Proposal queue.
+In order to Clump Proposals, a Player must pay 1 Pt. per Proposal for
+less than 5 Proposals, 2 Pts. per Proposal for 5-10 Proposals, or
+3 Pts. per Proposal for >10 Proposals.  No Clumps may be of more than
+15 Proposals.  If the Speaker has received more than 30 requests and
+is cycling through the Player's queues, and he comes across one proposal
+of a Clump, all Proposals in the Clump shall be moved to the for-Vote
+queue, unless that would put more than the maximum number of Proposals
+in the queue, in which case *no* Proposals from the Clump shall be
+added to the for-Vote queue.
+***END PROTO
+
+proposal history:
+first proto 7 Oct 12:35 PM CDT
+second proto 14 Oct 5:43 PM CDT
+
+This should take care of all the limit problems.  Things to notice:
+each player will have a chance at at *least* one Proposal, the people
+who propose less are only shafted by *one*, the people who propose
+most are the most honourable, Proposals cannot be removed by anyone
+except the Player who proposed them, and that Player can remove them
+at any time, "Clump"ing is tightly defined, the implementation of
+"queues" is entirely up to the Speaker (i.e. could be entirely a mental
+thing).
+
+Comments, questions?
+
+Vanyel
+
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Don Blaheta       | GAT d?(--) H+ s-:- g-(+) p?>! !au a-- w+ v+ C++(+++) USL
+dblaheta@aol.com  | !3 E--- N++ K- W--- M++ !v -po+ Y+ t++>+++ 5- jx R(+) G+
+blahedo@quincy.edu| tv-- b+++ D--- B-- e(*)(+>+++) u++ h(*) f+ r-- n---- !y*
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+From blahedo Fri Nov 11 10:50:52 1994
+Return-Path: <blahedo>
+Message-Id: <m0r5zBX-000QggC@Shamino.quincy.edu>
+From: blahedo (Don Blaheta)
+Subject: Re: Proposals Proposal Suite
+To: nomic-discussion@teleport.com (Agora Nomic)
+Date: Fri, 11 Nov 1994 10:50:47 -0600 (CST)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 8bit
+Content-Length: 5664      
+Status: RO
+
+Since Kelly seems to be finishing up her Reform, I think I'm about
+ready to post the proposal suite I've been working up.  I will note
+that it is designed to work on top of any type of voting/proposal
+system; it merely augments.  Anyway, here are proposals DB17-[1-5].
+
+Proto-PROPOSAL DB17-1 (Vanyel)
+Submission of Votes
+Amend Rule 1036 to read as follows:
+
+Each Player shall have a Proposal Queue.  Any time a Player sends
+a Proposal to the Speaker, eir Proposal is added to eir Queue.
+At the beginning of the Nomic Week, the maximum length of the
+for-Vote Proposal Queue is set to the current number of Active
+Players.  If at any time the total number of Proposals in all
+Proposal Queues is less than this maximum length, then all Proposals
+are cleared from the Player Queues and placed in the for-Vote Proposal
+Queue.  If there are more Proposals than this limit, Proposals will
+be placed in the for-Vote Queue only as determined elsewhere in the
+Rules.  As Soon As Possible after the Proposals are placed in the
+for-Vote Queue, the Speaker should assign each a Number and distribute
+them to all Players for Voting.
+
+All Proposals which are "put up for Vote" as specified elsewhere in
+the Rules are placed in the for-Vote Proposal Queue iff that would
+not fill the for-Vote Queue past its maximum; if it would, then those
+Proposals are placed in a Priority Queue which must be emptied into
+the for-Vote Queue before any other Proposals may be placed there.
+
+Proto-PROPOSAL DB17-2 (Vanyel)
+Determining Order of Votes
+
+If the total number of Proposals in existence exceeds the maximum
+number allowed in the for-Vote Proposal Queue, the Speaker shall go
+through the following process to determine which Proposals to put in
+the for-Vote Proposal Queue:
+     1)	E shall make a list of all Players in descending order by Honour.
+     2)	E shall go through the list and remove each Player without any
+	Proposals in eir Proposal Queue.
+     3) E shall go through the list in order, taking the first Proposal
+	in the queue of each Player and adding it to the for-Vote Queue
+	until the for-Vote Queue is full.
+     4) If the Speaker completes the list, having taken one Proposal from
+	each Player's Proposal queue, e shall return to Step 2 and repeat.
+Once e has filled the for-Vote Proposal Queue, e shall follow any steps
+specified elsewhere in the Rules which apply.
+
+This Rule defers to any Rule which specifies another method of determining
+which Votes to be put up for Vote.
+
+If [Proto DB17-1] does not pass, then this Rule immediately will repeal 
+itself.
+
+PROTO-Proposal DB17-3 (Vanyel)
+Proposal Retraction
+
+The only way a Proposal may be prematurely retracted by a Player 
+is if e, the Player, specifically requests such to the Speaker.
+The Player may not replace a Proposal with another; if e retracts
+it, e can only replace it by submitting another Proposal.  Any 
+retractions shall discard a Proposal irrevocably.
+
+The Player may also request that a Proposal authored by eim
+be removed from the Proposals up for Vote by stating such to the Public 
+Forum.  In such a case, any points which would be received as a direct
+result of that Proposal shall be distributed; then, that Proposal
+will be irrevocably retracted.  Any points which have been spent on
+Vototron contributions are returned, and any Votes cast for that
+Proposal shall be disregarded.
+
+PROTO-Proposal DB17-4 (Vanyel)
+Proposal Clumping
+
+A Player may decide to Clump a group of Proposals which were adjacently
+Proposed (i.e. with no other Proposals between or among them).  E must
+pay a fee for this; 1 point per Proposal for a Clump of less than 7
+Proposals, or 3 points per Proposal for Clumps of at least 7.  No
+Clumps may be of more than 15 Proposals.
+
+If for some reason not all Proposals in existence shall be Voted
+on, then if the Speaker selects any one Proposal of the Clump to
+be put up for Vote, all of the Proposals of the Clump are put up
+for Vote  If it is the case that this would put too many Proposals
+up for Vote, then none of the Proposals in the Clump are put up for
+Vote.
+
+Proposals in a Clump are voted on separately, and all point changes
+involving them are dealt with separately, however all of the
+Proposals in a Clump must Pass, or else none take effect.  In other
+words, if a single Proposal in a Clump Fails, then all shall Fail.
+This does not affect point changes such as F-A bonuses in any way.
+
+Proto-PROPOSAL DB17-5 (Vanyel)
+Repeal 1065
+
+Rule 1065 shall be Repealed.  [Proposal fees for >2 props.]
+***END PROTO SUITE
+
+proposal history:
+first proto 7 Oct 12:35 PM CDT
+second proto 14 Oct 5:43 PM CDT
+third proto (suite) 8 Nov 7:00 PM CST
+
+The previous versions of these protoes were all in a single proto;
+I separated them on the request of (I believe) Kelly.  I have modified
+a couple details to compensate for changes since mid-October, and I've
+made them as independent of each other as possible, so in the final
+Suite you needn't worry about voting for one and not another; this 
+should be alright.  The only Proto which depends on another is DB17-2;
+it requires DB17-1.  Let me stress, in the wake of CFJ 715, that the
+"Player Proposal Queues" and stuff doesn't *have* to be anything more
+than a mental construct in the mind of the Speaker...
+
+Comments, questions?
+
+Vanyel
+
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Don Blaheta       | GAT d?(--) H+ s-:- g-(+) p?>! !au a-- w+ v+ C++(+++) USL
+blahedo@quincy.edu| !3 E--- N++ K- W--- M++ !v -po+ Y+ t++>+++ 5- jx R(+) G+
+dblaheta@aol.com  | tv-- b+++ D--- B-- e(*)(+>+++) u++ h(*) f+ r-- n---- !y*
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+From teleport.com!nomic-discussion-owner Tue Nov 15 19:40:54 1994
+Return-Path: <nomic-discussion-owner@teleport.com>
+Received: (from daemon@localhost) by desiree.teleport.com (8.6.9/8.6.9) id QAA22892 for nomic-discussion-outgoing; Tue, 15 Nov 1994 16:39:00 -0800
+Received: from Shamino.quincy.edu (root@Shamino.quincy.edu [192.217.45.2]) by desiree.teleport.com (8.6.9/8.6.9) with SMTP id QAA22867 for <nomic-discussion@teleport.com>; Tue, 15 Nov 1994 16:38:54 -0800
+Message-Id: <m0r7ZIy-000QgiC@Shamino.quincy.edu>
+From: blahedo@quincy.edu (Don Blaheta)
+Subject: Fully revised Proposals Proposal Suite
+To: nomic-discussion@teleport.com (Agora Nomic)
+Date: Tue, 15 Nov 1994 19:37:00 -0600 (CST)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 8bit
+Content-Length: 4523      
+Sender: owner-nomic-discussion@teleport.com
+Precedence: bulk
+Reply-To: nomic-discussion@teleport.com
+Status: RO
+
+Significant Changes:  Everything.  In 17-1, I have eliminated all mentions
+of Queues (happy, Kelly? :), although technically what is described is a
+Queue.  The order of determination of whose proposals get distributed is
+first-come, first-serve.
+
+I have added the "Emergency Proposal"... it carries a rather stiff penalty
+(not being able to Propose for a Week), but if the cause is sufficient, it
+should be fine.  If it passes, the Proposer receives eir 10 point penalty
+back, and a 5 point bonus besides.
+
+Proposal Retraction is essentially the same as before (what does anyone
+think of that, anyway..?)
+
+Instead of Clumping I have introduced Linking... which is one-way, and
+can depend on other Players' Proposals, as well.  For two Proposals
+which a Player wants mutually Linked, the fee is 2 points; beyond that,
+it would be easier just to use multi-Part Proposals.  Linking is very
+versatile;  for a group of five proposals, one of which is independent
+and the other four of which are dependent on the first (but not each
+other), Linking is definitely the way to go.  Also, if your Proposal
+depends on another Proposal by Player Foo which was distributed three
+days ago, you can Link that way too.  Fee is merely 1 point.
+
+The Extra fee for more Proposals rule is still repealed in proto 17-5,
+and the Speaker is legislated to distribute once a week or every ten
+proposals... 
+
+Proto-PROPOSAL DB17-1 (Vanyel)
+Submission of Votes
+Amend Rule 1036 to read as follows:
+
+The maximum number of distributed Proposals shall be the number of
+Active Players at the beginning of the Nomic Week.  Proposals shall
+be sent to the Speaker.  When it is time (as specified elsewhere)
+for the Speaker to distribute Proposals, e shall distribute as many
+as possible without exceeding the Proposal limit, beginning with
+those Proposals submitted first.
+
+Any Proposal which, according to another Rule, is "put up for Vote",
+shall be distributed As Soon As Possible by the Speaker.  This may
+cause an excess of Proposals; this is disregarded in this case only.
+
+Proto-PROPOSAL DB17-2 (Vanyel)
+Emergency Proposal
+
+If a Player deems a Proposal important e may submit it as an Emergency
+Proposal.  In order to do this, e must pay a fee of 10 Points and must
+forego Proposing anything else (including another Emergency Proposal)
+for a full week.  If e submits a Proposal during this time it shall
+be considered improperly submitted, and shall not be Voted on.  An 
+Emergency Proposal shall be put up for Vote immediately.  If the
+Emergency Proposal passes, the Player shall receive 15 Points.  
+
+This Rule takes precedence over any Rule which would prevent 
+Emergency Proposals from being submitted, distributed, or Voted on.
+
+PROTO-Proposal DB17-3 (Vanyel)
+Proposal Retraction
+
+The only way a Proposal may be prematurely retracted by a Player 
+is if e, the Player, specifically requests such to the Speaker.
+The Player may not replace a Proposal with another; if e retracts
+it, e can only replace it by submitting another Proposal.  Any 
+retractions shall destroy a Proposal irrevocably.
+
+The Player may also request that a Proposal authored by em
+be removed from the Proposals up for Vote by stating such to the Public 
+Forum.  In such a case, any points which would be received as a direct
+result of that Proposal shall be distributed; then, that Proposal
+will be irrevocably retracted.  Any points which have been spent on
+Vototron contributions are returned, and any Votes cast for that
+Proposal shall be disregarded.
+
+PROTO-Proposal DB17-4 (Vanyel)
+Proposal Linking
+
+A Player may Link a Proposal made by em to any other.  This is
+accomplished by a message to the Speaker or to the Public Forum, and
+requires a fee of 1 Point.  If the Proposal which was Linked to does
+not pass, then the Proposal which was Linked does not take effect.
+This does not affect F-A bonuses.
+
+This Rule takes precedence over Rule 955.
+
+Proto-PROPOSAL DB17-5 (Vanyel)
+Repeal 1065
+
+Rule 1065 shall be Repealed.
+
+Proto-PROPOSAL DB17-6 (Vanyel)
+Distribution of Proposals
+
+The Speaker shall distribute Proposals if and only if the following 
+conditions are met:
+	-There are more than 10 undistributed Proposals, or any undistributed
+	 Proposals older than six days old, and
+	-The limit on Proposals (if any) has not been met.
+***END PROTO SUITE
+
+proposal history:
+first proto 7 Oct 12:35 PM CDT
+second proto 14 Oct 5:43 PM CDT
+third proto (suite) 8 Nov 7:00 PM CST
+fourth proto (suite) 15 Nov 4:30 AM CST
+fifth proto (suite) 15 Nov 5:45 PM CST
+
+Comments, questions?
+

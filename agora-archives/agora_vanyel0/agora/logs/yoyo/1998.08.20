@@ -1,0 +1,161 @@
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 20 23:01 EDT 1998
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA24716 for <dpb@cs.brown.edu>; Thu, 20 Aug 1998 23:01:01 -0400 (EDT)
+Received: (from majordom@localhost)
+	by yoyo.cc.monash.edu.au (8.9.0/8.9.0) id MAA14743
+	for nomic-outgoing; Fri, 21 Aug 1998 12:54:40 +1000 (EST)
+Received: from silas-1.cc.monash.edu.au (gardner@silas-1.cc.monash.edu.au [130.194.1.91])
+	by yoyo.cc.monash.edu.au (8.9.0/8.9.0) with ESMTP id MAA15530
+	for <nomic@yoyo.cc.monash.edu.au>; Fri, 21 Aug 1998 12:54:14 +1000 (EST)
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id MAA26492
+	for nomic@yoyo.cc.monash.edu.au; Fri, 21 Aug 1998 12:54:00 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199808210254.MAA26492@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: R1686, R1585 & R1023
+To: nomic@yoyo.cc.monash.edu.au (Backup Nomic Mailing List)
+Date: Fri, 21 Aug 1998 12:54:00 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3882
+
+
+[Distributor's note: I've just tried twice to send this agora-discussion, 
+and both times it has bounced straight back to me, complaining that
+gecko is an unknown host. Perhaps it's just a problem with my local
+domain name server, or perhaps the promised service interruption is
+starting earlier than expected. At any rate, I'm sending this to the
+backup list at yoyo. If anyone else is having the same trouble, could
+they please confirm it to the backup lists? -- Distributor Steve]
+
+Michael Norrish wrote:
+> 
+>I disagree that precedence and deference are converse relations,
+>logical mirrors of each other, as you put it.  To defer to something is
+>to make no claims affecting others, it is merely to affect one's own
+>behaviour, over which one presumably has control.  To claim precedence
+>requires others to defer, but is not something that can be done with an
+>automatic guarantee of success.
+
+On your view, then, the existence of a deference clause removes the
+possibility of a conflict. But then how do you make sense of R1030? That
+Rule states that:
+
+      If at least one of the Rules in conflict explicitly says of itself
+      that it defers to another Rule (or type of Rule) or takes
+      precedence over another Rule (or type of Rule), then such
+      provisions shall supercede the numerical method for determining
+      precedence.
+
+In other words, the Rules assume that deference clauses step in to
+resolve conflicts that already exist, not that they prevent conflict
+from arising in the first place. 
+
+Also note the mirror image treatment of precedence and deference claims
+in R1030, supporting my claim that the Mirror Image Assumption is true.
+
+>Thus R1023 is surely allowed to state as part of its text (and this is
+>a paraphrase of what I believe it says):
+>
+>"If another rule states that something is to be done before a week has
+> passed, then that rule's determination of the time limit is correct."
+
+>Reading this sentence, we want to determine how long the hapless
+>Officer has to report.  R1023 says that they have a week, but (and
+>this is still the Power=2 text of R1023 remember) that if another rule
+>says otherwise, then R1023 agrees with that rule.    It seems to me
+>that the whole transaction is taking place at Power=2.  
+>
+>Aren't the effects of rule texts allowed to be conditional on the
+>contents of other rules? 
+>
+>Would you agree that if the relevant sentence ("Other Rules may impose
+>earlier latest times, and if so, this Rule defers to them.") of R1023
+>were replaced by my paraphrase, then the effect would be as I claimed
+>it? 
+>
+>If so, why do you think that the paraphrase is inaccurate? 
+
+It follows from my view that there is a difference between a Rule, Q,
+which says "X, unless Rule R says not-X." and one which says "X. This
+Rule defers to Rule R." In the first case, Q and R do not conflict,
+whereas in the second case, they do. I agree that Rules can be written
+so as to avoid conflict. Higher Powered Rules can even be written so as
+to avoid conflict with lower Powered Rules. But, perhaps regrettably, it
+turns out that this cannot be achieved by using deference clauses,
+because deference clauses assume the existence of a conflict (see
+R1030), and R1482 has its own ideas about how conflicts between Rules
+with unequal Power are resolved.
+
+>Our various conflict resolution mechanisms surely don't need to be
+>invoked in situations where the rules supposedly in conflict actually
+>agree with each other.
+
+The trouble is that the Rules assume that if a deference clause is being
+invoked, then a disagreement already exists.
+
+Anyway, a Judge will now get to decide whether the Mirror Image
+Assumption is true.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 20 23:49 EDT 1998
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA25549 for <dpb@cs.brown.edu>; Thu, 20 Aug 1998 23:49:55 -0400 (EDT)
+Received: (from majordom@localhost)
+	by yoyo.cc.monash.edu.au (8.9.0/8.9.0) id NAA12658
+	for nomic-outgoing; Fri, 21 Aug 1998 13:46:24 +1000 (EST)
+Received: from silas-1.cc.monash.edu.au (root@silas-1.cc.monash.edu.au [130.194.1.91])
+	by yoyo.cc.monash.edu.au (8.9.0/8.9.0) with ESMTP id NAA32125
+	for <nomic@yoyo.cc.monash.edu.au>; Fri, 21 Aug 1998 13:46:16 +1000 (EST)
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id NAA24995;
+	Fri, 21 Aug 1998 13:18:05 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199808210318.NAA24995@silas-1.cc.monash.edu.au>
+Subject: Re: problems with gecko
+To: nomic@yoyo.cc.monash.edu.au
+Date: Fri, 21 Aug 1998 13:18:05 +1000 (EST)
+Cc: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+In-Reply-To: <199808210254.MAA26492@silas-1.cc.monash.edu.au> from "Steve Gardner" at Aug 21, 98 12:54:00 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 926
+
+Steve Gardner wrote:
+>
+>
+>[Distributor's note: I've just tried twice to send this agora-discussion, 
+>and both times it has bounced straight back to me, complaining that
+>gecko is an unknown host. Perhaps it's just a problem with my local
+>domain name server, or perhaps the promised service interruption is
+>starting earlier than expected. At any rate, I'm sending this to the
+>backup list at yoyo. If anyone else is having the same trouble, could
+>they please confirm it to the backup lists? -- Distributor Steve]
+
+It appears that the DNS name change has begun earlier than expected.
+There may be some difficulties while the name change propagates. My
+local name server appears to have picked up the change now.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+

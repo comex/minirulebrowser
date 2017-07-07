@@ -1,0 +1,192 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="en-US">
+<head>
+<title>Agora: Search the Rules</title>
+</head>
+
+<body bgcolor="#ffffff">
+
+<p align=center>
+<a href="/~ccarroll/agora/"><img src="/~ccarroll/agora/ah.gif" alt=" [Agora Home] " width=122 height=38 border=0></a>
+<a href="/~ccarroll/agora/rules/"><img src="/~ccarroll/agora/rh.gif" alt=" [Rules Home] " width=122 height=38 border=0></a>
+<a href="/~ccarroll/agora/rules/rulesets.html"><img src="/~ccarroll/agora/rs.gif" alt=" [Rulesets] " width=122 height=38 border=0></a>
+<a href="/~ccarroll/cgi-bin/agscr/allr.pl"><img src="/~ccarroll/agora/loar.gif" alt=" [List of All Rules] " width=122 height=38 border=0></a>
+<a href="/~ccarroll/agora/rules/cats.html"><img src="/~ccarroll/agora/crl.gif" alt=" [Categorized Rule Lists] " width=122 height=38 border=0></a>
+<a href="/~ccarroll/agora/rules/search.html"><img src="/~ccarroll/agora/str.gif" alt=" [Search the Rules] " width=122 height=38 border=0></a>
+<p>
+
+
+<h1 align=center>Search the Rules</h1>
+
+<p align=center><strong>
+The Rules were last updated on
+May 5, 2001
+<br>and include effects of Proposals through Proposal
+4146, and Proposal 4149.
+</strong>
+
+
+<P align=center>Please read the <a href="searchdoc.html">documentation</a>
+before using for the first time.
+<p>
+<hr>
+
+<form action="/~ccarroll/cgi-bin/agscr/search.pl" method="post">
+
+<p align=center>
+<table align=center><tr>
+<td>
+<input type=submit value="Search">
+</td><td>
+<input type=reset value="Clear">
+</td></tr></table>
+<p align=center>
+
+<table border=12 cellpadding=24 align=center><tr><td align=center>
+
+<table border=6 cellpadding=12><tr><td align=center>
+<input type=text name="term1" size=40>
+<p>
+
+<table align=center>
+<tr><td>Case-sensitive?</td>
+<td><input type=radio name=cs1 value=1>Yes</td>
+<td><input type=radio name=cs1 value="" checked>No</td>
+</tr>
+
+<tr><td>Perl regular expression?</td>
+<td><input type=radio name=re1 value=1>Yes</td>
+<td><input type=radio name=re1 value="" checked>No</td>
+</tr>
+
+<tr><td>Expand whitespace?</td>
+<td><input type=radio name=ws1 value=1 checked>Yes</td>
+<td><input type=radio name=ws1 value="">No</td>
+</tr>
+
+<tr><td>Whole word(s)?</td>
+<td><input type=radio name=ww1 value=1>Yes</td>
+<td><input type=radio name=ww1 value="" checked>No</td>
+</tr>
+
+<tr><td>Rule text only?</td>
+<td><input type=radio name=rt1 value=1 checked>Yes</td>
+<td><input type=radio name=rt1 value="">No</td>
+</tr>
+</table>
+
+</td></tr></table>
+
+<p>
+<select name=bool2>
+<option selected>AND
+<option>OR
+<option>AND NOT
+</select>
+<p>
+
+<table border=6 cellpadding=12><tr><td align=center>
+<input type=text name="term2" size=40>
+<p>
+
+<table align=center>
+<tr><td>Case-sensitive?</td>
+<td><input type=radio name=cs2 value=1>Yes</td>
+<td><input type=radio name=cs2 value="" checked>No</td>
+</tr>
+
+<tr><td>Perl regular expression?</td>
+<td><input type=radio name=re2 value=1>Yes</td>
+<td><input type=radio name=re2 value="" checked>No</td>
+</tr>
+
+<tr><td>Expand whitespace?</td>
+<td><input type=radio name=ws2 value=1 checked>Yes</td>
+<td><input type=radio name=ws2 value="">No</td>
+</tr>
+
+<tr><td>Whole word(s)?</td>
+<td><input type=radio name=ww2 value=1>Yes</td>
+<td><input type=radio name=ww2 value="" checked>No</td>
+</tr>
+
+<tr><td>Rule text only?</td>
+<td><input type=radio name=rt2 value=1 checked>Yes</td>
+<td><input type=radio name=rt2 value="">No</td>
+</tr>
+</table>
+
+</td></tr></table>
+
+<p>
+<select name=bool3>
+<option selected>AND
+<option>OR
+<option>AND NOT
+</select>
+<p>
+
+<table border=6 cellpadding=12><tr><td align=center>
+<input type=text name="term3" size=40>
+<p>
+
+<table align=center>
+<tr><td>Case-sensitive?</td>
+<td><input type=radio name=cs3 value=1>Yes</td>
+<td><input type=radio name=cs3 value="" checked>No</td>
+</tr>
+
+<tr><td>Perl regular expression?</td>
+<td><input type=radio name=re3 value=1>Yes</td>
+<td><input type=radio name=re3 value="" checked>No</td>
+</tr>
+
+<tr><td>Expand whitespace?</td>
+<td><input type=radio name=ws3 value=1 checked>Yes</td>
+<td><input type=radio name=ws3 value="">No</td>
+</tr>
+
+<tr><td>Whole word(s)?</td>
+<td><input type=radio name=ww3 value=1>Yes</td>
+<td><input type=radio name=ww3 value="" checked>No</td>
+</tr>
+
+<tr><td>Rule text only?</td>
+<td><input type=radio name=rt3 value=1 checked>Yes</td>
+<td><input type=radio name=rt3 value="">No</td>
+</tr>
+</table>
+
+
+</td></tr></table>
+
+</td></tr></table>
+
+<p align=center>
+<table align=center><tr>
+<td>
+<input type=submit value="Search">
+</td><td>
+<input type=reset value="Clear">
+</td></tr></table>
+<p>
+
+</form>
+
+<p>
+<hr>
+<p>
+Hits since April 13, 1998:
+5278
+<br>
+Most recent modification:
+Wednesday, 05-Apr-2000 23:45:42 CDT
+<br>
+
+<a href="http://www.dfw.net/~ccarroll/">Charles E. Carroll</a> 
+<a href="mailto:YEXSTIUDQAOG@spammotel.com">YEXSTIUDQAOG@spammotel.com</a>
+<br>See <a href="http://www.spammotel.com/">http://www.spammotel.com/</a>
+for information about the above address.
+
+</body>
+</html>

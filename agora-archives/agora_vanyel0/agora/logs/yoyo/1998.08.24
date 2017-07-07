@@ -1,0 +1,148 @@
+From owner-nomic@yoyo.cc.monash.edu.au Mon Aug 24 03:53 EDT 1998
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA09802 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 03:53:27 -0400 (EDT)
+Received: (from majordom@localhost)
+	by yoyo.cc.monash.edu.au (8.9.0/8.9.0) id RAA13654
+	for nomic-outgoing; Mon, 24 Aug 1998 17:41:35 +1000 (EST)
+Received: from silas-1.cc.monash.edu.au (gardner@silas-1.cc.monash.edu.au [130.194.1.91])
+	by yoyo.cc.monash.edu.au (8.9.0/8.9.0) with ESMTP id RAA08179
+	for <nomic@yoyo.cc.monash.edu.au>; Mon, 24 Aug 1998 17:41:29 +1000 (EST)
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id RAA21067
+	for nomic@yoyo.cc.monash.edu.au; Mon, 24 Aug 1998 17:41:28 +1000 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199808240741.RAA21067@silas-1.cc.monash.edu.au>
+Subject: Re: Steve wrote:
+To: nomic@yoyo.cc.monash.edu.au
+Date: Mon, 24 Aug 1998 17:41:27 +1000 (EST)
+In-Reply-To: <s5dd4b1a.038@rmv.state.ma.us> from "David Albertz" at Aug 21, 98 10:24:41 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2016
+
+David Albertz wrote:
+>
+>Steve wrote:
+>
+>>And my argument is that R1030 forces us to assume that a conflict
+>>exists, before a deference clause can be invoked to resolve it.
+>
+>I don't follow this argument.  R1030 specifies that deference clauses can be
+>used to resolve conflicts, but I don't see how it prevents a deference clause
+>from being effective even when there is not a conflict.  R1030 says, in effect
+>and in part, "if there is a conflict, use a precedence or deference clause to
+>resolve it".  I don't think this necessarily prevents precedence or deference
+>clauses from being used in other circumstances.  IOW, in the absence of a R1030
+>conflict, a deference clause just has its natural meaning and intended effect.
+
+The argument is based on my view of precedence/deference claims as
+second order provisions in Rules, which are used to resolve conflicts
+between first order provisions. If there is no conflict between first
+order provisions, then there will be no need to invoke any second order
+provisions. On my view, second order provisions cannot be used to avoid
+conflict between first order provisions - that would be to treat the
+second order provisions as first order provisions themselves, which in
+my view is confused.
+
+According to my view, R1030 says: when Rules of equal Power contain
+first order provisions which are in conflict, and a consistent set of
+second order provisions for resolving the conflict, use the second order
+provisions. If the second order provisions are themselves in conflict,
+then use the procedures outlined herein to resolve the conflict.
+
+And R1482 says: when Rules of unequal Power contain first order
+provisions which are in conflict, then ignore any second order
+provisions those Rules may contain, and give precedence to the higher
+Powered Rule.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-nomic@yoyo.cc.monash.edu.au Mon Aug 24 09:43 EDT 1998
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA15850 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 09:43:12 -0400 (EDT)
+Received: (from majordom@localhost)
+	by yoyo.cc.monash.edu.au (8.9.0/8.9.0) id XAA09628
+	for nomic-outgoing; Mon, 24 Aug 1998 23:37:30 +1000 (EST)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by yoyo.cc.monash.edu.au (8.9.0/8.9.0) with SMTP id XAA27147
+	for <nomic@yoyo.cc.monash.edu.au>; Mon, 24 Aug 1998 23:37:23 +1000 (EST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 24 Aug 1998 09:40:23 -0400
+Message-Id: <s5e13507.034@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 24 Aug 1998 09:39:31 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: Steve wrote:
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain
+Content-Length: 2370
+
+Re: Steve wrote:
+
+Aha!  Now I understand your viewpoint.  Thanks for the clarification.  However,
+I see nothing in the Rules that grant a "primary" or "secondary" status to any
+provisions in a Rule.  Is this some kind of meta-game principle upon which you
+are drawing?
+
+-- Crito
+
+
+>>> Steve Gardner <gardner@silas.cc.monash.edu.au> 08/24/98 03:41am >>>
+David Albertz wrote:
+>
+>Steve wrote:
+>
+>>And my argument is that R1030 forces us to assume that a conflict
+>>exists, before a deference clause can be invoked to resolve it.
+>
+>I don't follow this argument.  R1030 specifies that deference clauses can be
+>used to resolve conflicts, but I don't see how it prevents a deference clause
+>from being effective even when there is not a conflict.  R1030 says, in effect
+>and in part, "if there is a conflict, use a precedence or deference clause to
+>resolve it".  I don't think this necessarily prevents precedence or deference
+>clauses from being used in other circumstances.  IOW, in the absence of a
+R1030
+>conflict, a deference clause just has its natural meaning and intended effect.
+
+The argument is based on my view of precedence/deference claims as
+second order provisions in Rules, which are used to resolve conflicts
+between first order provisions. If there is no conflict between first
+order provisions, then there will be no need to invoke any second order
+provisions. On my view, second order provisions cannot be used to avoid
+conflict between first order provisions - that would be to treat the
+second order provisions as first order provisions themselves, which in
+my view is confused.
+
+According to my view, R1030 says: when Rules of equal Power contain
+first order provisions which are in conflict, and a consistent set of
+second order provisions for resolving the conflict, use the second order
+provisions. If the second order provisions are themselves in conflict,
+then use the procedures outlined herein to resolve the conflict.
+
+And R1482 says: when Rules of unequal Power contain first order
+provisions which are in conflict, then ignore any second order
+provisions those Rules may contain, and give precedence to the higher
+Powered Rule.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+

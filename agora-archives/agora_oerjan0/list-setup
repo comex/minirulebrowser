@@ -1,0 +1,32 @@
+This is the setup I have been using for the Distributor List,
+using the elm mailer and filter.
+
+--- .forward ---
+"|/local/bin/filter -vo /tmp/filter.oerjan"
+--- end .forward ---
+
+--- .elm/aliases.text ---
+players = Players; Nomic = coren@teleport.com,bublsort@max.tiac.net,
+ sschoen@sophia.smith.edu,jnoble@bunyip.bhs.mq.edu.au,
+ lab@biostat.mc.duke.edu,gaps05@udcf.gla.ac.uk,
+ gardner@aurora.cc.monash.edu.au,malcolm@lsupoz.apana.org.au,
+ cabelljn@ctrvax.vanderbilt.edu,bethmo@microsoft.com,ccarroll@students.wisc.edu,
+ david.bowen@cray.com,dnicol@primus.cstp.umkc.edu,duanew@atlas.com,
+ roseg@ucs.orst.edu,jsd@iies.ecn.purdue.edu,cogen@ll.mit.edu,
+ michael.norrish@comp.vuw.ac.nz,cat@orion.mrc.unm.edu,
+ smithmierjr@uamont.edu,kunne@cernvm.cern.ch
+--- end .elm/aliases.text ---
+
+--- .elm/filter-rules ---
+if (from contains "nomic@yoyo.cc.monash.edu.au") then leave
+if (subject matches /^OFF:/) then executec "/usr/lib/sendmail `/local/bin/elmalias players`"
+--- end .elm/filter-rules ---
+
+All messages are left in my mailbox, and I then save official messages
+(both those through the filter and not) to the mail folder Mail/distrib .
+When messages are more than a week old I move them to Mail/prior ;
+I then save the weekly digests to folders
+Mail/digests/month.date1-date2 ,
+add the contents list to Mail/digests/Directory and compress the folder
+with standard Unix compress into Mail/digests/month.date1-date2.Z .
+A copy of the Mail/digests directory is put on the ftp server in /pub/nomic/digests .

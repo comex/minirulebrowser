@@ -1,0 +1,113 @@
+head	1.3;
+access;
+symbols
+	v1_1:1.2;
+locks; strict;
+comment	@# @;
+expand	@o@;
+
+
+1.3
+date	97.06.09.22.32.10;	author zefram;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	97.05.05.13.12.25;	author zefram;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	97.05.04.16.14.23;	author zefram;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@###
+
+Create a new Mutable rule entitled "Rishonomic prostrates itself at the
+feet of Agora" with text as follows:
+
+      Rishonomic recognises that Agora is the one true master of all
+      nomics.  Agora is the Overlord and Protector of Rishonomic by
+      Platonic right.
+
+      If the almighty Agora, in its infinite wisdom, should ever pass one
+      of its Proposals that expresses a desire to modify this nomic's
+      ruleset, then the modifications it wishes occur as soon as any
+      player receives a copy of the Proposal from an Agora Player.
+      When this happens, the Speaker shall humbly acknowledge the edict,
+      thanking Agora for paying any attention to its most unworthy
+      subject.
+
+      If this rule is ever Mutable, it immediately transmutes itself
+      to Immutable.  This rule cannot be repealed, amended, transmuted,
+      retitled, pushed, shoved, filed, stamped, indexed, briefed,
+      debriefed or numbered (or renumbered) by any means other than
+      those required by this rule.  This rule takes precedence over all
+      other rules.
+
+###
+
+-zefram
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d20 4
+a23 3
+      retitled, pushed, shoved, filed, stamped, briefed, debriefed or
+      numbered (or renumbered) by any means other than those required
+      by this rule.  This rule takes precedence over all other rules.
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@a0 15
+This is a proto for a proposal to get adopted in Rishonomic.  It follows
+the simplest and most general ideas expressed so far: establish a
+very-difficult-to-modify rule, which contains language describing how
+Risho is entirely subservient to Agora, and with a clause allowing Agora
+to change Risho's ruleset at will.  No legislation is required within
+Agora to match this.
+
+This should be submitted as a Speedy proposal, which will limit the voting
+period to 3 days.  It will require a 3/5 majority to pass; if there are
+seven real Risho players, plus their Gnome vote, we will need at least
+13 YES votes.  We should, however, consider the possibility that they
+might realise the extent of the conspiracy, and get friends to register
+and vote against the proposal.  If their Proposal 336 passes, we should
+take advantage of it.
+
+d7 2
+a8 2
+      nomics.  Agora is the overlord of Rishonomic by divine right.
+      Rishonomic is not worthy to wash Agora's boots with its tongue.
+d11 3
+a13 3
+      of its Proposals that expresses a desire to modify Rishonomic's
+      ruleset, then the modifications it wishes occur as soon as the
+      Speaker receives a copy of the Proposal from an Agora Player.
+d20 3
+a22 3
+      retitled, renumbered, pushed, shoved, filed, stamped or debriefed
+      by any means other than those required by this rule.  This rule
+      takes precedence over all other rules.
+@

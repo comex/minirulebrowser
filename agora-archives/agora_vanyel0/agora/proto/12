@@ -1,0 +1,148 @@
+From teleport.com!nomic-discussion-owner Tue Sep 27 03:51:44 1994
+Return-Path: <nomic-discussion-owner@teleport.com>
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.11]) by teleport.com (8.6.9/8.6.9) with ESMTP id BAA27844 for <nomic-discussion-outgoing>; Tue, 27 Sep 1994 01:44:07 -0700
+Received: from Shamino.quincy.edu (root@shamino.quincy.edu [192.217.45.2]) by teleport.com (8.6.9/8.6.9) with SMTP id BAA27691 for <nomic-discussion@teleport.com>; Tue, 27 Sep 1994 01:43:28 -0700
+Message-Id: <m0qpY7J-000mV0C@Shamino.quincy.edu>
+From: blahedo@quincy.edu (Don Blaheta)
+Subject: Re: Loans!
+To: nomic-discussion@teleport.com
+Date: Tue, 27 Sep 1994 03:42:28 -0500 (CDT)
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+Content-Length: 635       
+Sender: owner-nomic-discussion@teleport.com
+Precedence: bulk
+Reply-To: nomic-discussion@teleport.com
+Status: RO
+
+Proto-PROPOSAL DB12 (Vanyel)
+Loans
+(Creates a Rule)
+
+If a Player believes that e is in need of extra Marks, he may request a
+Loan from the Banker.  The granting of such a loan is at the Banker's
+discretion.  Any money received from such a loan must be paid to the
+Bank, plus .1 Mark for each day since the loan was first granted.  A loan
+is not considered to be paid off until all marks have been paid back,
+and all additional .1Mk have been paid.
+
+***END PROTO
+
+Revision history:
+first proto 27 Sep 1994 3:45 AM CDT
+
+Well, wha do you think?  It's kinda rough around the edges now, but we
+could prolly work it out fairly well.
+
+Vanyel
+
+From teleport.com!nomic-discussion-owner Tue Sep 27 10:12:17 1994
+Return-Path: <nomic-discussion-owner@teleport.com>
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.11]) by teleport.com (8.6.9/8.6.9) with ESMTP id IAA22286 for <nomic-discussion-outgoing>; Tue, 27 Sep 1994 08:08:29 -0700
+Received: from mizar.astro.indiana.edu (mizar.astro.indiana.edu [129.79.160.43]) by teleport.com (8.6.9/8.6.9) with SMTP id IAA22197 for <nomic-discussion@teleport.com>; Tue, 27 Sep 1994 08:08:03 -0700
+Received: from poverty by mizar.astro.indiana.edu with uucp
+	(Smail3.1.28.1 #7) id m0qpe8P-0001QaC; Tue, 27 Sep 94 10:08 EST
+Received: by poverty.bloomington.in.us (V1.17-beta/Amiga)
+	  id <13l9@poverty.bloomington.in.us>; Tue, 27 Sep 94 09:44:26 EST
+Date: Tue, 27 Sep 94 09:44:26 EST
+Message-Id: <9409271444.13l9@poverty.bloomington.in.us>
+In-reply-to: Don Blaheta's message of Tue, 27 Sep 1994 03:42:28 -0500 (CDT) <m0qpY7J-000mV0C@Shamino.quincy.edu>
+From: kelly@poverty.bloomington.in.us (Kelly Martin)
+To: nomic-discussion@teleport.com
+Cc: nomic-discussion@teleport.com
+Subject: Re: Loans!
+Sender: owner-nomic-discussion@teleport.com
+Precedence: bulk
+Reply-To: nomic-discussion@teleport.com
+Status: RO
+
+nah.  don't legislate the interest rate.  use free-market rules to
+select the interest rate.
+
+Timothy's Futures rules would work for loans: you would sell a Mark
+Future which would give you Marks now in exchange for a payment of
+(presumably) a large quantity of Marks later.  the effective interest
+rate would be determined by the price you could get for the Future.
+
+k.
+--
+kelly martin                                 <kelly@poverty.bloomington.in.us>
+GCS/M/O -d+(x) H+ s+:- g+? p? au-- !a w++ v+(*) C+(++) U P+++ L 3- E++ N++ K--
+        !W--- M-- V -po+(--) Y+ t+(++) !5 j R@ G? tv b++>+++$ !D B-- e+ u+ h----
+        f- r+++ n---- z++++*
+
+
+From blahedo Thu Oct  6 23:37:36 1994
+Return-Path: <blahedo>
+Message-Id: <m0qt73j-000mX7C@Shamino.quincy.edu>
+From: blahedo (Don Blaheta)
+Subject: Re: Loans!
+To: nomic-discussion@teleport.com (Agora Nomic)
+Date: Thu, 6 Oct 1994 23:37:30 -0500 (CDT)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 8bit
+Content-Length: 1533      
+Status: RO
+
+I cleaned up some language in this, and made the Interest Rate a 
+separate Entity, modifiable elsewhere.
+
+Proto-PROPOSAL DB12 (Vanyel)
+Loans
+(Creates a Rule)
+ 
+ If a Player believes that e is in need of extra Marks, he may request a
+ Loan from the Banker.  The granting of such a loan is at the Banker's
+ discretion.  Any money received from such a loan must be paid to the
+ Bank, plus the Interest Rate for each day since the loan was first 
+ granted.  A loan is not considered to be paid off until all marks have
+ been paid back, and all Interest has been paid.  Once a loan is paid off
+ the Loanee shall stop daily Interest Payments.
+
+ The Interest Rate shall be specified through NRC Proposal with Adoption
+ Factor of 1, or specified in another Rule.  Any specification in the 
+ Ruleset overrides any NRC to the contrary.  The Interest Rate may be 
+ specified relative to the amount borrowed, or an absolute amount, or
+ based on current economy.
+
+[***Again, Kelly, should it be "Adoption Factor" here or something else?]
+ 
+***END PROTO
+ 
+ Revision history:
+ first proto 27 Sep 1994 3:45 AM CDT
+ second proto 6 Oct 1994 11:35 PM CDT
+ 
+Vanyel
+
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Don Blaheta       | GAT d?(--) H+ s-:- g-(+) p?>! !au a-- w+ v+ C++(+++) USL
+dblaheta@aol.com  | !3 E--- N++ K- W--- M++ !v -po+ Y+ t++>+++ 5- jx R(+) G+
+blahedo@quincy.edu| tv-- b+++ D--- B-- e(*)(+>+++) u++ h(*) f+ r-- n---- !y*
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+From teleport.com!nomic-discussion-owner Fri Oct  7 07:08:08 1994
+Return-Path: <nomic-discussion-owner@teleport.com>
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.11]) by teleport.com (8.6.9/8.6.9) with ESMTP id FAA15318 for <nomic-discussion-outgoing>; Fri, 7 Oct 1994 05:10:59 -0700
+Received: from ll.mit.edu (LL.MIT.EDU [129.55.12.3]) by teleport.com (8.6.9/8.6.9) with SMTP id FAA15298 for <nomic-discussion@teleport.com>; Fri, 7 Oct 1994 05:10:50 -0700
+Received: by ll.mit.edu (4.1/LL-1.3) id AA27078; Fri, 7 Oct 94 08:08:10 EDT
+Date: Fri,  7 Oct 94 08:08:10 -0400
+From: cogen@ll.mit.edu (David Cogen)
+Message-Id: <9410070808.AA17683@LL.MIT.EDU>
+To: nomic-discussion@teleport.com
+In-Reply-To: <m0qt73j-000mX7C@Shamino.quincy.edu> (blahedo@quincy.edu)
+Subject: Re: Loans!
+Sender: owner-nomic-discussion@teleport.com
+Precedence: bulk
+Reply-To: nomic-discussion@teleport.com
+Status: RO
+
+> Proto-PROPOSAL DB12 (Vanyel)
+> Loans
+> (Creates a Rule)
+
+Unnecessary bureacracy. Let this be private enterprize.
+
+-- KoJen
+

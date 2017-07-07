@@ -1,0 +1,126 @@
+From owner-agora@win.tue.nl Thu Feb  5 10:54 EST 1998
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA29757 for <dpb@cs.brown.edu>; Thu, 5 Feb 1998 10:54:02 -0500 (EST)
+Received: from majordom@localhost by svin12.win.tue.nl (8.8.7)
+	  for agora-list
+	  id QAA21406. Thu, 5 Feb 1998 16:52:34 +0100 (MET)
+Received: from root@svin10 [131.155.70.127] by svin12.win.tue.nl (8.8.7)
+	  for <agora@svin12.win.tue.nl>
+	  id QAA21402 (ESMTP). Thu, 5 Feb 1998 16:52:31 +0100 (MET)
+Received: from dij91.tp3.ruhr-uni-bochum.de [134.147.160.152] by svin10.win.tue.nl (8.8.7)
+	  for <agora@win.tue.nl>
+	  id QAA25187 (SMTP). Thu, 5 Feb 1998 16:52:29 +0100 (MET)
+Received: by dij91.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA15162; Thu, 5 Feb 1998 16:52:23 +0100
+Date: Thu, 5 Feb 1998 16:52:23 +0100
+From: klaush@dij91.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25(3751))
+Message-Id: <9802051552.AA15162@dij91.tp3.ruhr-uni-bochum.de>
+To: agora@win.tue.nl
+Subject: My mailing problems
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text
+Content-Length: 872
+
+I still haven't completely figured out what the problem with our local
+mail configuration is, but Oerjans careful "research" helped a lot. 
+
+At the moment I think I don't receive mail addressed to me at the
+scarlet.tp3.etc address (under which I am subscribed to the gecko
+lists).
+
+So I would like to ask Steve to manually change my subscription to the
+gecko lists to the address
+
+klaush@tp3.ruhr-uni-bochum.de
+
+I sent requests to derigister with the old address and reregister with
+the new one to Majordomo@gecko, but haven't had any feedback yet.
+
+This may be due to the second problem: possibly I'm not receiving mail
+sent to the address that appears in my From: and ReplyTo: Headers. So
+if you want to send mail to me personally, please make sure it has the
+@tp3 address.
+
+Sorry for the mess - I understand it's part of our university's
+antispam endeavours.
+
+Kolja A.
+
+From owner-agora@win.tue.nl Thu Feb  5 11:16 EST 1998
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA00378 for <dpb@cs.brown.edu>; Thu, 5 Feb 1998 11:16:30 -0500 (EST)
+Received: from majordom@localhost by svin12.win.tue.nl (8.8.7)
+	  for agora-list
+	  id RAA21474. Thu, 5 Feb 1998 17:15:08 +0100 (MET)
+Received: from root@svtt01 [131.155.70.80] by svin12.win.tue.nl (8.8.7)
+	  for <agora@svin12.win.tue.nl>
+	  id RAA21470 (ESMTP). Thu, 5 Feb 1998 17:15:05 +0100 (MET)
+Received: from dij91.tp3.ruhr-uni-bochum.de [134.147.160.152] (may be forged) by svtt01.win.tue.nl (8.8.7)
+	  for <agora@win.tue.nl>
+	  id RAA25733 (SMTP). Thu, 5 Feb 1998 17:15:02 +0100 (MET)
+Received: by dij91.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA11868; Thu, 5 Feb 1998 17:14:58 +0100
+Date: Thu, 5 Feb 1998 17:14:58 +0100
+From: klaush@dij91.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25(3751))
+Message-Id: <9802051614.AA11868@dij91.tp3.ruhr-uni-bochum.de>
+To: agora@win.tue.nl
+In-Reply-To: <9802051552.AA15162@dij91.tp3.ruhr-uni-bochum.de> (klaush@dij91.tp3.ruhr-uni-bochum.de)
+Subject: Re: My mailing problems - solved (I think)
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text
+Content-Length: 294
+
+Hi all,
+
+Just after sending out this message I received a huge batch of Agora
+mail from the last few days. So it seems that Steve already
+reregistered me (thanks) and I am now getting mails as normal again. 
+
+Special thanks again to Oerjan for the detailed tests and info he gave
+me.
+
+Kolja A.
+
+From owner-agora@win.tue.nl Thu Feb  5 22:24 EST 1998
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA20392 for <dpb@cs.brown.edu>; Thu, 5 Feb 1998 22:24:21 -0500 (EST)
+Received: from majordom@localhost by svin12.win.tue.nl (8.8.7)
+	  for agora-list
+	  id EAA22549. Fri, 6 Feb 1998 04:23:32 +0100 (MET)
+Received: from root@svin03 [131.155.70.153] by svin12.win.tue.nl (8.8.7)
+	  for <agora@svin12.win.tue.nl>
+	  id EAA22545 (ESMTP). Fri, 6 Feb 1998 04:23:27 +0100 (MET)
+Received: from gardner@silas.cc.monash.edu.au [130.194.1.100] by svin03.win.tue.nl (8.8.7)
+	  for <agora@win.tue.nl>
+	  id EAA19882 (ESMTP). Fri, 6 Feb 1998 04:23:22 +0100 (MET)
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id OAA05087
+	for agora@win.tue.nl; Fri, 6 Feb 1998 14:20:46 +1100 (EST)
+From: Mr S L Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199802060320.OAA05087@silas.cc.monash.edu.au>
+Subject: Re: My mailing problems - solved (I think)
+To: agora@win.tue.nl
+Date: Fri, 6 Feb 1998 14:20:46 +1100 (EST)
+In-Reply-To: <9802051614.AA11868@dij91.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns NB6_25(3751)" at Feb 5, 98 05:14:58 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 300
+
+> 
+> Hi all,
+> 
+> Just after sending out this message I received a huge batch of Agora
+> mail from the last few days. So it seems that Steve already
+> reregistered me (thanks) and I am now getting mails as normal again. 
+
+Don't look at me; I didn't do nuttin'.
+
+Steve
+(.sig temporarily out of order)
+

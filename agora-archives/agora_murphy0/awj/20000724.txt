@@ -1,0 +1,257 @@
+From ford@jps.net Mon Jul 24 15:35:04 2000
+Date: Mon, 24 Jul 2000 00:59:27 -0700
+From: Ed Murphy <ford@jps.net>
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Agoran Weekly Journal
+
+      THE AGORAN WEEKLY JOURNAL
+      VOLUME 47, ISSUE 1
+      July 24, 2000
+
+
+ADOPTED PROPOSALS
+-----------------
+
+"Bring Back the Worm!" by Elysion - Proposal 4027 adopted 7/17
+   "Honorless Worm" is re-enacted, now as a Unique Patent Title
+     attaching to the Player (if any) with the least Kudos.
+
+[Curmudgeon's Review - summary:  "What a polite, civil idea.  And
+  shouldn't it be 'Honourless Worm', anyway?"]
+
+"Remove Leftover Baggage" by Elysion - Proposal 4030 adopted 7/18
+   Expected VTs are no longer part of the Accountor's Report.
+
+REJECTED PROPOSALS
+------------------
+
+"Power!" by t - Proposal 4029 rejected 7/18
+   All limits on Voting are implemented via Voting Power.  Oligarchs
+     have a more severely limited Voting Power on Democratic Proposals.
+
+[Curmudgeon's Review - summary:  One of the repeals is ambiguous and
+   thus would be without effect.  New Rule creation should specify their
+   Power, not AI.]
+
+"The Medici" by harvel - Proposal 4028 rejected 7/17
+   The Medici is a new Officer who tracks the identity of Officers and
+     Oligarchs.  E controls Elections, announces Speaker Transitions, and
+     detects Dereliction of Duty.
+
+[Curmudgeon's Review - summary:  What would happen if a Payroll Clerk
+   Election were in progress when this was adopted - would it remain in
+   the Speaker's hands, or immediately switch to the Medici?  Why can't
+   the Medici be declared to be held in perpetuity?]
+
+PENDING PROPOSALS
+-----------------
+
+"72 Hours for Holidays" by Oerjan
+   A Player has 72 (not 24) hours after a Holiday to do things that e
+     would otherwise have been required to do during the Holiday.
+
+"Clarify Rule 1596 (Debt)" by Oerjan
+   A making-payments-on-debt clause in Rule 1596 is moved from the end
+     to the beginning of its paragraph, clarifying that it applies to the
+     entire paragraph.
+
+"Dereliction Fix" by Oerjan
+   Dereliction of Duty, rather than occurring when an Officer fails to
+     report three weeks in a row, occurs when e is cited for Failure to
+     Report and then continues to fail to report through the week of the
+     citation.
+
+"Fix Rule 1747 (Pardoning Lawlessness)" by Oerjan
+   Correct two errors in Rule 1747:  the assumption that Lawless persons
+     are still Players, and a prohibition on recipients of Indulgence
+     transfers (which includes the Bank) rather than purposes.
+
+"Fix Rule 1853 (Levying Taxes)" by Oerjan
+   Amend Rule 1853 to explicitly allow tax exemptions.
+
+"General Budgets" by Oerjan
+   Budgets are converted into a general concept, of which the Treasuror's
+     Budget remains one instance.
+
+"One Less Rule" by Elysion
+   Move the definition of "Shogun" to Rule 1923 (Defined Unique
+     Patent Titles).
+
+"Upmutations" by Oerjan
+   Increase to Power=2 the Rules defining the Voting Period and the time
+     that Proposals take effect, so that an Ordinary Proposal cannot
+     arbitrarily delay the ability to adopt Democratic Proposals.
+
+PROTO-PROPOSALS
+---------------
+
+"Clean Up Elections" by Murphy
+   Referendum procedure is amended as follows:
+     * Identity of Vote Collector is fixed when Voting Period starts.
+     * Eligibility to Vote is fixed when Voting Period starts.
+     * One-week cutoff for challenges (previously applying only to the
+         Voting Period of Elections) is added.
+   Election procedure is amended as follows:
+     * Identity of Nomination Collector is fixed when Nominating Period starts.
+     * Eligibility to Nominate is fixed when Nominating Period starts.
+     * Ties are broken automatically if the Speaker Voted for one of the
+         tied candidates.
+
+"Fix Defined Patient Titles" by Peekee
+   Repeal two Rules that define most of the specific Patent Titles.
+
+"Forced-Ordinary/Democratic Proposals" by Peekee
+   A Forced-Ordinary Proposal must have AI=1, cannot be Forced-Democratic,
+     has Priority Cost +2, and is locked into being Ordinary.
+   A Forced-Democratic Proposal has Priority Cost +1, and is locked into
+     being Democratic.
+
+"New Succession" by Peekee
+   The Order of Succession for Speaker-Elect is as follows:
+     * Players who received more total Stems in the last paying-out of
+         periodic compensations appear first in the list.
+     * Ties are broken in favor of more recently registered Players.
+
+"Papyri" by t
+   Papyri are a Bank Currency, tracked by the Promotor, and paid to
+     get Proposals distributed.
+   A Proposal's Distribution Cost is 1; +1 if Urgent, +1 if Sane (each
+     Player may Vote at most once; no non-Player may Vote).
+   While Disinterested, a Proposal is always Distributable.
+   Interested Proposals start as Undistributable.  Any Player may pay
+     a Proposal's Distribution Cost in Slotten to make it Distributable,
+     or twice its Distribution Cost in Slotten to make it Undistributable.
+   The Current Batch contains all Distributable Proposals.
+   The Promotor chooses how many Papyri to Auction each month, but must
+     Auction at least one.  If there are at least three Winners other than
+     emself, then e may pay out to emself Stems equal to the Winning Bid.
+   New Players get one Papyrus, plus one Papyrus per Interested Proposal
+     adopted during eir Grace Period.
+   Each non-Zombie Player gets one Papyrus when this Proposal is adopted.
+
+"Points Adjustments" by Wes
+   Points are clarified as not being Property.
+   No Points for a Patent Title if one has already held that Title within
+     the past seven days.  No Points for a Degree if one has already held
+     that Degree in the past.
+   Five-Point penalty (at most once a month) for simultaneously having at
+     least one Blot and at least one Indulgence for at least seven days
+     continuously.
+
+"Respect for the dead" by Peekee
+   Wills are re-defined, and the Notary may carry them out as e sees fit
+     when handling Abandoned Property.
+
+"Secret, Unknown and Hidden Proposals" by Peekee
+   Secret Proposals have Priority Cost +1, and their Priority is secret
+     till Distribution.  (Billing for Priority changes is delayed till
+     the Proposal leaves the Queue.)
+   Unknown Proposals have Priority Cost +1, and their text may be kept
+     secret till Distribution.
+   Hidden Proposals have Priority Cost +1, and their existence in the
+     Proposal Queue is secret till Distribution.  (However, they must
+     still be Proposed publicly, unless also Secret; and have their
+     Priority increased publicly, unless also Unknown.)
+
+"Simple Shogun" by Peekee
+   Pretty much the same as Elysion's recent Proposal "One Less Rule".
+
+"The CotC's Budget" by Oerjan
+   The CotC's Budget determines the Class of all Crimes (0 to 15) and
+     Infractions (0 to 5, though Dereliction of Duty is allowed to have
+     a Crime-level penalty).
+   At most once every 30 days, with 2 Supporters, the CotC may amend the
+     Budget.  Crimes and Infractions that existed in the old Budget may
+     have their Class changed by at most 1.
+
+"Timing of Messages and Orders" by Murphy
+   Messages take effect when received (by first non-author recipient, if
+     multiple recipients; media of distribution are treated as equal to
+     individual recipients).
+   Requirements to send/etc. are satisfied by sending (even if receipt
+     fails) if author reasonably expected delivery within three days.
+
+"Wage Earners" by Wes
+   Salary pay-outs and the Treasuror's Budget cover all Offices, not just
+     "wage-earning" ones.  (A new Office might be created without having
+     a Salary, and thus might never be able to gain one, depending on how
+     the current Rules are interpreted.)
+
+
+CALLS FOR JUDGEMENT
+-------------------
+
+CFJ 1234  "Kudos are Property."
+           7/19  Called by Murphy
+           7/20  Assigned to Kelly
+
+CFJ 1235  "Peekee has not been awarded the Patent Title of Quack."
+           7/20  Called by Oerjan
+           7/20  Assigned to lee
+
+CFJ 1236  "Zombies are not rewarded Indulgences for being Immaculate all
+            Quarter."
+           7/21  Called by Peekee
+           Caller's argument (summary):  Zombies cannot read, and are thus
+             not covered by the "y'all" in Rule 1924.
+           Counterargument:  Zombies are people, and thus can (probably) read.
+
+
+OFFICES/OLIGARCHS
+-----------------
+
+At some point on or after 7/15 (I lost the message), Chuck properly
+initiated the Voting Period of the Payroll Clerk Election.  Nominees
+are lee and Kelly.
+
+
+OTHER
+-----
+
+7/17  Auction begins for one Voting Entitlement.
+
+7/20  t wins the VE Auction with a bid of 180 VTs.
+
+
+TRADE OFFERS
+------------
+
+Ongoing offers:
+
+Player    Date     Will sell           In return for
+-----------------------------------------------------------------------
+Blob      6/19/00  Vote on Ordinary    Highest bidder; minimum 10 of any
+                      Proposals           Basic Currency, or equivalent
+Elysion   7/23/00  Herald's Privilege  Negotiable
+Carnival  9/16/99  0.01 VT             1 Denaria
+Carnival  9/16/99  10 Denaria          On a Player's birthday, sing "Happy
+                                          Birthday" to em in a key with at
+                                          least four sharps
+OotEE     9/13/99  1 Iris              1 VT; non-members subject to 9% Tariff
+Wes       4/5/00   1 Twig              Commenting on and changing a proto
+Wes       4/5/00   ad space            1 Twig per 30 days
+
+Recent one-time offers:
+
+Player    Date  Will sell         In return for
+-----------------------------------------------------------------------
+Crito     7/6   Negotiable        IATs
+Kelly     7/1   1 VE              Negotiable
+Murphy    5/6   VTs, P-Notes      IATs; one-to-one basis
+Taral     7/1   P-Notes           VTs
+Wes       7/7   IATs              VTs (directed to Crito)
+
+
+ERRATA
+------
+
+Proposal "72 Hours" by t should have been listed under Adopted Proposals.
+
+Murphy was Elected Speaker-Elect on 7/15; Chuck's Vote had been omitted.
+
+
+--
+Ed Murphy <ford@jps.net>     http://rivendell.fortunecity.com/meridian/309/
+           "Most of the time, it seemed sublimely unaware of its limbs,
+            though it was beginning to suspect it had hands."

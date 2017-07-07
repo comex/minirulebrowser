@@ -1,0 +1,878 @@
+head	1.9;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+expand	@o@;
+
+
+1.9
+date	97.03.30.20.47.19;	author zefram;	state dead;
+branches;
+next	1.8;
+
+1.8
+date	97.02.13.18.44.05;	author zefram;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	97.02.12.09.12.06;	author zefram;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	97.02.10.22.36.06;	author zefram;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	97.02.10.22.34.19;	author zefram;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	97.02.10.14.54.12;	author zefram;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	97.02.09.22.34.59;	author zefram;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	97.02.09.18.18.17;	author zefram;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	97.02.08.23.13.27;	author zefram;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@This message is not intended to be a post to the Public Forum, and
+shall have no legal effect.
+
+                              Quantum Report
+			      ==============
+
+===========================================================================
+0. NEWS
+===========================================================================
+
+definitely-Promotor elJefe has published a pair of Proposals that
+together will change the game state to what it would be if 2662
+passed.
+
+Steve, having accepted the Registrarship, is now definitely Registrar,
+and has produced a definitely-legal Registrar's Report for us to VOC.
+
+===========================================================================
+1. PLAYERS
+===========================================================================
+
+Registrations of former Players are only maybe-successful at the moment
+-- Rule 1043 referred to Game ends rather than months until Proposal
+2697, on October 10th, and the passage of that Proposal is in question,
+so registrations might still depend on Game ends (about which we know
+precisely nothing).  Transitions On and Off Hold, and registrations of
+new Players (or former Players continuously deregistered since before
+the last Game end prior to September) are OK.
+
+Of the Players believed to be currently registered, it turns out that
+all are definitely registered currently, and no one else is
+registered.
+
+===========================================================================
+2. OFFICIAL POSITIONS
+===========================================================================
+
+I think there are five critical offices whose identity needs to be
+sorted out.  We have now collapsed the wave function sufficiently that
+these Offices are all now held by known Players:
+
+Office                  Holder
+------                  ------
+Assessor                Steve
+Clerk of the Courts     Michael
+Promotor                elJefe
+Registrar               Steve
+Rulekeepor              Chuck
+
+===========================================================================
+3. THE PROPOSALS
+===========================================================================
+
+definitely-Promotor elJefe has published a pair of Proposals that
+together will fix most of the game state.  Proposal 2818 (AI=1) is a
+VOC that will fix everything except the Ruleset, and Proposal 2819
+(AI=3.1) will fix only the Ruleset.  I urge all Players to vote FOR
+both of these Proposals.
+
+As currency holdings are indeterminate, it is essential that no EVs are
+cast on these Proposals, and that no one uses any Powers.  This
+restriction does not apply to the other Proposals up for vote, as their
+results are only of interest in the known game state.
+
+===========================================================================
+4. LATER STEPS
+===========================================================================
+
+definitely-Registrar Steve has produced a definitely-legal and
+up-to-date Registrar's Report for the 2662-passed gamestate.  This was
+posted to the Public Forum with the header "Date: Thu, 13 Feb 1997
+15:48:41 +1100 (EST)".  To properly fix Officer identities (my PF
+research turned up another irregularity, after the 2662 result),
+someone will have to Propose a VOC of that Report (it's probably most
+convenient for elJefe to do this).
+
+After that VOC, with Officer identities fixed, we can pass a round of
+regular VOCs on the Officers' next set of Reports.
+
+===========================================================================
+
+Your loyal wave function collapsor,
+
+-zefram
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d11 3
+a13 2
+See the Special Quantum Report: we can rule out most possible Office
+holdings.
+d15 2
+a16 7
+elJefe just resigned the Registrarship (which, by the way, he
+definitely held in the gamestate where 2662 passed), and accepted the
+Promotorship.  elJefe is now definitely Promotor.
+
+Steve is definitely Assessor, and (once e accepts it) will be
+definitely Registrar.  Chuck is definitely Rulekeepor, and Michael is
+definitely CotC.
+a17 2
+Please read the new section 3 in full.
+
+a33 32
+Player status is thus:
+
+(A) = registered and Active in the preferred game state
+(H) = registered and On Hold in the preferred game state
+(L) = deregistered in the preferred game state
+O = definitely registered
+X = definitely deregistered
+
+Player      Status  Last change  Comments
+------      ------  -----------  --------
+Andre       (A)  O  Dec 17 1996  was only On Hold
+Blob        (A)  O  Nov 12 1996  had been deregistered for long enough
+Chuck       (A)  O  Jan 03 1996  no recent change
+elJefe      (A)  O  Jan 25 1996  no recent change
+favor       (A)  O  Jan 03 1997  was only On Hold
+Harlequin   (A)  O  Jan 12 1997  new Player
+KoJen       (A)  O  May 08 1996  no recent change
+Macross     (A)  O  Feb 01 1997  new Player
+Michael     (A)  O  Nov 02 1994  no recent change
+Morendil    (H)  O  Jan 26 1996  no recent change
+Murphy      (A)  O  Aug 23 1996  no recent change
+Oerjan      (A)  O  Jan 09 1997  was only On Hold
+Steve       (A)  O  Jul 16 1996  no recent change
+Swann       (A)  O  Aug 05 1996  no recent change
+Vanyel      (A)  O  Aug 22 1996  no recent change
+Zefram      (A)  O  Jan 31 1996  no recent change
+Scott       (L)  X  Nov 08 1996  deregistered normally
+Coren       (L)  X  Dec 19 1996  Absent, even if not legally confirmed
+
+(ex-Players deregistered before the end of the Voting Period on
+Proposal 2662 are not listed.)
+
+d39 2
+a40 1
+sorted out.  These are:
+d42 2
+a43 2
+Office                  Intended holder
+------                  ---------------
+d50 29
+a78 67
+Assessor and Promotor are required for a working Proposal system.  CotC
+and Rulekeepor are included because they are likely to be needed more
+urgently than the other Offices.  Registrar is included because a
+known-correct Registrar can produce a known-legal Registrar's Report,
+which can be VOCed to fix the holders of all other Offices.
+
+Taking into account the Special Quantum Report, the state of this at
+the moment is:
+
+. = might hold the Office
+x = might hold the Office; resigned appropriately within the past week
+X = definitely does not hold the position
+O = is the intended holder
+
+Player      Assr  CotC  Prom  Regr  Rkpr
+------      ----  ----  ----  ----  ----
+Andre        X     X     X     X     X
+Blob         X     X     X     X     X
+Chuck        X     X     X     X     O
+elJefe       X     X     O     x     X
+favor        X     X     X     X     X
+Harlequin    X     X     X     X     X
+KoJen        X     X     X     X     X
+Macross      X     X     X     X     X
+Michael      X     O     X     X     X
+Morendil     X     X     X     X     X
+Murphy       X     X     X     X     X
+Oerjan       X     X     X     X     X
+Steve        O     X     X     O     X
+Swann        X     X     X     X     X
+Vanyel       X     X     X     X     X
+Zefram       X     X     X     X     X
+
+Note that for transfer of Office to be completely successful, the
+intended holder must consent within seven days of the appointment.
+
+===========================================================================
+3. THE PLAN
+===========================================================================
+
+Swann has publically submitted a Proposal to create a high-precedence
+Rule to conform the gamestate to what it would be if 2662 passed.
+[Could someone please send me a copy of the Proposal, for inclusion in
+future editions of this report?]
+
+To fix the gamestate, we need first to pass Swann's Proposal, and then
+to pass a regular VOC of a known-legal Registrar's Report.  Note that
+the last thing posted as a Registrar's Report was definitely *not*
+legal, or at least it wion't haven be after Swann's Proposal.  After
+that VOC, with Officer identities fixed, we can pass a round of regular
+VOCs on the Officers' next set of Reports.
+
+Therefore: first, Steve, please consent to be Registrar, and produce an
+up-to-date Report for the 2662-passed gamestate.  Then someone Propose
+a VOC of that Report (it's probably most convenient for elJefe to do
+this).  Then elJefe can distribute these two Proposals, as part of the
+next batch.
+
+It would be wise for all Votes on the relevant Proposals to be made in
+the Public Forum.  As currency holdings are unknown, it is essential
+that no EVs are cast on the Proposals, and that no one uses any
+Powers.
+
+When the Voting Period of the Proposal finishes, Steve can announce
+results that will be known correct.  Assuming the Proposals are
+adopted, this will ratify the Ruleset and Officer identities as we
+believed them to be, with a high degree of certainty.
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@a3 6
+Please excuse this use of the Public Forum; I just want to be certain
+this gets to all Players.  This report is an attempt to track what is
+known about the `true' gamestate (the one in which Proposal 2662
+failed), and codify the state of attempts to reach a fully known
+gamestate.
+
+a6 3
+Changes from the last report, in sections other than 0 and 4, are
+marked by | marks in the right margin.
+
+d11 10
+a20 1
+Progress continues towards the critical Offices being held correctly:
+d22 2
+a75 16
+Officer identities seem in most cases to be reasonably resilient to
+Schroedinger.  It seems to be impossible in the present case for anyone
+to hold an Office without being aware of having held either that
+Office, the Speakership or the Speaker-Electship at some point since
+September.  Beyond that, though, there's significant uncertainty.
+
+Proposal 2697, on October 10th, might possibly not have passed.  This
+Proposal removed dependence on Game ends; in particular, it change
+Speaker transitions from occurring at Game ends to every Quarter.  It
+is therefore possible that some Speaker transitions since then have not
+been legally effective.  Also, as Game ends are unknown, it is possible
+that some Speaker transitions before that were not legal.  I think we
+should treat all Players that we have believed to be Speaker since
+September as being possibly Speaker at all times from when they first
+appeared to become Speaker up to now.
+
+d91 1
+a91 12
+which can be VOCed to fix the holders of all other Offices.  (Note that
+the last report published as a Registrar's Report might not in fact be
+an Official Document, if Steve was not Registrar.  Of course, a
+roll-your-own MI=3.1 VOCish Rule will render it Official, making this
+point moot.)
+
+It seems that Officer identities are not *very* messed up, and I plan
+to do some research with Vanyel's logs that will narrow down the
+possibilities significantly.  Hoewever, being very paranoid, I think it
+is wise to continue with elJefe's plan.  Everyone other than the
+presumed holder of these Offices should resign them, appointing the
+presumed holder as successor.  The state of this at the moment is:
+d93 3
+d103 16
+a118 16
+Andre        .     .     .     .     .
+Blob         .     .     .     .     .
+Chuck        X     X     x     x     O
+elJefe       X     X     O     .     x
+favor        X     X     x     x     x
+Harlequin    x     X     x     x     x
+KoJen        .     .     .     .     .
+Macross      .     .     .     .     .
+Michael      x     O     x     x     x
+Morendil     .     .     .     .     .
+Murphy       x     X     x     x     x
+Oerjan       .     .     .     .     .
+Steve        O     x     x     O     x
+Swann        x     X     x     x     x
+Vanyel       X     X     x     X     x
+Zefram       X     X     x     x     x
+d121 1
+a121 23
+intended holder must consent within seven days of the appointment;
+Chuck, elJefe, Michael and Steve, please post consent to serve in your
+respective Offices when everyone else has resigned them.
+
+The first resignation attempts of Murphy and Swann were not entirely
+successful, due to references to the "most recent Registrar's Report"
+(which might not be what we think it is).  Vanyel's slightly different
+formulation works, but I recommend that people use the following:
+
+|If I am currently Assessor, I resign that Office, appointing Steve as
+|my successor.
+|
+|If I am currently Clerk of the Courts, I resign that Office, appointing
+|Michael as my successor.
+|
+|If I am currently Promotor, I resign that Office, appointing elJefe as
+|my successor.
+|
+|If I am currently Registrar, I resign that Office, appointing Steve as
+|my successor.
+|
+|If I am currently Rulekeepor, I resign that Office, appointing Chuck as
+|my successor.
+d130 1
+a130 18
+future editions of this report?]  Note that VOCs are very probably not
+sufficient for the task at hand.
+
+When elJefe is finally confirmed as being Promotor (and, please, not
+before, ASAP notwithstanding), e can distribute Swann's Proposal.  It
+would be wise for all Votes on this Proposal to be made in the Public
+Forum only, particularly if Steve has not been confirmed to be Assessor
+by that time.  As currency holdings are unknown, it is essential that
+no EVs are cast on the Proposal, and that no one uses any Powers.
+
+When Steve is confirmed as Assessor, and when the Voting Period of the
+Proposal finishes, e can announce a result that will be known correct.
+Assuming the Proposal is adopted, this will ratify the gamestate as we
+believed it to be, with a high degree of certainty.
+
+===========================================================================
+4. LOG OF RELEVANT MESSAGES
+===========================================================================
+d132 22
+a153 107
+Date: Fri, 7 Feb 97 12:34:42 EST
+Subject:   Re: Crisis Alert? (Was: Re: BUS: Re: OFF: (CotC) CFJ 894
+    judged TRUE)
+  favor appropriately resigns as Assessor, CotC, Rulekeepor and
+  Promotor.
+  > favor        x     x     x     .     x
+
+Date: Fri, 7 Feb 1997 20:03:52 +0000
+Subject: BUS: Collapsing the Wave Function
+  elJefe appropriately resigns as Assessor, CotC and Rulekeepor.
+  > elJefe       x     x     O     .     x
+
+Date: Fri, 7 Feb 1997 22:00:10 +0000 (GMT)
+Subject: Collapsing the wave function (was: Re: Crisis Alert? (Was: Re:
+    BUS: Re: OFF: (CotC) CFJ 894 judged TRUE))
+  Zefram appropriately resigns as Assessor, CotC, Promotor and
+  Rulekeepor.
+  > Zefram       x     x     x     .     x
+
+Date: Fri, 7 Feb 1997 18:57:37 -0600 (CST)
+Subject: Re: Crisis Alert? (Was: Re: BUS: Re: OFF: (CotC) CFJ 894
+    judged TRUE)
+  Chuck appropriately resigns as CotC, Promotor and Assessor.
+  > Chuck        x     x     x     .     O
+
+Date: Sat, 8 Feb 1997 00:55:14 -0600
+Subject: Re: Crisis Alert? (Was: Re: BUS: Re: OFF: (CotC) CFJ 894
+    judged TRUE)
+  Vanyel appropriately resigns all Offices except Archivist and
+  Scorekeepor.
+  > Vanyel       x     x     x     x     x
+
+Date: Fri, 07 Feb 1997 21:24:02 -0800
+Subject: Re: Crisis Alert? (Was: Re: BUS: Re: OFF: (CotC) CFJ 894
+    judged TRUE)
+  Murphy inappropriately resigns all Offices, except possibly
+  Scorekeepor.
+
+Date: Sat, 8 Feb 1997 04:47:32 -0500 (EST)
+Subject: BUS: Delegation
+  Swann inappropriately resigns some (unknown) Offices.
+  Swann consents to be Banker.
+
+Date: Sat, 8 Feb 1997 22:29:11 +1100 (EST)
+Subject: BUS: collapsing the game state
+  Steve consents to be Registrar and Assessor.
+  > Chuck        X     x     x     .     O
+  > elJefe       X     x     O     .     x
+  > favor        X     x     x     .     x
+  > Vanyel       X     x     x     X     x
+  > Zefram       X     x     x     .     x
+  Steve appropriately resigns as Promotor.
+  > Steve        O     .     x     O     .
+
+Date: Sat, 8 Feb 1997 12:11:59 -0500 (EST)
+Subject: Re: BUS: Collapsing the Wave Function
+  Harlequin appropriately resigns all critical Offices.
+  > Harlequin    x     x     x     x     x
+
+Date: Sat, 8 Feb 1997 15:46:28 -0500 (EST)
+Subject: Re: BUS: Delegation
+  Swann appropriately resigns all Offices except Banker and Herald.
+  > Swann        x     x     x     x     x
+
+Date: Sat, 8 Feb 1997 15:54:10 -0500 (EST)
+Subject: Re: BUS: Quantum Report
+  Swann (redundantly) appropriately resigns all critical Offices.
+  > Swann        x     x     x     x     x
+
+Date: Sat, 8 Feb 1997 21:18:45 +0000 (GMT)
+Subject: BUS: More delegation
+  Zefram appropriately resigns as Registrar.
+  > Zefram       X     x     x     x     x
+
+Date: Sat, 8 Feb 1997 18:59:48 -0600 (CST)
+Subject: Re: BUS: Quantum Report 2
+  Chuck appropriately resigns as Registrar.
+  > Chuck        X     x     x     x     O
+
+Date: Sat, 08 Feb 1997 22:26:08 -0800
+Subject: Re: Crisis Alert? (Was: Re: BUS: Re: OFF: (CotC) CFJ 894
+  Murphy appropriately resigns all critical Offices.
+  > Murphy       x     x     x     x     x
+
+Date: Mon, 10 Feb 1997 10:05:22 +0000
+Subject: BUS: wave collapse resignations 
+  Michael appropriately resigns all critical Offices except CotC.
+  > Michael      x     O     x     x     x
+  Michael consents to be CotC.
+  > Chuck        X     X     x     x     O
+  > elJefe       X     X     O     .     x
+  > favor        X     X     x     .     x
+  > Harlequin    x     X     x     x     x
+  > Murphy       x     X     x     x     x
+  > Swann        x     X     x     x     x
+  > Vanyel       X     X     x     X     x
+  > Zefram       X     X     x     x     x
+
+Date: Tue, 11 Feb 1997 01:32:12 +1100 (EST)
+Subject: BUS: more quantum delegations
+  Steve appropriately resigns as CotC, Promotor and Rulekeepor.
+  > Steve        O     x     x     O     x
+
+Date: Mon, 10 Feb 97 09:34:56 EST
+Subject:   Re: BUS: More delegation
+  favor appropriately resigns as Registrar.
+  > favor        X     X     x     x     x
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@a19 5
+It has emerged that Scott deregistered in the normal fashion, and so is
+definitely not a Player at the moment.  Also Coren is deregistered even
+if it wasn't legally confirmed, so e is definitely not a Player.  We
+now know that the entire Player list is correct, with certainty.
+
+a21 24
+Date: Mon, 10 Feb 1997 10:05:22 +0000
+Subject: BUS: wave collapse resignations 
+  Michael appropriately resigns all critical Offices except CotC.
+  > Michael      x     O     x     x     x
+  Michael consents to be CotC.
+  > Chuck        X     X     x     x     O
+  > elJefe       X     X     O     .     x
+  > favor        X     X     x     .     x
+  > Harlequin    x     X     x     x     x
+  > Murphy       x     X     x     x     x
+  > Swann        x     X     x     x     x
+  > Vanyel       X     X     x     X     x
+  > Zefram       X     X     x     x     x
+
+Date: Tue, 11 Feb 1997 01:32:12 +1100 (EST)
+Subject: BUS: more quantum delegations
+  Steve appropriately resigns as CotC, Promotor and Rulekeepor.
+  > Steve        O     x     x     O     x
+
+Date: Mon, 10 Feb 97 09:34:56 EST
+Subject:   Re: BUS: More delegation
+  favor appropriately resigns as Registrar.
+  > favor        X     X     x     x     x
+
+d35 2
+a36 2
+all are definitely registered currently, and no one else is               |
+registered.                                                               |
+d64 2
+a65 2
+Scott       (L)  X  Nov 08 1996  deregistered normally                    |
+Coren       (L)  X  Dec 19 1996  Absent, even if not legally confirmed    |
+d76 3
+a78 3
+to hold an Office without being aware of having held either that          |
+Office, the Speakership or the Speaker-Electship at some point since      |
+September.  Beyond that, though, there's significant uncertainty.         |
+d107 7
+a113 7
+an Official Document, if Steve was not Registrar.  Of course, a           |
+roll-your-own MI=3.1 VOCish Rule will render it Official, making this     |
+point moot.)                                                              |
+
+It seems that Officer identities are not *very* messed up, and I plan     |
+to do some research with Vanyel's logs that will narrow down the          |
+possibilities significantly.  Hoewever, being very paranoid, I think it   |
+d127 4
+a130 4
+Chuck        X     X     x     x     O                                    |
+elJefe       X     X     O     .     x                                    |
+favor        X     X     x     x     x                                    |
+Harlequin    x     X     x     x     x                                    |
+d133 1
+a133 1
+Michael      x     O     x     x     x                                    |
+d135 1
+a135 1
+Murphy       x     X     x     x     x                                    |
+d137 4
+a140 4
+Steve        O     x     x     O     x                                    |
+Swann        x     X     x     x     x                                    |
+Vanyel       X     X     x     X     x                                    |
+Zefram       X     X     x     x     x                                    |
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d10 6
+d64 2
+a65 2
+all are definitely registered currently, and no one else is
+registered.
+d93 2
+a94 2
+Scott       (L)  X  Nov 08 1996  deregistered normally
+Coren       (L)  X  Dec 19 1996  Absent, even if not legally confirmed
+d105 3
+a107 3
+to hold an Office without being aware of having held either that
+Office, the Speakership or the Speaker-Electship at some point since
+September.  Beyond that, though, there's significant uncertainty.
+d136 7
+a142 7
+an Official Document, if Steve was not Registrar.  Of course, a
+roll-your-own MI=3.1 VOCish Rule will render it Official, making this
+point moot.)
+
+It seems that Officer identities are not *very* messed up, and I plan
+to do some research with Vanyel's logs that will narrow down the
+possibilities significantly.  Hoewever, being very paranoid, I think it
+d156 4
+a159 4
+Chuck        X     X     x     x     O
+elJefe       X     X     O     .     x
+favor        X     X     x     x     x
+Harlequin    x     X     x     x     x
+d162 1
+a162 1
+Michael      x     O     x     x     x
+d164 1
+a164 1
+Murphy       x     X     x     x     x
+d166 4
+a169 4
+Steve        O     x     x     O     x
+Swann        x     X     x     x     x
+Vanyel       X     X     x     X     x
+Zefram       X     X     x     x     x
+d250 2
+a251 1
+  Vanyel appropriately resigns all Offices except Archivist and Scorekeepor.
+d257 2
+a258 1
+  Murphy inappropriately resigns all Offices, except possibly Scorekeepor.
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d14 5
+d21 24
+d58 2
+a59 12
+all are definitely registered currently.
+
+It is possible that some Players were alleged to be Absent, and the
+Absence confirmed by a maybe-Registrar.  Any such Players are currently
+only maybe-registered.  If Scott went Absent, this is an issue; does
+anyone recall exactly how e deregistered?  Coren went Absent while
+Registrar; if eir deregistrartion was confirmed by a maybe-Speaker,
+then e is only maybe-deregistered, and might still be Registrar.  As
+the current identity of the Speaker is questionable, it would be
+necessary for all Players that might be Speaker to confirm eir Absence
+and then resign the Registrarship (again).  See the next section about
+the Speaker.
+a66 1
+? = maybe registered
+d87 2
+a88 2
+Scott       (L)  ?  Nov 08 1996  I think e deregistered normally
+Coren       (L)  ?  Dec 19 1996  Absent while Registrar (AAAARRRGGGHH!!)
+d99 3
+a101 3
+to hold an Office without being aware of having held either that Office
+or the Speakership at some point since September.  Beyond that, though,
+there's significant uncertainty.
+d111 1
+a111 2
+appeared to become Speaker up to now.  [Can someone look up which
+Players these are?]
+a112 6
+Coren went Absent while e was Registrar.  Eir Absence had to be
+confirmed by the Speaker.  It is possible that the person we thought
+was Speaker was not.  I think it would be wise for all maybe-Speakers
+to confirm eir Absence now, and then (again) resign the Registrarship,
+which might have then been passed to them.
+
+d130 10
+a139 7
+an Official Document, if Steve was not Registrar.)
+
+It seems that Officer identities are not *very* messed up.  Hoewever,
+being very paranoid, I think it is wise to continue with elJefe's
+plan.  Everyone other than the presumed holder of these Offices should
+resign them, appointing the presumed holder as successor.  The state of
+this at the moment is:
+d141 2
+a142 2
+. = might hold the position
+x = might hold the position; resigned appropriately within the past week
+d150 4
+a153 4
+Chuck        X     x     x     x     O
+elJefe       X     x     O     .     x
+favor        X     x     x     .     x
+Harlequin    x     x     x     x     x
+d156 1
+a156 1
+Michael      .     O     .     .     .
+d158 1
+a158 1
+Murphy       x     x     x     x     x
+d160 4
+a163 6
+Steve        O     .     x     O     .
+Swann        x     x     x     x     x
+Vanyel       X     x     x     X     x
+Zefram       X     x     x     x     x
+Scott        .     .     .     .     .
+Coren        .     .     .     .     .
+d297 24
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d11 1
+a11 1
+0. NEWS (where's the ADJ when you need one?)
+a13 8
+elJefe's research confirms that favor is indeed registered as a
+Player.  The only remaining uncertainty in the Player list concerns
+whether Absent Players have really been deregistered correctly.  See
+the rewritten PLAYERS section for details.
+
+The identity of the Speaker and Registrar are severely questionable.
+See the OFFICIAL POSITIONS section for my recommendations.
+
+a15 10
+Date: Sat, 8 Feb 1997 18:59:48 -0600 (CST)
+Subject: Re: BUS: Quantum Report 2
+  Chuck appropriately resigns as Registrar.
+  > Chuck        X     x     x     x     O
+
+Date: Sat, 08 Feb 1997 22:26:08 -0800
+Subject: Re: Crisis Alert? (Was: Re: BUS: Re: OFF: (CotC) CFJ 894
+  Murphy appropriately resigns all critical Offices.
+  > Murphy       x     x     x     x     x
+
+d127 3
+a129 3
+x = resigned appropriately within the past week
+X = resigned appropriately and the Office was subsequently accepted
+. = might still hold the Office
+@
+
+
+1.1
+log
+@Quantum Report, for the Merry Crisis.
+@
+text
+@d11 1
+a11 1
+0. NEWS
+d14 4
+a17 1
+Progress continues towards the critical Offices being held correctly:
+d19 2
+a20 4
+Date: Sat, 8 Feb 1997 15:46:28 -0500 (EST)
+Subject: Re: BUS: Delegation
+  Swann appropriately resigns all Offices except Banker and Herald.
+  > Swann        x     x     x     x     x
+d22 1
+a22 4
+Date: Sat, 8 Feb 1997 15:54:10 -0500 (EST)
+Subject: Re: BUS: Quantum Report
+  Swann (redundantly) appropriately resigns all critical Offices.
+  > Swann        x     x     x     x     x
+d24 4
+a27 4
+Date: Sat, 8 Feb 1997 21:18:45 +0000 (GMT)
+Subject: BUS: More delegation
+  Zefram appropriately resigns as Registrar.
+  > Zefram       X     x     x     x     x
+d29 4
+a32 3
+elJefe has provided information confirming that Andre, Blob and Oerjan
+are definitely registered as Players.  Only favor's status is still
+uncertain.
+d38 7
+a44 6
+Fortunately the Rules regarding registration and deregistration have
+not changed radically since September.  However, anyone that
+deregistered since September and subsequently reregistered might not
+have legally reregistered, due to game end issues (Rule 1043 referred
+to Game ends rather than months until Proposal 2697, on October 11th).
+Player status is thus:
+d46 2
+a47 26
+Player      Last change  Status
+------      -----------  ------
+Andre       Dec 17 1996  OK (was only On Hold)
+Blob        Nov 12 1996  OK (had been deregistered for long enough)
+Chuck       Jan 03 1996  OK (no change)
+elJefe      Jan 25 1996  OK (no change)
+favor       Jan 03 1997  ???
+Harlequin   Jan 12 1997  OK (new Player)
+KoJen       May 08 1996  OK (no change)
+Macross     Feb 01 1997  OK (new Player)
+Michael     Nov 02 1994  OK (no change)
+Morendil    Jan 26 1996  OK (no change)
+Murphy      Aug 23 1996  OK (no change)
+Oerjan      Jan 09 1997  OK (was only On Hold)
+Steve       Jul 16 1996  OK (no change)
+Swann       Aug 05 1996  OK (no change)
+Vanyel      Aug 22 1996  OK (no change)
+Zefram      Jan 31 1996  OK (no change)
+
+elJefe has opined that favor probably only went On Hold.  Until someone
+is more certain, I'll still list him as unknown.
+
+Registrations of former Players are only maybe-successful at the
+moment.  Transitions On and Off Hold, and registrations of new Players
+(or former Players continuously deregistered since before the last Game
+end prior to September) are OK.
+d51 38
+a88 6
+only maybe-registered.  Archivist/Registrar/anyone, please check logs
+for such an occurrence.  Once the identity of the Registrar has been
+determined for certain, e can confirm Absences with certainty.  There
+is an exception: Coren went Absent while e was Registrar; however, it
+appears that the identity of the Speaker was known, so that Coren was
+indeed deregistered properly.
+d90 3
+d94 1
+a94 1
+2. OFFICERS
+d97 23
+d139 5
+a143 3
+The plan at this point, suggested by elJefe, is that everyone other
+than the presumed holder of these Offices resign them, appointing the
+presumed holder as successor.  The state of this at the moment is:
+d154 1
+a154 1
+Chuck        X     x     x     .     O
+d162 1
+a162 1
+Murphy       .     .     .     .     .
+d168 2
+a195 6
+Note: elJefe has argued fairly convincingly that the Offices are not
+really as messed up as I imply above.  In particular, it seems that the
+identity of the Registrar has been correctly known, and therefore all
+Elections have been valid.  I recommend that we continue with the plan
+above anyway, in order to be certain.
+
+d210 2
+a211 1
+by that time.
+d260 1
+a260 1
+  Swann inappropriately resigns (unknown) some Offices.
+d293 10
+@

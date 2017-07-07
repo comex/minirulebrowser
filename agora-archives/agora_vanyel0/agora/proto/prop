@@ -1,0 +1,142 @@
+Proto
+Proposal/Index Consolidation and Reform
+
+Repeal Rules 594, 993, 955, 1322, and 376.
+
+Create the following Rule, entitled "Game State Modifications":
+      Everything which modifies the State of Agora Nomic in any way is a 
+      Game State Modification (GSM).  GSMs fall into several categories:
+      * Automated GSMs.  Automated GSMs are GSMs which take place without 
+        being performed by a person.  They are specified in the Ruleset to 
+        occur when certain conditions become true.  AGSMs may only take effect 
+        if they are mandated by a Rule with MI greater than or equal to the 
+        Inertia of the AGSM.
+      * Proposed GSMs.  Proposed GSMs are GSMs which take place upon the 
+        adoption of a Proposal.  They may be referred to as GSMs during the 
+        Voting Period of the Proposal in which they are contained, but cannot 
+        take effect until that Proposal passes, if ever.
+      * Manual GSMs.  A Manual GSM is an action by a person (not necessarily 
+        a Player) which somehow changes the State of Agora Nomic.  Note that a 
+        Manual GSM is almost always the "trigger" for an Automated or Proposed 
+        GSM to take effect.
+
+{Comment:
+Although not strictly necessary, this poses a convenient way to 
+specify certain things elsewhere in this legislation, and can be used 
+by all sorts of other types of legislation.  Once this is in place, 
+and my redefinition of Power (vs. Inertia), we can eliminate the
+distinction between Proposed Rule Change and Directive, both being PGSMs.}
+
+Create the following Rule, entitled "Proposal-Related Indices":
+      There is a Voting Index (VI) associated with every Proposal, which 
+      represents the support received for that Proposal.  If the Proposal 
+      received zero AGAINST Votes, and one or more FOR Votes, its VI is 
+      Unanimity.  If the Proposal received zero FOR Votes, its VI is zero.  
+      In all other cases, the VI is equal to the number of FOR Votes divided 
+      by the number of AGAINST Votes.
+
+      There is an Adoption Index (AI) associated with every Proposal, which 
+      represents how much support that Proposal needs to pass.  The AI is 
+      calculated once the Inertia of every PGSM contained within the Proposal 
+      is known.  The AI is equal to the greatest Inertia Index of all PGSMs 
+      within the Proposal.
+
+      There is a Inertia Index (II) associated with every Proposed GSM and 
+      every Automated GSM, which represents how difficult it will be for 
+      that GSM to take effect.  No II may be less than 1.  The Inertia Index 
+      of every AGSM and PGSM is 1 unless specified elsewhere in the Ruleset.
+
+      There is a Mutability Index (MI) associated with every Rule, which 
+      represents how difficult it will be to change that Rule.  The MI of a 
+      newly Created Rule is 1, but may be modified thereafter.
+
+{Comment:
+This stuff should be centralized and well-defined.  That's mostly what 
+I'm doing here, plus I'm changing Power a bit.  Now, instead of saying 
+each GSM has a Power derived from AI or MI, and does or doesn't take 
+effect based on that, I say that each GSM has an Inertia based on what 
+it's trying to do, from which the AI is derived.  I'm pretty sure this 
+removes the circularity.}
+
+Create the following Rule, entitled "Inertia of Rule Changes":
+      The Inertia Index of a Creation Rule Change is equal to the MI specified
+      for the New Rule, or 1 if no MI is specified.
+
+      The Inertia Index of a Repeal Rule Change or an Amendment Rule Change is
+      equal to the MI of the Rule to be Repealed or Amended.
+
+      The Inertia Index of a Mutation Rule Change is the greater of the current
+      MI of the affected Rule and the MI to which the Rule would be Mutated by
+      the Rule Change.
+
+{Comment:
+This is a stopgap, because I don't feel like tackling the MI=3 Rule 105
+just yet, at least not as part of this multipart proto--maybe later, once
+GSMs have proven their worth.}
+
+Rules 1052, 1054, and 1416 shall be Amended by replacing occurrences of
+      "The Proposal containing such a Directive must have an Adoption
+      Index of at least 2."
+with
+      "Directives of this type have an Inertia Index of 2."
+
+Rules 649, 1044, and 1070 shall be Amended by replacing all sentences
+which contain the phrase "Adoption Index" with the following sentence:
+      "Directives of this type have an Inertia Index of 1."
+
+Rule 1453 shall be Amended by replacing occurrences of "Adoption Index"
+with "Inertia Index".
+
+{Comment:
+This fixes up all the Directive types with Inertias. (Inertiae?)}
+
+Create the following Rule, entitled "Proposals":
+      Directives and Rule Changes which are contained in Proposals are 
+      collectively referred to as Proposed Game State Modifications (PGSMs).  
+      A Proposal contains one or more PGSMs.
+
+      When the Voting Period for a Proposal has ended, the Votes which have 
+      been legally cast shall be counted by the Assessor, and the Voting 
+      Index calculated.  If the Voting Index is greater than the Adoption 
+      Index for the given Proposal, then that Proposal shall pass.  If the 
+      Voting Index exactly equals the Adoption Index, then the Assessor 
+      shall choose whether the Proposal passes or fails.  If the Voting 
+      Index is less than the Adoption Index, the Proposal shall fail.
+
+      A Proposal which passes takes effect at the time datestamped on the 
+      first message sent by the Assessor to reach the Public Forum 
+      announcing the results of the Voting on that Proposal.
+
+      If a single message sent by the Assessor contains the Voting results 
+      on several Proposals, all such Proposals shall take effect at the same 
+      time, but in order by increasing Proposal Number.  When a Proposal 
+      takes effect, the PGSMs contained therein take effect in the order in 
+      which they appear in the Proposal.
+
+{Comment:
+This is, essentially, the material currently in 376, 594, 993, and 
+955, minus the stuff about calculating AI and VI.}
+
+
+
+Proto
+Implement GSM language in 108
+
+Rule 108 shall be Amended as follows, and given the title "When May 
+GSMs Take Effect?":
+
+      No Automated GSM may take effect earlier than the adoption of the 
+      current form of the Rule which requires it.  No Proposed GSM may take 
+      effect earlier than the adoption of the Proposal in which it is 
+      contained.  A Manual GSM, by definition, takes effect exactly when the 
+      person making the GSM executes the action which modifies the Game 
+      State.
+
+      No Automated or Proposed GSM may have retroactive application.
+
+{Comment:
+Obviously, I would not Propose this until the GSM system was fairly 
+well entrenched--I'd like to make sure my definitions work before 
+diddling with the immutables.  (Well, not *really* immutable, but you
+know.)  This is an almost exact translation of the former 108, though, 
+except for the bit about manual GSMs.}

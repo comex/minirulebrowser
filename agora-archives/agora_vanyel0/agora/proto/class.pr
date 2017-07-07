@@ -1,0 +1,105 @@
+
+Entities are things which exist in the Agoraverse.
+
+  Players are a subclass of Entities, which are sentient beings
+  registered within Agora.  (cf Category "The Players": Rules 113,
+  494, 869, 1042, 1043, 1432)
+
+    Officers are a subclass of Players.  They have some duties above and
+    beyond other requirements that the rules make of all players.
+    Players may hold multiple Offices.  (cf Category "Officers": Rules
+    790, 806, 880, 1006, 1007, 1064, 1431, 1486, 1487, 1512)
+
+      The Promotor is an instance of the Officer class.  Proposals are
+      submitted to em, and e numbers and distributes them.  (cf Rule
+      1036)
+
+      The Assessor is an instance of the Officer class.  Votes are
+      submitted to em, and e tallies votes and publishes results of
+      Proposals.  (cf Rule 1449)
+
+      The Ambassador is an instance of the Officer class.  E is charged
+      with recruiting new Players and contacting other Nomics. (cf Rule
+      1070)
+
+      The Archivist is an instance of the Officer class.  E keeps
+      records of past Proposals and past Rules.  (cf Rule 417)
+
+    Voters are a subclass of Players.  All Players except the Speaker
+    are Voters.  (cf Rule 103)
+
+    The Speaker is an instance of the Player class.  E is required to
+    fulfill the duties of vacant Offices. (cf Rule 806)
+
+    (The Speaker and the Voter class are mutually exclusive, i.e. every
+     Player is either the Speaker or a Voter.  In spite of not being "a
+     Voter", the Speaker is allowed to Vote; the reasons for this naming
+     convention are purely historical.)
+
+  Organizations are a subclass of Entities, which are entities which
+  have some number of Players as members.  (cf Category "Organizations":
+  Rules 1528-37)  The Notary is the Officer generally in charge of
+  Organizations (cf Rule 1458).
+
+    Groups are a subclass of Organizations.  They are allowed to Mint eir
+    own Currencies, and their Ordinances have binding force on their
+    Members.  No Player may be a Member of more than one Group.
+    (cf Category "Groups and Contests": Rules 716-19, 721, 766, 1397,
+    1474, 1501)
+
+    Contests are a subclass of Organizations.  Their Regulations have
+    binding forces on their Contestants and Contestmaster.  Players may
+    be members of multiple Contests.  (cf Category "Groups and
+    Contests": Rules 1446, 1539)
+
+    Contracts are a subclass of Organizations.  Their Terms do _not_ have
+    binding force on eir Parties, although Breach of Contract results in
+    heavy penalties.  (cf Category "Contracts": Rules 1455-57, 1459)
+
+    Bearerbonds are a subclass of Organizations, identical to Contracts
+    except that their Parties are subject to change. (cf Rule 1499)
+
+    Parties are (would be) a subclass of Organizations.  They give
+    rewards to members based on voting patterns.  No player may be a
+    member of more than one Party.
+
+  Non-Player Entities are a subclass of Entities, which are created by the
+  ruleset, and may be possessed by other Entities in the Agora Universe.
+
+    Currencies are a subclass of Non-Player Entities.  They have a
+    standard set of rules for their use, including transfer, creation,
+    and destruction; these do not apply to some currencies.
+
+      Points...
+
+      Marks...
+
+  (Membership in the Player, Corporate, and Non-Player subclasses is
+   mututally exclusive, i.e. every Entity belongs to exactly one of
+   these subclasses.)
+
+  Voting Entities are a subclass of Entities, which are allowed to vote.
+  All Players are Voting Entities, and some or none of the Corporate and
+  Non-Player Entities are Voting Entities. (cf Rule 206)
+
+Moves are a class of actions which may be made in the Agora Universe.
+
+  CFJs are a subclass of Moves... (cf Category "Calling for Judgement")
+
+  COEs are a subclass of Moves... (cf Rule 1431)
+
+  Submissions of Proposals are a subclass of Moves... (cf Category
+  "Making Proposals")
+
+  Casting of Votes are a subclass of Moves.... (cf Category "Voting on
+  Proposals")
+
+Attributes are qualities which entities or moves may possess in the Agora Universe.
+
+  On-Hold-ness is an Attribute which may be held by Players.  Players
+  not On Hold are said to be Active. (cf Rule 1016)
+
+  ASAP-ness is an Attribute which may be held by certain required
+  Moves... (cf Rule 1023)
+
+etc.

@@ -1,0 +1,107 @@
+Significant Changes:  Everything.  In 17-1, I have eliminated all mentions
+of Queues (happy, Kelly? :), although technically what is described is a
+Queue.  The order of determination of whose proposals get distributed is
+first-come, first-serve.
+
+I have added the "Emergency Proposal"... it carries a rather stiff penalty
+(not being able to Propose for a Week), but if the cause is sufficient, it
+should be fine.  If it passes, the Proposer receives eir 10 point penalty
+back, and a 5 point bonus besides.
+
+Proposal Retraction is essentially the same as before (what does anyone
+think of that, anyway..?)
+
+Instead of Clumping I have introduced Linking... which is one-way, and
+can depend on other Players' Proposals, as well.  For two Proposals
+which a Player wants mutually Linked, the fee is 2 points; beyond that,
+it would be easier just to use multi-Part Proposals.  Linking is very
+versatile;  for a group of five proposals, one of which is independent
+and the other four of which are dependent on the first (but not each
+other), Linking is definitely the way to go.  Also, if your Proposal
+depends on another Proposal by Player Foo which was distributed three
+days ago, you can Link that way too.  Fee is merely 1 point.
+
+The Extra fee for more Proposals rule is still repealed in proto 17-5,
+and the Speaker is legislated to distribute once a week or every ten
+proposals... 
+
+Proto-PROPOSAL DB17-1 (Vanyel)
+Submission of Votes
+Amend Rule 1036 to read as follows:
+
+The maximum number of distributed Proposals shall be the number of
+Active Players at the beginning of the Nomic Week.  Proposals shall
+be sent to the Speaker.  When it is time (as specified elsewhere)
+for the Speaker to distribute Proposals, e shall distribute as many
+as possible without exceeding the Proposal limit, beginning with
+those Proposals submitted first.
+
+Any Proposal which, according to another Rule, is "put up for Vote",
+shall be distributed As Soon As Possible by the Speaker.  This may
+cause an excess of Proposals; this is disregarded in this case only.
+
+Proto-PROPOSAL DB17-2 (Vanyel)
+Emergency Proposal
+
+If a Player deems a Proposal important e may submit it as an Emergency
+Proposal.  In order to do this, e must pay a fee of 10 Points and must
+forego Proposing anything else (including another Emergency Proposal)
+for a full week.  If e submits a Proposal during this time it shall
+be considered improperly submitted, and shall not be Voted on.  An 
+Emergency Proposal shall be put up for Vote immediately.  If the
+Emergency Proposal passes, the Player shall receive 15 Points.  
+
+This Rule takes precedence over any Rule which would prevent 
+Emergency Proposals from being submitted, distributed, or Voted on.
+
+PROTO-Proposal DB17-3 (Vanyel)
+Proposal Retraction
+
+The only way a Proposal may be prematurely retracted by a Player 
+is if e, the Player, specifically requests such to the Speaker.
+The Player may not replace a Proposal with another; if e retracts
+it, e can only replace it by submitting another Proposal.  Any 
+retractions shall destroy a Proposal irrevocably.
+
+The Player may also request that a Proposal authored by em
+be removed from the Proposals up for Vote by stating such to the Public 
+Forum.  In such a case, any points which would be received as a direct
+result of that Proposal shall be distributed; then, that Proposal
+will be irrevocably retracted.  Any points which have been spent on
+Vototron contributions are returned, and any Votes cast for that
+Proposal shall be disregarded.
+
+PROTO-Proposal DB17-4 (Vanyel)
+Proposal Linking
+
+A Player may Link a Proposal made by em to any other.  This is
+accomplished by a message to the Speaker or to the Public Forum, and
+requires a fee of 1 Point.  If the Proposal which was Linked to does
+not pass, then the Proposal which was Linked does not take effect.
+This does not affect F-A bonuses.
+
+This Rule takes precedence over Rule 955.
+
+Proto-PROPOSAL DB17-5 (Vanyel)
+Repeal 1065
+
+Rule 1065 shall be Repealed.
+
+Proto-PROPOSAL DB17-6 (Vanyel)
+Distribution of Proposals
+
+The Speaker shall distribute Proposals if and only if the following 
+conditions are met:
+	-There are more than 10 undistributed Proposals, or any undistributed
+	 Proposals older than six days old, and
+	-The limit on Proposals (if any) has not been met.
+***END PROTO SUITE
+
+proposal history:
+first proto 7 Oct 12:35 PM CDT
+second proto 14 Oct 5:43 PM CDT
+third proto (suite) 8 Nov 7:00 PM CST
+fourth proto (suite) 15 Nov 4:30 AM CST
+fifth proto (suite) 15 Nov 5:45 PM CST
+
+Comments, questions?

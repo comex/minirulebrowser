@@ -1,0 +1,2791 @@
+From ccarroll@students.wisc.edu  Tue Aug  1 14:30:55 1995
+Received: from audumla.students.wisc.edu (students.wisc.edu [144.92.104.66]) by Shamino.quincy.edu (8.6.9/8.6.9) with ESMTP id OAA00905 for <blahedo@quincy.edu>; Tue, 1 Aug 1995 14:26:47 -0500
+Received: from [144.92.181.61] by audumla.students.wisc.edu;
+          id NAA22026; 8.6.9W/42; Tue, 1 Aug 1995 13:25:49 -0500
+X-NUPop-Charset: English
+Date: Tue, 1 Aug 95 13:23:59 CDT  
+From: "Charles E. Carroll"  <ccarroll@students.wisc.edu>
+Sender: ccarroll@students.wisc.edu
+Message-Id: <48248.ccarroll@students.wisc.edu>
+To: nomic-official@teleport.com
+Cc: blahedo@QUINCY.EDU
+Subject: CFJ 799: Reassignment
+Status: RO
+Content-Length: 2138
+Lines: 80
+
+Reassignment of CFJ 799
+
+Due to favor's declining, favor loses 2 points and Chuck gains
+1 point.
+
+The Judge is Vanyel.
+
+============================================================
+
+CFJ 799
+
+Caller: elJefe
+
+Statement: Sugarwater's Injunctions in CFJ 795, are illegal and invalid.
+
+Barred: none
+Requested Injunction: none
+
+Judge: Vanyel
+
+Effects reported by COTC (* indicates new to this report):
+ *favor loses 2 points for declining
+ *Chuck gains 1 point for favor's declining
+
+============================================================
+
+Selection of Judge
+
+Ineligible:
+  Andre       (on Hold)
+  Brian       (1005, or e may not even be a Player)
+  elJefe      (caller and on Hold)
+  favor       (declined)
+  JonRock     (1005)
+  Pascal      (1005 and on Hold)
+
+Eligible:
+  Chuck       (Knight of Swords)
+  Dave B      (King of Swords)
+  Ian         (The Star)
+  Kelly       (Knight of Pentacles)
+  KoJen       (The Hierophant)
+  Michael     (10 of Cups)
+  Steve       (Justice)
+  SugarWater  (The Fool)
+  Swann       (2 of Swords)
+  TAL         (6 of Pentacles)
+  Vanyel      (Knight of Wands)
+  Vlad        (2 of Wands)
+  Xanadu      (The Hermit)
+  Zefram      (Page of Swords)
+
+The card drawn is: Knight of Wands--Vanyel
+
+============================================================
+
+History:
+  Called by elJefe on, 31 Jul 1995 14:05:13 -0400
+  Assigned to favor Tue, 1 Aug 95 02:30:17 CDT
+  Declined by favor Tue, 1 Aug 95 11:23:23 EDT
+  Assigned to Vanyel {as of this message}
+
+============================================================
+
+Arguments of Caller (elJefe):
+
+For one thing, there is no allegation in the Statement against a
+particular Player.
+
+Nor is there evidence in the record that the Vizier committed an
+illegal act.  "Performing the dissolution" is meaningless.  The Ordinance
+says that the group dissolves upon receiving the consent of the members.
+So are you looking for the person/persons giving consent?  And where is
+the evidence that the Vizier actually gave consent?
+
+============================================================
+
+End of CFJ 799
+
+============================================================
+
+From Michael.Norrish@cl.cam.ac.uk Wed May 24 04:44:22 1995
+Return-Path: Michael.Norrish@cl.cam.ac.uk
+Received: from swan.cl.cam.ac.uk (pp@swan.cl.cam.ac.uk [128.232.0.56]) by Shamino.quincy.edu (8.6.9/8.6.9) with ESMTP id EAA26307 for <blahedo@quincy.edu>; Wed, 24 May 1995 04:33:27 -0500
+From: Michael.Norrish@cl.cam.ac.uk
+Received: from guillemot.cl.cam.ac.uk (user mn200 (rfc931)) 
+          by swan.cl.cam.ac.uk with SMTP (PP-6.5) to cl;
+          Wed, 24 May 1995 10:32:10 +0100
+Received: by guillemot.cl.cam.ac.uk (4.1/SMI-3.0DEV3) id AA24408;
+          Wed, 24 May 95 10:32:05 BST
+Date: Wed, 24 May 95 10:32:05 BST
+Message-Id: <9505240932.AA24408@guillemot.cl.cam.ac.uk>
+To: cogen@ll.mit.edu (David Cogen)
+Cc: BlsPascal@aol.com, david.bowen@cray.com, blahedo@quincy.edu,
+        csg419@wing.rug.nl
+Subject: Public Group Ordinances
+In-Reply-To: <9505171316.AA23305@LL.MIT.EDU>
+References: <9505171316.AA23305@LL.MIT.EDU>
+Status: RO
+Content-Length: 2237
+Lines: 92
+
+I like the idea of public ordinances, but like Dave B, I'm a bit leery
+of having to automatically publish them to the mailing list.  My
+suggestion is that the proposal require them to be published on Group
+creation, and that they henceforth be available to all that request
+them.  Basically this would then echo our own Ordinances.
+
+As for the Correlation Matrices.  KoJen the following bit of perl does
+a transverse operation on text:
+
+# -*- perl -*- 
+while (<>) {
+    chop;
+    @cols = split(//);
+    if (@cols > $maxlength) {
+	foreach $i ($maxlength..(@cols-1)) {
+	    $rows[$i] .= (' ' x $numlines);
+	}
+	$maxlength = @cols;
+    }
+    if (@cols < $maxlength) {
+	foreach $i (@cols..($maxlength-1)) { 
+	    $cols[$i] = ' ';
+	}
+    }
+    for ($i = 0; $i < @cols; $i++) {
+	$rows[$i] .= $cols[$i];
+    }
+    $numlines++;
+}
+
+foreach $row (@rows) { print $row, "\n"; }
+# perl ends
+
+Applying it to a recent Assessors Report, transforms:
+            1  1  1  1  1  1  
+            5  5  5  5  5  5  
+            8  8  8  8  8  8  
+            1  2  3  4  5  6  
+
+Andre       F  F  A  F  F 2A 
+Blob        F  -  -  -  -  - 
+Bowen       F  F  A  F  A  A 
+Chuck       -  -  A  - 2A  F 
+Eljefe         F  A  F  A  F
+Kelly       F  F  A  F  A  F  
+Kojen       A  A 2F  F  A 2A  
+Steve       F  F  A  F  A  F  
+Swann       -  -  -  -  -  -  
+TAL         F  A  A  F  A  F  
+Tang        -  -  -  -  -  -  
+Vanyel      F  F  A  F 2F  F  
+Xanadu      F  F  F  F  F 2F  
+
+into
+
+     ABBCEKKSSTTVX
+     nlohleotwAaaa
+     dowujljeaLnnn
+     rbecelevn gya
+     e nkfynen  ed
+         e      lu
+                  
+                  
+                  
+                  
+                  
+                  
+1581 FFF- FAF-F-FF
+                  
+                  
+1582 F-F-FFAF-A-FF
+                  
+           2      
+1583 A-AAAAFA-A-AF
+                  
+                  
+1584 F-F-FFFF-F-FF
+                  
+        2       2 
+1585 F-AAAAAA-A-FF
+                  
+     2     2     2
+1586 A-AFFFAF-F-FF
+                  
+                  
+Using this it seems to me that you should be able to extract the
+proposal numbers without too much difficulty (piping the output to:
+awk '$0 ~ /^[^ ]/ { print $1; }' ) works for example.
+
+
+Cheers,
+Michael.
+
+From dmb@birch111.cray.com Tue May 30 08:38:11 1995
+Return-Path: dmb@birch111.cray.com
+Received: from timbuk.cray.com (root@timbuk.cray.com [128.162.19.7]) by Shamino.quincy.edu (8.6.9/8.6.9) with ESMTP id IAA00738 for <blahedo@quincy.edu>; Tue, 30 May 1995 08:27:45 -0500
+Received: from sdiv.cray.com (ironwood-fddi.cray.com [128.162.21.36]) by timbuk.cray.com (8.6.11/CRI-fence-1.4) with SMTP id IAA23477 for <blahedo@quincy.edu>; Tue, 30 May 1995 08:27:12 -0500
+Received: from birch111 by sdiv.cray.com (5.x/CRI-5.15.b.orgabbr Sdiv)
+	id AA27520; Tue, 30 May 1995 08:27:11 -0500
+Message-Id: <9505301327.AA27520@sdiv.cray.com>
+To: blahedo@quincy.edu
+Subject: Re: BUS: Proto: Subpoenas and Secrecy 
+In-Reply-To: Your message of "Sat, 27 May 1995 04:54:48 CDT."
+             <199505270954.EAA13408@Shamino.quincy.edu> 
+Date: Tue, 30 May 1995 08:27:11 -0500
+From: David Bowen <dmb@birch111.cray.com>
+Status: RO
+Content-Length: 628
+Lines: 12
+
+Vanyel,
+
+   While I generally like your idea of subpoenas, I think there ought to be
+some restrictions on when a judge is allowed to issue one.  For example, the
+judge must show some relevance between the matter he is judging and the item
+being subpoenaed.  Relevance may be a bit hard to legislate, so perhaps subpoena
+requests should be handled by another court.  My concern is that I nothing in
+your proposal which would prevent a judge from subpoenaing every secret document
+in existence.  Even though the judge can not reveal the contents of these
+documents, e might be able to use the information in his own play.
+
+Dave B
+
+From blahedo@quincy.edu Tue Jun 13 21:47:30 1995
+Return-Path: blahedo
+Received: (from blahedo@localhost) by Shamino.quincy.edu (8.6.9/8.6.9) id VAA00717; Tue, 13 Jun 1995 21:47:28 -0500
+From: Don Blaheta <blahedo@quincy.edu>
+Message-Id: <199506140247.VAA00717@Shamino.quincy.edu>
+Subject: Re: Looking for feedback
+To: gb485@cleveland.freenet.edu, blahedo@quincy.edu, blspascal@aol.com,
+        donna@brucehall3.anu.edu.au, csg419@wing.rug.nl, jlc@triple-i.com
+Date: Tue, 13 Jun 1995 21:47:28 -0500 (CDT)
+In-Reply-To: <199506130430.AAA25066@eeyore.INS.CWRU.Edu> from "Steven A Swiniarski" at Jun 13, 95 00:30:15 am
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+Status: RO
+Content-Length: 4719
+Lines: 102
+
+Quoth Swann:
+
+> Greetings to my fellow Recursians;
+
+Recursans, you mean. :)
+
+> Well the contest seems to be doing well and now that there's no gag rule
+> on proposals I wanted some feedback on an idea of mine; How would you all
+> feel about the creation of the Recursa "Group"?
+
+That would be nice.
+
+> There are a number of benefits of this, such as giving an Agora-sanctioned
+> treasury to mint Coins (which may or may not be related to credits) it also
+> reinforces the whole Recursa concept by backing it up with the stregnth of
+> two seprate Agora rules-- Shoring Recursa against any arbitrary attacks
+> (Because of the wording of the Contest rule, we've been subject to at least
+> one not-so-vield threat by Kelly.)
+
+Kelly couldn't pull it off, because there are only 17 Players, some of
+which are not Active; with the six of us double-voting, plus various
+other people who disagree with em, we could stop such a thing.  We can
+always buy off Michael's vote, too. :)  It might be a good idea to
+disallow this type of Proposal, however...
+
+> The downside is that Agora doesn't allow players to be members of more than
+> one Group.  Getting around this requires some finesse in crafting Regulations
+> (Which, needless to say, have to be then written to also be group ordinances.)
+> This also means, that to impliment this idea, there has to be at lest three
+> unafilliated Recursans to fufill Agora law and create the group, once the
+> Regulations/Ordinances are hammered out.
+
+Hm.  No, I don't think that's necessarily true.  The Ordinances can be
+entirely different from the Regulations; the Regulations can refer to
+the Ordinances, and vice versa, but they needn't be the same.  Also,
+once the Group is formed, all but one Player can drop out of it...
+on the other hand, a better idea would be to modify the Group Rules
+before Agora-as-a-whole gets wind of our Recursa Group idea.
+
+> I see this as a potentially *very* interesting possibility, and I would like
+> to hear other's ideas on how it could be implimented.
+
+Like this:
+Recursa Group is formed.  In the Ordinances are stated that the
+   Ordinances may be changed only as specified in the Recursa Contest
+   Regulations.
+Regulation is passed, affiliating the Group and the Contest; in the
+   Regulation, a new type of Proposal is created to modify the
+   *Ordinances*.
+Regulation is passed, requiring Recursa Contestants to join the Recursa
+   Group within one week of joining the Contest.
+
+> I would like to see a situation with one set of "Rules" governing both the
+> group and the contest, all modified in the same way with Recursans proposing
+> and voting-- but there would be a number of different types of Recurans
+> (See my current proposal vis-a-vis non-contestant Recursans)
+
+I don't like this--it would be too complex, I think.  I'd rather see two
+separate sets of rules, with one "slaved" to the other as described
+above.
+
+> There would be the contestants in the contest Recursa, who have to be
+> players in Agora nomic, pay the entry fee, and may be contestmaster and
+> may win the game.  (The only type currently in existance.)
+
+May be... speaker.  Since there will be non-Agoran Recursans, and the
+"Contestmaster" is an *Agoran* artifact, we should disassociate the
+Contestmaster from duties within Recursa.  Maybe award the title to
+Swann permanently, as an honor. :)
+
+> Then there would be the members of the group Recursa, who have to be players
+> in Agora nomic and not a member of another group, and who may be
+> Ordinancekeepor or Vizier of the group.  These Recursans may also be
+> contestants, and it might be a good idea to require them to be-- since
+> I can see that the Ordinancekeepor might be synonomyous with 
+> contestmaster.
+
+I think that there should be a 1-1 correspondence between Recursa
+Contestants and Recursa Group Members.  Even if Contestmaster is
+disassociated from eir Speaker-like duties, e could be Vizier and
+Ordinancekeepor.
+
+> Then ther can be my proposed "unbound" Recursans, who need not be a member of
+> Agora, and who may participate in Recursa to the extent our Regulations are
+> independent of the Agora ruleset.
+
+Yes.  As a thought--they can be "members" of the Recursa Group as well,
+having Voting rights and being required by the regs to follow Group
+Ordinances as well.  Of course, in the viewpoint of Agora, they still
+don't exist, but there is no reason that *we* can't acknowledge them.  I
+think there is precedent for this--PROSIRUP had something of the sort in
+their Secret Rules, where non-Agorans had voting righs within the Group.
+
+> I welcome any thoughts and suggestions,
+> 
+> Swann
+
+Vanyel
+
+-=-=-=-Don Blaheta-=-=-=-blahedo@quincy.edu-=-=-=-dblaheta@aol.com-=-=-=-
+
+This is your fortune.
+
+From ccarroll@students.wisc.edu Sun Jun 25 21:06:42 1995
+Return-Path: ccarroll@students.wisc.edu
+Received: from audumla.students.wisc.edu (students.wisc.edu [144.92.104.66]) by Shamino.quincy.edu (8.6.9/8.6.9) with ESMTP id UAA16369 for <blahedo@quincy.edu>; Sun, 25 Jun 1995 20:57:21 -0500
+Received: from [144.92.180.102] by audumla.students.wisc.edu;
+          id UAA25997; 8.6.9W/42; Sun, 25 Jun 1995 20:56:37 -0500
+X-NUPop-Charset: English
+Date: Sun, 25 Jun 95 20:55:33 CST  
+From: "Charles E. Carroll" <ccarroll@students.wisc.edu>
+Sender: ccarroll@students.wisc.edu
+Message-Id: <75342.ccarroll@students.wisc.edu>
+To: blahedo@quincy.edu
+Subject: RE: Hello?
+Status: RO
+Content-Length: 305
+Lines: 8
+
+>in no particular order; please mail me with any suggestions, no matter
+>how outrageous--I have a *lot* of information here, it just needs a bit
+>of organization.  (I mean, with logs of all listserver mail, I think I
+>can extract just about anything....)
+
+Identity & mailing address of an Officer.
+
+Chuck
+
+From ferro@chem.cmu.edu Mon Jun 26 12:36:44 1995
+Return-Path: ferro@chem.cmu.edu
+Received: from chopin.chem.cmu.edu (CHOPIN.CHEM.CMU.EDU [128.2.239.30]) by Shamino.quincy.edu (8.6.9/8.6.9) with ESMTP id MAA22249 for <blahedo@quincy.edu>; Mon, 26 Jun 1995 12:32:40 -0500
+Received: from localhost (ferro@localhost) by chopin.chem.cmu.edu (8.6.4/8.6.4) id NAA05916; Mon, 26 Jun 1995 13:30:25 -0400
+Date: Mon, 26 Jun 1995 13:30:25 -0400
+From: Jon Ferro <ferro@chem.cmu.edu>
+Message-Id: <199506261730.NAA05916@chopin.chem.cmu.edu>
+Organization: Komitet Gosudarstvennoi Bezopaznosti
+X-Disclaimer: This disclaimer is not required by Leader Kibo.
+    This article does not necessarily represent the opinions of Leader Kibo.
+    Have a nice day!
+X-Exclaimer: Yow!
+To: blahedo@quincy.edu
+In-reply-to: <199506260145.UAA16272@Shamino.quincy.edu> (message from Don Blaheta on Sun, 25 Jun 1995 20:45:56 -0500 (CDT))
+Subject: Re: Hello?
+Status: RO
+Content-Length: 330
+Lines: 9
+
+Add: Text of one Thesis
+
+P.S. As you are groveling over the archives, could you split out the
+Theses that already exist?  I would like a copy of each, but you can
+just send me info on where you put them in the archives and I can pick
+them up for myself later.  Thanks!
+
+-- 
+-- Jon Ferro               Einsprachigkeit ist heilbar.
+
+From lschuber@maths.adelaide.edu.au Mon Jun 26 22:36:47 1995
+Return-Path: lschuber@maths.adelaide.edu.au
+Received: from spam.maths.adelaide.edu.au (spam.maths.adelaide.edu.au [129.127.44.1]) by Shamino.quincy.edu (8.6.9/8.6.9) with SMTP id WAA25032 for <blahedo@quincy.edu>; Mon, 26 Jun 1995 22:33:27 -0500
+Received: by spam.maths.adelaide.edu.au (5.64+1.3.1+0.50/UA-5.28)
+	id AA23035; Tue, 27 Jun 1995 13:02:27 +0930
+From: Luke Schubert <lschuber@maths.adelaide.edu.au>
+Message-Id: <9506270332.AA23035@spam.maths.adelaide.edu.au>
+Subject: Re: Agora Archives
+To: blahedo@quincy.edu (Don Blaheta)
+Date: Tue, 27 Jun 1995 13:02:27 +0930 (CST)
+In-Reply-To: <199506260227.VAA16746@Shamino.quincy.edu> from "Don Blaheta" at Jun 25, 95 09:27:41 pm
+X-Mailer: ELM [version 2.4 PL22]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Status: RO
+Content-Length: 2746
+Lines: 73
+
+> 
+> You wrote:
+> > Greetings.
+> > 
+> > I'm a regular reader of the Agora Archives (as well as a player of 
+> > Thring Nomic, but that's neither here or there).
+> 
+> And how is that going?  Our Ambassador (Kelly) tells us that your game
+> bombed on a paradox. :(
+
+Yes, well, I thought that that was a good thing at the time. There were
+a couple other "potential" paradoxes, including one other CfJ which
+could have finished the game off if I had judged TRUE instead of 
+UNDECIDED.
+
+I think there was a general feeling that the ruleset had some serious
+problems, and there currently are efforts to rewrite it (outside the
+Rules, as it were).
+
+There's also a rule which says "If a Proposal gets no FOR votes, it 
+shall be accepted" which has caused problems in the past and looks like
+it's staying in ...
+> 
+> > I was reading the aforementioned Agora Archives when I noticed 
+> > your message about what sort of things people would like to see 
+> > on the Archives. Speaking for myself, I'd like the Theses of Players
+> > to be accessible; I've got a copy of your thought-provoking work on
+> > "Platonic vs Pragmatic" rules, which has also been circulated among
+> > Thring players, and a copy of Steve's thesis on meta-game crises etc;
+> > I think that I'm missing one (I'm not sure whose) but it would be
+> > good to provide access (on the WWW) to these theses.
+> 
+> Hmm... I thought I had already done this.  If not, I meant to... I'll
+> take care of this soon.
+> 
+After I read your reply, I went back and looked at the Agora Guidebook ...
+sure enough, there's a link to "degrees and theses" (which ends in
+something like ".../archives/degrees") but it doesn't seem to actually 
+be there.
+
+> > I'm also interested in the Agora sub-games (running as Contests in
+> > Agora) but I could understand if it's hard to have these records
+> > accessible.
+> 
+> Funny you should mention that.  As a player of Recursa (as the Sub-Nomic
+> is now known) I have records available to me... do you browse by FTP or
+> WWW?  Nevermind, I'll link that up to the Web, also.  Check out
+> http://www.quincy.edu/~blahedo/recursa
+> to see the archives of that. :)
+> 
+Cool! Thanks. I think that I've seen some of these proposals on the
+nomic-business archive, but not the actual Ruleset. I usually browse by
+WWW, yes. 
+
+> > Thanks,
+> > 
+> > Luke.
+> 
+> Agora Archivist Vanyel
+> 
+> -=-=-=-Don Blaheta-=-=-=-blahedo@quincy.edu-=-=-=-dblaheta@aol.com-=-=-=-
+> 
+> Character Density, n.:
+> 	The number of very weird people in the office.
+> 
+> 
+Thanks again,
+
+Luke.
+
+P.S. If my email messages seem a bit rushed, unclear, etc., I put it
+down to the fact that I'm getting married in less than 3 weeks and
+my thoughts are feeling very coherent most of the time (see what I mean? :)
+
+From ian@yak.net Wed Jul  5 09:07:08 1995
+Return-Path: ian@yak.net
+Received: from nando.yak.net (nando.yak.net [140.174.114.1]) by Shamino.quincy.edu (8.6.9/8.6.9) with ESMTP id IAA07583 for <blahedo@quincy.edu>; Wed, 5 Jul 1995 08:53:44 -0500
+Received: from localhost (ian@localhost) (fnord)
+	by nando.yak.net (8.6.5/8.6.5) id GAA28394 
+	for blahedo@quincy.edu; Wed, 5 Jul 1995 06:53:12 -0700
+Date: Wed, 5 Jul 1995 06:53:12 -0700
+From: ian at The Yak <ian@yak.net>
+Message-Id: <199507051353.GAA28394@nando.yak.net>
+To: blahedo@quincy.edu
+Subject: nomic.net
+Status: RO
+Content-Length: 380
+Lines: 13
+
+Vanyel,
+I'm not on nomic.discussion, so could you keep me abreast
+of what people think of the nomic.net idea?
+
+Personally, I think that we should see about getting in on it.
+If not nomic.net, we could easily set up nomic.org . Or maybe
+have nomic.net with agora.org or something.
+
+Anyway, I'd like to see if we can get in on it, and how.
+
+Like I said, keep me informed! =)
+
+--Ian
+
+From mcvos@cs.vu.nl Wed Jul  5 16:37:09 1995
+Return-Path: mcvos@cs.vu.nl
+Received: from solo.cs.vu.nl (root@solo.cs.vu.nl [130.37.16.6]) by Shamino.quincy.edu (8.6.9/8.6.9) with ESMTP id QAA09829 for <blahedo@quincy.edu>; Wed, 5 Jul 1995 16:29:30 -0500
+Received: by solo.cs.vu.nl (Smail3.1.28.1 #20)
+	id m0sTbib-00042aC; Wed, 5 Jul 95 23:10 +0200
+Reply-To: mcvos=fascist@cs.vu.nl
+Errors-To: mcvos@cs.vu.nl
+Received: from zephyr.cs.vu.nl by solo.cs.vu.nl with esmtp
+	(Smail3.1.28.1 #20) id m0sTbiZ-00042ZC; Wed, 5 Jul 95 23:10 +0200
+Received: from Shamino.quincy.edu by zephyr.cs.vu.nl with smtp
+	(Smail3.1.28.1 #20) id m0sTbia-00000NC; Wed, 5 Jul 95 23:10 +0200
+Received: (from blahedo@localhost) by Shamino.quincy.edu (8.6.9/8.6.9) id QAA09726 for mcvos=fascist@cs.vu.nl; Wed, 5 Jul 1995 16:11:08 -0500
+From: Don Blaheta <blahedo@quincy.edu>
+Message-Id: <199507052111.QAA09726@Shamino.quincy.edu>
+Subject: Re: Three things, only the third of which is interesting
+To: Recipients@cs.vu.nl, of@cs.vu.nl, mailinglist@cs.vu.nl
+Date: Wed, 5 Jul 1995 16:11:07 -0500 (CDT)
+In-Reply-To: <9507051949.AA11615@ozymandias.austin.ibm.com> from "Scott Brickner" at Jul 5, 95 02:49:15 pm
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+Status: RO
+Content-Length: 992
+Lines: 22
+
+> >Tivol, have you talked to the Usenet group (alt.games.nomic? rec.games.nomic? 
+> >something...) about this? How would it work? Could my computer be both a 
+> >.mit.edu and a .nomic.net machine?
+> 
+> The DNS maps names to IP addresses (primarily), and IP addresses to *lists*
+> of names, so there's no reason a given IP address can't appear in both mit.edu
+> and nomic.net (and a dozen others).
+
+Really?  I didn't think the "nomic.net" would be all that viable.  But
+if it's possible, it would be really neat.
+
+Incidentally, I forwarded the original idea posting to the Fantasy Rules
+Committee server (frc@nvg.unit.no) and the Agora Nomic Business list
+(nomic-business@teleport.com), in case they were interested--you may
+want to send your idea to other Nomics and Nomic variants...
+
+Vanyel/THS-4
+
+-=-=-=-Don Blaheta-=-=-=-blahedo@quincy.edu-=-=-=-dblaheta@aol.com-=-=-=-
+
+It's so stupid of modern civilization to have given up believing in the
+Devil when he is the only explanation of it.
+
+From gb485@eeyore.INS.CWRU.Edu Fri Jul 14 03:08:31 1995
+Return-Path: gb485@eeyore.INS.CWRU.Edu
+Received: from eeyore.INS.CWRU.Edu (gb485@eeyore.INS.CWRU.Edu [129.22.8.17]) by Shamino.quincy.edu (8.6.9/8.6.9) with ESMTP id DAA19938 for <blahedo@quincy.edu>; Fri, 14 Jul 1995 03:01:36 -0500
+Received: (gb485@localhost) by eeyore.INS.CWRU.Edu (8.6.10+cwru/CWRU-2.1-bsdi)
+	id EAA11548; Fri, 14 Jul 1995 04:00:19 -0400 (from gb485)
+Message-Id: <199507140800.EAA11548@eeyore.INS.CWRU.Edu>
+Date: Fri, 14 Jul 1995 04:00:19 -0400
+From: gb485@cleveland.Freenet.Edu (Steven A Swiniarski)
+To: gb485@cleveland.Freenet.Edu, donna@brucehall3.anu.edu.au,
+        blahedo@quincy.edu, BlsPascal@aol.com, csg419@wing.rug.nl,
+        jlc@triple-i.com
+Subject: SNOMIC:Proposal Results (Finally)
+Reply-To: gb485@cleveland.Freenet.Edu (Steven A Swiniarski)
+Status: RO
+Content-Length: 2371
+Lines: 82
+
+#######################################################################
+
+>From The Recursa Contestmaster:
+
+
+Contest Fund:  30 Points
+                5 Reform Coins
+
+                           Credits  Address
+
+Recursans:
+
+Contestants:   Swann        10       <gb485@cleveland.freenet.edu>
+               Xanadu      -10       <donna@brucehall3.anu.edu.au>
+               Vanyel       24       <blahedo@quincy.edu>
+               Pascal       -7       <BlsPascal@aol.com>
+               Andre        30       <csg419@wing.rug.nl>
+Contestmaster: Swann
+
+Unbound Recursans:
+
+               elJefe        0       <jlc@triple-i.com>
+
+
+Proposal Results:
+              3  3  3  3
+              2  2  3  3
+              8  9  0  1
+
+Swann         F  A  F  F   +4 Credits
+Xanadu        -  -  -  -
+Vanyel        F  F  F  F   +4 Credits
+Pascal        -  -  -  -
+Andre         F  A  A  -   +3 Credits
+elJefe        -  -  -  -
+
+328  PASSES  : Vanyel  + 3 Credits
+330  PASSES  : Vanyel  + 2 Credits
+331  PASSES  : Vanyel  + 2 Credits
+
+
+
+#######################################################################
+
+Text of Passing Proposals:
+
+
+Recursa Proposal 328-------------------------------------------------
+
+rule 318 shall be repealed.
+
+Recursa Proposal 330-------------------------------------------------
+
+the following rule shall be created:
+
+     In Recursa, there are two different things to "win": the contest,
+     and the game.  Unless otherwise specified, a "winner" shall mean
+     the winner of the game.
+     
+     The contest may be won when a proposal or rule specifies that it
+     does. The winner of thecContest shall be the contestant specified
+     in the proposal, or if none is specified, then a contestant chosen
+     by the contestmaster to win the contest.
+
+Recursa Proposal 331-------------------------------------------------
+
+rule 208 shall be amended to read:
+
+     The winner of the game shall be any Recursan who has 100 credits.
+     If multiple Recursans achieve 100 at the same time, the one with
+     the most credits wins the game.  If multiple Recursans have the
+     most credits (a tie), the contestmaster shall choose the winner of
+     the game.
+
+
+
+
+--
+Steven Swiniarski  (aka S Andrew Swann)
+gb485@cleveland.freenet.edu
+Whenever you have an efficient government you have a dictatorship.
+                                        --Harry S Truman
+
+From gb485@eeyore.INS.CWRU.Edu Fri Jul 14 03:08:37 1995
+Return-Path: gb485@eeyore.INS.CWRU.Edu
+Received: from eeyore.INS.CWRU.Edu (gb485@eeyore.INS.CWRU.Edu [129.22.8.17]) by Shamino.quincy.edu (8.6.9/8.6.9) with ESMTP id DAA19953 for <blahedo@quincy.edu>; Fri, 14 Jul 1995 03:05:31 -0500
+Received: (gb485@localhost) by eeyore.INS.CWRU.Edu (8.6.10+cwru/CWRU-2.1-bsdi)
+	id EAA12076; Fri, 14 Jul 1995 04:04:15 -0400 (from gb485)
+Message-Id: <199507140804.EAA12076@eeyore.INS.CWRU.Edu>
+Date: Fri, 14 Jul 1995 04:04:15 -0400
+From: gb485@cleveland.Freenet.Edu (Steven A Swiniarski)
+To: gb485@cleveland.Freenet.Edu, donna@brucehall3.anu.edu.au,
+        blahedo@quincy.edu, BlsPascal@aol.com, csg419@wing.rug.nl,
+        jlc@triple-i.com
+Subject: SNOMIC:Current Regs
+Reply-To: gb485@cleveland.Freenet.Edu (Steven A Swiniarski)
+Status: RO
+Content-Length: 13745
+Lines: 290
+
+#######################################################################
+
+
+Current Regulations:
+
+(*) Denotes an Immutable Rule
+(#) Denotes an Unmutable Rule
+
+O. Unmutable Regulations
+
+000# This contest is a sub-game of Agora Nomic and contestants must
+     abide by all rules of Agora in effect.  Any regulation of this
+     contest that is inconsistent with the rules of Agora Nomic is also
+     void within the Sub-Nomic contest.
+
+001# The entry fee of this contest shall be 5 points.
+
+002# Whenever a term appears in the regulations that ambiguously could
+     refer either to Agora Nomic or to Sub-Nomic, the term refers to
+     Sub-Nomic.
+
+003# Whenever the regulations state that a contestant has won the
+     contest, that player becomes the contestmaster, if e consents.
+     If e doesn't consent, the consenting contestant with the highest
+     number of credits becomes the new contestmaster.  In case of a tie,
+     the old contestmaster chooses a winner and new contestmaster.  When
+     a new contestmaster is chosen, the old contestmaster becomes a
+     contestant.
+
+004# When a new contest begins, play continues with the regulations then
+     in effect.
+
+005# When a new contestmaster is selected, e receives the entire
+     contents of the contest fund.  This is the only funds transfer
+     allowed out of the contest fund.  After this transfer, no funds may
+     be transferred out of the contest fund until a new contestmaster is
+     again selected.
+
+006# Whenever a new contest begins, and after the new contestmaster has
+     received eis reward out of the contest fund, all contestants must
+     put five points (or any currency the new contestmaster deems an
+     acceptable substitute) into the contest fund.
+
+007# The contestmaster must post all regulation changes to the public
+     forum within 48 hours after the contestants' votes are tabulated,
+     and no later than one week after the voting period has closed.
+
+008# The contestmaster must accept any and all transfers into the
+     contest fund, from whatever source.
+
+I. Immutable Regulations
+
+101*  All Contestants must always abide by all the Regulations then in
+      effect, in the form in which they are then in effect.  The
+      Regulations in the Initial Set are in effect whenever a contest
+      begins.  The Initial set consists of regulations 000-008
+      (unmutable), 101-116 (immutable), and 201-213 (mutable).
+
+102*  Initially, regulations in the 100's are immutable and regulations
+      in the 200's are mutable.  Regulations subsequently enacted or
+      transmuted (i.e. changed from immutable to mutable or vice versa)
+      may be mutable or immutable regardless of their numbers, and all
+      non-unmutable regulations in the Initial Set may be transmuted
+      regardless of their numbers.  Unmutable regulations may not be
+      transmuted.
+
+104*  All regulation changes proposed in the proper way shall be voted
+      on. They will be adopted if and only if they receive the required 
+      number of votes.
+
+105*  Every contestant in this contest is an eligible voter.  Every
+      eligible voter must participate in every vote on regulation
+      changes.
+
+106*  Any proposed regulation change must be written down and submitted
+      to the Contestmaster before it is voted upon.  If adopted, it must
+      guide play in the form in which it was voted on.
+
+107*  No regulation change may take effect earlier than the moment of
+      the completion of the vote that adopted it, even if its wording
+      explicitly states otherwise.  No regulation change may have
+      retroactive application.
+
+110* Mutable regulations that are inconsistent in any way with some
+     immutable regulation (except by proposing to transmute it) are
+     wholly void and without effect.  They do not implicitly transmute
+     immutable regulations into mutable regulations and at the same time
+     amend them.  Regulation changes that transmute immutable
+     regulations into mutable regulations will be effective if and only
+     if they explicitly state their transmuting effect.
+
+     Regulations in conflict with any unmutable regulations are wholly
+     void and without effect.
+
+112* The state of affairs that constitutes winning may not be changed
+     from the achieving N credits to any other state of affairs.
+     However, the magnitude of N and the means of earning credits my be
+     changed, and the regulations that establish a winner when play
+     cannot continue may be enacted and (while they are mutable) be
+     amended or repealed.
+
+113* A contestant always has the option to forfeit the contest rather
+     than continue to play or incur a penalty.  No penalty, worse than
+     losing, in the judgment of the player to incur it, may be imposed.
+
+114* There must always be at least one mutable regulation.  The adoption
+     of regulation changes must never become completely impermissible.
+
+115* Regulations that affect regulations needed to allow or apply
+     regulation changes are as permissible as other regulation changes.
+     Even regulation changes that amend or repeal their own authority
+     are permissible.  No regulation change or type of move is
+     impermissible solely on account of the self-reference or
+     self-application of a regulation.
+
+116* Whatever is not explicitly prohibited or regulated by a regulation
+     is permitted and unregulated, with the sole exception of changing
+     the regulations, which is permitted only when a regulation or set
+     of regulations explicitly or implicitly permits it.
+
+II. Mutable Regulations
+
+205. An adopted regulation change takes full effect at the moment of the
+     completion of the vote that adopted it.
+
+211. If two or more mutable regulations conflict with one another, or if
+     two or more immutable regulations conflict with one another, or if
+     two or more unmutable regulations conflict with one another, then
+     the regulation with the lowest ordinal number takes precedence.
+
+     Unmutable regulations take precidence over all other regulations.
+     Immutable regulations take precidence over all mutable regulations.
+
+     If at least one of the regulations in conflict explicitly says of
+     itself that it defers to another regulation (or type of regulation)
+     or takes precedence over another regulation (or type of
+     regulation), then such provisions shall supersede the numerical
+     method for determining precedence.
+
+     If two or more regulations claim to take precedence over each
+     other, or to defer to one another, then the numerical method must
+     again govern.
+
+213. If the regulations are changed so that further play is impossible,
+     or if the legality of a move is impossible to determine with
+     finality, or if by the judge's best reasoning, not overruled, a
+     move appears equally legal or illegal, then the player with the
+     most credits wins.  This regulation takes precedence over every
+     other rule determining who wins this contest.
+
+III. 
+
+302. All People who legally participate in Recursa shall be called
+     Recursans.
+
+309. A regulation change is adopted if the number of votes cast for it
+     are equal to or greater than the number of votes against, unless
+     that regulation change transmutes an immutable rule, in which case
+     the number of for votes must be equal or greater than two times the
+     number of against votes for it to pass.
+
+310. Whenever a vote is taken, the legal votes are "for," "against," and
+     "abstain."  If a voter does not send in a vote that explicitly
+     states that it is "for" or "against," then the vote is counted as
+     "abstain." If a voter does not submit a required vote by the time
+     votes are required to be tabulated, that voter is counted as voting
+     "abstain" on all unsubmitted votes.  A vote of "abstain" is not
+     counted as part of the total when determining unanimity.  Unanimity
+     is defined as receiving no votes "against."
+
+     Whenever a voter casts a vote that is not "abstain" that voter
+     gains one credit.
+
+313. When a proposal passes, the Recursan who proposed it shall recieve
+     credits equal to the number of votes "for" the proposal.
+
+316. The term 'Recursa Rule' shall be synonymous with 'regulation of the
+     SubNomic contest'. If the term 'rule' is used in the regulations or
+     proposals of this contest without reference to any specific nomic,
+     it shall be interpereted to mean 'Recursa Rule'.
+
+317.  A regulation change is any of the following:
+      
+        i) The enactment, amendment, or repeal of a mutable regulation.
+       ii) The enactment, amendment, or repeal of an amendment.
+      iii) The transmutation of a immutable regulation into a mutable
+           regulation or vice versa.
+      
+      No regulation change may affect an unmutable regulation.
+
+319*  The Name of this Nomic shall be Recursa.
+
+320.  The contestmaster shall give each proposed regulation change an
+      ordinal number for reference.  The numbers shall begin with 301,
+      and each regulation change proposed in the proper way shall
+      receive the next successive integer, whether or not the proposal
+      is adopted.
+
+      If a regulation is repealed and re-enacted, it receives the number 
+      of the proposal to re-enact it.  If a regulation is amended or
+      transmuted, it receives the ordinal number of the proposal to
+      amend or transmute it.  If an amendment is amended or repealed,
+      the entire regulation of which it is a part receives the ordinal
+      number of the proposal to amend or repeal the amendment.
+
+321. If a regulation change as proposed is unclear, ambiguous,
+     paradoxical, or destructive of play, or if it arguably consists of
+     two or more regulation changes compounded, or is an amendment that
+     makes no difference, of if it is otherwise of questionable value,
+     then the other players may debate against the proposal before the
+     vote. One week is allowed for this debate, from the time the
+     contestmaster submits the proposal to all contestants, after which
+     time the vote is taken.
+
+322. All contestants are Recursians, but a person may be a Recursan
+     without being a contestant.  Such Recursans are referred to as
+     unbound.
+
+     An unbound Recursan cannot win the contest or become contestmaster.
+     An unbound Recursan is an eligible voter, and may submit proposals
+     to the contestmaster.
+
+323. Recursans may propose regulation changes by submitting them to
+     the contestmaster, who must then distribute the proposed change to
+     all Recursans for debate.  The contestmaster must distribute all
+     properly-submitted proposals within a week of receiving them.
+
+324. If Recursans disagree about the legality of a move or the
+     interpretation or application of a regulation, then the
+     contestmaster must chose a Recursan other than the Recursan
+     alleging the illegal move, or the Recursan who allegedly made
+     the illegal move, and appoint that Recursan as judge.  That
+     Recursan must then decide the question.  Disagreement, for the
+     purposes of this rule, may be created by the insistence of any
+     Recursan.  Such a process is called "invoking judgment."
+
+     The selected judge has one week to render an opinion.  If the judge
+     does not, the contestmaster may rule on the issue eimself.
+
+     The judge's judgment may be overruled only by unanimous vote of
+     the other Recursans.  Such overturning must be in a proposal sent
+     to the contestmaster, and voted upon in the same way as proposed
+     regulation changes.  If such a proposal passes, the contestmaster
+     chooses a new judge in the same manner as before, with the same
+     restrictions.  No Recursan may judge the same question twice. If
+     there are no remaining eligible Recursans to serve as judge, the
+     contestmaster must decide the question.
+
+     If the contestmaster issues a judgment, the ruling is final.
+
+     All judgments must be written and submitted to the contestmaster,
+     who must distribute them to all Recursans within a week.
+
+     New judges are not bound by the decisions of old judges.  New
+     judges may, however, settle only that question which e was assigned
+     to judge.  All judgments by judges shall be in accordance to the
+     regulations then in affect; but when the regulations are silent;
+     inconsistent, or unclear on the point at issue, then the judge's
+     only guides shall be common morality, common logic, and the spirit
+     of the contest.
+
+325. Each Recursan has exactly one vote.
+
+326. When a proposal is defeated, the Recursan who proposed it shall
+     lose credits equal to the number of votes "against" the proposal.
+
+327. All Recursans begin a new contest with exactly zero credits.
+
+330. In Recursa, there are two different things to "win": the contest,
+     and the game.  Unless otherwise specified, a "winner" shall mean
+     the winner of the game.
+     
+     The contest may be won when a proposal or rule specifies that it
+     does. The winner of thecContest shall be the contestant specified
+     in the proposal, or if none is specified, then a contestant chosen
+     by the contestmaster to win the contest.
+
+331. The winner of the game shall be any Recursan who has 100 credits.
+     If multiple Recursans achieve 100 at the same time, the one with
+     the most credits wins the game.  If multiple Recursans have the
+     most credits (a tie), the contestmaster shall choose the winner of
+     the game.
+
+
+
+--
+Steven Swiniarski  (aka S Andrew Swann)
+gb485@cleveland.freenet.edu
+Whenever you have an efficient government you have a dictatorship.
+                                        --Harry S Truman
+
+From c647100@showme.missouri.edu Fri Jul 21 01:38:48 1995
+Return-Path: c647100@showme.missouri.edu
+Received: from mail.missouri.edu (mail.missouri.edu [128.206.2.169]) by Shamino.quincy.edu (8.6.9/8.6.9) with ESMTP id BAA01355 for <blahedo@quincy.edu>; Fri, 21 Jul 1995 01:32:17 -0500
+From: c647100@showme.missouri.edu
+Received: from showme.missouri.edu (showme.missouri.edu [128.206.2.222]) by mail.missouri.edu (8.6.11/8.6.11) with ESMTP id BAA26526 for <blahedo@quincy.edu>; Fri, 21 Jul 1995 01:31:14 -0500
+Received: (c647100@localhost) by showme.missouri.edu (8.6.11/8.6.11) id BAA146296; Fri, 21 Jul 1995 01:31:03 -0500
+Date: Fri, 21 Jul 1995 01:31:03 -0500 (CDT)
+To: blahedo@quincy.edu
+Subject: Re: My Inquiry
+Message-ID: <Pine.A32.3.91.950721012105.136545A-100000@showme.missouri.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+Content-Length: 1366
+Lines: 26
+
+
+  I trust you received my previous missive. I am considering
+undertaking the project of writing the history of Agora and
+Nomic World from their origins. I have had a chance to talk
+to Steve and to go through the archives you have posted on
+quincy.edu, particularly the CFj and proposal files. May
+I commend you on a great job. I am amazed how much is
+preserved, as I know there were some great difficulties
+when you took over the office. With this information, I
+can work out a preliminary chronological skeleton for Agora. 
+As for Nomic World, Steve says he has some files, and there is
+of course Michael's www page which has Steve's summaries
+and some old rulesets (I have one myself). 
+   With regard to agra, there remain the discussion logs for
+teleport and yoyo. Of course I am not going to include every
+little topic discussed, but there are some seminal issues I
+can only get from the posts themselves. (And I have personal
+interest, also). I presume the teleport logs are the easiest
+to access. Steve suggested the yoyo logs still exist, but
+were difficult to use. Could you give me some details?
+  At any rate, it seems that the minimal amount of information
+exists for this project to be practicable. I hope you will
+assist me closely in acquiring the necessary information. This
+promises to be a huge undertaking, but also a very interesting one.
+
+Vlad
+
+From c647100@showme.missouri.edu Fri Jul 21 01:38:52 1995
+Return-Path: c647100@showme.missouri.edu
+Received: from mail.missouri.edu (mail.missouri.edu [128.206.2.169]) by Shamino.quincy.edu (8.6.9/8.6.9) with ESMTP id BAA01365 for <blahedo@quincy.edu>; Fri, 21 Jul 1995 01:37:52 -0500
+From: c647100@showme.missouri.edu
+Received: from showme.missouri.edu (showme.missouri.edu [128.206.2.222]) by mail.missouri.edu (8.6.11/8.6.11) with ESMTP id BAA26544 for <blahedo@quincy.edu>; Fri, 21 Jul 1995 01:36:49 -0500
+Received: (c647100@localhost) by showme.missouri.edu (8.6.11/8.6.11) id BAA174695; Fri, 21 Jul 1995 01:36:39 -0500
+Date: Fri, 21 Jul 1995 01:36:38 -0500 (CDT)
+To: Don Blaheta <blahedo@quincy.edu>
+Subject: Re: Archives
+In-Reply-To: <199507210630.BAA01350@Shamino.quincy.edu>
+Message-ID: <Pine.A32.3.91.950721013154.136570A-100000@showme.missouri.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+Content-Length: 2018
+Lines: 52
+
+On Fri, 21 Jul 1995, Don Blaheta wrote:
+
+> 
+> You ask:
+> > 
+> > Oh, archivist, could you answer some questions for me?
+> > 
+> > 1) How far back do the archives go?
+> 
+> Oh, December of '93, or so.
+> 
+> > 2) How complete are they?
+> 
+> Since about October I have a complete archive of the teleport
+> listservers.  Prior to that it is somewhat spotty; Jeffrey S. had kept
+> mail logs since Dec 93, which I now have.  I haven't gone through them
+> yet, though.
+> 
+> > 3) You claim on your www page that older archives are
+> > available. Do you keep them somewhere where I can download them
+> > or otherwise easily access them? E-mail is rather inconvenient
+> > as I will eventually want to look at *all* of them. Perhaps
+> > for only a few minutes at a time. Any ideas?
+> 
+> Not really.  The other machine I'm keeping stuff on has the distinct
+> advantage of no quotas, meaning that I can actually keep it all there.
+> However, it also has no ftpd or httpd.  (Actually, it doesn't even have
+> smail; it's CS student use, for compiling and stuff.)
+> 
+> You're right, FTP is incredibly inconvenient, though.  Hmm... if I clean
+> out my shamino account (that's the one with anon ftp) I could keep one
+> month at a time there...  For now, though, would you like me to mail you
+> the first month's worth?
+> 
+> > Vlad
+> 
+> Vanyel
+> 
+Ah . I hadn't realised you responded to my first message when
+I sent my second. This is very helpful. Please don't clear out
+shamino; I need the information there first, as it is most
+important for my history (as you now no doubt realize, me having 
+actually told you). I guess you can mail me the first month's
+logs, if they're not too big. However, I don't have much
+experience with this system (although it is UNIX). I would
+want to transfer it to the mac I'm working on now. That's why
+ftp is so useful: I can download it directly, bypassing my
+account. Once it is e-mailed, have any ideas how I can transfer
+it to my computer? I use telnet to get to my account.
+
+Thanks ever so much,
+Vlad
+
+From blahedo@quincy.edu  Tue Jul 25 09:13:45 1995
+Received: (from blahedo@localhost) by Shamino.quincy.edu (8.6.9/8.6.9) id JAA11561; Tue, 25 Jul 1995 09:13:42 -0500
+From: Don Blaheta <blahedo@quincy.edu>
+Message-Id: <199507251413.JAA11561@Shamino.quincy.edu>
+Subject: Re: Wanna form a Group?
+To: gb485@cleveland.freenet.edu, blahedo@quincy.edu, blspascal@aol.com,
+        donna@brucehall3.anu.edu.au, csg419@wing.rug.nl, jlc@triple-i.com,
+        andrew@brucehall3.anu.edu.au
+Date: Tue, 25 Jul 1995 09:13:42 -0500 (CDT)
+In-Reply-To: <199507250609.CAA04604@eeyore.INS.CWRU.Edu> from "Steven A Swiniarski" at Jul 25, 95 02:09:53 am
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+Status: RO
+Content-Length: 1718
+Lines: 37
+
+Aggh!  Why didn't you *ask* Contest members before announcing this one?
+I would have been perfectly willing to drop the X Group for a Recursa
+Group.  *I*, for one, don't want to have to maintain two different lists
+of players--members of the group should be members of the contest.
+
+But more importantly, why have you recreated a new Initial Ruleset for
+the Group?  What I think would be *much* more effective would be a very
+simple set of Ordinances:
+1) The Vizier and Ordinancekeepor of this Group is the Contestmaster of
+the Subnomic Contest, and is changed whenever the Contestmaster changes.
+2) All Group members must be members of the Subnomic Contest; any Player
+who is a member of the Subnomic Contest and requests to join this Group
+is automatically admitted, and any Group member who leaves the Contest
+is automatically ejected from this Group.
+3) The Ordinances may be changed only as specified in the Subnomic
+Contest Regulations.
+
+This would be enough of a start; it would essentially "slave" the Group
+to the Contest (computer network users know what I mean) and maintain a
+single set of rules for us poor Recursans to keep track of.  Plus, the
+Group should be called Recursa.
+
+On another note, I again ask: do any of you have access to a computer
+with listserv capabilities?  It gets irritating to have to reset the To
+field every time I want to mail the group.
+
+> Steven Swiniarski  (aka S Andrew Swann)
+> gb485@cleveland.freenet.edu
+> Whenever you have an efficient government you have a dictatorship.
+>                                         --Harry S Truman
+
+Vanyel
+
+-=-=-=-Don Blaheta-=-=-=-blahedo@quincy.edu-=-=-=-dblaheta@aol.com-=-=-=-
+
+"What's another word for Thesaurus?"
+		-- Steven Wright
+
+From gb485@piglet.INS.CWRU.Edu  Tue Jul 25 11:20:15 1995
+Received: from piglet.INS.CWRU.Edu (gb485@piglet.INS.CWRU.Edu [129.22.8.16]) by Shamino.quincy.edu (8.6.9/8.6.9) with ESMTP id LAA12212 for <blahedo@quincy.edu>; Tue, 25 Jul 1995 11:13:49 -0500
+Received: (gb485@localhost) by piglet.INS.CWRU.Edu (8.6.12+cwru/CWRU-2.1-bsdi)
+	id MAA02771; Tue, 25 Jul 1995 12:12:00 -0400 (from gb485)
+Message-Id: <199507251612.MAA02771@piglet.INS.CWRU.Edu>
+Date: Tue, 25 Jul 1995 12:12:00 -0400
+From: gb485@cleveland.Freenet.Edu (Steven A Swiniarski)
+To: gb485@cleveland.Freenet.Edu, donna@brucehall3.anu.edu.au,
+        blahedo@quincy.edu, BlsPascal@aol.com, csg419@wing.rug.nl,
+        jlc@triple-i.com, andrew@brucehall3.anu.edu.au
+Subject: Re: Wanna form a Group?
+Reply-To: gb485@cleveland.Freenet.Edu (Steven A Swiniarski)
+Status: RO
+Content-Length: 1035
+Lines: 25
+
+Reply to message from blahedo@quincy.edu of Tue, 25 Jul
+>
+>Aggh!  Why didn't you *ask* Contest members before announcing this one?
+>I would have been perfectly willing to drop the X Group for a Recursa
+>Group.  *I*, for one, don't want to have to maintain two different lists
+>of players--members of the group should be members of the contest.
+
+I haven't "announced" anything.  The hypothetical group has yet to
+exist.  If another Recursa member (I believe Xanadu or half of Xanadu
+expressed an interest) expressed an interest I would gladly have a
+"slave" group to Recursa....  I sent a letter to that effect awhile ago
+and didn't get much of a response.
+
+The hypothetical group is just an idea, the Recursa group idea still takes
+precidence over it *if* enough people are interested.
+
+ie.  enough to form the Group.
+
+Contestmaster Swann
+
+--
+Steven Swiniarski  (aka S Andrew Swann)
+gb485@cleveland.freenet.edu
+Whenever you have an efficient government you have a dictatorship.
+                                        --Harry S Truman
+
+From c647100@showme.missouri.edu  Tue Jul 25 15:20:14 1995
+Received: from mail.missouri.edu (mail.missouri.edu [128.206.2.169]) by Shamino.quincy.edu (8.6.9/8.6.9) with ESMTP id PAA13647 for <blahedo@quincy.edu>; Tue, 25 Jul 1995 15:18:19 -0500
+From: c647100@showme.missouri.edu
+Received: from showme.missouri.edu (showme.missouri.edu [128.206.2.222]) by mail.missouri.edu (8.6.11/8.6.11) with ESMTP id PAA22860 for <blahedo@quincy.edu>; Tue, 25 Jul 1995 15:17:09 -0500
+Received: (c647100@localhost) by showme.missouri.edu (8.6.11/8.6.11) id PAA113377; Tue, 25 Jul 1995 15:16:53 -0500
+Date: Tue, 25 Jul 1995 15:16:53 -0500 (CDT)
+To: blahedo@quincy.edu
+Subject: New Old Proposals
+Message-ID: <Pine.A32.3.91.950725150354.142455A-100000@showme.missouri.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+Content-Length: 1283
+Lines: 32
+
+Going through my old records I have
+found some interesting things. One of
+them is an old Ruleset which preserves
+some proposals not found in your archives.
+I need to go through and figure out
+which were rule creations and which
+amendments. It also provides a dilemma
+concerning the date of the ruleset and
+the date of the proposals in the archive.
+The rules in the ruleset are so similar to
+those in the archive that I assumed that
+the archive represented an old Ruleset.
+Since almost all of the proposals in the
+archive passed, that seemed correct.
+Yet which came first? Since my ruleset 
+preserved some proposals the archives don't,
+I concluded the archives came later and those
+rules had been repealed. Yet the archive also 
+has rules not in the ruleset!
+  The mystery deepens. The ruleset ends at rule 783,
+implying a date in December. The archives cut off
+at proposal 792, slightly later. Moreover, the
+proposal after 783, 784, is preserved by the
+archives, was authored by me (and failed!). Why
+is it preserved in the archives? I believe it
+dated to early December. The archives would seem to
+end in early January. I'm not sure why I would have
+kept such a ruleset, but if I did, why is it
+incomplete? It is clear some Quellenkritik is 
+necessary. Will keep you updated.
+
+Vlad
+
+From ccarroll@students.wisc.edu  Tue Aug  1 14:30:55 1995
+Received: from audumla.students.wisc.edu (students.wisc.edu [144.92.104.66]) by Shamino.quincy.edu (8.6.9/8.6.9) with ESMTP id OAA00905 for <blahedo@quincy.edu>; Tue, 1 Aug 1995 14:26:47 -0500
+Received: from [144.92.181.61] by audumla.students.wisc.edu;
+          id NAA22026; 8.6.9W/42; Tue, 1 Aug 1995 13:25:49 -0500
+X-NUPop-Charset: English
+Date: Tue, 1 Aug 95 13:23:59 CDT  
+From: "Charles E. Carroll"  <ccarroll@students.wisc.edu>
+Sender: ccarroll@students.wisc.edu
+Message-Id: <48248.ccarroll@students.wisc.edu>
+To: nomic-official@teleport.com
+Cc: blahedo@QUINCY.EDU
+Subject: CFJ 799: Reassignment
+Status: RO
+Content-Length: 2138
+Lines: 80
+
+Reassignment of CFJ 799
+
+Due to favor's declining, favor loses 2 points and Chuck gains
+1 point.
+
+The Judge is Vanyel.
+
+============================================================
+
+CFJ 799
+
+Caller: elJefe
+
+Statement: Sugarwater's Injunctions in CFJ 795, are illegal and invalid.
+
+Barred: none
+Requested Injunction: none
+
+Judge: Vanyel
+
+Effects reported by COTC (* indicates new to this report):
+ *favor loses 2 points for declining
+ *Chuck gains 1 point for favor's declining
+
+============================================================
+
+Selection of Judge
+
+Ineligible:
+  Andre       (on Hold)
+  Brian       (1005, or e may not even be a Player)
+  elJefe      (caller and on Hold)
+  favor       (declined)
+  JonRock     (1005)
+  Pascal      (1005 and on Hold)
+
+Eligible:
+  Chuck       (Knight of Swords)
+  Dave B      (King of Swords)
+  Ian         (The Star)
+  Kelly       (Knight of Pentacles)
+  KoJen       (The Hierophant)
+  Michael     (10 of Cups)
+  Steve       (Justice)
+  SugarWater  (The Fool)
+  Swann       (2 of Swords)
+  TAL         (6 of Pentacles)
+  Vanyel      (Knight of Wands)
+  Vlad        (2 of Wands)
+  Xanadu      (The Hermit)
+  Zefram      (Page of Swords)
+
+The card drawn is: Knight of Wands--Vanyel
+
+============================================================
+
+History:
+  Called by elJefe on, 31 Jul 1995 14:05:13 -0400
+  Assigned to favor Tue, 1 Aug 95 02:30:17 CDT
+  Declined by favor Tue, 1 Aug 95 11:23:23 EDT
+  Assigned to Vanyel {as of this message}
+
+============================================================
+
+Arguments of Caller (elJefe):
+
+For one thing, there is no allegation in the Statement against a
+particular Player.
+
+Nor is there evidence in the record that the Vizier committed an
+illegal act.  "Performing the dissolution" is meaningless.  The Ordinance
+says that the group dissolves upon receiving the consent of the members.
+So are you looking for the person/persons giving consent?  And where is
+the evidence that the Vizier actually gave consent?
+
+============================================================
+
+End of CFJ 799
+
+============================================================
+
+From cogen@ll.mit.edu  Tue Aug 15 06:55:24 1995
+Received: from ll.mit.edu (root@LL.MIT.EDU [129.55.12.3]) by Shamino.quincy.edu (8.6.12/8.6.9) with SMTP id GAA32482 for <blahedo@quincy.edu>; Tue, 15 Aug 1995 06:55:22 -0500
+Received: by ll.mit.edu (4.1/LL-1.3) id AA24984; Tue, 15 Aug 95 07:52:19 EDT
+Date: Tue, 15 Aug 95 07:51:55 -0400
+From: cogen@ll.mit.edu (David Cogen)
+Message-Id: <9508150751.AA04780@LL.MIT.EDU>
+To: blahedo@quincy.edu
+In-Reply-To: <199508150707.CAA31647@Shamino.quincy.edu> (message from Don Blaheta on Tue, 15 Aug 1995 02:07:02 -0500 (CDT))
+Subject: Re: Need props
+Status: RO
+Content-Length: 8905
+Lines: 243
+
+Summary:
+
+PROPOSAL 1663 (Steve) AI=1, protoed
+Fix a bug in 1465
+
+PROPOSAL 1664 (SugarWater) AI=1
+The Aristocrat
+
+PROPOSAL 1665 (SugarWater) AI=1
+Establishment of Initial Aristocrats
+
+PROPOSAL 1666 (SugarWater) AI=1
+Influence of Aristocrats
+
+Proposal 1667 (Chuck) AI=1
+Truth in Advertising
+
+Proposal 1668 (Chuck) AI=1
+Fix Rule Title Change Directive AI's
+
+PROPOSAL 1669 (Chuck) AI=1
+Currency Directive AI=1
+
+PROPOSAL 1670 (Chuck) AI=1
+Correction to Prop 1640
+
+-----------------------------------------------------------------------------
+
+PROPOSAL 1663 (Steve) AI=1, protoed
+Fix a bug in 1465
+
+Amend Rule 1465 by changing the last sentence of the first paragraph
+to read:
+
+      Responsibility is given to the Registrar to accurately record
+      in eir Report the times of commencement and conclusion of
+      of all Champion's Rewards which have been granted and have not
+      yet been withdrawn.
+
+Comment: as things stand, the Registrar would have to keep noting,
+for instance, that kelly's Reward commenced on Jun 19, 1995, and
+concluded on Jul 17, 1995, long after this information has ceased to
+be of interest.
+
+-----------------------------------------------------------------------------
+
+PROPOSAL 1664 (SugarWater) AI=1
+The Aristocrat
+
+	There exists a rule with the following text:
+
+	These exists a type of Nomic Entity known as an
+	Aristocrat.  An Aristocrat is a Voting Entity.
+
+	An Aristocrat has a Default Vote and a Name.  Each Aristocrat 
+	will Vote once on each proposal.  Unless the Aristocrat is
+	Influenced in a manner defined by these rules, that Vote
+	will be the Default Vote.  The Assessor keeps track of
+	Aristocrat Votes, and those Votes are publishes in 
+	eir report(s) along with Player Votes.
+
+	The number of Aristocrats is added to the number of
+	Active Players for the purposes of determining Quorom.
+
+-----------------------------------------------------------------------------
+
+PROPOSAL 1665 (SugarWater) AI=1
+Establishment of Initial Aristocrats
+
+	There exists a rule with the following text:
+
+	There exists an Aristocrat whose Name is Fortinbras.
+	Fortinbras' Default Vote is FOR.
+
+	There exists an Aristocrat whose Name is Augustine.
+	Augustine's Default Vote is AGAINST.
+
+	There exists an Aristocrat whose Name is Zombie.
+	Zombie's Default vote is ABSTAIN.
+
+-----------------------------------------------------------------------------
+
+PROPOSAL 1666 (SugarWater) AI=1
+Influence of Aristocrats
+
+	There exists a rule with the following text:
+
+	It is possible to change the vote of an Aristocrat by
+	Influencing them.
+
+	To Influence an Aristocrat, a Player must send a message 
+	containing the following to the Assessor:
+
+		1) The name of the Aristocrat to be Influenced.
+
+		2) The Intended Vote of the Aristocrat.
+
+		3) A number of Marks, which the Player must own.
+
+	For the purposes of this Rule, a Step Modifier is a 
+	number of Marks based upon the difference between an
+	Aristocrat's Default Vote, and the Vote which an Influencing Player 
+	intends the Aristocrat to make.  The Step Modifier between a Vote of
+	FOR and a Vote of AGAINST (or vice versa) is 1 (one) Mark.  
+	The Step Modifier between a vote of ABSTAIN and any other Vote
+	(or vice versa) is .5 (one-half) Mark.
+
+
+	To determine the Vote of an Aristocrat, the Assessor must
+	evaluate the Influence of the Players.  The Influence of the
+	Player is the number of Marks offered in their
+	Influencing message minus the Step Modifier of the
+	intended Vote.
+
+	If an Aristocrat receives no Influence, or if all
+	Influence intended for that Aristocrat is negative or zero,
+	The Vote of that Aristocrat is its Default Vote.
+	Otherwise, the Vote of the Aristocrat is the Intended Vote
+	defined by the Player with the most Influence over that
+	Aristocrat.  In the event that more than one Player
+	has equal Influence over an Aristocrat, a random Player
+	is selected from among those Players, and that Player
+	has Influence over that Aristocrat.
+
+	If a Player successfully influences an Aristocrat, a number of
+	Marks equal to the number offered in eir Influencing message
+	is transferred from that Player to the Bank.
+
+	It is the job of the Assessor to monitor the Votes of the
+	Aristocrats, determine the Influence of Players, and report
+	resulting Marks transfers to the Bankor.
+
+-----------------------------------------------------------------------------
+
+Proposal 1667 (Chuck) AI=1
+Truth in Advertising
+
+This Proposal contains one proposed Rule Change and zero Directives.
+
+I. A Rule shall be created with the following text:
+
+      No Player shall present, as correct, information which e
+      believes to be incorrect in any of the following:
+        -a post to the Public Forum
+        -evidence in a COE, CFJ, or Judgement
+        -a response to a request for information which the
+         Player is required to provide.
+
+[This prevents deliberate posting of incorrect Officer Reports or
+deliberate forgeries as evidence.  Both of these have been legal
+since the beginning of Agora.  Still legal would be: accidentally
+incorrect Officer Reports; using incorrect reports as evidence
+as long as they were presented as incorrect; and information which
+the poster has no belief on one way or the other.
+
+After some discussion of the appropriate penalty for violation of
+this Rule, I have decided not to include a penalty clause at this
+time.  I will propose to amend it to include a penalty clause (if
+no one else has already done it) after Kelly's Crime proposal
+passes or fails.]
+
+-----------------------------------------------------------------------------
+
+Proposal 1668 (Chuck) AI=1
+Fix Rule Title Change Directive AI's
+
+This Proposal contains one proposed Rule Change and zero Directives.
+
+I.  The part of Rule 1485 which currently reads
+
+      A Rule's Title may be changed by a Directive. The Adoption Index
+      of a Proposal containing such a Directive must be at least as
+      great as the Mutability Index of the Rule. The Directive must
+      unambiguously state the number of the Rule and the new Title.
+
+is amended to read
+
+      A Rule's Title may be changed by a Directive.  The Adoption Index
+      of a Proposal containing such a Directive must be at least 2.
+      The Directive must unambiguously state the number of the Rule and
+      the new Title.
+
+[The Title of a Rule has no effect whatsoever on the application of
+the Rule.  It is, in this respect, similar to the category of the
+Rule in the Logical Ruleset.  Thus, similar to changing the category
+of the Rule, changing the Title of the Rule should have a fixed AI
+of 2 rather than tying it to the MI of the Rule as 1485 currently does.
+
+2 rather than 1 (similar to changing the category) to prevent arbitrary
+changes of Rule Titles.  Conversely, there is absolutely no reason
+why changing the Title of a MI=4 Rule should require an AI of 4!
+
+I suggested this to KoJen when the proposal to create 1485 was
+in the proto stage, and I don't know why he didn't incorporate
+it into the proposal.]
+
+-----------------------------------------------------------------------------
+
+PROPOSAL 1669 (Chuck) AI=1
+Currency Directive AI=1
+
+This Proposal contains one proposed Rule Change and zero Directives.
+
+I.  Rule 1466 is amended by deleting the sentence
+
+      A Proposal containing one or more Currency Directives has an
+      Adoption Index of 2, or higher if something else in the Proposal
+      requires a higher index.
+
+[There is absolutely *no* incentive to use a Currency Directive
+with AI=2 when a self-repealing rule will have the same effect with
+AI=1.  In my mind, the primary reason for the existence of Currency
+Directives is not to make it more difficult to change Currencies,
+but to avoid the ugly kludge of a self-repealing Rule.  The
+current Rule 1466 utterly fails in this.  (See Swann's Proposal
+1652 for an example.)
+
+One might argue that we merely need to better define what sort
+of transfers are described in Currency Directives, and what
+sort of transfers are described in Rules, but I would argue that
+you can never specify that clearly enough.  The only way to
+have currency transfers require AI=2 is to require any Rules
+specifying currency transfers to have an AI=>2, and I don't
+think that's what we want.]
+
+-----------------------------------------------------------------------------
+
+PROPOSAL 1670 (Chuck) AI=1
+Correction to Prop 1640
+
+This proposal contains one proposed rule change and zero directives.
+
+I. Rule 1446 shall be amended by deleting the paragraph which
+begins, "If the Contest Regulations require a transfer to be made, but
+the Contest Fund has insufficient currencies to permit that transfer to
+be made" shall be deleted.
+
+[This is what the second rule change in proposal 1640 was supposed to
+do, but I had accidentally put "1466" instead of the "1446" it
+should be.  Doesn't anyone check these things???]
+
+-----------------------------------------------------------------------------
+
+
+From gardner@aurora.cc.monash.edu.au  Tue Aug 15 23:53:51 1995
+Received: from aurora.cc.monash.edu.au (gardner@aurora.cc.monash.edu.au [130.194.1.91]) by Shamino.quincy.edu (8.6.12/8.6.9) with ESMTP id XAA05411 for <blahedo@quincy.edu>; Tue, 15 Aug 1995 23:53:48 -0500
+Received: (gardner@localhost) by aurora.cc.monash.edu.au (8.6.12/8.6.4) id OAA10914 for blahedo@quincy.edu; Wed, 16 Aug 1995 14:52:07 +1000
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199508160452.OAA10914@aurora.cc.monash.edu.au>
+Subject: 737 appeal judgements missing
+To: blahedo@quincy.edu (Don Blaheta)
+Date: Wed, 16 Aug 1995 14:52:06 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Status: RO
+Content-Length: 491
+Lines: 10
+
+Archivist Vanyel,
+
+I just went to look at CFJ 737 in the archives (just for nostalgia's
+sake), but I could find there only your original Judgement. I seem
+to remember there being an Appeal, and I seem to remember Judging
+it. Have the Appeal Judgements been lost forever?
+
+Steve Gardner                     |  "Justice? You get justice in the next
+Dept. of Philosophy, Monash Uni.  |   world, in this world you get the law."
+gardner@aurora.cc.monash.edu.au   |          --  William Gaddis --
+
+From blahedo@quincy.edu  Wed Sep 27 19:02:15 1995
+Received: (from blahedo@localhost) by Shamino.quincy.edu (8.6.12/8.6.9) id TAA23652; Wed, 27 Sep 1995 19:02:13 -0500
+From: Don Blaheta <blahedo@quincy.edu>
+Message-Id: <199509280002.TAA23652@Shamino.quincy.edu>
+Subject: Agora Nomic
+To: wnight@vanbc.wimsey.com
+Date: Wed, 27 Sep 1995 19:02:13 -0500 (CDT)
+X-Mailer: ELM [version 2.4 PL24]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Status: RO
+Content-Length: 1375
+Lines: 29
+
+Hello!  My name is Don Blaheta, and I am the Ambassador of Agora Nomic
+(my nickname there is "Vanyel").  One of our members forwarded me your
+post to alt.games.abstract, so I'm responding.
+
+Agora was started in June of 1993, and is still going strong with around
+20 members.  We make proposals to change our ruleset, and vote on those
+proposals; the ruleset is currently about 200 Rules long, and many, many
+K.  To get a copy of the ruleset, ftp to ftp.quincy.edu (anonymously, of
+course), and navigate through /pub/users/blahedo/agora.  This is the FTP
+location of the Agora Nomic Archives.  (You said you didn't have Web
+access, but the URL is http://www.quincy.edu/~blahedo/agora.html)  There
+you can pick up the ruleset.  Usually I have other Agora stuff there,
+but I'm pushing quota at the moment. :)
+
+We have four mailing lists: nomic-official, nomic-business,
+nomic-discussion, and yoyo.  To find out how to join these various
+lists, send mail to majordomo@teleport.com, with "info nomic-official"
+in the body of your message.  To be a Player you must be subscribed to
+nomic-official, nomic-business, and yoyo, but nomic-discussion is also
+very highly recommended.
+
+I hope to see more of you, then!
+
+Ambassador Vanyel
+
+-=-=-=-Don Blaheta-=-=-=-blahedo@quincy.edu-=-=-=-dblaheta@aol.com-=-=-=-
+
+Trying to establish voice contact ... please ____yell into keyboard.
+
+
+From poverty!kelly@mizar.astro.indiana.edu  Thu Oct 19 12:23:57 1995
+Received: from mizar.astro.indiana.edu (mizar.astro.indiana.edu [129.79.160.43]) by Shamino.quincy.edu (8.6.12/8.6.9) with SMTP id MAA22788 for <blahedo@quincy.edu>; Thu, 19 Oct 1995 12:23:56 -0500
+Received: from poverty by mizar.astro.indiana.edu with uucp
+	(Smail3.1.28.1 #7) id m0t5ygC-0001xjC; Thu, 19 Oct 95 12:22 EST
+Received: by poverty.bloomington.in.us (V1.17-beta/Amiga)
+	  id <3vwe@poverty.bloomington.in.us>; Thu, 19 Oct 95 12:19:46 EST5
+Date: Thu, 19 Oct 95 12:19:46 EST5
+Message-Id: <9510191719.3vwe@poverty.bloomington.in.us>
+From: kelly@poverty.bloomington.in.us (Kelly Martin)
+To: jlc@camex.com, ccarroll@students.wisc.edu, blahedo@quincy.edu
+Subject: a proto-thesis on agoran metaphysics
+Status: RO
+Content-Length: 7721
+Lines: 140
+
+Steve and i spent a copuple hours chatting about this sort of stuff
+last night.  this is a rough writeup of what we talked about, and i
+thought i'd ask your opinions on it as well.
+
+Chuck, is JAN still around?  i might consider submitting this after i
+finish fleshing it out a bit.
+
+k.
+
+----------------------------------------------------------------------
+
+A Theory of Agoran Metaphysics
+
+Recently, several Players, especially Morendil, have sough to
+establish a standard by which "moves" must be recorded for future
+examination, and which only gives legal force to those moves which are
+properly recorded.  This author believes that one of major problems
+with this effort is that the concept of "move" is not currently
+well-defined in the Agoran framework.  This paper seeks to establish a
+theory of Agoran metaphysics in which the concept of "move" (or, more
+properly, "event") is consistently established, in the hopes that we
+can better understand what is meant by an "move" in Agora Nomic.
+
+For the purposes of this discussion, we shall presume that the
+Agoraverse is wholly causal, in that everything that takes place
+within it is caused by something else.  The First Cause, which created
+the Agoraverse, was the adoption of the Initial Rules; with this act
+(which was caused by the collective will of the Players who implicitly
+agreed upon these Rules), is an example of what we shall call
+Miracles: uncaused causes.  As we shall see, every Player action is a
+Miracle.
+
+A further note before we proceed.  It is obvious, upon brief
+reflection, that the Rules do not completely define the physical laws
+of the Agoraverse.  The author is of the belief, however, that the
+Rules, taken together with Game Custom, do in fact completely define
+the physical laws of the Agoraverse.  When the author refers to the
+Rules, from here forth, this shall be taken to include Game Custom in
+its aspect in "completing" the Agoran system of axiomatic law.  It is
+worth nothing at this juncture that the process of Judging a CFJ is
+therefore not merely one of axiomatic reasoning, but also one of
+creation: the Judge must create--or perhaps discover--new Game Custom
+to fill the gaps in the Rules themselves.
+
+So, let us attempt to define what a move is.  On a first glance, it
+seems that a move is an action which causes some change in the Game
+State.  But what is the Game State?  The Game State is merely the
+collective of all the properties which the Rules have defined.  It is
+important to note that we do not speak here of entities, but rather of
+properties.  Players are entities which are not defined by the Rules.
+If we were to define a move as any change to an entity defined by the
+Rules, then any change to a Player, even to a property of a Player
+defined solely by the Rules, would not be a move, and this fails to
+serve our purposes.  So, we instead define the Game State to be the
+collection of all the properties that are defined by the Rules, and we
+provisionally define a move as a Player action which in some way
+changes the Game State.  
+
+Yet here we have a problem.  It appears that certain changes to the
+Game State occur without any specific action on the part of any
+Player.  For example, every week, Salaries are paid out to Officers.
+While the Scorekeepor is required to detect and report these changes
+to the Game State, e does not cause them: they are instead caused by
+the Rules themselves.  So it appears that the Game State can change
+without the act of any Player.  Let us, therefore, refer to any change
+of any property of the Game State as an "event", without regard to the
+causation of the event.
+
+Now, we have agreed to consider the Agoraverse to be completely
+causal: every event therefore has a cause.  Some events are caused
+strictly as a consequence of the Rules (and, again, here the author
+stresses that "the Rules" here is intended to include Game Custom as
+well as any subsidiary elements such as Ordinances or Contest
+Regulations which have the semblance of Rules), while others seem to
+erupt from nowhere within the Agoraverse.  These latter events are
+precisely those which are caused by Players, and are the moves we seek
+to define.  Since moves appear to spring from nowhere, we shall call
+them Miracles; every move is a Miracle, and the terms are effectively
+interchangable. 
+
+So now we have defined an event as the change in the Game State, and
+further defined a move as an event caused by a Player.
+
+Now, clearly, Players are not omnipotent gods: no Player can simply,
+say, cause a Rule to cease to exist.  So we have to make one of two
+choices here, when dealing with what are commonly called "illegal
+moves".  Either "illegal moves" are not moves at all, in that they
+have no effect on the Rules, or they are in fact moves, but moves
+which have effect other than the obvious intent of the Player.  This
+author favors the latter interpretation.  The first interpretation
+prevents us from penalizing "illegal moves", for it claims that
+illegal moves are not moves at all.  But how can a penalty arise
+(clearly an event) from something which has not occured?  Doesn't this
+violate our principle of causation?  If we, instead, adopt the
+principle that Miracles may (or may not) trigger further
+non-miraculous events, as specified by the (extended) Rules, we avoid
+this entire quagmire.  
+
+A consequence of this principle is that Miracles cannot be retracted.
+Once a Player has performed a miracle, it is a fait accompli, a
+permanent part of the history of the Agoraverse.  The Player, or
+another Player, might later perform another Miracle whose effect is to
+partially or wholly reverse the effect of the first, but that's not
+the same as retracting the first miracle, because time has passed.
+
+However, if we consider the subsequent nonmiraculous events arising
+consequential to a miracle, we see that, in a manner of speaking,
+these can be "retracted".  The retraction of a "move", therefore,
+consists in determining, as a matter of fact, that some or all of the
+physical events initially believed to have occurred consequent to the
+move actually did not occur, and that our perception of the Agoraverse
+was flawed in this regard (obviously, the author is a Platonist!).
+It is also possible that, as a consequence of this determination, it
+is found that other events, not initially believed to have taken
+place, have in fact taken place.
+
+The determination spoken of above is not necessarily arrived by
+through the process of a Call for Judgement.  A Call for Judgement is
+itself a sequence of moves.  As previously noted, the act of Judging a
+CFJ not only serves to determine facts about the Game State, but can
+also change the (extended) Rules, through the creation of Game Custom.
+It is important to note that Judging a CFJ is itself a Miracle!
+
+It is worth pointing out that the Rules wholly determine the timing
+and nature of those nonmiraculous events which occur subsequent to a
+Miracle, and also that the "legality" of a move is merely an attribute
+of that move.  Illegal moves exist, and in fact have just as much
+power to trigger events as "legal" moves.  All that it means for a
+move to be illegal is that it does not comply with that portion of the
+Rules that determine what moves possess the property of legality.
+Illegal moves still take place, and still have whatever effects (that
+is, subsequent events) that the Rules permit them to have, the same as
+legal moves.
+
+--
+kelly martin                                 <kelly@poverty.bloomington.in.us>
+
+       Bitte vergiﬂ alles, was Du auf der Schule gelernt hast; denn Du
+       hast es nicht gelernt.  (Please forget everything that you have
+       learned in school, for you have not learned it.)  -- Emil Landau
+
+From dietrmi@quincy.edu  Thu Oct 19 18:26:22 1995
+Received: (from dietrmi@localhost) by Shamino.quincy.edu (8.6.12/8.6.9) id SAA32572; Thu, 19 Oct 1995 18:26:22 -0500
+Date: Thu, 19 Oct 1995 18:26:21 -0500 (CDT)
+From: Disco Daddy Dietrich <dietrmi@Shamino.quincy.edu>
+To: Darin Reynolds <reynoda@Shamino.quincy.edu>,
+        Kevin Maurer <maureke@Shamino.quincy.edu>
+cc: Don Blaheta <blahedo@Shamino.quincy.edu>,
+        Debbie Benz <benzde@Shamino.quincy.edu>, prattme@Shamino.quincy.edu
+Subject: new proposal (fwd)
+Message-ID: <Pine.LNX.3.91.951019182152.31425C-100000@Shamino.quincy.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+Content-Length: 1798
+Lines: 43
+
+
+
+---------- Forwarded message ----------
+Date: Wed, 18 Oct 1995 19:18:35 -0500 (CDT)
+From: Disco Daddy Dietrich <dietrmi@Shamino.quincy.edu>
+To: Keith Reedy <reedkei@Shamino.quincy.edu>
+Cc: steve klostermann <swklost@rs6000.cmp.ilstu.edu>,
+    Tammy Welch <welchta@Shamino.quincy.edu>
+Subject: new proposal
+
+	
+			PROPOSAL TO DO NOTHING
+
+The amended proposal on the table is the following:
+	The Student Senate "Do Nothing" committee has been established to 
+accomplish absolutely nothing.  Doing nothing productive often wastes a 
+valuable amount of Senate's time; so it has become necessary to delegate 
+this task to a commitee.  The committee will consist of students from the 
+following six clubs:  The College Libertarians, The College Democrats, 
+The College GOP, Delta Sigma Pi, the North Campus Lifeguard Club, and the 
+QU Drinking Club.
+	The Student Senate receives 24 hours per each day of each 
+semester (excepting time change days).  This time is available to be 
+wasted as follows:
+	30% for sleeping purposes
+	30% for eating purposes
+	30% for watching TV
+	10% for wasting money
+	The following guidelines will be observed.  The minimum amount of 
+money to be spent of wasteful items will be increased from $50 to $400.  
+Note that the three year minimum expected life of these products will be 
+alxo eliminated.  Also, time normally used for eating can be wasted on 
+useless meetings instead.  Note that if any member misses a substantial 
+amount of meetings, he/she cannot be replaced by a reasonably appointed 
+member from the general student population, as they are not as qualified 
+to wasted time as the above listed members.
+
+
+
+
+This proposal is intended for entertainment purposes only.  It is not for 
+use in an actual Senate meeting.  All similarities are purely coincidental.
+
+
+From blahedo@quincy.edu  Mon Oct 30 16:05:42 1995
+Received: (from blahedo@localhost) by Shamino.quincy.edu (8.6.12/8.6.9) id QAA15771; Mon, 30 Oct 1995 16:05:41 -0600
+From: Don Blaheta <blahedo@quincy.edu>
+Message-Id: <199510302205.QAA15771@Shamino.quincy.edu>
+Subject: About Agora Nomic
+To: dfrayne@aol.com
+Date: Mon, 30 Oct 1995 16:05:41 -0600 (CST)
+X-Mailer: ELM [version 2.4 PL24]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Status: RO
+Content-Length: 1706
+Lines: 38
+
+Hello!  I was forwarded your request to know about the Agora Nomic
+mailing lists.  As Ambassador of Agora Nomic, I'm sending you this
+informational packet, and info on how to find more.
+
+ABOUT AGORA
+
+Agora is one of the older net-Nomics in existence.  Running since June
+1993, it has grown from 6 players to 21, and the ruleset has gone from a
+mere handful of rules to over 200.  We always welcome new Players, and
+we like to try to make their initial stay a bit easier.
+
+The Agora Ruleset is fairly complex--it is, after all, the basis of the
+game, and has been evolving for almost two-and-a-half years--but the
+basic info that needs to be understood at first is relatively small.
+The more in-depth aspects of the game (Contests, Groups, Kudos, Win
+Tokens, etc.) can be ignored, initially.
+
+To find out more about us, visit our web pages, at the following address:
+
+http://www.quincy.edu/~blahedo/agora/
+
+That is the Official Agora Home Page, maintained by the Ambassador,
+Vanyel, and contains links to the most current ruleset, recent officer
+reports, and the Archives (also maintained by Vanyel).  Most important
+to the Agora newbie is the Agora Guidebook, just revised to 3rd edition;
+this should give a general idea of how things work and some of the
+general Agoran customs, without reading the now-greater-than-250K
+ruleset.
+
+If you have any additional questions about Agora, Nomic in general, or
+anything else mentioned above, mail me at blahedo@quincy.edu.
+
+Agora Nomic Ambassador Vanyel
+
+-=-=-=-Don Blaheta-=-=-=-blahedo@quincy.edu-=-=-=-dblaheta@aol.com-=-=-=-
+
+New Hampshire law forbids you to tap your feet, nod your head, or in
+any way keep time to the music in a tavern, restaurant, or cafe.
+
+From jlc@Camex.COM  Fri Nov  3 08:51:31 1995
+Received: from torii.triple-i.com (torii.triple-i.com [192.94.150.1]) by Shamino.quincy.edu (8.6.12/8.6.9) with ESMTP id IAA05655 for <blahedo@quincy.edu>; Fri, 3 Nov 1995 08:51:30 -0600
+Received: from Camex.COM (Camex.COM [134.54.1.1]) by torii.triple-i.com (8.6.9/8.6.9) with SMTP id GAA04123 for <blahedo@quincy.edu>; Fri, 3 Nov 1995 06:50:40 -0800
+Received: from zeus.Camex.COM by Camex.COM (4.1/SMI-4.2)
+	id AA27860; Fri, 3 Nov 95 09:50:51 EST
+Received: by zeus.Camex.COM (5.x/SMI-SVR4)
+	id AA29349; Fri, 3 Nov 1995 09:50:15 -0500
+Date: Fri, 3 Nov 1995 09:50:15 -0500
+From: jlc@triple-i.com (Jeff Caruso)
+Message-Id: <9511031450.AA29349@zeus.Camex.COM>
+To: blahedo@quincy.edu
+Subject: Re: BUS: Claim of Error (Score Report of 30 Oct)
+Status: RO
+Content-Length: 1092
+Lines: 34
+
+> It was wrong in any case. 
+
+Why?
+
+> but for now:  REPEAL BOOKIE CONTESTANTS,
+> PAY ATTENTION: You owe the Contest 6 Marks apiece.
+
+Well, I will of course obey the Regulations of the Contest.
+
+------------------------------------------------------------
+H. Banker:
+  I transfer 6 Marks from myself to the Repeal Bookie contest.
+
+  If possible, I ratify all Mark transfers made from me on my
+  behalf by the Repeal Bookie contest before Oct. 22.  
+
+  If that is not possible and the transfers are invalidated, I 
+  transfer a number of Marks from myself to the Repeal Bookie
+  equal to the amount of the invalidated transfers before Oct. 22.
+------------------------------------------------------------
+
+> In retrospect (hindsight is 20/20!) I should have worded that "One
+> Mark is transferred from every Contestant to the Contest Treasury".
+> *sigh*
+
+But what Rule now gives Contests the power to _require_ transfers
+(of Class II)?
+
+Regards,
+- elJefe
+
+******************************************************************
+  Dr. Jeffrey L. Caruso <jlc@triple-i.com>
+  Information International
+
+From daemon@anon.penet.fi  Sat Nov  4 08:52:44 1995
+Received: from anon.penet.fi (anon.penet.fi [193.64.202.3]) by Shamino.quincy.edu (8.6.12/8.6.9) with SMTP id IAA22018 for <blahedo@quincy.edu>; Sat, 4 Nov 1995 08:52:42 -0600
+Received: by anon.penet.fi (5.67/1.35)
+	id AA28814; Sat, 4 Nov 95 16:42:39 +0200
+Message-Id: <9511041442.AA28814@anon.penet.fi>
+To: blahedo@quincy.edu
+From: an430732@anon.penet.fi
+X-Anonymously-To: an157112
+Organization: Anonymous forwarding service
+Reply-To: an430732@anon.penet.fi
+Date: Sat,  4 Nov 1995 14:42:37 UTC
+Subject:       Re: OFF: Judgment on CFJ 813
+Status: RO
+Content-Length: 902
+Lines: 17
+
+Anon sez:
+
+> The problem is, I intended to identify myself a few days after the
+> results came out, but I forgot.  So now, several months later, I'll tell
+> everyone who I am...  but not right off.  I'll at least make it
+> interesting--post your guesses as to my identity to the listserver.  If
+> I read n-discussion, I will see them, and if not, I will pull the logs
+> from Vanyel's site.  Good luck...
+
+Make it even _more_ interesting : try to create a Contest
+anonymously, whoever guesses correctly at the Contestmaster's 
+identity wins ! :)
+--****ATTENTION****--****ATTENTION****--****ATTENTION****--***ATTENTION***
+Your e-mail reply to this message WILL be *automatically* ANONYMIZED.
+Please, report inappropriate use to                abuse@anon.penet.fi
+For information (incl. non-anon reply) write to    help@anon.penet.fi
+If you have any problems, address them to          admin@anon.penet.fi
+
+From blahedo@quincy.edu  Mon Nov  6 16:49:37 1995
+Received: (from blahedo@localhost) by Shamino.quincy.edu (8.6.12/8.6.9) id QAA25521; Mon, 6 Nov 1995 16:49:37 -0600
+From: Don Blaheta <blahedo@quincy.edu>
+Message-Id: <199511062249.QAA25521@Shamino.quincy.edu>
+Subject: Re: Whoa...
+To: coren@teleport.com (Gary Heavysege)
+Date: Mon, 6 Nov 1995 16:49:37 -0600 (CST)
+In-Reply-To: <Pine.SUN.3.91.951106141222.26684A-100000@linda.teleport.com> from "Gary Heavysege" at Nov 6, 95 02:24:40 pm
+X-Mailer: ELM [version 2.4 PL24]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Status: RO
+Content-Length: 5137
+Lines: 102
+
+You wrote:
+> A long time ago (well, at least a couple of weeks), Vanyel wrote:
+> 
+> > We haven't heard from you lately... what's up?
+> 
+> Lots and lots and lots...RL is eating me alive.  I am going to school with
+> 22 quater hours, working more than half time at the lab and the observatory,
+> trying to be an officer (actually, two) in the local SCA group, and still 
+> try to have some semblance of a life with my family.
+
+I know how that can be; fortunately, I only had one really heavy
+semester, and that was last year.  *whew*  Good luck getting all that
+done.
+
+> I *did* get your messages, as you can see, but I only read email erratically,
+> perhaps once a week or so - and I answer even more erratically.  You have 
+> my apologies, but I just can't keep up right now.
+
+Heh.  I *definitely* know how that can be. :)
+
+> > Also... as list manager, do you receive copies of subscription requests
+> > for n-d, n-b, and n-o?  Is there any way for me to become list manager?
+> > If not, could you update your procmail to forward bounces and
+> > subscriptions and stuff to me?
+> 
+> Yes, I get copies of the subscription notices for the three lists.  
+> Unfortunately, Teleport won't allow me to make anyone who doesn't have a
+> Teleport account a list manager.  I have switched from using procmail to 
+> processing messages at home - I download them bulk, and let script files 
+> at home handle them.  I will see about trying to arrange for either my 
+> script to bounce the messages back at you, or perhaps i will start 
+> running procmail at Teleport again...although the last time I did so, it 
+> wasn't processing things right.  :(  You can get a current list of the 
+> subscribers, of course, by sending mail to majordomo@teleport.com saying:
+
+I know how to get listings; the reason we were wondering was a little
+miniScam where TAL logged on from his French account (which we have
+never seen before) as "Nucleon", Voted, transferred all eir Marks to
+Kelly, and deregistered, never to be heard from again.  In the ensuing
+confusion, we tried to invalidate it on the basis of "Nucleon" not being
+subscribed, but of course we later realized that that *address* didn't
+need to be subscribed... well, anyway, it turned out all right.  But I'd
+still like to see the "official" stuff.  If something's a real problem,
+I can just forward it back to you to handle sometime within a month or
+two. :)
+
+
+> I am, btw, still archiving the raw output of the official and business 
+> lists if you ever have a problem and go missing some.  I don't do so fo
+> discussion...I've unsub'd myself from that list long ago; I don't even 
+> have time to read the official and business stuff, although I've been
+> looking at it a bit lately.  What happened?  it's hard to tell without
+> reading discussion, but the lists went nuts, and I saw a surge of 
+> deregistrations in business...
+
+What happened?  *WHEW*  Here's the _short_ version:
+
+Starting about two months ago, Swann suggested combining Contests,
+Groups, and Contracts into one general enabling legislation.  This
+developed into a behemoth change, which was really very well thought
+out, but of course buggy (everything is).  Kelly decided that this was
+too much too soon (funny coming from em), and campaigned vehemently
+against it, even to the point of coming up with a combination of eir
+own, this time of only Contests and Groups.  Well, eir Proposal failed
+and Swann's passed.  The only three Players who voted against it (Kelly,
+elJefe, Steve) then formed a group called "The Threat", and began
+wreaking havoc.  First they said that Groups initiated prior to the
+Organization Proposal no longer existed because of the lack of a
+grandfather clause.  There was a lot of argument about this, but it
+later turned out that this was only a distraction tactic from their
+*real* goal: the Mousetrap.  The Mousetrap was an alleged Organization
+of undefined Class (i.e. not a Group, not a Contest, and not a
+Contract), which they created, which was allowed to draft all Players
+involuntarily into its Jurisdiction, and coerce them to do things, and
+not even tell them what the Statutes (i.e. Ordinances) were.  This, in
+turn, caused a few people to deregister due to violation of their "civil
+liberties", and the Threat caught a lot of flak for the way they handled
+the whole thing, and Kelly was really abusive of Swann (for trying to
+pass a Proposal, I guess), and *that* caused even _more_
+deregistrations.  I believe there were a total of 5 deregistrations:
+Kelly, Swann, Erick, Vlad, and KoJen.  (Erick was a new Player, too--e
+had just joined!)  Quite a mess.  We're still sorting through the CFJ
+aftermath now, as I'm sure you can see.  Of course, just prior to eir
+deregistration, Kelly proposed the Green Repeals...
+
+> I'll type at you more later.  If things ever lighten up, I'd like to come 
+> back to the game.  :)
+
+Well, I'm sure it will lighten up eventually.  Maybe. :)
+
+> Take care,
+> 
+> Coren / Gary
+> 
+> coren@teleport.com
+
+Vanyel / Don
+
+-=-=-=-Don Blaheta-=-=-=-blahedo@quincy.edu-=-=-=-dblaheta@aol.com-=-=-=-
+
+There's an old proverb that says just about whatever you want it to.
+
+
+From jlc@Camex.COM  Wed Nov 15 09:57:16 1995
+Received: from torii.triple-i.com (torii.triple-i.com [192.94.150.1]) by Shamino.quincy.edu (8.6.12/8.6.9) with ESMTP id JAA04622 for <blahedo@quincy.edu>; Wed, 15 Nov 1995 09:57:10 -0600
+Received: from Camex.COM (Camex.COM [134.54.1.1]) by torii.triple-i.com (8.6.9/8.6.9) with SMTP id HAA09714 for <blahedo@quincy.edu>; Wed, 15 Nov 1995 07:52:16 -0800
+Received: from zeus.Camex.COM by Camex.COM (4.1/SMI-4.2)
+	id AA00895; Wed, 15 Nov 95 10:52:32 EST
+Received: by zeus.Camex.COM (5.x/SMI-SVR4)
+	id AA14516; Wed, 15 Nov 1995 10:52:22 -0500
+Date: Wed, 15 Nov 1995 10:52:22 -0500
+From: jlc@triple-i.com (Jeff Caruso)
+Message-Id: <9511151552.AA14516@zeus.Camex.COM>
+To: blahedo@quincy.edu
+Subject: Greetings
+Status: RO
+Content-Length: 9501
+Lines: 221
+
+Hi, Vanyel--
+
+I understand you may soon apply to join The Threat.  These are the
+procedures to be followed:
+
+First, you should resign from X Group, by sending a message to the Notary
+and to the Group Vizier.
+
+Next, you should apply to me in a message, explicitly requesting to 
+become a member.
+
+Third, the Members will vote on your acceptance to membership. (This 
+should not take long!) I'll vote FOR, and upon Steve's consent I will 
+inform the Notary of your election.
+
+Meanwhile, here are the latest Ords. for your perusal.
+
+P.S. are you willing to become Vizier should the opportunity arise?
+
+------------------
+Current Ordinances
+------------------
+
+===================================================================
+    Basic Ordinances
+===================================================================
+
+1.  (Always a Vizier)
+    If the other Ordinances do not legally specify a valid choice 
+    for Vizier, the Vizier is the member whose name appears first 
+    on the List of Members.  This Ordinance takes precedence over
+    all other Ordinances.
+
+    The Ordinancekeepor shall be the same person as the Vizier.
+
+2.  (Precedence of Ordinances)
+    Should two or more Ordinances conflict, the one created least
+    recently takes precedence, except when otherwise clearly specified
+    by the Ordinances.  For purposes of this Ordinance, the original
+    Ordinances are created as of the moment of the original adoption
+    of these Ordinances, in numerical order.  Amendment of an
+    Ordinance does not affect its creation date for purposes of this
+    Ordinance.
+
+3.  (Vizier's Authority)
+    Whenever the Rules or the Ordinances require the group to take
+    an action, the Vizier shall perform such action as Executor of 
+    the Group.  In such cases, the Vizier shall certify to the 
+    appropriate persons that the action is authorized by the Ordinances.
+    Otherwise the Vizier does not act as Executor.
+
+===================================================================
+    Public Messages and Propositions
+===================================================================
+
+4.  Voting Members are defined to be those members of the group who 
+    are not under Interdict, as described in other Ordinances.
+
+5.  If a Voting Member sends a message to the Vizier with a 
+    request that it be forwarded to all Voting Members, the Vizier
+    shall do so as soon as possible.  A message so sent is known as
+    a Public Message, as is any message sent to all Voting Members.
+
+6.  A Proposition is defined to be a formal proposal of a type described 
+    in the Ordinances and sent by a Voting Member in a Public Message.
+
+7.  Active Members are those Voting members who are either not On Hold,
+    or who have during the previous two weeks sent a Public Message, 
+    either with regard to a Proposition or to the Group Vote on a Proposal, 
+    or requesting to remain active;
+
+8.  Generally, A Proposition is defined to be "adopted" when, within seven 
+    days after it is sent in a Public Message, a majority of Active Members 
+    sends a Public Message consenting to it.
+
+    Other Ordinances may define different conditions for adoption of
+    specific types of Propositions.
+
+    The Vizier shall maintain a record of adopted Propositions.
+
+===================================================================
+    Powers of the Group
+===================================================================
+
+9.  A new member shall be admitted to the Group upon adoption of a 
+    Proposition to do so.
+
+10. A Voting Member shall be placed under Interdict, upon adoption 
+    of a Proposition to do so; and e then ceases to be a Voting Member.
+    The Interdict may be lifted from a member, upon adoption of a 
+    Proposition to do so, and e then becomes a Voting Member.
+
+11. A new Ordinance may be created, or an existing Ordinance changed 
+    or repealed, upon adoption of a Proposition to do so; except that
+    no such Proposition may take effect without the consent of at least
+    two members.
+
+12. Currencies may be spent from the Treasury by the Vizier, upon
+    adoption of a Proposition to do so.
+
+13. The group shall elect to dissolve, upon adoption of a Proposition 
+    to do so.
+
+14. The Vizier shall send a message to the Registrar requesting the
+    group be renamed, upon adoption of a Proposition to rename the
+    Group to a specified name.  The Vizier shall request the name 
+    specified in the Proposition.
+
+15. A Member shall become Vizier, upon adoption of a Proposition to
+    appoint that Member as Vizier.
+
+16. Should the group be dissolved, each Voting Member's personal share 
+    of the Treasury, as defined in other Ordinances, is returned to em, 
+    and the remainder is divided among the Voting Members as equally as 
+    possible, with any leftover remainder going to the member whose name
+    appears first on the List of Members.  Any member leaving the 
+    Group for any other reason shall not receive any part of the Treasury.
+
+===================================================================
+    List of Members
+===================================================================
+
+17. The List of Members shall be automatically changed in the following 
+    ways:
+
+    (a.) upon becoming Vizier, a member's name shall be moved 
+           to the front of the list; 
+
+    (b.) upon going On Hold, a member's name shall be moved to the 
+           end of the list;
+
+    (c.) upon coming Off Hold, upon eir request, or upon resigning 
+           as Vizier, a member's name shall be moved after the name of 
+           the last member not On Hold;
+
+    (d.) upon becoming a Voting Member, a player's name is placed
+           after the name of the last member not On Hold;
+
+    (e.) upon ceasing to be a Voting Member, a member's name 
+           is deleted from the list.
+
+    (f.) upon being nominated as Vizier's successor by the Vizier,
+           a member's name shall be placed immediately after that
+           of the Vizier.
+
+    The Vizier shall maintain a record of changes to the List of Members.
+
+===================================================================
+    Specification of Vizier
+===================================================================
+
+18. The Vizier may resign at any time; if at that time e appoints a 
+    successor, that successor immediately becomes Vizier. However,
+    the Vizier may nominate a successor without resigning immediately
+    and in this case e remains Vizier.
+
+19. The Vizier shall maintain a record of changes to the Viziership.
+
+===================================================================
+    The Treasury
+===================================================================
+
+20. Voting Members may place any or all Currencies in the Group
+    treasury, which shall be added to eir personal share.  The Vizier 
+    shall return any portion of a Voting Member's personal share 
+    upon request, as soon as possible, provided this is allowed by the 
+    Rules and the state of the Treasury, and provided that the member
+    is not in arrears to the Group as specified in the Ordinances.
+
+21. Coins of the Group may not be created.  Coins of the Group within
+    the Group Treasury shall be destroyed at the option of the Vizier.
+
+22. Upon the creation of the Group, each member's personal share of the 
+    Group Treasury is zero.
+
+    The Vizier shall maintain a record of changes to members' personal 
+    shares of the Treasury, and of the Treasury itself.
+
+
+===================================================================
+    The Group Vote
+===================================================================
+
+23. Whenever a Proposal is distributed to all players, the Vizier shall
+    seek to determine the consensus opinion of how the Group Vote shall
+    be cast.  Each Member shall express an opinion FOR or AGAINST the
+    Proposal, or may decline to express an opinion.
+
+    If the a majority of the Active Members have the same opinion,
+    the Group shall cast one vote accordingly.  The Vizier shall
+    so inform the Assessor.
+
+24. Whenever there are Extra Votes in the Group Treasury, Members
+    not in arrears to the Group may indicate with their opinion on the 
+    Group Vote, whether they favor using an Extra Vote FOR or AGAINST the 
+    Proposal.  If a majority of the Active Members favor using an Extra 
+    Vote, and this is in accord with the use of the Group's original vote, 
+    then the Group shall cast one Extra Vote on the Proposal, in accordance 
+    with the opinion. The Vizier shall so inform the Assessor.
+
+    In case the Voting Periods for several Proposals overlap, the Vizier 
+    shall apply existing Extra Votes to the Proposals in increasing 
+    numerical order.
+
+25. At the beginning of each Nomic Week, if there are fewer than 3 Extra
+    Votes in the Group Treasury, one EV is transferred from each Member 
+    to the Group Treasury.  The Vizier shall detect and report this transfer.
+
+    If in this case a member has no EV's then the member shall owe the EV's
+    to the Treasury as arrears.  A member must always pay off eir arrears, 
+    to whatever extent possible, within 7 days, by transferring EV's to the 
+    treasury from any treasury under eir actual control.
+
+    The Vizier shall keep track of all members' arrears, if any.
+
+
+- elJefe, Vizier of The Threat
+
+******************************************************************
+  Dr. Jeffrey L. Caruso <jlc@triple-i.com>
+  Information International
+
+From daemon@anon.penet.fi  Sat Nov 18 15:26:38 1995
+Received: from anon.penet.fi (anon.penet.fi [193.64.202.3]) by Shamino.quincy.edu (8.6.12/8.6.9) with SMTP id PAA03968 for <blahedo@quincy.edu>; Sat, 18 Nov 1995 15:26:34 -0600
+Received: by anon.penet.fi (5.67/1.35)
+	id AA16946; Sat, 18 Nov 95 23:09:25 +0200
+To: blahedo@quincy.edu
+Received: from aurora.cc.monash.edu.au(130.194.1.91) by anon.penet.fi via anonsmtp (V1.3mjr)
+	id sma002618; Sat Nov 18 08:20:53 1995
+Received: (gardner@localhost) by aurora.cc.monash.edu.au (8.6.12/8.6.4) id TAA05711 for na157112@anon.penet.fi; Sat, 18 Nov 1995 19:20:44 +1100
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199511180820.TAA05711@aurora.cc.monash.edu.au>
+Subject: Re: Hmm..
+Date: Sat, 18 Nov 1995 19:20:44 +1100 (EST)
+In-Reply-To: <9511171849.AA21909@anon.penet.fi> from "an157112@anon.penet.fi" at Nov 17, 95 06:49:24 pm
+X-Mailer: ELM [version 2.4 PL21]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Status: RO
+Content-Length: 613
+Lines: 14
+
+an157112@anon.penet.fi writes:
+>
+>
+>And who do /you/ think I am?
+
+I consider it prudent not to speculate.
+
+Steve Gardner                     |  "Justice? You get justice in the next
+Dept. of Philosophy, Monash Uni.  |   world, in this world you get the law."
+gardner@aurora.cc.monash.edu.au   |          --  William Gaddis --
+----------------------------------------------------------------------
+ *WARNING* *WARNING* *WARNING* *WARNING* *WARNING* *WARNING* *WARNING*
+This message has been forwarded using your anon id on the anon.penet.fi
+anonymous server, but any direct reply will show your real name/address.
+
+From daemon@anon.penet.fi  Tue Nov 21 06:42:18 1995
+Received: from anon.penet.fi (anon.penet.fi [193.64.202.3]) by Shamino.quincy.edu (8.6.12/8.6.9) with SMTP id GAA10428 for <blahedo@quincy.edu>; Tue, 21 Nov 1995 06:41:52 -0600
+Received: by anon.penet.fi (5.67/1.35)
+	id AA07840; Tue, 21 Nov 95 14:23:28 +0200
+To: blahedo@quincy.edu
+Received: from aurora.cc.monash.edu.au(130.194.1.91) by anon.penet.fi via anonsmtp (V1.3mjr)
+	id sma020817; Tue Nov 21 02:11:03 1995
+Received: (gardner@localhost) by aurora.cc.monash.edu.au (8.6.12/8.6.4) id NAA07313 for na157112@anon.penet.fi; Tue, 21 Nov 1995 13:10:49 +1100
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199511210210.NAA07313@aurora.cc.monash.edu.au>
+Subject: Re: Hmm..
+Date: Tue, 21 Nov 1995 13:10:48 +1100 (EST)
+In-Reply-To: <9511200637.AA10555@anon.penet.fi> from "an157112@anon.penet.fi" at Nov 20, 95 06:37:10 am
+X-Mailer: ELM [version 2.4 PL21]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Status: RO
+Content-Length: 756
+Lines: 21
+
+an157112@anon.penet.fi writes:
+>
+>
+>| an157112@anon.penet.fi writes:
+>| >
+>| >
+>| >And who do /you/ think I am?
+>| 
+>| I consider it prudent not to speculate.
+>
+>Why would you think that?
+
+I'm afraid you'll have to figure that one out for yourself.
+
+Steve Gardner                     |  "Justice? You get justice in the next
+Dept. of Philosophy, Monash Uni.  |   world, in this world you get the law."
+gardner@aurora.cc.monash.edu.au   |          --  William Gaddis --
+----------------------------------------------------------------------
+ *WARNING* *WARNING* *WARNING* *WARNING* *WARNING* *WARNING* *WARNING*
+This message has been forwarded using your anon id on the anon.penet.fi
+anonymous server, but any direct reply will show your real name/address.
+
+From blahedo@quincy.edu  Tue Nov 21 14:32:33 1995
+Received: (from blahedo@localhost) by Shamino.quincy.edu (8.6.12/8.6.9) id OAA18346; Tue, 21 Nov 1995 14:32:32 -0600
+From: Don Blaheta <blahedo@quincy.edu>
+Message-Id: <199511212032.OAA18346@Shamino.quincy.edu>
+Subject: Re: WWW-archives
+To: csg419@wing.rug.nl (Andre Engels)
+Date: Tue, 21 Nov 1995 14:32:32 -0600 (CST)
+In-Reply-To: <199511211607.KAA13241@Shamino.quincy.edu> from "Andre Engels" at Nov 21, 95 04:59:26 pm
+X-Mailer: ELM [version 2.4 PL24]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Status: RO
+Content-Length: 2184
+Lines: 46
+
+> I don't know why, but I must say the Archives, as kept on the World Wide Web
+> are sloppy at best. To name 2 things:
+
+The Archives as kept on the WWW are not finished.  I only recently got
+rid of some stuff, to bring me under quota and actually allow me to
+bring some of the Proposals and CFJs back on public access.
+
+> - The main Archive page does not contain links to the CFJ-archive and the
+>   Proposal-Archive
+
+They aren't done yet... you must have been accessing by FTP, right?  I
+haven't put links in because they are not public yet.  You might notice
+that the various "files" I mention in that page currently only contain
+about four or five Proposals each.
+
+> - At the Proposal Archives you write "At the moment, due to quota limits,
+>   I don't have all of the Proposals here." Could I, just as an example, get
+>   a list of which Proposals I can get and the way to get them?
+>   I mean when you write "...but at this time you'll probably want to look at
+>   the actual distribution," it would be a good idea to indeed give us that 
+>   look...
+
+I have, in one form or another, almost _all_ of the Proposals.  Some I
+don't have results for, though.  When I say "the actual distribution", I
+refer to the file of the form ####-####, which should contain the
+Promotor's and Assessor's Reports relevant to that range of proposals...
+eventually I plan to filter each Proposal out to individual files, but
+this project is only about a week old.  I'm kinda hoping I can get some
+of that done when I go home for US Thanksgiving break.
+
+Sorry if those directories caused any confusion, but as you noticed they
+really aren't yet ready for public use.  If you have a request for a CFJ
+or Proposal, send it along.  (I know you've asked for the CFJs, but I
+still haven't found all of them.  The ones I've got are _mostly_ in the
+cfj directory you found, although a lot of them still have mail headers
+on them.)
+
+> Andre
+
+Vanyel
+
+-=-=-=-Don Blaheta-=-=-=-blahedo@quincy.edu-=-=-=-dblaheta@aol.com-=-=-=-
+
+In Ohio, if you ignore an orator on Decoration day to such an extent as
+to publicly play croquet or pitch horseshoes within one mile of the
+speaker's stand, you can be fined $25.00.
+
+From gardner@aurora.cc.monash.edu.au  Thu Nov 23 01:03:02 1995
+Received: from aurora.cc.monash.edu.au (gardner@aurora.cc.monash.edu.au [130.194.1.91]) by Shamino.quincy.edu (8.6.12/8.6.9) with ESMTP id BAA30900 for <blahedo@quincy.edu>; Thu, 23 Nov 1995 01:02:58 -0600
+Received: (gardner@localhost) by aurora.cc.monash.edu.au (8.6.12/8.6.4) id RAA12371 for blahedo@quincy.edu; Thu, 23 Nov 1995 17:54:52 +1100
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199511230654.RAA12371@aurora.cc.monash.edu.au>
+Subject: what to do about 1587...
+To: blahedo@quincy.edu (Don Blaheta)
+Date: Thu, 23 Nov 1995 17:54:51 +1100 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Status: RO
+Content-Length: 2044
+Lines: 46
+
+Hi Vanyel,
+
+I'm writing to you because I need your advice.
+
+Here's the text of an exchange I've been having, purportedly with the
+anonymous Proposer of Proposal 1587.
+
+an157112@anon.penet.fi writes:
+>| an157112@anon.penet.fi writes:
+>| >| an157112@anon.penet.fi writes:
+>| >| >
+>| >| >And who do /you/ think I am?
+>| >| 
+>| >| I consider it prudent not to speculate.
+>| >
+>| >Why would you think that?
+>| 
+>| I'm afraid you'll have to figure that one out for yourself.
+>
+>I give up.  I really /do/ want this thing resolved, and I just wanted to
+>see if you knew, because obviously once I told you who I am, you could
+>just say "yup I knew that."  So, I won't tell you my identity, directly,
+>but this is how I plan to prove it: Vanyel, who Promoted the Proposal,
+>has known since sometime the week it was Proposed who I am.  Apparently
+>he's just been enjoying this too much to reveal my identity... I liked
+>his "guessing" thing in the Public Fora, though.
+>
+>So why don't you ask him?  I imagine he'd vouch for my identity; of
+>course, if he won't, then that just makes things even more difficult.
+
+Here's my quandary: I'm pretty sure I know who proposed 1587. But
+I've always maintained that I wouldn't distribute the results of
+the Proposal without proof that the person who submitted it was a
+Player. I've deliberately left vague what it is I will accept as
+proof. Since I'm asking you for advice, I'll be completey honest
+with you: I don't particularly want to be forced to publish the
+results of P1587, since it will make every move I've made since
+a week after the VP for that Proposal finished a violation of ASAP.
+Yuk. I'd prefer to make the point that the use of anonymizing senders
+makes it impossible to establish the identity of the sender, at least
+for Agoran legal purposes. How do you stand on this issue?
+
+
+Steve Gardner                     |  "Justice? You get justice in the next
+Dept. of Philosophy, Monash Uni.  |   world, in this world you get the law."
+gardner@aurora.cc.monash.edu.au   |          --  William Gaddis --
+
+From daemon@anon.penet.fi  Fri Nov 24 07:17:39 1995
+Received: from anon.penet.fi (anon.penet.fi [193.64.202.3]) by Shamino.quincy.edu (8.6.12/8.6.9) with SMTP id HAA06415 for <blahedo@quincy.edu>; Fri, 24 Nov 1995 07:17:32 -0600
+Received: by anon.penet.fi (5.67/1.35)
+	id AA09200; Fri, 24 Nov 95 15:01:26 +0200
+Message-Id: <9511241301.AA09200@anon.penet.fi>
+To: blahedo@quincy.edu
+From: an449883@anon.penet.fi
+X-Anonymously-To: an157112
+Organization: Anonymous forwarding service
+Reply-To: an449883@anon.penet.fi
+Date: Fri, 24 Nov 1995 13:01:24 UTC
+Subject: Re: Hmm..
+Status: RO
+Content-Length: 934
+Lines: 17
+
+an157112@anon.penet.fi writes:
+>
+>I give up.  I really /do/ want this thing resolved, and I just wanted to
+>see if you knew, because obviously once I told you who I am, you could
+>just say "yup I knew that."  
+
+Much more likely is that I'll say: fine, you say you're X and I believe
+you. Now, how are you going to prove that X sent Proposal 1587 to Vanyel?
+
+Steve Gardner                     |  "Justice? You get justice in the next
+Dept. of Philosophy, Monash Uni.  |   world, in this world you get the law."
+gardner@aurora.cc.monash.edu.au   |          --  William Gaddis --
+--****ATTENTION****--****ATTENTION****--****ATTENTION****--***ATTENTION***
+Your e-mail reply to this message WILL be *automatically* ANONYMIZED.
+Please, report inappropriate use to                abuse@anon.penet.fi
+For information (incl. non-anon reply) write to    help@anon.penet.fi
+If you have any problems, address them to          admin@anon.penet.fi
+
+From blahedo@quincy.edu  Mon Nov 27 02:20:05 1995
+Received: (from blahedo@localhost) by Shamino.quincy.edu (8.6.12/8.6.9) id CAA29226; Mon, 27 Nov 1995 02:20:04 -0600
+From: Don Blaheta <blahedo@quincy.edu>
+Message-Id: <199511270820.CAA29226@Shamino.quincy.edu>
+Subject: Re: what to do about 1587...
+To: gardner@aurora.cc.monash.edu.au (Steve Gardner)
+Date: Mon, 27 Nov 1995 02:20:04 -0600 (CST)
+In-Reply-To: <199511230654.RAA12371@aurora.cc.monash.edu.au> from "Steve Gardner" at Nov 23, 95 05:54:51 pm
+X-Mailer: ELM [version 2.4 PL24]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Status: RO
+Content-Length: 2833
+Lines: 64
+
+You wrote:
+> Hi Vanyel,
+> 
+> I'm writing to you because I need your advice.
+> 
+> Here's the text of an exchange I've been having, purportedly with the
+> anonymous Proposer of Proposal 1587.
+
+Oh, that again.
+
+> an157112@anon.penet.fi writes:
+> >| an157112@anon.penet.fi writes:
+> >| >| an157112@anon.penet.fi writes:
+> >| >| >
+> >| >| >And who do /you/ think I am?
+> >| >| 
+> >| >| I consider it prudent not to speculate.
+> >| >
+> >| >Why would you think that?
+> >| 
+> >| I'm afraid you'll have to figure that one out for yourself.
+> >
+> >I give up.  I really /do/ want this thing resolved, and I just wanted to
+> >see if you knew, because obviously once I told you who I am, you could
+> >just say "yup I knew that."  So, I won't tell you my identity, directly,
+> >but this is how I plan to prove it: Vanyel, who Promoted the Proposal,
+> >has known since sometime the week it was Proposed who I am.  Apparently
+> >he's just been enjoying this too much to reveal my identity... I liked
+> >his "guessing" thing in the Public Fora, though.
+> >
+> >So why don't you ask him?  I imagine he'd vouch for my identity; of
+> >course, if he won't, then that just makes things even more difficult.
+> 
+> Here's my quandary: I'm pretty sure I know who proposed 1587. But
+> I've always maintained that I wouldn't distribute the results of
+> the Proposal without proof that the person who submitted it was a
+> Player. I've deliberately left vague what it is I will accept as
+> proof. Since I'm asking you for advice, I'll be completey honest
+> with you: I don't particularly want to be forced to publish the
+> results of P1587, since it will make every move I've made since
+> a week after the VP for that Proposal finished a violation of ASAP.
+> Yuk. I'd prefer to make the point that the use of anonymizing senders
+> makes it impossible to establish the identity of the sender, at least
+> for Agoran legal purposes. How do you stand on this issue?
+
+Yuck is right.  Umm...  Well, presumably, if nobody reports the ASAP
+violation(s) nothing happens... As for "proof", well, the matter of
+proof isn't terribly well-defined in Agora.  Mir 1587 says e has a
+method of proving eir identity, which e will reveal to the Public Forum
+sometime.  I guess e's expecting my help, judging from eir message to
+you...  Of course, if I don't tell you (at least for now), then you can
+honestly say you don't know who it is.  Hm.  I'll mail Mir 1587, and get
+back to you.
+
+> Steve Gardner                     |  "Justice? You get justice in the next
+> Dept. of Philosophy, Monash Uni.  |   world, in this world you get the law."
+> gardner@aurora.cc.monash.edu.au   |          --  William Gaddis --
+
+Vanyel
+
+-=-=-=-Don Blaheta-=-=-=-blahedo@quincy.edu-=-=-=-dblaheta@aol.com-=-=-=-
+
+It is against the law for a monster to enter the corporate limits of
+Urbana, Illinois.
+
+From daemon@anon.penet.fi  Tue Nov 28 03:58:51 1995
+Received: from anon.penet.fi (anon.penet.fi [193.64.202.3]) by Shamino.quincy.edu (8.6.12/8.6.9) with SMTP id DAA22167 for <blahedo@quincy.edu>; Tue, 28 Nov 1995 03:58:44 -0600
+Received: by anon.penet.fi (5.67/1.35)
+	id AA26973; Tue, 28 Nov 95 11:47:56 +0200
+Message-Id: <9511280947.AA26973@anon.penet.fi>
+To: blahedo@quincy.edu
+From: an449883@anon.penet.fi
+X-Anonymously-To: an157112
+Organization: Anonymous forwarding service
+Reply-To: an449883@anon.penet.fi
+Date: Tue, 28 Nov 1995 09:47:54 UTC
+Subject: Re: Hmm..
+Status: RO
+Content-Length: 1216
+Lines: 22
+
+an157112@anon.penet.fi writes:
+>
+>First of all, let me apologize about the asap thing, Vanyel told me
+>about that.  But as for proof, I have a way of definitively associating
+>this anonymous address with a person who was a player in early may 1995.
+>I guess you'll just have to take his word that the proposal came from
+>this address, but that's not a jump, is it?
+
+Let me guess: you have carefully retained the message that the anon
+server sends to you the first time you use it, and which contains
+an anonymous identifier for you to use in future messages. This
+can be matched against the submission message you sent to Promotor
+Vanyel.
+
+Steve Gardner                     |  "Justice? You get justice in the next
+Dept. of Philosophy, Monash Uni.  |   world, in this world you get the law."
+gardner@aurora.cc.monash.edu.au   |          --  William Gaddis --
+--****ATTENTION****--****ATTENTION****--****ATTENTION****--***ATTENTION***
+Your e-mail reply to this message WILL be *automatically* ANONYMIZED.
+Please, report inappropriate use to                abuse@anon.penet.fi
+For information (incl. non-anon reply) write to    help@anon.penet.fi
+If you have any problems, address them to          admin@anon.penet.fi
+
+From ccarroll@students.wisc.edu  Thu Dec 14 01:31:34 1995
+Received: from audumla.students.wisc.edu (students.wisc.edu [144.92.104.66]) by Shamino.quincy.edu (8.6.12/8.6.9) with ESMTP id BAA12988 for <blahedo@quincy.edu>; Thu, 14 Dec 1995 01:31:33 -0600
+Received: from [144.92.181.141] by audumla.students.wisc.edu;
+          id BAA39338; 8.6.9W/42; Thu, 14 Dec 1995 01:30:18 -0600
+X-NUPop-Charset: English
+Date: Thu, 14 Dec 95 01:27:22 CST  
+From: "Charles E. Carroll"  <ccarroll@students.wisc.edu>
+Sender: ccarroll@students.wisc.edu
+Message-Id: <5251.ccarroll@students.wisc.edu>
+To: blahedo@quincy.edu
+Subject: RE: BUS: Lotsa neat stuff!
+Status: RO
+Content-Length: 1360
+Lines: 30
+
+>THE FIRST THING
+>The most important, probably, to everyone here, is the nomic-request
+>server.  Simply mail a message to me (blahedo@quincy.edu), with
+>"nomic-request" somewhere in the subject, and the server will process
+>your message.  It can serve up a number of files:
+> * Proposals.  It can give _all_ the Proposals I have access
+>  to, not just the ones currently on the Web site.
+> * CFJs.  It can serve any CFJ which I have, on the Web site or
+>  not.
+> * Any files on the Web site.  Even if you don't have Web access,
+>  you can grab a file off the site.
+>The syntax is to type "get" as the first thing on a line (not including
+>whitespace), then type in all your requested files, separated by spaces.
+>To request Proposals, give P#### as the filename; to request CFJs, give
+>C#### as the filename, and to request web files, you'll have to look at
+>the index to see how I've named them all.
+>
+>The other two commands besides "get" are "help" (which basically tells
+>you what I'm telling you now) and "index", which lists all the files you
+>can get.
+>
+>Please, send me comments--I just wrote this last night/today, so it
+>probably still has a few bugs running around.
+>
+
+Perfect timing!  I was just about to do a bit of research into
+some old Proposals.  I only tried to get Proposals, but it worked
+really well.  Incredibly fast!!  Great job!
+
+Chuck
+

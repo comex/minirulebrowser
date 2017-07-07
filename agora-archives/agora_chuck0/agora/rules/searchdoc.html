@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="en-US">
+<head>
+<title>Documentation for Agora Rules Search</title>
+<style type="text/css">
+<!--
+.longp { margin-left: 10%; margin-right: 10%; line-height: 115% }
+-->
+</style>
+</head>
+
+<body bgcolor="#ffffff">
+<p align=center>
+<a href="/~ccarroll/agora/"><img src="/~ccarroll/agora/ah.gif" alt=" [Agora Home] " width=122 height=38 border=0></a>
+<a href="/~ccarroll/agora/rules/"><img src="/~ccarroll/agora/rh.gif" alt=" [Rules Home] " width=122 height=38 border=0></a>
+<a href="/~ccarroll/agora/rules/rulesets.html"><img src="/~ccarroll/agora/rs.gif" alt=" [Rulesets] " width=122 height=38 border=0></a>
+<a href="/~ccarroll/cgi-bin/agscr/allr.pl"><img src="/~ccarroll/agora/loar.gif" alt=" [List of All Rules] " width=122 height=38 border=0></a>
+<a href="/~ccarroll/agora/rules/cats.html"><img src="/~ccarroll/agora/crl.gif" alt=" [Categorized Rule Lists] " width=122 height=38 border=0></a>
+<a href="/~ccarroll/agora/rules/search.html"><img src="/~ccarroll/agora/str.gif" alt=" [Search the Rules] " width=122 height=38 border=0></a>
+<p>
+
+<h1 align=center>Documentation for Agora Rules Search</h1>
+
+<p><hr>
+<p class=longp>
+If you are unfamiliar with the <a href="cats.html">Categorized
+Rule Lists</a>, you may wish to check those out as well.
+<p class=longp>
+Do not use wildcards in the text boxes, as wildcards are
+currently not supported.  If you enter an asterisk, it
+will search for an asterisk.
+<p class=longp>
+Do not use boolean operators in the text boxes.  Use
+the pull-down menus of boolean operators instead.  Boolean
+operators are evaluated top-down.  In other words,
+a search for A OR B AND C will be interpreted as (A OR B) AND C.
+If a text box is empty, the boolean operator immediately
+above it is ignored.
+<p class=longp>
+Multiple words within a single text box are automatically treated as
+a phrase.  Do not use quotes or parentheses (or
+any other punctuation) to indicate a phrase.
+Also, the search will not find a phrase if there is punctuation
+between words in a phrase, unless the punctuation was entered
+as part of a search.
+<p class=longp>
+Leading and trailing spaces are stripped, unless you are
+entering a regular expression.  (If you don't know what a
+regular expression is, don't worry about it.)
+<p class=longp>
+I reserve the right to log searches.  Although this is not
+being done at the time I write this, it may be done in the
+future.  This would be done for evaluative purposes--if
+I see that no one is using a certain option, I might
+choose to eliminate that option.
+<p class=longp>
+I am happy to hear of any suggestions, complaints, etc.,
+but I cannot promise how quickly I will be able to act
+on them.  
+<p class=longp>
+If you do not want to read about the various options below
+each text box, you can probably do OK by leaving them at the
+default settings, and stopping here.
+<p class=longp>
+<a href="search.html">Back to search page</a>
+<p>
+<hr>
+
+<p>
+<h2 class=longp>Options</h2>
+
+<p class=longp>
+Please note that each set of options applies only to the
+text box it is associated with.  So if you are entering
+text in all three boxes, and want all three to be case-sensitive,
+you will need to check the &quot;Case-sensitive: Yes&quot; option on
+each one.
+<p>
+<dl class=longp>
+<dt><b>Case-sensitive</b>
+<dd>Self-explanatory.
+
+<p>
+<dt><b>Perl regular expression</b>
+<dd>If you don't know what a perl regular expression is, leave this
+checked &quot;No&quot; (and ignore the
+rest of this paragraph; or, if you'd like to try to puzzle them
+out, take a look at the <a href=
+"http://www.aisd.com/technology/perl/man/perlre.shtml"
+>Perl regular expressions</a> section of the Perl man  pages).
+For those of you who can formulate regular
+expressions, note that using this option makes the &quot;Expand
+whitespace&quot; and &quot;Whole word(s)&quot; options
+meaningless--you must code them directly into the regular expression
+yourself, if you desire them.  (I use (\s|\n|\r)+ to expand
+whitespace, and \b before and after the rest of the
+regular expression for whole word(s).)  In searching Rules, you
+should know that each Rule is concatenated into a single
+string, although newlines are retained.
+  The &quot;s&quot;
+option (treat string as single line) is used in matching.  If the
+&quot;Rule text only&quot; option is on, blank lines
+are removed from the Rule text.  Keep in mind that lines of
+Rule text begin with (at least) six spaces, and these are
+retained in matching.  Be careful not to enter
+leading and/or trailing spaces unless you mean to; they
+are not stripped from regular expressions.
+
+<p>
+<dt><b>Expand whitespace</b>
+<dd>This option, if on, will check for multiple spaces
+and/or line breaks between words in a phrase.  Highly
+recommended.  In fact, I don't know why you wouldn't want
+to use this, but you can turn it off if you want to.
+<p>
+<dt><b>Whole word(s)</b>
+<dd>This option, when on, searches only for the whole words
+as listed.  If off, it allows alphanumeric charaters before the
+beginning of the search term, and after the end.  Note that
+it does not allow extra characters within the phrase, if more
+than one word has been entered.  So if this option was off, a search
+for &quot;vote collector&quot; would find &quot;vote collectors&quot;
+but not &quot;votes collector&quot;.  Warning: this option is intended
+to be used when the first and last characters of the text are
+alphanumeric.  If they are not, this option may not work as would
+be expected.
+<p>
+<dt><b>Rule text only</b>
+<dd>When on, this option searches only the text of the Rules
+for the terms.  If off, it searches the entire Rule record
+(i.e., everything included with the Rule as it appears in the
+Full Logical Ruleset).
+</dl>
+
+<p>
+<hr>
+<p>
+Hits since April 13, 1998:
+1075
+<br>
+Most recent modification:
+Wednesday, 05-Apr-2000 23:45:51 CDT
+<br>
+
+<a href="http://www.dfw.net/~ccarroll/">Charles E. Carroll</a> 
+<a href="mailto:YEXSTIUDQAOG@spammotel.com">YEXSTIUDQAOG@spammotel.com</a>
+<br>See <a href="http://www.spammotel.com/">http://www.spammotel.com/</a>
+for information about the above address.
+
+</body>
+</html>

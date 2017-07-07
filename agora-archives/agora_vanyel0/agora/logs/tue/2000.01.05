@@ -1,0 +1,123 @@
+From owner-agora@win.tue.nl Wed Jan  5 01:39 EST 2000
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135])
+	by cs.brown.edu (8.9.3/8.9.3) with ESMTP id BAA05734
+	for <dpb@cs.brown.edu>; Wed, 5 Jan 2000 01:39:53 -0500 (EST)
+Received: from majordom@localhost by svin12.win.tue.nl (8.8.7)
+	  for agora-list
+	  id HAA06716. Wed, 5 Jan 2000 07:40:07 +0100 (MET)
+Received: from root@svis01 [131.155.70.161] by svin12.win.tue.nl (8.8.7)
+	  for <agora@svin12.win.tue.nl>
+	  id HAA06712 (ESMTP). Wed, 5 Jan 2000 07:40:02 +0100 (MET)
+Received: from msuacad.morehead-st.edu [147.133.1.1] by svis01.win.tue.nl (8.8.7)
+	  for <agora@win.tue.nl>
+	  id HAA03693 (ESMTP). Wed, 5 Jan 2000 07:40:00 +0100 (MET)
+Received: (from mpslon01@localhost) by msuacad.morehead-st.edu (8.7.1/8.7.1) id BAA10407 for agora@win.tue.nl; Wed, 5 Jan 2000 01:34:42 -0500 (EST)
+From: Michael Slone <mpslon01@msuacad.morehead-st.edu>
+Message-Id: <200001050634.BAA10407@msuacad.morehead-st.edu>
+Subject: Re: OFF: Proposals 3960-3961 Distributed
+To: agora@win.tue.nl
+Date: Wed, 05 Jan 2000 1:34:41 EST
+In-Reply-To: <200001050339.TAA16763@shell1.aracnet.com>; from "magika@aracnet.com" at Jan 4, 100 7:39 pm
+X-Mailer: Elm [revision: 212.4]
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text
+Content-Length: 462
+
+Wes wrote:
+> We committed an Infraction during the Week beginning on the 20th, due
+> to the fact that we did not Distribute that Week (we also failed to
+> Report, if we recall correctly). None since then, though. 
+
+That makes sense.  
+
+-- 
+Michael Slone - http://vir.fclib.org/~harvel/
+I'm now in a superposition of states where my head either exploded,
+or it didn't.  Please don't observe me, I don't want to take any chances.
+		-- Christian Bauernfeind, in ASR
+
+From owner-agora@win.tue.nl Wed Jan  5 06:20 EST 2000
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135])
+	by cs.brown.edu (8.9.3/8.9.3) with ESMTP id GAA09478
+	for <dpb@cs.brown.edu>; Wed, 5 Jan 2000 06:20:09 -0500 (EST)
+Received: from majordom@localhost by svin12.win.tue.nl (8.8.7)
+	  for agora-list
+	  id MAA12446. Wed, 5 Jan 2000 12:20:22 +0100 (MET)
+Received: from wsinfm15 [131.155.69.168] by svin12.win.tue.nl (8.8.7)
+	  for <agora@svin12.win.tue.nl>
+	  id MAA12442 (ESMTP). Wed, 5 Jan 2000 12:20:17 +0100 (MET)
+Received: from engels@localhost by wsinfm15.win.tue.nl (8.9.3)
+	  for agora@win.tue.nl
+	  id MAA05428. Wed, 5 Jan 2000 12:20:18 +0100 (MET)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <200001051120.MAA05428@wsinfm15.win.tue.nl>
+Subject: Re: CFJ 1192 Thoughts
+In-Reply-To: <38726B78.5F14B10B@mindspring.com> from Joshua Boehme at "Jan 4, 2000  4:51:52 pm"
+To: agora@win.tue.nl
+Date: Wed, 5 Jan 2000 12:20:18 +0100 (MET)
+X-Mailer: ELM [version 2.4ME+ PL43 (25)]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2159
+
+Joshua Boehme wrote:
+
+> Thus, by the simple fact that Wes distribute the CFJ during a holiday e
+> is guilty, whether e was required to do so at that time or not.
+> Admittedly, this is rather unfair, and the current precedence
+> implementation is rather problematic. Perhaps _all_ precedence
+> implementations are problematic, since they have to lift themselves by
+> their bootstraps, so to speak. Consider the following:
+> 
+> Rule 1. Rules with lower numbers take precedence.
+> Rule 2. Rules with mediocre numbers take precedence.
+> Rule 3. Rules with greater numbers take precedence.
+> 
+> Thoughts?
+
+I have already looked at this type of problem in my intended thesis. It
+is already there with two rules:
+
+Rule 1. Rules with lower numbers take precedence
+Rule 2. Rules with higher numbers take precedence
+
+Actually, if there is even a case in the current ruleset:
+
+Rule 1584 (Power=2):
+
+     "(...) This Rule takes precedence over every other Rule."
+
+Rule 1482 (Power=3):
+
+     "In a conflict between Rules with different Power, the Rule with
+      the higher Power takes precedence over the Rule with the lower
+      Power."
+
+Now, suppose there were a conflict between rule 1584 and a power 3 rule.
+Then it would have to be decided which rule takes precedence. Rule 1584
+says that it takes precedence, rule 1482 that the other rule takes precedence.
+Thus, rules 1584 and 1482 are in conflict. Thus, we have to know which takes
+precedence. Rule 1584 says that it takes precedence, rule 1482 that it
+does... And so forth. Now, I do not see any Power 3 rule at present allowing
+players to vote, make proposals or hold Office, or requiring any duty or
+action to players (except the duty to follow the rules, but it has already
+been decided by the courts that one would have a duty to follow the rules
+even if that duty were not in the rules), but if there ever would be one,
+it is undecidable whether or not this allowance or duty would hold for On
+Hold players.
+
+
+-- 
+Andre Engels, engels@win.tue.nl, ICQ #6260644
+http://www.win.tue.nl/cs/fm/engels/index_en.html
+
+A child is not a glass that is filled, but a fire that is set ablaze.
+						- Maria Montessori
+
+

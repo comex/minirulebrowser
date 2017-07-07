@@ -1,0 +1,299 @@
+For those who care, this Proposal eliminates 19 lines.  "Vote" is still
+overloaded, but now only means: the opinion of an Entity on a Proposal,
+irrespective of that Entity's Clouts; and the entire voting process for
+a given proposal.
+
+As usual, comments are welcome.
+
+PROTO-PROPOSAL: Eliminate "vote" ambiguity.
+
+PREFACE
+
+    Due to minor confusions regarding the terminology surrounding
+    the Voting Procedure, a slight rearrangement of terms shall
+    occur.  In general, the following transformations will occur:
+	Extra Votes will be renamed to "Alia".
+	The concept of "Voting Entities" will be abolished.
+	"Clouts" will be the units of voting power; they correspond to
+		the total number of votes one possesses (regular or
+		Extra), currently.  Each Player will automatically get
+		one Clout per Proposal.
+	"Voters" will now be called "Peers".
+
+    A side goal of this Proposal is to begin simplifying the Ruleset
+    by including summary statements in Rules, which can not be
+    construed as binding, but which provide a broad statement about
+    the way the rule works.  Such statements are signalled by phrases
+    like "In general,..." or "Generally speaking,...".
+
+SECTION I
+Changing the misnomer "Voter"
+
+    All occurrences of the word "Voter" shall be replaced with
+    "Peer", and "Voters" with "Peers", in the following Rules:
+    103, 112, 1042, and 1043.
+
+    In addition, the Title of Rule 103 shall be changed to "The
+    Speaker and the Peers".
+
+SECTION IIa
+The Basics of the Alia/Clout system
+
+    Rule 206 ("Voting Entities and Votes") shall have its Title
+    changed to "Clouts and Voting", and shall be Amended to read as
+    follows:
+
+      The Clout (plural "Clouts") is an Agoran Entity.  Each Clout is
+      possessed by exactly one Entity, and is associated with one
+      Proposal.  Clouts may not be transferred.
+
+      Generally speaking, the number of Clouts an Entity possesses
+      indicates that Entity's influence on the Vote.
+
+      When a Proposal is Promoted, each Player and each Group with at
+      least three Players receives one Clout associated with that
+      Proposal.  These Clouts are created.
+
+      Clouts are said to be Cast For, Against, or Neutral to their
+      Proposal, based on the Vote of the Entity which possesses them.
+
+      No Entity may ever possess more than five Clouts associated with
+      any one Proposal.
+
+(15/12)
+
+    Rule 1477 ("Extra Votes") shall have its Title changed to "Aliae",
+    and shall be Amended to read as follows:
+
+      The Alia (plural "Aliae") is a Currency.  The MUQ of the Alia is
+      1.  The Recordkeepor of the Alia is the Assessor.  The Mintor of
+      the Alia is the Mint.
+
+      Generally speaking, Aliae are used to increase influence on a
+      Vote.
+
+(3/5)
+
+    Rule 1442 ("Using Extra Votes") shall have its Title changed to
+    "Spending Aliae", and shall be Amended to read as follows:
+
+      In general, a Player may spend one Alia to receive one Clout on
+      a specified Proposal.
+
+      Aliae are spent when an Entity notifies the Assessor that e is
+      spending an Alia, and for which Proposal it is spent.  When an
+      Entity spends an Alia, one Alia is transferred from that Entity
+      to the Bank, and one Clout associated with the spent-on Proposal
+      is created in the possession of the Entity.
+
+      An Alia is not spent if a Vote on the specified Proposal is not
+      currently in progress, or if the spending Entity already has
+      more than eir maximum Clouts on the specified Proposal.  This
+      maximum is ordinarily 2, but may be raised as specified in other
+      Rules.  Only Players and Groups may spend Aliae.
+
+      All transfers required by this Rule shall be detected and
+      reported by the Assessor.
+
+(14/14)
+
+    Rule 1547 is Repealed.
+
+(5/0)
+
+SECTION IIb
+The Voting Process
+
+    Rule 683 ("Legal Votes") shall be Amended to read as follows:
+
+      A Vote which is Cast is either For, Against, or Neutral to a
+      Proposal.  Any obvious synonym to these is acceptable.
+
+      A Vote is Cast when an Entity's Executor sends that Entity's
+      Vote to the Assessor.  Other rules may specify Vote timing of
+      Entities without Executors.
+
+      A Vote on a Proposal is legally Cast if it is Cast during the
+      Voting Period of that Proposal.
+
+(13/7)
+
+   Rule 955 ("Votes Required to Adopt a Proposal") shall have its Title
+   changed to "Proposal Adoption" and shall be Amended to read as
+   follows:
+
+     When the Voting Period on a Proposal has ended, the Proposal shall
+     be assigned a Voting Index, as follows.  If the Proposal received
+     no Clouts Against and at least one Clout For, the Voting Index is
+     Unanimity.  Otherwise, the Voting Index shall be the total Clouts
+     cast For the Proposal divided by the total Clouts cast Against.
+
+     If the Voting Index is greater than the Adoption Index for a given
+     Proposal, or if both equal Unanimity, the Proposal passes.
+     Otherwise, it fails.
+
+(11/8)
+
+    Rule 208 ("End of the Voting Period") shall be Amended by replacing
+    the word "Votes" with the phrase "Votes and Clouts".
+
+(3/3)
+
+SECTION III
+Renaming EVs and bootstrapping Aliae
+
+    All occurrences of the term "Extra Vote" or "EV" shall be replaced
+    with "Alia", and "Extra Votes" or "EVs" with "Aliae", in the
+    text and Titles of the following Rules: 1047, 1465, 1521, 1525,
+    1540, and 1543.
+
+    The following Rule shall be Created:
+
+      For every Treasury, the number of Aliae in that Treasury is set
+      equal to the number of Extra Votes which were in the Treasury
+      prior to the passage of the Proposal which enacted this Rule.
+
+      Once this is accomplished, this Rule repeals itself.
+
+(0/4)
+
+SECTION IV
+Inactivity
+
+    Rule 1584 ("Absolvement of Duty for On Hold Players") shall be
+    Amended to read as follows:
+
+      An On Hold Player is not permitted to make Proposals, or hold
+      Office, and cannot be required by the Rules to perform any duty
+      or action, unless that Rule specifically states that it can
+      require On Hold Players to perform actions.
+
+      This Rule takes precedence over every other Rule.
+
+(5/5)
+
+    The following Rule ("Clouts and Inactivity") shall be created:
+    
+      When a Player goes On Hold, every Clout possessed by em shall be
+      destroyed.  When a Player is On Hold, e receives no Clouts for
+      any reason.  When a Player comes Off Hold, e receives one Clout
+      for every Proposal for which a Vote is in progress.
+
+(0/4)
+
+SECTION V
+Powers
+
+    Rule 1522 ("The Power of Influence") shall be Amended to read as
+    follows:
+
+      There is a Power called the Power of Influence. A Player on
+      whom the Power of Influence is cast is called an Influential
+      Player. The effect of the Power of Influence is to increase
+      the maximum number of Clouts which the Influential Player may
+      possess for a single Proposal, specified by the Caster, called
+      the Influenced Proposal. The maximum number of Clouts which may
+      be possessed by the Influential Player for the Influenced
+      Proposal may be increased to 3, 4, or 5, depending on the price
+      last paid to the Bank in order to purchase the Power. The
+      purchase price of the Power of Influence increases according to
+      the extent of the Influence granted by the use of the Power, and
+      this greater influence is granted by the Power of Influence
+      only if the Bank is paid for it, as set out below:
+
+      A maximum of 3 Clouts :  10 Mil
+      A maximum of 4 Clouts :  25 Mil
+      A maximum of 5 Clouts :  50 Mil
+
+      A Player casts the Power of Influence by sending a message to
+      the Assessor specifying which player is to be the Influential
+      Player, and which Proposal is to be the Influential Proposal.
+
+      If this Rule conflicts in its effects with those of another
+      Rule defining a specific Power, then the conflict shall be
+      resolved according to the Rule for determining precedence
+      among Powers.
+
+(23/23)
+
+    Rule 1523 ("The Power of Quiet") shall be Amended to read as
+    follows:
+
+      There is Power called the Power of Quiet. There are 3 Quiet
+      Cards. The purchase price for each of these Cards is 5 Mil.
+      The effect of this Power is to prevent the Player on whom it is
+      cast, called the Quiet Player, from spending any Aliae on a
+      Proposal specified by the Caster, called the Quiet Proposal.
+      The Power of Quiet may not be cast by the Assessor.
+
+      A Quiet Player is not permitted to spend Aliae on their Quiet
+      Proposal. If a Quiet Player has already spent Aliae on their
+      Quiet Proposal at the time they become Quiet, then all but one
+      of that Player's Clouts for that Proposal are destroyed, and an
+      equal number of Aliae is transferred from the Bank to that
+      Player.  The Assessor is responsible for detecting and reporting
+      these transfers.
+
+      The Caster casts the Power of Quiet by sending a message to the
+      Assessor unambiguously identifying the Player who is to be
+      the Quiet Player, and the Proposal which is to be the Quiet
+      Proposal. Unless this condition is met, the Power is not
+      legally cast.
+
+      This Rule takes precedence over other Rules which describe the
+      circumstances in which Players may legally spend Aliae, with the
+      exception of Rules which describe the effects of other Powers.
+      This Rule also takes precedence over other Rules which describe
+      the effects of legally spent Aliae.
+
+      If this Rule conflicts in its effects with those of another
+      Rule defining a specific Power, then the conflict shall be
+      resolved according to the Rule for determining precedence
+      among Powers.
+
+(28/28)
+
+SECTION VI
+Miscellaneous
+
+    Rule 833 ("Reward or Penalty for Proposing") shall be Amended to
+    read as follows:
+
+      In general, a Proposer receives Mils equal to the margin of
+      passage of eir Proposal.  This is often termed "F-A".
+
+      At the end of the Voting Period on a Proposal, the Assessor
+      shall calculate the number of Clouts cast by Players For a
+      Proposal, minus the number of Clouts cast by Players Against a
+      Proposal.
+
+      If this number is positive, and the Proposal was not
+      Disinterested, the Proposer receives that many Mils.
+
+      If this number is negative, the Proposer loses that many Mils.
+
+      The Assessor shall report the transfers required by this Rule no
+      later than the announcement of the results of the Proposal.
+
+(16/11)
+
+    Rule 1653 ("Groups and Unity Vote") shall be Amended to read as
+    follows:
+
+      In general, a Group with a unanimous opinion can gain greater
+      influence by declaring a Unity Vote.
+
+      If a Group has Clouts for a Proposal, its Vizier may declare a
+      Unity Vote on that Proposal by notifying the Assessor.  When a
+      Unity Vote is declared, two Aliae are transferred from the Group
+      to the Bank.
+
+      If all members of the Group cast the same Vote as the Group
+      itself, the Group's Clout maximum is raised to three, and the
+      Group receives two Clouts associated with that Proposal.  In
+      addition, two Aliae are transferred to the Group.
+
+      If at least one Group member does not cast the same Vote as the
+      Group, all the Group's Clouts for that Proposal are destroyed.
+
+(18/12)

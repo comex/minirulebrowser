@@ -1,0 +1,103 @@
+AGORAN WEEKLY JOURNAL - SPECIAL EDITION
+A Separation of Money, but Not of Powers
+August 29, 1999
+
+----------------------------------------------------------------------
+1.  General
+----------------------------------------------------------------------
+
+* All Players may Vote and Propose.
+* Amoeba are Repealed.
+* An entity's Expected Holdings of a Currency equals
+    (holdings + credits - debits).
+* Crime and Infraction penalties are defined as Class N Crime/Infraction,
+    where N is a number of Indulgences.
+* Speaker's Patronage may be split between multiple Players.
+
+----------------------------------------------------------------------
+2.  Basic Currencies
+----------------------------------------------------------------------
+
+* A Player may change eir Associated Basic Currency (ABC) once every three
+    months, or immediately to a Currency that became a Basic Currency since
+    eir last change.
+* The Payroll Clerk reports each Player's ABC, if any.
+
+----------------------------------------------------------------------
+3.  Stems
+----------------------------------------------------------------------
+
+* Stems may only go from the Bank to a Player, or vice versa.
+* A Player may transfer Stems to the Bank to receive an equal quantity of
+    eir ABC, but not vice versa.
+* Rule-specified amounts of VTs or P-Notes are converted to Stems (about
+    20 Stems per VT, 30 Stems per P-Note).
+
+----------------------------------------------------------------------
+4.  Voting Tokens
+----------------------------------------------------------------------
+
+* +VTs and -VTs are separate Currencies.
+* Everyone who had VTs gets em back as half +VTs, half -VTs.
+* Only one Persistent Indebtedness bill per week for any sort of VTs.
+* Expected VTs equals (Expected +VTs plus Expected -VTs).
+* Casting N Votes on a Proposal costs (N^2) VTs.
+* An entity's Maximum Votes per Proposal equals trunc(sqrt(N)+3), where N
+    is eir Expected VTs most recently reported by the Assessor.  This limit
+    is 2 if N is negative, or 5 if N has never been reported.
+* Assessor's Commission is repealed.
+
+----------------------------------------------------------------------
+5.  Proposal Notes
+----------------------------------------------------------------------
+
+* Priorities are integers.
+* Each Proposal has a Priority Cost, by default 1 (higher for Sane or
+Urgent).
+* Raising a Proposal's Priority by N costs (N*Priority Cost) P-Notes.
+* Priority Bar is repealed; any Proposals with Priority greater than zero
+may
+    be distributed, up to the Batch Size.
+* Batch Size is between one and three.
+* After a batch is distributed, all other Proposals have their Priorities
+    halved (rounding fractions down).
+* Promotor's Commission is repealed.
+
+----------------------------------------------------------------------
+6.  Indulgences
+----------------------------------------------------------------------
+* Indulgence Auction Tokens (IATs, MUQ 0.01, Recordkeepor the Priest)
+    are defined.
+* MUQ of Indulgences is now 0.1.
+* Default Auction Rule is amended:
+    - No default Currency (it was VTs)
+    - Multiple identical items may be auctioned at once; for the rest
+        of the Rule, N is the number of such items
+    - Bids may be cancelled
+    - Auction ends after 14 days, or when the Nth-highest Bid is not
+        overbid for 24 hours
+    - Each winner pays the Nth-highest Bid (or, if there are too few
+        Bids, the Starting Bid)
+    - Multiple winners are billed multiple times, and these POs can't
+        be combined
+* Each month, the Priest Auctions Indulgences equal to
+    (number of Players)
+    minus (Expected Indulgences of all entities but the Bank, per the
+      latest Herald's Report)
+    minus (number of outstanding Indulgence Auction POs).
+  Winners' bills are Indulgence Auction POs.  When satisfied, the Payor
+    receives an Indulgence.  If unsatisfied for three weeks, they are
+    vacated.
+
+----------------------------------------------------------------------
+7.  Taxes
+----------------------------------------------------------------------
+
+* Taxes may have an Effective Time, between the time the tax is announced
+    and four weeks later.
+* Currency Recordkeepors may tax eir Currency Without 5 Objections.  All
+    specifications required of the levy must be stated when intent is
+    stated.  Effective Time must be at least two weeks after statement of
+    intent, and at least one month after the last such levy.  While one
+    intent to levy is pending, another one for the same Currency cannot
+    be made.
