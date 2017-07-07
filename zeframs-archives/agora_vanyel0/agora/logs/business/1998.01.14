@@ -1,0 +1,1162 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jan 14 01:42 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA18491 for <dpb@cs.brown.edu>; Wed, 14 Jan 1998 01:42:09 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA00894
+	for agora-business-list; Wed, 14 Jan 1998 17:35:48 +1100
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id RAA00891
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 17:35:46 +1100
+Received: From dvorak With LocalMail ; Wed, 14 Jan 98 17:37:53 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-business@gecko.serc.rmit.edu.au (Nomic Business)
+Date: Wed, 14 Jan 1998 17:37:52 +1100 (EST)
+Message-Id:  <980114063752.1365@cse.unsw.edu.au>
+Subject: BUS: Proto: The Proposal Queue 1.1
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 5943
+
+
+Proto-Proposal: The Proposal Queue 1.1
+
+Amend Rule 1036 ("Making And Distributing Proposals") to read:
+
+      As soon as possible after the Promotor receives a new Proposal,
+      e shall assign to it a Number as specified in other Rules.
+      E shall then place this Proposal on the Proposal Queue.
+
+      The Proposal Queue is a list of Proposals, sorted in order of
+      descending Priority. Proposals of the same priority are
+      listed in the order they were proposed.
+
+      A Proposal's Priority is an integer value. All Proposals 
+      initially have a Priority of zero. 
+
+      The Promotor shall publish the Proposal Queue weekly.
+      
+Change the title of Rule 1036 to "Making Proposals"
+
+Create a rule, with title "Distributing Proposals", with text:
+
+      Each week, the Promotor shall distribute a batch of Proposals.
+
+      If there are five or fewer Proposals in the Proposal Queue
+      having a Priority greater than zero, then the batch shall
+      consist of all such Proposals.
+
+      If there are more than five such proposals, then the batch shall
+      consit of the first five such Proposals, in the order given by
+      the Queue. 
+
+      Once a Proposal is distributed, it is removed from the Proposal
+      Queue.
+
+      Promotor shall distribute each proposal in the batch to the 
+      Public Forum, accompanied by its Number and  the identity of its 
+      Proposing Entity.
+
+      The failure of the Promotor to distribute any of the above
+      accompaniments with a Proposal does not deprive the distribution
+      of the Proposal of any legal effect. 
+
+      A Proposal is only considered to be legally distributed if it
+      is explicitly marked as such. The Promotor is permitted to
+      publish the text of undistributed Proposals without necessarily
+      distributing them.
+
+Create a rule, with title "Increasing Priority", with text:
+
+      A Player may increase the Priority of a proposal by notifying
+      the Promotor that e does so, and paying a number of P-Notes to
+      the Bank. For each P-Note e pays to the Bank, the Priority of 
+      the Proposal is increased by one, provided that this transfer
+      is not executed for any other purpose.
+
+Create a rule, with title, "Promotor's Privilege", with text:
+
+      At most once a week, the Promotor may increase the Priority of
+      a single Proposal in the Proposal Queue by one, so long as
+      e is not the Proposer of the Proposal.
+ 
+Create a rule, with title "Decreasing Priority", with text:
+
+      At the beginning of each week, the Priority of each Proposal 
+      in the Proposal Queue shall decrease by 0.25. If the Priority
+      of any Proposal falls below zero, then it shall be set to 
+      zero.
+
+Create a rule, with title "Discarding Proposals from the Queue", with
+text:
+
+      If, at any time, there is a Proposal in the Proposal Queue 
+      which has zero Priority and has been in the Queue for more
+      than four weeks, then the Promotor may, at eir discretion,
+      remove this Proposal from the Queue, and discard it.
+
+      Also, the Proposer of a Proposal in the Queue may remove
+      that Proposal from the Queue, by notifying the Promotor 
+      that e does so.
+
+---------------------------------------------------------------------
+
+[Comment: Remove the old Petition Fee system]
+
+Repeal Rule 1702 ("Petition Fee for Proposals")
+
+Amend Rule 1623 ("Disinterested Proposals") to read:
+
+      A Proposal is Disinterested if the text of the message wherein
+      it is submitted explicitly states that it is a Disinterested
+      Proposal. If a Proposal is not Disinterested, it is Interested.
+
+Amend Rule 1723 ("Sanity") by replacing the text:
+
+      A Proposal is Sane if the text of the message wherein it is
+      submitted explicitly states that it is a Sane Proposal, and it
+      is not Disinterested.
+
+      The Petition Fee for a Sane Proposal is increased by three.
+
+with:
+
+      A Proposal is Sane if all the following conditions are met:
+
+         i) the text of the message wherein it is submitted 
+            explicitly states that it is a Sane Proposal,
+
+        ii) The Proposal is Interested,
+
+       iii) The Proposer has paid 2 P-Notes to the Bank, expressly
+            for this purpose (and not for any other). In order for
+            this payment to have effect, it must be made before
+            the Proposal is distributed.
+
+Amend Rule 1724 ("Emergency Proposals") by replacing the text:
+
+      A Proposal is Emergency if the text of the message wherein it is
+      submitted explicitly states that it is an Emergency Proposal,
+      and it is not Disinterested.
+
+      The Petition Fee for an Emergency Proposal is increased by two.
+
+with:
+
+      A Proposal is Emergency if all the following conditions are met:
+
+         i) the text of the message wherein it is submitted 
+            explicitly states that it is an Emergency Proposal,
+
+        ii) The Proposal is Interested,
+
+       iii) The Proposer has paid 1 P-Note to the Bank, expressly
+            for this purpose (and not for any other). In order for
+            this payment to have effect, it must be made before
+            the Proposal is distributed.
+
+Amend Rule 833 ("Awards & Penalties for Proposals") to read:
+
+      At the end of the Voting Period for a Proposal, if a Proposal
+      has received more FOR Votes than AGAINST Votes, the Assessor
+      shall pay out 2 VTs to the Proposer.
+
+      The Assessor shall execute all Payment Orders required by this
+      Rule no later than the time e announces the Voting Results of
+      the Proposal in question.
+
+[1.0: Basic idea of the Queue.]
+[1.1: Remove Petition Fees. 
+      Add means for removing proposals from the Queue. 
+      Added requirement for the Queue to be published.
+      Require distribution to be explicitly marked (so that the
+      Promotor can publish the contents of the Queue without actually
+      "distributing" them.)]
+
+
+      
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jan 14 04:11 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA20710 for <dpb@cs.brown.edu>; Wed, 14 Jan 1998 04:11:23 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA01566
+	for agora-business-list; Wed, 14 Jan 1998 20:04:11 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id UAA01563
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 20:04:07 +1100
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.736 #3)
+	id 0xsOm5-0002EE-00; Wed, 14 Jan 1998 09:06:13 +0000
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0xsOm4-0007EP-00; Wed, 14 Jan 1998 09:06:12 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: proposal submission
+X-Mailer: VM 6.37 under Emacs 19.34.1
+Message-Id: <E0xsOm4-0007EP-00@merganser.cl.cam.ac.uk>
+Date: Wed, 14 Jan 1998 09:06:12 +0000
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 722
+
+My proposal is the text between the lines of 70 hyphens. 
+
+----------------------------------------------------------------------
+Title: The Rulekeepor should have an Official Report
+
+Amend Rule 1051 "The Office of the Rulekeepor" by replacing the second
+paragraph with the following text:
+
+      The Rulekeepor shall maintain a complete list of all Rules.  The
+      Short Logical Ruleset constitutes the Rulekeepor's Official
+      Report. In addition, the Rulekeepor shall post the Full Logical
+      Ruleset to the Public Forum at least once each month.
+
+----------------------------------------------------------------------
+
+When and if this passes I will propose to make Chuck Rulekeepor in
+Perpetuity. 
+
+Michael.
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jan 14 05:46 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA22053 for <dpb@cs.brown.edu>; Wed, 14 Jan 1998 05:45:57 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA01956
+	for agora-business-list; Wed, 14 Jan 1998 21:41:03 +1100
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA01942
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 21:40:57 +1100
+Received: from arapael (pppA203.francenet.fr [193.149.100.57])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id LAA15709
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 11:43:01 +0100 (MET)
+Message-Id: <199801141043.LAA15709@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-business@gecko.serc.rmit.edu.au
+Date: Wed, 14 Jan 1998 11:43:17 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: BUS: Morendil's Vote on 3669
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 936
+
+As is only fair, I hereby retract all Votes on 3669, and invite other 
+Players who have Voted AGAINST to do so as well, so as not to 
+penalize Kolja for a selfless act.
+
+I hereby pledge, and certify that I do so under the provisions of
+Rule 1742, with any other willing Player as additional parties to
+that agreement, that I will not attempt to change my Vote on
+Proposal 3669, and I further pledge, naming Kolja, if willing, as the 
+other party to that agreement, to reimburse Kolja as soon as I am 
+able for any expenses incurred as a direct result of Proposing 3669.
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                       (o o)
+--------------------------------     -oOO--(~)--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in Web chat & Internet Communication technologies
+		Communicate better, Communicate Cheaper
+=====================================================
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jan 14 05:46 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA22059 for <dpb@cs.brown.edu>; Wed, 14 Jan 1998 05:46:04 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA01945
+	for agora-business-list; Wed, 14 Jan 1998 21:40:58 +1100
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA01937
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 21:40:55 +1100
+Received: from arapael (pppA203.francenet.fr [193.149.100.57])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id LAA15703
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 11:42:58 +0100 (MET)
+Message-Id: <199801141042.LAA15703@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-business@gecko.serc.rmit.edu.au
+Date: Wed, 14 Jan 1998 11:43:17 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: BUS: PROTO: Indenture, v1.2
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1746
+
+Proto-Proposal
+---
+Indenture
+
+Amend Rule 1714 to read :
+
+   An Overdue Payment Order that is a number of Blots is that
+   number of Overdue Blots.  A Lawless Player is a Player who has more
+   than 30 Overdue Blots.
+
+   Whenever a Player is Lawless and is eir own Executor, the Justiciar,
+   or the Speaker if the Lawless Player holds the Office of Justiciar,
+   shall conduct an Open Auction to Indenture that Player, as defined in
+   other Rules.
+
+   At the end of the Auction, the Herald shall vacate all Blots of the
+   Lawless Player and bill that Player for 5 Indulgences.
+
+Enact a Rule, titled "Auction to Indenture", reading :
+
+   Whenever the Rules call for an Auction to Indenture a Player, all
+   Active Players, with the exception of the Player whose Indenture is
+   being auctioned, shall be eligible. The Bank shall be the Seller.
+
+   The Winner of the Auction shall become the Executor of the 
+   Indentured Player for a period of one month.
+
+---
+
+[Makes Lawlessness more fun, brings back echoes of the great Zombie
+Scam, introduces Auctions - a potentially useful mechanism in and of
+themselves - what more could you possibly want... ;) ]
+
+[v1.1 changes - clarified rule for topping previous bids, prohibited
+custom Currencies, only the Winner pays.] 
+
+[v1.2 changes - now dependent on Auctions, protoed separately.]
+
+<Please don't quote this line -- PR-MORE-099>
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                       (o o)
+--------------------------------     -oOO--(~)--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in Web chat & Internet Communication technologies
+		Communicate better, Communicate Cheaper
+=====================================================
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jan 14 05:46 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA22060 for <dpb@cs.brown.edu>; Wed, 14 Jan 1998 05:46:05 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA01929
+	for agora-business-list; Wed, 14 Jan 1998 21:40:53 +1100
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA01921
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 21:40:49 +1100
+Received: from arapael (pppA203.francenet.fr [193.149.100.57])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id LAA15699
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 11:42:56 +0100 (MET)
+Message-Id: <199801141042.LAA15699@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-business@gecko.serc.rmit.edu.au
+Date: Wed, 14 Jan 1998 11:43:17 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: BUS: PROTO: One More Probate Fix
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1318
+
+Proto-Proposal
+---
+One More Probate Fix
+
+ Amend Rule 1601, replacing text which reads
+
+   No entity may be destroyed while it possesses Units of Currency
+   or while it is named as the Payee or Payor of any Payment
+   Orders; any attempt to destroy an entity while it is in this
+   condition shall be deferred until this condition no longer
+   holds.
+
+with text reading
+
+   No entity may be destroyed while it possesses Units of Currency
+   or while it is named as the Payee or Payor of any Payment
+   Orders; any attempt to destroy an entity while it is in this
+   condition shall be deferred until this condition no longer
+   holds, any Rule to the contrary notwithstanding. An entity which
+   would otherwise be destroyed but whose destruction is being 
+   deferred due to the foregoing provisions is called 'terminal'.
+
+[Restores the meaning of 'terminal'; adds a precedence clause for 
+safety.]
+
+---
+
+<Please don't quote this line -- PR-MORE-097>
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                       (o o)
+--------------------------------     -oOO--(~)--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in Web chat & Internet Communication technologies
+		Communicate better, Communicate Cheaper
+=====================================================
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jan 14 05:46 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA22067 for <dpb@cs.brown.edu>; Wed, 14 Jan 1998 05:46:24 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA01922
+	for agora-business-list; Wed, 14 Jan 1998 21:40:49 +1100
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA01915
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 21:40:45 +1100
+Received: from arapael (pppA203.francenet.fr [193.149.100.57])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id LAA15683
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 11:42:47 +0100 (MET)
+Message-Id: <199801141042.LAA15683@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-business@gecko.serc.rmit.edu.au
+Date: Wed, 14 Jan 1998 11:43:17 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: BUS: Voodoo Lounge Probate Plan, rev. 2
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 962
+
+Hm. I find that I must Object to my own plan for the disposition of 
+the estate of the Voodoo Lounge, on the grounds that it implements 
+those provisions of the Probate Code that are dependent on the entity 
+being terminal.
+
+However, closer examination of the Ruleset does not reveal any Rule 
+which specifies which entities are "terminal"; the word is used only 
+twice in Rule 1739, and nowhere else.
+
+I therefore announce my intention to, Without Objection, implement 
+the following revised plan for disposing of the estate of the Voodoo 
+Lounge, which shall consist of doing nothing about it.
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                       (o o)
+--------------------------------     -oOO--(~)--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in Web chat & Internet Communication technologies
+		Communicate better, Communicate Cheaper
+=====================================================
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jan 14 05:46 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA22074 for <dpb@cs.brown.edu>; Wed, 14 Jan 1998 05:46:52 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA01926
+	for agora-business-list; Wed, 14 Jan 1998 21:40:51 +1100
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA01916
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 21:40:45 +1100
+Received: from arapael (pppA203.francenet.fr [193.149.100.57])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id LAA15686
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 11:42:50 +0100 (MET)
+Message-Id: <199801141042.LAA15686@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-business@gecko.serc.rmit.edu.au
+Date: Wed, 14 Jan 1998 11:43:17 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: BUS: PROTO: Currency Market
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 4675
+
+Proto-Proposal
+---
+Currency Market
+
+ Enact a Rule, titled "Agoran Monetary Standard", reading :
+
+   At any time, exactly one Currency shall be designated as Agora's 
+   Reference Currency. The Reference Currency may be designated by 
+   the Rules, or any other means specified in the Rules.
+
+   If the Rules fail to directly or indirectly specify a Reference 
+   Currency, Voting Tokens shall be designated as the Reference 
+   Currency.
+
+   The Chancellor shall keep track of which Currency is the Reference 
+   Currency, and post this information whenever e posts a list of 
+   existing Currencies.
+
+ Enact a Rule, titled "Exchange Rates", reading :
+
+   Each Currency shall have associated with it an Exchange Rate, 
+   which shall consist of a multiple of the MUQ of that Currency and 
+   a multiple of the MUQ of the Currency currently designated as the 
+   Reference Currency.
+
+   The Exchange Rate of the Reference Currency shall at all times be 
+   one to one.
+
+   If the Rules fail to directly or indirectly specify a Currency's 
+   Exchange Rate, that Currency shall have an Exchange Rate of zero 
+   to one. A Currency with an Exchange Rate other than zero to one is 
+   called a Traded Currency.
+
+   The Chancellor shall keep track of the Exchange Rates of all
+   Currencies, and post this information whenever e posts a list of
+   existing Currencies.
+
+ Enact a Rule, titled "Exchange Offers", reading :
+
+   An Exchange Offer is a statement posted to the Public Forum 
+   whereby a Player agrees to transfer an amount of a Currency called 
+   the Sold Quantity to any Player who agrees to transfer to em an 
+   amount of a different Currency known as the Purchase Price.
+
+   Both Sold Quantity and Purchase Price must be expressed in 
+   multiples of the MUQ of their respectives Currencies; further, the 
+   Sold Quantity shall not exceed the amount of the relevant Currency 
+   owned by the Player making the Offer, nor shall the Purchase Price 
+   exceed the largest amount of the relevant Currency owned by any 
+   Player. No Exchange Offer shall be valid unless it meets these 
+   criteria.
+
+   A Player who posts an Exchange Offer is bound to honor that 
+   agreement with the first Player who announces that e is willing
+   to perform the Exchange, and no other Player, within one Week of 
+   entering the agreement.
+
+   Fair and appropriate compensation for the breach of an agreement 
+   entered into as the result of taking up an Exchange Offer, by 
+   either party, shall consist of the amounts named therein plus a 
+   penalty of 10% for the party responsible for the breach.
+
+ Enact a Rule, titled "Exchange Rate Computation", reading :
+
+   The Chancellor shall have the authority to compute the Exchange 
+   Rate of any Currency.
+
+   This consists of averaging the Sold Quantities of the Currency being
+   considered and Purchase Prices naming the Reference Currency in
+   Exchange Offers that have been posted since the last time that
+   Exchange Rate was computed. The result is the Temporary Exchange
+   Rate for that Currency. If no such Exchange Offers have been posted
+   since the last computation, the Temporary Exchange Rate shall be the
+   same as the last computed Exchange Rate.
+
+   The Reference Currency equivalents in Purchase Prices of any other
+   Currencies, computed at the Temporary Exchange Rate, and the Sold
+   Quantities of the Currency being considered in all Exchange Offers 
+   posted since the last computation shall be averaged to derive the 
+   new Exchange Rate for that Currency.
+
+   The Chancellor shall compute a new Exchange Rate for all 
+   Currencies no more frequently than once a Week and no less than 
+   once a Month.
+
+   Whenever the Reference Currency is changed, the Chancellor shall 
+   compute new Exchange Rates for all Currencies, such that the 
+   same amount of a Currency is equivalent to the same amount of the 
+   new Reference Currency.
+---
+
+[This is an attempt, possibly feeble, at introducing the notion of
+determining the market values of Currencies with respect to each
+other, which would make custom Currencies much more interesting. Any
+comments, suggestions or improvements welcomed, especially as do not
+have the faintest notion how such things are done in the Real
+World.]
+
+<Please don't quote this line -- PR-MORE-096>
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                       (o o)
+--------------------------------     -oOO--(~)--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in Web chat & Internet Communication technologies
+		Communicate better, Communicate Cheaper
+=====================================================
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jan 14 05:47 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA22078 for <dpb@cs.brown.edu>; Wed, 14 Jan 1998 05:47:09 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA01938
+	for agora-business-list; Wed, 14 Jan 1998 21:40:55 +1100
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA01925
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 21:40:50 +1100
+Received: from arapael (pppA203.francenet.fr [193.149.100.57])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id LAA15693
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 11:42:54 +0100 (MET)
+Message-Id: <199801141042.LAA15693@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-business@gecko.serc.rmit.edu.au
+Date: Wed, 14 Jan 1998 11:43:17 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: BUS: PROTO: Auctions
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3245
+
+Proto-Proposal
+---
+Auctions
+
+ Enact a Rule, titled "Auctions", reading :
+
+   Whenever the Rules call for an Auction to be held, the Player
+   responsible for holding the Auction, or Auctioneer, shall announce
+   that fact to the Public Forum as soon as possible, together with the
+   identity of the Seller. For a period of one Week after such an
+   announcement is posted, all Players, with the exception of any
+   Players made ineligible by other Rules, may post Bids to the Public
+   Forum.
+
+   As soon as possible after the Auction ends, the Auctioneer shall
+   announce the identity of the Winner of the Auction, if any, and any
+   effects of the Auction specified in the Rules shall take place at the
+   time of this announcement.
+
+ Enact a Rule, titled "Bidding", reading :
+
+   Bidding in an Auction consists of a naming an amount or amounts of 
+   any number of Currencies which are specifically determined by the 
+   Rules or which are designated as Traded Currencies.
+
+   At the end of the Auction's bidding period, the Auctioneer shall 
+   rank all valid Bids received. Bids are ranked by determining the 
+   total, expressed in the Reference Currency, of all amounts of 
+   Currencies named therein, at the Exchange Rate which was current 
+   when the Auction started.
+
+   The Bidder who submitted the highest ranking Bid is entitled to 
+   become the Winner of the Auction, and to do so must transfer all 
+   Currencies named in that Bid to the Seller within three days. If 
+   that Bidder fails to do so within three days, or before that time 
+   informs the Auctioneer that e is withdrawing from the Auction, the 
+   Bidder who submitted the next highest ranking Bid shall be so 
+   entitled, with the same strictures. The Auction ends whenever a 
+   Bidder has exercised eir right to become Winner, or all Bidders 
+   have withdrawn or failed to exercise that right.
+
+   If the Auction being held is designated by the Rules as an Open
+   Auction, Bids, retractions and payments shall only be valid if sent
+   to the Public Forum.
+
+ Enact a Rule, titled "Auctioning Currencies", reading :
+
+   Any Player is authorized, once in any Week, to call for an Auction 
+   to sell some of eir property. The announcement of the Auction 
+   shall list amounts of any number Currencies, known as the 
+   Auctioned Property.
+
+   That Player shall be the Auctioneer and Seller. The Winner of the
+   Auction shall be authorized to submit Payment Orders naming emself
+   as Payee and the Seller as Payor, for all amounts of Currencies 
+   named as the Auctioned Property.
+
+[For the moment, this is dependent on the Currency Market proto for
+a total ordering of Bids; if that fails to be finalized promptly, I
+will go back to the partial ordering I suggested previously, as well
+as the more complex Bidding rules this involves.]
+
+---
+
+<Please don't quote this line -- PR-MORE-098>
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                       (o o)
+--------------------------------     -oOO--(~)--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in Web chat & Internet Communication technologies
+		Communicate better, Communicate Cheaper
+=====================================================
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jan 14 06:25 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA22667 for <dpb@cs.brown.edu>; Wed, 14 Jan 1998 06:25:53 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA02231
+	for agora-business-list; Wed, 14 Jan 1998 22:17:53 +1100
+Received: from sunu450.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id WAA02228
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 22:17:48 +1100
+Received: (qmail 11713 invoked from network); 14 Jan 1998 11:19:03 -0000
+Received: from scarlet.tp3.ruhr-uni-bochum.de (134.147.140.33)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 14 Jan 1998 11:19:03 -0000
+Received: by scarlet.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA21539; Wed, 14 Jan 1998 12:19:01 +0100
+Date: Wed, 14 Jan 1998 12:19:01 +0100
+From: klaush@scarlet.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25(3751))
+Message-Id: <9801141119.AA21539@scarlet.tp3.ruhr-uni-bochum.de>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Plan for termination of Calabresi's estate
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 277
+
+I hereby announce the following plan for the termination of
+Calabresi's estate:
+
+1. Creditors: C owes 2 indulgences to the bank (POI575 and 578). These
+POs are to be satisfied.
+
+2. There is no will.
+
+3. Transfer the remaining 10 indulgences and 14.5 VTs to the bank.
+
+Kolja A.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jan 14 07:07 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA23385 for <dpb@cs.brown.edu>; Wed, 14 Jan 1998 07:07:32 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA02450
+	for agora-business-list; Wed, 14 Jan 1998 22:51:38 +1100
+Received: from taos.demon.co.uk (taos.demon.co.uk [158.152.120.224])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA02447
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 22:51:34 +1100
+Received: (from zefram@localhost) 
+          by taos.demon.co.uk (8.8.3/8.8.3) id LAA09691
+          for agora-business@gecko.serc.rmit.edu.au; Wed, 14 Jan 1998 11:53:33 GMT
+From: Andrew Main <zefram@tao.co.uk>
+Message-Id: <199801141153.LAA09691@taos.demon.co.uk>
+Subject: Re: DIS: Re: BUS: Plan for termination of Calabresi's estate
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic business mailing list)
+Date: Wed, 14 Jan 1998 11:53:32 +0000 (GMT)
+In-Reply-To: <199801141140.MAA21226@logatome.micronet.fr> from "Laurent Bossavit" at Jan 14, 98 12:40:50 pm
+X-Loop: zefram@tao.co.uk
+X-Headers: in preparation
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 375
+
+Laurent Bossavit wrote:
+>I believe this, and similar Plans already announced, are
+>objectionable on the grounds that I pointed out, i.e. that no
+>entities in Probate are currently terminal. I've decided not to
+>lodge Objections myself, though.
+
+Well in that case...
+
+I object to the plan for the termination of Calabresi's estate, on the
+grounds that Probate sucks.
+
+-zefram
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jan 14 07:19 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA23540 for <dpb@cs.brown.edu>; Wed, 14 Jan 1998 07:19:47 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA02559
+	for agora-business-list; Wed, 14 Jan 1998 23:14:24 +1100
+Received: from taos.demon.co.uk (taos.demon.co.uk [158.152.120.224])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA02556
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 23:14:21 +1100
+Received: (from zefram@localhost) 
+          by taos.demon.co.uk (8.8.3/8.8.3) id MAA09971
+          for agora-business@gecko.serc.rmit.edu.au; Wed, 14 Jan 1998 12:16:23 GMT
+From: Andrew Main <zefram@tao.co.uk>
+Message-Id: <199801141216.MAA09971@taos.demon.co.uk>
+Subject: Re: DIS: Re: BUS: Plan for termination of Calabresi's estate
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic business mailing list)
+Date: Wed, 14 Jan 1998 12:16:23 +0000 (GMT)
+In-Reply-To: <199801141153.LAA09691@taos.demon.co.uk> from "Andrew Main" at Jan 14, 98 11:53:32 am
+X-Loop: zefram@tao.co.uk
+X-Headers: in preparation
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 332
+
+I hereby Call for Judgement on the following statement:
+
+	Zefram's objection to the plan for the termination of Calabresi's
+	estate, in message <199801141153.LAA09691@taos.demon.co.uk>,
+	lacks foundation.
+
+Calabresi's Trusteee should note that R1738 bars em from formulating or
+executing a plan until this CFJ is resolved.
+
+-zefram
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jan 14 14:17 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA05052 for <dpb@cs.brown.edu>; Wed, 14 Jan 1998 14:17:52 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA04531
+	for agora-business-list; Thu, 15 Jan 1998 06:05:17 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id GAA04528
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 15 Jan 1998 06:05:13 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 881]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49590-19777>; Wed, 14 Jan 1998 20:06:54 +0100
+Date: 	Wed, 14 Jan 1998 20:06:43 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: Agora Business List <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: Votes & Declarations 3659 - 3663
+In-Reply-To: <s4b103a1.006@rmv.state.ma.us>
+Message-ID: <Pine.LNX.3.96.980114200415.18404E-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 163
+
+               3  3  3  3  3
+               6  6  6  6  6
+               5  6  6  6  6
+               9  0  1  2  3
+
+Oerjan         *  *     F
+
+Greetings,
+Ørjan.
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jan 14 14:58 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA06213 for <dpb@cs.brown.edu>; Wed, 14 Jan 1998 14:58:01 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA04730
+	for agora-business-list; Thu, 15 Jan 1998 06:48:34 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id GAA04727
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 15 Jan 1998 06:48:30 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 19460]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49645-19777>; Wed, 14 Jan 1998 20:50:08 +0100
+Date: 	Wed, 14 Jan 1998 20:49:55 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: Agora Business List <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: CFJ 1078 Injunction Appeal determination
+In-Reply-To: <l03110700b0dcf99f88b8@[195.40.61.175]>
+Message-ID: <Pine.LNX.3.96.980114203906.18404H-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 2339
+
+On Sat, 10 Jan 1998, Dr. Jeffrey L. Caruso wrote:
+
+> The injunction in CFJ 1078, attached, has been appealed by Morendil, who
+> was named in it.  I hereby assign the appeal of the injunction to elJefe,
+> Gen. Chaos, and Oerjan.  The Justices are therefore required to decide
+> within one week whether the Injunction was legal and appropriate.
+
+This Justice determines, in agreement with fellow Justice ElJefe's
+argument, that the Injunction was legal and appropriate given the
+situation, and should be sustained.
+
+Greetings,
+Ørjan.
+
+On Tue, 13 Jan 1998, Dr. Jeffrey L. Caruso wrote:
+> 
+> Date: Tue, 13 Jan 1998 09:18:27 +0000
+> From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+> Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+> To: Agora Nomic <agora-business@gecko.serc.rmit.edu.au>
+> Subject: BUS: Proposed decision regarding CFJ 1078 Injunction
+> 
+> In the judgement of CFJ 1078, Blob wrote:
+> >
+> >By the power invested in me, by Rule 908, I hereby issue an Injunction
+> >that Morendil submit a Formal Apology using the following Proscribed Words:
+> >
+> >Insanity, inanity, profanity, calamity, Yosemite, perimetry, gee, I'm, a,
+> >tree!
+> 
+> 
+> Laurent's appeal was worded thusly:
+> >
+> >I hereby call for the Appeal of this Injunction, on the grounds that
+> >"I'm" and "tree!" are not single words. :-P
+> 
+> I am inclined to judge this Injunction legal and appropriate, as it appears
+> on its face to satisfy the requirements of Rule 908.
+> 
+> "I'm" is a contraction, which is a gray area for "words".  One common-sense
+> sufficiency test for being a word seems to be indivisibility, namely
+> whether the text could be divided into smaller parts that could stand on
+> their own.  "I'm" cannot be so divided, and I would say that it counts as a
+> word.
+> 
+> In passing, I note that though "tree!" may not be a word, "tree" is, and
+> the "!" could be taken as the terminator of the Judge's sentence rather
+> than part of a Prescribed Word.  An apology that included "tree" but not
+> the string "tree!" would probably satisfy the injunction.
+> 
+> I invite comment.
+> 
+> Regards,
+> -- elJefe
+> 
+> 
+> ************************************************
+>   Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+>   Department of Pure Mathematics and Mathematical Statistics
+>   Cambridge University
+> 
+>   also at <jlc@dpmms.cam.ac.uk>
+> 
+> 
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jan 14 15:58 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA08529 for <dpb@cs.brown.edu>; Wed, 14 Jan 1998 15:58:42 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA05001
+	for agora-business-list; Thu, 15 Jan 1998 07:52:31 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA04997
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 15 Jan 1998 07:52:28 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 21796]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49667-19777>; Wed, 14 Jan 1998 21:54:14 +0100
+Date: 	Wed, 14 Jan 1998 21:54:10 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: Agora Business List <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: Votes, Internomic Proposals 358-359
+In-Reply-To: <9801121017.AA19910@scarlet.tp3.ruhr-uni-bochum.de>
+Message-ID: <Pine.LNX.3.96.980114215112.18404M-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 64
+
+I Vote ABSTAIN on both INP 358 and INP 359.
+
+Greetings,
+Ørjan.
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jan 14 23:13 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA19190 for <dpb@cs.brown.edu>; Wed, 14 Jan 1998 23:13:49 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA07275
+	for agora-business-list; Thu, 15 Jan 1998 15:04:44 +1100
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id PAA07270
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 15 Jan 1998 15:04:42 +1100
+Received: From dvorak With LocalMail ; Thu, 15 Jan 98 15:06:49 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-business@gecko.serc.rmit.edu.au (Nomic Business)
+Date: Thu, 15 Jan 1998 15:06:48 +1100 (EST)
+Message-Id:  <980115040648.8549@cse.unsw.edu.au>
+Subject: BUS: Proto: The Proposal Queue v1.2
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 6383
+
+
+Proto-Proposal: The Proposal Queue 1.2
+
+Amend Rule 1036 ("Making And Distributing Proposals") to read:
+
+      As soon as possible after the Promotor receives a new Proposal,
+      e shall assign to it a Number as specified in other Rules.
+      E shall then place this Proposal on the Proposal Queue.
+
+      The Proposal Queue is a list of Proposals, sorted in order of
+      descending Priority. Proposals of the same priority are
+      listed in the order they were proposed.
+
+      A Proposal's Priority is an integer value. All Proposals 
+      initially have a Priority of zero. 
+
+      The Promotor shall publish the Proposal Queue weekly. This 
+      publication shall include the number, title, priority and
+      time of proposal, for each proposal in the Queue. The actual
+      text of the Proposals in the Queue need not be published.
+      
+Change the title of Rule 1036 to "The Proposal Queue"
+
+Create a rule, with title "Distributing Proposals", with text:
+
+      Each week, the Promotor shall distribute a batch of Proposals.
+
+      If there are five or fewer Proposals in the Proposal Queue
+      having a Priority greater than zero, then the batch shall
+      consist of all such Proposals.
+
+      If there are more than five such proposals, then the batch shall
+      consist of the first five such Proposals, in the order given by
+      the Queue. 
+
+      Once a Proposal is distributed, it is removed from the Proposal
+      Queue.
+
+      Promotor shall distribute each proposal in the batch to the 
+      Public Forum, accompanied by its Number and  the identity of its 
+      Proposing Entity.
+
+      The failure of the Promotor to distribute any of the above
+      accompaniments with a Proposal does not deprive the distribution
+      of the Proposal of any legal effect. 
+
+      A Proposal is only considered to be legally distributed if it
+      is explicitly marked as such. The Promotor is permitted to
+      publish the text of undistributed Proposals without necessarily
+      distributing them.
+
+Create a rule, with title "Increasing Priority", with text:
+
+      An Entity may increase the Priority of a proposal by notifying
+      the Promotor that e does so, and paying a number of P-Notes to
+      the Bank. For each P-Note e pays to the Bank, the Priority of 
+      the Proposal is increased by one, provided that this transfer
+      is not executed for any other purpose.
+
+Create a rule, with title, "Promotor's Privilege", with text:
+
+      At most once a week, the Promotor may increase the Priority of
+      a single Proposal in the Proposal Queue by one, so long as
+      e is not the Proposer of the Proposal.
+ 
+Create a rule, with title "Decreasing Priority", with text:
+
+      Every month, as soon as possible after the beginning of the
+      month, the Promotor shall decrement by one the priority of all 
+      Proposals in the Proposal Queue which were proposed over a 
+      month previously.
+
+      If the Priority of any Proposal falls below zero, then it 
+      shall be set to zero.
+
+Create a rule, with title "Discarding Proposals from the Queue", with
+text:
+
+      If, at any time, there is a Proposal in the Proposal Queue 
+      which has zero Priority and has been in the Queue for more
+      than a month, then the Promotor may, at eir discretion, remove 
+      this Proposal from the Queue, and discard it.
+
+      Also, the Proposer of a Proposal in the Queue may remove that
+      Proposal from the Queue, by notifying the Promotor that e 
+      does so.
+
+---------------------------------------------------------------------
+
+[Comment: Remove the old Petition Fee system]
+
+Repeal Rule 1702 ("Petition Fee for Proposals")
+
+Amend Rule 1623 ("Disinterested Proposals") to read:
+
+      A Proposal is Disinterested if the text of the message wherein
+      it is submitted explicitly states that it is a Disinterested
+      Proposal. If a Proposal is not Disinterested, it is Interested.
+
+Amend Rule 1723 ("Sanity") by replacing the text:
+
+      A Proposal is Sane if the text of the message wherein it is
+      submitted explicitly states that it is a Sane Proposal, and it
+      is not Disinterested.
+
+      The Petition Fee for a Sane Proposal is increased by three.
+
+with:
+
+      A Proposal is Sane if all the following conditions are met:
+
+         i) the text of the message wherein it is submitted 
+            explicitly states that it is a Sane Proposal,
+
+        ii) The Proposal is Interested,
+
+       iii) The Proposer has paid 2 P-Notes to the Bank, expressly
+            for this purpose (and not for any other). In order for
+            this payment to have effect, it must be made before
+            the Proposal is distributed.
+
+Amend Rule 1724 ("Emergency Proposals") to read:
+
+      A Proposal is Urgent if all the following conditions are met:
+
+         i) the text of the message wherein it is submitted 
+            explicitly states that it is an Urgent Proposal,
+
+        ii) The Proposal is Interested,
+
+       iii) The Proposer has paid 1 P-Note to the Bank, expressly
+            for this purpose (and not for any other). In order for
+            this payment to have effect, it must be made before
+            the Proposal is distributed.
+
+      The Voting Period of an Urgent Proposal is five Nomic Days.
+
+      This Rule takes precedence over any Rule which would specify the
+      Voting Period for Urgent Proposals.
+
+Change the title of Rule 1724 to "Urgent Proposals".
+
+Amend Rule 833 ("Awards & Penalties for Proposals") to read:
+
+      At the end of the Voting Period for a Proposal, if a Proposal
+      has received more FOR Votes than AGAINST Votes, the Assessor
+      shall pay out 2 VTs to the Proposer.
+
+      The Assessor shall execute all Payment Orders required by this
+      Rule no later than the time e announces the Voting Results of
+      the Proposal in question.
+
+[1.0: Basic idea of the Queue.]
+[1.1: Remove Petition Fees. 
+      Add means for removing proposals from the Queue. 
+      Added requirement for the Queue to be published.
+      Require distribution to be explicitly marked (so that the
+      Promotor can publish the contents of the Queue without actually
+      "distributing" them.)]
+[1.2  Changed "Player" to "Entity" in "Increasing Priority"
+      Changed "Emergency Proposal" to "Urgent Proposal"
+      Plato-Pragmatised "Decreasing Priority" a bit]
+
+      
+
+

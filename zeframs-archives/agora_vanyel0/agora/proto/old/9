@@ -1,0 +1,183 @@
+From blahedo Thu Sep 22 17:46:20 1994
+Return-Path: <blahedo>
+Message-Id: <m0qnwu7-000mWaC@Shamino.quincy.edu>
+From: blahedo (Don Blaheta)
+Subject: Randomness
+To: nomic-discussion@teleport.com
+Date: Thu, 22 Sep 1994 17:46:15 -0500 (CDT)
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+Content-Length: 269       
+Status: RO
+
+PROTO-Proposal DB9  (Vanyel)
+Randomness
+(Creates a rule)
+
+All occurrences of the word "random" or forms of it shall be taken to
+mean "any of the choices with equally distributed possibility for
+each".
+
+***End Proto
+
+That should take care of a few ambiguities.
+
+Vanyel
+
+
+From teleport.com!nomic-discussion-owner Thu Sep 22 22:45:45 1994
+Return-Path: <nomic-discussion-owner@teleport.com>
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.11]) by teleport.com (8.6.9/8.6.9) with ESMTP id UAA09713 for <nomic-discussion-outgoing>; Thu, 22 Sep 1994 20:32:48 -0700
+Received: from mizar.astro.indiana.edu (mizar.astro.indiana.edu [129.79.160.43]) by teleport.com (8.6.9/8.6.9) with SMTP id UAA09678 for <nomic-discussion@teleport.com>; Thu, 22 Sep 1994 20:32:32 -0700
+Received: from poverty by mizar.astro.indiana.edu with uucp
+	(Smail3.1.28.1 #7) id m0qo1N4-0001QkC; Thu, 22 Sep 94 22:32 EST
+Received: by poverty.bloomington.in.us (V1.17-beta/Amiga)
+	  id <12nv@poverty.bloomington.in.us>; Thu, 22 Sep 94 22:09:17 EST
+Date: Thu, 22 Sep 94 22:09:17 EST
+Message-Id: <9409230309.12nv@poverty.bloomington.in.us>
+In-reply-to: Don Blaheta's message of Thu, 22 Sep 1994 17:46:15 -0500 (CDT) <m0qnwu7-000mWaC@Shamino.quincy.edu>
+From: kelly@poverty.bloomington.in.us (Kelly Martin)
+To: nomic-discussion@teleport.com
+Cc: nomic-discussion@teleport.com
+Subject: Re: Randomness
+Sender: owner-nomic-discussion@teleport.com
+Precedence: bulk
+Reply-To: nomic-discussion@teleport.com
+Status: RO
+
+"Don" == Don Blaheta <blahedo@quincy.edu> writes:
+
+Don> PROTO-Proposal DB9 (Vanyel) Randomness (Creates a rule)
+
+Don> All occurrences of the word "random" or forms of it shall be
+Don> taken to mean "any of the choices with equally distributed
+Don> possibility for each".
+
+Don> ***End Proto
+
+Don> That should take care of a few ambiguities.
+
+and create a few: "any" can mean more than one.
+
+how about:
+
+      Whenever the Rules call for a "random" selection of a member
+      from a set, the selection shall be made by uniquely indexing
+      each member of the set, selecting a uniformly distributed
+      discrete random value whose range is set of indices thus
+      assigned, and then selecting the member of the set corresponding
+      to the selected index.
+
+k.
+--
+kelly martin                                 <kelly@poverty.bloomington.in.us>
+GCS/M/O -d+(x) H+ s+:- g+? p? au-- !a w++ v+(*) C+(++) U P+++ L 3- E++ N++ K--
+        !W--- M-- V -po+(--) Y+ t+(++) !5 j R@ G? tv b++>+++$ !D B-- e+ u+ h----
+        f- r+++ n---- z++++*
+
+
+From blahedo Thu Sep 22 23:07:47 1994
+Return-Path: <blahedo>
+Message-Id: <m0qo1vC-000mWaC@Shamino.quincy.edu>
+From: blahedo (Don Blaheta)
+Subject: Re: Randomness
+To: nomic-discussion@teleport.com
+Date: Thu, 22 Sep 1994 23:07:42 -0500 (CDT)
+In-Reply-To: <9409230309.12nv@poverty.bloomington.in.us> from "Kelly Martin" at Sep 22, 94 10:09:17 pm
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+Content-Length: 1026      
+Status: RO
+
+Kelly clarifies:
+> 
+> "Don" == Don Blaheta <blahedo@quincy.edu> writes:
+> 
+> Don> PROTO-Proposal DB9 (Vanyel) Randomness (Creates a rule)
+> 
+> Don> [MY PROTO]
+> 
+> Don> That should take care of a few ambiguities.
+> 
+> and create a few: "any" can mean more than one.
+
+Oh, fine.  I'll change it to 'a', then.  
+
+> how about:
+> 
+>       Whenever the Rules call for a "random" selection of a member
+>       from a set, the selection shall be made by uniquely indexing
+>       each member of the set, selecting a uniformly distributed
+>       discrete random value whose range is set of indices thus
+>       assigned, and then selecting the member of the set corresponding
+>       to the selected index.
+
+Oh, come on!  I understand that, but its a little complex.  I think
+it's sufficient to say that each Player must have an equal chance;
+I'll leave the exact method to the CotC, or whoever.  Besides, how
+can this be enforced?  For all practical purposes, saying 'equal 
+chance' is about as picky as we can get...
+ 
+> k.
+
+Vanyel
+
+From blahedo Mon Oct  3 00:07:17 1994
+Return-Path: <blahedo>
+Message-Id: <m0qrfcF-000mV2C@Shamino.quincy.edu>
+From: blahedo (Don Blaheta)
+Subject: Randomness Proposal
+To: ccarroll@students.wisc.edu (Chuck Carroll)
+Date: Mon, 3 Oct 1994 00:07:11 -0500 (CDT)
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+Content-Length: 691       
+Status: RO
+
+ Proposal
+ Randomness
+ (Creates a rule)
+ 
+ All occurrences of the word "random" or forms of it shall be taken to
+ mean "any one of the choices with equally distributed possibility for
+ each".
+ 
+ ***End Proposal
+
+NOTE: This was protoed.  (As were each of the others which I proposed
+this week.)
+ 
+Vanyel
+
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Don Blaheta       | GAT d?(--) H+ s-:- g-(+) p?>! !au a-- w+ v+ C++(+++) USL
+dblaheta@aol.com  | !3 E--- N++ K- W--- M++ !v -po+ Y+ t++>+++ 5- jx R(+) G+
+blahedo@quincy.edu| tv-- b+++ D--- B-- e(*)(+>+++) u++ h(*) f+ r-- n---- !y*
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+From students.wisc.edu!ccarroll Mon Oct  3 08:06:50 1994
+Return-Path: <ccarroll@students.wisc.edu>
+Received: from [144.92.181.48] by audumla.students.wisc.edu;
+          id IAA48203; 8.1C/42; Mon, 3 Oct 1994 08:10:03 -0500
+X-NUPop-Charset: English
+Date: Mon, 3 Oct 94 08:09:41 CST  
+From: "Charles E. Carroll" <ccarroll@students.wisc.edu>
+Sender: ccarroll@students.wisc.edu
+Message-Id: <29388.ccarroll@students.wisc.edu>
+To: blahedo@quincy.edu
+Subject: RE: Randomness Proposal
+Status: RO
+
+> Proposal
+> Randomness
+
+Please note that I am not yet Speaker.  I appreciate that you want
+to lessen Timothy's work, but a proposal sent to a non-Speaker
+is irrelevant.  The simplest way is to send it to Timothy and cc:
+it to me.  That way I will know it has been sent to the Speaker.
+
+Chuck
+
+P.S. Please read Rule 928 for the requirements you must meet in
+order to receive the proto-proposal bonus.
+

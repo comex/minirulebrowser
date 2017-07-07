@@ -1,0 +1,669 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Feb 13 00:09 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA00932 for <dpb@cs.brown.edu>; Fri, 13 Feb 1998 00:08:34 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA04375
+	for agora-business-list; Fri, 13 Feb 1998 15:51:16 +1100
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id PAA04372
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 13 Feb 1998 15:51:14 +1100
+Received: From elgar With LocalMail ; Fri, 13 Feb 98 15:48:44 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-business@gecko.serc.rmit.edu.au (Nomic Business)
+Date: Thu, 12 Feb 1998 16:03:07 +1100 (EST)
+Message-Id:  <980212050307.549@cse.unsw.edu.au>
+Subject: BUS: Votes: 3688-3694
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 491
+
+I vote as follows:
+
+         3
+         6
+         8  8  9  9  9  9  9
+         8  9  0  1  2  3  4
+
+Blob     *           *  *  *
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Feb 13 01:55 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA03136 for <dpb@cs.brown.edu>; Fri, 13 Feb 1998 01:55:26 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA05287
+	for agora-business-list; Fri, 13 Feb 1998 17:41:03 +1100
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA05281
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 13 Feb 1998 17:40:54 +1100
+Received: by windowsnt from localhost
+    (router,SLMail V2.6); Fri, 13 Feb 1998 01:38:52 -0500
+Received: by windowsnt from friend-computer
+    (206.18.116.59::mail daemon; unverified,SLMail V2.6); Fri, 13 Feb 1998 01:38:44 -0500
+From: "Ed Murphy" <ford@bayside.net>
+To: "Agora Business" <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: Proto:  Plots (v3.0)
+Date: Thu, 12 Feb 1998 22:40:22 -0800
+Message-ID: <01bd384a$426fcb00$3b7412ce@friend-computer>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 4.71.1712.3
+X-MimeOLE: Produced By Microsoft MimeOLE V4.71.1712.3
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 12725
+
+Proto-Proposal:  Plots (v3.0)
+
+
+[Part One:  Replace Locations with Plots]
+
+All Locations are destroyed.
+
+Rename Rule 1706 ("Locations") to "Plots" and amend it to read:
+
+      There is a class of entities called Plots.  All Plots are initially owned
+      by the Bank.
+
+      Each Plot has a unique name.  A Plot's owner may change its name Without
+      Objection.
+
+Create a new Rule entitled "Buying and Selling Plots" with this text:
+
+      A Plot's Market Value is a set of one or more options, each of which is
+      some amount of a single Currency.  Any requirement to transfer some
+      multiple of a Plot's Market Value may be satisfied by transferring that
+      multiple (rounded down) of any of the options for that Plot's Market
+Value.
+
+      The Market Value of a Plot is 5 VTs, 2 P-Notes, or 2 Indulgences, unless
+      another Rule states otherwise.
+
+      A Player may become the owner of a Bank-owned Plot by transferring the
+      Market Value of that Plot to the Bank for the sole purpose of buying
+      that Plot.
+
+      A Plot's owner may transfer ownership of it to any other consenting
+      entity, by informing the Cartographor that e wishes to do so.  For the
+      purposes of this Rule, the Bank is always deemed to consent to such
+      wishes.  Furthermore, as soon as possible after a Plot is transferred to
+      the Bank in this way, the Cartographor shall pay out half the Plot's
+      Market Value to the transferring entity.
+
+Repeal Rule 1707 ("Movement").
+
+Amend Rule 1708 ("Adjacency") to read:
+
+      Each Plot has a Longitude and Latitude, each of which is an integer.  Two
+      Plots are Adjacent if and only if one of the following applies:
+
+        * They have the same Longitude, and their Latitudes differ by one.
+        * They have the same Latitude, and their Longitudes differ by one.
+
+Repeal Rule 1709 ("Distance").
+
+[Rule 1710 ("The Cartographor") will be amended later.]
+
+
+For each combination of Latitude (X) from 0 to 9 and Longitude (Y) from 0 to 9,
+a Plot named "Area XY" (substituting the Latitude for "X" and the Longitude for
+"Y") is created.
+
+
+Create a Rule entitled "Winning by Ownership" with this text:
+
+      If at least one-third of all Plots are not owned by the Bank, and all
+      Plots not owned by the Bank are owned by a single entity, then that
+      entity's Executor satisfies a Win Condition known as a Win by Monopoly.
+
+      Upon the correct report of such a Win, all Plots become Owned by the Bank.
+
+
+[Part Two:  Define Structures and Ergs]
+
+Create a Rule entitled "Structures" with this text:
+
+      There exists a class of entities known as Structures.  All Structures are
+      initially owned by the Bank.
+
+      Each Structure is either assigned to a specific Plot, or unassigned.  All
+      Structures are initially unassigned.
+
+      An unassigned Structure's owner may assign it to a Plot by informing the
+      Cartographor that e does so, unless another Structure is already assigned
+      to that Plot.
+
+      An assigned Structure's owner may make it unassigned by informing the
+      Cartographor that e does so.  The owner of a Plot with a Structure
+      assigned to it may also make that Structure unassigned by informing the
+      Cartographor that e does so.
+
+Create a Rule entitled "Ergs" with this text:
+
+      Ergs are a Currency.  Their MUQ is 1.  Their Recordkeepor is the
+      Cartographor.  Their Mintor is the Bank.
+
+100 Structures and 10,000 Ergs are created.
+
+Amend Rule 1677 ("Currency Awards for New Players") to read:
+
+      As soon as possible after the start of a Player's Grace Period, the
+      Registrar shall pay out 5 Voting Tokens, 5 P-Notes, and 15 Ergs to that
+      Player.  In addition, e shall order the Cartographor to create 5
+      Structures and give them to the Player; the Cartographor shall do so as
+      soon as possible after being so ordered.
+
+Amend Rule 1701 ("Proposal Notes") by removing this paragraph:
+
+      Whenever there exists a Player who has never before possessed
+      any P-Notes, the Promotor shall pay out 5 P-Notes to that Player.
+
+All Voting Tokens and P-Notes are destroyed.  For each Player, 5 VTs, 5
+P-Notes, and 15 Ergs are created in that Player's possession.
+
+
+[Part Three:  Make Structures useful]
+
+Create a Rule entitled "Types of Structures" with this text:
+
+      All Structures have a Type.  All Structures are initially Idle, and any
+      unassigned Structures become Idle if they are not already Idle.
+
+      An assigned Structure's owner may change its Type by informing the
+      Cartographor and paying the new Type's price to the Bank (if the new Type
+      is defined by the Rules) or the Maintainer of the new Type's Blueprint
+      (otherwise).
+
+      As soon as possible after a Structure's Type changes, the Cartographor
+      shall execute a Payment Order for half the old Type's price (rounded down)
+      to the Structure's owner, from the Bank (if the old Type is defined by the
+      Rules) or the Maintainer of the old Type's Blueprint (otherwise).
+
+Create a rule titled "Maintenance of Structures" with this text:
+
+      Each Structure has a Maintenance Fee that becomes due at the beginning of
+      each month.  When due, the Maintenance Fee for a Structure is paid when an
+      entity successfully executes a Transfer Order for the amount of that
+      Structure's Maintenance Fee, provided that e indicates clearly that the
+      Transfer Order is being executed to pay the Maintenance Fee for that
+      Structure.
+
+      One week after a Structure's Maintenance Fee becomes due, if it has not
+      yet been paid, then it becomes delinquent.  As soon as possible after this
+      happens, the Cartographor shall destroy that Structure.
+
+Create a rule titled "Production of Structures" reading:
+
+      As soon as possible after the beginning of the Nomic Week, the
+      Cartographor shall report the Production of all Structures.
+
+      When the Cartographor reports the Production of a Structure for a given
+      Nomic Week, a number of units of the appropriate Currency are created in
+      the possession of the owner of the Plot to which the Structure is
+      assigned.
+
+      Churches have no Production.  However, each Church is considered to be two
+      players for the purpose of randomly allocating Indulgences, and any
+      Indulgence that would otherwise be given to a Church is instead given to
+      its owner.
+
+      Only one Vatican may exist at any time, and it is always owned by the
+      Bank.  Its Production is a number of Indulgences equal to the number of
+      Blots issued and not vacated during the previous Nomic Week.
+
+A Structure is assigned to Area 42 and becomes the Vatican.
+
+Create a Rule entitled "Standard Types of Structures" with this text:
+
+      A Type of Structure exists only if it is specifically defined in the Rules
+      or in a Blueprint.
+
+      The following Types of Structure exist, with the specified prices,
+      Productions, and Maintenance Fees, unless otherwise specified:
+
+        Type         Price      Production   Maintenance Fee
+        ----------------------------------------------------
+        Idle         none       none         none
+        Farm         4 Ergs     2 VTs        1 Erg
+        House        4 Ergs     1 P-Note     1 Erg
+        Mine         4 Ergs     1 Erg        1 Erg
+        Church       4 Ergs     none         1 Erg
+        Vatican      none       special      3 Ergs
+
+Create a new Rule titled "Design of Blueprints" and this text:
+
+      An SLC associated with a Currency not Minted by the Bank is known as a
+      Blueprint.  A Blueprint indicates the properties of a Structure that
+      produces units of the Currency associated with the Blueprint.  The
+      Blueprint's Maintainer is the Mintor of the associated Currency.
+
+      A Blueprint can only be created through an Application to Create a
+      Blueprint. Such an Application must contain the following information:
+
+        * The name of the Type of Structure defined by the Blueprint.
+        * The type and amount of Currency produced by this Type.
+        * Any changes to the amount of Currency produced by this Type due to its
+            Adjacencies to other Structures.
+        * The Price of this Type.
+        * The Maintenance Fee of this Type.
+
+      The Maintainer of a Blueprint may change its text by posting the changes
+      to the Public Forum, and indicating what Blueprint is being changed. Such
+      changes may only take effect if the new text of the Blueprint would still
+      define each of the properties of the Type listed above.
+
+[This allows multiple Blueprints per non-Rule-defined Currency.]
+
+Create a new Rule titled "Interaction of Structures" and this text:
+
+      Two Structures are Adjacent if and only if they are assigned to Adjacent
+      Plots.
+
+      A Farm's Production is increased by 0.5 VT for each House or Church to
+      which it is Adjacent, and decreased by 0.5 VT for each Mine to which it is
+      Adjacent.
+
+      A House's Production is increased by 1 P-Note for every 2 Farms or Mines
+      to which it is Adjacent.
+
+
+[Part Four:  Remove other Currency inputs; make P-Notes useful]
+
+Amend Rule 1471 ("Creation and Destruction of Currencies") by replacing the
+text reading:
+
+       New units of a Currency are created when the Mintor of that
+       Currency transmits to the Recordkeepor of that Currency a notice
+       that e is creating new units of that Currency, specifying the
+       number of units that e is creating.  The newly created units are
+       added to the Mintor's possessions.
+
+with the text:
+
+       New units of a Currency can only be created by an assigned
+       Structure of the appropriate Type to produce that Currency,
+       as described in other Rules.
+
+Rename Rule 1763 ("Inadvertent Transfers to the Bank II") to "Intentional
+Transfers to the Bank") and amend it to read:
+
+       If an Entity transfers Currency to the Bank and specifies a
+       purpose for this transfer, and the transfer succeeds in
+       accomplishing that purpose, the Bank shall, as soon as possible,
+       destroy that Currency.
+
+[Rules 1754 ("Inadvertent Transfers to the Bank") and Rule 1763 currently have
+  identical text.]
+
+Repeal Rule 1684 ("VT Supply").
+
+Amend Rule 1623 ("Disinterested Proposals") to read:
+
+      A Proposal is Disinterested if it is clearly labelled as such by its
+      Proposer.  If a Proposal is not Disinterested, it is Interested.
+
+Amend Rule 1753 ("Repeal-O-Matic") by replacing "submitted its Proposal
+concerning a given Rule" with "submitted its Proposal concerning a given Rule,
+and paid the Petition Fee for that Proposal,".
+
+Amend Rule 833 ("Awards & Penalties for Proposals") to read:
+
+      As soon as possible after the beginning of the Nomic Week, the Assessor
+      shall pay out two Voting Tokens to each Player who submitted a Proposal
+      which was adopted during the previous Week.
+
+Amend Rule 1702 ("Petition Fee for Proposals") by appending this paragraph:
+
+      All Rules to the contrary notwithstanding, no Proposal shall be adopted
+      unless its Proposal Fee is paid by the end of its voting period.
+
+
+[Part Five:  Amend the Rule defining the Cartographor and eir duties]
+
+Amend Rule 1710 ("The Cartographor") to read:
+
+      There is an Office of Cartographor. The Cartographor recieves a
+      salary equal to 2 times the Basic Officer Salary.
+
+      At least once each Nomic Week, the Cartographor shall post a
+      Report to the Public Forum containing the following information:
+
+        * the name, ownership, and Adjacency of all Plots
+        * the ownership, assignment (if any) and Type of all Structures
+        * the ownership of all Ergs
+        * all changes in ownership of Plots since the last Report
+        * all changes in ownership, assignment, or Type of all Structures since
+            the last Report
+        * all Transfer Orders and Payment Orders specifying Ergs since the last
+            Report
+
+
+[Part Six:  Clean up other references to Locations]
+
+Amend Rule 869 ("Registered Players") by removing the following paragraph:
+
+      When a Player registers, eir Location is the Welcoming Center.
+
+Amend Rule 1016 ("Putting Oneself On Hold") by replacing "Moves to the Stasis
+Chamber" with "says so in the Public Forum", and by replacing "Moves from the
+Stasis Chamber" with "says so in the Public Forum".
+
+Amend Rule 1664 ("Rebellion") by removing the text "whose Location is the Beer
+Hall".
+
+Amend Rule 1367 ("Degrees") by adding this paragraph:
+
+      "Granting a Degree" and "awarding a Degree" are synonymous.  A Player who
+      has been awarded a Degree possesses that Degree.
+
+Repeal Rule 1711 ("Accepting Degrees").
+
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Feb 13 04:38 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA05719 for <dpb@cs.brown.edu>; Fri, 13 Feb 1998 04:38:42 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA05995
+	for agora-business-list; Fri, 13 Feb 1998 20:30:16 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id UAA05992
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 13 Feb 1998 20:30:12 +1100
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0y3HUQ-0004y0-00; Fri, 13 Feb 1998 09:32:58 +0000
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0y3HUO-0005Wb-00; Fri, 13 Feb 1998 09:32:56 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Kudo transfers
+X-Mailer: VM 6.41 under Emacs 19.34.1
+Message-Id: <E0y3HUO-0005Wb-00@merganser.cl.cam.ac.uk>
+Date: Fri, 13 Feb 1998 09:32:56 +0000
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 830
+
+Hon (temporarary) Herald, please take note
+
+I hereby transfer 1 Kudo from Steve to Kolja A.
+  I make this transfer from Steve because he and his cohorts' little
+  loophole exploitation is going to cause me a lot of work for little
+  point.  Sure Steve gets to be Speaker and they hold onto their
+  offices, but most Elections tend to be won by incumbents who bother
+  to stand anyway.  Unless my interpretation of the rules is wrong,
+  they have also fouled up in their attempt to hold on to the CotC
+  job, and I encourage someone not of the Threat to stand in the
+  election for this post.
+
+  I make this transfer to Kolja A. because of his enthusiasm as
+  Ambassador, and his sterling work in that role. 
+
+Herald, I further transfer 1 Kudo from General Chaos to Time Agent. 
+  This is done Kbecause I feel like it. 
+
+Michael.
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Feb 13 04:50 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA05891 for <dpb@cs.brown.edu>; Fri, 13 Feb 1998 04:50:35 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA06094
+	for agora-business-list; Fri, 13 Feb 1998 20:42:31 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id UAA06091
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 13 Feb 1998 20:42:23 +1100
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0y3Hg9-00085q-00; Fri, 13 Feb 1998 09:45:05 +0000
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0y3Hg8-0005Y1-00; Fri, 13 Feb 1998 09:45:04 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: a vote
+X-Mailer: VM 6.41 under Emacs 19.34.1
+Message-Id: <E0y3Hg8-0005Y1-00@merganser.cl.cam.ac.uk>
+Date: Fri, 13 Feb 1998 09:45:04 +0000
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 27
+
+I vote FOR 3693.
+
+Michael.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Feb 13 05:08 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA06095 for <dpb@cs.brown.edu>; Fri, 13 Feb 1998 05:08:55 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA06183
+	for agora-business-list; Fri, 13 Feb 1998 20:59:23 +1100
+Received: from belize.ucs.indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id UAA06180
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 13 Feb 1998 20:59:19 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-110.ucs.indiana.edu [156.56.126.110])
+	by belize.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id FAA02789
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 13 Feb 1998 05:02:03 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id FAA13039 for <agora-business@gecko.serc.rmit.edu.au>; Fri, 13 Feb 1998 05:02:00 -0500
+Message-Id: <199802131002.FAA13039@poverty.bloomington.in.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: Re: BUS: Kudo transfers 
+In-reply-to: Your message of "Fri, 13 Feb 1998 09:32:56 GMT."
+             <E0y3HUO-0005Wb-00@merganser.cl.cam.ac.uk> 
+Date: Fri, 13 Feb 1998 05:01:57 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 326
+
+"Michael" == Michael Norrish <Michael.Norrish@cl.cam.ac.uk> writes:
+
+Michael> Herald, I further transfer 1 Kudo from General Chaos to Time Agent. 
+Michael> This is done Kbecause I feel like it. 
+
+I hereby transfer one Kudo from Michael to Steve, because "I feel like
+it" is not a reasonable justification for a Kudo transfer.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Feb 13 06:03 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA06853 for <dpb@cs.brown.edu>; Fri, 13 Feb 1998 06:03:00 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA06381
+	for agora-business-list; Fri, 13 Feb 1998 21:48:21 +1100
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id VAA06377
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 13 Feb 1998 21:48:18 +1100
+Received: by dij91.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA14944; Fri, 13 Feb 1998 11:51:02 +0100
+Date: Fri, 13 Feb 1998 11:51:02 +0100
+From: klaush@dij91.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25(3751))
+Message-Id: <9802131051.AA14944@dij91.tp3.ruhr-uni-bochum.de>
+To: agora-business@gecko.serc.rmit.edu.au
+In-Reply-To: <E0y3HKC-0005WQ-00@merganser.cl.cam.ac.uk> (message from Michael Norrish on Fri, 13 Feb 1998 09:22:24 +0000)
+Subject: BUS: Nomination
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 58
+
+I hereby nominate for the office of Ambassador.
+
+Kolja A.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Feb 13 20:47 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA06317 for <dpb@cs.brown.edu>; Fri, 13 Feb 1998 20:47:33 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA10085
+	for agora-business-list; Sat, 14 Feb 1998 12:38:03 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id MAA10082
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 14 Feb 1998 12:38:00 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA06027; Fri, 13 Feb 98 19:41:16 CST
+Message-Id: <9802140141.AA06027@dfw.dfw.net>
+Subject: BUS: Re: OFF: many elections
+To: agora-business@gecko.serc.rmit.edu.au (Agora Business)
+Date: Fri, 13 Feb 1998 19:41:15 -0600 (CST)
+In-Reply-To: <E0y3HKC-0005WQ-00@merganser.cl.cam.ac.uk> from "Michael Norrish" at Feb 13, 98 09:22:24 am
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 414
+
+Michael Norrish wrote:
+>
+>The following undelegated Offices are being held temporarily, so I am
+>required to announce the commencement of Elections to fill the
+>positions. 
+>
+>I call for Nominations to fill the Offices of 
+>  Ambassador, Cartographor, Clerk of the Courts, Commander-in-Chief,
+>  Herald, Notary, Promotor, Rulekeepor, Speaker-Elect and Wizard.
+
+Surprising no one, I nominate for Rulekeepor.
+
+Chuck
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Feb 13 20:58 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA06431 for <dpb@cs.brown.edu>; Fri, 13 Feb 1998 20:58:29 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA10226
+	for agora-business-list; Sat, 14 Feb 1998 12:52:39 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id MAA10223
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 14 Feb 1998 12:52:36 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA07177; Fri, 13 Feb 98 19:55:58 CST
+Message-Id: <9802140155.AA07177@dfw.dfw.net>
+Subject: Re: BUS: Kudo transfers
+To: agora-business@gecko.serc.rmit.edu.au (Agora Business)
+Date: Fri, 13 Feb 1998 19:55:58 -0600 (CST)
+In-Reply-To: <199802131002.FAA13039@poverty.bloomington.in.us> from "Scott Goehring" at Feb 13, 98 05:01:57 am
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 580
+
+Scott Goehring wrote:
+>
+>"Michael" == Michael Norrish <Michael.Norrish@cl.cam.ac.uk> writes:
+>
+>Michael> Herald, I further transfer 1 Kudo from General Chaos to Time Agent. 
+>Michael> This is done Kbecause I feel like it. 
+>
+>I hereby transfer one Kudo from Michael to Steve, because "I feel like
+>it" is not a reasonable justification for a Kudo transfer.
+
+I hereby transfer one Kudo from General Chaos, because e justified
+only half of eir Kudo transfer, to Michael, in compensation for
+this hypocritical transfer from him and in recognition of
+his service as Registrar.
+
+Chuck
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Feb 13 21:23 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA06705 for <dpb@cs.brown.edu>; Fri, 13 Feb 1998 21:23:06 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA10349
+	for agora-business-list; Sat, 14 Feb 1998 13:14:31 +1100
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id NAA10346
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 14 Feb 1998 13:14:29 +1100
+Received: From elgar With LocalMail ; Sat, 14 Feb 98 13:17:13 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-business@gecko.serc.rmit.edu.au (Nomic Business)
+Date: Sat, 14 Feb 1998 13:17:12 +1100 (EST)
+Message-Id:  <980214021712.4864@cse.unsw.edu.au>
+Subject: BUS: Re: OFF: many elections
+In-Reply-To: <E0y3HKC-0005WQ-00@merganser.cl.cam.ac.uk> from "Michael Norrish" at Feb 13, 98 09:22:24 am
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 468
+
+I nominate for Promotor, as I would like to experience first-hand how
+the Proporsal Queue works out.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Feb 13 22:25 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA07500 for <dpb@cs.brown.edu>; Fri, 13 Feb 1998 22:25:49 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA10679
+	for agora-business-list; Sat, 14 Feb 1998 14:16:21 +1100
+Received: from owl.INS.CWRU.Edu (owl.INS.CWRU.Edu [129.22.8.26])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA10676
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 14 Feb 1998 14:16:18 +1100
+Received: (gb485@localhost) by owl.INS.CWRU.Edu (8.8.6+cwru/CWRU-2.5-bsdi)
+	id WAA21391; Fri, 13 Feb 1998 22:18:56 -0500 (EST) (from gb485)
+Message-Id: <199802140318.WAA21391@owl.INS.CWRU.Edu>
+Date: Fri, 13 Feb 1998 22:18:56 -0500 (EST)
+From: gb485@cleveland.Freenet.Edu (Steven A Swiniarski)
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: E-mail change & nominations
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 709
+
+
+Well I've had the freenet adress for ages, but the quirks of the system
+have finally gotten to me.  I've checked the archives, and it seems that
+a lot of mail, apparently at random, is just not reaching me anymore.
+
+Therefore I am informing the registrar, and everyone else, of the official
+change of my email address from gb485@cleveland.freenet.edu to
+saswann@gwis.com.
+
+I also nominate myself for the office of Wizard and Justicar.
+
+Swann
+
+-- 
+Steven Swiniarski (aka S Andrew Swann) http://www.sff.net/people/SASwann
+gb485@cleveland.freenet.edu            
+"There can be no effective control of corporations while their political
+ activity remains."                                    --Theodore Roosevelt
+

@@ -1,0 +1,1598 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 02:20 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA22348 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 02:19:58 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA00111
+	for agora-discussion-list; Sun, 19 Jul 1998 16:18:00 +1000
+Received: from bug2.fhcrc.org (bug2.fhcrc.org [140.107.10.111])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA00108
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 16:17:57 +1000
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug2.fhcrc.org (8.8.8/8.8.7) with SMTP id XAA06010
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 18 Jul 1998 23:18:11 -0700 (PDT)
+Received: from rossmorg by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id XAA02293; Sat, 18 Jul 1998 23:18:06 -0700
+Message-Id: <199807190618.XAA02293@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 18 Jul 1998 23:15:34 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: DIS: Re: BUS: Proposal: A collection of fiexs
+In-reply-to: <980717181756.26327@cse.unsw.edu.au>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 289
+
+malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan) wrote:
+> I submit the following Proposal, and spend 1 P-Note to raise
+> its Priority to one.
+> 
+> Blob
+
+The quorum change is a large change, and somewhat controversial, and 
+I personally object to it. 
+
+	Antimatter
+	rmorganl@fhcrc.org
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 03:36 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA23340 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 03:36:46 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA00526
+	for agora-discussion-list; Sun, 19 Jul 1998 17:34:40 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA00523
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 17:34:38 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id RAA22188 for agora-discussion@gecko.serc.rmit.edu.au; Sun, 19 Jul 1998 17:34:52 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199807190734.RAA22188@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: RE: proto: Make Being On Hold Safe Again
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 19 Jul 1998 17:34:52 +1000 (EST)
+In-Reply-To: <199807101743.MAA08559@poverty.bloomington.in.us> from "Scott Goehring" at Jul 10, 98 12:43:09 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 845
+
+Scott Goehring wrote:
+>
+>"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+>
+>David> Yes, that's a nice, clean solution too.  I wonder if anyone
+>David> (Scott) would object to the condition that a PO is
+>David> automatically stayed when issued to a Player On Hold and
+>David> automatically becomes effective as soon as the Player comes Off
+>David> Hold?
+>
+>Automatic stays should be cautiously implemented; they need to arise
+>only in situations where miminal ambiguity can exist over whether the
+>causative condition holds.
+
+I agree with Scott, but would add that I think that the case of Player
+being On Hold qualifies.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 03:39 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA23357 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 03:39:18 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA00557
+	for agora-discussion-list; Sun, 19 Jul 1998 17:37:35 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA00553
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 17:37:34 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id RAA10922; Sun, 19 Jul 1998 17:37:51 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199807190737.RAA10922@silas-2.cc.monash.edu.au>
+Subject: DIS: Re: BUS: Dissapearing for a while
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 19 Jul 1998 17:37:51 +1000 (EST)
+Cc: saswann@gwis.com (Steven A. Swiniarski)
+In-Reply-To: <35A7D6B7.726658F2@gwis.com> from "Steven Swiniarski" at Jul 11, 98 05:18:47 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 698
+
+Steven Swiniarski wrote:
+>
+>My RL has gotten weird again so I find I must do the following---
+>If I am still Scorekeepor, I resign my post in favor of the Speaker.
+>(I have data up until June 30, when things started swamping me, and I
+>would ask the current Speaker, whoever e is, to send me a personal note
+>so I can forward them.)
+>
+>I also hereby go On Hold.
+>Hopefully, this time, I'll make it back before I'm deregistered for
+>inactivity.
+
+I'm Speaker, Swann; send the info to me.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 03:41 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA23421 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 03:41:47 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA00601
+	for agora-discussion-list; Sun, 19 Jul 1998 17:39:56 +1000
+Received: from ns1.umkc.edu (ns1.umkc.edu [134.193.1.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA31276
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 15 Jul 1998 10:02:33 +1000
+Received: from lucy (lucy [134.193.69.99])
+	by ns1.umkc.edu (8.9.0/8.9.0) with SMTP id SAA01037;
+	Tue, 14 Jul 1998 18:59:26 -0500 (CDT)
+Message-ID: <35ABF0DE.4A3260C9@kasey.umkc.edu>
+Date: Tue, 14 Jul 1998 18:59:26 -0500
+From: "Nicol, David" <david@kasey.umkc.edu>
+Organization: University of Missouri - Kansas City network operations
+X-Mailer: Mozilla 3.01Gold (X11; I; Linux 2.0.30 i586)
+MIME-Version: 1.0
+To: gmd@earthling.net, joejava@dragoncat.net, ccarroll@nationwide.net
+CC: oxnomic.speaker@ox.compsoc.net, klaush@tp3.ruhr-uni-bochum.de,
+        agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: [Fwd: Mersenne: prime minister]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: multipart/mixed; boundary="------------E5AD78663CF0FD7B9C00BE"
+Content-Length: 2813
+
+This is a multi-part message in MIME format.
+
+--------------E5AD78663CF0FD7B9C00BE
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+[Distributor's note: this message was trapped by majordomo.]
+
+I am forwarding a message to a pile of strangers, e-mail addresses
+found via the Nomic Ring.
+
+
+George Woltman wrote the computer program that found the last three
+highest prime numbers and is going to find the next three too.
+
+Why not make him "Honorary primes minister" of whatever domain
+you happen to inhabit? 
+
+his web page is http://www.mersenne.org
+
+
+
+David Nicol
+my web page is http://tipjar.com/generic.html
+______________________________________________________________________
+ David Nicol 816.235.1187 UMKC Network Operations david@news.umkc.edu
+ "In Japan, the hand can be used like a knife.  But not on a tomato."
+
+--------------E5AD78663CF0FD7B9C00BE
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+Return-path: <owner-mersenne@acid.base.com>
+Received: from primus.cstp.umkc.edu by CCTR.UMKC.EDU (PMDF V5.1-8 #22489)
+ with ESMTP id <01IZEAO61D3YM8DHRM@CCTR.UMKC.EDU> for DNICOL@CCTR.UMKC.EDU;
+ Tue, 14 Jul 1998 16:12:55 CST
+Received: from tipjar.com (192.41.22.201) by primus.cstp.umkc.edu (MX V5.0)
+ with ESMTP; Tue, 14 Jul 1998 16:11:55 -0500
+Received: from acid.base.com (internet-link.base.com [199.79.128.100])
+ by tipjar.com (8.8.5) id PAA19047; Tue, 14 Jul 1998 15:11:47 -0600 (MDT)
+Received: (from majordomo@localhost) by acid.base.com (8.8.5/8.8.5)
+ id LAA11058 for mersenne-outgoing; Tue, 14 Jul 1998 11:23:16 -0700
+Received: from swan.prod.itd.earthlink.net
+ (swan.prod.itd.earthlink.net [207.217.120.123]) by acid.base.com (8.8.5/8.8.5)
+ with ESMTP id LAA11054 for <Mersenne@base.com>; Tue, 14 Jul 1998 11:23:13 -0700
+Received: from earthlink.net
+ (1Cust169.tnt1.palm-springs.ca.da.uu.net [208.252.36.169])
+ by swan.prod.itd.earthlink.net (8.8.7/8.8.5) with ESMTP id LAA03375 for
+ <Mersenne@base.com>; Tue, 14 Jul 1998 11:23:00 -0700 (PDT)
+Resent-date: Tue, 14 Jul 1998 16:11:57 -0500
+Date: Tue, 14 Jul 1998 11:28:36 -0700
+Resent-from: dnicol@CSTP.UMKC.EDU
+From: Geoff Hagopian <geofhagopian@earthlink.net>
+Subject: Mersenne: prime minister
+Sender: owner-mersenne@acid.base.com
+Resent-to: DNICOL@CCTR.UMKC.EDU
+To: Mersenne@base.com
+Reply-to: geofhagopian@earthlink.net
+Resent-message-id: <01IZEAO65JSGM8DHRM@CCTR.UMKC.EDU>
+Message-id: <35ABA354.1BC10C33@earthlink.net>
+MIME-version: 1.0
+X-Mailer: Mozilla 4.04 [en] (Win95; U)
+Content-type: text/plain; charset=us-ascii
+Content-transfer-encoding: 7bit
+Precedence: bulk
+X-Authentication-warning: acid.base.com: majordomo set sender to owner-mersenne
+ using -f
+
+I see where Japan is looking for a prime minister.  I nominate George!
+
+
+
+
+--------------E5AD78663CF0FD7B9C00BE--
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 03:46 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA23507 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 03:46:16 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA00662
+	for agora-discussion-list; Sun, 19 Jul 1998 17:44:36 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA00659
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 17:44:34 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id RAA21862 for agora-discussion@gecko.serc.rmit.edu.au; Sun, 19 Jul 1998 17:44:52 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199807190744.RAA21862@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: RE: RE: RE: proto: Make Being On Hold Safe Again
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 19 Jul 1998 17:44:52 +1000 (EST)
+In-Reply-To:  <980712164013.20704@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Jul 13, 98 02:40:12 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 956
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>Ed Murphy writes:
+>> 
+>> "When a Player goes On Hold, all Payment Orders naming em as payee
+>>  are stayed; each such Payment Order is assigned an Elapsed Time
+>>  equal to the length of time since it was executed.
+>> 
+>>  When a Player comes Off Hold, each Payment Orders naming em as payee
+>>  and having an Elapsed Time is reinstated, as if it had been executed
+>>  at a time equal to the current time minus its Elapsed Time."
+>
+>Wasn't the point oringially to stay POs incurred _while_ on Hold?
+>In which case, the above doesn't work. And I'm not sure I like allowing
+>players to stay POs just by going on hold. You should pay your debts
+>before going awaym or face the consequences.
+
+Strong agreement.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 03:49 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA23527 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 03:48:57 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA00699
+	for agora-discussion-list; Sun, 19 Jul 1998 17:46:47 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA00696
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 17:46:45 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id RAA08757 for agora-discussion@gecko.serc.rmit.edu.au; Sun, 19 Jul 1998 17:47:03 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199807190747.RAA08757@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: RE: RE: RE: proto: Make Being On Hold Safe Again
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 19 Jul 1998 17:47:03 +1000 (EST)
+In-Reply-To: <000101bdae0f$0b45ace0$227412ce@friend-computer> from "Ed Murphy" at Jul 12, 98 08:33:47 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1490
+
+Ed Murphy wrote:
+>
+>Blob wrote:
+>
+>> > "When a Player goes On Hold, all Payment Orders naming em as payee
+>> >  are stayed; each such Payment Order is assigned an Elapsed Time
+>> >  equal to the length of time since it was executed.
+>> >
+>> >  When a Player comes Off Hold, each Payment Orders naming em as payee
+>> >  and having an Elapsed Time is reinstated, as if it had been executed
+>> >  at a time equal to the current time minus its Elapsed Time."
+>>
+>> Wasn't the point oringially to stay POs incurred _while_ on Hold?
+>> In which case, the above doesn't work. And I'm not sure I like allowing
+>> players to stay POs just by going on hold. You should pay your debts
+>> before going awaym or face the consequences.
+>
+>That makes it easier, then:  "When a Player issues a Payment Order naming
+>an Inactive Player as payee, the issuer shall order the stay of that Payment
+>Order as soon as possible.  When the payee becomes Active, the issuer shall
+>order the vacation of the Order to Stay as soon as possible."
+>
+>I'm not sure whether the stay should be required to be immediate or just
+>ASAP, though.  Both have drawbacks.
+
+I think I'd prefer an immediate stay; if the relevant RK fails to stay
+the Order for whatever reason, then the Inactive Player will suffer for
+it.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 03:51 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA23592 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 03:51:47 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA00720
+	for agora-discussion-list; Sun, 19 Jul 1998 17:48:09 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA00717
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 17:48:07 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id RAA15489 for agora-discussion@gecko.serc.rmit.edu.au; Sun, 19 Jul 1998 17:48:25 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199807190748.RAA15489@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: RE: RE: RE: proto: Make Being On Hold Safe Again
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 19 Jul 1998 17:48:25 +1000 (EST)
+In-Reply-To: <000601bdada0$cf7b9f80$5df0accf@deep-thought> from "Dave Smith" at Jul 12, 98 10:24:42 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 615
+
+Dave Smith wrote:
+>
+>What would be wrong with wording such as the following (a possible amendment
+>of R1713):
+>
+>       An Overdue Payment Order is a Payment Order which is presently
+>       effective, has been effective for more than seven days (excluding
+>       days on which the Payor was on hold) and has not been satisfied.
+
+This allows Players to delay making POs by using the On Hold mechanism.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 03:59 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA23678 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 03:59:34 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA00786
+	for agora-discussion-list; Sun, 19 Jul 1998 17:57:39 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA00783
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 17:57:37 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id RAA24417 for agora-discussion@gecko.serc.rmit.edu.au; Sun, 19 Jul 1998 17:57:55 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199807190757.RAA24417@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: The last Wizard's report I received goes up to 3768 only.  I
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 19 Jul 1998 17:57:55 +1000 (EST)
+In-Reply-To: <s5aa51e9.032@rmv.state.ma.us> from "David Albertz" at Jul 13, 98 06:28:03 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1118
+
+David Albertz wrote:
+>
+>The last Wizard's report I received goes up to 3768 only.  I can't find any
+>subsequent report in my archives.
+
+I did post a Wizard's Report for P3769-3771 before leaving for Sydney.
+Here are the headers:
+
+>From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+>Message-Id: <199807080205.MAA29272@silas-1.cc.monash.edu.au>
+>Subject: OFF: Wizard's Report: 3769-3771
+>To: agora-official@gecko.serc.rmit.edu.au (Agora Nomic Official List)
+>Date: Wed, 8 Jul 1998 12:05:03 +1000 (EST)
+>X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+>MIME-Version: 1.0
+>Content-Type: text/plain; charset=US-ASCII
+>Content-Transfer-Encoding: 7bit
+>Sender: owner-agora-official@gecko.serc.rmit.edu.au
+>Precedence: bulk
+>Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+>Status: RO
+>
+>
+>Agora Nomic
+>Wizard's Report: 3769-3771
+>
+>Date of this Report: Wed, 08 Jul 1998
+>Date of last Report: Wed, 01 Jul 1998
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 04:13 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA23940 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 04:13:03 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA00863
+	for agora-discussion-list; Sun, 19 Jul 1998 18:11:08 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA00860
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 18:11:06 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id SAA08288 for agora-discussion@gecko.serc.rmit.edu.au; Sun, 19 Jul 1998 18:11:24 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199807190811.SAA08288@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: RE: Re: BUS: Quiescence
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 19 Jul 1998 18:11:24 +1000 (EST)
+In-Reply-To: <000301bdb032$08818040$3bf0accf@deep-thought> from "Dave Smith" at Jul 15, 98 04:49:17 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1765
+
+Dave Smith wrote:
+>
+>
+>>
+>> Laurent Bossavit writes:
+>> >
+>> > Sorry, as an Officer I don't want do that. I'm just not much
+>> > interested in voting at the moment; it's becoming too much of a
+>> > hassle, and we're only seeing boring Proposals. I suspect some of
+>> > the other non-currently-voting Players share that opinion to some
+>> > extent.
+>>
+>> Okay, how's this for a more interesting proposal:
+>>
+>> Proposal: Use it or lose it.
+>>
+>> Create a Rule, entitled "Use it or Lose it", with text:
+>>
+>>       If, at the end of the month, a Player who has been Active
+>>       for that whole month has not voted on any Proposals
+>>       distributed that month, then the Assessor shall deny voting
+>>       Privileges to that Player, for two weeks.
+>>
+>> Amend Rule 879/6 (Power=1)
+>> Quorum
+>>
+>>       Quorum for a Proposal is achieved if a vote is cast on that
+>>       Proposal by one-third of Active Players not denied voting
+>>       privileges, or one-fifth of all Players, whichever is greater.
+>>
+>>       Quorum for a Proposal is calculated using the number of
+>>       Registered Players, and their Hold statuses (On or Off), at the
+>>       beginning of the prescribed Voting Period for that Proposal.
+>>
+>> --
+>
+>I will definitely Vote AGAINST this!  :)
+>
+>Voting is a right, not a requirement.  If some Players' unwillingness to
+>vote on your Proposal causes it to fail, ask yourself why they are unwilling
+>to vote.
+
+So, a new strategy emerges! It seems you can get people to spend their
+VTs by making Proposals they strongly dislike.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 04:14 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA23944 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 04:14:32 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA00884
+	for agora-discussion-list; Sun, 19 Jul 1998 18:12:46 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA00881
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 18:12:44 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id SAA14905 for agora-discussion@gecko.serc.rmit.edu.au; Sun, 19 Jul 1998 18:13:02 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199807190813.SAA14905@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Quiescence
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 19 Jul 1998 18:13:02 +1000 (EST)
+In-Reply-To: <199807160401.GAA26610@logatome.micronet.fr> from "Laurent Bossavit" at Jul 16, 98 06:06:04 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 818
+
+Laurent Bossavit wrote:
+>
+>>       If, at the end of the month, a Player who has been Active
+>>       for that whole month has not voted on any Proposals 
+>>       distributed that month, then the Assessor shall deny voting
+>>       Privileges to that Player, for two weeks.
+>
+>Frankly, I probably wouldn't even bother to spend a VT to vote
+>AGAINST since I'm reasonably sure it would fail quorum. Then again, I
+>might be wrong and it might pass; that's what voting is all about. It
+>would probably make a nice experiment.
+
+That's the point of secret voting. I can tell you now that I'll be
+voting for it.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 04:22 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA24075 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 04:22:47 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA00936
+	for agora-discussion-list; Sun, 19 Jul 1998 18:20:52 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA00933
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 18:20:50 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id SAA01836 for agora-discussion@gecko.serc.rmit.edu.au; Sun, 19 Jul 1998 18:21:08 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199807190821.SAA01836@silas-2.cc.monash.edu.au>
+Subject: DIS: Re: BUS: Proposal: Skimming off the top
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 19 Jul 1998 18:21:08 +1000 (EST)
+In-Reply-To:  <980717182251.26355@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Jul 18, 98 04:22:50 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 930
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>I submit the following Proposal, pay pay 1 P-Note to raise its
+>Priority to one.
+>
+>Blob
+>
+>---
+>
+>Proposal: Skimming a bit off the top.
+>
+>Amend rule 1449 ("The Assessor") to read:
+>
+>      There shall exist the Office of Assessor.  The Assessor
+>      shall receive a weekly salary equal to 0.5 times the Basic
+>      Officer Salary.
+>
+>      The Assessor shall also receive a Commission. At the end
+>      of the Voting Period for a Proposal, the Assessor shall
+>      pay out to emself an amount equal to 5% of the VTs spent
+>      on voting on that Proposal.
+
+With the MUQ for VTs set at 0.1, the Assessor will receive nothing
+for a Proposal on which 2 VTs or less are spent.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 04:24 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA24089 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 04:24:16 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA00954
+	for agora-discussion-list; Sun, 19 Jul 1998 18:21:51 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA00951
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 18:21:50 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id SAA25202 for agora-discussion@gecko.serc.rmit.edu.au; Sun, 19 Jul 1998 18:22:07 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199807190822.SAA25202@silas-2.cc.monash.edu.au>
+Subject: DIS: Re: BUS: Proposal: The Voting Tariff
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 19 Jul 1998 18:22:07 +1000 (EST)
+In-Reply-To:  <980717182615.26393@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Jul 18, 98 04:26:15 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 908
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>I submit the following Proposal, and spend 1 P-Note to raise its
+>Priority to one.
+>
+>blob
+>
+>---
+>
+>Proprosal: The Voting Tariff
+>
+>Crete a rule, entitled "The Voting Tariff", with text:
+>
+>      The Voting Tariff is a number of VTs, a multiple of the
+>      MUQ, between 0.5 and 2.0 inclusive. Unless the Rules give
+>      it another value, the Voting Tariff is 1 VT.
+>
+>      The Assessor may change the value of the Voting Tariff by
+>      announcing the new value in the Public Forum, provided that
+>      e announces a value within the range proscribed above, that
+
+That really should have been "prescribed" not "proscribed", which
+means "forbidden".
+
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 04:34 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA24225 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 04:34:31 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA01024
+	for agora-discussion-list; Sun, 19 Jul 1998 18:32:46 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA01021
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 18:32:44 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id SAA21765 for agora-discussion@gecko.serc.rmit.edu.au; Sun, 19 Jul 1998 18:33:02 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199807190833.SAA21765@silas-2.cc.monash.edu.au>
+Subject: DIS: Re: BUS: RE: New Proposals: 3772 - 3774
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 19 Jul 1998 18:33:02 +1000 (EST)
+In-Reply-To: <000a01bdb2e2$6cabe6c0$367412ce@friend-computer> from "Ed Murphy" at Jul 18, 98 11:56:59 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 319
+
+Ed Murphy wrote:
+>
+>I vote for Proposal 3774.
+
+Er, Murphy, that's Public Voting you just committed there. 
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 05:15 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA24845 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 05:15:50 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA01191
+	for agora-discussion-list; Sun, 19 Jul 1998 19:13:59 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA01188
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 19:13:56 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id TAA27094 for agora-discussion@gecko.serc.rmit.edu.au; Sun, 19 Jul 1998 19:14:14 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199807190914.TAA27094@silas-2.cc.monash.edu.au>
+Subject: DIS: Re: OFF: Election news
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 19 Jul 1998 19:14:14 +1000 (EST)
+In-Reply-To: <13744.38994.218047.974665@merganser.cl.cam.ac.uk> from "Michael Norrish" at Jul 18, 98 01:42:58 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 684
+
+Michael Norrish wrote:
+>
+>In the Elections for Accountor, Archivist, and Assessor, I received
+>just one nomination for each position, and so the following have been
+>elected directly to those posts: Blob, Steve, and Steve once more.
+>
+>Congratulations to Blob and Steve.  Scorekeepor please note that Blob
+>earns five points for winning an election, while Steve gains ten
+>points for winning two elections. 
+
+Crito didn't nominate for Accountor? I find that surprising...
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 08:49 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA27559 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 08:49:44 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA01959
+	for agora-discussion-list; Sun, 19 Jul 1998 22:46:45 +1000
+Received: from smtp3.erols.com (smtp3.erols.com [207.172.3.236])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA01956
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 22:46:36 +1000
+Received: from deep-thought (207-172-216-17.s17.tnt1.sbo.erols.com [207.172.216.17])
+	by smtp3.erols.com (8.8.8/8.8.5) with SMTP id IAA06719
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 08:46:47 -0400 (EDT)
+From: "Dave Smith" <changeling@erols.com>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: RE: DIS: The last Wizard's report I received goes up to 3768 only.  I
+Date: Sun, 19 Jul 1998 08:57:37 -0400
+Message-ID: <000201bdb314$ce38f900$11d8accf@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2173.0
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+In-Reply-To: <199807190757.RAA24417@silas-2.cc.monash.edu.au>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 193
+
+> I did post a Wizard's Report for P3769-3771 before leaving for Sydney.
+> Here are the headers:
+>
+
+I have checked my records and I can confirm that Steve did indeed make this
+post.
+
+-Macross
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 08:53 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA27619 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 08:53:21 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA01992
+	for agora-discussion-list; Sun, 19 Jul 1998 22:51:13 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA01989
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 22:51:11 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id WAA19726 for agora-discussion@gecko.serc.rmit.edu.au; Sun, 19 Jul 1998 22:51:29 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199807191251.WAA19726@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Quiescence
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 19 Jul 1998 22:51:29 +1000 (EST)
+In-Reply-To: <199807160416.GAA27190@logatome.micronet.fr> from "Laurent Bossavit" at Jul 16, 98 06:20:50 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2072
+
+Laurent Bossavit wrote:
+>
+> IMHO, the fact that it's become so hard to garner a Quorum for a
+>Proposal is simply a result of the new system and economy. In the old
+>days when voting was free, and in the not-so-old days when voting was
+>cheap, Players could adopt a policy of systematically voting on all
+>Proposals.
+>
+> Voting on all Proposals had the effect that one's vote could be as
+>whimsical as one wanted - voting for or against was just a way of
+>expressing an opinion, it wasn't something that could have serious
+>economic consequences, so it was hard to tell how the other Players
+>might vote on a given Proposal, which made the outcome of any given
+>Proposal volatile enough that if one did have any opinion at all on a
+>Proposal, it was safer to express that opinion lest a bad Proposal
+>unexpectedly pass, or a good one unexpectedly fail. There was a 
+>self-reinforcing tendency to vote systematically.
+>
+> This is no longer the case; Voting has become expensive, and not
+>Voting has become a safe way of not getting involved. Unless you see
+>that a given Proposal is getting a lot of people excited, if you
+>don't particularly care about that Proposal passing or failing the
+>safest course is to abstain, since nearly everyone else is likely to
+>abstain as well. The Proposer is just about the only person with a
+>vested interest in casting a vote. In other words, there's a
+>self-reinforcing tendency to abstain systematically.
+
+This may be an argument for drastically lowering the Voting Token
+Circulation level, to, say, 5 VTs per Player. The argument would be
+that Players would have an incentive to spend the VTs they have if
+know that hoarding more than 5 VTs at a time is impossible.
+
+More generally, any ideas for ways to encourage Players to vote
+whilst maintaining VT scarcity are to be encouraged. Do you think
+it's possible Morendil?
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 10:07 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA28564 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 10:07:35 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA02277
+	for agora-discussion-list; Mon, 20 Jul 1998 00:05:19 +1000
+Received: from imo19.mx.aol.com (imo19.mx.aol.com [198.81.17.9])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA02274
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 00:05:15 +1000
+From: Agoralee@aol.com
+Received: from Agoralee@aol.com
+	by imo19.mx.aol.com (IMOv14_b1.1) id 2KVGa04160
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 10:05:08 -0400 (EDT)
+Message-ID: <3babcae6.35b1fd15@aol.com>
+Date: Sun, 19 Jul 1998 10:05:08 EDT
+To: agora-discussion@gecko.serc.rmit.edu.au
+Mime-Version: 1.0
+Subject: DIS: Welcome Wagon?
+Content-transfer-encoding: 7bit
+X-Mailer: AOL 3.0 16-bit for Windows sub 58
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 88
+
+I heard legend of a Welcom Wagon.  Was I misinformed?
+
+
+---
+lee
+
+P.S.  What's a Walrus.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 16:31 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA04317 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 16:31:08 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA03825
+	for agora-discussion-list; Mon, 20 Jul 1998 06:18:32 +1000
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id GAA03822
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 06:18:28 +1000
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 37480]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49560-7024>; Sun, 19 Jul 1998 22:17:11 +0200
+Date: 	Sun, 19 Jul 1998 23:03:44 +0200 (CEST)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Welcome Wagon?
+In-Reply-To: <3babcae6.35b1fd15@aol.com>
+Message-ID: <Pine.LNX.4.00.9807192240460.21392-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 1928
+
+On Sun, 19 Jul 1998 Agoralee@aol.com wrote:
+
+> I heard legend of a Welcom Wagon.  Was I misinformed?
+
+It would appear that it has been repealed.  That's nomic for you.
+
+Current new Player privileges tend to center around the Grace Period, see
+Rule 1676, 1677, 1678 and 1583.
+
+> P.S.  What's a Walrus.
+
+Time to get out gunzip... this is BethMo's explanation:
+
+>>>>
+The "Walrus scam" was one of the most entertaining bits in the entire
+history of Nomic, IMHO -- not for the scam itself, but for the
+discussion which followed. The scam was fairly simple. A Rule had been
+passed that prohibited proposals from directly giving/subtracting
+points to/from voters based on their votes for/against that proposal.
+The Walrus proposal, instead, created "happy walruses" and "sad
+walruses" and awarded them to those who voted for/against the
+proposal. Then, some miniscule amount of time later (I don't remember
+the exact figure, but it was a number of seconds with a large negative
+exponent), all of the walruses would convert themselves into positive
+and negative points and self-destruct. After the Walrus proposals
+passed, some of the more studious members of the populace pointed out
+that this time unit was small enough that, due to the uncertainity
+principle, the actual numbers of walrusses could not be determined,
+according to modern physics. From there, the discussion became more
+and more obscure, including speculation on the "ideal walrus" and
+whether an ideal walrus had no hair, or an infinite number of hairs.
+The officer responsible for awarding the points refused to do so until
+the question as to whether the walrusses could be measured was settled
+by CFJ; this got the originator of the scam so annoyed that e finally
+quit the game in disgust.
+>>>>
+
+Greetings,
+Ørjan.
+
+-- 
+A pro-spam bill has passed the US Senate, and is now in the House of
+Representatives.  See <http://www.cauce.org> and
+<http://www.ybecker.net/>.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 16:57 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA04668 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 16:57:40 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA03935
+	for agora-discussion-list; Mon, 20 Jul 1998 06:46:31 +1000
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA03932
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 06:46:27 +1000
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0yy0Lv-0001ti-00; Sun, 19 Jul 1998 21:46:39 +0100
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0yy0Lm-0000XL-00; Sun, 19 Jul 1998 21:46:30 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13746.23333.720577.651839@merganser.cl.cam.ac.uk>
+Date: Sun, 19 Jul 1998 21:46:29 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: BUS: Re: OFF: official salaries for week ending 12 July 1998
+In-Reply-To: <980718163156.887@cse.unsw.edu.au>
+References: <13744.39660.88982.93635@merganser.cl.cam.ac.uk>
+	<980718163156.887@cse.unsw.edu.au>
+X-Mailer: VM 6.56 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 530
+
+Malcolm Ross Kinsella Ryan writes:
+ 
+> > (Scorekeepor Blob does not receive a salary because he had not been in
+> > Office for more than five days at the end of the week.)
+ 
+> > I hereby order Blob to pay 2 VTs (RVTPO458) and 2 Indulgences (RIPO22)
+> > to the Bank for committing the Infraction of Failing to Report as
+> > Scorekeepor.
+ 
+> I'm not Scorekeepor. Swann was up until e went on hold, on July 11,
+> at which point Steve became Scorekeepor, as Speaker. Please vacate
+> this order.
+ 
+Apologies.  I will do so. 
+
+Michael.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 20:32 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA07509 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 20:32:24 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA04904
+	for agora-discussion-list; Mon, 20 Jul 1998 10:29:06 +1000
+Received: from dfw.nationwide.net (dfw.nationwide.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA04900
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 10:29:02 +1000
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id RAA09333
+	for agora-discussion@gecko.serc.rmit.edu.au; Sun, 19 Jul 1998 17:08:23 -0500 (CDT)
+Message-Id: <199807192208.RAA09333@dfw.nationwide.net>
+Subject: Re: DIS: Welcome Wagon?
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 19 Jul 1998 17:08:23 -0500 (CDT)
+In-Reply-To: <3babcae6.35b1fd15@aol.com> from "Agoralee@aol.com" at Jul 19, 98 10:05:08 am
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 491
+
+Agoralee@aol.com wrote:
+>
+>I heard legend of a Welcom Wagon.  Was I misinformed?
+
+As a legend, no.  However, it's no longer in the Rules.  I was
+able to use the Rules Search at
+http://www.dfw.net/~ccarroll/agora/rules/search.html
+(blatant plug) to quickly ascertain that.
+
+>P.S.  What's a Walrus.
+
+According to the long-out-of-date Agora FAQ, it's a large mammalian
+sea creature. :)
+
+Chuck
+
+P.S. Didn't we have a Lee as a player a long time ago?  You're not
+that same person, by any chance?
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 20:51 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA07786 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 20:51:41 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA05120
+	for agora-discussion-list; Mon, 20 Jul 1998 10:48:30 +1000
+Received: from imo19.mx.aol.com (imo19.mx.aol.com [198.81.17.9])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA05117
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 10:48:24 +1000
+From: Agoralee@aol.com
+Received: from Agoralee@aol.com
+	by imo19.mx.aol.com (IMOv14_b1.1) id 2VEWa04161
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 20:48:21 +2000 (EDT)
+Message-ID: <68c79ebe.35b293d6@aol.com>
+Date: Sun, 19 Jul 1998 20:48:21 EDT
+To: agora-discussion@gecko.serc.rmit.edu.au
+Mime-Version: 1.0
+Subject: Re: DIS: Welcome Wagon?
+Content-transfer-encoding: 7bit
+X-Mailer: AOL 3.0 16-bit for Windows sub 58
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 225
+
+In a message dated 98-07-19 20:40:03 EDT, Quoth Chuck:
+
+ >P.S. Didn't we have a Lee as a player a long time ago?  You're not
+ >that same person, by any chance?
+ 
+You win the prize.  I am lee a.k.a The Point Sucker.
+
+----
+lee
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 20:55 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA07850 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 20:55:42 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA08275
+	for agora-discussion-list; Mon, 20 Jul 1998 10:53:33 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA08172
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 10:53:26 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id KAA03131 for agora-discussion@gecko.serc.rmit.edu.au; Mon, 20 Jul 1998 10:53:44 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199807200053.KAA03131@silas-2.cc.monash.edu.au>
+Subject: DIS: Re: OFF: order fix-up.
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 20 Jul 1998 10:53:44 +1000 (EST)
+In-Reply-To: <13746.23662.320392.575752@merganser.cl.cam.ac.uk> from "Michael Norrish" at Jul 19, 98 09:51:58 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 622
+
+Michael Norrish wrote:
+>
+>I hereby vacate orders RVTPO 458 and RIPO 22. 
+>
+>I hereby order Steve to pay the Bank 2 VTs (RVTPO467) and 2
+>Indulgences (RIPO23) for committing the Infraction of Failure to
+>Report as Scorekeepor. 
+
+I hereby transfer 2 Indulgences and 2 VTs to the Bank to satisfy
+these POs. The question now is: how am I going to produce a
+Scorekeepor's Report without the information from Swann?
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 21:03 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA07942 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 21:03:30 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA20043
+	for agora-discussion-list; Mon, 20 Jul 1998 11:01:09 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA19894
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 11:01:02 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id LAA07156 for agora-discussion@gecko.serc.rmit.edu.au; Mon, 20 Jul 1998 11:01:21 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199807200101.LAA07156@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Welcome Wagon?
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 20 Jul 1998 11:01:21 +1000 (EST)
+In-Reply-To: <68c79ebe.35b293d6@aol.com> from "Agoralee@aol.com" at Jul 19, 98 08:48:21 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 509
+
+Agoralee@aol.com wrote:
+>
+>In a message dated 98-07-19 20:40:03 EDT, Quoth Chuck:
+>
+> >P.S. Didn't we have a Lee as a player a long time ago?  You're not
+> >that same person, by any chance?
+> 
+>You win the prize.  I am lee a.k.a The Point Sucker.
+
+Well, then, welcome back, lee! Long time no see!
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 21:03 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA07947 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 21:03:41 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA20374
+	for agora-discussion-list; Mon, 20 Jul 1998 11:01:22 +1000
+Received: from imo12.mx.aol.com (imo12.mx.aol.com [198.81.17.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA20280
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 11:01:17 +1000
+From: Agoralee@aol.com
+Received: from Agoralee@aol.com
+	by imo12.mx.aol.com (IMOv14_b1.1) id 2ATEa11469
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 21:01:10 +2000 (EDT)
+Message-ID: <2a8a8e76.35b296d7@aol.com>
+Date: Sun, 19 Jul 1998 21:01:10 EDT
+To: agora-discussion@gecko.serc.rmit.edu.au
+Mime-Version: 1.0
+Subject: DIS: Unemployment Benefits
+Content-transfer-encoding: 7bit
+X-Mailer: AOL 3.0 16-bit for Windows sub 58
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 416
+
+As stated in the Rules:
+>Unemployment Benefits
+
+>      As soon as possible after the beginning of each Week, the
+>      Registrar shall pay out to every Player who did not receive any
+>      Officer's Salary for the previous week an unemployment benefit
+>      of half the Basic Officer Salary.
+
+How do I get my benefits for this week and last?
+
+---
+If you don't want to know the answer, don't ask the question.
+lee
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 21:27 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA08386 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 21:27:51 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA09115
+	for agora-discussion-list; Mon, 20 Jul 1998 11:23:27 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA09111
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 11:23:14 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id LAA18447 for agora-discussion@gecko.serc.rmit.edu.au; Mon, 20 Jul 1998 11:23:33 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199807200123.LAA18447@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Unemployment Benefits
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 20 Jul 1998 11:23:33 +1000 (EST)
+In-Reply-To: <2a8a8e76.35b296d7@aol.com> from "Agoralee@aol.com" at Jul 19, 98 09:01:10 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1033
+
+Agoralee@aol.com wrote:
+>
+>As stated in the Rules:
+>>Unemployment Benefits
+>
+>>      As soon as possible after the beginning of each Week, the
+>>      Registrar shall pay out to every Player who did not receive any
+>>      Officer's Salary for the previous week an unemployment benefit
+>>      of half the Basic Officer Salary.
+>
+>How do I get my benefits for this week and last?
+
+Well, as you only registered to play on Saturday 18, you aren't eligible
+for last week's benefits. But this week's benefits will be paid to you
+by the Registrar, Michael Norrish. To be more precise, Registrar Michael
+will issue a Payment Order, and Chancellor Michael will satiasfy it. In
+fact, they may have been paid to you already. Watch out for a message
+from Michael entitled "Bank Transaction Notices". You don't have to do
+anything.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 21:38 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA08527 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 21:38:13 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA09288
+	for agora-discussion-list; Mon, 20 Jul 1998 11:34:37 +1000
+Received: from imo21.mx.aol.com (imo21.mx.aol.com [198.81.17.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA09285
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 11:34:33 +1000
+From: Agoralee@aol.com
+Received: from Agoralee@aol.com
+	by imo21.mx.aol.com (IMOv14_b1.1) id 2GUMa12329
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 21:34:28 +2000 (EDT)
+Message-ID: <eedda5e7.35b29ea5@aol.com>
+Date: Sun, 19 Jul 1998 21:34:28 EDT
+To: agora-discussion@gecko.serc.rmit.edu.au
+Mime-Version: 1.0
+Subject: DIS: Cost of Voting
+Content-transfer-encoding: 7bit
+X-Mailer: AOL 3.0 16-bit for Windows sub 58
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 109
+
+Am I correct in thinking that VT are not needed to vote in elections, only for
+voting on Proposals?
+
+---
+lee
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 21:49 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA08662 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 21:49:33 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA09382
+	for agora-discussion-list; Mon, 20 Jul 1998 11:47:18 +1000
+Received: from imo22.mx.aol.com (imo22.mx.aol.com [198.81.17.66])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA09379
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 11:47:15 +1000
+From: Agoralee@aol.com
+Received: from Agoralee@aol.com
+	by imo22.mx.aol.com (IMOv14_b1.1) id 2IXLa20982
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 21:47:21 +2000 (EDT)
+Message-ID: <2a8af7b1.35b2a1aa@aol.com>
+Date: Sun, 19 Jul 1998 21:47:21 EDT
+To: agora-discussion@gecko.serc.rmit.edu.au
+Mime-Version: 1.0
+Subject: Re: DIS: Unemployment Benefits
+Content-transfer-encoding: 7bit
+X-Mailer: AOL 3.0 16-bit for Windows sub 58
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1405
+
+In a message dated 98-07-19 21:35:52 EDT, Steve stated:
+
+<< 
+> Agoralee@aol.com wrote:
+> >
+> >As stated in the Rules:
+> >>Unemployment Benefits
+> >
+> >>      As soon as possible after the beginning of each Week, the
+> >>      Registrar shall pay out to every Player who did not receive any
+> >>      Officer's Salary for the previous week an unemployment benefit
+> >>      of half the Basic Officer Salary.
+> >
+> >How do I get my benefits for this week and last?
+ 
+> Well, as you only registered to play on Saturday 18, you aren't eligible
+> for last week's benefits. But this week's benefits will be paid to you
+> by the Registrar, Michael Norrish. To be more precise, Registrar Michael
+> will issue a Payment Order, and Chancellor Michael will satiasfy it. In
+> fact, they may have been paid to you already. Watch out for a message
+> from Michael entitled "Bank Transaction Notices". You don't have to do
+> anything.
+ 
+>-- 
+> Steve  <sig deleted>
+
+ Well, I was a Player for part of the last Nomic Week, Saturday in fact.  The
+rule doesn't state That I needed to be a player for the entire week, ar even
+most of it.  The rule does not state that the Player had to be registered the
+prior week, just "not receive any Officer's Salary for the previous week". I
+have not received an Officers Salary the previous week.  I would have
+remembered if I had. 
+
+I want Unemployment Benefits for last week.
+---
+lee
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 21:56 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA08802 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 21:56:46 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA09439
+	for agora-discussion-list; Mon, 20 Jul 1998 11:54:16 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA09436
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 11:54:14 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id LAA14643 for agora-discussion@gecko.serc.rmit.edu.au; Mon, 20 Jul 1998 11:54:34 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199807200154.LAA14643@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Cost of Voting
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 20 Jul 1998 11:54:34 +1000 (EST)
+In-Reply-To: <eedda5e7.35b29ea5@aol.com> from "Agoralee@aol.com" at Jul 19, 98 09:34:28 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 358
+
+Agoralee@aol.com wrote:
+>
+>Am I correct in thinking that VT are not needed to vote in elections, only for
+>voting on Proposals?
+
+That is correct.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 22:13 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA09028 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 22:13:05 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA09543
+	for agora-discussion-list; Mon, 20 Jul 1998 12:10:18 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA09540
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 12:10:06 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id MAA30968 for agora-discussion@gecko.serc.rmit.edu.au; Mon, 20 Jul 1998 12:10:25 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199807200210.MAA30968@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Unemployment Benefits
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 20 Jul 1998 12:10:25 +1000 (EST)
+In-Reply-To: <2a8af7b1.35b2a1aa@aol.com> from "Agoralee@aol.com" at Jul 19, 98 09:47:21 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2653
+
+Agoralee@aol.com wrote:
+>
+>> Well, as you only registered to play on Saturday 18, you aren't eligible
+>> for last week's benefits. But this week's benefits will be paid to you
+>> by the Registrar, Michael Norrish. To be more precise, Registrar Michael
+>> will issue a Payment Order, and Chancellor Michael will satiasfy it. In
+>> fact, they may have been paid to you already. Watch out for a message
+>> from Michael entitled "Bank Transaction Notices". You don't have to do
+>> anything.
+>
+> Well, I was a Player for part of the last Nomic Week, Saturday in fact.  The
+>rule doesn't state That I needed to be a player for the entire week, ar even
+>most of it.  The rule does not state that the Player had to be registered the
+>prior week, just "not receive any Officer's Salary for the previous week". I
+>have not received an Officers Salary the previous week.  I would have
+>remembered if I had. 
+
+There is a small grey area in the Rule, although I'm not sure it'll help
+you any. The Rule requires the Registrar to make the payment as soon as
+possible after the beginning of the Nomic Week. So a case could arise
+where a New Player registered before the Registrar made the payments. In
+that case, it might be argued that the Registrar has to pay the New
+Player, the argument being that the Registrar should pay every
+unemployed person who is a Player at the time e makes the payments. On
+the other hand, it could equally (or perhaps even better) be argued that
+the Registrar need only pay those unemployed persons who were Players at
+the beginning of the Week. Here the argument is that since the Registrar
+incurs the obligation at the beginning of the Week (ie that's when the
+asap clock starts ticking), that's the natural time to measure the state
+of the game with respect to who qualifies for Unemployment Benefits. Or
+so I would argue before a Judge.
+
+In the present case, since I was away last week, I don't know if Michael
+had already paid the benefits before you Registered. I assume he did. In
+that case, I think it's clear that you don't qualify. If you weren't a
+Player at the time the Registrar made the payments, then the Registrar
+had no obligation to pay you anything, and your registration does
+nothing that I can see to create a new obligation on the Registrar to
+pay you.
+
+>I want Unemployment Benefits for last week.
+
+If you find my argument unpersuasive, and can get no joy from Michael, I
+suggest you Call for Judgement
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 22:13 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA09032 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 22:13:51 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA09556
+	for agora-discussion-list; Mon, 20 Jul 1998 12:11:33 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA09551
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 12:11:22 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id MAA22464 for agora-discussion@gecko.serc.rmit.edu.au; Mon, 20 Jul 1998 12:11:41 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199807200211.MAA22464@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Re: Voting Report: 3766-3768
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 20 Jul 1998 12:11:41 +1000 (EST)
+In-Reply-To:  <980718162524.860@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Jul 19, 98 02:25:24 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 652
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>> A Rule shall be created with the following text:
+>> 
+>>      As soon as possible after creation of this Rule, Chuck shall
+>>      vacate all unsatisfied Payment Orders for Indulgences naming him
+>>      as Payor.  He is both authorized and empowered to do this.  Once
+>>      that has taken place, this Rule repeals itself.
+>
+>Hey!
+
+It's an indictment on the rest of us that Chuck got away with this.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 22:22 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA09162 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 22:22:45 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA09631
+	for agora-discussion-list; Mon, 20 Jul 1998 12:20:05 +1000
+Received: from imo11.mx.aol.com (imo11.mx.aol.com [198.81.17.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA09625
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 12:20:00 +1000
+From: Agoralee@aol.com
+Received: from Agoralee@aol.com
+	by imo11.mx.aol.com (IMOv14_b1.1) id 2MVAa04021
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 19 Jul 1998 22:20:04 +2000 (EDT)
+Message-ID: <72fa5dc8.35b2a956@aol.com>
+Date: Sun, 19 Jul 1998 22:20:04 EDT
+To: agora-discussion@gecko.serc.rmit.edu.au
+Mime-Version: 1.0
+Subject: DIS: Unemployment Benefits
+Content-transfer-encoding: 7bit
+X-Mailer: AOL 3.0 16-bit for Windows sub 58
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 78
+
+Michael,
+
+Am I going to receive Unemployment Benefits for last week?
+
+---
+lee
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 19 22:23 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA09169 for <dpb@cs.brown.edu>; Sun, 19 Jul 1998 22:23:03 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA09638
+	for agora-discussion-list; Mon, 20 Jul 1998 12:20:54 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA09635
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 20 Jul 1998 12:20:48 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id MAA08458 for agora-discussion@gecko.serc.rmit.edu.au; Mon, 20 Jul 1998 12:21:07 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199807200221.MAA08458@silas-2.cc.monash.edu.au>
+Subject: DIS: Uh oh
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+Date: Mon, 20 Jul 1998 12:21:06 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 731
+
+I have a sinking feeling. I've just noticed that R1645 (Temporary
+Delegation of Office) only allows Electees to Delegate. According
+to R1555, and Electee ceases to be an Electee when is retired from
+Office, something which, according to R1556, happens at the expiry of a
+Term of Service. In short, I was not an Electee to the Offices of
+Assessor or Wizard when I attempted to Delegate those Offices. Which
+means that Blob and Chuck were never Delegated to those Offices. Ulp.
+
+Anyone care to show me I'm wrong? Please?
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+

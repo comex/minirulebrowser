@@ -1,0 +1,383 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Nov 19 04:58 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id EAA05751
+	for <dpb@cs.brown.edu>; Thu, 19 Nov 1998 04:58:00 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA19372
+	for agora-business-list; Thu, 19 Nov 1998 20:48:42 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id UAA19369
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 19 Nov 1998 20:48:40 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id UAA07610
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 19 Nov 1998 20:56:14 +1100 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007608; Thu, 19 Nov 98 20:56:12 +1100
+Received: From mozart With LocalMail ; Thu, 19 Nov 98 20:53:00 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-business@gecko.serc.rmit.edu.au (Nomic Business)
+Date: Thu, 19 Nov 1998 20:52:59 +1100 (EST)
+Message-Id:  <981119095259.6053@cse.unsw.edu.au>
+Subject: BUS: Proto: The Treasuror v1.2
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2655
+
+
+Proto: The Treasuror [v1.2]
+
+Create a rule entitled, "The Treasuror", with text:
+
+     There exists an Office called the Treasuror, with a salary equal
+     to zero. 
+
+     The Treasuror is elected like any other Office, except that 
+     sometime during the Nominating period for the Office, Nominees
+     must issue a Budget. Any Nominee who has not issued a Budget is
+     not a Candidate for that Election. This rule takes precedence
+     over any other rule which may identify Candidates.
+     
+     A Budget is a list of all Players' names, each with a corresponding
+     number of VTs. The number of VTs must be an integral multiple
+     of the MUQ of VTs, and cannot be less than zero. The sum of all
+     these amounts must be less than or equal to 50 VTs.
+
+     A Budget is issued by posting it to the Public Forum. A Nominee 
+     may issue as many Budgets as e wishes, but only the latest Budget
+     issued during the Nominating Period of the Election is allowed 
+     to be implemented.
+
+     As soon as possible after the Treasuror is elected, e must
+     implement eir Budget. E does so by posting it to the Public Forum
+     and announcing that e is implementing it. Only the last valid
+     Budget e issued in the Nomination Period can be implemented in
+     this way.
+
+     At the time the Budget is thus implemented, all outstanding
+     Payment Orders are vacated, and all Players' VT holdings are
+     set to the values shown in the Budget. The VT holdings of all
+     other enitities are set to zero, except for the Bank, which 
+     shall contain 50VTs.
+
+     This Rule takes precedence over any Rule which would prevent
+     these changes from being made.
+
+     One week after the Budget has been implemented, this Rule shall
+     repeal itself.
+
+[Comments: 
+
+ v1.0 - This allows us to reset the VT economy to a more certain state,
+ to end the current crisis. Rather than choose an arbitrary reset value
+ to include in the Proposal, it puts into place the mechanism to reset the
+ state with some flexibility, so we can determine the exact values as we
+ do best - via political wrangling.
+
+ v1.1 - Realised the language in the old version relied on knowing a long
+ of the state which we can't really be sure of - details of many past 
+ orders and such. Instead, I have just implemented a one-off blanket 
+ vacation of all POs.
+
+ Also added the all important self-repeal clause, so we don't have this
+ happening regularly. (Unless people think that might be a good thing?)
+
+ v1.2 - Added clause to set all Group & Contest Treasuries to zero,
+ and put 50 VTs in the Bank. Also reduced the total Budget allocation
+ to 50 VTs.
+
+]
+
+
+
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Nov 19 07:17 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id HAA08340
+	for <dpb@cs.brown.edu>; Thu, 19 Nov 1998 07:16:58 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA19917
+	for agora-business-list; Thu, 19 Nov 1998 23:05:45 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA19913
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 19 Nov 1998 23:05:43 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id XAA07788
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 19 Nov 1998 23:13:16 +1100 (EST)
+	(envelope-from klaush@dij91.tp3.ruhr-uni-bochum.de)
+Received: from dij91.tp3.ruhr-uni-bochum.de(134.147.160.152) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007786; Thu, 19 Nov 98 23:12:39 +1100
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id NAA16934; Thu, 19 Nov 1998 13:09:04 +0100 (NFT)
+Date: Thu, 19 Nov 1998 13:09:04 +0100 (NFT)
+Message-Id: <199811191209.NAA16934@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-business@gecko.serc.rmit.edu.au
+In-reply-to: <981118020238.19819@cse.unsw.edu.au> (malcolmr@cse.unsw.edu.au)
+Subject: BUS: Re: OFF: New Proposals: 3806-3807
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 61
+
+H. Assessor,
+
+I hereby cast two votes for P3806. 
+
+Kolja A. 
+
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Nov 19 10:56 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id KAA14753
+	for <dpb@cs.brown.edu>; Thu, 19 Nov 1998 10:56:09 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA31326
+	for agora-business-list; Fri, 20 Nov 1998 02:46:47 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA31323
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 20 Nov 1998 02:46:45 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id CAA08186
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 20 Nov 1998 02:54:21 +1100 (EST)
+	(envelope-from ccarroll@dfw.nationwide.net)
+Received: from dfw.nationwide.net(198.175.15.10) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma008184; Fri, 20 Nov 98 02:54:16 +1100
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id JAA12523
+	for agora-business@gecko.serc.rmit.edu.au; Thu, 19 Nov 1998 09:48:12 -0600 (CST)
+Message-Id: <199811191548.JAA12523@dfw.nationwide.net>
+Subject: BUS: Re: OFF: Assessor's Report for Proposals 3804-2805
+To: agora-business@gecko.serc.rmit.edu.au (Agora Business)
+Date: Thu, 19 Nov 1998 09:48:12 -0600 (CST)
+In-Reply-To:  <981119080231.26179@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Nov 19, 98 07:02:30 pm
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 272
+Lines: 9
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>  Ass#  Payor          Payee      Amt  Currency  Reason
+>------  -----          -----      ---  --------  ------
+>avt061  Chuck          Bank         1  VT        Failing to Vote
+
+I transfer 1 VT to the Bank to satisfy this PO.
+
+Chuck
+
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Nov 19 11:41 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id LAA16358
+	for <dpb@cs.brown.edu>; Thu, 19 Nov 1998 11:41:06 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA31533
+	for agora-business-list; Fri, 20 Nov 1998 03:31:45 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id DAA31530
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 20 Nov 1998 03:31:43 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id DAA08249
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 20 Nov 1998 03:39:22 +1100 (EST)
+	(envelope-from dalbertz@rmv.state.ma.us)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma008244; Fri, 20 Nov 98 03:39:13 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 19 Nov 1998 11:34:01 -0500
+Message-Id: <s6540229.002@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 19 Nov 1998 11:33:22 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Re: OFF: Herald's Report as of 16 November 1998
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 600
+Lines: 19
+
+BUS: Re: OFF: Herald's Report as of 16 November 1998 
+
+Lee wrote:
+
+>dalbertz@rmv.state.ma.us,Internet writes:
+>>Lee                                 0          2         +2       21
+
+>If i read this correctly, i have 2 indulgences.  if so, i apply them to
+>my debt.
+
+The intention of the above statement is clear, but I am not sure I can consider
+it a valid TO, since it does not reference a specific PO.  Does anyone think
+the above constitutes a valid TO?
+
+Lee, to be safe, please resubmit your request in the form, "I pay POI035" or "I
+transfer 2 Indulgences to the Bank to pay POI035".
+
+-- Crito
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Nov 19 16:17 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id QAA27464
+	for <dpb@cs.brown.edu>; Thu, 19 Nov 1998 16:17:07 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA32476
+	for agora-business-list; Fri, 20 Nov 1998 08:07:46 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id IAA32469
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 20 Nov 1998 08:07:43 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id IAA08591
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 20 Nov 1998 08:15:28 +1100 (EST)
+	(envelope-from klaush@dij91.tp3.ruhr-uni-bochum.de)
+Received: from dij91.tp3.ruhr-uni-bochum.de(134.147.160.152) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma008588; Fri, 20 Nov 98 08:15:18 +1100
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id TAA14786; Thu, 19 Nov 1998 19:03:37 +0100 (NFT)
+Date: Thu, 19 Nov 1998 19:03:37 +0100 (NFT)
+Message-Id: <199811191803.TAA14786@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Mandatory proposal
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 182
+
+H. Promotor, 
+
+As required by the rule created by P3805 I hereby submit the following
+proposal:
+
+>>
+Mandatory cleanup
+
+Repeal the rule created by Proposal 3805.
+<<
+
+Thanks, Kolja A.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Nov 19 20:41 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id UAA05419
+	for <dpb@cs.brown.edu>; Thu, 19 Nov 1998 20:41:06 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA00860
+	for agora-business-list; Fri, 20 Nov 1998 12:30:16 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA00856
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 20 Nov 1998 12:30:14 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id MAA09245
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 20 Nov 1998 12:38:11 +1100 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from xyplex8-1-7.ucs.indiana.edu(129.79.117.116) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma009243; Fri, 20 Nov 98 12:37:43 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id TAA31777 for <agora-business@gecko.serc.rmit.edu.au>; Thu, 19 Nov 1998 19:12:28 -0500
+Message-Id: <199811200012.TAA31777@poverty.bloomington.in.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Proposal Queue Twiddlies
+Date: Thu, 19 Nov 1998 19:12:26 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 230
+
+I hereby remove the Proposal entitled "Winning Isn't Anything"
+(21Oct98) from the Proposal Queue.
+
+May I suggest that the Promotor adopt a scheme for numbering Proposals
+in the Queue, so that we might refer to them more readily?
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Nov 19 22:23 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id WAA07930
+	for <dpb@cs.brown.edu>; Thu, 19 Nov 1998 22:23:13 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA01536
+	for agora-business-list; Fri, 20 Nov 1998 14:13:46 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA01533
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 20 Nov 1998 14:13:42 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id OAA09411
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 20 Nov 1998 14:21:43 +1100 (EST)
+	(envelope-from changeling@erols.com)
+Received: from smtp1.erols.com(207.172.3.234) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma009409; Fri, 20 Nov 98 14:21:18 +1100
+Received: from deep-thought (207-172-216-55.s55.tnt1.sbo.erols.com [207.172.216.55])
+	by smtp1.erols.com (8.8.8/8.8.5) with SMTP id WAA02287
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 19 Nov 1998 22:18:10 -0500 (EST)
+From: "Dave Smith" <changeling@erols.com>
+To: "Agora-Business" <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: How much is a P-Note worth?
+Date: Thu, 19 Nov 1998 22:29:43 -0500
+Message-ID: <000001be1436$04cebe00$37d8accf@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2232.26
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 101
+Lines: 5
+
+My P-Notes are worth nothing to me at all.  I hereby transfer 2 P-Notes to
+General Chaos.
+
+-Macross
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Nov 19 23:28 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id XAA09389
+	for <dpb@cs.brown.edu>; Thu, 19 Nov 1998 23:28:23 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA01858
+	for agora-business-list; Fri, 20 Nov 1998 15:19:13 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA01854
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 20 Nov 1998 15:19:11 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id PAA09506
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 20 Nov 1998 15:27:14 +1100 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from dial-126-75.ucs.indiana.edu(156.56.126.75) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma009504; Fri, 20 Nov 98 15:26:47 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id XAA00486 for <agora-business@gecko.serc.rmit.edu.au>; Thu, 19 Nov 1998 23:11:42 -0500
+Message-Id: <199811200411.XAA00486@poverty.bloomington.in.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Proposal Queue, again
+Date: Thu, 19 Nov 1998 23:11:40 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 137
+Lines: 2
+
+I hereby transfer one P-Note to the Bank for the purpose of raising
+the priority of the Proposal entitled 'Tne Days is Too Long' by one.
+

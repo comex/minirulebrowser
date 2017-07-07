@@ -1,0 +1,1212 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 00:10 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id AAA18338
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 00:10:21 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA26703
+	for agora-discussion-list; Thu, 29 Apr 1999 04:02:25 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA26700
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 04:02:22 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id OAA29785
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 14:08:05 +1000 (EST)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029783; Thu, 29 Apr 99 14:08:03 +1000
+Received: From mozart With LocalMail ; Thu, 29 Apr 99 14:02:15 +1000 
+From: Malcolm Ryan <malcolmr@cse.unsw.edu.au>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 29 Apr 1999 14:02:15 +1000
+Message-ID: <19990429140215.A16007@cse.unsw.edu.au>
+Subject: Re: DIS: New Proposals?
+Mail-Followup-To: agora-discussion@gecko.serc.rmit.edu.au
+References: <Pine.LNX.4.10.9904290326460.1688-100000@hagbart.nvg.ntnu.no>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.93.2i
+In-Reply-To: <Pine.LNX.4.10.9904290326460.1688-100000@hagbart.nvg.ntnu.no>; from Orjan Johansen on Thu, Apr 29, 1999 at 03:27:58AM +0200
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 710
+
+On Thu, Apr 29, 1999 at 03:27:58AM +0200, Orjan Johansen wrote:
+> It seems to me that it's been a while since our last Proposal Batch...
+
+The last batch was distributed last Monday. The next batch is due to be
+distributed before the end of this week, so Michael still has a fair 
+amount of time. I think he said he would do it today sometime.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 08:14 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id IAA00899
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 08:14:57 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA31423
+	for agora-discussion-list; Thu, 29 Apr 1999 12:13:03 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA31420
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 12:13:01 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id WAA00885
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 22:18:45 +1000 (EST)
+Received: from unknown(209.209.183.68) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma000883; Thu, 29 Apr 99 22:18:25 +1000
+Received: (from harvel@localhost)
+	by vir.fclib.org (8.9.0/8.9.0) id IAA03165;
+	Thu, 29 Apr 1999 08:17:31 -0400
+Date: Thu, 29 Apr 1999 08:17:31 -0400
+Message-Id: <199904291217.IAA03165@vir.fclib.org>
+X-Authentication-Warning: vir.fclib.org: harvel set sender to harvel@vir.fclib.org using -f
+From: Michael Slone <harvel@vir.fclib.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-reply-to: <19990429210150.A26192@cse.unsw.edu.au> (message from Malcolm
+	Ryan on Thu, 29 Apr 1999 21:01:50 +1000)
+Subject: Re: DIS: Re: BUS: Proposal
+References: <199904291027.GAA02818@vir.fclib.org> <19990429210150.A26192@cse.unsw.edu.au>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 767
+
+> powered rule. If I wanted to get around your restriction, I could just 
+I had been thinking of my Proposal as more of a release of restriction than
+a restriction.  If we actually had to distribute print versions of all
+Proposals, the game would proceed much more slowly.
+
+> amend Rule 478 to say that imagining something in my head is equivalent
+> to sending it to the PF. So your proposal actually weakens R107, by
+> making it rely on concepts defined in lesser rules.
+I doubt that many others would vote for such an amendment, but I do see
+your point. :)
+
+-- 
+Michael Slone - http://members.xoom.com/harvel/
+The most exciting phrase to hear in science, the one that heralds new
+discoveries, is not "Eureka!" (I found it!) but "That's funny ..."
+		-- Isaac Asimov
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 09:02 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:root@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id JAA02207
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 09:02:24 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA30715
+	for agora-discussion-list; Thu, 29 Apr 1999 11:02:32 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA30712
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 11:02:30 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id VAA00752
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 21:08:14 +1000 (EST)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma000750; Thu, 29 Apr 99 21:07:44 +1000
+Received: From mozart With LocalMail ; Thu, 29 Apr 99 21:01:51 +1000 
+From: Malcolm Ryan <malcolmr@cse.unsw.edu.au>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 29 Apr 1999 21:01:50 +1000
+Message-ID: <19990429210150.A26192@cse.unsw.edu.au>
+Subject: DIS: Re: BUS: Proposal
+Mail-Followup-To: agora-discussion@gecko.serc.rmit.edu.au
+References: <199904291027.GAA02818@vir.fclib.org>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.93.2i
+In-Reply-To: <199904291027.GAA02818@vir.fclib.org>; from Michael Slone on Thu, Apr 29, 1999 at 06:27:04AM -0400
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1813
+
+On Thu, Apr 29, 1999 at 06:27:04AM -0400, Michael Slone wrote:
+> I submit the following Proposal, "Patch Rule 107", delimited by '----------' at
+> either end, and pay 0.3 P-Notes to increase its Priority by 0.3 .
+> 
+> ----------
+> Amend Rule 107 by replacing the sentence reading
+> 
+>       Any proposed Rule Change must be written down (or otherwise
+>       communicated in print media) before it is voted on. 
+> 
+> with one reading
+> 
+>       Any proposed Rule Change must be sent to the Public Forum before
+>       it is voted on.
+> ----------
+
+This has a number of problems, I'm afraid:
+
+The first is that it will not do what you want. Rule 107 has power 3, so
+you'll need a proposal with Adoption Index 3 or more to amend it. AIs 
+have to be set when the Proposal is made, or else they default to 1. 
+(See Rule 594)
+
+Secondly, Rule 1483 already requires that Proposals go to the Public 
+Forum. Isn't that good enough?
+
+Thirdly, there's not much point in putting such a condition in a high
+power rule, when the definition of "Public Forum" is in a much lower
+powered rule. If I wanted to get around your restriction, I could just 
+amend Rule 478 to say that imagining something in my head is equivalent
+to sending it to the PF. So your proposal actually weakens R107, by
+making it rely on concepts defined in lesser rules.
+
+If I remember rightly, you proto'd this earlier. I'm sorry I didn't
+point out these bugs before it got to this stage.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 10:16 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id KAA04226
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 10:16:11 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA32204
+	for agora-discussion-list; Thu, 29 Apr 1999 14:14:36 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA32201
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 14:14:34 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id AAA01222
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 30 Apr 1999 00:20:18 +1000 (EST)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001220; Fri, 30 Apr 99 00:20:11 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 29 Apr 1999 10:13:52 -0400
+Message-Id: <s72830e0.082@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 29 Apr 1999 10:13:30 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: RE: DIS: Re: BUS: CFJ
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 6053
+Lines: 74
+
+macross wrote:
+
+>> perceived - a "platonic" distinction that I would have thought Macross, of
+>> all people, would appreciate.  8)
+
+>What makes you say that?
+
+Maybe I misremember, but I thought you were firmly on the side of the "platonists"
+in those days when we were having our "platonist/pragmatist" discussions.
+
+>> Yes, if you take the view that clarity is
+>> a function of Players' actual perception and not just of the words themselves,
+>> Macross is correct.  What I am waiting to hear is a convincing argument that
+>> the wording of the SA Rule supports one interpretation over the other.
+
+>In my opinion, an indication by itself is neither clear or unclear.  It is
+>merely an indication.  Clarity is in the eye of the beholder.  If the
+>clarity doesn't lie there, then where does it lie?    If I indicate in
+>Swahili that I want to submit a proposal, is that clear if no one in the
+>game knows the tongue but me (I don't but this is just hypothetical)?  Even
+>the acrostic example was clear once it was pointed out.  Of course before it
+>was pointed out, it is was unclear.  The entire context of the indication
+>must be considered.
+
+It is this last sentence where you lose me.  If you said "the entire context
+*should* be considered",  then we would not be that far apart in our
+positions - I 'm just searching for a justification as to how this particular
+Rule supports considering the entire context.  But when you say "the entire
+context *must* be considered", then I have trouble, because it seems
+you are saying that it needs no justification, that it is self-evident in the
+definition of "clear".
+
+>Webster's Online Dictionary defines clear thusly:
+<snip>
+>     3 a : easily heard b : easily visible : PLAIN c : free from obscurity or
+>     ambiguity : easily understood : UNMISTAKABLE
+<snip>
+>I would say that 3a, 3b, 4b, 6d are just about what I think of when I think
+>of a clear indication.  I also think that this definition is in the best
+>interests of the game.  If a reasonable person, or perhaps the 'average'
+>person, would find the indication clear in the context in which it was
+>presented then it is clear.  Otherwise it is not.
+
+>In my opinion, Steve's indication was not clear.  It does not meet
+>definition 6d above in that it is not free from obstruction.
+
+I don't think the definition helps that much.  What you have just shown,
+IMO, is that given a comprehensive list of possibilities for the definition
+of a word, you can pick and choose what you need from it to
+support any reasonable interpretation.  It is clear 8) from the above
+list, that any interpretation of "clear" does not have to meet
+*all* of the above possibilities.  You choose 6d, "free from obstruction",
+to support your contention that the entire context must be used.
+Steve uses only 3c, "easily understood", to support eir contention
+that the imbedded indication was "clear".  Both choices are
+reasonable, but there is still nothing there to tell us which one
+is the more correct one.
+
+>I honestly don't want to support this conclusion.  I think it will remove
+>many nice scamming opportunities but I feel that it is the best
+>interpretation.
+
+I honestly am sympathetic to your interpretation, but it still seems more
+like a coin toss to me.
+
+--Crito
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               !
+!
+                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               !
+!
+                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 10:40 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id KAA05143
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 10:39:58 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA32293
+	for agora-discussion-list; Thu, 29 Apr 1999 14:34:36 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA32290
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 14:34:34 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id AAA01252
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 30 Apr 1999 00:40:18 +1000 (EST)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001250; Fri, 30 Apr 99 00:40:12 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 29 Apr 1999 10:33:56 -0400
+Message-Id: <s7283594.020@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 29 Apr 1999 10:33:45 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: RE: DIS: Re: BUS: CFJ
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 3891
+Lines: 46
+
+macross wrote:
+
+>It is not necessary for a player to actually see the indication for it to be
+>clear.  Imagine if you will:
+
+>A child is given a pain reliever for a headache, suffers an overdose and
+>dies (god forbid).  The drug company points out that although the parents
+>didn't read the bottle it clearly indicates only one tablet should be given
+>to children of that age.  You, as judge, read the label and see that an
+>indication to that effect is, in fact, there.  Also the wording of the
+>indication is very plain and straightforward, in fact you might call it
+>clear.  However, since it isn't in the dosage section, but is in fact buried
+>in a bunch of flowery text about how the product is made only from the most
+>natural of plants grown in the Andes mountains, farmed by native workers who
+>have used the herb for 10 generations, blah, blah, blah, you decide that the
+>indication was far from clear in any way that matters and the drug company
+>is guilty of gross negligence.
+
+>Now, do you care to argue with the grieving parents that it was a clear
+>indication?  Or do you recognize that there is more to a clear indication
+>than clear wording?
+
+/melodrama on
+
+You have chosen an example which causes our very humanity to cry out
+for your interpretation of "clear".  Who among us (besides lawyers) could
+be so heartless as to deny that the drug company bore a responsibility not
+only to make the wording clear but also to make sure the words would be
+easily perceived?
+
+/melodrama off
+
+But this is not such a life and death situation.  Does "indication" in R1483
+refer only to the words themselves or to the entire message in which the
+words are written?  The problem here is that you could easily substitute
+the words "clear wording" for "the clear indication" into R1483.  So while
+I recognize that there *can* be more to a clear indication than clear
+wording, I'm still not convinced that there is more to it in this particular
+case.
+
+--Crito
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               !
+!
+                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 10:51 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id KAA05581
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 10:51:10 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA32363
+	for agora-discussion-list; Thu, 29 Apr 1999 14:48:36 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA32360
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 14:48:35 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id AAA01299
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 30 Apr 1999 00:54:18 +1000 (EST)
+Received: from heaton.cl.cam.ac.uk(128.232.32.11) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001297; Fri, 30 Apr 99 00:54:17 +1000
+Received: from albatross.cl.cam.ac.uk ([128.232.0.96])
+	by heaton.cl.cam.ac.uk with smtp (Exim 2.12 #1)
+	id 10cs79-0003W0-00; Thu, 29 Apr 1999 15:48:35 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 10cs78-0006WH-00; Thu, 29 Apr 1999 15:48:34 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <14120.28994.492827.147986@albatross.cl.cam.ac.uk>
+Date: Thu, 29 Apr 1999 15:48:34 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: RE: DIS: Re: BUS: CFJ
+In-Reply-To: <s7283594.020@rmv.state.ma.us>
+References: <s7283594.020@rmv.state.ma.us>
+X-Mailer: VM 6.71 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 420
+
+David Albertz writes:
+ 
+> But this is not such a life and death situation.  Does "indication"
+> in R1483 refer only to the words themselves or to the entire message
+> in which the words are written?  
+
+I think a good case could be made for the "entire message" possibility
+here simply on the grounds that this is the basic "unit of
+communication" we use when we communicate with each other over this
+medium.
+
+Michael.
+ 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 11:15 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id LAA06548
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 11:15:34 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA32475
+	for agora-discussion-list; Thu, 29 Apr 1999 15:13:07 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA32472
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 15:13:05 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id BAA01338
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 30 Apr 1999 01:18:49 +1000 (EST)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001336; Fri, 30 Apr 99 01:18:45 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 29 Apr 1999 11:12:33 -0400
+Message-Id: <s7283ea1.082@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 29 Apr 1999 11:11:55 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: RE: DIS: Re: BUS: CFJ
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1699
+
+Michael wrote:
+
+>> But this is not such a life and death situation.  Does "indication"
+>> in R1483 refer only to the words themselves or to the entire message
+>> in which the words are written?  
+
+>I think a good case could be made for the "entire message" possibility
+>here simply on the grounds that this is the basic "unit of
+>communication" we use when we communicate with each other over this
+>medium.
+
+Hmm.  I'm not so sure.  We certainly have a lot of examples of multiple
+tasks being performed within one message, so the "basic unit" could
+arguably be broken down into individual portions of a single message.
+
+--Crito
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               !
+!
+                                
+                                          
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 11:27 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id LAA07019
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 11:27:26 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA32538
+	for agora-discussion-list; Thu, 29 Apr 1999 15:25:37 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA32535
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 15:25:35 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id BAA01360
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 30 Apr 1999 01:31:19 +1000 (EST)
+Received: from law-f225.hotmail.com(209.185.130.163) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001358; Fri, 30 Apr 99 01:31:14 +1000
+Received: (qmail 86771 invoked by uid 0); 29 Apr 1999 15:25:35 -0000
+Message-ID: <19990429152535.86769.qmail@hotmail.com>
+Received: from 212.211.4.160 by www.hotmail.com with HTTP;
+	Thu, 29 Apr 1999 08:25:32 PDT
+X-Originating-IP: [212.211.4.160]
+From: "Alan Riddell" <pkpeekee@hotmail.com>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Protoposal,  "The Treasuror"
+Date: Thu, 29 Apr 1999 08:25:32 PDT
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 5658
+Lines: 191
+
+Now simplified due to Murphy (Thanks Murphy).
+
+Protoposal,  "The Treasuror" 
+
+
+Create a rule titled "The Treasuror" with the following text
+
+There exists the office of Treasuror.
+
+As soon as possible after the beginning of the quarter, the Registrar 
+shall initiate an Election for Treasuror.  The Office of Treasuror 
+shall only be elected at the time specified by this Rule, Rules to the 
+contrary notwithstanding.
+
+Each Nominee for Treasuror shall submit a valid Protobudget by the end 
+of the Nomination Period, else their Nomination is automatically 
+withdrawn.
+
+A valid Protobudget must contain all information that the Treasuror's 
+Budget is required to contain.
+
+If a Nominee submits multiple Protobudgets during the Nomination 
+Period, only the last one is considered.
+
+When the Vote Collector announces the Candidates for the office of 
+Treasuror to the Public forum at the end of the voting period, e shall 
+also list the last valid Protobudget posted by each Candidate.
+
+As soon as possible after the election of a Nominee to the office of 
+Treasuror the Nominee's Protobudget becomes the Treasuror's budget, 
+and shall be posted to a public forum again by the Treasuror.
+
+If there are no candidates for the office of Treasuror or no one is 
+elected to the office of Treasuror.  The Treasuror's budget shall 
+remain the same as in the previous quarter.
+
+The Treasuror does not receive a monthly salary but instead receives a 
+payment of VTs as set in the Treasuror's budget as soon as possible 
+after e is elected.
+
+
+Create a rule titled "The Treasuror's Budget" with the following text.
+
+The Treasuror's Budget shall include the following: 
+
+(1) The salary of every officer that receives a monthly wage.
+(2) The unemployment benefit.
+(3) The payment of the Treasuror.
+(4) Any other material that is required by the rules to be in the 
+Treasuror's budget.
+
+The above shall be given in integer multiples of 0.1, of the Basic 
+Officer Salary, between 0 and 4 times the BOS inclusive. (E.g. 3.2*The 
+BSO).
+
+If there is no valid version of the Treasuror's budget, there shall be 
+a budget created as soon as possible by the chancellor.  This budget 
+shall contain all the information that is required to be in the 
+Treasuror's budget and shall be set, as best as is possible to the 
+values of the previous quarter.  The resultant budget shall be 
+considered to be the Treasuror's Budget.  The Chancellor shall post 
+this budget to the public forum.
+
+
+
+
+Amend rule 1858 to read
+
+Unemployment Benefits
+
+      As soon as possible after the beginning of each month, the
+      Registrar shall pay out to every Player who does not receive any
+      Officer's Salary for the previous month an unemployment benefit
+      as set in the last Treasuror's budget.
+
+
+
+Amend Rule 1607 to read
+
+The Promotor
+
+      There shall exist the Office of the Promotor.  The Promotor
+      shall receive a salary as set in the last Treasuror's budget.
+
+      This rule will amend itself after two quarters have passed.  
+      The amended rule will read as the version of this rule did 
+      when it had an amendment number one less than it 
+      currently does.
+
+
+
+
+Amend Rule 1449 to read,
+
+The Assessor
+
+      There shall exist the Office of Assessor.  The Assessor
+      shall receive a salary as set in the last Treasuror's budget.
+
+      The Assessor shall also receive a Commission. At the end
+      of the Voting Period for a Proposal, the Assessor shall
+      pay out to emself an amount equal to 5% of the VTs spent
+      on voting on that Proposal.
+
+
+
+Amend rule 889 to read.
+
+Clerk of the Courts
+
+      There shall exist the Office of Clerk of the Courts.  The
+      Clerk of the Courts shall receive a salary as set in the last 
+      Treasuror's budget.
+
+
+
+Amend rule 559 to read
+
+The Registrar
+
+      There shall exist the Office of Registrar.  The Registrar
+      shall receive a salary as set in the last Treasuror's budget.
+
+
+Amend Rule 1051 to read
+
+The Office of the Rulekeepor
+
+      There shall exist the Office of Rulekeepor.  The Rulekeepor
+      shall receive a Salary as set in the last Treasuror's budget.
+
+      The Rulekeepor shall maintain a complete list of all Rules.  The
+      Short Logical Ruleset constitutes the Rulekeepor's Official
+      Report. In addition, the Rulekeepor shall post the Full Logical
+      Ruleset to the Public Forum at least once each month.
+
+
+Amend Rule 1785 to read
+
+The Accountor
+
+      There is an Office of Accountor, whose Salary is as set in the 
+      last Treasuror's budget, and whose responsibility it is to be 
+the 
+      Recordkeepor for Voting Tokens. The Accountor's Report 
+      includes the number of Voting Tokens possessed by each entity 
+      which possesses them, and any changes thereto since the last 
+      posting of the Accountor's Report.
+
+
+
+Amend rule Rule 1647 by replacing the text
+
+      "The Speaker-Elect receives no salary for filling the Office of
+      Speaker-Elect."
+
+With,
+
+"The Speaker-Elect receives a salary as set in the last Treasuror's 
+budget, for filling the Office of Speaker-Elect."
+
+
+
+Amend Rule 1377 by replacing the text,
+
+      "The Herald shall receive a salary equal to 2 times
+      the Basic Officer Salary."
+
+With,
+
+"The Herald shall receive a salary as set in the last Treasuror's 
+budget."
+
+
+
+Amend Rule 1878 by re placing the text,
+
+      "There is an Office of Scorekeepor, whose Salary is 1.5 times 
+the
+      Basic Officer Salary,"
+
+With,
+
+"There is an Office of Scorekeepor, whose Salary is as set in the last 
+Treasuror's budget."
+
+
+
+
+______________________________________________________
+Get Your Private, Free Email at http://www.hotmail.com
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 11:51 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id LAA07844
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 11:51:06 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA32666
+	for agora-discussion-list; Thu, 29 Apr 1999 15:49:08 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA32663
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 15:49:06 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id BAA01387
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 30 Apr 1999 01:54:49 +1000 (EST)
+Received: from logatome-2.francenet.fr(193.149.96.2) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001385; Fri, 30 Apr 99 01:54:29 +1000
+Received: from z3q1r8 (pppA127.francenet.fr [193.149.100.37])
+	by logatome.micronet.fr (8.8.8/8.8.8) with SMTP id RAA25556
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 17:47:48 +0200 (CEST)
+Message-Id: <199904291547.RAA25556@logatome.micronet.fr>
+From: "Laurent Bossavit" <laurent@netdive.com>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 29 Apr 1999 17:48:47 +0200
+Subject: RE: DIS: Re: BUS: CFJ
+In-reply-to: <s7283ea1.082@rmv.state.ma.us>
+X-mailer: Pegasus Mail for Win32 (v3.02b14)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 2780
+Lines: 53
+
+> >I think a good case could be made for the "entire message" possibility
+> >here simply on the grounds that this is the basic "unit of
+> >communication" we use when we communicate with each other over this
+> >medium.
+> 
+> Hmm.  I'm not so sure.  We certainly have a lot of examples of multiple
+> tasks being performed within one message, so the "basic unit" could
+> arguably be broken down into individual portions of a single message.
+
+A short time ago I had been about to post with precisely the above 
+remark of Michael's - then hit the 'cancel' button when precisely the 
+above objection occurred to me. ;)
+
+Still and all, I don't think we can avoid the conclusion that the 
+fact of embedding a communication with potential legal significance 
+within a larger volume of text of no legal significant should have 
+some bearing on our interpretation of "clear indication" in such a 
+context. Something along those lines - if Steve's post had in fact 
+been three email messages - one with the first 'spam' part, a second 
+with the Proposals, a third one with the rest of the spam - the 
+Proposals would have stood out more clearly. In particular, if Steve 
+had used a different Subject: header for the second message, that 
+particular message would have been read with essentially the same 
+attention as other agora-business messages. And of course anyone 
+opening the second message would immediately have spotted the legal 
+significance of its contents, rather than delete the message out of 
+hand as would have been the case for the other two, categorized as 
+'spam' after only a single glance at the first dozen or so lines.
+
+So, these characteristics of a single mail message - its Subject 
+line, its overall length, and the impression of a subject matter that 
+the first few lines convey - are in fact as much part of the 
+communication as "the words themselves" (as Crito refers to the part 
+of Steve's message that, if they'd stood on their own, would have 
+been a 'clear indication'), in that their modification will elicit 
+different behaviours on the part of the recipient of the entire  
+communication - which includes "the words themselves".
+
+Given the case of a single message which contained, say, 10 Calls For 
+Judgement, one Nomination, and at the end some Proposal worded 
+similarly to Steve's, our judgement on whether this constituted a 
+'clear indication' would have to take into account the fact that the 
+first parts of the message were themselves clearly intended to have 
+legal significance; and if the Subject line was '10 CFJs, a   
+Nomination, and a Proposal' the case would be clear-cut.
+
+Hey, and we still haven't gotten around to the charges of 
+Impersonation and/or Misrepresentation yet. ;)
+
+
+-[Morendil]-
+How come wrong numbers are never busy?
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 11:56 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id LAA08141
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 11:56:51 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA32707
+	for agora-discussion-list; Thu, 29 Apr 1999 15:55:38 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA32704
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 15:55:36 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id CAA01419
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 30 Apr 1999 02:01:20 +1000 (EST)
+Received: from sp2n17-t.missouri.edu(128.206.2.27) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001414; Fri, 30 Apr 99 02:00:56 +1000
+Received: from sp2n23-t.missouri.edu (sp2n23.missouri.edu [128.206.2.84])
+	by sp2n17.missouri.edu (8.9.0/8.9.0) with ESMTP id KAA125878
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 10:54:52 -0500
+Received: from localhost (c647100@localhost)
+	by sp2n23-t.missouri.edu (8.9.0/8.9.0) with SMTP id KAA80096
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 10:55:04 -0500
+X-Authentication-Warning: sp2n23-t.missouri.edu: c647100 owned process doing -bs
+Date: Thu, 29 Apr 1999 10:55:03 -0500 (CDT)
+From: Scott de Brestian <c647100@showme.missouri.edu>
+X-Sender: c647100@sp2n23-t.missouri.edu
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: RE: DIS: Re: BUS: CFJ
+In-Reply-To: <s72830e0.082@rmv.state.ma.us>
+Message-ID: <Pine.A41.3.95q.990429105427.158766B-100000@sp2n23-t.missouri.edu>
+MIME-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Length: 188
+Lines: 14
+
+
+
+
+> 
+> I honestly am sympathetic to your interpretation, but it still seems more
+> like a coin toss to me.
+> 
+> --Crito
+> 
+Then you must go with "the best interests of the game".
+
+Vlad
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 13:22 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id NAA11223
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 13:21:57 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA00344
+	for agora-discussion-list; Thu, 29 Apr 1999 17:19:39 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA00339
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 17:19:37 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id DAA01606
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 30 Apr 1999 03:25:21 +1000 (EST)
+Received: from dfw.nationwide.net(198.175.15.10) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001601; Fri, 30 Apr 99 03:24:55 +1000
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id MAA25705
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 29 Apr 1999 12:17:25 -0500 (CDT)
+Message-Id: <199904291717.MAA25705@dfw.nationwide.net>
+Subject: Re: DIS: Re: BUS: CFJ
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 29 Apr 1999 12:17:24 -0500 (CDT)
+In-Reply-To: <199904291547.RAA25556@logatome.micronet.fr> from "Laurent Bossavit" at Apr 29, 99 05:48:47 pm
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 309
+Lines: 10
+
+Laurent Bossavit wrote:
+>
+>Hey, and we still haven't gotten around to the charges of 
+>Impersonation and/or Misrepresentation yet. ;)
+
+I hope to get some CFJs out on Misrepresentation tonight.  I'm
+not particularly convinced of Impersonation, so I'll let someone else call
+that if anyone's interested.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 13:22 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id NAA11227
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 13:22:05 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA00319
+	for agora-discussion-list; Thu, 29 Apr 1999 17:16:10 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA00309
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 17:16:07 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id DAA01598
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 30 Apr 1999 03:21:51 +1000 (EST)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001596; Fri, 30 Apr 99 03:21:34 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 29 Apr 1999 13:15:16 -0400
+Message-Id: <s7285b64.001@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 29 Apr 1999 13:14:55 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: RE: DIS: Re: BUS: CFJ
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1116
+Lines: 12
+
+Vlad wrote:
+
+>> I honestly am sympathetic to your interpretation, but it still seems more
+>> like a coin toss to me.
+
+>Then you must go with "the best interests of the game".
+
+Yes, I'm afraid so.  Unfortunately, this is not without controversy either.  8)
+
+--Crito
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 17:59 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id RAA24780
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 17:59:55 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA01325
+	for agora-discussion-list; Thu, 29 Apr 1999 21:57:19 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA01322
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 21:57:17 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id IAA02105
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 30 Apr 1999 08:03:01 +1000 (EST)
+Received: from dfw.nationwide.net(198.175.15.10) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma002103; Fri, 30 Apr 99 08:02:38 +1000
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id QAA13246
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 29 Apr 1999 16:55:08 -0500 (CDT)
+Message-Id: <199904292155.QAA13246@dfw.nationwide.net>
+Subject: Re: DIS: Re: BUS: CFJ
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 29 Apr 1999 16:55:08 -0500 (CDT)
+In-Reply-To: <199904280818.KAA16755@logatome.micronet.fr> from "Laurent Bossavit" at Apr 28, 99 10:19:52 am
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 168
+
+Laurent Bossavit wrote:
+>
+>You want us to accept that your post was like the curate's egg - 
+
+I haven't heard that one.  Now you're going to have to tell us. :)
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 18:49 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id SAA26079
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 18:49:08 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA01546
+	for agora-discussion-list; Thu, 29 Apr 1999 22:46:49 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA01543
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 22:46:47 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id IAA02226
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 30 Apr 1999 08:52:32 +1000 (EST)
+Received: from smtp3.erols.com(207.172.3.236) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma002224; Fri, 30 Apr 99 08:52:17 +1000
+Received: from deep-thought (209-122-231-198.s198.tnt4.sbo.ma.dialup.rcn.com [209.122.231.198])
+	by smtp3.erols.com (8.8.8/8.8.5) with SMTP id SAA22157
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 18:46:40 -0400 (EDT)
+From: "Dave Smith" <changeling@erols.com>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: RE: DIS: Re: BUS: CFJ
+Date: Thu, 29 Apr 1999 18:57:03 -0400
+Message-ID: <000101be9293$98abdb40$c6e77ad1@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2232.26
+In-reply-to: <s72830e0.082@rmv.state.ma.us>
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+Importance: Normal
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 3693
+
+
+> macross wrote:
+>
+> >> perceived - a "platonic" distinction that I would have thought
+> Macross, of
+> >> all people, would appreciate.  8)
+>
+> >What makes you say that?
+>
+> Maybe I misremember, but I thought you were firmly on the side of
+> the "platonists"
+> in those days when we were having our "platonist/pragmatist" discussions.
+>
+
+Good heavens no!
+
+> It is this last sentence where you lose me.  If you said "the
+> entire context
+> *should* be considered",  then we would not be that far apart in our
+> positions - I 'm just searching for a justification as to how
+> this particular
+> Rule supports considering the entire context.  But when you say
+> "the entire
+> context *must* be considered", then I have trouble, because it seems
+> you are saying that it needs no justification, that it is
+> self-evident in the
+> definition of "clear".
+>
+
+If it is to be clear in all senses of the word that can reasonably be
+applied then, in my opinion, the entire context must be considered.  How
+else can we determine if it is free from obstruction.
+
+> >Webster's Online Dictionary defines clear thusly:
+> <snip>
+> >     3 a : easily heard b : easily visible : PLAIN c : free from
+> obscurity or
+> >     ambiguity : easily understood : UNMISTAKABLE
+> <snip>
+> >I would say that 3a, 3b, 4b, 6d are just about what I think of
+> when I think
+> >of a clear indication.  I also think that this definition is in the best
+> >interests of the game.  If a reasonable person, or perhaps the 'average'
+> >person, would find the indication clear in the context in which it was
+> >presented then it is clear.  Otherwise it is not.
+>
+> >In my opinion, Steve's indication was not clear.  It does not meet
+> >definition 6d above in that it is not free from obstruction.
+>
+> I don't think the definition helps that much.  What you have just shown,
+> IMO, is that given a comprehensive list of possibilities for the
+> definition
+> of a word, you can pick and choose what you need from it to
+> support any reasonable interpretation.
+>It is clear 8) from the above
+> list, that any interpretation of "clear" does not have to meet
+> *all* of the above possibilities.  You choose 6d, "free from obstruction",
+> to support your contention that the entire context must be used.
+> Steve uses only 3c, "easily understood", to support eir contention
+> that the imbedded indication was "clear".  Both choices are
+> reasonable, but there is still nothing there to tell us which one
+> is the more correct one.
+
+And we need nothing to tell us that at all.  I require it to meet all
+definitions that could reasonably and consistently be applied to the word in
+the context of the rule.  I merely said that those definitions were what *I*
+think of when I think of a clear indication.  But what I think is
+irrelevant.  If we can consistently require all of these definitions then we
+are required by the rule to do so as it doesn't specify any particular sense
+of the word.  An indication that is "easily understood" is not necessarily
+"free from obstruction" but can be both and in the absence of any compelling
+reason not to believe the rule requires both, we must interpret it as
+requiring both.
+
+>
+> >I honestly don't want to support this conclusion.  I think it will remove
+> >many nice scamming opportunities but I feel that it is the best
+> >interpretation.
+>
+> I honestly am sympathetic to your interpretation, but it still seems more
+> like a coin toss to me.
+>
+
+I don't understand this.  Why do you feel that it's an either-or situation?
+I feel it requires the indication to be clear in all reasonable senses of
+the word.  I'm not arguing against Steve's definition so much as I'm saying
+"Yes, and this too."
+
+-Macross
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 19:20 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id TAA26853
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 19:20:31 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA01677
+	for agora-discussion-list; Thu, 29 Apr 1999 23:18:21 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA01674
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 23:18:18 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id JAA02286
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 30 Apr 1999 09:24:02 +1000 (EST)
+Received: from smtp3.erols.com(207.172.3.236) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma002284; Fri, 30 Apr 99 09:23:52 +1000
+Received: from deep-thought (209-122-231-198.s198.tnt4.sbo.ma.dialup.rcn.com [209.122.231.198])
+	by smtp3.erols.com (8.8.8/8.8.5) with SMTP id TAA03445
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 19:18:15 -0400 (EDT)
+From: "Dave Smith" <changeling@erols.com>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: RE: DIS: Re: BUS: CFJ
+Date: Thu, 29 Apr 1999 19:28:40 -0400
+Message-ID: <000201be9298$03a54680$c6e77ad1@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2232.26
+In-reply-to: <s7283594.020@rmv.state.ma.us>
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+Importance: Normal
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 1592
+
+> But this is not such a life and death situation.
+
+So?  Does that fact mean that a clearly worded statement is always a clear
+indication?
+
+> Does
+> "indication" in R1483
+> refer only to the words themselves or to the entire message in which the
+> words are written?
+
+It refers to an indication.  Merely posting the 'collection of text' with no
+additional wording could be an indication of making a proposal (and I think
+you will find that it has been treated as such.  Thus we preface draft
+proposals with the word Pro-Proposal else they would count as Proposals).
+There is no requirement to actually say "The following is a proposal" or
+something similar.  Yes, Steve did include words to that effect but did they
+clearly indicate the intent?
+
+The words themselves are merely a part of the context of the message which
+helps to make the indication of the purpose of the "collection of text"
+clear.  They are not the indication but merely part of what makes it clear.
+It is the context in which the "collection of text is deliver(ed)" that is
+the indication.  We should feel free to examine as much of that context as
+is necessary to determine whether the indication passes the test of clarity.
+
+In this case I think it fails that test.
+
+> The problem here is that you could easily substitute
+> the words "clear wording" for "the clear indication" into R1483.  So while
+> I recognize that there *can* be more to a clear indication than clear
+> wording, I'm still not convinced that there is more to it in this
+> particular
+> case.
+>
+
+I submit you cannot make such a substitution.
+
+-Macross
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 29 19:32 EDT 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id TAA27115
+	for <dpb@cs.brown.edu>; Thu, 29 Apr 1999 19:32:09 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA01753
+	for agora-discussion-list; Thu, 29 Apr 1999 23:29:50 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA01750
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 23:29:48 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id JAA02305
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 30 Apr 1999 09:35:33 +1000 (EST)
+Received: from smtp3.erols.com(207.172.3.236) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma002303; Fri, 30 Apr 99 09:35:25 +1000
+Received: from deep-thought (209-122-231-198.s198.tnt4.sbo.ma.dialup.rcn.com [209.122.231.198])
+	by smtp3.erols.com (8.8.8/8.8.5) with SMTP id TAA07517
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 29 Apr 1999 19:29:51 -0400 (EDT)
+From: "Dave Smith" <changeling@erols.com>
+To: "Agora-Discussion" <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: DIS: Opinions on Summary Adoption
+Date: Thu, 29 Apr 1999 19:40:17 -0400
+Message-ID: <000301be9299$a2cc4460$c6e77ad1@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2232.26
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+Importance: Normal
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 519
+
+Since I have been such a vocal opponent of Steve in this debate over his
+proposal to repeal Summary Adoption, I would like to take the opportunity to
+say I was, and am now, in agreement with Steve that SA was an extremely
+dangerous mechanism and one which needed immediate action to correct.  So
+while I honestly feel that Steve's attempt should be judged as having
+failed, I applaud him for his efforts, if not his means, against this great
+evil.
+
+Of course I am in favor of similar, but safer, mechanisms.
+
+-Macross
+
+

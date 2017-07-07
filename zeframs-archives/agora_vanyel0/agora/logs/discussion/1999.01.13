@@ -1,0 +1,1270 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 03:05 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id DAA08761
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 03:05:09 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA14241
+	for agora-discussion-list; Wed, 13 Jan 1999 18:59:39 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA14235
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 18:59:36 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id TAA16950
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 19:03:57 +1100 (EST)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma016946; Wed, 13 Jan 99 19:03:49 +1100
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id TAA22443
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 13 Jan 1999 19:01:00 +1100 (EST)
+Received: from eidolon.muppetlabs.com (muppetlabs.com [206.191.168.254])
+	by silas-2.cc.monash.edu.au (8.9.1a/8.9.1) with ESMTP id SAA31732
+	for <gardner@aurora.cc.monash.edu.au>; Wed, 13 Jan 1999 18:59:40 +1100 (EST)
+Received: (from majordom@localhost)
+	by eidolon.muppetlabs.com (8.9.1a/8.9.1) id XAA27123
+	for internomic-outgoing; Tue, 12 Jan 1999 23:52:08 -0800
+X-Authentication-Warning: eidolon.muppetlabs.com: majordom set sender to owner-internomic@muppetlabs.com using -f
+Received: from silas-1.cc.monash.edu.au (gardner@silas-1.cc.monash.edu.au [130.194.1.91])
+	by eidolon.muppetlabs.com (8.9.1a/8.9.1) with ESMTP id XAA27119
+	for <internomic@muppetlabs.com>; Tue, 12 Jan 1999 23:52:04 -0800
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id SAA19694
+	for internomic@muppetlabs.com; Wed, 13 Jan 1999 18:52:00 +1100 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199901130752.SAA19694@silas-1.cc.monash.edu.au>
+Subject: DIS: Re: INTO: Starting members
+To: internomic@muppetlabs.com
+Date: Wed, 13 Jan 1999 18:52:00 +1100 (EST)
+In-Reply-To: <19990113115927.A8882@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Jan 13, 99 11:59:27 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2650
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>> Improving this situation is a big challenge in game design. It is not
+>> easy to design a game with the subtlety of _Settlers of Catan_.
+>
+>Can you tell me more about this game? Is it a board game, a computer game
+>or what? Where can I find it?
+
+It's a board game, German in origin, which explores ideas about trade in
+a number of interesting ways. It's played on a large island continent
+made of 21 hexagons (1 + 7 + 13), surrounded by sea (perhaps an
+abstracted Australia?). 20 of the 21 hexagons produce 5 different kinds
+of commodities (wood, clay, wheat, sheep and stone; there is also a
+desert hex which produces nothing), and are arranged differently in each
+game, which produces different playing conditions and different
+opportunities. For example, in some games all the commodities are more
+or less equally available, in others, one may be abundant while another
+is extremely scarce.
+
+The commodities are needed to do everything of importance in the game,
+in particular to build roads (wood and clay) and settlements (wood,
+wheat and bricks for a village, from memory, and something else for a
+city). Settlements are placed on the vertices where the hexagons meet,
+and give a player access to the production of that sector. With the
+exception of the starting two villages, settlements can only be built at
+the ends of roads, which run along the edges of the hexagons. Players
+use roads to reach the most attractive vertices and build settlements
+there, and to try to fence off areas of the board to prevent other
+players building into them.
+
+Production is determined by a 2D6 roll. Each of the 20 producing hexes
+has one of the numbers 2-6, 8-12 assigned to it, with each of the 10
+numbers appearing on 2 sectors; 7 is a special case, when no production
+occurs and other effects happen, which we needn't go into here. The
+assignments each game vary, with different kinds of sector getting the
+common numbers (5 and 9, and especially 6 and 8).
+
+On each players turn he can try to trade commodities e has for
+commodities e needs. Eir ability to do this depends on many factors: the
+general availability of different kinds of resources and whether any
+player has a monopoly or near monopoly on that resource; on what the
+other players need; on how inventive the player is in proposing trades.
+
+It's an unusual game in concept and game play - and *vastly* superior to
+the loathsome Monopoly.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 03:05 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id DAA08781
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 03:05:15 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA14240
+	for agora-discussion-list; Wed, 13 Jan 1999 18:59:39 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA14234
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 18:59:36 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id TAA16949
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 19:03:57 +1100 (EST)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma016945; Wed, 13 Jan 99 19:03:29 +1100
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id TAA22445
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 13 Jan 1999 19:00:40 +1100 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199901130800.TAA22445@silas-1.cc.monash.edu.au>
+Subject: DIS: Re: OFF: Rulekeepor's Memo
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 13 Jan 1999 19:00:39 +1100 (EST)
+In-Reply-To: <199901130442.WAA01358@dfw.nationwide.net> from "Charles E. Carroll" at Jan 12, 99 10:42:09 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 430
+
+Charles E. Carroll wrote:
+>
+>
+>Rulekeepor's Memo
+>January 12, 1999
+>
+>This memo includes effects due to Proposals 3819-3822.
+
+You should probably also have noted the self-repeal of R1863 (A Duty to
+Vote), on Jan. 6.
+
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 03:27 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id DAA09115
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 03:27:45 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA14316
+	for agora-discussion-list; Wed, 13 Jan 1999 19:08:08 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA14313
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 19:08:07 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id TAA16968
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 19:12:27 +1100 (EST)
+Received: from manaslu.capway.com(194.2.90.38) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma016966; Wed, 13 Jan 99 19:12:13 +1100
+Received: from z3q1r8 (dyn-8-1-230.Def.dialup.oleane.fr [62.161.2.230])
+	by capway.com (8.8.8/8.8.8) with SMTP id JAA28193
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 09:15:52 +0100 (MET)
+Message-Id: <199901130815.JAA28193@capway.com>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <laurent@netdive.com>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 13 Jan 1999 09:07:28 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Re: BUS: Re: OFF: Assessor's Report for Proposals 
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 705
+
+> Does anyone have archives of all the Herald's Reports going back
+> several years? 
+
+The archives I have readily available only go back to March 2 of
+this year; I had 7 then. ;) I have complete archives dating back
+much farther but they are backed up somewhere on CD...
+
+
+=================================================================
+Laurent Bossavit
+CTO    					 
+NetDIVE 
+CallSite Call Button: http://www.netdive.com/laurent.htm
+Paris Offices
+01 44 64 89 12 - daytime phone
+01 44 64 88 91 - fax, voice mail
+--------------------------------     
+http://www.netdive.com/
+Leading Java client/server systems for Web based communication
+=================================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 03:41 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id DAA09382
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 03:41:35 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA14375
+	for agora-discussion-list; Wed, 13 Jan 1999 19:24:09 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA14372
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 19:24:07 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id TAA16995
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 19:28:28 +1100 (EST)
+Received: from repop2.jps.net(209.63.224.239) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma016993; Wed, 13 Jan 99 19:28:00 +1100
+Received: from friend-computer (208-237-196-115.irv.jps.net [208.237.196.115])
+	by repop2.jps.net (8.9.0/8.8.5) with SMTP id AAA06153
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 00:26:28 -0800 (PST)
+From: "Ed Murphy" <ford@jps.net>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: DIS: RE: Re: BUS: Woofers and tweeters
+Date: Wed, 13 Jan 1999 00:25:06 -0800
+Message-ID: <001501be3ece$39bfaa80$73c4edd0@friend-computer>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2173.0
+In-reply-to:  <990112105922.20494@cse.unsw.edu.au>
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.2106.4
+Importance: Normal
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 535
+
+Blob wrote:
+
+> > I announce that the Office of Speaker-Elect is temporarily held by the
+> > Promotor.
+>
+> Since the Election results haven't been announced yet, I guess that is me.
+
+I assume so.  ford@bayside.net has 2-3 weeks worth of mail sitting on it
+that I probably won't be able to retrieve any time soon.
+
+> And _now_ we need to have an Election for Speaker-Elect, because I
+> am not an Electee. Am I right?
+
+Right.
+
+
+-- 
+Ed Murphy <ford@jps.net>
+http://rivendell.fortunecity.com/meridian/309/
+"I see," said Arthur, who didn't.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 05:22 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id FAA10947
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 05:22:36 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA14767
+	for agora-discussion-list; Wed, 13 Jan 1999 21:18:41 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA14764
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 21:18:39 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id VAA17173
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 21:23:00 +1100 (EST)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma017171; Wed, 13 Jan 99 21:22:31 +1100
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id VAA25997
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 13 Jan 1999 21:19:42 +1100 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199901131019.VAA25997@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: Annotation of R693
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 13 Jan 1999 21:19:42 +1100 (EST)
+In-Reply-To: <199901130359.VAA27036@dfw.nationwide.net> from "Charles E. Carroll" at Jan 12, 99 09:59:19 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 929
+
+Charles E. Carroll wrote:
+>
+>I'd like to add an unofficial annotation to R693 based on the
+>Judgements of CFJs 1110 and 1111 (regarding the end of the VP for
+>P3810-3812); however, since this had so many varied opinions in
+>discussion, I wanted to solicit comments on a draft before doing so:
+>
+>[CFJ 1110 (Judged Dec. 11 1998; Appeal completed Dec. 22 1998) &
+> CFJ 1111 (Judged Dec. 22 1998): When the voting period of a proposal
+> whose voting period is in progress is changed via amendment of this
+> Rule, a vote is valid if it was cast after the start of the voting
+> period and prior to its end, those times being determined by the
+> text of this Rule at the time the vote is cast.]
+>
+>Comments?
+
+Fine with me.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 05:37 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id FAA11167
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 05:37:26 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA14839
+	for agora-discussion-list; Wed, 13 Jan 1999 21:33:41 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA14836
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 21:33:39 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id VAA17217
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 21:38:00 +1100 (EST)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma017215; Wed, 13 Jan 99 21:37:52 +1100
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id VAA26300;
+	Wed, 13 Jan 1999 21:34:56 +1100 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199901131034.VAA26300@silas-1.cc.monash.edu.au>
+Subject: DIS: Re: INTO: Starting members
+To: internomic@muppetlabs.com
+Date: Wed, 13 Jan 1999 21:34:56 +1100 (EST)
+Cc: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+In-Reply-To: <4.1.19990112200414.00930320@pop-2.iastate.edu> from "Joel D Uckelman" at Jan 12, 99 08:06:41 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1490
+
+Joel D Uckelman wrote:
+>
+>IMHO, our point system encourages something that it's important to
+>encourage: making proposals. What happened in other nomics where point
+>systems were eliminated (if any such nomics exist)?
+
+Interestingly, the Original Ruleset for face-to-face play, ie, Suber's
+1982 ruleset, doesn't *encourage* player's to make proposals at all.
+Rather, it *requires* them to do so, as a part of their turn. The first
+internet game of nomic, Nomic World (1992-93), abandoned the turn-based
+idea as impractical (because of the large numbers of players, among
+other reasons), and ways have had to be sought to encourage players to
+make proposals ever since. It has taken Agora five years to come full
+circle (in a sense), and reinstitute a requirement on players to make
+proposals, which we have recently done, although of course we haven't
+re-introduced the concept of turns. In the interim, Agora has encouraged
+players to make proposals, in different ways at different times, but
+always basically by rewarding them in ways other then giving them
+points. Usually this has meant giving them what were called Extra Votes
+(which have since evolved into the Voting Token), or, more recently,
+Proposal Notes, which are needed to make Proposals and get them
+distributed.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 09:04 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id JAA15306
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 09:04:41 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA15474
+	for agora-discussion-list; Thu, 14 Jan 1999 00:48:15 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA15471
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 00:48:13 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id AAA17580
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 00:52:35 +1100 (EST)
+Received: from wsinfm15.win.tue.nl(131.155.69.168) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma017578; Thu, 14 Jan 99 00:52:32 +1100
+Received: from engels@localhost by wsinfm15.win.tue.nl (8.8.7)
+	  for agora-discussion@gecko.serc.rmit.edu.au
+	  id NAA26048. Wed, 13 Jan 1999 13:08:15 +0100 (MET)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199901131208.NAA26048@wsinfm15.win.tue.nl>
+Subject: Re: DIS: Re: INTO: Starting members
+In-Reply-To: <199901131034.VAA26300@silas-1.cc.monash.edu.au> from Steve Gardner at "Jan 13, 1999  9:34:56 pm"
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 13 Jan 1999 13:08:15 +0100 (MET)
+X-Mailer: ELM [version 2.4ME+ PL43 (25)]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1486
+
+Steve Gardner wrote:
+
+> Interestingly, the Original Ruleset for face-to-face play, ie, Suber's
+> 1982 ruleset, doesn't *encourage* player's to make proposals at all.
+> Rather, it *requires* them to do so, as a part of their turn. The first
+> internet game of nomic, Nomic World (1992-93), abandoned the turn-based
+> idea as impractical (because of the large numbers of players, among
+> other reasons), and ways have had to be sought to encourage players to
+> make proposals ever since. It has taken Agora five years to come full
+> circle (in a sense), and reinstitute a requirement on players to make
+> proposals, which we have recently done, although of course we haven't
+> re-introduced the concept of turns. In the interim, Agora has encouraged
+> players to make proposals, in different ways at different times, but
+> always basically by rewarding them in ways other then giving them
+> points. Usually this has meant giving them what were called Extra Votes
+> (which have since evolved into the Voting Token), or, more recently,
+> Proposal Notes, which are needed to make Proposals and get them
+> distributed.
+
+In my opinion, the current state of affairs is that Agora DIScourages, not
+ENcourages the making of proposals, by forcing people to pay to make them,
+or at least to put them up to vote.
+
+
+-- 
+Andre Engels, engels@win.tue.nl, ICQ #6260644
+http://www.win.tue.nl/cs/fm/engels/index_en.html
+
+A child is not a glass that is filled but a fire that is set ablaze.
+							-- N.N.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 10:00 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id KAA16735
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 10:00:03 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA15903
+	for agora-discussion-list; Thu, 14 Jan 1999 01:43:46 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id BAA15900
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 01:43:44 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id BAA17667
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 01:48:06 +1100 (EST)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma017663; Thu, 14 Jan 99 01:47:42 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 13 Jan 1999 09:43:10 -0500
+Message-Id: <s69c6aae.060@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 13 Jan 1999 09:38:13 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Annotation of R693
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1953
+
+This sounds good to me.
+
+--Crito
+
+>>> "Charles E. Carroll" <ccarroll@nationwide.net> 01/12/99 10:59PM >>>
+I'd like to add an unofficial annotation to R693 based on the
+Judgements of CFJs 1110 and 1111 (regarding the end of the VP for
+P3810-3812); however, since this had so many varied opinions in
+discussion, I wanted to solicit comments on a draft before doing so:
+
+[CFJ 1110 (Judged Dec. 11 1998; Appeal completed Dec. 22 1998) &
+ CFJ 1111 (Judged Dec. 22 1998): When the voting period of a proposal
+ whose voting period is in progress is changed via amendment of this
+ Rule, a vote is valid if it was cast after the start of the voting
+ period and prior to its end, those times being determined by the
+ text of this Rule at the time the vote is cast.]
+
+Comments?
+
+Chuck
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               !
+!
+                                
+                                                                                                                                                      
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 10:13 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id KAA17125
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 10:13:11 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA15952
+	for agora-discussion-list; Thu, 14 Jan 1999 01:56:46 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id BAA15949
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 01:56:45 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id CAA17690
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 02:01:06 +1100 (EST)
+Received: from dfw.nationwide.net(198.175.15.10) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma017685; Thu, 14 Jan 99 02:00:53 +1100
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id IAA16004
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 13 Jan 1999 08:55:09 -0600 (CST)
+Message-Id: <199901131455.IAA16004@dfw.nationwide.net>
+Subject: Re: DIS: Re: INTO: Starting members
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 13 Jan 1999 08:55:09 -0600 (CST)
+In-Reply-To: <199901130752.SAA19694@silas-1.cc.monash.edu.au> from "Steve Gardner" at Jan 13, 99 06:52:00 pm
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 761
+
+Steve Gardner wrote:
+>
+>>> Improving this situation is a big challenge in game design. It is not
+>>> easy to design a game with the subtlety of _Settlers of Catan_.
+>
+>It's an unusual game in concept and game play - and *vastly* superior to
+>the loathsome Monopoly.
+
+I've seen Settlers of Catan but unfortunately have yet to play it.
+
+As for Monopoly, I wouldn't be so hard on it--it's the sort
+of game my gaming group plays when none of us wants to think very hard
+and we just want something to do while we sit around the table and chat. :)
+(Actually, we haven't played Monopoly in quite some time.  _Talisman_,
+2nd ed., seems to be our currently preferred low-thought, high-luck
+game.  The 1st edition of Talisman--now *there* was a loathsome game. :)
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 10:30 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id KAA17542
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 10:30:03 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA16042
+	for agora-discussion-list; Thu, 14 Jan 1999 02:13:47 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA16038
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 02:13:45 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id CAA17707
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 02:18:06 +1100 (EST)
+Received: from dfw.nationwide.net(198.175.15.10) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma017705; Thu, 14 Jan 99 02:17:57 +1100
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id JAA18326;
+	Wed, 13 Jan 1999 09:12:23 -0600 (CST)
+Message-Id: <199901131512.JAA18326@dfw.nationwide.net>
+Subject: Re: DIS: Re: INTO: Starting members
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 13 Jan 1999 09:12:22 -0600 (CST)
+Cc: internomic@muppetlabs.com (InterNomic)
+In-Reply-To: <199901131034.VAA26300@silas-1.cc.monash.edu.au> from "Steve Gardner" at Jan 13, 99 09:34:56 pm
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 575
+Lines: 15
+
+Steve Gardner wrote:
+>
+>In the interim, Agora has encouraged
+>players to make proposals, in different ways at different times, but
+>always basically by rewarding them in ways other then giving them
+>points. Usually this has meant giving them what were called Extra Votes
+>(which have since evolved into the Voting Token), or, more recently,
+>Proposal Notes, which are needed to make Proposals and get them
+>distributed.
+
+Of course, the latter isn't really an encouragment--if you're not
+interested in making Proposals in the first place, you have no need
+for P-Notes.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 10:42 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id KAA17875
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 10:42:51 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA16097
+	for agora-discussion-list; Thu, 14 Jan 1999 02:26:17 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA16094
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 02:26:15 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id CAA17726
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 02:30:37 +1100 (EST)
+Received: from law-f79.hotmail.com(209.185.131.142) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma017724; Thu, 14 Jan 99 02:30:10 +1100
+Received: (from root@localhost)
+	by law-f79.hotmail.com (8.8.8/8.8.8) id HAA12847
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 13 Jan 1999 07:27:17 -0800 (PST)
+	(envelope-from pkpeekee@hotmail.com)
+Message-Id: <199901131527.HAA12847@law-f79.hotmail.com>
+Received: from 212.211.12.247 by www.hotmail.com with HTTP;
+	Wed, 13 Jan 1999 07:27:17 PST
+X-Originating-IP: [212.211.12.247]
+From: "Alan Riddell" <pkpeekee@hotmail.com>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: OFF: Registrar's Report Wednesday 13 January
+Date: Wed, 13 Jan 1999 07:27:17 PST
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 526
+Lines: 16
+
+Mr. Registar????
+
+Do I not exist?
+Or does joining the game not make me a new player??
+
+>=======================================================================
+>6. PINK PAGES (New Players' Grace Periods)
+>=======================================================================
+>
+>Player                                     Grace Period
+>------                      -----------------------------------------
+
+Peekee
+
+______________________________________________________
+Get Your Private, Free Email at http://www.hotmail.com
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 11:21 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id LAA19046
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 11:21:36 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA16377
+	for agora-discussion-list; Thu, 14 Jan 1999 03:16:49 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id DAA16374
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 03:16:46 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id DAA17835
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 03:21:08 +1100 (EST)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma017833; Thu, 14 Jan 99 03:20:37 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 13 Jan 1999 11:16:14 -0500
+Message-Id: <s69c807e.041@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 13 Jan 1999 11:11:27 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Re: OFF: Assessor's Report for Proposals
+	3821 - 3822
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1226
+Lines: 12
+
+Steve wrote:
+
+>Does anyone have archives of all the Herald's Reports going back several
+>years?
+
+Wouldn't you know it.  Up until they upgraded my e-mail system, I had all
+reports from the beginning of my tenure as Herald (year and a half?).  But
+at that point I lost all but those going back to October of '98. 8(
+
+--Crito
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 18:52 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id SAA05364
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 18:52:16 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA17986
+	for agora-discussion-list; Thu, 14 Jan 1999 10:48:58 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA17983
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 10:48:57 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id KAA18607
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 10:53:19 +1100 (EST)
+Received: from silas-2.cc.monash.edu.au(130.194.1.7) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018605; Thu, 14 Jan 99 10:53:13 +1100
+Received: (from gardner@localhost)
+	by silas-2.cc.monash.edu.au (8.9.1a/8.9.1) id KAA20623
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 14 Jan 1999 10:50:23 +1100 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199901132350.KAA20623@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Re: INTO: Starting members
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 14 Jan 1999 10:50:23 +1100 (EST)
+In-Reply-To: <199901131455.IAA16004@dfw.nationwide.net> from "Charles E. Carroll" at Jan 13, 99 08:55:09 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1100
+Lines: 27
+
+Charles E. Carroll wrote:
+>
+>Steve Gardner wrote:
+>>
+>>It's an unusual game in concept and game play - and *vastly* superior to
+>>the loathsome Monopoly.
+>
+>I've seen Settlers of Catan but unfortunately have yet to play it.
+>
+>As for Monopoly, I wouldn't be so hard on it--it's the sort
+>of game my gaming group plays when none of us wants to think very hard
+>and we just want something to do while we sit around the table and chat. :)
+>(Actually, we haven't played Monopoly in quite some time.  _Talisman_,
+>2nd ed., seems to be our currently preferred low-thought, high-luck
+>game.  The 1st edition of Talisman--now *there* was a loathsome game. :)
+
+For a low-thought, high luck game, I prefer Yahtzee. The problem with
+Monopoly is that it consists basically of positive feedback loops. Any
+slight advantage tends simply to magnify until one player dominates, and
+the others are bored.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 19:15 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id TAA06115
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 19:15:38 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA18287
+	for agora-discussion-list; Thu, 14 Jan 1999 11:12:28 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA18284
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 11:12:27 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id LAA18677
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 11:16:49 +1100 (EST)
+Received: from dial-126-101.dial.indiana.edu(156.56.126.101) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018675; Thu, 14 Jan 99 11:16:18 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id TAA03418 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 19:13:26 -0500
+Message-Id: <199901140013.TAA03418@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: INTO: Starting members 
+In-reply-to: Your message of "Thu, 14 Jan 1999 10:50:23 +1100."
+             <199901132350.KAA20623@silas-2.cc.monash.edu.au> 
+Date: Wed, 13 Jan 1999 19:13:25 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 276
+Lines: 8
+
+"Steve" == Steve Gardner <Steve> writes:
+
+Steve> The problem with Monopoly is that it consists basically of
+Steve> positive feedback loops. Any slight advantage tends simply to
+Steve> magnify until one player dominates, and the others are bored.
+
+Risk has this problem, too.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 19:28 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id TAA06351
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 19:28:45 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA18429
+	for agora-discussion-list; Thu, 14 Jan 1999 11:24:59 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA18426
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 11:24:57 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id LAA18693
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 11:29:19 +1100 (EST)
+Received: from silas-2.cc.monash.edu.au(130.194.1.7) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018691; Thu, 14 Jan 99 11:28:51 +1100
+Received: (from gardner@localhost)
+	by silas-2.cc.monash.edu.au (8.9.1a/8.9.1) id LAA20343;
+	Thu, 14 Jan 1999 11:25:54 +1100 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199901140025.LAA20343@silas-2.cc.monash.edu.au>
+Subject: DIS: Re: INTO: Starting members
+To: internomic@muppetlabs.com
+Date: Thu, 14 Jan 1999 11:25:54 +1100 (EST)
+Cc: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+In-Reply-To: <Pine.SGI.4.05.9901131047170.28325-100000@vangogh.bergen.org> from "A.K.A. TheWiz" at Jan 13, 99 10:51:45 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1934
+Lines: 36
+
+A.K.A. TheWiz wrote:
+>
+>  This (and everything else you said along these lines) is logical.  What,
+>then, constitutes Agoran game-play?  I don't see what makes it interesting;
+>game-design is itself fun, but only if the game being designed is also fun.
+
+Even when Agora had a winning system based on points, I never tried
+particularly hard to win, at least not by straightforward means (scams
+are a different question). What I find most attractive about Nomic in
+general, and Agora Nomic in particular, is the open-endedness of its
+goals. It's an extremely creative game because there are few limits on
+what you can decide to set your mind to. Usually, I've set myself to
+getting certain kinds of Proposals passed with the idea of exploring
+certain kinds of conceptual terrain. For example, over the last two
+years, I've proposed and lobbied for several different kinds of changes
+to the voting system (compulsory secret voting, compulsory public
+voting, compulsory voting, laissez-faire voting, voting that costs,
+voting that doesn't cost, and so on), with the idea of exploring what
+effects these different kinds of regimes have on the political process.
+Lobbying for a Proposal by explaining it to the other Players, trying to
+convince them that it is a good idea, perhaps bribing them if they are
+still not convinced, (in other words, the political process) is itself a
+very interesting process, and simultaneously observing it and
+participating in it provides a great deal of the interest of the game.
+
+I've been playing in Agora for four and a half years, and in that time I
+think I've only gotten bored about twice. And in each case, events
+occurred or new ideas arose which reinvigorated my interest in the game.
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 19:34 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id TAA06443
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 19:34:38 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA18515
+	for agora-discussion-list; Thu, 14 Jan 1999 11:31:29 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA18512
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 11:31:27 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id LAA18714
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 11:35:49 +1100 (EST)
+Received: from silas-2.cc.monash.edu.au(130.194.1.7) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018712; Thu, 14 Jan 99 11:35:28 +1100
+Received: (from gardner@localhost)
+	by silas-2.cc.monash.edu.au (8.9.1a/8.9.1) id LAA21188
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 14 Jan 1999 11:32:39 +1100 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199901140032.LAA21188@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Re: INTO: Starting members
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 14 Jan 1999 11:32:39 +1100 (EST)
+In-Reply-To: <199901140013.TAA03418@poverty.bloomington.in.us> from "Scott Goehring" at Jan 13, 99 07:13:25 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1091
+Lines: 26
+
+Scott Goehring wrote:
+>
+>"Steve" == Steve Gardner <Steve> writes:
+>
+>Steve> The problem with Monopoly is that it consists basically of
+>Steve> positive feedback loops. Any slight advantage tends simply to
+>Steve> magnify until one player dominates, and the others are bored.
+>
+>Risk has this problem, too.
+
+At least in Risk, the disadvantaged players can try to gang up on the
+leader and take him down a peg or three, which acts as some kind of
+check on the positive feedback loops. In Monopoly, there's simply
+nothing you can do at all. There's almost no strategy to the game, and
+what little there is is all in the first few turns around the board,
+when players have to make decisions about what properties to buy (do I
+buy everything I land on, or try and save my money for the prime real
+estate?) Once most of the property is bought, you're totally at the
+mercy of the dice.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 19:51 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id TAA07513
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 19:51:37 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA18722
+	for agora-discussion-list; Thu, 14 Jan 1999 11:48:29 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA18719
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 11:48:28 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id LAA18728
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 11:52:50 +1100 (EST)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018726; Thu, 14 Jan 99 11:52:20 +1100
+Received: From mozart With LocalMail ; Thu, 14 Jan 99 11:48:01 +1100 
+From: Malcolm Ross Kinsella Ryan <malcolmr@cse.unsw.edu.au>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 14 Jan 1999 11:47:54 +1100
+Message-ID: <19990114114754.A25721@cse.unsw.edu.au>
+Subject: Re: DIS: Re: BUS: Re: OFF: Assessor's Report for Proposals
+Mail-Followup-To: agora-discussion@gecko.serc.rmit.edu.au
+References: <199901130815.JAA28193@capway.com>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.93.2i
+In-Reply-To: <199901130815.JAA28193@capway.com>; from Laurent Bossavit on Wed, Jan 13, 1999 at 09:07:28AM +0100
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 813
+Lines: 20
+
+On Wed, Jan 13, 1999 at 09:07:28AM +0100, Laurent Bossavit wrote:
+> > Does anyone have archives of all the Herald's Reports going back
+> > several years? 
+> 
+> The archives I have readily available only go back to March 2 of
+> this year; I had 7 then. ;) I have complete archives dating back
+> much farther but they are backed up somewhere on CD...
+
+March 2 _this_ year? Really? How curious. So tell me, what will my
+Honour be in a month's time?
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 20:02 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id UAA07754
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 20:02:33 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA18861
+	for agora-discussion-list; Thu, 14 Jan 1999 11:59:00 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA18857
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 11:58:58 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id MAA18750
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 12:03:20 +1100 (EST)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018748; Thu, 14 Jan 99 12:03:10 +1100
+Received: From mozart With LocalMail ; Thu, 14 Jan 99 11:58:56 +1100 
+From: Malcolm Ross Kinsella Ryan <malcolmr@cse.unsw.edu.au>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 14 Jan 1999 11:58:56 +1100
+Message-ID: <19990114115856.B25721@cse.unsw.edu.au>
+Subject: DIS: Offer: Backing Proposals
+Mail-Followup-To: agora-discussion@gecko.serc.rmit.edu.au
+References: <199901131034.VAA26300@silas-1.cc.monash.edu.au> <199901131208.NAA26048@wsinfm15.win.tue.nl>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.93.2i
+In-Reply-To: <199901131208.NAA26048@wsinfm15.win.tue.nl>; from Andre Engels on Wed, Jan 13, 1999 at 01:08:15PM +0100
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1345
+Lines: 28
+
+On Wed, Jan 13, 1999 at 01:08:15PM +0100, Andre Engels wrote:
+> 
+> In my opinion, the current state of affairs is that Agora DIScourages, not
+> ENcourages the making of proposals, by forcing people to pay to make them,
+> or at least to put them up to vote.
+
+But making P-Notes is easy. There is only rarely any competition for the
+Proposal Queue, if you are willing to be patient, you should only have to 
+pay 1 P-Note to get your proposal distributed. And you get 2 P-Notes back
+if it passes! That means you can risk a 50% failure rate, and still break
+even. And with a bit of creativity, and a bit of politicking, it's not 
+too hard to achieve that.
+
+I tell you what: I will back any Proposal that I think is a fair risk.
+If asked, I will pay 1 P-Note to raise the Priority of any proposal I
+think has a fair chance of passing, on the grounds that the author 
+promises to give me the 2 P-Notes reward when the proposal passes. If
+the proposal fails, I will expect no payment.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 20:03 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id UAA07766
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 20:03:21 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA18879
+	for agora-discussion-list; Thu, 14 Jan 1999 11:59:59 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA18875
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 11:59:58 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id MAA18755
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 12:04:20 +1100 (EST)
+Received: from dial-126-101.dial.indiana.edu(156.56.126.101) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018753; Thu, 14 Jan 99 12:04:05 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id UAA03598 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 13 Jan 1999 20:01:16 -0500
+Message-Id: <199901140101.UAA03598@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: INTO: Starting members 
+In-reply-to: Your message of "Thu, 14 Jan 1999 11:32:39 +1100."
+             <199901140032.LAA21188@silas-2.cc.monash.edu.au> 
+Date: Wed, 13 Jan 1999 20:01:16 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 300
+Lines: 7
+
+"Steve" == Steve Gardner <Steve> writes:
+
+Steve> At least in Risk, the disadvantaged players can try to gang up
+Steve> on the leader and take him down a peg or three, which acts as
+Steve> some kind of check on the positive feedback loops. 
+
+You can accomplish some of this through strategic trading.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 20:09 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id UAA07916
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 20:09:50 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA19023
+	for agora-discussion-list; Thu, 14 Jan 1999 12:06:30 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA19019
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 12:06:28 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id MAA18781
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 12:10:50 +1100 (EST)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018779; Thu, 14 Jan 99 12:10:25 +1100
+Received: From mozart With LocalMail ; Thu, 14 Jan 99 12:05:57 +1100 
+From: Malcolm Ross Kinsella Ryan <malcolmr@cse.unsw.edu.au>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 14 Jan 1999 12:05:49 +1100
+Message-ID: <19990114120549.D25721@cse.unsw.edu.au>
+Subject: DIS: Re: OFF: Voting commences for Treasuror
+Mail-Followup-To: agora-discussion@gecko.serc.rmit.edu.au
+References: <199901051553.QAA24383@wsinfm15.win.tue.nl>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.93.2i
+In-Reply-To: <199901051553.QAA24383@wsinfm15.win.tue.nl>; from Andre Engels on Tue, Jan 05, 1999 at 04:53:43PM +0100
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1509
+Lines: 35
+
+On Tue, Jan 05, 1999 at 04:53:43PM +0100, Andre Engels wrote:
+> The Nominating period for Treasuror ended at Midnight GMT, 2 January, 24 hours
+> after the end of the Christmas Holiday.
+> 
+> Nominations were received from Steve, General Chaos, Blob, Kolja A. and Crito,
+> but Steve and General Chaos did not issue a budget, thus making their 
+> Nominations ineffective. Blob's revised budget was too late to be effective,
+> falling out of the Nominating period.
+> 
+> Thus, the Candidates are Blob, Kolja A. and Crito, Blob with eir first and
+> Kolja A. with eir second budget being the one that actually will be 
+> implemented
+> if they are chosen. Voting commences as of this message, and lasts for one
+> week.
+
+The Voting Period is up, will the Registrar please announce the results,
+so the Treasuror can implement eir Budget and we can get our economy
+running again?
+
+Also, the Chancellor should reset the Basic Officer Salary soon, before 
+the 25th of the month, or else we shall have to wait another month
+before salaries are paid.
+
+As Assessor, I am reluctant to turn up the cost of voting until such
+time as these two changes are made.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 20:15 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id UAA08103
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 20:15:20 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA19097
+	for agora-discussion-list; Thu, 14 Jan 1999 12:12:00 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA19094
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 12:11:58 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id MAA18792
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 12:16:20 +1100 (EST)
+Received: from silas-2.cc.monash.edu.au(130.194.1.7) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018790; Thu, 14 Jan 99 12:16:16 +1100
+Received: (from gardner@localhost)
+	by silas-2.cc.monash.edu.au (8.9.1a/8.9.1) id MAA23857
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 14 Jan 1999 12:13:26 +1100 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199901140113.MAA23857@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Re: INTO: Starting members
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 14 Jan 1999 12:13:26 +1100 (EST)
+In-Reply-To: <199901140101.UAA03598@poverty.bloomington.in.us> from "Scott Goehring" at Jan 13, 99 08:01:16 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 679
+Lines: 20
+
+Scott Goehring wrote:
+>
+>"Steve" == Steve Gardner <Steve> writes:
+>
+>Steve> At least in Risk, the disadvantaged players can try to gang up
+>Steve> on the leader and take him down a peg or three, which acts as
+>Steve> some kind of check on the positive feedback loops. 
+>
+>You can accomplish some of this through strategic trading.
+
+True, but only if you have something to trade. If you're already in a
+weak position, then your negotiating position will be inferior.
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Jan 13 21:27 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:root@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id VAA09441
+	for <dpb@cs.brown.edu>; Wed, 13 Jan 1999 21:27:43 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA19389
+	for agora-discussion-list; Thu, 14 Jan 1999 12:36:30 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA19386
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 12:36:29 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id MAA18846
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 14 Jan 1999 12:40:51 +1100 (EST)
+Received: from dfw.nationwide.net(198.175.15.10) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018843; Thu, 14 Jan 99 12:40:47 +1100
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id TAA23543
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 13 Jan 1999 19:35:19 -0600 (CST)
+Message-Id: <199901140135.TAA23543@dfw.nationwide.net>
+Subject: Re: DIS: Re: INTO: Starting members
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 13 Jan 1999 19:35:18 -0600 (CST)
+In-Reply-To: <199901132350.KAA20623@silas-2.cc.monash.edu.au> from "Steve Gardner" at Jan 14, 99 10:50:23 am
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 265
+Lines: 9
+
+Steve Gardner wrote:
+>
+>For a low-thought, high luck game, I prefer Yahtzee.
+
+An excellent choice, I agree.  My brother and I started playing
+Yahtzee one night when we were both in rather silly moods, and before
+long it evolved into full-contact Yahtzee. :)
+
+Chuck
+

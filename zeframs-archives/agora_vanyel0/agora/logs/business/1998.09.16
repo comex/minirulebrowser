@@ -1,0 +1,1951 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Sep 16 00:23 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@[131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA08205 for <dpb@cs.brown.edu>; Wed, 16 Sep 1998 00:23:17 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA14473
+	for agora-business-list; Wed, 16 Sep 1998 14:20:52 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA14470
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 16 Sep 1998 14:20:50 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id OAA03537
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 16 Sep 1998 14:21:32 +1000 (EST)
+	(envelope-from gardner@silas-1.cc.monash.edu.au)
+Received: from silas-2.cc.monash.edu.au(130.194.1.7) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma003532; Wed, 16 Sep 98 14:21:14 +1000
+Received: (from gardner@localhost)
+	by silas-2.cc.monash.edu.au (8.9.1a/8.9.1) id OAA27790
+	for agora-business@gecko.serc.rmit.edu.au; Wed, 16 Sep 1998 14:19:32 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199809160419.OAA27790@silas-2.cc.monash.edu.au>
+Subject: BUS: Proposal: Tweak the Taxation Rules
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic Business List)
+Date: Wed, 16 Sep 1998 14:19:32 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2377
+
+H. Promotor Blob,
+
+I hereby submit the following Proposal, paying 1 P-Note to the Bank to
+raise its Priority to 1.
+
+####
+Proposal 
+Tweak the Taxation Rules
+
+[Comment: a second try (the first failed Quorum while declaring Presence
+was banned) at two minor fixes to the taxation Rules. The first changes
+the definition of 'in circulation' to exclude Currency already owed to
+the Bank (this fixes the bug which would otherwise require the Accountor
+to Levy Taxes again immediately after e has just done so, but before any
+taxes have been paid). The second lifts the requirement that the
+taxation POs actually be made in the same message as the taxation
+announcement, and removes the silly requirement that the Accountor tax
+the Bank. As a bonus, I include the repeal of R1542 (Style Points),
+which was supposed to have been repealed with the passage of 'Get Rid of
+4 Offices'.]
+
+Be it hereby resolved that R1852 (Circulation of Voting Tokens) be
+amended by replacing in it the text which currently reads:
+
+      An amount of Currency is in circulation if it exists and is not
+      possessed by the Bank. 
+
+with text which reads:
+
+      The amount of a Currency in circulation is the amount of that
+      Currency possessed by entities other than the Bank, minus the 
+      total of the undisputed Payment Orders for that Currency naming
+      entities other than Bank as payor, and the Bank as payee.
+
+Be it further resolved that R1853 (Levying Taxes) be amended by replacing
+in it the text which currently reads:
+
+      Finally, the announcement must contain Payment Orders naming
+      each entity in possession of the named Currency as payor, and
+      with the Bank as payee, for an amount of the named Currency
+      equal to the amount of the levy.
+
+with text which reads:
+
+      As soon as possible after making the announcement, the
+      Accountor is required to execute Payment Orders naming each
+      entity other than the Bank in possession of the named Currency
+      as payor, and with the Bank as payee, for an amount of the
+      named Currency equal to the amount of the levy. 
+
+Be it further resolved that R1542 (Style Points) be repealed.
+
+####
+
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Sep 16 01:40 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@[131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA09840 for <dpb@cs.brown.edu>; Wed, 16 Sep 1998 01:40:36 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA14767
+	for agora-business-list; Wed, 16 Sep 1998 15:35:24 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA14762
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 16 Sep 1998 15:35:22 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id PAA04096
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 16 Sep 1998 15:36:04 +1000 (EST)
+	(envelope-from agoralee@schawk.com)
+Received: from click.schawk.com(205.184.253.12) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma004089; Wed, 16 Sep 98 15:35:00 +1000
+Received: from schawk-pdc (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 257; 12:31:50 AM -0500
+From: agoralee@schawk.com (Agora lee)
+To: agora-business@gecko.serc.rmit.edu.au
+Date: Wed, 16 Sep 1998 00:30:02 -0500
+Subject: BUS: Accountor's report for 08-Sep-98 rev 4
+Message-ID: <msg16342.thr-9d6269.f7405@Schawk.com>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg16342.thr-9d6269.f7405.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 60141
+
+	  01Aug1998  Change  08-Sep-98 Debts   Credits Net POs
+Antimatter      5.2     0.4     5.6     2.0     1.2     -0.8
+Blob            5.1     -0.6    4.5     9.8     4.8     -5.0
+Chuck           4.1     1.6     5.7     2.6     4.8     2.2
+Crito           8.5     -0.8    7.7     5.0     10.2    5.2
+elJefe          3.7     0.4     4.1     0.0     1.2     1.2
+G.Chaos         4.9     0.4     5.3     2.0     1.2     -0.8
+Harlequin       6.2     -0.6    5.6     5.2     1.2     -4.0
+Kolja A.        9.1     -3.0    6.1     0.0     2.0     2.0
+Lee             5.0     4.6     9.6     5.0     4.0     -1.0
+Macross        12.2     0.4     12.6    1.0     1.2     0.2
+Michael         9.4     -0.4    9.0     11.0    10.8    -0.2
+Morendil        5.2     0.4     5.6     0.0     3.2     3.2
+Murphy          5.2     -0.2    5.0     5.0     3.8     -1.2
+Oerjan          4.2     0.4     4.6     0.0     1.2     1.2
+Proglet         0.0     0.0     0.0     0.0     5.0     5.0
+Steve           0.1     0.6     0.7     0.0     23.2    23.2
+Swann           5.4     0.4     5.8     4.6     1.2     -3.4
+mbc             0.0     3.0     3.0     0.0     0.0     0.0
+OEE            13.5    3.4     16.9    0.0     0.0     0.0
+Threat          0.5     0.0     0.5     0.0     0.0     0.0
+X Group         2.5     0.0     2.5     0.0     0.0     0.0
+Bank          165.0   -10.4   154.6   75.2    53.6    -21.6
+Total         275.0   0.0     275.0   128.4   133.8   5.4
+			120.4   =       Total VTs in Circulation
+			7.1     =       Average VTs in Circulation per Player
+DISPUTED        PAYMENT ORDERS
+ID      Executed        Amt.    Payor   Payee   Executor
+
+	(none)
+
+VACATED PAYMENT ORDERS
+ID      Exec.   Vacated Amt.    Payor   Payee   Executor
+
+VT2266  08May98 30Jun98 2.0     Sherlock        Bank    Voting
+VT2455  28Jun98 28Jun98 1.0     Macross Bank    Voting
+VT2477  01Jul98 16Jul98 0.1     Sherlock        Bank    Accountor
+VT2535  13Jul98 22Jul98 3.0     Blob    Bank    Voting
+VT2536  13Jul98 22Jul98 3.0     Chuck   Bank    Voting
+VT2537  13Jul98 22Jul98 3.0     Crito   Bank    Voting
+VT2538  13Jul98 22Jul98 1.0     Harlequin       Bank    Voting
+VT2539  13Jul98 22Jul98 1.0     Kolja A.        Bank    Voting
+VT2540  13Jul98 22Jul98 3.0     Michael Bank    Voting
+VT2541  13Jul98 22Jul98 2.0     Steve   Bank    Voting
+VT2561  17Jul98 22Jul98 3.0     Crito   Bank    Registrar
+VT2562  17Jul98 22Jul98 2.0     Steve   Bank    Registrar
+VT2567  18Jul98 27Jul98 0.8     Bank    Blob    Registrar
+VT2577  18Jul98 19Jul98 2.0     Blob    Bank    Registrar
+VT2606  25Jul98 27Jul98 0.8     Bank    Blob    Registrar
+RVTPO606        31-Aug-98       30-Aug-98       0.8     Bank    Steve  
+Registrar
+
+SATISFIED       PAYMENT ORDERS
+ID      Exec.   Satis.  Amt.    Payor   Payee   Executor
+VT2450  26-Jun-98       29Jun98 1.0     Macross Bank    Assessor
+VT2452  28-Jun-98       28Jun98 1.0     Blob    Bank    Voting
+VT2451  28-Jun-98       05Jul98 2.0     Bank    Steve   Assessor
+VT2453  28-Jun-98       29Jun98 3.0     Crito   Bank    Voting
+VT2454  28-Jun-98       29Jun98 2.0     Kolja A.        Bank    Voting
+VT2458  28-Jun-98       29Jun98 0.5     Macross Bank    Assessor
+VT2457  28-Jun-98       28Jun98 3.0     Steve   Bank    Voting
+VT2456  28-Jun-98       29Jun98 1.0     Oerjan  Bank    Voting
+VT2469  29-Jun-98       01Jul98 2.9     Morendil        Bank   
+Accountor
+VT2468  29-Jun-98       01Jul98 9.8     Michael Bank    Accountor
+VT2465  29-Jun-98       29Jun98 2.5     Harlequin       Bank   
+Accountor
+VT2467  29-Jun-98       01Jul98 2.2     Macross Bank    Accountor
+VT2466  29-Jun-98       29Jun98 7.4     Kolja A.        Bank   
+Accountor
+VT2462  29-Jun-98       29Jun98 8.1     Crito   Bank    Accountor
+VT2461  29-Jun-98       30Jun98 3.9     Chuck   Bank    Accountor
+VT2460  29-Jun-98       29Jun98 1.9     Blob    Bank    Accountor
+VT2459  29-Jun-98       06Jul98 2.9     Antimatter      Bank   
+Accountor
+VT2470  29-Jun-98       06Jul98 1.9     Murphy  Bank    Accountor
+VT2471  29-Jun-98       01Jul98 2.4     Oerjan  Bank    Accountor
+VT2472  29-Jun-98       30Jun98 3.7     Steve   Bank    Accountor
+VT2474  29-Jun-98       29Jun98 3.8     OEE     Bank    Accountor
+VT2475  29-Jun-98       30Jun98 0.3     Threat  Bank    Accountor
+VT2464  29-Jun-98       06Jul98 2.9     G.Chaos Bank    Accountor
+VT2463  29-Jun-98       06Jul98 1.9     elJefe  Bank    Accountor
+VT2476  29-Jun-98       01Jul98 1.7     X Group Bank    Accountor
+VT2502  01-Jul-98       05Jul98 25.2    Bank    Bank    Accountor
+VT2478  05-Jul-98       11Jul98 0.6     Bank    Crito   Registrar
+VT2495  05-Jul-98       11Jul98 0.2     Bank    elJefe  Registrar
+VT2494  05-Jul-98       11Jul98 0.2     Bank    Antimatter     
+Registrar
+VT2483  05-Jul-98       11Jul98 0.4     Bank    Michael Registrar
+VT2484  05-Jul-98       11Jul98 0.8     Bank    Michael Registrar
+VT2481  05-Jul-98       11Jul98 0.6     Bank    Steve   Registrar
+VT2479  05-Jul-98       11Jul98 0.4     Bank    Kolja A.       
+Registrar
+VT2480  05-Jul-98       11Jul98 0.8     Bank    Steve   Registrar
+VT2492  05-Jul-98       11Jul98 0.4     Bank    Steve   Registrar
+VT2500  05-Jul-98       11Jul98 0.2     Bank    Oerjan  Registrar
+VT2499  05-Jul-98       11Jul98 0.2     Bank    Morendil       
+Registrar
+VT2498  05-Jul-98       11Jul98 0.2     Bank    Macross Registrar
+VT2497  05-Jul-98       11Jul98 0.2     Bank    Harlequin      
+Registrar
+VT2496  05-Jul-98       11Jul98 0.2     Bank    G.Chaos Registrar
+VT2489  05-Jul-98       11Jul98 0.8     Bank    Chuck   Registrar
+VT2482  05-Jul-98       11Jul98 0.8     Bank    Blob    Registrar
+VT2488  05-Jul-98       11Jul98 0.6     Bank    Michael Registrar
+VT2491  05-Jul-98       11Jul98 0.4     Bank    Steve   Registrar
+VT2490  05-Jul-98       11Jul98 0.8     Bank    Swann   Registrar
+VT2487  05-Jul-98       11Jul98 0.6     Bank    Crito   Registrar
+VT2486  05-Jul-98       11Jul98 0.4     Bank    Murphy  Registrar
+VT2485  05-Jul-98       11Jul98 0.8     Bank    Crito   Registrar
+VT2509  06-Jul-98       11Jul98 0.6     Bank    Crito   Registrar
+VT2528  06-Jul-98       11Jul98 0.2     Bank    G.Chaos Registrar
+VT2527  06-Jul-98       11Jul98 0.2     Bank    elJefe  Registrar
+VT2510  06-Jul-98       11Jul98 0.4     Bank    Kolja A.       
+Registrar
+VT2512  06-Jul-98       11Jul98 0.6     Bank    Steve   Registrar
+VT2530  06-Jul-98       11Jul98 0.2     Bank    Macross Registrar
+VT2525  06-Jul-98       12Jul98 2.0     Murphy  Bank    Registrar
+VT2503  06-Jul-98       06Jul98 1.0     Crito   Bank    Voting
+VT2504  06-Jul-98       06Jul98 1.0     G.Chaos Bank    Voting
+VT2505  06-Jul-98       09Jul98 2.0     Harlequin       Bank    Voting
+VT2506  06-Jul-98       06Jul98 1.0     Kolja A.        Bank    Voting
+VT2507  06-Jul-98       06Jul98 1.0     Steve   Bank    Voting
+VT2508  06-Jul-98       11Jul98 2.0     Bank    Blob    Registrar
+VT2532  06-Jul-98       11Jul98 0.2     Bank    Oerjan  Registrar
+VT2531  06-Jul-98       11Jul98 0.2     Bank    Morendil       
+Registrar
+VT2529  06-Jul-98       11Jul98 0.2     Bank    Harlequin      
+Registrar
+VT2520  06-Jul-98       11Jul98 0.8     Bank    Chuck   Registrar
+VT2511  06-Jul-98       11Jul98 0.8     Bank    Steve   Registrar
+VT2526  06-Jul-98       11Jul98 0.2     Bank    Antimatter     
+Registrar
+VT2517  06-Jul-98       11Jul98 0.4     Bank    Murphy  Registrar
+VT2523  06-Jul-98       11Jul98 0.4     Bank    Steve   Registrar
+VT2522  06-Jul-98       11Jul98 0.4     Bank    Steve   Registrar
+VT2521  06-Jul-98       11Jul98 0.8     Bank    Swann   Registrar
+VT2513  06-Jul-98       11Jul98 0.8     Bank    Blob    Registrar
+VT2519  06-Jul-98       11Jul98 0.6     Bank    Michael Registrar
+VT2518  06-Jul-98       11Jul98 0.6     Bank    Crito   Registrar
+VT2516  06-Jul-98       11Jul98 0.8     Bank    Crito   Registrar
+VT2515  06-Jul-98       11Jul98 0.8     Bank    Michael Registrar
+VT2514  06-Jul-98       11Jul98 0.4     Bank    Michael Registrar
+VT2533  07-Jul-98       19Jul98 5.0     Bank    Pass the Parcel Notary
+VT2534  09-Jul-98       19Jul98 1.0     Bank    Murphy  CotC
+VT2359  09-Jul-98       28Jun98 2.0     Murphy  Bank    Voting
+VT2546  13-Jul-98       22Jul98 1.1     elJefe  Bank    Accountor
+VT2545  13-Jul-98       13Jul98 3.5     Crito   Bank    Accountor
+VT2543  13-Jul-98       13Jul98 2.3     Blob    Bank    Accountor
+VT2542  13-Jul-98       13Jul98 1.6     Antimatter      Bank   
+Accountor
+VT2544  13-Jul-98       15Jul98 1.8     Chuck   Bank    Accountor
+VT2549  13-Jul-98       13Jul98 3.0     Kolja A.        Bank   
+Accountor
+VT2547  13-Jul-98       26Jul98 1.6     G.Chaos Bank    Accountor
+VT2550  13-Jul-98       13Jul98 1.3     Macross Bank    Accountor
+VT2551  13-Jul-98       19Jul98 5.6     Michael Bank    Accountor
+VT2557  13-Jul-98       13Jul98 3.5     OEE     Bank    Accountor
+VT2560  13-Jul-98       19Jul98 28.8    Bank    Bank    Accountor
+VT2559  13-Jul-98       23Jul98 0.8     X Group Bank    Accountor
+VT2558  13-Jul-98       16Jul98 0.2     Threat  Bank    Accountor
+VT2554  13-Jul-98       13Jul98 1.6     Oerjan  Bank    Accountor
+VT2555  13-Jul-98       16Jul98 3.9     Steve   Bank    Accountor
+VT2553  13-Jul-98       15Jul98 0.8     Murphy  Bank    Accountor
+VT2552  13-Jul-98       13Jul98 1.6     Morendil        Bank   
+Accountor
+VT2584  18-Jul-98       25Jul98 0.2     Bank    Oerjan  Registrar
+VT2573  18-Jul-98       25Jul98 0.6     Bank    Michael Registrar
+VT2574  18-Jul-98       25Jul98 0.8     Bank    Chuck   Registrar
+VT2568  18-Jul-98       25Jul98 0.4     Bank    Michael Registrar
+VT2566  18-Jul-98       25Jul98 0.6     Bank    Steve   Registrar
+VT2583  18-Jul-98       25Jul98 0.2     Bank    Morendil       
+Registrar
+VT2582  18-Jul-98       25Jul98 0.2     Bank    Macross Registrar
+VT2581  18-Jul-98       25Jul98 0.2     Bank    Harlequin      
+Registrar
+VT2578  18-Jul-98       25Jul98 0.2     Bank    Antimatter     
+Registrar
+VT2564  18-Jul-98       25Jul98 0.4     Bank    Kolja A.       
+Registrar
+VT2580  18-Jul-98       25Jul98 0.2     Bank    G.Chaos Registrar
+VT2579  18-Jul-98       25Jul98 0.2     Bank    elJefe  Registrar
+VT2565  18-Jul-98       25Jul98 0.8     Bank    Steve   Registrar
+VT2569  18-Jul-98       25Jul98 0.8     Bank    Michael Registrar
+VT2585  18-Jul-98       25Jul98 0.2     Bank    Swann   Registrar
+VT2571  18-Jul-98       25Jul98 0.4     Bank    Murphy  Registrar
+VT2407  18-Jul-98       28Jun98 2.0     Murphy  Bank    Registrar
+VT2575  18-Jul-98       25Jul98 0.4     Bank    Steve   Registrar
+VT2563  18-Jul-98       25Jul98 0.6     Bank    Crito   Registrar
+VT2576  18-Jul-98       25Jul98 0.4     Bank    Steve   Registrar
+VT2570  18-Jul-98       25Jul98 0.8     Bank    Crito   Registrar
+VT2572  18-Jul-98       25Jul98 0.6     Bank    Crito   Registrar
+VT2421  19-Jul-98       01Jul98 3.0     Michael Bank    Voting
+VT2586  19-Jul-98       20Jul98 2.0     Steve   Bank    Registrar
+VT2587  19-Jul-98       25Jul98 5.0     Bank    Lee     Registrar
+VT2422  19-Jul-98       28Jun98 1.0     Murphy  Bank    Voting
+VT2588  20-Jul-98       22Jul98 1.0     Murphy  Bank    Assessor
+VT2593  22-Jul-98       03-Aug-98       1.0     Kolja A.        Bank   
+Voting
+VT2589  22-Jul-98       02-Aug-98       3.0     Blob    Bank    Voting
+VT2595  22-Jul-98       23Jul98 2.0     Steve   Bank    Voting
+aaa262  22-Jul-98       03-Aug-98       3.0     Chuck   Bank    voting
+VT2594  22-Jul-98       23Jul98 3.0     Michael Bank    Voting
+VT2592  22-Jul-98       22Jul98 1.0     Harlequin       Bank    Voting
+VT2591  22-Jul-98       23Jul98 3.0     Crito   Bank    Voting
+VT2596  23-Jul-98       23Jul98 3.0     Crito   Bank    Voting
+VT2597  23-Jul-98       08-Sep-98       2.0     Steve   Bank    Voting
+VT2435  24-Jul-98       05Jul98 0.8     Bank    Crito   Registrar
+VT2433  24-Jul-98       05Jul98 0.4     Bank    Michael Registrar
+VT2431  24-Jul-98       05Jul98 0.6     Bank    Steve   Registrar
+VT2437  24-Jul-98       05Jul98 0.6     Bank    Crito   Registrar
+VT2429  24-Jul-98       05Jul98 0.4     Bank    Kolja A.       
+Registrar
+VT2428  24-Jul-98       05Jul98 0.6     Bank    Crito   Registrar
+VT2442  24-Jul-98       05Jul98 0.4     Bank    Steve   Registrar
+VT2441  24-Jul-98       05Jul98 0.4     Bank    Steve   Registrar
+VT2439  24-Jul-98       05Jul98 0.8     Bank    Chuck   Registrar
+VT2434  24-Jul-98       05Jul98 0.8     Bank    Michael Registrar
+VT2436  24-Jul-98       05Jul98 0.4     Bank    Murphy  Registrar
+VT2438  24-Jul-98       05Jul98 0.6     Bank    Michael Registrar
+VT2445  24-Jul-98       05Jul98 0.2     Bank    G.Chaos Registrar
+VT2443  24-Jul-98       05Jul98 0.2     Bank    Antimatter     
+Registrar
+VT2446  24-Jul-98       05Jul98 0.2     Bank    Harlequin      
+Registrar
+VT2447  24-Jul-98       05Jul98 0.2     Bank    Macross Registrar
+VT2449  24-Jul-98       05Jul98 0.2     Bank    Oerjan  Registrar
+VT2427  24-Jul-98       05Jul98 1.0     Bank    Oerjan  CotC
+VT2448  24-Jul-98       05Jul98 0.2     Bank    Morendil       
+Registrar
+VT2444  24-Jul-98       05Jul98 0.2     Bank    elJefe  Registrar
+VT2432  24-Jul-98       05Jul98 0.8     Bank    Blob    Registrar
+VT2440  24-Jul-98       05Jul98 0.8     Bank    Swann   Registrar
+VT2430  24-Jul-98       05Jul98 0.8     Bank    Steve   Registrar
+VT2609  25-Jul-98       09-Aug-98       0.8     Bank    Crito  
+Registrar
+VT2631  25-Jul-98       09-Aug-98       2.0     Bank    Steve  
+Accountor
+VT2630  25-Jul-98       09-Aug-98       1.0     Bank    Kolja A.       
+Accountor
+VT2629  25-Jul-98       08-Aug-98       3.0     Bank    Crito  
+Accountor
+VT2628  25-Jul-98       09-Aug-98       3.0     Bank    Chuck  
+Accountor
+VT2627  25-Jul-98       09-Aug-98       3.0     Bank    Blob   
+Accountor
+VT2604  25-Jul-98       09-Aug-98       0.8     Bank    Steve  
+Registrar
+VT2603  25-Jul-98       09-Aug-98       0.4     Bank    Kolja A.       
+Registrar
+VT2605  25-Jul-98       09-Aug-98       0.6     Bank    Steve  
+Registrar
+VT2626  25-Jul-98       09-Aug-98       0.2     Bank    Swann  
+Registrar
+VT2607  25-Jul-98       09-Aug-98       0.4     Bank    Michael
+Registrar
+VT2622  25-Jul-98       09-Aug-98       0.2     Bank    Lee    
+Registrar
+VT2623  25-Jul-98       09-Aug-98       0.2     Bank    Macross
+Registrar
+VT2608  25-Jul-98       08-Aug-98       0.8     Bank    Michael
+Registrar
+VT2610  25-Jul-98       08-Aug-98       0.4     Bank    Murphy 
+Registrar
+VT2613  25-Jul-98       09-Aug-98       0.8     Bank    Chuck  
+Registrar
+VT2612  25-Jul-98       09-Aug-98       0.6     Bank    Michael
+Registrar
+VT2615  25-Jul-98       08-Aug-98       0.4     Bank    Steve  
+Registrar
+VT2616  25-Jul-98       08-Aug-98       0.4     Bank    Steve  
+Registrar
+VT2618  25-Jul-98       09-Aug-98       0.2     Bank    Antimatter     
+Registrar
+VT2619  25-Jul-98       08-Aug-98       0.2     Bank    elJefe 
+Registrar
+VT2620  25-Jul-98       09-Aug-98       0.2     Bank    Gen Chaos      
+Registrar
+VT2621  25-Jul-98       09-Aug-98       0.2     Bank    Harlequin      
+Registrar
+VT2598  25-Jul-98       04-Aug-98       1.0     Crito   Bank    Voting
+VT2611  25-Jul-98       09-Aug-98       0.6     Bank    Crito  
+Registrar
+VT2602  25-Jul-98       26Jul98 2.0     Steve   Bank    Voting
+VT2617  25-Jul-98       26Jul98 2.0     Steve   Bank    Registrar
+VT2624  25-Jul-98       09-Aug-98       0.2     Bank    Morendil       
+Registrar
+VT2625  25-Jul-98       09-Aug-98       0.2     Bank    Oerjan 
+Registrar
+VT2600  25-Jul-98       03-Aug-98       1.0     Murphy  Bank    Voting
+VT2601  25-Jul-98       25Jul98 1.0     Oerjan  Bank    Voting
+VT2614  25-Jul-98       08-Aug-98       0.8     Bank    Steve  
+Registrar
+VT2634  26-Jul-98       08-Aug-98       1.0     Bank    Kolja   CotC
+VT2632  26-Jul-98       09-Aug-98       1.0     Bank    Harlequin      
+Speaker
+VT2633  27-Jul-98       09-Aug-98       0.8     Bank    Steve  
+Registrar
+VT2657  01-Aug-98       08-Aug-98       0.2     Bank    Morendil       
+Registrar
+VT2656  01-Aug-98       09-Aug-98       0.2     Bank    Macross
+Registrar
+VT2655  01-Aug-98       08-Aug-98       0.2     Bank    Lee    
+Registrar
+VT2637  01-Aug-98       08-Aug-98       0.8     Bank    Steve  
+Registrar
+VT2639  01-Aug-98       08-Aug-98       0.8     Bank    Steve  
+Registrar
+VT2635  01-Aug-98       09-Aug-98       0.6     Bank    Blob   
+Registrar
+VT2650  01-Aug-98       09-Aug-98       2.0     Kolja   Bank   
+Registrar
+VT2649  01-Aug-98       08-Aug-98       0.4     Bank    Steve  
+Registrar
+VT2654  01-Aug-98       09-Aug-98       0.2     Bank    Harlequin      
+Registrar
+VT2653  01-Aug-98       09-Aug-98       0.2     Bank    G.Chaos
+Registrar
+VT2652  01-Aug-98       08-Aug-98       0.2     Bank    elJefe 
+Registrar
+VT2644  01-Aug-98       09-Aug-98       0.6     Bank    Crito  
+Registrar
+VT2643  01-Aug-98       08-Aug-98       0.4     Bank    Murphy 
+Registrar
+VT2642  01-Aug-98       08-Aug-98       0.8     Bank    Crito  
+Registrar
+VT2651  01-Aug-98       09-Aug-98       0.2     Bank    Antimatter     
+Registrar
+VT2660  01-Aug-98       08-Aug-98       1.0     Bank    Lee     CotC
+VT2638  01-Aug-98       09-Aug-98       0.6     Bank    Steve  
+Registrar
+VT2641  01-Aug-98       08-Aug-98       0.8     Bank    Michael
+Registrar
+VT2640  01-Aug-98       08-Aug-98       0.4     Bank    Michael
+Registrar
+VT2636  01-Aug-98       08-Aug-98       0.4     Bank    Kolja  
+Registrar
+VT2647  01-Aug-98       08-Aug-98       0.8     Bank    Steve  
+Registrar
+VT2645  01-Aug-98       09-Aug-98       0.6     Bank    Michael
+Registrar
+VT2659  01-Aug-98       08-Aug-98       0.2     Bank    Swann  
+Registrar
+VT2658  01-Aug-98       09-Aug-98       0.2     Bank    Oerjan 
+Registrar
+VT2648  01-Aug-98       09-Aug-98       0.4     Bank    Steve  
+Registrar
+VT2646  01-Aug-98       09-Aug-98       0.8     Bank    Chuck  
+Registrar
+aaa284  03-Aug-98       08-Sep-98       1.0     Steve   Bank    Voting
+aaa282  03-Aug-98       06-Aug-98       1.0     Harlequin       Bank   
+Voting
+aaa296  12-Aug-98       12-Aug-98       1.0     Steve   Bank    Voting
+aaa290  12-Aug-98       13-Aug-98       1.0     Crito   Bank    Voting
+aaa292  12-Aug-98       12-Aug-98       2.0     Kolja   Bank    Voting
+aaa303  24-Aug-98       25-Aug-98       2.0     Steve   Bank     voting
+aaa307  27-Aug-98       27-Aug-98       0.3     Bank    Steve   Steve
+aaa306  27-Aug-98       27-Aug-98       0.1     Bank    Steve   Steve
+aaa309  02-Sep-98       02-Sep-98       1.0     Crito   Bank    voting
+aaa320  08-Sep-98       08-Sep-98       2.0     Steve   Bank    voting
+
+OUTSTANDING     PAYMENT ORDERS
+ID      Ex. Date        Ex. Time        Amt.    Payor   Payee   Executor
+VT2661  13-Jul-98       07:53:01 PM     1.0     Bank    Morendil       
+CotC
+VT2556  13-Jul-98       14:13:29        4.6     Swann   Bank   
+Accountor
+VT2599  25-Jul-98       03:11:05        2.0     Harlequin       Bank   
+Voting
+VT2665  02-Aug-98       12:45:45 AM     0.2     Bank    Antimatter     
+Registrar
+VT2677  02-Aug-98       12:45:45 AM     0.6     Bank    Blob   
+Registrar
+VT2684  02-Aug-98       12:45:45 AM     0.8     Bank    Chuck  
+Registrar
+VT2683  02-Aug-98       12:45:45 AM     0.6     Bank    Crito  
+Registrar
+VT2685  02-Aug-98       12:45:45 AM     0.8     Bank    Crito  
+Registrar
+VT2681  02-Aug-98       12:45:45 AM     0.2     Bank    elJefe 
+Registrar
+VT2664  02-Aug-98       12:45:45 AM     0.2     Bank    G.Chaos
+Registrar
+VT2666  02-Aug-98       12:45:45 AM     0.2     Bank    Harlequin      
+Registrar
+VT2667  02-Aug-98       12:45:45 AM     0.4     Bank    Kolja  
+Registrar
+VT2668  02-Aug-98       12:45:45 AM     0.2     Bank    lee    
+Registrar
+VT2669  02-Aug-98       12:45:45 AM     0.2     Bank    Macross
+Registrar
+VT2670  02-Aug-98       12:45:45 AM     0.6     Bank    Michael
+Registrar
+VT2671  02-Aug-98       12:45:45 AM     0.8     Bank    Michael
+Registrar
+VT2672  02-Aug-98       12:45:45 AM     0.4     Bank    Michael
+Registrar
+VT2662  02-Aug-98       12:45:45 AM     0.2     Bank    Morendil       
+Registrar
+VT2674  02-Aug-98       12:45:45 AM     0.8     Bank    Murphy 
+Registrar
+VT2663  02-Aug-98       12:45:45 AM     0.2     Bank    Oerjan 
+Registrar
+VT2682  02-Aug-98       12:45:45 AM     0.6     Bank    Steve  
+Registrar
+VT2676  02-Aug-98       12:45:45 AM     0.8     Bank    Steve  
+Registrar
+VT2675  02-Aug-98       12:45:45 AM     0.4     Bank    Steve  
+Registrar
+VT2678  02-Aug-98       12:45:45 AM     0.8     Bank    Steve  
+Registrar
+VT2679  02-Aug-98       12:45:45 AM     0.4     Bank    Steve  
+Registrar
+VT2673  02-Aug-98       12:45:45 AM     0.8     Bank    Steve  
+Registrar
+VT2680  02-Aug-98       12:45:45 AM     0.2     Bank    Swann  
+Registrar
+VT2686  02-Aug-98       06:29:08 PM     0.8     Blob    Bank    Blob
+aaa280  03-Aug-98       10:55:50 AM     1.0     Blob    Bank    Voting
+aaa281  03-Aug-98       10:55:50 AM     1.0     Crito   Bank    Voting
+aaa283  03-Aug-98       10:55:50 AM     1.0     Murphy  Bank    Voting
+VT2692  04-Aug-98       11:17:31 AM     1.0     Macross Bank    Steve
+VT2693  07-Aug-98       12:06:10 PM     2.0     Michael Bank    Speaker
+VT2711  08-Aug-98       03:17:09 AM     0.2     Bank    Antimatter     
+Registrar
+VT2710  08-Aug-98       03:17:09 AM     0.6     Bank    Blob   
+Registrar
+VT2715  08-Aug-98       03:17:09 AM     0.8     Bank    Chuck  
+Registrar
+VT2695  08-Aug-98       03:17:09 AM     0.6     Bank    Crito  
+Registrar
+VT2712  08-Aug-98       03:17:09 AM     0.8     Bank    Crito  
+Registrar
+VT2714  08-Aug-98       03:17:09 AM     0.2     Bank    elJefe 
+Registrar
+VT2694  08-Aug-98       03:17:09 AM     0.2     Bank    G.Chaos
+Registrar
+VT2699  08-Aug-98       03:17:09 AM     0.2     Bank    Harlequin      
+Registrar
+VT2696  08-Aug-98       03:17:09 AM     0.4     Bank    Kolja  
+Registrar
+VT2716  08-Aug-98       03:17:09 AM     0.2     Bank    lee    
+Registrar
+VT2701  08-Aug-98       03:17:09 AM     0.2     Bank    Macross
+Registrar
+VT2697  08-Aug-98       03:17:09 AM     0.6     Bank    Michael
+Registrar
+VT2705  08-Aug-98       03:17:09 AM     0.4     Bank    Michael
+Registrar
+VT2698  08-Aug-98       03:17:09 AM     0.8     Bank    Michael
+Registrar
+VT2700  08-Aug-98       03:17:09 AM     0.2     Bank    Morendil       
+Registrar
+VT2713  08-Aug-98       03:17:09 AM     0.4     Bank    Murphy 
+Registrar
+VT2702  08-Aug-98       03:17:09 AM     0.2     Bank    Oerjan 
+Registrar
+VT2704  08-Aug-98       03:17:09 AM     0.4     Bank    Steve  
+Registrar
+VT2708  08-Aug-98       03:17:09 AM     0.6     Bank    Steve  
+Registrar
+VT2707  08-Aug-98       03:17:09 AM     0.8     Bank    Steve  
+Registrar
+VT2703  08-Aug-98       03:17:09 AM     0.8     Bank    Steve  
+Registrar
+VT2717  08-Aug-98       03:17:09 AM     0.4     Bank    Steve  
+Registrar
+VT2706  08-Aug-98       03:17:09 AM     0.8     Bank    Steve  
+Registrar
+VT2709  08-Aug-98       03:17:09 AM     0.2     Bank    Swann  
+Registrar
+VT2718  12-Aug-98       02:28:02 PM     1.0     Bank    Lee     Speaker
+aaa288  12-Aug-98       10:03:24 PM     2.0     Antimatter      Bank   
+Voting
+aaa289  12-Aug-98       10:03:24 PM     2.0     Blob    Bank    Voting
+aaa291  12-Aug-98       10:03:24 PM     1.0     Harlequin       Bank   
+Voting
+aaa293  12-Aug-98       10:03:24 PM     1.0     lee     Bank    Voting
+aaa294  12-Aug-98       10:03:24 PM     2.0     Michael Bank    Voting
+aaa295  12-Aug-98       10:03:24 PM     2.0     Murphy  Bank    Voting
+VT2728  13-Aug-98       10:52:37 AM     1.0     Bank    Morendil       
+CotC
+VT2548  13-Aug-98       14:13:29        1.2     Harlequin       Bank   
+Accountor
+VT2730  14-Aug-98       09:35:25 AM     1.0     Bank    Lee     CotC
+VT2731  14-Aug-98       02:11:22 PM     1.0     Harlequin       Bank   
+Voting
+VT2736  14-Aug-98       06:58:01 PM     0.2     Bank    Antimatter     
+Registrar
+VT2754  14-Aug-98       06:58:01 PM     0.6     Bank    Blob   
+Registrar
+VT2753  14-Aug-98       06:58:01 PM     0.8     Bank    Chuck  
+Registrar
+VT2733  14-Aug-98       06:58:01 PM     0.8     Bank    Crito  
+Registrar
+VT2755  14-Aug-98       06:58:01 PM     0.6     Bank    Crito  
+Registrar
+VT2734  14-Aug-98       06:58:01 PM     0.2     Bank    elJefe 
+Registrar
+VT2752  14-Aug-98       06:58:01 PM     0.2     Bank    G.Chaos
+Registrar
+VT2751  14-Aug-98       06:58:01 PM     0.2     Bank    Harlequin      
+Registrar
+VT2744  14-Aug-98       06:58:01 PM     0.4     Bank    Kolja  
+Registrar
+VT2749  14-Aug-98       06:58:01 PM     0.2     Bank    lee    
+Registrar
+VT2747  14-Aug-98       06:58:01 PM     0.2     Bank    Macross
+Registrar
+VT2732  14-Aug-98       06:58:01 PM     0.4     Bank    Michael
+Registrar
+VT2745  14-Aug-98       06:58:01 PM     0.8     Bank    Michael
+Registrar
+VT2737  14-Aug-98       06:58:01 PM     0.6     Bank    Michael
+Registrar
+VT2740  14-Aug-98       06:58:01 PM     0.2     Bank    Morendil       
+Registrar
+VT2738  14-Aug-98       06:58:01 PM     0.4     Bank    Murphy 
+Registrar
+VT2756  14-Aug-98       06:58:01 PM     0.2     Bank    Oerjan 
+Registrar
+VT2742  14-Aug-98       06:58:01 PM     0.6     Bank    Steve  
+Registrar
+VT2739  14-Aug-98       06:58:01 PM     0.8     Bank    Steve  
+Registrar
+VT2741  14-Aug-98       06:58:01 PM     0.4     Bank    Steve  
+Registrar
+VT2746  14-Aug-98       06:58:01 PM     0.8     Bank    Steve  
+Registrar
+VT2735  14-Aug-98       06:58:01 PM     0.8     Bank    Steve  
+Registrar
+VT2743  14-Aug-98       06:58:01 PM     0.4     Bank    Steve  
+Registrar
+VT2748  14-Aug-98       06:58:01 PM     0.2     Bank    Swann  
+Registrar
+VT2750  14-Aug-98       06:58:01 PM     2.0     Blob    Bank   
+Registrar
+VT2757  19-Aug-98       10:20:00 AM     1.0     Bank    Blob    CotC
+VT2758  21-Aug-98       07:25:57 PM     1.0     Bank    Murphy  CotC
+VT2773  24-Aug-98       03:49:45 AM     0.2     Bank    Antimatter     
+Registrar
+VT2777  24-Aug-98       03:49:45 AM     0.6     Bank    Blob   
+Registrar
+VT2761  24-Aug-98       03:49:45 AM     0.8     Bank    Chuck  
+Registrar
+VT2776  24-Aug-98       03:49:45 AM     0.6     Bank    Crito  
+Registrar
+VT2759  24-Aug-98       03:49:45 AM     0.8     Bank    Crito  
+Registrar
+VT2783  24-Aug-98       03:49:45 AM     0.2     Bank    elJefe 
+Registrar
+VT2779  24-Aug-98       03:49:45 AM     0.2     Bank    G.Chaos
+Registrar
+VT2780  24-Aug-98       03:49:45 AM     0.2     Bank    Harlequin      
+Registrar
+VT2781  24-Aug-98       03:49:45 AM     0.4     Bank    Kolja  
+Registrar
+VT2782  24-Aug-98       03:49:45 AM     0.2     Bank    lee    
+Registrar
+VT2778  24-Aug-98       03:49:45 AM     0.2     Bank    Macross
+Registrar
+VT2772  24-Aug-98       03:49:45 AM     0.8     Bank    Michael
+Registrar
+VT2774  24-Aug-98       03:49:45 AM     0.6     Bank    Michael
+Registrar
+VT2770  24-Aug-98       03:49:45 AM     0.4     Bank    Michael
+Registrar
+VT2771  24-Aug-98       03:49:45 AM     0.2     Bank    Morendil       
+Registrar
+VT2766  24-Aug-98       03:49:45 AM     0.4     Bank    Murphy 
+Registrar
+VT2762  24-Aug-98       03:49:45 AM     0.2     Bank    Oerjan 
+Registrar
+VT2767  24-Aug-98       03:49:45 AM     0.4     Bank    Steve  
+Registrar
+VT2775  24-Aug-98       03:49:45 AM     0.4     Bank    Steve  
+Registrar
+VT2760  24-Aug-98       03:49:45 AM     0.8     Bank    Steve  
+Registrar
+VT2765  24-Aug-98       03:49:45 AM     0.2     Bank    Steve  
+Registrar
+VT2763  24-Aug-98       03:49:45 AM     0.8     Bank    Steve  
+Registrar
+VT2764  24-Aug-98       03:49:45 AM     0.8     Bank    Steve  
+Registrar
+VT2768  24-Aug-98       03:49:45 AM     0.2     Bank    Swann  
+Registrar
+VT2784  24-Aug-98       03:49:45 AM     2.0     Blob    Bank   
+Registrar
+VT2769  24-Aug-98       03:49:45 AM     2.0     Murphy  Bank   
+Registrar
+aaa301  24-Aug-98       05:59:13 PM     1.0     Blob    Bank     voting
+aaa302  24-Aug-98       05:59:13 PM     2.0     Crito   Bank     voting
+RVTPO611        31-Aug-98       03:13:26 AM     0.2     Bank   
+Antimatter      Registrar
+RVTPO612        31-Aug-98       03:13:26 AM     0.2     Bank    Blob   
+Registrar
+RVTPO605        31-Aug-98       03:13:26 AM     0.8     Bank    Chuck  
+Registrar
+RVTPO603        31-Aug-98       03:13:26 AM     0.6     Bank    Crito  
+Registrar
+RVTPO601        31-Aug-98       03:13:26 AM     0.8     Bank    Crito  
+Registrar
+RVTPO613        31-Aug-98       03:13:26 AM     0.2     Bank    elJefe 
+Registrar
+RVTPO614        31-Aug-98       03:13:26 AM     0.2     Bank    General
+Chaos   Registrar
+RVTPO615        31-Aug-98       03:13:26 AM     0.2     Bank   
+Harlequin       Registrar
+RVTPO595        31-Aug-98       03:13:26 AM     0.4     Bank    Kolja
+A.        Registrar
+RVTPO594        31-Aug-98       03:13:26 AM     0.6     Bank    lee    
+Registrar
+RVTPO616        31-Aug-98       03:13:26 AM     0.2     Bank    Macross
+Registrar
+RVTPO600        31-Aug-98       03:13:26 AM     0.8     Bank    Michael
+Registrar
+RVTPO604        31-Aug-98       03:13:26 AM     0.6     Bank    Michael
+Registrar
+RVTPO599        31-Aug-98       03:13:26 AM     0.4     Bank    Michael
+Registrar
+RVTPO617        31-Aug-98       03:13:26 AM     0.2     Bank   
+Morendil        Registrar
+RVTPO602        31-Aug-98       03:13:26 AM     0.4     Bank    Murphy 
+Registrar
+RVTPO618        31-Aug-98       03:13:26 AM     0.2     Bank    Oerjan 
+Registrar
+RVTPO607        31-Aug-98       03:13:26 AM     0.4     Bank    Steve  
+Registrar
+RVTPO606        31-Aug-98       03:13:26 AM     0.8     Bank    Steve  
+Registrar
+RVTPO596        31-Aug-98       03:13:26 AM     0.8     Bank    Steve  
+Registrar
+RVTPO597        31-Aug-98       03:13:26 AM     0.2     Bank    Steve  
+Registrar
+RVTPO598        31-Aug-98       03:13:26 AM     0.8     Bank    Steve  
+Registrar
+RVTPO619        31-Aug-98       03:13:26 AM     0.2     Bank    Swann  
+Registrar
+RVTPO609        31-Aug-98       03:13:26 AM     2.0     lee     Bank   
+Registrar
+RVTPO610        31-Aug-98       03:13:26 AM     2.0     Michael Bank   
+Registrar
+aaa315  02-Sep-98       04:50:32 AM     0.4     Bank    Steve  
+Commission
+aaa308  02-Sep-98       04:50:32 AM     1.0     Blob    Bank    voting
+aaa310  02-Sep-98       04:50:32 AM     1.0     G.Chaos Bank    voting
+aaa311  02-Sep-98       04:50:32 AM     3.0     Michael Bank    voting
+aaa312  02-Sep-98       12:00:00 AM     2.0     Steve   Bank    voting
+VT2788  02-Sep-98       04:06:31 PM     1.0     Bank    Blob    Speaker
+VT2789  02-Sep-98       07:28:34 PM     1.0     Bank    Crito   CotC
+RVTPO636        06-Sep-98       09:15:03 AM     0.2     Bank   
+Antimatter      Registrar
+RVTPO637        06-Sep-98       09:15:03 AM     0.2     Bank    Blob   
+Registrar
+RVTPO630        06-Sep-98       09:15:03 AM     0.8     Bank    Chuck  
+Registrar
+RVTPO626        06-Sep-98       09:15:03 AM     0.8     Bank    Crito  
+Registrar
+RVTPO631        06-Sep-98       09:15:03 AM     0.8     Bank    Crito  
+Registrar
+RVTPO628        06-Sep-98       09:15:03 AM     0.6     Bank    Crito  
+Registrar
+RVTPO638        06-Sep-98       09:15:03 AM     0.2     Bank    elJefe 
+Registrar
+RVTPO639        06-Sep-98       09:15:03 AM     0.2     Bank    General
+Chaos   Registrar
+RVTPO640        06-Sep-98       09:15:03 AM     0.2     Bank   
+Harlequin       Registrar
+RVTPO620        06-Sep-98       09:15:03 AM     0.6     Bank    lee    
+Registrar
+RVTPO641        06-Sep-98       09:15:03 AM     0.2     Bank    Macross
+Registrar
+RVTPO629        06-Sep-98       09:15:03 AM     0.6     Bank    Michael
+Registrar
+RVTPO624        06-Sep-98       09:15:03 AM     0.4     Bank    Michael
+Registrar
+RVTPO625        06-Sep-98       09:15:03 AM     0.8     Bank    Michael
+Registrar
+RVTPO642        06-Sep-98       09:15:03 AM     0.2     Bank   
+Morendil        Registrar
+RVTPO627        06-Sep-98       09:15:03 AM     0.4     Bank    Murphy 
+Registrar
+RVTPO643        06-Sep-98       09:15:03 AM     0.2     Bank    Oerjan 
+Registrar
+RVTPO621        06-Sep-98       09:15:03 AM     0.8     Bank    Steve  
+Registrar
+RVTPO632        06-Sep-98       09:15:03 AM     0.4     Bank    Steve  
+Registrar
+RVTPO633        06-Sep-98       09:15:03 AM     0.4     Bank    Steve  
+Registrar
+RVTPO634        06-Sep-98       09:15:03 AM     2.0     Bank    Steve  
+Registrar
+RVTPO623        06-Sep-98       09:15:03 AM     0.8     Bank    Steve  
+Registrar
+RVTPO622        06-Sep-98       09:15:03 AM     0.2     Bank    Steve  
+Registrar
+RVTPO644        06-Sep-98       09:15:03 AM     0.2     Bank    Swann  
+Registrar
+RVTPO635        06-Sep-98       09:15:03 AM     2.0     lee     Bank   
+Registrar
+aaa324  08-Sep-98       01:49:32 PM     0.4     Bank    Steve  
+Commission
+aaa316  08-Sep-98       01:49:32 PM     1.0     Chuck   Bank    voting
+aaa317  08-Sep-98       01:49:32 PM     2.0     Crito   Bank    voting
+aaa318  08-Sep-98       01:49:32 PM     1.0     G.Chaos Bank    voting
+aaa319  08-Sep-98       01:49:32 PM     2.0     Michael Bank    voting
+RVTPO657        09-Sep-98       06:52:54 PM     5       Bank    Proglet
+Registrar
+
+	TRANSFER        ORDERS
+Status  Ex. date        Executed time   Amt.    Payor   Payee   Ex. of
+TO       for PO
+Succeeded       26-Jun-98       02:05:41        1.0     Steve   Macross
+Succeeded       28-Jun-98       03:03:24 AM     2.0     Murphy  Bank   
+        VT2359
+Succeeded       28-Jun-98       00:44:41        0.5     Steve   Oerjan
+Succeeded       28-Jun-98       01:11:11        3.0     Steve   Bank   
+        VT2457
+Succeeded       28-Jun-98       02:11:00        1.0     Blob    Bank   
+        VT2452
+Succeeded       28-Jun-98       03:03:24        2.0     Murphy  Bank   
+        VT2407
+Succeeded       28-Jun-98       03:03:24        1.0     Murphy  Bank   
+        VT2422
+Succeeded       29-Jun-98       04:44:12        1.0     Macross Bank   
+        VT2450
+Succeeded       29-Jun-98       04:50:37        0.5     Macross Bank   
+        VT2458
+Succeeded       29-Jun-98       08:55:09        2.0     Kolja A.       
+Bank            VT2454
+Succeeded       29-Jun-98       12:04:30        3.0     Bank   
+Antimatter
+Succeeded       29-Jun-98       12:04:30        3.0     Bank    Blob
+Succeeded       29-Jun-98       12:04:30        3.0     Bank    Chuck
+Succeeded       29-Jun-98       12:04:30        3.0     Bank    Crito
+Succeeded       29-Jun-98       12:04:30        3.0     Bank    elJefe
+Succeeded       29-Jun-98       12:04:30        3.0     Bank    G.Chaos
+Succeeded       29-Jun-98       12:04:30        3.0     Bank   
+Harlequin
+Succeeded       29-Jun-98       12:04:30        3.0     Bank    Kolja A.
+Succeeded       29-Jun-98       12:04:30        3.0     Bank    Macross
+Succeeded       29-Jun-98       12:04:30        3.0     Bank    Michael
+Succeeded       29-Jun-98       12:04:30        3.0     Bank    Morendil
+Succeeded       29-Jun-98       12:04:30        3.0     Bank    Murphy
+Succeeded       29-Jun-98       12:04:30        3.0     Bank    Oerjan
+Succeeded       29-Jun-98       12:04:30        3.0     Bank    Steve
+Succeeded       29-Jun-98       12:04:30        3.0     Bank    Swann
+Succeeded       29-Jun-98       13:40:04        1.0     Oerjan  Bank   
+        VT2456
+Succeeded       29-Jun-98       18:16:57        3.0     Crito   Bank   
+        VT2453
+Succeeded       29-Jun-98       18:16:57        8.1     Crito   Bank   
+        VT2462
+Succeeded       29-Jun-98       18:16:57        1.7     Crito   OEE
+Succeeded       29-Jun-98       18:31:45        7.4     Kolja A.       
+Bank            VT2466
+Succeeded       29-Jun-98       18:31:45        2.0     Kolja A.       
+OEE
+Succeeded       29-Jun-98       18:31:45        3.8     OEE     Bank   
+        VT2474
+Succeeded       29-Jun-98       18:31:57        1.9     Blob    Bank   
+        VT2460
+Succeeded       29-Jun-98       22:09:58        2.5     Harlequin      
+Bank            VT2465
+Succeeded       30-Jun-98       01:57:38        3.7     Steve   Bank   
+        VT2472
+Succeeded       30-Jun-98       01:57:38        0.3     Threat  Bank   
+        VT2475
+Succeeded       30-Jun-98       06:53:38        3.9     Chuck   Bank   
+        VT2461
+Succeeded       30-Jun-98       06:53:38        3.0     Chuck   Steve  
+        0
+Succeeded       30-Jun-98       15:34:16        0.5     Sherlock       
+Bank            0
+Succeeded       01-Jul-98       02:35:04        2.2     Macross Bank   
+        VT2467
+Succeeded       01-Jul-98       13:58:41        3.0     Michael Bank   
+        VT2421
+Succeeded       01-Jul-98       13:58:41        9.8     Michael Bank   
+        VT2468
+Succeeded       01-Jul-98       13:58:41        1.7     X Group Bank   
+        VT2476
+Succeeded       01-Jul-98       16:10:57        2.4     Oerjan  Bank   
+        VT2471
+Succeeded       01-Jul-98       16:48:44        2.9     Morendil       
+Bank            VT2469
+Succeeded       02-Jul-98       00:36:24        0.5     Steve   Kolja
+A.                0
+Succeeded       02-Jul-98       02:05:11        0.5     Crito   Kolja
+A.                0
+Succeeded       02-Jul-98       03:20:24        0.5     Steve  
+Harlequin               0
+Succeeded       02-Jul-98       05:13:41        0.5     Steve   G.Chaos
+        0
+Succeeded       02-Jul-98       14:15:08        0.5     Crito  
+Harlequin               0
+Succeeded       02-Jul-98       14:23:08        0.5     Crito   G.Chaos
+        0
+Succeeded       05-Jul-98       20:53:18        0.2     Bank   
+Antimatter              VT2443
+Succeeded       05-Jul-98       20:53:18        25.2    Bank    Bank   
+        VT2502
+Succeeded       05-Jul-98       20:53:18        0.8     Bank    Blob   
+        VT2432
+Succeeded       05-Jul-98       20:53:18        0.8     Bank    Chuck  
+        VT2439
+Succeeded       05-Jul-98       20:53:18        0.6     Bank    Crito  
+        VT2428
+Succeeded       05-Jul-98       20:53:18        0.8     Bank    Crito  
+        VT2435
+Succeeded       05-Jul-98       20:53:18        0.6     Bank    Crito  
+        VT2437
+Succeeded       05-Jul-98       20:53:18        0.2     Bank    elJefe 
+        VT2444
+Succeeded       05-Jul-98       20:53:18        0.2     Bank    G.Chaos
+        VT2445
+Succeeded       05-Jul-98       20:53:18        0.2     Bank   
+Harlequin               VT2446
+Succeeded       05-Jul-98       20:53:18        0.4     Bank    Kolja
+A.                VT2429
+Succeeded       05-Jul-98       20:53:18        0.2     Bank    Macross
+        VT2447
+Succeeded       05-Jul-98       20:53:18        0.4     Bank    Michael
+        VT2433
+Succeeded       05-Jul-98       20:53:18        0.8     Bank    Michael
+        VT2434
+Succeeded       05-Jul-98       20:53:18        0.6     Bank    Michael
+        VT2438
+Succeeded       05-Jul-98       20:53:18        0.2     Bank   
+Morendil                VT2448
+Succeeded       05-Jul-98       20:53:18        0.4     Bank    Murphy 
+        VT2436
+Succeeded       05-Jul-98       20:53:18        1.0     Bank    Oerjan 
+        VT2427
+Succeeded       05-Jul-98       20:53:18        0.2     Bank    Oerjan 
+        VT2449
+Succeeded       05-Jul-98       20:53:18        0.8     Bank    Steve  
+        VT2430
+Succeeded       05-Jul-98       20:53:18        0.6     Bank    Steve  
+        VT2431
+Succeeded       05-Jul-98       20:53:18        0.4     Bank    Steve  
+        VT2441
+Succeeded       05-Jul-98       20:53:18        0.4     Bank    Steve  
+        VT2442
+Succeeded       05-Jul-98       20:53:18        2.0     Bank    Steve  
+        VT2451
+Succeeded       05-Jul-98       20:53:18        0.8     Bank    Swann  
+        VT2440
+Succeeded       06-Jul-98       00:38:37        1.0     Steve   Bank   
+        VT2507
+Succeeded       06-Jul-98       08:22:34        1.0     Kolja A.       
+Bank            VT2506
+Succeeded       06-Jul-98       08:40:00        1.9     Murphy  Bank   
+        VT2470
+Succeeded       06-Jul-98       13:27:31        1.9     elJefe  Bank   
+        VT2463
+Succeeded       06-Jul-98       14:41:43        2.9     Antimatter     
+Bank            VT2459
+Succeeded       06-Jul-98       15:20:55        1.2     Crito   OEE
+Succeeded       06-Jul-98       15:49:01        1.3     Kolja A.       
+OEE
+Succeeded       06-Jul-98       17:20:13        2.9     G.Chaos Bank   
+        VT2464
+Succeeded       06-Jul-98       17:20:13        1.0     G.Chaos Bank   
+        VT2504
+Succeeded       06-Jul-98       17:24:29        1.0     Crito   Bank   
+        VT2503
+Succeeded       09-Jul-98       02:52:03        2.0     Harlequin      
+Bank            VT2505
+Succeeded       10-Jul-98       04:02:29        1.0     Steve   Blob
+Succeeded       11-Jul-98       21:04:03        0.2     Bank   
+Antimatter              VT2494
+Succeeded       11-Jul-98       21:04:03        0.2     Bank   
+Antimatter              VT2526
+Succeeded       11-Jul-98       21:04:03        0.8     Bank    Blob   
+        VT2482
+Succeeded       11-Jul-98       21:04:03        2.0     Bank    Blob   
+        VT2508
+Succeeded       11-Jul-98       21:04:03        0.8     Bank    Blob   
+        VT2513
+Succeeded       11-Jul-98       21:04:03        0.8     Bank    Chuck  
+        VT2489
+Succeeded       11-Jul-98       21:04:03        0.8     Bank    Chuck  
+        VT2520
+Succeeded       11-Jul-98       21:04:03        0.6     Bank    Crito  
+        VT2478
+Succeeded       11-Jul-98       21:04:03        0.8     Bank    Crito  
+        VT2485
+Succeeded       11-Jul-98       21:04:03        0.6     Bank    Crito  
+        VT2487
+Succeeded       11-Jul-98       21:04:03        0.6     Bank    Crito  
+        VT2509
+Succeeded       11-Jul-98       21:04:03        0.8     Bank    Crito  
+        VT2516
+Succeeded       11-Jul-98       21:04:03        0.6     Bank    Crito  
+        VT2518
+Succeeded       11-Jul-98       21:04:03        0.2     Bank    elJefe 
+        VT2495
+Succeeded       11-Jul-98       21:04:03        0.2     Bank    elJefe 
+        VT2527
+Succeeded       11-Jul-98       21:04:03        0.2     Bank    G.Chaos
+        VT2496
+Succeeded       11-Jul-98       21:04:03        0.2     Bank    G.Chaos
+        VT2528
+Succeeded       11-Jul-98       21:04:03        0.2     Bank   
+Harlequin               VT2497
+Succeeded       11-Jul-98       21:04:03        0.2     Bank   
+Harlequin               VT2529
+Succeeded       11-Jul-98       21:04:03        0.4     Bank    Kolja
+A.                VT2479
+Succeeded       11-Jul-98       21:04:03        0.4     Bank    Kolja
+A.                VT2510
+Succeeded       11-Jul-98       21:04:03        0.2     Bank    Macross
+        VT2498
+Succeeded       11-Jul-98       21:04:03        0.2     Bank    Macross
+        VT2530
+Succeeded       11-Jul-98       21:04:03        0.4     Bank    Michael
+        VT2483
+Succeeded       11-Jul-98       21:04:03        0.8     Bank    Michael
+        VT2484
+Succeeded       11-Jul-98       21:04:03        0.6     Bank    Michael
+        VT2488
+Succeeded       11-Jul-98       21:04:03        0.4     Bank    Michael
+        VT2514
+Succeeded       11-Jul-98       21:04:03        0.8     Bank    Michael
+        VT2515
+Succeeded       11-Jul-98       21:04:03        0.6     Bank    Michael
+        VT2519
+Succeeded       11-Jul-98       21:04:03        0.2     Bank   
+Morendil                VT2499
+Succeeded       11-Jul-98       21:04:03        0.2     Bank   
+Morendil                VT2531
+Succeeded       11-Jul-98       21:04:03        0.4     Bank    Murphy 
+        VT2486
+Succeeded       11-Jul-98       21:04:03        0.4     Bank    Murphy 
+        VT2517
+Succeeded       11-Jul-98       21:04:03        0.2     Bank    Oerjan 
+        VT2500
+Succeeded       11-Jul-98       21:04:03        0.2     Bank    Oerjan 
+        VT2532
+Succeeded       11-Jul-98       21:04:03        0.8     Bank    Steve  
+        VT2480
+Succeeded       11-Jul-98       21:04:03        0.6     Bank    Steve  
+        VT2481
+Succeeded       11-Jul-98       21:04:03        0.4     Bank    Steve  
+        VT2491
+Succeeded       11-Jul-98       21:04:03        0.4     Bank    Steve  
+        VT2492
+Succeeded       11-Jul-98       21:04:03        0.8     Bank    Steve  
+        VT2511
+Succeeded       11-Jul-98       21:04:03        0.6     Bank    Steve  
+        VT2512
+Succeeded       11-Jul-98       21:04:03        0.4     Bank    Steve  
+        VT2522
+Succeeded       11-Jul-98       21:04:03        0.4     Bank    Steve  
+        VT2523
+Succeeded       11-Jul-98       21:04:03        0.8     Bank    Swann  
+        VT2490
+Succeeded       11-Jul-98       21:04:03        0.8     Bank    Swann  
+        VT2521
+Succeeded       12-Jul-98       07:05:35        2.0     Murphy  Bank   
+        VT2525
+Succeeded       13-Jul-98       08:35:03        1.0     Kolja A.       
+Bank            VT2539
+Succeeded       13-Jul-98       14:36:06        3.0     Crito   Bank   
+        VT2537
+Succeeded       13-Jul-98       14:36:06        3.5     Crito   Bank   
+        VT2545
+Succeeded       13-Jul-98       14:36:06        1.4     Crito   OEE
+Succeeded       13-Jul-98       16:07:10        1.1     Kolja A.       
+OEE
+Succeeded       13-Jul-98       16:08:29        3.0     Kolja A.       
+Bank            VT2549
+Succeeded       13-Jul-98       16:08:29        3.5     OEE     Bank   
+        VT2557
+Succeeded       13-Jul-98       16:10:51        1.6     Morendil       
+Bank            VT2552
+Succeeded       13-Jul-98       19:51:58        1.6     Oerjan  Bank   
+        VT2554
+Succeeded       13-Jul-98       20:44:57        3.0     Blob    Bank   
+        VT2535
+Succeeded       13-Jul-98       20:44:57        2.3     Blob    Bank   
+        VT2543
+Succeeded       13-Jul-98       21:27:15        1.3     Macross Bank   
+        VT2550
+Succeeded       13-Jul-98       22:34:59        1.6     Antimatter     
+Bank            VT2542
+Succeeded       15-Jul-98       07:51:59        0.8     Murphy  Bank   
+        VT2553
+Succeeded       15-Jul-98       17:15:48        3.0     Chuck   Bank   
+        VT2536
+Succeeded       15-Jul-98       17:16:29        1.8     Chuck   Bank   
+        VT2544
+Succeeded       16-Jul-98       13:53:21        3.9     Steve   Bank   
+        VT2555
+Succeeded       16-Jul-98       13:54:20        0.2     Threat  Bank   
+        VT2558
+Succeeded       19-Jul-98       07:43:40        2.0     Steve   Bank   
+        VT2541
+Succeeded       19-Jul-98       21:04:07        28.8    Bank    Bank   
+        VT2560
+Succeeded       19-Jul-98       21:04:07        1.0     Bank    Murphy 
+        VT2534
+Succeeded       19-Jul-98       21:04:07        5.0     Bank    Pass
+the Parcel         VT2533
+Succeeded       19-Jul-98       21:08:37        5.6     Michael Bank   
+        VT2551
+Succeeded       20-Jul-98       00:53:44        2.0     Steve   Bank   
+        VT2586
+Succeeded       21-Jul-98       04:51:30        4.0     Steve   Macross
+Succeeded       21-Jul-98       09:05:53        4.0     Michael Macross
+Succeeded       22-Jul-98       03:39:28        1.0     Harlequin      
+Bank            VT2592
+Succeeded       22-Jul-98       07:03:15        1.0     Murphy  Bank   
+        VT2588
+Succeeded       22-Jul-98       16:07:33        0.5     Pass the Parcel
+Crito
+Succeeded       22-Jul-98       16:07:33        2.0     Pass the Parcel
+Harlequin
+Succeeded       22-Jul-98       16:07:33        0.5     Pass the Parcel
+Kolja A.
+Succeeded       22-Jul-98       16:07:33        2.0     Pass the Parcel
+Murphy
+Succeeded       22-Jul-98       18:48:26        1.1     elJefe  Bank   
+        VT2546
+Failed  22-Jul-98       19:24:48        3.0     Chuck   Bank
+Succeeded       23-Jul-98       01:31:12        2.0     Steve   Bank   
+        VT2595
+Failed  23-Jul-98       02:08:45        2.0     Steve   Bank           
+VT2595
+Succeeded       23-Jul-98       15:40:39        3.0     Michael Bank   
+        VT2594
+Succeeded       23-Jul-98       15:40:39        4.0     Michael Crito  
+        
+Succeeded       23-Jul-98       15:40:39        0.8     X Group Bank   
+        VT2559
+Succeeded       23-Jul-98       16:23:43        3.0     Crito   Bank   
+        VT2591
+Succeeded       23-Jul-98       16:23:43        3.0     Crito   Bank   
+        VT2596
+Succeeded       25-Jul-98       ??:??:??        0.2     Bank   
+Antimatter              VT2578
+Succeeded       25-Jul-98       ??:??:??        0.8     Bank    Blob   
+        VT2567
+Succeeded       25-Jul-98       ??:??:??        0.8     Bank    Chuck  
+        VT2574
+Succeeded       25-Jul-98       ??:??:??        0.6     Bank    Crito  
+        VT2563
+Succeeded       25-Jul-98       ??:??:??        0.8     Bank    Crito  
+        VT2570
+Succeeded       25-Jul-98       ??:??:??        0.6     Bank    Crito  
+        VT2572
+Succeeded       25-Jul-98       ??:??:??        0.2     Bank    elJefe 
+        VT2579
+Succeeded       25-Jul-98       ??:??:??        0.2     Bank    G.Chaos
+        VT2580
+Succeeded       25-Jul-98       ??:??:??        0.2     Bank   
+Harlequin               VT2581
+Succeeded       25-Jul-98       ??:??:??        0.4     Bank    Kolja  
+        VT2564
+Succeeded       25-Jul-98       ??:??:??        0.2     Bank    Macross
+        VT2582
+Succeeded       25-Jul-98       ??:??:??        0.4     Bank    Michael
+        VT2568
+Succeeded       25-Jul-98       ??:??:??        0.8     Bank    Michael
+        VT2569
+Succeeded       25-Jul-98       ??:??:??        0.6     Bank    Michael
+        VT2573
+Succeeded       25-Jul-98       ??:??:??        0.2     Bank   
+Morendil                VT2583
+Succeeded       25-Jul-98       ??:??:??        0.4     Bank    Murphy 
+        VT2571
+Succeeded       25-Jul-98       ??:??:??        0.2     Bank    Oerjan 
+        VT2584
+Succeeded       25-Jul-98       ??:??:??        0.8     Bank    Steve  
+        VT2565
+Succeeded       25-Jul-98       ??:??:??        0.6     Bank    Steve  
+        VT2566
+Succeeded       25-Jul-98       ??:??:??        0.4     Bank    Steve  
+        VT2575
+Succeeded       25-Jul-98       ??:??:??        0.4     Bank    Steve  
+        VT2576
+Succeeded       25-Jul-98       ??:??:??        0.2     Bank    Swann  
+        VT2585
+Succeeded       25-Jul-98       17:51:12        1.0     Oerjan  Bank   
+        VT2601
+Succeeded       26-Jul-98       02:34:57        2.0     Steve   Bank   
+        VT2602
+Succeeded       26-Jul-98       04:09:35        2.0     Steve   Bank   
+        VT2617
+Succeeded       26-Jul-98       18:34:11        0.5     Blob    Crito
+Succeeded       26-Jul-98       21:47:17        1.9     G.Chaos Bank   
+        VT2547
+Succeeded       27-Jul-98       14:13:58        0.7     Crito   OEE    
+        VT2547
+Succeeded       01-Aug-98       14:55:15        0.2     Bank   
+Antimatter              VT2578
+Failed  01-Aug-98       14:55:15        0.8     Bank    Blob    Blob   
+VT2567
+Succeeded       01-Aug-98       14:55:15        0.8     Bank    Chuck  
+        VT2574
+Succeeded       01-Aug-98       14:55:15        0.6     Bank    Crito  
+        VT2563
+Succeeded       01-Aug-98       14:55:15        0.8     Bank    Crito  
+        VT2570
+Succeeded       01-Aug-98       14:55:15        0.6     Bank    Crito  
+        VT2572
+Succeeded       01-Aug-98       14:55:15        0.2     Bank    elJefe 
+        VT2579
+Succeeded       01-Aug-98       14:55:15        0.2     Bank    G.Chaos
+        VT2580
+Succeeded       01-Aug-98       14:55:15        0.2     Bank   
+Harlequin               VT2581
+Succeeded       01-Aug-98       14:55:15        0.4     Bank    Kolja  
+        VT2564
+Succeeded       01-Aug-98       14:55:15        5.0     Bank    Lee    
+        VT2587
+Succeeded       01-Aug-98       14:55:15        0.2     Bank    Macross
+        VT2582
+Succeeded       01-Aug-98       14:55:15        0.4     Bank    Michael
+        VT2568
+Succeeded       01-Aug-98       14:55:15        0.8     Bank    Michael
+        VT2569
+Succeeded       01-Aug-98       14:55:15        0.6     Bank    Michael
+        VT2573
+Succeeded       01-Aug-98       14:55:15        0.2     Bank   
+Morendil                VT2583
+Succeeded       01-Aug-98       14:55:15        0.4     Bank    Murphy 
+        VT2571
+Succeeded       01-Aug-98       14:55:15        0.2     Bank    Oerjan 
+        VT2584
+Succeeded       01-Aug-98       14:55:15        0.8     Bank    Steve  
+        VT2565
+Succeeded       01-Aug-98       14:55:15        0.6     Bank    Steve  
+        VT2566
+Succeeded       01-Aug-98       14:55:15        0.4     Bank    Steve  
+        VT2575
+Succeeded       01-Aug-98       14:55:15        0.4     Bank    Steve  
+        VT2576
+Succeeded       01-Aug-98       14:55:15        0.2     Bank    Swann  
+        VT2585
+Succeeded       02-Aug-98       06:29:43 PM     3.0     Blob    Bank   
+Blob    VT2589
+Succeeded       02-Aug-98       06:29:43 PM     0.8     Blob    Bank   
+Blob
+Succeeded       03-Aug-98       12:05:39 AM     0.8     Crito   OEE    
+Crito
+Succeeded       03-Aug-98       01:56:54 AM     3.0     Chuck   Bank   
+Voting  aaa262
+Succeeded       03-Aug-98       02:16:29 AM     1.0     Murphy  Bank   
+Murphy  VT2600
+failed  03-Aug-98       09:41:17 AM     2.0     Steve   Bank    Steve  
+VT2597
+failed  03-Aug-98       11:06:28 AM     1.0     Steve   Bank    Steve  
+aaa284
+Succeeded       03-Aug-98       10:22:19 PM     1.0     Kolja A.       
+Bank    Kolja A.        VT2593
+Succeeded       03-Aug-98       10:22:34 PM     1.8     Kolja A.       
+OEE     Kolja A.
+Succeeded       04-Aug-98       12:05:39 AM     0.8     Crito   OEE    
+Crito
+Succeeded       04-Aug-98       12:33:48 AM     1.0     Crito   Bank   
+Voting  VT2598
+Succeeded       04-Aug-98       12:50:10 AM     2.0     Kolja A.       
+Bank    Kolja A.         RVTPO509
+Succeeded       06-Aug-98       06:19:48 PM     1.0     Harlequin      
+Bank    Harlequin       aaa282
+Succeeded       07-Aug-98       04:10:32 AM     1.0     Harlequin      
+Bank    Harlequin
+Succeeded       07-Aug-98       09:57:37 PM     4.0     Michael Kolja  
+Michael indulgence
+Succeeded       08-Aug-98       06:25:39 PM     3.0     Bank    Crito  
+Michael VT2629
+Succeeded       08-Aug-98       06:25:39 PM     0.8     Bank    Crito  
+Michael VT2642
+Succeeded       08-Aug-98       06:25:39 PM     0.2     Bank    elJefe 
+Michael VT2619
+Succeeded       08-Aug-98       06:25:39 PM     0.2     Bank    elJefe 
+Michael VT2652
+Succeeded       08-Aug-98       06:25:39 PM     1.0     Bank    Kolja  
+Michael VT2634
+Succeeded       08-Aug-98       06:25:39 PM     0.4     Bank    Kolja  
+Michael VT2636
+Succeeded       08-Aug-98       06:25:39 PM     0.2     Bank    Lee    
+Michael VT2655
+Succeeded       08-Aug-98       06:25:39 PM     1.0     Bank    Lee    
+Michael VT2660
+Succeeded       08-Aug-98       06:25:39 PM     0.8     Bank    Michael
+Michael VT2608
+Succeeded       08-Aug-98       06:25:39 PM     0.4     Bank    Michael
+Michael VT2640
+Succeeded       08-Aug-98       06:25:39 PM     0.8     Bank    Michael
+Michael VT2641
+Succeeded       08-Aug-98       06:25:39 PM     0.2     Bank   
+Morendil        Michael VT2657
+Succeeded       08-Aug-98       06:25:39 PM     0.4     Bank    Murphy 
+Michael VT2610
+Succeeded       08-Aug-98       06:25:39 PM     0.4     Bank    Murphy 
+Michael VT2643
+Succeeded       08-Aug-98       06:25:39 PM     0.6     Bank    Steve  
+Michael VT2605
+Succeeded       08-Aug-98       06:25:39 PM     0.8     Bank    Steve  
+Michael VT2614
+Succeeded       08-Aug-98       06:25:39 PM     0.4     Bank    Steve  
+Michael VT2615
+Succeeded       08-Aug-98       06:25:39 PM     0.4     Bank    Steve  
+Michael VT2616
+Succeeded       08-Aug-98       06:25:39 PM     0.8     Bank    Steve  
+Michael VT2637
+Succeeded       08-Aug-98       06:25:39 PM     0.8     Bank    Steve  
+Michael VT2639
+Succeeded       08-Aug-98       06:25:39 PM     0.8     Bank    Steve  
+Michael VT2647
+Succeeded       08-Aug-98       06:25:39 PM     0.4     Bank    Steve  
+Michael VT2649
+Succeeded       08-Aug-98       06:25:39 PM     0.2     Bank    Swann  
+Michael VT2659
+Succeeded       09-Aug-98       03:25:00 AM     0.2     Bank   
+Antimatter      Michael VT2618
+Succeeded       09-Aug-98       03:25:00 AM     0.2     Bank   
+Antimatter      Michael VT2651
+Succeeded       09-Aug-98       03:25:00 AM     3.0     Bank    Blob   
+Michael VT2627
+Succeeded       09-Aug-98       03:25:00 AM     0.6     Bank    Blob   
+Michael VT2635
+Succeeded       09-Aug-98       03:25:00 AM     0.8     Bank    Chuck  
+Michael VT2613
+Succeeded       09-Aug-98       03:25:00 AM     3.0     Bank    Chuck  
+Michael VT2628
+Succeeded       09-Aug-98       03:25:00 AM     0.8     Bank    Chuck  
+Michael VT2646
+Succeeded       09-Aug-98       03:25:00 AM     0.8     Bank    Crito  
+Michael VT2609
+Succeeded       09-Aug-98       03:25:00 AM     0.6     Bank    Crito  
+Michael VT2611
+Succeeded       09-Aug-98       03:25:00 AM     0.6     Bank    Crito  
+Michael VT2644
+Succeeded       09-Aug-98       03:25:00 AM     0.2     Bank    G.Chaos
+Michael VT2653
+Succeeded       09-Aug-98       03:25:00 AM     0.2     Bank    Gen    
+Michael VT2620
+Succeeded       09-Aug-98       03:25:00 AM     0.2     Bank   
+Harlequin       Michael VT2621
+Succeeded       09-Aug-98       03:25:00 AM     1.0     Bank   
+Harlequin       Michael VT2632
+Succeeded       09-Aug-98       03:25:00 AM     0.2     Bank   
+Harlequin       Michael VT2654
+Succeeded       09-Aug-98       03:25:00 AM     0.4     Bank    Kolja  
+Michael VT2603
+Succeeded       09-Aug-98       03:25:00 AM     1.0     Bank    Kolja  
+Michael VT2630
+Succeeded       09-Aug-98       03:25:00 AM     0.2     Bank    Lee    
+Michael VT2622
+Succeeded       09-Aug-98       03:25:00 AM     1.0     Bank    Lee    
+Michael
+Succeeded       09-Aug-98       03:25:00 AM     0.2     Bank    Macross
+Michael VT2623
+Succeeded       09-Aug-98       03:25:00 AM     0.2     Bank    Macross
+Michael VT2656
+Succeeded       09-Aug-98       03:25:00 AM     0.4     Bank    Michael
+Michael VT2607
+Succeeded       09-Aug-98       03:25:00 AM     0.6     Bank    Michael
+Michael VT2612
+Succeeded       09-Aug-98       03:25:00 AM     0.6     Bank    Michael
+Michael VT2645
+Succeeded       09-Aug-98       03:25:00 AM     0.2     Bank   
+Morendil        Michael VT2624
+Succeeded       09-Aug-98       03:25:00 AM     0.2     Bank    Oerjan 
+Michael VT2625
+Succeeded       09-Aug-98       03:25:00 AM     0.2     Bank    Oerjan 
+Michael VT2658
+Succeeded       09-Aug-98       03:25:00 AM     0.8     Bank    Steve  
+Michael VT2604
+Succeeded       09-Aug-98       03:25:00 AM     0.6     Bank    Steve  
+Michael VT2605
+Succeeded       09-Aug-98       03:25:00 AM     2.0     Bank    Steve  
+Michael VT2631
+Succeeded       09-Aug-98       03:25:00 AM     0.8     Bank    Steve  
+Michael VT2633
+Succeeded       09-Aug-98       03:25:00 AM     0.6     Bank    Steve  
+Michael VT2638
+Succeeded       09-Aug-98       03:25:00 AM     0.4     Bank    Steve  
+Michael VT2648
+Succeeded       09-Aug-98       03:25:00 AM     0.2     Bank    Swann  
+Michael VT2626
+Succeeded       11-Aug-98       11:12:29 PM     1.0     Kolja A.       
+MBC     Kolja A.
+Succeeded       11-Aug-98       11:12:29 PM     2.0     Kolja A.       
+MBC     Kolja A.
+Succeeded       12-Aug-98       02:29:18 PM     1.0     Bank    Lee    
+Steve
+Succeeded       12-Aug-98       10:16:49 PM     2.0     Kolja A.       
+Bank    Kolja A.        aaa292
+Succeeded       12-Aug-98       10:39:45 PM     1.0     Steve   Bank   
+Voting  aaa296
+Succeeded       13-Aug-98       12:39:21 AM     1.0     Crito   Bank   
+Voting  aaa290
+Succeeded       17-Aug-98       06:14:15 PM     1.2     Blob    Lee    
+Blob
+Succeeded       24-Aug-98       11:43:16 PM     2.0     Crito   Bank   
+Crito   aaa302
+Succeeded       25-Aug-98       01:07:59 PM     2.0     Steve   Bank   
+Steve   aaa303
+Succeeded       27-Aug-98       12:54:43 PM     0.1     Bank    Steve  
+Steve   aaa306
+Succeeded       27-Aug-98       12:54:43 PM     0.3     Bank    Steve  
+Steve   aaa307
+Succeeded       02-Sep-98       11:47:09 PM     1.0     Crito   Bank   
+Crito   aaa309
+Succeeded       03-Sep-98       01:14:02 PM     2.0     Steve   Bank   
+Steve   aaa312
+Succeeded       08-Sep-98       01:14:02 PM     1.0     Steve   Bank   
+Steve   aaa284
+Succeeded       08-Sep-98       01:14:02 PM     2.0     Steve   Bank   
+Steve   VT2597
+
+
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Sep 16 11:01 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA22087 for <dpb@cs.brown.edu>; Wed, 16 Sep 1998 11:01:43 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA18723
+	for agora-business-list; Thu, 17 Sep 1998 00:59:14 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA18720
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 17 Sep 1998 00:59:11 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id AAA02203
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 17 Sep 1998 00:59:59 +1000 (EST)
+	(envelope-from dalbertz@rmv.state.ma.us)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma002199; Thu, 17 Sep 98 00:59:49 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 16 Sep 1998 11:01:21 -0400
+Message-Id: <s5ff9a81.048@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 16 Sep 1998 11:00:33 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: DIS: Looking for Indulgences
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 467
+
+DIS: Looking for Indulgences
+
+Great!  I hereby transfer 2 Indulgences to Michael.
+
+-- Crito
+
+>>> Michael Norrish <Michael.Norrish@cl.cam.ac.uk> 09/16/98 10:52am >>>
+David Albertz writes:
+ 
+> I'm willing to sell two indulgences, as long as I don't get dinged for my
+> failure to report last week.  8)
+ 
+Sure.  There were quite a few such, and I didn't ding any of them.
+Seems to be the spirit of the age :-)
+
+H. Accountor, I hereby transfer 8 VTs to Crito.
+
+Michael.
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Sep 16 12:28 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA25143 for <dpb@cs.brown.edu>; Wed, 16 Sep 1998 12:28:29 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA19346
+	for agora-business-list; Thu, 17 Sep 1998 02:26:16 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA19340
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 17 Sep 1998 02:26:12 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id CAA02671
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 17 Sep 1998 02:27:01 +1000 (EST)
+	(envelope-from klaush@dij91.tp3.ruhr-uni-bochum.de)
+Received: from dij91.tp3.ruhr-uni-bochum.de(134.147.160.152) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma002665; Thu, 17 Sep 98 02:26:37 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id SAA10574; Wed, 16 Sep 1998 18:24:30 +0200 (DFT)
+Date: Wed, 16 Sep 1998 18:24:30 +0200 (DFT)
+Message-Id: <199809161624.SAA10574@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Moo Builders' Contest Submission
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 3621
+Lines: 115
+
+Hi all, 
+
+the October MBC is getting closer, and I'd like to start submissions
+by nominating the Underground system (as a whole), by lee, as best
+room.
+
+I'll admit that I haven't been in the MOO for some time. But it seems
+to me many of you were quite active there, so there is no reason why
+you shouldn't submit your favorite rooms or objects for October's
+competition.
+
+You may only submit objects written by members of the contest. At the
+moment, that's only lee and me. But for those of you who want to
+compete, it is still time to join the contest (mail me).
+
+Kolja A.
+
+App: MBC Statutes, in case you don't remember
+
+MOO builders' contest statutes 
+
+
+1. Contestmaster
+
+The first contestmaster is Kolja.
+
+2. Motions
+
+The statutes are changed by adopted motions. A motion is distributed
+when a member of the contest sends it to all other members. It is up
+for vote for seven days after its distribution. It takes effect when
+the contestmaster publishes the voting results to all members after
+these seven days, and if the necessary majority of votes cast for the
+motion by members of the contest in mails to the contestmaster is
+sufficient.
+
+3. Majorities
+
+Motions concerning single digit statutes need a two-thirds majority of
+all votes cast to be adopted, others need a simple majority of all
+votes cast.
+
+4. Members 
+
+Only players of Agora can become members of this contest. They may
+become members by notifying the Contestmaster and paying the Entry Fee
+to the contest.
+
+
+10. Entry and Membership Fees
+
+The Entry Fee for this Contest is 2 VTs.
+
+The Membership Fee, to be paid by each member as soon as possible
+after the first day of each month, is 1 VT.
+
+
+20. The Competition
+
+Every month, this contest organizes a MOO building competition.
+
+It is held in two categories: Best Room and Best Object.
+
+21. Submissions
+
+During the whole month, all Agora players (not just contest members)
+may nominate objects of any officially recognized MUD, MOO
+etc. created by any member of the contest as entries to the
+appropriate category of the competition.
+
+22. Survey
+
+As soon as possible after the first day of each month, the
+Contestmaster shall post a complete list of competition submissions
+made in the last month to the PF.
+
+For two weeks after this distribution all players of Agora (not just
+contest members) may cast one vote in each category of the
+competition by notifying the Contestmaster. Members of the contest may
+not vote for MOO objects they created themselves.
+
+[Comment: Should we use the Referendum structure given in the rules,
+or just a simple homemade survey as described here?]
+
+As soon as possible after the end of this survey period the
+Contestmaster shall publish all votes cast in the competition.
+
+23. Rewards
+
+Together with the publication of the survey results, the contestmaster
+shall pay out the competition rewards. 
+
+The reward for the winner of each competition category shall be a
+fraction of 1/(n+2) of the contest's currency holdings (fractions
+rounded down), where n is the number of categories.
+
+[Comment: this assures the contest always has some money left to pay
+taxes etc.]
+
+In case of a tied win in a category, the reward shall be divided
+evenly among the winners.
+
+24. No rewards for bad debtors
+
+If the winner of a category still owes the contest any currency at the
+time e is to receive the reward, and at least one of these debts is
+older than two weeks, the reward for this winner shall be cancelled.
+
+25. Officially recognized M**s
+
+AgoraMOO (netdive.com:7777) is an officially recognized MOO.
+
+[Shattered world could be added here, as could LambdaMOO and any
+other.] 
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Sep 16 12:34 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA25326 for <dpb@cs.brown.edu>; Wed, 16 Sep 1998 12:34:27 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA19407
+	for agora-business-list; Thu, 17 Sep 1998 02:32:14 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA19404
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 17 Sep 1998 02:32:12 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id CAA02708
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 17 Sep 1998 02:33:01 +1000 (EST)
+	(envelope-from klaush@dij91.tp3.ruhr-uni-bochum.de)
+Received: from dij91.tp3.ruhr-uni-bochum.de(134.147.160.152) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma002706; Thu, 17 Sep 98 02:32:43 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id SAA15710; Wed, 16 Sep 1998 18:30:47 +0200 (DFT)
+Date: Wed, 16 Sep 1998 18:30:47 +0200 (DFT)
+Message-Id: <199809161630.SAA15710@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Moo Builders' Contest Submission
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 3406
+Lines: 109
+
+Hi all, 
+
+the October MBC is getting closer, and I'd like to start submissions
+by nominating the Underground system (as a whole), by lee, as best
+room.
+
+I'll admit that I haven't been in the MOO for some time. But it seems
+to me many of you were quite active there, so there is no reason why
+you shouldn't submit your favorite rooms or objects for October's
+competition.
+
+You may only submit objects written by members of the contest. At the
+moment, that's only lee and me. But for those of you who want to
+compete, it is still time to join the contest (mail me). Remember,
+there are a lot of VTs to be won!
+
+Kolja A., MBC Contestmaster
+
+
+App: MBC Statutes, in case you don't remember
+
+MOO builders' contest statutes 
+
+
+1. Contestmaster
+
+The first contestmaster is Kolja.
+
+2. Motions
+
+The statutes are changed by adopted motions. A motion is distributed
+when a member of the contest sends it to all other members. It is up
+for vote for seven days after its distribution. It takes effect when
+the contestmaster publishes the voting results to all members after
+these seven days, and if the necessary majority of votes cast for the
+motion by members of the contest in mails to the contestmaster is
+sufficient.
+
+3. Majorities
+
+Motions concerning single digit statutes need a two-thirds majority of
+all votes cast to be adopted, others need a simple majority of all
+votes cast.
+
+4. Members 
+
+Only players of Agora can become members of this contest. They may
+become members by notifying the Contestmaster and paying the Entry Fee
+to the contest.
+
+
+10. Entry and Membership Fees
+
+The Entry Fee for this Contest is 2 VTs.
+
+The Membership Fee, to be paid by each member as soon as possible
+after the first day of each month, is 1 VT.
+
+
+20. The Competition
+
+Every month, this contest organizes a MOO building competition.
+
+It is held in two categories: Best Room and Best Object.
+
+21. Submissions
+
+During the whole month, all Agora players (not just contest members)
+may nominate objects of any officially recognized MUD, MOO
+etc. created by any member of the contest as entries to the
+appropriate category of the competition.
+
+22. Survey
+
+As soon as possible after the first day of each month, the
+Contestmaster shall post a complete list of competition submissions
+made in the last month to the PF.
+
+For two weeks after this distribution all players of Agora (not just
+contest members) may cast one vote in each category of the
+competition by notifying the Contestmaster. Members of the contest may
+not vote for MOO objects they created themselves.
+
+As soon as possible after the end of this survey period the
+Contestmaster shall publish all votes cast in the competition.
+
+23. Rewards
+
+Together with the publication of the survey results, the contestmaster
+shall pay out the competition rewards. 
+
+The reward for the winner of each competition category shall be a
+fraction of 1/(n+2) of the contest's currency holdings (fractions
+rounded down), where n is the number of categories.
+
+In case of a tied win in a category, the reward shall be divided
+evenly among the winners.
+
+24. No rewards for bad debtors
+
+If the winner of a category still owes the contest any currency at the
+time e is to receive the reward, and at least one of these debts is
+older than two weeks, the reward for this winner shall be cancelled.
+
+25. Officially recognized M**s
+
+AgoraMOO (netdive.com:7777) is an officially recognized MOO.
+
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Sep 16 13:52 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA28159 for <dpb@cs.brown.edu>; Wed, 16 Sep 1998 13:52:33 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA19794
+	for agora-business-list; Thu, 17 Sep 1998 03:50:16 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id DAA19791
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 17 Sep 1998 03:50:14 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id DAA03092
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 17 Sep 1998 03:51:02 +1000 (EST)
+	(envelope-from agoralee@schawk.com)
+Received: from click.schawk.com(205.184.253.12) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma003090; Thu, 17 Sep 98 03:50:59 +1000
+Received: from schawk-pdc (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 131; 12:47:11 PM -0500
+From: agoralee@schawk.com (Agora lee)
+To: agora-business@gecko.serc.rmit.edu.au
+Date: Wed, 16 Sep 1998 12:44:20 -0500
+Subject: BUS: COE's Accountor's report for 08-Sep-98
+Message-ID: <msg16450.thr-9d6448.f7405@Schawk.com>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg16450.thr-9d6448.f7405.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 470
+
+I sincerely hope revision 6 is ratifiable.  I believe this answers all
+Claims of error regarding this report and its revisions.  New report
+will be out soon.  Obviously these revisions affect the new report.  I
+was also able to obtain MS Access so I will be converting to a database
+from a  spread sheet which should make revisions etc. easier, and will,
+I hope, make formatting easier to control.
+
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Sep 16 18:34 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA08911 for <dpb@cs.brown.edu>; Wed, 16 Sep 1998 18:34:13 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA20808
+	for agora-business-list; Thu, 17 Sep 1998 08:29:51 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id IAA20805
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 17 Sep 1998 08:29:49 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id IAA04092
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 17 Sep 1998 08:30:38 +1000 (EST)
+	(envelope-from eljefe@eastpac.com)
+Received: from icarus.nodewarrior.net(209.48.67.3) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma004088; Thu, 17 Sep 98 08:30:12 +1000
+Received: from [208.255.72.12] by icarus.nodewarrior.net
+          (Post.Office MTA v3.5 release 215 ID# 0-52828U300L100S0V35)
+          with SMTP id net for <agora-business@gecko.serc.rmit.edu.au>;
+          Wed, 16 Sep 1998 15:24:20 -0700
+Message-Id: <3.0.5.32.19980916094537.0079fc80@mail.eastpac.com>
+X-Sender: eljefe@mail.eastpac.com
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Wed, 16 Sep 1998 09:45:37 -0700
+To: agora-business@gecko.serc.rmit.edu.au
+From: eljefe@eastpac.com (Jeff Caruso)
+Subject: BUS: Address change and Off Hold
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 293
+
+Note to registrar:
+
+My e-mail address is now eljefe@eastpac.com
+
+I hereby come Off Hold.
+
+Regards,
+-- elJefe
+
+***********************************************
+  Dr. Jeffrey L. Caruso <eljefe@eastpac.com>
+  Bitstream Corp., 262 First St. Cambridge, MA 02142
+  also at:  <jcaruso@bitstream.com>
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Sep 16 22:28 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA15797 for <dpb@cs.brown.edu>; Wed, 16 Sep 1998 22:28:00 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA22238
+	for agora-business-list; Thu, 17 Sep 1998 12:22:25 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA22233
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 17 Sep 1998 12:22:23 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id MAA05121
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 17 Sep 1998 12:23:12 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma005119; Thu, 17 Sep 98 12:23:06 +1000
+Received: From mozart With LocalMail ; Thu, 17 Sep 98 12:21:14 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-business@gecko.serc.rmit.edu.au (Nomic Business)
+Date: Thu, 17 Sep 1998 12:21:14 +1000 (EST)
+Message-Id:  <980917022114.26235@cse.unsw.edu.au>
+Subject: BUS: OFF: Accountor's report for 8Sep98 rev.6 (fwd)
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2534
+
+Forwarded message:
+>                      
+> VACATED   PAYMENT   ORDERS               
+> ID   Exec.   Vacated   Amt.   Payor   Payee   Executor   
+>                      
+> VT2266   08May98   30Jun98   2.0    Sherlock   Bank   Voting   
+> VT2455   28Jun98   28Jun98   1.0    Macross   Bank   Voting   
+> VT2477   01Jul98   16Jul98   0.1    Sherlock   Bank   Accountor   
+> VT2535   13Jul98   22Jul98   3.0    Blob   Bank   Voting   
+> VT2536   13Jul98   22Jul98   3.0    Chuck   Bank   Voting   
+> VT2537   13Jul98   22Jul98   3.0    Crito   Bank   Voting   
+> VT2538   13Jul98   22Jul98   1.0    Harlequin   Bank   Voting   
+> VT2539   13Jul98   22Jul98   1.0    Kolja A.   Bank   Voting   
+> VT2540   13Jul98   22Jul98   3.0    Michael   Bank   Voting   
+> VT2541   13Jul98   22Jul98   2.0    Steve   Bank   Voting   
+> VT2561   17Jul98   22Jul98   3.0    Crito   Bank   Registrar   
+> VT2562   17Jul98   22Jul98   2.0    Steve   Bank   Registrar   
+> VT2567   18Jul98   27Jul98   0.8    Bank   Blob   Registrar   
+> VT2577   18Jul98   19Jul98   2.0    Blob   Bank   Registrar   
+> VT2606   25Jul98   27Jul98   0.8    Bank   Blob   Registrar   
+> RVTPO606   31_Aug_98    30_Aug_98    0.8    Bank   Steve   Registrar   
+
+You are missing some vacations ordered by Michael:
+>
+> Date: Mon, 7 Sep 1998 10:38:09 +0100 (BST)
+> Subject: OFF: official salaries correction
+> 
+> I hereby vacate RVTPO577, which paid Crito a salary for the week
+> ending the 16th, when in fact Blob had come into office on the 13th.
+> Blob doesn't get a salary for that week though as he hadn't been in
+> Office for five days or more. 
+> 
+> I also vacate RVTPO603, which paid Crito a salary for the week ending
+. the 23rd.  I also order the Bank to pay Blob 0.6 VTs (RVTPO654) as his
+> Promotor's salary for that week.  I finally order the vacation of
+> RVTPO612, which was Blob's unemployment benefit for that week.
+> 
+> I also vacate RVTPO628, which paid Crito a salary for the week ending
+> the 30th.  I also order the Bank to pay Blob 0.6 VTs (RVTPO655) as his
+> Promotor's salary for that week.  I finally order the vacation of
+> RVTPO637, which was Blob's unemployment benefit for that week. 
+
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+

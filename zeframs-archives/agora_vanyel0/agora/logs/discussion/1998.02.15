@@ -1,0 +1,2751 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 00:28 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA23503 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 00:28:42 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA16860
+	for agora-discussion-list; Sun, 15 Feb 1998 16:24:06 +1100
+Received: from silas.cc.monash.edu.au (silas.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA16857
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 16:24:04 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id QAA24170
+	for agora-discussion@gecko.serc.rmit.edu.au; Sun, 15 Feb 1998 16:26:54 +1100 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199802150526.QAA24170@silas.cc.monash.edu.au>
+Subject: DIS: Re: OFF: revolt consequences
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 15 Feb 1998 16:26:53 +1100 (EST)
+In-Reply-To: <E0y3HFl-0005WG-00@merganser.cl.cam.ac.uk> from "Michael Norrish" at Feb 13, 98 09:17:49 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 836
+
+Michael Norrish wrote:
+>
+>First stage: 
+>
+>Steve becomes Speaker.  This requires Morendil to initiate a Speaker
+>Transition (see rule 402).  
+>
+>R1664 says: "If a revolt occurs, then: 
+>               - The Speaker-Elect becomes Speaker"
+>
+>R402 says: "Whenever the Rules call for the Speaker-Elect to become
+>            Speaker..." 
+>
+>R402 does allow for immediate speaker transitions, but R1664 doesn't
+>call for such (compare with R1581 which does).
+
+R1664 doesn't use the word 'immediate', but I believe its Statement
+that "the Speaker-Elect becomes Speaker' has the same effect. This is
+certainly how we've read R1664 in the past.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 00:36 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA23570 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 00:36:10 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA16944
+	for agora-discussion-list; Sun, 15 Feb 1998 16:31:27 +1100
+Received: from silas.cc.monash.edu.au (silas.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA16941
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 16:31:25 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id QAA31433
+	for agora-discussion@gecko.serc.rmit.edu.au; Sun, 15 Feb 1998 16:34:17 +1100 (EST)
+Received: from ALPHA8.CC.MONASH.EDU.AU (alpha8.cc.monash.edu.au [130.194.1.8])
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) with ESMTP id DAA10051
+	for <gardner@silas.cc.monash.edu.au>; Sat, 14 Feb 1998 03:34:40 +1100 (EST)
+Registered-mail-reply-requested-by: chet@po.CWRU.Edu
+Received: from nike.ins.cwru.edu (chet@nike.INS.CWRU.Edu)
+ by vaxh.cc.monash.edu.au (PMDF V5.1-10 #20655)
+ with ESMTP id <01ITK0GPENPM8ZIGS2@vaxh.cc.monash.edu.au> for
+ gardner@silas.cc.monash.edu.au; Sat, 14 Feb 1998 03:34:36 +1100
+Received: (chet@localhost) by nike.ins.cwru.edu (8.8.7/CWRU-2.5-bsdi)
+ id LAA27546; Fri, 13 Feb 1998 11:31:57 -0500 (EST from chet)
+Date: Fri, 13 Feb 1998 11:31:13 -0500
+From: Chet Ramey <chet@nike.ins.cwru.edu>
+Subject: DIS: Re: Problems with Swann's address
+In-reply-to: Message from gardner@silas.cc.monash.edu.au of Fri,
+ 13 Feb 1998 14:30:43 +1100 (EST)
+ (id <199802130330.OAA13961@silas.cc.monash.edu.au>)
+To: gardner@silas.cc.monash.edu.au
+Cc: chet@po.cwru.edu
+Message-id: <980213163113.AA27543.SM@nike.ins.cwru.edu>
+MIME-version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 709
+
+> As Distributor, this is my responsibility. Gecko is reporting problems
+> with Swann's address, as follows:
+> 
+>    ----- The following addresses had permanent fatal errors -----
+> <gb485@cleveland.freenet.edu>
+> 
+>    ----- Transcript of session follows -----
+> Segmentation fault
+> m2mbox.real: cannot stat /u2/1/gb485/mbox to check if mail file: No such file or
+>  directory
+> 550 <gb485@cleveland.freenet.edu>... Insufficient permission: Undefined error: 0
+
+This was due to the machine holding his home directory, where mail is
+delivered, crashing.  It's fixed now.
+
+-- 
+``The lyf so short, the craft so long to lerne.'' - Chaucer
+
+Chet Ramey, Case Western Reserve University	Internet: chet@po.CWRU.Edu
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 00:45 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA23647 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 00:45:25 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA17008
+	for agora-discussion-list; Sun, 15 Feb 1998 16:41:08 +1100
+Received: from silas.cc.monash.edu.au (silas.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA17005
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 16:41:06 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id QAA03119
+	for agora-discussion@gecko.serc.rmit.edu.au; Sun, 15 Feb 1998 16:43:59 +1100 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199802150543.QAA03119@silas.cc.monash.edu.au>
+Subject: Re: DIS: Re: OFF: INP360: Agora referendum result
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 15 Feb 1998 16:43:59 +1100 (EST)
+In-Reply-To: <34E520E3.19088BC2@interworx.com.au> from "Kieron Jarvis" at Feb 14, 98 03:43:16 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 714
+
+Kieron Jarvis wrote:
+>
+>> Unfortunately Jester, while he added a very nice little song to his
+>> vote, didn't send it to a public forum, so his vote doesn't count. I'm
+>> relieved to say, though, that quorum is met anyway, and the result
+>> unchanged.
+>
+>Didn't someone say a couple of weeks ago that INP votes didn't have to go
+>to the PF ?
+
+No, they said that INP votes couldn't be changed once cast. Public voting
+applies to Proposals, Referenda, and - nota bene in light of the recent
+Revolt! - Elections alike.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 00:58 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA23762 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 00:58:24 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA17070
+	for agora-discussion-list; Sun, 15 Feb 1998 16:52:36 +1100
+Received: from silas.cc.monash.edu.au (silas.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA17067
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 16:52:34 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id QAA32259
+	for agora-discussion@gecko.serc.rmit.edu.au; Sun, 15 Feb 1998 16:55:22 +1100 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199802150555.QAA32259@silas.cc.monash.edu.au>
+Subject: Re: DIS: Re: Rebellion & Perpetuity
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 15 Feb 1998 16:55:21 +1100 (EST)
+In-Reply-To:  <980214033603.5470@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Feb 14, 98 02:36:03 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 611
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>Of course, as we have shown, some Officers can escape the revolution,
+>which is a bug that needs to be fixed. One of my fellow Threats should
+>be proposing such a fix sometime soon. Steve?
+
+I'm on it. The proto will handle the Delegation/Revolt bug, aswell
+as the Delegation/Perpetuity bug, but leave the Perpetuity/Revolt
+feature alone. It'll be hitting the stands tomorrow.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 07:24 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA01989 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 07:24:37 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA18494
+	for agora-discussion-list; Sun, 15 Feb 1998 23:19:47 +1100
+Received: from macros.interworx.com.au ([203.37.133.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA18479
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 23:19:40 +1100
+Received: from interworx.com.au (pppd-12.interworx.com.au [203.37.133.51])
+          by macros.interworx.com.au (post.office MTA v2.0 0813
+          ID# 196-33571U1010) with ESMTP id AAA257
+          for <agora-discussion@gecko.serc.rmit.edu.au>;
+          Sun, 15 Feb 1998 22:27:52 +1100
+Message-ID: <34E66C32.A7DBBF6B@interworx.com.au>
+Date: Sun, 15 Feb 1998 15:16:51 +1100
+From: Kieron Jarvis <KJarvis@interworx.com.au>
+X-Mailer: Mozilla 4.04 [en] (Win95; I)
+MIME-Version: 1.0
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: BUS: Kudo transfers
+References: <E0y3HUO-0005Wb-00@merganser.cl.cam.ac.uk>
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 518
+
+> I hereby transfer 1 Kudo from Steve to Kolja A.
+>   I make this transfer from Steve because he and his cohorts' little
+>   loophole exploitation is going to cause me a lot of work for little
+>   point.
+
+Please explian the loophole exploitation to the newbie. I have no idea
+what loophole that is. I have been trying to fathom what the purpose of
+the rebellion was ?  I had already gathered that it wasn't just to force
+fresh elections for the elections sakes.
+
+Jester
+-- 
+You'll find that common sense rarely is.
+
+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 07:24 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA01991 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 07:24:41 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA18488
+	for agora-discussion-list; Sun, 15 Feb 1998 23:19:44 +1100
+Received: from macros.interworx.com.au ([203.37.133.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA18480
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 23:19:41 +1100
+Received: from interworx.com.au (pppd-12.interworx.com.au [203.37.133.51])
+          by macros.interworx.com.au (post.office MTA v2.0 0813
+          ID# 196-33571U1010) with ESMTP id AAA244
+          for <agora-discussion@gecko.serc.rmit.edu.au>;
+          Sun, 15 Feb 1998 22:27:54 +1100
+Message-ID: <34E6845D.8A0E3D8A@interworx.com.au>
+Date: Sun, 15 Feb 1998 16:59:58 +1100
+From: Kieron Jarvis <KJarvis@interworx.com.au>
+X-Mailer: Mozilla 4.04 [en] (Win95; I)
+MIME-Version: 1.0
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Comment on Proposal queue
+References: <Pine.LNX.3.96.980214012318.7652D-100000@tyrell.nvg.ntnu.no>
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 726
+
+
+
+Orjan Johansen wrote:
+
+> On Fri, 13 Feb 1998, Scott Goehring wrote:
+>
+> > Andrew> Does anything rule out zero-size batches?
+> >
+> > I, personally, would not consider that to be a batch.
+>
+> Well, then I don't see why 1-size batches should count either.
+
+<snip from the rule>Each week, the Promotor shall distribute a batch of
+_Proposals_.
+      These are the only _Proposals_ e is allowed to distribute that
+      week.
+
+I see the plural here. My understanding would be then that neither a
+batch of 0 or 1 is 'a batch of Proposals'. Time to amend the rule
+already. Before the lack of proposals forces the game into paradox (here
+we go again with paradox discussions).
+
+Jester
+-- 
+You'll find that common sense rarely is.
+
+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 07:24 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA01995 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 07:24:43 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA18496
+	for agora-discussion-list; Sun, 15 Feb 1998 23:19:48 +1100
+Received: from macros.interworx.com.au ([203.37.133.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA18491
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 23:19:45 +1100
+Received: from interworx.com.au (pppd-12.interworx.com.au [203.37.133.51])
+          by macros.interworx.com.au (post.office MTA v2.0 0813
+          ID# 196-33571U1010) with ESMTP id AAA80
+          for <agora-discussion@gecko.serc.rmit.edu.au>;
+          Sun, 15 Feb 1998 22:27:57 +1100
+Message-ID: <34E687B8.3E86C72D@interworx.com.au>
+Date: Sun, 15 Feb 1998 17:14:20 +1100
+From: Kieron Jarvis <KJarvis@interworx.com.au>
+X-Mailer: Mozilla 4.04 [en] (Win95; I)
+MIME-Version: 1.0
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: Split the Assessor's functions
+References: <9802111417.AA15230@dij91.tp3.ruhr-uni-bochum.de>
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 898
+
+> Thring
+>
+> Can't remember any IN activities of this nomic.
+
+I have been watching (and very minorly participating in) Thring. They came
+out of a MUD and seem to be trying to keep that MUD feeling in the Nomic.
+It doesn't appear to be working out. A week ago they were asking who was
+still playing. I think this Nomic has good takeover potential. It is only
+small and there is already an Agoran spy there ;o).
+
+Another Nomic that seems to be dying and is crying out for new members
+right now is SloNomic. With 4 players at last count they also would be
+prime candidates for a takeover.
+
+The bottom line I suppose is what do we hope to gain from these takeovers
+?  New Players ?  I would think that a lot of players in smaller Nomics
+are staying in a small Nomic because it is small. If it joined a large
+Nomic then they would probably leave.
+
+Jester
+-- 
+You'll find that common sense rarely is.
+
+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 09:40 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA03110 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 09:40:34 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA19246
+	for agora-discussion-list; Mon, 16 Feb 1998 01:35:32 +1100
+Received: from scott (scott.skidmore.edu [141.222.1.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA19243
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 01:35:29 +1100
+Received: from placid.skidmore.EDU by scott (SMI-8.6/SMI-SVR4)
+	id JAA06102; Sun, 15 Feb 1998 09:37:30 -0500
+Received: by placid.skidmore.EDU (SMI-8.6/SMI-SVR4)
+	id JAA06565; Sun, 15 Feb 1998 09:40:44 -0500
+From: jfry@scott.skidmore.edu (Jonathan Fry)
+Message-Id: <199802151440.JAA06565@placid.skidmore.EDU>
+Subject: DIS: Re: BUS: Kudo transfers
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 15 Feb 1998 09:40:44 -0500 (EST)
+In-Reply-To: <34E6C170.F9A46830@interworx.com.au> from "Kieron Jarvis" at Feb 15, 98 09:20:32 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 966
+
+Kieron Jarvis writes:
+> Herald, I hereby transfer one Kudo from G.Chaos for effectively negating
+> the
+> penalty of Michael's first (legitimately reasoned) Kudo transfer,
+> without giving
+> a satisfactory reason for the transfer to Steve. I transfer this Kudo to
+> Sherlock as e has been making an effort to contribute to the game. (My
+> little
+> contribution towards the game's greatest assets)
+
+That's awfully kind of you.  Next time I have something extra to offer
+(Indulgences, VT's, etc), I'll keep you in mind.
+			
+					--Sherlock
+
++->---->---->---->---->---->---->---->---->---->---->---->---->---->-+
+| It's time we see that thought is free so don't stand in front of   |
+| me and what I believe / Smitten by the unseen hand / Kneeling down |
+| to its command / Victims of a rich man's game / But truth crushed  |
+| shall rise again - Ken Tamplin -----------[jfry@skidmore.edu]------|
++--<----<----<----<----<----<----<----<----<----<----<----<----<----<+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 09:46 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA03151 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 09:46:08 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA19291
+	for agora-discussion-list; Mon, 16 Feb 1998 01:41:42 +1100
+Received: from scott (scott.skidmore.edu [141.222.1.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA19288
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 01:41:39 +1100
+Received: from placid.skidmore.EDU by scott (SMI-8.6/SMI-SVR4)
+	id JAA06344; Sun, 15 Feb 1998 09:43:53 -0500
+Received: by placid.skidmore.EDU (SMI-8.6/SMI-SVR4)
+	id JAA06642; Sun, 15 Feb 1998 09:47:07 -0500
+From: jfry@scott.skidmore.edu (Jonathan Fry)
+Message-Id: <199802151447.JAA06642@placid.skidmore.EDU>
+Subject: DIS: BUS: Jester's Kudo Transfers
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 15 Feb 1998 09:47:06 -0500 (EST)
+In-Reply-To: <34E6C170.F9A46830@interworx.com.au> from "Kieron Jarvis" at Feb 15, 98 09:20:32 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1115
+
+Kieron Jarvis writes:
+ [ Three Kudo transfers...]
+
+Jester,
+ I'm sorry to have to point this out, but:
+
+ Rule 1378/3 (Power=1)
+ Kudo Transfers
+
+       A single Kudo shall be transferred from one Player (the
+       "Victim") to a second Player (the "Beneficiary") when a Player
+       (the "Transferer") sends a message to the Herald indicating that
+       e is transferring a Kudo from the Victim to the Beneficiary, and
+       all the following conditions hold:
+
+        a) the Transferer has not, during the current Nomic Week,
+          previously caused two or more Kudo transfers;
+
+If I read that right, I believe your last Kudo transfer to Time Agent
+is invalid.
+
+						--Sherlock
+
++->---->---->---->---->---->---->---->---->---->---->---->---->---->-+
+| It's time we see that thought is free so don't stand in front of   |
+| me and what I believe / Smitten by the unseen hand / Kneeling down |
+| to its command / Victims of a rich man's game / But truth crushed  |
+| shall rise again - Ken Tamplin -----------[jfry@skidmore.edu]------|
++--<----<----<----<----<----<----<----<----<----<----<----<----<----<+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 09:50 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA03197 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 09:50:57 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA19325
+	for agora-discussion-list; Mon, 16 Feb 1998 01:44:43 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA19322
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 01:44:39 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Sun, 15 Feb 1998 09:54:54 -0500
+Message-Id: <s4e6bb6e.031@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Sun, 15 Feb 1998 09:54:11 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: BUS: Kudo transfers
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1730
+
+Re: BUS: Kudo transfers
+
+Jester,
+
+Talk about reading the Rules.  8)  You are only allowed two Kudo transfers per
+week.  The last of these was ineffective.  You will have to re-issue this one
+next week to complete your "round-robin" of transfers.
+
+Regards,
+Crito
+
+>>> Kieron Jarvis <KJarvis@interworx.com.au> 02/15/98 05:20am >>>
+> Michael> Herald, I further transfer 1 Kudo from General Chaos to Time Agent.
+> Michael> This is done Kbecause I feel like it.
+>
+> I hereby transfer one Kudo from Michael to Steve, because "I feel like
+> it" is not a reasonable justification for a Kudo transfer.
+
+Herald, I hereby transfer one Kudo from G.Chaos for effectively negating
+the
+penalty of Michael's first (legitimately reasoned) Kudo transfer,
+without giving
+a satisfactory reason for the transfer to Steve. I transfer this Kudo to
+Sherlock as e has been making an effort to contribute to the game. (My
+little
+contribution towards the game's greatest assets)
+
+Herald, I hereby transfer one Kudo from Time Agent to G.Chaos as this
+effectively reverses the original 'bad' transfer. I transfer the Kudo
+from Time
+Agent as I believe that Kudos should be given for a reason and the Kudo
+in
+question was not given with reasonable justification. I transfer it to
+G.Chaos
+as I beleive that Kudos should be taken for a reason and the Kudo in
+question
+was not taken without reasonable justification.
+
+Herald, lastly I transfer one Kudo from myself to Time Agent. I transfer
+it from
+myself as I have still not read the ruleset completely (despite RTRW and
+the
+best intentions). I transfer it to Time Agent as e also has been making
+an
+effort to contribute to the game. (My other little contribution towards
+the
+game's greatest assets)
+
+Jester  ;oP
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 10:43 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA03654 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 10:42:59 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA19532
+	for agora-discussion-list; Mon, 16 Feb 1998 02:38:29 +1100
+Received: from belize.ucs.indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA19529
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 02:38:26 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-193.ucs.indiana.edu [156.56.126.193])
+	by belize.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id KAA13960
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 10:41:02 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id KAA00445 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 10:40:59 -0500
+Message-Id: <199802151540.KAA00445@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Comment on Proposal queue 
+In-reply-to: Your message of "Sun, 15 Feb 1998 16:59:58 +1100."
+             <34E6845D.8A0E3D8A@interworx.com.au> 
+Date: Sun, 15 Feb 1998 10:40:58 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 608
+
+
+"Kieron" == Kieron Jarvis <KJarvis@interworx.com.au> writes:
+
+Kieron> I see the plural here. My understanding would be then that
+Kieron> neither a batch of 0 or 1 is 'a batch of Proposals'. Time to
+Kieron> amend the rule already. Before the lack of proposals forces
+Kieron> the game into paradox (here we go again with paradox
+Kieron> discussions).
+
+Wouldn't be a paradox; just a case where the Promotor is required to
+do something impossible.  Most unfortunate for the Promotor.
+(Actually not; the Promotor could avoid the situation by submitting
+enough Proposals of eir own to make for two in the queue.)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 11:24 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA04081 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 11:24:38 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA19739
+	for agora-discussion-list; Mon, 16 Feb 1998 03:20:09 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id DAA19736
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 03:20:05 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 9296]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49634-23925>; Sun, 15 Feb 1998 17:22:45 +0100
+Date: 	Sun, 15 Feb 1998 17:22:26 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Comment on Proposal queue
+In-Reply-To: <34E6845D.8A0E3D8A@interworx.com.au>
+Message-ID: <Pine.LNX.3.96.980215171728.28887D-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 931
+
+On Sun, 15 Feb 1998, Kieron Jarvis wrote:
+
+> Orjan Johansen wrote:
+> 
+> > Well, then I don't see why 1-size batches should count either.
+> 
+> <snip from the rule>Each week, the Promotor shall distribute a batch of
+> _Proposals_.
+>       These are the only _Proposals_ e is allowed to distribute that
+>       week.
+> 
+> I see the plural here. My understanding would be then that neither a
+> batch of 0 or 1 is 'a batch of Proposals'. Time to amend the rule
+> already. Before the lack of proposals forces the game into paradox (here
+> we go again with paradox discussions).
+
+Well, I was just playing devil's advocate - personally I think both 0 and
+1 are good batches.  But then, I'm a mathematician, and one of the basic
+principles of modern mathematics is to treat the trivial cases on an equal
+footing when possible.
+
+The ancient Greeks didn't consider 1 a number, I've heard.
+
+Greetings,
+Ørjan.
+
+-- 
+Stop .signature plagiarism!
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 11:31 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA04165 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 11:31:10 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA19784
+	for agora-discussion-list; Mon, 16 Feb 1998 03:27:00 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id DAA19778
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 03:26:57 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA22675; Sun, 15 Feb 98 10:30:21 CST
+Message-Id: <9802151630.AA22675@dfw.dfw.net>
+Subject: Re: DIS: Agora Archives
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 15 Feb 1998 10:30:20 -0600 (CST)
+In-Reply-To:  <980213013344.629@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Feb 13, 98 12:33:43 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 148
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>
+>Do Vanyel's Agora Archive's still exist? If so, what is the URL?
+
+http://www.cs.brown.edu/~dpb/agora/
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 11:34 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA04188 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 11:34:12 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA19820
+	for agora-discussion-list; Mon, 16 Feb 1998 03:30:02 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id DAA19814
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 03:29:59 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA22911; Sun, 15 Feb 98 10:33:23 CST
+Message-Id: <9802151633.AA22911@dfw.dfw.net>
+Subject: Re: DIS: Public vs Private funding
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 15 Feb 1998 10:33:23 -0600 (CST)
+In-Reply-To: <34E2E9EE.B751EE06@interworx.com.au> from "Kieron Jarvis" at Feb 12, 98 11:24:14 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 422
+
+Kieron Jarvis wrote:
+>
+>2.)    If we are busy paying for all sorts of reports and services and
+>proposal queues and such. How are we supposed to find any VTs to use
+>for.....um.......oh yeah......VOTING !
+
+If we all have plenty of VTs, it doesn't mean anything to pay
+an author for eir report.  Kinda like in real life, where if
+you buy one thing, that probably means you can't have something
+else that you wanted.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 11:35 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA04227 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 11:35:48 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA19831
+	for agora-discussion-list; Mon, 16 Feb 1998 03:30:35 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id DAA19827
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 03:30:32 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA22940; Sun, 15 Feb 98 10:33:56 CST
+Message-Id: <9802151633.AA22940@dfw.dfw.net>
+Subject: Re: DIS: Re: Rebellion & Perpetuity
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 15 Feb 1998 10:33:56 -0600 (CST)
+In-Reply-To:  <980214033603.5470@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Feb 14, 98 02:36:03 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 301
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>I regard perpetuity as an infinite term of service. No election should
+>be held in the normal course of events, but Rebellions are about 
+>throwing the normal world on its head, and not even perpetual officers
+>should be immune to this.
+
+I agree with Blob.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 11:38 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA04271 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 11:38:31 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA19873
+	for agora-discussion-list; Mon, 16 Feb 1998 03:33:53 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id DAA19870
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 03:33:50 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA23182; Sun, 15 Feb 98 10:37:14 CST
+Message-Id: <9802151637.AA23182@dfw.dfw.net>
+Subject: Re: DIS: Re: BUS: Kudo transfers
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 15 Feb 1998 10:37:13 -0600 (CST)
+In-Reply-To: <34E66C32.A7DBBF6B@interworx.com.au> from "Kieron Jarvis" at Feb 15, 98 03:16:51 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 378
+
+Kieron Jarvis wrote:
+>
+>Please explian the loophole exploitation to the newbie. I have no idea
+>what loophole that is. I have been trying to fathom what the purpose of
+>the rebellion was ?  I had already gathered that it wasn't just to force
+>fresh elections for the elections sakes.
+
+By delegating their offices prior to the Revolt, they don't have to
+face an election.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 11:59 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA04539 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 11:59:31 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA19974
+	for agora-discussion-list; Mon, 16 Feb 1998 03:55:16 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id DAA19971
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 03:55:12 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA24212; Sun, 15 Feb 98 10:58:37 CST
+Message-Id: <9802151658.AA24212@dfw.dfw.net>
+Subject: DIS: Rule Changes due to Proposals 3680-3687
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Discussion)
+Date: Sun, 15 Feb 1998 10:58:36 -0600 (CST)
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1551
+
+
+This report is preliminary, unofficial, and advisory only.
+An official version will be posted when I have evaluated
+the attempted Rule Changes more thoroughly.
+
+Proposals which do not enact any Rule Changes are not
+listed here.
+
+*=A Payment Order will be issued in accordance with Rule 947
++=A Payment Order will be issued in accordance with Rule 1751
+NPRC=Non-Proposed Rule Change
+
+Prop  Proposer  Rule Change  Title of New Rule
+----  --------  -----------  -----------------
+3682  Morendil  Amend  1601
+3683* R-O-M     Repeal 1763
+3684* Blob      Amend  1036
+                Create 1770  Distributing Proposals
+                Create 1771  Increasing Priority
+                Create 1772  Promotor's Privilege
+                Create 1773  Decreasing Priority
+                Create 1774  Discarding Proposals from the Queue
+                Repeal 1702
+                Amend  1623
+                Amend  1723
+                Amend  1724
+                Amend   833
+3685  Steve     Amend  1664
+3686+ Swann     Create 1775  Points and Scoring
+                Create 1776  the Scorekeepor
+                Create 1777  Winning Scores
+                Create 1778  Initiating an Endgame Procedure
+                Create 1779  Challenging an Endgame Procedure
+                Create 1780  Losing Eligibility to Win
+                Create 1781  Termination of the Endgame Procedure
+                Create 1782  Changing a Player's Score
+                Create 1783  Ordering Changes in a Player's Score
+                Create 1784  The Omnibus Scoring Rule
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 14:20 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA06514 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 14:19:57 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA20496
+	for agora-discussion-list; Mon, 16 Feb 1998 06:12:20 +1100
+Received: from roatan.ucs.indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id GAA20487
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 06:10:29 +1100
+Received: from poverty.bloomington.in.us (scott@dial-126-193.ucs.indiana.edu [156.56.126.193])
+	by roatan.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id OAA17882
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 14:12:45 -0500 (EST)
+Received: (from scott@localhost) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) id OAA00815 for agora-discussion@gecko.serc.rmit.edu.au; Sun, 15 Feb 1998 14:12:38 -0500
+Date: Sun, 15 Feb 1998 14:12:38 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Message-Id: <199802151912.OAA00815@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: proto: The Omnibus Reform Act of 1998 (Chaos22, rev. 14)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 37850
+
+Protoproposal Chaos22 [rev. 14]
+
+The Omnibus Reform Act of 1998
+
+| [Note: This proposal would create several small new Rules.  Many of
+|  them are the result of "slice & dice" on old long rules.  I believe
+|  that it's easier to understand several small rules than one big one.
+|  To this end, I have sought to divide Rules up as much as possible,
+|  keeping otherwise separable provisions in a single Rule only when
+|  necessary to support a precedence demand.
+
+ Also, I would appreciate a title analysis.]
+
+----------------------------------------------------------------------
+
+Title I: Orders
+
+Chapter 1: Definition ------------------------------------------------
+
+Be it therefore resolved, that the following Rule be enacted:
+
+      An Order is a command, executed by a Player and directed to some
+      entity requiring that entity to perform exactly one action, or
+      to refrain from performing one or more actions.  
+
+      An Order may be directed to the holder of an Office or other
+      official position in eir capacity as that Office or other
+      official position, and in this case if the Office or position
+      changes hands before the Order is satisfied, the duty to abide
+      by the Order automatically attaches to the new holder of that
+      Office or position.  
+
+      Notwithstanding the foregoing, an Order, the purpose of which is
+      to affect the operation of a prior Order, is as valid as any
+      other Order, and is said to be directed at the prior Order it
+      affects.
+
+Be it further resolved, that the following Rule be enacted:
+
+      There are four classes of Order: Administrative, Judicial,
+      Appellate, and Private.  
+
+      A Judicial Order is an Order executed by a Player while acting
+      as a Judge.
+
+      An Appellate Order is an Order executed by a Board of Appeals.
+
+      An Administrative Order is an Order executed by the holder of an
+      Office or other official position (such as the Speaker or the
+      Recordkeepor of a Currency) other than that of a Judge or
+      Justice, in the course of performing the duties of that Office
+      or position.
+
+      A Private Order is any other sort of Order.
+
+Be it further resolved, that the following Rule be enacted:
+
+      An Order which commands the performance of an action may specify
+      when that action is to be performed; if no specification is
+      given, or if the specification given would require the
+      performance of the action at a time when the Order is without
+      effect, the Order shall be taken to require the performance of
+      the action as soon as possible after the Order takes effect.
+
+      This Rule defers to any Rule which establishes regulations
+      relating to the performance of duties required by various sorts
+      of Orders, and only establishes the time by which an Order must
+      be performed.  The noncompliance of an Order with this Rule does
+      not deprive that Order of all effect, but instead modifies the
+      effect of that Order with respect to the time at which or by
+      which the actions it requires must be performed.
+      
+Chapter 2: Validity of Orders ----------------------------------------
+
+Be it further resolved, that the following Rule be enacted:
+
+      All Orders executed in the manner prescribed by the Rules for
+      their class and type are presumed valid and enforceable until
+      proven otherwise by CFJ.  
+
+      In order to be proven valid by CFJ, the Rules must permit the
+      Player who executed the Order in question to execute such an
+      Order, that the execution of the Order must have been required
+      by or permitted in the circumstances which existed at the time
+      it was executed, and that the Order has not been rendered
+      invalid by the operation of any other Rule.
+
+      Furthermore, no Order may act to prevent or hinder its own
+      appeal in any way, and any portion of an Order which has this
+      effect is void and without force.
+
+Be it further resolved, that the following Rule be enacted:
+
+      Knowingly and willfully executing invalid Orders constitutes the
+      Class B Crime of Abuse of Authority.
+
+Be it further resolved, that the following Rule be enacted:
+
+      A Player who performs as required by an Order which is later
+      found to be invalid is not liable for eir actions; but other
+      Rules may establish procedures for correcting or remedying
+      such circumstances when they occur.
+
+Chapter 3: Amendment, Stay, and Vacation of Orders -------------------
+
+Be it further resolved, that the following Rule be enacted:
+
+      Any Order may always be amended, stayed, or vacated by the
+      Player (or, in the case of Appellate Orders, Board of Appeal)
+      who executed it.  Certain classes of Orders may be amended,
+      stayed, or vacated in other circumstances as well, when the
+      Rules so allow.  In all cases, this is done by an Order to
+      Amend, Stay, or Vacate, respectively, the original Order.
+
+      Otherwise, an Order shall not be amended, stayed, vacated, or
+      otherwise changed once executed.
+
+Be it further resolved, that the following Rule be enacted:
+
+      The effect of amending an Order is to cause it to be effective
+      in its amended form.  The prior form of the Order ceases to have
+      effect upon the amendment, and the new form has effect as if it
+      had been originally executed in that form at the moment the
+      amendment becomes effective.  
+
+      Vacating an Order to Amend has the same effect as would an Order
+      to Amend reinstating the previous form of the Order.
+
+      Amending a stayed or vacated Order does not grant the stayed or
+      vacated Order effect it would otherwise not have.
+
+Be it further resolved, that the following Rule be enacted:
+
+      The effect of staying an Order is to temporarily deny the stayed
+      Order from having any effect.  
+
+      A stay may be ordered for a fixed time, in which case the stay
+      expires at the time specified; or for an indefinite time, in
+      which case the stay will not expire.  If no specification is
+      made in the Order to Stay, the stay shall be indefinite.  
+
+      When the stay expires or is vacated, the previously stayed order
+      again has effect as if it had been originally executed at the
+      moment the stay ceases to be effective.  However, if at the time
+      the staying Order expires or otherwise ceases to have effect,
+      the stayed Order has been vacated or is subject to another
+      staying Order, it does not regain effect.
+
+Be it further resolved, that the following Rule be enacted:
+
+      The effect of vacating an Order is to permanently deny the
+      vacated Order from having any effect.  Vacating an Order to
+      Vacate reinstates the ability of the vacated Order to have
+      effect, as of the moment the Order to Vacate is itself vacated.
+
+Chapter 4: Judicial Orders -------------------------------------------
+
+Be it further resolved, that the following Rule be enacted:
+      
+      Judicial Orders are executed by being sent to the Clerk of the
+      Courts, but do not take effect until their publication by the
+      Clerk of the Courts.  The Clerk of the Courts shall publish each
+      Judicial Order as soon as possible after receiving it from the
+      Judge who executed it.
+
+Be it further resolved, that the following Rule be enacted:      
+
+      Judicial Orders are subject to appeal to a Board of Appeal by a
+      Call for Appeal.  
+
+      The Board of Appeal shall, upon finding that a Judicial Order is
+      improperly or invalidly executed, order that that Order be
+      amended or vacated, as it deems appropriate.  
+
+      When the Clerk of the Courts receives a properly executed Call
+      for Appeal of a Judicial Order, the Clerk of the Courts shall
+      stay the Order under appeal.  If the Board of Appeals affirms
+      the validity of the original Order, it shall then vacate this
+      stay.
+
+Chapter 5: Appellate Orders ------------------------------------------
+
+Be it further resolved, that the following Rule be enacted:
+
+      Appellate Orders are executed by being sent to the Clerk of the
+      Courts by the Lead Justice of a Board of Appeals, but do not
+      take effect until their publication by the Clerk of the Courts.
+      The Lead Justice shall certify in eir submission to the Clerk of
+      the Courts that the Order is executed by the concurrence of the
+      majority of the Justices comprising that Board of Appeals;
+      failure to do so deprives the Order of effect.  
+
+      The Clerk of the Courts shall publish each Appellate Order as
+      soon as possible after receiving it from the Board of Appeal
+      which executed it.
+
+Be it further resolved, that the following Rule be enacted:
+
+      Appellate Orders are not subject to appeal.  However, upon a
+      judicial finding that the required certification was falsely
+      provided, the Justiciar shall vacate the Order which was
+      accompanied by that false certification.
+
+Be it further resolved, that the following Rule be enacted:
+
+      Since Appellate Orders cannot be appealed, Appellate Orders are
+      valid only if addressed to:
+        a) The Clerk of the Courts in eir Official capacity;
+        b) an Order issued by the Clerk of the Courts in eir Official
+           Capacity; 
+        c) The Judge of the CFJ which that Board of Appeals was
+           convened to consider, or any Order issued by that Judge in
+           that particular CFJ; or
+        d) any combination of the above.
+
+      All other Appellate Orders are presumptively invalid.  
+
+      This Rule takes precedence over all Rules pertaining to the
+      validity of Appellate Orders.
+
+Chapter 6: Administrative and Private Orders -------------------------
+
+Be it further resolved, that the following Rule be enacted:
+
+      Administrative Orders are executed by being published in the
+      Public Forum, and take effect upon publication.
+
+      Private Orders are executed by submitting them directly to the
+      Player to be commanded, and take effect upon submission.
+
+Be it further resolved, that the following Rule be enacted:
+
+      Both Administrative and Private Orders are subject to appeal by
+      a CFJ, the statement of which Statement alleges that the Order
+      is improperly or invalidly executed.  
+
+      Upon a judicial finding that an Administrative or Private Order
+      was improperly or invalidly executed, the Judge so finding shall
+      vacate that Order.  
+
+      When the Clerk of the Courts receives a properly executed Call
+      for Judgement, the statement of which alleges that an
+      Administrative or Private Order was improperly or invalidly
+      executed, the Clerk of the Courts shall stay the Order in
+      dispute.  If the Judge affirms the validity of the original
+      Order, e shall then vacate this stay.
+
+Chapter 7: Noncompliance with Orders ---------------------------------
+
+Be it further resolved, that the following Rule be enacted:
+
+      An Order is satisfied when the action which it requires to be
+      performed is performed by the entity it requires to perform it.
+      (Only Orders which require an entity to perform an action can be
+      satisfied.)  Any entity who is required by an Order to perform
+      an act who fails to perform the required action prior to the
+      time specified in the Order commits the Crime of Contempt by
+      Inaction, a Class C Crime.
+
+      Except when otherwise specified, a single action can result in
+      the satisifaction of at most one Order.  If an action would
+      satisfy more than one Order, and no other specification is made,
+      the Action satisfies the oldest Order which it would satisfy.
+
+      This Rule shall have no application with respect to any Order
+      which has been adjudicated to be invalid, and the invalidity of
+      the Order is a complete defense to a Criminal accusation made
+      under this Rule.
+
+Be it further resolved, that the following Rule be enacted:
+
+      Any entity who, while required by an Order to refrain from
+      performing an action, performs the proscribed action while the
+      Order is in effect commits the Crime of Contempt by Action, a
+      Class C Crime.
+
+      This Rule shall have no application with respect to any Order
+      which has been adjudicated to be invalid, and the invalidity of
+      the Order is a complete defense to a Criminal accusation made
+      under this Rule.
+
+Be it further resolved, that Rule 1551 be amended, by replacing
+"Injunction" with "Order".
+
+Be it further resolved, that Rules 663, 1571, and 1573 be repealed.
+[Judicial Orders cover everything that Injunctions cover.]
+
+----------------------------------------------------------------------
+
+Title II: Crimes, Infractions, and Criminal Judicial Procedure
+
+Chapter 1: Crimes ----------------------------------------------------
+
+Be it therefore resolved, that Rule 1503 be amended to read:
+
+      Any entity who performs an action defined by the Rules to be a
+      Crime, or fails to perform an action where such failure is
+      defined by the Rules to be a Crime, shall be subject to whatever
+      penalty the Rules prescribe for that Crime upon the execution of
+      a Sentencing Order executed consequent to a judicial finding
+      that e did in fact commit that Crime.
+
+Be it further resolved, that Rule 1504 be amended to read:
+
+      The imposition of penalties for the commission of a Crime shall
+      be by Sentencing Order(s).  Upon a judicial finding that an
+      entity has committed a Crime, the Judge so finding shall execute
+      Sentencing Orders sufficient to implement the penalty required
+      by the Rules for that Crime.
+
+Chapter 2: Infractions -----------------------------------------------
+
+Be it further resolved, that the following Rule be enacted:
+
+      Any entity who performs an action defined by the Rules to be an
+      Infraction, or fails to perform an action where such failure is
+      defined by the Rules to be an Infraction, shall be subject to
+      whatever penalty the Rules prescribe for that Infraction upon a
+      Notice of Infraction stating that e committed that Infraction.
+
+      A Notice of Infraction stating that an entity has committed a
+      specific Infraction consists of a report by a Player authorized
+      to report instances of that specific Infraction that it is eir
+      informed belief that the specified entity has committed the
+      specified Infraction.  A Notice of Infraction shall also specify
+      the penalty to be imposed for that Infraction.
+
+Be it further resolved, that the following Rule be enacted:
+
+      The imposition of penalties for the commission of an Infraction
+      shall be by the execution of a Notice of Infraction.  The Player
+      executing the Notice of Infraction shall, at the time e does so,
+      also execute Orders sufficient to implement the penalty required
+      by the Rules for that Infraction.
+
+Chapter 3: Restrictions on Interpretation ----------------------------
+
+Be it further resolved, that the following Rule be enacted:
+      
+      The punishment for a Crime or Infraction shall be whatever was
+      specified by the Rules at the time the action so designated as a
+      Crime or an Infraction was committed, even if the Rule or Rules
+      which specified the punishment, or which designated the action
+      as a Crime or Infraction, have since been amended or repealed.
+
+Be it further resolved, that the following Rule be enacted:
+
+      No action is a Crime or an Infraction unless defined as such by
+      the Rules.  If the Rules define an act to be a Crime or an
+      Infraction, but fail to prescribe a penalty for that act, then
+      there is no penalty for that act.  If the Rules define an act to
+      be an Infraction, but fail to authorize any Player or Players to
+      report instances of that Infraction, then that Infraction cannot
+      be reported.
+
+Chapter 4: Protection against Double Jeopardy ------------------------
+
+Be it further resolved, that Rule 1652 be amended to read:
+
+      No entity shall be subject to penalties more than once for a
+      single instance of a particular Crime or Infraction, any other
+      Rule notwithstanding.
+
+      This Rule in no way bars the imposition of multiple penalties
+      for the same act (or failure to act) if such action (or
+      inaction) constitutes multiple Crimes, multiple Infractions, or
+      any combination thereof.
+
+Be it further resolved, that the following Rule be enacted:
+
+      Any CFJ whose Statement alleges that an entity has, through
+      action or inaction, committed a Crime shall be dismissed if
+      there is a prior CFJ, the statement of which alleges that the
+      same entity has, through the same action or inaction, committed
+      the same Crime, and which was itself not dismissed.
+
+----------------------------------------------------------------------
+
+Title III: Currencies
+
+Chapter 1: Transfer Orders -------------------------------------------
+
+Be it further resolved, that Rule 1598 be amended to read:
+
+      A Transfer Order is an Order requiring the Recordkeepor of a
+      Currency to note the transfer of units of that Currency from one
+      entity to another.  A valid Transfer Order specifies exactly one
+      source entity, exactly one destination entity, exactly one
+      Currency, and a number of units of that Currency which is a
+      positive multiple of that Currency's MUQ.
+
+Be it further resolved, that the following Rule be enacted:
+
+      A Recordkeepor is required to abide by all valid Transfer Orders
+      submitted by the Executor of the owner of the units of Currency
+      to be transferred (or, with respect to any entity which lacks an
+      Executor, by any other person empowered by the Rules to execute
+      Transfer Orders on the behalf of such entities), except for
+      those transfers which would result in an entity possessing a
+      negative quantity of Currency.  Transfers shall be noted on the
+      Recordkeepor's records in the order in which they are received
+      by the Recordkeepor.
+
+Be it further resolved, that the following Rule be enacted:
+
+      If a Recordkeepor notes a transfer pursuant to a Transfer Order
+      which is subsequently vacated, e shall correct eir records as
+      soon as possible after the Transfer Order is vacated by noting a
+      transfer which is the reverse of the transfer originally noted.
+      However, if such a reversing transfer would result in an entity
+      possessing a negative quantity of units of Currency, e shall
+      instead execute a Payment Order requiring a Transfer Order that
+      would have the same effect as the reversing transfer.
+
+Be it further resolved, that the following Rule be enacted:
+
+      The effect of noting a transfer on the records of the
+      Recordkeepor is to remove the specified number of units of
+      Currency from the holdings of the source entity and to add the
+      specified number of units of Currency to the holdings of the
+      destination entity.
+
+Be it further resolved, that the following Rule be enacted:
+
+      Each Recordkeepor shall maintain a record of all Transfer Orders
+      submitted which specify the Currency of which e is the
+      Recordkeepor, for at least four weeks after their submission,
+      and a complete record of all transfers noted upon eir records
+      for at least four weeks.
+
+Be it further resolved, that Rule 1730 be amended to read:
+
+      The Recordkeepor of a Currency may, at eir discretion, elect to
+      refuse any Transfer Order which requires em to note a transfer
+      at any time other than as soon as possible after the Order
+      itself became effective.  The Recordkeepor's election to refuse
+      an Transfer Order in this fashion renders invalid that Order
+      provided that the Recordkeepor sends a message to the Player who
+      executed the Order informing him of eir election, within seven
+      days of the receipt of that Order.
+
+      This Rule does not apply to Transfer Orders which are required
+      by the Rules to be executed with a specification that the
+      transfer be noted at a time other than as soon as possible after
+      they become effective.
+
+Be it further resolved, that Rule 1746 be repealed.  [Rule 1746 is
+redundant; a CFJ alleging that a Transfer Order is illegal would, if
+found true, result in the vacation of that Transfer Order, which would
+then trigger a reversing transfer or Payment Order under the revised
+Rule 1598, above.]
+
+Be it further resolved, that Rule 1731 be repealed.  [Implicit
+Transfer Orders are a pain, and exist only to support Voting.  The
+conversion to paying for Votes after the fact eliminates the need for
+this.]
+
+Chapter 2: Payment Orders --------------------------------------------
+
+Be it further resolved, that Rule 1596 be amended to read:
+
+      A Payment Order is an Order requiring an entity (the payor) to
+      submit a Transfer Order transferring units of a Currency from
+      itself to some other entity (the payee).  A Payment Order
+      specifies exactly one source entity, exactly one destination
+      entity, exactly one Currency, and a number of units of that
+      Currency which is a positive multiple of that Currency's MUQ.
+
+Be it further resolved, that the following Rule be enacted:
+
+      A Payment Order is only valid if a copy has been filed with the
+      Recordkeepor of the Currency specified in it, and takes effect
+      no sooner than the time of such filing.  (Publishing the Payment
+      Order in the Public Forum is sufficient to meet this
+      requirement.)
+
+Be it further resolved, that the following Rule be enacted:
+
+      Each Recordkeepor shall maintain a record of all Payment Orders
+      filed with em which specify the Currency of which e is the
+      Recordkeepor.  This record shall also indicate, for each Order,
+      if that Order has been satisfied, vacated, or both.  However,
+      the Recordkeepor need only maintain records of satisfied or
+      vacated Orders for four weeks after they have been satisfied or
+      vacated.
+
+Be it further resolved, that Rule 1599 be amended to read:
+
+      Whenever a Rule requires a Player to execute a Payment Order, e
+      shall do so within seven days of when the requirement arises.
+
+[Rule 1599 is almost wholly redundant; the failure to execute a
+Payment Order falls within the scope of the amended Rule 1509.]
+
+| Be it further resolved, that the following Rule be enacted:
+| 
+|     If a Player is required to execute two or more Payment Orders,
+|     all of which name the same Payor, Payee, and Currency, that
+|     Player may elect to instead execute one Payment Order naming
+|     that Payor, Payee and Currency, and for an amount equal to the
+|     sum of all such Payment Orders required.  Doing so satisfies by
+|     substitution the requirement to execute all such Payment Orders.
+| 
+|     This Rule may not be applied with respect to any Payment Order
+|     required consequent to the vacation or stay of another Payment
+|     Order or of a Transfer Order.
+| 
+|     Payment Orders to be executed for the purpose of paying for
+|     Voting upon Proposals may not be combined by this Rule with
+|     Payment Orders executed for any other purpose.
+| 
+Be it further resolved, that Rule 1734 be amended to read:
+
+      When a satisfied Payment Order is vacated, the Recordkeepor of
+      the Currency named in that Payment Order shall execute a new
+      Payment Order identical to the vacated Payment Order, but with
+      the payor and payee interchanged.
+
+      If the Order vacating the original Payment Order is subsequently
+|     stayed or vacated, then the Recordkeepor shall stay or vacate,
+|     respectively, the reversing Order required by this Rule.
+
+Be it further resolved, that Rule 1736 be repealed.  [Rule 1736 is
+redundant; a Judge's Order to pay Currency is a Payment Order in its
+own right.]
+
+Be it further resolved, that Rule 1737 be repealed.  [Rule 1737 is
+redundant; Payment Orders are Orders subject to appeal according to
+the processes detailed above and can be vacated directly according to
+those procedures.]
+
+Be it further resolved, that Rule 1733 be repealed.  [The automatic
+stay of Orders under CFJ renders Rule 1733 effectively redundant.]
+
+Chapter 3: Debt ------------------------------------------------------
+
+Be it further resolved, that Rule 1713 be amended to read:
+
+      An Overdue Payment Order is a Payment Order which is presently
+      effective, has been effective for more than seven days, and has
+      not been satisfied.
+
+      The Executor of an entity for which, at the beginning of a given
+      Nomic week, there is at least one Overdue Payment Order naming
+      it as Payor commits the Infraction of Persistent Indebtedness at
+      the beginning of that Week.  If an entity has more than one
+      Overdue Payment Order naming it as payor, its Executor commits
+      as many such Infractions are there are different Currencies
+      named in all these Overdue Payment Orders.
+
+      The Recordkeepor of each Currency is authorized to report this
+      Infraction with respect to the Currency of which e is the
+      Recordkeepor.  This Infraction carries a penalty of one Blot.
+
+----------------------------------------------------------------------
+
+Title IV: Voting
+
+Chapter 1: General Procedure -----------------------------------------
+
+Be it further resolved, that Rule 1442 be amended to read:
+
+      A Voting Entity Votes upon a Proposal when e, during the Voting
+      Period of that Proposal, informs the Assessor of the Vote (or
+      Votes) e is casting upon that Proposal.
+
+      A Voting Entity may specify that e casts no Votes on a Proposal,
+      and doing so cancels any previously Votes cast on that Proposal
+|     (if done during the Voting Period of that Proposal).  Cancelled
+|     Votes are not counted by the Assessor and do not count toward
+|     Quorum.
+| 
+|     As soon as possible after the end of the Voting Period of a
+|     given Proposal, the Assessor shall bill each Voting Entity a
+|     number of VTs equal to the cost of the Votes cast on that
+|     Proposal by that entity.  
+
+Chapter 2: Debt Voting -----------------------------------------------
+
+Be it further resolved, that the following Rule be enacted:
+
+      An entity for which, at the beginning of a given Nomic week,
+      there is at least one Overdue Payment Order naming it as Payor
+      which was executed originally for the purpose of paying for
+      Voting upon Proposals commits the Infraction of Debt Voting.
+      This Infraction shall be reported by the Recordkeepor for Voting
+      Tokens, and shall bear the penalty of the denial of Voting
+      Privileges for a period of two weeks.
+
+Be it further resolved, that the following Rule be enacted:
+
+      A penalty denying Voting Privileges to an entity for a period of
+      time shall be imposed by ordering the Assessor to deny Voting
+      Privilege to the named Voting Entity for that period of time.
+      The denial of Voting Privilege begins with the beginning of the
+      first full Nomic Week after the Order takes effect, and
+      continues for the period specified.
+ 
+      While the Assessor is ordered to deny Voting Privilege to a
+      Voting Entity, that Voting Entity shall be entitled to cast no
+      Votes on any Proposal, any other Rule to the contrary
+      notwithstanding.
+
+      Any period of time during which an Order denying Voting
+      Privilege is without effect does not count toward the period of
+      denial.
+
+----------------------------------------------------------------------
+
+Title V: Judicial Procedure
+
+Chapter 1: Motions ---------------------------------------------------
+
+Be it further resolved, that the following Rule be enacted:
+
+      A Motion is a formal request made by a Player to the Judge of a
+      CFJ.
+
+      A Motion is made by submitting it to the Clerk of the Courts,
+      clearly identifying the CFJ to which the Motion applies.
+
+      The Clerk of the Courts shall forward each properly-filed Motion
+      to the Judge of the CFJ to which the Motion applies as soon as
+      possible after receiving it.
+
+Be it further resolved, that the following Rule be enacted:
+
+      A Judge must either grant or deny each Motion forwarded to em by
+      the Clerk of the Courts, within five days of when the Motion was
+      received by the Judge.  E may, but need not, state the reasons
+      for eir grant or denial.  A Judge grants or denies a Motion by
+      sending eir determination on that Motion to the Clerk of the
+      Courts, along with any reasons e chooses to provide.  
+
+      The effect of granting a Motion depends on the nature of the
+      Motion granted, but generally amounts to requiring the Judge to
+      perform as requested by the Motion. 
+
+      Upon receipt of a Judge's determination on a Motion, the Clerk
+      the determination made and the reasons, if any, on the record of
+      the CFJ, and shall notify the Player who made the Motion of that
+      determination.  
+
+Be it further resolved, that the following Rule be enacted:
+
+      Any Plauer may formally request a Judge issue any Judicial Order
+      by filing a motion requesting that Order.  If granted, the Judge
+      shall issue the Order requested.
+
+Be it further resolved, that Rule 1725 be repealed.  [If a Player
+feels that a Judge has omitted an Order, e may file a Motion
+requesting that that Order be issued, and may appeal the refusal of
+that Motion, if refused.]
+
+Chapter 2: Orders to Annotate ----------------------------------------
+
+Be it further resolved, that Rule 789 be amended to read:
+
+      The Judge of any CFJ, the Statement of which alleges that a Rule
+      should be interpreted in a certain way, which is judged TRUE,
+      may, at eir discretion, issue an Order requiring the Rulekeepor
+      to annotate the Rule in question with the Statement of that CFJ.
+      Such an annotation, while it exists, shall guide application of
+      that Rule.  
+
+      The Rulekeepor may remove such an annotation only if that Rule
+      is repealed, or when required to do so by a valid Order.
+      Annotations to a Rule may not be modified in any way except as
+      specified in this Rule.
+
+      If a Player believes that an annotation is no longer pertinent,
+      e may file, in the original CFJ from which the Order of
+      Annotation arises, a Motion to Vacate the Order of Annotation.
+      If such a Motion is granted, the Judge granting it shall Order
+      the original Order Vacated and shall Order the Rulekeepor to
+      remove the annotation in question.
+
+Be it further resolved, that Rule 1500 be amended to read:
+
+      The Judge of any CFJ, the Statement of which alleges that an SLC
+      should be interpreted in a certain way, which is judged TRUE,
+      may, at eir discretion, issue an Order requiring the Maintainer
+      of that SLC to annotate the SLC in question with the Statement
+      of that CFJ.  Such an annotation, while it exists, shall guide
+      application of that SLC.  
+
+      The Maintainer of that SLC may remove such an annotation only
+      when the SLC ceases to exist, or when required to do so by a
+      valid Order.  Annotations to an SLC may not be modified in any
+      way except as specified in this Rule.
+
+      If a Player believes that an annotation is no longer pertinent,
+      e may file, in the original CFJ from which the Order of
+      Annotation arises, a Motion to Vacate the Order of Annotation.
+      If such a Motion is granted, the Judge granting it shall Order
+      the original Order Vacated and shall Order the Maintainer of
+      that SLC to remove the annotation in question.
+
+Be it further resolved, that Rule 1681 be amended, by replacing
+"Injunction" with "Order".
+
+Chapter 3: Orders to Compel ------------------------------------------
+
+Be it further resolved, that Rule 1509 be amended to read:
+
+      Upon a judicial finding that a Player has failed to perform a
+      duty required of em by the Rules, the Judge so finding shall
+      execute an Order, requiring that Player to perform that duty as
+      soon as possible.  Such an Order is known as an Order to
+      Compel.
+
+      If the duty in question arises because the Player in question
+      holds a specific Office or other position of official
+      responsibility, the Order shall be directed to that Office or
+      position.  If the Player holding that Office fails to perform
+      the duty in question as ordered, the Judge shall Order that that
+      Player be removed from Office or position.
+
+      If the duty in question arises for a reason not related to the
+      Player in question holding a specific Office or official
+      position, and that Player fails to perform the duty as ordered,
+      the Judge shall amend the Order to require the Speaker to
+      perform that duty instead.
+
+Be it further resolved, that the following Rule be enacted:
+
+      The refusal of the Speaker to perform a duty when ordered to do
+      so by an validly issued Order to Compel constitutes being an
+      Impossible Speaker, as defined elsewhere.
+
+Be it further resolved, that the following Rule be enacted:
+
+      No valid Order to Compel may be directed to a Judge, or may
+      require the performance of any duty required of Player by the
+      virtue of that Player being a Judge.  Any such Order is invalid.
+      Any CFJ alleging that a Judge has failed to perform a duty of a
+      judicial nature shall be dismissed.
+
+Be it further resolved, that the following Rule be enacted: 
+
+      A CFJ alleging that the Clerk of the Courts has failed to
+      perform a duty of eir Office may, at the Caller's option, be
+      filed with the Justiciar, who shall then perform all the duties
+      of the Clerk of the Courts with respect to that CFJ.
+
+Chapter 4: Formal Apologies ------------------------------------------
+
+Be it further resolved, that Rule 908 be amended to read:
+
+      Upon a judicial finding that a Player (herein called the Ninny)
+      has acted or has failed to act in such a way as to be in
+      violation of one or more Rules, the Judge so finding shall Order
+      that Player to submit, within 72 hours, a Formal Apology.
+      However, when the action (or failure to act) is subject to
+      penalties by virtue of being defined to be a Crime or an
+      Infraction, the Order is optional and may be issued at the
+      Judge's discretion.
+
+      A Formal Apology shall consist of a letter of at least 200
+      words, to be published by the Ninny in the Public Forum,
+      explaining the Ninny's error, shame, remorse, and ardent desire
+      for self-improvement.
+
+      The Judge issuing such an Order may, at eir discretion, include
+      in eir Order a list of up to ten Prescribed Words (to be chosen
+      by the Judge) which must be included in the Formal Apology.  If
+      the Judge elects to include Prescribed Words, all of the Words
+      required must appear within the Formal Apology. 
+
+Be it further resolved, that the following Rule be enacted:
+
+      The failure to abide by an Order to Submit a Formal Apology is
+      an Infraction carrying a penalty of 3 Blots, to be reported by
+      the Judge who issued the original Order.
+
+Chapter 5: Appeals ---------------------------------------------------
+
+Be it further resolved, that Rule 1564 be amended to read:
+
+      The Judgement entered in any CFJ by its Judge, the grant or
+      denial of any Motion, and the execution of any Judicial Order
+      are all subject to review on appeal to a Board of Appeal.  In
+      addition, a Board of Appeal shall review any claim that a Judge
+      has failed to perform any duty of a Judicial nature which e was
+      required to perform.
+      
+      In all cases, the insistence of any three Players, posted in the
+      Public Forum, is sufficient to initiate the appeal of a
+      particular matter.  In the case of the appeal of a Judicial
+      Order, the insistence of any Player bound by the Order is
+      sufficient.  In the case of a Judgement which convicts a Player
+      of a Crime, the insistence of the convicted Player is
+      sufficient.
+
+      In each cases before a Board of Appeal, it shall collectively
+      decide whether to affirm or to reverse the matter under appeal,
+      and shall execute whatever Appellate Orders are necessary to
+      enforce its determination.
+
+Be it further resolved, that Rule 1695 be amended to read:
+
+      In the appeal of a Judicial Order, the Board shall consider
+      whether the Order in question was both legally made and
+      appropriate for the situation.
+
+      If the Board finds that the Order was made legally, and was
+      appropriate for the situation, it shall affirm the Order.  If an
+      Order staying the execution of the appealed Order was entered,
+      it shall vacate this stay.
+
+      If the Board finds that the Order was made illegally, or that it
+      was inappropriate for the situation, it shall vacate the
+      original Order.  Should the Board further find that the Order
+      was made without reasonable justification or for a clearly
+      improper purpose, it shall (at its discretion) impose a penalty
+      of 2 Blots upon the Judge who made the original Order.
+
+Be it further resolved, that the following Rule be enacted:
+
+      The Lead Justice of a Board of Appeals is the Justiciar, if e is
+      serving on that Board, or the Player who serves in the place of
+      the Justiciar otherwise.
+
+Chapter 6: Technical Corrections -------------------------------------
+
+Be it further resolved, that Rule 1742 be amended by replacing the
+word "Injunctions" with "Orders".
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 15:15 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA07386 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 15:15:47 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA20715
+	for agora-discussion-list; Mon, 16 Feb 1998 07:09:11 +1100
+Received: from scott (scott.skidmore.edu [141.222.1.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id HAA20712
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 07:09:07 +1100
+Received: from placid.skidmore.EDU by scott (SMI-8.6/SMI-SVR4)
+	id PAA02559; Sun, 15 Feb 1998 15:11:20 -0500
+Received: by placid.skidmore.EDU (SMI-8.6/SMI-SVR4)
+	id PAA26855; Sun, 15 Feb 1998 15:14:34 -0500
+From: jfry@scott.skidmore.edu (Jonathan Fry)
+Message-Id: <199802152014.PAA26855@placid.skidmore.EDU>
+Subject: Re: DIS: proto: The Omnibus Reform Act of 1998 (Chaos22, rev. 14)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 15 Feb 1998 15:14:34 -0500 (EST)
+In-Reply-To: <199802151912.OAA00815@poverty.bloomington.in.us> from "Scott Goehring" at Feb 15, 98 02:12:38 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1077
+
+Scott Goehring writes:
+>       The Judge issuing such an Order may, at eir discretion, include
+>       in eir Order a list of up to ten Prescribed Words (to be chosen
+>       by the Judge) which must be included in the Formal Apology.  If
+>       the Judge elects to include Prescribed Words, all of the Words
+>       required must appear within the Formal Apology. 
+
+Is there a reason for this besides the obvious comic options? ("I
+order that the Apology include the words 'waldo, arachnid and
+analgesic'".)  Also, am I reading this right that the Judge could
+Order nonsense words to be included (i.e. 'Vogon', 'Rimmer', etc.)?
+
+						--Sherlock
+
++->---->---->---->---->---->---->---->---->---->---->---->---->---->-+
+| It's time we see that thought is free so don't stand in front of   |
+| me and what I believe / Smitten by the unseen hand / Kneeling down |
+| to its command / Victims of a rich man's game / But truth crushed  |
+| shall rise again - Ken Tamplin -----------[jfry@skidmore.edu]------|
++--<----<----<----<----<----<----<----<----<----<----<----<----<----<+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 15:31 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA07674 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 15:31:03 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA20793
+	for agora-discussion-list; Mon, 16 Feb 1998 07:25:21 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA20790
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 07:25:18 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 41514]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49691-23925>; Sun, 15 Feb 1998 21:28:05 +0100
+Date: 	Sun, 15 Feb 1998 21:27:55 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: The Omnibus Reform Act of 1998 (Chaos22, rev. 14)
+In-Reply-To: <199802152014.PAA26855@placid.skidmore.EDU>
+Message-ID: <Pine.LNX.3.96.980215212206.28887G-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 465
+
+On Sun, 15 Feb 1998, Jonathan Fry wrote:
+
+> Is there a reason for this besides the obvious comic options? ("I
+> order that the Apology include the words 'waldo, arachnid and
+> analgesic'".)
+
+No. :-)
+
+> Also, am I reading this right that the Judge could
+> Order nonsense words to be included (i.e. 'Vogon', 'Rimmer', etc.)?
+
+Stop calling those nonsense words.  Someone might take offense and blow up
+your planet.
+
+Greetings,
+Ørjan.
+
+-- 
+Stop .signature plagiarism!
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 16:21 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA08346 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 16:21:20 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA20991
+	for agora-discussion-list; Mon, 16 Feb 1998 08:16:21 +1100
+Received: from belize.ucs.indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id IAA20988
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 08:16:17 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-193.ucs.indiana.edu [156.56.126.193])
+	by belize.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id QAA10732
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 16:18:51 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id QAA01013 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 16:18:48 -0500
+Message-Id: <199802152118.QAA01013@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: The Omnibus Reform Act of 1998 (Chaos22, rev. 14) 
+In-reply-to: Your message of "Sun, 15 Feb 1998 15:14:34 EST."
+             <199802152014.PAA26855@placid.skidmore.EDU> 
+Date: Sun, 15 Feb 1998 16:18:44 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 830
+
+"Jonathan" == Jonathan Fry <jfry@scott.skidmore.edu> writes:
+
+Jonathan> Is there a reason for this besides the obvious comic
+Jonathan> options? ("I order that the Apology include the words
+Jonathan> 'waldo, arachnid and analgesic'".)
+
+Yes, that's the main reason.
+
+Jonathan> Also, am I reading this right that the Judge could Order
+Jonathan> nonsense words to be included (i.e. 'Vogon', 'Rimmer',
+Jonathan> etc.)?
+
+That's an undecided question, as far as I know.  In the appeal of the
+Injunction in CFJ 1078, Justice elJefe (writing for the majority)
+held, amongst other things, that "I'm" is a word.  While the opinion
+did not directly state that the prescribed words in a Formal Apology
+must be in fact words, we can reasonably infer from the fact that the
+issue was taken up at all that such a requirement may, in fact, exist.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 18:32 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA01208 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 18:32:14 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA21549
+	for agora-discussion-list; Mon, 16 Feb 1998 10:26:49 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA21546
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 10:26:45 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 43598]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49667-23925>; Mon, 16 Feb 1998 00:29:07 +0100
+Date: 	Mon, 16 Feb 1998 00:28:49 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: BUS: Rulekeepor stuff
+In-Reply-To: <9802152322.AA15882@dfw.dfw.net>
+Message-ID: <Pine.LNX.3.96.980216002806.28887H-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 406
+
+On Sun, 15 Feb 1998, Charles E. Carroll wrote:
+
+> The Scorekeepor is hereby ordered to record the following Score
+> changes, each due to a Player having proposed an adopted Rule
+> Change this Week:
+>   Morendil's Score changes by 3.
+>   Blob's Score changes by 3.
+>   Steve's Score changes by 3.
+>   Swann's Score changes by 3.
+
+You noticed it too? :-)
+
+Greetings,
+Ørjan.
+
+-- 
+Stop .signature plagiarism!
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 18:41 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA01313 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 18:41:03 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA21603
+	for agora-discussion-list; Mon, 16 Feb 1998 10:35:55 +1100
+Received: from scott (scott.skidmore.edu [141.222.1.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id KAA21600
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 10:35:52 +1100
+Received: from placid.skidmore.EDU by scott (SMI-8.6/SMI-SVR4)
+	id SAA24498; Sun, 15 Feb 1998 18:38:06 -0500
+Received: by placid.skidmore.EDU (SMI-8.6/SMI-SVR4)
+	id SAA17128; Sun, 15 Feb 1998 18:41:19 -0500
+From: jfry@scott.skidmore.edu (Jonathan Fry)
+Message-Id: <199802152341.SAA17128@placid.skidmore.EDU>
+Subject: DIS: Re: BUS: Rulekeepor stuff
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 15 Feb 1998 18:41:19 -0500 (EST)
+In-Reply-To: <9802152322.AA15882@dfw.dfw.net> from "Charles E. Carroll" at Feb 15, 98 05:22:22 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 695
+
+Charles E. Carroll writes:
+ [ A whole bunch of transactions...]
+
+All right, time for another ignorant question.  I thought you weren't
+Rulekeepor anymore?  (I don't mean this personally at all; I'm just
+wondering what I'm missing out on this time.)
+
+					--Sherlock
+
++->---->---->---->---->---->---->---->---->---->---->---->---->---->-+
+| It's time we see that thought is free so don't stand in front of   |
+| me and what I believe / Smitten by the unseen hand / Kneeling down |
+| to its command / Victims of a rich man's game / But truth crushed  |
+| shall rise again - Ken Tamplin -----------[jfry@skidmore.edu]------|
++--<----<----<----<----<----<----<----<----<----<----<----<----<----<+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 19:19 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA01854 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 19:18:57 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA21758
+	for agora-discussion-list; Mon, 16 Feb 1998 11:12:54 +1100
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id LAA21755
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 11:12:52 +1100
+Received: From elgar With LocalMail ; Mon, 16 Feb 98 11:15:43 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 16 Feb 1998 11:15:42 +1100 (EST)
+Message-Id:  <980216001542.15063@cse.unsw.edu.au>
+Subject: Re: DIS: Re: BUS: Rulekeepor stuff
+In-Reply-To: <199802152341.SAA17128@placid.skidmore.EDU> from "Jonathan Fry" at Feb 15, 98 06:41:19 pm
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 890
+
+Jonathan Fry writes:
+> 
+> Charles E. Carroll writes:
+>  [ A whole bunch of transactions...]
+> 
+> All right, time for another ignorant question.  I thought you weren't
+> Rulekeepor anymore?  (I don't mean this personally at all; I'm just
+> wondering what I'm missing out on this time.)
+
+No, he was only retired from his Office, which means that he now holds 
+it temporarily, not "in the normal fashion". He still has all the same
+responsibilites, and most of the same powers, but he has to face election
+in the near future.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 19:23 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA01931 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 19:23:35 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA21831
+	for agora-discussion-list; Mon, 16 Feb 1998 11:18:05 +1100
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id LAA21828
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 11:18:03 +1100
+Received: From elgar With LocalMail ; Mon, 16 Feb 98 11:20:53 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au (Nomic Discussion)
+Date: Mon, 16 Feb 1998 11:20:52 +1100 (EST)
+Message-Id:  <980216002053.15112@cse.unsw.edu.au>
+Subject: DIS: Proposal Queue
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 696
+
+
+I think it is perfectly reasonable to interpret the Proposal Queue rules
+to allow batches of one or zero proposals. I do agree that requiring a
+zero-size batch to be distributed is a bug, but not a terribly serious 
+one. I'll propose a fix, if you like, but I'm not going to spend a P-Note
+to promote its position in the Queue.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 19:30 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA02028 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 19:30:27 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA21901
+	for agora-discussion-list; Mon, 16 Feb 1998 11:24:12 +1100
+Received: from cayman.ucs.indiana.edu (cayman.ucs.indiana.edu [129.79.10.63])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA21892
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 11:22:52 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-193.ucs.indiana.edu [156.56.126.193])
+	by cayman.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id TAA03125
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 19:25:27 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id TAA01316 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 19:25:24 -0500
+Message-Id: <199802160025.TAA01316@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Rulekeepor stuff 
+In-reply-to: Your message of "Sun, 15 Feb 1998 18:41:19 EST."
+             <199802152341.SAA17128@placid.skidmore.EDU> 
+Date: Sun, 15 Feb 1998 19:25:23 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 380
+
+"Jonathan" == Jonathan Fry <jfry@scott.skidmore.edu> writes:
+
+Jonathan> All right, time for another ignorant question.  I thought
+Jonathan> you weren't Rulekeepor anymore?
+
+No, the Rebellion didn't remove anyone from Office, it merely caused
+all Officers (except for those Officers holding Offices by Delegation)
+to be retired from Office.  This requires them to face reelection.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 20:32 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA02716 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 20:32:50 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA22257
+	for agora-discussion-list; Mon, 16 Feb 1998 12:25:35 +1100
+Received: from silas.cc.monash.edu.au (silas.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA22254
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 12:25:28 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id MAA26691
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 16 Feb 1998 12:28:21 +1100 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199802160128.MAA26691@silas.cc.monash.edu.au>
+Subject: DIS: Re: BUS: Kudo transfers
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 16 Feb 1998 12:28:21 +1100 (EST)
+In-Reply-To: <34E6C170.F9A46830@interworx.com.au> from "Kieron Jarvis" at Feb 15, 98 09:20:32 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 935
+
+Kieron Jarvis wrote:
+>
+>> Michael> Herald, I further transfer 1 Kudo from General Chaos to Time Agent.
+>> Michael> This is done Kbecause I feel like it.
+>>
+>> I hereby transfer one Kudo from Michael to Steve, because "I feel like
+>> it" is not a reasonable justification for a Kudo transfer.
+>
+>Herald, I hereby transfer one Kudo from G.Chaos for effectively negating
+>the
+>penalty of Michael's first (legitimately reasoned) Kudo transfer,
+>without giving
+>a satisfactory reason for the transfer to Steve. I transfer this Kudo to
+>Sherlock as e has been making an effort to contribute to the game. (My
+>little
+>contribution towards the game's greatest assets)
+
+Jester, could you make sure that your lines wrap at 75 characters or less?
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 20:33 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA02722 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 20:33:17 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA22244
+	for agora-discussion-list; Mon, 16 Feb 1998 12:23:33 +1100
+Received: from silas.cc.monash.edu.au (silas.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA22241
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 12:23:31 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id MAA26535
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 16 Feb 1998 12:26:14 +1100 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199802160126.MAA26535@silas.cc.monash.edu.au>
+Subject: Re: DIS: Comment on Proposal queue
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 16 Feb 1998 12:26:14 +1100 (EST)
+In-Reply-To: <34E6845D.8A0E3D8A@interworx.com.au> from "Kieron Jarvis" at Feb 15, 98 04:59:58 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1249
+
+Kieron Jarvis wrote:
+>
+>Orjan Johansen wrote:
+>
+>> On Fri, 13 Feb 1998, Scott Goehring wrote:
+>>
+>> > Andrew> Does anything rule out zero-size batches?
+>> >
+>> > I, personally, would not consider that to be a batch.
+>>
+>> Well, then I don't see why 1-size batches should count either.
+>
+><snip from the rule>Each week, the Promotor shall distribute a batch of
+>_Proposals_.
+>      These are the only _Proposals_ e is allowed to distribute that
+>      week.
+>
+>I see the plural here. My understanding would be then that neither a
+>batch of 0 or 1 is 'a batch of Proposals'. Time to amend the rule
+>already. Before the lack of proposals forces the game into paradox (here
+>we go again with paradox discussions).
+
+Even we accept thag a batch of Proposal must contain at least two
+Proposals (a reading I find absurdly literal, but then again, that may
+be an argument in its favour), there is certainly no threat of paradox,
+nor even one of the game becoming frozen. The Promotor may still
+distribute Proposals, as long as there are more than two of them.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 20:42 EST 1998
+Received: from gecko.serc.rmit.edu.au (gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA02882 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 20:42:11 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA22334
+	for agora-discussion-list; Mon, 16 Feb 1998 12:36:03 +1100
+Received: from silas.cc.monash.edu.au (silas.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA22331
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 12:36:02 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id MAA27496
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 16 Feb 1998 12:38:45 +1100 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199802160138.MAA27496@silas.cc.monash.edu.au>
+Subject: Re: DIS: proto: The Omnibus Reform Act of 1998 (Chaos22, rev. 14)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 16 Feb 1998 12:38:45 +1100 (EST)
+In-Reply-To: <199802152014.PAA26855@placid.skidmore.EDU> from "Jonathan Fry" at Feb 15, 98 03:14:34 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1229
+
+Jonathan Fry wrote:
+>
+>Scott Goehring writes:
+>>       The Judge issuing such an Order may, at eir discretion, include
+>>       in eir Order a list of up to ten Prescribed Words (to be chosen
+>>       by the Judge) which must be included in the Formal Apology.  If
+>>       the Judge elects to include Prescribed Words, all of the Words
+>>       required must appear within the Formal Apology. 
+>
+>Is there a reason for this besides the obvious comic options? ("I
+>order that the Apology include the words 'waldo, arachnid and
+>analgesic'".)  Also, am I reading this right that the Judge could
+>Order nonsense words to be included (i.e. 'Vogon', 'Rimmer', etc.)?
+
+'Vogon' and 'Rimmer' are not strictly nonsense words, since they
+do carry information ('name of a species of particularly nasty
+bureaucrats and authors of the worst poetry in the known Universe in
+Douglas Adams' "Hitchhikers' Guide to the Galaxy"', and 'a character
+in Red Dwarf'). Vogon poetry does contain many nonsense words:
+'freddled gruntbugglies' for example.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 20:57 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA03102 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 20:57:13 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA22408
+	for agora-discussion-list; Mon, 16 Feb 1998 12:50:35 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA22399
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 12:49:30 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 19232]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49678-23925>; Mon, 16 Feb 1998 02:51:57 +0100
+Date: 	Mon, 16 Feb 1998 02:51:41 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: The Omnibus Reform Act of 1998 (Chaos22, rev. 14)
+In-Reply-To: <199802160138.MAA27496@silas.cc.monash.edu.au>
+Message-ID: <Pine.LNX.3.96.980216025059.28887J-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 404
+
+On Mon, 16 Feb 1998, Steve Gardner wrote:
+
+> 'Vogon' and 'Rimmer' are not strictly nonsense words, since they
+> do carry information ('name of a species of particularly nasty
+> bureaucrats and authors of the worst poetry in the known Universe in
+> Douglas Adams' "Hitchhikers' Guide to the Galaxy"', and 'a character
+
+Tsk, tsk.  _Third_ worst poetry.
+
+Greetings,
+Ørjan.
+
+-- 
+Stop .signature plagiarism!
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 21:20 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA03423 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 21:19:55 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA22515
+	for agora-discussion-list; Mon, 16 Feb 1998 13:14:04 +1100
+Received: from silas.cc.monash.edu.au (silas.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA22512
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 13:14:02 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id NAA23503
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 16 Feb 1998 13:16:46 +1100 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199802160216.NAA23503@silas.cc.monash.edu.au>
+Subject: Re: DIS: proto: The Omnibus Reform Act of 1998 (Chaos22, rev. 14)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 16 Feb 1998 13:16:45 +1100 (EST)
+In-Reply-To: <Pine.LNX.3.96.980216025059.28887J-100000@tyrell.nvg.ntnu.no> from "Orjan Johansen" at Feb 16, 98 02:51:41 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 602
+
+Orjan Johansen wrote:
+>
+>On Mon, 16 Feb 1998, Steve Gardner wrote:
+>
+>> 'Vogon' and 'Rimmer' are not strictly nonsense words, since they
+>> do carry information ('name of a species of particularly nasty
+>> bureaucrats and authors of the worst poetry in the known Universe in
+>> Douglas Adams' "Hitchhikers' Guide to the Galaxy"', and 'a character
+>
+>Tsk, tsk.  _Third_ worst poetry.
+
+I sprawl corrected.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 21:43 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA03811 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 21:43:36 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA22614
+	for agora-discussion-list; Mon, 16 Feb 1998 13:37:58 +1100
+Received: from silas.cc.monash.edu.au (silas.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA22611
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 13:37:56 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id NAA10861
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 16 Feb 1998 13:40:40 +1100 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199802160240.NAA10861@silas.cc.monash.edu.au>
+Subject: DIS: proto: Delegation, Revolt & Perpetuity
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+Date: Mon, 16 Feb 1998 13:40:39 +1100 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2668
+
+####
+Proto-Proposal
+Delegation, Revolt & Perpetuity
+
+[Comment: this fixes two bugs: you can't escape facing election
+after a Revolt by delegating, and you don't lose the status of holding
+your Office in Perpetuity if you delegate. These bug fixes were
+surprisingly difficult to write; the Rules concerned with holding
+Office are getting pretty complicated.]
+
+Be it hereby resolved that R1645 (Temporary Delegation of Office)
+be amended by replacing the text in it which currently reads:
+
+      At the end of the Period of Delegation, the Delegated Player
+      ceases to hold the Delegated Office, and the Delegating Player
+      resumes holding the Office in the normal fashion, unless the
+      Term of Service for that Office has expired.  In that case, the
+      Delegated Player continues to hold the Office temporarily,
+      although the Office ceases to be a delegated Office.
+
+with text which reads:
+
+      At the end of the Period of Delegation, the Delegated Player
+      ceases to hold the Delegated Office, and the Delegating Player
+      resumes holding the Office in the normal fashion, unless the
+      Term of Service for that Office has expired, or a Revolt
+      occurred during the Period of Delegation. If the Term of
+      Service expired, the Delegated Player continues to hold the
+      Office temporarily, although the Office ceases to be a
+      delegated Office. If a Revolt occurred during the Period of
+      Delegation, and at the end of the Period of Delegation no
+      other Player is holding the Office in the normal fashion, the
+      Delegating Player resumes holding the Office, but temporarily, 
+
+Be it further resolved that R1758 (Holding an Office in Perpetuity)
+be amended to read:
+
+      If a certain Office is held in the normal fashion by a Player,
+      then the Registrar may declare Without Objection that the Office
+      is held in perpetuity.
+
+      The Term of Service of an Office held in perpetuity shall never
+      expire, and a Player holding an Office in perpetuity continues
+      to hold the Office in perpetuity while e holds the Office. If a
+      Player holding an Office in perpetuity delegates the Office to
+      another Player, then, if e resumes holding the Office in the
+      normal fashion at the end of the Period of Delegation, e also
+      resumes holding the Office in perpetuity.
+
+      This Rule takes precedence over other rules defining the expiry
+      of an Office's Term of Service.
+
+####
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 21:53 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA03944 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 21:53:14 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA22672
+	for agora-discussion-list; Mon, 16 Feb 1998 13:47:02 +1100
+Received: from silas.cc.monash.edu.au (silas.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA22669
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 13:47:00 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id NAA30291
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 16 Feb 1998 13:49:03 +1100 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199802160249.NAA30291@silas.cc.monash.edu.au>
+Subject: DIS: Re: BUS: Proto:  Plots (v3.0)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 16 Feb 1998 13:49:03 +1100 (EST)
+In-Reply-To: <01bd384a$426fcb00$3b7412ce@friend-computer> from "Ed Murphy" at Feb 12, 98 10:40:22 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 722
+
+Ed Murphy wrote:
+>
+>Proto-Proposal:  Plots (v3.0)
+>
+>All Voting Tokens and P-Notes are destroyed.  For each Player, 5 VTs, 5
+>P-Notes, and 15 Ergs are created in that Player's possession.
+
+Two observations;
+
+1. Is it clear that Proposals have the power to destroy VTs and the
+like? It might be safer to make this the result of self-Repealing
+Rule.
+
+2. The loophole created by R1754 (Inadvertant Transfers to the Bank)
+and exploited by General Chaos and Oerjan to avoid the effects of
+'Real VT scarcity, *now*' remains open.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 22:27 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA04342 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 22:27:41 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA22839
+	for agora-discussion-list; Mon, 16 Feb 1998 14:21:15 +1100
+Received: from silas.cc.monash.edu.au (silas.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA22836
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 14:21:14 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id OAA32652
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 16 Feb 1998 14:24:07 +1100 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199802160324.OAA32652@silas.cc.monash.edu.au>
+Subject: DIS: Re: BUS: Assessor's Business
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 16 Feb 1998 14:24:06 +1100 (EST)
+In-Reply-To: <199802160036.TAA01339@poverty.bloomington.in.us> from "Scott Goehring" at Feb 15, 98 07:36:09 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1211
+
+Scott Goehring wrote:
+>
+>			     AGORA NOMIC
+>			OFFICE OF THE ASSESSOR
+>			  FEBRUARY 15, 1998
+>======================================================================
+>Harlequin is cited for Persistent Indebtedness for PO VT1815, and is
+>hereby ordered to pay the Bank 1 Indulgence.
+>
+>The Bank is ordered to pay Morendil 2 VTs pursuant to Rule 833.
+>The Bank is ordered to pay Swann 2 VTs pursuant to Rule 833.
+>
+>The following Score Changes are required:
+>  General Chaos, +3, Rule 1784
+>  Steve, +3, Rule 1784
+>
+>Summary:
+>
+>  Ass#  Payor          Payee     Amt  Currency    Reason
+>aaa056  Harlequin      the Bank    1  Indulgence  PI NW242 VTs, Harlequin
+>aaa057  the Bank       Morendil    2  VTs         R833 NW242 Morendil
+>aaa058  the Bank       Swann       2  VTs         R833 NW242 Swann
+>aaa059  General Chaos              3  Points      R1784 NW242 General Chaos
+>aaa060  Steve                      3  Points      R1784 NW242 Steve
+
+Er, Points are not a Currency, and work outside the PO/TO system.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 22:29 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA04374 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 22:29:43 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA22821
+	for agora-discussion-list; Mon, 16 Feb 1998 14:19:47 +1100
+Received: from silas.cc.monash.edu.au (silas.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA22818
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 14:19:45 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id OAA32650
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 16 Feb 1998 14:22:38 +1100 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199802160322.OAA32650@silas.cc.monash.edu.au>
+Subject: Re: DIS: Public vs Private funding
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 16 Feb 1998 14:22:38 +1100 (EST)
+In-Reply-To: <34E2E9EE.B751EE06@interworx.com.au> from "Kieron Jarvis" at Feb 12, 98 11:24:14 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2387
+
+Kieron Jarvis wrote:
+>
+>2.)    If we are busy paying for all sorts of reports and services and
+>proposal queues and such. How are we supposed to find any VTs to use
+>for.....um.......oh yeah......VOTING !  After all they are _voting_ tokens. It
+>seems as though we are being encouraged to spend all our VTs on everything
+>else but voting. If we have any VTs left over we'd best hold onto them for
+>next week's round of VT expenditure (after making 1 vote in order to get the
+>VT allotment for voting). I should think that the one thing we should be able
+>to do easily is vote on proposals. I would like to see a certain number of
+>'free' votes per player per week.
+
+R1684 (VT Supply) has been repealed - the VT allotment is no more. The
+whole point of VT scarcity is that it should not be 'easy' to vote on
+Proposals, in the sense that it should be a difficult decision precisely
+how to dispose one's VT assets. Nevertheless, with 'VT Supply' gone, many
+Players now have no income at all, and will soon be relying on handouts
+from those who do, a situation which should not be allowed to become
+permanent (although it might be interesting to explore its implications
+temporarily). I would support a very modest welfare package of say
+0.5 or 1.0 VTs per week, to at least give Players 1 free vote a week
+to use as they see fit.
+
+>3.)    Incidentally, it would make it easier to follow threads if they didn't
+>have the group servers appended in front. When I get a message header like
+>"Re: DIS: Re: BUS: Re: OFF: ........Report" I have to look in three entirely
+>separate parts of the mail list to find the previous messages. I can't sort
+>the list by thread, date, alphabetic, or any other way to bring the messages
+>into close proximity. If the group server name was on the end of the header
+>then an alphabetic sort would bring them to adjacency.
+
+The labels are there to make it easy to sort mail into the three basic
+categories of official mail, business mail, and discussion. Personally,
+I've never felt the need for threading, although I agree it would be
+nice. Unfortunately, majordomo does not allow me the option of appending
+rather than prepending the labels.
+
+Distributor Steve
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 22:52 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA04612 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 22:52:28 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA22980
+	for agora-discussion-list; Mon, 16 Feb 1998 14:45:52 +1100
+Received: from roatan.ucs.indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA22977
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 14:45:47 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-193.ucs.indiana.edu [156.56.126.193])
+	by roatan.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id WAA19666
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 22:48:32 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id WAA01704 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 22:48:29 -0500
+Message-Id: <199802160348.WAA01704@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Assessor's Business 
+In-reply-to: Your message of "Mon, 16 Feb 1998 14:24:06 +1100."
+             <199802160324.OAA32652@silas.cc.monash.edu.au> 
+Date: Sun, 15 Feb 1998 22:48:27 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 263
+
+"Steve" == Steve Gardner <gardner@silas.cc.monash.edu.au> writes:
+
+Steve> Er, Points are not a Currency, and work outside the PO/TO
+Steve> system.
+
+Yes, but there are enough similarities that I can "fudge" it.  Can you
+find any legal problem with what I've done?
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 23:06 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA04762 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 23:06:20 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA23078
+	for agora-discussion-list; Mon, 16 Feb 1998 15:01:20 +1100
+Received: (from socrates@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA23073
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 16 Feb 1998 15:01:18 +1100
+From: Steve Gardner <socrates@gecko.serc.rmit.edu.au>
+Message-Id: <199802160401.PAA23073@gecko.serc.rmit.edu.au>
+Subject: DIS: Problems with Jester's address
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+Date: Mon, 16 Feb 1998 15:01:18 +1100 (EST)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 3095
+
+Jester, your host machine appears to be crashing occasionally and
+refusing mail. I've just received this:
+
+Forwarded message:
+> From MAILER-DAEMON@gecko.serc.rmit.edu.au  Mon Feb 16 11:22:50 1998
+> Date: Mon, 16 Feb 1998 11:22:50 +1100
+> From: Mail Delivery Subsystem <MAILER-DAEMON@gecko.serc.rmit.edu.au>
+> Message-Id: <199802160022.LAA21833@gecko.serc.rmit.edu.au>
+> To: owner-agora-discussion@gecko.serc.rmit.edu.au
+> MIME-Version: 1.0
+> Content-Type: multipart/report; report-type=delivery-status;
+> 	boundary="LAA21833.887588570/gecko.serc.rmit.edu.au"
+> Subject: Returned mail: Host unknown (Name server: bishop.cyberalink.com.au.interworx.com.au.: no data known)
+> Auto-Submitted: auto-generated (failure)
+> 
+> This is a MIME-encapsulated message
+> 
+> --LAA21833.887588570/gecko.serc.rmit.edu.au
+> 
+> The original message was received at Mon, 16 Feb 1998 11:18:05 +1100
+> from majordomo@localhost
+> 
+>    ----- The following addresses had permanent fatal errors -----
+> KJarvis@interworx.com.au
+>     (expanded from: :include:/usr/local/majordomo/lists/agora-discussion)
+> 
+>    ----- Transcript of session follows -----
+> 550 KJarvis@interworx.com.au... Host unknown (Name server: bishop.cyberalink.com.au.interworx.com.au.: no data known)
+> 
+> --LAA21833.887588570/gecko.serc.rmit.edu.au
+> Content-Type: message/delivery-status
+> 
+> Reporting-MTA: dns; gecko.serc.rmit.edu.au
+> Arrival-Date: Mon, 16 Feb 1998 11:18:05 +1100
+> 
+> Final-Recipient: RFC822; agora-discussion-list@gecko.serc.rmit.edu.au
+> Action: expanded (to multi-recipient alias)
+> Status: 2.0.0
+> Last-Attempt-Date: Mon, 16 Feb 1998 11:22:50 +1100
+> 
+> Final-Recipient: RFC822; agora-discussion-list@gecko.serc.rmit.edu.au
+> X-Actual-Recipient: RFC822; KJarvis@interworx.com.au
+> Action: failed
+> Status: 5.1.2
+> Remote-MTA: DNS; bishop.cyberalink.com.au.interworx.com.au
+> Last-Attempt-Date: Mon, 16 Feb 1998 11:22:07 +1100
+> 
+> --LAA21833.887588570/gecko.serc.rmit.edu.au
+> Content-Type: text/rfc822-headers
+> 
+> Return-Path: <owner-agora-discussion@gecko.serc.rmit.edu.au>
+> Received: (from majordomo@localhost)
+> 	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA21831
+> 	for agora-discussion-list; Mon, 16 Feb 1998 11:18:05 +1100
+> Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+> 	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id LAA21828
+> 	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 11:18:03 +1100
+> Received: From elgar With LocalMail ; Mon, 16 Feb 98 11:20:53 +1100 
+> From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+> To: agora-discussion@gecko.serc.rmit.edu.au (Nomic Discussion)
+> Date: Mon, 16 Feb 1998 11:20:52 +1100 (EST)
+> Message-Id:  <980216002053.15112@cse.unsw.edu.au>
+> Subject: DIS: Proposal Queue
+> X-Mailer: ELM [version 2.4 PL23]
+> MIME-Version: 1.0
+> Content-Type: text/plain; charset=US-ASCII
+> Content-Transfer-Encoding: 7bit
+> Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+> Precedence: bulk
+> Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+> 
+> --LAA21833.887588570/gecko.serc.rmit.edu.au--
+> 
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 23:06 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA04771 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 23:06:31 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA23060
+	for agora-discussion-list; Mon, 16 Feb 1998 15:00:22 +1100
+Received: from silas.cc.monash.edu.au (silas.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA23057
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 15:00:20 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id PAA00498
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 16 Feb 1998 15:03:07 +1100 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199802160403.PAA00498@silas.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Assessor's Business
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 16 Feb 1998 15:03:07 +1100 (EST)
+In-Reply-To: <199802160348.WAA01704@poverty.bloomington.in.us> from "Scott Goehring" at Feb 15, 98 10:48:27 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 621
+
+Scott Goehring wrote:
+>
+>"Steve" == Steve Gardner <gardner@silas.cc.monash.edu.au> writes:
+>
+>Steve> Er, Points are not a Currency, and work outside the PO/TO
+>Steve> system.
+>
+>Yes, but there are enough similarities that I can "fudge" it.  Can you
+>find any legal problem with what I've done?
+
+As long as the Scorekeepor isn't penalized for 'failure to execute a
+TO for Points' or some such thing, I guess it'll be fine.
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Feb 15 23:32 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA05066 for <dpb@cs.brown.edu>; Sun, 15 Feb 1998 23:32:45 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA23228
+	for agora-discussion-list; Mon, 16 Feb 1998 15:25:46 +1100
+Received: from cayman.ucs.indiana.edu (cayman.ucs.indiana.edu [129.79.10.63])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA23225
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 16 Feb 1998 15:25:41 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-193.ucs.indiana.edu [156.56.126.193])
+	by cayman.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id XAA30296
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 23:28:27 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id XAA01826 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 15 Feb 1998 23:28:24 -0500
+Message-Id: <199802160428.XAA01826@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Assessor's Business 
+In-reply-to: Your message of "Mon, 16 Feb 1998 15:03:07 +1100."
+             <199802160403.PAA00498@silas.cc.monash.edu.au> 
+Date: Sun, 15 Feb 1998 23:28:23 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 256
+
+"Steve" == Steve Gardner <gardner@silas.cc.monash.edu.au> writes:
+
+Steve> As long as the Scorekeepor isn't penalized for 'failure to
+Steve> execute a TO for Points' or some such thing, I guess it'll be
+Steve> fine.
+
+Seeing as there is no such thing... :)
+
+

@@ -1,0 +1,490 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Fri May 29 12:22 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA29797 for <dpb@cs.brown.edu>; Fri, 29 May 1998 12:22:52 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA20539
+	for agora-business-list; Sat, 30 May 1998 02:19:50 +1000
+Received: from gwis.com (darcy.gwis.com [209.57.72.3])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA20536
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 30 May 1998 02:19:43 +1000
+Received: from gwis.com (pap27.gwis.com [209.57.71.57])
+	by gwis.com (8.9.0/8.9.0) with ESMTP id MAA19981
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 29 May 1998 12:19:27 -0400 (EDT)
+Message-ID: <356EDFED.342B9098@gwis.com>
+Date: Fri, 29 May 1998 12:18:53 -0400
+From: Steven Swiniarski <saswann@gwis.com>
+Organization: S Andrew Swann
+X-Mailer: Mozilla 4.04 [en] (Win95; U)
+MIME-Version: 1.0
+To: Agora-Business <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: PROTO: Order Fix, Final
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 20329
+
+PROTO: Order Repair v2.0 (this proposal shall have AI=3)
+------------------------------------------------------------------
+NOTE: Barring further comment, this will be the fix I Propose.
+      With the addition of one scam-related rule :)
+
+PART I: Orders in general
+==================================================================
+
+Rule 1793 is amended to read as follows;
+
+      An Order is a command, executed by a Player and directed to some
+      entity.  It is a non-Rule entity given coercive power by other
+      Rules.
+
+      An Order may be directed to the holder of an Office or other
+      official position in eir capacity as that Office or other
+      official position, and in this case if the Office or position
+      changes hands before the Order is satisfied, the duty to abide
+      by the Order automatically attaches to the new holder of that
+      Office or position.
+
+      Notwithstanding the foregoing, an Order, the purpose of which is
+      to affect the operation of a prior Order, is as valid as any
+      other Order, and is said to be directed at the prior Order it
+      affects.
+
+{Comment: The language about either multiple prohibitions, or one single
+          act, is needlessly constraining-- and raises some bizarre 
+          problems when considering possible amendments.  It makes more 
+          sense to treat them as unitary bodies of text with coercive 
+          power, like a Rule, that can contain multiple provisions as 
+          the situation dictates.  In the case of Orders defined by the 
+          Rules, (TO's PO's &c.) there's already reasonable restriction 
+          on their content.}
+
+
+Let the following rule be created with a Power=2;
+(Title: Automatically Invalid Orders)
+
+     An Order shall be invalidated upon its execution if any of the 
+     following is true of it;
+
+       i) It seeks to hinder the appeal of itself or some other Order
+      ii) It seeks to hinder the stay, vacation or amendment of itself,
+          either directly, or indirectly through hindering the stay,
+          vacation or amendment of another Order.
+     iii) The Order itself is in direct violation of one or more Rules.
+      iv) It seeks to compel, or forbid, the performance of any duty
+          required or permitted of a Player solely in virtue of that
+          Player being a Judge or Justice.
+       v) It seeks to forbid any Player from submitting a CFJ, appealing
+          a CFJ, or submitting a Motion.
+
+{Comment: Fixed ii) to allow Orders to hinder the operation of other
+          Orders, if that hindering still permits the stay, vacation &c. 
+          of the Order in question.}
+
+
+Let the following Rule be created with a Power=2;
+(Title: Precedence and Authority of Orders)
+
+     Orders are non-Rule entities with coercive power granted by this
+     Rule.  If there is a conflict between Orders of different classes,
+     the following precedence relations shall hold if no other Rule
+     explicitly applying to those Orders specifies otherwise. If another
+     Rule explicitly states that an Order executed by a particular
+     Player in a particular circumstance shall take precedence over--
+     or defer to-- another Order, then that method of precedence shall 
+     govern first.
+
+     Otherwise, Orders have precedence in relation to their class as 
+     follows;
+
+       i) Administrative Orders have precedence over Private Orders.
+      ii) Judicial Orders have precedence over Administrative Orders and 
+          Private Orders.
+     iii) Appellate Orders have precedence over all other Orders.
+      iv) Between Orders of the same class, the Order that was most
+          recently executed or amended shall take precedence.
+
+     The following shall always apply to any Order, other Rules
+     notwithstanding;
+
+     An Order can only affect another Order when the Order affected 
+     does not take precedence over it. An Order that attempts to do so 
+     is invalidated upon execution.
+
+     No Order can forbid or hinder a Player from executing an Order
+     of equal or higher precedence.  An Order that attempts to do so is 
+     invalidated upon execution.
+
+     This Rule takes precedence over other Rules defining the precedence 
+     of non-Rule Entities that don't apply solely to Orders.
+
+{Comment: Revised this to allow stays upon appeal, and to treat Orders
+          as NREs, with a twist.  In order for vacation and such to be
+          effective, I have reversed the "normal" precedence for NREs, 
+          with later-executed Orders taking precedence.  I think this 
+          makes sense given the nature of Orders, which are more 
+          transitory than Rules or SLCs.
+          
+          Redid this to allow specific rules to revise precedence
+          relations of specific Orders.}
+
+
+Rule 1796 is amended to read as follows;
+
+      All Administrative, Judicial, and Appellate Orders executed in the
+      manner prescribed by the Rules are presumed valid and enforceable 
+      until proven otherwise by CFJ.
+
+      Any Private Order that is of a type not explicitly permitted by
+      the Rules, or is not pursuant to an agreement between the Player
+      issuing it and the entity to which the Order is directed, or is
+      not affecting such an Order, is presumptively invalid until proven 
+      otherwise by CFJ.
+
+      In order to be proven valid by CFJ, the Rules must;
+
+        i) Permit the Player who executed the Order in question to 
+           execute such an Order.
+
+       ii) Require or permit the execution of the Order in the 
+           circumstances which existed at the time it was executed.
+
+      iii) Not explicitly render it invalid.
+
+{Comment: Loosened the reigns on private Orders to allow for Player
+          agreements, removed the "class and type" language.
+          Permitted Orders pursuant to agreements by players.}
+
+
+Let the following Rule be created;
+(Title: Definition of Improper for Orders)
+
+     An Order shall be improperly executed when it fails to conform to 
+     the procedures defined in the Rules for the execution of an Order, 
+     or if its content fails to conform to the strictures provided in 
+     the Rules for the content of an Order.
+
+     An Order shall be for an improper purpose if it does not conform to 
+     the purpose of such an Order as broadly defined in the Rules.  The 
+     following shall be the minimum considerations for determining the 
+     proper purpose for each class of Order;
+
+       i) Private Orders shall not be for a proper purpose unless they 
+          are directly relevant to the personal business of the Player 
+          issuing them, or to the business of entities of which that
+          Player is an Executor, or are persuant to a binding agreement
+          betwen the Player issuing the Order and the entity being so
+          Ordered.
+      ii) Administrative Orders shall not be for a proper purpose unless 
+          they are directly relevant to the performance of the official 
+          duties of the Player issuing them.
+     iii) Judicial Orders shall not be for a proper purpose unless they 
+          are directly relevant to a CFJ currently being Judged by the
+          Player issuing them.
+      iv) Appellate Orders shall not be for a proper purpose unless they 
+          are directly relevant to an issue that Board is currently 
+          adjudicating.
+
+     Orders which are improperly executed, or for an improper purpose, 
+     are invalid.
+
+     Orders that are improperly executed, for an improper purpose, or
+     are otherwise invalid, are defined as improper Orders.  A proper 
+     Order is any Order that is not improper.
+
+{Comment: Rewrote i) after some suggestions.}
+
+
+Rule 1800 is amended by appending the following paragraph;
+
+     "If an Amendment to a valid Order would render it invalid, then the 
+      Order to make that Amendment is itself invalid.
+
+{Comment: IMHO this makes sense, because otherwise it would be possible
+          to get around legal Orders by amending them into invalidity, 
+          which I don't think should be possible.
+
+
+PART II: Orders and the Courts
+=======================================================================
+Rule 1809 is amended to read as follows;
+
+      Both Administrative and Private Orders are subject to appeal by
+      a CFJ whose Statement alleges that the Order is improper.  (i.e.
+      invalid, improperly executed, or for an improper purpose.)
+
+      Upon a judicial finding that an Administrative or Private Order
+      was improperly or invalidity executed, the Judge so finding shall
+      vacate that Order.
+
+      When the Clerk of the Courts receives a properly executed Call
+      for Judgement, the statement of which alleges that an
+      Administrative or Private Order was improperly or invalidity
+      executed, the Clerk of the Courts shall stay the Order in
+      dispute.  This Order to stay shall take precedence over the Order
+      in dispute. If the Judge affirms the validity of the original
+      Order, e shall then vacate this stay.
+
+{Comment: This is a better solution IMO than my prior attempt.  It 
+          allows us to have a precedence of Orders, but allows special 
+          cases, like the above, when we would want to grant an order 
+          precedence beyond what is normal.  (The Judge doesn't need a 
+          clause, since the only Order eir Order doesn't take precedence 
+          over are Appellate Orders.}
+
+
+Rule 217 is amended to read;
+
+      All Judgements, and Judicial Orders, must be in accordance with
+      the Rules; however, if the Rules are silent, inconsistent, or 
+      unclear on the Statement to be Judged, or the Order to be issued, 
+      then the Judge shall consider game custom, commonsense, past
+      Judgements, past Judicial Orders in similar curcumstances, 
+      and the best interests of the game before applying other 
+      standards.
+
+{Comment: This gives the same standards to Judicial Orders that apply to
+          Judgements.}
+
+
+Rule 1804 is amended to read;
+
+     Judicial Orders are subject to appeal to a Board of Appeal by a
+     Call for Appeal.
+
+     If not specified elsewhere, the insistence of three Players, or the 
+     insistence of the Player subject to the Order, to the Public Forum, 
+     shall be sufficient to call for this Appeal.
+
+     The Board of Appeal shall, upon finding that a Judicial Order is
+     improper (i.e. invalid, improperly executed, or for an improper 
+     purpose), amend or vacate the Order, as it deems appropriate.
+
+     When the Clerk of the Courts receives a properly executed Call
+     for Appeal of a Judicial Order, the Clerk of the Courts shall
+     stay the Order under appeal.  This Order to stay shall take
+     precedence over the Order under appeal. If the Board of Appeals 
+     affirms the validity of the original Order, it shall then vacate 
+     this stay.
+
+{Comment: See the amendment of 1809.  BTW, both of these use the
+          new definition of improper I introduced.}
+
+
+Rule 1827 is amended to read;
+
+      A Judge must either grant or deny each Motion forwarded to em by
+      the Clerk of the Courts, within five days of when the Motion was
+      received by the Judge.  E may, but need not, state the reasons
+      for eir grant or denial.  A Judge grants or denies a Motion by
+      sending eir determination on that Motion to the Clerk of the
+      Courts, along with any reasons e chooses to provide.
+
+      In any case, the Judge shall deny any Motion that would require
+      eim to make an improper Order, is not directly relevant to the 
+      CFJ to which it applies, or would require em to act in violation
+      of any Rule.
+
+      The effect of granting a Motion depends on the nature of the
+      Motion granted, but generally amounts to requiring the Judge to
+      perform as requested by the Motion.
+
+      Upon receipt of a Judge's determination on a Motion, the Clerk
+      the determination made and the reasons, if any, on the record of
+      the CFJ, and shall notify the Player who made the Motion of that
+      determination.
+
+{Comment: Currently it is perfectly all right for a Motion to be issued
+          that directly bribes a judge to grant itself (I was 
+          considering, as an alternative response to the Counter-
+          Revolution, submitting a motion requesting a Judge-- notably 
+          P-Note poor-- to pay out to emself five P-Notes and vacate all 
+          of Macross' Orders), and it currently need not have anything 
+          to do with the CFJ in question.}
+
+Rule 1830 is repealed
+
+{Comment:  The first part is taken over by the stronger Rule above, and 
+           the other class can be added to the dismissal Rule.}
+
+Rule 1565 is amended by changing the text;
+
+      " i) It contains no clearly-identifiable Statement.
+       ii) Its Statement can not logically admit to either being TRUE
+           or FALSE.
+      iii) Its Statement does not relate to a matter relevant to the
+           Rules.
+       iv) Its Statement fails to comply with the Rules.
+        v) It lacks standing, as defined elsewhere.
+       vi) After a reasonable effort by the Judge to obtain all
+           relevant information, no determination can be made of the
+           truth or falsity of its Statement."
+
+To read as follows;
+
+
+      " i) It contains no clearly-identifiable Statement.
+       ii) Its Statement can not logically admit to either being TRUE
+           or FALSE.
+      iii) Its Statement does not relate to a matter relevant to the
+           Rules.
+       iv) Its Statement fails to comply with the Rules.
+        v) It lacks standing, as defined elsewhere.
+       vi) After a reasonable effort by the Judge to obtain all
+           relevant information, no determination can be made of the
+           truth or falsity of its Statement.
+      vii) Its statement alleges that a Judge or Justice has failed to
+           perform a duty of a judicial nature.  (Such issues are for
+           appeal to the Board of Appeals, as specified in other Rules.)
+
+{Comment:  Added the reason for this new clause in the interest of
+           clarity.}
+
+
+Rule 1806 is amended to read;
+
+      Appellate Orders are not subject to appeal.  However, upon a
+      judicial finding that the required certification was falsely
+      provided, the Justiciar shall vacate the Order which was
+      accompanied by that false certification. This Order to vacate
+      shall take precedence over the falsely certified Order.
+
+
+Rule 1807 is amended to read;
+
+      Since Appellate Orders cannot be appealed, Appellate Orders are
+      valid if and only if addressed to:
+        i) The Clerk of the Courts in eir Official capacity;
+       ii) an Order issued by the Clerk of the Courts in eir Official
+           Capacity;
+      iii) The Judge of the CFJ which that Board of Appeals was
+           convened to consider, or any Order issued by that Judge in
+           that particular CFJ; or
+       iv) any combination of the above.
+
+      All other Appellate Orders are improper and presumptively invalid.
+
+      This Rule takes precedence over all Rules pertaining to the
+      validity of Appellate Orders.
+
+
+Rule 1695 is amended to read as follows;
+
+      In the appeal of a Judicial Order, the Board shall consider
+      whether the Order in question was proper, valid, and if it
+      was appropriate for the situation.
+
+      If the Board finds that the Order was made properly, and was
+      appropriate for the situation, it shall affirm the Order.  If an
+      Order staying the execution of the appealed Order was entered,
+      it shall vacate this stay.
+
+      If the Board finds that the Order was improper, invalid, or that
+      it was inappropriate for the situation, it shall vacate the
+      original Order.  Should the Board further find that the Order
+      was made without reasonable justification or for a clearly
+      improper purpose, it shall (at its discretion) impose a penalty
+      of 2 Blots upon the Judge who made the original Order.
+
+Part III: New Concepts and restrictions
+======================================================================
+
+Rule 1810 and 1811 are hereby repealed.
+
+Let the following Rule be created;
+(Title: Definition of Fufilled, Satisfied, and Defied Orders)
+
+     An Order shall be Fulfilled when all actions required of the entity 
+     so Ordered are performed by that entity.
+
+     An Order shall be Defied when any action an entity is required by 
+     the Order to refrain from is performed by that entity.
+
+     An Order shall be Satisfied when it is Fulfilled, and that Order 
+     does not require the Ordered entity to refrain from any action.  If 
+     an Order can be Defied, it cannot be Satisfied.
+
+
+Let the following Rule be created;
+(Title: No Multiple Fulfillments)
+
+     No single action by any entity can be used to Fulfill the 
+     requirements of more than one Order unless the rules state 
+     explicitly otherwise in the circumstances in which the entity 
+     performs the action.  This Rule take precedence over Rules that 
+     contradict its provisions.
+
+
+Let the following Rule be created;
+(Title: Penalties for Contempt)
+
+     There is a Crime of Contempt by Action, a Class C Crime.  This 
+     Crime is committed when an entity Defies an Order.
+
+     There is a Crime of Contempt by Inaction, a Class C Crime.  This 
+     Crime is committed when an entity, when required by an Order to 
+     perform an action, fails to perform that action within the time 
+     required of it by the Rules.  If the Order has been Fulfilled, that
+     shall be a complete defense against this Crime.
+
+     This Rule shall have no application with respect to any Order
+     which has been adjudicated to be improper, and the impropriety of
+     the Order is a complete defense to any Criminal accusation made
+     under this Rule.
+
+Rule 1802 shall be amended to read;
+
+      The effect of vacating an Order is to permanently deny the
+      vacated Order from having any effect.  Vacating an Order to
+      Vacate reinstates the ability of the vacated Order to have
+      effect, as of the moment the Order to Vacate is itself vacated.
+      Vacating an Order that requires action from an entity shall not
+      have the effect of reversing any actions performed by that entity
+      to Fufill that Order. Vacating an Order that has been Satisfied 
+      shall have no effect.
+
+{Comment: This is starting to address Michael's loophole.}
+
+Let the follwoing Rule be created;
+(Title: Judical Redress for improper Orders)
+
+     If a Judge finds that an Order was improper, and the entity so 
+     Ordered has acted to Fulfill, in whole, or in part, the improper 
+     Order, the Judge shall issue an Order to reverse, insofar as is 
+     possible, those actions performed by that entity that the Rules do
+     not provide reversal for by other means. However, e shall only
+     issue such an Order if it does no further harm.
+
+{Comment: This replaces 1818 as far as old TO's goes.  If you need to
+          deal with a vacated TO over a month old, take it to the 
+          courts.}
+
+
+Part IV: Currency
+======================================================================
+
+
+Rule 1818 is amended to read as follows;
+
+      If a Recordkeepor notes a transfer pursuant to a Transfer Order
+      which is vacated within one week of its issuance, e shall 
+      execute a Payment Order requiring a Transfer Order that would have 
+      the effect of reversing the original Transfer Order.
+
+{Comment: This smoothes out the oddball handling of vacated TO's as well
+          as putting a statute of limitations on vacations the 
+          Recordkeepor needs to note.  If a problem occurs in an older 
+          TO, that's when Judicial redress comes into play.  See the 
+          above Rules..}
+
+
+
+-- 
+=====================================================================
+Steven A. Swiniarski                http://www.sff.net/people/saswann
+aka S Andrew Swann                                   saswann@gwis.com
+---------------------------------------------------------------------
+ "The contest for ages has been to rescue liberty from the grasp of
+  executive power."                                --Daniel Webster
+=====================================================================
+

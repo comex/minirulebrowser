@@ -1,0 +1,521 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Jun 12 00:31 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA19652 for <dpb@cs.brown.edu>; Fri, 12 Jun 1998 00:31:07 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA26031
+	for agora-discussion-list; Fri, 12 Jun 1998 14:25:10 +1000
+Received: from dfw.nationwide.net (dfw.nationwide.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA24689
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 11 Jun 1998 16:10:24 +1000
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id BAA00474
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 11 Jun 1998 01:06:45 -0500 (CDT)
+Message-Id: <199806110606.BAA00474@dfw.nationwide.net>
+Subject: Re: DIS: Re: BUS: A Conditional Move
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 11 Jun 1998 01:06:44 -0500 (CDT)
+In-Reply-To: <199806110227.MAA23699@silas-2.cc.monash.edu.au> from "Steve Gardner" at Jun 11, 98 12:27:39 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 2902
+
+Steve Gardner wrote:
+>
+>>Goldbach's conjecture belongs to a class of conjectures (previously
+>>including Fermat's conjecture) which cannot be proven unprovable, since if
+>>they are unprovable they are true. 
+>>
+>>So, if it is unprovable we will never know.
+>
+>Two questions: is there a proof that Goldbach's Conjecture cannot
+>be proven to be unprovable? If not, then, on what basis do you claim
+>that the Conjecture cannot be be proven to be unprovable?
+>
+>Secondly: what is 'provability'? Could it be the case that the
+>Conjecture is false, but cannot be proven to be false?
+
+It seems pretty clear to me, at least in purely theoretical terms,
+that if the Goldbach conjecture is false, then it can be proven to
+be false.  I'm no formal mathematician or logician, but I'll try
+to be as formal as I can.
+
+Let us assume that the Goldbach conjecture is false.  This means that
+there exists an even integer N, greater than 4, which cannot be
+expressed as the sum of two odd prime numbers.
+
+In other words, for every odd prime number a<N, N-a is not prime.
+It seems to me all we have to do to demonstrate that N cannot
+be expressed as the sum of two odd prime numbers is to find
+all odd primes a<N, and show that every N-a is composite.  (Actually,
+we only need to check all primes a<=(N/2), but that doesn't affect
+my proof.)
+
+Now, we apply this test--to determine whether N can expressed
+as the sum of two odd primes--to every even number beginnning with
+6.  For a given N, the process terminates in a finite amount of
+time (want me to prove this?  I hope it's obvious, because
+it's intuitive to me, but it would take quite a bit more
+work to prove it.)  Since the smallest N which is a counterexample
+to Goldbach is finite, it will be found in a finite amount of time.
+(Actually, I think for the proof we don't have to worry about how
+we found N.  It's enough that it exists, and we can verify that
+it's a counterexample to Goldbach.  But my-increasingly-less formal
+proof seems stronger if we can find N in a finite time, not just
+verify that it's a counterexample.)
+
+So although the time needed to find the counterexample is unknown, if 
+it exists, the time is finite.  Thus, if Goldbach is false, it
+can be proved to be false.
+
+Thus: if Goldbach cannot be proved to be false, it is true.
+
+Thus: if Goldbach cannot be proved to be false, and cannot be
+      proved to be true, it is true.
+
+Thus: A proof that Goldbach cannot be proved to be either true or
+      false is a proof that Goldbach is true; reductio ad absurdum,
+      A proof that Goldbach cannot be proved to be either true or
+      false does not exist.
+
+Again, this is from a purely theoretical standpoint.  From a practical
+standpoint, it may be that the smallest counterexample N is so large
+that it cannot be proved to be a counterexample to Goldbach, given the
+limitations on space, time, matter, and energy in the universe.
+
+Chuck
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Jun 12 02:35 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA21452 for <dpb@cs.brown.edu>; Fri, 12 Jun 1998 02:35:03 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA29359
+	for agora-discussion-list; Fri, 12 Jun 1998 16:29:40 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA29356
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 12 Jun 1998 16:29:38 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id QAA01229 for agora-discussion@gecko.serc.rmit.edu.au; Fri, 12 Jun 1998 16:29:44 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199806120629.QAA01229@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: A Conditional Move
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 12 Jun 1998 16:29:44 +1000 (EST)
+In-Reply-To: <199806110606.BAA00474@dfw.nationwide.net> from "Charles E. Carroll" at Jun 11, 98 01:06:44 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1725
+
+Charles E. Carroll wrote:
+>
+>So although the time needed to find the counterexample is unknown, if 
+>it exists, the time is finite.  Thus, if Goldbach is false, it
+>can be proved to be false.
+>
+>Again, this is from a purely theoretical standpoint.  From a practical
+>standpoint, it may be that the smallest counterexample N is so large
+>that it cannot be proved to be a counterexample to Goldbach, given the
+>limitations on space, time, matter, and energy in the universe.
+
+It is at this point in the argument that the constructionist will
+want to object: concepts cannot outrun our ability to apply them,
+and we must be careful to what concept of provability we appeal
+here. There are a number of possibilities here, and they lead to
+different strengths of constructionism:
+
+1. The counterexample to Goldbach's Conjecture (GC) exists, but
+cannot be calculated by a human being with human limitations, without
+prosthetic aids (such as computers). This is very strict, and I doubt
+many constructionists take this line, although Wittgenstein (who lived
+before computers seems to have been tempted by it in some moods).
+
+2. The counterexample to GC exists, but cannot be calculated even
+by a prosthetically extended human being.
+
+3. The counterexample to GC exists, but cannot be calculated by
+any sentient being, even one limited only constraints of physical
+law.
+
+If (3) is the case, it seems plausible to say that GC is false but
+not provably false - or to drop the claim that GC determinately
+is true or false.
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Jun 12 02:44 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA21558 for <dpb@cs.brown.edu>; Fri, 12 Jun 1998 02:44:14 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA29568
+	for agora-discussion-list; Fri, 12 Jun 1998 16:38:50 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA29516
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 12 Jun 1998 16:38:47 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id QAA15467 for agora-discussion@gecko.serc.rmit.edu.au; Fri, 12 Jun 1998 16:38:54 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199806120638.QAA15467@silas-2.cc.monash.edu.au>
+Subject: Re: BUS: RE: DIS: RE: Get paid to vote! Act now!
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 12 Jun 1998 16:38:54 +1000 (EST)
+In-Reply-To: <000101bd958a$041ee140$29f0accf@macross> from "Dave Smith" at Jun 11, 98 06:41:04 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 712
+
+Dave Smith wrote:
+>
+>I apologize in advance for this conditional moves (they are frowned upon
+>lately, but these are so easily checked I think it's allowable).
+>
+>If it is not too late to do so I hereby declare Presence on P3757.
+>If it is not too late to do so I hereby vote FOR P3758.
+
+The above message was stamped Thu, 11 Jun 1998 18:41:04 -0400 - about
+7 hours after the VP for Proposals 3755-3757 concluded. So your
+declaration of Presence on P3757 came too late. Your vote FOR
+P3758 is noted.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Jun 12 07:29 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA25629 for <dpb@cs.brown.edu>; Fri, 12 Jun 1998 07:29:54 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA04003
+	for agora-discussion-list; Fri, 12 Jun 1998 21:24:10 +1000
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA04000
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 12 Jun 1998 21:24:06 +1000
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 18278]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49278-269>; Fri, 12 Jun 1998 13:24:00 +0200
+Date: 	Fri, 12 Jun 1998 13:23:49 +0200 (MET DST)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: OFF: Voting Results: 3755-3757
+In-Reply-To: <199806120653.QAA21783@silas-2.cc.monash.edu.au>
+Message-ID: <Pine.LNX.3.96.980612131920.20101P-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 422
+
+On Fri, 12 Jun 1998, Steve Gardner wrote:
+
+>                     3  3  3
+>                     7  7  7
+>                     5  5  5
+>                     5  6  7
+
+> Oerjan                 *  *
+
+Um, that should be 3755, not 3756.  Not that it matters.
+
+Greetings,
+Ørjan.
+
+-- 
+A pro-spam bill has passed the US Senate, and is now in the House of
+Representatives.  See <http://www.cauce.org> and
+<http://www.ybecker.net/>.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Jun 12 09:21 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA28098 for <dpb@cs.brown.edu>; Fri, 12 Jun 1998 09:21:14 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA06815
+	for agora-discussion-list; Fri, 12 Jun 1998 23:18:17 +1000
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA06812
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 12 Jun 1998 23:18:11 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id PAA13092; Fri, 12 Jun 1998 15:18:00 +0200 (DFT)
+Date: Fri, 12 Jun 1998 15:18:00 +0200 (DFT)
+Message-Id: <199806121318.PAA13092@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-reply-to: <000101bd958a$041ee140$29f0accf@macross> (changeling@erols.com)
+Subject: Re: BUS: RE: DIS: RE: Get paid to vote! Act now!
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 309
+
+>>
+I apologize in advance for this conditional moves (they are frowned upon
+lately, but these are so easily checked I think it's allowable).
+<<
+
+I also believe that in this case the conditionals were completely
+unnecessary - nothing bad happens when someone tries to vote or
+declare presence late. 
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Jun 12 09:27 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA28239 for <dpb@cs.brown.edu>; Fri, 12 Jun 1998 09:27:39 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA06851
+	for agora-discussion-list; Fri, 12 Jun 1998 23:22:53 +1000
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA06846
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 12 Jun 1998 23:22:33 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id PAA17720; Fri, 12 Jun 1998 15:22:32 +0200 (DFT)
+Date: Fri, 12 Jun 1998 15:22:32 +0200 (DFT)
+Message-Id: <199806121322.PAA17720@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-reply-to: <357EA367.32F82F14@gwis.com> (message from Steven Swiniarski on
+	Wed, 10 Jun 1998 11:16:55 -0400)
+Subject: Re: DIS: CFJ1097 proto judgement
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 450
+
+Swann:
+>>
+Regardless of the form of the Order in question, it was presumtivly
+valid under the Rules until a CFJ (such as the one being argued now) has
+adjudicated it invalid.
+<<
+
+But in the CFJ Macross argued that the emended whatever-it-is was not
+an order at all, becasue it didn't fit the definition of
+"order". Therefore the question of the "validity" of this non-order is
+pointless. It's not an order, so Macross can safely ignore it.
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Jun 12 09:27 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA28244 for <dpb@cs.brown.edu>; Fri, 12 Jun 1998 09:27:50 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA07089
+	for agora-discussion-list; Fri, 12 Jun 1998 23:25:14 +1000
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA07083
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 12 Jun 1998 23:24:58 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id PAA13634; Fri, 12 Jun 1998 15:24:59 +0200 (DFT)
+Date: Fri, 12 Jun 1998 15:24:59 +0200 (DFT)
+Message-Id: <199806121324.PAA13634@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-reply-to: <199806101250.HAA17160@poverty.bloomington.in.us> (message from
+	Scott Goehring on Wed, 10 Jun 1998 07:50:01 -0500)
+Subject: Re: DIS: CFJ1097 proto judgement
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1110
+
+Scott:
+>>
+Klaus> Therefore, due to a bug in the order amendment rules,
+Klaus> amendments of orders are currently impossible, and the
+Klaus> abovementioned amendments never occurred, so the statement of
+Klaus> this CFJ is true.
+
+I think this argument completely ignores the third paragraph of Rule
+1793:
+
+      Notwithstanding the foregoing, an Order, the purpose of which is
+      to affect the operation of a prior Order, is as valid as any
+      other Order, and is said to be directed at the prior Order it
+      affects.
+
+It's quite clear to me that this means that Orders to Amend do not
+need to be directed at any Player, or require any Action.
+<<
+
+Good point. Of course orders, including orders to amend, need not be
+directed at players - any entities can be targetted. I still believe
+that the definition of orders requires that it orders some action or
+other, but then I would interpret the clear language of 1793, which I
+had indeed overlooked, to imply that there is _some_ sensible action
+connected to an order to amend, whatever it is, and that it is
+therefore possible to amend orders.
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Jun 12 09:37 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA28468 for <dpb@cs.brown.edu>; Fri, 12 Jun 1998 09:37:25 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA07128
+	for agora-discussion-list; Fri, 12 Jun 1998 23:29:23 +1000
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA07121
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 12 Jun 1998 23:28:57 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id PAA17736; Fri, 12 Jun 1998 15:28:58 +0200 (DFT)
+Date: Fri, 12 Jun 1998 15:28:58 +0200 (DFT)
+Message-Id: <199806121328.PAA17736@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-reply-to: <s57d41e7.068@rmv.state.ma.us> (message from David Albertz on
+	Tue, 09 Jun 1998 14:07:50 -0400)
+Subject: Re: DIS: Policy Settings
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 829
+
+Crito:
+>>
+Why would reducing the batch size make any difference?
+<<
+
+Because at the moment, with secrecy and no declarations of presence,
+we need at least 5 VTs to get any individual proposal through. And
+only some 10 VTs or so are entering circulation every week (at the
+moment, with hardly any farms operational). That's just enough for 2
+proposals, so if we aim at a constant no of VTs of circulation (and
+players have always tended to hoard VTs, so this is a conservative
+estimate) and you distribute three proposals per week, at least one of
+them is guaranteed to fail quorum.
+
+Which may not be a bad thing, mind you, but while it will mark the
+success of the current attepmts to get a meaningful economy going, it
+would also lead to attempts to water down scarcity again (as you,
+Crito, have suggested recently).
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Jun 12 09:58 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA28967 for <dpb@cs.brown.edu>; Fri, 12 Jun 1998 09:58:28 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA07672
+	for agora-discussion-list; Fri, 12 Jun 1998 23:53:22 +1000
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA07666
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 12 Jun 1998 23:52:55 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id PAA13786; Fri, 12 Jun 1998 15:52:56 +0200 (DFT)
+Date: Fri, 12 Jun 1998 15:52:56 +0200 (DFT)
+Message-Id: <199806121352.PAA13786@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Info re: INP379
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 150
+
+Dan Knapp, liaison of New Rishonnomic, just told wrote on the IN list
+that INP379 is just to account for a recent renaming of
+Micronomic. 
+
+Kolja A. 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Jun 12 17:00 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA10811 for <dpb@cs.brown.edu>; Fri, 12 Jun 1998 17:00:04 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA18633
+	for agora-discussion-list; Sat, 13 Jun 1998 06:44:47 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA18630
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 13 Jun 1998 06:44:42 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 12 Jun 1998 16:44:25 -0400
+Message-Id: <s5815ae9.093@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 12 Jun 1998 16:43:41 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: BUS: The Historical Agoran vol 1, no 1
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 190
+
+BUS: The Historical Agoran vol 1, no 1
+
+Swann,
+
+Thank you *very* much for undertaking this enterprise.  The next time I feel
+like de-Kudoing someone, I know where it will go.  8)
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Jun 12 17:04 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA10905 for <dpb@cs.brown.edu>; Fri, 12 Jun 1998 17:04:20 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA18907
+	for agora-discussion-list; Sat, 13 Jun 1998 06:58:33 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA18904
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 13 Jun 1998 06:58:30 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 12 Jun 1998 16:58:25 -0400
+Message-Id: <s5815e31.001@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 12 Jun 1998 16:57:49 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Policy Settings
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1235
+
+Re: DIS: Policy Settings
+
+Kolja wrote:
+
+>Crito:
+>>>
+>Why would reducing the batch size make any difference?
+><<
+
+>Because at the moment, with secrecy and no declarations of presence,
+>we need at least 5 VTs to get any individual proposal through. And
+>only some 10 VTs or so are entering circulation every week (at the
+>moment, with hardly any farms operational). That's just enough for 2
+>proposals, so if we aim at a constant no of VTs of circulation (and
+>players have always tended to hoard VTs, so this is a conservative
+>estimate) and you distribute three proposals per week, at least one of
+>them is guaranteed to fail quorum.
+
+>Which may not be a bad thing, mind you, but while it will mark the
+>success of the current attepmts to get a meaningful economy going, it
+>would also lead to attempts to water down scarcity again (as you,
+>Crito, have suggested recently).
+
+Fair enough.  However, there are a significant number of VTs already in
+circulation.  I think I will leave the batch size at 3 for the moment.  This
+might be an incentive for Players to get Plots going before the current
+"excess" becomes too depleted.  It will be interesting to see if we can even
+get *two* proposals passed in a batch anyway.  8)
+
+-- Crito
+
+

@@ -1,0 +1,277 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Aug 30 08:22 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA03399 for <dpb@cs.brown.edu>; Sun, 30 Aug 1998 08:22:02 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA30157
+	for agora-discussion-list; Sun, 30 Aug 1998 22:18:51 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA30154
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 30 Aug 1998 22:18:48 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id WAA11940
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 30 Aug 1998 22:19:15 +1000 (EST)
+	(envelope-from oerjan@nvg.ntnu.no)
+Received: from sabre-wulf.nvg.ntnu.no(129.241.210.67) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma011938; Sun, 30 Aug 98 22:18:53 +1000
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 37447]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49552-20992> convert rfc822-to-quoted-printable; Sun, 30 Aug 1998 14:15:24 +0200
+Date: 	Sun, 30 Aug 1998 14:15:18 +0200 (CEST)
+From: "Dr. Orjan Johansen" <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: On precedence relations
+In-Reply-To: <199808270230.MAA05655@silas-1.cc.monash.edu.au>
+Message-ID: <Pine.LNX.4.02.9808301409430.20127-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from QUOTED-PRINTABLE to 8bit by gecko.serc.rmit.edu.au id WAA30155
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 1248
+Lines: 31
+
+On Thu, 27 Aug 1998, Steve Gardner wrote:
+
+> Of course, one could give up the Mirror Image Assumption. But how then
+> to explain the mirror image treatment given to precedence and deference
+> claims by R1030?
+> 
+>       If at least one of the Rules in conflict explicitly says of
+>       itself that it defers to another Rule (or type of Rule) or
+>       takes precedence over another Rule (or type of Rule), then such
+>       provisions shall supercede the numerical method for determining
+>       precedence.
+> 
+>       If two or more Rules claim to take precedence over one another
+>       or defer to one another, then the numerical method again
+>       governs.
+
+My take on this is that the cases are symmetric _if_ there is a conflict,
+but that there is an assymmetry in when conflict arises, in that deference
+claims are intrinsically conflict-avoiding.  This does not mean that
+mentioning deference is redundant in the above, as we have seen from
+hypothetical examples that the conflict avoidance may sometimes fail if
+two rules defer to each other in destructive ways.
+
+Greetings,
+Ørjan.
+
+-- 
+A pro-spam bill has passed the US Senate, and is now in the House of
+Representatives.  See <http://www.cauce.org> and
+<http://www.ybecker.net/>.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Aug 30 15:52 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA10695 for <dpb@cs.brown.edu>; Sun, 30 Aug 1998 15:51:58 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA32110
+	for agora-discussion-list; Mon, 31 Aug 1998 05:49:57 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA32107
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 31 Aug 1998 05:49:55 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id FAA12423
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 31 Aug 1998 05:50:24 +1000 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from belize.ucs.indiana.edu(129.79.10.64) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma012421; Mon, 31 Aug 98 05:50:18 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-92.ucs.indiana.edu [156.56.126.92])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id OAA32012
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 30 Aug 1998 14:48:47 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id OAA10938 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 30 Aug 1998 14:48:43 -0500
+Message-Id: <199808301948.OAA10938@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: On precedence relations 
+In-reply-to: Your message of "Sun, 30 Aug 1998 14:15:18 +0200."
+             <Pine.LNX.4.02.9808301409430.20127-100000@tyrell.nvg.ntnu.no> 
+Date: Sun, 30 Aug 1998 14:48:43 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 527
+Lines: 12
+
+"Orjan" == Orjan Johansen <oerjan@nvg.ntnu.no> writes:
+
+Orjan> My take on this is that the cases are symmetric _if_ there is a
+Orjan> conflict, but that there is an assymmetry in when conflict
+Orjan> arises, in that deference claims are intrinsically
+Orjan> conflict-avoiding.  
+
+I find myself tending to agree with this position.  
+
+I'm going to be going down to the Law Library later today, and while
+I'm there I'll take a look at a few treatises on Conflict of Laws to
+see if anything meaningful can be gleaned from them.  
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Aug 30 15:59 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA10795 for <dpb@cs.brown.edu>; Sun, 30 Aug 1998 15:59:39 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA32162
+	for agora-discussion-list; Mon, 31 Aug 1998 05:57:57 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA32159
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 31 Aug 1998 05:57:56 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id FAA12431
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 31 Aug 1998 05:58:24 +1000 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from belize.ucs.indiana.edu(129.79.10.64) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma012429; Mon, 31 Aug 98 05:58:15 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-92.ucs.indiana.edu [156.56.126.92])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id OAA27802
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 30 Aug 1998 14:56:49 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id OAA10969 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 30 Aug 1998 14:56:46 -0500
+Message-Id: <199808301956.OAA10969@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: One final point 
+In-reply-to: Your message of "Fri, 28 Aug 1998 14:27:49 +1000."
+             <199808280427.OAA08306@silas-1.cc.monash.edu.au> 
+Date: Sun, 30 Aug 1998 14:56:45 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 952
+Lines: 17
+
+"Steve" == Steve Gardner <gardner@silas-2.cc.monash.edu.au> writes:
+
+Steve> A final point about precedence relations and the situation with
+Steve> respect to Rules 1585, 1686 and 1023. My position has been that
+Steve> R1023 attempts to defer to R1686, but cannot do so becasue
+Steve> R1482 forces higher Powered Rules to take precedence of lower
+Steve> Powered Rules. Michael's position has been that R1023 does not
+Steve> conflict with R1686 because it defers to it.
+
+I believe Steve's reading is correct.  I should note, however, that a
+completely different reading would prevail were Rule 1023 to have read
+"Other Rules may impose earlier times, and if so, those times, and not
+those imposed by this Rule, shall apply" and "This Rule does not apply
+in any situation where another Rule describes ..."  Such language
+would be avoidant (or even delegatory), rather than deferent.
+
+Sigh.  I think it's time for a complete rewrite of the entire Ruleset.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Aug 30 17:18 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA12060 for <dpb@cs.brown.edu>; Sun, 30 Aug 1998 17:18:23 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA32454
+	for agora-discussion-list; Mon, 31 Aug 1998 07:14:29 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA32451
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 31 Aug 1998 07:14:27 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id HAA12490
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 31 Aug 1998 07:14:56 +1000 (EST)
+	(envelope-from agoralee@schawk.com)
+Received: from click.schawk.com(205.184.253.12) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma012488; Mon, 31 Aug 98 07:14:30 +1000
+Received: from schawk-pdc (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 25; 4:11:29 PM -0500
+From: agoralee@schawk.com (Agora lee)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 30 Aug 1998 16:09:24 -0500
+Subject: DIS: Re: OFF: Registrar's report
+Message-ID: <msg14073.thr-101c7a36.76adf1@Schawk.com>
+References: <13801.35941.101160.488270@albatross.cl.cam.ac.uk>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg14073.thr-101c7a36.76adf1.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 615
+Lines: 17
+
+Michael.Norrish@cl.cam.ac.uk,Internet writes:
+>Date: Sun, 30 Aug 1998 18:28:37 +0100
+>  Lee wins election as Accountor.
+
+Well, I am amazed and somewhat pleased to have won the election despite
+my failure to report thus far.  I think this shows that this office is
+underpaid.
+
+I have been working diligently this weekend to come up with a report by
+Monday.  This looked so straight forward until I tried it.  I do not
+regret taking office though, I think next weeks report will be easier,
+since this one contains a months' worth of transfers!
+
+
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Aug 30 18:16 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA12975 for <dpb@cs.brown.edu>; Sun, 30 Aug 1998 18:16:35 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA32703
+	for agora-discussion-list; Mon, 31 Aug 1998 08:14:30 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id IAA32700
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 31 Aug 1998 08:14:28 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id IAA12543
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 31 Aug 1998 08:14:57 +1000 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from cayman.ucs.indiana.edu(129.79.10.68) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma012541; Mon, 31 Aug 98 08:14:51 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-27.ucs.indiana.edu [156.56.126.27])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id RAA15220
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 30 Aug 1998 17:13:20 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id RAA11149 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 30 Aug 1998 17:13:18 -0500
+Message-Id: <199808302213.RAA11149@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: On precedence relations 
+In-reply-to: Your message of "Thu, 27 Aug 1998 12:30:33 +1000."
+             <199808270230.MAA05655@silas-1.cc.monash.edu.au> 
+Date: Sun, 30 Aug 1998 17:13:17 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1523
+Lines: 33
+
+"Steve" == Steve Gardner <gardner@silas-2.cc.monash.edu.au> writes:
+
+Steve> We can see, then, that the only way to preserve the Mirror
+Steve> Image Assumption is to treat both precedence and deference
+Steve> claims differently to first order claims, to treat them, not as
+Steve> modifying first order claims, but as resolving conflicts
+Steve> between them.
+
+I have no real problem with this statement.  However, I also note that
+it seems quite clear to me that there is a fine line between a Rule
+whose language seeks to avoid conflict and a Rule whose language
+does not, but instead offers to resolve the conflict when it arises.
+
+In the instant example, Steve gives us the hypothetical Rule-pair,
+"A1: Foo is equal to 6. This Rule defers to other Rules which give Foo a
+     different value." and 
+"B1: Foo is equal to 5."
+
+Steve argues that these are logically equivalent to,
+"A2: Foo is equal to 6." and
+"B2: Foo is equal to 5. This Rule takes precedence over other Rules which
+     give Foo a different value."
+
+This is probably true absent any other interfering Rules.  However,
+consider the following, almost identical pair of Rules:
+"A1: Foo is equal to 6. However, this Rule shall have no effect if
+     another Rule would give Foo a different value." and 
+"B1: Foo is equal to 5."
+
+I would argue that in this case, A1 makes no claim about Foo's value
+because of its conflict-avoiding mechanism, there is no conflict, and
+Foo's value is 5 solely because of B1.  The conflict resolution
+mechanisms are not invoked.
+

@@ -1,0 +1,2238 @@
+From owner-agora-official@gecko.serc.rmit.edu.au Sun Feb 21 17:49 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id RAA18701
+	for <dpb@cs.brown.edu>; Sun, 21 Feb 1999 17:49:20 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA04874
+	for agora-official-list; Mon, 22 Feb 1999 09:48:03 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id JAA04871
+	for <agora-official@gecko.serc.rmit.edu.au>; Mon, 22 Feb 1999 09:48:01 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id JAA13480
+	for <agora-official@gecko.serc.rmit.edu.au>; Mon, 22 Feb 1999 09:51:46 +1100 (EST)
+Received: from dial-126-38.dial.indiana.edu(156.56.126.38) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma013478; Mon, 22 Feb 99 09:51:42 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id RAA12209 for <agora-official@gecko.serc.rmit.edu.au>; Sun, 21 Feb 1999 17:48:16 -0500
+Message-Id: <199902212248.RAA12209@poverty.bloomington.in.us>
+To: agora-official@gecko.serc.rmit.edu.au
+Subject: OFF: Promotor's Report of P-Note Holdings
+Date: Sun, 21 Feb 1999 17:48:16 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 6285
+Lines: 123
+
+>From the Office of the Promotor:
+
+		      REPORT OF P-NOTE HOLDINGS
+	    FOR THE 13-DAY PERIOD ENDING 21 FEBRUARY 1999
+
+==============================================================================
+
+Name                           08Feb99 21Feb99  Change Net POs
+
+Andre                                0       0       -       -
+Antimatter                           0       0       -       -
+Blob                                 3       5      +2       -
+Chuck                                4       3      -1       -
+Crito                                9       8      -1       -
+elJefe                               0       0       -       -
+General Chaos                        3       1      -2       -
+Harlequin                            0       0       -       -
+Kolja A.                             9       9       -       -
+lee                                  2       0      -2       -
+Macross                              2       4      +2      -1
+Michael                              0       0       -       -
+Morendil                             1       1       -       -
+Murphy                               4       2      -2       -
+Oerjan                               3       3       -       -
+Peekee                               1       1       -       -
+Proglet                              2       0      -2       -
+Steve                               10      13      +3       -
+The Bank                            57      58      +1      +3
+The Order of the Evil Eye            2       2       -       -
+The Repeal-O-Matic                   2       2       -      -2
+Vlad                                 0       2      +2       -
+
+==============================================================================
+
+Outstanding Payment Orders
+
+#    Ident     Exec. Date        Amt. Payee         Payor        Executed by
+------------------------------------------------------------------------------
+59*  PR2032.03 22Jan99 05:42:54     1 Macross       The Bank     General Chaos
+70   PR2061.01 20Feb99 04:01:09     1 The Repeal-O- The Bank     General Chaos
+                                        Matic
+71   PR2061.02 20Feb99 04:01:09     1 The Repeal-O- The Bank     General Chaos
+                                        Matic
+
+==============================================================================
+
+Disputed Payment Orders
+
+#    Ident     Exec. Date        Amt. Payee         Payor        Executed by
+------------------------------------------------------------------------------
+(none)
+
+==============================================================================
+
+Satisfied Payment Orders
+
+#    Ident     Exec.   Satis.   Amt. Payee         Payor         Executed by
+------------------------------------------------------------------------------
+61   apn027    29Jan99 08Feb99     2 The Bank      Steve         Blob
+62             31Jan99 08Feb99     1 The Bank      The Repeal-O- Chuck
+                                                     Matic
+63             31Jan99 08Feb99     1 The Bank      The Repeal-O- Chuck
+                                                     Matic
+64             01Feb99 03Feb99     1 The Bank      Vlad          Andre
+65   apn028    04Feb99 04Feb99     2 The Bank      Kolja A.      Blob
+66   apn029    08Feb99 08Feb99     2 The Bank      Steve         Blob
+67   apn030    08Feb99 08Feb99     2 The Bank      Blob          Blob
+69   apn032    15Feb99 16Feb99     2 The Bank      Vlad          Blob
+
+==============================================================================
+
+Vacated Payment Orders
+
+#    Ident     Exec.   Vac.     Amt. Payee         Payor         Executed by
+------------------------------------------------------------------------------
+62             31Jan99 18Feb99     1 The Bank      The Repeal-O- Chuck
+                                                     Matic
+63             31Jan99 18Feb99     1 The Bank      The Repeal-O- Chuck
+                                                     Matic
+68   apn031    15Feb99 15Feb99     2 The Bank      General Chaos Blob
+
+==============================================================================
+
+Transfer Orders
+
+#    Exec. Date         Amt.  Payee              Payor              Note
+------------------------------------------------------------------------------
+119  25Jan99 06:22:36      1  Blob               The Bank
+120  25Jan99 10:43:15      1  Michael            The Bank
+121  27Jan99 04:18:13      1  elJefe             The Bank           PR2032.01
+122  27Jan99 05:42:58      1  General Chaos      The Bank
+123  27Jan99 15:19:47      2  The Bank           Oerjan             apn026
+124  28Jan99 07:13:15      2  Steve              The Bank
+125  03Feb99 17:03:27      1  The Bank           Vlad               #64
+126  04Feb99 10:48:53      2  The Bank           Kolja A.           apn028
+127  05Feb99 01:17:34      1  Vlad               The Bank
+128  05Feb99 13:16:34      2  Steve              The Bank
+129  06Feb99 13:09:33      1  General Chaos      The Bank
+130  07Feb99 08:04:58      1  Blob               The Bank
+131  08Feb99 04:02:04      1  Chuck              The Bank
+132  08Feb99 11:22:59      2  The Bank           Steve              apn027
+133  08Feb99 11:22:59      1  The Bank           The Repeal-O-Matic #63
+134  08Feb99 11:22:59      1  The Bank           The Repeal-O-Matic #62
+135  08Feb99 11:22:59      2  The Bank           Steve              apn029
+136  08Feb99 11:22:59      2  The Bank           Blob               apn030
+137  09Feb99 20:51:07      1  General Chaos      The Bank
+138  12Feb99 17:08:47      1  Crito              Michael
+139  14Feb99 04:52:39      1  General Chaos      The Bank
+140  15Feb99 07:45:10      1  Steve              The Bank
+141  15Feb99 11:37:18      1  Michael            The Bank
+142  16Feb99 16:00:57      2  The Bank           Vlad               apn032
+143  18Feb99 20:18:35      1  Murphy             The Bank
+144  18Feb99 20:18:42      1  Murphy             The Bank
+145  18Feb99 20:18:47      2  Proglet            The Bank
+146  18Feb99 20:18:47      2  The Repeal-O-Matic The Bank
+147  18Feb99 20:18:47      2  Lee                Macross
+
+==============================================================================
+
+Respectfully submitted,
+
+General Chaos
+Promotor, Agora Nomic
+
+From owner-agora-official@gecko.serc.rmit.edu.au Sun Feb 21 17:53 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id RAA18806
+	for <dpb@cs.brown.edu>; Sun, 21 Feb 1999 17:53:18 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA04903
+	for agora-official-list; Mon, 22 Feb 1999 09:51:03 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id JAA04900
+	for <agora-official@gecko.serc.rmit.edu.au>; Mon, 22 Feb 1999 09:51:01 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id JAA13485
+	for <agora-official@gecko.serc.rmit.edu.au>; Mon, 22 Feb 1999 09:54:46 +1100 (EST)
+Received: from dial-126-38.dial.indiana.edu(156.56.126.38) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma013483; Mon, 22 Feb 99 09:54:01 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id RAA12407 for <agora-official@gecko.serc.rmit.edu.au>; Sun, 21 Feb 1999 17:50:35 -0500
+Message-Id: <199902212250.RAA12407@poverty.bloomington.in.us>
+To: agora-official@gecko.serc.rmit.edu.au
+Subject: OFF: The Proposal Queue
+Date: Sun, 21 Feb 1999 17:50:35 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 81517
+Lines: 1880
+
+>From the Office of the Promotor:
+
+			  THE PROPOSAL QUEUE
+			AS OF 21 FEBRUARY 1999
+
+============================================================================
+
+Active Proposals
+
+No. | Title                    | Proposer           | Pri | Date Proposed
+    |                          |                    |     |
+ 77 | Modes of Voting          | Blob               | 2   | 25Jan99 06:22:36
+ 78 | (no title given)         | Michael            | 2   | 25Jan99 10:43:15
+ 84 | Broaden Actions Without  | General Chaos      | 2   | 30Jan99 20:00:07
+    |    Objection             |                    |     |
+ 72 | CotC? Who's the CotC?    | Andre              | 1   | 18Jan99 09:50:18
+ 75 | Vlad the Historian       | Steve              | 1   | 22Jan99 05:15:09
+112 | CFJ Tweaks               | Murphy             | 1   | 18Feb99 20:18:35
+113 | Legal Briefs             | Murphy             | 1   | 18Feb99 20:18:42
+ 62 | Repeal Rule 1003 (No     | The Repeal-O-Matic | 0   | 05Jan99 06:53:48
+    |    Coercive Proposals)   |                    |     |
+ 63 | Repeal Rule 947 (Bonus   | The Repeal-O-Matic | 0   | 05Jan99 07:01:07
+    |    for Repeal)           |                    |     |
+ 64 | Repeal Rule 103 (The     | The Repeal-O-Matic | 0   | 05Jan99 07:01:07
+    |    Speaker and Voters)   |                    |     |
+ 65 | Repeal Rule 116          | The Repeal-O-Matic | 0   | 05Jan99 07:01:07
+    |    (Permissibility of    |                    |     |
+    |    the Unprohibited)     |                    |     |
+ 67 | Auctions                 | Blob               | 0   | 07Jan99 23:17:59
+ 71 | Repeal Rule 1697         | The Repeal-O-Matic | 0   | 18Jan99 03:31:59
+    |    (Multiple rapid wins  |                    |     |
+    |    prohibited)           |                    |     |
+ 76 | Let the Promotor         | General Chaos      | 0   | 24Jan99 13:00:18
+    |    Exercise Judgment     |                    |     |
+ 82 | Simplify Probate         | General Chaos      | 0   | 29Jan99 07:00:07
+ 83 | Keep Conway Out Of The   | General Chaos      | 0   | 30Jan99 12:00:06
+    |    Clock                 |                    |     |
+ 85 | Plainness is a Virtue    | General Chaos      | 0   | 01Feb99 12:00:07
+ 86 | Oh, what a tangled       | General Chaos      | 0   | 01Feb99 19:00:03
+    |    web....               |                    |     |
+ 87 | Evidentiary Status of    | General Chaos      | 0   | 02Feb99 14:00:04
+    |    Officer Reports       |                    |     |
+ 88 | Appeal Tweaks            | General Chaos      | 0   | 02Feb99 14:00:04
+ 89 | Winning Isn't Anything   | General Chaos      | 0   | 02Feb99 14:00:04
+ 90 | Zero Payment Orders      | General Chaos      | 0   | 02Feb99 14:00:05
+ 91 | Executorship             | General Chaos      | 0   | 02Feb99 14:00:06
+ 94 | Cleanup of R.1445        | General Chaos      | 0   | 05Feb99 02:45:11
+ 96 | Proposals May Order      | General Chaos      | 0   | 05Feb99 20:15:07
+ 98 | Organizational Reform    | General Chaos      | 0   | 05Feb99 23:00:11
+ 99 | Some Housecleaning       | General Chaos      | 0   | 06Feb99 16:00:03
+100 | Kill the Lawyers         | General Chaos      | 0   | 06Feb99 17:00:07
+101 | Cleanup of R.1006        | General Chaos      | 0   | 06Feb99 18:00:07
+102 | More Sensible Amendment  | General Chaos      | 0   | 07Feb99 11:00:09
+    |    Numbers               |                    |     |
+103 | Normalization of 1807    | General Chaos      | 0   | 08Feb99 07:00:07
+104 | Do we need this?         | General Chaos      | 0   | 08Feb99 14:00:08
+105 | Reformat Rule 105        | General Chaos      | 0   | 08Feb99 23:05:08
+106 | Reformat Rule 1434       | General Chaos      | 0   | 08Feb99 23:05:09
+107 | Reformat Rule 1558       | General Chaos      | 0   | 09Feb99 03:00:10
+108 | Down with Playerism!     | General Chaos      | 0   | 15Feb99 06:48:24
+109 | Freshen 1796             | General Chaos      | 0   | 16Feb99 02:00:11
+110 | BAH!                     | General Chaos      | 0   | 18Feb99 02:00:10
+111 | Why is it there?         | Vlad               | 0   | 18Feb99 02:21:41
+114 | Left in a Huff           | Murphy             | 0   | 18Feb99 22:47:48
+115 | Changing the Bar Height  | Blob               | 0   | 19Feb99 07:39:10
+116 | Power to the Senate      | Peekee             | 0   | 19Feb99 17:23:08
+117 | Power to the Senate:     | Peekee             | 0   | 20Feb99 11:22:40
+    |    take two              |                    |     |
+
+============================================================================
+
+Recent Events (past 14 days)
+
+Date              | No. | Event               | Title
+                  |     |                     |
+08Feb99 01:22:57  |  95 | Distributed         | Repeal Impeachment
+                  |  97 | Distributed         | Summary Adoption
+                  |     |                     |
+08Feb99 02:03:24  |  93 | Distributed         | The Grand Agoran Tournament
+                  |     |                     |
+08Feb99 04:02:04  |  84 | Priority Changed +1 | Broaden Actions Without
+                  |     |                     |   Objection
+                  |     |                     |
+08Feb99 07:00:07  | 103 | Proposed            | Normalization of 1807
+                  |     |                     |
+08Feb99 14:00:08  | 104 | Proposed            | Do we need this?
+                  |     |                     |
+08Feb99 23:05:08  | 105 | Proposed            | Reformat Rule 105
+                  |     |                     |
+08Feb99 23:05:09  | 106 | Proposed            | Reformat Rule 1434
+                  |     |                     |
+09Feb99 03:00:10  | 107 | Proposed            | Reformat Rule 1558
+                  |     |                     |
+09Feb99 20:51:07  |  84 | Priority Changed +1 | Broaden Actions Without
+                  |     |                     |   Objection
+                  |     |                     |
+14Feb99 04:52:39  |  75 | Priority Changed -1 | Vlad the Historian
+                  |  72 | Priority Changed +1 | CotC? Who's the CotC?
+                  |     |                     |
+15Feb99 06:48:24  | 108 | Proposed            | Down with Playerism!
+                  |     |                     |
+15Feb99 07:45:10  |  75 | Priority Changed +1 | Vlad the Historian
+                  |     |                     |
+15Feb99 11:37:18  |  78 | Priority Changed +1 | (no title given)
+                  |     |                     |
+16Feb99 02:00:11  | 109 | Proposed            | Freshen 1796
+                  |     |                     |
+18Feb99 02:00:10  | 110 | Proposed            | BAH!
+                  |     |                     |
+18Feb99 02:21:41  | 111 | Proposed            | Why is it there?
+                  |     |                     |
+18Feb99 20:18:35  | 112 | Proposed            | CFJ Tweaks
+                  | 112 | Priority Changed +1 | CFJ Tweaks
+                  |     |                     |
+18Feb99 20:18:42  | 113 | Proposed            | Legal Briefs
+                  | 113 | Priority Changed +1 | Legal Briefs
+                  |     |                     |
+18Feb99 22:47:48  | 114 | Proposed            | Left in a Huff
+                  |     |                     |
+19Feb99 07:39:10  | 115 | Proposed            | Changing the Bar Height
+                  |     |                     |
+19Feb99 17:23:08  | 116 | Proposed            | Power to the Senate
+                  |     |                     |
+20Feb99 11:22:40  | 117 | Proposed            | Power to the Senate: take two
+                  |     |                     |
+21Feb99 21:04:59  |  77 | Priority Changed +1 | Modes of Voting
+
+============================================================================
+
+Text of Proposals in Queue (not a distribution)
+
+----------------------------------------------------------------------------
+
+77. Proposal by Blob, AI=1
+Modes of Voting
+
+Amend Rule 1764 (Public Voting) to read:
+
+  (a) There are three possible modes of voting on Proposals, Elections
+      and Referenda: Public, Private and Unrestricted. The prevailing
+      mode for each of each of Proposals, Elections and Referenda is 
+      initially Public.
+
+  (b)  (1) The Assessor may change the prevailing mode of voting
+           for Proposals, with Support. 
+
+       (2) The Registrar may change the prevailing mode of
+           voting for Elections, with Support. 
+
+       (3) The prevailing mode of Referenda is always Public.
+
+  (c) When the Voting Period on a Proposal, Election or Referendum
+      begins, the mode of voting for that Proposal, Election or 
+      Referendum is set to the prevailing mode for that kind of vote.
+      Once set in this manner, the mode of voting cannot be changed.
+
+  (d)  (1) If the mode of voting is Public, then any other Rule to the 
+           contrary notwithstanding, the casting of any votes, or the 
+           declaration of Presence, by Voting Entities on that Proposal, 
+           Election or Referendum, may only be achieved by sending a 
+           message to the Public Forum.
+
+       (2) If the mode of voting is Private, then any other Rule to the 
+           contrary notwithstanding, the casting of any votes, or the 
+           declaration of Presence, by Voting Entities on that Proposal, 
+           Election or Referendum, may only be achieved by sending a 
+           message privately to the Vote Collector.
+
+       (3) If the mode of voting is Unrestricted, then any other Rule 
+           to the contrary notwithstanding, the casting of any votes, 
+           or the declaration of Presence, by Voting Entities on that 
+           Proposal, Election or Referendum, may be achieved by sending
+           a message either publically or privately.
+
+Change the title of Rule 1764 to "Modes of Voting".
+
+[v1.0 - Allows for a little bit of experimentation with different
+        voting models without repeated proposals changing from one
+        to another. Gives the Assessor and the Registrar some
+        relatively innocuous discretionary powers with which to lure 
+        the voters.
+
+ v1.1 - Modified it to use the new "With Support" rule. Removed the
+        clause describing timing, as that is covered by "With Support"
+        (albeit in a different way).
+
+        I am in the process of bringing the numbering in line with
+        Gen Chaos' standard, but I've lost the message in which he
+        described it. 
+
+        Removed the final clause as it didn't seem to have any real
+        purpose. 
+]
+
+
+----------------------------------------------------------------------------
+
+78. Proposal by Michael, AI=1
+(no title)
+
+That Rule 1854 ("The Chancellor can set the Basic Officer Salary") be
+amended to read:
+
+The Chancellor can set the Basic Officer Salary by first announcing
+that e is doing so in the Public Forum, provided that e announces a
+value between 0 VTs and 8 VTs inclusive.  The change to the Basic
+Officer Salary then occurs at the beginning of the next week if the
+announcement was made on a Thursday or earlier in the week.  If the
+announcement is made later in the week, then the change occurs at the
+start of the second week after the announcement. 
+
+
+----------------------------------------------------------------------------
+
+84. Proposal by General Chaos, AI=1
+Broaden Actions Without Objection
+
+Be it therefore resolved, that Rule 1728 be amended to read:
+
+      (a) When the Rules specify that an action may be performed
+          "Without N Objections", where N is an integer between one
+          and five inclusive, that action may be legally performed
+          under the following conditions:
+        (1) The Player who seeks to perform the action has announced
+            eir intent to perform that action not fewer than four days
+            before, nor more than fourteen days before, the
+            performance of the action, and this announcement must
+            unambiguously describe the action to be performed;
+        (2) The action performed must match exactly the action
+            described in the announcement made under subdivision
+            (a)(1) of this Rule;
+        (3) The Rule which authorizes the performance of that action
+            Without N Objections must explicitly state which Player or
+            Players are authorized to perform that action; and
+        (4) During the time between the announcement made under
+            subdivision (a)(1) of this Rule and the performance of the
+            action itself, fewer than N Players have posted, in the
+            Public Forum, Objections to the performance of that
+            action.
+
+      (b) If the action to be performed is the change of some property
+          under that Player's control, the change may not take place
+          until the Player announces that e is making that change. 
+          (This requirement is met by making any announcement normally
+          required by the Rules in order to make such changes.)
+
+      (c) The specification in the Rules that an action may be
+          performed "Without Objection" is equivalent to specifying
+          that it may be performed "Without 1 Objection".
+
+      (d) The specification in the Rules that an action may be
+          performed "Without N Objections" in no way prohibits
+          performing that same action if doing so would be otherwise
+          permissible.
+
+      (e) A Rule may specify further restrictions upon the performance
+          of an action Without N Objections, and this Rule defers to
+          such Rules.
+
+
+----------------------------------------------------------------------------
+
+72. Proposal by Andre, AI=1
+CotC? Who's the CotC?
+
+Let Rule 889 be amended by adding the line
+"The term 'CotC' shall unambiguously refer to the Clerk of the Courts."
+
+----------------------------------------------------------------------------
+
+75. Proposal by Steve, AI=2
+Vlad the Historian
+
+In recognition and appreciation of his masterful research into early
+Agoran history, be it hereby resolved that the Agoran community bestow
+upon Vlad, aka Scott de Brestian, the Unique Patent Title of Historian.
+
+Be it further resolved that Vlad be awarded the Degree of Doctor of
+Nomic History for his Thesis, published in two parts, entitled
+'Prolegomena to the Study of Early Agoran History'.
+
+----------------------------------------------------------------------------
+
+112. Proposal by Murphy, AI=1
+CFJ Tweaks
+
+IAmend Rule 991 (Invoking Judgement) by replacing "Player" with "person".
+
+Amend Rule 897 (Barring Players from Judgement) to read:
+
+      The Caller of a CFJ may Bar up to three Players from Judging that CFJ.
+
+      Any Player whose Executor is the Caller of a CFJ is Barred from
+Judging
+      that CFJ.
+
+      Any Player Barred from Judging a CFJ is ineligible to Judge that CFJ.
+
+Amend Rule 1562 (Excess CFJs) by replacing this text:
+
+      The Clerk of the Courts shall dismiss without prejudice any CFJ
+      made by a Player who has previously made five or more CFJs
+      during that Nomic Week.  Such a CFJ is called an "excess CFJ".
+      The Player who submits an excess CFJ commits the Infraction of
+      Excess CFJing, to be reported by the Clerk of the Courts and
+      bearing a penalty of 0.5 VT.
+
+with this text:
+
+      The Clerk of the Courts shall dismiss without prejudice any CFJ
+      made by a person who has previously made five or more CFJs
+      during that Nomic Week.  Such a CFJ is called an "excess CFJ".
+      A Player who submits an excess CFJ commits the Infraction of
+      Excess CFJing, to be reported by the Clerk of the Courts and
+      bearing a penalty of 0.5 VT.
+
+Amend Rule 1567 (Making Oneself Ineligible to Judge a CFJ) to read:
+
+      A Player makes emself ineligible to be the Judge of a specific
+      CFJ or type of CFJ by transmitting a notice to the Clerk of the
+      Courts, specifying the CFJ or type of CFJ for which e wishes to
+      be made ineligible.  Such a notice remains in effect until the
+      Player informs the Clerk of the Courts that it is no longer in
+      effect.
+
+      If, at the time a Player makes emself ineligible to be a Judge
+      of a CFJ in this manner, e has already been selected as the
+      Judge of that CFJ, the Clerk of the Courts shall bill that
+      Player a fee of 0.5 VT and shall recuse that Player as the Judge
+      of that CFJ.
+
+----------------------------------------------------------------------------
+
+113. Proposal by Murphy, AI=1
+Legal Briefs
+
+IAmend Rule 1841 (Granting Power of Attorney) to read:
+
+      A Senator may give eir Power of Attorney to another Player for a
+      specified time period, by specifying the Player and time period
+      in the Public Forum.  To be effective, the time period must be no
+      longer than three months, must begin during the week following the
+      posting, and the other Player must consent in the Public Forum
+      before the time period begins.
+
+      If the grant is effective, then the Player has Power of Attorney
+      over the Senator beginning at the specified time.  This grant ends
+      when one of the following occurs:
+
+        (a) The specified time period ends.
+        (b) The Senator posts in the Public Forum that e withdraws eir
+            Power of Attorney.
+        (c) Either Player is deregistered or goes On Hold.
+
+Amend Rule 1842 (Power of Attorney) to read:
+
+      While the Rules grant one Player (known as the Holder) Power of
+      Attorney over another Player (known as the Grantor), the Holder
+      is the sole Executor of the Grantor.
+
+      No Player may have Power of Attorney over more than two Players.
+
+----------------------------------------------------------------------------
+
+62. Proposal by The Repeal-O-Matic, AI=2
+Repeal Rule 1003 (No Coercive Proposals)
+
+      Rule 1003 is hereby Repealed.
+
+----------------------------------------------------------------------------
+
+63. Proposal by The Repeal-O-Matic, AI=1
+Repeal Rule 947 (Bonus for Repeal)
+
+PROPOSAL: 
+      This Proposal shall have an AI = 1.
+      Rule 947 is hereby Repealed.
+
+----------------------------------------------------------------------------
+
+64. Proposal by The Repeal-O-Matic, AI=3
+Repeal Rule 103 (The Speaker and Voters)
+
+      Rule 103 is hereby Repealed.
+
+----------------------------------------------------------------------------
+
+65. Proposal by The Repeal-O-Matic, AI=3
+Repeal Rule 116 (Permissibility of the Unprohibited)
+
+      Rule 116 is hereby Repealed.
+
+
+----------------------------------------------------------------------------
+
+67. Proposal by Blob, AI=1
+Auctions
+
+Create a rule, with title "Default Procedure for Auctions", and text:
+
+      When an Auction is required and the procedure is not defined
+      elsewhere, the following standard Auction procedure shall be
+      used. Details specified herein are defaults which may be
+      modified by other Rules for specific situations.
+
+      Auctioneer: The Auctioneer is the Entity responsible for
+      collecting bids and announcing the result of the Auction.
+      This Entity is the Speaker if not otherwise specified.
+
+      Bidders: Every Player not on Hold may Bid in an Auction.
+      On Hold status is measured at the time a Player sends eir
+      Bid.
+
+      Auction Currency: Each Auction is conducted in one particular
+      currency. Unless otherwise specified, the Auction Currency is
+      the Voting Token.
+
+      Start of Auction: The Auction begins at the time the
+      first correct and legal announcement that an Auction is
+      begun, as defined in other Rules, is sent to the Public
+      Forum, together with the identity of the Auctioneer, the
+      Auction Currency, and the value of the Starting Bid.
+
+      Starting Bid: The Starting Bid is the minimum possible
+      value of a bid. If not otherwise specified, the Stating Bid
+      is equal to the MUQ of the Auction Currency.
+
+      Making Bids: Each Bidder may make as many Bids as e desires
+      during the Auction. A Bid is a message, sent to the Public
+      Forum, announcing that the sender is bidding in that
+      particular Auction, and the amount of eir Bid. A Bid is only
+      valid if it satisfies the following conditions:
+
+          (1) The Bid is not made before the start of the
+              Auction, or after its end.
+          (2) The amount Bid is a multiple of the MUQ of the
+              Auction Currency.
+          (3) The amount Bid is no less than the Starting Bid.
+          (4) The Bid is larger than any other valid Bid made
+              so far in the Auction.
+
+      End of Auction: If, one week after the Auction started,
+      there have been no Bids made. The Auction ends, and has no
+      winner. Otherwise the Auction ends when 24 hours has passed
+      without a valid Bid having been made.
+
+      The Winner: When the Auction ends, the Bidder who made the
+      largest valid Bid in the Auction is the Winner. The
+      Auctioneer shall announce the Winner of the Auction as soon
+      as possible after the end of the Auction, and shall issue
+      a Payment Order from the Winner to the Bank, for an amount
+      equal to the size of the winning Bid.
+
+Create a rule, with title "Private Auctions", and text:
+
+      If an Auction is designated by the rules as being Private,
+      then Bids may only made by sending them privately to the
+      Auctioneer. This rule takes precedence over the standard
+      Auction procedure.
+
+----------------------------------------------------------------------------
+
+71. Proposal by The Repeal-O-Matic, AI=1
+Repeal Rule 1697 (Multiple rapid wins prohibited)
+
+          Rule 1697 is hereby Repealed.
+
+----------------------------------------------------------------------------
+
+76. Proposal by General Chaos, AI=1
+Let the Promotor Exercise Judgment
+
+Be it therefore resolved, that Rule 1483 be amended to read:
+
+      (a) A Proposal is any document clearly marked as such.
+
+      (b) A Proposal is Proposed when it is posted by a Proposing
+          Entity to the Public Forum with the clear indication that it
+          is being posted for the purpose of Proposing it.
+
+      (c) A Proposal is not Proposed if, in the Promotor's judgment,
+          it is substantially identical to another Proposal Proposed
+          within the past three weeks, unless
+        (1) the Proposing Entity posting the Proposal clearly
+            indicates at the time of posting that the Proposal is
+            intended to become a duplicate of the prior Proposal, or
+        (2) the prior Proposal has been discarded or withdrawn, or has
+            been distributed and the results of voting upon that
+            Proposal have been announced by the Assessor.
+
+      (d) The Promotor's determination that a Proposal has or has not
+          been Proposed (including a determination made under
+          subdivision (c) of this Rule) is subject to judicial review
+          only for abuse of discretion.
+
+      (e) Under no circumstance shall the Promotor's distribution of
+          previously undistributed Proposals constitute the submission
+          of a new Proposal.
+
+Be it further resolved, that a Rule be enacted, to read:
+
+      (a) Any CFJ which alleges that an Officer made an error
+          regarding a determination of fact where the Rules state that
+          such determinations shall be subject to judicial review only
+          for abuse of discretion lacks standing and shall be
+          dismissed.  (Such CFJs, to have standing, must allege that
+          the Officer in question abused discretion in making the
+          disputed determination.)
+
+      (b) This Rule takes precedence over all other Rules pertaining
+          to when a CFJ has standing, and over all other Rules which
+          specify when a CFJ shall be dismissed.
+
+
+----------------------------------------------------------------------------
+
+82. Proposal by General Chaos, AI=1
+Simplify Probate
+
+Be it therefore resolved, that Rules 1637, 1738, 1739 and 1757 be
+repealed.
+
+Be it further resolved, that Rule 1601 be amended to read:
+
+      (a) An entity is inanimate if it:
+        (1) possesses any number of units of Currency, and
+        (2) does not have an Executor.
+
+      (b) The Notary may perform any of the following with respect to
+          a inanimate entity:
+        (1) transfer Currencies owned by the inanimate entity for the
+            purpose of satisfying a Payment Order naming the inanimate
+            entity as payor;
+        (2) Without Objection, vacate any Payment Order naming the
+            inanimate entity as payor or payee; or
+        (3) Without Objection, transfer Currencies owned by that
+            entity to the Bank.
+
+      (c) The Notary is authorized, all other Rules notwithstanding,
+          to transfer Currency from any inanimate entity to any other
+          entity as if e were the inanimate entity's Executor, when e
+          is permitted to do so in accordance with subdivision (b) of
+          this Rule.
+
+      (d) A inanimate entity is considered to continue to have legal
+          existence as long as it continues to possess units of
+          Currency, even if it is dissolved, destroyed, or otherwise
+          would cease to have legal existence prior to that time.
+
+
+----------------------------------------------------------------------------
+
+83. Proposal by General Chaos, AI=1
+Keep Conway Out Of The Clock
+
+Be it therefore resolved, that Rule 1527 be amended to read:
+
+      Whenever a message contains more than one notification, report,
+      or other communication in which the Rules place some legal
+      significance, and the relative order of those communications is
+      legally relevant, those communications shall be considered to
+      have been sent in the order in which they appear in that
+      message.  All such communications are considered to have been
+      sent at the same time, however.
+
+
+----------------------------------------------------------------------------
+
+85. Proposal by General Chaos, AI=2
+Plainness is a Virtue
+
+Be it therefore resolved, that Rule 1023 be amended to read:
+
+      (a) Any Player who fails to perform, in a timely manner, an
+          action required of em by the Rules is guilty of Tardiness, a
+          Class D Crime.
+
+      (b) The definition of "a timely manner" shall be at the sound
+          discretion of the Judge assigned to judge a CFJ alleging
+          this crime, but shall in no case include:
+        (1) intentional failures to perform; nor
+        (2) intentional and excessive delays in performance.
+
+      (c) Generally, performance within one week's time will be timely
+          unless the Rules suggest otherwise.  The performance of
+          actions in an order other than that in which the duties to
+          perform them were incurred may be used as evidence of
+          untimely performance, but is not proof thereof.
+
+      (d) This Rule in no way modifies any requirement imposed by
+          other Rules to perform specific acts within a specific time
+          or in a specific order.
+
+
+----------------------------------------------------------------------------
+
+86. Proposal by General Chaos, AI=1
+Oh, what a tangled web....
+
+Be it therefore resolved, that Rule 478 be amended to read:
+
+      (a) A Public Forum is any medium of communication so designated
+          as such by the Registrar.
+
+      (b) The Registrar may designate any medium as a Public Forum, or
+          revoke such designation from a medium already so designated,
+          Without Objection.  However, the message which is to
+          effectuate the change intended must be sent via a medium
+          which is a Public Forum both before and after the
+          designation or revocation, in order to have legal effect.
+
+      (c) The Registrar may designate any medium (other than one which
+          is designated as a Public Forum) as a Discussion Forum,
+          Without Objection, and may revoke such designation in the
+          same manner.  The designation of a medium as a Public Forum
+          automatically revokes any designation of that same medium as
+          a Discussion Forum.
+
+      (d) Every Active Player shall ensure that e is able to receive
+          messages sent to every medium which the Registrar has
+          designated as a Public Forum.  However, the temporary
+          inability of a Player to receive a Public Forum does not
+          deprive that medium of its status as a Public Forum.
+
+      (e) Any message conveyed by one or more Public Fora is deemed to
+          have been sent to the Public Forum.  In addition, any
+          message sent, by any medium or combination of media, other
+          than a medium designated as a Discussion Forum, to every
+          Active Player so that each Active Player is reasonably
+          certain to receive it, is deemed to have been sent to the
+          Public Forum, but only if it bears an explicit indication
+          that it is intended to be a Public Forum message.
+
+      (f) Whenever the Rules require a Player to "announce", "post",
+          or "distribute" some communication or notification, that
+          Player shall do so by sending it to the Public Forum, unless
+          the Rules specify otherwise in that instance.
+
+      (g) When the Rules require that a message be sent directly to a
+          Player, or make a legal effect contingent on sending a
+|         message to a Player, the use of a Discussion Forum to send
+          such a message shall not be effective unless the receiving
+          Player explicitly or implicitly confirms having received
+          that message.
+
+
+----------------------------------------------------------------------------
+
+87. Proposal by General Chaos, AI=1
+Evidentiary Status of Officer Reports
+
+Be it therefore resolved, that Rule 1768 be amended to read:
+
+      (a) The published Report of an Officer, with respect to those
+          matters reported therein which that Officer is required by
+          law to report, shall be determinative evidence of the facts
+          therein presented, in the absence of clear and convincing
+          evidence contrary to those facts.
+
+      (b) No challenge to the published Report of an Officer, with
+          respect to those matters reported therein which that Officer
+          is required by law to report, shall proceed unless:
+        (1) it was initiated within 21 days of the publication of that
+            report; or
+        (2) credible evidence that the Officer acted in bad faith, or
+            acted in good faith upon information presented to em in
+            bad faith, is presented.
+
+      (c) For the purpose of this Rule, the Speaker shall be
+          considered an Officer.
+
+
+----------------------------------------------------------------------------
+
+88. Proposal by General Chaos, AI=1
+Appeal Tweaks
+
+Be it therefore resolved, that Rule 1570 be amended to read:
+
+      (a) As soon as possible after an Application for Appeal of a
+          Judgement or Motion has been executed, the Clerk of the
+          Court shall:
+        (1) assign, according to the procedures defined elsewhere,
+            three Players to serve as the Board of Appeal for that
+            Appeal; and
+        (2) publish a Notice of Appeal identifying the Judgement or
+            Motion being Appealed, and the identity of the three
+            Players selected under subparagraph (a)(1) above.
+
+      (b) The Clerk of the Courts shall develop and utilize a system
+          of numbering or otherwise identifying Calls for Appeals such
+          that Players may readily and unambiguously refer to any
+          individual Appeal without undue difficulty or confusion.
+
+      (c) If the Clerk of the Courts is in doubt as to whether an
+          Application for Appeal has been successfully executed, e
+          shall proceed as if it had been successfully executed,
+          reserving the question of successful execution to the Board
+          of Appeals.
+
+      (d) If the Board of Appeals finds that the Application for
+          Appeal which led to the appointment of that Board was not
+          successfully executed, it may (at its discretion) dismiss
+          the Appeal, without making any ruling on the merits of the
+          Appeal.
+
+
+----------------------------------------------------------------------------
+
+89. Proposal by General Chaos, AI=3
+Winning Isn't Anything
+
+Be it therefore resolved, that Rules 112, 1498, 1580, 1622, 1638, 1729
+and 1697 be repealed.
+
+Be it further resolved, that Rule 1435 be amended, by deleting the
+sentence, "It is a Win-Preventing condition for a Player to have one
+or more Blots."
+
+
+----------------------------------------------------------------------------
+
+90. Proposal by General Chaos, AI=1
+Zero Payment Orders
+
+Be it therefore resolved, that Rule 1599 be amended to read:
+
+      (a) Whenever a Rule requires a Player to execute a Payment
+          Order, e shall do so within seven days of when the
+          requirement arises.
+
+      (b) The foregoing does not apply to any requirement to execute a
+          Payment Order for zero units of any Currency.  Such Payment
+          Orders need not be executed, any Rule to the contrary
+          notwithstanding.
+
+
+----------------------------------------------------------------------------
+
+91. Proposal by General Chaos, AI=1
+Executorship
+
+Be it therefore resolved, that Rule 1478 be amended to read:
+
+      (a) The Executor of an entity is a Player who is empowered by
+          the Rules to act on behalf of that entity, as if e was that
+          entity.
+        (1) Except when the Rules stipulate otherwise, a Player is eir
+            own Executor.
+        (2) Any other entity has an Executor only when the Rules
+            permit that entity to have an Executor, and a Certificate
+            of Executorship has been filed with the Notary for that
+            entity.
+
+      (b) Before a Player may act as the Executor of an entity, e must
+          file with the Notary a Certificate of Executorship.  A
+          Certificate of Executorship must set out:
+        (1) the entity of which the Player is the Executor;
+        (2) the Player's own name; and
+        (3) the authority under which that Player claims to be
+            Executor of that entity.
+
+      (c) The Notary shall maintain a record of all Certificates of
+          Executorship filed with em, and shall include in eir weekly
+          Report a list of every entity not a Player which has an
+          Executor, and the Player named in the most recent
+          Certificate of Executorship filed with em for that entity.
+
+      (d) A person ceases to be the Executor of an entity when that
+          person ceases to be a Player, any other Rule to the contrary
+          notwithstanding.
+
+      (e) The determination by an Officer that a Player was not acting
+          as the Executor of an entity other than emself shall not be
+          subject to judicial review, in those cases where no
+          Certificate of Executorship has been filed with the Notary
+          naming that Player as the Exector of the entity in question.
+
+      (f) Any Player who files a false Certificate of Executorship
+          commits a Class B Crime.  A Judge who determines that a
+          Certificate of Executorship was filed falsely shall Order
+          the Notary to disregard that filing.
+
+      (g) For the purpose of subdivision (e) of this Rule, the holder
+          of any of the following positions shall be considered an
+          Officer when performing a duty required by or a privilege
+          permitted only by virtue of holding that position:
+        (1) the Speaker;
+        (2) the Recordkeepor of a Currency; or
+        (3) the Trustee of an entity in Probate.
+
+
+----------------------------------------------------------------------------
+
+94. Proposal by General Chaos, AI=1
+Cleanup of R.1445
+
+Be it therefore resolved, that Rule 1445 be amended to read:
+
+      (a) When an Election is required and the procedure is not
+          defined elsewhere, the following Standard Election Procedure
+          shall be used. Details specified herein are defaults which
+          may be modified by other Rules for specific situations.
+        (1) Vote Collector: The Vote Collector is the Entity
+            responsible for taking nominations, collecting and
+            tallying the Votes, and announcing the result.
+          (A) Unless otherwise specified, this Entity is the Player
+              who is Speaker at the time the Referendum starts.
+          (B) If another Player is specified, this Player shall be the
+              Vote Collector for the entire duration of the
+              Referendum.
+          (C) If the Vote Collector deregisters or is deregistered
+              before the Voting Period ends, the Election has no
+              Winner.
+        (2) Nominating Entities: Every Player not on Hold may Nominate
+            eirself in an Election. On Hold status is measured at the
+            time a Player makes a Nomination.
+        (3) Nominations: A Nominating Entity makes a Nomination by
+            sending a message to the Vote Collector during the
+            Nominating Period, indicating what Election e is
+            Nominating for.
+        (4) Candidates: A Player who has Nominated for an Election is
+            called a Candidate for that Election.
+        (5) Retraction: A Nomination, once sent to the Vote Collector,
+            may be retracted before the end of the Nominating Period.
+            A player may retract a Nomination e has made by sending a
+            message to the Vote Collector, indicating that e wishes to
+            retract eir Nomination.
+        (6) Start of Nominations: The Nominating Period begins at the
+            time of the first correct and legal announcement that the
+            Election has begun, as required by the Rules calling for
+            the Election.
+        (7) Duration of Nominations: The Nominating Period lasts for
+            one Week.  All Nominations received by the Vote Collector
+            outside of the Nominating Period have no effect.
+        (8) Secrecy: Nominations need not be kept secret.
+
+      (b) Announcing Candidates: the Vote Collector shall announce to
+          the Public Forum, as soon as possible after the Nominating
+          Period is over, the names of all Players who Nominated for
+          the Election.
+
+      (c) If there are no Candidates in a given Election, then that
+          Election shall have no Winner. If there is only one
+          Candidate in a given Election, then that Candidate shall be
+          the Winner of that Election.
+
+      (d) In all other cases, a Referendum shall being at the time
+          Candidates are Announced, which shall be conducted using the
+          standard procedure for Referendum Voting with the following
+          exceptions:
+        (1) Vote Collector: The Vote Collector for the Referendum is
+            the same as the Vote Collector for the Election.
+        (2) Vote Values: A Vote is the name of exactly one of the
+            Candidates for the given Election. Words which are
+            effectively synonymous with these are also permissible.
+        (3) Adoption: The Winner of the Election is the Candidate for
+            whom the most votes were cast. If there is more than one
+            such candidate, the Speaker chooses one of those
+            candidates as the winner, and must announce eir chosen
+            candidate as winner to the Public Forum.
+        (4) Quorum: Quorum shall be set at 50% of the eligible Voting
+            Entities at the beginning of the Voting Period. If a
+            smaller fraction voted, the Election has no Winner.
+
+      (e) Nonperformance by Vote Collector: The Vote Collector must
+          perform eir required duties, but if the result of an
+          Election is not announced within one Week following the end
+          of the Voting Period, the Election has no Winner.
+
+      (f) Effective Time of Election Results: The results of an
+          Election are effective at the time the results of the
+          Referendum are announced; or, if there is no Referendum, at
+          the time that the Vote Collector announces that there is to
+          be no Referendum.
+
+      (g) Cutoff for Challenges: Any challenge of the correctness of
+          the announced results of an Election must be made within
+          seven days of the time the results are announced.  If seven
+          days pass from the time the results are announced without a
+          challenge, the announced results are the true results of
+          that Election, whether or not they be in error in any way.
+
+
+----------------------------------------------------------------------------
+
+96. Proposal by General Chaos, AI=1
+Proposals May Order
+
+Be it therefore resolved, that Rule 1794 be amended to read:
+
+      (a) Each Order is of one of the following classes:
+        (1) Judicial: A Judicial Order is an Order executed by a
+            Player while acting as a Judge.
+        (2) Appellate: An Appellate Order is an Order executed by a
+            Board of Appeals.
+        (3) Administrative: An Administrative Order is an Order
+            executed by an Officer in the course of performing the
+            duties of that Office, except when those duties involve
+            acting as a member of a Board of Appeals.
+        (4) Legislative: A Legislative Order is an Order executed as
+            part of the effect of the adoption of a Proposal.
+        (5) Private: A Private Order is any Order not described above.
+
+      (b) For the purpose of this Rule, the holder of any of the
+          following positions shall be considered an Officer when
+          performing a duty required by or a privilege permitted only
+          by virtue of holding that position:
+        (1) the Speaker;
+        (2) the Recordkeepor of a Currency; or
+        (3) the Trustee of an entity in Probate.
+
+Be it further resolved, that a Rule be enacted, to read:
+
+      (a) A Proposal may contain one or more Orders.
+
+      (b) The effect of adopting a Proposal which contains Orders is
+          to execute those Orders.  Such Orders are known as
+          Legislative Orders, are deemed to have been executed by that
+          Proposal, and are deemed to have been executed as of the
+          date of the proclamation of the Proposal's adoption.
+
+      (c) Legislative Orders may not be stayed, vacated, or amended
+          except:
+        (1) by a subsequent Legislative Order;
+        (2) by a Judicial Order issued only after a judicial finding
+            that the Proposal containing the Legislative Order was not
+            adopted, was barred from taking effect, or was invalid; or
+        (3) by the Clerk of the Courts, but only for the purpose of
+            staying such an Order during the pendency of a dispute
+            which might reasonably lead to a judicial finding of the
+            sort mentioned in subdivision (c)(2) of this Rule.
+
+
+----------------------------------------------------------------------------
+
+98. Proposal by General Chaos, AI=1
+Organizational Reform
+
+Be it therefore resolved, that a Rule be enacted, to read:
+
+      (a) When a Judge Orders that an action be Rescinded, that action
+          is considered to have never taken place, and all legal
+          consequences of that action are nullified to the extent it
+          is possible to do so.
+
+      (b) A Judge shall Order an action Rescinded only when
+          specifically authorized to do so by the Rules.
+
+Be it further resolved, that Rule 1528 be amended to read:
+
+      (a) An Organization is a collective entity created by or
+          recognized by these Rules.
+
+      (b) Only those collective entities which these rules have
+          created or recognized are Organizations.
+
+      (c) Each Organization must have:
+        (1) a Name, unique from that of every other Organization;
+        (2) an Agent; and
+        (3) a Charter.
+          Any Organization which ceases to have each of the items
+          listed above is subject to administrative dissolution, as
+          defined elsewhere.  No Organization shall be created or
+          recognized which does not have each of the items listed
+          above.
+
+Be it further resolved, that a Rule be enacted, to read:
+
+      (a) In a conflict between the Bylaws and the Charter of an
+          Organization, the Charter takes precedence.
+
+      (b) In a conflict between the Bylaws or the Charter of an
+          Organization and the Rules, the Rules take precedence.
+
+Be it further resolved, that Rule 1614 be amended to read:
+
+      (a) An Organization's name shall only be changed when its Agent
+          delivers a Notice of Change of Organizational Name to the
+          Notary, which must set forth the Organization's old and new
+          names.  The new name must be distinct from that of every
+          other existing Organization.
+
+      (b) A Notice of Change of Organizational Name may be rescinded
+          by Judicial Order; such Order shall properly issue when the
+          Notice was delivered contrary to the Charter and Bylaws of
+          the Organization in question.
+
+Be it further resolved, that Rule 1612 be amended to read:
+
+      (a) An Organization's name shall only be changed when its Agent
+          delivers a Notice of Change of Organizational Charter to the
+          Notary.
+
+      (b) A Notice of Change of Organizational Charter shall set forth
+          its current name and its new Charter.
+
+      (c) A Notice of Change of Organizational Charter may be
+          rescinded by Judicial Order; such Order shall properly issue
+          when the Notice was delivered contrary to the Charter and
+          Bylaws of the Organization in question.
+
+      (d) In any CFJ alleging that the Charter of an Organization has
+          been changed improperly, the Judge shall consider the
+          Charter as it existed prior to the Change.
+
+Be it further resolved, that Rule 1531 be amended to read:
+
+      (a) The Agent of an Organization must be a natural person.
+
+      (b) The Agent of an Organization is required to abide by the
+          Charter and Bylaws (if any) of that Organization.
+
+      (c) An Organization's Executor is its Agent, if its Agent is a
+          Player; otherwise, it has no Executor.
+
+      (d) An Organization's Agent shall only be changed by
+        (1) the delivery, by its current Agent, of a Notice of Change
+            of Organizational Agent to the Notary, setting forth the
+            current name of the Organization and its new Agent;
+        (2) by the Notary, Without Objection; or
+        (3) by Judicial Order, when the Rules permit such an Order to
+            issue.
+
+      (e) No person shall be made the Agent of an Organization without
+          eir consent.  Any person who submits a Notice of Change of
+          Organizational Agent certifies under penalty of
+          Falsification that the new Agent consents.
+
+      (f) A Notice of Change of Organizational Agent may be rescinded
+          by Judicial Order; such Order shall properly issue when the
+          Notice was delivered contrary to the Charter and Bylaws of
+          the Organization in question, or when the new Agent does not
+          in fact consent.
+
+Be it further resolved, that Rule 1759 be amended to read:
+
+      The Executor of an Organization may execute Payment Orders, as
+      permitted by its Charter and Bylaws, but only those Payment
+      Orders which name either the Organization itself or any Member
+      thereof as payor.
+
+Be it further resolved, that Rule 1533 be amended to read:
+
+      (a) An Organization may be created by the Execution of an
+          Application to Create an Organization.
+
+      (b) An Application to Create an Organization must, in order to
+          be valid, set forth:
+        (1) the name of the Organization to be created, which must not
+            duplicate that of any existing Organization;
+        (2) the identity of its initial Agent; and
+        (3) the text of the Organization's initial Charter.
+
+      (c) An Application to Create an Organization is Executed by
+          submitting it to the Notary, and such Execution creates the
+          Organization so described if the Application is valid.
+
+Be it further resolved, that Rule 1397 be amended to read:
+
+      (a) An Organization shall be subject to dissolution when:
+        (1) it ceases to have any of the items required of an
+            Organization by the Rules; or
+        (2) its Agent is not a Player and is not in close
+            communication with anyone who is a Player.
+
+      (b) When an Organization is subject to dissolution, the Notary
+          shall announce this eir intent to dissolve the Organization
+          in the Public Forum.
+
+      (c) The Notary may dissolve any Organization which is subject to
+          dissolution, as long as e has, not less than seven nor more
+          than fourteen days prior, announced eir intent to dissolve
+          the Organization as set forth in subdivision (b) of this
+          Rule.
+
+      (d) An Organization is dissolved when:
+        (1) its Agent delivers to the Notary a Notice of
+            Organizational Dissolution, setting forth the current name
+            of the Organization to be dissolved; or
+        (2) the Notary announces its dissolution under subdivision (c)
+            of this Rule.
+
+      (e) An Organization ceases to exist when dissolved if it was
+          created by these Rules; in any case, a dissolved
+          Organization ceases to be recognized by these Rules as a
+          collective entity.
+
+      (f) A Notice of Organizational Dissolution may be rescinded by
+          Judicial Order; such Order shall properly issue when the
+          Notice was delivered contrary to the Charter and Bylaws of
+          the Organization in question. The Judge shall consider the
+          last Charter and Bylaws of the Organization in making this
+          determination.
+
+Be it further resolved, that Rule 1617 be amended to read:
+
+      (a) An Organization may have Members.
+
+      (b) The Members of an Organization are required to abide by the
+          Charter and Bylaws (if any) of that Organization.
+
+      (c) A person shall be made a Member of an Organization when its
+          Agent delivers a Notice of Induction to the Notary, setting
+          forth the name of the Organization and the identity of the
+          person to be made a Member.
+
+      (d) A person shall cease to a Member of an Organization when:
+        (1) its Agent delivers a Notice of Removal to the Notary,
+            setting forth the name of the Organization and the
+            identity of the person to be removed as a Member; or
+        (2) the member delivers a Notice of Resignation to the Notary,
+            setting forth the name of the Organization from which e
+            wishes to be removed from Membership.
+
+      (e) No person shall be made a Member of an Organization without
+          eir consent.  Any person who submits a Notice of Induction
+          certifies under penalty of Falsification that the new Member
+          consents.
+
+      (f) A Notice of Induction, Notice of Removal, or Notice of
+          Resignation may be rescinded by Judicial Order; such Order
+          shall properly issue when the Notice was delivered contrary
+          to the Charter and Bylaws of the Organization in question,
+          or when the Notice added a person as Member who does not in
+          fact consent to being added.
+
+Be it further resolved, that Rule 1458 be amended to read:
+
+      (a) The Office of Notary exists.
+
+      (b) The Notary shall maintain a Directory of Organizations,
+          which shall set forth for each Organization at least the
+          following:
+        (1) its name;
+        (2) its Agent; and
+        (3) its Membership.
+
+      (c) The Directory of Organizations shall be part of the Notary's
+          Report.
+
+Be it further resolved, that Rule 717 be repealed.
+
+Be it further resolved, that a Rule be enacted, to read:
+
+      Each Organization has Mint Authority.
+
+Be it further resolved, that Rule 766 be amended to read:
+
+      (a) An Organization shall be a Group if and only if:
+        (1) its Charter ensures that no Player may simultaneously be a
+            member of that Group and of any other Group;
+        (2) its Charter ensures that every Member has the right to
+            Resign from the Group at any time; and
+        (3) its Agent has filed a Declaration of Group Status with the
+            Assessor, which must set forth the name of the
+            Organization, the Organization's Charter, and a brief
+            statement that the Organization is declaring itself to be
+            a Group.
+
+      (b) The above notwithstanding, an Organization shall be a Group
+          if it was a Group prior to the adoption of the Proposal
+          which amended this Rule into its present form, and not more
+          than one month has passed since the adoption of that
+          Proposal.
+
+Be it further resolved, that Rule 716 be repealed.
+
+Be it further resolved, that Rule 719 be repealed.
+
+Be it further resolved, that Rule 721 be amended to read:
+
+      The term "Vizier" shall be synonymous for "Agent," with respect
+      to Organizations which are Groups.
+
+Be it further resolved, that Rule 1752 be amended to read:
+
+      (a) A Group may cast Vote(s) on a given Proposal if:
+        (1) at the start of the Voting Period of that Proposal, it was
+            a Group and had at least three Members who were then
+            Players; and
+        (2) it has, at the time it casts its Vote(s), at least three
+            Members who are Players.
+
+      (b) A Group casts its Votes by its Agent.
+
+      (c) A Group's Votes may be Rescinded by Judicial Order; such an
+          Order shall issue when the Votes were cast contrary to its
+          Charter and Bylaws, or if the Group was not entitled to cast
+          them.
+
+Be it further resolved, that Rule 718 be repealed.
+
+Be it further resolved, that Rules 1446 and 1539 be repealed.
+
+Be it further resolved, that Rule 1727 be amended, by replacing the
+word "Contest" with "Organization" and the word "Contests" with
+"Organizations" throughout.
+
+Be it further resolved, that Rules 1500, 1588, 1595, 1591, 1594, 1457,
+1590, 1589 and 1592 be repealed.
+
+Be it further resolved, that Rule 1643 be amended to read:
+
+      (a) A document is a Statement of Policy if and only if it meets
+          the following requirements:
+        (1) it has been posted to the Public Forum;
+        (2) it claims, in these exact terms, to be a "Statement of
+            Policy";
+        (3) it specifies, by name, an Office to which it pertains; and
+        (4) that Office is held by its author.
+
+      (b) Once posted in accordance with subdivision (a) of this Rule,
+          a Statement of Policy is binding upon the Player who issued
+          it for as long as it remains in force.
+
+      (c) An Officer shall be permitted to change eir own Statement of
+          Policy by issuing a new version to the Public Forum.
+          Further, any Statement of Policy ceases to exist whenever
+          the Office it pertains to ceases to be held by the Player it
+          constrains.
+
+      (d) Any violation of a SOP constitutes a Crime of Breach of
+          Policy, a Class 2 Crime.
+
+Be it further resolved, that Rule 1637 be amended to read:
+
+      (a) A Will is a document.
+
+      (b) A Will shall specify the heirs of the entity to which it
+          belongs, and how the currencies possessed by that entity and
+          its other assets will be divided amongst those heirs when
+          that entity is placed in Probate.  When an entity's Will is
+          executed, the Executor in Probate of that entity will first
+          submit all the Transfer Orders required by the Will
+          (excepting those which e cannot execute or cannot execute
+          successfully, for whatever reason), and will then divide the
+          remaining residual assets as provided by the Will.
+
+      (c) A Will is created or amended by the Execution of an
+          Application to Create a Will.  Such an Application must
+          clearly identify the entity to which the Will is to belong,
+          requires the Signature of the Executor of the entity to
+          which the Will is to belong, and is Executed by submitting
+          it to the Notary.  The effect of Executing such an
+          Application is to create a Will belonging to that entity. 
+          Any prior Will belonging to that entity is destroyed at the
+          same time.
+
+Be it further resolved, that a Rule be enacted, to read:
+
+      (a) Each Organization in existence prior to the adoption of the
+          Proposal which created this Rule is deemed to be an
+          Organization created under the authority of these Rules, all
+          other Rules notwithstanding.  The Charter of each such
+          Organization shall be its former SLC, the Agent shall be the
+          Adminstrator of its former SLC, and its Membership shall be
+          those Players who were within the Jurisdiction of its former
+          SLC.
+
+      (b) This Rule in no way prevents the change of any of the
+          characteristics set forth above by events occuring after the
+          adoption of the Proposal which created this Rule.
+
+      (c) This Rule shall take precedence over every Rule with which
+          it conflicts.
+
+
+----------------------------------------------------------------------------
+
+99. Proposal by General Chaos, AI=1
+Some Housecleaning
+
+Be it therefore resolved, that Rule 408 be amended to read:
+
+      (a) The Judge of an open CFJ is required to, within seven days
+          of when that CFJ last became open or seven days of eir
+          assignment to that CFJ, whichever is later, close that CFJ
+          by dismissing or judging the CFJ and/or granting or denying
+          any outstanding judicial motions pertaining to that CFJ.
+
+      (b) The failure of a Judge to close a case within the prescribed
+          time constitutes the Infraction of Judicial Tardiness and
+          carries a penalty of one Blot for each day (or fraction
+          thereof) that the case remains open beyond the permitted
+          time.  This penalty is to be reported by the Clerk of the
+          Courts.
+
+      (c) The failure to observe this time limit does not, by itself,
+          cause the delinquent Judge to be recused from the CFJ, nor
+          does it invalidate eir judgment or dismissal of the CFJ or
+          grant or denial of any related judicial motion which that
+          Judge might submit after the limit has expired.
+
+      (d) This Rule defers to any other Rule which prescribes a
+          different time limit in which a CFJ must be closed, and to
+          any other Rule which establishes procedures by which the
+          time limit specified in this Rule may be extended or
+          shortened.
+
+
+----------------------------------------------------------------------------
+
+100. Proposal by General Chaos, AI=1
+Kill the Lawyers
+
+Be it therefore resolved, that Rules 1841 and 1842 be repealed.
+
+
+
+----------------------------------------------------------------------------
+
+101. Proposal by General Chaos, AI=1
+Cleanup of R.1006
+
+Be it therefore resolved, that Rule 1006 be amended to read:
+
+      (a) An Office is any position established by the Rules as such.
+
+      (b) At any time, a given Office is held by exactly one Player. 
+          If an Office would otherwise not be held by any Player, it
+          shall be held by the Speaker.
+
+      (c) An Officer is any Player who holds an Office.
+
+      (d) A given Office has whatever duties, responsibilities, and
+          privileges that the Rules assign to it.
+
+[Most of the rest of the current R.1006 is superfluous baggage.]
+
+
+----------------------------------------------------------------------------
+
+102. Proposal by General Chaos, AI=1
+More Sensible Amendment Numbers
+
+Be it therefore resolved, that Rule 1069 be amended to read:
+
+      (a) Each Rule shall have an Amendment Number.
+        (1) The Amendment Number of a new Rule, when that Rule is
+            created, is zero.
+        (2) The Amendment Number of each Rule existing at the time
+            this version of this Rule takes effect is whatever its
+            Amendment Number was under the prior version of this Rule;
+            if a Rule had no Amendment Number on that version of this
+            Rule, its Amendment Number is zero.
+        (3) The Amendment Number of a Rule is incremented by one
+            whenever a Rule Change affecting that Rule takes place.
+
+      (b) A Rule's Amendment Number shall be displayed in Official
+          copies of the Ruleset, appended to the Rule Number, and
+          separated by a forward slash.  Responsibility is given to
+          the Rulekeepor to accurately update Amendment Numbers.
+
+      (c) Amendment Numbers may be used for Official purposes and in
+          Official documents to distinguish between old versions of a
+          Rule and the Rule's current text.
+
+
+----------------------------------------------------------------------------
+
+103. Proposal by General Chaos, AI=1
+Normalization of 1807
+
+Be it therefore resolved, that Rule 1807 be amended to read:
+
+      (a) Since Appellate Orders cannot be appealed, Appellate Orders
+          are valid only if directed to:
+        (1) The Clerk of the Courts in eir Official capacity;
+        (2) an Order issued by the Clerk of the Courts in eir Official
+            Capacity;
+        (3) The Judge of the CFJ which that Board of Appeals was
+            convened to consider, or any Order issued by that Judge in
+            that particular CFJ; or
+        (4) any combination of the above.
+
+      (b) All other Appellate Orders are presumptively invalid.
+
+      (c) This Rule takes precedence over all Rules pertaining to the
+          validity of Appellate Orders.
+
+
+----------------------------------------------------------------------------
+
+104. Proposal by General Chaos, AI=1
+Do we need this?
+
+Be it therefore resolved, that Rule 789 be repealed.
+
+
+
+----------------------------------------------------------------------------
+
+105. Proposal by General Chaos, AI=3
+Reformat Rule 105
+
+Be it therefore resolved, that Rule 105 be amended to read:
+
+      (a) A Rule Change is any of the following:
+        (1) The enactment of a new Rule;
+        (2) The repeal of an existing Rule;
+        (3) The amendment of the text of an existing Rule; or
+        (4) Any change to a substantive property of a Rule other than
+            its text.
+
+      (b) A "substantive property of a Rule" is any property of that
+          Rule (other than its text) which determines in part or in
+          full the ability of that Rule to govern by itself or in
+          conjunction with other Rules.
+
+
+----------------------------------------------------------------------------
+
+106. Proposal by General Chaos, AI=1
+Reformat Rule 1434
+
+Be it therefore resolved, that Rule 1434 be amended to read:
+
+      When a Referendum Vote is required and the procedure is not
+      defined elsewhere, the following Standard Referendum Voting
+      Procedure shall be used. Details specified herein are defaults
+      which may be modified by other Rules for specific situations.
+
+      This procedure shall under no circumstances be used for Voting
+      on Proposals, unless specifically required by the Rules
+      governing specific types of Proposals.
+
+      (a) Vote Collector: The Vote Collector is the Entity responsible
+          for collecting and tallying the Votes and announcing the
+          result. This Entity is the Speaker if not otherwise
+          specified.
+
+      (b) Voting Entities: Every Player not on Hold may Vote on a
+          Referendum.  On Hold status is measured at the time a Player
+          sends eir Vote.
+
+      (c) Voting: A Voting Entity Votes by sending eir Vote to the
+          Vote Collector during the Voting Period, indicating what
+          Referendum e is Voting on, and what eir Vote is.
+
+      (d) Vote Values: A Vote is FOR, AGAINST, or ABSTAIN. Words which
+          are effectively synonymous with these are also permissible.
+
+      (e) Vote Strength: Every Vote has equal strength. No Voting
+          Entity may Vote more than once on any single Referendum.
+
+      (f) Retraction: A Vote, once sent to the Vote Collector, cannot
+          be changed.
+
+      (g) Start of Voting: The Voting Period begins at the time the
+          first correct and legal announcement that a Referendum is
+          begun, as defined in other Rules, is sent to the Public
+          Forum, together with the identity of the Vote Collector.
+
+      (h) Duration of Voting: The Voting Period lasts for one Week.
+          All Votes received by the Vote Collector outside of the
+          Voting Period have no effect.
+
+      (i) Secrecy During Voting: Unless otherwise specified, the Vote
+          Collector may not give away any information about the Votes
+          while the Voting is underway.
+
+      (j) This shall in no way prohibit the Vote Collector from
+          posting, at any time and to the Public Forum, a list of
+          those Players who have already Voted.
+
+      (k) Secrecy After Voting: Unless otherwise specified, the Vote
+          Collector shall post to the Public Forum, after the Voting
+          Period is over, the number of Votes of each kind as well as
+          the name and Vote of each Entity which cast a Vote.
+
+      (l) Adoption Ratio: The Adoption Ratio, the ratio of FOR Votes
+          on a Referendum relative to the AGAINST VOTES, must be
+          greater than Adotion Index for the Referendum to pass. If it
+          is not, the Referendum fails.
+
+      (m) Adoption Index: Unless otherwise specified, the Adoption
+          Index for a Referendum is 1.
+
+      (n) Quorum: Quorum shall be set at 50% of the eligible Voting
+          Entities at the beginning of the Voting Period. If a smaller
+          fraction voted, the Referendum automatically fails.
+
+      (o) Nonperformance by Vote Collector: The Vote Collector must
+          perform eir required duties, but if the result of a
+          Referendum is not announced within one Week following the
+          end of the Voting Period, it automatically fails.
+
+      (p) Effectiveness: the full effects of a Referendum, as defined
+          in Rules which make use of the Referendum procedure, come
+          into force as of the moment the results are announced to the
+          Public Forum.
+
+
+----------------------------------------------------------------------------
+
+107. Proposal by General Chaos, AI=1
+Reformat Rule 1558
+
+Be it therefore resolved, that Rule 1558 be amended to read:
+
+      When the Rules require that an Election be conducted to fill an
+      Office, that Election shall be conducted in accordance with the
+      usual Rules for Elections, with the following exceptions:
+
+      (a) The Vote Collector of the Election shall be the Registrar,
+          unless the Office which the Election is seeking to fill is
+          that of the Registrar, in which case the Vote Collector
+          shall be the Speaker; and
+
+      (b) No Player may be Nominated who, at the time of attempted
+          Nomination, would not be permitted to hold the Office which
+          the Election is seeking to fill.
+
+
+----------------------------------------------------------------------------
+
+108. Proposal by General Chaos, AI=1
+Down with Playerism!
+
+Be it therefore resolved, that Rule 833 be amended to read:
+
+      As soon as possible after the beginning of the Nomic Week, the
+      Assessor shall pay out two Proposal Notes to each entity who
+      submitted an Interested Proposal which was adopted during the
+      previous Week.
+
+
+----------------------------------------------------------------------------
+
+109. Proposal by General Chaos, AI=1
+Freshen 1796
+
+| Be it resolved, that Rule 1796 be amended to read:
+
+      (a) All Orders executed in the manner prescribed by the Rules
+          for their class and type are presumed valid and enforceable.
+
+      (b) In order for a Judge to find an Order invalid, the Judge
+          must find that:
+        (1) the Order was executed by a Player who the Rules did not
+            permit to execute it;
+        (2) the Order was executed in circumstances that neither
+            required not permitted the execution of that Order; or
+        (3) the Order has been rendered invalid by another Order or by
+            the Rules.
+
+      (c) A Judge who finds, during the course of judging a CFJ, that
+          an Order is invalid shall vacate that Order, unless it has
+          already been vacated.
+
+      (d) Nothing in any Order shall act to prevent or hinder judicial
+          review of that Order, and any portion of an Order which has
+          this effect is void and without force, all other Rules
+          notwithstanding.
+
+
+----------------------------------------------------------------------------
+
+110. Proposal by General Chaos, AI=1
+BAH!
+
+| Be it resolved, that Rule 1873 be repealed.
+
+
+
+----------------------------------------------------------------------------
+
+111. Proposal by Vlad, AI=43890287657290901854776567128
+Why is it there?
+
+Rule 1583 is hereby repealed.
+
+
+----------------------------------------------------------------------------
+
+114. Proposal by Murphy, AI=1
+Left in a Huff
+
+Be it hereby resolved that the Patent Title "Left in a Huff" shall be
+awarded to Andre.
+
+Be it hereby resolved that Rule 1789 (Cantus Cygneus) shall be amended
+by appending this paragraph:
+
+      Any Player deregistered in this way shall be awarded the Patent
+      Title of "Left in a Huff".
+
+----------------------------------------------------------------------------
+
+115. Proposal by Blob, AI=1
+Changing the Bar Height
+
+Create a rule, with title "The Priority Bar", and text:
+
+      (a) The Priority Bar is the minimum Priority needed for a 
+          Proposal to be distributed. It is an integer multiple of 
+          the MUQ of P-Notes, lying between zero and two inclusive.
+
+      (b) Upon the adoption of the proposal which created this rule,
+          its value shall be set to one.
+
+
+      (c) The Promotor may change the value of the Priority Bar by
+          announcing its new value in the Public Forum, provided that
+          the new value is within the range allowed by subdivision (a)
+          of this Rule.
+
+      (d) Whenever a new value is announced according to subdivision
+          (c) of this Rule, the new value takes effect at the
+          beginning of the next Nomic Week, unless the announcement is
+          made within three days of the end of the current Nomic Week,
+          in which case the new value takes effect at the beginning of
+          the Nomic Week following the next Nomic Week.
+
+Amend Rule 1036 by replacing the text:
+
+      A Proposal's Priority is an integer value. All Proposals
+      initially have a Priority of zero.
+
+with:
+
+      A Proposal's Priority is an integer multiple of the MUQ of
+      P-Notes. All Proposals initially have a Priority of zero.
+
+Amend Rule 1771 to read:
+
+      A Player may increase or decrease the Priority of a Proposal
+      in the Queue by announcing to the Public Forum that e does so,
+      and paying a number of P-Notes to the Bank. 
+
+      The Priority of the Proposal is increased or decreased, as 
+      specified by the Player making the payment, by an amount equal
+      to the number of P-Notes transferred to the Bank, provided 
+      that this transfer is not executed for any other purpose.
+
+Amend Rule 1770 by replacing the text:
+
+      If the number of Proposals in the Proposal Queue with a
+      Priority greater than zero is less than or equal to the Batch
+      Size, then the batch shall consist of all such Proposals.
+
+      If the number of Proposals in the Proposal Queue is greater
+      than the Batch Size, then the batch shall consist of those
+      Proposals in the Queue with the highest Priority such that the
+      number of Proposals distributed is equal to the Batch Size.
+
+with:
+
+      If the number of Proposals in the Proposal Queue with a
+      Priority greater than or equal to the Priority Bar is less than 
+      or equal to the Batch Size, then the batch shall consist of all 
+      such Proposals.
+
+      Otherwise, the batch shall consist of those Proposals in the 
+      Queue with the highest Priority such that the number of 
+      Proposals distributed is equal to the Batch Size.
+
+Amend Rule 1701 by replacing the text:
+
+      The MUQ of P-Notes is 1.
+
+with
+
+      The MUQ of P-Notes is 0.1.
+
+Create a rule with title "The Promotor's Commission" and text:
+
+      Each week, after distributing a batch of proposals, the 
+      Promotor may order the Bank to pay out a number of P-Notes
+      equal to five percent of the total Priority of the proposals
+      in the batch.
+
+[Comments:
+
+v1.0 - Based on Gen Chaos' "Make the Proposal Queue More Competitive"
+       proposal. Changes the minimum Priority needed to get a Proposal
+       distributed. Now allows fractional Priorities.
+
+       Benefits:
+
+       1) Promotes competition for Queue positions by increasing the
+       range of profitable Priority values.
+
+       2) Allows sharing of support for Proposals
+
+       3) Gives the Promotor a handle on the P-Note economy,
+
+       4) Allows an anti-capitalist Promotor to make proposing free,
+          if e so desires. 
+
+v1.1 - Changed references to "real numbers" to "integer multiples of
+       the MUQ of P-Notes". It's a bit clumsy, but it's probably 
+       safer.
+
+v1.2 - Gave the Promotor a cut of the action, much like the Assessor's.
+       As is the case with the Assessor, manipulating the Batch Size
+       and the Priority Bar will affect the commission - but should
+       e strive to distribute many proposals cheaply, or a few at a
+       very high price?
+]
+
+
+----------------------------------------------------------------------------
+
+116. Proposal by Peekee, AI=1
+Power to the Senate
+
+Let it there fore be resolved that rule 1717 be amended to read:
+
+There exist Nomic entities know as Senators, there also exists a Nomic 
+entity known as the Senate.  Some Players are Senators.  The Senate is 
+the set of all Senators.  Only Senators are members of the Senate.
+
+Only players may be senators.  If a Senator is removed from the Senate, 
+e ceases to be a Senator.  
+
+A Player who has been registered continuously for the immediately 
+preceding two months becomes a Senator, if and only if e has not been a 
+Senator at any point during those two months.
+
+There are always at least three Senators.  If at any point there is less 
+than three Senators, the registered player, who is not a Senator, and 
+who has not been a Senator for the longest period of time amongst the 
+registered players, becomes a Senator.  If it is impossible to tell 
+which player has not been a Senator for the longest period of time, then 
+all players, who arguable share the longest period of time not being a 
+Senator, become Senators.
+
+Any Senator may choose to remove themselves from the Senate, by stating 
+so in a public forum.
+
+
+
+Create a new rule titled "Senator Suggestions" with the following title:
+
+A Senate Suggestion is a piece of text sent to a public forum by a 
+Senator.  It must state clearly that it is a Senate Suggestion and 
+contain a valid Suggestion, or it fails to be a Senate Suggestion.
+
+Only Senators may make Senate Suggestions.  Senate Suggestions may be 
+made only as defined by the rules.  A Senate must contain all the 
+information needed, as defined by the rules, or it fails to be a Senate 
+Suggestion.
+
+Any Senator may object to a Senate Suggestion, by making a Senator 
+Objection.  Senate Objections must be made in a public forum, making 
+clear the suggestion they object to, and that in fact the text is a 
+Senator Objection.
+
+
+
+Create a new rule titled "Senate Powers" with the following text:
+
+A Senator may make a Senate Suggestion, that a registered player becomes 
+a Senator.  To do so there must be a clear indication of the intended 
+player in the Suggestion.  The player becomes a Senator one week after 
+the suggestion, unless there is a Senator Objection to the suggestion 
+within the week.
+
+A Senator may make a Senate Suggestion, that a Senator is removed from 
+the Senate.  To do so there must be a clear indication of the intended 
+Senator in the Suggestion.  The Senator is removed from the Senate one 
+week after the suggestion, unless there are at least 2 Senator 
+Objections to the suggestion within the week.
+
+
+
+Create a rule titled "Senate Proposals" with the following text:
+
+At any time during a Proposal's Voting Period, a Senator may make it a 
+Senate Proposal, by stating so in the Public Forum.  If that does not 
+happen, the Proposal is not a Senate Proposal.  
+
+A Senator may object to the proposal becoming a Senate Proposal by 
+stating so in the public forum during the Proposal’s Voting Period, in 
+which case the proposal ceases to be a Senate Proposal, and returns to 
+its previous state.
+
+If a Senator objects to a proposal Senate Proposal, that Proposal may 
+not become a Senate proposal again.
+
+Entities other than Senators cannot vote on Senate Proposals. If an 
+Entity other than a Senator has already voted on a Proposal by the time 
+it becomes a Senate Proposal, eir votes on that Proposal are cancelled, 
+these votes remain canceled even if the Proposal reverts from being a 
+Senate Proposal.
+
+----------------------------------------------------------------------------
+
+117. Proposal by Peekee, AI=1
+Power to the Senate: take two
+
+Let it there fore be resolved that rule 1717 be amended to read:
+
+There exist Nomic entities know as Senators, there also exists a Nomic 
+entity known as the Senate.  Some Players are Senators.  The Senate is 
+the set of all Senators.  Only Senators are members of the Senate.
+
+Only players may be senators.  If a Senator is removed from the Senate, 
+e ceases to be a Senator.  
+
+A Player who has been registered continuously for the immediately 
+preceding two months becomes a Senator, if and only if e has not been a 
+Senator at any point during those two months.
+
+There are always at least three Senators.  If at any point there is less 
+than three Senators, the registered player, who is not a Senator, and 
+who has not been a Senator for the longest period of time amongst the 
+registered players, becomes a Senator.  If it is impossible to tell 
+which player has not been a Senator for the longest period of time, then 
+all players, who arguable share the longest period of time not being a 
+Senator, become Senators.
+
+Any Senator may choose to remove themselves from the Senate, by stating 
+so in a public forum.
+
+
+
+Create a new rule titled "Senator Suggestions" with the following title:
+
+A Senate Suggestion is a piece of text sent to a public forum by a 
+Senator.  It must state clearly that it is a Senate Suggestion and 
+contain a valid Suggestion, or it fails to be a Senate Suggestion.
+
+Only Senators may make Senate Suggestions.  Senate Suggestions may be 
+made only as defined by the rules.  A Senate Suggestion must contain all 
+the information needed, as defined by the rules, or it fails to be a 
+Senate Suggestion.
+
+Any Senator may object to a Senate Suggestion, by making a Senator 
+Objection.  Senate Objections must be made in a public forum, making 
+clear the suggestion they object to, and that in fact the text is a 
+Senator Objection.
+
+
+
+Create a new rule titled "Senate Powers" with the following text:
+
+A Senator may make a Senate Suggestion, that a registered player becomes 
+a Senator.  To do so there must be a clear indication of the intended 
+player in the Suggestion.  The player becomes a Senator one week after 
+the suggestion, unless there is a Senator Objection to the suggestion 
+within the week.
+
+A Senator may make a Senate Suggestion, that a Senator is removed from 
+the Senate.  To do so there must be a clear indication of the intended 
+Senator in the Suggestion.  The Senator is removed from the Senate one 
+week after the suggestion, unless there are at least 2 Senator 
+Objections to the suggestion within the week.
+
+
+
+Create a rule titled "Senate Proposals" with the following text:
+
+At any time during a Proposal's Voting Period, a Senator may make it a 
+Senate Proposal, by stating so in the Public Forum.  If that does not 
+happen, the Proposal is not a Senate Proposal.  
+
+A Senator may object to the proposal becoming a Senate Proposal by 
+stating so in the public forum during the Proposal’s Voting Period, in 
+which case the proposal ceases to be a Senate Proposal, and returns to 
+its previous state.
+
+If a Senator objects to a proposal Senate Proposal, that Proposal may 
+not become a Senate proposal again.
+
+Entities other than Senators cannot vote on Senate Proposals. If an 
+Entity other than a Senator has already voted on a Proposal by the time 
+it becomes a Senate Proposal, eir votes on that Proposal are cancelled, 
+these votes remain canceled even if the Proposal reverts from being a 
+Senate Proposal.
+
+
+----------------------------------------------------------------------------
+
+Respectfully submitted,
+
+General Chaos
+Promotor, Agora Nomic
+
+From owner-agora-official@gecko.serc.rmit.edu.au Sun Feb 21 17:54 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id RAA18822
+	for <dpb@cs.brown.edu>; Sun, 21 Feb 1999 17:54:37 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA04928
+	for agora-official-list; Mon, 22 Feb 1999 09:53:32 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id JAA04925
+	for <agora-official@gecko.serc.rmit.edu.au>; Mon, 22 Feb 1999 09:53:31 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id JAA13493
+	for <agora-official@gecko.serc.rmit.edu.au>; Mon, 22 Feb 1999 09:57:16 +1100 (EST)
+Received: from dial-126-38.dial.indiana.edu(156.56.126.38) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma013491; Mon, 22 Feb 99 09:56:56 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id RAA12427 for <agora-official@gecko.serc.rmit.edu.au>; Sun, 21 Feb 1999 17:53:31 -0500
+Message-Id: <199902212253.RAA12427@poverty.bloomington.in.us>
+To: agora-official@gecko.serc.rmit.edu.au
+Subject: OFF: Proposals 3834-3836
+Date: Sun, 21 Feb 1999 17:53:31 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 6410
+Lines: 148
+
+>From the Office of the Promotor:
+
+		       PROPOSALS 3834 THRU 3836
+
+There are three proposals distributed as of this report, numbered from
+3834 to 3836.  The Voting Periods of these Proposals commence as of
+this message and end seven days later unless otherwise noted.  Voting
+on these Proposals will cost 0.4 VTs.  
+
+======================================================================
+
+No.  Proposer           AI    Name
+3834 Blob               1     Modes of Voting
+3835 Michael            1
+3836 General Chaos      1     Broaden Actions Without Objection
+
+======================================================================
+
+Proposal 3834 (Blob) AI = 1
+Modes of Voting
+
+Amend Rule 1764 (Public Voting) to read:
+
+  (a) There are three possible modes of voting on Proposals, Elections
+      and Referenda: Public, Private and Unrestricted. The prevailing
+      mode for each of each of Proposals, Elections and Referenda is 
+      initially Public.
+
+  (b)  (1) The Assessor may change the prevailing mode of voting
+           for Proposals, with Support. 
+
+       (2) The Registrar may change the prevailing mode of
+           voting for Elections, with Support. 
+
+       (3) The prevailing mode of Referenda is always Public.
+
+  (c) When the Voting Period on a Proposal, Election or Referendum
+      begins, the mode of voting for that Proposal, Election or 
+      Referendum is set to the prevailing mode for that kind of vote.
+      Once set in this manner, the mode of voting cannot be changed.
+
+  (d)  (1) If the mode of voting is Public, then any other Rule to the 
+           contrary notwithstanding, the casting of any votes, or the 
+           declaration of Presence, by Voting Entities on that Proposal, 
+           Election or Referendum, may only be achieved by sending a 
+           message to the Public Forum.
+
+       (2) If the mode of voting is Private, then any other Rule to the 
+           contrary notwithstanding, the casting of any votes, or the 
+           declaration of Presence, by Voting Entities on that Proposal, 
+           Election or Referendum, may only be achieved by sending a 
+           message privately to the Vote Collector.
+
+       (3) If the mode of voting is Unrestricted, then any other Rule 
+           to the contrary notwithstanding, the casting of any votes, 
+           or the declaration of Presence, by Voting Entities on that 
+           Proposal, Election or Referendum, may be achieved by sending
+           a message either publically or privately.
+
+Change the title of Rule 1764 to "Modes of Voting".
+
+[v1.0 - Allows for a little bit of experimentation with different
+        voting models without repeated proposals changing from one
+        to another. Gives the Assessor and the Registrar some
+        relatively innocuous discretionary powers with which to lure 
+        the voters.
+
+ v1.1 - Modified it to use the new "With Support" rule. Removed the
+        clause describing timing, as that is covered by "With Support"
+        (albeit in a different way).
+
+        I am in the process of bringing the numbering in line with
+        Gen Chaos' standard, but I've lost the message in which he
+        described it. 
+
+        Removed the final clause as it didn't seem to have any real
+        purpose. 
+]
+
+----------------------------------------------------------------------
+
+Proposal 3835 (Michael) AI = 1
+
+
+That Rule 1854 ("The Chancellor can set the Basic Officer Salary") be
+amended to read:
+
+The Chancellor can set the Basic Officer Salary by first announcing
+that e is doing so in the Public Forum, provided that e announces a
+value between 0 VTs and 8 VTs inclusive.  The change to the Basic
+Officer Salary then occurs at the beginning of the next week if the
+announcement was made on a Thursday or earlier in the week.  If the
+announcement is made later in the week, then the change occurs at the
+start of the second week after the announcement. 
+
+----------------------------------------------------------------------
+
+Proposal 3836 (General Chaos) AI = 1
+Broaden Actions Without Objection
+
+Be it therefore resolved, that Rule 1728 be amended to read:
+
+      (a) When the Rules specify that an action may be performed
+          "Without N Objections", where N is an integer between one
+          and five inclusive, that action may be legally performed
+          under the following conditions:
+        (1) The Player who seeks to perform the action has announced
+            eir intent to perform that action not fewer than four days
+            before, nor more than fourteen days before, the
+            performance of the action, and this announcement must
+            unambiguously describe the action to be performed;
+        (2) The action performed must match exactly the action
+            described in the announcement made under subdivision
+            (a)(1) of this Rule;
+        (3) The Rule which authorizes the performance of that action
+            Without N Objections must explicitly state which Player or
+            Players are authorized to perform that action; and
+        (4) During the time between the announcement made under
+            subdivision (a)(1) of this Rule and the performance of the
+            action itself, fewer than N Players have posted, in the
+            Public Forum, Objections to the performance of that
+            action.
+
+      (b) If the action to be performed is the change of some property
+          under that Player's control, the change may not take place
+          until the Player announces that e is making that change. 
+          (This requirement is met by making any announcement normally
+          required by the Rules in order to make such changes.)
+
+      (c) The specification in the Rules that an action may be
+          performed "Without Objection" is equivalent to specifying
+          that it may be performed "Without 1 Objection".
+
+      (d) The specification in the Rules that an action may be
+          performed "Without N Objections" in no way prohibits
+          performing that same action if doing so would be otherwise
+          permissible.
+
+      (e) A Rule may specify further restrictions upon the performance
+          of an action Without N Objections, and this Rule defers to
+          such Rules.
+
+======================================================================
+
+Respectfully submitted,
+
+General Chaos
+Promotor, Agora Nomic
+

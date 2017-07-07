@@ -1,0 +1,130 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct 30 09:59 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id JAA25572
+	for <dpb@cs.brown.edu>; Fri, 30 Oct 1998 09:59:40 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA29265
+	for agora-discussion-list; Sat, 31 Oct 1998 01:51:45 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id BAA29262
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 31 Oct 1998 01:51:43 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id BAA08013
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 31 Oct 1998 01:57:20 +1100 (EST)
+	(envelope-from dalbertz@rmv.state.ma.us)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma008011; Sat, 31 Oct 98 01:57:17 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 30 Oct 1998 09:52:21 -0500
+Message-Id: <s6398c55.035@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 30 Oct 1998 09:51:29 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Proto: Simplify Currency Handling v 2
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 4420
+Lines: 96
+
+Proto: Simplify Currency Handling v 2
+
+Scott wrote:
+
+>This would allow the Chancellor an unlimited PERSONAL supply of
+>P-Notes.  I don't think you want this.
+
+Good catch.  Here is an amended version that makes newly minted official
+currency units start out in the Bank.  BTW, is there an "approved" format for
+claiming precedence in cases like this?
+
+=================
+Amend Rule 1661 by replacing the text "order the award of" with "pay out" and
+by replacing all occurrences of "Payment Order" with "Transfer Order".
+
+Amend Rule 1721/0 by appending the sentence "The Chancellor has Mint
+Authority."
+
+[I'm not sure this is really necessary, except that it may ensure the
+continuity of Mint Authority for Currencies across Chancellor transitions and
+avoid claims that all Currencies have been destroyed.  Better safe than sorry. 
+Anybody think we need other changes to prevent Currency destruction when the
+Chancellorship changes hands?]
+
+Amend Rule 1701 by replacing the text "The Mintor of P-Notes is the Bank" with
+the text "The Mintor of P-Notes is the Chancellor.  Newly created units of
+P-Notes are added to the Bank's holdings, any Rule to the contrary
+notwithstanding.".
+
+Amend Rule 1696 by replacing the text "The Mintor of VTs is the Bank" with the
+text "The Mintor of VTs is the Chancellor.  Newly created units of VTs are
+added to the Bank's holdings, any Rule to the contrary notwithstanding.".
+
+Amend Rule 1846 by replacing the text "Their Mintor is the Bank" with the text
+"Their Mintor is the Chancellor.  Newly created units of Ergs are added to the
+Bank's holdings, any Rule to the contrary notwithstanding.".
+
+Amend Rule 1435 by replacing the text "The Mintor of Indulgences is the Bank"
+with the text "The Mintor of Indulgences is the Chancellor.  Newly created
+units of Indulgences are added to the Bank's holdings, any Rule to the contrary
+notwithstanding.".
+
+[Make the Chancellor the Mintor of all "official" Currencies, but make newly
+minted units start out in possession of the Bank.]
+
+Amend Rule 1817 as follows:
+
+Recordkeepors' Obedience to Transfer Orders
+
+      A Recordkeepor is required to abide by all valid Transfer Orders
+      submitted by the Executor of the owner of the units of Currency
+      to be transferred (or, with respect to any entity which lacks an
+      Executor, by any other person empowered by the Rules to execute
+      Transfer Orders on the behalf of such entities), except for
+      those transfers which would result in an entity possessing a
+      negative quantity of Currency, which are considered invalid.  A 
+      Recordkeepor must refrain from honoring invalid Transfer Orders.
+      Transfers shall be noted on the Recordkeepor's records in the
+      order in which they are received by the Recordkeepor.
+
+      Whenever a Transfer Order naming the Bank as payor would result in
+      the Bank possessing a negative quantity of Currency, the
+      Recordkeepor shall issue a Payment Order from the Bank for the
+      same amount of Currency and to the same payee as specified in the
+      Transfer Order.
+
+[Clarifies the idea that TOs resulting in negative holdings are essentially
+invalid and that a Recordkeepor is not allowed to honor invalid TOs.  Also
+takes care of the problem caused by Bank pay-outs that are made when the Bank
+has insufficient funds.]
+
+Amend Rule 1470 by deleting the text "The Bank has Mint Authority".
+
+[Mint Authority has been transferred to the Chancellor for the three "official"
+Currencies, so the Bank no longer needs Mint Authority.]
+
+Amend Rule 1735 by changing the Title to "The Chancellor's Banking Duties", by
+deleting the text "The Chancellor is the Executor of the Bank.", by deleting
+the text "(as the Bank's Executor)", and by deleting the entire last paragraph.
+
+[The definition of "satisfy" for Payment Orders requires the Chancellor to
+execute TOs for the Bank's POs.  Under this scheme, the Chancellor can no
+longer commit Misappropriation because only TOs authorized by the Rules are
+honored when the Bank is payor.]
+
+Amend Rule 1479 by replacing the first occurrence of "Payment Order" with
+"Transfer Order".
+
+[Now anytime the Rules say "pay out", it means all the Player has to do is
+issue a TO from the Bank to the payee.]
+
+Amend Rule 1712 by replacing the text "and issue a Payment Order from the Bank
+to that Player for one Indulgence" with the text "and pay out one Indulgence to
+that Player".
+
+-- Crito
+

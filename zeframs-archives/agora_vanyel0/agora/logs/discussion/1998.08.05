@@ -1,0 +1,3678 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 02:18 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA02609 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 02:18:51 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA23755
+	for agora-discussion-list; Wed, 5 Aug 1998 16:12:42 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA23752
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 16:12:38 +1000
+Received: (from gardner@localhost) by silas-1.cc.monash.edu.au (8.8.8/8.8.0) id QAA29093 for agora-discussion@gecko.serc.rmit.edu.au; Wed, 5 Aug 1998 16:13:24 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199808050613.QAA29093@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: Shattered World Nomic
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 16:13:24 +1000 (EST)
+In-Reply-To: <13766.62886.913770.742216@albatross.cl.cam.ac.uk> from "Michael Norrish" at Aug 4, 98 12:51:02 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1596
+
+Michael Norrish wrote:
+>
+>Steve Gardner writes:
+>
+>> That's basically how Shattered World works as well, if I understand
+>> Geoff correctly. It's an interesting problem, one which contributed
+>> to the collapse of Nomic World: if all aspects of ther game can be
+>> legislated, then what do you do when the legislators pass laws which
+>> make work, maybe a lot of work, for the coders? On SW, the answer is
+>> that game custom dictates that requirements to code are simply
+>> ignored by the wizards, who put forward an analogy that says that
+>> the game environment is like Nature. Passing a law which says
+>> "Gnomes shall be plentiful, rich and easy to kill." doesn't make it
+>> so, anynore than passing a law which says "The value of pi shall be
+>> 3." makes that so.
+>
+>This is why I think an alternative model would be to have the nomic
+>game be conducted among people that are effectively the game wizards.
+>To the outside world, the MUD game would look just like a normal one,
+>but behind the scenes the various Gods would be squabbling and
+>politicking over the shape the world should have.  If you built in
+>some notion of worship for Gods, then the members of the nomic game
+>might even come to feel that they were representing their worshippers.
+
+It's an interesting idea, but a rather limited one, since only MUD
+wizards would be able to play, and they are a rare breed.
+
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 02:27 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA02748 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 02:27:19 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA23810
+	for agora-discussion-list; Wed, 5 Aug 1998 16:21:22 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA23807
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 16:21:20 +1000
+Received: (from gardner@localhost) by silas-1.cc.monash.edu.au (8.8.8/8.8.0) id QAA09835 for agora-discussion@gecko.serc.rmit.edu.au; Wed, 5 Aug 1998 16:22:07 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199808050622.QAA09835@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: proto: A Duty to Vote, v1.1
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 16:22:07 +1000 (EST)
+In-Reply-To: <199808031408.QAA28494@dij91.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns" at Aug 3, 98 04:08:35 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1333
+
+Klaus Herrmanns wrote:
+>>>
+>Of course, we haven't tried the combination you suggest of Secret Voting
+>with Presence, but on the basis of these figures, I feel pretty
+>confident in predicting that it would not result in a significant
+>increase in VT expenditure.
+><<
+>
+>Why not? The uncertainty about other players' votes would certainly
+>have some effect: on one hand, it encourages people to vote instead of
+>just declare presence to make sure the necessary three FOR-votes are
+>reached, on the other hand they'll be afraid to waste VTs on proposals
+>that may fail quorum (as now). Both effects would tend to encourage
+>people to publically debate their votes, publish eir own votes, ask
+>others about their plans etc, just as we saw recently.
+
+That sounds very much the argument I used to sell the experiment in
+first place. The only difference I can see is that it might be possible
+that lowering Quorum back from 5 to 3 might encourage Players to spend
+a few more VTs speculatively on Proposals which they think might have
+a reasonable chance of making Quorum on the strength of declarations of
+Presence. We'll see.
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 02:43 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA03017 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 02:43:46 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA23916
+	for agora-discussion-list; Wed, 5 Aug 1998 16:41:02 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA23913
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 16:41:00 +1000
+Received: (from gardner@localhost) by silas-1.cc.monash.edu.au (8.8.8/8.8.0) id QAA02404 for agora-discussion@gecko.serc.rmit.edu.au; Wed, 5 Aug 1998 16:41:47 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199808050641.QAA02404@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: proto: A Duty to Vote, v1.1
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 16:41:47 +1000 (EST)
+In-Reply-To: <199808030320.NAA06142@gecko.serc.rmit.edu.au> from "Laurent Bossavit" at Aug 3, 98 05:25:24 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1287
+
+Laurent Bossavit wrote:
+>
+>> By the way, the proto as it stands has a significant problem: it
+>> re-opens in a new form the familiar loophole that allows Players to
+>> avoid some requirement which is contingent on their having certain
+>> assets by setting up dummy Contestsa (or using Group treasuries) to
+>> serve as holding companies for those assets (cf Chuck's Savings and Loan
+>> Contest). Any ideas as to how to close this loophole off?
+>
+>Introduce the notion of a Player's net worth ?
+
+Well, yes, but how to define it? What we want to capture is the
+intuitive notion of the assets over which a Player has control, so that
+we can say, for example, that Chuck has control over the assets of
+Chuck's Savings and Loan Contest, and count those assets when we decide
+if Chuck is rich enough to be obliged to vote. But it won't work simply
+to specify that a Player has control over assets which are either
+possessed by the Player, or possessed by an Entity of which the Player
+is an Executor, since Players can hide assets in Groups, which they may
+not be the Executors of.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 03:36 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA03869 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 03:36:42 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA24169
+	for agora-discussion-list; Wed, 5 Aug 1998 17:32:24 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id RAA24166
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 17:32:18 +1000
+Message-Id: <199808050732.RAA24166@gecko.serc.rmit.edu.au>
+Received: (qmail 30518 invoked by alias); 5 Aug 1998 07:33:12 -0000
+Received: from pppa149.francenet.fr (HELO arapael) (193.149.100.59)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 07:33:12 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 09:37:07 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: proto: A Duty to Vote, v1.1
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1263
+
+> >Introduce the notion of a Player's net worth ?
+> 
+> Well, yes, but how to define it? What we want to capture is the
+> intuitive notion of the assets over which a Player has control, so that
+
+Seems to me that assets owned by entities for whom one is the 
+Executor is a good definition.
+
+> is an Executor, since Players can hide assets in Groups, which they may
+> not be the Executors of.
+
+That's less of a problem than it seems. If you hide cash in a Group,
+someone is going to pay tax for it, namely, that Group's Executor. It
+shouldn't matter to Agora's equivalent of the IRS who pays tax for
+a given asset, as long as tax is collected on it.
+
+The worst we can expect is Players scheming to have their assets
+distributed more evenly among a larger number of Entities than they
+would normally be, in order to be less visible to whatever tax 
+mechanism is in place; but even that would be a Good Thing, since
+it would be an incentive to move capital around.
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 05:38 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA05782 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 05:37:59 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA24736
+	for agora-discussion-list; Wed, 5 Aug 1998 19:34:00 +1000
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id TAA24733
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 19:33:54 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0z3zxh-0006kS-00; Wed, 5 Aug 1998 10:34:25 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0z3zxf-0001Ag-00; Wed, 5 Aug 1998 10:34:23 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13768.10015.482594.917777@albatross.cl.cam.ac.uk>
+Date: Wed, 5 Aug 1998 10:34:23 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic
+In-Reply-To: <199808050613.QAA29093@silas-1.cc.monash.edu.au>
+References: <13766.62886.913770.742216@albatross.cl.cam.ac.uk>
+	<199808050613.QAA29093@silas-1.cc.monash.edu.au>
+X-Mailer: VM 6.58 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1246
+
+Steve Gardner writes:
+> Michael Norrish wrote:
+
+>> This is why I think an alternative model would be to have the nomic
+>> game be conducted among people that are effectively the game wizards.
+>> To the outside world, the MUD game would look just like a normal one,
+>> but behind the scenes the various Gods would be squabbling and
+>> politicking over the shape the world should have.  If you built in
+>> some notion of worship for Gods, then the members of the nomic game
+>> might even come to feel that they were representing their worshippers.
+ 
+> It's an interesting idea, but a rather limited one, since only MUD
+> wizards would be able to play, and they are a rare breed.
+ 
+When I wrote "game wizard", I didn't necessarily mean someone who
+actually goes out there and writes MUD code.  Obviously someone would
+need to be able to do this among the Players, but not everyone would
+need this. 
+
+I really like the idea of connecting a game like Agora to a "world".
+As it is, Agora is entirely self-referential, and ultimately a touch
+sterile.  (Perhaps even more so if we go ahead and repeal five
+Offices!)  
+
+How about acquiring a world by invasion?  We could try and infiltrate
+and/or take over lambdaMOO...
+
+Michael -- "I wanna DO something"
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 05:49 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA05928 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 05:49:51 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA24804
+	for agora-discussion-list; Wed, 5 Aug 1998 19:46:33 +1000
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA24801
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 19:46:20 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id LAA10614; Wed, 5 Aug 1998 11:47:04 +0200 (DFT)
+Date: Wed, 5 Aug 1998 11:47:04 +0200 (DFT)
+Message-Id: <199808050947.LAA10614@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-reply-to: <13768.10015.482594.917777@albatross.cl.cam.ac.uk> (message from
+	Michael Norrish on Wed, 5 Aug 1998 10:34:23 +0100 (BST))
+Subject: Re: DIS: Shattered World Nomic
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 319
+
+>>
+I really like the idea of connecting a game like Agora to a "world".
+As it is, Agora is entirely self-referential, and ultimately a touch
+sterile.
+<<
+
+How about getting plots to work? That was meant to be a starting point
+in this direction.
+
+Kolja A. -- "Hope I'll get around to proposing the plot repair fix
+soon" 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 06:02 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA06133 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 06:02:31 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA24891
+	for agora-discussion-list; Wed, 5 Aug 1998 20:00:08 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id UAA24888
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 20:00:03 +1000
+Message-Id: <199808051000.UAA24888@gecko.serc.rmit.edu.au>
+Received: (qmail 4364 invoked by alias); 5 Aug 1998 10:01:10 -0000
+Received: from pppa114.francenet.fr (HELO arapael) (193.149.100.24)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 10:01:10 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 12:05:06 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Shattered World Nomic
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 454
+
+> How about acquiring a world by invasion?  We could try and infiltrate
+> and/or take over lambdaMOO...
+
+ Isn't the Lamba program publicly available ?
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 07:11 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA07279 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 07:11:19 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA25199
+	for agora-discussion-list; Wed, 5 Aug 1998 21:07:41 +1000
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id VAA25196
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:07:34 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0z41QV-0004bI-00; Wed, 5 Aug 1998 12:08:15 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0z41QT-0001NC-00; Wed, 5 Aug 1998 12:08:13 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13768.15645.234664.561589@albatross.cl.cam.ac.uk>
+Date: Wed, 5 Aug 1998 12:08:13 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic
+In-Reply-To: <199808050947.LAA10614@dij91.tp3.ruhr-uni-bochum.de>
+References: <13768.10015.482594.917777@albatross.cl.cam.ac.uk>
+	<199808050947.LAA10614@dij91.tp3.ruhr-uni-bochum.de>
+X-Mailer: VM 6.58 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1283
+
+Klaus Herrmanns writes:
+> >>
+> I really like the idea of connecting a game like Agora to a "world".
+> As it is, Agora is entirely self-referential, and ultimately a touch
+> sterile.
+> <<
+ 
+> How about getting plots to work? That was meant to be a starting
+> point in this direction.
+ 
+Yes, I do still like Plots.  Of Steve's Office repeals, I would
+probably support the repeal all but the Cartographor.
+
+On the other hand, the game is still a bit too self-regarding.  If we
+had an outside world to interact with, I think things would be more
+interesting.  The problem with Plots is that they are entirely
+internal.  We're constantly inventing new Currencies and ways of
+assessing our relative positions within the game, but they are never
+founded on anything "solid".  
+
+If we had an external world beyond the scope of the rules to interact
+with, we might become a little more grounded.  
+
+Of course, the ultimate in external worlds, is the real world itself.
+We could go this route by registering Agora as a charitable
+organisation.  This isn't really that appealing because what
+could/would we do in the real world?  Setting ourselves up in a
+virtual world would be more interesting, because there are more
+interesting (competitive) games to play in such environments. 
+
+Michael.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 07:26 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA07523 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 07:26:15 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA25294
+	for agora-discussion-list; Wed, 5 Aug 1998 21:23:18 +1000
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id VAA25291
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:23:13 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0z41fe-0000MM-00; Wed, 5 Aug 1998 12:23:54 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0z41fd-0001PL-00; Wed, 5 Aug 1998 12:23:53 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13768.16585.111516.827906@albatross.cl.cam.ac.uk>
+Date: Wed, 5 Aug 1998 12:23:53 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic
+In-Reply-To: <199808051000.UAA24888@gecko.serc.rmit.edu.au>
+References: <199808051000.UAA24888@gecko.serc.rmit.edu.au>
+X-Mailer: VM 6.58 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 313
+
+Laurent Bossavit writes:
+> > How about acquiring a world by invasion?  We could try and infiltrate
+> > and/or take over lambdaMOO...
+ 
+>  Isn't the Lamba program publicly available ?
+ 
+Probably.  But why cut ourselves off by giving ourselves our own world
+where the only people playing are ourselves?  
+
+Michael.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 07:35 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA07629 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 07:35:24 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA25371
+	for agora-discussion-list; Wed, 5 Aug 1998 21:32:22 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id VAA25368
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:32:16 +1000
+Message-Id: <199808051132.VAA25368@gecko.serc.rmit.edu.au>
+Received: (qmail 8117 invoked by alias); 5 Aug 1998 11:33:23 -0000
+Received: from pppa246.francenet.fr (HELO arapael) (193.149.100.156)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 11:33:23 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 13:37:16 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Shattered World Nomic
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1508
+
+> > > How about acquiring a world by invasion?  We could try and infiltrate
+> > > and/or take over lambdaMOO...
+>  
+> >  Isn't the Lamba program publicly available ?
+>  
+> Probably.  But why cut ourselves off by giving ourselves our own world
+> where the only people playing are ourselves?  
+
+ Hmm, offhand, I see two reasons; one is that the Lambda people might 
+resent an invasion, although there are some people here that wouldn't, if
+I am to judge by past experience, let that be an obstacle; another is 
+that taking over an existing complex world such as Lamba, with its
+existing system of ballots and whatnot, would probably be more work
+than it's worth.
+
+ Anyway, if the objective is to extend Agora with a 'concrete' 
+context to sustain things such as Plots, it seems to me that the most 
+logical way to proceed would be to create a new MOO specifically
+for the task, pass a few Rules establishing the relationship between
+Players and AgoraMOO characters, and work on from there. It's
+an interesting notion, but I'm not sure that the practical difficulties
+(I expect that setting up a Lamba clone would be a rather extensive
+task, and of course we'd have to find a server for it) can be overcome.
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 07:42 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA07769 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 07:42:11 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA25423
+	for agora-discussion-list; Wed, 5 Aug 1998 21:39:20 +1000
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id VAA25420
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:39:15 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0z41vB-0000VJ-00; Wed, 5 Aug 1998 12:39:57 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0z41v6-0001X3-00; Wed, 5 Aug 1998 12:39:52 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13768.17543.898305.393059@albatross.cl.cam.ac.uk>
+Date: Wed, 5 Aug 1998 12:39:51 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic
+In-Reply-To: <199808051132.VAA25368@gecko.serc.rmit.edu.au>
+References: <199808051132.VAA25368@gecko.serc.rmit.edu.au>
+X-Mailer: VM 6.58 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1963
+
+> > >  Isn't the Lamba program publicly available ?
+  
+> > Probably.  But why cut ourselves off by giving ourselves our own world
+> > where the only people playing are ourselves?  
+ 
+>  Hmm, offhand, I see two reasons; one is that the Lambda people might 
+> resent an invasion, although there are some people here that
+> wouldn't, if I am to judge by past experience, let that be an
+> obstacle; another is that taking over an existing complex world such
+> as Lamba, with its existing system of ballots and whatnot, would
+> probably be more work than it's worth.
+ 
+Yes, "take over" is a bad choice of phrase.  I think "establish
+ourselves in" would be better.  I don't think we should do anything so
+contentious as invade.  I think it would be sufficiently interesting
+to try and establish ourselves (or at least, as many of the Players as
+were interested) in an existing world.  It would give our ruleset a
+real challenge as well; it would have to start giving real
+consideration to things (people and objects) beyond its purview. 
+
+>  Anyway, if the objective is to extend Agora with a 'concrete' 
+> context to sustain things such as Plots, it seems to me that the most 
+> logical way to proceed would be to create a new MOO specifically
+> for the task, pass a few Rules establishing the relationship between
+> Players and AgoraMOO characters, and work on from there. It's
+> an interesting notion, but I'm not sure that the practical difficulties
+> (I expect that setting up a Lamba clone would be a rather extensive
+> task, and of course we'd have to find a server for it) can be overcome.
+ 
+I don't much like this idea.  As you say, it would be an awful lot of
+work, and more significantly, it would also defeat the purpose of
+forcing ourselves to deal with a "real" world.  Because we created it
+as part of Agora, we could legislate it out of existence, and/or alter
+much of it at whim.  This would be impossible in the context of an
+existing MUD. 
+
+Michael.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 07:49 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA07853 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 07:49:50 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA25478
+	for agora-discussion-list; Wed, 5 Aug 1998 21:46:23 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id VAA25475
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:46:19 +1000
+Message-Id: <199808051146.VAA25475@gecko.serc.rmit.edu.au>
+Received: (qmail 20817 invoked by alias); 5 Aug 1998 11:47:26 -0000
+Received: from pppa246.francenet.fr (HELO arapael) (193.149.100.156)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 11:47:26 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 13:51:22 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Shattered World Nomic
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1295
+
+> I think it would be sufficiently interesting to try and establish
+> ourselves (or at least, as many of the Players as were interested)
+> in an existing world.  It would give our ruleset a real challenge
+> as well; it would have to start giving real consideration to things
+> (people and objects) beyond its purview. 
+
+Well - I don't much like this idea. ;) My problem with it is that we
+would be playing LambdaMOO, not Agora. I have nothing against Lambda
+(actually, I've taken an interest in it since it was mentioned on
+the list, and am currently waiting for a character registration) but
+I don't see that it would be that interesting to mix up the two.
+Starting with a fresh system would still give our Ruleset the
+challenge you want, I think, and in any case isn't it the
+technicalities of legislating control of a 'concrete' virtual world
+that are the point of initiatives such as Plots, rather than the
+wholly different problem of exporting Agoran culture to another
+social context ?
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 07:51 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA07911 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 07:51:23 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA25471
+	for agora-discussion-list; Wed, 5 Aug 1998 21:46:13 +1000
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA25465
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:45:42 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id NAA24378; Wed, 5 Aug 1998 13:46:16 +0200 (DFT)
+Date: Wed, 5 Aug 1998 13:46:16 +0200 (DFT)
+Message-Id: <199808051146.NAA24378@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-reply-to: <199808051132.VAA25368@gecko.serc.rmit.edu.au>
+	(morendil@micronet.fr)
+Subject: Re: DIS: Shattered World Nomic
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 839
+
+>>
+Hmm, offhand, I see two reasons; one is that the Lambda people might 
+resent an invasion, although there are some people here that wouldn't, if
+I am to judge by past experience, let that be an obstacle; another is 
+that taking over an existing complex world such as Lamba, with its
+existing system of ballots and whatnot, would probably be more work
+than it's worth.
+<<
+
+But a hostile invasion. and a full fledged takeover, is only the
+extreme thing a group of people can do in a M**. We could also just
+form a group of players who coordinate their actions within that
+world, maybe forming something like an Agora guild or whatever. This
+might even be quite enjoyable to veteran members of the target M** -
+it seems to me most of these games are always willing to take on new
+people. 
+
+What's the address of LambdaMOO, again?
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 07:51 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA07916 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 07:51:48 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA25497
+	for agora-discussion-list; Wed, 5 Aug 1998 21:47:02 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id VAA25493
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:47:00 +1000
+Received: From mozart With LocalMail ; Wed, 5 Aug 98 21:47:45 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 21:47:41 +1000 (EST)
+Message-Id:  <980805114741.26049@cse.unsw.edu.au>
+Subject: Re: DIS: proto: A Duty to Vote, v1.1
+In-Reply-To: <199808050641.QAA02404@silas-1.cc.monash.edu.au> from "Steve Gardner" at Aug 5, 98 04:41:47 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1688
+
+> 
+> Laurent Bossavit wrote:
+> >
+> >> By the way, the proto as it stands has a significant problem: it
+> >> re-opens in a new form the familiar loophole that allows Players to
+> >> avoid some requirement which is contingent on their having certain
+> >> assets by setting up dummy Contestsa (or using Group treasuries) to
+> >> serve as holding companies for those assets (cf Chuck's Savings and Loan
+> >> Contest). Any ideas as to how to close this loophole off?
+> >
+> >Introduce the notion of a Player's net worth ?
+> 
+> Well, yes, but how to define it? What we want to capture is the
+> intuitive notion of the assets over which a Player has control, so that
+> we can say, for example, that Chuck has control over the assets of
+> Chuck's Savings and Loan Contest, and count those assets when we decide
+> if Chuck is rich enough to be obliged to vote. But it won't work simply
+> to specify that a Player has control over assets which are either
+> possessed by the Player, or possessed by an Entity of which the Player
+> is an Executor, since Players can hide assets in Groups, which they may
+> not be the Executors of.
+
+Moreover, a player may be Contestmaster of a genuine Contest, which 
+contains funds which do not belong to em, and which e cannot use for
+eir own ends. To penalise such players would be grossly unfair.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 07:52 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA07920 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 07:52:38 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA25525
+	for agora-discussion-list; Wed, 5 Aug 1998 21:49:03 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id VAA25521
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:49:00 +1000
+Received: From mozart With LocalMail ; Wed, 5 Aug 98 21:49:45 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 21:49:41 +1000 (EST)
+Message-Id:  <980805114941.26330@cse.unsw.edu.au>
+Subject: Re: DIS: Shattered World Nomic
+In-Reply-To: <199808050947.LAA10614@dij91.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns" at Aug 5, 98 11:47:04 am
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 711
+
+> 
+> >>
+> I really like the idea of connecting a game like Agora to a "world".
+> As it is, Agora is entirely self-referential, and ultimately a touch
+> sterile.
+> <<
+> 
+> How about getting plots to work? That was meant to be a starting point
+> in this direction.
+
+_I_ didn't mean it as a starting point in that direction.
+
+Antimatter, did you?
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 07:53 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA07936 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 07:53:41 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA25533
+	for agora-discussion-list; Wed, 5 Aug 1998 21:49:18 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id VAA25530
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:49:14 +1000
+Message-Id: <199808051149.VAA25530@gecko.serc.rmit.edu.au>
+Received: (qmail 23742 invoked by alias); 5 Aug 1998 11:50:20 -0000
+Received: from pppa246.francenet.fr (HELO arapael) (193.149.100.156)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 11:50:20 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 13:54:16 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Shattered World Nomic
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 896
+
+> Because we created it as part of Agora, we could legislate it out
+> of existence, and/or alter much of it at whim.  This would be
+> impossible in the context of an existing MUD. 
+
+Au contraire, as I see it the challenge would lie in transposing 
+the Agoran system to the concrete context of the Lambda system.
+We would have a merry time amending the Rules to permit Votes
+being sent via a LambdaMOO 'Voting Room', and dealing with
+the problem of keeping the english-language Rules in synch with
+their programming-language implementation (as mentioned in
+the posts that started this thread).
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 07:54 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA07940 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 07:54:56 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA25599
+	for agora-discussion-list; Wed, 5 Aug 1998 21:51:57 +1000
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id VAA25592
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:51:47 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0z427H-0000Vu-00; Wed, 5 Aug 1998 12:52:27 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0z427D-0001oy-00; Wed, 5 Aug 1998 12:52:23 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13768.18295.735285.660786@albatross.cl.cam.ac.uk>
+Date: Wed, 5 Aug 1998 12:52:23 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic
+In-Reply-To: <199808051146.NAA24378@dij91.tp3.ruhr-uni-bochum.de>
+References: <199808051132.VAA25368@gecko.serc.rmit.edu.au>
+	<199808051146.NAA24378@dij91.tp3.ruhr-uni-bochum.de>
+X-Mailer: VM 6.58 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1019
+
+Klaus Herrmanns writes:
+
+> But a hostile invasion. and a full fledged takeover, is only the
+> extreme thing a group of people can do in a M**. We could also just
+> form a group of players who coordinate their actions within that
+> world, maybe forming something like an Agora guild or whatever. This
+> might even be quite enjoyable to veteran members of the target M** -
+> it seems to me most of these games are always willing to take on new
+> people.
+
+The latter is definitely what I've come to think would be the
+interesting option.  Thanks for expressing the idea so well.
+
+For example, in "The origins of virtue" by Matt Ridley, it is claimed
+that the medieval merchants of Northern Europe organised a legal
+system that regulated behaviour without much reference to the central
+states in which they traded.  This legal system came to be quite
+pervasive, even in the absence of state-like powers of enforcement.
+It would be interesting to see if the Agora Guild could do as well in
+an embodied "world". 
+
+Michael.
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 07:55 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA07988 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 07:55:17 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA25591
+	for agora-discussion-list; Wed, 5 Aug 1998 21:51:46 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id VAA25586
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:51:41 +1000
+Message-Id: <199808051151.VAA25586@gecko.serc.rmit.edu.au>
+Received: (qmail 26257 invoked by alias); 5 Aug 1998 11:52:48 -0000
+Received: from pppa246.francenet.fr (HELO arapael) (193.149.100.156)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 11:52:48 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 13:56:44 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: proto: A Duty to Vote, v1.1
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 719
+
+> Moreover, a player may be Contestmaster of a genuine Contest, which 
+> contains funds which do not belong to em, and which e cannot use for
+> eir own ends. To penalise such players would be grossly unfair.
+
+I don't see why. It would simply become part of the cost of running a
+Contest, and a ContestMaster could add provisions to the Regulations
+to keep a portion of the entry fees sufficient to offset that cost.
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 07:55 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA08010 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 07:55:42 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA25581
+	for agora-discussion-list; Wed, 5 Aug 1998 21:51:25 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id VAA25577
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:51:20 +1000
+Message-Id: <199808051151.VAA25577@gecko.serc.rmit.edu.au>
+Received: (qmail 25871 invoked by alias); 5 Aug 1998 11:52:27 -0000
+Received: from pppa246.francenet.fr (HELO arapael) (193.149.100.156)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 11:52:27 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 13:56:21 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Shattered World Nomic
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 381
+
+> What's the address of LambdaMOO, again?
+
+Telnet to lambda.moo.mud.org:8888.
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 08:02 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA08259 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 08:01:57 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA25719
+	for agora-discussion-list; Wed, 5 Aug 1998 21:58:12 +1000
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id VAA25716
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:58:00 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0z42DL-0000TM-00; Wed, 5 Aug 1998 12:58:43 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0z42DK-0001xM-00; Wed, 5 Aug 1998 12:58:42 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13768.18673.965427.771541@albatross.cl.cam.ac.uk>
+Date: Wed, 5 Aug 1998 12:58:41 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic
+In-Reply-To: <199808051146.VAA25475@gecko.serc.rmit.edu.au>
+References: <199808051146.VAA25475@gecko.serc.rmit.edu.au>
+X-Mailer: VM 6.58 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 2093
+
+Laurent Bossavit writes:
+> > I think it would be sufficiently interesting to try and establish
+> > ourselves (or at least, as many of the Players as were interested)
+> > in an existing world.  It would give our ruleset a real challenge
+> > as well; it would have to start giving real consideration to things
+> > (people and objects) beyond its purview. 
+ 
+> Well - I don't much like this idea. ;) My problem with it is that we
+> would be playing LambdaMOO, not Agora.
+
+Well, yes we would be playing LambdaMOO, but we'd also be playing
+Agora at the same time.  What's more, I'd aim to keep people without
+the time to engage fully in the MOO experience as full Players of
+Agora (though they'd clearly have slightly different status -- that of
+ghosts or something).
+
+> I have nothing against Lambda (actually, I've taken an interest in
+> it since it was mentioned on the list, and am currently waiting for
+> a character registration) but I don't see that it would be that
+> interesting to mix up the two.  Starting with a fresh system would
+> still give our Ruleset the challenge you want, I think, and in any
+> case isn't it the technicalities of legislating control of a
+> 'concrete' virtual world that are the point of initiatives such as
+> Plots, rather than the wholly different problem of exporting Agoran
+> culture to another social context ?
+
+Yes, there would be technical difficulties in getting our ruleset to
+legislate control of a world.  This is clear from our difficulties
+with the Plots legislation.  But in fact, it is exactly these
+difficulties that I would aim to avoid by giving ourselves up to the
+physical reality of an existing MUD.  This introduces quite different
+difficulties: those of coping with a reality that is *external* to the
+ruleset.   (The only degree to which this happens at the moment is in
+the ruleset's acknowledgements that Players are not always able to
+perform the duties required of them.)  
+
+Setting up a new world within the purview of the ruleset is far less
+interesting in my opinion, which is why I prefer embodiment in a MUD
+to Plots.
+
+Michael.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 08:10 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA08475 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 08:10:17 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA25782
+	for agora-discussion-list; Wed, 5 Aug 1998 22:07:49 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id WAA25779
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 22:07:46 +1000
+Message-Id: <199808051207.WAA25779@gecko.serc.rmit.edu.au>
+Received: (qmail 8000 invoked by alias); 5 Aug 1998 12:08:53 -0000
+Received: from pppa246.francenet.fr (HELO arapael) (193.149.100.156)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 12:08:53 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 14:12:49 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Shattered World Nomic
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1188
+
+> Yes, there would be technical difficulties in getting our ruleset to
+> legislate control of a world.  
+
+But there would also be 'legal' difficulties, in that anything we
+legislated within Agora could be at odds with the Lambda 'laws'
+themselves. How do you suppose we could work around that issue ?
+Suppose we enact Rules whereby Voting in Agora is achieved via the
+operation of some object in Lambda; suppose the Lambda Wizards
+decide this object is too large, or too slow, and nuke it; what then?
+
+In other words, the problem is that Agora would have no sovereingty
+in Lambda. We could of course start a campaign in Lambda to have that
+sovereignty granted to us, but I'm sure the answer would be 'why
+don't you guys start your own MOO' ?
+
+That is why I think the proper way to conduct such an experiment
+would be on a territorry where Agora would have sovereignty, i.e. a
+new MOO.
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 08:36 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA09689 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 08:36:54 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA25903
+	for agora-discussion-list; Wed, 5 Aug 1998 22:33:46 +1000
+Received: from click.schawk.com (click.schawk.com [205.184.253.12])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id WAA25900
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 22:33:37 +1000
+Received: from corp-nt (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 29; 7:35:08 AM -0500
+From: agoralee@schawk.com (Agora lee)
+To: morendil@micronet.fr
+Cc: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 07:33:21 -0500
+Subject: Re: DIS: Shattered World Nomic
+Message-ID: <msg10637.thr-213c5d03.76adf1@Schawk.com>
+References: <199808051000.UAA24888@gecko.serc.rmit.edu.au>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg10637.thr-213c5d03.76adf1.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 674
+
+morendil@micronet.fr,Internet writes:
+>> How about acquiring a world by invasion?  We could try and infiltrate
+>> and/or take over lambdaMOO...
+
+> Isn't the Lamba program publicly available ?
+
+I don't know about the lamba program, but  their are publicly available
+programs for MUDs that run on Linux.  The cost software time would be
+minimal.  It would need a PC and band width.  I think the real drawback
+is that we would not all be on the MUD at once.  One might come on only
+to find e was by himself.  We might develop time based factions.  
+
+I like Agora based in email.  How about more contests?
+
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 08:38 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA09701 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 08:38:53 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA25923
+	for agora-discussion-list; Wed, 5 Aug 1998 22:35:32 +1000
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id WAA25919
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 22:35:27 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0z42nb-0006dV-00; Wed, 5 Aug 1998 13:36:11 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0z42nZ-0002Me-00; Wed, 5 Aug 1998 13:36:09 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13768.20920.850536.327482@albatross.cl.cam.ac.uk>
+Date: Wed, 5 Aug 1998 13:36:08 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic
+In-Reply-To: <199808051207.WAA25779@gecko.serc.rmit.edu.au>
+References: <199808051207.WAA25779@gecko.serc.rmit.edu.au>
+X-Mailer: VM 6.58 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1799
+
+Laurent Bossavit writes:
+> > Yes, there would be technical difficulties in getting our ruleset to
+> > legislate control of a world.  
+ 
+> But there would also be 'legal' difficulties, in that anything we
+> legislated within Agora could be at odds with the Lambda 'laws'
+> themselves. How do you suppose we could work around that issue ?
+> Suppose we enact Rules whereby Voting in Agora is achieved via the
+> operation of some object in Lambda; suppose the Lambda Wizards
+> decide this object is too large, or too slow, and nuke it; what
+> then?
+
+Well, that particular example is pretty silly given that we'd want to
+keep non-embodied Players to be part of Agora still so making them
+vote in LambdaMOO would hardly be consistent with that objective.
+However, perhaps there are other examples, and it would be precisely
+that conflict that would be interesting.  In just the same way that
+real world legislatures can't usefully require pi to be equal to 3, we
+would have to cope with the real world. 
+ 
+> In other words, the problem is that Agora would have no sovereingty
+> in Lambda. We could of course start a campaign in Lambda to have
+> that sovereignty granted to us, but I'm sure the answer would be
+> 'why don't you guys start your own MOO' ?
+ 
+> That is why I think the proper way to conduct such an experiment
+> would be on a territorry where Agora would have sovereignty, i.e. a
+> new MOO.
+ 
+By definition, it seems to me that that wouldn't constitute an
+experiment of the sort I'm interested in. 
+
+On the other hand, from a quick scan of some LambdaMOO documentation,
+it doesn't look as if theirs is a particularly interesting world to be
+embodied in.  It doesn't really look as if there is an economy for
+example.  It seems as if it is basically a gimmicky chat-room...
+
+Hey-ho,
+Michael.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 08:55 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA10059 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 08:55:18 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA26030
+	for agora-discussion-list; Wed, 5 Aug 1998 22:51:53 +1000
+Received: from indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA26027
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 22:51:49 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id HAA15695
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 07:52:33 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id HAA16099 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 07:52:30 -0500
+Message-Id: <199808051252.HAA16099@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic 
+In-reply-to: Your message of "Wed, 05 Aug 1998 10:34:23 +0100."
+             <13768.10015.482594.917777@albatross.cl.cam.ac.uk> 
+Date: Wed, 05 Aug 1998 07:52:27 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 576
+
+"Michael" == Michael Norrish <Michael.Norrish@cl.cam.ac.uk> writes:
+
+Michael> I really like the idea of connecting a game like Agora to a
+Michael> "world".  As it is, Agora is entirely self-referential, and
+Michael> ultimately a touch sterile.  (Perhaps even more so if we go
+Michael> ahead and repeal five Offices!)
+
+I tend to agree.  Agora's getting a bit staid.  Manipulating abstract
+entities gets boring after a time. :)
+
+Michael> How about acquiring a world by invasion?  We could try and
+Michael> infiltrate and/or take over lambdaMOO...
+
+Haha.  Still, it's an idea...
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 08:56 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA10086 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 08:56:20 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA26055
+	for agora-discussion-list; Wed, 5 Aug 1998 22:53:19 +1000
+Received: from indiana.edu (cayman.ucs.indiana.edu [129.79.10.68])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA26043
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 22:52:51 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id HAA03080
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 07:53:31 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id HAA16113 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 07:53:28 -0500
+Message-Id: <199808051253.HAA16113@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic 
+In-reply-to: Your message of "Wed, 05 Aug 1998 12:05:06 +0100."
+             <199808051000.UAA24888@gecko.serc.rmit.edu.au> 
+Date: Wed, 05 Aug 1998 07:53:26 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 451
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+>> How about acquiring a world by invasion?  We could try and
+>> infiltrate and/or take over lambdaMOO...
+
+Laurent>  Isn't the Lamba program publicly available ?
+
+Yes, but LambdaMOO requires a really big machine; MOO has always been
+a system hog.  As well as good high speed net access.  I don't think
+any of us have the access, the machine, and the permission to use it
+for that purpose.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 08:56 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA10094 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 08:56:32 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA26020
+	for agora-discussion-list; Wed, 5 Aug 1998 22:50:38 +1000
+Received: from indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA26014
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 22:49:41 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id HAA01492
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 07:50:21 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id HAA16087 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 07:50:09 -0500
+Message-Id: <199808051250.HAA16087@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: A Duty to Vote, v1.1 
+In-reply-to: Your message of "Wed, 05 Aug 1998 16:41:47 +1000."
+             <199808050641.QAA02404@silas-1.cc.monash.edu.au> 
+Date: Wed, 05 Aug 1998 07:50:03 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 938
+
+"Steve" == Steve Gardner <gardner@silas-2.cc.monash.edu.au> writes:
+
+Steve> Well, yes, but how to define it? What we want to capture is the
+Steve> intuitive notion of the assets over which a Player has control,
+Steve> so that we can say, for example, that Chuck has control over
+Steve> the assets of Chuck's Savings and Loan Contest, and count those
+Steve> assets when we decide if Chuck is rich enough to be obliged to
+Steve> vote. But it won't work simply to specify that a Player has
+Steve> control over assets which are either possessed by the Player,
+Steve> or possessed by an Entity of which the Player is an Executor,
+Steve> since Players can hide assets in Groups, which they may not be
+Steve> the Executors of.
+
+And also being Contestmaster of a Contest does not mean that the
+assets of that Contest are eirs to control.  The Regulations of the
+Contest may forbid the Contestmaster from arbitrarily transferring
+assets about.  
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 08:57 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA10108 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 08:57:32 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA26075
+	for agora-discussion-list; Wed, 5 Aug 1998 22:54:16 +1000
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA26070
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 22:54:03 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id OAA11332; Wed, 5 Aug 1998 14:54:43 +0200 (DFT)
+Date: Wed, 5 Aug 1998 14:54:43 +0200 (DFT)
+Message-Id: <199808051254.OAA11332@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-reply-to: <199808051207.WAA25779@gecko.serc.rmit.edu.au>
+	(morendil@micronet.fr)
+Subject: Re: DIS: Shattered World Nomic
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 532
+
+Morendil:
+>>
+But there would also be 'legal' difficulties, in that anything we
+legislated within Agora could be at odds with the Lambda 'laws'
+themselves. How do you suppose we could work around that issue ?
+Suppose we enact Rules whereby Voting in Agora is achieved via the
+operation of some object in Lambda; suppose the Lambda Wizards
+decide this object is too large, or too slow, and nuke it; what then?
+<<
+
+Wouldn't that just be the kind of problem Michael has in mind as an
+interesting challenge, not a disturbance?
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 08:58 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA10120 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 08:58:14 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA26094
+	for agora-discussion-list; Wed, 5 Aug 1998 22:55:00 +1000
+Received: from indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA26086
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 22:54:55 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id HAA23997
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 07:55:27 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id HAA16126 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 07:55:21 -0500
+Message-Id: <199808051255.HAA16126@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic 
+In-reply-to: Your message of "Wed, 05 Aug 1998 12:23:53 +0100."
+             <13768.16585.111516.827906@albatross.cl.cam.ac.uk> 
+Date: Wed, 05 Aug 1998 07:55:14 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 477
+
+"Michael" == Michael Norrish <Michael.Norrish@cl.cam.ac.uk> writes:
+
+Michael> Probably.  But why cut ourselves off by giving ourselves our
+Michael> own world where the only people playing are ourselves?
+
+If you set up an interesting environment, there would be people
+who came to the world for its environment.  They might or might not
+participate in the Nomic aspects, but that's fine.  There's no reason
+why Agora can't have jurisdiction over people who are not its Players.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 09:01 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA10238 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 09:01:47 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA26169
+	for agora-discussion-list; Wed, 5 Aug 1998 22:58:44 +1000
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA26166
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 22:58:38 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id OAA26492; Wed, 5 Aug 1998 14:59:22 +0200 (DFT)
+Date: Wed, 5 Aug 1998 14:59:22 +0200 (DFT)
+Message-Id: <199808051259.OAA26492@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Lambda MOO Contest?
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 742
+
+So I've just read the Lambda MOO tutorial. And found one Lambda
+related webpage, at <http://vesta.physics.ucla.edu/~smolin/lambda/>
+
+Couldn't we try a simple and peaceful experiment by forming a contest
+with all Agora players that are willing to participate in LambdaMOO?
+This contest could then develope regulations that govern the behavior
+of its members in the MOO, could conduct some of its business within
+the MOO, etc.pp.
+
+I'd be willing to give it a try.
+
+What kind of character are you planning to have, Morendil? One somehow
+connected with your Agora identity? I've been thinking about playing
+a junior diplomat called Kolja L. Agorov or something like that. We
+might even join the MOO as the Agorov brothers or something.
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 09:39 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA11297 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 09:39:04 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA26339
+	for agora-discussion-list; Wed, 5 Aug 1998 23:35:41 +1000
+Received: from click.schawk.com (click.schawk.com [205.184.253.12])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id XAA26336
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 23:35:31 +1000
+Received: from corp-nt (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 52; 8:37:41 AM -0500
+From: agoralee@schawk.com (Agora lee)
+Cc: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 08:35:24 -0500
+Subject: Re: DIS: Shattered World Nomic
+Message-ID: <msg10661.thr-213c5d03.76adf1@Schawk.com>
+References: <199808051000.UAA24888@gecko.serc.rmit.edu.au> <13768.16585.111516.827906@albatross.cl.cam.ac.uk>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg10661.thr-213c5d03.76adf1.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 141
+
+This reminds me of when Agorans once thought of moving it to usenet.
+
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 10:06 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA12492 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 10:06:04 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA26469
+	for agora-discussion-list; Thu, 6 Aug 1998 00:02:40 +1000
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id AAA26466
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 00:02:24 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0z449k-0001SJ-00; Wed, 5 Aug 1998 15:03:08 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0z449i-0002oh-00; Wed, 5 Aug 1998 15:03:06 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13768.26138.114009.952033@albatross.cl.cam.ac.uk>
+Date: Wed, 5 Aug 1998 15:03:06 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic
+In-Reply-To: <msg10661.thr-213c5d03.76adf1@Schawk.com>
+References: <199808051000.UAA24888@gecko.serc.rmit.edu.au>
+	<13768.16585.111516.827906@albatross.cl.cam.ac.uk>
+	<msg10661.thr-213c5d03.76adf1@Schawk.com>
+X-Mailer: VM 6.58 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1197
+
+Agora lee writes:
+> This reminds me of when Agorans once thought of moving it to usenet.
+ 
+Well yes and no.  I don't think anyone would like to remove the
+primacy of the mailing lists.  This would disenfranchise un-embodied
+Players for one thing, and would also seem to be too much of a
+capitulation to the external game.
+
+Moving to Usenet would primarily be about changing the medium that we
+used to communicate.  Moving into/onto a MUD would be about changing
+our game's virtual substrate.
+
+If Morendil is already joining the LambdaMOO game, I'd be interested
+in hearing his thoughts about the game is like at some later stage.
+Is the world sufficiently interesting to make us a good base? 
+
+If it weren't for the fact that Shattered World has only 10-15
+Players, I'd almost suggest moving there (they have an economic
+system, for example).  Shattered World's existing rules also seem to
+mix levels unfortunately.  One of them requires that some magical
+ability or other behave slightly differently.  This is exactly the
+sort of thing that a ruleset should avoid.  (Check rule 1008 and
+others of the Common Laws available at
+  http://gecko.serc.rmit.edu.au/~mud/laws/lawframe.htm). 
+
+Michael.
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 10:50 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA13960 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 10:50:10 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA26644
+	for agora-discussion-list; Thu, 6 Aug 1998 00:43:01 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id AAA26638
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 00:42:57 +1000
+Message-Id: <199808051442.AAA26638@gecko.serc.rmit.edu.au>
+Received: (qmail 29849 invoked by alias); 5 Aug 1998 14:44:04 -0000
+Received: from pppa156.francenet.fr (HELO arapael) (193.149.100.66)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 14:44:04 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 16:48:00 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Shattered World Nomic 
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 606
+
+> Yes, but LambdaMOO requires a really big machine; MOO has always
+> been a system hog.  As well as good high speed net access.  I don't
+> think any of us have the access, the machine, and the permission to
+> use it for that purpose. 
+
+Are any systems available that only take up reasonable resources ?
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 10:59 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA14220 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 10:59:35 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA26712
+	for agora-discussion-list; Thu, 6 Aug 1998 00:53:19 +1000
+Received: from indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA26709
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 00:53:11 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id JAA20485
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 09:53:55 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id JAA16377 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 09:53:52 -0500
+Message-Id: <199808051453.JAA16377@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic 
+In-reply-to: Your message of "Wed, 05 Aug 1998 07:33:21 EST."
+             <msg10637.thr-213c5d03.76adf1@Schawk.com> 
+Date: Wed, 05 Aug 1998 09:53:51 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 677
+
+"Agora" == Agora lee <agoralee@schawk.com> writes:
+
+Agora> I don't know about the lamba program, but their are publicly
+Agora> available programs for MUDs that run on Linux.  The cost
+Agora> software time would be minimal.  It would need a PC and band
+Agora> width.  I think the real drawback is that we would not all be
+Agora> on the MUD at once.  One might come on only to find e was by
+Agora> himself.  We might develop time based factions.
+
+I don't think that temporality is really an issue.  There's no reason
+why we would be required to convert to interactive play just by having
+a MUD under our jurisdiction.  We could still conduct business via
+email, for that matter.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 11:02 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA14324 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 11:02:09 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA26735
+	for agora-discussion-list; Thu, 6 Aug 1998 00:56:04 +1000
+Received: from indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA26729
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 00:55:57 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id JAA17498
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 09:56:41 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id JAA16390 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 09:56:39 -0500
+Message-Id: <199808051456.JAA16390@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic 
+In-reply-to: Your message of "Wed, 05 Aug 1998 13:36:08 +0100."
+             <13768.20920.850536.327482@albatross.cl.cam.ac.uk> 
+Date: Wed, 05 Aug 1998 09:56:37 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 645
+
+"Michael" == Michael Norrish <Michael.Norrish@cl.cam.ac.uk> writes:
+
+Michael> On the other hand, from a quick scan of some LambdaMOO
+Michael> documentation, it doesn't look as if theirs is a particularly
+Michael> interesting world to be embodied in.  It doesn't really look
+Michael> as if there is an economy for example.  It seems as if it is
+Michael> basically a gimmicky chat-room...
+
+Yes, exactly.  Lambda is a poor example of a virtual reality.  The LP
+genre actually holds more promise for a virtual environment, because
+LP players are more accustomed to engaging in scripted encounters with
+the environment with an eye toward some goal.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 11:04 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA14400 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 11:04:47 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA26756
+	for agora-discussion-list; Thu, 6 Aug 1998 00:58:34 +1000
+Received: from indiana.edu (cayman.ucs.indiana.edu [129.79.10.68])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA26753
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 00:58:10 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id JAA08746
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 09:58:51 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id JAA16402 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 09:58:49 -0500
+Message-Id: <199808051458.JAA16402@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic 
+In-reply-to: Your message of "Wed, 05 Aug 1998 14:12:49 +0100."
+             <199808051207.WAA25779@gecko.serc.rmit.edu.au> 
+Date: Wed, 05 Aug 1998 09:58:49 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 817
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+Laurent> But there would also be 'legal' difficulties, in that
+Laurent> anything we legislated within Agora could be at odds with the
+Laurent> Lambda 'laws' themselves. How do you suppose we could work
+Laurent> around that issue ?  Suppose we enact Rules whereby Voting in
+Laurent> Agora is achieved via the operation of some object in Lambda;
+Laurent> suppose the Lambda Wizards decide this object is too large,
+Laurent> or too slow, and nuke it; what then?
+
+Then the Assessor reports to the Assembly that "A Blue Bolt from the
+Heavens destroyed the voting machine, taking all of the votes
+heretofore cast with it.  I ask unanimous consent that a new election
+be held, using <voting method X> instead."  Debate ensues, and a
+motion is made and carried.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 11:05 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA14475 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 11:05:30 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA26766
+	for agora-discussion-list; Thu, 6 Aug 1998 00:59:00 +1000
+Received: from indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA26763
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 00:58:55 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id JAA31754
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 09:59:33 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id JAA16414 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 09:59:31 -0500
+Message-Id: <199808051459.JAA16414@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic 
+In-reply-to: Your message of "Wed, 05 Aug 1998 08:35:24 EST."
+             <msg10661.thr-213c5d03.76adf1@Schawk.com> 
+Date: Wed, 05 Aug 1998 09:59:31 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 179
+
+"Agora" == Agora lee <agoralee@schawk.com> writes:
+
+Agora> This reminds me of when Agorans once thought of moving it to
+Agora> usenet.  
+
+Agora never attempted to move to USENET.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 11:08 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA14543 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 11:08:00 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA26817
+	for agora-discussion-list; Thu, 6 Aug 1998 01:01:54 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA26812
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 01:01:51 +1000
+Message-Id: <199808051501.BAA26812@gecko.serc.rmit.edu.au>
+Received: (qmail 16664 invoked by alias); 5 Aug 1998 15:02:58 -0000
+Received: from pppa156.francenet.fr (HELO arapael) (193.149.100.66)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 15:02:58 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 17:06:54 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Lambda MOO Contest?
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1605
+
+> Couldn't we try a simple and peaceful experiment by forming a
+> contest with all Agora players that are willing to participate in
+> LambdaMOO? This contest could then develope regulations that govern
+> the behavior of its members in the MOO, could conduct some of its
+> business within the MOO, etc.pp.
+
+There's certainly nothing to keep any of us who share a common
+interest in MOOs to go exploring; as far as I'm concerned, why would
+we even need a contest ? Until and unless things get to the point
+where some kind of MOO activities can be somehow converted into
+Agoran Currencies, we won't need much of a formal structure. In
+fact, the only thing I think such a venture might require is a 
+mailing list dedicated to it, since I suppose discussions of it would 
+pretty soon bore the hell out of those of us not interested.
+
+> What kind of character are you planning to have, Morendil? One
+> somehow connected with your Agora identity? 
+
+I don't have an 'Agora identity' as such; I have used the name
+'Morendil' in all online activities ever since I've been online at
+all (i.e. starting at the time Internet wasn't yet a household name
+and online meant BBSes). I'll be 'Morendil' in LambdaMOO as well. I
+guess you could say I just have this one 'online persona' and never
+needed to create another.
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 11:08 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA14547 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 11:08:03 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA26905
+	for agora-discussion-list; Thu, 6 Aug 1998 01:02:05 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA26865
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 01:02:02 +1000
+Message-Id: <199808051502.BAA26865@gecko.serc.rmit.edu.au>
+Received: (qmail 16837 invoked by alias); 5 Aug 1998 15:03:05 -0000
+Received: from pppa156.francenet.fr (HELO arapael) (193.149.100.66)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 15:03:05 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 17:06:54 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Shattered World Nomic 
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 973
+
+> If you set up an interesting environment, there would be people
+> who came to the world for its environment.  They might or might not
+> participate in the Nomic aspects, but that's fine.  There's no reason
+> why Agora can't have jurisdiction over people who are not its Players.
+
+Alternately, we could define the jurisdiction of Agora to include any
+registered player in such a MOO. We already do this now, albeit in
+the context of a mailing list; I don't see that operating AgoraMOO
+would have to be any different. The advantage of AgoraMOO over
+the current version would be that for a change it could be interesting
+to participate in aspects other than Rule-making.
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 11:08 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA14551 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 11:08:11 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA26830
+	for agora-discussion-list; Thu, 6 Aug 1998 01:01:59 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA26823
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 01:01:55 +1000
+Message-Id: <199808051501.BAA26823@gecko.serc.rmit.edu.au>
+Received: (qmail 16777 invoked by alias); 5 Aug 1998 15:03:03 -0000
+Received: from pppa156.francenet.fr (HELO arapael) (193.149.100.66)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 15:03:03 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 17:06:54 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Shattered World Nomic
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2095
+
+> Well yes and no.  I don't think anyone would like to remove the
+> primacy of the mailing lists.  This would disenfranchise
+> un-embodied Players for one thing, and would also seem to be too
+> much of a capitulation to the external game.
+
+Well, I don't know - we could certainly implement mail-to-MOO
+gateways, or even let non-resident Players give power of attorney to
+other Players who are resident, in much the same way that a voter in
+my country can arrange to be represented in an election by some other
+voter when absent.
+
+> If Morendil is already joining the LambdaMOO game, I'd be interested
+> in hearing his thoughts about the game is like at some later stage.
+> Is the world sufficiently interesting to make us a good base? 
+
+I don't know about interesting, but from what I've read it's a
+tightly knit community. Registration isn't automatic but is tied to a
+mechanism that keeps resource usage down, for instance, which makes
+registered Players an elite of a sort. I very much doubt that it can
+be 'invaded' even in a benign sense.
+
+I still think the sovereignty issue would make any such experiment 
+peter out after a short while unless we somehow managed to 'take
+over' in the full sense an existing MOO; which, OTOH, we could
+possibly get the original residents to consent to as an experiment,
+e.g. Shattered World residents. Negotiating a 'merger' might be
+fun, too.
+
+One other thing we could to to reconcile your notion of how to go
+about such an experiment and mine would be to recruit people who are
+already MOOing somewhere else and have *them* join *our* world. What
+do you think ? Instead of exporting Agora to a foreign territory, we
+would be claiming fresh territorry but also import parts of an
+existing culture. This could also work with Shattered World, I
+suppose.
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 11:08 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA14568 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 11:08:41 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA26824
+	for agora-discussion-list; Thu, 6 Aug 1998 01:01:56 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA26816
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 01:01:53 +1000
+Message-Id: <199808051501.BAA26816@gecko.serc.rmit.edu.au>
+Received: (qmail 16716 invoked by alias); 5 Aug 1998 15:03:00 -0000
+Received: from pppa156.francenet.fr (HELO arapael) (193.149.100.66)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 15:03:00 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 17:06:54 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Shattered World Nomic
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 412
+
+> This reminds me of when Agorans once thought of moving it to usenet.
+
+And a great success that was too. ;)
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 11:09 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA14608 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 11:09:05 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA26923
+	for agora-discussion-list; Thu, 6 Aug 1998 01:02:32 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA26919
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 01:02:29 +1000
+Message-Id: <199808051502.BAA26919@gecko.serc.rmit.edu.au>
+Received: (qmail 17411 invoked by alias); 5 Aug 1998 15:03:36 -0000
+Received: from pppa156.francenet.fr (HELO arapael) (193.149.100.66)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 15:03:36 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 17:07:32 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Shattered World Nomic 
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 573
+
+> Yes, exactly.  Lambda is a poor example of a virtual reality.  The LP
+> genre actually holds more promise for a virtual environment, because
+> LP players are more accustomed to engaging in scripted encounters with
+> the environment with an eye toward some goal.
+
+LP ?
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 11:16 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA14937 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 11:16:48 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA27199
+	for agora-discussion-list; Thu, 6 Aug 1998 01:09:24 +1000
+Received: from indiana.edu (cayman.ucs.indiana.edu [129.79.10.68])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id BAA27193
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 01:09:15 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id KAA16177
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 10:09:59 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id KAA16532 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 10:09:57 -0500
+Message-Id: <199808051509.KAA16532@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic 
+In-reply-to: Your message of "Wed, 05 Aug 1998 16:48:00 +0100."
+             <199808051442.AAA26638@gecko.serc.rmit.edu.au> 
+Date: Wed, 05 Aug 1998 10:09:56 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 329
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+Laurent> Are any systems available that only take up reasonable
+Laurent> resources ?
+
+Unfortunately, I am not up to SOTA when it comes to MUDs.  I haven't
+had anything much to do with them since 1993 or so.  It might be
+interesting to write one from scratch, though.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 11:19 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA15005 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 11:18:59 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA27254
+	for agora-discussion-list; Thu, 6 Aug 1998 01:16:02 +1000
+Received: from click.schawk.com (click.schawk.com [205.184.253.12])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA27247
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 01:15:46 +1000
+Received: from corp-nt (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 96; 10:16:46 AM -0500
+From: agoralee@schawk.com (Agora lee)
+To: scott@poverty.bloomington.in.us
+Cc: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 10:13:43 -0500
+Subject: Re: DIS: Shattered World Nomic 
+Message-ID: <msg10713.thr-751a2168.76adf1@Schawk.com>
+References: <199808051459.JAA16414@poverty.bloomington.in.us>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg10713.thr-751a2168.76adf1.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 335
+
+scott@poverty.bloomington.in.us,Internet writes:
+>Agora never attempted to move to USENET.
+
+There  was most definitely talk about moving Agora to usenet.  However
+someone wisely pointed out that the move would worsen some key problems
+like messages out of order.
+
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 12:55 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA18398 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 12:55:54 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA27724
+	for agora-discussion-list; Thu, 6 Aug 1998 02:50:27 +1000
+Received: from indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA27721
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 02:50:13 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id LAA16246
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 11:50:46 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id LAA16782 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 11:50:44 -0500
+Message-Id: <199808051650.LAA16782@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic 
+In-reply-to: Your message of "Wed, 05 Aug 1998 17:07:32 +0100."
+             <199808051502.BAA26919@gecko.serc.rmit.edu.au> 
+Date: Wed, 05 Aug 1998 11:50:43 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 869
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+>> Yes, exactly.  Lambda is a poor example of a virtual reality.  The
+>> LP genre actually holds more promise for a virtual environment,
+>> because LP players are more accustomed to engaging in scripted
+>> encounters with the environment with an eye toward some goal.
+
+Laurent> LP ?
+
+Stands for Lars Penske, the author of the lead implementation of the
+genre.  (Actually, there's a diacrit on the 'e' but I don't remember
+which one.)  LPMuds tend to be the hack-and-slash adventure variety
+with many swashbuckling swordspeople going around and killing things
+for "experience points" and treasures.  There tend to be towns in LP
+worlds (sometimes only one), and it's these towns that open up the
+opportunity for economic and political experimentation.  Shattered
+World is, or at least was, an LP derivative.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 12:56 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA18419 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 12:56:11 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA27754
+	for agora-discussion-list; Thu, 6 Aug 1998 02:53:34 +1000
+Received: from indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA27750
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 02:53:22 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id LAA22131
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 11:54:05 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id LAA16802 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 11:54:03 -0500
+Message-Id: <199808051654.LAA16802@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic 
+In-reply-to: Your message of "Wed, 05 Aug 1998 17:06:54 +0100."
+             <199808051502.BAA26865@gecko.serc.rmit.edu.au> 
+Date: Wed, 05 Aug 1998 11:54:02 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1060
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+Laurent> Alternately, we could define the jurisdiction of Agora to
+Laurent> include any registered player in such a MOO. We already do
+Laurent> this now, albeit in the context of a mailing list; I don't
+Laurent> see that operating AgoraMOO would have to be any
+Laurent> different. The advantage of AgoraMOO over the current version
+Laurent> would be that for a change it could be interesting to
+Laurent> participate in aspects other than Rule-making.
+
+I think the most exciting aspect is the ability to engage in actual
+fact-finding as part of making judgments.  Did Ernest really sexually
+harass Julia?  What should Ernest's punishment be?  If we ran a MUD
+under our authority, in theory our law would need to deal with these
+issues (at least, eventually).  And _that_ is what I find
+fascinating.
+
+I'm starting to understand why lawyers don't find Nomic very
+interesting, by the way.  The sort of dry, logical wrangling that goes
+on in Agora is not very much related to the business of doing law.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 13:34 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA19469 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 13:34:20 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA27943
+	for agora-discussion-list; Thu, 6 Aug 1998 03:27:39 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id DAA27937
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 03:27:34 +1000
+Message-Id: <199808051727.DAA27937@gecko.serc.rmit.edu.au>
+Received: (qmail 23528 invoked by alias); 5 Aug 1998 17:28:37 -0000
+Received: from pppa116.francenet.fr (HELO arapael) (193.149.100.26)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 17:28:37 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 19:32:33 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Shattered World Nomic 
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 900
+
+> which one.)  LPMuds tend to be the hack-and-slash adventure
+> variety with many swashbuckling swordspeople going around and
+> killing things for "experience points" and treasures.  There tend
+> to be towns in LP worlds (sometimes only one), and it's these towns
+> that open up the opportunity for economic and political
+> experimentation.  Shattered World is, or at least was, an LP
+> derivative.
+
+Now that I've actually created a SW character, I see what you mean. ;)
+>From what I've seen, a system like SW which places more emphasis
+on the code would be preferable for what we are discussing.
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 13:36 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA19557 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 13:36:04 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA27938
+	for agora-discussion-list; Thu, 6 Aug 1998 03:27:36 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id DAA27933
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 03:27:31 +1000
+Message-Id: <199808051727.DAA27933@gecko.serc.rmit.edu.au>
+Received: (qmail 23498 invoked by alias); 5 Aug 1998 17:28:35 -0000
+Received: from pppa116.francenet.fr (HELO arapael) (193.149.100.26)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 17:28:35 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 19:32:33 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Shattered World Nomic 
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1106
+
+> I think the most exciting aspect is the ability to engage in
+> actual fact-finding as part of making judgments.  Did Ernest really
+> sexually harass Julia?  What should Ernest's punishment be?  If we
+> ran a MUD under our authority, in theory our law would need to deal
+> with these issues (at least, eventually).  And _that_ is what I
+> find fascinating.
+
+Yes, I agree wholeheartedly. The problem with Agora is that it is
+almost entirely self-referential; the primary activity is tinkering
+with the structural aspects of the game, and although that can be,
+and has been, a lot of fun, it begins to get boring after a while.
+Dissociating the structural and substantial aspects of the game
+would be extremely beneficial, and a MOO-type system would
+allow the game to actually have substantial aspects.
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 13:54 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA20277 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 13:54:22 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA28048
+	for agora-discussion-list; Thu, 6 Aug 1998 03:45:29 +1000
+Received: from click.schawk.com (click.schawk.com [205.184.253.12])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id DAA28045
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 03:45:24 +1000
+Received: from corp-nt (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 139; 12:47:15 PM -0500
+From: agoralee@schawk.com (Agora lee)
+To: morendil@micronet.fr
+Cc: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 12:46:01 -0500
+Subject: Re: DIS: Shattered World Nomic 
+Message-ID: <msg10761.thr-cc493eea.76adf1@Schawk.com>
+References: <199808051727.DAA27933@gecko.serc.rmit.edu.au>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg10761.thr-cc493eea.76adf1.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 141
+
+I like Agora as it is.  I guess I'm too new again to be bored yet.  
+
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 13:58 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA20425 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 13:58:15 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA28075
+	for agora-discussion-list; Thu, 6 Aug 1998 03:49:24 +1000
+Received: from indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id DAA28072
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 03:49:18 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id MAA31103
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 12:50:02 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id MAA17046 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 12:49:59 -0500
+Message-Id: <199808051749.MAA17046@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic 
+In-reply-to: Your message of "Wed, 05 Aug 1998 19:32:33 +0100."
+             <199808051727.DAA27933@gecko.serc.rmit.edu.au> 
+Date: Wed, 05 Aug 1998 12:49:56 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1575
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+Laurent> Yes, I agree wholeheartedly. The problem with Agora is that
+Laurent> it is almost entirely self-referential; the primary activity
+Laurent> is tinkering with the structural aspects of the game, and
+Laurent> although that can be, and has been, a lot of fun, it begins
+Laurent> to get boring after a while.  Dissociating the structural and
+Laurent> substantial aspects of the game would be extremely
+Laurent> beneficial, and a MOO-type system would allow the game to
+Laurent> actually have substantial aspects.
+
+A curious side point: in the mid-1930s, the United States Supreme
+Court apparently got tired of dealing with the structural aspects of
+the "game" that is under their watchful eye, and, in a famous
+footnote, called for a change of direction.  Prior to that time, most
+major Supreme Court cases dealt with disputes relating to the
+structure of the tripartite, federalistic government established by
+the Constitution.  After that time, most major Supreme Court cases
+dealt with disputes relating to the "preferred freedoms" established
+in the Bill of Rights.  While the Supreme Court still addresses
+structural issues from time to time, the "meat" of the Court's
+jurisprudence is now (and has been for some time) the so-called "civil
+rights."  (The turning point is found in Footnote Four of an otherwise
+dreary case called _United States v. Carolene Products_.  Footnote
+Four is one of only two footnotes of sufficient import to be generally
+listed in glossaries of constitional law terminology.)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 14:03 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA20597 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 14:03:51 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA28143
+	for agora-discussion-list; Thu, 6 Aug 1998 03:57:09 +1000
+Received: from indiana.edu (cayman.ucs.indiana.edu [129.79.10.68])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id DAA28140
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 03:57:05 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id MAA26302
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 12:57:46 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id MAA17089 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 12:57:44 -0500
+Message-Id: <199808051757.MAA17089@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic 
+In-reply-to: Your message of "Wed, 05 Aug 1998 19:32:33 +0100."
+             <199808051727.DAA27937@gecko.serc.rmit.edu.au> 
+Date: Wed, 05 Aug 1998 12:57:43 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 780
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+Laurent> Now that I've actually created a SW character, I see what you
+Laurent> mean. ;) From what I've seen, a system like SW which places
+Laurent> more emphasis on the code would be preferable for what we are
+Laurent> discussing.
+
+It should also be pointed out that if you create a half-way decent LP
+mud, and advertise it on rec.games.mud.lp, you'll get players.  Most
+of them will just run around your mud and kill things, but not all.
+Besides, I personally don't care if most of our players are content to
+not participate in the political process.  Agora needs something to
+govern, since we've pretty much worked all the good issues out of
+governing ourselves.  The obvious answer is to govern something
+else. :)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 15:00 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA22621 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 15:00:19 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA28409
+	for agora-discussion-list; Thu, 6 Aug 1998 04:57:36 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id EAA28404
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 04:57:33 +1000
+Message-Id: <199808051857.EAA28404@gecko.serc.rmit.edu.au>
+Received: (qmail 8359 invoked by alias); 5 Aug 1998 18:58:39 -0000
+Received: from pppa116.francenet.fr (HELO arapael) (193.149.100.26)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 18:58:39 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 21:02:37 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: DIS: AgoraMOO now up
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1511
+
+> It should also be pointed out that if you create a half-way decent
+> LP mud, and advertise it on rec.games.mud.lp, you'll get players. 
+
+Well - just to satisfy my curiosity, I've taken the plunge and gotten
+Lambda up on the company's server. I'm impressed, in fact; the source
+code compiled on the first try, the binary worked on the first try,
+and the 'blank' setup has enough helpful stuff to get a complete
+novice started.
+
+Interested Players can have a look by telnetting to
+   netdive.com:7777.
+and entering "connect Guest" to connect as a Guest, or 'create' to
+create a character. I have almost no idea where to go from there, but
+it's a starting point. Actually, I'm not even sure _I_ should go
+somewhere from there; the whole point should be to legislate things
+such as room creation, etc. so that the whole Agoran community gets
+involved from scratch. OTOH it's going to be tough to get something
+going unless there's enough things set up so anyone can get a rough
+idea how the thing works. Of course I and interested MOOers can
+always create some stuff for a trial, then take the whole thing down
+if/when Agora is ready to start using a MOO. Anyone with ideas how
+to proceed please let me know. 
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 15:00 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA22643 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 15:00:29 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA28412
+	for agora-discussion-list; Thu, 6 Aug 1998 04:57:38 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id EAA28408
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 04:57:35 +1000
+Message-Id: <199808051857.EAA28408@gecko.serc.rmit.edu.au>
+Received: (qmail 8396 invoked by alias); 5 Aug 1998 18:58:41 -0000
+Received: from pppa116.francenet.fr (HELO arapael) (193.149.100.26)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 18:58:41 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 21:02:37 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Shattered World Nomic 
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 701
+
+> (The turning point is found in Footnote Four of an otherwise dreary
+> case called _United States v. Carolene Products_.  Footnote Four is
+> one of only two footnotes of sufficient import to be generally
+> listed in glossaries of constitional law terminology.) 
+
+Thus giving the lie to the famous phrase 'just a footnote in the 
+manuals', I guess. ;) Interesting... Do you have the text on hand ?
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 15:36 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA23802 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 15:36:48 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA28598
+	for agora-discussion-list; Thu, 6 Aug 1998 05:33:37 +1000
+Received: from indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA28592
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 05:32:58 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id OAA16332
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 14:33:35 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id OAA17244 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 14:33:32 -0500
+Message-Id: <199808051933.OAA17244@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic 
+In-reply-to: Your message of "Wed, 05 Aug 1998 21:02:37 +0100."
+             <199808051857.EAA28408@gecko.serc.rmit.edu.au> 
+Date: Wed, 05 Aug 1998 14:33:29 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 2568
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+Laurent> Thus giving the lie to the famous phrase 'just a footnote in
+Laurent> the manuals', I guess. ;) Interesting... Do you have the text
+Laurent> on hand ?
+
+I'll excerpt part of the opinion, and the footnote here, with
+citations omitted to save space.  Note that the case was over a law
+prohibiting the distribution of "filled milk", and has nothing to do
+with "civil rights".
+
+You can get the full text of the Court's opinion at
+http://caselaw.findlaw.com/cgi-bin/getcase.pl?court=US&vol=304&invol=144.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+     UNITED STATES v. CAROLENE PRODUCTS CO., 304 U.S. 144 (1938)
+
+				* * *
+
+Mr. Justice STONE delivered the opinion of the Court. 
+
+The question for decision is whether the 'Filled Milk Act' of Congress
+of March 4, 1923, c. 262, 42 Stat. 1486, 21 U.S.C. 61-63, 21
+U. S.C.A. 61-63,1 which prohibits the shipment in interstate commerce
+of skimmed milk compounded with any fat or oil other than milk fat, so
+as to resemble milk or cream, transcends the power of Congress to
+regulate interstate commerce or infringes the Fifth Amendment.
+
+				* * *
+
+[Footnote 4] There may be narrower scope for operation of the
+presumption of constitutionality when legislation appears on its face
+to be within a specific prohibition of the Constitution, such as those
+of the first ten Amendments, which are deemed equally specific when
+held to be embraced within the Fourteenth.  [...]
+
+It is unnecessary to consider now whether legislation which restricts
+those political processes which can ordinarily be expected to bring
+about repeal of undesirable legislation, is to be subjected to more
+exacting judicial scrutiny under the general prohibitions of the
+Fourteenth Amendment than are most other types of legislation. [...]
+
+Nor need we enquire whether similar considerations enter into the
+review of statutes directed at particular religious, [...] or
+national, [...]  or racial minorities [...]; whether prejudice against
+discrete and insular minorities may be a special condition, which
+tends seriously to curtail the operation of those political processes
+ordinarily to be relied upon to protect minorities, and which may call
+for a correspondingly more searching judicial inquiry. [...]
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Several current doctrines of American constitutional law can trace
+their origins, and in some cases their exact judicial formulation, to
+Justice Stone's famous Footnote Four.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 17:13 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA26942 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 17:13:01 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA28975
+	for agora-discussion-list; Thu, 6 Aug 1998 07:04:22 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id HAA28972
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 07:04:18 +1000
+Message-Id: <199808052104.HAA28972@gecko.serc.rmit.edu.au>
+Received: (qmail 29401 invoked by alias); 5 Aug 1998 21:05:23 -0000
+Received: from pppa262.francenet.fr (HELO arapael) (193.149.100.172)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 5 Aug 1998 21:05:23 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 5 Aug 1998 23:09:20 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: DIS: PROTO: The World of Agora
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 11779
+
+Or, Agora takes another direction. ;)
+
+I've given a little more thought to the AgoraMOO idea, as I see it.
+To make things easier I've tried to organize these reflections as an
+incomplete and very rough Proto, liberally interspersed with
+comments regarding theoretical issues, implementation notes, etc.
+
+Proto-Proposal
+---
+The World of Agora
+
+ I - Enabling legislation
+
+ A Rule Category shall be created : "Agoran Physics".
+
+ A Rule shall be created (titled "Agoran Physics: Generalities") with text : 
+
+   There exists a 'virtual world' which permits the manipulation of
+   virtual counterparts of Nomic and other Entities. This virtual world
+   shall be implemented as a LambdaMOO server listening on port 7777
+   operating on a host machine connected to the Internet at the address
+   netdive.com. The Engineer, as described in other Rules, shall
+   maintain and administrate this virtual world, which shall be known as
+   AgoraMOO.
+
+[[[ Comments :
+
+This Rule is mainly for informational purposes, but also establishes 
+the identity of the one and only 'real' AgoraMOO. It is necessary to 
+fully specify the location of the server, otherwise one could run an 
+alternate AgoraMOO somewhere else and claim that it, not the other 
+one, was the one 'really' affecting Nomic Properties !
+
+]]]
+
+ A Rule shall be created (titled "Definition of Virtuals") with
+ MI=4 and text : 
+
+   It shall be legal to designate virtual entities of AgoraMOO as
+   being a representation of Nomic Properties. In other words, the
+   operation of the server program shall be a legal manner of
+   affecting the Nomic Properties of Entities, and conversely, any
+   modification of a Nomic Property shall be legally achieved by
+   modifying such virtual entities in a corresponding manner.
+
+   Entities and Properties of this kind shall be called Virtuals. Only
+   Entities and Properites designated as such by the Rules, or by
+   bodies of text to which the Rules grant such authority, shall be
+   Virtuals, and the manner in which Virtuals and their properties
+   correspond to Nomic Properties shall be described in the Rules or
+   bodies of text to which the Rules grant such authority.
+
+   Only Rules which are placed in the category "Agoran Physics"
+   may so designate Entities or Properties, or define such 
+   correspondences, or grant such authority to other bodies of
+   text.
+
+[[[ Comments
+
+This establishes the basic correspondence between Agora and its
+'physics'. Supposing that we pass a Rule which defines a Player's
+Location to be the AgoraMOO room they currently reside in, then that
+*is* the Player's Location, and if the operation of AgoraMOO allows
+it, e may change eir Location simply by moving around in AgoraMOO.
+
+The reason for the 'other bodies of text' clauses is that after a
+while, we will have large chunks of definitions and Virtual entities
+that apply solely within AgoraMOO; we need to be able to create
+'Subordinate RuleSets' the text of which will be available in the
+MOO, and just pass Rules stating "Text XYZ of AgoraMOO
+describes a valid set of Virtuals". This is very similar to the way
+the Rules grant SLCs the authority to define arbitrary Nomic
+Entities.
+
+The reason for the Category restriction will become apparent later 
+on.
+
+]]]
+
+<<< Implementation notes
+
+An initial challenge will be posed by 'special' Locations such as the
+Stasis Chamber. We do not need to make Hold Status a Virtual
+initially, since it shall remain simple enough to check the time when
+a Player entered or exited the room. But we'll need code to implement
+the 96-hour restriction. Also, if we want to leave non-participating
+Players the possibility of going On Hold, i.e. by sending mail to the
+Cartographor, we'll have to specify in the relevant Rule that while
+Players who are in the SC are On Hold, Players who are On Hold are not
+necessarily in the SC, but (for example) can and must be moved there
+by the Cartographor ASAP.
+
+>>>
+
+ A Rule shall be created (titled "The Engineer") with text : 
+
+   There shall exist an Office of the Engineer, with the duty of
+   overseeing the operation of AgoraMOO. 
+
+[[[ Comments :
+
+The Engineer is the person who has the Wizard bit in AgoraMOO.
+Initially there should be only one, who shall put any code required
+to implement Physics Rules in place. This does not mean e must be the
+only person able to write such code; for instance, Players interested
+in helping with the code could download the current AgoraMOO files
+(see 'Public Domain' Rule below), install them at home, play with
+them as much as they like, write code to implement stuff, and pass
+that code on to the Engineer who would then install it into the
+'real' AgoraMOO. The Engineer would need to make a special copy of
+the AgoraMOO files for that purpose, such that all users therein
+would have the Wizard bit set. Or e would periodically save the
+files, change eir password, and then publish the old password along
+with the old file.
+
+]]]
+
+ A Rule shall be created (titled "The Universal Law of Physics") with 
+MI=4 and text :
+
+   Players are generally permitted to use the AgoraMOO program
+   in any manner they choose; any action that can be effected by
+   the means of connecting to the AgoraMOO program and typing
+   text directed at the program is by definition possible and 
+   permitted. The only exception to this Rule is the Engineer; e
+   shall under no circumstances be permitted to alter AgoraMOO
+   in any manner except as necessary to ensure that the
+   correspondence between Nomic Properties and their Virtuals
+   is respected, and shall otherwise be permitted to use only such
+   commands as are available to other persons.
+
+[[[ Comments :
+
+This Rule is *the* crux and primary challenge of tying Agora to
+AgoraMOO. All the fun consists of making sure the Rules and the
+program are kept in synch, while at the same time allowing AgoraMOO
+to be a concrete representation of Agora. Of course this means that
+initially the Engineer will need a lot of trust placed in em, which
+is why the "as necessary to ensure that"... clause should be
+interpreted broadly, at least at the start. But I also provide
+various mechanisms for keeping things sane or bailing out if things
+get too too weird, see below.
+
+]]]
+
+ A Rule shall be created (titled "The Engineer's Blocking Veto") with text : 
+
+   Any Proposal which would have as part of its direct effect the
+   creation, repeal, amendment, or Category change of a Rule such that
+   the Rule, before or after the change, belonged to the Category "Agoran
+   Physics", shall if it passes take effect at the time the Engineer
+   announces in a Public Forum that it has been implemented, and no
+   sooner, any Rules to the contrary notwithstanding.
+
+[[[ Comments :
+
+As mentioned in one of the posts on the MOO topic, any Rule
+pertaining to Agoran Physics will require writing some code, and the
+time requirements on the persons writing that code (i.e. the Engineer
+and any 'assistants' as might become necessary) must not get out of
+hand. In addition, the Rules and the code must be kept in sync at all
+times, so that it is never possible to "perform impossible actions" 
+or be prevented from performing actions that the Rules dictate are
+possible. This provides a very basic, but effective, mechanism
+to achieve that. (Does this need MI>1 ?)
+
+The Category restriction on Physics-affecting Rules will need to be
+relaxed, and a correspondingly adjusted mechanism for delaying the
+effect of Physics-related Proposals, if we later decide to tie in
+some aspects of Agora to the MOO which belong in other Categories;
+e.g. Kudos, which would be a nice and safe way to start down this
+road.
+
+]]]
+
+A Rule shall be created (titled "Place Reality in the Public
+Domain") with text : 
+
+   The Engineer shall [periodically] publish [in some prescribed manner]
+   the totality of the materials that are necessary for running
+   AgoraMOO, and shall further be required to provide such materials to
+   any Players upon request. Such materials are, irrevocably, and by
+   unanimous consent of all persons participating in AgoraMOO, placed in
+   the public domain, to the extent that applicable law permits.
+
+[[[[
+
+Make sure AgoraMOO can be restarted elsewhere, with a state close to
+that of the actual Game State, if necessary. Also improves the
+chances that there will be backup copies floating around. One
+downside of this clause is that in AgoraMOO, *nothing* can be kept a
+secret, since anyone can come along and find out where your
+Player-Virtual is, what e's carrying, etc. Would this be a problem ?
+There is also the problem of users' login passwords, but I seem to
+recall reading that these are encrypted with a one-way function much
+as Unix passwords are, so that having the DB doesn't do you any good
+as far as finding a person's password.
+
+The last bit is so that we are not claiming to modifiy the copryright
+on the MOO itself, its source code or initial database.
+
+]]]
+
+ A Rule shall be created (titled "Ratification of Reality") with text :
+
+   Any Player may annouce, Without Objection, that the Agoran
+   Reality shall be Ratified. This has the effect, if no Objection is
+   made, of conforming the Game State to the records embodied
+   in the AgoraMOO files which were current at the time Reality
+   is Ratified, in all particulars. No retroactive effects are 
+   implied.
+
+[Our old Ratification Rule, adapted to the MOO idea. I think 
+Ratification would be crucially needed if Agora is to function
+with AgoraMOO.]
+
+ A Rule shall be created (titled "Escape Hatch") with MI=4 and text :
+
+   Any Player may at any time declare, Without Objection, that
+   a World Crisis has occurred. If no Objection is made, then all
+   Rules in the Category "Agoran Physics" are suspended and
+   shall have no legal effect, this Rule excepted, and shall remain
+   suspended until such time as it a Player declares, Without 
+   Objection, that the Crisis is over.
+
+[[[[ Comments :
+
+A very basic and brute-force mechanism for ensuring that if an
+unfixable bug makes the AgoraMOO program unusable, or the server
+goes down permanently, or the game files are lost or irrevocably
+corrupted, or the Engineer turns Psychotic, or something else occurs
+which makes AgoraMOO-related Entities and Properties unusable, they
+will cease to have effect on the Game State and there is an
+opportunity to take corrective action, or just get rid of AgoraMOO
+and get on with life. Of course a more elaborate mechanism and more
+elaborate safeguards become needed if/when we make Virtuals in other
+Rule Categories, or make crucial things, such as Voting, dependent on
+AgoraMOO to some extent (in such a case, Ratification of Reality
+will also help minimize the impact).
+
+]]]
+
+*** IMPORTANT BITS THAT I'VE LEFT OUT
+
+Draft Rules, and consider implementation, for a correspondence
+between Agora Players and AgoraMOO users. This is a toughie, of
+course. Rid the Proto of obvious loopholes (in particular relating to
+the Engineer, e.g. the Engineer's Blocking Veto could seriously
+handicap the safety features, or make it impossible to change eir
+Salary without eir consent. Probably much more.
+
+***
+
+
+
+ II - Example of use : Locations
+
+[[[
+
+TBD. Bring back Locations, add language to equate a Location to a
+MOO room, put them in "Agoran Physics", and let the Engineer create
+the appropriate MOO objects. A more ambitious project would be to
+implement Plots directly.
+
+]]]
+
+---
+
+Revision history :
+1 - 98/08/05, original proto
+
+<Please don't quote this line -- PR-MORE-200>
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 19:54 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA00836 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 19:54:22 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA29610
+	for agora-discussion-list; Thu, 6 Aug 1998 09:48:55 +1000
+Received: from indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id JAA29607
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 09:48:51 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id SAA23168
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 18:49:28 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id SAA17784 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 18:49:26 -0500
+Message-Id: <199808052349.SAA17784@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: PROTO: The World of Agora 
+In-reply-to: Your message of "Wed, 05 Aug 1998 23:09:20 +0100."
+             <199808052104.HAA28972@gecko.serc.rmit.edu.au> 
+Date: Wed, 05 Aug 1998 18:49:25 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 3150
+
+Comments:
+
+I would allow the Engineer to specify the host and port of the MOO in
+much the same manner that we handle the designation of Public Fora.
+Requiring a Rule Change to change these could prove problematic should
+a difficulty arise.
+
+I think your "definition of virtuals" necessarily renders all
+manipulations within the MOO as legal.  I do not believe this is
+either necessary or appropriate, for two reasons.  One, it requires
+the coders maintaining the MOO to scramble to keep the MOO code up to
+date with the Rules.  This is what killed Nomic World.  Two, it takes
+away entirely the interesting case of someone doing something that the
+game engine allows, but which is prohibited of em by the law.  I would
+prefer to allow the latter.
+
+If the Rules prohibit anyone but the Assessor from entering the
+Assessor's Office, I would prefer to have the MOO allow anyone else
+to enter, and require the Assessor to pay for and install a lock, or
+pay for and install a security monitoring system, or find some other
+way to enforce the law.  Then when someone does break the law and
+enter, s/he can be prosecuted and punished appropriately.  You would
+require that the room magically lock itself when the Rule was adopted,
+and magically unlock itself if and when the Rule is repealed.  This
+means excess work for the game maintainers.  I don't want to have to
+become an MOO expert in order to play Agora.
+
+An aside: the use of Category to establish a Rule's authority will
+make Category a substantive property of Rules; this has significant
+effects which you may not have fully considered.  Tread carefully.
+
+The Engineer shall be responsible for maintaining the world, of
+course, but I do not believe that e should be responsible for making
+the MOO detect all illegal actions.  Rather, the Wizard should have a
+relatively free reign to operate the world as e sees best fit, subject
+to the constraints established on _eir_ actions by the Rules and
+Orders of the Electorate.
+
+I must wholeheartedly disagree with you that "[a]ll the fun consists
+of making sure the Rules and the program are kept in synch".  This has
+been tried before, and it was an abject failure.  Ask Geoff.  Those
+who do not learn from history are doomed to repeat it.
+
+I recognize that you have attempted to give the Engineer an effective
+veto power by refusing to implement changes.  I don't approve of
+that.  It gives _too much_ power to the Engineer.  The changing of the
+Office of Engineer requires a change to the MOO (passing off the
+Wizard bit).  The Engineer could refuse to enact this change,
+indefinitely, and thus remain Engineer forever, the will of the
+Assembly notwithstanding.  That's a no go.  I advise avoiding this
+path altogether.
+
+In short, I think this is entirely the wrong approach.  I think the
+MOO's "physics" should be indepedent of the Rules to the extent that
+it makes sense of them to be.  The Rules should regulate the behavior
+of the Players on the MOO, not the MOO itself.  (The MOO's physics can
+be regulated--indirectly--by the Rules commanding the Engineer and eir
+deputies or assistants to modify the physics of the MOO in some
+specified way.)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 20:39 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA01717 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 20:39:52 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA29815
+	for agora-discussion-list; Thu, 6 Aug 1998 10:34:20 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id KAA29812
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 10:34:17 +1000
+Message-Id: <199808060034.KAA29812@gecko.serc.rmit.edu.au>
+Received: (qmail 11266 invoked by alias); 6 Aug 1998 00:35:11 -0000
+Received: from pppa134.francenet.fr (HELO arapael) (193.149.100.44)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 6 Aug 1998 00:35:11 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 6 Aug 1998 02:39:10 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: PROTO: The World of Agora 
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3146
+
+> In short, I think this is entirely the wrong approach.  I think
+> the MOO's "physics" should be indepedent of the Rules to the extent
+> that it makes sense of them to be.  The Rules should regulate the
+> behavior of the Players on the MOO, not the MOO itself.  (The MOO's
+> physics can be regulated--indirectly--by the Rules commanding the
+> Engineer and eir deputies or assistants to modify the physics of
+> the MOO in some specified way.) 
+
+That's OK with me - I only intended that Proto as a starting point
+for discussion. The only problem I have with your idea of how we
+should go about this is how would we then determine what the
+'physics' of AgoraMOO should be ? If we don't want them to
+'implement' the Rules but instead represent a more or less immutable
+world within which Players can have actions that are regulated, who
+is to define what this world should be, and how ?
+
+One idea that comes to mind is to simply legislate that the Engineer
+(or Engineers), to earn eir keep, will have to implement 'physics'
+as dictated by the Agoran community as a whole via an
+Application-derived mechanism whereby we would collectively
+construct a 'spec' of what kind of world we would like; Engineers
+would be allowed to tinker with AgoraMOO code only within the
+bounds of such a mandate, which would be subject to a review
+process whereupon a suitable financial reward would be granted
+them. In effect, we would have a parallel democratic procedure
+for altering the physics of our world - an appealing notion.
+
+The next problem I have with your critiques is that they seem to
+suggest AgoraMOO's overlap with Agora should be restricted to two
+things, to wit a) the persons involved on both sides, be they
+Players or guests and b) Agora's jurisdiction over AgoraMOO; while as
+a matter of personal preference, I would very much like to see some
+aspects of Agora, e.g. Kudos, be implemented via AgoraMOO. Am I
+correct in this reading of your objections ? If so, I would also
+like to elicit comment from other Player on which of the two options
+they would prefer. But I do think either experiment would be quite
+interesting.
+
+I think your 'lock and key' example is interesting, because it brings
+up the possiblity of granting arbitrary Players the authority to
+create bits of AgoraMOO code, and sell the resulting objects to other
+Players - i.e., if the Assessor feels up to the task, e could code
+eir door lock emself, but e might also have the option of buying it
+from someone else.
+
+I still think however that initially the Engineer caste would have to
+be given rather broad mandates, so that the system as a whole can be
+tinkered with until we have a 'physics' of suitable flexibility to
+allow intersting interactions. This raises another interesting
+problem, which is how to prevent the Engineer caste from becoming too
+entrenched in power. 
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 21:36 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA02931 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 21:36:13 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA30082
+	for agora-discussion-list; Thu, 6 Aug 1998 11:32:30 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA30079
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 11:32:28 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id LAA03851 for agora-discussion@gecko.serc.rmit.edu.au; Thu, 6 Aug 1998 11:33:13 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199808060133.LAA03851@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Shattered World Nomic
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 6 Aug 1998 11:33:13 +1000 (EST)
+In-Reply-To: <199808051149.VAA25530@gecko.serc.rmit.edu.au> from "Laurent Bossavit" at Aug 5, 98 01:54:16 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 905
+
+Laurent Bossavit wrote:
+>
+>> Because we created it as part of Agora, we could legislate it out
+>> of existence, and/or alter much of it at whim.  This would be
+>> impossible in the context of an existing MUD. 
+>
+>Au contraire, as I see it the challenge would lie in transposing 
+>the Agoran system to the concrete context of the Lambda system.
+>We would have a merry time amending the Rules to permit Votes
+>being sent via a LambdaMOO 'Voting Room', and dealing with
+>the problem of keeping the english-language Rules in synch with
+>their programming-language implementation (as mentioned in
+>the posts that started this thread).
+
+Judging from the Nomic World experience, not so merry a time.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 21:38 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA02947 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 21:38:16 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA30108
+	for agora-discussion-list; Thu, 6 Aug 1998 11:35:08 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA30102
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 11:34:57 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id LAA17155 for agora-discussion@gecko.serc.rmit.edu.au; Thu, 6 Aug 1998 11:35:45 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199808060135.LAA17155@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Shattered World Nomic
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 6 Aug 1998 11:35:45 +1000 (EST)
+In-Reply-To: <199808051207.WAA25779@gecko.serc.rmit.edu.au> from "Laurent Bossavit" at Aug 5, 98 02:12:49 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 805
+
+Laurent Bossavit wrote:
+>
+>> Yes, there would be technical difficulties in getting our ruleset to
+>> legislate control of a world.  
+>
+>But there would also be 'legal' difficulties, in that anything we
+>legislated within Agora could be at odds with the Lambda 'laws'
+>themselves. How do you suppose we could work around that issue ?
+>Suppose we enact Rules whereby Voting in Agora is achieved via the
+>operation of some object in Lambda; suppose the Lambda Wizards
+>decide this object is too large, or too slow, and nuke it; what then?
+
+The solution is not to write legislation of that kind.
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 21:43 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA03039 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 21:43:14 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA30170
+	for agora-discussion-list; Thu, 6 Aug 1998 11:39:38 +1000
+Received: from smtp2.erols.com (smtp2.erols.com [207.172.3.235])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA30167
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 11:39:33 +1000
+Received: from deep-thought (207-172-216-126.s126.tnt1.sbo.erols.com [207.172.216.126])
+	by smtp2.erols.com (8.8.8/8.8.5) with SMTP id VAA01694
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:41:16 -0400 (EDT)
+From: "Dave Smith" <changeling@erols.com>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: RE: DIS: Notice of Infraction I
+Date: Wed, 5 Aug 1998 21:51:02 -0400
+Message-ID: <000001bdc0dc$aaeae1e0$7ed8accf@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2232.26
+In-reply-to: <199808050143.LAA05680@silas-1.cc.monash.edu.au>
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 510
+
+> I wouldn't assume that a Judgement of TRUE will save you from the
+> Infraction. If the phrase "a message containing votes" in the second
+> paragraph is interpreted as "message purporting to contain votes", then
+> the result is that (a) messages purporting to contain votes sent to the
+> PF are not votes (as the CFJ alleges), but also (b) sending such 
+> a message 
+> nevertheless constitutes the commission of an Infraction.
+> 
+
+Either way I minimize my expenses by not Voting again in Private.
+
+-Macross
+ 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 21:43 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA03043 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 21:43:21 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA30178
+	for agora-discussion-list; Thu, 6 Aug 1998 11:39:59 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA30175
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 11:39:57 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id LAA00630 for agora-discussion@gecko.serc.rmit.edu.au; Thu, 6 Aug 1998 11:40:45 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199808060140.LAA00630@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Shattered World Nomic
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 6 Aug 1998 11:40:44 +1000 (EST)
+In-Reply-To: <13768.20920.850536.327482@albatross.cl.cam.ac.uk> from "Michael Norrish" at Aug 5, 98 01:36:08 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 644
+
+Michael Norrish wrote:
+>
+>On the other hand, from a quick scan of some LambdaMOO documentation,
+>it doesn't look as if theirs is a particularly interesting world to be
+>embodied in.  It doesn't really look as if there is an economy for
+>example.  It seems as if it is basically a gimmicky chat-room...
+
+On the other Shattered World has a very interesting and complex 
+environment, and it already has a Nomic running. So, what if...
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 21:49 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA03172 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 21:49:40 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA30253
+	for agora-discussion-list; Thu, 6 Aug 1998 11:46:32 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA30250
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 11:46:29 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id LAA27749 for agora-discussion@gecko.serc.rmit.edu.au; Thu, 6 Aug 1998 11:47:17 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199808060147.LAA27749@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Shattered World Nomic
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 6 Aug 1998 11:47:17 +1000 (EST)
+In-Reply-To: <13768.26138.114009.952033@albatross.cl.cam.ac.uk> from "Michael Norrish" at Aug 5, 98 03:03:06 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 958
+
+Michael Norrish wrote:
+>
+>If it weren't for the fact that Shattered World has only 10-15
+>Players, I'd almost suggest moving there (they have an economic
+>system, for example).  Shattered World's existing rules also seem to
+>mix levels unfortunately.  One of them requires that some magical
+>ability or other behave slightly differently.  This is exactly the
+>sort of thing that a ruleset should avoid.  (Check rule 1008 and
+>others of the Common Laws available at
+>  http://gecko.serc.rmit.edu.au/~mud/laws/lawframe.htm). 
+
+My understanding from Geoff is that the Wizards simply ignore Rules
+like R1008.
+
+Why is it a problem that Shattered Word has only 10-15 Players?
+(Actually I think there are more, but only 10-15 participate in
+the Nomic.)
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 21:52 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA03254 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 21:52:31 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA30274
+	for agora-discussion-list; Thu, 6 Aug 1998 11:48:12 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA30271
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 11:48:09 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id LAA07094 for agora-discussion@gecko.serc.rmit.edu.au; Thu, 6 Aug 1998 11:48:57 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199808060148.LAA07094@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Shattered World Nomic
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 6 Aug 1998 11:48:57 +1000 (EST)
+In-Reply-To: <199808051453.JAA16377@poverty.bloomington.in.us> from "Scott Goehring" at Aug 5, 98 09:53:51 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1110
+
+Scott Goehring wrote:
+>
+>"Agora" == Agora lee <agoralee@schawk.com> writes:
+>
+>Agora> I don't know about the lamba program, but their are publicly
+>Agora> available programs for MUDs that run on Linux.  The cost
+>Agora> software time would be minimal.  It would need a PC and band
+>Agora> width.  I think the real drawback is that we would not all be
+>Agora> on the MUD at once.  One might come on only to find e was by
+>Agora> himself.  We might develop time based factions.
+>
+>I don't think that temporality is really an issue.  There's no reason
+>why we would be required to convert to interactive play just by having
+>a MUD under our jurisdiction.  We could still conduct business via
+>email, for that matter.
+
+In Nomic World, temporality was a factor, but not an issue. It's
+much easier to organize a conspiracy with people in compatible time
+zones, but that's already true in Agora as it is.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 21:53 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA03270 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 21:53:48 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA30300
+	for agora-discussion-list; Thu, 6 Aug 1998 11:49:58 +1000
+Received: from smtp2.erols.com (smtp2.erols.com [207.172.3.235])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA30295
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 11:49:51 +1000
+Received: from deep-thought (207-172-216-126.s126.tnt1.sbo.erols.com [207.172.216.126])
+	by smtp2.erols.com (8.8.8/8.8.5) with SMTP id VAA06207
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:51:37 -0400 (EDT)
+From: "Dave Smith" <changeling@erols.com>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: RE: DIS: proto: A Duty to Vote, v1.1
+Date: Wed, 5 Aug 1998 22:01:23 -0400
+Message-ID: <000101bdc0de$1cdc1520$7ed8accf@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2232.26
+In-reply-to: <199808050641.QAA02404@silas-1.cc.monash.edu.au>
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 926
+
+
+>
+> Well, yes, but how to define it? What we want to capture is the
+> intuitive notion of the assets over which a Player has control, so that
+> we can say, for example, that Chuck has control over the assets of
+> Chuck's Savings and Loan Contest, and count those assets when we decide
+> if Chuck is rich enough to be obliged to vote. But it won't work simply
+> to specify that a Player has control over assets which are either
+> possessed by the Player, or possessed by an Entity of which the Player
+> is an Executor, since Players can hide assets in Groups, which they may
+> not be the Executors of.
+>
+
+It would make groups more complicated but perhaps a Group could be required
+to mint a currency called a Stock.  Any who owns Stock in a Group is a
+member of the Group. For purposes of determining net worth, each member is
+considered to own a portion of the Group's assets based on the amount of
+stock e owns.
+
+-Macross
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 22:56 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA04472 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 22:56:07 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA30638
+	for agora-discussion-list; Thu, 6 Aug 1998 12:49:50 +1000
+Received: from indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA30635
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 12:49:45 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id VAA26022
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:50:20 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id VAA18085 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 21:50:17 -0500
+Message-Id: <199808060250.VAA18085@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Shattered World Nomic 
+In-reply-to: Your message of "Thu, 06 Aug 1998 11:48:57 +1000."
+             <199808060148.LAA07094@silas-2.cc.monash.edu.au> 
+Date: Wed, 05 Aug 1998 21:50:17 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 416
+
+"Steve" == Steve Gardner <gardner@silas-1.cc.monash.edu.au> writes:
+
+Steve> In Nomic World, temporality was a factor, but not an
+Steve> issue. It's much easier to organize a conspiracy with people in
+Steve> compatible time zones, but that's already true in Agora as it
+Steve> is.
+
+Indeed.  I can recall spending more than one late night up conspiring
+to commit scams with certain Australians who will go unnamed. :)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 22:56 EDT 1998
+Received: from gecko.serc.rmit.edu.au (root@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA04476 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 22:56:42 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA30548
+	for agora-discussion-list; Thu, 6 Aug 1998 12:32:02 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA30542
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 12:31:59 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id MAA18145 for agora-discussion@gecko.serc.rmit.edu.au; Thu, 6 Aug 1998 12:32:47 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199808060232.MAA18145@silas-2.cc.monash.edu.au>
+Subject: DIS: Re: OFF: appeal begins for CFJ 1101 (lee is 3rd Justice)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 6 Aug 1998 12:32:47 +1000 (EST)
+In-Reply-To: <13768.6143.600078.160922@albatross.cl.cam.ac.uk> from "Michael Norrish" at Aug 5, 98 09:29:51 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1079
+
+Michael Norrish wrote:
+>
+>======================================================================
+>                               CFJ 1101
+>
+>  Rule 1567 should be interpreted such that a Player may only make
+>  emself ineligible to Judge a CFJ which has already been called.
+>
+>======================================================================
+>First Appeal eligibility:
+>  On Hold:                elJefe, Oerjan, Swann
+>  Originally ineligible:  Steve
+>  Judge:                  Kolja A.
+>  Default justices:       Morendil, Michael
+>
+>Eligible: Antimatter, Blob, Chuck, Crito, General Chaos, Harlequin,
+>          lee, Macross, Murphy
+>(Rolled a six on 0-7 sided dice: selection is lee)
+
+Is that a typo, or did you really roll an 8 sided die to select from
+among 9 Players? If so, Murphy has been effectively and illegally made
+ineligible to serve as Justice.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 23:23 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA04938 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 23:23:19 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA30767
+	for agora-discussion-list; Thu, 6 Aug 1998 13:16:07 +1000
+Received: from indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA30761
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 13:16:00 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id WAA07961
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 22:16:36 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id WAA18169 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 5 Aug 1998 22:16:33 -0500
+Message-Id: <199808060316.WAA18169@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: PROTO: The World of Agora 
+In-reply-to: Your message of "Thu, 06 Aug 1998 02:39:10 +0100."
+             <199808060034.KAA29812@gecko.serc.rmit.edu.au> 
+Date: Wed, 05 Aug 1998 22:16:33 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 3780
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+Laurent> That's OK with me - I only intended that Proto as a starting
+Laurent> point for discussion. The only problem I have with your idea
+Laurent> of how we should go about this is how would we then determine
+Laurent> what the 'physics' of AgoraMOO should be ? If we don't want
+Laurent> them to 'implement' the Rules but instead represent a more or
+Laurent> less immutable world within which Players can have actions
+Laurent> that are regulated, who is to define what this world should
+Laurent> be, and how ?
+
+The Engineer would have broad discretion in this regard.  However, the
+Electorate could express its desires by requiring (by Rule or Order)
+the Engineer to construct or modify the world in some specific manner.
+I've not come up with a good means for the Engineer to object to an
+requirement as being impossible or impractical, but I'm sure something
+can be worked out.  (A CFJ could be used; the trick is writing the
+enabling legislation to excuse the Engineer from abiding by
+requirements adjudicated impractical or impossible.)
+
+The failure of the Engineer to comply is a Criminal matter subject to
+factual adjudication.  
+
+Laurent> The next problem I have with your critiques is that they seem
+Laurent> to suggest AgoraMOO's overlap with Agora should be restricted
+Laurent> to two things, to wit a) the persons involved on both sides,
+Laurent> be they Players or guests and b) Agora's jurisdiction over
+Laurent> AgoraMOO; while as a matter of personal preference, I would
+Laurent> very much like to see some aspects of Agora, e.g. Kudos, be
+Laurent> implemented via AgoraMOO. Am I correct in this reading of
+Laurent> your objections ? 
+
+I'm rather strongly opposed to moving existing mechanisms to an
+on-line environment.  I like our current email format and do not wish
+to lose it.  Furthermore, as a programmer I am acutely aware that
+programs crash.  I am therefore uncomfortable turning game
+functionality over to a program.  ("Oops, the mud just crashed
+again.  I hope the votes aren't lost this time.")
+
+Laurent> I think your 'lock and key' example is interesting, because
+Laurent> it brings up the possiblity of granting arbitrary Players the
+Laurent> authority to create bits of AgoraMOO code, and sell the
+Laurent> resulting objects to other Players - i.e., if the Assessor
+Laurent> feels up to the task, e could code eir door lock emself, but
+Laurent> e might also have the option of buying it from someone else.
+
+They need not even be Players.  In the model I suggest below, they
+might merely be enterprising Citizens. :)
+
+My suggestion for enabling legislation follows:
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Be it therefore resolved, that the following Rule be created:
+
+      There shall exist the Office of Gamemaster.
+
+      The Gamemaster shall operate an electronic virtual reality of a
+      sort which allows individuals participating in the virtual
+      reality to interact with each other and with the virtual
+      environment.  The nature of this environment and the manner of
+      its operation shall be at the discretion of the Gamemaster,
+      within the boundaries established by the Rules.  This virtual
+      reality may be referred to within the Rules as the EVR.
+
+Be it further resolved, that the following Rule be created:
+
+      Individuals who participate in the EVR (who may be referred to
+      in the Rules as "Citizens") are required to abide by these Rules
+      as if they were Players, whether or not they are Players.
+
+      This Rule shall not be construed so as require Citizens to be
+      Players or Players to be Citizens, although any individual may
+      elect to be both a Player and a Citizen, at eir discretion.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 23:29 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA05056 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 23:29:18 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA30805
+	for agora-discussion-list; Thu, 6 Aug 1998 13:22:48 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id NAA30802
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 13:22:47 +1000
+Received: From mozart With LocalMail ; Thu, 6 Aug 98 13:23:29 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 6 Aug 1998 13:23:17 +1000 (EST)
+Message-Id:  <980806032317.6723@cse.unsw.edu.au>
+Subject: Re: DIS: Shattered World Nomic
+In-Reply-To: <199808060250.VAA18085@poverty.bloomington.in.us> from "Scott Goehring" at Aug 5, 98 09:50:17 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 894
+
+> 
+> "Steve" == Steve Gardner <gardner@silas-1.cc.monash.edu.au> writes:
+> 
+> Steve> In Nomic World, temporality was a factor, but not an
+> Steve> issue. It's much easier to organize a conspiracy with people in
+> Steve> compatible time zones, but that's already true in Agora as it
+> Steve> is.
+> 
+> Indeed.  I can recall spending more than one late night up conspiring
+> to commit scams with certain Australians who will go unnamed. :)
+
+Dear me. Whoever could that have been?
+
+Blob reminisces about the Junta. 
+Blob grins wickedly.
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Aug  5 23:39 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA05264 for <dpb@cs.brown.edu>; Wed, 5 Aug 1998 23:39:12 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA30883
+	for agora-discussion-list; Thu, 6 Aug 1998 13:34:51 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA30880
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 6 Aug 1998 13:34:42 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id NAA15963; Thu, 6 Aug 1998 13:35:30 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199808060335.NAA15963@silas-2.cc.monash.edu.au>
+Subject: DIS: Shattered World merger?
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+Date: Thu, 6 Aug 1998 13:35:30 +1000 (EST)
+Cc: geoff@moo.cs.rmit.edu.au (Geoff Wong)
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1884
+
+I've been following the Shattered World thread with interest. My
+sympathies are basically with Scott and Michael. But I have a fairly
+radical proposal: we could attempt a merger with Shattered World Nomic.
+
+By this I mean that we could attempt to merge the Agoran Ruleset with
+the Laws of Shattered World, to the benefit of both communities. Most of
+Agora's Ruleset is concerned with its own procedures, and so I think
+could be fairly painlessly absorbed into Shattered World. Shattered
+World already has some Laws of its own, particularly its Common Laws,
+which make reference to items peculiar to Shattered World. Any merger
+would have to substantially preserve those Laws. Much of Shattered
+World's Mutable and Immutable Laws, however, are pretty much unchanged
+from early versions of Suber's Initial Set - actually, they seem to be
+minor variants of the Nomic World Ruleset as it came to be - and I
+imagine that some of these could be superseded by the more sophisticated
+versions in the Agoran Ruleset, while for others that might not be such
+a good idea.
+
+As for how to achieve it, persuasion rather than force is the way
+to go. I think we have something significant to offer Shattered World,
+namely, a large group of new citizens. And they have something to offer
+us, namely, a rich and variegated world. Together, we could make
+something beautiful, or at least very interesting.
+
+If we got the go ahead, we'd want to establish some kind of committee,
+made of Players from both Nomics, to look at both Rulesets and create
+a new, composite Ruleset, preserving the flavour of both, with the idea
+that the new Ruleset would be adopted as the new Shattered World Law.
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+

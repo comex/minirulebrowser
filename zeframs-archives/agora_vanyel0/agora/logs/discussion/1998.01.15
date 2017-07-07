@@ -1,0 +1,585 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jan 15 00:52 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA21001 for <dpb@cs.brown.edu>; Thu, 15 Jan 1998 00:52:01 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA07990
+	for agora-discussion-list; Thu, 15 Jan 1998 16:46:25 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA07987
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 15 Jan 1998 16:46:22 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.7/8.8.7) with SMTP id VAA21940
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 14 Jan 1998 21:48:20 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id VAA06425; Wed, 14 Jan 1998 21:48:16 -0800
+Message-Id: <199801150548.VAA06425@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 14 Jan 1998 21:41:24 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: BUS: PROTO: Auctions
+In-reply-to: <s4bca45e.007@rmv.state.ma.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1448
+
+David Albertz <dalbertz@rmv.state.ma.us> wrote:
+> Michael wrote:
+> >Laurent Bossavit writes:
+> 
+> >>> I think the winner of the auction should be made to pay the amount
+> >>> of the second highest bid.
+>  
+> >> Why ?
+>  
+> >I hear that this is considered good practice (Crito also suggested
+> >this and had a reason for it too I think), though I don't claim to
+> >understand why, and it sounds fun.
+> 
+> Actually someone else suggested this.  Sorry, but I forget who.  IIRC, e stated
+> that this practice results in higher bids with values closer to the true value,
+> since there is less incentive to bid low to get a bargain - bid high and hope
+> you get a bargain out of the previous bid.  8)
+
+That was me. IIRC, someone (actually, two people) got a Nobel Prize 
+in economics for work which had among its results the 'second 
+highest bid' system.
+
+Why it works: If you can buy the item at option and then immediately 
+sell it for price X (or otherwise get X value), then:
+* If you bid low, you might not get the item when bidding X would 
+have given it to you, giving you no profit instead of a small one.
+* If you bid high, then you could end up paying more than you can 
+benefit, giving you a loss instead of breaking even.
+Thus, the best results for the bidders come from bidding accurately, 
+which gives the seller the best price.
+
+	Ross Morgan-Linial
+	rmorganl@fhcrc.org
+
+Disclaimer: The above is my own explaination, your mileage may vary.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jan 15 06:53 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA26354 for <dpb@cs.brown.edu>; Thu, 15 Jan 1998 06:53:10 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA09276
+	for agora-discussion-list; Thu, 15 Jan 1998 22:44:30 +1100
+Received: from macros.interworx.com.au ([203.37.133.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA09273
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 15 Jan 1998 22:44:28 +1100
+Received: from interworx.com.au (pppd-7.interworx.com.au [203.37.133.46])
+          by macros.interworx.com.au (post.office MTA v2.0 0813
+          ID# 196-33571U1010) with ESMTP id AAA190
+          for <agora-discussion@gecko.serc.rmit.edu.au>;
+          Thu, 15 Jan 1998 21:50:51 +1000
+Message-ID: <34BC2B0D.E2D9F324@interworx.com.au>
+Date: Wed, 14 Jan 1998 14:03:42 +1100
+From: Kieron Jarvis <KJarvis@interworx.com.au>
+X-Mailer: Mozilla 4.04 [en] (Win95; I)
+MIME-Version: 1.0
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Proto: The Proposal Queue
+References: <980113010501.6567@cse.unsw.edu.au>
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 892
+
+Malcolm Ross Kinsella Ryan wrote:
+
+> Orjan Johansen writes:
+> > One idea would be to reduce Priority (by 0.2, say) once per Week, with
+> > Proposals that go negative removed.
+>
+> This would mean that un-sponsored proposals would drop out after a week.
+> How about this instead: Priority decreases over time, but never below zero.
+> The Promotor may, at eir discretion, drop any zero-priority proposals which
+> are over (say) a month old.
+
+Or how about this instead: You must pay 1 P-Note to submit your proposal to the
+queue. New entries then start with priority 1. A proposal may only be distributed
+if priority rises to 2 or more. A proposal is removed from the queue if the
+priority drops to (or below) 0. I would say priority drops by 0.5 weekly so that
+the proposal is gone in 2 weeks if not supported with more P-Notes.
+
+Jester
+-- 
+10 2-letter words: If it is to be, it is up to me.
+
+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jan 15 09:48 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA00676 for <dpb@cs.brown.edu>; Thu, 15 Jan 1998 09:48:54 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA10120
+	for agora-discussion-list; Fri, 16 Jan 1998 01:44:09 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA10117
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Jan 1998 01:44:07 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA05991; Thu, 15 Jan 98 08:46:41 CST
+Message-Id: <9801151446.AA05991@dfw.dfw.net>
+Subject: DIS: Re: BUS: Proto: The Proposal Queue v1.2
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 15 Jan 1998 08:46:41 -0600 (CST)
+In-Reply-To:  <980115040648.8549@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Jan 15, 98 03:06:48 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 353
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>
+>Proto-Proposal: The Proposal Queue 1.2
+>
+>Create a rule, with title "Distributing Proposals", with text:
+>
+>      Each week, the Promotor shall distribute a batch of Proposals.
+
+What happens if the Promotor fails to distribute a batch in a week
+when one is required?  Does e publish two the following week?
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jan 15 10:54 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA02553 for <dpb@cs.brown.edu>; Thu, 15 Jan 1998 10:54:55 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA10452
+	for agora-discussion-list; Fri, 16 Jan 1998 02:49:47 +1100
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA10446
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Jan 1998 02:49:43 +1100
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id KAA21756 for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 15 Jan 1998 10:51:38 -0500 (EST)
+Message-Id: <3.0.1.16.19980115093847.2f57670e@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Thu, 15 Jan 1998 09:38:47
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: DIS: BUS: PROTO: Auctions
+In-Reply-To: <s4bca45e.007@rmv.state.ma.us>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 766
+
+At 11:40 AM 1/14/98 -0500, David Albertz wrote:
+
+>Actually someone else suggested this.  Sorry, but I forget who.  IIRC, e
+stated
+>that this practice results in higher bids with values closer to the true
+value,
+>since there is less incentive to bid low to get a bargain - bid high and hope
+>you get a bargain out of the previous bid.  8)
+
+Hmmm. Does anyone know how is the first bid handled, if no one else bids?
+Does that bidder pay *their* bid, or nothing? 
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jan 15 10:55 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA02584 for <dpb@cs.brown.edu>; Thu, 15 Jan 1998 10:55:14 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA10453
+	for agora-discussion-list; Fri, 16 Jan 1998 02:49:49 +1100
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA10447
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Jan 1998 02:49:43 +1100
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id KAA21694 for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 15 Jan 1998 10:51:23 -0500 (EST)
+Message-Id: <3.0.1.16.19980115091741.2f573518@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Thu, 15 Jan 1998 09:17:41
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: DIS: proto: Real VT scarcity *now*
+In-Reply-To: <9801141349.AA21657@scarlet.tp3.ruhr-uni-bochum.de>
+References: <199801130316.OAA05869@aurora.cc.monash.edu.au>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 1042
+
+At 02:49 PM 1/14/98 +0100, Klaus Herrmanns NB6_25(3751) wrote:
+
+>2. Increase spending by abolishing presence (repeal 1715 and remove
+>the references to presence in the quorum rules). This is another way
+>to force more spending of VTs.
+
+Or, as is more likely, to force the failure of more Proposals due to lack
+of Quorum. We tried this once before, right after changing over to the "pay
+for Votes" paradigm, with disastrous results -- almost no one could get a
+proposal passed, because no one would vote on it.
+
+>I'd prefer these to one-off reductions of the number of VTs, only to
+>see overall VT holdings rise again because the reasons for inflation
+>remain the same.
+
+I think probably the best solution would be one that does both...
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jan 15 10:59 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA02747 for <dpb@cs.brown.edu>; Thu, 15 Jan 1998 10:59:41 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA10512
+	for agora-discussion-list; Fri, 16 Jan 1998 02:54:58 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id CAA10509
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Jan 1998 02:54:55 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 15 Jan 1998 11:04:01 -0500
+Message-Id: <s4bded21.047@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 15 Jan 1998 11:03:30 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Proposal Queue
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 792
+
+Re: DIS: Proposal Queue
+
+Blob asks:
+
+>> 4. Have the status changes of proposals officially
+>> occur when the status change is reported by the
+>> Promotor in the Queue Report (or the proposal is
+>> distributed).  Have discarded proposals listed as
+>> such in the report for some period of time (four
+>> weeks or whatever).
+
+>Hsm. I'm not sure how I ought to word this, or where I ought to 
+>incorporate it. Any suggestions?
+
+Actually, now that I have read your latest proto, I don't think this is needed,
+as long as the ultra-pragmatists don't have a problem with the decrementing or
+discretionary incrementing being done offline by the Promotor.
+
+As Promotor, I will include a list of discarded proposals in the report, but it
+is probably not necessary to make this a requirement.
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jan 15 12:50 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA06551 for <dpb@cs.brown.edu>; Thu, 15 Jan 1998 12:50:49 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA10840
+	for agora-discussion-list; Fri, 16 Jan 1998 04:18:17 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id EAA10828
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Jan 1998 04:15:44 +1100
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.736 #3)
+	id 0xssuT-00056G-00; Thu, 15 Jan 1998 17:16:53 +0000
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0xssuO-0000QN-00; Thu, 15 Jan 1998 17:16:48 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: BUS: Proto: The Proposal Queue v1.2
+In-Reply-To: <9801151446.AA05991@dfw.dfw.net>
+References: <980115040648.8549@cse.unsw.edu.au>
+	<9801151446.AA05991@dfw.dfw.net>
+X-Mailer: VM 6.37 under Emacs 19.34.1
+Message-Id: <E0xssuO-0000QN-00@merganser.cl.cam.ac.uk>
+Date: Thu, 15 Jan 1998 17:16:48 +0000
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 630
+
+Charles E. Carroll writes:
+ 
+> What happens if the Promotor fails to distribute a batch in a week
+> when one is required?  Does e publish two the following week?
+ 
+I think they should be penalised for committing the Infraction of
+<whatever>, but I don't think they should play catch-up.  Either they
+do it in the course of the week, or they don't. 
+
+I really disliked the interpretation of similar situations to this
+which had people dealing with a perceived backlog (e.g. Oerjan's big
+spate of FM reports).  
+
+Blob, loth as I am to delay this, I'd say that it does need specifying
+before the final version is proposed.
+
+Michael.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jan 15 13:03 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA06979 for <dpb@cs.brown.edu>; Thu, 15 Jan 1998 13:03:38 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA10995
+	for agora-discussion-list; Fri, 16 Jan 1998 04:57:46 +1100
+Received: from cayman.ucs.indiana.edu (cayman.ucs.indiana.edu [129.79.10.63])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA10992
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Jan 1998 04:57:43 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-12.ucs.indiana.edu [156.56.126.12])
+	by cayman.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id MAA11888
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 15 Jan 1998 12:59:34 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id MAA28170 for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 15 Jan 1998 12:59:31 -0500
+Message-Id: <199801151759.MAA28170@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Proposal Queue 
+In-reply-to: Your message of "Thu, 15 Jan 1998 11:03:30 EST."
+             <s4bded21.047@rmv.state.ma.us> 
+Date: Thu, 15 Jan 1998 12:59:30 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 980
+
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> Actually, now that I have read your latest proto, I don't think
+David> this is needed, as long as the ultra-pragmatists don't have a
+David> problem with the decrementing or discretionary incrementing
+David> being done offline by the Promotor.
+
+As long as the Promotor makes note of the changes on eir records and
+reports on those changes in eir next report (i.e. explain why a
+Proposal's priority has changed).  I don't see a "pragmatic" problem
+because the Promotor is reporting to emself.  A wording acceptable to
+me for the decrementation would be along the lines of "As soon as
+possible after the beginning of each Nomic Week, the Promotor shall
+decrement by one the priority of every Proposal in the Queue which has
+been on the queue for more than one week."  This, coupled with a
+requirement to include in the report all changes to the Priority of a
+Proposal and the reason for the change, should suffice.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jan 15 15:07 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA11161 for <dpb@cs.brown.edu>; Thu, 15 Jan 1998 15:07:42 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA11508
+	for agora-discussion-list; Fri, 16 Jan 1998 07:00:49 +1100
+Received: from MAIL.PCTB.COM (mail.pctb.com [167.160.253.130])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id HAA11505
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Jan 1998 07:00:45 +1100
+Received: from SF_Mail-Message_Server by MAIL.PCTB.COM
+	with Novell_GroupWise; Thu, 15 Jan 1998 11:58:57 -0800
+Message-Id: <s4bdfa01.011@MAIL.PCTB.COM>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 15 Jan 1998 11:59:32 -0800
+From: PCTB David Andreasen <dAndreasen@pctb.com>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: BUS: PROTO: Auctions
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 738
+
+>Laurent Bossavit writes:
+> 
+> I think the winner of the auction should be made to pay the amount
+> of the second highest bid.
+
+     But couldn't someone bid an outrageously high number and get
+away with a low payment?
+     For example:
+      The starting bid is 5 VT for the indenture of Morendil.  G.
+Chaos bids 6 VT.  Crito bids 50 VT.  Now, if there are no other
+bidders, Crito will get to purchase the indenture for 6 VT because
+that was the second highest bid.
+     Of course, someone else could continue the bidding process, but
+then e would have to pay at least 50 VT for Morendil (not that it
+wouldn't be worth it, Morendil ;-) ).
+
+-David-
+
+
+Dr. Linus Pauling:
+     "The best way to have a good idea is to have a lot of ideas."
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jan 15 15:59 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA12758 for <dpb@cs.brown.edu>; Thu, 15 Jan 1998 15:59:24 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA11721
+	for agora-discussion-list; Fri, 16 Jan 1998 07:54:18 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id HAA11718
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Jan 1998 07:54:16 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA09697; Thu, 15 Jan 98 14:56:46 CST
+Message-Id: <9801152056.AA09697@dfw.dfw.net>
+Subject: Re: DIS: BUS: PROTO: Auctions
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 15 Jan 1998 14:56:45 -0600 (CST)
+In-Reply-To: <s4bdfa01.011@MAIL.PCTB.COM> from "PCTB David Andreasen" at Jan 15, 98 11:59:32 am
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 431
+
+PCTB David Andreasen wrote:
+>
+>>Laurent Bossavit writes:
+>> 
+>> I think the winner of the auction should be made to pay the amount
+>> of the second highest bid.
+>
+>     But couldn't someone bid an outrageously high number and get
+>away with a low payment?
+
+I admit I haven't really looked at the proto in question, but
+my understanding is that a winner-pays-second-highest system
+was for use in an auction with sealed bids.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jan 15 16:10 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA13037 for <dpb@cs.brown.edu>; Thu, 15 Jan 1998 16:09:53 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA11779
+	for agora-discussion-list; Fri, 16 Jan 1998 08:02:27 +1100
+Received: from roatan.ucs.indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id IAA11776
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Jan 1998 08:02:23 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-12.ucs.indiana.edu [156.56.126.12])
+	by roatan.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id QAA07493
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 15 Jan 1998 16:04:21 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id QAA31785 for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 15 Jan 1998 16:04:18 -0500
+Message-Id: <199801152104.QAA31785@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: BUS: PROTO: Auctions 
+In-reply-to: Your message of "Thu, 15 Jan 1998 14:56:45 CST."
+             <9801152056.AA09697@dfw.dfw.net> 
+Date: Thu, 15 Jan 1998 16:04:13 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 343
+
+"Charles" == Charles E Carroll <ccarroll@dfw.net> writes:
+
+Charles> I admit I haven't really looked at the proto in question, but
+Charles> my understanding is that a winner-pays-second-highest system
+Charles> was for use in an auction with sealed bids.
+
+I believe you are correct.  It makes no sense to use it in an auction
+with open bidding.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jan 15 21:27 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA20740 for <dpb@cs.brown.edu>; Thu, 15 Jan 1998 21:27:31 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA13423
+	for agora-discussion-list; Fri, 16 Jan 1998 13:21:41 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA13420
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Jan 1998 13:21:35 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.7/8.8.7) with SMTP id SAA27955
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 15 Jan 1998 18:23:30 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id SAA22501; Thu, 15 Jan 1998 18:23:29 -0800
+Message-Id: <199801160223.SAA22501@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 15 Jan 1998 18:17:10 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: BUS: PROTO: Auctions
+In-reply-to: <s4bdfa01.011@MAIL.PCTB.COM>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 404
+
+PCTB David Andreasen <dAndreasen@pctb.com> wrote:
+> >Laurent Bossavit writes:
+> > 
+> > I think the winner of the auction should be made to pay the amount
+> > of the second highest bid.
+> 
+>      But couldn't someone bid an outrageously high number and get
+> away with a low payment?
+
+No, this has to be done with silent (private) bidding, so you don't 
+know that someone else doesn't have the same idea.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jan 15 21:27 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA20741 for <dpb@cs.brown.edu>; Thu, 15 Jan 1998 21:27:32 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA13419
+	for agora-discussion-list; Fri, 16 Jan 1998 13:21:30 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA13415
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Jan 1998 13:21:22 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.7/8.8.7) with SMTP id SAA27959
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 15 Jan 1998 18:23:32 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id SAA22503; Thu, 15 Jan 1998 18:23:30 -0800
+Message-Id: <199801160223.SAA22503@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 15 Jan 1998 18:17:10 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: BUS: PROTO: Auctions
+In-reply-to: <3.0.1.16.19980115093847.2f57670e@cyber1.servtech.com>
+References: <s4bca45e.007@rmv.state.ma.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 625
+
+Chaos Harlequin <harlequin@tmbg.org> wrote:
+> At 11:40 AM 1/14/98 -0500, David Albertz wrote:
+> 
+> >Actually someone else suggested this.  Sorry, but I forget who.  IIRC, e
+> stated
+> >that this practice results in higher bids with values closer to the true
+> value,
+> >since there is less incentive to bid low to get a bargain - bid high and hope
+> >you get a bargain out of the previous bid.  8)
+> 
+> Hmmm. Does anyone know how is the first bid handled, if no one else bids?
+> Does that bidder pay *their* bid, or nothing? 
+
+The best thing seems to be to redo the auction. Paying nothing is 
+certainly out of the question.
+

@@ -1,0 +1,740 @@
+From owner-agora-official@gecko.serc.rmit.edu.au Thu Mar 26 04:38 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA03143 for <dpb@cs.brown.edu>; Thu, 26 Mar 1998 04:38:10 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA16805
+	for agora-official-list; Thu, 26 Mar 1998 20:30:25 +1100
+Received: from satsuma.mail.easynet.net (satsuma.mail.easynet.net [195.40.1.44])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id UAA16802
+	for <agora-official@gecko.serc.rmit.edu.au>; Thu, 26 Mar 1998 20:30:20 +1100
+Received: (qmail 29523 invoked from network); 26 Mar 1998 09:31:35 -0000
+Received: from [193.131.248.4]
+  by satsuma.mail.easynet.net with SMTP; 26 Mar 1998 09:31:35 -0000
+Received: (qmail 7731 invoked from network); 26 Mar 1998 09:31:51 -0000
+Received: from [195.40.61.175]
+  by kiwi.mail.easynet.net with SMTP; 26 Mar 1998 09:31:51 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <l03110701b13fce0063e8@[195.40.61.175]>
+Mime-Version: 1.0
+Date: Thu, 26 Mar 1998 09:27:24 +0000
+To: agora-official@gecko.serc.rmit.edu.au (Agora Nomic)
+From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+Subject: OFF: CFJ 1088 Judgement: TRUE
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 5007
+Lines: 131
+
+I order the Bank to pay Michael 1 VT for this Judgement.
+Michael also gains 3 points for delivering judgement.  -- elJefe
+
+
+=====================================================================
+
+                               CFJ 1088
+
+  "When a Proposal is declared to be a Senate Proposal, and Votes
+   were previously cast on such a Proposal by Entities who were not
+   Senators, such Votes are nevertheless still legal Votes and should be
+   taken into account for the purpose of determining Voting results."
+
+
+======================================================================
+
+Judge:      Michael
+Judgement:  TRUE
+
+Eligible:   Antimatter, Blob, Chuck, Crito, elJefe,
+            Harlequin, Jester, Kolja A., Michael, Murphy, Oerjan,
+            Sherlock, Steve, Swann, Time Agent
+
+Ineligible:
+Caller:     Morendil
+Barred:
+On request:
+On hold:    General Chaos
+
+
+======================================================================
+History:
+
+  Called by Morendil, 10 Mar 1998 09:05:41 +0100
+  Assigned to Michael, 19 Mar 1998 11:34:01 +0000
+  Judged TRUE, 26 Mar 1998 08:28:57 +0000
+
+
+======================================================================
+Caller's Arguments:
+
+Rule 683 defines what "legal Votes" are. It does not contain a
+provision allowing other Rules to alter the legality of a Vote after
+the fact. Rule 995 defines the Voting results on a Proposal as a
+tally of all Votes that have been "legally cast".
+
+Rule 1717 claims that a Vote cast by a non-Senator at the time a
+Proposal is declared to be a Senate Proposal is 'cancelled', which
+can only be interpreted as a claim to override the definition of a
+legal Vote as specified by Rule 683. Thus, Rule 1717 is in conflict
+with Rule 683 with respect to such Votes.
+
+However, it does not explicitly claim precedence; therefore, Rule
+683 wins that conflict, and Votes cast by non-Senators before a
+declaration of a Senate Proposal are still legal.
+
+Note however that Votes cast by non-Senators after such a
+declaration are not valid, as it is the first sentence of Rule 206
+that is relevant in that case.
+
+
+======================================================================
+Judge's Reasons and Arguments:
+
+The Caller's arguments seem sound.  The situation which held at the
+time of the calling of this CFJ was this:
+
+* proposals pass/are adopted if they receive sufficient (legal) votes
+  (R955, power = 3)
+
+* a vote is legally cast if it is cast during the Voting Period of
+  a Proposal and if the Voting Entity casting the vote is entitled to
+  cast a vote on that particular Proposal (R683, power = 1).
+
+* "Entities other than Senators cannot Vote on Senate Proposals.
+   If an Entity other than a Senator has already voted on a
+   Proposal by the time it becomes a Senate Proposal, eir votes
+   on that Proposal are cancelled."  (R1717, power = 1)
+
+Our initial question is to ask what it means for a vote to be
+cancelled.  A natural interpretation of this provision is to assume it
+means that a vote is deprived of its legal effect.  This view seems
+consistent with R1442, which discusses what happens when a Voting
+Entity to voluntarily cancel its votes.
+
+However, neither R1717 nor R1442 claims precedence over R683.  Nor
+does R683 yield precedence.  Therefore, it must be the case that if
+R683 says a vote is legally cast, then it is cast and must be counted,
+R1717 and R1442 notwithstanding.
+
+There is still one more condition to investigate.  R683 requires that
+a Voting Entity be entitled to cast a vote if that vote is to be
+legal.  An argument against the statement of the CFJ might claim that
+when a Proposal is made a Senate Proposal this action will
+retroactively deprive Voting Entities of their entitlement to cast
+legal votes.
+
+I reject this argument on the grounds that this view is too much of a
+stretch to impose on the language of R683.  Here is the relevant
+sentence as it appears in the rule :
+
+  "A Vote is legally cast if it is cast during the Voting Period of
+   that Proposal, and if that Voting Entity is entitled to cast a Vote
+   on that particular Proposal."
+
+It is far too much to ask this rule to mean "... if that Voting Entity
+is entitled to cast a Vote and remains entitled to having been able to
+cast that Vote on that particular Proposal for the rest of its Voting
+Period."  While such an interpretation has some appeal (it would deny
+legality to votes cast by Players who deregister while a Proposal's
+Voting Period is in progress, and would simplify the Senate rule), it
+is *not* what is currently written, and is too far in sense from what
+is written to be a possible interpretation of Rule 683.
+
+Therefore I return a judgement of TRUE.
+
+======================================================================
+
+
+Regards,
+-- elJefe, Clerk of the Courts of Agora Nomic
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Thu Mar 26 08:36 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA06799 for <dpb@cs.brown.edu>; Thu, 26 Mar 1998 08:36:45 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA17908
+	for agora-official-list; Fri, 27 Mar 1998 00:32:29 +1100
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA17905
+	for <agora-official@gecko.serc.rmit.edu.au>; Fri, 27 Mar 1998 00:32:17 +1100
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (8.8.8/8.7) id OAA12992; Thu, 26 Mar 1998 14:31:40 +0100
+Date: Thu, 26 Mar 1998 14:31:40 +0100
+From: Klaus Herrmanns NB6_25(3751) <klaush@dij91.tp3.ruhr-uni-bochum.de>
+Message-Id: <199803261331.OAA12992@dij91.tp3.ruhr-uni-bochum.de>
+To: agora-official@gecko.serc.rmit.edu.au
+Subject: OFF: Ambassador's report
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 332
+Lines: 21
+
+Agora Nomic
+Ambassador's Report
+
+Date of this Report: 26 Mar 1998
+
+======================================================================
+Diplomatic Report
+
+
+Nothing to report.
+
+
+======================================================================
+Friendliness Report:
+
+Friendly: Agora, FRC, InterNomic
+Hostile:  none
+
+
+Kolja A.
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Thu Mar 26 15:25 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA17121 for <dpb@cs.brown.edu>; Thu, 26 Mar 1998 15:25:26 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA19868
+	for agora-official-list; Fri, 27 Mar 1998 07:22:16 +1100
+Received: from gwis.com (darcy.gwis.com [209.57.72.3])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA19860
+	for <agora-official@gecko.serc.rmit.edu.au>; Fri, 27 Mar 1998 07:22:09 +1100
+Received: from gwis.com (p1p07.gwis.com [209.57.73.8]) by gwis.com (8.8.5/8.6.12) with ESMTP id PAA28215 for <agora-official@gecko.serc.rmit.edu.au>; Thu, 26 Mar 1998 15:21:32 -0500 (EST)
+Message-ID: <351AB855.5416A1E9@gwis.com>
+Date: Thu, 26 Mar 1998 15:19:33 -0500
+From: Steven Swiniarski <saswann@gwis.com>
+Organization: S Andrew Swann
+X-Mailer: Mozilla 4.04 [en] (Win95; U)
+MIME-Version: 1.0
+To: Agora-Official <agora-official@gecko.serc.rmit.edu.au>
+Subject: OFF: Score Report March 26, 1998
+Content-Transfer-Encoding: 8bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 7489
+Lines: 219
+
+AGORA NOMIC
+                      OFFICE OF THE SCOREKEEPOR
+                            MARCH 26, 1998
+
+                         Scorekeepor's Report
+======================================================================
+
+Date of this Report: March 26, 1998
+Date of last Report: March  9, 1998
+
+                prior             current
+                score  changes    score
+Blob              13   +3-4       12
+Chuck              5               5
+Crito              5   +3+5+1+3   17
+elJefe             8               8
+General Chaos      8   -2-2+3      7
+Harlequin          1   +3          4
+Jester             0               0
+Kolja A.           8   +1+3       12
+Michael            5   +3          8
+Morendil          11   +3-4       10
+Murphy             5   -4          1
+Oerjan             0   +1          1
+Sherlock           3   -2+1-4     -2
+Steve             30   +3+1       34
+Swann              3   +1+3        7
+Time Agent         3   -4         -1
+====================================================================
+Subject: BUS: Rulekeepor Stuff
+   Date: Sun, 15 Mar 1998 17:43:10 -0600 (CST)
+   From: "Charles E. Carroll" <ccarroll@dfw.net>
+ 
+The Bank is ordered to pay 3 P-Notes to Steve (cf. R947, P3703).
+
+The following Players' scores change by 3, due to having a Rule-Changing
+Proposal adopted in the current Nomic Week: Steve, Crito, Harlequin.
+
+Chuck
+====================================================================
+Subject: OFF: Result of Accountor Election
+   Date: Mon, 16 Mar 1998 09:41:19 +0000
+   From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+ Crito is elected to this post, as of this message. 
+
+The votes were as follows:
+
+  Nominating period: Thu, 26 Feb 1998 10:58:02 +0000 -->
+                     Thu,  5 Mar 1998 10:58:02 +0000
+  Nominations received: Crito, General Chaos
+  Voting period begins: Sat, 7 Mar 1998 13:37:24 +0000
+  Votes:
+    Crito:         Crit, Sher, Oerj, More, Swan, Anti, Harl, Kolj,
+                   Chuc, Stev
+    General Chaos:
+
+
+Scorekeepor, take note: Crito gains five points for winning an
+Election. 
+
+Michael.
+====================================================================
+Subject: BUS: Score Changes
+   Date: Mon, 16 Mar 1998 11:09:18 -0500
+   From: David Albertz <dalbertz@rmv.state.ma.us>
+
+Crito wrote:
+
+>Date: Mon, 16 Mar 1998 00:00:00 GMT
+
+>    The following Players are guilty of Persistent Indebtedness for
+>    Indulgences.
+
+>    G. Chaos is hereby commanded to pay one Indulgence to the Bank.
+
+H. Scorekeepor:
+
+General Chaos loses 2 points as a result of the above Blot gain.
+
+-- Herald Crito
+====================================================================
+Subject: BUS: PI Infractions
+   Date: Wed, 18 Mar 1998 10:47:19 -0500
+   From: David Albertz <dalbertz@rmv.state.ma.us>
+ 
+PI Infractions
+
+Crito wrote:
+
+>OUTSTANDING PAYMENT ORDERS
+
+>ID     Executed          Amt. Payor          Payee          Executor
+>----------------------- ------------------- --------------------------------
+>1895   02Mar98 10:06:51   2.0 General Chaos  Bank           Michael, Registrar
+>1902   04Mar98 03:32:12   1.0 Sherlock       Bank           G. Chaos, Assessor
+
+I note that G. Chaos and Sherlock are both guilty of Persistent
+Indebtedness
+for VTs.
+
+I hereby command G. Chaos to pay one Indulgence to the Bank.
+I hereby command Sherlock to pay one Indulgence to the Bank.
+
+H. Scorekeepor:
+
+Please note that G. Chaos and Sherlock each lose 2 points as a result of
+the
+Blots gained in this message.
+
+-- Accountor and Herald Crito
+====================================================================
+Subject: OFF: CFJ 1087 Judgement: FALSE
+   Date: Thu, 19 Mar 1998 11:34:05 +0000
+   From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+
+(1.) This Judgement was not delivered to the CotC within the assigned
+time
+and receives no salary (Rule 591).  Instead, Morendil has committed the
+Infraction of Judging Late, and is ordered to pay 1 VT to the Bank (Rule
+408).
+
+(2.) H. Scorekeepor:  Judge Morendil gains 3 points for delivering
+Judgement.
+
+(3.) The Judgement is appealed by Judge Morendil.  However, under the
+recently amended Rule 1564, the Judge's own call for appeal is no longer
+sufficient to initiate an appeal, and 2 more calls for appeal are
+needed.
+
+-- elJefe, Clerk of the Courts
+====================================================================
+Subject: OFF: Ambassador's report
+   Date: Thu, 19 Mar 1998 13:40:57 +0100
+   From: Klaus Herrmanns 
+
+INP364:
+=======
+
+The following players voted on this (all voted for):
+
+Ørjan, Steve, Swann, Sherlock, Kolja A. and Crito.
+
+H. Scorekeepor, please note: I hereby order you to increase the score
+of these players by one for voting in an INP referendum.
+====================================================================
+Subject: BUS: Rulekeepor stuff
+   Date: Tue, 24 Mar 1998 23:13:11 -0600 (CST)
+   From: "Charles E. Carroll" <ccarroll@dfw.net>
+
+The following Players' scores change by 3 for having a Rule-changing
+Proposal adopted in the previous Nomic Week: Kolja A., Swann, General
+Chaos, Blob, and Crito.
+
+====================================================================
+Subject: BUS: Re: OFF: Notary's Report (March 18, 1998)
+   Date: Wed, 25 Mar 1998 11:11:11 -0500
+   From: David Albertz <dalbertz@rmv.state.ma.us>
+
+Kolja wrote:
+
+>I hereby report that the following players have committed the
+>Infraction of Tardiness defined in R1023 because they did not
+>formulate and announce in the Public Forum Probate Plans for the
+>entities in probate for which they are (or have been) assigned as
+>trustees within the ASAP time frame required by R1738:
+
+>Morendil, Sherlock, Blob, Time Agent, Murphy.
+
+>This Infraction carries penalties as a Class D Crime, and I am
+>therefore obliged to issue the following payment orders: 
+
+>PO nr.       Payor           Payee         Amount
+>-------------------------------------------------
+>tardy1       Morendil         Bank          2 indulgences
+>tardy2       Sherlock         Bank          2 indulgences
+>tardy3       Blob             Bank          2 indulgences
+>tardy4       Time Agent       Bank          2 indulgences
+>tardy5       Murphy           Bank          2 indulgences
+
+H. Scorekeepor:
+
+As a result of the above Blots, each of the following Players lose 4
+points:
+
+    Morendil, Sherlock, Blob, Time Agent, Murphy.
+
+
+I note that this points out a flaw in the scoring Rule.  Even though the
+Blots
+against Sherlock have been vacated, e has no recourse for recovering the
+points
+lost.  We should probably add the provision that 2 points are gained for
+each
+Blot vacated.
+
+-- Herald Crito
+====================================================================
+Subject: OFF: CFJ 1088 Judgement: TRUE
+   Date: Thu, 26 Mar 1998 09:27:24 +0000
+   From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+ 
+I order the Bank to pay Michael 1 VT for this Judgement.
+Michael also gains 3 points for delivering judgement.  -- elJefe
+
+
+
+
+----------------------------------------------------------------------
+
+
+-- 
+=====================================================================
+Steven A. Swiniarski                http://www.sff.net/people/saswann
+aka S Andrew Swann                                   saswann@gwis.com
+---------------------------------------------------------------------
+ "The contest for ages has been to rescue liberty from the grasp of
+  executive power."                                --Daniel Webster
+=====================================================================
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Thu Mar 26 20:41 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA23846 for <dpb@cs.brown.edu>; Thu, 26 Mar 1998 20:41:12 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA21465
+	for agora-official-list; Fri, 27 Mar 1998 12:35:41 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA21462
+	for <agora-official@gecko.serc.rmit.edu.au>; Fri, 27 Mar 1998 12:35:23 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id MAA30428
+	for agora-official@gecko.serc.rmit.edu.au; Fri, 27 Mar 1998 12:34:51 +1100 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199803270134.MAA30428@silas.cc.monash.edu.au>
+Subject: OFF: Voting Report: 3708-3717
+To: agora-official@gecko.serc.rmit.edu.au (Agora Nomic Official List)
+Date: Fri, 27 Mar 1998 12:34:50 +1100 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 5672
+Lines: 136
+
+Agora Nomic
+Assessor's Report
+
+Date of this Report: Fri 27 Mar 1998
+Date of last Report: Thu 19 Mar 1998
+
+Voting Report: 3716, 3708, 3711, 3712, 3717
+======================================================================
+Voting on 3716, 3708, 3711, 3712, 3717 commenced: Mon, 16 Mar 1998 18:32:36 
+Voting on 3716, 3708, 3711, 3712, 3717 commenced: Thu, 26 Mar 1998 18:32:36
+
+At the commencement of the Voting Periods of Proposals 3716, 3708,
+3711, 3712 and 3717 there were 17 Registered Players: 16 Active, 
+1 On Hold. Therefore the Quorum for these Proposals is 6 (Rule 879).
+
+   Num. Proposer      AI Title                             RESULT F A - *
+
+s  3716 Chuck          1 CounterScam the Veto Scam, Part I PASSES 6-0-0-0
+   3708 R-O-M          1 Repeal Rule 795                   F/Q    0-0-0-0
+   3711 R-O-M          1 Repeal Rule 1644                  F/Q    0-0-0-0
+   3712 R-O-M          1 Repeal Rule 1665                  F/Q    0-0-0-0
+   3717 Kolja A.       1 Zeitgeist and scarce currencies   PASSES 1-0-0-5
+
+s=Sane Proposal
+=====================================================================
+
+                    3  3  3  3  3
+                    7  7  7  7  7
+                    1  0  1  1  1
+                    6  8  1  2  7
+
+Chuck               F           *
+Crito               F           *
+Kolja A.            F           F
+Morendil            F           *   
+Murphy              F           *
+Oerjan              F           *
+
+FOR                 6  0  0  0  1
+AGAINST             0  0  0  0  0
+ABSTAIN             0  0  0  0  0
+PRESENT             0  0  0  0  5
+
+Num. Voters         6  0  0  0  6
+Quorum?             Y  N  N  N  Y
+PASSES?             Y  N  N  N  Y
+
+======================================================================
+Zeitgeist
+======================================================================
+
+The Registrar should note that Chuck and Kolja have successively earned
+the Patent Title of Zeitgeist for the unanimous passage of Proposals
+3716 and 3717, respectively. I hereby order the Bank to pay them 1 P-Note
+each.
+
+======================================================================
+Payment Orders
+======================================================================
+The following Payment Orders are issued, each for the reason specified:
+
+  Ass#  Payor          Payee      Amt  Currency  Reason
+aaa123  the Bank       Chuck        1  P-Note    Zeitgeist, P3716
+aaa124  the Bank       Kolja        1  P-Note    Zeitgeist, P3717
+aaa125  the Bank       Swann        2  VTs       R833, NW247
+aaa126  the Bank       Crito        2  VTs       R833, NW247
+aaa127  the Bank       Blob         2  VTs       R833, NW247
+aaa128  Chuck          the Bank     1  VT        Voting
+aaa129  Crito          the Bank     1  VT        Voting
+aaa130  Kolja A.       the Bank     2  VTs       Voting
+aaa131  Morendil       the Bank     1  VT        Voting
+aaa132  Murphy         the Bank     1  VT        Voting
+aaa133  Oerjan         the Bank     1  VT        Voting
+======================================================================
+Score Changes
+======================================================================
+
+I order the Scorekeepor to increase the Score of Kolja by 3 Points for
+voting on more than 3 Proposals in a week.
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+Proposal 3716 (Chuck)  AI = 1  (Sane)
+CounterScam the Veto Scam, Part I
+
+A Rule shall be created with the following text:
+
+      Upon creation of this Rule, the Voting Index of the Proposal
+      entitled "CounterScam the Veto Scam, Part II" shall be set to 6.
+      Immediately following that, the Proposal entitled "CounterScam
+      the Veto Scam, Part II" shall take effect; that is, the
+      provisions contained in the text of that Proposal shall be
+      implemented to the maximal extent permitted by the Rules.
+
+      This Rule takes precedence over any Rule which would prevent
+      "CounterScam the Veto Scam, Part II" from having effect at
+      the time required by this Rule, or from having effect at all.
+
+      All references to "CounterScam the Veto Scam, Part II" in
+      this Rule shall be taken to refer to the Proposal of that
+      Title which was Proposed by the same Player as the Proposal
+      which created this Rule.  If there is more than one such
+      Proposal, then the first and second paragraphs of this
+      Rule are without effect.
+
+      This Rule shall repeal itself at 12:00 GMT on 15 April 1998.
+
+[Comment: Although this has a certain similarity to the recent
+situation regarding impeachments, it was conceived of before
+the impeachment situation was brought to light.
+Part II will be proposed once Part I has been distributed.]
+
+======================================================================
+Proposal  3717 (Kolja A.) AI = 1
+Zeitgeist and scarce currencies
+
+Amend R1047 by replacing the sentence
+
+      When an Interested Proposal Proposed by some Player is adopted
+      with no votes cast AGAINST it, that Player is awarded the Patent
+      Title of Zeitgeist.
+
+with 
+
+      When an Interested Proposal Proposed by some Player is adopted
+      with no votes cast AGAINST it, and at least three different
+      voting entities voted for it, that Player is awarded the Patent
+      Title of Zeitgeist.
+
+======================================================================
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-official@gecko.serc.rmit.edu.au Thu Mar 26 21:25 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA24675 for <dpb@cs.brown.edu>; Thu, 26 Mar 1998 21:25:50 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA22147
+	for agora-official-list; Fri, 27 Mar 1998 13:20:12 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA22144
+	for <agora-official@gecko.serc.rmit.edu.au>; Fri, 27 Mar 1998 13:20:10 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id NAA22993
+	for agora-official@gecko.serc.rmit.edu.au; Fri, 27 Mar 1998 13:19:36 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199803270219.NAA22993@silas.cc.monash.edu.au>
+Subject: OFF: Wizard's Report
+To: agora-official@gecko.serc.rmit.edu.au (Agora Nomic Official List)
+Date: Fri, 27 Mar 1998 13:19:35 +1100 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3366
+Lines: 102
+
+Agora Nomic
+Wizard's Report
+
+Date of this Report: Fri, Mar 27 1998
+Date of last Report: Tue, Mar 10 1998
+
+======================================================================
+
+Entity            Mar 10  Change  Mar 27  High Style Mark
+------            ------  ------  ------  ---------------
+Antimatter          0               0           0
+Blob                0               0           0
+Chuck               4     +1        5           4
+Crito              -2              -2           0
+elJefe             -1              -1           0
+General Chaos      -6              -6           0
+Harlequin           4               4           4
+Jester              2               2           2
+Kolja A.           -1              -1           0
+Morendil            0               0           0
+Michael             0               0           0
+Murphy             -4              -4           0
+Oerjan              2               2           2
+Sherlock            0               0           0
+Steve               1               1           0
+Swann              -3              -3           0
+Time Agent          0               0           0
+                                        
+Andre               1               1            
+favor               1               1    
+Macross            -1              -1    
+
+(Non-Players with zero Style not listed.)
+
+=======================================================================
+Proposals Distributed Since Last Report
+=======================================================================
+s=Sane Proposal
+
+Date: Mon, 16 Mar 1998 13:32:36 -0500
+
+s  3716 Chuck          1 CounterScam the Veto Scam, Part I
+   3708 R-O-M          1 Repeal Rule 795 (Accurate Quoting Shall Not Be
+                         Penalized)
+   3711 R-O-M          1 Repeal Rule 1644 (Dereliction of Duty)
+   3712 R-O-M          1 Repeal Rule 1665 (Abuse of Responsibility)
+   3717 Kolja A.       1 Zeitgeist and scarce currencies
+
+Date: Mon, 23 Mar 1998 13:53:57 -0500
+
+   3718 Steve          1 Indelible Proposal voting
+   3719 Swann          1 A minor Score Fix
+
+=======================================================================
+Style Changes
+=======================================================================
+
+   3716 Chuck          1 CounterScam the Veto Scam, Part I
+
+Style Change: +1
+
+Tough call, this. I'm giving it +2 because it is a pretty Stylish
+attempt to turn the GOV scam on the scammers, but I'm also giving it
+-1 because the attempt appears to be flawed.
+
+   3708 R-O-M          1 Repeal Rule 795 (Accurate Quoting Shall Not Be
+                         Penalized)
+Style Change: 0
+
+In line with previous policy, R-O-M Proposals are Style neutral.
+
+   3711 R-O-M          1 Repeal Rule 1644 (Dereliction of Duty)
+
+Stlye Change: 0
+
+   3712 R-O-M          1 Repeal Rule 1665 (Abuse of Responsibility)
+
+Style Change: 0
+
+   3717 Kolja A.       1 Zeitgeist and scarce currencies
+
+Style Change: 0
+
+A minor change, Style neutral.
+
+   3718 Steve          1 Indelible Proposal voting
+
+Style Change: 0
+
+Proposed by the Wizard.
+
+   3719 Swann          1 A minor Score Fix
+
+Style Change: 0
+
+Even more minor change than P3717.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+

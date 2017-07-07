@@ -1,0 +1,1094 @@
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 05:16 EDT 1997
+Received: from yoyo.cc.monash.edu.au (root@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA13996 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 05:15:55 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id NAA24054 for nomic-outgoing; Thu, 21 Aug 1997 13:33:45 +1000 (EST)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id NAA32741 for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 13:28:52 +1000 (EST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 20 Aug 1997 23:33:28 -0400
+Message-Id: <s3fb7ec8.091@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 20 Aug 1997 23:32:47 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: DIS: Re: BUS: Proto for EiP fix
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain
+Content-Length: 1031
+Lines: 28
+Status: N
+
+DIS: Re: BUS: Proto for EiP fix
+
+Morendil wrote:
+
+>> [Make EiP distinct from an Executor so e only has the power to do what is
+>> required for Probate.  Remove "timely manner" specification in favor
+>> of more explicit time requirements with penalties, which include the
+>> removal of the offending Player as EiP.]
+
+>One Week ? You must be kidding. Remember, in some instances the Probate Code
+>forbids an EiP from executing eir duties. 
+
+Well, it's one week after all impediments to the execution of eir duties have
+been removed, but I'm not opposed to making it longer.  Suggestions?
+
+>Also I think it would be safer to
+>adopt a name that does not include 'Executor', so as to make the distinction
+>clear.
+
+No problem.  Again, any suggestion?  Probation Officer?  8)
+
+>Further, you will now have to put precedence clauses in there, since I
+>don't think it's generally possible to submit TOs for an Entity of which one
+>is not the Executor - check the relevant Rules. 
+
+Good point.  I'll add the precedence declaration.
+
+-- Crito
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 05:22 EDT 1997
+Received: from yoyo.cc.monash.edu.au (root@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA14075 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 05:22:28 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id QAA05516 for nomic-outgoing; Thu, 21 Aug 1997 16:33:38 +1000 (EST)
+Received: from marble.cc.monash.edu.au (root@marble.cc.monash.edu.au [130.194.9.2])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id QAA04568 for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 16:30:34 +1000 (EST)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by marble.cc.monash.edu.au (8.8.5/8.8.5) with ESMTP id QAA23173
+	for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 16:04:50 +1000
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id QAA15470 for nomic@yoyo.cc.monash.edu.au; Thu, 21 Aug 1997 16:04:59 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199708210604.QAA15470@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Arbitrary changes et al.
+To: nomic@yoyo.cc.monash.edu.au
+Date: Thu, 21 Aug 1997 16:04:59 +1000 (EST)
+In-Reply-To: <Pine.GSO.3.95.970819165056.24437E-100000@fred> from "Ross Morgan-Linial" at Aug 19, 97 04:59:39 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 949
+Lines: 20
+Status: N
+
+Ross Morgan-Linial writes:
+>
+>The point is, you aren't playing the game *as* Crito, you're playing the
+>game *with the nickname of* Crito. Unlike RPGs (like D&D) and other games,
+>you aren't playing a 'character' in Agora, you're playing yourself. In
+>other words, in Agora, Crito is not a Player, Crito is another name for
+>David Albertz, who is a Player. (which makes "Crito is a Player" a true
+>statement, but these things are hard to talk about without this kind of
+>confusion :-)
+
+I think it's worth recalling at this point in the discussion that
+Agora's parent-game, Nomic World, was implemented as a MUD, which
+themselves have strong historical links to role-playing games. So
+it's not surprising that the avatar view should be hanging around.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 05:26 EDT 1997
+Received: from yoyo.cc.monash.edu.au (root@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA14135 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 05:26:05 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id QAA07203 for nomic-outgoing; Thu, 21 Aug 1997 16:13:18 +1000 (EST)
+Received: from aurora.cc.monash.edu.au (gardner@aurora.cc.monash.edu.au [130.194.1.91])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id QAA22278 for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 16:11:18 +1000 (EST)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id QAA14295 for nomic@yoyo.cc.monash.edu.au; Thu, 21 Aug 1997 16:11:18 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199708210611.QAA14295@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Arbitrary changes et al.
+To: nomic@yoyo.cc.monash.edu.au
+Date: Thu, 21 Aug 1997 16:11:17 +1000 (EST)
+In-Reply-To: <199708201520.KAA04287@poverty.bloomington.in.us> from "Scott Goehring" at Aug 20, 97 10:20:14 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 890
+Lines: 22
+Status: N
+
+Scott Goehring writes:
+>
+>Andre> By the way, I think that under Avatar-like theories this might
+>Andre> have been illegal (meaning 'ineffective', Xanadu was completely
+>Andre> legally subscribed, from a theoretic point of view there were
+>Andre> simply some postings which claimed to come from Xanadu while
+>Andre> they were not) as well.
+>
+>My personal feelings would be to determine whether the local law
+>applicable to Xanadu's locale (which, if I recall correctly, was New
+>Zealand) would have allowed the two persons comprising Xanadu to be
+>treated in law as a fictitious person; 
+
+Australia, actually. Andrew and Donna were students at the Australian
+National University in Canberra.
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 05:28 EDT 1997
+Received: from yoyo.cc.monash.edu.au (root@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA14147 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 05:28:25 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id OAA05004 for nomic-outgoing; Thu, 21 Aug 1997 14:38:37 +1000 (EST)
+Received: from marble.cc.monash.edu.au (root@marble.cc.monash.edu.au [130.194.9.2])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id OAA06387 for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 14:33:04 +1000 (EST)
+Received: from poverty.bloomington.in.us (xyplex3-5-6.ucs.indiana.edu [129.79.18.226])
+	by marble.cc.monash.edu.au (8.8.5/8.8.5) with ESMTP id NAA19592
+	for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 13:32:54 +1000
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id WAA05278; Wed, 20 Aug 1997 22:32:03 -0500
+Message-Id: <199708210332.WAA05278@poverty.bloomington.in.us>
+To: A.Bishop@student.anu.edu.au, nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Arbitrary changes et al. 
+In-reply-to: Your message of "Thu, 21 Aug 1997 09:11:39 +1000."
+             <Pine.LNX.3.95.970821085826.12536A-100000@brucehall20.anu.edu.au> 
+Date: Wed, 20 Aug 1997 22:32:02 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 1322
+Lines: 31
+Status: N
+
+"The" == The onceler <Andrew> writes:
+
+The> You recall incorrectly.  Xanadu, and we who comprise em, live in
+The> Australia.
+
+My apologies.
+
+The> On this interpretation, you later write, "...not to mention that
+The> an entity's personhood might vary if that person were to relocate
+The> elsewhere in the world (!), but I think it's most consistent with
+The> the way "person" is use elsewhere."  Now, maybe it's just me, but
+The> I fail to see how this is the "most consistent" interpretation.
+The> But then, I don't believe that the laws of any nation have _any_
+The> relevence to Agora (why should they?).
+
+They are only because Agora fails to define "person", leaving it up to
+"other standards".  I would argue that the "other standards" that
+should be used are those of the nation in which the alleged person
+is located.
+
+The> And if your view is accepted, and it turns out that Australian
+The> law does not treat Xanadu as a person, what's to stop us (or
+The> anyone else) from claiming that Xanadu resides in X (where X is a
+The> country that does treat Xanadu as a person).  
+
+It would depend on the law of country X.  Few, if any, countries allow
+for the formation of fictitious persons without the residency of at
+least one of the principals, or, barring that, the payment of funds
+and the filing of paperwork.
+
+?
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 05:47 EDT 1997
+Received: from yoyo.cc.monash.edu.au (root@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA14387 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 05:47:04 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id NAA21492 for nomic-outgoing; Thu, 21 Aug 1997 13:40:10 +1000 (EST)
+Received: from marble.cc.monash.edu.au (root@marble.cc.monash.edu.au [130.194.9.2])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id NAA10613 for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 13:32:35 +1000 (EST)
+Received: from poverty.bloomington.in.us (xyplex3-5-6.ucs.indiana.edu [129.79.18.226])
+	by marble.cc.monash.edu.au (8.8.5/8.8.5) with ESMTP id NAA19587
+	for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 13:32:13 +1000
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id WAA05242 for <nomic@yoyo.cc.monash.edu.au>; Wed, 20 Aug 1997 22:27:00 -0500
+Message-Id: <199708210327.WAA05242@poverty.bloomington.in.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Arbitrary changes et al. 
+In-reply-to: Your message of "Wed, 20 Aug 1997 20:16:44 -0400."
+             <s3fb50d8.085@rmv.state.ma.us> 
+Date: Wed, 20 Aug 1997 22:26:59 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 771
+Lines: 15
+Status: N
+
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> Let me see if I can make this clearer.  The abstraction I am
+David> talking about, "David playing some game", is the set of all of
+David> David's actions that pertain to the game, as opposed to those
+David> actions which do not pertain to the game (but still may occur
+David> *while* the game is being played).  
+
+I think the problem here is that because the scope of the actions
+which might pertain to a Nomic is unlimited, it is not possible to
+make the separation you wish to make.  In chess it is easy to identify
+those actions which are relevant to the game; in Nomic it is not,
+especially since an action which at present appears irrelevant might
+be made relevant later by a change in the Rules.
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 06:10 EDT 1997
+Received: from yoyo.cc.monash.edu.au (root@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA14655 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 06:10:40 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id NAA11986 for nomic-outgoing; Thu, 21 Aug 1997 13:24:35 +1000 (EST)
+Received: from poverty.bloomington.in.us (root@xyplex3-5-6.ucs.indiana.edu [129.79.18.226])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id NAA11715 for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 13:22:11 +1000 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id WAA05226 for <nomic@yoyo.cc.monash.edu.au>; Wed, 20 Aug 1997 22:21:54 -0500
+Message-Id: <199708210321.WAA05226@poverty.bloomington.in.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Arbitrary Change and Nomic Entities 
+In-reply-to: Your message of "Wed, 20 Aug 1997 18:51:58 EST."
+             <Pine.A41.3.95q.970820183459.198014A-100000@sp2n09.missouri.edu> 
+Date: Wed, 20 Aug 1997 22:21:51 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 2460
+Lines: 52
+Status: N
+
+"c647100" == c647100  <c647100@showme.missouri.edu> writes:
+
+c647100> Okay. So would you be fundamentally (as opposed to
+c647100> practically) opposed to a system that allowed a Recordkeeper
+c647100> to create/destroy/ redistibute a particular entity at his/her
+c647100> whim, but who was subject to replacement by vote of the other
+c647100> Players (e.g. if he/she chose not to follow certain
+c647100> guidelines of fairness, etc.)?
+
+I have no objection in principle to such a system, and would weigh any
+practical objection on the extent of legal discretion allowed the
+recordkeeper, the extent of the avenues of legal recourse which may be
+established, if any, and the potential for serious (legal) injury to
+players as a result of borderline behavior by the recordkeeper in
+question.
+
+c647100> Would you say that such a system was contrary to the
+c647100> principles of Nomic? 
+
+Not in the least.  Nothing I can think of requires a Nomic to
+absolutely regulate everything within its domain.  Even changing the
+Rules could be relatively unregulated; for example, in Fascist the
+Imperious Emperor can change the rules at whim.  Such deregulation
+would be of minimal in a play-by-email game, as only the keeper of the
+Rules would be in a situation to make use of it, but might be quite
+fascinating in a tabletop game.
+
+c647100> What about the Patent Titles Rule?
+
+I do not understand the question here.
+
+>>  I specifically deny that the Rules can grant existence, even in
+>> the abstract, to entities of any sort.  This power inheres in
+>> Players.
+
+c647100> I agree. And since enforcement of the Rules is left solely to
+c647100> the Players, would you accept the proposition that, in
+c647100> practice at least, the Rules cannot impel any action the
+c647100> Players cannot?
+
+Of course.  The power of the Rules to compel derives from the fact
+that the Rules are presumed to be the the codification of the
+expressed will of the Players, and as such the Rules are dependent on
+the (implied) Game Contract for their authority.  Ultimately, the
+Rules depend on the Players for their very existence.  
+
+I also tend to accept Suber's suggestion of an inherent right to
+amend; the Players can, by unanimous consent, amend the Rules, the
+Rules notwithstanding.  It's debatable whether this can be
+accomplished by less than a unanimity; in part it depends on how vocal
+and determined the minority is, and how sacrificiable the majority
+apprehends the minority to be.
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 06:11 EDT 1997
+Received: from yoyo.cc.monash.edu.au (root@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA14667 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 06:11:22 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id NAA26457 for nomic-outgoing; Thu, 21 Aug 1997 13:24:12 +1000 (EST)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id NAA07972 for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 13:21:29 +1000 (EST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 20 Aug 1997 23:25:58 -0400
+Message-Id: <s3fb7d06.090@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 20 Aug 1997 23:25:36 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Arbitrary changes et al.
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain
+Content-Length: 2101
+Lines: 40
+Status: N
+
+Re: DIS: Arbitrary changes et al.
+
+Antimatter wrote:
+
+>Hrrmm...?
+
+>The player/person distinction, according to this Player and this person,
+>does not exist, in fact, in Agora. It may exist, in fact, in other games.
+>However, the fact that it exists in other games is not relevant to the
+>discussion at hand, which is concerned with Agora. It does not exist in
+>Agora because the rules, which define what exists and does not exist in
+>Agora (the game, the society, and the mathematical abstraction) to a large
+>extent, say that a player _is_ a person, not a representation of a person.
+>Antimatter and Ross Morgan-Linial are one, inseperable being, with two
+>different names (in Agora). I trust that my point is sufficiently clear.
+
+Your point is perfectly clear.  Unfortunately, I have been very unsuccessful in
+making myself clear.  I am not, repeat not, talking about a player/person
+distinction.  I am talking about an abstraction, which I called a "player
+abstraction", that may best be described as "the set of all actions by a person
+that are subject to the rules of the game". In Agora, as interpreted by you and
+most other players, this is equal to "the set of all actions by a [registered]
+person", which makes it possible for you, Scott and others to completely ignore
+this abstraction and even deny that it exists in Agora.  But it does exist in
+Agora because the Rules define a set of player actions over which the Rules
+claim jurisdiction.  The set just happens to be the set of all actions, as
+currently interpreted.
+
+In most, if not all, other games, these two sets are not equivalent.  Myself,
+and I expect most players first coming into Agora, are not expecting these two
+sets to be equivalent.  There are "role playing" aspects to Agora that
+facilitate a natural tendency on the part of the uninitiated to
+anthropomorphize this "player abstraction" into the dreaded avatar.
+
+BTW, it should not be necessary for something to exist in Agora in order for it
+to be relevant to a discussion concerning Agora.  That restriction would make
+for a rather dull and static game.  8)
+
+-- Crito
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 10:21 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA19190 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 10:21:38 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id AAA14117 for nomic-outgoing; Fri, 22 Aug 1997 00:06:55 +1000 (EST)
+Received: from cyber3.servtech.com (particle@cyber3.servtech.com [199.1.22.25])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id AAA05407 for <nomic@yoyo.cc.monash.edu.au>; Fri, 22 Aug 1997 00:06:24 +1000 (EST)
+Received: (from particle@localhost) by cyber3.servtech.com (8.8.6/8.8.5) id KAA16341 for nomic@yoyo.cc.monash.edu.au; Thu, 21 Aug 1997 10:06:16 -0400 (EDT)
+From: linda hall <particle@servtech.com>
+Message-Id: <199708211406.KAA16341@cyber3.servtech.com>
+Subject: Re: DIS: Re: BUS: Proto for EiP fix
+In-Reply-To: <199708201614.SAA15761@logatome.micronet.fr> from Laurent Bossavit at "Aug 20, 97 06:18:19 pm"
+To: nomic@yoyo.cc.monash.edu.au
+Date: Thu, 21 Aug 1997 10:06:16 -0400 (EDT)
+X-Mailer: ELM [version 2.4ME+ PL31 (25)]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 313
+Lines: 15
+Status: N
+
+Morendil:
+ 
+> One Week ? You must be kidding. Remember, in some instances the Probate Code
+> forbids an EiP from executing eir duties. Also I think it would be safer to
+> adopt a name that does not include 'Executor', so as to make the distinction
+> clear. 
+
+I know! "Probation officer"! :)
+
+
+
+
+Chaos Harlequin
+
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 10:39 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA19688 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 10:39:25 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id AAA23923 for nomic-outgoing; Fri, 22 Aug 1997 00:32:33 +1000 (EST)
+Received: from marble.cc.monash.edu.au (root@marble.cc.monash.edu.au [130.194.9.2])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id AAA16743 for <nomic@yoyo.cc.monash.edu.au>; Fri, 22 Aug 1997 00:30:58 +1000 (EST)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by marble.cc.monash.edu.au (8.8.5/8.8.5) with SMTP id XAA24874
+	for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 23:39:06 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 21 Aug 1997 09:44:01 -0400
+Message-Id: <s3fc0de1.075@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 21 Aug 1997 09:43:13 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Arbitrary changes et al.
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain
+Content-Length: 1521
+Lines: 30
+Status: N
+
+Re: DIS: Arbitrary changes et al.
+
+Scott wrote:
+
+>David> Let me see if I can make this clearer.  The abstraction I am
+>David> talking about, "David playing some game", is the set of all of
+>David> David's actions that pertain to the game, as opposed to those
+>David> actions which do not pertain to the game (but still may occur
+>David> *while* the game is being played).  
+
+>I think the problem here is that because the scope of the actions
+>which might pertain to a Nomic is unlimited, it is not possible to
+>make the separation you wish to make.  In chess it is easy to identify
+>those actions which are relevant to the game; in Nomic it is not,
+>especially since an action which at present appears irrelevant might
+>be made relevant later by a change in the Rules.
+
+I'm willing to accept that the nature of Nomic may cause some practical
+problems in making a clear cut distinction between these two sets of actions.
+Although in general, especially for e-mail games, I don't think it is as
+difficult as some people think.  A perfectly reasonable and easily identifiable
+set of governed actions in an e-mail based Nomic is "all communicative actions
+between players + any action explicitly described within the rules".  I don't
+see any theoretical problem in the fact that a game might allow the set of rule
+governed actions to change during the course of play and I don't see this as
+necessarily making it any harder to tell which actions are relevant to a Nomic
+(at any given moment) than a game of chess.
+
+-- Crito
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 11:14 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA20683 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 11:13:59 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id BAA06400 for nomic-outgoing; Fri, 22 Aug 1997 01:03:40 +1000 (EST)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id BAA28356 for <nomic@yoyo.cc.monash.edu.au>; Fri, 22 Aug 1997 01:02:50 +1000 (EST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 21 Aug 1997 11:07:32 -0400
+Message-Id: <s3fc2174.003@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 21 Aug 1997 11:06:54 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Re: BUS: Proto for EiP fix
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain
+Content-Length: 398
+Lines: 17
+Status: N
+
+Re: DIS: Re: BUS: Proto for EiP fix
+
+Harlequin wrote:
+
+>Morendil:
+ 
+>> One Week ? You must be kidding. Remember, in some instances the Probate Code
+>> forbids an EiP from executing eir duties. Also I think it would be safer to
+>> adopt a name that does not include 'Executor', so as to make the distinction
+>> clear. 
+
+>I know! "Probation officer"! :)
+
+Ahh, great minds think alike.  8)
+
+-- Crito
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 13:27 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA24593 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 13:27:51 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id DAA19085 for nomic-outgoing; Fri, 22 Aug 1997 03:19:06 +1000 (EST)
+Received: from poverty.bloomington.in.us (root@xyplex3-3-5.ucs.indiana.edu [129.79.18.185])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id DAA13221 for <nomic@yoyo.cc.monash.edu.au>; Fri, 22 Aug 1997 03:18:58 +1000 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id MAA05958 for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 12:18:43 -0500
+Message-Id: <199708211718.MAA05958@poverty.bloomington.in.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Arbitrary changes et al. 
+In-reply-to: Your message of "Thu, 21 Aug 1997 09:43:13 -0400."
+             <s3fc0de1.075@rmv.state.ma.us> 
+Date: Thu, 21 Aug 1997 12:18:39 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 1872
+Lines: 33
+Status: N
+
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> I'm willing to accept that the nature of Nomic may cause some
+David> practical problems in making a clear cut distinction between
+David> these two sets of actions.  Although in general, especially for
+David> e-mail games, I don't think it is as difficult as some people
+David> think.  A perfectly reasonable and easily identifiable set of
+David> governed actions in an e-mail based Nomic is "all communicative
+David> actions between players + any action explicitly described
+David> within the rules".
+
+The problems arise with "action explicitly described within the
+rules."  Suppose I were to hire terrorists to blow up Morendil's
+computer to keep him from voting on a Proposal.  Your definition would
+hold that that action was not "part of playing Agora", because hiring
+terrorists to blow up Morendil's computer is not a communicative
+action between two players, nor is it something specifically mentioned
+in the Rules.  But I would.  Contrariwise, Steve and I have chatted
+(via talk) about the foibles of the Australian parliament, as well as
+hundreds of other topics not ostensibly related to Agora.  Your
+definition would hold that those actions are "part of playing Agora"
+since they comprise communicative acts between players.  I would not.
+
+I'm not even sure that this discussion constitutes "playing Agora".
+It seems to me to be more a discussion about how we play Agora, and
+belongs more properly to some level of metaplay, rather than to the
+actual play itself.
+
+I therefore submit that your definition captures things it should not,
+and fails to capture things it should, and is therefore inadequate.
+The failure to capture things that should be is, in my opinion, a more
+serious flaw; thus, I consider the general conceptualization, which
+captures every action of a Player, as more useful.
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 16:08 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA29016 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 16:08:19 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id GAA27994 for nomic-outgoing; Fri, 22 Aug 1997 06:03:02 +1000 (EST)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id GAA27194 for <nomic@yoyo.cc.monash.edu.au>; Fri, 22 Aug 1997 06:02:54 +1000 (EST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 21 Aug 1997 16:07:45 -0400
+Message-Id: <s3fc67d1.020@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 21 Aug 1997 16:07:00 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Arbitrary changes et al.
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain
+Content-Length: 2163
+Lines: 47
+Status: N
+
+Re: DIS: Arbitrary changes et al.
+
+Scott wrote:
+
+>The problems arise with "action explicitly described within the
+>rules."  Suppose I were to hire terrorists to blow up Morendil's
+>computer to keep him from voting on a Proposal.  Your definition would
+>hold that that action was not "part of playing Agora", because hiring
+>terrorists to blow up Morendil's computer is not a communicative
+>action between two players, nor is it something specifically mentioned
+>in the Rules.  But I would.
+
+Wrong.  Commiting violence againt another person or their property *is* a
+communicative act.
+
+>  Contrariwise, Steve and I have chatted
+>(via talk) about the foibles of the Australian parliament, as well as
+>hundreds of other topics not ostensibly related to Agora.  Your
+>definition would hold that those actions are "part of playing Agora"
+>since they comprise communicative acts between players.  I would not.
+
+Your definition already includes this activity as part of playing Agora too. 
+It would be easy to change it to "all communicative acts relating to Agora" but
+then you might introduce ambiguities regarding which communications actually
+relate to Agora.
+
+>I'm not even sure that this discussion constitutes "playing Agora".
+>It seems to me to be more a discussion about how we play Agora, and
+>belongs more properly to some level of metaplay, rather than to the
+>actual play itself.
+
+Fascinating.  This is precisely the position I took during the last version of
+this debate - that we are not "playing Agora" all the time.  You, Chuck and
+Steve vigorously advocated otherwise and convinced me that the Rules had to be
+interpreted such that we are "playing Agora" continuously.
+
+>I therefore submit that your definition captures things it should not,
+>and fails to capture things it should, and is therefore inadequate.
+>The failure to capture things that should be is, in my opinion, a more
+>serious flaw; thus, I consider the general conceptualization, which
+>captures every action of a Player, as more useful.
+
+I disagree.  You will have to come up with a better example of something that
+is not captured which should be to convince me otherwise.
+
+-- Crito
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 19:44 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA03497 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 19:44:00 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id JAA10423 for nomic-outgoing; Fri, 22 Aug 1997 09:36:16 +1000 (EST)
+Received: from poverty.bloomington.in.us (root@xyplex3-3-5.ucs.indiana.edu [129.79.18.185])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id JAA15534 for <nomic@yoyo.cc.monash.edu.au>; Fri, 22 Aug 1997 09:36:01 +1000 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id SAA06357 for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 18:35:57 -0500
+Message-Id: <199708212335.SAA06357@poverty.bloomington.in.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Arbitrary changes et al. 
+In-reply-to: Your message of "Thu, 21 Aug 1997 16:07:00 -0400."
+             <s3fc67d1.020@rmv.state.ma.us> 
+Date: Thu, 21 Aug 1997 18:35:56 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 1311
+Lines: 31
+Status: N
+
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> Wrong.  Commiting violence againt another person or their
+David> property *is* a communicative act.
+
+The supposed act was that of hiring terrorists to blow up Morendil's
+computer.  In the hypothetical example, it is not supposed that I
+personally blew up Morendil's computer.
+
+That aside, if you take this stance, _every_ act is communicative, or
+at least potentially is.
+
+>> I'm not even sure that this discussion constitutes "playing Agora".
+>> It seems to me to be more a discussion about how we play Agora, and
+>> belongs more properly to some level of metaplay, rather than to the
+>> actual play itself.
+
+David> Fascinating.  This is precisely the position I took during the
+David> last version of this debate - that we are not "playing Agora"
+David> all the time.  You, Chuck and Steve vigorously advocated
+David> otherwise and convinced me that the Rules had to be interpreted
+David> such that we are "playing Agora" continuously.
+
+I argue that you are always subject to the Rules, even when you are
+not ostensibly "playing Agora".
+
+David> I disagree.  You will have to come up with a better example of
+David> something that is not captured which should be to convince me
+David> otherwise.
+
+What's wrong with the example already given?
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 20:09 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA03980 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 20:09:37 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id KAA15295 for nomic-outgoing; Fri, 22 Aug 1997 10:04:51 +1000 (EST)
+Received: from mail.missouri.edu (mail.missouri.edu [128.206.2.169])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id KAA05098 for <nomic@yoyo.cc.monash.edu.au>; Fri, 22 Aug 1997 10:04:30 +1000 (EST)
+Received: from sp2n09.missouri.edu (sp2n09.missouri.edu [128.206.2.17])
+	by mail.missouri.edu (8.8.5/8.8.5) with ESMTP id TAA70456
+	for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 19:04:22 -0500
+Received: from localhost (c647100@localhost)
+	by sp2n09.missouri.edu (8.8.5/8.8.5) with SMTP id TAA196760
+	for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 19:03:41 -0500
+From: c647100@showme.missouri.edu
+X-Authentication-Warning: sp2n09.missouri.edu: c647100 owned process doing -bs
+Date: Thu, 21 Aug 1997 19:03:41 -0500 (CDT)
+X-Sender: c647100@sp2n09.missouri.edu
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Arbitrary Change and Nomic Entities 
+In-Reply-To: <199708210321.WAA05226@poverty.bloomington.in.us>
+Message-ID: <Pine.A41.3.95q.970821185838.50248A-100000@sp2n09.missouri.edu>
+MIME-Version: 1.0
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Length: 1318
+Lines: 36
+Status: N
+
+
+
+On Wed, 20 Aug 1997, Scott Goehring wrote:
+
+> 
+> >>  I specifically deny that the Rules can grant existence, even in
+> >> the abstract, to entities of any sort.  This power inheres in
+> >> Players.
+> 
+> c647100> I agree. And since enforcement of the Rules is left solely to
+> c647100> the Players, would you accept the proposition that, in
+> c647100> practice at least, the Rules cannot impel any action the
+> c647100> Players cannot?
+> 
+> Of course.  The power of the Rules to compel derives from the fact
+> that the Rules are presumed to be the the codification of the
+> expressed will of the Players, and as such the Rules are dependent on
+> the (implied) Game Contract for their authority.  Ultimately, the
+> Rules depend on the Players for their very existence.  
+
+So any Rule that attempts to allow, or compel, an impossible action has,
+ipso facto, no effect, right?
+
+> 
+> I also tend to accept Suber's suggestion of an inherent right to
+> amend; the Players can, by unanimous consent, amend the Rules, the
+> Rules notwithstanding.  It's debatable whether this can be
+> accomplished by less than a unanimity; in part it depends on how vocal
+> and determined the minority is, and how sacrificiable the majority
+> apprehends the minority to be.
+> 
+I applaud you; this view coincides exactly with my own.
+
+Vlad
+
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 20:19 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA04171 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 20:19:50 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id KAA12415 for nomic-outgoing; Fri, 22 Aug 1997 10:13:40 +1000 (EST)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id KAA27024 for <nomic@yoyo.cc.monash.edu.au>; Fri, 22 Aug 1997 10:13:29 +1000 (EST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 21 Aug 1997 20:18:15 -0400
+Message-Id: <s3fca287.085@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 21 Aug 1997 20:17:21 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Arbitrary changes et al.
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain
+Content-Length: 2220
+Lines: 54
+Status: N
+
+Re: DIS: Arbitrary changes et al.
+
+Scott wrote:
+
+>David> Wrong.  Commiting violence againt another person or their
+>David> property *is* a communicative act.
+
+>The supposed act was that of hiring terrorists to blow up Morendil's
+>computer.  In the hypothetical example, it is not supposed that I
+>personally blew up Morendil's computer.
+
+You don't have to personally deliver a letter to Morendil in order to
+communicate with em by writing either.  The terrorists you hired are merely the
+"postmen" that have delivered your message.
+
+>That aside, if you take this stance, _every_ act is communicative, or
+>at least potentially is.
+
+Every act that transmits information from one party to another is
+communicative.  There are plenty of actions that do no such thing.  Although
+admittedly there are acts which do so in some contexts but not in others.  So
+what?
+
+>>> I'm not even sure that this discussion constitutes "playing Agora".
+>>> It seems to me to be more a discussion about how we play Agora, and
+>>> belongs more properly to some level of metaplay, rather than to the
+>>> actual play itself.
+
+>David> Fascinating.  This is precisely the position I took during the
+>David> last version of this debate - that we are not "playing Agora"
+>David> all the time.  You, Chuck and Steve vigorously advocated
+>David> otherwise and convinced me that the Rules had to be interpreted
+>David> such that we are "playing Agora" continuously.
+
+>I argue that you are always subject to the Rules, even when you are
+>not ostensibly "playing Agora".
+
+I see.  I had not realized you made that distinction from the prior discussion.
+I'm not sure I agree that it is a valid distinction, since I would consider any
+action that is subject to the rules to be an action "in play".  Maybe it would
+be better to say that the argument seems to me to have been that you are
+"playing Agora" even when you are not ostensibly "playing Agora".  8)
+
+>David> I disagree.  You will have to come up with a better example of
+>David> something that is not captured which should be to convince me
+>David> otherwise.
+
+>What's wrong with the example already given?
+
+What's wrong is, as I have said, your example is one of a communicative action.
+
+-- Crito
+
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 20:22 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA04233 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 20:22:39 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id KAA31772 for nomic-outgoing; Fri, 22 Aug 1997 10:17:20 +1000 (EST)
+Received: from mail.missouri.edu (mail.missouri.edu [128.206.2.169])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id KAA16246 for <nomic@yoyo.cc.monash.edu.au>; Fri, 22 Aug 1997 10:16:33 +1000 (EST)
+Received: from sp2n09.missouri.edu (sp2n09.missouri.edu [128.206.2.17])
+	by mail.missouri.edu (8.8.5/8.8.5) with ESMTP id TAA78736
+	for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 19:16:23 -0500
+Received: from localhost (c647100@localhost)
+	by sp2n09.missouri.edu (8.8.5/8.8.5) with SMTP id TAA143770
+	for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 19:15:42 -0500
+From: c647100@showme.missouri.edu
+X-Authentication-Warning: sp2n09.missouri.edu: c647100 owned process doing -bs
+Date: Thu, 21 Aug 1997 19:15:42 -0500 (CDT)
+X-Sender: c647100@sp2n09.missouri.edu
+To: nomic@yoyo.cc.monash.edu.au
+Subject: DIS: Revised 116 try two
+Message-ID: <Pine.A41.3.95q.970821190345.50248B-100000@sp2n09.missouri.edu>
+MIME-Version: 1.0
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Length: 1182
+Lines: 28
+Status: N
+
+
+Is this any better?
+
+Revised 116:
+
+   Any action not prohibited or regulated by the Rules is permissible,
+although not necessarily possible, with the sole exception of changing the
+Rules, which is permitted only when a Rule or set of Rules explicitly
+or implicitly permits it.
+   Players may manipulate any other entity created by the General Will of
+the Players by posting a description of the manipulation to the Public
+Forum, PROVIDED the manipulation is not paradoxical and is not prohibited
+or otherwise regulated by the Rules. Such manipulations include, but
+are not necessarily limited to, creation, destruction, and changes in
+ownership or other properties.
+   Entities created by the Private Will of an individual Player are
+also subject to this Rule, provided the Player who created them
+gives express permission.
+   In the case of a dispute as to the legality or effects of such
+a manipulation, it is the sole responsibility of the interested
+Player(s) to provide evidence of the nature and timing of the
+manipulation. If such evidence cannot be produced, the manipulation
+shall be disallowed.
+-------------------------------------------------------------------
+
+Vlad
+
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 20:40 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA04576 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 20:40:19 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id KAA00018 for nomic-outgoing; Fri, 22 Aug 1997 10:33:32 +1000 (EST)
+Received: from poverty.bloomington.in.us (root@xyplex3-3-5.ucs.indiana.edu [129.79.18.185])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id KAA13440 for <nomic@yoyo.cc.monash.edu.au>; Fri, 22 Aug 1997 10:33:26 +1000 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id TAA06531 for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 19:33:18 -0500
+Message-Id: <199708220033.TAA06531@poverty.bloomington.in.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Arbitrary changes et al. 
+In-reply-to: Your message of "Thu, 21 Aug 1997 20:17:21 -0400."
+             <s3fca287.085@rmv.state.ma.us> 
+Date: Thu, 21 Aug 1997 19:33:15 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 1331
+Lines: 33
+Status: N
+
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> You don't have to personally deliver a letter to Morendil in
+David> order to communicate with em by writing either.  The terrorists
+David> you hired are merely the "postmen" that have delivered your
+David> message.
+
+I am not seeking to communicate with Morendil.  I am seeking to
+prevent him from casting a vote by interfering with him ability to
+communicate with others.  No particular message to Morendil is
+intended by this action.
+
+Would you still consider it an act of communication if I hired a
+hacker to disable Morendil's email?
+
+>> I argue that you are always subject to the Rules, even when you are
+>> not ostensibly "playing Agora".
+
+David> I see.  I had not realized you made that distinction from the
+David> prior discussion.  I'm not sure I agree that it is a valid
+David> distinction, since I would consider any action that is subject
+David> to the rules to be an action "in play".  Maybe it would be
+David> better to say that the argument seems to me to have been that
+David> you are "playing Agora" even when you are not ostensibly
+David> "playing Agora".  8)
+
+I think that at this point we are arguing terminology rather than
+substance.
+
+David> What's wrong is, as I have said, your example is one of a
+David> communicative action.
+
+I disagree.
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 20:41 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA04615 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 20:41:22 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id KAA22158 for nomic-outgoing; Fri, 22 Aug 1997 10:34:48 +1000 (EST)
+Received: from poverty.bloomington.in.us (root@xyplex3-3-5.ucs.indiana.edu [129.79.18.185])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id KAA30542 for <nomic@yoyo.cc.monash.edu.au>; Fri, 22 Aug 1997 10:34:32 +1000 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id TAA06545 for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 19:34:28 -0500
+Message-Id: <199708220034.TAA06545@poverty.bloomington.in.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Revised 116 try two 
+In-reply-to: Your message of "Thu, 21 Aug 1997 19:15:42 EST."
+             <Pine.A41.3.95q.970821190345.50248B-100000@sp2n09.missouri.edu> 
+Date: Thu, 21 Aug 1997 19:34:28 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 593
+Lines: 12
+Status: N
+
+"c647100" == c647100  <c647100@showme.missouri.edu> writes:
+
+c647100> Players may manipulate any other entity created by the
+c647100> General Will of the Players by posting a description of the
+c647100> manipulation to the Public Forum, PROVIDED the manipulation
+c647100> is not paradoxical and is not prohibited or otherwise
+c647100> regulated by the Rules. Such manipulations include, but are
+c647100> not necessarily limited to, creation, destruction, and
+c647100> changes in ownership or other properties.
+
+Doesn't this effectively subordinate the will of the many to the will
+of the one?
+
+From owner-nomic@yoyo.cc.monash.edu.au Thu Aug 21 20:53 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA04848 for <dpb@cs.brown.edu>; Thu, 21 Aug 1997 20:53:01 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id KAA20064 for nomic-outgoing; Fri, 22 Aug 1997 10:46:22 +1000 (EST)
+Received: from mail.missouri.edu (mail.missouri.edu [128.206.2.169])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id KAA29208 for <nomic@yoyo.cc.monash.edu.au>; Fri, 22 Aug 1997 10:46:03 +1000 (EST)
+Received: from sp2n09.missouri.edu (sp2n09.missouri.edu [128.206.2.17])
+	by mail.missouri.edu (8.8.5/8.8.5) with ESMTP id TAA101100
+	for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 19:45:46 -0500
+Received: from localhost (c647100@localhost)
+	by sp2n09.missouri.edu (8.8.5/8.8.5) with SMTP id TAA45928
+	for <nomic@yoyo.cc.monash.edu.au>; Thu, 21 Aug 1997 19:45:05 -0500
+From: c647100@showme.missouri.edu
+X-Authentication-Warning: sp2n09.missouri.edu: c647100 owned process doing -bs
+Date: Thu, 21 Aug 1997 19:45:05 -0500 (CDT)
+X-Sender: c647100@sp2n09.missouri.edu
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Revised 116 try two 
+In-Reply-To: <199708220034.TAA06545@poverty.bloomington.in.us>
+Message-ID: <Pine.A41.3.95q.970821194158.50248C-100000@sp2n09.missouri.edu>
+MIME-Version: 1.0
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Length: 985
+Lines: 25
+Status: N
+
+
+
+On Thu, 21 Aug 1997, Scott Goehring wrote:
+
+> "c647100" == c647100  <c647100@showme.missouri.edu> writes:
+> 
+> c647100> Players may manipulate any other entity created by the
+> c647100> General Will of the Players by posting a description of the
+> c647100> manipulation to the Public Forum, PROVIDED the manipulation
+> c647100> is not paradoxical and is not prohibited or otherwise
+> c647100> regulated by the Rules. Such manipulations include, but are
+> c647100> not necessarily limited to, creation, destruction, and
+> c647100> changes in ownership or other properties.
+> 
+> Doesn't this effectively subordinate the will of the many to the will
+> of the one?
+> 
+Not at all. The Rules (the will of the many) take precedence. Only
+in the absence of a Rule does the individual have power.
+I have also been thinking about adding a clause allowing a Referendum
+to withdraw the authority of the new 116 for specific actions, to reduce
+the possibilty of catastrophic side effects.
+
+Vlad
+
+

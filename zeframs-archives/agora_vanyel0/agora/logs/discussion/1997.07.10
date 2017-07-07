@@ -1,0 +1,1137 @@
+From owner-nomic-discussion@teleport.com Thu Jul 10 00:02 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA03888 for <dpb@cs.brown.edu>; Thu, 10 Jul 1997 00:02:48 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id VAA27657; Wed, 9 Jul 1997 21:02:06 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Wed, 9 Jul 1997 21:02:05 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id VAA27645 for nomic-discussion-outgoing; Wed, 9 Jul 1997 21:02:05 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id VAA27551 for <nomic-discussion@teleport.com>; Wed, 9 Jul 1997 21:01:43 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id OAA04480 for nomic-discussion@teleport.com; Thu, 10 Jul 1997 14:01:41 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707100401.OAA04480@aurora.cc.monash.edu.au>
+Subject: Re: BUS: proto: Restore Game Balance II, v2
+To: nomic-discussion@teleport.com
+Date: Thu, 10 Jul 1997 14:01:41 +1000 (EST)
+In-Reply-To: <199707090533.PAA04107@aurora.cc.monash.edu.au> from "Steve Gardner" at Jul 9, 97 03:33:05 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2086
+Status: N
+
+Steve Gardner writes:
+>
+>####
+>Proto-Proposal
+>Restore Game Balance II
+>
+>Be it therefore resolved that a Rule, entitled "Restore Game Balance II",
+>be enacted with the following text:
+>
+>      Upon the creation of this Rule, the following changes to Nomic
+>      Properties take place:
+>
+[snip]
+>
+>      (3) the number of Voting Tokens possessed by each Entity other
+>          than the Bank is adjusted to be one tenth of its previous
+>          value, and to each such decrease caused by this adjustment
+>          there corresponds an equivalent increase in the number of
+>          Voting Tokens held by the Bank.
+
+The business of making exceptions is a dangerous one, but I feel that
+Kolja and possibly Elde should probably be excepted, or at least
+treated differently, when the above adjustment is made, since they
+were not registered during the period of high VT supply, and hence
+did not benefit from it. My idea is to add these paragraphs to the
+Proposal:
+
+      (4) if the number of Voting Tokens possessed by Elde after 
+          the adjustment performed above in (3) is less than 5, 
+          then the number of Voting Tokens possessed by Elde is 
+          adjusted to be 5, and to the increase caused by this
+          adjustment there corresponds an equivalent decrease in
+          the number of Voting Tokens held by the Bank.
+
+      (5) if the number of Voting Tokens possessed by Kolja A. after 
+          the adjustment performed above in (3) is less than 5, 
+          then the number of Voting Tokens possessed by Kolja A. is 
+          adjusted to be 5, and to the increase caused by this
+          adjustment there corresponds an equivalent decrease in
+          the number of Voting Tokens held by the Bank.
+
+Any objections?
+
+Note that since Elde is Maybe Absent, it's quite possible he'll be
+deregistered before this takes effect, obviating the need for (4).
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Thu Jul 10 06:01 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA09605 for <dpb@cs.brown.edu>; Thu, 10 Jul 1997 06:01:26 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id CAA20000; Thu, 10 Jul 1997 02:48:32 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Thu, 10 Jul 1997 02:48:24 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id CAA19977 for nomic-discussion-outgoing; Thu, 10 Jul 1997 02:48:23 -0700 (PDT)
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33]) by greta.teleport.com (8.8.5/8.7.3) with SMTP id CAA19959 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 02:48:18 -0700 (PDT)
+Received: (qmail 21586 invoked from network); 10 Jul 1997 09:45:37 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 10 Jul 1997 09:45:37 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA17797; Thu, 10 Jul 1997 11:45:36 +0200
+Date: Thu, 10 Jul 1997 11:45:36 +0200
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9707100945.AA17797@spinup.tp3.ruhr-uni-bochum.de>
+To: nomic-discussion@teleport.com
+In-Reply-To: message from Steve Gardner on Thu, 10 Jul 1997 14:01:41 +1000 (EST)
+Subject: Re: BUS: proto: Restore Game Balance II, v2
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 2041
+Status: N
+
+Steve wrote:
+
+>>The business of making exceptions is a dangerous one, but I feel
+that Kolja and possibly Elde should probably be excepted, or at least
+treated differently, when the above adjustment is made<<
+
+Well, thank you for this friendly gesture - I would certainly
+appreciate not being cut down to 0.5 VT or so. 
+
+I share your dislike of exceptions, though, especially when they are
+obviously tailored to individual players - they may be a good thing in
+terms of motivating players or for fairness, but they just don't
+"feel" right. Why not make the exception more generic: say, have a
+similar exception phrase with "if the number of Voting Tokens
+possessed by any player after the adjustment performed above in (3) is
+less than 5, ...". This would at least sound more impartial (and it
+would also accommodate other new players who might join Agora during
+the voting period of this proposal).
+
+By the way, you probably have discussed all this over and over again,
+but concerning the strategy of "one-off rules": normally, rules do not
+implement one-off effects, and they do not immedately change the game
+state, they just provide the static framework within which play takes
+place. Single changes of the game state, properties of entities etc
+via proposal and vote are deliberately made difficult in the rules (I
+guess in that sense the failure of RGBI was in accordance to the game
+spirit). 
+
+Now changing things via the formal trick of a self-repealing rule may
+work, and be legal, but it somehow feels like sweeping a difficulty
+under the rug. What do you think: is it part of a deliberate game
+design that arbitrary changes to the game state cannot be made by
+adopting a proposal (unless one circumvents that problem with the
+clumsy device of a self-repealing rule), so something like RGBII goes
+against the spirit of the game, or do we really want to allow such
+changes, but we simply haven't yet gotten round to introducing a
+loophole-free rule section for that, so we make do improvising within
+the rules as they are?
+
+Kolja A.
+
+From owner-nomic-discussion@teleport.com Thu Jul 10 09:55 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA13999 for <dpb@cs.brown.edu>; Thu, 10 Jul 1997 09:55:23 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id GAA26314; Thu, 10 Jul 1997 06:53:13 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Thu, 10 Jul 1997 06:53:10 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id GAA26263 for nomic-discussion-outgoing; Thu, 10 Jul 1997 06:53:09 -0700 (PDT)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19]) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id GAA26251 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 06:53:05 -0700 (PDT)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 10 Jul 1997 09:57:11 -0400
+Message-Id: <s3c4b1f7.035@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 10 Jul 1997 09:56:34 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: proto: Restore Game Balance II, v2
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain
+Content-Length: 493
+Status: N
+
+Steve wrote:
+
+>The business of making exceptions is a dangerous one, but I feel that
+>Kolja and possibly Elde should probably be excepted, or at least
+>treated differently, when the above adjustment is made, since they
+>were not registered during the period of high VT supply, and hence
+>did not benefit from it. My idea is to add these paragraphs to the
+>Proposal: ...
+
+I think Kolja's suggestion that it be made generic (any player with less
+than 5 VTs gets 5 VTs) is a good one.
+
+-- Crito
+
+
+From owner-nomic-discussion@teleport.com Thu Jul 10 10:04 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA14187 for <dpb@cs.brown.edu>; Thu, 10 Jul 1997 10:03:58 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id HAA28341; Thu, 10 Jul 1997 07:01:38 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Thu, 10 Jul 1997 07:01:37 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id HAA28328 for nomic-discussion-outgoing; Thu, 10 Jul 1997 07:01:37 -0700 (PDT)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19]) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id HAA28310 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 07:01:33 -0700 (PDT)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 10 Jul 1997 10:05:41 -0400
+Message-Id: <s3c4b3f5.036@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 10 Jul 1997 10:05:11 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: proto: Restore Game Balance II, v2 -Reply
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain
+Content-Length: 1837
+Status: N
+
+Kolja wrote:
+
+>By the way, you probably have discussed all this over and over again,
+>but concerning the strategy of "one-off rules": normally, rules do not
+>implement one-off effects, and they do not immedately change the game
+>state, they just provide the static framework within which play takes
+>place. Single changes of the game state, properties of entities etc
+>via proposal and vote are deliberately made difficult in the rules (I
+>guess in that sense the failure of RGBI was in accordance to the game
+>spirit). 
+
+>Now changing things via the formal trick of a self-repealing rule may
+>work, and be legal, but it somehow feels like sweeping a difficulty
+>under the rug. What do you think: is it part of a deliberate game
+>design that arbitrary changes to the game state cannot be made by
+>adopting a proposal (unless one circumvents that problem with the
+>clumsy device of a self-repealing rule), so something like RGBII goes
+>against the spirit of the game, or do we really want to allow such
+>changes, but we simply haven't yet gotten round to introducing a
+>loophole-free rule section for that, so we make do improvising within
+>the rules as they are?
+
+Well, Agora is my first experience with Nomic and I've only been around
+for a few months so I haven't seen any discussion of this before (and so
+I'm probably not the best spivak to answer this 8).  I've got the impression
+that self-repealing rules like this are a standard part of the game and are
+in keeping with the spirit of Nomic (but I could be wrong).  Clearly there
+needs to be some mechanism for making arbitrary changes to the game
+state when the need arises.  Self-repealing rules seem as good or better
+a way of doing it as any other, to me.  I would be interested in what your
+solution would be that involves some kind of loophole-free rule section.
+
+-- Crito
+
+
+From owner-nomic-discussion@teleport.com Thu Jul 10 12:31 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA18179 for <dpb@cs.brown.edu>; Thu, 10 Jul 1997 12:31:31 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id JAA09322; Thu, 10 Jul 1997 09:17:33 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Thu, 10 Jul 1997 09:17:26 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id JAA09242 for nomic-discussion-outgoing; Thu, 10 Jul 1997 09:17:25 -0700 (PDT)
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33]) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id JAA09172 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 09:17:16 -0700 (PDT)
+Received: (qmail 23561 invoked from network); 10 Jul 1997 16:17:14 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 10 Jul 1997 16:17:14 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA13853; Thu, 10 Jul 1997 18:17:13 +0200
+Date: Thu, 10 Jul 1997 18:17:13 +0200
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9707101617.AA13853@spinup.tp3.ruhr-uni-bochum.de>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: proto: Restore Game Balance II, v2 -Reply
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 2283
+Status: N
+
+Crito wrote:
+
+>>Self-repealing rules seem as good or better a way of doing it as any
+other, to me.  I would be interested in what your solution would be
+that involves some kind of loophole-free rule section.<<
+
+Well, naively I would think that something like RGBI should work:
+simply propose that "when this proposal is adopted, the following
+things happen:..." etc., where just about anything may be stated as
+"...". 
+
+And naively I would say Rule 594 (Proposals and Rule Changes) allows
+exactly that.
+
+Why did RGBI not work, anyway? It failed, and I must admit that I am
+not quite aware of the detailed arguments why it did, but there must
+be some reason :).
+
+Now in general I can imagine that just making everything accessible to
+changes due to "simple", non-rule proposals can lead to a whole lot of
+trouble; that's why I said that allowing it would require some
+loophole-proofing.
+
+And in fact, it seems to be a rather general principle that many
+important things in the game may only change in ways expressly
+provided for by some rule; for example, I see this principle in
+
+Rule 1011 Game Entities May Not Be Arbitrarily Changed
+Rule 1513 Authority of Non-Rule Entities
+Rule 1586 Definition and Continuity of Entities
+
+The same principle of tying everything to some rule also appears
+in many other places, like 
+
+Rule 1728 Actions Without Objection
+Rule 1467 Definition of a Currency
+Rule 1469 Creation and Destruction of Treasuries
+Rule 1472 Transfer of Currencies, esp. point c)
+Rule 1596 Currency Transfers, generally
+
+So the situation is this: the naive way, changing things be a mere
+proposal, is not possible in spite of Rule 594; there must be a rule
+involved. I suspect this limitation is there for a reason, maybe
+because it is the only way to avoid lots of loopholes.
+
+But then using self-repealing rules like RGBII seems to me to do - in
+spirit - just such a change by mere proposal, while obeying - in form
+- the principle that such changes are not allowed, and that a rule
+must somehow be involved to make an arbitrary, one-off change.
+
+And it is this tension that I don't quite understand yet - do you
+consider this no problem at all, or "looks bad, but works", or "we
+just haven't got round to doing it more elegantly, so we keep
+improvising" or what?
+
+Kolja A.
+
+From owner-nomic-discussion@teleport.com Thu Jul 10 13:48 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA20352 for <dpb@cs.brown.edu>; Thu, 10 Jul 1997 13:48:10 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id KAA10886; Thu, 10 Jul 1997 10:46:44 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Thu, 10 Jul 1997 10:46:39 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id KAA10840 for nomic-discussion-outgoing; Thu, 10 Jul 1997 10:46:36 -0700 (PDT)
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id KAA10772 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 10:46:30 -0700 (PDT)
+Received: from lolo.knc ([194.250.81.219])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id TAA03073
+	for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 19:46:19 +0200 (MET DST)
+Message-ID: <33C51FB4.540@micronet.fr>
+Date: Thu, 10 Jul 1997 19:45:24 +0200
+From: Laurent Bossavit <morendil@micronet.fr>
+Organization: netDIVE - publishers of CUChat, the One & Only 100% Visual Java Chat
+X-Mailer: Mozilla 3.01Gold (Win95; I)
+MIME-Version: 1.0
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: proto: Restore Game Balance II, v2 -Reply
+References: <9707101617.AA13853@spinup.tp3.ruhr-uni-bochum.de>
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 5161
+Status: N
+
+> Well, naively I would think that something like RGBI should work:
+> simply propose that "when this proposal is adopted, the following
+> things happen:..." etc., where just about anything may be stated as
+> "...". And naively I would say Rule 594 (Proposals and Rule Changes)
+> allows exactly that.
+
+That isn't so naive, in fact. Before a relatively recent reform,
+Proposals had been permitted to contain only two things, Rule Changes
+and Directives. You already know about Rule Changes; Directives were
+the instruments whereby parts of the Game State other than the Rules
+could be modified by a Proposal, and only those Directives that were
+specifically authorized by the Rules could have any effect on those
+parts of the Game State.
+
+That recent Proposal Reform auhtorized Proposals to make arbitrary
+changes to the Game State in the most general terms : that's what 
+the language in 594, "implemented to the maximal extent permitted
+by the Rules", is all about.
+
+> Why did RGBI not work, anyway? It failed, and I must admit that I am
+> not quite aware of the detailed arguments why it did, but there must
+> be some reason :).
+
+The reason why it failed is precisely that, rather than make arbitrary
+changes to the Game State, it attempted to call upon the procedure of
+Currency Transfers to effect a given set of 'monetary' changes. But
+the Rules that govern Currency Transfers are quite clear on one point -
+that for a Currency Transfer to be valid, there must be a Rule which
+specifies a Player required to record (or "detect and report", as Game
+Custom has it) that particular kind of Transfer.
+
+RGBI clashed with that particular requirement; the Proposal itself
+directed the Assessor to record the Transfers it called for, but that
+was not sufficient - a Proposal is not a Rule. (There was also a second
+problem with RGBI's attempt to call for Transfers, in that it wasn't
+clear that even had Rule 1596 allowed a Proposal to specify a Player
+to D&R the Transfers, Rule 594 would have been sufficient to authorize
+a Proposal to effect those Transfers. But that question didn't have to
+be addressed, as the D&R problem was, clearly, enough to make RGBI fail.)
+
+> Now in general I can imagine that just making everything accessible to
+> changes due to "simple", non-rule proposals can lead to a whole lot of
+> trouble; that's why I said that allowing it would require some
+> loophole-proofing.
+
+Actually, the intent of the aforementioned Proposal reform was to bring
+about just such a situation; it was adopted, presumably, because it was
+felt that the Rules contained sufficient safeguards against abuse of the
+procedure. The prevalent argument, IIRC, is that there's nothing that can
+be done with a Proposal with the current 594 that couldn't be done
+previously with a Proposal enacting one or more self-repealing Rules.
+
+> And it is this tension that I don't quite understand yet - do you
+> consider this no problem at all, or "looks bad, but works", or "we
+> just haven't got round to doing it more elegantly, so we keep
+> improvising" or what?
+
+Well, the answer to that, I think, is that a self-repealing Rule can,
+nevertheless, do things that a Proposal implementing arbitrary Game
+State changes cannot do. For instance, it's far from clear that a
+Proposal can have lasting effects, or impose obligations upon Players.
+Various arguments can be made for and against the effectiveness of
+all but the first of the following Proposal provisions :
+
+   When this Proposal is adopted, every Player's VT holdings shall be
+   set to 0.
+
+   When this Proposal is adopted, every Player shall be required to
+   donate all VTs to the Bank As Soon As Possible.
+
+   For ten days after this Proposal is adopted, no Player may possess
+   any VTs.
+
+   When this Proposal is adopted, all Players shall be awarded the
+   Patent Title of Nothinghead.
+
+   There are Entities known as Happy Pills; whenever a Player, for
+   any reason, holds no Happy Pills, he receives one.
+
+   The Nomic Century begins on the first day of any year, the last two
+   digits of which are "00", and lasts for one hundred years.
+
+All of these provisions would be controversial to some degree, IMHO,
+because what they attempt to "do" is usually regarded as the exclusive
+province of the Rules : impose requirements, specify a duration, create
+Entities, define new terms...
+
+I think your perception of a "tension" here derives from the fact that
+the current form of Rule 594 muddles the dividing line between Rules and
+Proposals. One of the reasons why the last Proposal Reform was successful
+was that Directives were generally considered useless and mostly broken.
+
+Personally, I think it could be quite useful to model a multi-tiered
+Proposal system after real-world law, and institute a graded series
+of Game-State-changing instruments including Directives (changing,
+like the Directives of old, specific and restricted parts of the Game
+State), Orders (imposing requirements on Players), Decrees (with
+authority to create or define Entities), Proposals (changing Rules),
+Constitutional Amendments, etc. These could be used to bring about
+the much-talked-about extension to Officer's powers.
+
+
+From owner-nomic-discussion@teleport.com Thu Jul 10 16:58 EDT 1997
+Received: from betty.teleport.com (betty.teleport.com [192.108.254.9]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA26235 for <dpb@cs.brown.edu>; Thu, 10 Jul 1997 16:58:04 -0400 (EDT)
+Received: from localhost (daemon@localhost)
+	by betty.teleport.com (8.8.5/8.8.5) with SMTP id NAA19758;
+	Thu, 10 Jul 1997 13:57:17 -0700 (PDT)
+Received: by betty.teleport.com (bulk_mailer v1.5); Thu, 10 Jul 1997 13:57:13 -0700
+Received: (from daemon@localhost)
+	by betty.teleport.com (8.8.5/8.8.5) id NAA19732
+	for nomic-discussion-outgoing; Thu, 10 Jul 1997 13:57:10 -0700 (PDT)
+Received: from igw2.watson.ibm.com (igw2.watson.ibm.com [198.81.209.6])
+	by betty.teleport.com (8.8.5/8.8.5) with ESMTP id NAA19714
+	for <nomic-discussion@lists.teleport.com>; Thu, 10 Jul 1997 13:57:05 -0700 (PDT)
+Received: from mailhub1.watson.ibm.com (mailhub1.watson.ibm.com [9.2.249.31]) by igw2.watson.ibm.com (8.8.5/06-04-97) with ESMTP id QAA07588 for <nomic-discussion@lists.teleport.com>; Thu, 10 Jul 1997 16:56:59 -0400
+Received: from yktvmv.watson.ibm.com (yktvmv.watson.ibm.com [9.117.33.29]) by mailhub1.watson.ibm.com (8.8.2/06-28-97-beta) with SMTP id QAA25196 for <nomic-discussion%lists.teleport.com@watson.ibm.com>; Thu, 10 Jul 1997 16:57:13 -0400
+Received: from YKTVMV by yktvmv.watson.ibm.com (IBM VM SMTP V2R4)
+   with BSMTP id 8341; Thu, 10 Jul 97 16:55:31 EDT
+Message-Id: <199707102057.QAA25196@mailhub1.watson.ibm.com>
+Date: Thu, 10 Jul 97 16:54:29 EDT
+From: "David M. Chess" <CHESS@watson.ibm.com>
+To: nomic-discussion@teleport.com
+Subject:   Re: devnull: ... is mere doggerel.
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 5479
+Status: N
+
+I just *had* to send this.  I don't know if y'all have already
+seen it, or even if Teleport will let me post it, but it's just
+*so* Agoran...   *8)
+
+The Once and Future Favor
+
+
+----------------------------- Note follows ------------------------------
+Message-Id: <199707101957.NAA09021@lager.beer.org>
+To: devnull@beer.org
+From: Herb Peyerl <hpeyerl@beer.org>
+Date: Thu, 10 Jul 1997 15:05:02 -0400 (EDT)
+Subject: devnull: ... is mere doggerel.
+Sender: owner-devnull@beer.org
+Precedence: bulk
+Reply-To: hpeyerl@beer.org
+
+Forwarded-by: Keith Bostic <bostic@bostic.com>
+
+Forwarded-by: jim@hosaka.SmallWorks.COM (Jim Thompson)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+BROWN v. THE STATE
+
+No. 50641
+
+Court of Appeals of Georgia
+134 Ga. App. 771; 216 S.E.2d 356
+
+April 30, 1975, Argued
+May 9, 1975, Decided
+
+PRIOR HISTORY:
+
+   Drug violation.  Chatham Superior Court.  Before Judge Harrison.
+
+DISPOSITION: Judgment reversed.
+
+COUNSEL: Robert J. Erb, for appellant.
+
+   Andrew J. Ryan, Jr., District Attorney, for appellee.
+
+JUDGES: Evans, Judge.  Deen, P. J., and Stolz, J., concur.
+
+OPINIONBY: EVANS
+
+OPINION:   [*771]     [**356]
+
+   The D. A. was ready
+   His case was red-hot.
+   Defendant was present,
+   His witness was not. n1
+
+- - - - - - - - - - - - - - - - - -Footnotes- - - - - - - - - - - - - - - - -
+
+   n1 See Wheat v. Fraker, 107 Ga. App. 318 (130 SE2d 251), for precedent in
+writing an opinion in rhyme.
+
+- - - - - - - - - - - - - - - - -End Footnotes- - - - - - - - - - - - - - - -
+
+   [*772]
+   He prayed one day's delay
+   From His honor the judge.
+   But his plea was not granted
+   The Court would not budge. n2
+
+- - - - - - - - - - - - - - - - - -Footnotes- - - - - - - - - - - - - - - - -
+
+   n2 I profoundly apologize to Judge Sol Clark, of this court, for invading
+the field of innovation and departure from normalcy in writing opinions;
+especially in the copious use of footnotes.
+
+- - - - - - - - - - - - - - - - -End Footnotes- - - - - - - - - - - - - - - -
+
+   So the jury was empaneled
+   All twelve good and true
+   [**357]
+   But without his main witness
+   What could the twelve do? n3
+
+- - - - - - - - - - - - - - - - - -Footnotes- - - - - - - - - - - - - - - - -
+
+   n3 This opinion is placed in rhyme because approximately one year ago, in
+Savannah at a very convivial celebration, the distinguished Judge Dunbar
+Harrison, Senior Judge of Chatham Superior Courts, arose and addressed those
+assembled, and demanded that if Judge Randall Evans, Jr. ever again was so
+presumptious as to reverse one of his decisions, that the opinion be written
+in poetry.  I readily admit I am unable to comply, because I am not a poet,
+and the language used, at best, is mere doggerel.  I have done my best, but
+my limited ability just did not permit the writing of a great poem.  It was
+no easy task to write the opinion in rhyme.
+
+- - - - - - - - - - - - - - - - -End Footnotes- - - - - - - - - - - - - - - -
+
+   The jury went out
+   To consider his case
+   And then they returned
+   The defendant to face.
+   "What verdict, Mr. Foreman?"
+   The learned judge inquired.
+   "Guilty, your honor."
+   On Brown's face -- no smile.
+   "Stand up" said the judge,
+   Then quickly announced
+   "Seven years at hard labor"
+   Thus his sentence pronounced.
+   [*773]
+   "This trial was not fair,"
+   The defendant then sobbed.
+   "With my main witness absent
+   I've simply been robbed."
+   "I want a new trial --
+   State has not fairly won."
+   "New trial denied,"
+   Said Judge Dunbar Harrison.
+   "If you still say I'm wrong,"
+   The able judge did then say
+   "Why not appeal to Atlanta?
+   Let those Appeals Judges earn
+   part of their pay."
+   "I will appeal, sir" --
+   Which he proceeded to do --
+   "They can't treat me worse
+   Than I've been treated by you."
+   So the case has reached us --
+   And now we must decide
+   Was the guilty verdict legal --
+   Or should we set it aside?
+   Justice and fairness
+   Must prevail at all times;
+   This is ably discussed
+   In a case without rhyme. n4
+
+- - - - - - - - - - - - - - - - - -Footnotes- - - - - - - - - - - - - - - - -
+
+   n4 See Murphy v. State, 132 Ga. App. 654-658 (209 SE2d 101), wherein a
+well-written and well-reasoned opinion discusses the reasons why a denial of
+motion to continue in a criminal case was erroneous and subject to reversal.
+
+- - - - - - - - - - - - - - - - -End Footnotes- - - - - - - - - - - - - - - -
+
+   The law of this State
+   Does guard every right
+   Of those charged with crime
+   Fairness always in sight.
+   [*774]
+   To continue civil cases
+   The judge holds all aces.
+   But it's a different ball-game
+   In criminal cases. n5
+
+- - - - - - - - - - - - - - - - - -Footnotes- - - - - - - - - - - - - - - - -
+
+   n5 See Hobbs v. State, 8 Ga. App. 53, 54 (68 SE 515), where it is
+demonstrated that a motion to continue in a criminal case must not be
+judged with the same meticulous severity as in civil cases.
+
+- - - - - - - - - - - - - - - - -End Footnotes- - - - - - - - - - - - - - - -
+
+   Was one day's delay
+   Too much to expect?
+   Could the State refuse it
+   With all due respect?
+   Did Justice applaud
+   Or shed bitter tears
+   When this news from Savannah
+   First fell on her ears?
+   We've considered this case
+   Through the night -- through the day.
+   As Judge Harrison said,
+   "We must earn our poor pay."
+   This case was once tried --
+   But should now be rehearsed
+   And tried one more time.
+   This case is reversed!
+
+   Judgment reversed.
+
+From owner-nomic-discussion@teleport.com Thu Jul 10 19:57 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA00350 for <dpb@cs.brown.edu>; Thu, 10 Jul 1997 19:57:50 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id QAA05549; Thu, 10 Jul 1997 16:51:00 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Thu, 10 Jul 1997 16:50:48 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id QAA05504 for nomic-discussion-outgoing; Thu, 10 Jul 1997 16:50:47 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex3-5-14.ucs.indiana.edu [129.79.18.234]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id QAA05500 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 16:50:44 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id SAA04943 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 18:50:41 -0500
+Message-Id: <199707102350.SAA04943@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: proto: Restore Game Balance II, v2 -Reply 
+In-reply-to: Your message of "Thu, 10 Jul 1997 19:45:24 +0200."
+             <33C51FB4.540@micronet.fr> 
+Date: Thu, 10 Jul 1997 18:50:40 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 2104
+Status: N
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+Laurent> Well, the answer to that, I think, is that a self-repealing
+Laurent> Rule can, nevertheless, do things that a Proposal
+Laurent> implementing arbitrary Game State changes cannot do. For
+Laurent> instance, it's far from clear that a Proposal can have
+Laurent> lasting effects, or impose obligations upon Players.  Various
+Laurent> arguments can be made for and against the effectiveness of
+Laurent> all but the first of the following Proposal provisions :
+
+Laurent>    When this Proposal is adopted, every Player's VT holdings
+Laurent> shall be set to 0.
+
+Would succeed.
+
+Laurent>    When this Proposal is adopted, every Player shall be
+Laurent> required to donate all VTs to the Bank As Soon As Possible.
+
+IMO, would fail, presently.  Players are not obligated to abide by
+Proposals.
+
+Laurent>    For ten days after this Proposal is adopted, no Player may
+Laurent> possess any VTs.
+
+I'm not sure on this one.
+
+Laurent>    When this Proposal is adopted, all Players shall be
+Laurent> awarded the Patent Title of Nothinghead.
+
+I think this would succeed.
+
+Laurent>    There are Entities known as Happy Pills; whenever a
+Laurent> Player, for any reason, holds no Happy Pills, he receives
+Laurent> one.
+
+I would interpret this to award a Happy Pill to everyone who does not
+have a Happy Pill _at the time the proposal was adopted_, but
+otherwise have no effect.
+
+Laurent>    The Nomic Century begins on the first day of any year, the
+Laurent> last two digits of which are "00", and lasts for one hundred
+Laurent> years.
+
+Would have no substantial effect, although it might influence game
+custom.
+
+Laurent> All of these provisions would be controversial to some
+Laurent> degree, IMHO, because what they attempt to "do" is usually
+Laurent> regarded as the exclusive province of the Rules : impose
+Laurent> requirements, specify a duration, create Entities, define new
+Laurent> terms...
+
+I've considered suggesting a provision allowing a Proposal to
+establish obligations (with limitations).  I don't think it would be
+all that hard to do.
+
+
+From owner-nomic-discussion@teleport.com Thu Jul 10 20:00 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA00396 for <dpb@cs.brown.edu>; Thu, 10 Jul 1997 20:00:42 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id RAA27790; Thu, 10 Jul 1997 17:00:14 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Thu, 10 Jul 1997 17:00:12 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id RAA27753 for nomic-discussion-outgoing; Thu, 10 Jul 1997 17:00:11 -0700 (PDT)
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id RAA27716 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 17:00:06 -0700 (PDT)
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.5/8.8.5) with SMTP id RAA05874
+	for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 17:00:04 -0700 (PDT)
+Received: from localhost by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id RAA00247; Thu, 10 Jul 1997 17:00:03 -0700
+Date: Thu, 10 Jul 1997 17:00:02 -0700 (PDT)
+From: Ross Morgan-Linial <rmorganl@fred.fhcrc.org>
+X-Sender: rmorganl@fred
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: proto: Restore Game Balance II, v2 -Reply 
+In-Reply-To: <199707102350.SAA04943@poverty.bloomington.in.us>
+Message-ID: <Pine.GSO.3.95.970710165303.29354A-100000@fred>
+MIME-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Length: 1762
+Status: N
+
+On Thu, 10 Jul 1997, Scott Goehring wrote:
+
+// Laurent>    When this Proposal is adopted, every Player shall be
+// Laurent> required to donate all VTs to the Bank As Soon As Possible.
+// 
+// IMO, would fail, presently.  Players are not obligated to abide by
+// Proposals.
+// 
+// Laurent>    For ten days after this Proposal is adopted, no Player may
+// Laurent> possess any VTs.
+// 
+// I'm not sure on this one.
+
+Proposals take effect at the moment of their adoption, and not later, I
+believe.
+
+// Laurent>    There are Entities known as Happy Pills; whenever a
+// Laurent> Player, for any reason, holds no Happy Pills, he receives
+// Laurent> one.
+// 
+// I would interpret this to award a Happy Pill to everyone who does not
+// have a Happy Pill _at the time the proposal was adopted_, but
+// otherwise have no effect.
+
+Also, it does not make Happy Pills Nomic Entities. Hmm.
+
+// Laurent> All of these provisions would be controversial to some
+// Laurent> degree, IMHO, because what they attempt to "do" is usually
+// Laurent> regarded as the exclusive province of the Rules : impose
+// Laurent> requirements, specify a duration, create Entities, define new
+// Laurent> terms...
+// 
+// I've considered suggesting a provision allowing a Proposal to
+// establish obligations (with limitations).  I don't think it would be
+// all that hard to do.
+
+I don't think that's a great idea, myself. One thing I know from
+experience is *not* a good idea is having proposals create unique
+entities, or entities with any sort of power not defined in the rules
+(even if we decide that's legal). They're can get hard to keep track of,
+fast.
+
+------
+Ross Morgan-Linial * rmorganl@fhcrc.org
+
+Any man who goes to a psychiatrist ought to have his head examined.
+ - Samuel Goldwyn
+
+
+From owner-nomic-discussion@teleport.com Thu Jul 10 23:19 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA04548 for <dpb@cs.brown.edu>; Thu, 10 Jul 1997 23:19:12 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id UAA17522; Thu, 10 Jul 1997 20:18:12 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Thu, 10 Jul 1997 20:18:08 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id UAA17380 for nomic-discussion-outgoing; Thu, 10 Jul 1997 20:18:01 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id UAA17249 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 20:17:25 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id NAA20420 for nomic-discussion@teleport.com; Fri, 11 Jul 1997 13:17:19 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707110317.NAA20420@aurora.cc.monash.edu.au>
+Subject: Re: BUS: proto: Restore Game Balance II, v2
+To: nomic-discussion@teleport.com
+Date: Fri, 11 Jul 1997 13:17:18 +1000 (EST)
+In-Reply-To: <s3c4b1f7.035@rmv.state.ma.us> from "David Albertz" at Jul 10, 97 09:56:34 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 750
+Status: N
+
+David Albertz writes:
+>
+>Steve wrote:
+>
+>>The business of making exceptions is a dangerous one, but I feel that
+>>Kolja and possibly Elde should probably be excepted, or at least
+>>treated differently, when the above adjustment is made, since they
+>>were not registered during the period of high VT supply, and hence
+>>did not benefit from it. My idea is to add these paragraphs to the
+>>Proposal: ...
+>
+>I think Kolja's suggestion that it be made generic (any player with less
+>than 5 VTs gets 5 VTs) is a good one.
+
+I agree and will make the change.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Thu Jul 10 23:29 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA04701 for <dpb@cs.brown.edu>; Thu, 10 Jul 1997 23:29:24 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id UAA01924; Thu, 10 Jul 1997 20:28:32 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Thu, 10 Jul 1997 20:28:29 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id UAA01889 for nomic-discussion-outgoing; Thu, 10 Jul 1997 20:28:28 -0700 (PDT)
+Received: from albeniz.orchestra.cse.unsw.EDU.AU (albeniz.orchestra.cse.unsw.EDU.AU [129.94.242.13]) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id UAA01762 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 20:28:14 -0700 (PDT)
+Received: From goanna With LocalMail ; Fri, 11 Jul 97 13:27:43 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: nomic-discussion@teleport.com
+Date: Fri, 11 Jul 1997 13:27:40 +1000 (EST)
+Message-Id:  <970711032740.8591@cse.unsw.edu.au>
+Subject: Re: devnull: ... is mere doggerel.
+In-Reply-To: <199707102057.QAA25196@mailhub1.watson.ibm.com> from "David M. Chess" at Jul 10, 97 04:54:29 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1017
+Status: N
+
+> 
+> I just *had* to send this.  I don't know if y'all have already
+> seen it, or even if Teleport will let me post it, but it's just
+> *so* Agoran...   *8)
+> 
+> The Once and Future Favor
+> 
+> OPINION:   [*771]     [**356]
+> 
+>    The D. A. was ready
+>    His case was red-hot.
+>    Defendant was present,
+>    His witness was not. n1
+> 
+> - - - - - - - - - - - - - - - - - -Footnotes- - - - - - - - - - - - - - - - -
+> 
+>    n1 See Wheat v. Fraker, 107 Ga. App. 318 (130 SE2d 251), for precedent in
+> writing an opinion in rhyme.
+> 
+> - - - - - - - - - - - - - - - - -End Footnotes- - - - - - - - - - - - - - - -
+> 
+
+ROTFL!
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  RAVE Lab, CSE, UNSW, Australia, Phone: +61 2 9385-1447 Fax: +61 2 9385-1814
+
+   "Don't accept that what's happening is just a case of others' suffering
+          Or you'll find that you're joining in The Turning Away." 
+                                                                  - Pink Floyd
+
+From owner-nomic-discussion@teleport.com Thu Jul 10 23:30 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA04713 for <dpb@cs.brown.edu>; Thu, 10 Jul 1997 23:30:12 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id UAA02134; Thu, 10 Jul 1997 20:29:38 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Thu, 10 Jul 1997 20:29:37 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id UAA02122 for nomic-discussion-outgoing; Thu, 10 Jul 1997 20:29:36 -0700 (PDT)
+Received: from windowsnt ([207.226.81.129]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id UAA02092 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 20:29:29 -0700 (PDT)
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Fri, 11 Jul 1997 00:19:42 -0500
+Received: by windowsnt from friend-computer
+    (199.107.161.213::mail daemon; unverified,SLMail V2.5); Fri, 11 Jul 1997 00:19:40 -0500
+Message-Id: <3.0.1.32.19970710201301.0068f3f4@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: Windows Eudora Light Version 3.0.1 (32)
+Date: Thu, 10 Jul 1997 20:13:01 -0700
+To: nomic-discussion@teleport.com
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: BUS: proto: Restore Game Balance II, v2 -Reply
+In-Reply-To: <33C51FB4.540@micronet.fr>
+References: <9707101617.AA13853@spinup.tp3.ruhr-uni-bochum.de>
+Mime-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 2194
+Status: N
+
+Morendil wrote:
+
+>Well, the answer to that, I think, is that a self-repealing Rule can,
+>nevertheless, do things that a Proposal implementing arbitrary Game
+>State changes cannot do. For instance, it's far from clear that a
+>Proposal can have lasting effects, or impose obligations upon Players.
+>Various arguments can be made for and against the effectiveness of
+>all but the first of the following Proposal provisions :
+>
+>   When this Proposal is adopted, every Player's VT holdings shall be
+>   set to 0.
+>
+>   When this Proposal is adopted, every Player shall be required to
+>   donate all VTs to the Bank As Soon As Possible.
+>
+>   For ten days after this Proposal is adopted, no Player may possess
+>   any VTs.
+>
+>   When this Proposal is adopted, all Players shall be awarded the
+>   Patent Title of Nothinghead.
+
+I don't see any problem with this one.
+
+>   There are Entities known as Happy Pills; whenever a Player, for
+>   any reason, holds no Happy Pills, he receives one.
+
+I hereby nominate for Happiness Officer.
+
+>Personally, I think it could be quite useful to model a multi-tiered
+>Proposal system after real-world law, and institute a graded series
+>of Game-State-changing instruments including Directives (changing,
+>like the Directives of old, specific and restricted parts of the Game
+>State), Orders (imposing requirements on Players), Decrees (with
+>authority to create or define Entities), Proposals (changing Rules),
+>Constitutional Amendments, etc. These could be used to bring about
+>the much-talked-about extension to Officer's powers.
+
+Thank you for volunteering, Friend Citizen.
+
+Hmm, let's see if there's a logical grouping for the nature (rather than
+the lack-of-controversy) of the changes that can occur Without Objection:
+
+* Whether a medium is a Public Forum
+* Name of a Rule Category
+* Which Rule Category a Rule is in
+* Title of a Rule
+* Name of a Location not named in the Rules
+* Friendliness of a Nomic
+
+What do you think?
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>     http://www.bayside.net/users/ford/
+"Don't tell me what I already know."    http://wwp.mirabilis.com/1008745/
+     -Richard Feng                      mailto:1008745@pager.mirabilis.com
+
+
+From owner-nomic-discussion@teleport.com Thu Jul 10 23:33 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA04766 for <dpb@cs.brown.edu>; Thu, 10 Jul 1997 23:33:04 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id UAA02857; Thu, 10 Jul 1997 20:32:27 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Thu, 10 Jul 1997 20:32:26 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id UAA02848 for nomic-discussion-outgoing; Thu, 10 Jul 1997 20:32:26 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id UAA02558 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 20:31:26 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id NAA24054 for nomic-discussion@teleport.com; Fri, 11 Jul 1997 13:31:13 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707110331.NAA24054@aurora.cc.monash.edu.au>
+Subject: Re: BUS: proto: Restore Game Balance II, v2 -Reply
+To: nomic-discussion@teleport.com
+Date: Fri, 11 Jul 1997 13:31:13 +1000 (EST)
+In-Reply-To: <3.0.1.32.19970710201301.0068f3f4@mail.bayside.net> from "Ed Murphy" at Jul 10, 97 08:13:01 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 688
+Status: N
+
+Ed Murphy writes:
+>Hmm, let's see if there's a logical grouping for the nature (rather than
+>the lack-of-controversy) of the changes that can occur Without Objection:
+>
+>* Whether a medium is a Public Forum
+>* Name of a Rule Category
+>* Which Rule Category a Rule is in
+>* Title of a Rule
+>* Name of a Location not named in the Rules
+>* Friendliness of a Nomic
+>
+>What do you think?
+
+I dunno. Personally, I'd like to see the correction of spelling errors in
+the Ruleset added to this list.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Thu Jul 10 23:33 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA04770 for <dpb@cs.brown.edu>; Thu, 10 Jul 1997 23:33:14 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id UAA02890; Thu, 10 Jul 1997 20:32:38 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Thu, 10 Jul 1997 20:32:37 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id UAA02880 for nomic-discussion-outgoing; Thu, 10 Jul 1997 20:32:36 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id UAA02868 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 20:32:31 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id NAA24093; Fri, 11 Jul 1997 13:32:28 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707110332.NAA24093@aurora.cc.monash.edu.au>
+Subject: Re: devnull: ... is mere doggerel.
+To: nomic-discussion@teleport.com
+Date: Fri, 11 Jul 1997 13:32:28 +1000 (EST)
+Cc: chess@watson.ibm.com (David M. Chess)
+In-Reply-To: <199707102057.QAA25196@mailhub1.watson.ibm.com> from "David M. Chess" at Jul 10, 97 04:54:29 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 497
+Status: N
+
+David M. Chess writes:
+>
+>I just *had* to send this.  I don't know if y'all have already
+>seen it, or even if Teleport will let me post it, but it's just
+>*so* Agoran...   *8)
+>
+>The Once and Future Favor
+
+Favor, this is so brilliant that you'd get a kudo for posting it
+if you were still a Player.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Thu Jul 10 23:56 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA05207 for <dpb@cs.brown.edu>; Thu, 10 Jul 1997 23:56:22 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id UAA14493; Thu, 10 Jul 1997 20:55:39 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Thu, 10 Jul 1997 20:55:34 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id UAA14473 for nomic-discussion-outgoing; Thu, 10 Jul 1997 20:55:33 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id UAA14447 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 20:55:18 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id NAA24492 for nomic-discussion@teleport.com; Fri, 11 Jul 1997 13:55:05 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707110355.NAA24492@aurora.cc.monash.edu.au>
+Subject: Re: BUS: proto: Restore Game Balance II, v2
+To: nomic-discussion@teleport.com
+Date: Fri, 11 Jul 1997 13:55:05 +1000 (EST)
+In-Reply-To: <9707100945.AA17797@spinup.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns NB6_25 (3751)" at Jul 10, 97 11:45:36 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3094
+Status: N
+
+Klaus Herrmanns NB6_25 (3751) writes:
+>
+>Now changing things via the formal trick of a self-repealing rule may
+>work, and be legal, but it somehow feels like sweeping a difficulty
+>under the rug. What do you think: is it part of a deliberate game
+>design that arbitrary changes to the game state cannot be made by
+>adopting a proposal (unless one circumvents that problem with the
+>clumsy device of a self-repealing rule), so something like RGBII goes
+>against the spirit of the game, or do we really want to allow such
+>changes, but we simply haven't yet gotten round to introducing a
+>loophole-free rule section for that, so we make do improvising within
+>the rules as they are?
+
+As the author of RGB I & II, I can tell you that I regard the form
+that RGB II takes as a self-repealing Rule as a regrettably inelegant
+necessity. The point of the most recent reform of the Proposal system
+(see P3445, adopted Mar 26, 1997) was precisely to allow these kinds
+of game state changes without the need to enact self-repealing Rules.
+RGB I attempted to exploit this possibility, but ran into technical
+difficulties, for details of which see the Judgement of CFJ 928.
+The failure of RGB I has made me wary: a similar failure of RGB II
+to be effective on technical grounds would be personally rather
+embarrassing. Additionally, the conceptual terrain in the area of
+currency transfers is about to be transformed by 'Pragmatic Currencies',
+which in my opinion makes it even more likely that I would make a
+mistake if I tried to finesse this and do it as elegantly as might
+be possible. Once bitten, twice shy, I guess: RGB II is a little
+inelegant, but it's pretty safe. Having said that, I have tried to
+make RGB II as elegant as I can within the constraints I have chosen.
+
+It's an interesting question how the Proposal reform enacted by P3445
+will interact with the Currency reform currently being voted on as
+P3533. Aside from the list of provisions of controversial effectiveness
+given by Morendil, there's the question of whether wholesale changes
+to Currency holdings can easily be achieved as Transfers in the
+Pragmatic Currencies framework. I take it, for instance, that it would
+be pretty messy (although perfectly legal) for a Proposal to create
+a large number of Transfer Orders (in the case of RGB II, one for
+every Player, another one for every Contestmaster, and a few others),
+which individual Players would then have to satisfy by making the
+appropriate Payment Orders. Too much work for the Assessor, I reckon.
+The alternative might be to have the Proposal give a once-off authority
+to the Assessor, or the Chancellor, to satisfy Transfer Orders without
+the consent of the Players (basically a form of asset-seizing). But
+I'm not sure if a Proposal can do that under the new system, which is
+one of the reasons I decided to frame RGB II in the form of
+adjustments rather than Transfers.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+

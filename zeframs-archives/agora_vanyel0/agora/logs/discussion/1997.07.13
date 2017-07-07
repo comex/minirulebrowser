@@ -1,0 +1,1167 @@
+From owner-nomic-discussion@teleport.com Sun Jul 13 00:07 EDT 1997
+Received: from portia.teleport.com ([192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA20438 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 00:07:07 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id VAA27314; Sat, 12 Jul 1997 21:06:35 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Sat, 12 Jul 1997 21:06:33 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id VAA27302 for nomic-discussion-outgoing; Sat, 12 Jul 1997 21:06:32 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex3-3-11.ucs.indiana.edu [129.79.18.191]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id VAA27268 for <nomic-discussion@teleport.com>; Sat, 12 Jul 1997 21:06:24 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id XAA28849 for <nomic-discussion@teleport.com>; Sat, 12 Jul 1997 23:06:21 -0500
+Message-Id: <199707130406.XAA28849@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: Minting of new Currencies 
+In-reply-to: Your message of "Sat, 12 Jul 1997 21:59:57."
+             <3.0.1.16.19970712215957.37af2476@cyber1.servtech.com> 
+Date: Sat, 12 Jul 1997 23:06:20 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 1044
+Status: N
+
+"Chaos" == Chaos Harlequin <harlequin@tmbg.org> writes:
+
+Chaos> And how do we accomplish that? The best I can think of is "If a
+Chaos> Rule is created or amended such that it creates a Nomic Entity
+Chaos> with the same name as an existing Currency which is not defined
+Chaos> by the Rules, the name of that Currency is changed by appending
+Chaos> a '2' at its end."
+
+I think this, in part, goes to the idea that a low-Power Rule cannot
+change the meaning of a high-Power Rule by redefining terms.  In this
+case, however, we have a non-Rule (Morendil's message) redefining the
+meaning of a term in a Power 1 Rule.
+
+"The Rules may allow the creation of entities and the assignment of
+properties to entities through procedures specified in the Rules.
+However, if any entity thus created or property thus assigned
+conflicts in any way with the Rules, including by giving an entity
+defined directly by the Rules properties it would not otherwise have,
+then the entity created by the Rules, and the properties assigned by
+the Rules take precedence."
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 00:15 EDT 1997
+Received: from portia.teleport.com ([192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA20586 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 00:15:52 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id VAA29186; Sat, 12 Jul 1997 21:15:30 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Sat, 12 Jul 1997 21:15:29 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id VAA29170 for nomic-discussion-outgoing; Sat, 12 Jul 1997 21:15:28 -0700 (PDT)
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id VAA29149 for <nomic-discussion@teleport.com>; Sat, 12 Jul 1997 21:15:21 -0700 (PDT)
+Received: from arapael (par11.info.isdnet.fr [194.149.172.200])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id GAA13174
+	for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 06:15:13 +0200 (MET DST)
+Message-Id: <199707130415.GAA13174@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic-discussion@teleport.com
+Date: Sun, 13 Jul 1997 06:18:28 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: BUS: Minting of new Currencies 
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1512
+Status: N
+
+> "The Rules may allow the creation of entities and the assignment of
+> properties to entities through procedures specified in the Rules.
+> However, if any entity thus created or property thus assigned
+> conflicts in any way with the Rules, including by giving an entity
+> defined directly by the Rules properties it would not otherwise have,
+> then the entity created by the Rules, and the properties assigned by
+> the Rules take precedence."
+
+This sounds... rather inelegant. To be more precise, I certainly wouldn't be
+able to read this without recalling exactly why it was enacted. :)
+
+Why not just formalize the notion that we have now, but in nascent form, that
+non-Rule instruments can under limited conditions have the same effects as
+Rules - this goes for Currency-minting posts, but also, recalling a recent
+discussion, for Proposals - and set up a framework which defines both what
+kinds of instruments are allowed to do what kind of things, and the various
+levels of precedence among these instruments ?
+
+It seems to me that we'll have, sooner or later, to move away from the point
+of view that we're most of us clinging to that all changes to the Game State
+have to derive their authority, at the root, from the Rules... There's nothing
+that inherently requires a monolithic Ruleset as the sole authority behind the
+Game.
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+I multitask...  I read in the loo.
+
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 00:20 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA20651 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 00:20:36 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id VAA00031; Sat, 12 Jul 1997 21:19:55 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Sat, 12 Jul 1997 21:19:53 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id VAA29988 for nomic-discussion-outgoing; Sat, 12 Jul 1997 21:19:51 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex3-3-11.ucs.indiana.edu [129.79.18.191]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id VAA29942 for <nomic-discussion@teleport.com>; Sat, 12 Jul 1997 21:19:43 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id XAA28866 for <nomic-discussion@teleport.com>; Sat, 12 Jul 1997 23:19:40 -0500
+Message-Id: <199707130419.XAA28866@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: Minting of new Currencies 
+In-reply-to: Your message of "Sat, 12 Jul 1997 21:57:26."
+             <3.0.1.16.19970712215726.37affd10@cyber1.servtech.com> 
+Date: Sat, 12 Jul 1997 23:19:39 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 1793
+Status: N
+
+"Chaos" == Chaos Harlequin <harlequin@tmbg.org> writes:
+
+Chaos> Disagreement from this quarter. Wills do *not* exist only by
+Chaos> virtue of the Rules. Firstly, the entity itself can exist
+Chaos> without the Rules defining it.  That is, the text of such and
+Chaos> such a Will would still exist without the Rules defining
+Chaos> Wills. Now, the Rules grant it additional properties -- in this
+Chaos> case, that any text in a Will is followed WRT property
+Chaos> distribution when the Player whose Will it is deregisters --
+Chaos> but do not create it out of nothing.
+
+It is my opinion, and this may be similar to your own, that a Will is
+a body of text, and as such is _not_ a Nomic Entity.  However, the
+property of being a Will is a property held by that body of text, and
+as such is a Nomic Property.
+
+SLCs (including Wills) cannot be changed except in accordance with the
+Rules because of Rule 1589, not because they are Nomic Entities.  The
+Rules do not speak at all in the manner in which SLCs are created,
+which tends to suggest that they are not Nomic Entities.
+
+Proposals are odd because of the way Rule 1483 defines a Proposal;
+Proposal are created by the Rules and are therefore Nomic Entities.
+A body of text goes into making a Proposal, but that body of text is
+not the Proposal (the Rule states that it becomes the Proposal).
+
+Applications are not Nomic Entities, as they are not created by the
+Rules.  In fact, for something to be an Application it must have been
+created by a Player (Rule 1626).  Rule 1626 prohibits any change to an
+Appliation after its creation, however.  (This should probably be
+changed to "designation".)
+
+Given these examples, I tend to believe that Transfer Orders and
+Payment Orders, as Pragmatic Currencies would define them, are not
+Nomic Entities.
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 00:22 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA20690 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 00:22:54 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id VAA06416; Sat, 12 Jul 1997 21:20:44 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Sat, 12 Jul 1997 21:20:36 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id VAA06375 for nomic-discussion-outgoing; Sat, 12 Jul 1997 21:20:35 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex3-3-11.ucs.indiana.edu [129.79.18.191]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id VAA06365 for <nomic-discussion@teleport.com>; Sat, 12 Jul 1997 21:20:31 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id XAA28885 for <nomic-discussion@teleport.com>; Sat, 12 Jul 1997 23:20:29 -0500
+Message-Id: <199707130420.XAA28885@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: Minting of new Currencies 
+In-reply-to: Your message of "Sun, 13 Jul 1997 05:31:42 +0100."
+             <199707130328.FAA12497@logatome.micronet.fr> 
+Date: Sat, 12 Jul 1997 23:20:29 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 259
+Status: N
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+Laurent> Fine - as long as you're aware that the logical consequence
+Laurent> is that the current 1011 doesn't prevent, say, the Notary
+Laurent> from changing your Will. 
+
+Bzzzt.  Read Rule 1589.
+
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 01:33 EDT 1997
+Received: from portia.teleport.com ([192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA21708 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 01:33:13 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id WAA10086; Sat, 12 Jul 1997 22:31:48 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Sat, 12 Jul 1997 22:31:38 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id WAA10070 for nomic-discussion-outgoing; Sat, 12 Jul 1997 22:31:37 -0700 (PDT)
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id WAA10065 for <nomic-discussion@teleport.com>; Sat, 12 Jul 1997 22:31:35 -0700 (PDT)
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id BAA16585 for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 01:31:33 -0400 (EDT)
+Message-Id: <3.0.1.16.19970713003500.37afd772@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Sun, 13 Jul 1997 00:35:00
+To: nomic-discussion@teleport.com
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: BUS: Minting of new Currencies 
+In-Reply-To: <199707130419.XAA28866@poverty.bloomington.in.us>
+References: <Your message of "Sat, 12 Jul 1997 21:57:26."             <3.0.1.16.19970712215726.37affd10@cyber1.servtech.com>
+Mime-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 730
+Status: N
+
+At 11:19 PM 7/12/97 -0500, Scott Goehring wrote:
+
+>It is my opinion, and this may be similar to your own, that a Will is
+>a body of text, and as such is _not_ a Nomic Entity.  
+
+Complete agreement here.
+
+>However, the property of being a Will is a property held by that body 
+>of text, and as such is a Nomic Property. 
+
+And here. As I said, the Rules give Properties to Wills &c., but don't
+actually create or define them.
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 07:33 EDT 1997
+Received: from portia.teleport.com ([192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA26341 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 07:33:36 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id EAA15446; Sun, 13 Jul 1997 04:31:38 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Sun, 13 Jul 1997 04:31:28 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id EAA15435 for nomic-discussion-outgoing; Sun, 13 Jul 1997 04:31:28 -0700 (PDT)
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id EAA15414 for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 04:31:25 -0700 (PDT)
+Received: from arapael (par14.info.isdnet.fr [194.149.172.203])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id NAA24225
+	for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 13:31:23 +0200 (MET DST)
+Message-Id: <199707131131.NAA24225@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic-discussion@teleport.com
+Date: Sun, 13 Jul 1997 13:34:33 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: BUS: Minting of new Currencies 
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 790
+Status: N
+
+> Laurent> Fine - as long as you're aware that the logical consequence
+> Laurent> is that the current 1011 doesn't prevent, say, the Notary
+> Laurent> from changing your Will. 
+> 
+> Bzzzt.  Read Rule 1589.
+
+Bzzzt yourself. As I said, if an Entity that is a body of text is not a Nomic
+Entity, then the contents of that body of text are not a Nomic Property. So
+Rule 1589 makes it _illegal_ to change an SLC, but it does not make it
+_impossible_ - thus changing and SLC would a non-retractable illegal move,
+like Electioneering. (There being no penalty for it, though, that would matter
+little.)
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Famous Last Words : I wonder what this button does ?
+
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 07:33 EDT 1997
+Received: from portia.teleport.com ([192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA26346 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 07:33:40 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id EAA15443; Sun, 13 Jul 1997 04:31:38 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Sun, 13 Jul 1997 04:31:26 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id EAA15416 for nomic-discussion-outgoing; Sun, 13 Jul 1997 04:31:25 -0700 (PDT)
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id EAA15408 for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 04:31:22 -0700 (PDT)
+Received: from arapael (par14.info.isdnet.fr [194.149.172.203])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id NAA24222
+	for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 13:31:19 +0200 (MET DST)
+Message-Id: <199707131131.NAA24222@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic-discussion@teleport.com
+Date: Sun, 13 Jul 1997 13:34:34 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: BUS: Minting of new Currencies 
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 4167
+Status: N
+
+> It is my opinion, and this may be similar to your own, that a Will is
+> a body of text, and as such is _not_ a Nomic Entity.  However, the
+> property of being a Will is a property held by that body of text, and
+> as such is a Nomic Property.
+
+That would work in much the same way that "A Player is a person", then - 
+basically interpreting that to mean that a given person is granted the property 
+of being a Player. But then, one of the consequences we drew from that 
+interpretation was that Rule 116 allowed, and Rule 1011 did not deny, the 
+possibility of any person's 'properties' not solely defined by the Rules to be 
+changed as that person wishes.
+
+But in that case, my argument stands - the contents of a body of text is not a
+Nomic Property of that entity, and a Rule which attempts to make it illegal to
+change a property that is not a Nomic property nevertheless cannot make it
+impossible - thus the situation with respect to changing the text of a
+Proposal, SLC or Application would be analogous to Electioneering.
+
+> SLCs (including Wills) cannot be changed except in accordance with the
+> Rules because of Rule 1589, not because they are Nomic Entities.  The
+> Rules do not speak at all in the manner in which SLCs are created,
+> which tends to suggest that they are not Nomic Entities.
+
+Neither do the Rules state how an Office is created - is an Office not a Nomic
+Entity ? Are not Indices ?
+
+> Applications are not Nomic Entities, as they are not created by the
+> Rules.  In fact, for something to be an Application it must have been
+> created by a Player (Rule 1626).  Rule 1626 prohibits any change to an
+> Appliation after its creation, however.  (This should probably be
+> changed to "designation".)
+
+You haven't yet explained the fact that Applications, though they are not
+"created" by the Rules, are nevertheless "destroyed" by the Rules. 
+
+But, all in all, let's assume for a moment that you are right in believing that
+the Entities that P/C would have created would _not_ have been Nomic Entities.
+Currently, there _do_ however exist classes of Nomic Entities known as Orders,
+Payment Orders, and Transfer Orders.
+
+Given your reasoning above, it does not seem so far-fetched to assume that all
+the new Rules will do is grant to those Entities, in addition to their other
+Nomic Properties, the property of being associated with a given body of text.
+If it is valid to interpret "An Application is a body of text" as meaning that
+a given body of text can be granted the Nomic Property of being an Application,
+then it must be valid to interpret "A Payment Order is a message such that XXX" 
+as meaning only that Payment Orders must be associated with such texts.
+
+And, anyway, the authorizing Rules for POs and TOs do _not_ designate them as
+"messages" or "bodies of text". They state that "A Payment Order is an order
+requiring etc." and "A Transfer Order is an order requiring etc.". The class
+of Nomic Entities known as "Orders" currently has a definition different than
+just "a message sent to a recordkeepor".
+
+I do not make light of your argument that identity of names does not imply
+identity of Entities; nor am I arguing for some form of name-magic in Agora,
+whereby naming something with the same name as another gives it some voodoo
+power over that other thing. All I'm saying is that as long as the Rules
+created by P/C make sense if referring to the Currencies known as Orders,
+Payment Orders and Transfer Orders, even if that was not the _intended_
+implementation, then we have no choice but to play by those Rules.
+
+Note too that there is ample precedent for units of Currencies that have
+various properties in addition to just being units of a Currency; I refer,
+specifically, to the Powers of old, where a given Power of Influence could be
+created as a 3-Vote, a 4-Vote or a 5-Vote card. So there would be no problem
+in, say, minting a new Payment Order for a given Currency with Player X as the
+Payor and Player Y as the Payee.
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+If a program is useful, it will have to be changed.
+
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 21:46 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA10298 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 21:46:49 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id SAA21683; Sun, 13 Jul 1997 18:44:18 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Sun, 13 Jul 1997 18:42:18 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id SAA21271 for nomic-discussion-outgoing; Sun, 13 Jul 1997 18:42:17 -0700 (PDT)
+Received: from cs.brown.edu (cs.brown.edu [128.148.128.2]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id SAA21256 for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 18:42:13 -0700 (PDT)
+Received: from cslab3a.cs.brown.edu (cslab3a.cs.brown.edu [128.148.38.226]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA10203 for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 21:42:12 -0400 (EDT)
+Received: (dpb@localhost) by cslab3a.cs.brown.edu (8.8.3/BrownCS1.0) id VAA17283; Sun, 13 Jul 1997 21:42:09 -0400 (EDT)
+Message-ID: <19970713214209.63164@cslab3a.cs.brown.edu>
+Date: Sun, 13 Jul 1997 21:42:09 -0400
+From: Don Blaheta <dpb@cs.brown.edu>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: Minting of new Currencies
+References: <199707122221.AAA03141@logatome.micronet.fr> <199707130009.TAA13780@poverty.bloomington.in.us>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.77
+In-Reply-To: <199707130009.TAA13780@poverty.bloomington.in.us>; from Scott Goehring on Sun, Jul 13, 1997 at 12:09:34AM -0500
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: multipart/mixed; boundary=VS++wcV0S1rZb1Fb
+Content-Length: 13100
+Status: N
+
+
+--VS++wcV0S1rZb1Fb
+Content-Type: text/plain; charset=us-ascii
+
+Quoth Scott Goehring:
+> Further, there is, I believe, a precedent that the mere fact that two
+> clearly disparate things share a name does not make them equivalent to
+> each other.  See, for example, the "person" debate, or the Nomic
+> Potato Judgement (Vanyel, can you dig this up for me?).  (In fact,
+> this situation almost exactly mirrors the Nomic Potato scam, which, as
+> I recall, failed.)
+
+Mais certainement...
+
+-- 
+-=-Vanyel-=-=-=-=-=-Don Blaheta-=-dpb@cs.brown.edu-=-dblaheta@aol.com-=-
+A child of five could understand this!  Fetch me a child of five.
+
+--VS++wcV0S1rZb1Fb
+Content-Type: text/plain; charset=us-ascii
+Content-Description: CFJ 803: the Potato Scam
+Content-Disposition: attachment; filename=0803
+
+>From nomic-official-owner@teleport.com  Tue Aug 15 06:17:35 1995
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.11]) by Shamino.quincy.edu (8.6.12/8.6.9) with ESMTP id GAA32418 for <blahedo@quincy.edu>; Tue, 15 Aug 1995 06:17:32 -0500
+Received: (from daemon@localhost) by desiree.teleport.com (8.6.10/8.6.9) id EAA20725 for nomic-official-outgoing; Tue, 15 Aug 1995 04:15:02 -0700
+Received: from wing4.wing.rug.nl (wing4.wing.rug.nl [129.125.21.4]) by desiree.teleport.com (8.6.10/8.6.9) with SMTP id EAA20273 for <nomic-official@teleport.com>; Tue, 15 Aug 1995 04:09:38 -0700
+Message-Id: <199508151109.EAA20273@desiree.teleport.com>
+Received: by wing4.wing.rug.nl
+	(1.37.109.8/16.2) id AA16023; Tue, 15 Aug 1995 13:08:54 +0200
+>From: Andre Engels <csg419@wing.rug.nl>
+Subject: OFF: CFJ 803: Judgement
+To: nomic-official@teleport.com
+Date: Tue, 15 Aug 95 13:08:54 METDST
+Mailer: Elm [revision: 70.85]
+Sender: owner-nomic-official@teleport.com
+Precedence: bulk
+Reply-To: nomic-discussion@teleport.com
+Status: RO
+
+============================================================
+
+CFJ 803
+
+Caller: Zefram
+
+Statement: The second clause of the second sentence of rule 1488/0 is
+without legal effect.
+
+Judge: Michael
+
+============================================================
+
+History:
+  Called by Zefram Mon, 7 Aug 1995 11:51:20 BST
+  Assigned to Michael Tue, 08 Aug 1995 19:59:53 -0500
+  Judged FALSE by Michael Tue, 15 Aug 1995 11:17:50 BST
+
+Effects of this CFJ (Scorekeepor, take note!):
+  Michael gains 3 Points for timely Judgement.
+
+============================================================
+
+Arguments of Caller (Zefram):
+
+The first sentence of rule 1488/0 states "Let there be an Entity known
+as the Nomic Potato".  Note that there was already, prior to the
+creation of this rule, an Entity known as "the Nomic Potato"; it is a
+Contest, created on 1995-08-02, and its Contestmaster is Zefram.  Much
+of rule 1488/0 is concerned with who shall possess the Nomic Potato,
+and this does not conflict with any other rule, as no other rule states
+anything about the possession of a Contest.
+
+The second sentence of rule 1488/0 states "There is only one Potato
+which cannot be destroyed".  This obviously refers to the Nomic Potato,
+already referred to in the first sentence.  Rule 1011/0 requires that
+there is only one Nomic Potato, because if there were more than one
+then they would have the same name, violating that rule.  Rule 1488/0
+therefore, despite the lack of a clarifying comma in that sentence,
+states that the one Nomic Potato cannot be destroyed.
+
+Rule 1446/3 states that a Contest can be dissolved under certain
+circumstances, including "when there is no Contestmaster and no
+provision for replacing em".  Regulation 2 of the Nomic Potato states
+"The Contestmaster shall be Zefram, and may not be replaced.  The
+Contestmaster may resign at any time by indicating eir intent to do so
+to the Public Forum".  Thus rule 1446/3, applied to the Nomic Potato,
+clearly indicates that it can be destroyed.
+
+Rule 1446/3 states that the Nomic Potato can be destroyed, and rule
+1488/0 states that it cannot.  They are in conflict, and 1446/3 takes
+precedence by virtue of a lower number.  Hence, the Nomic Potato can be
+destroyed, and the part of rule 1488/0 that says otherwise has no legal
+power.
+
+============================================================
+
+Arguments of Judge (Michael):
+
+Judgement:  FALSE
+
+Argument:  This statement is one that attempts to use the prior
+           existence of a Contest called the Nomic Potato to
+invalidate the claim in 1488/0 that the Entity defined there can not
+be destroyed.  This argument rests on the assumption that the Entity
+defined in 1488/0 has the same name as the Contest, and so to avoid
+conflict with 1011/0 must be the same Entity.  (Contests can be
+dissolved so, if one accepts the reasoning thus far, the clause of
+1488/0 in question is invalidated by reason of it conflicting with
+1466/3 "Contests".)
+
+I attack this claim by showing that the assumption about names is
+false.  In particular, rule 1488/0 nowhere claims that the Entity in
+question has 'Nomic Potato' as its name.  It merely states that it is
+known as the 'Nomic Potato'.  There is a world of difference between
+being known as something and actually being named something.
+
+Now, one might claim that the Nomic Potato Contest is an Entity known
+as the Nomic Potato.  This is true, but it does not necessarily follow
+therefore that the 1488/0 Entity is the same one.  The use of "let" in
+Agora is used in a creative role; it creates a fresh instance of some
+type.  Note that if 1488/0 had tried to name its Entity, then it would
+have failed because of 1011/0.  It would not have suddenly merged two
+distinct Entities, simply because two rules (of lesser precedence than
+1011/0, which has MI = 2) asserted that they had the same name.
+
+This argument may seem pedantic and slightly unworthy, but I believe
+it is cast at the appropriate level given the circumstances in which
+this CFJ was called. 
+
+--------------------
+
+Michael.
+
+
+
+
+
+============================================================
+
+Evidence provided by Caller (Zefram):
+
+1. Rule 1011/0: Game Entities May Not Be Arbitrarily Changed
+2. Rule 1446/3: Contests
+3. Rule 1488/0: The Nomic Potato
+4. Message creating the Nomic Potato
+
+----------------------------------------
+
+Rule 1011/0 (Semimutable, MI=2)
+Game Entities May Not Be Arbitrarily Changed
+
+      Any Entity which is created by the Nomic Rules, and which exists
+      only within the context of Agora Nomic (such as Points, Votes,
+      Currencies and any Official Records) may *not* be changed by any
+      action other than those specified by the Rules.
+
+      No two Nomic Entities (including Players) shall have the same
+      name or nickname.
+      (*Was: 450*)
+
+History:
+Created by Proposal 450, Sep. 10 1993
+Amended by Proposal 1011, Sep. 5 1994
+Mutated from MI=1 to MI=2 by Proposal 1593, Jun. 2 1995
+
+----------------------------------------
+
+Rule 1446/3 (Mutable, MI=1)
+Contests
+
+      A contest is a subgame of Agora Nomic, having its own Name,
+      Entry Fee, Regulations, Contestmaster, and Contest Fund.
+
+      It is created when a Player posts to the Public Forum an
+      announcement of the contest, including the Name and Regulations.
+      Participants in the subgame are called Contestants of that
+      contest.  The player making the post becomes the Contestmaster.
+
+      The Contestmaster for a given Contest is a Player who has
+      responsibility for administering the subgame.  He reports all
+      currency transfers taking place under the Regulations, is the
+      Executor of the Contest Fund, and maintains the Regulations.
+
+      The Contest Fund is a Treasury, as provided for in other Rules.
+      The owner of this Treasury is the Contest, and the Executor of
+      this Treasury is, at all times, the Contestmaster of the
+      Contest.
+
+      The Regulations specify the operation of the Contest.  All
+      Contestants, and the Contestmaster, are bound by the Regulations
+      except where these conflict with the Rules.  They may also
+      specify:
+        1. how a Contestmaster is replaced. However, no person may
+           become Contestmaster without eir consent;
+        2. how the Currencies in the Contest Fund shall be spent, so
+           long as this does not conflict with the Rules;
+        3. the amount of the Entry Fee for the Contest, in the form of
+           units of one or more Currency;
+        4. additional restrictions on Players to become Contestants, 
+           and conditions under which Contestants cease to be
+           Contestants;
+        5. how the Regulations may be changed.  If they do not so 
+           specify, the Regulations may not be changed. Whenever the 
+           Regulations are changed, the Contestmaster must post the 
+           new Regulations to the Public Forum, and no such change is
+           effective until it is so posted;
+        and
+        6. how the Contest may be dissolved.
+
+      A Player becomes a Contestant by notifying the Contestmaster and
+      paying the prescribed Entry Fee to the Contest Fund.  A
+      Contestant may quit a Contest at any time by so notifying the
+      Contestmaster, or by so posting to the Public Forum.  A
+      Contestmaster may resign at any time by posting a message to
+      that effect to the Public Forum, at which time e ceases to be
+      Contestmaster.
+
+      A contest is dissolved when there is no Contestmaster and no
+      provision for replacing em, or upon unanimous agreement of the
+      Contestmaster and all Contestants, or as otherwise provided in
+      the rules, or in the Regulations.  When this happens the Contest
+      Fund is distributed as provided in the Regulations; if no
+      provision is made the Fund is divided equally between the
+      Contestants. 
+
+      If the Contest Regulations require a transfer to be made, but
+      the Contest Fund has insufficient currencies to permit that
+      transfer to be made, sufficient currencies to cover the transfer
+      shall be involuntarily transferred from the Contestmaster's
+      Treasury to the Contest Fund.  The Contestmaster shall report
+      this transfer to the appropriate Recordkeepors.
+
+      No Blots shall be assigned by this Rule.
+
+History:
+Created by Proposal 1509, Mar. 24 1995
+Amended(1) by Proposal 1574, Apr. 28 1995
+Amended(2) by Proposal 1601, Jun. 19 1995
+Amended(3) by Proposal 1644, Aug. 1 1995
+
+----------------------------------------
+
+Rule 1488/0 (Mutable, MI=1)
+The Nomic Potato
+
+      Let there be an Entity known as the Nomic Potato.  There is only one
+      Potato which cannot be destroyed.  The Potato can be possessed by
+      any Agora Player who owns Extra Votes (EVs).  A Player with no EVs
+      cannot possess the Potato, and if the Player possessing the Potato
+      ever ceases to own EVs, e also loses possession of the Potato.
+
+      If the Potato's possessor ceases to possess the Potato though
+      ceasing to own EVs, or ceasing to be a Player, or in any other way
+      not otherwise described by the Rules pertaining to the Nomic Potato,
+      the possession of the Potato immediately passes to the Player who
+      owns the greatest number of EVs.
+
+      If more than one Player is tied for the greatest number of EVs, the
+      Potato is transferred to the tied Player who:
+	
+	i) Has not previously possessed the Potato; providing all other
+	   tied Players have previously possessed the Potato.
+
+       ii) Has not possessed the Potato for the longest consecutive period
+	   of time immediately prior to the Potato's transfer; providing
+	   all other tied Players have previously possessed the Potato.
+
+      iii) The tied Player randomly determined by the Assessor, provided
+	   neither i) or ii) apply.
+
+      As long as at least one Player owns EVs, the Potato is always in
+      some Player's possession. The only time that the Potato is not
+      possessed by a Player is when no Player owns EVs.
+
+      The Assessor keeps track of who possesses the Potato.
+
+History:
+Created by Proposal 1647, Aug. 7 1995
+
+----------------------------------------
+
+>From: Zefram <A.Main@dcs.warwick.ac.uk>
+Message-Id: <27163.199508020122@stone.dcs.warwick.ac.uk>
+Subject: BUS: Announcing a new contest
+To: nomic-business@teleport.com (Agora Nomic business mailing list)
+Date: Wed, 2 Aug 1995 02:22:14 +0100 (BST)
+X-Loop: zefram@dcs.warwick.ac.uk
+X-Stardate: [-31]6070.28
+
+I hereby announce a Contest, entitled "The Nomic Potato".  The
+Regulations of The Nomic Potato are as follows:
+
+1. These Regulations may not be changed at any time in any way.
+
+2. The Contestmaster shall be Zefram, and may not be replaced.  The
+   Contestmaster may resign at any time by indicating eir intent to do
+   so to the Public Forum.
+
+3. Currencies in the Contest Fund may not be transferred.
+
+4. The entry fee is 100 Marks.
+
+5. No Player is permitted to become a Contestant.
+
+6. This Contest shall be dissolved when there is no Contestmaster, and
+   may not be dissolved for any other reason.
+
+----------------------------------------
+
+============================================================
+
+End of CFJ 803
+
+============================================================
+
+
+--VS++wcV0S1rZb1Fb--
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 21:49 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA10322 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 21:49:45 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id SAA16479; Sun, 13 Jul 1997 18:49:07 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Sun, 13 Jul 1997 18:47:18 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id SAA16183 for nomic-discussion-outgoing; Sun, 13 Jul 1997 18:47:17 -0700 (PDT)
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10]) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id SAA16177 for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 18:47:14 -0700 (PDT)
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA14352; Sun, 13 Jul 97 20:48:42 CDT
+Message-Id: <9707140148.AA14352@dfw.dfw.net>
+Subject: Re: BUS: Minting of new Currencies
+To: nomic-discussion@teleport.com
+Date: Sun, 13 Jul 1997 20:48:41 -0500 (CDT)
+In-Reply-To: <199707122221.AAA03147@logatome.micronet.fr> from "Laurent Bossavit" at Jul 13, 97 00:24:18 am
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 563
+Status: N
+
+Laurent Bossavit wrote:
+>
+>Tell you what, if Chuck asks me to, I'll be quite happy to destroy the
+>Currencies and recreate them in my own name - there are about 12 hours left to
+>go until the VP on the PC Proposal ends. Of course I'd have liked to have
+>Swann's opinion, but me and Chuck make up a majority of Misanthropists after
+>all, so that's okay.
+
+Nope, that's not necessary.  Just as long as it's understood that
+the action represents the desire of Morendil only, and not
+necessarily any other Misanthropists.  (I missed the end of the
+VP, anyway.)
+
+Chuck
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 22:02 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA10558 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 22:02:22 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id TAA24552; Sun, 13 Jul 1997 19:01:16 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Sun, 13 Jul 1997 18:59:29 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id SAA24229 for nomic-discussion-outgoing; Sun, 13 Jul 1997 18:59:28 -0700 (PDT)
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10]) by greta.teleport.com (8.8.5/8.7.3) with SMTP id SAA24219 for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 18:59:24 -0700 (PDT)
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA16513; Sun, 13 Jul 97 21:00:49 CDT
+Message-Id: <9707140200.AA16513@dfw.dfw.net>
+Subject: Re: BUS: Minting of new Currencies
+To: nomic-discussion@teleport.com
+Date: Sun, 13 Jul 1997 21:00:48 -0500 (CDT)
+In-Reply-To: <199707130415.GAA13174@logatome.micronet.fr> from "Laurent Bossavit" at Jul 13, 97 06:18:28 am
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 920
+Status: N
+
+Laurent Bossavit wrote:
+>
+>It seems to me that we'll have, sooner or later, to move away from the point
+>of view that we're most of us clinging to that all changes to the Game State
+>have to derive their authority, at the root, from the Rules... There's nothing
+>that inherently requires a monolithic Ruleset as the sole authority behind the
+>Game.
+
+Except, perhaps, the social contract (which has been much discussed
+on the Rishon mailing list of late).  When I joined the game, I
+implicitly agreed to obey the Rules, in addition realizing the
+Rules would change and agreeing to obey those changed Rules.
+I did *not* agree to obey the First Declaration of Rights
+and Obligations.  The Rules may require me to obey the FDRO,
+in which case I must obey the FDRO in order to also obey
+the Rules, but I fail to see how the FDRO can grant itself
+de novo authority, without a similar implicit agreement of
+all Players.
+
+Chuck
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 22:41 EDT 1997
+Received: from portia.teleport.com ([192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA11264 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 22:40:57 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id TAA25207; Sun, 13 Jul 1997 19:39:03 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Sun, 13 Jul 1997 19:37:06 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id TAA24953 for nomic-discussion-outgoing; Sun, 13 Jul 1997 19:37:05 -0700 (PDT)
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id TAA24939 for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 19:37:01 -0700 (PDT)
+Received: from arapael (pppA139.francenet.fr [193.149.100.45])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id EAA22934
+	for <nomic-discussion@teleport.com>; Mon, 14 Jul 1997 04:36:58 +0200 (MET DST)
+Message-Id: <199707140236.EAA22934@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic-discussion@teleport.com
+Date: Mon, 14 Jul 1997 04:40:14 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: BUS: Minting of new Currencies
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2640
+Status: N
+
+Chuck sez :
+
+>> There's nothing that inherently requires a monolithic Ruleset as the sole
+>> authority behind the Game.
+
+> Except, perhaps, the social contract (which has been much discussed
+> on the Rishon mailing list of late).  
+
+Oh, has it ? What are they saying about that ?
+
+> When I joined the game, I implicitly agreed to obey the Rules, in addition
+> realizing the Rules would change and agreeing to obey those changed Rules.
+
+Well, yes. Same here, in fact. But given the slippery nature of "the Rules", 
+it should certainly be possible to split them into multiple bodies of law. This 
+could be achieved, for instance, by having a Power-4 Rule explicitly state that 
+it constituted itself a separate body of law; that might go something like:
+
+  Enact a Rule, with Power 4, reading thus :
+
+      At the time this Rule is enacted, this paragraph shall become the initial 
+      Article of the Agoran Constitution, which shall be a body of law separate 
+      from the Rules. This paragraph shall be the Article numbered 0; any 
+      further paragraphs in this Rule shall become a separate Article of the 
+      Agoran Constitution, numbered I, II, III, IV, and continuing. Thereafter
+      this Article shall be Repealed.
+
+      The Articles of the Agoran Constitution shall at all times take 
+      precedence over the Rules of Agora; Agora shall make no Rule that 
+      attempts to restrict any of the rights, nor relax any of the 
+      obligations, that are stated in the Agoran Constitution.
+
+      Amendments to the Agoran Constitution may be adopted by an unanimous Vote 
+      of the Players of Agora, and in no other manner.
+
+      There shall be at all times one Player responsible for maintaining a 
+      record of the text of the Constitution; if the Rules of Agora do not 
+      impose this requirement on a particular Player, then whomever has been 
+      Playing for the longest time shall be responsible for this task.
+
+      <etc.>
+
+Now, as long as such a Rule was Voted upon and adopted, it would certainly 
+represent something that the Players had agreed upon, and thus, I believe, be 
+effective in creating a body of law with the stated precedence over the Rules, 
+and separate from them. That's the kind of thing I meant.
+
+With the Constitution in place, there would be a way to fragment the Rules in 
+as many distinct bodies of law as would be deemed useful, as well as granting 
+other instruments the power to affect the Game State.
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+My reality check just bounced.
+
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 23:03 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA11680 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 23:03:48 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id UAA05398; Sun, 13 Jul 1997 20:01:49 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Sun, 13 Jul 1997 19:59:56 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id TAA05121 for nomic-discussion-outgoing; Sun, 13 Jul 1997 19:59:53 -0700 (PDT)
+Received: from windowsnt ([207.226.81.129]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id TAA05047 for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 19:59:40 -0700 (PDT)
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Sun, 13 Jul 1997 23:50:59 -0500
+Received: by windowsnt from friend-computer
+    (206.18.125.12::mail daemon; unverified,SLMail V2.5); Sun, 13 Jul 1997 23:50:57 -0500
+Message-Id: <3.0.1.32.19970713195615.0068f2a0@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: Windows Eudora Light Version 3.0.1 (32)
+Date: Sun, 13 Jul 1997 19:56:15 -0700
+To: nomic-discussion@teleport.com
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: BUS: Minting of new Currencies
+In-Reply-To: <199707140236.EAA22934@logatome.micronet.fr>
+Mime-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 2140
+Status: N
+
+Morendil wrote:
+
+>  Enact a Rule, with Power 4, reading thus :
+>
+>     At the time this Rule is enacted, this paragraph shall become the initial 
+>     Article of the Agoran Constitution, which shall be a body of law separate 
+>     from the Rules. This paragraph shall be the Article numbered 0; any 
+>     further paragraphs in this Rule shall become a separate Article of the 
+>     Agoran Constitution, numbered I, II, III, IV, and continuing. Thereafter
+>     this Article shall be Repealed.
+>
+>     The Articles of the Agoran Constitution shall at all times take 
+>     precedence over the Rules of Agora; Agora shall make no Rule that 
+>     attempts to restrict any of the rights, nor relax any of the 
+>     obligations, that are stated in the Agoran Constitution.
+
+Let's call this Rule C.  Now while Rule C exists, the Constitution does take
+precedence over the Rules, because Rule C says so.  (Assuming that Rule C
+takes precedence over all other Rules, which is reasonable.)
+
+Upon Rule C's repeal, I'm not certain that the precedence remains.
+
+OTOH, consider Rule C':
+
+     Upon the creation of this Rule, the following things occur, in this
+     order:
+
+     * The New Ruleset is created.
+     * For each Rule in the Ruleset, an identical New Rule in the New
+       Ruleset is created, except for <...>.
+     * All Rules in the Ruleset are repealed, except for <...>.
+     * The Ruleset's name is changed to "The Agoran Constitution".
+     * The New Ruleset's name is changed to "The Ruleset".
+     * This Rule is amended by deleting this paragraph.
+
+     The Agoran Constitution shall at all times take precedence over the
+     Ruleset; Agora shall make no Rule that attempts to restrict any of
+     the rights, nor relax any of the obligations, that are stated in the
+     Agoran Constitution.  Except for this restriction, the Ruleset has
+     complete power over all aspects of the Gamestate.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>     http://www.bayside.net/users/ford/
+"Don't tell me what I already know."    http://wwp.mirabilis.com/1008745/
+     -Richard Feng                      mailto:1008745@pager.mirabilis.com
+
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 23:04 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA11688 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 23:03:58 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id UAA28079; Sun, 13 Jul 1997 20:01:34 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Sun, 13 Jul 1997 19:59:51 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id TAA27912 for nomic-discussion-outgoing; Sun, 13 Jul 1997 19:59:51 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-1-12.ucs.indiana.edu [129.79.18.122]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id TAA27902 for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 19:59:48 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id VAA06613 for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 21:59:45 -0500
+Message-Id: <199707140259.VAA06613@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: Minting of new Currencies 
+In-reply-to: Your message of "Sun, 13 Jul 1997 20:48:41 EST."
+             <9707140148.AA14352@dfw.dfw.net> 
+Date: Sun, 13 Jul 1997 21:59:44 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 391
+Status: N
+
+"Charles" == Charles E Carroll <ccarroll@dfw.net> writes:
+
+Charles> Nope, that's not necessary.  Just as long as it's understood
+Charles> that the action represents the desire of Morendil only, and
+Charles> not necessarily any other Misanthropists.  (I missed the end
+Charles> of the VP, anyway.)
+
+The end of the VP isn't what matters; what matters is when I announce
+the results of Voting.
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 23:29 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA12102 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 23:29:34 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id UAA00672; Sun, 13 Jul 1997 20:23:01 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Sun, 13 Jul 1997 20:21:23 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id UAA00513 for nomic-discussion-outgoing; Sun, 13 Jul 1997 20:21:22 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id UAA00497 for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 20:21:16 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id NAA14240 for nomic-discussion@teleport.com; Mon, 14 Jul 1997 13:21:09 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707140321.NAA14240@aurora.cc.monash.edu.au>
+Subject: Re: BUS: COE for Registrar's Report
+To: nomic-discussion@teleport.com
+Date: Mon, 14 Jul 1997 13:21:09 +1000 (EST)
+In-Reply-To: <9707111937.AA18069@spinup.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns NB6_25 (3751)" at Jul 11, 97 09:37:37 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 840
+Status: N
+
+Klaus Herrmanns NB6_25 (3751) writes:
+>
+>I think this may have been lost while Steve was having problems with
+>his mail, so I'll try again:
+>
+>This is a claim of error concerning the pink pages in the latest
+>Registrar's Report: I think I should be listed there instead of
+>Elde.
+>
+>Kolja A.
+>
+>Att: Content of Pink pages from Registrar's Report of Mon, 07 Jul 1997
+>
+>Player       Registration      Conclusion
+>------       ------------      ----------
+>Elde         Apr 16 1997       Jun 16 1997
+
+Claim admitted. Kolja should be listed in the Pink Pages.
+The corrected part of the Report reads:
+
+Kolja         Jul 02 1997       Sep 02 1997
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 23:32 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA12167 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 23:32:44 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id UAA01970; Sun, 13 Jul 1997 20:32:16 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Sun, 13 Jul 1997 20:30:54 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id UAA01855 for nomic-discussion-outgoing; Sun, 13 Jul 1997 20:30:53 -0700 (PDT)
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10]) by portia.teleport.com (8.8.5/8.7.3) with SMTP id UAA01848 for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 20:30:51 -0700 (PDT)
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA29756; Sun, 13 Jul 97 22:32:17 CDT
+Message-Id: <9707140332.AA29756@dfw.dfw.net>
+Subject: Re: BUS: Minting of new Currencies
+To: nomic-discussion@teleport.com
+Date: Sun, 13 Jul 1997 22:32:17 -0500 (CDT)
+In-Reply-To: <199707140236.EAA22934@logatome.micronet.fr> from "Laurent Bossavit" at Jul 14, 97 04:40:14 am
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 1515
+Status: N
+
+Laurent Bossavit wrote:
+>
+>> When I joined the game, I implicitly agreed to obey the Rules, in addition
+>> realizing the Rules would change and agreeing to obey those changed Rules.
+>
+>Well, yes. Same here, in fact. But given the slippery nature of "the Rules", 
+>it should certainly be possible to split them into multiple bodies of law. This 
+>could be achieved, for instance, by having a Power-4 Rule explicitly state that 
+>it constituted itself a separate body of law; that might go something like:
+>
+>  Enact a Rule, with Power 4, reading thus :
+>
+>      At the time this Rule is enacted, this paragraph shall become the initial 
+>      Article of the Agoran Constitution, which shall be a body of law separate 
+>      from the Rules. This paragraph shall be the Article numbered 0; any 
+[...]
+
+But I never agreed to obey a Constitution.  I agreed to obey the
+Rules.
+
+>Now, as long as such a Rule was Voted upon and adopted, it would certainly 
+>represent something that the Players had agreed upon, 
+
+It would represent something that many of the Players--not necessarily
+all--had agreed upon.
+
+>and thus, I believe, be 
+>effective in creating a body of law with the stated precedence over the Rules, 
+>and separate from them. That's the kind of thing I meant.
+
+Well, yes, it has *stated* precedence over the Rules inasmuch as it
+itself states its precedence over the Rules, but that doesn't make it
+so.  I can claim that my Decrees have precedence over the Rules,
+but that doesn't mean that they do.
+
+Chuck
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 23:47 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA12454 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 23:47:52 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id UAA07446; Sun, 13 Jul 1997 20:45:29 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Sun, 13 Jul 1997 20:43:48 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id UAA07151 for nomic-discussion-outgoing; Sun, 13 Jul 1997 20:43:47 -0700 (PDT)
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id UAA07145 for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 20:43:44 -0700 (PDT)
+Received: from arapael (pppA146.francenet.fr [193.149.100.52])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id FAA24364
+	for <nomic-discussion@teleport.com>; Mon, 14 Jul 1997 05:43:42 +0200 (MET DST)
+Message-Id: <199707140343.FAA24364@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic-discussion@teleport.com
+Date: Mon, 14 Jul 1997 05:46:57 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: The Agoran Constitution
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1412
+Status: N
+
+> >Now, as long as such a Rule was Voted upon and adopted, it would certainly 
+> >represent something that the Players had agreed upon, 
+> 
+> It would represent something that many of the Players--not necessarily
+> all--had agreed upon.
+
+Well - not all of the Players here agreed to abide by the Initial Ruleset,
+either. But anyway - what problem would there be in also agreeing to recognize
+the Consitution as binding ? Not to mention that we'd be sealing this agreement 
+via a (more or less) democratic Vote, which presumably is a stronger form of 
+agreement than that which adopted the Initial Ruleset.
+
+What if the Proposal was adopted unanimously, then ?
+ 
+> Well, yes, it has *stated* precedence over the Rules inasmuch as it
+> itself states its precedence over the Rules, but that doesn't make it
+> so.  I can claim that my Decrees have precedence over the Rules,
+> but that doesn't mean that they do.
+
+It's a Power-4 Rule, it can state anything it want and be effective. As long as 
+you grant that a Power-4 Rule, by virtue of taking precedence over every other 
+Rule, including Rule 101, can have whatever effect is stated therein upon the 
+Game, why not creating a new body of law having authority over the Rules ?
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Reading this tagline will void its warranty.
+
+
+From owner-nomic-discussion@teleport.com Sun Jul 13 23:49 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA12462 for <dpb@cs.brown.edu>; Sun, 13 Jul 1997 23:49:10 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id UAA13736; Sun, 13 Jul 1997 20:48:17 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Sun, 13 Jul 1997 20:46:33 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id UAA13470 for nomic-discussion-outgoing; Sun, 13 Jul 1997 20:46:31 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id UAA13416 for <nomic-discussion@teleport.com>; Sun, 13 Jul 1997 20:46:02 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id NAA14694 for nomic-discussion@teleport.com; Mon, 14 Jul 1997 13:45:50 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707140345.NAA14694@aurora.cc.monash.edu.au>
+Subject: Re: BUS: Minting of new Currencies
+To: nomic-discussion@teleport.com
+Date: Mon, 14 Jul 1997 13:45:50 +1000 (EST)
+In-Reply-To: <199707130420.XAA28885@poverty.bloomington.in.us> from "Scott Goehring" at Jul 12, 97 11:20:29 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 740
+Status: N
+
+Scott Goehring writes:
+>
+>"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+>
+>Laurent> Fine - as long as you're aware that the logical consequence
+>Laurent> is that the current 1011 doesn't prevent, say, the Notary
+>Laurent> from changing your Will. 
+>
+>Bzzzt.  Read Rule 1589.
+
+Morendil did not say that the Notary can change a Player's Will. He said
+that R1011 does not prevent the Notary from doing so. He may be correct
+about that (I don't have an opinion yet) even if R1589 prevents the
+Notary from changing a Player's Will.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+

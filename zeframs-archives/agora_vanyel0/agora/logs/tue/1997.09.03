@@ -1,0 +1,1312 @@
+From owner-agora@win.tue.nl Wed Sep  3 00:24 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA27557 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 00:24:53 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id EAA14378; Wed, 3 Sep 1997 04:24:19 GMT
+Received: from svin10.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id GAA14374; Wed, 3 Sep 1997 06:24:16 +0200 (MET DST)
+Received: from merle.acns.nwu.edu by svin10.win.tue.nl (8.7.1/1.45)
+    id GAA17449; Wed, 3 Sep 1997 06:24:30 +0200 (MET DST)
+Received: (from mailnull@localhost)
+	by merle.acns.nwu.edu (8.8.7/8.8.7) id XAA19343
+	for <agora@win.tue.nl>; Tue, 2 Sep 1997 23:24:28 -0500 (CDT)
+Received: from pppc12.netwave.net(207.112.132.62) by merle.acns.nwu.edu via smap (V2.0)
+	id xma019209; Tue, 2 Sep 97 23:23:31 -0500
+Message-Id: <3.0.1.32.19970902232501.007b8330@merle.acns.nwu.edu>
+X-Sender: erick@merle.acns.nwu.edu
+X-Mailer: Windows Eudora Pro Version 3.0.1 (32)
+Date: Tue, 02 Sep 1997 23:25:01 -0500
+To: agora@win.tue.nl
+From: Erick Robertson <eer@nwu.edu>
+Subject: Re: DIS: Binding rules
+In-Reply-To: <199709030356.NAA04229@aurora.cc.monash.edu.au>
+References: <3.0.1.32.19970902221327.007b6cd0@merle.acns.nwu.edu>
+Mime-Version: 1.0
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 2040
+Lines: 34
+Status: N
+
+>Here's an example of the kind of hard case I have in mind: a Player
+>(let's call her Jill) might register to play without having ever seen
+>our Ruleset. However, Jill has played other Nomics similar to ours
+>(say Ackanomic or Thring), enough to have a general idea of our
+>procedures without having read our Rules. In a flight of whimsy,
+>Jill's first move is to submit 10 CFJs to the CotC on whatever
+>subjects. Ordinarily, this would means that she commits the Infraction
+>of Excess CFJing, defined in R1562/3. But it is now claimed that the
+>text of this Rule has not been made available to her, since Jill happened
+>to join in the middle of the week, and so hasn't yet received the
+>Rulekeepor's distribution of the SLR. But, it is objected, the text of
+>the Rule is available on the Web via Chuck's CRL. Is that enough to
+>satisfy R1513? The Courts have never ruled on that question. Certainly
+>one thing that the answer to that question will depend on is whether
+>Jill has access to the Web. If she has no Web access, Chuck's CRL is
+>pretty clearly not available to her. But what if she has Web access,
+>but only some of the time, say only on the weekends? Or only if she's
+>prepared to drive across town to the University to use the computers
+>in the PC-labs there? Would *that* count as being made available to her?
+>And so on and so forth.
+
+I would think there could be some clause regarding ignorance of the rules
+here... R1513 was proposed (I believe) to prevent people from being bound
+by rules which other players had the right to keep from them.  I would
+suggest that it would be a good idea to amend the registration rule to say
+that you may only register when you have recieved a copy of the current
+ruleset, and that the act of registering implies that you have recieved the
+current ruleset (thereby being bound by it).
+
+Of course, it could be argued that if she registered, she obviously had
+access to the ruleset, or else she wouldn't know how to register.  (i.e.
+send a message to the public forum requesting it).
+
+Vir
+
+From owner-agora@win.tue.nl Wed Sep  3 00:29 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA27649 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 00:29:44 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id EAA14388; Wed, 3 Sep 1997 04:28:48 GMT
+Received: from svin04.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id GAA14384; Wed, 3 Sep 1997 06:28:45 +0200 (MET DST)
+Received: from merle.acns.nwu.edu by svin04.win.tue.nl (8.7.1/1.45)
+    id GAA21311; Wed, 3 Sep 1997 06:28:59 +0200 (MET DST)
+Received: (from mailnull@localhost)
+	by merle.acns.nwu.edu (8.8.7/8.8.7) id XAA19974
+	for <agora@win.tue.nl>; Tue, 2 Sep 1997 23:28:58 -0500 (CDT)
+Received: from pppc12.netwave.net(207.112.132.62) by merle.acns.nwu.edu via smap (V2.0)
+	id xma019887; Tue, 2 Sep 97 23:28:07 -0500
+Message-Id: <3.0.1.32.19970902233112.007d0720@merle.acns.nwu.edu>
+X-Sender: erick@merle.acns.nwu.edu
+X-Mailer: Windows Eudora Pro Version 3.0.1 (32)
+Date: Tue, 02 Sep 1997 23:31:12 -0500
+To: agora@win.tue.nl
+From: Erick Robertson <eer@nwu.edu>
+Subject: DIS: Wording of Rules
+Mime-Version: 1.0
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 375
+Lines: 12
+Status: N
+
+I have a question regarding how specifically the rules are worded.  Being
+new here, I'm uncertain how picky people are, so I'm asking :)
+
+If I have a rule which says:
+-----
+A player may be blown to smithereens.  A player is considered blown up when
+he sends a message to the public forum declaring such.
+-----
+
+Does that mean that no player may be blown to smithereens?
+
+Vir
+
+From owner-agora@win.tue.nl Wed Sep  3 00:43 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA27901 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 00:43:31 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id EAA14638; Wed, 3 Sep 1997 04:42:35 GMT
+Received: from svin10.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id GAA14634; Wed, 3 Sep 1997 06:42:32 +0200 (MET DST)
+Received: from mail.missouri.edu by svin10.win.tue.nl (8.7.1/1.45)
+    id GAA17463; Wed, 3 Sep 1997 06:42:45 +0200 (MET DST)
+Received: from sp2n17.missouri.edu (sp2n17.missouri.edu [128.206.2.27])
+	by mail.missouri.edu (8.8.5/8.8.5) with ESMTP id XAA132826
+	for <agora@win.tue.nl>; Tue, 2 Sep 1997 23:42:43 -0500
+Received: from localhost (c647100@localhost)
+	by sp2n17.missouri.edu (8.8.5/8.8.5) with SMTP id XAA98264
+	for <agora@win.tue.nl>; Tue, 2 Sep 1997 23:41:43 -0500
+From: c647100@showme.missouri.edu
+X-Authentication-Warning: sp2n17.missouri.edu: c647100 owned process doing -bs
+Date: Tue, 2 Sep 1997 23:41:43 -0500 (CDT)
+X-Sender: c647100@sp2n17.missouri.edu
+To: agora@win.tue.nl
+Subject: Re: DIS: Wording of Rules
+In-Reply-To: <3.0.1.32.19970902233112.007d0720@merle.acns.nwu.edu>
+Message-ID: <Pine.A41.3.95q.970902234051.218652B-100000@sp2n17.missouri.edu>
+MIME-Version: 1.0
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Length: 564
+Status: N
+
+
+
+On Tue, 2 Sep 1997, Erick Robertson wrote:
+
+> I have a question regarding how specifically the rules are worded.  Being
+> new here, I'm uncertain how picky people are, so I'm asking :)
+> 
+> If I have a rule which says:
+> -----
+> A player may be blown to smithereens.  A player is considered blown up when
+> he sends a message to the public forum declaring such.
+> -----
+> 
+> Does that mean that no player may be blown to smithereens?
+> 
+I'll say first that the Rule contains the phrase "is considered",
+which is a discouraged phrase of uncertain meaning.
+
+Vlad
+
+
+From owner-agora@win.tue.nl Wed Sep  3 01:03 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA28203 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 01:03:22 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id FAA14888; Wed, 3 Sep 1997 05:01:51 GMT
+Received: from svin10.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id HAA14884; Wed, 3 Sep 1997 07:01:47 +0200 (MET DST)
+Received: from poverty.bloomington.in.us by svin10.win.tue.nl (8.7.1/1.45)
+    id HAA17573; Wed, 3 Sep 1997 07:02:01 +0200 (MET DST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id AAA25141 for <agora@win.tue.nl>; Wed, 3 Sep 1997 00:01:55 -0500
+Message-Id: <199709030501.AAA25141@poverty.bloomington.in.us>
+To: agora@win.tue.nl
+Subject: Re: DIS: Binding rules 
+In-reply-to: Your message of "Tue, 02 Sep 1997 22:13:27 EST."
+             <3.0.1.32.19970902221327.007b6cd0@merle.acns.nwu.edu> 
+Date: Wed, 03 Sep 1997 00:01:48 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text
+Content-Length: 679
+Status: N
+
+"Erick" == Erick Robertson <eer@nwu.edu> writes:
+
+Erick> Which moves are actually legal?
+
+In my opinion, 1 and 2 are illegal, 3 and 4 are legal.  In 2 the rule
+was made available to you; you just chose not to read it.  I think
+it's proper to consider a text as made available to a person if a copy
+of it "enters your technical domain of control", the standard Oerjan
+set for receipt of messages; or, if a copy is posted to the Public
+Forum, since there seems to be a legal presumption that any post sent
+to the PF is thereby being sent to each player.  Game Custom (case
+law) is quite clear that actually reading a message is not necessary
+to satisfy a requirement for receipt.
+
+
+From owner-agora@win.tue.nl Wed Sep  3 01:08 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA28310 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 01:08:38 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id FAA14898; Wed, 3 Sep 1997 05:08:06 GMT
+Received: from svin08.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id HAA14894; Wed, 3 Sep 1997 07:08:02 +0200 (MET DST)
+Received: from poverty.bloomington.in.us by svin08.win.tue.nl (8.7.1/1.45)
+    id HAA16657; Wed, 3 Sep 1997 07:08:16 +0200 (MET DST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id AAA25232 for <agora@win.tue.nl>; Wed, 3 Sep 1997 00:08:06 -0500
+Message-Id: <199709030508.AAA25232@poverty.bloomington.in.us>
+To: agora@win.tue.nl
+Subject: Re: DIS: Binding rules 
+In-reply-to: Your message of "Wed, 03 Sep 1997 13:56:27 +1000."
+             <199709030356.NAA04229@aurora.cc.monash.edu.au> 
+Date: Wed, 03 Sep 1997 00:07:49 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text
+Content-Length: 287
+Status: N
+
+"Steve" == Steve Gardner <gardner@aurora.cc.monash.edu.au> writes:
+
+Steve> Here's an example of the kind of hard case I have in mind: a
+Steve> Player (let's call her Jill) might register to play without
+Steve> having ever seen our Ruleset.
+
+I would make an exception for the Ruleset. :)
+
+From owner-agora@win.tue.nl Wed Sep  3 01:47 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA29049 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 01:47:10 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id FAA15390; Wed, 3 Sep 1997 05:46:38 GMT
+Received: from svin08.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id HAA15386; Wed, 3 Sep 1997 07:46:34 +0200 (MET DST)
+Received: from poverty.bloomington.in.us by svin08.win.tue.nl (8.7.1/1.45)
+    id HAA16712; Wed, 3 Sep 1997 07:46:48 +0200 (MET DST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id AAA25280 for <agora@win.tue.nl>; Wed, 3 Sep 1997 00:46:40 -0500
+Message-Id: <199709030546.AAA25280@poverty.bloomington.in.us>
+To: agora@win.tue.nl
+Subject: Re: DIS: Wording of Rules 
+In-reply-to: Your message of "Tue, 02 Sep 1997 23:41:43 EST."
+             <Pine.A41.3.95q.970902234051.218652B-100000@sp2n17.missouri.edu> 
+Date: Wed, 03 Sep 1997 00:46:31 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text
+Content-Length: 586
+Status: N
+
+"c647100" == c647100  <c647100@showme.missouri.edu> writes:
+
+c647100> I'll say first that the Rule contains the phrase "is
+c647100> considered", which is a discouraged phrase of uncertain
+c647100> meaning.
+
+For no good reason, I might add.
+
+I consider the wording of the second sentence quite clear.  It states
+that when a Player states that e has been blown to smithereens, for
+the purpose of the Rules, e shall be apprehended as having been thus
+affected, even though in reality e has not.  A "legal fiction", if you
+will.
+
+I am not certain what the first sentence does, if anything.
+
+From owner-agora@win.tue.nl Wed Sep  3 03:17 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA00500 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 03:17:40 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id HAA16755; Wed, 3 Sep 1997 07:16:33 GMT
+Received: from svin10.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id JAA16746; Wed, 3 Sep 1997 09:16:28 +0200 (MET DST)
+Received: from logatome.micronet.fr by svin10.win.tue.nl (8.7.1/1.45)
+    id JAA17866; Wed, 3 Sep 1997 09:16:40 +0200 (MET DST)
+Received: from arapael (pppA141.francenet.fr [193.149.100.47])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id JAA13763
+	for <agora@win.tue.nl>; Wed, 3 Sep 1997 09:16:37 +0200 (MET DST)
+Message-Id: <199709030716.JAA13763@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora@win.tue.nl
+Date: Wed, 3 Sep 1997 09:20:28 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: OFF: Herald's Report as of 2 September, 1997
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 341
+Status: N
+
+Crito deserves to be commended for the useful and rigorous format of
+eir latest Herald's Report, as well as the effort that must have gone into it.
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Press any key to continue or any other key to quit
+
+
+From owner-agora@win.tue.nl Wed Sep  3 03:17 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA00506 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 03:17:44 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id HAA16756; Wed, 3 Sep 1997 07:16:36 GMT
+Received: from svbs01.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id JAA16751; Wed, 3 Sep 1997 09:16:31 +0200 (MET DST)
+Received: from logatome.micronet.fr by svbs01.win.tue.nl (8.7.1/1.45)
+    id JAA07436; Wed, 3 Sep 1997 09:16:42 +0200 (MET DST)
+Received: from arapael (pppA141.francenet.fr [193.149.100.47])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id JAA13768
+	for <agora@win.tue.nl>; Wed, 3 Sep 1997 09:16:38 +0200 (MET DST)
+Message-Id: <199709030716.JAA13768@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora@win.tue.nl
+Date: Wed, 3 Sep 1997 09:20:28 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Binding rules
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2240
+Status: N
+
+Vir sez:
+
+> I would think there could be some clause regarding ignorance of the rules
+> here... R1513 was proposed (I believe) to prevent people from being bound
+> by rules which other players had the right to keep from them.  I would
+> suggest that it would be a good idea to amend the registration rule to say
+> that you may only register when you have recieved a copy of the current
+> ruleset, and that the act of registering implies that you have recieved the
+> current ruleset (thereby being bound by it).
+
+I would be against.
+
+On the point of historical detail, I proposed 1513 (or what later became 1513,
+IIRC this provision was initially inserted in an amendment to the now-defunct
+1538) in reaction to the infamous Mousetrap Scam, where a faction of Players 
+scamming the newly-crafted Organization Rules attempted to forcibly enroll 
+every Player into the Compact of a new Organization, without apparently being 
+bound, or initially willing, to publish that Compact.
+
+It seemed aberrant to me that a Player should be bound to abide by a text that
+could be kept from em, thus the 'made available' wording. There was in my
+opinion no need that a Player actually have read the relevant text, because our
+Welcome Wagon, the Agora FAQ, etc. supposedly make it clear that when you
+register you're required to obey the Rules, and thus if a Player is worried
+about any SLC or other binding text e is supposed to first request those from
+the appropriate Officers. If e plays without doing so, e is still bound by all
+our rules and other subordinate instruments.
+
+It is _sufficient_ for a text to be binding on a Player that there exist a
+requirement that that text should be delivered to that Player, on demand or
+without eir demand. I tentatively argued that it was required, but this is, I 
+think, a matter for the Courts - and not, at that, a particularly urgent one.
+
+BTW, are you the same Erick Robertson that was very briefly a Player during
+the above-mentioned Mousetrap episode, specifically, IIRC, from Oct. 31 to Nov.
+1 of 1995 ? 
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+If a program is useless, it will have to be documented.
+
+
+From owner-agora@win.tue.nl Wed Sep  3 05:25 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA02588 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 05:25:23 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id JAA18405; Wed, 3 Sep 1997 09:19:28 GMT
+Received: from wsinfm15.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id LAA18401; Wed, 3 Sep 1997 11:19:25 +0200 (MET DST)
+Received: by wsinfm15.win.tue.nl (8.7.1/1.45)
+    id LAA13226; Wed, 3 Sep 1997 11:19:40 +0200 (MET DST)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199709030919.LAA13226@wsinfm15.win.tue.nl>
+Subject: Re: DIS: Binding rules
+To: agora@win.tue.nl
+Date: Wed, 3 Sep 1997 11:19:39 +0200 (MET DST)
+In-Reply-To: <199709030356.NAA04229@aurora.cc.monash.edu.au> from "Steve Gardner" at Sep 3, 97 01:56:27 pm
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1519
+Status: N
+
+> Here's an example of the kind of hard case I have in mind: a Player
+> (let's call her Jill) might register to play without having ever seen
+> our Ruleset. However, Jill has played other Nomics similar to ours
+> (say Ackanomic or Thring), enough to have a general idea of our
+> procedures without having read our Rules. In a flight of whimsy,
+> Jill's first move is to submit 10 CFJs to the CotC on whatever
+> subjects. Ordinarily, this would means that she commits the Infraction
+> of Excess CFJing, defined in R1562/3. But it is now claimed that the
+> text of this Rule has not been made available to her, since Jill happened
+> to join in the middle of the week, and so hasn't yet received the
+> Rulekeepor's distribution of the SLR. But, it is objected, the text of
+> the Rule is available on the Web via Chuck's CRL. Is that enough to
+> satisfy R1513? The Courts have never ruled on that question. Certainly
+> one thing that the answer to that question will depend on is whether
+> Jill has access to the Web. If she has no Web access, Chuck's CRL is
+> pretty clearly not available to her. But what if she has Web access,
+> but only some of the time, say only on the weekends? Or only if she's
+> prepared to drive across town to the University to use the computers
+> in the PC-labs there? Would *that* count as being made available to her?
+> And so on and so forth.
+
+I think this one isn't very hard: Rule 101 takes precedence over Rule 1513,
+so Rule 1513 does not deprive the Ruleset of its functionality.
+
+Andre
+
+
+From owner-agora@win.tue.nl Wed Sep  3 05:42 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA02830 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 05:42:33 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id JAA18684; Wed, 3 Sep 1997 09:40:21 GMT
+Received: from svin10.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id LAA18680; Wed, 3 Sep 1997 11:40:18 +0200 (MET DST)
+Received: from mailhost.rz.ruhr-uni-bochum.de by svin10.win.tue.nl (8.7.1/1.45)
+    id LAA18279; Wed, 3 Sep 1997 11:40:32 +0200 (MET DST)
+Received: (qmail 23596 invoked from network); 3 Sep 1997 09:40:32 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 3 Sep 1997 09:40:32 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA04835; Wed, 3 Sep 1997 11:40:31 +0200
+Date: Wed, 3 Sep 1997 11:40:31 +0200
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9709030940.AA04835@spinup.tp3.ruhr-uni-bochum.de>
+To: agora@win.tue.nl
+In-Reply-To: <3.0.1.32.19970902221327.007b6cd0@merle.acns.nwu.edu> (message from Erick Robertson on Tue, 02 Sep 1997 22:13:27 -0500)
+Subject: Re: DIS: Binding rules
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text
+Content-Length: 1508
+Status: N
+
+Vir:
+>>
+At the risk of brining this up again, let me throw out a few scenarios and
+let me know what happens...
+<<
+
+I think that as far as proper rules are concerned, it _should_ work
+like this (I'm not claiming it does right now):
+
+Rules are binding for every player (101), so it is illegal to do
+things that are against the rules. The rules are published often
+enough, and if someone has technical difficulties receiving the rule
+sets, e will also have the same difficulties playing in the first
+place. 
+
+If someone just starts playing without ever reading the rules (as in
+Steve's example), well, tough luck if something goes wrong. Especially
+for someone who knows the general concept of nomics (including rules
+like 101!) it should be the obvious strategy not to make game moves
+that might be illegal withoug checking the rules first - or run the
+risk of making mistakes and face the consequences. And in fact, that
+is what people usually do, anyway (hi, Vir!).
+
+All the complications about making documents binding only if they are
+available are introduced in 1513 only concerning _non-rule_ entities
+that may require players to do things. Of course that's a different
+matter, because they are not systematically archived and distributed
+as the rules are, so special clauses like those in 1513 are needed.
+
+So my answer to Vir's question is: if A, B, C and D are actually
+_rules_ and not the kind of non-rule entities of 1513, all actions 1-4
+are illegal. Or at least that's how it should be.
+
+Kolja A.
+
+From owner-agora@win.tue.nl Wed Sep  3 08:28 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA05544 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 08:28:44 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id MAA21028; Wed, 3 Sep 1997 12:25:33 GMT
+Received: from svis01.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id OAA21024; Wed, 3 Sep 1997 14:25:30 +0200 (MET DST)
+Received: from poverty.bloomington.in.us by svis01.win.tue.nl (8.7.1/1.45)
+    id OAA17514; Wed, 3 Sep 1997 14:25:41 +0200 (MET DST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id HAA25551 for <agora@win.tue.nl>; Wed, 3 Sep 1997 07:25:39 -0500
+Message-Id: <199709031225.HAA25551@poverty.bloomington.in.us>
+To: agora@win.tue.nl
+Subject: Re: OFF: Herald's Report as of 2 September, 1997 
+In-reply-to: Your message of "Wed, 03 Sep 1997 09:20:28 +0100."
+             <199709030716.JAA13763@logatome.micronet.fr> 
+Date: Wed, 03 Sep 1997 07:25:36 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text
+Content-Length: 355
+Status: N
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+Laurent> Crito deserves to be commended for the useful and rigorous
+Laurent> format of eir latest Herald's Report, as well as the effort
+Laurent> that must have gone into it.
+
+I just wish he would list, in the Payment Orders section, those Orders
+which were executed earlier in that Report.  
+
+From owner-agora@win.tue.nl Wed Sep  3 09:56 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA08191 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 09:56:42 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id NAA22163; Wed, 3 Sep 1997 13:49:39 GMT
+Received: from svin07.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id PAA22159; Wed, 3 Sep 1997 15:49:36 +0200 (MET DST)
+Received: from rmv.state.ma.us by svin07.win.tue.nl (8.7.1/1.45)
+    id PAA27660; Wed, 3 Sep 1997 15:49:45 +0200 (MET DST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 03 Sep 1997 09:54:38 -0400
+Message-Id: <s40d33de.036@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 03 Sep 1997 09:53:49 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora@win.tue.nl
+Subject: Murphy wrote:
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain
+Content-Length: 575
+Status: N
+
+Murphy wrote:
+
+>Sigh.
+
+>I hereby do whatever is necessary to pay the following Payment
+>Orders, to the extent possible:  VT1014, POI014, POI041.
+
+Umm.  Maybe I contributed more to your confusion rather than alleviating it.8(
+POI014 and POI041 have both already been satisfied by your other (previously)
+delayed Transfer Orders.  It's POI051 that you have to worry about now.  Even
+though I know what you wanted to do, I think I will have to wait for you to
+send a message specific to that PO before I can consider you to have submitted
+another delayed TO.  Sorry.
+
+-- Crito
+
+
+From owner-agora@win.tue.nl Wed Sep  3 10:26 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA09037 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 10:26:28 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id OAA22583; Wed, 3 Sep 1997 14:25:25 GMT
+Received: from svin08.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id QAA22578; Wed, 3 Sep 1997 16:25:20 +0200 (MET DST)
+Received: from rmv.state.ma.us by svin08.win.tue.nl (8.7.1/1.45)
+    id QAA18339; Wed, 3 Sep 1997 16:23:30 +0200 (MET DST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 03 Sep 1997 10:21:21 -0400
+Message-Id: <s40d3a21.057@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 03 Sep 1997 10:20:31 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora@win.tue.nl
+Subject: Re: OFF: Herald's Report as of 2 September, 1997
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain
+Content-Length: 357
+Status: N
+
+Re: OFF: Herald's Report as of 2 September, 1997
+
+Morendil wrote:
+
+>Crito deserves to be commended for the useful and rigorous format of
+>eir latest Herald's Report, as well as the effort that must have gone into it.
+
+Thank you, thank you.  Of course, Scott too deserves some credit for coming up
+with the idea of numbering the transactions.  8)
+
+-- Crito
+
+
+From owner-agora@win.tue.nl Wed Sep  3 10:26 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA09041 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 10:26:49 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id OAA22590; Wed, 3 Sep 1997 14:25:55 GMT
+Received: from svin10.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id QAA22586; Wed, 3 Sep 1997 16:25:52 +0200 (MET DST)
+Received: from rmv.state.ma.us by svin10.win.tue.nl (8.7.1/1.45)
+    id QAA19278; Wed, 3 Sep 1997 16:26:01 +0200 (MET DST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 03 Sep 1997 10:30:51 -0400
+Message-Id: <s40d3c5b.061@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 03 Sep 1997 10:29:54 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora@win.tue.nl
+Subject: Re: OFF: Herald's Report as of 2 September, 1997
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain
+Content-Length: 788
+Status: N
+
+Re: OFF: Herald's Report as of 2 September, 1997
+
+Scott wrote:
+
+>I just wish he would list, in the Payment Orders section, those Orders
+>which were executed earlier in that Report.  
+
+You know, I wanted to do that, but it struck me that the Payment Orders
+executed at the beginning of the report are not actually Payment Orders until
+the report has been sent.  In order for me to accurately report them in the
+Payment Orders section, they have to have already been sent to the PF, and I
+have to have received the copy back in order to put the correct time stamp on
+it in the list.  I'd rather not have to send separate messages and have to wait
+for the first one to arrive before being able to send the second.
+
+Hmm, I suppose I could list the "pending" POs with a disclaimer.
+
+-- Crito
+
+
+From owner-agora@win.tue.nl Wed Sep  3 11:15 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA10751 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 11:15:43 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id PAA23294; Wed, 3 Sep 1997 15:13:33 GMT
+Received: from svtt01.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id RAA23290; Wed, 3 Sep 1997 17:13:28 +0200 (MET DST)
+Received: from dfw.dfw.net by svtt01.win.tue.nl (8.7.1/1.45)
+    id RAA16357; Wed, 3 Sep 1997 17:13:39 +0200 (MET DST)
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA16125; Wed, 3 Sep 97 10:15:33 CDT
+Message-Id: <9709031515.AA16125@dfw.dfw.net>
+Subject: Re: OFF: Herald's Report as of 2 September, 1997
+To: agora@win.tue.nl
+Date: Wed, 3 Sep 1997 10:15:32 -0500 (CDT)
+In-Reply-To: <s40d3c5b.061@rmv.state.ma.us> from "David Albertz" at Sep 3, 97 10:29:54 am
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text
+Content-Length: 781
+Status: N
+
+David Albertz wrote:
+>
+>
+>You know, I wanted to do that, but it struck me that the Payment Orders
+>executed at the beginning of the report are not actually Payment Orders until
+>the report has been sent.  In order for me to accurately report them in the
+>Payment Orders section, they have to have already been sent to the PF, and I
+>have to have received the copy back in order to put the correct time stamp on
+>it in the list.  I'd rather not have to send separate messages and have to wait
+>for the first one to arrive before being able to send the second.
+>
+>Hmm, I suppose I could list the "pending" POs with a disclaimer.
+
+What some officers have done in the past in similar situations
+is to simply list the time as "as of this message"--you might
+consider doing that.
+
+Chuck
+
+From hs Wed Sep  3 11:19 EDT 1997
+Received: from trixie.cs.brown.edu (trixie.cs.brown.edu [128.148.31.107]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA10825; Wed, 3 Sep 1997 11:17:31 -0400 (EDT)
+Received: (hs@localhost) by trixie.cs.brown.edu (8.8.3/BrownCS1.0) id LAA23274; Wed, 3 Sep 1997 11:17:30 -0400 (EDT)
+From: Hagit Shatkay <hs>
+Date: Wed, 3 Sep 1997 11:17:30 -0400 (EDT)
+Message-Id: <199709031517.LAA23274@trixie.cs.brown.edu>
+To: lem, masters, phd
+Subject: Re: The new library/lounge
+Content-Type: text
+Content-Length: 1545
+
+Lee Markosian writes:
+
+> I disagree with the so-far unanimous opinion that undergrads should
+> not be allowed in the library lounge. Undergrads aren't so bad. I
+> often have useful discussions with undergrads, and it would be too bad
+> if such discussions could not take place in the lounge. Maybe what we
+> really want are some reasonable rules, such as:
+ 
+>   * no stinking "wings" consumed there
+>   * don't leave trash all over the place
+>   * no sleeping on the sofas (especially if you smell bad)
+
+
+Thanks Lee for bringing some debate spirit into this!
+(And for correcting the spelling on the subject line!)
+
+I have been wondering about this "let's have some rules" issue for a while
+now.
+Suppose (hypothtically!) that there was no issue of mess, pizza parties,
+noise, sleeping students on the couches.
+
+Suppose all we have is wonderfully behaved group of 10 undergrads sitting there
+having a quiet conversation about their cs15/16/169 u-name-it project,
+TA-ing experience or party.
+
+Would grad students still walk in and join the chat or would they walk away?
+I have the feeling most of us would go to another place (e.g office or
+some restaurant) to have lunch in solitude or with our reliable office mates...
+
+If I am totally off base and grad students would join in as long as there are no
+smells and no sleeping on the couches, I'm wondering what are possible
+effective methods of enforcing such order and cleanliness.
+If there is such a method I'd surely like to see it applied to TGIF,
+departmental kitchens and the labs...
+
+Hagit.
+
+From owner-agora@win.tue.nl Wed Sep  3 11:31 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA11391 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 11:31:00 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id PAA23425; Wed, 3 Sep 1997 15:28:12 GMT
+Received: from svbs01.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id RAA23421; Wed, 3 Sep 1997 17:28:09 +0200 (MET DST)
+Received: from rmv.state.ma.us by svbs01.win.tue.nl (8.7.1/1.45)
+    id RAA12165; Wed, 3 Sep 1997 17:28:22 +0200 (MET DST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 03 Sep 1997 11:33:21 -0400
+Message-Id: <s40d4b01.096@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 03 Sep 1997 11:32:23 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora@win.tue.nl
+Subject: Re: OFF: Herald's Report as of 2 September, 1997
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain
+Content-Length: 964
+Status: N
+
+Re: OFF: Herald's Report as of 2 September, 1997
+
+Chuck wrote:
+
+>>You know, I wanted to do that, but it struck me that the Payment Orders
+>>executed at the beginning of the report are not actually Payment Orders until
+>>the report has been sent.  In order for me to accurately report them in the
+>>Payment Orders section, they have to have already been sent to the PF, and I
+>>have to have received the copy back in order to put the correct time stamp on
+>>it in the list.  I'd rather not have to send separate messages and have to
+>>wait for the first one to arrive before being able to send the second.
+
+>>Hmm, I suppose I could list the "pending" POs with a disclaimer.
+
+>What some officers have done in the past in similar situations
+>is to simply list the time as "as of this message"--you might
+>consider doing that.
+
+Yes, that's I good idea.  I'll probably use some sort of abbreviation for "as
+of this message" in my next report, then.  Thanks.
+
+-- Crito
+
+
+From owner-agora@win.tue.nl Wed Sep  3 11:34 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA11477 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 11:33:56 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id PAA23557; Wed, 3 Sep 1997 15:32:47 GMT
+Received: from svis01.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id RAA23553; Wed, 3 Sep 1997 17:32:44 +0200 (MET DST)
+Received: from windowsnt by svis01.win.tue.nl (8.7.1/1.45)
+    id RAA18310; Wed, 3 Sep 1997 17:32:52 +0200 (MET DST)
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Wed, 03 Sep 1997 12:24:12 -0500
+Received: by windowsnt from friend-computer
+    (206.18.125.47::mail daemon; unverified,SLMail V2.5); Wed, 03 Sep 1997 12:24:09 -0500
+Message-Id: <3.0.3.32.19970903081402.00693b18@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.3 (32)
+Date: Wed, 03 Sep 1997 08:14:02 -0700
+To: agora@win.tue.nl
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: DIS: Binding rules
+In-Reply-To: <199709030356.NAA04229@aurora.cc.monash.edu.au>
+References: <3.0.1.32.19970902221327.007b6cd0@merle.acns.nwu.edu>
+Mime-Version: 1.0
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 1456
+Status: N
+
+Steve wrote:
+
+>Here's an example of the kind of hard case I have in mind: a Player
+>(let's call her Jill) might register to play without having ever seen
+>our Ruleset. However, Jill has played other Nomics similar to ours
+>(say Ackanomic or Thring), enough to have a general idea of our
+>procedures without having read our Rules. In a flight of whimsy,
+>Jill's first move is to submit 10 CFJs to the CotC on whatever
+>subjects. Ordinarily, this would means that she commits the Infraction
+>of Excess CFJing, defined in R1562/3. But it is now claimed that the
+>text of this Rule has not been made available to her, since Jill happened
+>to join in the middle of the week, and so hasn't yet received the
+>Rulekeepor's distribution of the SLR. But, it is objected, the text of
+>the Rule is available on the Web via Chuck's CRL. Is that enough to
+>satisfy R1513? The Courts have never ruled on that question.
+
+But, it is further objected, the text of the Rule is available by asking
+Chuck to e-mail her a copy - in fact, she could have done so before
+joining.  Is that enough to satisfy R1513?  What if Jill had no idea
+that the text of the Rule was available in this way - say, the only Nomic
+she's played before was Blind Nomic?
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>     http://www.bayside.net/users/ford/
+"Don't tell me what I already know."    http://wwp.mirabilis.com/1008745/
+     -Richard Feng                      mailto:1008745@pager.mirabilis.com
+
+
+From owner-agora@win.tue.nl Wed Sep  3 11:34 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA11499 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 11:34:16 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id PAA23575; Wed, 3 Sep 1997 15:33:05 GMT
+Received: from svis01.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id RAA23565; Wed, 3 Sep 1997 17:32:58 +0200 (MET DST)
+Received: from windowsnt by svis01.win.tue.nl (8.7.1/1.45)
+    id RAA18316; Wed, 3 Sep 1997 17:33:06 +0200 (MET DST)
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Wed, 03 Sep 1997 12:24:18 -0500
+Received: by windowsnt from friend-computer
+    (206.18.125.47::mail daemon; unverified,SLMail V2.5); Wed, 03 Sep 1997 12:24:16 -0500
+Message-Id: <3.0.3.32.19970903081720.00690ca4@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.3 (32)
+Date: Wed, 03 Sep 1997 08:17:20 -0700
+To: agora@win.tue.nl
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: DIS: Binding rules
+In-Reply-To: <3.0.1.32.19970902232501.007b8330@merle.acns.nwu.edu>
+References: <199709030356.NAA04229@aurora.cc.monash.edu.au>
+ <3.0.1.32.19970902221327.007b6cd0@merle.acns.nwu.edu>
+Mime-Version: 1.0
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 790
+Status: N
+
+Vir wrote:
+
+>Of course, it could be argued that if she registered, she obviously had
+>access to the ruleset, or else she wouldn't know how to register.  (i.e.
+>send a message to the public forum requesting it).
+
+That argument would fail.  The following conversation has occurred more
+than once in the past:
+
+<Watcher discovers the location of the mailing lists>
+  Watcher:  How do I register to play?
+Registrar:  By sending a message to this list saying that you want to.
+  Watcher:  Oh, okay.  I want to register to play.
+Registrar:  Okay, you're registered.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>     http://www.bayside.net/users/ford/
+"Don't tell me what I already know."    http://wwp.mirabilis.com/1008745/
+     -Richard Feng                      mailto:1008745@pager.mirabilis.com
+
+
+From owner-agora@win.tue.nl Wed Sep  3 11:34 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA11507 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 11:34:20 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id PAA23578; Wed, 3 Sep 1997 15:33:08 GMT
+Received: from svis01.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id RAA23570; Wed, 3 Sep 1997 17:32:59 +0200 (MET DST)
+Received: from windowsnt by svis01.win.tue.nl (8.7.1/1.45)
+    id RAA18320; Wed, 3 Sep 1997 17:33:10 +0200 (MET DST)
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Wed, 03 Sep 1997 12:24:30 -0500
+Received: by windowsnt from friend-computer
+    (206.18.125.47::mail daemon; unverified,SLMail V2.5); Wed, 03 Sep 1997 12:24:28 -0500
+Message-Id: <3.0.3.32.19970903082313.0069c038@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.3 (32)
+Date: Wed, 03 Sep 1997 08:23:13 -0700
+To: agora@win.tue.nl
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: OFF: Herald's Report as of 2 September, 1997
+In-Reply-To: <s40d3c5b.061@rmv.state.ma.us>
+Mime-Version: 1.0
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 1059
+Status: N
+
+Crito wrote:
+
+>Scott wrote:
+
+>>I just wish he would list, in the Payment Orders section, those Orders
+>>which were executed earlier in that Report.  
+
+>You know, I wanted to do that, but it struck me that the Payment Orders
+>executed at the beginning of the report are not actually Payment Orders until
+>the report has been sent.  In order for me to accurately report them in the
+>Payment Orders section, they have to have already been sent to the PF, and I
+>have to have received the copy back in order to put the correct time stamp on
+>it in the list.  I'd rather not have to send separate messages and have to
+>wait for the first one to arrive before being able to send the second.
+
+>Hmm, I suppose I could list the "pending" POs with a disclaimer.
+
+It seems that "as of this message" is accepted as an unambiguous timestamp.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>     http://www.bayside.net/users/ford/
+"Don't tell me what I already know."    http://wwp.mirabilis.com/1008745/
+     -Richard Feng                      mailto:1008745@pager.mirabilis.com
+
+
+From owner-agora@win.tue.nl Wed Sep  3 11:35 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA11518 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 11:34:55 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id PAA23574; Wed, 3 Sep 1997 15:33:03 GMT
+Received: from svis01.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id RAA23560; Wed, 3 Sep 1997 17:32:56 +0200 (MET DST)
+Received: from windowsnt by svis01.win.tue.nl (8.7.1/1.45)
+    id RAA18315; Wed, 3 Sep 1997 17:33:05 +0200 (MET DST)
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Wed, 03 Sep 1997 12:24:26 -0500
+Received: by windowsnt from friend-computer
+    (206.18.125.47::mail daemon; unverified,SLMail V2.5); Wed, 03 Sep 1997 12:24:21 -0500
+Message-Id: <3.0.3.32.19970903082148.0069a984@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.3 (32)
+Date: Wed, 03 Sep 1997 08:21:48 -0700
+To: agora@win.tue.nl
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: Murphy wrote:
+In-Reply-To: <s40d33de.036@rmv.state.ma.us>
+Mime-Version: 1.0
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 796
+Status: N
+
+Crito wrote:
+
+>Umm.  Maybe I contributed more to your confusion rather than alleviating it.8(
+>POI014 and POI041 have both already been satisfied by your other (previously)
+>delayed Transfer Orders.  It's POI051 that you have to worry about now.  Even
+>though I know what you wanted to do, I think I will have to wait for you to
+>send a message specific to that PO before I can consider you to have submitted
+>another delayed TO.  Sorry.
+
+Yes, and here it is:  I hereby do whatever is necessary to cause Payment
+Order POI051 to be satisfied, to the extent possible.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>     http://www.bayside.net/users/ford/
+"Don't tell me what I already know."    http://wwp.mirabilis.com/1008745/
+     -Richard Feng                      mailto:1008745@pager.mirabilis.com
+
+
+From vbg Wed Sep  3 11:43 EDT 1997
+Received: from bambi.cs.brown.edu (bambi.cs.brown.edu [128.148.33.2]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA11738; Wed, 3 Sep 1997 11:42:07 -0400 (EDT)
+Received: (vbg@localhost) by bambi.cs.brown.edu (8.8.3/BrownCS1.0) id LAA24394; Wed, 3 Sep 1997 11:42:06 -0400 (EDT)
+From: Valerie Green <vbg>
+Message-Id: <199709031542.LAA24394@bambi.cs.brown.edu>
+Subject: Re: The new library/lounge
+In-Reply-To: <199709022005.QAA20674@trixie.cs.brown.edu> from Hagit Shatkay at "Sep 2, 97 04:05:37 pm"
+To: hs@bullwinkle.cs.brown.edu (Hagit Shatkay)
+Date: Wed, 3 Sep 1997 11:42:06 -0400 (EDT)
+Cc: masters, phd
+X-Mailer: ELM [version 2.4ME+ PL31H (25)]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 800
+
+I mentioned this to Hagit, but forgot to cc...
+
+As a recent undergrad, I know that there are considerate and
+inconsiderate undergrads.  It's pretty difficult to limit a
+facility to only the considerate ones, obviously.  What strikes
+me is that the undergrads rarely organize events for themselves,
+and never organize events for undergrads and grads, even though
+there exists a department budget for the DUG.  Natasha Gelfand
+and Dan Price are interested in getting the DUG going again, so
+maybe that is a good place for undergrads to take their concerns,
+and use some of that money to improve undergraduate life in the
+department.  Wouldn't you all feel better about undergrads coming
+to TGIF, working in labs, etc, if the DUG sponsored some
+undergrad/grad events as well?  I think I would.
+
+Valerie
+
+From owner-agora@win.tue.nl Wed Sep  3 12:34 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA13630 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 12:34:29 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id QAA24534; Wed, 3 Sep 1997 16:33:19 GMT
+Received: from svin02.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id SAA24530; Wed, 3 Sep 1997 18:33:16 +0200 (MET DST)
+Received: from merle.acns.nwu.edu by svin02.win.tue.nl (8.7.1/1.45)
+    id SAA29561; Wed, 3 Sep 1997 18:33:28 +0200 (MET DST)
+Received: (from mailnull@localhost)
+	by merle.acns.nwu.edu (8.8.7/8.8.7) id LAA06504
+	for <agora@win.tue.nl>; Wed, 3 Sep 1997 11:33:27 -0500 (CDT)
+Received: from pppc12.netwave.net(207.112.132.62) by merle.acns.nwu.edu via smap (V2.0)
+	id xma006235; Wed, 3 Sep 97 11:32:47 -0500
+Message-Id: <3.0.1.32.19970903113101.007b6e60@merle.acns.nwu.edu>
+X-Sender: erick@merle.acns.nwu.edu
+X-Mailer: Windows Eudora Pro Version 3.0.1 (32)
+Date: Wed, 03 Sep 1997 11:31:01 -0500
+To: agora@win.tue.nl
+From: Erick Robertson <eer@nwu.edu>
+Subject: Re: DIS: Binding rules
+In-Reply-To: <199709030716.JAA13768@logatome.micronet.fr>
+Mime-Version: 1.0
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 622
+Status: N
+
+At 09:20 AM 9/3/97 +0100, Morendil wrote:
+>BTW, are you the same Erick Robertson that was very briefly a Player during
+>the above-mentioned Mousetrap episode, specifically, IIRC, from Oct. 31 to
+Nov.
+>1 of 1995 ? 
+
+Yes, I am... (unfortunately)  That was the wrong time for a new player to
+pop in.  There was a lot of frustration and aggrivation and very high
+traffic on the lists.  I decided then it was something I did not want to
+deal with.  (which is precicely why I'm currently a watcher and not a
+player... after I see what the norm is, figure out what's going on, and get
+in the swing of things, I'll register)
+
+Vir
+
+From owner-agora@win.tue.nl Wed Sep  3 13:58 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA16894 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 13:58:37 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id RAA25537; Wed, 3 Sep 1997 17:57:33 GMT
+Received: from svbs01.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id TAA25533; Wed, 3 Sep 1997 19:57:30 +0200 (MET DST)
+Received: from ns.calvacom.fr by svbs01.win.tue.nl (8.7.1/1.45)
+    id TAA01383; Wed, 3 Sep 1997 19:57:44 +0200 (MET DST)
+Received: from lolo.knc ([194.250.81.212] (may be forged))
+	by ns.calvacom.fr (8.8.6/8.8.6) with SMTP id TAA04397
+	for <agora@win.tue.nl>; Wed, 3 Sep 1997 19:57:41 +0200 (MET DST)
+Message-ID: <340D9815.1CF3@micronet.fr>
+Date: Wed, 03 Sep 1997 19:02:13 +0200
+From: Laurent Bossavit <morendil@micronet.fr>
+Organization: netDIVE - publishers of CUChat, the One & Only 100% Visual Java Chat
+X-Mailer: Mozilla 3.01Gold (Win95; I)
+MIME-Version: 1.0
+To: agora@win.tue.nl
+Subject: Re: DIS: Binding rules
+References: <3.0.1.32.19970903113101.007b6e60@merle.acns.nwu.edu>
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 807
+Status: N
+
+> >BTW, are you the same Erick Robertson that was very briefly a Player during
+> >the above-mentioned Mousetrap episode, specifically, IIRC, from Oct. 31 to Nov.
+> >1 of 1995 ?
+> 
+> Yes, I am... (unfortunately)  That was the wrong time for a new player to
+> pop in.  There was a lot of frustration and aggrivation and very high
+> traffic on the lists.  I decided then it was something I did not want to
+> deal with.  (which is precicely why I'm currently a watcher and not a
+> player... after I see what the norm is, figure out what's going on, and get
+> in the swing of things, I'll register)
+
+Oh, it's never unfortunate to be who one is, I hope. :)
+
+I don't know if this brief episode made it into Swann's Mousetrap Thesis, btw.
+So you are on the verge of giving in to a (nearly) two-year itch, hmm ? ;)
+
+
+From owner-agora@win.tue.nl Wed Sep  3 14:04 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA17136 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 14:04:01 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id SAA25547; Wed, 3 Sep 1997 18:02:47 GMT
+Received: from svin08.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id UAA25543; Wed, 3 Sep 1997 20:02:44 +0200 (MET DST)
+Received: from poverty.bloomington.in.us by svin08.win.tue.nl (8.7.1/1.45)
+    id UAA19174; Wed, 3 Sep 1997 20:02:56 +0200 (MET DST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id NAA27689 for <agora@win.tue.nl>; Wed, 3 Sep 1997 13:02:53 -0500
+Message-Id: <199709031802.NAA27689@poverty.bloomington.in.us>
+To: agora@win.tue.nl
+Subject: Re: DIS: Binding rules 
+In-reply-to: Your message of "Wed, 03 Sep 1997 11:31:01 EST."
+             <3.0.1.32.19970903113101.007b6e60@merle.acns.nwu.edu> 
+Date: Wed, 03 Sep 1997 13:02:51 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text
+Content-Length: 591
+Status: N
+
+"Erick" == Erick Robertson <eer@nwu.edu> writes:
+
+Erick> Yes, I am... (unfortunately) That was the wrong time for a new
+Erick> player to pop in.  There was a lot of frustration and
+Erick> aggrivation and very high traffic on the lists.  I decided then
+Erick> it was something I did not want to deal with.  (which is
+Erick> precicely why I'm currently a watcher and not a player... after
+Erick> I see what the norm is, figure out what's going on, and get in
+Erick> the swing of things, I'll register)
+
+The norm seems to be barely controlled chaos.  What varies is the
+nature of the chaos. :)
+
+From owner-agora@win.tue.nl Wed Sep  3 22:22 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA02899 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 22:22:56 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id CAA01838; Thu, 4 Sep 1997 02:21:48 GMT
+Received: from svtt02.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id EAA01834; Thu, 4 Sep 1997 04:21:44 +0200 (MET DST)
+Received: from aurora.cc.monash.edu.au by svtt02.win.tue.nl (8.7.1/1.45)
+    id EAA23466; Thu, 4 Sep 1997 04:21:57 +0200 (MET DST)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id MAA09099 for agora@win.tue.nl; Thu, 4 Sep 1997 12:21:50 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199709040221.MAA09099@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Binding rules
+To: agora@win.tue.nl
+Date: Thu, 4 Sep 1997 12:21:50 +1000 (EST)
+In-Reply-To: <199709030508.AAA25232@poverty.bloomington.in.us> from "Scott Goehring" at Sep 3, 97 00:07:49 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 894
+Status: N
+
+Scott Goehring writes:
+>
+>"Steve" == Steve Gardner <gardner@aurora.cc.monash.edu.au> writes:
+>
+>Steve> Here's an example of the kind of hard case I have in mind: a
+>Steve> Player (let's call her Jill) might register to play without
+>Steve> having ever seen our Ruleset.
+>
+>I would make an exception for the Ruleset. :)
+
+An exception to what? To the provision that Players may not be bound
+by texts that have not been made available to them?
+
+It occurs to me that in the case of the Ruleset, R1513 may conflict
+with R101. After all, doesn't R101 say that Jill has to abide by all
+the Rules then in effect, period? Can R1513 attempt to restrict the
+application of R101 without conflicting with it?
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora@win.tue.nl Wed Sep  3 22:53 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA03553 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 22:53:15 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id CAA02206; Thu, 4 Sep 1997 02:52:44 GMT
+Received: from svin07.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id EAA02202; Thu, 4 Sep 1997 04:52:40 +0200 (MET DST)
+Received: from aurora.cc.monash.edu.au by svin07.win.tue.nl (8.7.1/1.45)
+    id EAA07370; Thu, 4 Sep 1997 04:52:51 +0200 (MET DST)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id MAA11645 for agora@win.tue.nl; Thu, 4 Sep 1997 12:52:36 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199709040252.MAA11645@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Wording of Rules
+To: agora@win.tue.nl
+Date: Thu, 4 Sep 1997 12:52:36 +1000 (EST)
+In-Reply-To: <3.0.1.32.19970902233112.007d0720@merle.acns.nwu.edu> from "Erick Robertson" at Sep 2, 97 11:31:12 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2058
+Status: N
+
+Erick Robertson writes:
+>
+>I have a question regarding how specifically the rules are worded.  Being
+>new here, I'm uncertain how picky people are, so I'm asking :)
+>
+>If I have a rule which says:
+>-----
+>A player may be blown to smithereens.  A player is considered blown up when
+>he sends a message to the public forum declaring such.
+>-----
+>
+>Does that mean that no player may be blown to smithereens?
+
+There are a number of things you might mean by that question. Players are
+persons, and persons, unfortunately, can be blown to smithereens. So the
+answer to your question is, in one sense, 'no, it doesn't mean that
+Players cannot be blown to smithereens. This action is not prohibited
+or regulated by the Rules at present, and so is already permitted by
+R116. So your first sentence adds nothing to the current legislative
+situation with regards to blowing Players to smithereens.
+
+Assuming that "blown up" and "blown to smithereens" are synonymous,
+the second sentence establishes the possibility of creating a legal
+fiction to the effect that a Player has been blown to smithereens.
+Of course, without other provisions in the Rules to say what the
+legal effects of being blown to smithereens are (eg there might be
+another Rule which says that you can't vote if you've been blown to 
+smithereens), this possibility is something of an unengaged gear in
+the Ruleset. It's also worth noting that in this case, the legal
+fiction so created is so far from representing the truth of the
+matter (since, the fiction to the contrary, no-one has actually been
+blown to smithereens), that the phrase 'blown to smithereens' is really
+doing no work other than to serve as a place-holder; we could as well
+have replaced 'blown to smithereens' with 'come to have property X'
+(and now you imagine that our other Rule says that you can't vote
+if you have property X).
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora@win.tue.nl Wed Sep  3 23:05 EDT 1997
+Received: from svin12.win.tue.nl (svin12.win.tue.nl [131.155.71.135]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA03783 for <dpb@cs.brown.edu>; Wed, 3 Sep 1997 23:05:55 -0400 (EDT)
+Received: by svin12.win.tue.nl (8.7.1/1.45)
+    id DAA02333; Thu, 4 Sep 1997 03:05:11 GMT
+Received: from svin04.win.tue.nl by svin12.win.tue.nl (8.7.1/1.45)
+    id FAA02329; Thu, 4 Sep 1997 05:05:08 +0200 (MET DST)
+Received: from aurora.cc.monash.edu.au by svin04.win.tue.nl (8.7.1/1.45)
+    id FAA20300; Thu, 4 Sep 1997 05:05:20 +0200 (MET DST)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id NAA12068 for agora@win.tue.nl; Thu, 4 Sep 1997 13:05:16 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199709040305.NAA12068@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Wording of Rules
+To: agora@win.tue.nl
+Date: Thu, 4 Sep 1997 13:05:16 +1000 (EST)
+In-Reply-To: <Pine.A41.3.95q.970902234051.218652B-100000@sp2n17.missouri.edu> from "c647100@showme.missouri.edu" at Sep 2, 97 11:41:43 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora@win.tue.nl
+Precedence: bulk
+Reply-To: agora@win.tue.nl
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1120
+Status: N
+
+c647100@showme.missouri.edu writes:
+>> 
+>I'll say first that the Rule contains the phrase "is considered",
+>which is a discouraged phrase of uncertain meaning.
+
+It's hard to remember, Vlad, exactly which debates you were around for
+and which occurred while you were away, but I think you may find that
+the attitude to legal deeming is more relaxed now than it has been in
+the past. I think that now even former hardline opponents of legal
+deeming like Chuck and Michael grudgingly admit that, appropriately
+used in its its proper context, the use of legal deeming is acceptable
+(I would go further and say that it's often indispensible).
+
+The bext examples of the use of legal deeming in the Ruleset are,
+in my opinion, R1668, R1715 and especially R880. I deliberately
+don't include R1431, since Murphy elegantly demonstrated that the
+Rule in that case could have been formulated as well without the use
+of legal deeming.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+

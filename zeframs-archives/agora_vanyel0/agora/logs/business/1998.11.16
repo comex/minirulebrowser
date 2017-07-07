@@ -1,0 +1,1296 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Nov 16 01:45 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id BAA17327
+	for <dpb@cs.brown.edu>; Mon, 16 Nov 1998 01:45:20 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA19388
+	for agora-business-list; Mon, 16 Nov 1998 17:36:15 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA19385
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 16 Nov 1998 17:36:13 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id RAA06369
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 16 Nov 1998 17:42:58 +1100 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006367; Mon, 16 Nov 98 17:42:53 +1100
+Received: From mozart With LocalMail ; Mon, 16 Nov 98 17:39:24 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-business@gecko.serc.rmit.edu.au (Nomic Business)
+Date: Mon, 16 Nov 1998 17:39:24 +1100 (EST)
+Message-Id:  <981116063924.2983@cse.unsw.edu.au>
+Subject: BUS: Proto: The Treasuror v1.1
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2386
+Lines: 58
+
+
+Proto: The Treasuror [v1.1]
+
+Create a rule entitled, "The Treasuror", with text:
+
+     There exists an Office called the Treasuror, with a salary equal
+     to zero. 
+
+     The Treasuror is elected like any other Office, except that 
+     sometime during the Nominating period for the Office, Nominees
+     must issue a Budget. Any Nominee who has not issued a Budget is
+     not a Candidate for that Election. This rule takes precedence
+     over any other rule which may identify Candidates.
+     
+     A Budget is a list of all Players' names, each with a corresponding
+     number of VTs. The number of VTs must be an integral multiple
+     of the MUQ of VTs, and cannot be less than zero. The sum of all
+     these amounts must be less than or equal to 80 VTs.
+
+     A Budget is issued by posting it to the Public Forum. A Nominee 
+     may issue as many Budgets as e wishes, but only the latest Budget
+     issued during the Nominating Period of the Election is allowed 
+     to be implemented.
+
+     As soon as possible after the Treasuror is elected, e must
+     implement eir Budget. E does so by posting it to the Public Forum
+     and announcing that e is implementing it. Only the last valid
+     Budget e issued in the Nomination Period can be implemented in
+     this way.
+
+     At the time the Budget is thus implemented, all outstanding
+     Payment Orders are vacated, and all Players' VT holdings are
+     set to the values shown in the Budget.
+
+     This Rule takes precedence over any Rule which would prevent
+     these changes from being made.
+
+     One week after the Budget has been implemented, this Rule shall
+     repeal itself.
+
+[Comments: 
+
+ v1.0 - This allows us to reset the VT economy to a more certain state,
+ to end the current crisis. Rather than choose an arbitrary reset value
+ to include in the Proposal, it puts into place the mechanism to reset the
+ state with some flexibility, so we can determine the exact values as we
+ do best - via political wrangling.
+
+ v1.1 - Realised the language in the old version relied on knowing a long
+ of the state which we can't really be sure of - details of many past 
+ orders and such. Instead, I have just implemented a one-off blanket 
+ vacation of all POs.
+
+ Also added the all important self-repeal clause, so we don't have this
+ happening regularly. (Unless people think that might be a good thing?)
+
+]
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Nov 16 05:07 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id FAA20705
+	for <dpb@cs.brown.edu>; Mon, 16 Nov 1998 05:07:35 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA21054
+	for agora-business-list; Mon, 16 Nov 1998 20:57:48 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id UAA21051
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 16 Nov 1998 20:57:46 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id VAA06812
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 16 Nov 1998 21:04:32 +1100 (EST)
+	(envelope-from klaush@dij91.tp3.ruhr-uni-bochum.de)
+Received: from dij91.tp3.ruhr-uni-bochum.de(134.147.160.152) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006810; Mon, 16 Nov 98 21:04:21 +1100
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id LAA15052; Mon, 16 Nov 1998 11:01:23 +0100 (NFT)
+Date: Mon, 16 Nov 1998 11:01:23 +0100 (NFT)
+Message-Id: <199811161001.LAA15052@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-business@gecko.serc.rmit.edu.au
+In-reply-to: <981116023251.1123@cse.unsw.edu.au> (malcolmr@cse.unsw.edu.au)
+Subject: BUS: Re: OFF: Proposal Queue as of Nov 16 1998
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1068
+Lines: 24
+
+H. Promotor,
+
+I hereby pay one P-note from myself to the bank to raise the priority
+of my proposal "Monthly voting bills" by one.
+
+BTW, I wonder whether past priority changes were all conducted in the
+PF, as required by R1771? Certainly, not all proposals were submitted
+in public.
+
+While we're at it, I'd also like to remark on Steve's suggestion to
+increase the batch size. I've been thinking about this, too, but don't
+think it would be good. Even now we have very little competition for
+the top spots in the queue, so the P-note aspect of the economy is
+only just making sense.
+
+In addition, note that nearly all entries in the queue were submitted
+by General Chaos, who steadfastly refuses to support his proposals
+with P-notes. On the metagame level I think this is a very interesting
+strategy, and I'd like to see how successful it is. Larger batch sizes
+would encourage people, esp. the Promotor with eir privilege, to raise
+the priority of Scott's proposals just to fill up the batches, which
+would spoil the fun of watching the General's strategy.
+
+Kolja A.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Nov 16 08:58 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id IAA25871
+	for <dpb@cs.brown.edu>; Mon, 16 Nov 1998 08:58:17 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA21893
+	for agora-business-list; Tue, 17 Nov 1998 00:48:23 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA21890
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 17 Nov 1998 00:48:22 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id AAA07125
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 17 Nov 1998 00:55:07 +1100 (EST)
+	(envelope-from dalbertz@rmv.state.ma.us)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007120; Tue, 17 Nov 98 00:54:56 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 16 Nov 1998 08:49:51 -0500
+Message-Id: <s64fe72f.094@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 16 Nov 1998 08:49:13 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Steve Present in Notary Election
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 82
+Lines: 6
+
+BUS: Steve Present in Notary Election
+
+I vote for Kolja A. for Notary.
+
+-- Crito
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Nov 16 09:08 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id JAA26176
+	for <dpb@cs.brown.edu>; Mon, 16 Nov 1998 09:08:41 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA21958
+	for agora-business-list; Tue, 17 Nov 1998 00:58:53 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA21955
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 17 Nov 1998 00:58:51 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id BAA07152
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 17 Nov 1998 01:05:37 +1100 (EST)
+	(envelope-from michael.norrish@cl.cam.ac.uk)
+Received: from heaton.cl.cam.ac.uk(128.232.32.11) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007150; Tue, 17 Nov 98 01:05:08 +1100
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0zfPEJ-0003hp-00; Mon, 16 Nov 1998 14:02:12 +0000
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0zfPEJ-0000o1-00; Mon, 16 Nov 1998 14:02:11 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13904.12387.51172.337748@albatross.cl.cam.ac.uk>
+Date: Mon, 16 Nov 1998 14:02:11 +0000 (GMT)
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Election (non-)vote
+X-Mailer: VM 6.61 under Emacs 19.34.1
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 315
+Lines: 8
+
+I declare myself PRESENT in the election for Notary.
+
+Michael.
+
+PS: Please vote in this election everyone, as it closes on Wednesday,
+and I'd really like it if it made quorum.  The post has been held
+temporarily since 7 September.  With my vote, there will only be four
+votes.  Quorum is 50% of the Active Players.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Nov 16 09:38 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id JAA27163
+	for <dpb@cs.brown.edu>; Mon, 16 Nov 1998 09:38:39 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA22288
+	for agora-business-list; Tue, 17 Nov 1998 01:27:54 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id BAA22285
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 17 Nov 1998 01:27:52 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id BAA07178
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 17 Nov 1998 01:34:37 +1100 (EST)
+	(envelope-from dalbertz@rmv.state.ma.us)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007176; Tue, 17 Nov 98 01:34:18 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 16 Nov 1998 09:29:21 -0500
+Message-Id: <s64ff071.036@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 16 Nov 1998 09:28:49 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Re: OFF: CFJ 1109 re-assigned to Crito
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 11548
+Lines: 262
+
+Re: OFF: CFJ 1109 re-assigned to Crito
+
+I hereby judge CFJ 1109 to be FALSE.
+
+Well, there is no interesting interpretive work to be done with this CFJ.  It
+"merely" requires a determination of the game state as of the date proposals
+3794 and 3795 were distributed.  Unfortunately, there is currently no good
+record of the game state on that date, and I have been unable to access the
+archives in order to perform calculations that would determine this state
+beyond a reasonable doubt.
+
+However, since this is not a CFJ alleging a Crime or Rule violation, R1575
+allows me to apply a lesser standard - preponderance of evidence. So:
+
+I have an Accountor's report dated August 1, which shows General Chaos had 4.9
+VTs as of that date along with a debt of 0.8 VTs.  I have Registrar reports
+that indicate General Chaos has not held any offices since Aug 1, and has
+therefore been the recipient of Unemployment Benefits, which were .2 VTs per
+week during the time in question.  Unfortunately, I do not have the exact date
+of distribution of proposals 3974-5, but it must have occurred sometime between
+October 1 and October 20 (when the PO was issued) which means there were a
+minimum of 8 weeks of unemployement benefits paid out prior to the
+distribution.  I also have evidence from the Assessor at that time (thank you,
+Steve) that General Chaos cast only 2 votes during this time period.  Assuming
+all debts were paid up before the distribution, General Chaos had a minimum of
+4.9 + 1.6 - 2.8 VTs at that time.  Thus, the preponderance of evidence
+indicates that G. Chaos had at least 3.7 VTs in eir possession and was subject
+to a Duty to Vote. Therefore the judgement of FALSE is supported.
+
+-- Crito
+
+>>> Steve Gardner <gardner@silas-1.cc.monash.edu.au> 11/09/98 09:29pm >>>
+
+==========================================================================
+                               CFJ 1109
+
+ The Payment Order for VTs known as 'avt031' and executed by Malcolm in
+ his capacity of Assessor is invalid.
+
+==========================================================================
+
+Judge:               Morendil
+Judgement:           FALSE
+Judgement Appealed
+
+Appeals Board:       Murphy (S), Michael (J), Steve (C)
+Justices' Decisions:
+
+  Murphy:            OVERTURN/REASSIGN
+  Michael:           OVERTURN/REASSIGN
+  Steve:             OVERTURN/REASSIGN
+
+Board's Decision:    OVERTURN/REASSIGN
+
+Second Judge:        Harlequin (defaulted)
+Third Judge:         Crito
+Judgement:
+
+First Judge selection:
+
+Eligible:            Antimatter, Blob, Crito, Chuck, elJefe, Harlequin,
+		     Kolja A., lee, Macross, Michael, Morendil, Murphy,
+		     Oerjan, Proglet, Steve
+
+Not eligible:
+Caller:              General Chaos
+Barred:              -
+Already served:      -
+Defaulted:           -
+By request:          -
+On Hold:             -
+
+Second Judge selection:
+
+Eligible:            Antimatter, Blob, Crito, Chuck, elJefe, Harlequin,
+		     Kolja A., lee, Macross, Oerjan, Steve
+
+Not eligible:
+Caller:              General Chaos
+Barred:              -
+Already served:      Morendil
+Defaulted:           -
+By request:          Michael, Murphy
+On Hold:             -
+
+Third Judge selection:
+
+Eligible:            Blob, Crito, Chuck, elJefe, Kolja A., lee, Macross, 
+                     Oerjan, Proglet, Steve
+
+Not eligible:
+Caller:              General Chaos
+Barred:              -
+Already served:      Morendil
+Defaulted:           Harlequin
+By request:          Michael, Murphy
+On Hold:             -
+
+NB: Proglet was deregistered before the second Judge selection took
+place, but reregistered before the third Judge selection took place.
+==========================================================================
+
+History:
+
+  Called by G. Chaos:                      Sun, 25 Oct 1998 16:44:51 -0500
+  Assigned to Morendil:                    Mon, 26 Oct 1998 14:45:58 +1100
+  Morendil Judges FALSE:                   Mon, 26 Oct 1998 20:33:00 +0200
+  Judgement published:                     Tue, 27 Oct 1998 12:06:44 +1100
+  Appealed by G. Chaos:                    Mon, 26 Oct 1998 20:52:26 -0500
+  Appealed by Steve:                       Tue, 27 Oct 1998 20:29:17 +1100
+  Appealed by elJefe:                      Tue, 27 Oct 1998 23:31:16 -0500
+  Assigned to Appeals Board:               Thu, 29 Oct 1998 11:31:57 +1100
+  Steve Judges to OVERTURN/REASSIGN:       Fri, 30 Oct 1998 11:44:50 +1100
+  Michael Judges to OVERTURN/REASSIGN:     Fri, 30 Oct 1998 10:29:40 +0000
+  Murphy Judges to OVERTURN/REASSIGN:      Sun, 01 Nov 1998 12:10:31 -0800
+  Decision of the Board published:         Mon, 02 Nov 1998 11:39:24 +1100
+  Re-assigned to Harlequin:                Mon, 02 Nov 1998 11:39:24 +1100
+  Harlequin defaults:                      Tue, 10 Nov 1998 13:17:18 +1100
+  Re-assigned to Crito:                    as of this message
+
+==========================================================================
+Caller's Arguments:
+
+None.
+
+==========================================================================
+Judge Morendil's Arguments:
+
+I hereby enter a summary Judgement of FALSE, based on Rule 1768.
+Blob's report of the Commissions of the Infraction pursuant to which
+the abovementioned PO was issued falls under the purview of that
+Rule, and as such creates a presumption of truth which may only be
+set aside "by clear and convincing evidence to the contrary".
+Furthermore, the Statement makes no allegations that could be
+construed to relate to the commission of a Crime or the violation of
+a Rule, and as such does not call for "beyond reasonable doubt"
+inquiry under Rule 1575.
+
+Surveying the official record (supplied Caller's arguments, of which
+there are none) as well as the unofficial record (Caller's statement
+mentioning the number of VTs controlled as of the date of the
+Infraction Report, which is besides the point - as the number of VTs
+controlled at the time the relevant Proposals were published is the
+determining criterion; Caller's statement of ignorance of the number
+e actually controls) does not in my opinion constitute "clear and
+convincing evidence" of error on the part of the Assessor.
+
+I share to some extent the Caller's reservations about the propriety
+of the Assessor's action, but I am afraid that in this instance the
+burden of proof is on them.
+
+==========================================================================
+Decisions and Arguments of the Justices:
+
+Justice Steve: OVERTURN/REASSIGN
+
+In the matter of the Appeal of CFJ 1089, I hereby overturn Morendil's
+Judgement and move to reassign the CFJ.
+
+The argument Judge Morendil gives for his Judgement of FALSE is clearly
+inadequate. Morendil invokes R1768, which states that:
+
+      The published Report of an Officer constitutes prima facie
+      evidence of the truth of those matters reported therein which that
+      Officer is required by law to report.  This presumption may be set
+      aside only by clear and convincing evidence to the contrary.
+
+He concludes from this that Assessor Blob's determination that General
+Chaos had effective control of 3 VTs at the time when Proposals
+3794-3795 were distributed constitutes evidence of the truth of that
+claim. But Blob's determination was not part of a "published Report by
+an Officer", which in my view refers to Offical Reports, as defined in
+R1686. According to that Rule, "[t]he only information that is part of
+an Official Report is that which the Rules specifically state is part of
+that Official Report." Since the Rules do not associate an Official
+Report with the Office of Assessor, no information published by the
+Assessor falls under the purview of R1768.
+
+However, even if this were not the case, and Blob's determination did
+fall under the purview of R1768, Morendil's appeal to that Rule to
+justify his Judgement would still have been mistaken. R1768 states that
+the presumption of truth may be set aside by clear and convincing
+evidence to the contrary. The current case is one where the Judge is
+being asked to investigate whether the presumption of truth is supported
+by any evidence (R1863: "[The Assessor's] determinations are defeasible
+and may be overturned by the Courts.") In such a case, it is my view
+that a Judge has a responsibility to discover what evidence there may be
+which either supports or undermines the presumption. In particular, I
+believe that Judge Morendil had a responsibility to make enquiries of
+the Accountor in an attempt to determine what General Chaos' VT holdings
+were at the time Proposals 3794-3795 were distributed. By not doing so,
+he deprived himself of any basis on which to make a sound Judgement.
+
+This is enough to justify overturning Morendil's Judgement. The
+justification for the move to reassign the CFJ is separate. In my view,
+the role of the Board of Appeals ought to be one of reviewing the law,
+not discovering the facts. Although it would be possible for the Board
+to seek the evidence which would allow it to make a determination of the
+truth of the Statement, I think that is better left for a new Judge.
+
+==========================================================================
+Justice Michael:
+
+I agree with my fellow Justice Steve that Morendil's judgement should
+be overturned.  Morendil claims that he has no grounds for doubting
+Assessor Blob's decision to bill General Chaos, using R1768 to support
+this conclusion.  However, R1768 does not pertain as Blob's issuing of
+a Payment Order does not constitute an Officer's Report.
+
+I also agree that it is not the role of the Board of Appeals to
+investigate matters of fact (upon which this case undoubtedly rests),
+so further recommend that this CFJ be reassigned to a new Judge.
+
+==========================================================================
+Justice Murphy:
+
+I overturn and move to reassign the CFJ.
+
+==========================================================================
+Evidence attached by the CotC:
+
+Rule 1863/0 (Power=1)
+A Duty to Vote
+
+      An Active Player with effective control of more than three
+      Voting Tokens at the time a batch of Proposals is distributed,
+      who is not denied Voting Privileges at that time, who is Active
+      at the end of the Voting Period of the Proposal in the batch
+      whose Voting Period finishes latest, and who fails to cast a
+      vote on any Proposal in the batch, commits the Infraction of
+      Failing to Vote, to be detected and reported by the Assessor.
+      The penalty for commission of this Infraction is 1 VT.
+
+      Effective control of an asset (eg. a unit of Currency) is the
+      ability to dispose of that asset as one wishes. The Assessor is
+      empowered to make determinations as to whether a Player has
+      effective control over a particular asset at a particular time.
+      Such determinations are defeasible and may be overturned by the
+      Courts.
+
+      Three months after this Rule is created, this Rule shall repeal
+      itself.
+
+
+Rule 1768/0 (Power=1)
+Evidentiary Status of Officer Reports
+
+      The published Report of an Officer constitutes prima facie
+      evidence of the truth of those matters reported therein which
+      that Officer is required by law to report.  This presumption may
+      be set aside only by clear and convincing evidence to the
+      contrary.
+
+======================================================================
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Nov 16 10:12 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id KAA28605
+	for <dpb@cs.brown.edu>; Mon, 16 Nov 1998 10:12:31 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA22461
+	for agora-business-list; Tue, 17 Nov 1998 02:02:55 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA22458
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 17 Nov 1998 02:02:53 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id CAA07312
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 17 Nov 1998 02:09:39 +1100 (EST)
+	(envelope-from agoralee@schawk.com)
+Received: from click.schawk.com(205.184.253.12) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007306; Tue, 17 Nov 98 02:09:20 +1100
+Received: from schawk-pdc (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.50) with SMTP
+	transient id 52; Mon, 16 Nov 1998 09:03:21 -0600
+X-Sender: agoralee@schawk.com
+From: agoralee@schawk.com (Agora lee)
+To: agora-business@gecko.serc.rmit.edu.au
+Date: Mon, 16 Nov 1998 09:02:27 -0500
+Subject: BUS: election for Notary
+Message-ID: <msg26787.thr-9dfe71.f7405@Schawk.com>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg26787.thr-9dfe71.f7405.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 93
+Lines: 5
+
+I vote for Murphy.  
+
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Nov 16 17:17 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id RAA17300
+	for <dpb@cs.brown.edu>; Mon, 16 Nov 1998 17:17:41 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA24171
+	for agora-business-list; Tue, 17 Nov 1998 09:08:33 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id JAA24168
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 17 Nov 1998 09:08:32 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id JAA08105
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 17 Nov 1998 09:15:18 +1100 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from dial-126-115.ucs.indiana.edu(156.56.126.115) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma008097; Tue, 17 Nov 98 09:15:01 +1100
+Received: (from scott@localhost) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) id RAA09273; Mon, 16 Nov 1998 17:00:06 -0500
+Date: Mon, 16 Nov 1998 17:00:06 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Message-Id: <199811162200.RAA09273@poverty.bloomington.in.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: ATTN: Agora Nomic Proposal(s)
+Cc: scott@poverty.bloomington.in.us
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 30850
+Lines: 650
+
+
+This message contains one or more Proposals.  Each Proposal begins
+immediately after a line marked "**START PROPOSAL" and ends
+immediately before the first following line marked "**END PROPOSAL".
+
+The following Proposal is to be titled "Currencies" and is to have
+Adoption Index 1.
+**START PROPOSAL
+Be it therefore resolved, that Rule 1721 be amended to read:
+
+      There shall exist the Office of Chancellor.
+
+Be it further resolved, that Rule 1467 be amended to read:
+
+      (a) A Currency is any medium of exchange which has designated as
+          a Currency in accordance with the Rules.
+
+      (b) The designation of a medium of exchange as a Currency, and
+          the cancellation of such designation, may be accomplished
+          only by:
+        (1) the operation of an Instrument with Power 1 or greater;
+        (2) the Chancellor, Without Objection; or
+        (3) Judicial Order, whenever the Rules so permit.
+
+      (c) For the purposes of the Rules, units of a Currency are
+          fungible and indivisible.
+
+      (d) No tangible medium of exchange shall be designated as a
+          Currency.
+
+      (e) A Currency may be denominated such that a fraction of its
+          primary denomination is its smallest indivisible unit, so
+          long as there is a smallest indivisible unit.  When no other
+          specification exists, the smallest indivisible unit of a
+          Currency shall be one unit of its smallest denomination. 
+          Amounts less than this smallest indivisible unit may be used
+          in intermediate calculations; all such calculations shall be
+          rounded off at the point that they are reduced to transfers,
+          orders to transfer, or other finalized results of legal
+          import.
+
+      (f) The Chancellor shall retain and publish at least monthly a
+          schedule, listing every medium of exchange designated as a
+          Currency under this Rule.  This schedule shall include
+          whatever information the Chancellor deems necessary, but at
+          least the following information for each Currency:
+        (1) the designated denomination or denominations of that
+            Currency (and if more than one, the relationship between
+            them);
+        (2) the fraction of the smallest denomination of that Currency
+            which is its smallest indivisible unit;
+        (3) that Currency's Recordkeepor; and,
+        (4) the Mintor or Mintors of that Currency, if any.
+
+Be it further resolved, that a Rule be enacted, to read:
+
+      (a) The "Recordkeeper" of a Currency refers to the entity who
+          has agreed to maintain a record of the ownership of the
+          units of that Currency.  The Recordkeepor of an Currency is
+          subject to the jurisdiction of these Rules.  Specifically, e
+          shall:
+        (1) maintain the abovementioned records in a manner consistent
+            with these Rules, including the timely recordation of
+            transfers of ownership made consistent with the Rules;
+        (2) comply in a timely manner to all requests to produce those
+            records as required by the Rules; and
+        (3) perform all other duties which the Rules impose upon the
+            Recordkeepor of a Currency.
+
+      (b) A Currency may have any number of designated Mintors.  A
+          Mintor may be designated for a Currency, or such designated
+          cancelled, by:
+        (1) the operation of an Instrument with Power 1 or greater; or
+        (2) the Chancellor, Without Objection.
+
+Be it further resolved, that Rule 1598 be amended to read:
+
+      Units of a Currency are transferred only when the Recordkeepor
+      of that Currency receives a notice from the owner of one or more
+      units of that Currency, specifying the units to be transferred
+      and the entity who is to owner the units thus transferred.  The
+      entity receiving the units thus transferred becomes their owner,
+      and the Recordkeepor shall so note this on eir records.
+
+Be it further resolved, that Rule 1471 be amended to read:
+
+      Units of a Currency are created only when the Recordkeepor of
+      that Currency receives a notice from a designated Mintor of that
+      Currency, specifying the number of units to be created and the
+      entity who is to own the units so created.  The specified entity
+      owns the units so created, and the Recordkeepor shall so note
+      this on eir records.
+
+Be it further resolved, that a Rule be enacted, to read:
+
+      Units of a Currency are destroyed only when the Recordkeepor of
+      that Currency receives a notice from the owner of one or more
+      units of that Currency, specifying the units to be destroyed. 
+      The Recordkeepor shall note this destruction on eir records.
+
+Be it further resolved, that Rule 1596 be amended to read:
+
+      (a) Whenever an entity becomes indebted to another for some
+          amount of Currency, that entity indebted is required to
+          transfer that amount of Currency to the entity indebted to
+          within seven days.
+
+      (b) A debt not paid within seven days is overdue.  Any entity to
+          whom an overdue debt is due may assess a late penalty of not
+          more than 25% of the overdue debt, and may do so repeatedly,
+          not more than once every seven days after the debt becomes
+          overdue.  Late penalties are added to the overdue debt.  An
+          entity may elect to charge smaller late penalties, charge
+          them less frequently, or forego late penalties altogether,
+          at that entity's sole discretion.
+
+      (c) If the validity of a debt, or any part thereof, is disputed
+          by a Call for Judgement, that debt (or portion thereof) is
+          not considered overdue, and does not accrue late penalties,
+          while the dispute remains unsettled.
+
+      (d) When an entity transfers units of Currency to another entity
+          for the purpose of making a payment on debt, the receiving
+          entity shall apply that payment to the nondisputed debts
+          owed to em by the transferring entity, in order from oldest
+          to newest.  A debt is paid when a transfer has been applied
+          to it in this manner.  Any surplus will be retained by the
+          receiving entity, to be applied to future debts or returned
+          upon demand.
+
+      (e) An entity may assume that any Currencies transferred to it
+          to be payments on debts due to em, unless the transferree
+          clearly indicates otherwise when making the transfer.
+
+      (f) An entity who is owed an overdue debt may issue an Order
+          requiring the entity who owes that debt to make payment by
+          requiring a transfer of any amount up to the amount of the
+          debt due, but only if no other Order currently in force
+          requires the same entity to make payment on that same debt
+          or any part thereof.  Such an Order shall be stayed (by the
+          Clerk of the Courts) if the debt in question is subsequently
+          disputed, and vacated (by the Judge) if it is found that the
+          debt upon which the Order is based is invalid.
+
+      (g) An entity who is owed a debt may cancel all or part of that
+          debt at any time.
+
+      (h) A Judge may enjoin the assessment of late penalties,
+          restrict the amount of late penalties, or require the
+          reduction or cancellation of a debt, by Judicial Order, when
+          the Rules specifically so allow.
+
+Be it further resolved, that Rule 1479 be amended to read:
+
+      (a) Whenever a Rule calls for an Officer to pay out some
+          quantity of Currency to some entity, that Officer shall
+          execute a Notice of Debt for the given amount with that
+          entity as payee and the Bank as payor.
+
+      (b) Whenever a Rule calls for an Officer to bill an entity for
+          some quantity of Currency, that Officer shall execute a
+          Notice of Debt for the given amount with that entity as
+          payor and the Bank as payee.
+
+      (c) A Notice of Debt is executed by announcing in the Public
+          Forum that the payor is indebted to the payee for the amount
+          indicated, so long as the announcement sets for the reason
+          therefore.
+
+      (d) The lawful execution of a Notice of Debt causes the payor
+          noted therein to be indebted to the payee noted therein for
+          the amount noted therein, but only if the executor of the
+          Notice of Debt was authorized to execute it, and the reason
+          set forth therein is correct.
+
+      (e) The duties required of Officers by this Rule shall be
+          performed as soon as possible after they arise.
+
+      (f) For the purposes of this Rule, the Speaker shall be
+          considered an Officer.
+
+Be it further resolved, that Rule 1817 be amended to read:
+
+      (a) The Recordkeepor of a Currency is required to record every
+          transfer for which e receives a transfer notice denominated
+          in the Currency of which e is the recordkeepor, when:
+        (1) the notice was sent by the transferring entity's Executor,
+            or, for an entity which lacks an Executor, by any other
+            person empowered by the Rules to execute transfers on the
+            behalf of the transferring entity;
+        (2) the notice clearly sets forth the quantity to be
+            transferred in a form such that the Recordkeepor can
+            easily and definitively determine the amount being
+            transferred;
+        (3) the entity to receive the transfer is specified with
+            sufficient clarity that a reasonable person in the
+            Recordkeepor's position would know to which entity the
+            transferring entity refers; and
+        (4) the transfer is for an amount not more than the current
+            holdings of the transferring entity.
+
+      (b) Transfers shall be noted on the Recordkeepor's records in
+          the order in which they are received by the Recordkeepor.
+
+      (c) When a Recordkeepor records a transfer, e shall promptly
+          inform the recipient of the transfer that the transfer has
+          been recorded, unless it appears to the Recordkeepor that
+          the recipient is already aware of the transfer.
+
+      (d) When a Recordkeepor elects not to record a transfer for the
+          reason that the transfer is not in conformance with any part
+          of subdivision (a) of this Rule, e shall promptly inform
+          both the transferrer and the recipient that the transfer has
+          not be recorded, and give the reason therefor.  (If the
+          reason for failure to record is that the recipient was not
+          clearly specified, there is no duty to inform the
+          recipient.)
+
+Be it further resolved, that Rule 1696 be amended to read:
+
+      (a) Voting Tokens are hereby designated as a Currency.  The sole
+          designated Mintor of Voting Tokens is the Bank.  The
+          Recordkeepor of Voting Tokens is irrevocably designated to
+          be the Accountor.  The smallest indivisible unit for this
+          Currency is 0.01 Voting Token.
+
+      (b) The Accountor constructively agrees to act as Recordkeepor
+          for Voting Tokens by accepting the Office.
+
+Be it further resolved, that Rule 1701 be amended to read:
+
+      (a) Proposal Notes are hereby designated as a Currency.  The
+          sole designated Mintor of Proposal Notes is the Bank.  The
+          Recordkeepor of Proposal Notes is irrevocably designated to
+          be the Promotor.
+
+      (b) The Promotor constructively agrees to act as Recordkeepor
+          for Proposal Notes by accepting the Office.
+
+Be it further resolved, that Rule 1435 be amended to read:
+
+      (a) Indulgences are hereby designated as a Currency.  The sole
+          designated Mintor of Indulgences is the Bank.  The
+          Recordkeepor of Indulgences is irrevocably designated to be
+          the Herald.
+
+      (b) The Herald constructively agrees to act as Recordkeepor for
+          Indulgences by accepting the Office.
+
+      (c) An entity which owes a debt (or debts) to the Bank for any
+          number of Indulgences is said to have that number of Blots.
+          A Player has Blots equal to the sum of all such debts. Debts
+          which are in dispute are still considered when determining
+          how many Blots a Player has.
+
+      (d) When a Rule states that a Player is to gain some number of
+          Blots, a Notice of Debt shall be executed for the same
+          number of Indulgences, naming that Player as the payor and
+          the Bank as payee; this order shall be executed by whomever
+          the Rules require to report the change in Blots.
+
+      (e) A Player who has no debt in Indulgences to the Bank is
+          Immaculate.
+
+      (f) It is a Win-Preventing condition for a Player to have one or
+          more Blots.
+
+Be it further resolved, that Rule 1846 be amended to read:
+
+      (a) Ergs are hereby designated as a Currency.  The sole
+          designated Mintor of Ergs is the Bank.  The Recordkeepor of
+          Ergs is irrevocably designated to be the Cartographor.
+
+      (b) The Cartographor constructively agrees to act as
+          Recordkeepor for Ergs by accepting the Office.
+
+Be it further resolved, that Rule 1738 be amended to read:
+
+      (a) Whenever there is an entity in Probate which does not have a
+          Trustee, the Notary shall nominate a Player to be that
+          entity's Trustee.  E shall announce this appointment in the
+          Public Forum.
+
+      (b) As soon as possible after the Notary announces the
+          appointment of a Trustee for an entity in Probate, the
+          following records shall be provided to the Trustee:
+        (1) by the Recordkeepor of each Currency, an accounting of the
+            number of units of that Currency held by the entity in
+            Probate; and
+        (2) by the Notary, any Will of the entity in Probate which has
+            been filed with the Notary.
+
+      (c) In the event that the Trustee does not receive any part of
+          the foregoing records within seven days, e may proceed as if
+          the records would have indicated that the entity in Probate
+          possessed no units of the appropriate Currency or did not
+          have a Will, as appropriate to the type of records not
+          received.
+
+      (d) During the seven days immediately following the Trustee's
+          appointment, e shall make a diligent effort to determine all
+          debts due to the entity in Probate.
+
+      (e) Any entity who is owed a debt by the entity in Probate must
+          inform the Trustee of that debt within seven days of the
+          Trustee's appointment; any debt not reported to the Trustee
+          within that time is deemed cancelled.
+
+      (f) If any of the debts of or due to the entity in Probate is
+          disputed, the Trustee shall not develop a Plan for the
+          disposition of the estate of the entity in Probate until
+          after all such dispute are settled, and in no case shall e
+          do so until the expiration of the time allowed by
+          subdivision (e) of this Rule.
+
+      (g) As soon as possible after the time permitted to proceed by
+          subdivision (e) of this Rule, the Trustee shall formulate
+          and announce in the Public Forum a Plan for the disposition
+          of the estate of the entity in Probate according to the
+          provisions of the Probate Code.
+
+      (h) If no objection to a Plan formulated pursuant to subdivision
+          (g) of this Rule is posted in the Public Forum during a
+          waiting period of seven days following its announcement, the
+          Trustee shall, as soon as possible after the expiration of
+          this waiting period, perform whatever steps are necessary to
+          implement the Plan for disposition.
+
+      (i) If an objection (other than an objection previously
+          adjudicated to lack foundation) is made, the Trustee shall,
+          as soon as possible after the objection was made, either:
+        (1) discard the current Plan, and formulate and announce a new
+            Plan; or
+        (2) make a Call for Judgment alleging that the objection lacks
+            foundation.
+
+      (j) If a CFJ is made alleging that an objection to a Trustee's
+          Plan lacks foundation, then the Trustee shall neither
+          formulate a new Plan nor implement the existing Plan until
+          the CFJ is resolved.  If a CFJ finds that an objection lacks
+          foundation, then the Trustee may proceed as if that
+          objection had never been made, and any attempt to announce
+          that same objection again shall be disregarded.
+
+      (k) An objection to a Plan for disposition has foundation if it
+          correctly alleges that:
+        (1) the Plan constructed is not in accord with the provisions
+            of the Probate Code;
+        (2) the Plan disregards the Will (if any) of the entity in
+            Probate;
+        (3) the implementation of the Plan as constructed would be
+            substantially unfair to a creditor or heir of the entity
+            in Probate; or
+        (4) the Plan would not fully dispose of the estate of the
+            entity in Probate.
+
+Be it further resolved, that Rule 1601 be amended to read:
+
+      (a) An entity is dissolute if it:
+        (1) possesses any number of Units of Currency, or owes or is
+            owed a debt; and
+        (2) does not have an Executor.
+
+      (b) The Notary shall place in Probate any dissolute entity which
+          is not already in Probate, as soon as possible as e becomes
+          aware of the dissolute entity.
+
+      (c) A dissolute entity is considered to continue to have legal
+          existence for as long as is necessary to complete its
+          Probate (and thereby cease to be dissolute), even if it is
+          dissolved, destroyed, or otherwise would cease to have legal
+          existence prior to that time.  An entity which has legal
+|         existence solely as a result of this subdivision is called
+|         "terminal".
+
+      (d) The following definitions apply with respect to entities in
+          Probate:
+        (1) Assets: all units of Currency held by the entity in
+            Probate, along with all debts owed to the entity in
+            Probate.
+        (2) Liabilities: all debts owed by the entity in Probate.
+        (3) Creditor: any entity which is the payee of a debt owed by
+            the entity in Probate.
+        (4) Debtor: any entity which is the payor of a debt owed to
+            the entity in Probate.
+        (5) Heir: an entity named in the Will (if any) of the entity
+            in Probate.
+        (6) Estate: the combined assets and liabilities of the entity
+            in Probate.
+
+Be it further resolved, that Rule 1739 be amended to read:
+
+      (a) The Plan for the disposition of the estate of an entity in
+          Probate shall be constructed as detailed below.
+        (1) The Plan shall divide the assets of the estate amongst its
+            creditors, assigned to each creditor assets equal to the
+            amount due that creditor, if it is possible to do so for
+            all creditors, or a pro-rata portion otherwise.
+        (2) If the entity is terminal, and has a Will, the assets
+            remaining after all creditors have been assigned their
+            shares shall be divided as specified in the Will of the
+            entity in Probate.  Any surplus remaining after the
+            explicit provisions of the Will are applied shall be
+            divided amongst the heirs in a manner consistent with the
+            Will.
+        (3) Any units of Currency remaining in the estate at this
+            point shall be assigned to the Bank.
+
+      (b) Methods of assignment:
+        (1) Units of Currency are assigned to an entity by requiring
+            that those units of Currency be transferred from the
+            entity in Probate to that entity.
+        (2) A debt owed by the entity in Probate is assigned by
+            requiring the execution of a Notice of Debt setting forth
+            a debt identical to the debt to be assigned except that it
+            shall be due to the entity to whom the debt is being
+            assigned.
+
+Be it further resolved, that Rule 1757 be amended to read:
+
+      (a) The Trustee of an entity in Probate is authorized, all other
+          Rules notwithstanding, to transfer Currency from the entity
+          in Probate to any other entity as if e were that entity's
+          Executor, when the Plan for the disposition of the estate of
+          that entity requires it.
+
+      (b) The Trustee may execute Notices of Debt when the Plan for
+          the disposition of the estate of the entity requires it.
+
+      (c) The Trustee of an entity in Probate ceases to be Trustee
+          when:
+        (1) e announces in the Public Forum that e resigns as Trustee;
+        (2) e ceases to be a Player;
+        (3) the entity of which e is Trustee ceases to be in Probate;
+            or
+        (4) the Notary announces that the Trustee has been removed.
+
+      (d) An entity in Probate ceases to be in Probate when its
+          Trustee announces the completion the implementation of a
+          Plan for the disposition of the Estate of that entity.
+
+      (e) Upon the completion of the implementation of a Plan for the
+          disposition of the Estate of an entity, all debts owed to or
+|         by that entity as of the time it entered Probate are deemed
+|         to be satisfied.
+
+Be it further resolved, that Rule 1637 be amended to read:
+
+      (a) A Will is a document created by an entity which specifies
+          how that entity prefers that its assets be disposed of in
+          the event that it becomes dissolute.
+
+      (b) The Trustee of an entity in Probate shall, in constructing
+          the Plan for the disposal of the estate of that entity, be
+          bound by and shall follow the provisions of that entity's
+          Will to the extent that those provisions are applicable and
+          not inconsistent with the Rules.
+
+      (c) An entity may file its Will with the Notary.  The Notary
+          shall retain a copy of each Will filed with em until such
+          time as that entity files a new Will or files a notice with
+          the Notary cancelling the prior Will.
+
+      (d) Neither the Notary nor the Trustee of an entity in Proabte
+          is under any obligation to discover Wills not filed with the
+          Notary, but a Trustee may determine, through examination of
+          any relevant evidence found by or presented to em, that the
+          entity of which e is Trustee had an unfiled Will superseding
+          the Will filed with the Notary, and applying that Will
+          instead.
+
+Be it further resolved, that Rule 1853 be amended to read:
+
+      (a) Taxes may be levied only when the Rules explicitly permit
+          it, and then only by the Officer authorized by the Rule
+          permitting the levy.
+
+      (b) An Officer levies a tax by announcing it in a Public Forum.
+          An announcement of levy must specify:
+        (1) The Currency being taxed;
+        (2) the amount of the levy, expressed as a percentage; and
+        (3) the legal authorization for the levy.
+
+      (c) Upon the announcement of a tax levy conforming with
+          subdivision (b) of this Rule, each entity other than the
+          Bank becomes liable to the Bank for a debt equal to the
+          stated percentage of that entity's holdings of the Currency
+          stated in the announcement.  The amount of each entity's tax
+          debt shall be based on the amount of that Currency owned by
+          that entity at the time the announcement was made.
+
+      (d) The Recordkeepor of the Currency named in a tax levy shall,
+          as soon as possible after the announcement, provide a report
+          setting out the amount of the taxed Currency held by every
+          entity which held any units of that Currency at the time the
+          announcement was made.  The Recordkeepor is not required to
+          compute the tax due; if e does so, eir computations do not
+          have any legal force.
+
+      (e) The amount of tax levied may not exceed 50% of an entity's
+          holdings unless the Rule which authorizes the tax explicitly
+          permits it.
+
+Be it further resolved, that a Rule be enacted, to read:
+
+      (a) The Voting Bank shall exist.
+
+      (b) The Assessor is the Executor of the Voting Bank.
+
+      (c) The Assessor shall not (as its Executor) transfer Currencies
+          out of the Voting Bank except when required to do so by the
+          Rules.
+
+Be it further resolved, that Rule 1442 be amended to read:
+
+      (a) Proposals have a voting cost, equal to the Voting Tariff at
+          the time they were distributed. If there was no value set
+          for the Voting Tariff at that time, then the voting cost is
+          1 VT.
+
+      (b) Each Voting Entity who votes on a Proposal is liable to a
+          debt to the Voting Bank for a number of Voting Tokens equal
+          to the votes cast by that entity on that proposal,
+          multiplied by the voting cost of that Proposal.  This debt
+          is realized when the results of the Voting on that Proposal
+          are announced.
+
+Be it further resolved, that Rule 1824 be amended to read:
+
+      (a) Any entity who, at the beginning of a given Nomic Week, is
+          overdue on a debt due to the Voting Bank, commits the
+          Infraction of Debt Voting.
+
+      (b) The penalty for Debt Voting shall be a denial of Voting
+          Privileges for a period of two weeks.
+
+      (c) Debt Voting shall be reported by the Assessor.
+
+Be it further resolved, that Rule 1470 be amended to read:
+
+      (a) The Bank shall exist.
+
+      (b) The Chancellor shall be the Executor of the Bank.
+
+      (c) The Chancellor shall not transfer Currencies from the Bank
+          except for the purpose of making payment upon the debts of
+          the Bank, or when otherwise explictly required by the Rules
+          to do so.
+
+      (d) If the Chancellor makes a transfer not permitted by
+          subdivision (c) of this Rule, e commits the Class A Crime of
+|         Misappropriation, and upon conviction of this Crime shall be
+          removed from Office.
+
+Be it further resolved, that Rule 766 be amended by deleting the
+paragraph which reads "Each Group has Mint Authority."
+
+Be it further resolved, that Rule 1466 be amended by replacing the
+term "Payment Order" with the term "Notice of Debt" wherever it may
+appear.
+
+Be it further resolved, that Rule 1742 be amended by deleting the
+sentence which reads "When restitution would involve the transfer of
+Currencies, the Judge is authorized to execute whatever Payment Orders
+are necessary to effect fair and appropriate restitution." and also by
+replacing the phrase "nor shall restitution include the execution of
+Payment Orders, the payor of which is any entity not party to the
+agreement" with "nor shall restitution include the requirement for any
+entity not party to the agreement to make any transfer of Currency".
+
+Be it further resolved, that Rule 502 be amended to read:
+
+      (a) The Clerk of the Courts shall, within one week of the time a
+          Player earns a Judicial Salary, pay out that Judicial Salary
+          to that Player.
+
+      (b) If a decision (or dismissal) which resulted in a Player
+          earning a Judicial Salary is subsequently appealed and
+          overturned on appeal, the Clerk of the Court shall bill that
+          Judge for the refund of the Judicial Salary paid to em.
+
+Be it further resolved, that Rule 1664 be amended by replacing the
+sentence "The Registrar shall vacate all Blots of each Rebellious
+Player." with "All debts in Indulgences owed to the Bank by any
+Rebellious Player are cancelled."; by deleting the paragraph which
+begins "The Registrar shall execute all Payment Orders"; and by
+deleting the paragraph which begins "The Registrar is authorised to
+vacate".
+
+Be it further resolved, that Rule 1712 be amended by replacing "issue
+a Payment order from the Bank to that Player for one Indulgence" with
+"pay out one Indulgence to that Player".
+
+Be it further resolved, that Rule 1714 be amended by replacing the
+paragraph beginning "An Overdue Payment Order" with the following:
+
+      A Lawless Player is any Player who has overdue debts to the Bank
+      totalling more than 30 Indulgences.
+
+Be it further resolved, that Rule 1727 be amended by replacing the
+paragraphs which read:
+
+      BE IT FURTHER RESOLVED that, not less than seven days prior to
+      Agora's Birthday, the Chancellor shall, on behalf of the Bank,
+      submit delayed Transfer Orders to be executed at 00:04:30 GMT
+      +1200 on Agora's Birthday to each Player for the amount of 3 VTs
+      each;
+
+      BE IT FURTHER RESOLVED that the Chancellor shall, on behalf of
+      the Bank, submit Transfer Orders for one P-note each from the
+      Bank to each Player who posts to the Public Forum during Agora's
+      Birthday a message recognizing Agora's Birthday; these Transfer
+      Orders to be executed as soon as possible after Agora's Birthday
+      ends;
+
+with paragraphs reading:
+
+      BE IT FURTHER RESOLVED that, as close to 00:04:30 GMT +1200 on
+      Agora's Birthday as practical, the Bank shall transfer to each
+      Player the amount of 3 VTs;
+
+      BE IT FURTHER RESOLVED that the Bank shall transfer one P-note
+      from the Bank to each Player who posts to the Public Forum
+      during Agora's Birthday a message recognizing Agora's Birthday;
+      these transfers to be executed as soon as possible after Agora's
+      Birthday ends;
+
+Be it further resolved, that Rule 1799 be amended to read:
+
+      Any Order may always be amended, stayed, or vacated by the
+      Player (or, in the case of Appellate Orders, Board of Appeal)
+      who executed it.  Certain classes of Orders may be amended,
+      stayed, or vacated in other circumstances as well, when the
+      Rules so allow.  In all cases, this is done by an Order to
+      Amend, Stay, or Vacate, respectively, the original Order.
+
+      Otherwise, an Order shall not be amended, stayed, vacated, or
+      otherwise changed once executed.
+
+Be it further resolved, that Rule 1857 be amended by deleting the text
+"* all Transfer Orders and Payment Orders specifying Ergs since the
+last Report".
+
+Be it further resolved, that Rules 1599, 1722, 1730, 1732, 1734, 1576,
+1577, 1578, 1579, 1819, 1820, 1821, 1822, 1823, 1759, 1818, 1713 and
+1735 be repealed.
+
+
+**END PROPOSAL
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Nov 16 20:22 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id UAA23488
+	for <dpb@cs.brown.edu>; Mon, 16 Nov 1998 20:22:41 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA25519
+	for agora-business-list; Tue, 17 Nov 1998 12:13:07 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA25516
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 17 Nov 1998 12:13:05 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id MAA00674
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 17 Nov 1998 12:20:03 +1100 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma000669; Tue, 17 Nov 98 12:19:35 +1100
+Received: From mozart With LocalMail ; Tue, 17 Nov 98 12:15:49 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-business@gecko.serc.rmit.edu.au (Nomic Business)
+Date: Tue, 17 Nov 1998 12:15:30 +1100 (EST)
+Message-Id:  <981117011530.19212@cse.unsw.edu.au>
+Subject: BUS: Indulgence Transfer
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 403
+Lines: 12
+
+
+I transfer 2 Indulgences to Steve.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+

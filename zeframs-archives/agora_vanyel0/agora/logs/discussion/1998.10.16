@@ -1,0 +1,1704 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct 16 00:36 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA06726 for <dpb@cs.brown.edu>; Fri, 16 Oct 1998 00:36:09 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA32755
+	for agora-discussion-list; Fri, 16 Oct 1998 14:31:59 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA32752
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 14:31:57 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id OAA18144
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 14:33:47 +1000 (EST)
+	(envelope-from gardner@silas-2.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018142; Fri, 16 Oct 98 14:33:42 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id OAA16131
+	for agora-discussion@gecko.serc.rmit.edu.au; Fri, 16 Oct 1998 14:31:23 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199810160431.OAA16131@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: Failure to Report?
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 16 Oct 1998 14:31:23 +1000 (EST)
+In-Reply-To: <199810150402.XAA16517@poverty.bloomington.in.us> from "Scott Goehring" at Oct 14, 98 11:02:55 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1128
+Lines: 28
+
+Scott Goehring wrote:
+>
+>"Steve" == Steve Gardner <gardner@silas-1.cc.monash.edu.au> writes:
+>
+>Steve> Agora, for complex historical reasons among others, has an
+>Steve> allergy to automation. Perhaps it is time we asked ourselves if
+>Steve> there is any way we might pursue automation of Recordkeeping
+>Steve> without running into the problems of error that were endemic to
+>Steve> Nomic World.
+>
+>I actually think this is practical.  The present rules for recording
+>POs and TOs are straightforward enough to permit automization without
+>much difficulty.
+
+The problem, as ever, is with that word 'present'. How confident can we
+be that the Rules about Orders will not change in ways that would
+require significant recoding of any Automated Transaction Server?
+Granted, the Order Rules do seem to provide a pretty abstract framework,
+but it's hard, if not impossible, to know where future developments
+might lead.
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct 16 01:03 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA07179 for <dpb@cs.brown.edu>; Fri, 16 Oct 1998 01:03:38 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA00128
+	for agora-discussion-list; Fri, 16 Oct 1998 15:00:00 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA00125
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 14:59:58 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id PAA18216
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 15:01:47 +1000 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from dial-126-49.ucs.indiana.edu(156.56.126.49) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018214; Fri, 16 Oct 98 15:01:27 +1000
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id XAA20107 for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 15 Oct 1998 23:47:11 -0500
+Message-Id: <199810160447.XAA20107@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Failure to Report? 
+In-reply-to: Your message of "Fri, 16 Oct 1998 14:31:23 +1000."
+             <199810160431.OAA16131@silas-1.cc.monash.edu.au> 
+Date: Thu, 15 Oct 1998 23:47:09 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 549
+Lines: 11
+
+"Steve" == Steve Gardner <gardner@silas-2.cc.monash.edu.au> writes:
+
+Steve> The problem, as ever, is with that word 'present'. How
+Steve> confident can we be that the Rules about Orders will not change
+Steve> in ways that would require significant recoding of any
+Steve> Automated Transaction Server?  Granted, the Order Rules do seem
+Steve> to provide a pretty abstract framework, but it's hard, if not
+Steve> impossible, to know where future developments might lead.
+
+The fact that they haven't substantially changed since March is
+suggestive. :)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct 16 01:16 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA07588 for <dpb@cs.brown.edu>; Fri, 16 Oct 1998 01:16:35 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA00204
+	for agora-discussion-list; Fri, 16 Oct 1998 15:11:31 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA00201
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 15:11:28 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id PAA18232
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 15:13:18 +1000 (EST)
+	(envelope-from harlequin@tmbg.org)
+Received: from cyber1.servtech.com(199.1.22.8) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018230; Fri, 16 Oct 98 15:12:48 +1000
+Received: from computername (lh1.roc.servtech.com [206.106.146.203])
+	by cyber1.servtech.com (8.8.8/8.8.8) with SMTP id FAA17821
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 05:09:54 GMT
+Message-Id: <3.0.5.32.19981016011049.00b15270@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com (Unverified)
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Fri, 16 Oct 1998 01:10:49 -0400
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: Joshua Hall-Bachner <harlequin@tmbg.org>
+Subject: DIS: Voice sample
+In-Reply-To: <msg21282.thr-ffcf0d83.76adf1@Schawk.com>
+References: <199810150116.LAA20976@silas-1.cc.monash.edu.au>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: multipart/mixed; boundary="=====================_908529049==_"
+Content-Length: 74234
+Lines: 976
+
+--=====================_908529049==_
+Content-Type: text/plain; charset="us-ascii"
+
+Here.
+
+--=====================_908529049==_
+Content-Type: audio/microsoft-wave; name="voice.wav";
+ x-mac-type="57415645"; x-mac-creator="5343504C"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="voice.wav"
+
+UklGRnbUAABXQVZFZm10IBIAAAABAAEAIlYAACJWAAABAAgAAABmYWN0BAAAAETUAABkYXRhRNQA
+AH9/f3+AgICAf3+Af39/gICAgH9/f39/f39/f39/f39/gIB/f39/f39+f39/f359fX19fX19fX1/
+gICAgICBgYGBgYGBgYGBgH9/f39/fn5+fn5/f39/f39/gICAgICBgYGAgIB/f35+fn5/f39/f39+
+fn5+fn5+f35+f39/gICAgIB/f39/f39/f4CAgICAf39+f39/f39/gICAgIB/f39/fn5+fn5+f39/
+gH9/fn5+fn5+fn+AgICAf39/gICAgICAgICAgH9/fn5+fX19fX1+fn9/gICAgICAf35+fn9/gH9/
+fn5+fX1+fn5+f39+fn5/gH9+fn5+f3+AgICBgICAf39+fn5+f39/gIB/gICAgIGBgYB/f39/f39/
+fn5+fX19fn5+f4CAf39+f39/fn5/f39/fn5+fn5+f39/f39/f4CAgIB/f4CAf39/gICBgYB/f3+A
+gICAgICAgICAgICAgYGAf39/f39/f39/fn19fX1+fn5+f39/f35+fn5/f39/gICAgICBgIB/f3+A
+gICAgIB/f39/f39/f39+fn1+fX5+fn5+fn9+fn5+fX19fn5/fn19fH19fX19fn5/f4CAgICAgICA
+gICAgICAfn5+fn9/f35/f4CAgICBgIB/gICAf39/gICAf359fX18fHx8fH19fX19fX1+f39/f3+A
+gYGBgYGBgYCAgYGAgICBgYGAgICAgYGAgIGBgYGBgH9+fn5+fn19fX1+fn9/f35/f39/gICAgICA
+gH9/f3+AgICAgICBgYCAgYGBgYCAgIB/f4CAgICAgH9/fn5+fn19fX19fXx7e3x9fX19fn59fX19
+fX19fX5+f39/f4CAgYGBgYGBgYGBgYB/f4CAf39/f3+AgICAgYGAf39/f359fX19fXx8fX1+fX19
+fn5+f39+fn9/gICAf3+AgIB/f39/f4B/f35+f39/gICAgICAgICAgICAgIB/fn5+fn5+fX19fX1+
+f35+f3+AgIB/f35/f35+f3+Af39/f4CAgYGCgoODg4OCgoKBgYGAf39/f39/f35+f39+fn19fX1+
+f39/f39/f35+fX1+f39+fn19fX5+f39+fn+AgIGBgoKCgYB/f35+f39/f39/f39/fn5+fn9/f4CA
+gICAgICAf4CAgIB/f35+fn9+fn19fXx8fX1+fn59fX19fn5+fn9/fn5+fn5+fn9/f39+f39/f3+A
+gIGBgYGAgH+AgYGCgoGBgYGAf39/gIB/f39/f4CAgYGBgYGAgICAgICAgYCAf39/f35+f39/f35+
+fn19fX5/f39/f3+AgH9/fn9+fn5+fn5+fn5+fn5+fn5+fn+AgIGBgYGBgYGBgICAgIB/gICAgICA
+f39/f39/f3+AgICAf39/f39+fn5+fn5+fn59fX19fX1+fn5/f4CAf35+fn5+fn5/f39/f39+fn5+
+fn5+f39/gICAf39/f39/f4CAgICAgICAf39+fn5+f39/f39/gICAgICAgICAf39/f3+AgICAgICA
+gYGBgYGCgoKBgICAgIB/f39+fn9/f39+fn19fHx8fHx9fX19fX19fHx8fX1+f4CBgYKCgoKCgYGB
+goKCgoKCgoGAgICAgIGBgYGBgYGAgH9/f39/f39/f4B/f35+fn5+fX19fn5+fn59fXx8fH19fX19
+fX19fX18fHx8fH1+foCBgoKCgYGBgYB/f39/gICAf39+fn5+fn5+f39/gICAgICAf39+f39/f39/
+f39/fn59fn5+fX19fn59fX19fn5+fn5+fn9/gICAf39/f4CAgICAgIGBgYGBgYGBgoGBgYGBgoKC
+goKCgYGBgICAgICAf39+fn5+fX19fX1+fn9/f39/f39/fn59fX19fX19fX59fX19fn5/f4CBgYCA
+gIB/f39+f39+f39/f35+fn9/f39+fn9/f35/f4CAgICAgYGBgYGAgH5+fn5+f35+fn+AgICAf35+
+fn9+fn5+fn5/fn19fXx8fH1+fn5+f39+fXx8fX1+fX5/gIGBgYGBgYCAgICAgIB/gH9/fn59fX19
+fX5/gICAgYGBgICAgICAgH9/f39+fn5+fn5+fn9/fn5+fn5+fn9/f39/f4CAgICAf39+fX1+fn9/
+f39/f39/f3+AgIGBgYGAf39/f39+fn5+fn19fX1+fn+AgH9/f3+AgH9+fn9/fn19fn5+fn5+fn9/
+f39+fn5+fn9/f39/gICBgYGAgIB/f4CAf39/f4CAgICAgICAgICAgH9/fn59fHx8fHt7fHx8fX1+
+fn5+fn1+fn9/f39/gIGBgIB/f39+fn9/f39/gICAf35+fn9/f39/f4CAgICAf3+AgIGAf39/gICA
+gH9/f39/f39/f4CAgIB/f35+f3+AgICAf39/f39/f3+AgICAgIGBgYB/fn5+fn5+fn5+fn59fn19
+fHx8fH19fn59fX5+f4CAf4CAgIB/fn9+f39/f35+fn5/f39/f39/gH9/f39/f39/fn5+fn19fX19
+fX1+fX18fH19fX5+fn9/f4CAgICBgICAf39/gICAgICAgICAgICAgIB/f4CBgICAgICAgIB/f35+
+fX19fn59fX19fX19fX5+fn9/gICAgIB/fn59fn5/f39/f4CAgICAgICAgICAgICAgICAgICAgICA
+f39+fn5+fn19fX5+f3+AgICAf39+fn5+fn5+fn9/f39/f39/f35+f39/f39/fn9/fn5+fn5+f39/
+f35+fn5+fn5/f4CAf39/f39/fn5+fn5+fn59fHx8fX5+fn5+f39/f4CAgYGAgIB/f3+AgICBgYGA
+gH9/f35+f39/f39/f39/f39+fn5+fn5+fn9/fn5+fX19fX1+fn5+f39/f39/f39/f39/fn59fX1+
+fn9+fn5/f4CAgYGCgYKCg4KBgYGAgICAf39/fn5/f39/fn9/f35+fn5+fn59fX19fn9/f39/fn9+
+fn5+f39/f39/f39/gIB/f39/gICAgICAgICAgH9+fn5+f3+AgICAgIB/f35+fn5/f39+fn5+f39/
+f39/fn9/f35+fX1+fn5+fX5+fn5/f39/f39/fn59fn5+fn19fX1+fn5/f39/gIB/f39/f39/gIB/
+f4CAgYGBgYGAgICAgICAgICAgICAgICAgH9/f35/fn59fn5+fn5+fn5+fn9/f4CAf39/fn5+fn59
+fX19fX19fn5+fn5+f3+AgICAgICAgICAf39+fn5/f35+fn5+fn9/f39+fn1+fn5+fn5+fn5+fn9/
+f39+fn9/f3+AgIGBgYGCgYGBgoGBgYGBgYCAf35+fn5+fn5+fX1+fn9/fn18fH19fX19fn9/f35+
+fn5+fn+AgH9/f39/f3+AgICBgYGBgoKCgoKCgYGBgYKBgYCAgH9/fn19fn19fX1+fn19fX19fX19
+fX59fX1+fn5+fn5+fn59fX5/f39/f3+AgICBgoKBgYGBgYGBgYGAgYGAf39/f3+Af39/gICBgYCA
+gYGBgYCAgH9/f39/f359fX18fH19fX19fX19fX1+fn5+fn5/f35+fn5+f39/fn5/f4CAf39+fn9/
+f3+AgIGBgYCAgIGBgYCAgIB/gIB/f39+fn5+fn9/gICBgYGBgICAf35+fn+AgIB/f35+f39/fn5+
+fn5+fXx8fX19fX1+f4CAgIB/f39/f39+fn19fn5+fn5/f4CAgIB/f4CBgYGAgICAgIB/f4CBgYGA
+f3+AgIGBgICBgoKCgYGBgICAgH9/fn5+fn5+fn59fn59fX19fn9/fn59fX19fX19fn5+fn19fn9/
+gICAgICAgYGAgICAgICAf39/f3+AgICAgYGBgYCAgICBgYCAf39/f39/f39+fn9/f39/gICAgH9/
+f39/f39/f39/f35+fn9/gIB/f35+fn9/f39/f4CAgH9/f3+AgIB/f39/f35+fn5+f39/fn5/f39/
+fn59fn5/f39/f39/f39/gICBgoGBgICAgIGAgH9/gICAgH9+fn5+fn5+fn9/f39+fn5+fn5+fn5+
+fn5+fn5+fn5+fn59fX5+f39/gICAgYGBgYGBgoKCgoGBgYGBgYGCgoKBgYGAgIGBgIB/f35+fn5+
+fn5+fn1+fX5+fn5+fn5+fn5/f39/f3+AgIB/f39/f39/f35+f3+AgH9/gIGBgYGBgYGBgYCAf4CA
+gH9/gH9/gH9/gH9/f39/f35+fn5+fn19fX1+fn5+fn5/f39/f35/f4CAgIGBgoKBgH9/f39/f39+
+fn5+fn5+fn5+fn9/f39/f35+fn59fX1+fn9/f39/f39/f4CBgYGBgYGAgICAf3+AgICAgICBgYGB
+gICAgYGBgICAgICBgH5+fX19fX19fX19fX1+fn59fX19fX19fX5/f4CAgICBgYGBgYGCgYGBgYKC
+goKCgYGAgICAgICAgICAgICAgH9/f39/f39/f4CAf39+fX19fn19fX1+fX5+fn5/gH9/f4B/f39/
+f39/gICAgH9/f4CAgIGAgICAgICAgIGBgoKBgH9/fn5+fX19fHx8fHx8fHx9fX19fn5/f39/f39/
+f4CAgICBgYGCgoKBgYGBgYGBgYGBgYGAgICAgICAgH9/fn59fXx8fHx9fX1+fn5/f39/f39/f39/
+f3+AgICAgICAf4B/gICAgICAf39/f4CBgYGBgYKCgoGBgoKBgYCAgICAgH9/f39/f35+fX5+fn19
+fX19fX19fn5+f39+f39/f39/gICAgH9/f4CBgICBgICAgICAgICAgIB/fn59fX19fn5+fn5+fn5+
+fn5/f39+fn9/f39/f39/f39/f39+fn5/f39/f4CAgIGBgYGBgICBgYGAgYGAgYB/f39/gIB/f39+
+f39+fn5+fn5+fn5+f35+fn5+f4CAf39/f39/f3+AgIGAgIGBgYGBgYGBgICAf39/gICBgoKCgoGA
+gICAgH9/gICAf39/fn9/f39/f35+f39/f35+fn5+fn5+f39/f39/fn+AgICAf39/f39/f3+AgYCB
+gIB/f4CAf39+fn5+fn5+fn5/f39/f35+fX19fX1+f3+AgICBgYGBgYGBgoKCgYGBgYGBgH9/fn5/
+f39/f39/f35+fn1+fn59fHx9fX5+f39/f4B/f39+fn5/f39/f39/f39/f4CAgICBgICAgICAgICA
+gICAgYGBgYGAgIGAgICAgIGBgYCAgH9/f35/fn9/f4CBgIB/fn5+fn9/f4CAgICAgYGBgYGBgYCA
+gICAgH9/fn59fX19fX5+f39/f39/f39/f39/f35+fn5/f4CAf39+fX59fX5+fn5/fn5+fn+AgYGC
+g4ODgoGBgYCAgH9/fn5/fn5+fn5+f39/fn5/gICAf39+fn1+fn5+fn+AgH9/f39/f4CAf39/f4CA
+gICAgIGBgYCAgICBgYB/f4CAgIB/fn9/gIGBgYGBgYGBgYCAf3+Af39/fn5+fn5/f35+fn5/fn5+
+fn5+fn5/f4CAgICBgIB/f39/fn5/f4CAgICAgICAgIGBgYCAf4CAf39/f39/f35+fn9/f39/fn59
+fX19fX1+fn5+f39/f4CAgYKBgYCAgICAgIB/f359fX1+fn5+f39/f39/f4CAf39/f39/fn5+fn5+
+fn9/f3+AgICAgIB/f39/f39/f39/f39/fn5+f39/f39/gIB/gICAgIGCgoGBgoKCgYCAf39/f39/
+f39/f39/f39/f4CAgH9/f39/f35+fn9/gICAgIGAgICAgICAgH9/f35/f39/f3+AgIB/f39/f39+
+f39/f39/f39/f3+Af39/f39/f39/f35+fn5+f39/f39/f35+fn9/f39+fn5+fX19fX5+fn5+f39/
+fn5+fn5+fn5+fX19fX5+fn5+f39/f39/f35/f39/gH9/gICAgH9/f4CAgICAgICAgICAgICAgICA
+f4CAf3+AgICAf39/f359fX1+fn5+f39/f4B/f39/f39/f35+f39/f39/fn5+fn+AgYGBgYCAgICA
+gICBgYGBgYGAgICAgICAf4CAf4CAgYCAf39+fn5+fn5/f35+fX18fHt6e3x9fX1+fn9/f4CAgIB/
+f39/f3+AgIGAgICAf39/gICAf39/f35+fn5+fn5+fn5+fn19fn5+fn5+fn5+fn9/fn5+fX5+fn5+
+fn9/f4B/f35+fn5+fn5/f39/f39+fn5+fn9/f3+AgICAgYGBgIB/f39/f39+fn5+fn59fHx9fX5/
+f3+AgICBgYGAgICAgIB/f4CAgIB/f39+fn5/f4CAgYCAf39/f39/fn5+f4B/f35+fn19fX1+fn5+
+fn5+fn59fX19fn5/gICAgICAgICAgICBgYKCgoOCgoGBgICAgICAgICAgICAgH9/fn5+fn59fXx8
+fX19fXx9fX19fX5+fn5+fn5+f39/f35+fX5/f39/f39/f35+fn+AgIB/f39/f39/f39/f39/f35+
+fn59fX1+f39/f3+AgICAf39/fn5+fn+AgICAgICAgICAgICAgICAgICAgH9/f39/f35+fn5/f39/
+f39/fn5+fn5/fn59fXx8fHt7fHx9fX5+fn9/f39/gICAgYGBgYGAgH9/fn5+fn5/gICAf39/f39/
+f4CAgIGBgYGAgICAgH9/fn59fX5+fn9+fn5+fn19fX19fX18fX19fX5+fn5+fn9/f39/f3+AgICA
+gICAgICBgYGAgIB/f39/gICAgYGBgICAgIB/f39/f4CAgH9/f35+f39/f39/f39/fn9/f35+fn5/
+f3+AgH9/f39/gH+Af4CAf39/fn5+fn5+fn5+fn5/f39/f39/f39/f4B/f4CAgICAgH9/f3+AgICA
+gICBgYCAgICAf39/f4CAf39/f39/f39/f4B/f39/gH9/f35+fn1+fn9+fX18fX5+fn5+f39/f35+
+fn5+f3+AgIGBgICAf39/f39/f3+Af39/f39/fn5+fn9/f39/gIB/fn5+fn5+fn5/f39/f4CAgICA
+gIB/f39/f39/f4CAgICAgICAgICAgIB/fn59fX5+f39/f4CAgYGAgICAf35+fn19fX19fn5+fn9/
+gH+AgICAgYGAgICAgICBgYGCgYGBgYGBgYGAgIB/f39/f39/gICAgIB/f39/f39/f35+fn5+f4CA
+gYGBgYGAgIB/f39/f35+fn5+fn+AgICAf4B/gH9/fn5+fn5+fX19fX5+fn5+f39/f39+fn9/f39/
+f4CAgICAgICAgICBgYGBgICAf39/f39/f3+Af39/gIB/f35+f39/f39/fn59fX19fn59fX59fX5+
+fn9/f3+AgICAgICAf39/f39/f39/f35+fn5/f3+AgICBgIGBgYGBgYCAgICAf39/gICAgICAgICA
+gICAgICAf39/f39/f35+fn5+fn5/f39/f39/gICBgYGBgYGBgYGAgICAgH9/f39/f39+fn5/f39/
+gICBgYGBgYGBgYCAgICAgICAgYGBgYKBgYGAgIB/f39+fn9/f35+fn5/f39+fn9/f4B/f39/fn5+
+fX19fX1+fn5/f39/f39/f39/f39/f39+fn5+fn5+f4CAgICBgYGBgYGBgICAgIB/fn5+fn5+fn5/
+f4CAf39/f39/f4CAgYGBgYCAf39+fn9/fn5+fn5+fn9/gICBgYGBgYGBgYB/f4B/f35+fn5/f4CB
+gYKCgoKCgYGBgICAgICAgYB/f39/fn5/f39/f39/f35+fn9/f39/fn5+fn5+fn5+fn5+fn5+f4CA
+gYCAgIGBgICBgYGAgICAgICAgIGBgYGBgICAgICAf39+fn5+fn9/f39/fn5/f39/fn5+fn5+fn9/
+gICAgICAgIGBgYGBgoKCgYCAgIB/f39/f39/f4CAgIB/f35+fX19fn5+fn5+f39/f39/fn5+fn5+
+fn5+f39/f4B/gICAgICBgYGBgYGBgYCAgICAgYCAgICAgH+AgICAgICAgICBgYCAgICBgYGAgH9/
+fn59fX1+fn9/gH9/f39/fn5+fX5+f35+f39/gICAgIGBgYKCgoKBgICAgH+AgICAgH9/gICAgH9/
+f35+fn19fX19fn9/f39/f39/f39+fXx8fHx9fX5+fn5/f4CAgYCBgICBgYGAf39/gICAgH9/gICA
+gICAgICAgH9/fn5+fn5+fn5/f39/fn5+fn5+fn19fX5+fn+AgIGBgYGCgoKCgoKBgYCAgICBgYGA
+gIGBgICAgICAgICAf39/fn5+fn5+fn5+fn19fX19fX19fX19fX1+fn+AgIGBgYGBgoKCgYGBgYGB
+gYGCgoKBgYCAgIGAgYGBgYCAgIB/f39/f35+fX19fHx8fH19fX1+fX5+fn5/f39/f3+Af39/f39/
+f39/f3+AgIGBgYCAgYGBgYCAgIB/f35+fX19fX19fn5/f39/f39/gICAgIB/f39/f39/f4CAgYGB
+gICAgIB/f35/f39/f39/f39+fn5+fn5+fn19fX5/f39/f4CBgYGBgYGAgICAgH9/f39/fn5+fn+A
+gH9/f3+AgH9+fX1+f3+Af35+f39/gIB/f39/f39/fn5/gICAf4CAgICAgICAgICAgICAgH9/f39/
+f3+AgH9/f4CAgIB/f39/gH9/f39/f35+fX19fn5+fn59fX1+fX19fX1+f39/gIGBgYB/f39+f3+A
+f4CAgICAgH9/f4CAgIB/fn5/f39/fn5/gIB/f35+fn9/f39/f4CAgICAf4CAgH9/fn9/gIB/f35+
+fn59fn19fX1+fn9/f4CAgH9/f39/f39/f39/gIB/f35+f39/fn9/f4CBgIB/gICAgICAgICAgH9+
+fn5+f39/f39/f39/f39/f39/f39/f39/f35+fn5+fn59fn5/gIGAgICAgIGBgYB/f3+AgICAgH9/
+gH9/f39/gIGAgH+AgIGBgYCAf39/f39+fn5+fn59fX1+fn5+fn5+f3+Af39/f39/gH9/f35+f359
+fX19fX5+f39/f39/fn1+f39/f35+fn9+fX19fX19fX19fn5/f4CAgICAgYGBgICBgYGBgYGBgYCA
+gIB/f3+AgICAgICBgYCAf4CAgYCAgH9/f35+fXx9fX5+fn5+fX5/f39/fn5/f3+AgH+AgICAgYCA
+gICBgYGAf39/f35+fn5+f39/f3+AgICAf39+fn9+fn19fX5+fn59fX5+f39/fn5+fX5+f39/f4CA
+f39+f35+fn5+fn5+fn5+fn5+f39+fn9/gH9/f3+Af35+fXx8fX19fX5+fn9/f39/f4CAgYGBgYGC
+g4OCgoGCgoKBgYGBgYKCgoKBgIGBgYKBgYGBgIB/fn5/gH9/fn5+fn19fX18fXx9fX19fX1+f35+
+fn5+fX19fHx9fX19fX19fn5/f39/fn1+fX19fX59fX18fHx9fX19fX5+f4B/f39+fn9/fn19fX5/
+gICBgYKCgoKCgoKDg4SEg4ODg4SFhYWFhISEg4ODg4ODg4ODg4OCg4KCgoKCgoGAgYB/f359fX19
+fHx8fH19fX5+fn5+fX18e3t8fHt7e3p6e3t7e3x8fH19fX19fXx8fHt8fHx7e3x8fX19fHt7e3t6
+e3t6e3x7e3p6eXp6eXp5enp6enl3d3d5ent8fX5/gYOEiIyNjYuIhYWGiImJioyNjYyKiYmJiomI
+h4iJiYiGg4B/fn17e3x/goF+fXx8fn5+fX1/gIKDgoCAfnx7e3x+f4CAf319fX59fX5+fn5/fX19
+fn17enp6ent7e3l5enp6fH1+fn17enp7ent8enp6eXh4eXd1dXR0dHd4eHl5d3d3dHJxcXBvb3Bz
+d3l7fH6AgoeMj5CSk5KSk5OUl5iZmpmXlZSTk5KRjo2Mi4mHhIF+e3h1c3JycnJycW9ubm5vcHFy
+cnN2eHyAhouNi4uPkpWYmZmWk5GOjIuJiIiGgn99fHt4dHJxcXBwcHFwb25sa2prbnJ1dnV1d3l6
+fH+Cg4OEhYSCg4ODgX98e3l3dnNwbmxramxtbGpqaGZmaGdnaGlqbG9yfImWn6KdlpKRlZuhpqms
+rqymoJyampmWlJOWmZmVjoV9d3Jua2psbm5qZmNiZGZnaGptcXh8fn5/f4SIi4yQlZqcnJuZl5aV
+kpCMiYiHhYJ/e3l4dXBtbGxsa2tqaWlrbGxsbW1vcXN1eXx/gYKDhoiKi4uLiIaEg399e3t4dXRw
+b2xra2hmZWZkZ2ZnZGNjYWBdYmlxeIKMlZyenpuYl5uiqK6xs7Ozr6minp2bmpqbnJyalY2De3Z0
+cW9tbWpoY15aWVtcXV5hZGdqbXB1fIWMjpGTlJWZnJ6goaGfm5iVk5GRioeDg4KCfXt3cm1pZmVm
+ZmVkYmFhYmRoaWprbnF1eHyAg4WGh4eIi42NjYuJhoOBfXp3dnRxb2xsa2pnZmVkZmhnZmVhXFtd
+ZWt0hY+ZnKCdmZWWnaavtbi4uLSwqqOdnJqZm5ybmpeQiH12cXBtbGpnZWJfW1hXWl1gY2Zna25x
+dXuCi5CTlpmboKOlpaShop+dmpiTkYyHgYB/f3t3dG9raWdkYmBgYGBfYGJmaGpqbG1xdXp/goOE
+hYeIiYqNjo2LiIeGg399e3Z0cXFvamlkY2BiYGJkZmNgY2FgXGJkanKAjpeYnJ+enaKlqq2zuLu5
+uLWtqKSgmpiXnZyYk5GJgnx3c25sa2ljX1tXVVVWV1ldYmRmaWtucHV6go2XnqKin5+dnqCjpKWi
+oZyWkY+LhoJ+fXt7eXl0b2pmY2NkZ2hoZmRhYGFkaG1wdHZ5fICCg4SFh4iJi42OjIiCfHh3eXl6
+d3JraWdmZGRkZWRiY2NkY2FeXV5ncoaXn56bk42Pl6Ottrq7uLazrKqppqKgn6CjpKKbj4N6dHR2
+d3d0bWRaU1JVWFxeXl5eYWVoaWtudXt/iZigoZ+bmJiboqaopaGalZGOi4mHhoN8e31+fHdxbWhn
+aG1ub2xpY2BeYGVscXV0dnh6e32AgoKChIeKi4qHg315d3l8enl4dHFuamdlZGdnZWhsZ2ZkYVlW
+WWl2hZajn5qPh4WKlKWxt7u4s66ppKKdmZucoKaopJyPg3pycnh9f3x1a2FaWVlZXWBjZmhqamlo
+am1wdoCLkZien5uYlZWWmJ6gn5qVkIuFgoCAf4GBf39+enZwa2trbXJ0cm9qZmNiZWpvdXl6e3x8
+fHx7fH6BhIaIiIaAe3ZzcnZ4eXl5cmxqaGhqa2tua2plaGNlY2hwhZehn5qWi4qNl5ulqbOxrqak
+oJ+YlZKVmqCinpqQiH98d3p6fn14bWZhYGBgYmRmZ2loaWlrbXByd3qAiZGZnJmTkIyOkpibmpWS
+jYeDg4SGg4B/f4GAfnh2cG9scXN5eHh0bWVlZ25ydnh6eXt6eHh5ent5e36BgYF+eHJxc3V0dnh1
+b21qaWhrb29ra2xqamlwgJGWmZeQi4qSmpucpaShoaGho6Sgm5ORlpmcnJaNh4KAf4CDhIB5cWtp
+aWptb21tbGppam5ubm90d3qAhoiGiY2OjI6RlJKPjImGhoWGhYSBgX58enp5eXZ0dHV5e3t7fHt5
+d3d5eXd3dnZ2ent6eXp6e3t9fX17fHt4dHNzdXRycHFwbW5ra2lrbW5ta21scH6PkI6OjoWCh5OV
+mJqgm5iXmZeWkY+MkJednp2ak4uFg4OHiIuIhHx3dnVyc3d2c3V4eXl5eXV0dnh3en+CgoSGhIGC
+hYSCgYB/fn59fHt6eHd3dnZ6e3p3d3Z3d3l6fH5/fn5/gYKBgYB+f4KCg4ODgH58e3l7fHx8enl4
+dXNzcXBvb21wb21scW1qbG5veYeIhYmKhoWJjoyQlJWQk5SUk5KQjYqMj5GSlJCMiYaEhIeKioaE
+gH19e3h6e3l6enp7fHx5dnp9fHuBhIF/goSCf4SHhoOCgYCAf317eXp5eHd3d3h1cnJzdHV2d3h4
+eHl6enl6fX5/f4CEiIaFh4WDgoKCf4CBfn1/e3l7eXd4eXZ3enh2dnRwb3Fxb3J3fIF+foGDfn+F
+iYeIi42MjI2Ni4qIh4mKi4qMjYuIh4eFhIWGhYODhYOAgIKAfn+AgIKEhIOCgH6AgH5+goWCgIKB
+fHx9fX19fH+Ae3t7d3Z4dnV5eXh3dXJyc3JzdXR2eHp6eHp5eHx/fX6Bg4SBgoWGhYaIiIiGhIWG
+g4KCgH1+f31/fnx7enh4end3dXZ3dXZ3eXl5en18eXuBgICDhIOEhYSFh4eEhouJg4eIhYaHhYiL
+h4aIhoOChIKDg4KEhYSFhYODg4KDg4OCgYKEgH1/f35/fnp7f318enp7enl4enZ4fHZxd3dzeHhx
+eHpyeoB5eH9/eXp9fIB+fn9/gYiCfYqHfoePgH6IiX6Ch4GAhYF8goF6fX5+fXt/fHp8e3N+fHF+
+f3N2gnhzfXx5gIOBg4B9goKAgIGEg4WHhoKChIOBh4aBhYiGhIeGgIOBgoKAg4iDgoWDf4B+gH+A
+gYCAgn98fn98fn57gX95gYB3eX13eH57fHx8eXl8enx+fH+AeoB+e3t/eHd9enh9gnl+f315fIJ/
+eYGDgoOFgYF/gYOBgISJgoSDgoKAh4d/hIaDfouEe4CDeHqDfXx+fHx7e3h8enR4gIB5en2BfHuB
+hXl6i313iYd5hYZ8hIl+f4mCf4SGhYF8hIZ+hYZ9g4SBfn57f3x6f4B8fH18fn59en96doOGe4GH
+eneDgXZ8gn58gHl+fnl7gHp9f3qAhH56eXp2fn99fH6Bg35+g36AgoKFg4mJiISLg36GhH2Gi3t+
+hXp4goV8gYN5eYR/eoJ/eHR7dnN+fnuCg3p5fn5+fnt5g4F+gYB/ioGAiIR7g5J9doqMdX6OeXqH
+gneGiH57gX96goN6eYKBfH+Ed3+KfneKfnGNhnaCi39/g3t9eHyEfnmBgmx+hnZ1gIF6foN8eYB6
+eHp7f3l7in93g4h0d4h9f4iGf4eFhIiGgYSNg3uIf4SGeoCEeHqAdoGFe4OGdXWCfm19jHZ5in5x
+fIR3fIGCdX6CeoSGfXaCg3d7jYt6gIp5eI+DcoSFenqKeXaKf3SCgXt7hICAfIaMfYKHe3WLfXOX
+h3KKhXOLi3WDjHl4i4F/hYB+eHCDhnaCiXByi4Byg4JueIh+e4GBgHl7eXl5eoN7dYmHcISJdXeO
+h3SGi4GHjn9/f4aAfIOHhH6FhneDhH6Cf3t+gH6LeXWDfm98h3GAi31vh4J2fIiBfoV3eIeBeH6J
+hHeBhX5yhYh4coh9c4qHc3iFeX2IfneFh3l+jHV5j4B/h4x6e497g39+foSDgYR/g3Z+f4F2dIB+
+dX+Ff3x4fnx8gXyAf3WDh3WDgXx/foqAf4WLgn2KgHyKinZ/j3J9mHdzkoZri4tvgIWEfnx6gH58
+gHx9f4J0fIh6f4t0dIiFaoePaHSUfWGOiWJ9mHdri5J0fYqCd32IfX2Lg3OJi3F8h4B4foOFgYWB
+iH1+fYKBeYOCgICBeI58b4OMdn2DfXuCfnmHfnCBjXh3iYJ7eX92fIZ2fX+FdYGCf319foB8eoGG
+iHqAjnx6k4h7iIaDhYKDhISDg32HinV9iHlyi39xhYByfIR5gIR7fXqDe36BgXh3hnV3hHyBfoB+
+f3mAhnx6eouBdo6LhHmHhXl8gX2BgIZ3e4J6d4GGdneFineAjICBgH56iIR6gYV/fXuBhHh/in94
+hoOCgYV+fXpwg4Z3fYl5gIJ2eYd1cYd9bn6Cfn16e4d2eYWNdYKTfXyEfHeHfoJ/hXt9jHyEhYl1
+gIxyho15e4l/cIt+eX2LcnaMhXZ+kXpzhIhwg4V4f4R2gIB1gId+goV/hHt6knh7hoR2g4R8hYOB
+f4F/fnuJfnaAhHl/gX+HdoKHfHWEi357hIF3g398hXh7jINwhYdxf454eoqFgH19iohwhotxeIiH
+dnWFh3l0hYF7gIR6g4J+iX52hoh7foGEdIaLdnODh3WBi3h2gYOBfX6Gf3OBgnp7hXSFhHlzgoZx
+eo19b4GReHeJfnmKf3OFkHh6joB4fYR6g4N7h4hzfZNydpR+b419dH+Jd3yFg3h5fo2AcY6Gc4aN
+eYN9dYmGcoOOcnmHgXR/enmLd3qHgHONg3KEfndyioNwiIp5cY+JdX9/iYOBgY59fZJ8eIiEeYaD
+fYCBeYJ9d4R+dYOEdX19iYV1fZFzdox4fIeMb4GQfHiHf3d2iYF5gYCAgX2CfXaHhnCKg3GBhn9+
+iHl/fYeAf3yGgHl/i3l4fpJ6coaGd3uPgGyEfnp6iXp9iXZ+hIZ+eod9fH6IgX2Fe4aCeoaCeICP
+fnWEgn6Ch3l7gniFfnaBgXt1eneCfXOIi3B4i3N9iH5+f36DhHiQin18k3p8i4Z5h4l2fn+AhYR1
+goV4e4yAe4x/cYaGbYd8c4N9domAdoKHdXGRiW+KiWuGiHFwiIFtepR7dYeJdIZ/gICAfX6GhYJ/
+hYR6dImJdnyMhX1+hIJ8c4yDao6KboWabniOfHV/g3WDhHiEh3N+hnZ3h39+hoJ6eIiBeISFcHuT
+bnSTgnCCiXCJhW9/koRwk4drgZZwepF8cY2IcYiHc4SFd4KJdoGIfoZ+dYSEc4eGb3+GcIKJcHqJ
+d3yKf3SFhHl6hnh+jX51hol4dYmIc4OQc3mOdn6QfHN+hYZ9e4OJc4CHgnaHiHR5gYd5fIZ9d4V8
+bZCJa4mVdnGOiX5+fYWFeHqNgHOAhXN+fXqHeHmCf3iHfXGSinV9h3l+hoKFgXp6gXx+e4F6eHyA
+hX55hY59dIKJhHmJhX14hoF2h4ZxdI96d46He4SKenqJhn2KenCOf2+LknBzj4RziYx4g4l8eH95
+gItzeoh6cIOAc4WEfXqBeXuLe3eGh3d+g3Z9jIB3h3x3i4d1hoR/fYF2fZN8cZGKboOVfnWHf3uC
+gHuAeXl9h3N0jYVugot1ioNzh49zeImGdH6Fgnh8hn17inpyi494fYZ7f4OCg4N4fICDdn2Hf3x4
+eoOGdYOMeXCDhoR1hI17cYiJd4OJgXp+dYWIeXaDgnuEgnx5h4GAg3t8fIJ+foV/eX+Bf4GAhYR6
+e36KgH+Jg3qEinF9jX50fYR8fnuHg3Z7hIFyf4R8fIKAeH6HgXaJg3eAjIR3eouHboKNenKMinqA
+gH54iYR0gol3eoF2eot6eoR6cISKd3uOhXN8fn+Fg3mDind2jIZwg5B1eYSCfoCBgnp7fn6Ag4B9
+eXyFfHmHiXd4h3xwjJF3fY93doWAf36ChH10gId5fo2CbXuLgXaDiHx6eXeIgn2FjHZzhYGDfoOI
+hnp/fXqMg3eGhHR1kIZwgZNzdI+Ad4mGcH6CdXyFgH+BfH6Bfn+Ie3qGiHd9j4N2h4VzeYt7dIyF
+dXuHenyDhoOBgnd8hYN+h4J5fIGBeIKKfnmCg3d+h357g3hxfYV7fICDfHV+f315fIOCeHuHfniH
+hXZ7gX58hoiAfIKCe4ODgIKCeXp8g4B7fXx6eH6Egn+NhHt/hn19h4OAfX9/fICCe3uJgHGFiXp5
+hn15fH2GhX9/gnZ6iHx4iYN1fYp7doiEd36BfoODfYODe32GjHt6jYV0fox4dod+d4CDdnuBe3t/
+e4V/doGHenaNhnqAhXp9joV4god/f4l/foKFgIGFfn6BgH2FeHOCh3Vzh4F2fX90eH5/eXqBgHqA
+gXyBg4F9fYCAgYKEhH2AgHyEgHyFin5/g4B7fYR8fX97foWBfICEfXiBgXp+gn+Cg4B7gIR6e4F8
+fX2Af3p+gXh5gnuBgnt/gX9+gn18e3t+gIB/g4KCf4CFfXqHgYGEgnuEhHyEg3x5fnuAg3yFhX1+
+g3p8gYOBgIB+hIN7e4WAeoGCeX6DfnuEfnZ8hH90h4Z2fIl/doSHeXuHfHeDg3t9hYJ+fIGGgYGH
+gnt/gnuAgX+Agn55e4WEeYCFeXWFgnuBgHuAgXl9gnx9goF4f4eBfoJ+eX+Afn2Cg35/gH58goWA
+g4F9fYZ8e4SCfHt8gIR6gYl9en2Aen+AfH5+en+BeH1+fH14fYB/gYJ+gX97gIV/fIWEfYGDfIOF
+fn+Egn2Bg4B/g4N+fH6CfH2HfHuHg3eCiXd6h3x0gIR9fIN/en5+fHt+f317gHt4gX98f39+gYCC
+hIGBg4KCgYGCgoOAf4OEf3+Cf3+CgoCBgoODgH2Af3uAgH1/gn96fn98enx+ent/f399e36Afn6C
+goGCgoF/goOBf4B/fYF/fX6Dfn2AgH15gIN+f4R/e4F+e3+Be3yBf359gn5/gYGAf39+gYF/goCB
+goB/gIB/g4J9foOBfH1+enyBgHyAhYF/gYN+gISAfYKBfoKDfn6Df3uCg3x9hH59gH59foB7e35/
+fHuAfHh/g3x7gIF/gIGCf36BhH6Agn5+gX59goGAf3+Cf399fX9+fHx9fYB/fX9+en6BfHx/fnx/
+f36Af31/gX+AgYGCgYGCgoGCg4GBgYCAgoGChoWBg4eCgYaDgoSGhYSFhYKAgX98fIGCgIGBf36A
+f3x+fnt8fnx6fn54d315dnp9fHt8fHx6eHl/fHl7f3x9f317fn97f4B9fIF/e3p8enh5e3p5ent9
+fn6Ag4OEhIKDhYGBhoaDhomIiImJiImIhomJh4iLiomKiIeGhYWFhISGhoSEgoB9fX18ent8enp8
+fHl5e3p4e35+fn5+fn58fHx8fH19e3p9fXp5e3l6fXl5fHp4fH12d3p5eHl5eHl6eHZ2dnZ4eX1+
+foOIhIKFg4KFhYSHh4eLjIqKjIqJiouKiYuMiomKiIaHhYKBg4F+gIF9fX9+e3p6eXh4eXx/f36A
+gYB/gYSEgoOFhoSEhoSDgoKDg4KDhIWFgX9/fHp7enVzdXZ0c3N0c3R0cnJzdXV3dnJ1eXh1dnd3
+d3Z4eXh9goSIh4WFhYOBhIaIiYuNjYyNjoyLiYiJioyNj5GOi4qKh4WGhoWEhISCf35/fHl4eHV0
+dnh4eXl6e3x9foCCg4SFhYWHiIaGhoSCgoKDg4WFgoCCgX17fHp3d3ZzdXVzcnNwbnFwb3N4c3R6
+d3J1eXd3eXl3dnp7fX2BhouKiYqIhYWGh4aGh4mJioqMjImJiYeHi42Nj5COjIyKiIeGhoODhISD
+goF+e3l3dXR0c3N0dnZ4fHt8fn5+foGCgYGEhYWEhYWDgYKDgoKFhYOChIJ9f4B6eX55dHl7dnV3
+dHBydXN1eHd4enh1eXp4dXl3dXd6eHuEhoeHhoOAgYODhIWHiomIiIqKiIeHhoWJjo+PkJGPjoyJ
+iImJhoaGhIGCgn98e3p1c3R0dXV1dXh5dXd9fXp9hIWChIqLh4WGhYOCg4SEhoeGhYODgoB+e3p+
+fnh4e3hyc3Z0b29yc3R0cnZ4c3J1d3V1d3l4dXl8enqEh4aHiISEh4aFh4iIiouKjI+OjIyKiYqM
+jpCRkI+NjImHh4eHhYOBgYF+fX18eXZ0cnJycnNzdHd5d3l9fXt9goOBg4iKiIiKiYeGh4eGh4aF
+hoaDgoF/fnx5eHp6d3l6d3Z2cW9zcnJzc3F2dHJ1eXl0d3Z0dnd2eH5/hYeFhIaFgoSFhIWJi4qL
+jo2MjYuJioqLjZCQkJCRjouJiYiFhYWDgYGAfXx8eXV1c3J0dnd3dnZ2dnd5e3x+gIKDg4WJiYeG
+hoeGiIqLioiJiIWChIJ/fn18enl5enh3dnZ1c3F0eXRvdHRxc3NzdnZyd3hzdH17c3h+foGHhoKE
+hICChYSFh4qKiYuOkI+PjoyNjYyOkY+Nj4+LiIuMiISFhYF/gH58e3l2dXFucHNzc3Z2dXd5ent8
+f4CAf4KEhoeIiIeHh4eHiYmIiIeHhIGBgn56e3p4d3h7enZ2eXVxc3Z1cnJ0eXVxdn15dnh7eXh4
+fHx4eH2BgoGChIOBgIKDg4OJi4iIi42MjIuJiouKio6PjY2PjYiGiYmFhIWFgn5/gH56enp3dHR2
+d3d4eHl7end6fn9+foKCgoSIiYaHiIaDhoaGh4mIhoSBg4N9e3t6e3p2dnp4cnN6eG9zenRudnhz
+cnp4d3p5dnl5eXt7e318e3x/goKDhYaEgoSJh4SJioSGjI2Kio2Mh4eJiYeJjIqLi4iHiYaChIJ+
+fn19fXx6e3l2dnZ1dHh5d3h7e3t9f31+gYGAhomIiIuLiYmJh4qJh4aFh4aDgX5+e3Z3eXd2dnh3
+cXR3cHB3dHJ0eHV2eX56eXt7e32BfHl+fHh8fHl4gIaEg4aIhoSDhoeFiIqIhoqLiYuIh4aEhIaJ
+ioqIioiFhYaFgoB/f358eXl7d3V2dnV1d3t6d3h9fXx/g4KEhYSFhoaHiouHh4qIhISGiIaFhYSC
+gH+BfXh6d3l4d3Z2eHdzcHZ0cHJ5dm54e3V1e3l4fXt7ent9f3t8fnl7fXt7goiGhISHhoGEioeD
+iIyIhYmLiIaJiIOEiYaFiYmGhoaDgoWCfoGAen2Ae3p+fXp7e3t7fX1+fn5/f3+AgYKDgoOEhIeI
+hoiJh4aGhIKGg36CgICBenh8eXN5eHJye3Zzd3l2c3p0bnp9c3mBeHiAfnp/gnt9goB8fYF/fn16
+gH97gomAfoeGgYGGhYOEhYaCgIWHhIKFh4WChoaEhYWEhYWDg4SCgH9/fnx8fH5/fnx+gH17f399
+f4GBgIGFhYOGh4WGhoWFhoSDhoKAhH+Agnl5gH11eXt4dnN2e3Nze3h0eHt3fXt0gX9zdYSAdX2G
+fXeEgnR6hH12g392gYR5foJ8fYOBfYKFg4GGiIWChoV/gISEhYOGh4SEh4WChYSFhoSAg4uGf4OF
+gHyAgXx9goGAgYCAf3+Af3uAgXp+hIN/f4GAenuEgH2AgoKBgYB+f357e356dn99eH96c3t8cHiF
+eXeBfnd8gHd7fn56foB3foSBen1+f398eoCCeX+CeHiBf36Cg4F/g397f4B+gIJ/foKBgYKCgYOC
+goOFh4eJh4aHhYOGhIGEhISDg4WHhYODf31/goB/gX59gX5+f39+gX97goOAhIN/gIKGfX+Egnp/
+hHd1gYJweoJ3dnl7enp6fYF3dn6AdHOEf3F8hHZ3g3x5fXqBfXuBhHt+hXx8f3l6g399g399goSA
+gIKBgoGCgX+Dh4SChYOChoaFiImFiIqDg4aDgoGBgIB/fn+AgYCBgIB/fH1/f3t/gX1+gIKBgH9/
+fYCCg4GAin93hYd0e4h5eIF9e398fYB+eHx7eXd9f312eX15eHt8cXp6fYF3f4N4do13bYSGdHqI
+fHaCgnl5fn6Cg36BhICAh4J/hoR+hYh/hImEhYiFhYeFhYaFhIWHiISEiIR+gIF8goR7foaAd4CD
+enqCf3d5gYJ6foV8eIWCe4CDgIGGgH6DgH+CgXt/gHx4gX94gH10fn9xeoNyeYV1eYN9cn+AcX+E
+dXeIf3WBf3d8f3h2f4F6e4F/eX+Gf3+FhXyDhX2BhIB/g4OCf4KIhIGHioKBiYaBhoiBgoqEgIaG
+gIKFf36DgX6Cf3t8gHt4f393fIB9fICBgoF/g39+gYCAhoJ8gYN+f4R/gIJ7gYR2gIR7en57e3l+
+e3t9fHl+gXV9gXp4f3p1gYJ0e4d5coN/cn+IeHiCfXd/fXeDhXl7hIJ2fot+eImKeICNhoKJh4SF
+h4SEh4eHhIeIhYOFhoKDgXx+gX5/g356fX14eYF/e3+CgH1+hIR8gYV6gIV9gYV+foSBfoB+hIB9
+gIF2fYV2eoN6cHt3cXt+eXh+dnd9eHl6fXt5fH13gH96fX15eXx8eHp+fXd8f3+Ag4N/fYKCfoKF
+h4WGhoaEhomFhoeEhoeHiIuHhoiFf4OFgX+Cf3t+fn5/gH59fnx2e4B/fYCAfoB/fYGCgH6AgIGD
+hYCEgn+Cg4CDh3x7hX13fHt5e3d4enR1eHV4eXt2eXx8dHx/eXl8fXd6eXt+e3Z6e3l8e3t6dn+F
+fIGLhH2Ghn2CiYeGi4uHi4yIh4eEhIWFhYeHiomIiIeEhIJ+f359fH16e4B+eXl7eXN3gH54fYJ/
+fYCBf3+Af4J/f4SIgoKHhYB9goKAd32Ed3OAfnN5fXVyenpyeYB3dHx3cnx6dn5+d3uEeHaDfnV8
+fnZ7gHx7g4N9goeAf4eGgoaHhIaJh4iLiYaJiISGh4WFh4aHhoSEhYOAgIF/fX59fH58e4CAenp9
+eHV5fHh3eXx+fYKBgYKBfYKHgoGIhoCEh4J/g4N8en56dHp9dnh9dnR6d3h6d3t9eHp9eHh8end4
+e3t8e3h6eHZ4eHd4enqAg4GChoSBhIaEhIeGhIaHh4iKiomHh4WEhoiIiImLiYmIhoSDgX59e3l7
+fH1/f3t7fnp1d3t7eXyAfn6Dg4KCg4KChIGDhoiDg4J/fn1+f315eHx3dXl4dHl5dXd2dHd8e3V3
+eHh5d3x/fnp8f3p6fn96enx5d3x/goWHhYeHg4SGhIKEhIGDiIiIi4uGhYWEhIeIiYmIiIiHh4eF
+g4F+fX19fX+Af4B8eHp7dnV7e3h4fH57f4KAf4OBf4GDgYGDg39/gX97e396eXl5ent6eHt7dXV7
+eHV6fHp8eXZ9f3p7f3p6fHx8fH1/f3x7fHuBhYWFhoeDgYSDgoKEhIKChoiIiIiGhoaDhImJh4uL
+hoSIhoKCgX98e3t7fH5+f4N/en2Ce3Z8gH18foCCg4SEgoGDgICBgICDhIGAgYB8fn15eHh4d3h4
+d3V4d3R1dXd4d3p5d3t9e39/e399ent7e3x7eXp4d4GGgIGLi4GDiYOAhYeCgoWGiYqJiYqGhYWF
+iIqKioyKiIiIhYCAf3t4eXp6e3x/gHt5fX12dn6AeXqBgH6Bg4KBgoF/f4GEhYWEgICBf39+fHh4
+d3t8dnl6dnN2dHN4eXZ5fnV4fnl4e3t6f318f398fXx6fH19hIWEiYuFgYaGg4OGhoOEh4mKiYmI
+h4WDg4aHhYiJhoWGhoWFgoGBf319fX1/gIB/fH2AfHd7f3p4gIF+gISCgYGAgICBgYCAgoF/f35+
+fX16eHp9eXd7enV3d3Z2eXd5eXl9eXp/fHZ7fnh5fnx5fXl2enl2gYiBgoyJgoWJhYOGiIaDh4qK
+ioiIiIeEg4SGiIeGiIeEhIaDf4B/fXp7fHx+f4KEf3qAgnl3f4J8en+CgYCChYN/f4B+goOBgYSB
+fH9+eXx+eXd4enl0dHt4cXN3eHd4e3h5fXp5fnx4f4J8fH9+foB9e3x+gYODhoeGhoaFhoaFh4iG
+hYeIh4eGhYWDgYKGh4aHiIiGhYaGgoGCf3x9fnx8f4OCfX2Af3l5fn57e35+foCAf4GAf4CCgoKB
+hIWBgYGAfX9+e3p6eHZ2dXd4eHZ1d3p4dnt+enV7gXx4gX54fHx5fH14e3x6fIODhIeIh4aFhYaG
+hIaIhISJiYaHhoaEhIKChYaIiImJh4WHhoOCgYB+fX9/f4KFhH9+goF7fYJ/e36Af36Bg4F/gYB8
+foJ/fICAe3p9fHt6eHl3dXV3dHV7eXZ6eXp5eHyBfXp/f3+CgX2Ff3d/hX56gn95eHp8gYWChIiE
+goSHhISEh4aEhoqIh4qHhYWDgYSHhISHhoOEhYSCgYGAf3x9foCDgoGDhH9+gH98fn18foCBgoOC
+f3+AgH+EhYCAhYB7fn96enh2dXV3dnd6dnV2eHZ1enp5eoJ/eoCBgX+AhH97goV+fISBd3yBeXmG
+hH+GiIJ/g4KAgoODhIWFh4mJh4eGhIGBg4OEh4aGiIaEhoWBgYF/fH6Bg4SEgoGAfnt8fHx6e399
+eX6DgH+CfX+Bf36DhIOCgoB9fn9+eXx+d3d8eXd6eXl8eHp9e3p9fXx+fn57gH18gn98gIR9gIJ+
+enx9eX58fYKEf4CDgn9/gYCAgIKDgoOGiIaGhoSChIWDhIiJhomLiIaIh4OEhIKBg4KChIJ/gIF+
+fX59fnx7foF7eoKBenyBfHeAhH19hX95goF2e393d4F7d4CDeHp/enZ/e3p/f359enp7dnaCenmD
+hH6AhH2AhHx/hIF/gIGAgn+BgH6ChH2ChYKCh4N/g4OBf4KDf4OGhIOFhYKEh4WEhoeEhIeFg4aE
+g4ODgIGCf3+Afnt+fXh8fXx7e3uAfnuCgXt+g3l6hXx2gYB0fIZ5eoKBe3yAenuGhnqBhXp5hYR7
+g4h4e4N+d4GAdniBgHx/g358gH19f39/gYB9e3+CfXp/f3p4gIJ6foWEgIeFfoOKhIKHhoCEi4eE
+hoeDgoOFhICChYCCg35/hIB8gn16gIV6fIJ5eIKAeYODcHiHd3CBgnt6gYR9fIKGfH5/gIWGf4GK
+gHV8hnt3hYF6gHd5hYF4f4J9d3t+fn2BgoB9fHt8g3p3gn54gYJ9g4R1fYl8d4iFeISHe4SGf4KF
+gIOGgIGJg3+DhIGDhYGBhIGBhH2CiH96f4J/fHyAgnyAhX18gndzgoVwe457domEd3eGfn2BgnqA
+iXh8iYB6goZ8eXuIh3h4hIl7d4aCcH+Ee4CAgISCdn2Ld3aJfnWDiHB5ioFxgI15boOSd3qNgnmD
+gHaFgYGCfH+DfHiMgG+GjXV6kX1zi4p0g4V9e4WCf3x8h4F2hox/gIF6hH96iYB4g398iHt6jINy
+fY56cIWKfXaCiXlyioBuhY9qfJR3dJKJa4SJgXh/jH99h4h5eoCFfYOAfHuDf357hYJygoZ5doWB
+e4CHg3iEgH98hoB9gYB/f4R4fIl4dYOFeIWGeXyCg35/g351goNyfIZ8eYB+eIOCenmGe3qHhHaK
+jnSBjoF5f4uIcoKPfnqGf3eCfX2EfXiIind4hHt4gH57hIB6gYF5gIJ1i4pzeouDeIGNe36CgHmI
+g3Z9gnh2g5B2fI2DdnCIg3R7hHx+hXiBh3h/fn6EeoaAeoSNeH6KeHqFgXyFhH+Ag3d/iHtzhX1+
+fXuIfnyKf3aJgXmBiX15in5wipNid6FzcI+FboeTcXiSgnWDh395dYuCaoCXeW+LjGxyl319gIJ9
+eIeCeIOEfHuOgG+Iinl3hoN5eoWSb3WVgmaHkGd0nX1ehZZ2Z5OKcHyKc3aQfmyMiGWElYBvh4V3
+fol7gnyBjYR6gYCAlnRzho14e5J8fYKEh3d1jIN1jYF0g4Rvh4xodop3dYJ4f4l7eIV1hYZzh5Jw
+b551Yp6MYYGPc3uHgISCe4h/hXaEjXp3jXVrlYVpiJJngY9+boWJgX6HinaEfod7f35/j3Bum5FW
+lJtmcphxgYp8fYd0bJ9zaJ+IWYmZaXmXfGeDkHV8f3t8hH16gX+BhHaDkXdsmolwfJN9dYqCa3GX
+eneMgmaFn2lyooRdh49/bYWTbnKbgGt9gomDdYyGdIKSeG+Mg2l6kIV3fYV3eJV5dIeCdneOenh/
+iHCFlWp7l3Fzn3RgqpRPkJ9mb6t/Y46aYHmeanGRhGaIjHt2koJtgJFmeJ54bpN/Y5mSY4aQZ3uf
+e2qLiXp2jX94iXiChXNvjnhyjYNzc4aRa4SHaoGdc2iWi2R4nn1pk452c5WGZomabXSUf399f4CF
+eYqHcXOhimOHjnVxkn9uhol2f3qCkHptlnxplnhklo5mhotre5lzcpR4bo+DboaMb3uCen1+gomF
+bXWQlGN/nnNom4RrkI1ufI13eYN/d4SKf3Z+hnOMh2p5nnBjoolVgKlqYqGIY4mPdIt8cpSEcoSH
+h4Z2fZF+eIx9c4+FcoGMe3yBh3hqkZhlcot8gXp/inJthZSCaIiUbmuNjGl3kX5uj4ZmepONbYSd
+amqlhWWHlHh9gnCNjFyNol9ts35QnqlLarh6TaOhTHCugFWHm3NdjKlkaJuJWIysWmaqhkyPo21j
+maVZa6CGVIqiamifh1GTqVV0snhLnKRRgaV1apSAcoWCen+CeHmAgYd0bpKMXHyWb3WScoCQbn+a
+dGylhlWOpWpppX9kj4pve4x/c4eOe3OMgnWLf3t6gHuGeoF9e4Z4eYKBfIaBdoWJeH2Oh2yCjHd0
+fH2Bh31/fnZ/fIyHaoeCeneQh3V9hnV1l4BzfZuAaoiScXWggl6Qj2t7lnprj5BubJOFZoWUd3GH
+emyEiW2EiHR4kHx3jXmAkXxqhZN3bY2Md3eLfHuOd3eSg26PjHZ8fX+IbnaLe3GIhXh4foJ4hYd7
+c4eNcH2Td3mLiG92kYJxgo10dISDg3yBg4F+eouJc318hYl0fH+Bc3mIhHB/iXyAf3yNgW9/jIBx
+gIl5foN3gYZxepF6bn6PfHmBhHd9i3V/jnt4ioZ4gIeEf3yJgoN/eIWCdX6MfHWDg3aHhXiGhnJ8
+hoV4eoV+eYeEdICBfH+De3qEhHt8g315eoiFeH+HdX+Ie3d6fYWJd4CGgnWGiGl3k3pvi4Z2gYKD
+gHmJg2+Ni3KDjXp7hXuFe3yDgHd2h4d5g4Z1eYeBbICChW18lX5vhpFof5J6cpKEcYOJdHONhXSB
+jHd7hnx6j4JzgYV1doSAfXWEhIB2eoB9fX1/foKAgH+Ie3mEgHJ/jnN/kHpzkX1tiIl5fYR6g4l3
+e5CAc4qDen2OhXeCf3x8fH6EgnWAhXh6gYF1gYJ2hH58hH12eoR/d3yEgXWBgoR5foV+gIR7f4uC
+dX2Fhnh6g318hH6ChIB+gYBziI2Ce4iCbYCGfX2MeHeIfG2Hjm95jH53inhxjY1qfY9ucZeBaoiK
+d36JfH2Hf3N4i4B6jol5gIR1fI93c4qId3+DeHR/hHp6hH5+fnqDf3V9gXl4ioNzgIN5eoh/eYl/
+doKEgYKDhYeAfYWFfH6GhHyCg398fHx2gX91eYN9eoWFeoKEgn1/iYF7goN5fH14eXqCgXd/h356
+hIJ4fYCDfnt9hX52iH9zgoh3coiBdoOJenqIiXV8joB1goh+foaAeYGEfnh/fnmBf3+AhHp8in19
+hYd/foCBgXZ9eHp+e3t9goSBgYGBf3+Cf4OHfXqGf3Z7fHl4fnl1hYV2gYN6eYJ/gIGCeIiAd4F9
+en+DgIR/f4SCgIKFe4CGgneIiXl+hXd4hX19gYB9f4CBfnh9gnWCiHh4jHxwiIJzgol5gIN9eoV9
+eoaDfX+EfX+AfoSBfoB8e39+e4OAen2DeniCfnaAhnx3iIN8g4Z9fYeFfnyBgn18gIOAgYKAf359
+f359f4eBgIR8fIGAeHp/fXh+fXp+goB/fH58en6AhIB/g4GBgnuChXx9gYCAgYGBgYF6f4KAgH58
+fn19e3qDgX2BhHt9gHuAgYF/hIB6fn5/fX2AgH6ChIKBf359fIB/foF/gIB7fH16fH95eH+AfH5/
+foGAfH9/gIGBg4SCgoSEg4GDg4CCgn9+gX54foB3dX96d4GAen2CeneAgnh8g3x9hIV/f4GBfoGF
+g4GChYOCgoGAgIKCf32AgHp7fnx8fn58fXt7f396fIF/foKCf4CCgoKCgYCBgoGAg4J/f4KCf35/
+foB+foF+fX15d3p5en57eX6CfHuAfnyBg36Bg4CDhoZ/gIV/fYGDfoCDgYGCgoCBgX97fX98fIF/
+eXx/fHl9f3+Afnx+gX5+gn95fYF+fYCBgICAgYB+fn59gH18gIKAfn9/fX59foCAfn+DgoB/gH99
+foF/e36CgH6AhIJ/foCAfX1+gYB9fH9+fn58foB9fIODfoCEgH+BgX+Ag4KBg4SBgIKBgIGAgIGA
+f4CAf35+fnx9fn5+fn1/fnx+f358fn58fH1+f4B/f39/fX19fHx8fX17ent7e3x5eHp5enl5e3p5
+enx6eHt9fHt+f39/goOBg4ODhYWHiIyLjImMjo+PjpORkJCRj4yOjIeFhYJ9f358enp8e3p7e3t9
+fXp5e3p6e3p4eXp6enl4eHd1dnh2dHh5d3Z3d3Z1dHJyb21ubmtoZ2VhYWFeXlxcXWNrhqavuMTB
+qZ+krKepq6ymp6mjl4+JeGthZGt2gYSDfHVuaWhpaWlqanJ5foOLjYqKi4aRoKWfnp6elY6TmZaR
+jouFgHt4dXFnXldVWFxeXl1aWVZYXGZscXR1dnh6f4WEg4GAfXt8enhwal9dVVmBsb+6wbeahoqR
+lJeZlJKXmY+Jh3toW1JYaoORlpWNhHx8f4OEhIF+foCBgomKhHp3hJWWlJ2ah4OKjoyQj4yLi390
+d313bWZjY2Zrb3V4dm5ucHFxdnd4dnV0dnx/e3Z0cnFwc3NycGplXVhTU1BMSFSCrr7CyryklJec
+oqessLSvo5WOhHViV1JbbYGMjIl/dG1vdHd4fYODfXl6gYmMiIN+g42Zp7OsnJaTiYaWpqWYi4J4
+dHN0cWpbUFBaYmpubWZgXV5peYF/enVxcHZ9hIiHf3h2eHd7fXdrYVxXXF1eWFFJT4K1yMfMvqGT
+lJyfpq+xqp2Wi4B3bFxMSFVsgpCWk4t+eHqAhIqRlY2DfX6EjI+HfXh/iZOepKGWjIN/f4qVmJKL
+gXh2d3VuY1tYV1pkcHNuamlmaXOBiImCe3Z2eX2Bg4eFeG1ucXNvamNfW1haYWZgVk1KSVyd0t7b
+2cCjn6yzsrOzqJuSi4B1Z1NDOj1Ud5CYmI+AdXmGjo+Rk46Jh4aHi4uCdW9yf4yYm5OJjJGLhIqV
+k4mGiomBe3dxZldOUVtjZmdnaGhqb3uHj46OkZKPjI2NioSAe3p6enVtaGZeV1xiZWNjXlhTTktL
+T12XzNnS1MWso62vqaSloJuYkIJyY05BPERaeo+VlJCGf4KLjYiGiIiHioiCgX14cXJ3goyVlIyF
+h42VkYuQnZuUkpOJf3ZzbWZeXF1iZGVjY2hucXR9iI6PkZKTkI2IhoOBfX17d3JsZF5eXFxeZGdm
+aGhkXV5cVU9QVnaz3eLbzrCYmKKkoqCbmJaTi4JyYVBJR1Nti5yinI5/eX2GiIaHioiDgHx5eXl3
+dnd6g4+VkouFgICGl6WkmpydkoaIi4Z4bWVjYWFiZWVhW1pjdISPk5KQjo2OkJGOh396d3Jua2ln
+YlxZXGNoa2ttbGpqa2ppaGFYUlBXf7/j4dG7no2Wpq2rpp2TkI+Iem5hVEpKV3KPnZqMe25tfI2V
+koyGgn9+e3yAg4F5dXuIkZWQhnp3foqXprW2oIyJhHNwgYx9a2doZmdnZF1bXGV2jaCnopmRjIeJ
+kpqXjIJ5cGZiX1pTUFNbZWxwcG9pZGJpcXh4dHBlV0pISV+TyuDd0b6nn6evqqSgnZyZk4d3YUw+
+Oz9TcYuUkYd9d36IjYiDg4WHiIuLiYeFgHt8g4+ZmZKJhoaHiIiIhoaJk5OJhouGenJua2lpbG5v
+bW1wd4CJj4+PkZWTlJSTjYeAfHdwaGFbV1RTVVtka3Fzcm9ub25xdW1oaGVfWVdSTklLXo7H7v/6
+5cayraysq6Wdlo+EdmVURTs0NUVffZSgnY6Ae3+EhoeLjo2JhIKBgX99fH2DjZulppyQh4KBhYuQ
+kZCLgnp5gIF+fHVpZm11eXp5dXN1fIWPlZSLhH99gIWHiYZ/d3V1d3ZzbWZhYWVsdHp5dXFtbG1w
+b2tnZ2hpanBxbmplYV1dW2yJsdr18uHKrZeTlJKNioWCf3hrWUk9NjpJYHuTnp6VioOCh4yPjo2O
+j46NjIuKioyNjZCUmZiOgnp2dXh9gYSCfnp4dHFyfISIhYSEf3h6fXlzdXl8f4aKiYaDf3x8fYGE
+h4aFgn98e3d0cnBvcnV5enl1b2xtcnV3eHl3dHBsaWhlXFtcX1dVUU9JVGyRwuv259bBr6WnpJ6X
+kIiDfHFgUkY6NTtMZIGXoZ+Yko2OkZWTkJKWlpaWmJeUjYV/f4SKjoyGfXZycnZ8f3x5dnV1d3p6
+eXRtbHmCgIONgm9teX+Fkp2dl5OQi4uNjIaCgICChYaDfXVtaWtucXV4dnJtaGVnam1tb3Bwb3Fx
+cGtnZGRjZ2toZ2hlWlRZaX+bw+fz5tK+qpyPioeEgIGBfHJlVklBQ0tbco+krKmjnZWOjI6OjZGV
+mJeTjIWAe3VxcXd9gIB+eXV0dXd5fH+Bg4SEhISCgH15dXZ5gIaHipGTkZGQjoqJjpGQjouIhIF7
+dHBtbG5xc3NxcG5qaGhrcHZ7gIKCg4aGg398fHx7fX56dnNvamZnZWNjZmFaV1dWVVxkb3eEk63S
+7u7ezLSckJCOh394cWtnY11bWlhYW2R1j6WysqyjmZORjYaAf39/fn6Ag4aDfHRwcniBhoeHhoWG
+h4mKioiEf3p3d3d2dHBqaGdqcXh8gIybmZOYnJOKi4yIh4uNi4iBdWpoZmZrcnh+g4eJiYiGg4B9
+fH1/gYCAe3NsamlscHNzcnNzcG9ubm5tbm5ubm9xcW5qaGloam1xcnZ9hZKpxNne07+ok4iBgHx5
+d3d2dHRzb2xsb3J5hpahp6Wek4iCf3t2c3N0dnl9gIWLj46JhIOEiImGgn58e3p8fX17eHZ0cnJz
+dHV2dnRzdnt/goSIj5aipZ2UkId/foJ/enl6enl5dnJ0eHp5enyAhYeHhIB+e3l5e3x6en1/fnx7
+fX17eHd3d3h5eXp3dHBta2traWptb25vcHBxbm5qbW9wcniDjZyzy9POwK+ekYyIiIiHhIKBfXlz
+bmhkYV9jbXyIjpCPioWDg4OBgICAgoWLkZaYlpCIgHt3d3p+f359foGDhIOBfXd0c3R2eXt5dnJw
+b3F1eXt8foCEi5GUmZ6dl5aUj4yLiYN9eXRxcXBua2ppaWxxdXh8f4KDhYWGhoaFhYWDgoSDgH18
+enh2dnd3eHh3eHl7fHt8fH17eXl4dnJvbWpoZWVlZ2lrbXBydXqBipKfrbnAwLqwpp6Wj4eBe3h2
+d3h3dXJwbmpmZ2pwdn2DhYeKjIuKiYaEhIWJjJCVmJqYlI+JhIB8eXh4eHl7fHx8e3t5d3Nwbm5v
+cXN0dXZ5fH+DhYeIiYmKi4uMk5uem5mWjYaCfndycG5tb3FycnR2dnZ1c3N2e3+Ch4qLjI6MiISB
+fn5+fn1+f4B/fnp3dnV2dnd4eXl5enp5eHd3dXNycW5sa2xubm9yd3p9f4KDhoiKjI2PkZOVl5mZ
+l5KMiISDgYCBg4SEhISFhISDgoGCgYGBgoKBf317enp6ent8fX18f4KFhoeJioyLioqJiIaCfnt6
+eXh3d3Z2dXRzcnN0dnh6fYCChIaHh4aFhYeJiouNjYuJhoOCgoCAgYB/f3+Afn5+fn5+fn59fHx8
+fH1+fn5+fn59fHt7e3t7enp7fHx9foGBgYCBgX9+fn9/fnx8fHp4dnV0c3JzdXZ3eHl5eXl6e3t6
+e3t8fH5/gIGCgoOEhYiKiYaDgYGBgH+Ag4SFhYaHhoaHh4eFg4GBgYODg4OEhoeIiImKioqJiYmI
+hoWEgn99fHt6enl4dnZ3eHl7fHx9fn19fn+AgIGCg4SEhIWEg4KCgYGAgIB/fn5/gIB/fn5+fn1+
+fn9+fXx8e3t7fH6AgICAgYKCg4KCgoGBgH9/fn18fHt7e3x+f4CAf4CBgYB/f359fn9/f4B/f39/
+f4CAf35+f359fX18e3p6e3t7e3t6eHd2dnd5e319fX1/gIGAgH+AgYGCg4OEhIWGiImJiIiJioqJ
+iouMi4qJiIeGhYWEg4GAfn5+fX19fX5+fXx7enp6e3t6e3x+foCBgoKBgYGBgYB/f35/fn5/gYGB
+gH9/f39/gIGBgYCAgIGAf39+fn5/gIGCgoKDg4OCgYGBgIB/fn18e3t6enl5eXl6enp7e31/f39+
+fn19fX6AgYODg4OBgYCAgICAf4CAgYKBgYB/f39+fn5+fXx8fHx8e3t8e3p6e3x9fX18e3x8fH19
+fX5/goOCgYGDg4OBgYKDgoKDhYSDhIaGhYSDg4SEhIODg4ODg4ODg4ODg4WGhYODg4OCgYKCgoKC
+gYCAgICAgIGCgYGAgICAf359fX18e3t7fH1+f4CAgH+AgIB/fn19fX19fX5/f39+fn18fHt7e3t7
+fH1+fn5/f3+AgIGCgoKDgoKBgYGBgYCAgICAgICBgYKCgYGBgICAgICAgH9/fn5+fX19fXx7e3t7
+fH19fn59fX19fX19fX19fX19fXx8fHx8fHx9fHx8fHx9fn+BgYGBgYGAf39/gIGCg4OEhYaHiImJ
+iIiIiIeHh4iIiIiIhoWEhIOCgYB/f39/fn59fX19fX19fn9/f39/f39/f3+AgYKCg4ODgX9+fXx7
+enp6enp7fHx9fn+AgICAgYGBgoOEhISFhIOCgH9/fn5+fX19fn5/f39+fn19fX19fX5+fn19fX5+
+fX19fH19fn5/f3+AgICAgYGBgYKCgYGBgYGBgH9+fn18e3p5eXl5eXp8fH19fX19fX19fXx8fX1+
+fn9/gICBgYGBgYKCgoKCg4ODg4OCgoKCgoODhISEhISEg4ODg4OCgoKDhISEhYSEg4ODgoKCgoGB
+gICAf39+fn1+fn9/f39/f35+fn5+fn+AgICCg4OEhISEg4KBgIB/gICAgIB/f4CBgYB/f39/f39+
+fn19fX18fHx7fHx8fH19fX5+fn5+fn5+fn5+fn5+fn5/f39/f39/f35+f39/gICAgICAgYGAgH9/
+f39/f35+fn5+fX1+fn5+f39/f39/gIGBgYB/fn19fHx8fHx8fX19fn5/gICAgYGBgYKDgoKBgICB
+gYGBgYKCg4ODhISEhISEhISEhYaHh4eGhIOCgoGBgH9+fX19fHx8fX1+f4CAgH+AgICBgICAf39/
+f39+fn9/gH+AgIB/fn9/f39/f39/gICBgYGBgYGAf35+fn59fXx8e3t7fH19fn5+fn9/f4CAgIB/
+f39+fn19fX19fn59fX1+fn5/f4CAgIGBgYGBgYGBgYCAf35+fX5+fn5+fn9/f35+f4B/f39/f39/
+fn5/f39/f39/gICAgYGBgYGBgYGAgICAgIGCgoKCgoKBgICAgIB/f35+f39/gH9/f39/f4CAgICA
+gICAgICAgYKCgoKCgoKCgoOCg4ODgoKBgIB/f4CAgYGBgYCAgIB/f39/f39/f39/f39/fn5+fn1+
+fn9/gIB/f39/f39+fX19fn5+fn5+fn5+fn5/f39/f39/f4B/f3+AgH9/f39/f4CAgIB/f39+fn5+
+f39/f39/f35+fn5/f39/f4CAgIGBgYGAgIGBgoKBgYGBgYCAgH9/fn5/f3+AgIB/f39/gIGAgICA
+f35+fn5/f35+fn19fX18fHx8fHx8fX1+fn9/gICBgYGCg4ODg4OEhISEg4OCgoKCgYGAgICAgICA
+gIB/f4B/gICAgIGBgYGAgICAf39+fn5+fn5+fn59fX5+fn5+f39/f4CAgICAf39/f39/f39/gH9/
+f39/gICAgICAgH9/f39/f39/f39+fn5+fX1+fn5+fX5/f3+AgICAgICAgICAgICAgICAgICBgYCA
+gYGBgYCAgICAgICAgICAf39/f39+fn5+fn5+fn5+fn19fX1+f39/f4CBgYKBgYKBgYGAgIB/f39/
+f4CAgICAf39+f39/gICAgIGBgH9+fn5+fX18fX19fX5+fn5/f3+AgICAgICBgYKCg4ODg4ODgoKC
+goKCgoKBgYGBgICAgICAgICAf39/f39/fn5+fn59fn5+fX19fn5+fn5+fn5+fn5+fn5+fn9/f39/
+gICAgICAgICAgICAgIGBgoGBgYGAgICAgICAgH9/f35+fn59fX19fX19fX19fX5/gICAgIB/f39/
+f39/f4CAgYGBgYGAgIGAgICAgICAgICAf3+AgICAgIB/f39/f39/fn5+fn5+f39/fn+AgIGBgIB/
+fn19fX59fX1+fn9/fn5/f39/f4CAgICAgYGBgYKCgoKCgYCAgICAgICAgICAgICAgICAgIGAgICA
+gH9/fn5+fn5+fn5/f39/f39/f39/f39/f39/f4CAgH9/f39/f39/f39/f4CAgIGBgYGBgICAgICA
+gIB/f39/f39+f39/f39/f39/f39/gICAgH9/f4CAgICAgICAgH+AgICAf39/f35+f39/fn5+fn5+
+fn19fX1+fn9/f4CAgICAf39/f39/f39/f3+AgIB/gH+AgICAgH9/f4CAgICAgH9/f35+fn5+fn5+
+f39/gICAgICAf39/f39/f39/gICAgICBgYGAgICAgICAgIB/f39/f4CAgYGBgYGBgYGAgIGAf39+
+fn5+fn5+f39/gH9/f39/f39/gH9/f39/f3+AgICAf39+fn5+fn9/fn+AgYGBgYGCgoKCgYGBgH+A
+f39/f39/f3+AgYGBgYGBgH9/fn5/gICAgIB/f39/gIB/f35+fn5+fn19fn5+fn9/fn59fn9/gIB/
+f39/f3+AgIGBgYCAgYGBgIB/fn9/f39/f4CAgIGBgYCAf39/fn59fX5+f39/gICBgYGBgYGAgX9/
+f4B/f3+AgICAgIB/f39/f35+fn5+f39/gICAgIB/f3+AgICAf39+fn59fX1+f4CAgIB/f39/f39+
+f35/f39/f3+AgICBgYGBgIB/gIB/f4CAgIGBgYGAgH+Af39/f35+fn19fX1+fn9/gICBgYGAgICA
+gIGBgYGBgYGBgICAgICAf39/fn5+fn5+fn5+fn9/f39/f39/f4CAgICAgICBgYCAf39/f39/f39/
+f359fHx7e3p6enp5eXp5enp6enp7fHx9fX5+f39/f39/f39+fn5+f4CBgoSGiImLjI2Oj4+PjYyK
+iIaDgX59e3l5eXl5ent9fn+AgYKCgoKBgYCAgIB/fn5+f4CCg4SEhIODg4ODgoGAf35+fn5+fn5+
+fn59fX19fHt7e3p6enp7e3x9fn9/gIGBgoKCgoKBgH9+fX19fXx7e3t7fHx8fHx7enp6enp7ent7
+fH19fX18enp5eHl4eHd4eXt+hIiNkpWXmZqampeUj4mEf3p1cnBub3BxdHd7f4OGiIiIiIeFg4F+
+fHp5eHp8f4KFiIqLjI2MjImGgn98enh4eHd4eXl6e3x9fX18fHt7enl5eXl6fH+ChouQk5aXmpiY
+l5KPiYN9eHJvbGpra21wc3Z6fYCBgoODg4KAfn18enp5eXp7fn+Bg4WFhoaHhYOBfnt5d3V0c3Nz
+c3R1dnd4eXl4eHZ0cnFwcXBxc3V4gIiQmJ+mqqyvr62qpJyTioF3cGllYF9gYGRqcHZ7gYSGiImI
+hoSBfHp3dXV2en2BhoqOkZWWl5eWko2Ig316d3RycnJyc3Z3eHp7enl4eHZ0dHNzdXd7f4SKj5OY
+m5ydnZ6bl5OLhYB7d3Rxb25ucHFzdXd5e3t8e3t7e3t7enp7fX6AgoSGh4mKioqJiIaEgn59e3l5
+eHh3eHd4eHh5eHh2dXNxcG9vb29wcnR2d3p8fX5/gYKEhoyQlZqdoKGjpaWhnZeQiIF5cmxmY19f
+YGJnbXR6gISHiYuMioiGgn56eHZ2d3l9gYeMkZWYmpual5OOiIJ9d3NvbWtrbG5wc3V3eHl5enp5
+eXt6fH1/goWJj5KWmpqbmpmXk42Ignt3cm9ta2prbW9ydXh7fX9/f35+fHx7e3p6e31+gIOGiIuM
+jY6OjIuIhoJ/fHl3dXVzc3Nzc3R0dHR0dHNzcXFxcHFyc3V2eXt+f4GDhYiNk5ecn6Okpaalo56Y
+koqDe3RuaGRhYGBiZGpwdXuAhIeJi4yKh4SBfnt5d3d5fICEh4uPlJaXl5WRjYmDfnl0cG5sa2ts
+bnBzdHZ3eXp8fX5/gIGChYeKjY+SlZmZm5uZmJSPioR9eXNuamdmZmdpbG5ydXh8foCBgoGBgH9+
+fn19foCCg4WIiouNjY2Mi4mGg4B8eHZzcXBvcHFydHV3eHh5eHd3dnVzcnJyc3N1d3p9gIOHjZSZ
+n6Kmp6ampKCalI2Ffndwa2dkY2RlZmpudHl9gYOGh4iIhoSCf317eXh6fH+ChYiLjpGTk5OSj4uH
+g356d3RycW9ubm5wcXJzdHV3eHp7fH5/goWIioyPlZianZual5OQi4WBfXd1cW5ubW5wcHJzc3Z4
+e3x9e3p7enp7fH1/goOFhoiLjI2OjIqIhYN/fHp3dnRzc3N0dXd4eHl5eXh3dnV0c3JxcXJzdnd6
+fH6Ag4WIioyOk5aanJ2fn5+fnZiUjoiDfHZwamZkY2RmaW1xd3yAhIeKiouKh4SBfXp4dnZ4en1/
+goaKjJCSkpGPjImFgHx3c3BtbGtrbG5xc3Z4e31/gYOEhIWGh4mKi4yOj5KVlZeXlZSRjYmDfnp0
+b2xpZ2dnaGptcHJ2eXx/gIKDg4OCgYGAgICAgIGChIWGiImJiYeGhIJ+e3h1c3JxcXFydHV2eHl7
+e3p6eXh4dnV1dnd5e31/gYOGiYyPlJeanZ6enJuZlpGNiIJ8d3JubGtqamxtbnJ1eXyAgoWGh4aF
+g4KAfn17ent8foCDhYiKjI2NjYuJh4SBfXt4dXNxcXBwcXJ0dnh6fH1+f4GDhYeJio2OkJKRkZGP
+jYyIhYJ+e3h2dXNxcXJzdHV2eHl6ent7e3t6enl5ent8foCChYeIiYqKiomIh4SCgX58enh3dnd3
+d3d4eHl6enp6enl4eHh3d3d3eHh6e3x9f3+BgYGCgoOEiIuOkpWYmZucnZqXk46Jg312cm1qZ2dn
+aWxxdnp/g4aIiYmIhoOAfHl2dHN0dXd7foKGio6QkpKSj4yJhIB8eHRxcG9vcXJ0d3p9f4GDhIWF
+hYWEhISGiIiLjI2Ojo6OjImHg4B8d3Rxb21sbGxtb3F0d3l7fn+AgICAf319e3p6e3x9f4GDhYiK
+i4yMjIuJhoOAfXp4dnRzcnJyc3V2eXp7fHt7enl4d3Z1dXV1dnd5fIGIjpOZnaGkpqakoZ6YkYqB
+enNuamdlZmZpbHF1en+DhoiJiIaEgX56d3V0dHV3en2BhoqPkpWWlpWRjYmFgHt3c3BubGtsbnBy
+dHd5ent8fX5/gIGBgoOFiYuNkJKUlZaVk5GOi4eCfXp2cm9tbWxsbnBydHZ5ent8fHx8fXx8e3p7
+e31/gIKFh4iJioqKioiHhYKAfnx6eXh3dnZ2d3d4d3h4eHd3dnV1dHV0dHV2d3h5enuBh4uRlpqe
+oaSlpKKgmpWPh4B7dXBraGZlZmltcHR5fYGFh4eGhoWDf3p2dHNzc3V4fICFio6Tl5mamZeTj4qE
+f3l0cGxqaWhpa21wc3V4e31/gIGCgoKCgoKCg4WGh4mKjI+QkZKSkZCNioeEf3x4dHFubWxsbG1u
+cHN2eHp9f4CBgoKCgoKBgYGAgICAgYKCg4OCg4KCgX9+fXx6eHd3dnZ2dXR0dHR0dHV1dnZ2dnZ4
+en2BhouQlZqeoqSmpqShnJeRioN9dnFsaGZmZ2lscHR3e36BgoODgYB9e3h2dXR1dnl8gISJjZKW
+mJqamZaSjomDfnh0cG1qampqbG1wcnV3eXx9fn+AgIGBgoOEhYaHiYuNjo+SkZOUkZGPjImFgX55
+dHBsaWdmZ2dpamxvcnV5fYCChYaHh4eHhoaFhYSDg4ODg4SEhYWEhISDgoF/fXp4dXNxcG5tbW5v
+cHFydHZ3eXt9f4OGiYyPkpWYmpubmpmWk4+LhoJ+enZzcW9ubm9wcXN1d3l6e3x9fX18fHt7e3t9
+foCChYiKjY+RkpOTkpCOi4eEgHx5dnNxcG9ubm5vcHJ0dnh6e31/gIKEhIeIiYqKjIyNjY2NjYyL
+iYiGhIKAfnt6eHd2dXV1dXV1dnd3eHh4eXp7e31+foCBgoOEhYaGh4eGhYSDgX9+fHp4d3Z1dXV1
+dXZ2dnZ2dnZ2dnV1dnh5fH6BhYmNkZWXmZucm5mXlJCMh4N+end0cXBvcHFydHZ3eXl6enp5eHd2
+dXV1dXZ4e36BhYmMkJOUlZWVk5KPjIiEgHx5dnRzcXFxcXFyc3R1dnh5ent9fn5/gYOEhoeJioyN
+jo+Pj4+OjYuJhoSBf317eHZ1c3JxcXBwcXJydHV2eHp7fX+AgoWHiYuNjo+Pj4+OjIuIhoOAfXp4
+dnV0c3NzdHV2dnd5eXp7e3t8fHx9fX1+f4CCg4SGiImKi4uLi4mHhYOAfXt4dnRzcXBvb3BwcXN1
+d3t9f4KEhoiIiouLi4uKiYmIhoWEg4OEg4OCgYB/fn17enl3dnVzcnFxcnN0dXd5fH+ChYeJi42O
+j4+Pj4+Pjo2LioiGhIOBf399e3p5eHd2dXRzc3JycXFyc3R2d3l7foCChIaIiYqLjIyMi4uKiIaF
+goB+e3p5eHd2dnZ2d3d3eHh5eXp7fH19fn9/gICBgYKCg4SEhIODgoGAf35+fn+AgICBgoOEhoaH
+h4aGhIKBf317enl4d3h5ent9f4GChISFhoWEg4KAfn17eXh4eHl6fH6AgoSGh4iIh4eGhIKAfXt5
+eHd4eHh6e31/gYKDg4SEhISDgoB/f35+fn5+fn+AgIGCg4ODgoGBgH99fHp5eXh4d3Z2d3h6e31+
+gIGBgYKBgYGBgYGBgYGCgoKDg4ODg4ODg4KBgICAf39+fX19fHx8fH1+fn+AgYKCgoKDgoKCgYCA
+gIGBgYGAgIB/f359fX18fHt7e3p6enp6e3t8fX1+f4GBgoKDg4SEg4ODg4ODgoKBgYGAgICAgH9+
+fX19fXx8fHx8fHx7e3x8fX1+fn+BgoKDhIWFhouIi4uIiYiGhoWBgH57end3d3d2dnd3d3l6e319
+fn1+fn59fX18fXx8fX1/gIGCg4OEhYSEgoGBgH59fHt6enp6enp6e3x8fX5+fn59fn5+fn59foCA
+g4WHiYuNjo+QkI+Ni4eEgX57eHZ0c3Jyc3V2eHl7fX+AgYKCgoKAf39/f39/gIGChIWGiImKi4uJ
+iIaEgX98enh3dXR0dHR1dnh5enx9fn+AgYGCgoKCg4ODhIWFhoaHh4eHh4aGhIOBgH17enl3dnV1
+dXZ3d3h5ent8fX5/f4CBgYGCg4ODg4OEhIWFhYaIiImIh4aGhIOCf357end1dXR0dHV2d3l6fH5/
+gIKCgoODgoKCgYGBgICAgIGCg4ODhISEg4KBgH59e3l4eHh4eHh4eXp6fH1+fn5+fn19fX19fn5/
+f4CBgYGBgoSEhoeHh4eGhoWFhYSDgoGAf319fHx8fH19fn+AgYKDg4OCgoKCgYGAfn19fX19fX5+
+f4CBgoKDgoGAgH9/fn18fHt7e3t7e3x8fX5/gYKCgoKDg4ODg4ODgoKCgoGCgYGAgICAgH9/fn59
+fHt7enl4eHh5eXp7fHx9fn+AgYKCgoKCgoGBgoGBgYGBgYKBgYCBgYCAf35+fXx7e3p5eXh4eXh5
+ent8fH19fX19fX1/gIGDhYeJi42Pj4+PjYuJhoOAfXp4dnV0dHV2eHp7fX+BgoOEg4OCgYB/fn5+
+f4CChIWHiImKioqIhoSBf317eHd1dXV0dXZ4eXp7fH19fX5+fn5+fn+AgYKEhYaHiYmJiYmIh4WD
+gX99e3p5eHh4eHl6e3x9fX19fX18fHt7fHx9fn+Bg4SFhoiIiIiHhoWDgoB/fX18e3t7e3p7e3x9
+fX5/f39/f39/f4CAgICAgIGBgoKCgoKCgoGBgYCAf359fX18fHt7e3t6enp6e3x9fn+AgYGBgoKB
+gYKCgYGAgICAgICAgICAgH9/f35+fn18fHt7e3t6eXh5eXl6enp6e3t8fX6AgoWHioyOj5CRkI+N
+i4iFgn98enh4eHd4eHp8fn+AgYGBgYB/fn18e3p6e3x9f4GDhYaIiIiIh4aFhIKAfn18e3t7fHx8
+fX1+fn5+fXx8e3p6enp8fX+AgoSGh4iIiYiHhoOBf318e3p5eXp7fH1+fn5/f39+fn18fHt6ent7
+fH1+f4CBgoKCgoKBf399fXx7e3x8fX19fH19fX18fHp6eHd2dHZ4fICFio6RlJaYmJeVkIyHgnx4
+dHJxcXFzdnl7f4GChISEg4KAfnx7eXh5eXt+gYSHioyNjo+OjYqHg398eXd2dnZ4eXp8fX5+f35+
+fHt6eHd3dnd4e31/goWHiYuLi4qJh4WCf318enp5eXp7fX5/gICAgICAf359fHx8fHx9f4CCg4SF
+hoaGhYSCgX9+f3x8e3t9fX+AgYGDg4ODgoKAf359fHx6e3t7fH1/f4GCgoKDgoKCgYB/f39/f39/
+gH9/f35+fn18e3t6enp6e3t8fX5/gYKCg4ODgoGAgH9+fXx8e3x9fX5/gIGBgYGBgH9+fXx7enl5
+eHl5enp7fH1+gIKFh4mLjI2NjY2NjIqIhYJ/fXt5eHd3d3h5enx9f4CAgYGBgYGAf359fX1+f4CB
+g4WGh4eIiIiHhoSDgX9+fXx7e3t8fX5/f4GBgoKCgoGBgH9/f35+fn5+f4CBgYGBgYKBgYF/fn18
+fHx8fHx7e3x7e3t7e3t7e3t7e3t8fX5/gIGCgoGBgIB+fnx7eXh3dnV1dXZ3d3h5eXl5eXl9hIiN
+kZWYmp2enpuYk4yGf3l0cG5sbG1tb3N3fICEhYeIh4WEgn57enh2dnh6foKHiYyPkZKSkY6KhoJ+
+e3d1dHR1dnd5e3x+f39+fHt5eHd2d3h6fH+BhIeKjI2OjYuJh4SCgH17enl6e319fn9/f399fHp5
+eHd2dnZ3eXx+gYOGiIqLi4qJh4WDgX98enp5eHl6e31+f4CAgH9+fXt6enl4eHh4eHl7fX+AgYKC
+goKCgYGAf4CAgYGBgYGBgYB/fnx7enh3dnZ3d3h4eXp7fX6AgYKEh4mLjY+QkZKRkI6LiYeEgX99
+e3p4eHd4eXp8fX5/gIGBgoKCgoGCgoKBgYKCg4ODg4ODg4OCgYB/fn19fHx7e3x8fHt8fHx8fHt6
+eXl4eHh4eXp8f4CCg4WGhoaFhIOCgH59e3p5eXh5eXh5eHh4eXl6fH1+f3+AgYGCgoKCgYB+fHl3
+dHNyc3R3foSKkJSZnJ+fnpqVjod/eHFsaWZmaGxvc3l/g4eKiouKiIWDgH17eXh4eXx/hIiMjo+Q
+j42LiIN/e3h2dXV2d3p8foGEhIaHhoWDgH17enl4d3h6fH+ChIiKi4qKiYaEgoB9fHt6ent7fH1+
+fn5+fnx6eHd2dXV0dXd5fH6Ag4WGh4eHhYOCgH17eHd2dXZ2dnZ3eHp7fX5+fn5+fXx8fHt6eXh3
+dnV0c3N1d3yEio+UmZ2foqKhnZmTjYZ/eXNwbGpqa2xvc3d6foCBgoOCgX9+fHp5eXl6fYGEh4uN
+j5CQjo2KhoOAfXt6eXl7fX+AgoKDgoF/e3d0cG5sbGxvc3d7gYaKjpKUlJKQjYqHg4B9e3l5eXl6
+fH5/gIB/fXx6d3V0cnJydHV2eXt+gYOEhISDgoB/fXt7e3p6ent8fX5/f39+fHp3dHFwb29wcXN3
+fIKKkpidoqSlpKKdmJGKg315dXNzc3V3enx/gYODgoB9eXZ0cW9vb3BydXl8gYWJjI6Ojo6Ni4iG
+g4F/fn19foCCg4WFhYSDgX57eHRwbm1tbnF0d3yAg4aIiouLioiGhIJ/fn59fX1+f4CBgYB/fnx6
+eHZ1dHNzc3V2eHp7fX6AgYCAf358e3p6eXl5enx9f4GDhISDgoF/fXt4dXJxcG9wcnR4fICFipCV
+mZydnpyal5SQi4eEgHx6eHh4eXp7e3x9fX19fXt6enl4eHl5enx9f4GDhYeKi4yNjYyLiomHhYSE
+g4OCgYB/fnt5d3VzcXBubW5vcHN1eHt+gYOFh4iIh4eGhYSDgoGBgIB/gICBgYGAf399e3p5d3d2
+dnZ2dnd4ent8fHx7fHx8e3t7e3t7fHx9fn9/f359fXx7enh2dXRzc3R1d3l8foGEh4uPkpWWl5aW
+lZOQjYqHg4F+fHt6eXl6enp7e3x8fHt7enl5eHh5eXp7fYCChYeKjI6PkJCPjo2Mi4qJh4WDgYB/
+fXx7eXh3dnV1dHNzdHV2d3h6fH5/gYGCg4OCgoKBgYB/f4CAgICAgYGBgYB/f318e3p5eHh4eHl6
+ent8fX5+fn5+fX19fX5+fn5+fn5/f39+fnx7eXl5eHd2dnV0dHR1dnh6fH1/gYOFiIqMjY6Pj4+O
+jYyLiYiGhYOCgYB/fn59fX19fXx8fHt7e3t7fHx8fX5/gIGDg4SGh4iJiYiIh4eGhIOAfn17enl5
+eXp6e3x8fX19fn5+fn5+fn1+fn5+fn9/gIGBgoKDg4ODg4KBgH9/f319fHt7e3t6enl5eXl5eXl5
+enp6e3t8fH1+f3+AgIGBgYB/f359fHx8e3x7e3x9fX1+f35+fXx8fHx9fX1+f4CBgoSGh4eHh4eG
+h4aFhIOCgoKBgYGBgoKCgYGBgICAgH9/f3+AgICAgYKCg4ODg4SDhISDgoF/fn18fHt7e3x8fHx8
+fHx8fHx8fHx8fHx8fH19fn9/f4CBgYKCgoGBgH9/f39/f35+fn18fX59fn9/fn9+fX19fX19fHx8
+e3p6e3t8fH19fn5/f39/f4B/gH9/f4CAf4B/f39/fn5/f3+AgICAf39/f4CAgYGBgYGBgYGBgH9/
+f35+fn5+f4CAgYKDhISEhYWEhYSEhISEg4KDg4ODg4ODgoKBgYGAf35+fX19fHt7fHx9fn19fn5/
+fn9/f359fX19fHt7fHx9fX5+fn59fn19fXx8fHx7fX19fn+AgH9+fn19fX5/f39/f3+AgICAgoGB
+f39+fn5/f39+fXt8fXx8fX19fn5+gICAgIB/gIGBf35+fX5+fn5+fn5/f3+BgoKChIWFhISDgoKC
+goOCgYGBgICBgYGBgoGCgoKCg4ODg4OCgoKCgoKBgIGCgYB/fX19fX19fX18fHt7fHx9foCAgICA
+foB/gIB/fn5+f4CAgH9/f39+fX5+f3x7e319fn57enp5eXt9fHp5ent8fH5+fH5+fn9/gICAgICA
+gYGAgYKAfn5/f39+fX5/fn19fH1+fn5/gYGBgoOCgoF/f4B/f39+fn5/f4CAfoCBgICCgYKDgoKE
+hIOFhYOCgYCAgYGBgYGAgICBgoKDg4OCgoKDhISBgH9+fn6AgH9+fn18fn59f39/gIB+fn99fX99
+e317e3x8e32Afn6Afn1+fn1/f35+f3+AgIB/f318fn5+gIF/gIKBgIGCf35+fXx/fXx9f31/gH19
+fHt8f35+fn59fH5+gYB/fX9/foGAfn6AfHx/f36Afn19gICAgYCCgYOCgYGCgH+AgYCAgX9+gISC
+gYOCgoOFhYWDg4KBf39/gIB+fX6AgoKCgoCAgoF/f4CAgIKBgoGAfn6AgX9+fn5+fn59f4B/fn5/
+f4F/fH2AfXt9fnx8e3p8fXp7fH6Cg399gIB/fH9/gH9+fYGDgX9/gIKBfn+Agn5/goSBfn9/gH58
+f36AgH19gIGCg4KAgH59fX+AgH18f4CBf3x8fXt4ent9f39/f3+BgYGChIOAgn+Bg4F8f4GCgYF/
+f4SCgYWFgoWEf4CCgoOBg4KCfX58f3x8e31+gH9/fn1+fHt9foCAgYGBgH5+fH5/foJ/gICBgXx8
+e3t9fX1/goGAgX1/g4J/gIB9f4J/gICAf4F+fn99e4GAf4GBfoOAf4CBenx9fXyBgX5/gHx/fn18
+fH58fX2AgICChIGAg4CBgYB/goOCgYOBgIWDgYWCfXx+f4KCgYKBgIF+e3t7eX1+f4CEgoKEgn9+
+fn5+fX9+fn+AgYB/gYODgoJ/f35+foCBgoOAgoGBgoGCf4CAgYCAf35/f31/foF9fX19fn59fX59
+fX1+f4F/fn1+fX5/f35/f3+AgH9/gH5+f4GAgYODg4KCf3+BgH5+fXt+fXt5fH5+fn19fn5+fn+A
+gIB/f3+AgH9+foCBgIKDg4KCgYGBgH9/gICBgoGCgoGBgYGCgoKBgYCAgYCAgYF/f39/fn5+fX1+
+fX5+fn9/f39/f4B/f35+f39/fn+AgICBgYGCgoKDg4OEg4ODgoKCgYCAgICAgYCAgIB/fn5+fX18
+fH5+f39/f4CAf39/f39/fn19fX19fX5+fn5/gH+Af4CAgYCAf39+fn5+fn5+fn5+f39/gICAgYCA
+gIB/f39/foCAgICAf3+Af39/f35/fn9+f39/f4GAgICAgYGBgYGAgYCAf4CAf39/f4CAf4CAgH+A
+gICAgYGBgYCAf4B/gICAgH+AgIB/f35+fn9/f39/f39/f4CAgICAgYGBgoKCgoGBgYGAf35+f39/
+fn5+fn5/gICAgICAgYGAgICAgIB/fn5+fn5/f3+AgICAgICAgICAgH+BgIF/f39/f35/fn9+fn5/
+f39/f3+AgH9/f3+BgYGAgYCAgIB/f35+fn9+fn1+fn9/f35+fn5+fn5/f4CAgYCAf39/f39/gICA
+gH+AgIB/f39/f4CAgYCAgICAgICAgH+AgICAgH9/f4CAgH9/gICBgYGBgYGAgH9/gH9/f4CBgYB/
+f4CAgICAf4B/fn9/f4B/f4CAgYGBgICAgYCAf39/f39/f39/fn9/f3+AgICAgICAf39+fn5+fn5/
+f39/f4CAgIB/gH9/f35+f39/f39/f39/gICAgIB/gICAgH9/f35+f3+AgICAgICAgICAgYGAgH9+
+fn5/f4CAgIGCgYGAgICAf4CAgH9/f4CAgICAf4CAf39+f4CAf4CAf39/f39/f39/f39/f35+f4CA
+gICAgH9/f39/f35/f3+AgICAgYCBgYGCgoGBgIGBgYGAgICAgIB/f39/f4CAgICAgICAf35+fn5+
+fn5+fn9/f3+AgICAgICBgYGBgYKCgYKCgoKBgICAgIB/f3+Af39/f39/fn5+f39/gIB/f4CAgICA
+gICAgICAf39/f3+AgICAgICAgICAgICAf39/gICAf39/f39/f39/f4CAgICAgH9+fn19fX19fX5+
+fn5+f39/fn9+fX19fX19fn5+f35+fn9/f39/gICAgYGAgIB/gICAgYGAgICAgIB/f39+fn19fX5+
+fn9/gICAgICAgYGBgICAgIGBgYGCg4SEhISDg4ODg4KCgoKCgoKCgoOCg4ODhISDgoKCgoGBgICA
+gH9/f4CAgYCAgH9/f39/f35+fX19fX19fHx8fHx9fHx8fHx8fHx8fHx8fHx7fHx8fHx8fHx9fHx8
+fHx7e3t8fHx8fHx8fHx8fH19fn5+f3+AgYKCgoODg4OCgoOEhISFhYaGh4iIiYqKioqKiomJiIeG
+hYWFhISEg4ODg4KCgoOCgoGAgICAgH9/f39/f35+f35+f39/fn59fXx8e3t7e3t7e3t7ent7e3t7
+ent7e3t7e3t7fHx8e3t6enp6enp5eXh3d3d3d3d3dnZ3d3Z2dnd4eXp7fH1/gYKDg4ODgoKCgoKD
+hIWGiImKjI2OkJGSkpGRkI+PjYyLiomIh4aGhYaGh4eGhYWEg4KBf39+fHx7enp7e3x9fn+AgICA
+gICAf39+fXx8e3t7fHx7e3t7e3x8fHx8fH19fX1+f39/f35+fn18e3t6enp5eXp5eXl5eXl5eHh3
+d3Z2dnZ2dnV1dHRzc3NzdXZ3eXt9f4CChIaHiIiIiIeGhYSEhIWFhYWHiYuMjpCQkZGRkZCPjYyK
+iIaFhISDhIWGhoeHhoaGhYSCgX9+fXt6enp6e3x8fH19f4CBgoKCgoGAf39/fn5+fn5+fn19fn19
+fX18fHx8fHx9fX5+fn5+fX18e3p5eXd3d3d3d3h4eXl5eXl5enp5eXh4eHh3d3d3d3Z2dnV0dHZ4
+ent9f4KEhYaHh4eGhYOCgYB/f4CBg4WHiYuNj5GTk5OSkpGQjo2LiYiHhoWEhIWFhYaHh4eHhYSC
+gYB/fnx7enl5eXp7fH1+fn9/gIB/f4CAgH9/fn18fHt7e3t7enp6e3t7e3x8fX5/f39/f39/fn59
+fHt6enp5enp6e3t8fHx9fX19fX17enl4eHd2dnV1dXV1dnZ1dXZ3eXp7fH5/gIKDg4SEhISDg4KC
+goKCg4WGiIqMjpCSk5SVlJOSkY6Ni4mHhYOCgoGCgoODhYWGhoWFhIKBf317enl4d3Z2dnd4enx9
+f4CAgYCAgICAf35+fXx8e3t7fHx8fHx9fX5+f3+AgYGBgYCAgH9/fn18fHt6enp6eXl5eXl5enp6
+ent7enp5eXh3dnZ2dnd3d3h4eXp6ent8fX5+fn5/gICBgoKCgoGBgYKCg4ODhIWGh4iJi4yOkJGS
+kZGQkJCPjYuKiYiHhoaGhoaHiIiIh4aGhYSCgH58enl4d3d3d3h5enx9fn+AgYGBgYB/fnx7e3p5
+eXl6e3t8fHx8fH19fX19fX5+fn5+f35+fn5+fX18e3t7e3t7enp6e3t8fHt7enp6eXh3d3Z2dnZ2
+d3d3eHh5eXp6enp6e3x8fH1+fn+AgYKCg4ODhISEhISEhYWGh4mKjI2PkZKTk5KRkZCOjYuKiYiG
+hoWFhYaGhoaFhIOBgX9+fHp5eHh4eHl5ent8fH1+gIGCgoKBgYCAf35+fn59fX19fn5+f39/gICA
+gICAgIGBgYGAf359fn58e3x7ent6eXh4eHd3eHd3dnZ2dnZ1dXV1dHRzcnJzc3R1dXZ3eHh4eHl6
+e31/gIKEhomLjpGUlZaVlZWTkY6NioiGhIOCgYGBgoOEhYSEg4OCgoGBf318e3t7e3x8fX6AgYKE
+hIWFhYWFhIODg4OEhYeHh4eGhoWEg4F+fXt5eHh4eHl6e3x8fX5/f4CBgYCAgICAgICAgICBgYKD
+goGAf318enl3dnV1dXV1dnZ2dnd3d3d3eHh4eXl4d3Z2dXZ3eHl6e3t8fX5/f359fHx9foCChIWH
+iYuOkpWXl5eVlJOQjImFgX98enh3dnd5e31/gIGCg4SEhIODgoB/f39/f4CAgYKDhIWFhISEg4KC
+gH9/f3+BgoOEhYWEhIOCgH59fHp6eXl6ent9foGChISEhISEg4KBgYB/fn18fHx8e3t7e3p6eXh4
+d3d2dnV1dnd4enp7fHx8fXx8fHt7enl5eHd2dnV1dXZ3d3l7fX+Af358fXx+f4GChIWGiIuNkZKV
+lpiZmZeUkIyHg356dXNxcXJ0dnl7foGEhoiIiIiGhoSEgoGAf35/gIGCg4SEhYaGh4eGhYSDgoKD
+g4SFhYWEgoF/fXt4d3V0c3NzdHd5e36Ag4SGh4eHh4aEgoGAfn18enl5eHh4eXp7fH1+fn5+fX1+
+fX19fn19fXx7e3p5eHd2dXV2d3l6ent7e3t7e3t8fHx7enl4eXh3dnd3eXt9gISIjI6Rk5SVl5iX
+l5WRjYmFgH15dXFwcHJ0d3p9gYSGiIqLjIuLiYiGhIOCgoKCg4SEhYWGh4iIh4aGhYOCgoGCgYGD
+goF/fnx6eHd0c3JxcXFzdHd5fH6AgoOFhYaFhISDgYB/fXt7enl5eXl6fH5/gYKDhISEhISDgoB/
+fn19fX19fXt7enl5eHh4eXl5eXh4dnV0dHR0dHJyc3R0dXZ2dXR0dHZ5fYOFiIqMjpCSlpicnZya
+mJSQi4aBfHd0cnFydXl+goaIio2Ojo2Mi4mGg4GBgYB/f4CBgIB/f4B/f39/f39+fn6AgYKDhYWF
+goB/fXp3dXRzc3N0dXd6fH6ChYeIiYqKiIiHhoSCf317enh4eHl5e3x+gIGCg4ODgoGAf318e3p6
+enl4eXh3d3d2dnZ3d3l6ent7e3p5eHd2dXR0dXd5enl5d3VzcnJzdnh+hIqOkpaYmZqcnJyZlZCN
+iIN/fHl2c3JydHd6fYGFio2PkJGQj42LiYeEgoGBgYGAf35+fn5+f39/f39/gICAf3+ChIaGhoWB
+fXp3dXNxcHBxc3R3e36BhIeJiYqJiYmJiIeFhIF/fHt5d3Z1dnd5e36Bg4WGh4aFg4F+fHt6enl5
+eHl5eHd2dXRzc3V2d3Z1dXR1dXZ3d3Z2dXZ6fH1/gH14dnV3eXx/goaIi5CWm5+ipaOfmJKMh4F8
+eHVxb21vcXZ6foGFh4mJi4uMi4mHhoSCgYGAgH9/f39/f4CAgYKCgoGAgYCAgIGBgoOHi4uJh4R/
+eHVycHBwcHJ2enyAhYiJioqJh4WCgoGBf358e3p4d3d4eHh3enx/gYSGhoaFgn98enh3d3Z3eXl6
+e3x7enl5eXl4dnZ2dXR0dnV1dHN0dnh4en19fX59e3l8f4OHjZCRkI+SlJeYmpmXkY2JhH97eHZ1
+dnZ3en2Ag4aKjI2KiIeHhoSCgYGAfn5/gICAgICAgICBgYKCg4KBgX9/fn+AgoOFhoWDgH56d3Z1
+dHV2eHt/gYOFhoWEhISDgYCAf359e3t6eXh4eXl6ent8foGDg4SEgn99e3l3dnV2eHl5enl4eHl5
+enp6eXd3d3d3dnZ3eHV1d3ZzcnNycnJ0eH2DiI+UmJqbm5qZl5SQjIiFgoB9fHp4d3V1dnd6foKG
+ioyOjo+OjYqIhYKAf36AgYGChISDg4ODg4KDhIWGhoaGhYSBgH9+f4GBfnx6dnRzc3V3eHp8f4GC
+g4WHh4aFg4GAfn18e3p4d3d3dnd4ent8fYCCg4SFhoaEgn99e3h2dnZ2d3h5eXp5eXh3dXR0dHR1
+dnZ2dXV0dHR3eHh3d3Vzc3V6gIaKj5SXlpaWlpWUlZWTj4qFgn98enl5eHl6fH6BgoSGiYqJh4aG
+hoSCgoKBgICBgYGBgYCAgYGBgoSGh4aFhYSCgYKFhoSDgX97eHZ2dnZ1dnl8fX+ChYeHh4aFhIOB
+gIB/fXt6eXh3dnZ3d3d3eXt+f4GBgoF/fXt6enp6eXl5eHd3d3d3eHh3dnV0dHNzdHZ2d3p9fX9/
+eXNwbm5zeoKIjZCTmJqbm52dm5aRjIeCfnx6eHVycXFydHd7gIaJi46QkZCOjImFgX58fHx9foCB
+gYKCgoOEhoaHh4eHh4eGh4mJh4SBfXl0cnJxcG9wc3Z5e3+ChIWFh4iIiYqKiIaDgHx6d3Z1dHNz
+dHZ4en1/f39/f35+fn5+f39+fHt7enh2c3Fvbm5wcnN1dnVxcXBwcnh6enp6dnV1eHuCiI6Tl5ue
+oqSloZyXj4iCfXp4dnR0dHV1d3l8f4OFh4mMjY+Pj4yJhYB9end2d3l7fX+BgoSFhoaGh4eGhYaI
+iouLioiEf3p2dHJycnN1d3l7fYCCg4SGh4eIiouLioiEgH14dXV1dHNzcnJydHV2eHp5eXp7e3x8
+e3p5eXh3d3d3d3h3dXNycG9wcXN0eHx+gIGAgH19fYCCh4uRl5ygo6OfmpWPiIF9enh3d3d2d3Z1
+dHR1eHt/hIqOkpOUlJGNiIN/e3l4eXt9f4KEhYWFhIOCgoODhIWIiYqJh4SAfHl2dXV1dXZ4eXl6
+fX6AgoOEhYeIiImKiYaEgX16eHZ1dXR0c3NzdHV3eHl7e31+f39+f358enh2dHN1dXNxcG5ubW5v
+cnJ0eHp6eXl3dXd7f4WNk5mdoaOkop+ZlI2GgX99e3t7eXh3dXNzdHV4fYKGiY6RkpKRjoqFgH18
+e3x+gIKDhISDgoKBgICAgIKFhoeIh4SCfnp2dXR0dHZ4en1+f4GEhoeIioyNjo6NjIqGg4B9eXZ0
+cnBwcG9vcHJzdHV2dnd4eXt9fX59fHp6eXZ0cW9ub3BydHh6e3t8eXd1c3R3fIKIj5edoqalo56Y
+ko2IhIF/f39/fXt3dXJwcG9xdXqBhouPkZGRjouFgn99fX5/goOEhYWEgoB+fHt8fX+Eh4qMjIuH
+g396dnNwb29wcXJ1d3l7fn+AgoWHiYyPkJGQjouIhH98eXVyb25tbm9wcXJzdHV2d3l8fn+BgoF/
+fn15dnRycXByc3V3ent8fHx7enh5fYGFjJOZnZ+fnZmWkY2JhoKAfn5+fX19fXx6eXh5en2AgoaJ
+i4yMioiFgn99e3t7fX+BgoSEhIKBgH9+fn5/goWHiYqJh4WBfHh2dXNzdHV2eHp8fX9/f4CCgoOF
+hoaHiIeGhIKBfnx6eHd2dnZ2dnZ3eHl5e3t6e3x+fn17e3p5d3Z2dXR1d3d4eXp6e3t6enp6eXl5
+e32AgoWIiouMjY2MioqIh4eGhYWFhYWGhoaFhYSEhISFhoeHh4eGhYSDgYB/fn18fH19fX5/f39+
+fn19fX6AgYKDhISEhIOCgYGAfn59fH1+fn9/gIGBgYGBgYGBgICAgH9/f39+fn59fHx7ent6ent7
+e3t7e3x8e3t7fHt7e3l3eHh3d3d2d3l6e3x9fX59fX19fn59fH19fX1+fn+ChIaHiIiIiIiHhoaF
+hISDg4KCgoKDg4SEhISFhYWFhYWEhISDgoKBgH9+fX19fX1+fn9/f39/f39/f4CBgYGBgYGBgH9/
+f39/f39+f39/gICAf4CAgH9/f39/f39/fn18fHx8e3t6e3x9fX59fX19fX5/f3+Af359e3p6enp7
+e3t8fX5+f3+AgIGAgH9+fn5+fX5+f4CAgICAgICBgIGBgoODg4OCgoKCgYGBgYKCgoODg4SFhYWF
+hISEg4ODgoGBgH9/fn9/f35/f39/gICAf39/f36Af359fn59fn59fX5+fX5/f4CAgH+AgH+AgYGA
+gIB/f39+fn1+fXx8fXx8fn19f35+f4B/gH99fn18fn19fXx8fX19fn1+fX19f4B/f39+fX19fn1+
+f4CAgICAgIKDgoODgoKEg4OEhIKDg4ODg4KBgYGBgYCAgIGAgYCAgoKCgYGBgYGBgIB/f39+fX9+
+foCAf4GBgIF/f39/fn9+fX5/f36Af35+fnx9fX+BgYGBgYGAf4CAf36AgH9/f319fn1+fn18fXx6
+fH18fX5+fX5/fn5/fnx9fn1/fn5/fn5/f35+fn5+fn18fn5+f39+f4B/f4B/f4CBgYKCgYGChIOB
+gYGBf4GBgYKDgoGBgYGCgoGBgoKChIOBgoKBgYKCgIB/fn9+foB/f35/fn5/fn5+f39+f4B+fn9+
+fYB/fX5+fn+Afn6Afn1+gIGBgoGAgYGBgoJ+fX19f4B/fn9+foCCgICBgX6AgYCAgYB+f4B/f399
+fX58e3x8eXt7e3t8fHx8e3+Afn1+fXx9fYCBgX+Af4GDgoOEgn+AgICBgn+AgICBgYGBgYB/gICA
+gIF/fX5/fn5/fXt8fH19fH5+fX5+fn1+fX58fn59foB+f4B/f4GBhISBfoCBgICAf4KDgYSEgIKD
+gYGBgH9/gH99f4B+gIF+fX+AgYGAfX59f399fn99fH1+f358e319e399eXx/fXyAgH6Af31+gX9/
+gYGCgIB/goF/gIGBgIKBgICBgYKAf4GCgYCAgoF+fn99foB/f4B9fYCAfHx+f36AgH9+gH9/gH17
+fH18fX19e3l7fn19fHx8fX59f39+fn9+f4CCgYF/fX1+fn+Bfn5/foCAf319fX6BgoKDg4CAgIGA
+gYKCgX5/gYCBgH9/f3x+f357fX58f39/fH59fH1/gH5/fX5+gH5/f318fX98foB9e35/fn+CgICB
+gH9/gH5/f4CAgIGAf4GAfn9/fX1+fX+Bf39/foCCf3+Agn98fnx9f4B8e31+fX6Bf4CAf3+BgH5/
+goGDgX1+goB/gXx8f39/goB/gH58fn5+fX18e3p7e32AgH5/fX9/f31/fX59fn9/gIGAf4CBgIN/
+fX5+fH5/fHx8fX19fX99fIGBgYB+fH5+e4CBgYGAfn6CgH+Cgn9/gH6AgX96e3t7f35+gIKAgH9/
+gIB/fHx+fn59fH5+fn5+f4CAfn5+fn5+fn5/fXx+fX+Af3x/gH+AgH9+fn19f4CBgoF/goGAgoJ/
+f358fX+Bf35/fnt8fn18fX18fX9+gIF/fX18fX59f359fn9/f39/f39/f39+fX18fX5+f3+AgIB/
+gIGDgoGBgoOCf35/f4CBgICAgH5/f3x+f31+fn99fX19e3x8e3x7fH5/fn+GhoeGgn5+fXt8fXt5
+ent7fX9+fn9/f4CBgoGBgH9+f4GAfn19fX18fH1+fn5+f4GCgH+AgH6AgH+AgHx7fX58fX19fXx+
+gH58foB+gYOCgoSEg4ODg4OCgIB+fH5/fn9+fH+Af318fH19fXx7fH19fX5+fX9/f3+Af3+Afn+A
+gYCAgH9/gICBgYB/fn9+fn+Afn5/fn6AgX9/fn9+f3+Afn5/fn5/gYGBgoKBgYGAgIB/fH5/f3+A
+gH9/gX9+fn59fX59fHx8fX9+fn9+fn5/f35/fn9/f39+fn59fX19fX5+f35+fn5/fn5+fX1+fX5+
+fX1+f39/f4CBgYGBgIGBgYGBgoKBgYKCgoGBgoGAgH59foCAgICBgoKCgoGBgH9/gH9/gICAf4B/
+f3+Af39/f39+f4GBgIB/fn1+fn9+fXx8fX9/gICAgYGBgICBgYCAgYCBgYCAgIB/f4CAf39/f39/
+fn1+fn19fXx8fHx9fX19fXx9fn9/f319fHx8fX19fX5+fn5+f35+fn5+fn+Af39/f35+fn5/f3+A
+gH9/gH+AgICAgICAgYKBgoOEhISEhISFhYSEhYSDhIOCgoKCgoKCgoKCgoKCgoGBgYCAf39+fn5+
+fn5+f39/f39/fn19fH1+fXx8fXt7fHx8fn18fHx8fHx7e3p6e3x8fX59fHx9fH19e3t7enp7e3t8
+e3p6e3p6eXl5ent9fX+Ch4qNkJGRkpKRj42Lh4WEgX58fXx8fn9/gYOEhIWGhIOCgH59e3l5enp6
+fH6AgYOEg4SFhYSEg4OCgoKBgYKCgoKCgYB/fnx6eXh2dnZ3eHl6e31/gIGBgYKCgoKBgIB/fn9/
+f4CBgYKBgIB/f358enl3dnV1dHV1dXZ2d3d3d3Z2dXR0c3NzdHV3eXx/goWJjZKVmJucnJybmJWT
+joqGg356eXd2dnZ2dnh6ent9fXx8fXx7e3t6e3x9fYCChIaIiYmKioqKioiHhoaFg4KCgoODhYSE
+hIOBf317d3Z0cXBxcnN2eXt+goSGiImJiYiGhYSDgH9+fXt7e3p5enp5eHd2dnZ1dXV1dXV2d3d4
+eHl5eXl4d3Z1dXR0dHR0dXd4fH+ChouQlZmcnp+gnpuXlI+JhH96dHJxcHFzdXZ4e31/gIGCgoKB
+gH9+fX19fX1/gYOFhoiKi4uLioiHhIOBf359fX19fn59fXx8fXx8enl5d3d3eHh5e31/gYOFh4mL
+i4uKiIeHhoSCgYB/f358e3t7enl4dnV1dXV1dXZ2d3h4eHl5eXp7e3t7e3t7enl3dnZ1c3JycHBw
+cXF0dnl8gYaMkpecnqCgn56cmJSPiYJ9enh2dnd5e35/goSGh4eHhYKAfHl2dHJxcXJzdnl8gIOG
+iIqLi4uJiIaFg4KAgH9+fX19fHx8e3t6eXl4eHl5e3x+gIKFhYaHh4eHhoSDgoGAf39+f4CBgYGB
+gYGBgH58enh2dXRycXFzdHZ4ent9fn+AgH9+fXt6enl4eHl5enp6enl4d3RycXBwcHFydHZ5fYGF
+ipGXmp2foKCfnpqWkYuGgn97eXh3d3l5enp7fHx8enl3d3V0dXV2d3p8foGEh4qMjo6Pj4+OjIuI
+h4WDgIB/fn59fHt6eHZ1dXRycnFxc3V3eXt+gYWIi4yNjY2Mi4qHhYOBf359fHx8fHx8fHt7enp5
+eHh3dnV1dXZ4eXx+f4GChIWFhoWFhISDgoGAgH9/fn18e3p5d3Z0c3Fwb25tbGtsbG5vc3V4fIGG
+i5GYnaGlpqampaKdmJCJgn13cm9tbGxsbW5wc3Z5ent7e3p6enp6ent8foCDh4qOkZOUlJSTkY+M
+iIWCfnx6eXd3d3Z2dnZ1dXRzcnFxcXJ0dnl9gYWJjZCSlJaVlZWSj4yKhoKAfnp4d3VzdHRzc3Nz
+cnN0dHZ2eHh6fH1/gIKDhYaGhYaFhYWFhIOCgYCAf35+fn18e3p4eHd3dXR0c3JycnFxcnFxcHFw
+cXN1d3yBiZGaoaesrq+vrKegl42DenFqZGFfYGJlaW91e4CFiImKiYiGhIKAfn19fn+ChomMj5GR
+kZCOi4eCfnp2dHJxcnN1dnd4eHl5eHd2dHJxcXJ0d3t/hYqPkpWXmZmXlZKOi4eDgX58e3x8fH1+
+fn1+fXt6eHV0c3FwcXJ0dnp9gIOGh4mJiYiHhoSDgX9+fX19fX19fX19fXx7e3p5eHh3eHh4eXl7
+e3x8fH19fX19fHp6enp5eXl4eHh3d32Jj5SaoKCgo6OhnpeOhX52bmpoZ2dqbW5xdnyBhYeHhoWD
+gYB/fXt7e3t8foGGi4+QkJCOjIuIhYB9eXZ0dHN0dnh5ent6e3x8e3l3dXV2d3l8gISIjI6QkZKT
+k5GOi4eFgoF/fn18fHx7e3p5enp4d3VzcnN1dnd5enyAgoOFhoeIiYiHhoWFhISEg4GBgYCAgH59
+fXx6eXh3d3d3d3h6enx9fXx8fHx8fX19fn5/f4CAgICBgYGBfnx5d3R0eH2FipGVmJqbnJqXkYmA
+eHFrZmRlZ2pucnZ8gYeMjo+OjIqHhoSBf319fX5/gYWIi4uLiYeFg4F+e3d0c3JzdXd6fH5/f39/
+f39/fXx6enp7foCDhoeJioqKiYiHhYOAfnx7enp6ent7fHx9gH9/gIGAgIGBgIGEg4OEhIKDhIKB
+gYB9fHx7e31+f4CBgYCAgIB/f316eXh4eXp8fX5/gYGDhISFhYSCgoB/f39/fX18enp5eHd2d3V2
+dnV1dXZ2dnZ2eH2CiZKZnZ+jpKGfnJSMhX12b2xqaWtucHJ1eHp9f4CAgH59fX18fH5/f3+AgoSG
+iImJiIeFhISDgoGAfn19fX1+f3+AgH9+fX18e3t6enl5enp8foCChIaGh4eHh4eFhIOBf319fHp5
+eXl5eXl4eXp6enp6e3x9f4CBg4aGiImMjIyMi4mJioiIiIaEgoB+fHt5d3d2dnd4eXt+gIGCg4SD
+g4OCgX9+fHt6enl5eXh5eXp7fH1+f4CAf35+fXt6eXd2dXNxb29vb29zfIOMlJ2ho6Wlo5+akYmB
+e3Vwbm5tb3FzdXZ3eHl6e3t8fX+BhYiKjI2OjYyKh4WFg4GAf39+f3+AgICAf39+fXx7enl5eHh3
+eHh5eXl7e3x+f4CBhIWGh4eHhoSDgYB/fn19fHx8fX19fn5+fn5+fn9/gICBgoKDg4SFhYWFhIOD
+goKBgYGDiIeJiYiGhIN/fXx5dnd3eHl6fH1/gYGCg4KBgIB/fn19fX1+fn5+fXx8fHx7fH1+f4CB
+gYKDgoGAf316eXd2dHJxcXFycnN1dXZ3eHh4eHh6hY+XnqesqaajnZaSiX13dG9qa25xdHh5eHh5
+d3Z5fH1/g4WHioyMjIuJhYF/fX1/goOEhoeFhYWCf3x4dHNzc3N3en6AgoGBgH57enh3dnd5fH+D
+h4uOkI6MioiFgoF/f39/f4CBgYGBf317eHZ1dnd4en1/gYSGh4iIh4WDgoKBgYGDhoWGhYeJh4aD
+gX57d3Z3d3d3ent7fXx8fn5+fX5/f4GCg4SFhYOCgX9+fX18fH19foCCgoODg4F/fn18e3t6enl6
+enp6enp4dnVzcHBvcHFzdHaEkJifpquopZ+YkI2GfHh4dnRydXd3eXZycXNxcnZ8f4GFiIqMi4iG
+hYN+fHx9f4KHiYqLioeEgX58e3p6e31+gYOEhYWCf3t3dXNzc3V5fH+ChYeIiIeFg4B+fX19f3+B
+goGAgH58e3p5eXl4eXt+gIKDhIWEhISDhISEhISEhIODgoGEiISEg4GAf399foB/fH1+fn9+f4CB
+gX5+gYOEg4SFhIOAfX19fHt8fHx7e3t9fn9/fn5+fn59fX5/f35+fn9/fn19fXx6eXl5eXl5enp7
+e3x8fXx8fHx7e3t6eXt/hIqSl5mampeSj4yJhoOBf39/fXx7enZzcXBvcHN3e4CDhYaHhoSDgoGA
+gYKDhYeIiYmHhYKAfXt6e3t9fn+AgIB/fnx7eXd2dnd5e31/gIGBgYGAgIGBgoKDg4SEhISEg4KB
+gH9/fn5/gIGAgIB/f39/f3+AgIGCgoODg4ODg4KBgYGCgoSLiYmJh4WDg3+AgoB7ent5eXl6ent6
+eXh6fH19f4CAgH9/foCAf4CBf359fX5/gICBgYGBgYGBgYCAfnx7enl5eXl5eHh4eXl5eXl5enx8
+fH5/f3+AgoWJjI2QkpOSkI+OjImGhIOCf3x6eXh2dXNzdHR1d3t9fn5/gIGCgYCAgoGBg4SFhoeG
+hoaFgoB/fn19fX19fXx8fX5+fn5+fX19fXx9fX19fX5/gIGChISFhYWFhYWEg4OCgoGAf39+fXx7
+e3t7e3t7e3x8fX5/f4CBgoKChY2MjI6MiYaEgYGDgn5+gH59fHp6ent6eXt+fn5+f359fXx7fH19
+fn9/f35/f39+fn18fH1+f4CBgoKBgH9/fXx8fX5/fn18e3p5eHh4d3Z2dXZ3eX+KkJKTlJKMiYWF
+iIqIhYeIhIB+fHl4dXFxdnl6fYGDgoF/fn6AgIGEhoaGh4eGhoaEgYCAgICAgYKCgX9+fHt7e3x8
+fXx7enl5eHh4eXt9foCCg4WFhYSDgoGCgoSFhYWEg4KBf319fHx8fH1+fn5+fn5+f39/f3+AgYGB
+gICAgICAgICAgH9/fn9+fn5+gIaMiYyOi4WDf31+gYB/goJ+fXt6e3h4d3d6fH1+gYKBgH9+fn5+
+foCCgX9+fn59fX5+f39+fHx9fHt7enp6ent8fX1+fX19fHt7enl7fX5+f4CAgYGBg4OHiYqLjI2L
+jIqIh4eFg4ODgoGAf317e3l4ent6enx8e3x9fX19fn5/gIGAgYGBgYGAgICBgYGBgYGAgICAgIB/
+f39/fn5/fn5+fX19fXx8fH19fn+AgYKDg4OEhIODhISEg4KBgH9/fn5/f35+fXx8foN9fn19e3x9
+foGEhIGCg4KBgYGDgoKBgIKEg4KDgoF/fn5+f4CAgIB/fXx8fHt7e3p6ent7e3x9fXx8fH19fXx8
+fHx8fH1+fX18e3p6enl4eHd4go2Mi4+RiYaDg4SNjoiJjomBgH99fHx6eX6BgH+CgH15d3d3eX1/
+gYOBfnx8fH1+goOChISCgYGBgYGBgIGDg4SDgoB+e3p7e3x8fn5+fXx7fH19foCBgYGBgoKBgICB
+gYGBgYOCgIB/fn19fHx9fn59fn19fn9/gIGCgoKCg4ODgoGBgoKCgoKDhoF/fn9+fX5+gIB/fX5/
+f358fX5+fX5+f4CAfX1+f39/gIGBgYGAf4CAgIGDg4ODgoB/f35+fX6AgICAgH9+fnx8fHx8fn+A
+f359fHt8fX1+f39+fn59fX9+fn5+fn+Af39/f359fX5+f4CAgIGAgICAf35/fn9+fn9/gH19fX9/
+f3+BgYGAgYKCgoKCgoOBgYKDhIODgoKAf36Af3+AgYGAgH9/gICAgICBgYKCg4KBgH9/gIGDhIWD
+goGBgH+AgIB/fnx9fX19fX59fHt7e3t7e3x8fHx8fX+AgICAf35+fn9/gICBgYB/f4CBgoKCg4KB
+gYGBgH9+fXx7e3p6enp5enp7e3x7e3p6fYKChYWGgoB+fX+DhYSGhoSCgYCAf359fH5/gICCgoB/
+fn5+gIKDg4KAfn1+gIKFhoaGhYSCgYGBgYGAgIGCgYGAf358e3x8fX5/fn18e3p7e3x8fH19e3x8
+fn+AgYGCg4KCg4OBgYGBgYGBgYGBgH9+fn59fXx8fH19fH1+fn5+fn19fX1+fn9/f39/f3+AgYKB
+gYKDhISDg4KCgYGBgoKCgYB/f35+fX5+fn5/f39/f39/f359foCFgoKBgX98fHx/gIGAgYKDgX9/
+gH59fX6AgIB/f39+fn6AgYKCg4KBgIB/gIGBgYKCgYGAgH9/fn59fX5/fn17enl5enp8fH18fH19
+fn5+fn5+fn5/f4CAgICAgIGBgoF/fn18fX5+f39+fX1+f4CCg4OCgH9/f4CBgoGAf39/f39/f39/
+fn5/gYKCgYB/f39/gIGBgH9+fn1+fn9/f35/gYKDg4OCgYCAgYKEhYSCf319fHx+f4CBgYGAgYB/
+fX19fn+AgYKBgH9+fX5/gIGCgoGAf359fH19fn+AgYKCgoKAf35+fn+AgICAf35+fn5/gICBgIB/
+f35+f35+fn59fn5+fn19fX5+f4CAgIB/f39+fX1+f39/f4CBgYGAgH9/fn5/gICBgYGBgYGBgYGB
+gYGBgH9+fn19fn5/gICBgH9/fn59fX5+f39/fn19fHx9fX5/gIB/f39/f35+fn+AgIGBgYGBgoKC
+goODgoKCgX9/f39/gIGBgICAgICAgH+Af39/gIGBgICAgICBgYGBgYGAgH99fX5+fX1+fn5+fn1+
+f39+fn5/f39/fn59fX19fn9/fn+AgYGBgYKCgYGCgoGCg4KBgH5/f35/gIB/f399fHx+f39+f4CB
+gYCAgH9/f4CAgIGBgIB/fn5+gIGBgICBgH9+f39/f4GCgYCAgIF/fn+AgYGBgYGBgH+AgH59f39+
+fn5+fn19fn9+f4GAgICAf399fX+Af36AgH9/f359fn+AgIKCg4KCgYKCgICBgICBgYGBf35+fXx9
+fn5+gH9+fn17e319fn5/gYF9fYCAfn5/f4CBgoKBgoGAgYKAg4aEgoSEgYGAgH9+foB/fn5/fn1+
+fn6AgYF/gYGBfn5/fnx9f359f4GBfnx/gH16fX9/f35+f359foB+f4GCgICAf4CAf3+CgX+BgoCB
+g4GAgIGAgIGAgIF/fn9+fXx+f39/f39/gH59foB/foCBgIB/f39/gIF/f4OCgIF/foGAfX9/gIB/
+foCAf3+AgH59f39+fn9/f39+fn9/fH2BgH5/gYB/gIGAf35/gYOAf36AgoB+gIB9f4KAfX6BgoGB
+gYGCgoGBgYGCg4KAgIB/f39/f36AgH9/f35+fXx+fn9/fn5+fXx+fn19f4CBf318fX99foCCgICD
+g4KBgoGAgIKDf36Fh39+hYN9foB/fn9/fn5+fH5/fX6Af32Bg4F+fn+Bf31/g4F9fX+AgX99foB+
+fYCAf358f4F8fIOBe3yBgX59fH+DgX5/goB9fX+BgIB+f35/f4CDf3x+gYB+f4KCgIB/gIKEgn6A
+hoF4f4Z9fIKCgYJ9eYCHgXuBg4OCg4OBfn9+fH6AfHyBgHx4e3+Bf3x+gIGAf3+Af32BgH6AgX1/
+f4CBhIB/g4eCfX+Eg4GBfn+BgH+CgH2Bg358foGCgX5+f4CAfn+Bfnt+gH97foKBe3yDfn17fH6B
+e3d9g4B3foaFf36DhIB7gIN9en+Gg3t6gH9+f32BiIF6f4KBgX18fn9+g4B5eoKEe3l8f4B/gYGE
+f31+gH57f4WDe3yDiIB5foGBfHyBhYSBgYB/e3+Jh39/goOAgICDgXx9gH9+f3t+gn56gIN7e36A
+g398goJ9goR5dn2Cf4B8foaGfHt/g4WAe4KHgXx8gYN/fYOCfn5/gIOBfH2Af3yBg35+fn6BgHt7
+gX9/g4B8f4N/foCCgn9/f31/hYF8fIOAfX6Ag4B7fISBfH5/f4F/e4KIgXyBhIB7eX+Egn5+foKC
+fH6EgXp5f4N/f4OCgH2AgH16eHyFg3t9g398e4GBfX2ChICBfoSHf3Z9h4J5foKCfHeDiXp5gX9/
+hYB9gX2AgoB7gIKAhH99goZ/e4KCfXt9gIKAen+BfXuAfn+CgIKDfoCBfH6Df3+DfX2BgHx9gYCA
+gHx/hIB8gIB+gIGFhYF+gX9+g4F7f4SCf359fHt/hX59gIF/gYJ6e4GDfX+CgXp8goSCfHl/g35+
+gHx/fnl+hIF6foR/fnuEioJ8gYWBfXmBhoF+f4F/foCAf4GBfYGFg398e3+Ce3Z8hYR+fIOEfnmA
+hYJ+goaGg3x4goB1eIKBf319gIB7e4B+e3t+g4B6e4GAfXx6e4CBfH+EfXl/ioN7f39+hH59i4Z6
+g4iCgXt6goOBgX58g4WBgYN8eoSFfHp9hYd+e4B/en1/goJ9eX6HhXt6gYJ9eX6Bf31+fn99eYCA
+e4CFgH5+f3+BgX98g4N8gYSBgYaGgYGBgYCCgn9+f4F+f36Ag4F9en6Gg316foCEhnl4goJ9fX19
+foSHfHuDg359gH+Bg4B8gYB9foKDeXqEhHt7foSHfHd8f3+AfXV/ioN8hYJ4g4R+fnl6j4p0eYmH
+fXVyhol4d4KEf358fnyBg4F+f4KBf4GDfn2BgIF8eYCFgHuAfoKGfXqFhHqCgX5/fHqDhn16gYR8
+c3uIg3t8gYOCenl/gHx+hX55hId6fYR9fYeHf4GBgoGChn15foF/fn2BgX6CfHmEhXt7g4CBg4B9
+fn17eoWCgIB/gIB7d4aKe3SEin51en2CgH19hYJ/hIZ8fIN9foeAe4WDen5/gIGBgH9/goaBfHiE
+iHl6hoB5gH97fISDfXx7fYOIgXZ6hn95gYN8fYKCen6Fgn19goB7foaDe3+Be32EfYSJf3uEhYSC
+e3yIhXd8h4V9fX1/f312fIJ/fH5/fXt7fH2Bf3p5hId9en59hYV7eoGFhX9+g4B+hIOBgH59goJ/
+en2Hgnp8fX1+fYOAf4F/fX6Ff3t+gYJ9fHmDjH55fYJ+foGCgnx9fYKEgXp8hIR7eX2BgoGBfICH
+gnuBiYN8f36Hhnl5hIJ8eXyBgYJ/fIWGfXV+ioB5goB2gIZ9fn58gYB7goB3gIZ9eoSDe32Cf3+A
+gIWFgH2Ag4CBfnuBgnx/hYR9eXuEiIJ6eYiNf3R8hImBc3uDf358fIWAeYOIfX6BgIB/fYB/f4F8
+eH+Ffnh+hYODfXuBhn13fYSCf3x+gIB9e36Cf3qBf31/en6FfneBgX2Dh359g4KAgX6DhoB+g4GA
+fn1+gn57foGBfoGCgYGCg313e4yGdn2CfX6HfXqBgYGBe36EfXyGgXl8gYKCfnZ8h4F3foSCgXx5
+gImAdn6HgHiBh4CBfnyDiX14hYeAe3yEiIF8e3+EgXp9gX99enuAg3l7g4F7fX2GjH90f41/eIB+
+fYJ7eoeCeXuAg39zdoyLd3WGiYB7e4CDgYJ9fYWBenuHg3x/gnt8hH18g4OFgX2ChX18hHx9goGC
+gn98gIGBdnaChHh7g4WCfn+Agn55e4F+fYiFe3yEgYB+d3yGhn52f4iGd3iBhYF5fIGDfn6Bf3uA
+hHx6e36Cgn2BhH9+f3yDgXh9ioN2fIyHeHuEgXyDgn1/g4KAgoKAfoSEeHh9hn95gYd9e4SEen2B
+hIKBgH97fYZ+d3uCf3p4fYJ/eXZ/hoN5eYWOgHd8h4N9fYGDfXl+g4J/en6LiHZ6hYOChoJ7hIqA
+en9/gYF9e3+BgIGCgHx8f4KBeX6IgXh/hX16gn14gYJ9fn15foOBfnt7fX+Agn59g4WAfX58gol5
+eIKBfYR/foCAfIB7foOBfX2BhYd9eYCIh4CAfoGFgHuBiYR4fIaGfnt/hIKAeXmFhXx+gXx8gH98
+f4F7foN8eYaFd3l+goeEeHaDh3d0g4d+e36AhoJ8eYOCfH2Bf3+Efnl/homBeX6Hg3x9fX6EhXh6
+i4N9gICBg4OBfn2Dg3h4gICAfHt/gXt9gn1+g3t3goZ9e4GBfn5/fH+Gf32BgoKFgXuBg399hYF9
+gIOAfX5+gYN/gISHgH2BhX91eIKHfXh+g4J9eH+Fgnh6hYJ9fHt5g4Z9eX6Bfn6EgXp7goOCg3l7
+hIZ9dnqJiXl1gImEfnx+g4aAeX6FgXl4goR/e3yAhoN7fIiJf3h+hIR9fIF+fH99eYGFf3x+gIOE
+fnx/g4V+en1+gHp+hn97f4CBgHt5hYd/foOEg4OCgH+CgX58f4SEfXp5foGAe3l8f39/fn6CgXyC
+hoJ5eYOGfnl5fYeJeXaChIB4eYWIfH2BgoOAfHt/f3x5f4SDe3qCgXp9hHt9hH99hYaAfH+Cf4GG
+gH2DhX58goR9fX5/goN7e4qHeXqAf3l/e3Z/hICBgH2Egnh5g4h/eHyHhoB7e4SFeneBgn9+gIGD
+f3t8gISHfHV/h4V8eX2DgXx6gYeEeHeCh3uAh3+Ah4J9hIR8fIJ/e3+Af358fH1+hH58fX6EhX58
+g4B1f4p8doCCfX+DfHyChnx5hYmAf4GBg4J+fIKAgYB/foGCf4B/enyDgXp9goKCe3qDh3t1fYSB
+f4F9g4Z7dICHfnJ4goiBenuAg4R9eYCHh4J5fIWBdXyFgnp+e4CHhnd4g4aEf3yAhIB9f4ODfoCC
+fn6EgHl+hYJ7eIOGgHt8f357fYF+e4CCgn98gIaAenqChYB5f4qHfnx9goZ8eIB/e3l8gYF4dXmA
+ioF0eIiHfnyChoSAfoCDgXl4gop/eX+Gi4N3foyFfYGEhIeAd4CKf3Z7g4B6fn5+fIGAe3l9f39+
+dnmBgn56eX2Ae3x/gX+BhH9+f3yAgn93eoaIfnp+hI1+c4CMg359fIWLgXZ+iIJ8gIJ9fYGCgIKA
+f4B/fn99f317f4J7fYF+e3x5gYh+eYGDgoB6f4V+fX1/hIN9f4KBfnx6gIV9d3x/h4N1fIuDeYCB
+fX+Cg4B/g4N+fHt+gnx1f4iDfH2BhIN6foqHfHyFg3p7fXx+gH58fHl/i4J5foSDhIB+gYJ9eoCH
+gXZ5hIJ2eYGDeniAg399eH2Cf3l8goOCg4B+e4KLgnd/hoF8gISBenqAg317fX+Dg39+goaAeYOF
+enmAhYJ9en+CgX9+g4N+foKGgHx9gYB9fXx+f4B+gYN/eHyAgH59eoGFgHt+hX96fYB+gYF+goV+
+eoGDgIKDfH+Efnh8hYaAeX2GhXx3eYOFf3t9goN/eoCDe3eDjIB3gIaBgIB6eoKEe3h/iId5d4ON
+hXp3gomGe3eDioN7e36Ag4B+fHqBhoB1fYmDd3uDgHt8gHx/hH93g4V4dIOCfH19g4F9e35/goJ+
+fIOGgH19gYqDdX6KgHiBg3+Bf36CgX1/gIKFe3mCh4B8fHuDhnl3fIGBeHmChXt5f4WAeHmBhoN+
+fIOGg399gIGCfn2AgYJ+en6Fgn19foWGgHuBgoF9foOCfHyBfXt+gYR+en6Fg3p3gYR4fISCfHp7
+hYd8eX6DhoF5foeEf31/gIOCfH+FhYB/foKFgX5+gIGEfX2Dg318e3yFgXl7goN+f398f4R/eXuA
+hXx8goF+f4KAg4R8fIaDeXd/hIJ8e3t+hod9eYKFfn6CfH+Ff3t/gn9+goN/gH99fIGAgIOAf4KE
+fn2Cgnp4g4V7en+AhH54e4KCf3p/h4V6eoKDf36Af4GCgHx+hoR6e4OCe3mCgn9/e3mCiH9ze4aD
+eH+CfH+HgXSCiX95fH2DiH55f4OHhXh7iIR4eoSBgX97gYZ+dXyEhX59gYKEg355foGBfHuCh4J6
+fYGCfnyCg4KDf3uAgH59e3x/gHx9fn9+fn1+gYJ/fIGEh4J6fYaDe3+HhXt9hYV/fXt+gYSCeHyF
+f36FgX59gIB9gYF9gIJ8e4GAfn18fX5/fn1/gYGAf4CGg3p7houAfH+CgoJ/gICAgX5+gYB4fod/
+d3yBe3yCg318foCCfHd/hYJ8enyAhYR8e4CFg4B+f4ODfH2GhoJ9foKFf3Z5g4Z9en2Ehn56gIaD
+fH6BgoOCe3+GgniAhXx8g4B+gX99fn5/fX5/fHuAgX17fHx7eXiAhHt6gIOCfX2ChoV+eYiMf32D
+gn+EgXt9g4WAen+GgXyBg4B8foOEhH54e4KAenmCg3p6gH17foB/gYJ9fYOCfoB+fICDgYOCf4KE
+e3qDh393f4iEeYOEe3yBgX19fn+Agn56f4iEen6Gg36AgYF/gH6Agn58gH19goKAfn+Afnx+gXx7
+fn+AgYCBgH+Fhn59goOAgISDf4B+foN/d32DgH2AgIGChX96f4J+fX5/gH9+eXx+f4CAfH+EgX9+
+f4CBgYOBfXyAgn58goSAgYB9foF/e3p9gIOAfHyDhH17gIOCgYB/gH+AhYJ5e4R9f4J6eoaFe36C
+gH5/gX18gX9/hYF7fYKCgH99foSHf3yBg4iBenyEhYB5eIKIhHp4iYp9eICBgYF7eIKEend7goR8
+d36CgoF7fIODf319goN7eoGEgoB8e4GHhHx/hYJ9goOAf4GCfnyAgYGDfnx/gn59f318gYKCgn18
+gIOBf3x9foOBe3qBhYJ7eYCFf31/fn5+f4B9eX6Bf4CBfoCFgXqAg4OAe36Fhn1/hIB9fn6AgYCC
+gn2Ag356gYR8eoCDg353e4WCenp9hIV8eH2Fgnt7f4GBf32ChoOAf4OFg39/gH6DhX96gIN9e3+B
+fHt+fICGgXyAg4CBf3x/gX9+gIGBgX9+gYB+fH5/gX97gYB7gYV/fX97gYV9dnyDh4J3eYaFeHaB
+hYR+dnuGhX18f4ODg358g4SEgYB+fYKEfHuBgH6Dg31+goB9gH97fH6DhYJ9foCBgn16gYR9fYGD
+g4B/f4GBgYGBgoOCf3+AfXp8gX96eoCBf397e4KEfHiAh4N9eYCGgnt4e4aKe3aBhoCAgICDg3x7
+gYN+fX+Bg4F8fYCBf359gYN/fYCAgX9+goSAgIF+hImDfXx/gIOBeXl+g4R/fH+Bf35/f358gIJ+
+fX5+gYB9fH18gYJ+fICGhX9+gIKFfnd9g4F9f31+goOCf3+AgH+Bf3yAgX9/gYF+fX6Af32Af32A
+gIOAfHyBhIF6fYeFfX+BgH99fYCEfnl+hIF/f3t8g4J7e36EhX19gYKCgn58gIGCgH19gIGBgYGA
+fn5/gH9+gYB+gIOAfH9/gIF/fYCGg4GAgIB/f35+f4KAfX+Dgn17fn+DhH58f4WFgnx8gYB+f39+
+fHuChn55foN/fH19gIF+fHyAgoGAf3+Bgn9+gYSBgIF9eYGEfn1/gIGAe3uEhYB/goKBgH1+f36B
+gHx9gX9+h4R9foJ/f4GCgICBgYB8fH+AgH16f4aBe36CgoB9eoCFfnuCgoGAfX2AgoB8fH+Bfnp+
+goB+fnt6f4N+e3+BgYOAe3uCgn57e3+Bf35+f4KDgX+ChISBgH+BhYR+fYCDgoJ+en6Fgn59f4CB
+f31/goJ/fX2BfnyAgn99fYGAen6Cf31/gX59fn5+fn59goN+fYKDfnx9goN9e4GEgn5+hISBgYKC
+gH9+f4ODfH2Cg4GBgH2ChoF9f4CAgH1+f3t9gX98foB9f4F8e4B8eoCDgICAgYKBfXuBgn56foOD
+f36BgoF/fX+CgX2BhIGBgoKBgYF+f4SBfH+BfXt9fn18fH6AgX58fH+Bf4GAfH6EgH6AgHx+gIWE
+fnx/foCEgXx/g4KCf319goN/fXyAg4B7foKBfX5/fn59fnx+goJ/fn1+g4R/e32Bg4J9fICDgH+A
+gIODgH5/gICAf35/gX99gIGAgoSBgIOCgYODgICCgoF9enp+fn5+fX6AgX99foCAf358fH1/fnp8
+goF+foCDgn18f4WHgnyAhYOAgYKAgoKAgIJ/f4CBf36AgIB/fn6BgX58e3+BfXt7gIR/fX5/f358
+gIKBgH1/hYN9fYGDgYGAfn5/f3+BgH58gIOAfoCAfYCAfX2AgH1/goB+gIB/gIB8e35/fn5+gIJ/
+f4CBg4N/fH6Af3x8gIOBfX2BgX+AgH+BgYKCgIGChYaAfYCEgHt6f4GAfHt+gIKAfX6Af35+gIOB
+enuAgX58fH+Bfn5+fn5/f4OEfnqAhYKAgICAgIB/gH1+goWCgICChIR/foCCgX99fICEgnx9gYJ/
+e32BgX99fICBfHt+f3x8fn1/goF8fIGCgH1+gYKBgoF+f4GDhoWAfoCChIJ/e32Bgn98fYCCf35+
+f4F/fYCDgH9/foCCfnx9gIKBfHp/gX99fH+BgH18f4OCfn19f4KDgHx8g4aAfX2AgoOAfn+Cg4GA
+gYCAg4F8fYCBf39/f319fn5+gIF/fXx9f4GAfHyAgH99fX6AgYB/f4CAgYB/f4KEg4F/gYKAfoB/
+foGCgYSDgH+BgYCAfX6CgoB/fYGDf3t+gYB9fH2Bgn17fYCAfXl5gIJ+e31/goF/gIGBgH9+fX5/
+fn+AgoGAgIKDgYGCgIGBf35+f4GDgn59gISEgH6Bg4B/f39/gH19gYJ/fn1+f319fn5+fX1+f359
+fX1+gIB+fH6Afn1/goGAgH9/f4CAf3+AgoJ/fYKDgX9/gYGAfn+Af39/f4CBf3+CgYB/f3+Afnx9
+f39+fHt/goF9fICEgoCBg4OBgH6Bg4B9f4KBf35/f4CAfn6BgoGCgX6Bg4F9f4KBf4B/fn+BgH5+
+fX19f39+fX5/fX1+fn5/gX9/f4F/fX2AgYF/fn+BgH5+gICBg4ODhISDgoF+gIKBf31+gIB+fHx/
+gH58fH6Afnt7fX5+fHt9f35+f4SEf36Bg4OBfn2Bgn9+fX+AgH59gIB/fn1/goOChIOAgoKAf4CA
+gIGAf359gIOBfXx9gIB/fn+AgYCAgH5/gH18foB/fn9/gYKBgIB/goOCgYGBgYOCgH+AgH99fH6B
+gH17fX9+fn5+f4GBgH+AgIKCgX9/f35/gH9+f4CAfX6BgoCAgICBgYB+foCAfX19f39/fn+AgoF/
+gIGCgoB/gIGAf39+gIB+fH5/fn5+foCBfnx8gYN+e3yBgn57fYGCgHx8goSBfX+Dg4F+foCBfnx8
+f3+Af36AgYKEg4CAgYCAf4CBgH19gIKBf319f35+gYKAf39/gIB+fH5/gH9/gIGBgH+AgH98fX6A
+f359foCAfXx+f4CAf4CAf39+fX5+fn1/f4CAgICCg4KAgIGAgICAgH+AgICAf3+AgIGCgYGDhIOC
+gH+BgYB/f3+AgYB+f4GBgH9/f3+Af35/goF/fn59fHx9fn9+fHx9fn58fH19fX1+fn5/f4CBgX9/
+f4CBgH5+gIGBgH+AgoGAgICBgoKBgYGBgYGAgIB/f39+fn9/f359fX5/f35+fX5+fn1+fn9/f4B/
+f35/f3+Af35+fn+AgYCAgYKDg4OCgYCAgYGCgYCAgYCAgIGAf39/f39+fn5/fn59fX5+fX19fn9/
+fn5+fn5+f39/f35/f39/gICBgYKCgoKDg4ODgoGBgIB/f3+AgIB/fn5/gH9/f39/fn19fn9/fn+A
+gYB/fn+Af39/gIB/fn5/f39/f4CAgH9/f4CAf3+AgH9+fX1+f35/fn9/fn5+f4CBgYCAgYB/fn6A
+gH9/fn9/gH9/gIGAf35+gIB/fn+AgYGAgIGAgIGBgYGAf39/f39/gIB/f3+AgIB/f3+AgH5+fn59
+fX1+f4B/f3+AgYGBgYGBgH+AgH9+fn59fn9/fn6AgYGCgoGBgYGAgICAgH9/f39/gIB/f39/f4CA
+gICBgYGBgICAf3+AgIB/f39/f35/f4B/f39/fn5+fn+AgIB/f39+fn5/fn59fn+AgICAgIGBgICA
+gIB/f3+AgIB/f39/f39/fn5/fn5+f39+fn5+f39+fn5/f359fX19fn5/gIGBgICAgICAgIB/f39/
+f35+f4CAgICAgIGBgICBgYGAf3+AgICAf39/f3+AgICAgIGCgoKBgIB/f3+AgICAf35/f39/fn5/
+gIB/fn9/fn5+fn5+fn5/f4CAgICBgYCAf39/gICAf39/f39/f39/f35+f39/f35+fn5+f4CBgYCB
+gYKCgoKCg4KCgYGBgICAgIGBgYGBgYGBgYGAgH9/fn5+fX1+fn9+fX19fX5+fn1+f359fX5+fn5+
+fn5+fn19fX1+fn9/f35+f4CBgYGBgoKCgoKCgYGBgYGBgICAgICAgH9/f4CAgICBgIB/f39/f359
+fX19fX19fn5+f39/gICAgICAgIGAgICAf4CAgYCAf35+fn5/f3+AgYGBgYGAgICBgYKBgYGBgICA
+gYGAgICAf39/f39/gIB/f39/f4CAgIB/fn1+fn5+fX5+f39/f39/f4CAgYGAf39/f39/f39/f39/
+gIB/f4CAgICAf39/f4B/f35+f39/f3+AgICAf4CAgIB/f4B/f39/f3+Af39+fX18fX1+fn5/f39/
+gICAgICAgIGAgICAf4CAf39+fX19fn9/gIGBgYGBgYGBgICAf39/f35+fn9/fn59fn5+f39/f35+
+fn5/gICAgICAgIB/f39/gIGBgICAgIGBgYGBgYGBgoKCgoGBgYGBgH9+fn5+f35+fn5/f39/f3+A
+f39/gICAf39/f39/fn5+f39/f39/fn5/f4CAgIGBgYCAgICAgICAgH9/f39/gIGBgYKBgYCAgICA
+f39+fn9/fn59fX19fn19fX5/gICAf39+fn5+f4CAgICAgICAgIB/f39/f39/f3+AgIB/f35/f4CA
+gICAgIB/f39+f35+f39/f39/gIGBgYB/f35+fn5+fn5/gICBgIB/f3+AgICAf3+AgICAgIB/f4CA
+gICAgICAgICAgH9+fn+Af39/fn5+f39/f3+AgIGBgYGAgICAgICAgICAgIB/fn5+fn5+fn59fX5/
+f4CAgH+AgICAgYGBgYCBgYGBgICAgYCAgIB/f35/f39/f35+fn5+fn5+f39/f39/f35/f39/f39/
+f39/f39/f3+AgICBgYGBgICAf39/f39/f3+AgH9/fn5+f35/f3+AgICAgH9/f4B/f35+f4CAgH9/
+f35+fX1+fn5+fn9/gICBgYGBgIB/f39/gICAgICAgIGBgICAgICAgIGBgYCAgICAf39/f39/f39/
+f39+fn59fn5+fX19fn5/f3+AgICAgICAgICAgICAgH9/f39/gICAgICBgYGBgICAgICAf39/gICA
+gIB/f39+fn5+f35+fn9/f4CAf4CAf4CAgICAgH9/fn5/f39/f39/f39/f39/f3+Af39/f39/f4CA
+gICAgICAgICAgH9/f39/f39/gICAf39+fn9/f4B/f39/f3+AgICAgH9/f39/gICAgIGBgYCAf39/
+f4CAf39/fn5+fn19fXx8fHx9fn+AgYGBgYGAgYGBgICAgICAgICAf35+f35+fn5/f4CAgIB/gH9/
+gICAgICAgICAf39/f39+f39/gICBgYGBgYB/f39/fn5+fn5+fn5/f39+fn5+fn5/f4CAgICAgH9/
+f39/gICAgH9/f39/gH9/f39/f39/f4GBgoKCgYCAgICAgIB/f39+fn5/f35+fn19fX19fX5+f39+
+fn9/gICBgYKCgYGBgYGAgICAgICAgICBgoKDgoKBgYCAgICAgH9/f359fX19fHx8fHx8fH1+f3+A
+gIB/fn5+fn5+fn5/f39/fn9/f39/f3+AgYGCg4OEg4KCgYGBgYGBgIB/f35+fn19fX5+fn5+f3+A
+gIB/fn5+fn9/gICAf39/f39/f3+Af3+AgICAgYGBgYCAgICAgICAgICAgH9/fn5+fn5+fn5+fn5/
+f4CAgICAf3+AgICAgICAgH9/f39/f4CAgH9/gICAgICAgICAgICAgICAgH9/f39/f39/f39/fn19
+fX1+fn9/f35/f4B/f39+fn5+fn5/f4CAgYGAgICAgIGBgYGBgICAgICAf39/f39/f39/f39/fn5+
+fn19fn5/f39/gICAgICAgICAgIB/f35+f39/f39/f39/gICAgH9+f39+fn9/f3+AgICAgICBgICB
+gYCAgICAgYGAgIB/f39/f39/f39/f39+fn5+fn5+fn5+f3+AgYGBgYCAgICAgICAgYGAgH9/f35/
+fn5+fn9/f3+AgH9/gIB/f35+f39/f39/f35+f39/f4CAgICAgICAgYGBgYGAgH9/f3+AgIB/fn5+
+f39/f39/f39/f39/f39/f35+fn19fn5+f39/f39/gICAgYGBgICAf4CAgICBgYGBgIGBgYGBgYGB
+gICAgH9/f4CAf39+fn9/gICAgICAgICAgICAgH9+fn5+fn5+fn5+fn19fX1+fn5+fn5+f4CAgYGC
+gYGAgICAgICAgICAgIB/gIGBgYGBgICAf39/f39/fn5+fn5/f39/f35+fn5+f39+fn19fn5/f39/
+gICAgICAgICBgYGBgH9/fn5/f3+AgH9/f4CAgH9/f39+f39/gIGBgoKCgYCAgH+AgH9/f4B/f39/
+f35+fn9/fn5+fn9/f39+fn5+fn5+fn9/f39/gICAgICBgYGAgYGCgoKCgoGBgICAgYGBgYGBgH9/
+f39/f39/f39/f39/f4CAf39+fn5/f4CAgICAf39/f39/f39/f35+f3+AgICAf39+f4CBgYGBgYCA
+f39/f39/gICAgH9/gICAgIB/f35+fn9/f4CAgH9+fn19fX1+fn5+fn5+f4CBgYKCgYGBgICAgICA
+gH9/f39/f39/f39/fn59fn9/f39/f35+f39/gICAgICBgYCAgICAgICAf39/gICAgH9/f39/f39/
+f3+AgICAgIGBgICAgIGAgICAgH9/fX19fX5+f39/f4CAgICAf39/f39+fn5/f3+AgICAf39/f39/
+gICAgYCAf4B/f39/gICAgH+AgICAgIB/f35+f39/gICAgICAgICAgICBgYGBgICAgIGAf39+fn5+
+fn5+f39/f4CAgH9/f4CAgIB/f39/f39/f39/f39/f39/gH9/fn5+fn5+fn9/f35+fn+AgH+AgIB/
+f39/f3+AgICAgICAgIGBgoKCgYGAgICAgH9/fn5+fX19fn9/f39/f35+f39/f4CAgH9/gICAgICA
+gIGAgICAgICAgICAgICAf3+AgH9/f4CAgIB/f39/f39+fn5+f39/gICBgYCAf39/f39/f4CAgICA
+gIB/f39/f39/f3+AgICAf39/f4CAgICAgICAf35+fn5+f39/f39/f39/f4B/f39/gH9/gICBgYGB
+gICAf39/f3+AgIGBgYGCgYCAgICAgICAgICAf35+fX19fX5+f39/f3+Af4CAf39/f39/f3+AgIB/
+f35+fX5+f3+AgICAgICAgICAgICAgH9/gICBgYGBgYCAgICAgIGAgIB/f39+fn9/f39/f4B/f3+A
+gIB/f35+fn5+f3+AgICAgICAgICBgICBgICAgICAgH9/fn9+f35+fn5+fX18fX59fX5+f39/f4CA
+gIGBgH9/fn5+f39+fn5+fn+AgIGBgYGBgYGBgYKCgoKCgYCBgYGBgoKBgYB/f3+AgICAf39/fn5+
+fn5+fn5+fXx8fHx8fHx9fX19fn+AgYGAgICAgICAgICAgH9+fn5+f3+AgICAgH+AgYCAf39/gICA
+gICAgIGBgYCAf4CAgICAgICAf4CAgYGBgICAgICAgICAgICAf39/f39/f4B/f39/f4B/f39+fn5+
+fn5/f4CAgICAf39/f4B/f39/f39/gICAgICAgICAgICAgICAf39/f39/f39/f39/fn5+fn5+fn1+
+fn5+f4CBgYCAgICBgYGBgIB/f39/gICBgYGBgYGAgH9/f39/f35+fn5+f35/fn59fX5+fn5+f39/
+f39/f39/gICAf39/f4CAf39/fn5+f3+AgICAgYGBgYGAgICAgIGAgICAgIGBgYGBgYCBgICAf39/
+f39+fn5/f39/f39/fn5/f399fn99fH5+fn5/f4CBgYGCgIGAgYKBgoGBgIKCf4GBgoGAf39/f319
+fn58fn19fH1+fn6Af4GBgYGAg4d/fYCHgoKPhoWFhId2hnB4ZXp/iHl3iX1+dXB9i4iMhY+EgIV9
+hoyJeXl+fXdzbW52gXt5f3xweIKHgYd/hYl+e3qAd3x9gIiGg3h0e4yJf3+MjouMiIeEhH+Bgn58
+d3NydHJzd3NzeHt3fYF/goqNj5CKh4mEgIKFgXx8eHp8eXN3e3x+f3t+goJ/hIaEhoSBhYeCgIGA
+f357d3h5dnh7fICDgH6FiISEhoKBhIGAfnx+fXp7fHt4eXt6fH+Af4OGiImFhIWIh4OBfoCFgHt6
+f4B+e3p9gH96eX2ChoJ9gYeHf3x/goJ/e3x/fXl2d36AfHp8f4KAfX2EiIOChYeGgHl6gIF9ent9
+fn9+fYCDgn9/g4OAfX1/g4ODgIGBgYGBf32AgIGAfnx+gH9+fH1+fnx8fX2Af36AgYB/f31+gIB9
+fX+AgYCBgIB/gYGAf39+fX1+f32Af4GDgYGDg3+BgYCBgX99fX5+fnx+fX9/gYCAf4KDgoOCg4KC
+f4CCgH5/fn5/fn5/f4B/gIGAfn59foCBf35/gYF/f39/f35/fn57fHx9f318foCBgYB+gIKBgIKD
+goKAgYOCgYB/f39+f319fH5+gH9+fnt9gH19fIB/gH5+gX+AgICCg4KAf36Bgn5+gIB/fX9+f4B/
+fH6Cf3x/gIKBgYKEgIKCf359fn9+fn5+fH5/goKAgYB/gYCAgoGAgoF9fYCAfn+Agn98fH18e359
+fX6Af3+Af3+BgYKDgoKBgYCAf35/fn9/fn+Af4CCgYCBg4CAgoGAgIGBgYGBf35/fn9+fXyAgX+A
+fn+Bg39/gIGCgH+AgH9/foB/fnx8fn9/f31/gYKBgoSFhYOBgoOBf4B/fn1+fX19fn9/fn6AgH59
+fX+Af4CBf4GAfnt7fX59e3t+fn5+gICCgYKCgYKAgICAgICAf359fH18fH1+fn1+gIKBgIGChYSB
+gYGBgH+Af39+fn1+fnx9f39/f4CAgoKAgYKCgoB/foB/fn18f4B/f4GDgYCBgoKBgIGBgoB/fn1/
+fn5+f3+Afnx/f3x8f39/fn1+f318fn5+f4B+foCAf35+f4CBgYCAgICCg4GBgYGBgYCBgoF/f4CA
+gYB/gICAgICAgICAf4CAgH9+f4CAf3+AgICAgIGAfn5/fH5/fn59fX5/fn1/gIB/fn1+f35/f35+
+f39/f358fX+Af35+gIB/gICAgYGAgIGBgYGBgYKBgYGBgYGAf4CAgH5/gIB/gYGAgIB/fn+AgIB+
+fn9+fn59fH1+f3+Af3+AgYGBgYKCgIB/gICAgH+Af39/fX1+fn9+fn9/fn6AgYCBgH9/f39/f4CA
+gICAf39/fn+AgIGCg4KBgYKCgoKBgICAf39+gICAgH+AgIB+fn5/gH9/f35+fn19fn59fX19fn5/
+f3+Af3+AgH9/gICAgICAgICBgYGBgYCAgH9/gICAgYGAgYCAgH9/gICAgH9/fn5+f39+fn5+fn9/
+f4CAfn5+fn5+fn59fn5+f39/f4CBgoKCgoKCgoKCgYGBgX9/f39/fn19fn5+fn5/gH9/gIB/fn5+
+fn9/f39/f3+AgIB/fn5+fn1+f4CAgIGCgoKCgoKDgoCBgIB/gH+AgIB/f4CAgICAgICAf39/f35+
+fn59fX5+f39+f4CBgH9+f4CAgIB/f39+fn9/f3+AgH+AgH9/fn9/gIB/fn+AgIGBgYGBgH+AgIB/
+f39/fn19fX5/fn+AgYGAf4B/gH9/gICAf39/gICAgICBgYGBgICAgICAf39+f35+fn5+f39+fn9+
+f35+fn5+fX19fn19fX+AgYGBgYGBgYGAgIB/gICBgoGCgoOCgoKCgYGAgIGAgICAgH9+fn9+f39/
+f4CAgH9/f359fn5+fn5+f39+f4CAgIB/f3+AgIB/f4CAgICAgICBgYCAgYGBgoKBgH9/f39+f4CB
+gYCAgICAf39+f4CAfn1+f39/f39/f359fX1+f39+f4CAf35+fn9/fn5+fn9/f35/f39/f35+fn5/
+f4CAgICBgYGBgIGAgICAgYGCgoKBgoGAgICAf4CAgYGBgIB/f4CAf39/fn19fX19fn9/f4B/f39/
+f4B/f39/f39/fn+AgIGAgICAgICAgYGAgIB/f35+f39/f39+fn9+fn5+f39+fn5+f39/f39/f39+
+f3+AgICAgICAgICAgICBgYCAgH9/f3+AgIGCgoGBgYKCgYGBgYB/f3+AgIB/f4B/f35+f39/fn59
+fXx8fX5+fn5+fn5+fn5/gICAgIB/f4CAgYKCgoGBgYCBgoKCgoKCgYGBgYGBgIGBgH9/f39/f4CA
+f35+fX19fX59fn5+fn5/f39/gH+AgH9+fX1+fn5+fn5+fn5+f3+BgYKCgYGAgIGBgYKCgYGAgICA
+gYGBgICAgIB/fn9+f39+fn9/fn5/f4CAf39/f3+Af39/gH9/f39/gICAgYGBgYGBgYKBgYCAgH9/
+f4CAgIB/f39/fn5+fn59fX1+fn5+fn5+fn9/f39/f4CAgIB/f39/f39/gICAgICBgYGCg4KDg4KC
+gYKBgYGBgYGBgH9/f39/fn5+fn5+fn9/f39/f39/fn5+fn5+fn59fX19fX1+f3+AgYGAgICBgYGB
+gYGAgICAgICAgIB/f39/f3+AgIGBgICAgICAgICAgIB/fn5+fn5+fn9/f35+f3+AgICAf4CAgICA
+gICBgICAgICAgYGCgoKDgoKBgYGBgYGAf39+fn5/fn5+fn5+fn5+fn+Af39/f35+fn5+fn5+fn9/
+f3+AgIGBgICAgICAgIGBgYGAgH+AgICAgIB/f39+f39/gIB/gIB/gH9/f39/f39+fn9/f39/gICA
+gICAgICBgYGBgYB/f39/fn5+f39+fn5/f39/f39/f39+fn9/f39/f3+AgICAf39/fn5+f39/f39/
+f3+AgICAgICBgYGBgIB/f4CAgICBgYGBgYKBgYGBgYGBgYGBgICBgIB/f4CAgICAgH9/fn5+fn5+
+fn5+f39/f4CAgICAgIB+gH9/gH1/fH99f39+gH6Df4CCf4F/gn+Bf4KBgIKAfH9/fH+BgH6CgH+A
+f4F+fn1+gH5+fn5/gYB/f39/gIA=
+--=====================_908529049==_
+Content-Type: text/plain; charset="us-ascii"
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+--=====================_908529049==_--
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct 16 04:32 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA12528 for <dpb@cs.brown.edu>; Fri, 16 Oct 1998 04:32:29 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA01180
+	for agora-discussion-list; Fri, 16 Oct 1998 18:28:34 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA01177
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 18:28:32 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id SAA18582
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 18:30:22 +1000 (EST)
+	(envelope-from gardner@silas-2.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018580; Fri, 16 Oct 98 18:30:10 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id SAA28630
+	for agora-discussion@gecko.serc.rmit.edu.au; Fri, 16 Oct 1998 18:27:50 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199810160827.SAA28630@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: Failure to Report?
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 16 Oct 1998 18:27:50 +1000 (EST)
+In-Reply-To: <199810160447.XAA20107@poverty.bloomington.in.us> from "Scott Goehring" at Oct 15, 98 11:47:09 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1033
+
+Scott Goehring wrote:
+>
+>"Steve" == Steve Gardner <gardner@silas-2.cc.monash.edu.au> writes:
+>
+>Steve> The problem, as ever, is with that word 'present'. How
+>Steve> confident can we be that the Rules about Orders will not change
+>Steve> in ways that would require significant recoding of any
+>Steve> Automated Transaction Server?  Granted, the Order Rules do seem
+>Steve> to provide a pretty abstract framework, but it's hard, if not
+>Steve> impossible, to know where future developments might lead.
+>
+>The fact that they haven't substantially changed since March is
+>suggestive...
+
+...of not very much, really. There's already been talk of doing away
+with Transfer Orders altogether and handling transfer outside the Order
+paradigm. What difference that would make to any attempt at automation
+I'm not entirely sure. 
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct 16 04:50 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA12872 for <dpb@cs.brown.edu>; Fri, 16 Oct 1998 04:50:38 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA01293
+	for agora-discussion-list; Fri, 16 Oct 1998 18:46:34 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA01290
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 18:46:32 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id SAA18616
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 18:48:22 +1000 (EST)
+	(envelope-from gardner@silas-1.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018614; Fri, 16 Oct 98 18:47:53 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id SAA31268
+	for agora-discussion@gecko.serc.rmit.edu.au; Fri, 16 Oct 1998 18:45:33 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199810160845.SAA31268@silas-1.cc.monash.edu.au>
+Subject: DIS: Re: BUS: Vote
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 16 Oct 1998 18:45:33 +1000 (EST)
+In-Reply-To: <199810160837.KAA17024@dij91.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns" at Oct 16, 98 10:37:26 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1184
+
+Klaus Herrmanns wrote:
+>
+>Oops, I nearly sent this to Blob personally. But voting has become
+>public again, so I hereby cast one vote for P3795.
+>
+>Although in principle I would support a radical move like Scott's
+>"Restore Sanity", I would have preferred this proposal to allow groups
+>to vote, and some how I still hope we can get the current system to
+>work, even though the accountor has a hard time at the moment. 
+>
+>So for the moment I'd prefer to search for less radical ways to ease
+>the accountor's job (which P3795, at the moment, doesn't do, becasue
+>of the 0 VT PO bug !). For example, would it help to issue voting POs
+>only once a month? Probably not too much, I guess. What about monthly
+>salaries? 
+
+The fact that the Assessor is not allowed to issue POs for 0 VTs is a
+kink, but I'm not sure it's a bug. Say the Assessor sets the Voting
+Tariff to zero. So, then he won't be able to issue POs for voting.
+OK. So what? That's what we want anyway isn't it?
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct 16 04:53 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA12895 for <dpb@cs.brown.edu>; Fri, 16 Oct 1998 04:53:42 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA01330
+	for agora-discussion-list; Fri, 16 Oct 1998 18:51:04 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA01327
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 18:51:02 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id SAA18624
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 18:52:52 +1000 (EST)
+	(envelope-from klaush@dij91.tp3.ruhr-uni-bochum.de)
+Received: from dij91.tp3.ruhr-uni-bochum.de(134.147.160.152) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018622; Fri, 16 Oct 98 18:52:26 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id KAA15270; Fri, 16 Oct 1998 10:49:51 +0200 (DFT)
+Date: Fri, 16 Oct 1998 10:49:51 +0200 (DFT)
+Message-Id: <199810160849.KAA15270@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-reply-to: <199810150403.XAA16536@poverty.bloomington.in.us> (message from
+	Scott Goehring on Wed, 14 Oct 1998 23:03:46 -0500)
+Subject: Re: DIS: proto: Winning (Chaos47, rev. 4)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 163
+
+Scott:
+>>
+Steve> We could just remove the concept of winning from the Ruleset
+Steve> entirely, you know.
+
+Yes, we could.
+<<
+
+Yes, let's. Scott, why not?
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct 16 05:25 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA13519 for <dpb@cs.brown.edu>; Fri, 16 Oct 1998 05:25:34 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA01468
+	for agora-discussion-list; Fri, 16 Oct 1998 19:15:34 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA01465
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 19:15:32 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id TAA18656
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 19:17:23 +1000 (EST)
+	(envelope-from klaush@dij91.tp3.ruhr-uni-bochum.de)
+Received: from dij91.tp3.ruhr-uni-bochum.de(134.147.160.152) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018654; Fri, 16 Oct 98 19:17:11 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id LAA29942; Fri, 16 Oct 1998 11:14:38 +0200 (DFT)
+Date: Fri, 16 Oct 1998 11:14:38 +0200 (DFT)
+Message-Id: <199810160914.LAA29942@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-reply-to: <199810160845.SAA31268@silas-1.cc.monash.edu.au> (message from
+	Steve Gardner on Fri, 16 Oct 1998 18:45:33 +1000 (EST))
+Subject: Re: DIS: Re: BUS: Vote
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 999
+
+Steve:
+>>
+The fact that the Assessor is not allowed to issue POs for 0 VTs is a
+kink, but I'm not sure it's a bug. Say the Assessor sets the Voting
+Tariff to zero. So, then he won't be able to issue POs for voting.
+OK. So what? That's what we want anyway isn't it?
+<<
+
+I think the problem is that one rule forbids em to issue the POs
+(because POs for 0 currency are prohibited), while another rule
+explicitly requires em to do so (R1442). So e must break one rule or
+the other. And I'm not even sure this is a conflict situation in which
+the rule with inferior power can be ignored.
+
+On the other hand, now I look at 1442 again, this rule has always
+required the Assessor to issue lots of zero VT POs - with all voting
+entities that didn't cast a vote as payors. We've never bothered about
+that. Whether that establishes game custom to the effect that "Billing
+someone for 0 VTs" is a null action, or whether R1442 has been broken
+umpteen times I don't know.
+
+Maybe another SFJ is needed.
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct 16 07:42 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA16519 for <dpb@cs.brown.edu>; Fri, 16 Oct 1998 07:42:46 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA01954
+	for agora-discussion-list; Fri, 16 Oct 1998 21:33:07 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA01951
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 21:33:05 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id VAA18791
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 21:34:55 +1000 (EST)
+	(envelope-from klaush@dij91.tp3.ruhr-uni-bochum.de)
+Received: from dij91.tp3.ruhr-uni-bochum.de(134.147.160.152) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018789; Fri, 16 Oct 98 21:34:54 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id NAA14618; Fri, 16 Oct 1998 13:32:02 +0200 (DFT)
+Date: Fri, 16 Oct 1998 13:32:02 +0200 (DFT)
+Message-Id: <199810161132.NAA14618@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Proto: Monthly salaries
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1256
+
+Crito mentioned (to my surprize, I must admit) that the administration
+of salaries and unemployment benefits is a major contribution to the
+workload of the Accountor. So why not cut this workload down to a
+quarter, simply by going to monthly salaries?
+
+Here's a quick
+
+
+Proto: Monthly salaries
+
+
+Amend the first paragraph of R1007 to read
+
+      At the beginning of each month, the Registrar shall pay out
+      to each Officer the designated Salary for each Office that
+      Officer has held for a total of at least 21 days in the 
+      preceding month.
+
+
+Amend R1858 to read
+
+      As soon as possible after the beginning of each month, the
+      Registrar shall pay out to every Player who does not receive any
+      Officer's Salary for the previous month an unemployment benefit
+      of half the Basic Officer Salary.
+
+
+Amend 1854 to read
+
+      The Chancellor can set the level of the Basic Officer Salary
+      by announcing in the Public Forum that e is doing so, provided
+      that e announces a value between 0 VTs and 8 VTs inclusive,
+      that e makes the announcement before the 25th day of the month, and
+      that the Basic Officer Salary has not already been set by a
+      similar such announcement earlier in the month.
+
+
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct 16 08:45 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA20342 for <dpb@cs.brown.edu>; Fri, 16 Oct 1998 08:45:51 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA02218
+	for agora-discussion-list; Fri, 16 Oct 1998 22:39:08 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA02215
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 22:39:06 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id WAA18854
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 22:40:57 +1000 (EST)
+	(envelope-from ccarroll@dfw.nationwide.net)
+Received: from dfw.nationwide.net(198.175.15.10) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018852; Fri, 16 Oct 98 22:40:48 +1000
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id HAA11459
+	for agora-discussion@gecko.serc.rmit.edu.au; Fri, 16 Oct 1998 07:35:29 -0500 (CDT)
+Message-Id: <199810161235.HAA11459@dfw.nationwide.net>
+Subject: DIS: Re: OFF: Rulekeepor's Memo
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 16 Oct 1998 07:35:28 -0500 (CDT)
+In-Reply-To: <199810161219.HAA09936@dfw.nationwide.net> from "Charles E. Carroll" at Oct 16, 98 07:19:24 am
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 553
+
+The "Rule Changes" section of the recent Rulekeepor's Memo should
+read:
+
+----------------------------------------------------------------------
+
+RULE CHANGES:
+
+Prop  Proposer  Rule Change  Title of New Rule
+----  --------  -----------  -----------------
+NPRC  (R1764)   Amend  1764
+NPRC  (R1859)   Repeal 1859
+
+[] = attempted Rule Change which failed
+NPRC = Non-Proposed Rule Change
+
+----------------------------------------------------------------------
+
+Rule 1625 has already been repealed, and Rule 1859 was self-repealing,
+not self-amending.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct 16 17:16 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA18286 for <dpb@cs.brown.edu>; Fri, 16 Oct 1998 17:16:54 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA04284
+	for agora-discussion-list; Sat, 17 Oct 1998 07:12:47 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA04281
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 17 Oct 1998 07:12:45 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id HAA21418
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 17 Oct 1998 07:14:37 +1000 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from dial-126-49.ucs.indiana.edu(156.56.126.49) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma021416; Sat, 17 Oct 98 07:14:33 +1000
+Received: (from scott@localhost) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) id QAA22233 for agora-discussion@gecko.serc.rmit.edu.au; Fri, 16 Oct 1998 16:00:10 -0500
+Date: Fri, 16 Oct 1998 16:00:10 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Message-Id: <199810162100.QAA22233@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: proto: Winning Isn't Anything (Chaos53, rev. 1)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 434
+Lines: 14
+
+Protoproposal Chaos53 [rev. 1]
+
+Winning Isn't Anything
+
+Be it therefore resolved, that Rules 112, 1498, 1580, 1622, 1638,
+1729, 1844, and 1697 be repealed.
+
+Be it further resolved, that Rule 1748 be amended by deleting the
+paragraph which begins "In addition, if the adoption of".
+
+Be it further resolved, that Rule 1435 be amended by deleting the
+sentence, "It is a Win-Preventing condition for a Player to have one
+or more Blots."
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct 16 18:49 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA21012 for <dpb@cs.brown.edu>; Fri, 16 Oct 1998 18:49:08 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA04601
+	for agora-discussion-list; Sat, 17 Oct 1998 08:45:20 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id IAA04598
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 17 Oct 1998 08:45:18 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id IAA21507
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 17 Oct 1998 08:47:09 +1000 (EST)
+	(envelope-from changeling@erols.com)
+Received: from smtp2.erols.com(207.172.3.235) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma021505; Sat, 17 Oct 98 08:46:52 +1000
+Received: from deep-thought (207-172-245-118.s118.tnt2.sbo.erols.com [207.172.245.118])
+	by smtp2.erols.com (8.8.8/8.8.5) with SMTP id SAA28869
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 18:44:48 -0400 (EDT)
+From: "Dave Smith" <changeling@erols.com>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: DIS: RE: New Proposals: 3796 - 3797
+Date: Fri, 16 Oct 1998 18:55:42 -0400
+Message-ID: <000401bdf958$19cc4e60$76f5accf@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2232.26
+In-Reply-To:  <981016030956.28755@cse.unsw.edu.au>
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+Importance: Normal
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 36
+Lines: 4
+
+I hereby vote FOR p3797.
+
+-Macross
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct 16 18:59 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA21287 for <dpb@cs.brown.edu>; Fri, 16 Oct 1998 18:59:13 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA04633
+	for agora-discussion-list; Sat, 17 Oct 1998 08:49:19 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id IAA04630
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 17 Oct 1998 08:49:17 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id IAA21515
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 17 Oct 1998 08:51:09 +1000 (EST)
+	(envelope-from changeling@erols.com)
+Received: from smtp2.erols.com(207.172.3.235) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma021513; Sat, 17 Oct 98 08:51:02 +1000
+Received: from deep-thought (207-172-245-118.s118.tnt2.sbo.erols.com [207.172.245.118])
+	by smtp2.erols.com (8.8.8/8.8.5) with SMTP id SAA00258
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 16 Oct 1998 18:48:59 -0400 (EDT)
+From: "Dave Smith" <changeling@erols.com>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: RE: DIS: Failure to Report?
+Date: Fri, 16 Oct 1998 18:59:54 -0400
+Message-ID: <000501bdf958$b03bf6c0$76f5accf@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2232.26
+In-Reply-To: <199810160431.OAA16131@silas-1.cc.monash.edu.au>
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+Importance: Normal
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 1207
+Lines: 29
+
+>
+> >"Steve" == Steve Gardner <gardner@silas-1.cc.monash.edu.au> writes:
+> >
+> >Steve> Agora, for complex historical reasons among others, has an
+> >Steve> allergy to automation. Perhaps it is time we asked ourselves if
+> >Steve> there is any way we might pursue automation of Recordkeeping
+> >Steve> without running into the problems of error that were endemic to
+> >Steve> Nomic World.
+> >
+> >I actually think this is practical.  The present rules for recording
+> >POs and TOs are straightforward enough to permit automization without
+> >much difficulty.
+>
+> The problem, as ever, is with that word 'present'. How confident can we
+> be that the Rules about Orders will not change in ways that would
+> require significant recoding of any Automated Transaction Server?
+> Granted, the Order Rules do seem to provide a pretty abstract framework,
+> but it's hard, if not impossible, to know where future developments
+> might lead.
+>
+>
+
+This is not a serius problem.  All we have to do is provide a framework that
+would allow but not require the use of an Automated Transaction Server.
+Then if the Order Rules change in a way that makes such a thing impractical
+we can all just simply stop using it.
+
+-Macross
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct 16 21:52 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA25045 for <dpb@cs.brown.edu>; Fri, 16 Oct 1998 21:52:34 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA05262
+	for agora-discussion-list; Sat, 17 Oct 1998 11:48:52 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA05259
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 17 Oct 1998 11:48:50 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id LAA21701
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 17 Oct 1998 11:50:43 +1000 (EST)
+	(envelope-from gardner@silas-1.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma021699; Sat, 17 Oct 98 11:50:35 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id LAA15170
+	for agora-discussion@gecko.serc.rmit.edu.au; Sat, 17 Oct 1998 11:48:15 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199810170148.LAA15170@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Vote
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 17 Oct 1998 11:48:15 +1000 (EST)
+In-Reply-To: <199810160914.LAA29942@dij91.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns" at Oct 16, 98 11:14:38 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1196
+Lines: 26
+
+Klaus Herrmanns wrote:
+>
+>On the other hand, now I look at 1442 again, this rule has always
+>required the Assessor to issue lots of zero VT POs - with all voting
+>entities that didn't cast a vote as payors. We've never bothered about
+>that. Whether that establishes game custom to the effect that "Billing
+>someone for 0 VTs" is a null action, or whether R1442 has been broken
+>umpteen times I don't know.
+
+It's a bizarre situation. R1442 requires the Assessor to bill Voting
+Entities, R1479 defines "bill" as "execute a Payment Order", and R1596
+restricts Payment Orders to positive multiples of a Currency. So if
+R1442 requires the Assessor to bill Players for 0 VTs, which it arguably
+does now, and which it certainly will do if the Voting Tariff is set to
+zero, then it would seem that R1442 is requiring the Assessor to do
+something not so much illegal as impossible, to execute something which
+is by definition not a Payment Order.
+
+It's not at clear to me how to resolve this.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct 16 22:16 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA25582 for <dpb@cs.brown.edu>; Fri, 16 Oct 1998 22:16:37 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA05365
+	for agora-discussion-list; Sat, 17 Oct 1998 12:12:52 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA05362
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 17 Oct 1998 12:12:50 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id MAA21721
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 17 Oct 1998 12:14:43 +1000 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from dial-126-49.ucs.indiana.edu(156.56.126.49) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma021719; Sat, 17 Oct 98 12:14:27 +1000
+Received: (from scott@localhost) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) id VAA22897 for agora-discussion@gecko.serc.rmit.edu.au; Fri, 16 Oct 1998 21:00:09 -0500
+Date: Fri, 16 Oct 1998 21:00:09 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Message-Id: <199810170200.VAA22897@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: proto: Zero Payment Orders (Chaos54, rev. 1)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 505
+Lines: 15
+
+Protoproposal Chaos54 [rev. 1]
+
+Zero Payment Orders
+
+Be it therefore resolved, that Rule 1599 be amended to read:
+
+      (a) Whenever a Rule requires a Player to execute a Payment
+          Order, e shall do so within seven days of when the
+          requirement arises.
+
+      (b) The foregoing does not apply to any requirement to execute a
+          Payment Order for zero units of any Currency.  Such Payment
+          Orders need not be executed, any Rule to the contrary
+          notwithstanding.
+
+

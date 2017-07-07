@@ -1,0 +1,3479 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 00:08 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA24640 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 00:08:30 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA26755
+	for agora-discussion-list; Wed, 9 Sep 1998 14:06:30 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA26750
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 14:06:22 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id OAA05380
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 14:06:40 +1000 (EST)
+	(envelope-from harlequin@tmbg.org)
+Received: from cyber1.servtech.com(199.1.22.8) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma005378; Wed, 9 Sep 98 14:06:18 +1000
+Received: from computername (lh1.roc.servtech.com [206.106.146.203])
+	by cyber1.servtech.com (8.8.8/8.8.8) with SMTP id EAA28210
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 04:04:34 GMT
+Message-Id: <3.0.5.32.19980909000538.00ac1360@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Wed, 09 Sep 1998 00:05:38 -0400
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: Joshua Hall-Bachner <harlequin@tmbg.org>
+Subject: Re: DIS: A minor flaw in R1079
+In-Reply-To: <199809082314.SAA24508@dfw.nationwide.net>
+References: <199809070111.LAA14750@silas-1.cc.monash.edu.au>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 987
+Lines: 19
+
+At 06:14 PM 9/8/98 -0500, Charles E. Carroll wrote:
+
+>>One possible response: since you are using one selection to make two
+>>choices, the correct way of describing the possible outcomes is that
+>>there are 4: AC, AD, BC and BD. Flipping a single coin once cannot
+>>distribute probability equally among 4 outcomes, so the method is not
+>>fair.
+
+>My reply: R1079 talks about what is required when the Rules
+>require "a random choice," not "one or more random choices."
+
+But, doing it the way you described, the second is *not* a random choice.
+The second is a choice based entirely on the result of the first choice. I
+cannot see any way in which this could be defended as "random."
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 00:55 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA26205 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 00:55:15 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA27502
+	for agora-discussion-list; Wed, 9 Sep 1998 14:53:21 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA27499
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 14:53:19 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id OAA05462
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 14:53:41 +1000 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from roatan.ucs.indiana.edu(129.79.10.65) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma005458; Wed, 9 Sep 98 14:53:30 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-120.ucs.indiana.edu [156.56.126.120])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id XAA30848
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 8 Sep 1998 23:51:46 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id XAA28792 for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 8 Sep 1998 23:51:43 -0500
+Message-Id: <199809090451.XAA28792@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: [Re: DIS: Re: OFF: CFJ 1104 (re-assigned to Proglet)] 
+In-reply-to: Your message of "08 Sep 1998 21:58:08 EDT."
+             <19980909015808.10704.qmail@www0i.netaddress.usa.net> 
+Date: Tue, 08 Sep 1998 23:51:42 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 328
+Lines: 8
+
+"proglet" == proglet  <proglet@usa.net> writes:
+
+proglet> thanks, i now have the cfj (it just arrived quite a few hours
+proglet> out of order with the other mail and hence I thought I had
+proglet> been assigned to it without being sent the mail)
+
+Don't get your hopes up.  It would appear that your assignment was in
+error.  :)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 00:58 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA26247 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 00:57:58 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA27540
+	for agora-discussion-list; Wed, 9 Sep 1998 14:56:21 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA27537
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 14:56:19 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id OAA05473
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 14:56:41 +1000 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from cayman.ucs.indiana.edu(129.79.10.68) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma005471; Wed, 9 Sep 98 14:56:18 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-120.ucs.indiana.edu [156.56.126.120])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id XAA13933
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 8 Sep 1998 23:54:24 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id XAA28804 for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 8 Sep 1998 23:54:22 -0500
+Message-Id: <199809090454.XAA28804@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: [DIS: Repost of CFJ 1046] 
+In-reply-to: Your message of "08 Sep 1998 23:23:23 EDT."
+             <19980909032323.4936.qmail@www0k.netaddress.usa.net> 
+Date: Tue, 08 Sep 1998 23:54:21 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 586
+Lines: 12
+
+"proglet" == proglet  <proglet@usa.net> writes:
+
+proglet> The CFJ in question would appear to me to only deal in the
+proglet> case of the selection for an appeal, as Rule 911 appears to
+proglet> me to only concern selection of a Board of Appeals.
+
+Note, however, that Michael addressed the issue of the eligibility of
+a Player who registered after the time the CFJ was called as an
+intermediate step to reaching the final holding in that CFJ.  Since
+the intermediate conclusion is essential to the final holding, it is
+part of the ratio decendi, and therefore has weight as precedent.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 01:20 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA26893 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 01:20:13 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA30169
+	for agora-discussion-list; Wed, 9 Sep 1998 15:18:22 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA30166
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 15:18:20 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id PAA05496
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 15:18:42 +1000 (EST)
+	(envelope-from gardner@silas-2.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma005494; Wed, 9 Sep 98 15:18:17 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id PAA10640
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 9 Sep 1998 15:16:38 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199809090516.PAA10640@silas-1.cc.monash.edu.au>
+Subject: Re: [DIS: Repost of CFJ 1046]
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 15:16:37 +1000 (EST)
+In-Reply-To: <19980909032323.4936.qmail@www0k.netaddress.usa.net> from "proglet@usa.net" at Sep 8, 98 11:23:23 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1114
+Lines: 27
+
+proglet@usa.net wrote:
+>
+>The CFJ in question would appear to me to only deal in the case 
+>of the selection for an appeal, as Rule 911 appears to me to 
+>only concern selection of a Board of Appeals.
+>
+>Unless there is some other CFJ, i would guess that I am 
+>eligable.
+
+You're right that CFJ 1046 does not directly address the question of
+whether a person who is not registered to play at the time a CFJ is
+called, but is registered to play when the CFJ is assigned, is eligible
+to Judge that CFJ. Nevertheless, if you read Judge Michael's reasoning,
+you will see that he relied on anwering that precise question in order
+to reach his Judgement in CFJ 1046. I regard that as sufficient to set a
+precedent that R911 is to be interpreted such that only (but not all)
+persons registered as Players when a CFJ is called are eligible to Judge
+that CFJ.
+
+An interesting first day's play for you, Proglet!
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 01:42 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA27335 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 01:42:01 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA30309
+	for agora-discussion-list; Wed, 9 Sep 1998 15:40:22 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA30306
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 15:40:20 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id PAA05549
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 15:40:42 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma005539; Wed, 9 Sep 98 15:40:17 +1000
+Received: From mozart With LocalMail ; Wed, 9 Sep 98 15:38:30 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 15:38:24 +1000 (EST)
+Message-Id:  <980909053824.26384@cse.unsw.edu.au>
+Subject: Re: [DIS: Repost of CFJ 1046]
+In-Reply-To: <199809090516.PAA10640@silas-1.cc.monash.edu.au> from "Steve Gardner" at Sep 9, 98 03:16:37 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1398
+Lines: 29
+
+> 
+> You're right that CFJ 1046 does not directly address the question of
+> whether a person who is not registered to play at the time a CFJ is
+> called, but is registered to play when the CFJ is assigned, is eligible
+> to Judge that CFJ. Nevertheless, if you read Judge Michael's reasoning,
+> you will see that he relied on anwering that precise question in order
+> to reach his Judgement in CFJ 1046. I regard that as sufficient to set a
+> precedent that R911 is to be interpreted such that only (but not all)
+> persons registered as Players when a CFJ is called are eligible to Judge
+> that CFJ.
+
+I may have misread the CFJ, (I have deleted it, so I can't refer back 
+to it), but I didn't think Michael resolved that issue at all. The reason
+why the player in question was ineligible to be Justice was because e
+was not an Active Player _at the time the first judge was selected_.
+I don't remember it saying anything about whether e was registered at
+the time the CFJ was made.
+
+Could someone please send me the CFJ text again?
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 02:22 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA28220 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 02:22:22 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA30524
+	for agora-discussion-list; Wed, 9 Sep 1998 16:19:54 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA30521
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 16:19:51 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id QAA05668
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 16:20:13 +1000 (EST)
+	(envelope-from gardner@silas-1.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma005663; Wed, 9 Sep 98 16:19:54 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id QAA20698
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 9 Sep 1998 16:18:15 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199809090618.QAA20698@silas-1.cc.monash.edu.au>
+Subject: Re: [DIS: Repost of CFJ 1046]
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 16:18:15 +1000 (EST)
+In-Reply-To:  <980909053824.26384@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Sep 9, 98 03:38:24 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2524
+Lines: 53
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>> 
+>> You're right that CFJ 1046 does not directly address the question of
+>> whether a person who is not registered to play at the time a CFJ is
+>> called, but is registered to play when the CFJ is assigned, is eligible
+>> to Judge that CFJ. Nevertheless, if you read Judge Michael's reasoning,
+>> you will see that he relied on anwering that precise question in order
+>> to reach his Judgement in CFJ 1046. I regard that as sufficient to set a
+>> precedent that R911 is to be interpreted such that only (but not all)
+>> persons registered as Players when a CFJ is called are eligible to Judge
+>> that CFJ.
+>
+>I may have misread the CFJ, (I have deleted it, so I can't refer back 
+>to it), but I didn't think Michael resolved that issue at all. The reason
+>why the player in question was ineligible to be Justice was because e
+>was not an Active Player _at the time the first judge was selected_.
+>I don't remember it saying anything about whether e was registered at
+>the time the CFJ was made.
+>
+>Could someone please send me the CFJ text again?
+
+You may have a point. Here's the relevant part of Michael's Judgement:
+
+      Here we come to our next problem: when the CFJ was first assigned,
+      Calabresi was not a Player.  The rules do not explicitly discuss
+      the eligibility status of non-Players, so we have to turn to
+      common-sense and game custom to tell us that non-Players are not
+      eligible as Judges. (The language of the Judge selection rule
+      (R951) tells us that Judges are to be selected from amongst
+      eligible Players, not necessarily implying that other classes of
+      people are ineligible. However, here the common-sense view of what
+      it is to be eligible must be appealed to, if it is impossible for
+      one to be selected for something because of one's status, this is
+      equivalent to being ineligible.)
+
+      Therefore Calabresi is ineligible to serve as a Justice in the
+      appeal of CFJ 933.
+
+Since Proglet was registered at the time the CFJ was assigned, that may be
+enough to ensure he was eligible to serve as Judge. AFter all, we have
+the precedent of lee's selection to Judge CFJ 1100, which was assigned
+about 2 months after it was called.
+
+I'll leave it to Michael to consider the merits of my COE.
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 02:50 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA28764 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 02:50:02 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA30811
+	for agora-discussion-list; Wed, 9 Sep 1998 16:47:53 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA30808
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 16:47:50 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id QAA05730
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 16:48:13 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma005728; Wed, 9 Sep 98 16:48:09 +1000
+Received: From mozart With LocalMail ; Wed, 9 Sep 98 16:46:28 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 16:46:28 +1000 (EST)
+Message-Id:  <980909064628.18561@cse.unsw.edu.au>
+Subject: Re: [DIS: Repost of CFJ 1046]
+In-Reply-To: <199809090618.QAA20698@silas-1.cc.monash.edu.au> from "Steve Gardner" at Sep 9, 98 04:18:15 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2436
+Lines: 51
+
+> 
+> >I may have misread the CFJ, (I have deleted it, so I can't refer back 
+> >to it), but I didn't think Michael resolved that issue at all. The reason
+> >why the player in question was ineligible to be Justice was because e
+> >was not an Active Player _at the time the first judge was selected_.
+> >I don't remember it saying anything about whether e was registered at
+> >the time the CFJ was made.
+> >
+> >Could someone please send me the CFJ text again?
+> 
+> You may have a point. Here's the relevant part of Michael's Judgement:
+> 
+>       Here we come to our next problem: when the CFJ was first assigned,
+>       Calabresi was not a Player.  The rules do not explicitly discuss
+>       the eligibility status of non-Players, so we have to turn to
+>       common-sense and game custom to tell us that non-Players are not
+>       eligible as Judges. (The language of the Judge selection rule
+>       (R951) tells us that Judges are to be selected from amongst
+>       eligible Players, not necessarily implying that other classes of
+>       people are ineligible. However, here the common-sense view of what
+>       it is to be eligible must be appealed to, if it is impossible for
+>       one to be selected for something because of one's status, this is
+>       equivalent to being ineligible.)
+> 
+>       Therefore Calabresi is ineligible to serve as a Justice in the
+>       appeal of CFJ 933.
+> 
+> Since Proglet was registered at the time the CFJ was assigned, that may be
+> enough to ensure he was eligible to serve as Judge. AFter all, we have
+> the precedent of lee's selection to Judge CFJ 1100, which was assigned
+> about 2 months after it was called.
+
+Isn't the relevant part the bit just before this? Ie:
+
+        In fact the wording of the relevant rules makes it clear the
+        eligibility is an attribute that should only be calculated 
+        when a CFJ is assigned a Judge.  
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Doesn't that mean that you should consider only Proglet's Activity at
+the time of selection, not at the time the CFJ was made?
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 02:56 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA28909 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 02:56:00 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA30849
+	for agora-discussion-list; Wed, 9 Sep 1998 16:53:52 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA30846
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 16:53:50 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id QAA05748
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 16:54:13 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma005746; Wed, 9 Sep 98 16:54:09 +1000
+Received: From mozart With LocalMail ; Wed, 9 Sep 98 16:53:38 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 16:53:38 +1000 (EST)
+Message-Id:  <980909065338.20051@cse.unsw.edu.au>
+Subject: DIS: Re: BUS: COE on Judge re-assignment in CFJ 1104
+In-Reply-To: <199809090530.PAA21086@silas-1.cc.monash.edu.au> from "Steve Gardner" at Sep 9, 98 03:30:54 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 680
+Lines: 17
+
+> 
+> I hereby claim that above re-assignment is in error, in that Proglet was
+> not eligible to serve as Judge for CFJ 1104, due to his not having been
+> registered to play when the CFJ was called. See CFJ 1046 for the
+> relevant precedent.
+
+Which rule governs re-assignment of CFJs anyhow? I'm going rule-blind.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 03:22 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA29368 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 03:21:56 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA30970
+	for agora-discussion-list; Wed, 9 Sep 1998 17:18:53 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA30967
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 17:18:51 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id RAA05810
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 17:19:14 +1000 (EST)
+	(envelope-from gardner@silas-2.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma005808; Wed, 9 Sep 98 17:19:14 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id RAA14694
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 9 Sep 1998 17:17:35 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199809090717.RAA14694@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: COE on Judge re-assignment in CFJ 1104
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 17:17:35 +1000 (EST)
+In-Reply-To:  <980909065338.20051@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Sep 9, 98 04:53:38 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1170
+Lines: 29
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>Which rule governs re-assignment of CFJs anyhow? I'm going rule-blind.
+
+You're not going blind; there is no Rule which deals specially with
+re-assignment. Instead, you have to go to Rule 408, the general Rule
+about assignment:
+
+      The Player assigned to Judge a Call for Judgement is required to
+      either return a Judgement upon that CFJ or dismiss that CFJ
+      within the assigned deliberation period, which ends seven days
+      after e is assigned to Judge it.
+
+      Failure to do so is the Infraction of Judging Late, detected
+      and reported by the CotC. At the time of the report of
+      infraction, if the CFJ has been Judged or dismissed then the
+      penalty is 1 VT and the Judgement or dismissal is legal even
+      though delivered late.  Otherwise the penalty is 3 Blots, and
+      the Judge becomes ineligible to Judge that CFJ, and a new Judge
+      shall be assigned in the usual manner.
+
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 03:23 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA29378 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 03:23:05 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA30980
+	for agora-discussion-list; Wed, 9 Sep 1998 17:19:53 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA30977
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 17:19:51 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id RAA05821
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 17:20:14 +1000 (EST)
+	(envelope-from gardner@silas-2.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma005817; Wed, 9 Sep 98 17:20:12 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id RAA23581
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 9 Sep 1998 17:18:32 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199809090718.RAA23581@silas-1.cc.monash.edu.au>
+Subject: Re: [DIS: Repost of CFJ 1046]
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 17:18:32 +1000 (EST)
+In-Reply-To:  <980909064628.18561@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Sep 9, 98 04:46:28 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 685
+Lines: 20
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>Isn't the relevant part the bit just before this? Ie:
+>
+>        In fact the wording of the relevant rules makes it clear the
+>        eligibility is an attribute that should only be calculated 
+>        when a CFJ is assigned a Judge.  
+>        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>
+>Doesn't that mean that you should consider only Proglet's Activity at
+>the time of selection, not at the time the CFJ was made?
+
+Indeed, 'tmay well be so.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 03:56 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA29984 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 03:56:11 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA31134
+	for agora-discussion-list; Wed, 9 Sep 1998 17:54:24 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA31131
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 17:54:21 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id RAA05899
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 17:54:45 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma005897; Wed, 9 Sep 98 17:54:40 +1000
+Received: From mozart With LocalMail ; Wed, 9 Sep 98 17:53:01 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au (Nomic Discussion)
+Date: Wed, 9 Sep 1998 17:53:00 +1000 (EST)
+Message-Id:  <980909075300.3238@cse.unsw.edu.au>
+Subject: DIS: this is a test.
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 401
+Lines: 12
+
+
+Keep moving... nothing to see...
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 04:13 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA00354 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 04:13:56 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA31221
+	for agora-discussion-list; Wed, 9 Sep 1998 18:11:25 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA31218
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 18:11:22 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id SAA05922
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 18:11:45 +1000 (EST)
+	(envelope-from gardner@silas-2.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma005920; Wed, 9 Sep 98 18:11:20 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id SAA18868
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 9 Sep 1998 18:09:41 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199809090809.SAA18868@silas-1.cc.monash.edu.au>
+Subject: DIS: somewhat prettified VT Report
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+Date: Wed, 9 Sep 1998 18:09:41 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2152
+Lines: 54
+
+I've prepared a somewhat prettified version of lee's Report, which
+corrects some of the grosser format mangling to which it has been
+subjected in the course of transmission, and which should make it a
+little easier to see what's going on.
+
+I've a few comments for lee, mostly about formatting:
+
+1. You need to make sure your name fields are wide enough to accomodate
+Player's names. 'Harlequin' is a 9 letter word, and 'Antimatter' has 10,
+so an 8 letter field width is not enough.
+
+2. Since ideally, you want all the information about any particular PO
+to fit on one line, and since 75 characters isn't much space, it's
+important to be economical. I think your date and time fields take up
+far too much space. In my prettified version, I deleted all year
+information, for instance, saving 5 characters. You don't need AM/PM
+information if you express times as 24 hour times. And there are more
+economical ways to express months. Thus,
+
+Sept. 8, 1998   01:49:32 PM   could become
+08-09-98 13:49:32             or 
+08 Sep 13:49:32               or even
+08-09 13:49:32 
+
+saving as much as 12 characters per line while maintaining reasonable
+readability.
+
+3. In the Outstanding POs section, you list a number of POs with their
+original Assessor labels of the form 'aaannn'. Most or all of these
+would have been given a new Accountor label of the form VTPOnnnn by
+former Heralds Crito and Blob, which may account for your not being able
+to match up Transfer Orders satisfying them. I know in my own case that
+I am very conscientious about satisfying POs, and usually do so as soon
+as I issue them (since most VT POs naming Players as Payors are issued
+by the Assessor for voting). I doubt that I actually have any
+outstanding POs for VTs, and I'll do my best to track down the messages
+from the Archives in which the POs you list as outstanding were
+satisfied.
+
+4. You need to add Proglet to you database.
+
+5. What is the entry for 'mbc'?
+
+
+
+
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 04:21 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA00529 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 04:21:54 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA31277
+	for agora-discussion-list; Wed, 9 Sep 1998 18:18:26 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA31271
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 18:18:22 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id SAA05946
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 18:18:45 +1000 (EST)
+	(envelope-from gardner@silas-2.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma005943; Wed, 9 Sep 98 18:18:17 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id SAA14846
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 9 Sep 1998 18:16:38 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199809090816.SAA14846@silas-1.cc.monash.edu.au>
+Subject: DIS: tidied up version of Accountor's Report
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+Date: Wed, 9 Sep 1998 18:16:38 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 31351
+Lines: 505
+
+
+Here is somewhat prettified version of lee's Accountor's Report. Many
+thanks to lee for the enormous amount of work he has put into this.
+
+Date of this report: Sept. 8
+Date of Last Report: Aug. 2
+
+Summary
+------------
+Total VTs in Circulation: 110
+Average VTs in Circulation per Player: 7.3
+
+Player     01 Aug  Change  08 Sep  Debts   Credits   Net POs
+
+Antimatter  5.2     0.4     5.6     4.0     1.2      -2.8
+Blob        5.1    -1.4     3.7    16.8     4.8     -12.0
+Chuck       4.1     1.6     5.7     4.0     4.8       0.8
+Crito       8.5    -0.8     7.7    11.0    10.2      -0.8
+elJefe      3.7     0.4     4.1     0.0     1.2       1.2
+G.Chaos     4.9     0.4     5.3     2.0     1.2      -0.8
+Harlequin   6.2    -0.6     5.6     8.2     1.2      -7.0
+Kolja A.    9.1    -7.0     2.1     5.0     2.0      -3.0
+Lee         5.0     4.6     9.6     6.0     4.0      -2.0
+Macross    12.2     0.4    12.6     1.0     1.2       0.2
+Michael     9.4    -0.4     9.0    16.0    10.8      -5.2
+Morendil    5.2     0.4     5.6     0.0     4.2       4.2
+Murphy      5.2    -0.2     5.0     8.0     3.8      -4.2
+Oerjan      4.2     0.4     4.6     0.0     1.2       1.2
+Steve       0.1     2.6     2.7     8.0    23.2      15.2
+Swann       5.4     0.6     6.0     4.6     1.2      -3.4
+
+mbc         0.0     3.0     3.0     0.0     0.0       0.0
+OEE        13.5     3.4    16.9     0.0     0.0       0.0
+Threat      0.5     0.0     0.5     0.0     0.0       0.0
+X Group     2.5     0.0     2.5     0.0     0.0       0.0
+
+Bank      165.0    -7.8   157.2    76.2    94.6      18.4
+
+Total     275.0     0.0   275.0   170.8   170.8       0.0
+
+--------------------------------------------------------------------
+OUTSTANDING PAYMENT ORDERS
+--------------------------------------------------------------------
+ID     Ex. Date Ex.Time         AMt.     Payor     Payee    Executor/Reason
+
+VT2661 July 13  07:53:01 PM     1        Bank      Morendil  CotC
+VT2556 July 13  14:13:29        4.6      Swann     Bank      Accountor
+aaa263 July 22  11:56:15 AM     3        Crito     Bank     voting
+VT2590 July 22  01:56:15        3        Chuck     Bank     Voting
+aaa265 July 22  11:56:15 AM     1        Kolja     Bank     voting
+aaa264 July 22  11:56:15 AM     1        Harlequin Bank     voting
+aaa267 July 22  11:56:15 AM     2        Steve     Bank     voting
+aaa261 July 22  11:56:15 AM     3        Blob      Bank     voting
+aaa266 July 22  11:56:15 AM     3        Michael   Bank     voting
+VT2599 July 25  03:11:05        2        Harlequin Bank     Voting
+VT2662 Aug. 2   12:45:45 AM     0.2      Bank      Morendil Registrar
+VT2664 Aug. 2   12:45:45 AM     0.2      Bank      G.Chaos  Registrar
+VT2663 Aug. 2   12:45:45 AM     0.2      Bank      Oerjan   Registrar
+VT2684 Aug. 2   12:45:45 AM     0.8      Bank      Chuck    Registrar
+VT2665 Aug. 2   12:45:45 AM     0.2      Bank      Antimatter    Registrar
+VT2668 Aug. 2   12:45:45 AM     0.2      Bank      lee      Registrar
+VT2671 Aug. 2   12:45:45 AM     0.8      Bank      Michael  Registrar
+VT2669 Aug. 2   12:45:45 AM     0.2      Bank      Macross  Registrar
+VT2666 Aug. 2   12:45:45 AM     0.2      Bank      Harlequin Registrar
+VT2676 Aug. 2   12:45:45 AM     0.8      Bank      Steve    Registrar
+VT2682 Aug. 2   12:45:45 AM     0.6      Bank      Steve    Registrar
+VT2683 Aug. 2   12:45:45 AM     0.6      Bank      Crito    Registrar
+VT2685 Aug. 2   12:45:45 AM     0.8      Bank      Crito    Registrar
+VT2681 Aug. 2   12:45:45 AM     0.2      Bank      elJefe   Registrar
+VT2680 Aug. 2   12:45:45 AM     0.2      Bank      Swann    Registrar
+VT2686 Aug. 2   06:29:08 PM     0.8      Blob      Bank      Blob
+VT2679 Aug. 2   12:45:45 AM     0.4      Bank      Steve    Registrar
+VT2674 Aug. 2   12:45:45 AM     0.8      Bank      Murphy   Registrar
+VT2667 Aug. 2   12:45:45 AM     0.4      Bank      Kolja    Registrar
+VT2677 Aug. 2   12:45:45 AM     0.6      Bank      Blob     Registrar
+VT2670 Aug. 2   12:45:45 AM     0.6      Bank      Michael  Registrar
+VT2678 Aug. 2   12:45:45 AM     0.8      Bank      Steve    Registrar
+VT2672 Aug. 2   12:45:45 AM     0.4      Bank      Michael  Registrar
+VT2673 Aug. 2   12:45:45 AM     0.8      Bank      Steve    Registrar
+VT2675 Aug. 2   12:45:45 AM     0.4      Bank      Steve    Registrar
+VT2689 Aug. 3   10:55:54 AM     1        Steve     Bank     Voting
+VT2687 Aug. 3   10:55:54 AM     1        Murphy    Bank     Voting
+aaa283 Aug. 3   10:55:50 AM     1        Murphy    Bank     Voting
+VT2690 Aug. 3   10:55:54 AM     1        Harlequin Bank     Voting
+VT2688 Aug. 3   10:55:54 AM     1        Blob      Bank     Voting
+aaa280 Aug. 3   10:55:50 AM     1        Blob      Bank     Voting
+aaa281 Aug. 3   10:55:50 AM     1        Crito     Bank     Voting
+VT2691 Aug. 4   12:50:10 AM     2        Kolja     Bank      Kolja
+VT2692 Aug. 4   11:17:31 AM     1        Macross   Bank      Steve
+VT2693 Aug. 7   12:06:10 PM     2        Michael   Bank     Speaker
+VT2704 Aug. 8   03:17:09 AM     0.4      Bank      Steve    Registrar
+VT2710 Aug. 8   03:17:09 AM     0.6      Bank      Blob     Registrar
+VT2713 Aug. 8   03:17:09 AM     0.4      Bank      Murphy   Registrar
+VT2698 Aug. 8   03:17:09 AM     0.8      Bank      Michael  Registrar
+VT2712 Aug. 8   03:17:09 AM     0.8      Bank      Crito    Registrar
+VT2711 Aug. 8   03:17:09 AM     0.2      Bank      Antimatter    Registrar
+VT2696 Aug. 8   03:17:09 AM     0.4      Bank      Kolja    Registrar
+VT2708 Aug. 8   03:17:09 AM     0.6      Bank      Steve    Registrar
+VT2716 Aug. 8   03:17:09 AM     0.2      Bank      lee      Registrar
+VT2695 Aug. 8   03:17:09 AM     0.6      Bank      Crito    Registrar
+VT2699 Aug. 8   03:17:09 AM     0.2      Bank      Harlequin Registrar
+VT2717 Aug. 8   03:17:09 AM     0.4      Bank      Steve    Registrar
+VT2700 Aug. 8   03:17:09 AM     0.2      Bank      Morendil Registrar
+VT2709 Aug. 8   03:17:09 AM     0.2      Bank      Swann    Registrar
+VT2715 Aug. 8   03:17:09 AM     0.8      Bank      Chuck    Registrar
+VT2701 Aug. 8   03:17:09 AM     0.2      Bank      Macross  Registrar
+VT2694 Aug. 8   03:17:09 AM     0.2      Bank      G.Chaos  Registrar
+VT2714 Aug. 8   03:17:09 AM     0.2      Bank      elJefe   Registrar
+VT2703 Aug. 8   03:17:09 AM     0.8      Bank      Steve    Registrar
+VT2706 Aug. 8   03:17:09 AM     0.8      Bank      Steve    Registrar
+VT2707 Aug. 8   03:17:09 AM     0.8      Bank      Steve    Registrar
+VT2702 Aug. 8   03:17:09 AM     0.2      Bank      Oerjan   Registrar
+VT2705 Aug. 8   03:17:09 AM     0.4      Bank      Michael  Registrar
+VT2697 Aug. 8   03:17:09 AM     0.6      Bank      Michael  Registrar
+aaa289 Aug. 12  10:03:24 PM     2        Blob      Bank     Voting
+VT2727 Aug. 12  10:04:38 PM     2        Blob      Bank     Voting
+aaa291 Aug. 12  10:03:24 PM     1        Harlequin Bank     Voting
+VT2719 Aug. 12  10:04:38 PM     1        Crito     Bank     Voting
+VT2720 Aug. 12  10:04:38 PM     2        Kolja     Bank     Voting
+VT2724 Aug. 12  10:04:38 PM     1        lee       Bank     Voting
+VT2725 Aug. 12  10:04:38 PM     1        Harlequin Bank     Voting
+VT2726 Aug. 12  10:04:38 PM     2        Michael   Bank     Voting
+aaa294 Aug. 12  10:03:24 PM     2        Michael   Bank     Voting
+aaa295 Aug. 12  10:03:24 PM     2        Murphy    Bank     Voting
+aaa293 Aug. 12  10:03:24 PM     1        lee       Bank     Voting
+VT2721 Aug. 12  10:04:38 PM     2        Murphy    Bank     Voting
+VT2718 Aug. 12  02:28:02 PM     1        Bank      Lee      Speaker
+VT2723 Aug. 12  10:04:38 PM     2        Antimatter          Bank Voting
+VT2722 Aug. 12  10:04:38 PM     1        Steve     Bank     Voting
+aaa288 Aug. 12  10:03:24 PM     2        Antimatter          Bank Voting
+VT2729 Aug. 13  07:53:01 PM     1        Bank      Morendil  CotC
+VT2548 Aug. 13  14:13:29        1.2      Harlequin Bank     Accountor
+VT2728 Aug. 13  10:52:37 AM     1        Bank      Morendil  CotC
+VT2752 Aug. 14  06:58:01 PM     0.2      Bank      G.Chaos  Registrar
+VT2742 Aug. 14  06:58:01 PM     0.6      Bank      Steve    Registrar
+VT2736 Aug. 14  06:58:01 PM     0.2      Bank      Antimatter    Registrar
+VT2750 Aug. 14  06:58:01 PM     2        Blob      Bank     Registrar
+VT2730 Aug. 14  09:35:25 AM     1        Bank      Lee       CotC
+VT2739 Aug. 14  06:58:01 PM     0.8      Bank      Steve    Registrar
+VT2741 Aug. 14  06:58:01 PM     0.4      Bank      Steve    Registrar
+VT2746 Aug. 14  06:58:01 PM     0.8      Bank      Steve    Registrar
+VT2745 Aug. 14  06:58:01 PM     0.8      Bank      Michael  Registrar
+VT2732 Aug. 14  06:58:01 PM     0.4      Bank      Michael  Registrar
+VT2738 Aug. 14  06:58:01 PM     0.4      Bank      Murphy   Registrar
+VT2731 Aug. 14  02:11:22 PM     1        Harlequin Bank     Voting
+VT2753 Aug. 14  06:58:01 PM     0.8      Bank      Chuck    Registrar
+VT2733 Aug. 14  06:58:01 PM     0.8      Bank      Crito    Registrar
+VT2743 Aug. 14  06:58:01 PM     0.4      Bank      Steve    Registrar
+VT2734 Aug. 14  06:58:01 PM     0.2      Bank      elJefe   Registrar
+VT2749 Aug. 14  06:58:01 PM     0.2      Bank      lee      Registrar
+VT2735 Aug. 14  06:58:01 PM     0.8      Bank      Steve    Registrar
+VT2740 Aug. 14  06:58:01 PM     0.2      Bank      Morendil Registrar
+VT2754 Aug. 14  06:58:01 PM     0.6      Bank      Blob     Registrar
+VT2737 Aug. 14  06:58:01 PM     0.6      Bank      Michael  Registrar
+VT2756 Aug. 14  06:58:01 PM     0.2      Bank      Oerjan   Registrar
+VT2755 Aug. 14  06:58:01 PM     0.6      Bank      Crito    Registrar
+VT2748 Aug. 14  06:58:01 PM     0.2      Bank      Swann    Registrar
+VT2747 Aug. 14  06:58:01 PM     0.2      Bank      Macross  Registrar
+VT2751 Aug. 14  06:58:01 PM     0.2      Bank      Harlequin Registrar
+VT2744 Aug. 14  06:58:01 PM     0.4      Bank      Kolja    Registrar
+VT2757 Aug. 19  10:20:00 AM     1        Bank      Blob      CotC
+VT2758 Aug. 21  07:25:57 PM     1        Bank      Murphy    CotC
+VT2761 Aug. 24  03:49:45 AM     0.8      Bank      Chuck    Registrar
+VT2766 Aug. 24  03:49:45 AM     0.4      Bank      Murphy   Registrar
+VT2762 Aug. 24  03:49:45 AM     0.2      Bank      Oerjan   Registrar
+VT2768 Aug. 24  03:49:45 AM     0.2      Bank      Swann    Registrar
+VT2770 Aug. 24  03:49:45 AM     0.4      Bank      Michael  Registrar
+VT2760 Aug. 24  03:49:45 AM     0.8      Bank      Steve    Registrar
+VT2771 Aug. 24  03:49:45 AM     0.2      Bank      Morendil Registrar
+VT2764 Aug. 24  03:49:45 AM     0.8      Bank      Steve    Registrar
+VT2763 Aug. 24  03:49:45 AM     0.8      Bank      Steve    Registrar
+VT2772 Aug. 24  03:49:45 AM     0.8      Bank      Michael  Registrar
+VT2773 Aug. 24  03:49:45 AM     0.2      Bank      Antimatter    Registrar
+VT2774 Aug. 24  03:49:45 AM     0.6      Bank      Michael  Registrar
+VT2775 Aug. 24  03:49:45 AM     0.4      Bank      Steve    Registrar
+VT2776 Aug. 24  03:49:45 AM     0.6      Bank      Crito    Registrar
+VT2777 Aug. 24  03:49:45 AM     0.6      Bank      Blob     Registrar
+VT2778 Aug. 24  03:49:45 AM     0.2      Bank      Macross  Registrar
+VT2779 Aug. 24  03:49:45 AM     0.2      Bank      G.Chaos  Registrar
+VT2765 Aug. 24  03:49:45 AM     0.2      Bank      Steve    Registrar
+VT2780 Aug. 24  03:49:45 AM     0.2      Bank      Harlequin Registrar
+VT2781 Aug. 24  03:49:45 AM     0.4      Bank      Kolja    Registrar
+VT2782 Aug. 24  03:49:45 AM     0.2      Bank      lee      Registrar
+VT2783 Aug. 24  03:49:45 AM     0.2      Bank      elJefe   Registrar
+VT2767 Aug. 24  03:49:45 AM     0.4      Bank      Steve    Registrar
+VT2759 Aug. 24  03:49:45 AM     0.8      Bank      Crito    Registrar
+VT2787 Aug. 24  05:59:13 PM     2        Steve     Bank     Voting
+VT2769 Aug. 24  03:49:45 AM     2        Murphy    Bank     Registrar
+aaa302 Aug. 24  05:59:13 PM     2        Crito     Bank     voting
+VT2786 Aug. 24  05:59:13 PM     1        Blob      Bank     Voting
+VT2785 Aug. 24  05:59:13 PM     2        Crito     Bank     Voting
+VT2784 Aug. 24  03:49:45 AM     2        Blob      Bank     Registrar
+aaa301 Aug. 24  05:59:13 PM     1        Blob      Bank     voting
+RVTPO618 Aug. 31   03:13:26 AM  0.2      Bank      Oerjan    Registrar
+RVTPO615 Aug. 31   03:13:26 AM  0.2      Bank      Harlequin Registrar
+RVTPO595 Aug. 31   03:13:26 AM  0.4      Bank      Kolja A.  Registrar
+RVTPO596 Aug. 31   03:13:26 AM  0.8      Bank      Steve     Registrar
+RVTPO597 Aug. 31   03:13:26 AM  0.2      Bank      Steve     Registrar
+RVTPO598 Aug. 31   03:13:26 AM  0.8      Bank      Steve     Registrar
+RVTPO599 Aug. 31   03:13:26 AM  0.4      Bank      Michael   Registrar
+RVTPO610 Aug. 31   03:13:26 AM  2        Michael   Bank Registrar
+RVTPO600 Aug. 31   03:13:26 AM  0.8      Bank      Michael   Registrar
+RVTPO604 Aug. 31   03:13:26 AM  0.6      Bank      Michael   Registrar
+RVTPO601 Aug. 31   03:13:26 AM  0.8      Bank      Crito     Registrar
+RVTPO594 Aug. 31   03:13:26 AM  0.6      Bank      lee       Registrar
+RVTPO602 Aug. 31   03:13:26 AM  0.4      Bank      Murphy    Registrar
+RVTPO603 Aug. 31   03:13:26 AM  0.6      Bank      Crito     Registrar
+RVTPO609 Aug. 31   03:13:26 AM  2        lee       Bank      Registrar
+RVTPO616 Aug. 31   03:13:26 AM  0.2      Bank      Macross   Registrar
+RVTPO605 Aug. 31   03:13:26 AM  0.8      Bank      Chuck     Registrar
+RVTPO606 Aug. 31   03:13:26 AM  0.8      Bank      Steve     Registrar
+RVTPO607 Aug. 31   03:13:26 AM  0.4      Bank      Steve     Registrar
+RVTPO611 Aug. 31   03:13:26 AM  0.2      Bank      Antimatter     Registrar
+RVTPO612 Aug. 31   03:13:26 AM  0.2      Bank      Blob      Registrar
+RVTPO617 Aug. 31   03:13:26 AM  0.2      Bank      Morendil  Registrar
+RVTPO613 Aug. 31   03:13:26 AM  0.2      Bank      elJefe    Registrar
+RVTPO614 Aug. 31   03:13:26 AM  0.2      Bank      G. Chaos  Registrar
+RVTPO619 Aug. 31   03:13:26 AM  0.2      Bank      Swann     Registrar
+aaa308 Sept. 2  04:50:32 AM     1        Blob      Bank     voting
+VT2789 Sept. 2  07:28:34 PM     1        Bank      Crito     CotC
+aaa310 Sept. 2  04:50:32 AM     1        G.Chaos   Bank     voting
+aaa312 Sept. 2  04:50:32 AM     2        Steve     Bank     voting
+VT2788 Sept. 2  04:06:31 PM     1        Bank      Blob     Speaker
+aaa311 Sept. 2  04:50:32 AM     3        Michael   Bank     voting
+aaa315 Sept. 2  04:50:32 AM     0.4      Bank      Steve    Commission
+RVTPO642 Sept. 6   09:15:03 AM  0.2      Bank      Morendil  Registrar
+RVTPO620 Sept. 6   09:15:03 AM  0.6      Bank      lee       Registrar
+RVTPO640 Sept. 6   09:15:03 AM  0.2      Bank      Harlequin Registrar
+RVTPO641 Sept. 6   09:15:03 AM  0.2      Bank      Macross   Registrar
+RVTPO622 Sept. 6   09:15:03 AM  0.2      Bank      Steve     Registrar
+RVTPO639 Sept. 6   09:15:03 AM  0.2      Bank      G. Chaos  Registrar
+RVTPO623 Sept. 6   09:15:03 AM  0.8      Bank      Steve     Registrar
+RVTPO635 Sept. 6   09:15:03 AM  2        lee       Bank      Registrar
+RVTPO638 Sept. 6   09:15:03 AM  0.2      Bank      elJefe    Registrar
+RVTPO621 Sept. 6   09:15:03 AM  0.8      Bank      Steve     Registrar
+RVTPO624 Sept. 6   09:15:03 AM  0.4      Bank      Michael   Registrar
+RVTPO625 Sept. 6   09:15:03 AM  0.8      Bank      Michael   Registrar
+RVTPO626 Sept. 6   09:15:03 AM  0.8      Bank      Crito     Registrar
+RVTPO637 Sept. 6   09:15:03 AM  0.2      Bank      Blob      Registrar
+RVTPO627 Sept. 6   09:15:03 AM  0.4      Bank      Murphy    Registrar
+RVTPO628 Sept. 6   09:15:03 AM  0.6      Bank      Crito     Registrar
+RVTPO629 Sept. 6   09:15:03 AM  0.6      Bank      Michael   Registrar
+RVTPO630 Sept. 6   09:15:03 AM  0.8      Bank      Chuck     Registrar
+RVTPO631 Sept. 6   09:15:03 AM  0.8      Bank      Crito     Registrar
+RVTPO632 Sept. 6   09:15:03 AM  0.4      Bank      Steve     Registrar
+RVTPO643 Sept. 6   09:15:03 AM  0.2      Bank      Oerjan    Registrar
+RVTPO633 Sept. 6   09:15:03 AM  0.4      Bank      Steve     Registrar
+RVTPO634 Sept. 6   09:15:03 AM  2        Bank      Steve     Registrar
+RVTPO644 Sept. 6   09:15:03 AM  0.2      Bank      Swann     Registrar
+RVTPO636 Sept. 6   09:15:03 AM  0.2      Bank      Antimatter     Registrar
+aaa319 Sept. 8  01:49:32 PM     2        Michael   Bank     voting
+aaa324 Sept. 8  01:49:32 PM     0.4      Bank      Steve    Commission
+aaa318 Sept. 8  01:49:32 PM     1        G.Chaos   Bank     voting
+aaa317 Sept. 8  01:49:32 PM     2        Crito     Bank     voting
+aaa316 Sept. 8  01:49:32 PM     1        Chuck     Bank     voting
+------------------------------------------------------------------------
+-------------------------------
+DISPUTED              PAYMENT    ORDERS
+
+ID     Executed AMt.  Payor      Payee         Executor
+------ -----------------         -----         --------------     
+--------------
+-------------
+       (none)
+
+
+
+SATISFIED             PAYMENT    ORDERS
+ID     Exec.    Satis.     AMt. Payor    Payee     Executor
+------ -------  --------   ---- -----    -----     ---------
+VT2450 June 26  29Jun98    1    macross  Bank      Assessor
+VT2452 June 28  28Jun98    1    Blob     Bank      Voting
+VT2451 June 28  05Jul98    2    Bank     Steve     Assessor
+VT2453 June 28  29Jun98    3    Crito    Bank      Voting
+VT2454 June 28  29Jun98    2    Kolja A. Bank      Voting
+VT2458 June 28  29Jun98    0.5  macross  Bank      Assessor
+VT2457 June 28  28Jun98    3    Steve    Bank      Voting
+VT2456 June 28  29Jun98    1    Oerjan   Bank      Voting
+VT2469 June 29  01Jul98    2.9  Morendil Bank      Accountor
+VT2468 June 29  01Jul98    9.8  Michael  Bank      Accountor
+VT2465 June 29  29Jun98    2.5  Harlequin          Bank     Accountor
+VT2467 June 29  01Jul98    2.2  macross  Bank      Accountor
+VT2466 June 29  29Jun98    7.4  Kolja A. Bank      Accountor
+VT2462 June 29  29Jun98    8.1  Crito    Bank      Accountor
+VT2461 June 29  30Jun98    3.9  Chuck    Bank      Accountor
+VT2460 June 29  29Jun98    1.9  Blob     Bank      Accountor
+VT2459 June 29  06Jul98    2.9  Antimatter         Bank     Accountor
+VT2470 June 29  06Jul98    1.9  Murphy   Bank      Accountor
+VT2471 June 29  01Jul98    2.4  Oerjan   Bank      Accountor
+VT2472 June 29  30Jun98    3.7  Steve    Bank      Accountor
+VT2474 June 29  29Jun98    3.8  OEE      Bank      Accountor
+VT2475 June 29  30Jun98    0.3  Threat   Bank      Accountor
+VT2464 June 29  06Jul98    2.9  G.Chaos  Bank      Accountor
+VT2463 June 29  06Jul98    1.9  elJefe   Bank      Accountor
+VT2476 June 29  01Jul98    1.7  X Group  Bank      Accountor
+VT2502 July 1   05Jul98    25.2 Bank     Bank      Accountor
+VT2478 July 5   11Jul98    0.6  Bank     Crito     Registrar
+VT2495 July 5   11Jul98    0.2  Bank     elJefe    Registrar
+VT2494 July 5   11Jul98    0.2  Bank     Antimatter         Registrar
+VT2483 July 5   11Jul98    0.4  Bank     Michael   Registrar
+VT2484 July 5   11Jul98    0.8  Bank     Michael   Registrar
+VT2481 July 5   11Jul98    0.6  Bank     Steve     Registrar
+VT2479 July 5   11Jul98    0.4  Bank     Kolja A.  Registrar
+VT2480 July 5   11Jul98    0.8  Bank     Steve     Registrar
+VT2492 July 5   11Jul98    0.4  Bank     Steve     Registrar
+VT2500 July 5   11Jul98    0.2  Bank     Oerjan    Registrar
+VT2499 July 5   11Jul98    0.2  Bank     Morendil  Registrar
+VT2498 July 5   11Jul98    0.2  Bank     macross   Registrar
+VT2497 July 5   11Jul98    0.2  Bank     Harlequin Registrar
+VT2496 July 5   11Jul98    0.2  Bank     G.Chaos   Registrar
+VT2489 July 5   11Jul98    0.8  Bank     Chuck     Registrar
+VT2482 July 5   11Jul98    0.8  Bank     Blob      Registrar
+VT2488 July 5   11Jul98    0.6  Bank     Michael   Registrar
+VT2491 July 5   11Jul98    0.4  Bank     Steve     Registrar
+VT2490 July 5   11Jul98    0.8  Bank     Swann     Registrar
+VT2487 July 5   11Jul98    0.6  Bank     Crito     Registrar
+VT2486 July 5   11Jul98    0.4  Bank     Murphy    Registrar
+VT2485 July 5   11Jul98    0.8  Bank     Crito     Registrar
+VT2509 July 6   11Jul98    0.6  Bank     Crito     Registrar
+VT2528 July 6   11Jul98    0.2  Bank     G.Chaos   Registrar
+VT2527 July 6   11Jul98    0.2  Bank     elJefe    Registrar
+VT2510 July 6   11Jul98    0.4  Bank     Kolja A.  Registrar
+VT2512 July 6   11Jul98    0.6  Bank     Steve     Registrar
+VT2530 July 6   11Jul98    0.2  Bank     macross   Registrar
+VT2525 July 6   12Jul98    2    Murphy   Bank      Registrar
+VT2503 July 6   06Jul98    1    Crito    Bank      Voting
+VT2504 July 6   06Jul98    1    G.Chaos  Bank      Voting
+VT2505 July 6   09Jul98    2    Harlequin          Bank     Voting
+VT2506 July 6   06Jul98    1    Kolja A. Bank      Voting
+VT2507 July 6   06Jul98    1    Steve    Bank      Voting
+VT2508 July 6   11Jul98    2    Bank     Blob      Registrar
+VT2532 July 6   11Jul98    0.2  Bank     Oerjan    Registrar
+VT2531 July 6   11Jul98    0.2  Bank     Morendil  Registrar
+VT2529 July 6   11Jul98    0.2  Bank     Harlequin Registrar
+VT2520 July 6   11Jul98    0.8  Bank     Chuck     Registrar
+VT2511 July 6   11Jul98    0.8  Bank     Steve     Registrar
+VT2526 July 6   11Jul98    0.2  Bank     Antimatter         Registrar
+VT2517 July 6   11Jul98    0.4  Bank     Murphy    Registrar
+VT2523 July 6   11Jul98    0.4  Bank     Steve     Registrar
+VT2522 July 6   11Jul98    0.4  Bank     Steve     Registrar
+VT2521 July 6   11Jul98    0.8  Bank     Swann     Registrar
+VT2513 July 6   11Jul98    0.8  Bank     Blob      Registrar
+VT2519 July 6   11Jul98    0.6  Bank     Michael   Registrar
+VT2518 July 6   11Jul98    0.6  Bank     Crito     Registrar
+VT2516 July 6   11Jul98    0.8  Bank     Crito     Registrar
+VT2515 July 6   11Jul98    0.8  Bank     Michael   Registrar
+VT2514 July 6   11Jul98    0.4  Bank     Michael   Registrar
+VT2533 July 7   19Jul98    5    Bank     Passt.Parcel       Notary
+VT2534 July 9   19Jul98    1    Bank     Murphy    CotC
+VT2359 July 9   28Jun98    2    Murphy   Bank      Voting
+VT2546 July 13  22Jul98    1.1  elJefe   Bank      Accountor
+VT2545 July 13  13Jul98    3.5  Crito    Bank      Accountor
+VT2543 July 13  13Jul98    2.3  Blob     Bank      Accountor
+VT2542 July 13  13Jul98    1.6  Antimatter         Bank     Accountor
+VT2544 July 13  15Jul98    1.8  Chuck    Bank      Accountor
+VT2549 July 13  13Jul98    3    Kolja A. Bank      Accountor
+VT2547 July 13  26Jul98    1.6  G.Chaos  Bank      Accountor
+VT2550 July 13  13Jul98    1.3  macross  Bank      Accountor
+VT2551 July 13  19Jul98    5.6  Michael  Bank      Accountor
+VT2557 July 13  13Jul98    3.5  OEE      Bank      Accountor
+VT2560 July 13  19Jul98    28.8 Bank     Bank      Accountor
+VT2559 July 13  23Jul98    0.8  X Group  Bank      Accountor
+VT2558 July 13  16Jul98    0.2  Threat   Bank      Accountor
+VT2554 July 13  13Jul98    1.6  Oerjan   Bank      Accountor
+VT2555 July 13  16Jul98    3.9  Steve    Bank      Accountor
+VT2553 July 13  15Jul98    0.8  Murphy   Bank      Accountor
+VT2552 July 13  13Jul98    1.6  Morendil Bank      Accountor
+VT2584 July 18  25Jul98    0.2  Bank     Oerjan    Registrar
+VT2573 July 18  25Jul98    0.6  Bank     Michael   Registrar
+VT2574 July 18  25Jul98    0.8  Bank     Chuck     Registrar
+VT2568 July 18  25Jul98    0.4  Bank     Michael   Registrar
+VT2566 July 18  25Jul98    0.6  Bank     Steve     Registrar
+VT2583 July 18  25Jul98    0.2  Bank     Morendil  Registrar
+VT2582 July 18  25Jul98    0.2  Bank     macross   Registrar
+VT2581 July 18  25Jul98    0.2  Bank     Harlequin Registrar
+VT2578 July 18  25Jul98    0.2  Bank     Antimatter         Registrar
+VT2564 July 18  25Jul98    0.4  Bank     Kolja A.  Registrar
+VT2580 July 18  25Jul98    0.2  Bank     G.Chaos   Registrar
+VT2579 July 18  25Jul98    0.2  Bank     elJefe    Registrar
+VT2565 July 18  25Jul98    0.8  Bank     Steve     Registrar
+VT2569 July 18  25Jul98    0.8  Bank     Michael   Registrar
+VT2585 July 18  25Jul98    0.2  Bank     Swann     Registrar
+VT2571 July 18  25Jul98    0.4  Bank     Murphy    Registrar
+VT2407 July 18  28Jun98    2    Murphy   Bank      Registrar
+VT2575 July 18  25Jul98    0.4  Bank     Steve     Registrar
+VT2563 July 18  25Jul98    0.6  Bank     Crito     Registrar
+VT2576 July 18  25Jul98    0.4  Bank     Steve     Registrar
+VT2570 July 18  25Jul98    0.8  Bank     Crito     Registrar
+VT2572 July 18  25Jul98    0.6  Bank     Crito     Registrar
+VT2421 July 19  01Jul98    3    Michael  Bank      Voting
+VT2586 July 19  20Jul98    2    Steve    Bank      Registrar
+VT2587 July 19  25Jul98    5    Bank     Lee       Registrar
+VT2422 July 19  28Jun98    1    Murphy   Bank      Voting
+VT2588 July 20  22Jul98    1    Murphy   Bank      Assessor
+VT2593 July 22  Aug. 3     1        Kolja A.  Bank     Voting
+VT2589 July 22  Aug. 2     3        Blob      Bank     Voting
+VT2595 July 22  23Jul98    2    Steve    Bank      Voting
+aaa262 July 22  Aug. 3     3        Chuck     Bank     voting
+VT2594 July 22  23Jul98    3    Michael  Bank      Voting
+VT2592 July 22  22Jul98    1    Harlequin          Bank     Voting
+VT2591 July 22  23Jul98    3    Crito    Bank      Voting
+VT2596 July 23  23Jul98    3    Crito    Bank      Voting
+VT2597 July 23  Sept. 8    2        Steve     Bank     Voting
+VT2435 July 24  05Jul98    0.8  Bank     Crito     Registrar
+VT2433 July 24  05Jul98    0.4  Bank     Michael   Registrar
+VT2431 July 24  05Jul98    0.6  Bank     Steve     Registrar
+VT2437 July 24  05Jul98    0.6  Bank     Crito     Registrar
+VT2429 July 24  05Jul98    0.4  Bank     Kolja A.  Registrar
+VT2428 July 24  05Jul98    0.6  Bank     Crito     Registrar
+VT2442 July 24  05Jul98    0.4  Bank     Steve     Registrar
+VT2441 July 24  05Jul98    0.4  Bank     Steve     Registrar
+VT2439 July 24  05Jul98    0.8  Bank     Chuck     Registrar
+VT2434 July 24  05Jul98    0.8  Bank     Michael   Registrar
+VT2436 July 24  05Jul98    0.4  Bank     Murphy    Registrar
+VT2438 July 24  05Jul98    0.6  Bank     Michael   Registrar
+VT2445 July 24  05Jul98    0.2  Bank     G.Chaos   Registrar
+VT2443 July 24  05Jul98    0.2  Bank     Antimatter         Registrar
+VT2446 July 24  05Jul98    0.2  Bank     Harlequin Registrar
+VT2447 July 24  05Jul98    0.2  Bank     macross   Registrar
+VT2449 July 24  05Jul98    0.2  Bank     Oerjan    Registrar
+VT2427 July 24  05Jul98    1    Bank     Oerjan    CotC
+VT2448 July 24  05Jul98    0.2  Bank     Morendil  Registrar
+VT2444 July 24  05Jul98    0.2  Bank     elJefe    Registrar
+VT2432 July 24  05Jul98    0.8  Bank     Blob      Registrar
+VT2440 July 24  05Jul98    0.8  Bank     Swann     Registrar
+VT2430 July 24  05Jul98    0.8  Bank     Steve     Registrar
+VT2609 July 25  Aug. 9    0.8      Bank      Crito    Registrar
+VT2631 July 25  Aug. 9    2        Bank      Steve    Accountor
+VT2630 July 25  Aug. 9    1        Bank      Kolja A. Accountor
+VT2629 July 25  Aug. 8    3        Bank      Crito    Accountor
+VT2628 July 25  Aug. 9    3        Bank      Chuck    Accountor
+VT2627 July 25  Aug. 9    3        Bank      Blob     Accountor
+VT2604 July 25  Aug. 9    0.8      Bank      Steve    Registrar
+VT2603 July 25  Aug. 9    0.4      Bank      Kolja A. Registrar
+VT2605 July 25  Aug. 9    0.6      Bank      Steve    Registrar
+VT2626 July 25  Aug. 9    0.2      Bank      Swann    Registrar
+VT2607 July 25  Aug. 9    0.4      Bank      Michael  Registrar
+VT2622 July 25  Aug. 9    0.2      Bank      Lee      Registrar
+VT2623 July 25  Aug. 9    0.2      Bank      Macross  Registrar
+VT2608 July 25  Aug. 8    0.8      Bank      Michael  Registrar
+VT2610 July 25  Aug. 8    0.4      Bank      Murphy   Registrar
+VT2613 July 25  Aug. 9    0.8      Bank      Chuck    Registrar
+VT2612 July 25  Aug. 9    0.6      Bank      Michael  Registrar
+VT2615 July 25  Aug. 8    0.4      Bank      Steve    Registrar
+VT2616 July 25  Aug. 8    0.4      Bank      Steve    Registrar
+VT2618 July 25  Aug. 9    0.2      Bank      Antimatter    Registrar
+VT2619 July 25  Aug. 8    0.2      Bank      elJefe   Registrar
+VT2620 July 25  Aug. 9    0.2      Bank      G. Chaos Registrar
+VT2621 July 25  Aug. 9    0.2      Bank      Harlequin Registrar
+VT2598 July 25  Aug. 4    1        Crito     Bank     Voting
+VT2611 July 25  Aug. 9    0.6      Bank      Crito    Registrar
+VT2602 July 25  26Jul98    2    Steve    Bank      Voting
+VT2617 July 25  26Jul98    2    Steve    Bank      Registrar
+VT2624 July 25  Aug. 9    0.2      Bank      Morendil Registrar
+VT2625 July 25  Aug. 9    0.2      Bank      Oerjan   Registrar
+VT2600 July 25  Aug. 3    1        Murphy    Bank     Voting
+VT2601 July 25  25Jul98    1    Oerjan   Bank      Voting
+VT2614 July 25  Aug. 8    0.8      Bank      Steve    Registrar
+VT2634 July 26  Aug. 8    1        Bank      Kolja     CotC
+VT2632 July 26  Aug. 9    1        Bank      Harlequin Speaker
+VT2633 July 27  Aug. 9    0.8      Bank      Steve    Registrar
+VT2657 Aug. 1   Aug. 8    0.2      Bank      Morendil Registrar
+VT2656 Aug. 1   Aug. 9    0.2      Bank      Macross  Registrar
+VT2655 Aug. 1   Aug. 8    0.2      Bank      Lee      Registrar
+VT2637 Aug. 1   Aug. 8    0.8      Bank      Steve    Registrar
+VT2639 Aug. 1   Aug. 8    0.8      Bank      Steve    Registrar
+VT2635 Aug. 1   Aug. 9    0.6      Bank      Blob     Registrar
+VT2650 Aug. 1   Aug. 9    2        Kolja     Bank     Registrar
+VT2649 Aug. 1   Aug. 8    0.4      Bank      Steve    Registrar
+VT2654 Aug. 1   Aug. 9    0.2      Bank      Harlequin Registrar
+VT2653 Aug. 1   Aug. 9    0.2      Bank      G.Chaos  Registrar
+VT2652 Aug. 1   Aug. 8    0.2      Bank      elJefe   Registrar
+VT2644 Aug. 1   Aug. 9    0.6      Bank      Crito    Registrar
+VT2643 Aug. 1   Aug. 8    0.4      Bank      Murphy   Registrar
+VT2642 Aug. 1   Aug. 8    0.8      Bank      Crito    Registrar
+VT2651 Aug. 1   Aug. 9    0.2      Bank      Antimatter    Registrar
+VT2660 Aug. 1   Aug. 8    1        Bank      Lee       CotC
+VT2638 Aug. 1   Aug. 9    0.6      Bank      Steve    Registrar
+VT2641 Aug. 1   Aug. 8    0.8      Bank      Michael  Registrar
+VT2640 Aug. 1   Aug. 8    0.4      Bank      Michael  Registrar
+VT2636 Aug. 1   Aug. 8    0.4      Bank      Kolja    Registrar
+VT2647 Aug. 1   Aug. 8    0.8      Bank      Steve    Registrar
+VT2645 Aug. 1   Aug. 9    0.6      Bank      Michael  Registrar
+VT2659 Aug. 1   Aug. 8    0.2      Bank      Swann    Registrar
+VT2658 Aug. 1   Aug. 9    0.2      Bank      Oerjan   Registrar
+VT2648 Aug. 1   Aug. 9    0.4      Bank      Steve    Registrar
+VT2646 Aug. 1   Aug. 9    0.8      Bank      Chuck    Registrar
+aaa284 Aug. 3   Sept. 8   1        Steve     Bank     Voting
+aaa284 Aug. 3   Sept. 8   1        Steve     Bank     Voting
+aaa282 Aug. 3   Aug. 6    1        Harlequin Bank     Voting
+aaa296 Aug. 12  Aug. 12   1        Steve     Bank     Voting
+aaa290 Aug. 12  Aug. 13   1        Crito     Bank     Voting
+aaa292 Aug. 12  Aug. 12   2        Kolja     Bank     Voting
+aaa303 Aug. 24  Aug. 25   2        Steve     Bank     voting
+aaa307 Aug. 27  Aug. 27   0.3      Bank      Steve     Steve
+aaa306 Aug. 27  Aug. 27   0.1      Bank      Steve     Steve
+aaa309 Sept. 2  Sept. 2   1        Crito     Bank     voting
+aaa320 Sept. 8  Sept. 8   2        Steve     Bank     voting
+------------------------------------------------------------------------
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 04:33 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA00749 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 04:33:48 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA31399
+	for agora-discussion-list; Wed, 9 Sep 1998 18:31:54 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA31396
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 18:31:52 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id SAA05983
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 18:32:15 +1000 (EST)
+	(envelope-from michael.norrish@cl.cam.ac.uk)
+Received: from heaton.cl.cam.ac.uk(128.232.32.11) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma005981; Wed, 9 Sep 98 18:31:51 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0zGfes-0000Cw-00; Wed, 9 Sep 1998 09:31:22 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0zGfer-0003iP-00; Wed, 9 Sep 1998 09:31:21 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13814.15577.275203.805101@albatross.cl.cam.ac.uk>
+Date: Wed, 9 Sep 1998 09:31:21 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: I rebel
+In-Reply-To: <199809080130.LAA16892@silas-1.cc.monash.edu.au>
+References: <13811.47403.805655.287754@albatross.cl.cam.ac.uk>
+	<199809080130.LAA16892@silas-1.cc.monash.edu.au>
+X-Mailer: VM 6.61 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 905
+Lines: 22
+
+Steve Gardner writes:
+ 
+>>> The other possibility, of course, signalled by your [Swann's]
+>>> Rebellion, is a Revolt. But Rebellion, as we know, is risky.
+
+>> Well, once you have over a ~ a 60% chance of succeeding, I don't
+>> know that it's really that risky.  If you only pick up 2 Blots a
+>> head, (plus an extra two for the Caller), this is only going to
+>> encourage you to try Rebelling in the next week.  And the average
+>> number of CfR's required for success is well under two.
+ 
+> When I made that remark, I had no idea how quickly the Rebellion
+> bandwagon would gain momentum. I thought there would be 5 Rebels at
+> most.
+ 
+Oh sure.  I was really just wondering whether or not the penalties for
+a failed rebellion were steep enough.  Or perhaps the rewards
+(penalties) for a successful (unsuccessful) revolt should be inversely
+proportional (proportional) to the chance of success.
+
+Michael.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 05:25 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA01668 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 05:25:32 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA31724
+	for agora-discussion-list; Wed, 9 Sep 1998 19:21:55 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA31721
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 19:21:53 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id TAA06064
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 19:22:16 +1000 (EST)
+	(envelope-from klaush@dij91.tp3.ruhr-uni-bochum.de)
+Received: from dij91.tp3.ruhr-uni-bochum.de(134.147.160.152) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006062; Wed, 9 Sep 98 19:21:46 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id LAA10536; Wed, 9 Sep 1998 11:19:48 +0200 (DFT)
+Date: Wed, 9 Sep 1998 11:19:48 +0200 (DFT)
+Message-Id: <199809090919.LAA10536@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-reply-to: <msg15218.thr-5169.f7405@Schawk.com> (agoralee@schawk.com)
+Subject: DIS: Re: Accountor's Report - request for leniency
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 387
+Lines: 12
+
+H. Accountor,
+
+It's nice to see the report published. 
+
+Like Steve, I am nearly sure that I always paid my voting POs right
+after they were issued, but it will take some work to prove it.
+
+Could you be so kind and only report us poor sinners for persistent
+indebtedness once, not once for every week that passed since the last
+Accountor's report? I would much appreciate this.
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 05:30 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA01702 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 05:29:58 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA31764
+	for agora-discussion-list; Wed, 9 Sep 1998 19:26:55 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA31761
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 19:26:53 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id TAA06077
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 19:27:17 +1000 (EST)
+	(envelope-from klaush@dij91.tp3.ruhr-uni-bochum.de)
+Received: from dij91.tp3.ruhr-uni-bochum.de(134.147.160.152) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006075; Wed, 9 Sep 98 19:27:03 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id LAA04660; Wed, 9 Sep 1998 11:25:21 +0200 (DFT)
+Date: Wed, 9 Sep 1998 11:25:21 +0200 (DFT)
+Message-Id: <199809090925.LAA04660@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-reply-to: <199809090816.SAA14846@silas-1.cc.monash.edu.au> (message from
+	Steve Gardner on Wed, 9 Sep 1998 18:16:38 +1000 (EST))
+Subject: DIS: Q to the accountor
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 172
+Lines: 8
+
+>>
+VT2691 Aug. 4   12:50:10 AM     2        Kolja     Bank      Kolja
+<<
+
+I don't understand this entry. Why should I have issued a _P_O from
+myself to the bank?
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 08:32 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA06033 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 08:32:43 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA32475
+	for agora-discussion-list; Wed, 9 Sep 1998 22:26:29 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA32472
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 22:26:26 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id WAA06308
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 22:26:50 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006306; Wed, 9 Sep 98 22:26:22 +1000
+Received: From mozart With LocalMail ; Wed, 9 Sep 98 22:25:52 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 22:25:44 +1000 (EST)
+Message-Id:  <980909122544.21766@cse.unsw.edu.au>
+Subject: Re: DIS: tidied up version of Accountor's Report
+In-Reply-To: <199809090816.SAA14846@silas-1.cc.monash.edu.au> from "Steve Gardner" at Sep 9, 98 06:16:38 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1519
+Lines: 36
+
+> 
+> 
+> Here is somewhat prettified version of lee's Accountor's Report. Many
+> thanks to lee for the enormous amount of work he has put into this.
+> 
+> Date of this report: Sept. 8
+> Date of Last Report: Aug. 2
+
+This report seems quite out of whack. I have checked it against my
+records for the time that I was Accountor, and it would seem that I,
+among other players, have been charged twice for voting costs. Also,
+a number of POs, for which I have fulfilling TOs on file, are still
+recorded as unfulfilled (and I did pass all my records on to lee.)
+
+Probably we are now in such a position that completely recovering the
+state of play is impossible, but I will not agree to have this report
+ratified, when it so strongly disadvantages me.
+
+How are we going to fix this? I'd recommend we restart with a level
+playing field, if nobody objects. I realise that some people will be
+disadvantaged by this (and others, like me, will benefit), but I am
+not willing to leave it like it is, and I can see no fair way to 
+bring it back into line.
+
+Blob
+
+PS: I am not trying to blame Lee. I dropped em in a difficult position,
+which quickly became an impossible one.
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 08:39 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA06186 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 08:39:50 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA32577
+	for agora-discussion-list; Wed, 9 Sep 1998 22:36:29 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA32574
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 22:36:27 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id WAA06319
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 22:36:50 +1000 (EST)
+	(envelope-from agoralee@schawk.com)
+Received: from click.schawk.com(205.184.253.12) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006317; Wed, 9 Sep 98 22:36:21 +1000
+Received: from schawk-pdc (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 48; 7:24:15 AM -0500
+From: agoralee@schawk.com (Agora lee)
+To: klaush@tp3.ruhr-uni-bochum.de
+Cc: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 07:23:25 -0500
+Subject: Re: DIS: Re: Accountor's Report - request for leniency
+Message-ID: <msg15244.thr-eb0a.760096@Schawk.com>
+References: <199809090919.LAA10536@dij91.tp3.ruhr-uni-bochum.de>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg15244.thr-eb0a.760096.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 456
+Lines: 13
+
+klaush@tp3.ruhr-uni-bochum.de,Internet writes:
+>Could you be so kind and only report us poor sinners for persistent
+>indebtedness once, not once for every week that passed since the last
+>Accountor's report? I would much appreciate this.
+
+>Kolja A.
+
+I would love to do it that way.  As long as the Rules support it, I
+will.  Any other opinions on whether it is legal for me to do so?
+
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 08:49 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA06480 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 08:49:18 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA32632
+	for agora-discussion-list; Wed, 9 Sep 1998 22:41:59 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA32629
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 22:41:57 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id WAA06332
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 22:42:20 +1000 (EST)
+	(envelope-from agoralee@schawk.com)
+Received: from click.schawk.com(205.184.253.12) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006330; Wed, 9 Sep 98 22:42:02 +1000
+Received: from schawk-pdc (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 55; 7:39:33 AM -0500
+From: agoralee@schawk.com (Agora lee)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 07:37:17 -0500
+Subject: Re: DIS: somewhat prettified VT Report
+Message-ID: <msg15247.thr-16394c9c.76adf1@Schawk.com>
+References: <199809090809.SAA18868@silas-1.cc.monash.edu.au>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg15247.thr-16394c9c.76adf1.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 3018
+Lines: 68
+
+gardner@silas-2.cc.monash.edu.au,Internet writes:
+>I've prepared a somewhat prettified version of lee's Report, which
+>corrects some of the grosser format mangling to which it has been
+>subjected in the course of transmission, and which should make it a
+>little easier to see what's going on.
+
+>I've a few comments for lee, mostly about formatting:
+
+>1. You need to make sure your name fields are wide enough to accomodate
+>Player's names. 'Harlequin' is a 9 letter word, and 'Antimatter' has 10,
+>so an 8 letter field width is not enough.
+I am using a spreadsheet not a database, I will widen the name columns.
+
+>2. Since ideally, you want all the information about any particular PO
+>to fit on one line, and since 75 characters isn't much space, it's
+>important to be economical. I think your date and time fields take up
+>far too much space. In my prettified version, I deleted all year
+>information, for instance, saving 5 characters. You don't need AM/PM
+>information if you express times as 24 hour times. And there are more
+>economical ways to express months. Thus,
+
+>Sept. 8, 1998   01:49:32 PM   could become
+>08-09-98 13:49:32             or 
+>08 Sep 13:49:32               or even
+>08-09 13:49:32 
+Ok, i will try for a smaller date field.  Warning, I an a Merkian and
+my program may just spit them out in MM-DD-YY.  I will try for the more
+logical format.
+
+>saving as much as 12 characters per line while maintaining reasonable
+>readability.
+
+>3. In the Outstanding POs section, you list a number of POs with their
+>original Assessor labels of the form 'aaannn'. Most or all of these
+>would have been given a new Accountor label of the form VTPOnnnn by
+>former Heralds Crito and Blob, which may account for your not being able
+>to match up Transfer Orders satisfying them. I know in my own case that
+>I am very conscientious about satisfying POs, and usually do so as soon
+>as I issue them (since most VT POs naming Players as Payors are issued
+>by the Assessor for voting). I doubt that I actually have any
+>outstanding POs for VTs, and I'll do my best to track down the messages
+>from the Archives in which the POs you list as outstanding were
+>satisfied.
+Is it ok if i keep their original PO tags from now on?  It makes it
+much easier for me to track.  I do think that many of the payments for
+VTxxxx were meant to satisfy aaannn, but i am at a loss on how to match
+them up.  Any suggestions? This is part of what took forever.  I
+finally just gave up. I am at a loss.  
+
+>4. You need to add Proglet to you database.
+It's a spread sheet and I already have hem there.  He has received a
+new Player award.
+
+>5. What is the entry for 'mbc'?
+Master Builder Contest.
+
+I really appreciate your comments.  I hope others step in and make
+suggestions if something is bothering them about the report. I did not
+realize i was going for a 75 column report.  I will keep that in mind. 
+This reminds me of my days of programming in COBOL.
+
+Lee
+
+
+
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 08:51 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA06542 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 08:51:00 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA32658
+	for agora-discussion-list; Wed, 9 Sep 1998 22:45:59 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA32655
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 22:45:57 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id WAA06342
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 22:46:21 +1000 (EST)
+	(envelope-from agoralee@schawk.com)
+Received: from click.schawk.com(205.184.253.12) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006340; Wed, 9 Sep 98 22:46:04 +1000
+Received: from schawk-pdc (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 63; 7:43:34 AM -0500
+From: agoralee@schawk.com (Agora lee)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 07:43:06 -0500
+Subject: DIS: Re: possible error in outstanding PO section of Accountor's report
+Message-ID: <msg15255.thr-4f255600.760096@Schawk.com>
+References: <13814.17969.557222.648612@albatross.cl.cam.ac.uk>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg15255.thr-4f255600.760096.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 291
+Lines: 8
+
+Michael.Norrish@cl.cam.ac.uk,Internet writes:
+>  yyyy-mm-dd hh:mm:ss (+TZTZ)
+
+I will try, but i think my program will choke on this form.  I will be
+consistent within a report.  Also All times are (+1000) in the report.
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 08:54 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA06608 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 08:54:09 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA32682
+	for agora-discussion-list; Wed, 9 Sep 1998 22:49:00 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA32676
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 22:48:57 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id WAA06347
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 22:49:21 +1000 (EST)
+	(envelope-from agoralee@schawk.com)
+Received: from click.schawk.com(205.184.253.12) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006345; Wed, 9 Sep 98 22:49:06 +1000
+Received: from schawk-pdc (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 64; 7:46:36 AM -0500
+From: agoralee@schawk.com (Agora lee)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 07:46:05 -0500
+Subject: Re: DIS: tidied up version of Accountor's Report
+Message-ID: <msg15259.thr-ee53700.760096@Schawk.com>
+References: <980909122544.21766@cse.unsw.edu.au>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg15259.thr-ee53700.760096.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 1218
+Lines: 30
+
+malcolmr@cse.unsw.edu.au,Internet writes:
+
+>This report seems quite out of whack. I have checked it against my
+>records for the time that I was Accountor, and it would seem that I,
+>among other players, have been charged twice for voting costs. Also,
+>a number of POs, for which I have fulfilling TOs on file, are still
+>recorded as unfulfilled (and I did pass all my records on to lee.)
+
+>Probably we are now in such a position that completely recovering the
+>state of play is impossible, but I will not agree to have this report
+>ratified, when it so strongly disadvantages me.
+
+>How are we going to fix this? I'd recommend we restart with a level
+>playing field, if nobody objects. I realise that some people will be
+>disadvantaged by this (and others, like me, will benefit), but I am
+>not willing to leave it like it is, and I can see no fair way to 
+>bring it back into line.
+
+>Blob
+
+>PS: I am not trying to blame Lee. I dropped em in a difficult position,
+>which quickly became an impossible one.
+
+I am quite willing to try to fix the report.  If you could be so kind
+as to point out the double charges by quoting them,  i will fix them.
+
+
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 10:01 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA09017 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 10:01:03 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA00197
+	for agora-discussion-list; Wed, 9 Sep 1998 23:55:01 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA00191
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 23:54:58 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id XAA06415
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 23:55:22 +1000 (EST)
+	(envelope-from agoralee@schawk.com)
+Received: from click.schawk.com(205.184.253.12) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006410; Wed, 9 Sep 98 23:54:53 +1000
+Received: from schawk-pdc (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 108; 8:51:45 AM -0500
+From: agoralee@schawk.com (Agora lee)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 08:49:25 -0500
+Subject: Re: DIS: Re: OFF: Off:Accountor's Report for September 8, 1998
+Message-ID: <msg15297.thr-1bd6719d.760096@Schawk.com>
+References: <Pine.LNX.4.03.9809082359280.3615-100000@tyrell.nvg.ntnu.no>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg15297.thr-1bd6719d.760096.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 782
+Lines: 27
+
+oerjan@nvg.ntnu.no,Internet writes:
+>On Tue, 8 Sep 1998, Agora lee wrote:
+
+>> This look a lot better when i sent it than when I received it.  I am
+>> sorry I ma looking into a way to repost it in a better format.
+
+>OK, the basic laws of ASCII graphic:
+
+>1)  Use a fixed width font (when creating and when viewing.)
+>2)  Don't use <tab>s.
+
+>Anything else _will_ look completely different on another screen with
+>another font and tab stops.
+
+>Your problem seems to stem from (2).  Although when converting <tab>s to
+>spaces it is important to remember (1).
+
+>In Unix, the "expand" command is useful for this purpose.
+
+>Greetings,
+>Ørjan.
+
+Thanks for the tips, I will repost. I wish I has a Unix machine for
+this!
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 10:02 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA09040 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 10:02:00 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA00230
+	for agora-discussion-list; Thu, 10 Sep 1998 00:00:00 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA00227
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 23:59:58 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id AAA06435
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 00:00:22 +1000 (EST)
+	(envelope-from agoralee@schawk.com)
+Received: from click.schawk.com(205.184.253.12) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006433; Thu, 10 Sep 98 00:00:12 +1000
+Received: from schawk-pdc (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 113; 8:57:13 AM -0500
+From: agoralee@schawk.com (Agora lee)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 08:56:25 -0500
+Subject: DIS: Re: possible error in outstanding PO section of Accountor's report
+Message-ID: <msg15302.thr-4f255600.760096@Schawk.com>
+References: <13814.17969.557222.648612@albatross.cl.cam.ac.uk>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg15302.thr-4f255600.760096.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 645
+Lines: 14
+
+Michael.Norrish@cl.cam.ac.uk,Internet writes:
+>VT2726 Aug. 12  10:04:38 PM     2        Michael   Bank     Voting
+>aaa294 Aug. 12  10:03:24 PM     2        Michael   Bank     Voting
+
+I will go through the report tonight and look for more pairs like this.
+ Michael is probably correct in that they are the same PO.  I will post
+the results.  May be everyone's debt will not be so high or so late! 
+This is precisely why i would rather keep the original PO# and not
+reassign it one of my own.
+Can anyone tell me a definitive way to tell which PO pairs are really
+the same PO?
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 10:34 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA10532 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 10:34:05 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA00395
+	for agora-discussion-list; Thu, 10 Sep 1998 00:31:32 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA00392
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 00:31:29 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id AAA06487
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 00:31:53 +1000 (EST)
+	(envelope-from michael.norrish@cl.cam.ac.uk)
+Received: from heaton.cl.cam.ac.uk(128.232.32.11) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006474; Thu, 10 Sep 98 00:29:06 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0zGlE8-0002Uq-00; Wed, 9 Sep 1998 15:28:08 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0zGlE7-0004Qj-00; Wed, 9 Sep 1998 15:28:07 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13814.36983.271701.437333@albatross.cl.cam.ac.uk>
+Date: Wed, 9 Sep 1998 15:28:07 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: BUS: nomination
+In-Reply-To: <msg15241.thr-9d52a9.f7405@Schawk.com>
+References: <msg15241.thr-9d52a9.f7405@Schawk.com>
+X-Mailer: VM 6.61 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 97
+Lines: 6
+
+Agora lee writes:
+> i nominate for Wizard.
+ 
+You can't; that Office no longer exists. 
+
+Michael.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 11:00 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA11698 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 11:00:30 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA00505
+	for agora-discussion-list; Thu, 10 Sep 1998 00:54:01 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA00499
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 00:53:59 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id AAA06509
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 00:54:23 +1000 (EST)
+	(envelope-from agoralee@schawk.com)
+Received: from click.schawk.com(205.184.253.12) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006507; Thu, 10 Sep 98 00:53:38 +1000
+Received: from schawk-pdc (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 131; 9:50:22 AM -0500
+From: agoralee@schawk.com (Agora lee)
+To: Michael.Norrish@cl.cam.ac.uk
+Cc: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 09:47:27 -0500
+Subject: Re: DIS: BUS: nomination
+Message-ID: <msg15317.thr-9d52a9.f7405@Schawk.com>
+References: <msg15241.thr-9d52a9.f7405@Schawk.com> <13814.36983.271701.437333@albatross.cl.cam.ac.uk>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg15317.thr-9d52a9.f7405.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 342
+
+Michael.Norrish@cl.cam.ac.uk,Internet writes:
+>Agora lee writes:
+>> i nominate for Wizard.
+> 
+>You can't; that Office no longer exists. 
+
+>Michael.
+
+Silly me, what is the date of the newest ruleset? I had recently saved
+one that I thought was new, but obviously is not.
+
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 12:00 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA14218 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 11:59:58 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA00931
+	for agora-discussion-list; Thu, 10 Sep 1998 01:50:33 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id BAA00928
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 01:50:30 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id BAA06623
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 01:50:54 +1000 (EST)
+	(envelope-from oerjan@nvg.ntnu.no)
+Received: from sabre-wulf.nvg.ntnu.no(129.241.210.67) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006620; Thu, 10 Sep 98 01:50:50 +1000
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 31245]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49276-31041> convert rfc822-to-quoted-printable; Wed, 9 Sep 1998 17:47:03 +0200
+Date: 	Wed, 9 Sep 1998 17:46:48 +0200 (CEST)
+From: "Dr. Orjan Johansen" <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: Accountor's Report - request for leniency
+In-Reply-To: <msg15244.thr-eb0a.760096@Schawk.com>
+Message-ID: <Pine.LNX.4.03.9809091744150.25097-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from QUOTED-PRINTABLE to 8bit by gecko.serc.rmit.edu.au id BAA00929
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=iso-8859-1
+Content-Length: 839
+Lines: 24
+
+On Wed, 9 Sep 1998, Agora lee wrote:
+
+> klaush@tp3.ruhr-uni-bochum.de,Internet writes:
+> >Could you be so kind and only report us poor sinners for persistent
+> >indebtedness once, not once for every week that passed since the last
+> >Accountor's report? I would much appreciate this.
+> 
+> I would love to do it that way.  As long as the Rules support it, I
+> will.  Any other opinions on whether it is legal for me to do so?
+
+As far as I can tell, there exists no general duty to report Infractions.
+
+In fact I cannot find any remains of the old Rule that allowed other
+Players to use the court system to report Infractions when the authorized
+Player refuses to do it.
+
+Greetings,
+Ørjan.
+
+-- 
+A pro-spam bill has passed the US Senate, and is now in the House of
+Representatives.  See <http://www.cauce.org> and
+<http://www.ybecker.net/>.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 12:05 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA14497 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 12:05:47 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA00996
+	for agora-discussion-list; Thu, 10 Sep 1998 02:02:03 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA00990
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 02:02:00 +1000
+From: morendil@micronet.fr
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id CAA06726
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 02:02:24 +1000 (EST)
+	(envelope-from morendil@micronet.fr)
+Received: from logatome-2.francenet.fr(193.149.96.2) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006724; Thu, 10 Sep 98 02:01:56 +1000
+Received: from sophie (pppA200.francenet.fr [193.149.100.110])
+	by logatome.micronet.fr (8.8.8/8.8.8) with SMTP id SAA15026
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 18:00:06 +0200 (CEST)
+Message-Id: <199809091600.SAA15026@logatome.micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 17:58:56 +0200
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Re: Accountor's Report - request for leniency
+References: <msg15244.thr-eb0a.760096@Schawk.com>
+In-reply-to: <Pine.LNX.4.03.9809091744150.25097-100000@tyrell.nvg.ntnu.no>
+X-mailer: Pegasus Mail for Win32 (v3.00 beta 6)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 523
+Lines: 11
+
+> In fact I cannot find any remains of the old Rule that allowed other
+> Players to use the court system to report Infractions when the authorized
+> Player refuses to do it.
+
+Hmm, that's good. Means RKs and other Officers can now take bribes not to 
+report offenders. :)
+
+======================================================================
+NetDIVE: the leader in Java based Client/Server systems for Voice
+communication, Virtual meeting & Text Chat
+======================================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 12:24 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA15157 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 12:24:02 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA01089
+	for agora-discussion-list; Thu, 10 Sep 1998 02:22:02 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA01086
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 02:22:01 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id CAA06766
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 02:22:25 +1000 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from belize.ucs.indiana.edu(129.79.10.64) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006764; Thu, 10 Sep 98 02:21:56 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-120.ucs.indiana.edu [156.56.126.120])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id LAA15403
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 11:20:05 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id LAA29665 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 9 Sep 1998 11:20:02 -0500
+Message-Id: <199809091620.LAA29665@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: Accountor's Report - request for leniency 
+In-reply-to: Your message of "Wed, 09 Sep 1998 17:46:48 +0200."
+             <Pine.LNX.4.03.9809091744150.25097-100000@tyrell.nvg.ntnu.no> 
+Date: Wed, 09 Sep 1998 11:20:00 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 585
+Lines: 13
+
+"Orjan" == Orjan Johansen <oerjan@nvg.ntnu.no> writes:
+
+Orjan> As far as I can tell, there exists no general duty to report
+Orjan> Infractions.
+
+Orjan> In fact I cannot find any remains of the old Rule that allowed
+Orjan> other Players to use the court system to report Infractions
+Orjan> when the authorized Player refuses to do it.
+
+If there was a duty to report Infractions, a judicial Motion and Order
+to Compel would be available for that purpose.  Since, as you note,
+there is no such duty, there is no mechanism.  I leave it to the
+polity to decide whether this is appropriate.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 13:22 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA17359 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 13:21:59 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA01416
+	for agora-discussion-list; Thu, 10 Sep 1998 03:19:35 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id DAA01413
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 03:19:32 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id DAA06938
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 03:19:56 +1000 (EST)
+	(envelope-from oerjan@nvg.ntnu.no)
+Received: from sabre-wulf.nvg.ntnu.no(129.241.210.67) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma006936; Thu, 10 Sep 98 03:19:42 +1000
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 24362]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49299-31041> convert rfc822-to-quoted-printable; Wed, 9 Sep 1998 19:15:58 +0200
+Date: 	Wed, 9 Sep 1998 19:15:49 +0200 (CEST)
+From: "Dr. Orjan Johansen" <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: OFF: Off:Accountor's Report for September 8, 1998
+In-Reply-To: <msg15297.thr-1bd6719d.760096@Schawk.com>
+Message-ID: <Pine.LNX.4.03.9809091902040.25097-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from QUOTED-PRINTABLE to 8bit by gecko.serc.rmit.edu.au id DAA01414
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=iso-8859-1
+Content-Length: 550
+
+On Wed, 9 Sep 1998, Agora lee wrote:
+
+> oerjan@nvg.ntnu.no,Internet writes:
+> >In Unix, the "expand" command is useful for this purpose.
+> 
+> Thanks for the tips, I will repost. I wish I has a Unix machine for
+> this!
+
+You don't need that, although it might be a bit awkward to use these
+filter programs from Windows.
+
+<http://ftpsearch.ntnu.no/cgi-bin/search?query=tut111ax.zip>
+
+Greetings,
+Ørjan.
+
+-- 
+A pro-spam bill has passed the US Senate, and is now in the House of
+Representatives.  See <http://www.cauce.org> and
+<http://www.ybecker.net/>.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 14:13 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA19402 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 14:13:35 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA01622
+	for agora-discussion-list; Thu, 10 Sep 1998 04:12:05 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA01619
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 04:12:03 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id EAA07005
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 04:12:27 +1000 (EST)
+	(envelope-from oerjan@nvg.ntnu.no)
+Received: from sabre-wulf.nvg.ntnu.no(129.241.210.67) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007003; Thu, 10 Sep 98 04:12:18 +1000
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 7979]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49368-31041> convert rfc822-to-quoted-printable; Wed, 9 Sep 1998 20:08:48 +0200
+Date: 	Wed, 9 Sep 1998 20:08:38 +0200 (CEST)
+From: "Dr. Orjan Johansen" <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: somewhat prettified VT Report
+In-Reply-To: <msg15247.thr-16394c9c.76adf1@Schawk.com>
+Message-ID: <Pine.LNX.4.03.9809092002010.25097-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from QUOTED-PRINTABLE to 8bit by gecko.serc.rmit.edu.au id EAA01620
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=iso-8859-1
+Content-Length: 945
+
+On Wed, 9 Sep 1998, Agora lee wrote:
+
+> Ok, i will try for a smaller date field.  Warning, I an a Merkian and
+> my program may just spit them out in MM-DD-YY.  I will try for the more
+> logical format.
+
+I think we will be able to cope with MM-DD-YY if that is the result.
+
+> I really appreciate your comments.  I hope others step in and make
+> suggestions if something is bothering them about the report. I did not
+> realize i was going for a 75 column report.  I will keep that in mind. 
+> This reminds me of my days of programming in COBOL.
+
+Well, 75 columns can be quoted twice without breaking, but as long as it
+is 79 or less at least the original will look good, unless your mailer
+autowraps at less.
+
+In an emergency I suppose you might split each row into two parts.
+
+Greetings,
+Ørjan.
+
+-- 
+A pro-spam bill has passed the US Senate, and is now in the House of
+Representatives.  See <http://www.cauce.org> and
+<http://www.ybecker.net/>.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 17:33 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA27227 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 17:33:04 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA02367
+	for agora-discussion-list; Thu, 10 Sep 1998 07:31:08 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA02364
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 07:31:06 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id HAA07230
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 07:31:31 +1000 (EST)
+	(envelope-from ccarroll@dfw.nationwide.net)
+Received: from dfw.nationwide.net(198.175.15.10) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007228; Thu, 10 Sep 98 07:31:09 +1000
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id QAA09669
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 9 Sep 1998 16:26:16 -0500 (CDT)
+Message-Id: <199809092126.QAA09669@dfw.nationwide.net>
+Subject: Re: DIS: A minor flaw in R1079
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 16:26:15 -0500 (CDT)
+In-Reply-To: <199809090107.LAA18966@silas-2.cc.monash.edu.au> from "Steve Gardner" at Sep 9, 98 11:07:58 am
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 644
+Lines: 16
+
+Steve Gardner wrote:
+>
+>But my point is precisely that whether your regard the above situation
+>as the making of two choices each between 2 options, or as the making of
+>one choice between 4 options is a somewhat arbitrary matter.
+
+Except that the rules treat it as 2 choices each between 2 options.
+
+Likewise, one might argue that Michael's determination of the
+result of the recent revolt was a choice between two possible
+outcomes: success, with probability 10/17; and failure, with
+probability 7/17.  Except this would be wrong, because the Rules
+explicitly require that he choose an integer between 1 and 17
+with equal probability.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 17:38 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA27353 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 17:38:12 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA02410
+	for agora-discussion-list; Thu, 10 Sep 1998 07:36:38 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA02407
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 07:36:36 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id HAA07238
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 07:37:01 +1000 (EST)
+	(envelope-from ccarroll@dfw.nationwide.net)
+Received: from dfw.nationwide.net(198.175.15.10) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007236; Thu, 10 Sep 98 07:36:52 +1000
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id QAA11427
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 9 Sep 1998 16:32:00 -0500 (CDT)
+Message-Id: <199809092132.QAA11427@dfw.nationwide.net>
+Subject: Re: DIS: A minor flaw in R1079
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 16:31:59 -0500 (CDT)
+In-Reply-To: <3.0.5.32.19980909000538.00ac1360@cyber1.servtech.com> from "Joshua Hall-Bachner" at Sep 9, 98 00:05:38 am
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 681
+Lines: 17
+
+Joshua Hall-Bachner wrote:
+>
+>At 06:14 PM 9/8/98 -0500, Charles E. Carroll wrote:
+>
+>>My reply: R1079 talks about what is required when the Rules
+>>require "a random choice," not "one or more random choices."
+>
+>But, doing it the way you described, the second is *not* a random choice.
+>The second is a choice based entirely on the result of the first choice. I
+>cannot see any way in which this could be defended as "random."
+
+There's no "first" or "second."  I'm suggesting the two selection
+be made simultaneously.  (If they are not made simultaneously,
+you are right that the second is not random, since you know what
+the outcome will be before you make the selection.)
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 17:50 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA27688 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 17:50:17 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA02489
+	for agora-discussion-list; Thu, 10 Sep 1998 07:48:39 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA02486
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 07:48:37 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id HAA07254
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 07:49:01 +1000 (EST)
+	(envelope-from ccarroll@dfw.nationwide.net)
+Received: from dfw.nationwide.net(198.175.15.10) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007252; Thu, 10 Sep 98 07:48:47 +1000
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id QAA15474
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 9 Sep 1998 16:43:55 -0500 (CDT)
+Message-Id: <199809092143.QAA15474@dfw.nationwide.net>
+Subject: Re: DIS: BUS: nomination
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 16:43:55 -0500 (CDT)
+In-Reply-To: <msg15317.thr-9d52a9.f7405@Schawk.com> from "Agora lee" at Sep 9, 98 09:47:27 am
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 357
+Lines: 11
+
+Agora lee wrote:
+>
+>Silly me, what is the date of the newest ruleset? I had recently saved
+>one that I thought was new, but obviously is not.
+
+Nope, you have the most recently published Ruleset--but you have
+to check Proposal results that have been published since then, too.
+I haven't yet published a Ruleset which incorporates Proposals
+3787-3788.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 17:59 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA27917 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 17:59:34 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA02545
+	for agora-discussion-list; Thu, 10 Sep 1998 07:57:39 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA02542
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 07:57:37 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id HAA07270
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 07:58:02 +1000 (EST)
+	(envelope-from ccarroll@dfw.nationwide.net)
+Received: from dfw.nationwide.net(198.175.15.10) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007268; Thu, 10 Sep 98 07:57:55 +1000
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id QAA19093
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 9 Sep 1998 16:53:03 -0500 (CDT)
+Message-Id: <199809092153.QAA19093@dfw.nationwide.net>
+Subject: DIS: Re: OFF: Off:Accountor's Report for September 8, 1998
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 16:53:02 -0500 (CDT)
+In-Reply-To: <msg15179.thr-9d5169.f7405@Schawk.com> from "Agora lee" at Sep 8, 98 02:31:24 pm
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 483
+Lines: 16
+
+Agora lee wrote:
+>
+>--------------------------------------------------------------------
+>OUTSTANDING	PAYMENT	ORDERS					
+>ID	Executed Date	Ex. Time	Amt.	Payor	Payee	Executor	
+>VT2590	July 22, 1998	01:56:15	3 	Chuck	Bank	Voting	
+>
+>
+>SATISFIED	PAYMENT	ORDERS					
+>ID	Exec.	Satis.	Amt.	Payor	Payee	Executor	
+>------	-------	--------	-----	--------	------------	---------	
+>aaa262	July 22, 1998	August 3, 1998	3 	Chuck	Bank	voting	
+
+I would suggest that these are the same PO.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 21:06 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA03541 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 21:06:22 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA03323
+	for agora-discussion-list; Thu, 10 Sep 1998 11:03:43 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA03320
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 11:03:40 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id LAA07543
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 11:04:05 +1000 (EST)
+	(envelope-from gardner@silas-1.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007541; Thu, 10 Sep 98 11:03:38 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id LAA16488
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 10 Sep 1998 11:01:58 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199809100101.LAA16488@silas-1.cc.monash.edu.au>
+Subject: DIS: Re: BUS: nomination
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 10 Sep 1998 11:01:57 +1000 (EST)
+In-Reply-To: <msg15241.thr-9d52a9.f7405@Schawk.com> from "Agora lee" at Sep 9, 98 07:17:16 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 301
+
+Agora lee wrote:
+>
+>i nominate for Wizard.
+
+The Office of Wizard has just been repealed.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 21:10 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA03727 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 21:10:22 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA03476
+	for agora-discussion-list; Thu, 10 Sep 1998 11:08:43 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA03469
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 11:08:40 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id LAA07551
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 11:09:05 +1000 (EST)
+	(envelope-from gardner@silas-2.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007549; Thu, 10 Sep 98 11:08:53 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id LAA07601
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 10 Sep 1998 11:07:14 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199809100107.LAA07601@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: BUS: nomination
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 10 Sep 1998 11:07:14 +1000 (EST)
+In-Reply-To: <msg15317.thr-9d52a9.f7405@Schawk.com> from "Agora lee" at Sep 9, 98 09:47:27 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 622
+
+Agora lee wrote:
+>
+>Michael.Norrish@cl.cam.ac.uk,Internet writes:
+>>Agora lee writes:
+>>> i nominate for Wizard.
+>> 
+>>You can't; that Office no longer exists. 
+>
+>>Michael.
+>
+>Silly me, what is the date of the newest ruleset? I had recently saved
+>one that I thought was new, but obviously is not.
+
+The repeals are very recent - last Monday in fact. I'm not sure if Chuck
+has issued a new Ruleset since then.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 21:13 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA03803 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 21:13:31 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA03635
+	for agora-discussion-list; Thu, 10 Sep 1998 11:11:43 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA03632
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 11:11:40 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id LAA07567
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 11:12:05 +1000 (EST)
+	(envelope-from gardner@silas-1.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007565; Thu, 10 Sep 98 11:11:55 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id LAA18009
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 10 Sep 1998 11:10:15 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199809100110.LAA18009@silas-1.cc.monash.edu.au>
+Subject: DIS: Re: OFF: Ambassador's report
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 10 Sep 1998 11:10:15 +1000 (EST)
+In-Reply-To: <199809091859.UAA32832@dij91.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns" at Sep 9, 98 08:59:36 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 708
+
+Klaus Herrmanns wrote:
+>
+>Agora Nomic
+>Ambassador's Report
+>
+>Date of this Report: 9 Sep 1998
+>
+>======================================================================
+>Diplomatic Report
+>
+>Nothing official to report.
+>
+>======================================================================
+>Friendliness Report:
+>
+>Friendly: Agora, FRC, InterNomic
+>Hostile:  none
+
+In view of recent statements from the Pumpkin Patch, perhaps we ought
+to reconsider our diplomaitc status with respect to them?
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 21:54 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA04756 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 21:54:51 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA04023
+	for agora-discussion-list; Thu, 10 Sep 1998 11:52:44 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA04020
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 11:52:41 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id LAA07604
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 11:53:06 +1000 (EST)
+	(envelope-from gardner@silas-2.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007602; Thu, 10 Sep 98 11:52:59 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id LAA15896
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 10 Sep 1998 11:51:20 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199809100151.LAA15896@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: tidied up version of Accountor's Report
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 10 Sep 1998 11:51:19 +1000 (EST)
+In-Reply-To: <199809090816.SAA14846@silas-1.cc.monash.edu.au> from "Steve Gardner" at Sep 9, 98 06:16:38 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3070
+
+H. Accountor lee,
+
+I've looked into my own case to begin with. You list 5 Outstanding POs
+naming me as Payor. 
+
+>--------------------------------------------------------------------
+>OUTSTANDING PAYMENT ORDERS
+>--------------------------------------------------------------------
+>ID     Ex. Date Ex.Time         AMt.     Payor     Payee    Executor/Reason
+>
+>aaa267 July 22  11:56:15 AM     2        Steve     Bank     voting
+>VT2689 Aug. 3   10:55:54 AM     1        Steve     Bank     Voting
+>VT2722 Aug. 12  10:04:38 PM     1        Steve     Bank     Voting
+>VT2787 Aug. 24  05:59:13 PM     2        Steve     Bank     Voting
+>aaa312 Sept. 2  04:50:32 AM     2        Steve     Bank     voting
+
+Let's take them 1 at a time.
+
+1. aaa267. VT2595 in the Satisfied list corresponds to this one.
+
+2. VT2689. This corresponds to aaa284 in the Satisfied list. Now, I paid
+aaa284 for a second time a few days ago (on Sep. 8, as your records
+show) after you told me that my first attempt was a failure due to
+insufficient funds. However, I suspect that my funds only appeared to
+be insufficient because you have listed many Salary POs as Outstanding,
+when in fact I'm sure they were paid by Chancellor Michael. He can
+probably help you identify the messages in which the payments were made.
+They usually have Subject lines like "Bank Transactions". At any rate,
+my feeling is that your final Report will show that my original attempt
+was a success.
+
+3. VT2722. Corresponds to aaa296.
+
+4. VT2787. Corresponds to aaa303.
+
+5. aaa312. Record of payment seems to be missing. But I definitely paid
+it. Unfortunately, I don't seem to be able to access the Archives at the
+moment so I can't prove it yet.
+
+Also:
+
+You have a repeated entry for aaa284 in the Satisfied list. This is 
+one of the POs I paid just a few days ago after you told me that my
+original attempt had been a failure due to insufficient funds. The other
+one seems to have gone missing from your Report. In any case, it may be
+that my original attempts were successful after all, once the facts
+Salaries were in fact paid has been taken into account.
+
+
+>--------------------------------------------------------------------
+>SATISFIED PAYMENT ORDERS
+>--------------------------------------------------------------------
+>ID     Exec.    Satis.     AMt. Payor    Payee     Executor
+>------ -------  --------   ---- -----    -----     ---------
+>VT2595 July 22  23Jul98    2    Steve    Bank      Voting
+>aaa296 Aug. 12  Aug. 12   1        Steve     Bank     Voting
+>aaa303 Aug. 24  Aug. 25   2        Steve     Bank     voting
+>aaa284 Aug. 3   Sept. 8   1        Steve     Bank     Voting
+>aaa284 Aug. 3   Sept. 8   1        Steve     Bank     Voting
+>aaa320 Sept. 8  Sept. 8   2        Steve     Bank     voting
+>------------------------------------------------------------------------
+
+Hope this helps.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 22:17 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA05342 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 22:17:37 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA04369
+	for agora-discussion-list; Thu, 10 Sep 1998 12:15:42 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA04366
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 12:15:40 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id MAA07647
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 12:16:07 +1000 (EST)
+	(envelope-from gardner@silas-1.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007645; Thu, 10 Sep 98 12:15:55 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id MAA24667
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 10 Sep 1998 12:14:15 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199809100214.MAA24667@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: Reference on random numbers from stock indices and the like
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 10 Sep 1998 12:14:14 +1000 (EST)
+In-Reply-To: <199809081600.SAA32704@dij91.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns" at Sep 8, 98 06:00:49 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2228
+Lines: 47
+
+Klaus Herrmanns wrote:
+>
+>When I first saw Michaels stock market related way to determine a
+>random number I seemed to remember that in a very generic way this
+>production of random numbers from numeric values that appear in
+>"nature" is more difficult than expected, becasue there are claims
+>that even apparently innocent last digits of all kinds of numbers are
+>not really randomly distributed. 
+>
+>I didn't mention this because I didn't remember any quotation, and the
+>idea sounds somewhat silly. However, I've just come across a recent
+>article in the statistical physics literature that discusses this
+>claim. It is publically available (as Latex or Postscript) from
+><http://xxx.uni-augsburg.de/abs/cond-mat/9808305>
+>
+>I'll try to read it this week.
+
+The site from which Michael got his data has a reference to a paper
+by Eduardo Ley called "On the Peculiar Distribution of Stock Market
+Indeces' [sic] Digits", which I've downloaded and read. I'm still
+digesting it. But it does contain a reference to a paper by Benford
+(1938) called "The Law of Anomalous Numbers". Apparently, Benford
+noticed that the beginnings of tables of logs in libraries were always
+much dirtier than the ends, and he hypothesised that this could only be
+true because people have much more cause to look up the logs of numbers
+beginning with a 1 than they do numbers beginning with a 9. His Law of
+Anomalous Numbers formalizes this as:
+
+The probability f(i) that a random decimal number begins with the digit
+i is log ((i+1)/i), for i = 1,2,...9.
+
+This means that the probability that a number begins with a '1' is about
+24%, while the probability that it begins with a '9' is only about 4%.
+Benford investigated many different kinds of tables of numbers,
+including the lengths and surface areas of 353 rivers, the street
+addresses of the first 342 entries in _American Men of Science_, the
+specific heat and molecular weight of thousands of chemical compounds,
+and found many such tables with numbers obeying his Law.
+
+Weird, eh? 
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 22:29 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA05629 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 22:29:04 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA04479
+	for agora-discussion-list; Thu, 10 Sep 1998 12:27:13 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA04476
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 12:27:10 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id MAA07663
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 12:27:37 +1000 (EST)
+	(envelope-from gardner@silas-2.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007661; Thu, 10 Sep 98 12:27:34 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id MAA32264
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 10 Sep 1998 12:25:54 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199809100225.MAA32264@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: tidied up version of Accountor's Report
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 10 Sep 1998 12:25:54 +1000 (EST)
+In-Reply-To:  <980909122544.21766@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Sep 9, 98 10:25:44 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1629
+Lines: 38
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>> 
+>> 
+>> Here is somewhat prettified version of lee's Accountor's Report. Many
+>> thanks to lee for the enormous amount of work he has put into this.
+>> 
+>> Date of this report: Sept. 8
+>> Date of Last Report: Aug. 2
+>
+>This report seems quite out of whack. I have checked it against my
+>records for the time that I was Accountor, and it would seem that I,
+>among other players, have been charged twice for voting costs. Also,
+>a number of POs, for which I have fulfilling TOs on file, are still
+>recorded as unfulfilled (and I did pass all my records on to lee.)
+>
+>Probably we are now in such a position that completely recovering the
+>state of play is impossible, but I will not agree to have this report
+>ratified, when it so strongly disadvantages me.
+>
+>How are we going to fix this? I'd recommend we restart with a level
+>playing field, if nobody objects. I realise that some people will be
+>disadvantaged by this (and others, like me, will benefit), but I am
+>not willing to leave it like it is, and I can see no fair way to 
+>bring it back into line.
+
+I'm not prepared to give up so easily. Things are not as bad as they
+seem. I believe that once the duplicate POs are sorted out, and the
+situation with the many Salary POs which lee has listed as Outstanding
+is clarified, that matters will be much clearer. I think we eventually
+will be left with a Ratifiable Report.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 22:37 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA05871 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 22:37:02 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA04531
+	for agora-discussion-list; Thu, 10 Sep 1998 12:35:11 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA04528
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 12:35:10 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id MAA07679
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 12:35:37 +1000 (EST)
+	(envelope-from gardner@silas-1.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007677; Thu, 10 Sep 98 12:35:35 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id MAA28841
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 10 Sep 1998 12:33:55 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199809100233.MAA28841@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: somewhat prettified VT Report
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 10 Sep 1998 12:33:55 +1000 (EST)
+In-Reply-To: <msg15247.thr-16394c9c.76adf1@Schawk.com> from "Agora lee" at Sep 9, 98 07:37:17 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2204
+Lines: 51
+
+Agora lee wrote:
+>Ok, i will try for a smaller date field.  Warning, I an a Merkian and
+>my program may just spit them out in MM-DD-YY.  I will try for the more
+>logical format.
+
+MM-DD-YY should be fine. I was using it myself as Wizard.
+
+>>3. In the Outstanding POs section, you list a number of POs with their
+>>original Assessor labels of the form 'aaannn'. Most or all of these
+>>would have been given a new Accountor label of the form VTPOnnnn by
+>>former Heralds Crito and Blob, which may account for your not being able
+>>to match up Transfer Orders satisfying them. I know in my own case that
+>>I am very conscientious about satisfying POs, and usually do so as soon
+>>as I issue them (since most VT POs naming Players as Payors are issued
+>>by the Assessor for voting). I doubt that I actually have any
+>>outstanding POs for VTs, and I'll do my best to track down the messages
+>>from the Archives in which the POs you list as outstanding were
+>>satisfied.
+>
+>Is it ok if i keep their original PO tags from now on?  It makes it
+>much easier for me to track.  I do think that many of the payments for
+>VTxxxx were meant to satisfy aaannn, but i am at a loss on how to match
+>them up.  Any suggestions? This is part of what took forever.  I
+>finally just gave up. I am at a loss.  
+
+I think this episode has shown the danger of relabelling. We should
+probably adopt a universal labelling style across of Offices, eg:
+
+OOVTPnnnn
+
+where 'OO' is a 2 character filed identifying the Officer issuing the
+PO. So instead of 'aaa312', the Assessor would issue AsVTP0312. I won't
+be Assessor much longer as I won't be renominating for the Office, but
+I'll switch to this style as of now, and I encourage other Officers,
+particularly the Registrar to do likewise.
+
+>>4. You need to add Proglet to you database.
+>It's a spread sheet and I already have hem there.  He has received a
+>new Player award.
+
+No, he hasn't. Registrar Michael has issued a PO, but Chancellor Michael
+has not yet paid it.
+
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 22:38 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA05885 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 22:38:36 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA04549
+	for agora-discussion-list; Thu, 10 Sep 1998 12:36:41 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA04546
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 12:36:40 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id MAA07684
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 12:37:07 +1000 (EST)
+	(envelope-from agoralee@schawk.com)
+Received: from click.schawk.com(205.184.253.12) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007682; Thu, 10 Sep 98 12:37:04 +1000
+Received: from schawk-pdc (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 269; 8:22:29 PM -0500
+From: agoralee@schawk.com (Agora lee)
+To: gardner@silas-1.cc.monash.edu.au
+Cc: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 9 Sep 1998 20:19:51 -0500
+Subject: Re: DIS: Re: BUS: nomination
+Message-ID: <msg15442.thr-7d16ba3.76adf1@Schawk.com>
+References: <199809100101.LAA16488@silas-1.cc.monash.edu.au>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg15442.thr-7d16ba3.76adf1.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 259
+Lines: 12
+
+gardner@silas-1.cc.monash.edu.au,Internet writes:
+>Agora lee wrote:
+>>
+>>i nominate for Wizard.
+
+>The Office of Wizard has just been repealed.
+
+I was too busy to notice I suppose.  Sorry
+
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 23:00 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA06441 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 23:00:38 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA04661
+	for agora-discussion-list; Thu, 10 Sep 1998 12:58:42 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA04658
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 12:58:40 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id MAA07711
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 12:59:08 +1000 (EST)
+	(envelope-from gardner@silas-2.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007709; Thu, 10 Sep 98 12:58:46 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id MAA16082
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 10 Sep 1998 12:57:07 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199809100257.MAA16082@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: TO rules
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 10 Sep 1998 12:57:07 +1000 (EST)
+In-Reply-To: <199809080920.LAA33306@dij91.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns" at Sep 8, 98 11:20:20 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 999
+Lines: 27
+
+Klaus Herrmanns wrote:
+>
+>Steve:
+>>>
+>R1817 contains the key instruction: you are not required to note the
+>effects of TOs which result in the transferring Player possessing a
+>negative amount of Currency. Just ignore the TO.
+><<
+>
+>But what happens when the player acquires sufficient funds to make the
+>TO work later? Has the TO been destroyed? I think R1817 only allows
+>the Accountor to ignore the TO, not reject or vacate it. So when the
+>payoer gets more money, the TO is still around.
+>
+>I guess that's why lee connected the problem with delayed TOs
+>(although a delayed TO in the sense of the rules explicitly contains a
+>well defined delay, in contrast to a temprarily unpayable normal TO).
+
+That's an interesting point which I hadn't considered. Perhaps you
+should make a CFJ?
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 23:17 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA06829 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 23:17:02 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA04739
+	for agora-discussion-list; Thu, 10 Sep 1998 13:13:12 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA04736
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 13:13:10 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id NAA07738
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 13:13:38 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007736; Thu, 10 Sep 98 13:13:30 +1000
+Received: From mozart With LocalMail ; Thu, 10 Sep 98 13:11:44 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 10 Sep 1998 13:11:29 +1000 (EST)
+Message-Id:  <980910031130.11368@cse.unsw.edu.au>
+Subject: Re: DIS: tidied up version of Accountor's Report
+In-Reply-To: <199809100225.MAA32264@silas-1.cc.monash.edu.au> from "Steve Gardner" at Sep 10, 98 12:25:54 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 799
+Lines: 19
+
+> 
+> I'm not prepared to give up so easily. Things are not as bad as they
+> seem. I believe that once the duplicate POs are sorted out, and the
+> situation with the many Salary POs which lee has listed as Outstanding
+> is clarified, that matters will be much clearer. I think we eventually
+> will be left with a Ratifiable Report.
+
+Okay, so long as Lee can also keep up with all the new transcations 
+that are coming in since then.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 23:26 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA07024 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 23:26:05 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA04785
+	for agora-discussion-list; Thu, 10 Sep 1998 13:21:12 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA04782
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 13:21:11 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id NAA07757
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 13:21:38 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007755; Thu, 10 Sep 98 13:21:18 +1000
+Received: From mozart With LocalMail ; Thu, 10 Sep 98 13:20:44 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 10 Sep 1998 13:20:42 +1000 (EST)
+Message-Id:  <980910032042.13160@cse.unsw.edu.au>
+Subject: Re: DIS: Re: possible error in outstanding PO section of Accountor's report
+In-Reply-To: <msg15255.thr-4f255600.760096@Schawk.com> from "Agora lee" at Sep 9, 98 07:43:06 am
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1081
+Lines: 25
+
+> 
+> Michael.Norrish@cl.cam.ac.uk,Internet writes:
+> >  yyyy-mm-dd hh:mm:ss (+TZTZ)
+> 
+> I will try, but i think my program will choke on this form.  I will be
+> consistent within a report.  Also All times are (+1000) in the report.
+
+I noticed that a number of the timestamps on POs and the like do not
+seem to correspond with the dates on the messages in my records. Are you
+perhaps using the timestamps from when you received the messages, rather
+than when they were sent? I believe we have a judicial precedent which
+says that messages are effective as of the 'sent' timestamp.
+
+Blob
+
+PS: Could you also please convert times to GMT? It'd make life easier
+and it's more in keeping with the times defined in the rules.
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 23:26 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA07031 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 23:26:27 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA04805
+	for agora-discussion-list; Thu, 10 Sep 1998 13:23:12 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA04802
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 13:23:11 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id NAA07762
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 13:23:38 +1000 (EST)
+	(envelope-from gardner@silas-1.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007760; Thu, 10 Sep 98 13:23:33 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id NAA02935
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 10 Sep 1998 13:21:54 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199809100321.NAA02935@silas-1.cc.monash.edu.au>
+Subject: DIS: Re: OFF: CFJ 1106 judged FALSE
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 10 Sep 1998 13:21:53 +1000 (EST)
+In-Reply-To: <13814.14895.996398.10301@albatross.cl.cam.ac.uk> from "Michael Norrish" at Sep 9, 98 09:19:59 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3629
+Lines: 71
+
+Michael Norrish wrote:
+>======================================================================
+>                               CFJ 1106
+>
+>  In calculating the success of the Revolt of 3 Sep 1998, Swann should
+>  be counted as only one player for the purposes of determining the
+>  total number of players.
+>
+>======================================================================
+>Judge:        Blob
+>Judgement:    FALSE
+>======================================================================
+>Reasons and arguments:
+>
+[snip]
+>
+>The question still stands as to whether the Miscreant is counted twice
+>when determining "the number of Players at the time of the Call for
+>Revolt", required by R1664. Does counting the Miscreant as "two
+>Rebellious Players", mean counting em as two players for the total?
+>
+>In the absence of any other ruling discovered by this judge, either in
+>the ruleset or in the history of past judgements, the decision comes
+>down to one of common sense. It seems to me, necessary that being
+>counted as two Rebellious Players, also implies being counted as two
+>Players. R1664 makes it clear that both the selection of the random
+>integer, and the comparison to the number of Rebellious Player are
+>part of determining the outcome of the Revolt, so the last paragraph
+>of R1837 affects them both. Swann, as the Miscreant, was therefore
+>correctly counted twice, both for the number of Players and the number
+>of Rebellious Players at the time of the Revolt.
+>
+>======================================================================
+
+I'm happy enough with the Judgement, but I think Judge Blob's reasoning
+is a bit quick. I agree that commonsense indicates that if someone
+counts as two Rebellious Players, they should count as two Players. But
+for what purposes? Clearly not, for example, for the purposes of
+determining how many votes they may cast. What about for the purposes of
+counting how many Players there are when the success of Revolt is to be
+determined by the Registrar? R1837/1 does not explicitly *say* that the
+Miscreant should count as two Players for that purpose, in the way that
+it does explicitly say that the Miscreant should count as two Rebellious
+Players for the purposes of counting how many Rebellious Players there
+are. Of course it's not unreasonable to think that R1837/1 implies this,
+which is why I'm not unhappy with the Judgement. But I think Judge Blob
+could just have reasonably insisted that since R1837/1 does not
+explicitly say that the Miscreant counts as two Players for the purpose
+of counting how many Players there are at the time of a Revolt, the
+reference to the number of Players in R1664 should be taking as having
+its ordinary meaning, unaffected by R1837. In this case, I don't think
+it's commonsense that settles the issue, but merely the Judge's
+preferences.
+
+On a separate but related note: I'd like to see Judges using their
+powers to Order the Rulekeepor to Annotate Rules more often. It seems to
+me that our best chance of keeping track of how past Judgements affect
+the ongoing interpretation of various Rules is to incorporate references
+to those Judgements into the Ruleset, where they won't be forgotten.
+Relying on the memories of veteran Players is too haphazard. R1079
+should have a reference to CFJ 790, for instance. In the present case,
+R1837 should be annotated with a reference to the Judgement, and a copy
+of the Statement.
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 23:27 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA07044 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 23:27:45 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA04818
+	for agora-discussion-list; Thu, 10 Sep 1998 13:24:42 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA04815
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 13:24:40 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id NAA07770
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 13:25:08 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007765; Thu, 10 Sep 98 13:24:50 +1000
+Received: From mozart With LocalMail ; Thu, 10 Sep 98 13:24:20 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 10 Sep 1998 13:24:20 +1000 (EST)
+Message-Id:  <980910032420.13779@cse.unsw.edu.au>
+Subject: Re: DIS: Reference on random numbers from stock indices and the like
+In-Reply-To: <199809100214.MAA24667@silas-1.cc.monash.edu.au> from "Steve Gardner" at Sep 10, 98 12:14:14 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1272
+Lines: 25
+
+> 
+> The site from which Michael got his data has a reference to a paper
+> by Eduardo Ley called "On the Peculiar Distribution of Stock Market
+> Indeces' [sic] Digits", which I've downloaded and read. I'm still
+> digesting it. But it does contain a reference to a paper by Benford
+> (1938) called "The Law of Anomalous Numbers". Apparently, Benford
+> noticed that the beginnings of tables of logs in libraries were always
+> much dirtier than the ends, and he hypothesised that this could only be
+> true because people have much more cause to look up the logs of numbers
+> beginning with a 1 than they do numbers beginning with a 9.
+
+I always thought that this was because people started reading at the
+beginning, but got bored and never got to the end. Which is a shame,
+because while the beginning is admittedly a bit slow, the plot really
+starts to pick up around the fives and sixes. I was riveted. :)
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 23:31 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA07115 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 23:30:59 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA04873
+	for agora-discussion-list; Thu, 10 Sep 1998 13:27:43 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA04869
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 13:27:41 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id NAA07775
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 13:28:08 +1000 (EST)
+	(envelope-from gardner@silas-1.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007773; Thu, 10 Sep 98 13:27:44 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id NAA32693
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 10 Sep 1998 13:26:04 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199809100326.NAA32693@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: Re: OFF: CFJ 1104 (re-assigned to Proglet)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 10 Sep 1998 13:26:04 +1000 (EST)
+In-Reply-To: <Pine.LNX.4.03.9809081635480.3615-100000@tyrell.nvg.ntnu.no> from "Dr. Orjan Johansen" at Sep 8, 98 04:41:44 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 708
+Lines: 18
+
+Dr. Orjan Johansen wrote:
+>
+>In case Proglet feels that making a Judgement so early after joining is
+>too difficult, I want to remind him that he can make himself ineligible as
+>a Judge for this, although it will cost him 0.5 Voting Tokens.
+>
+>By the way, I thought this penalty was also reduced during the Grace
+>Period, but I apparently was wrong.  It seems like a good candidate for
+>something you would want to waive for inexperienced Players.
+
+I agree, and encourage you to make a Proposal.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 23:52 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA07539 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 23:52:32 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA05014
+	for agora-discussion-list; Thu, 10 Sep 1998 13:50:13 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA05011
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 13:50:11 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id NAA07815
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 13:50:39 +1000 (EST)
+	(envelope-from gardner@silas-2.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007813; Thu, 10 Sep 98 13:50:38 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id NAA11034
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 10 Sep 1998 13:48:58 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199809100348.NAA11034@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: tidied up version of Accountor's Report
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 10 Sep 1998 13:48:57 +1000 (EST)
+In-Reply-To: <980910031130.11368@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Sep 10, 98 01:11:29 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 821
+Lines: 21
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>> 
+>> I'm not prepared to give up so easily. Things are not as bad as they
+>> seem. I believe that once the duplicate POs are sorted out, and the
+>> situation with the many Salary POs which lee has listed as Outstanding
+>> is clarified, that matters will be much clearer. I think we eventually
+>> will be left with a Ratifiable Report.
+>
+>Okay, so long as Lee can also keep up with all the new transcations 
+>that are coming in since then.
+
+Well, he's using a spreadsheet, so correcting errors shouldn't be nearly
+as difficult as doing the original set up and data entry.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Sep  9 23:53 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA07552 for <dpb@cs.brown.edu>; Wed, 9 Sep 1998 23:53:42 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA04998
+	for agora-discussion-list; Thu, 10 Sep 1998 13:48:43 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA04995
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 13:48:41 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id NAA07807
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 10 Sep 1998 13:49:09 +1000 (EST)
+	(envelope-from gardner@silas-2.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma007805; Thu, 10 Sep 98 13:48:49 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id NAA05366;
+	Thu, 10 Sep 1998 13:47:09 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199809100347.NAA05366@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: Reference on random numbers from stock indices and the like
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 10 Sep 1998 13:47:09 +1000 (EST)
+Cc: edley@bigfoot.com
+In-Reply-To:  <980910032420.13779@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Sep 10, 98 01:24:20 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2590
+Lines: 48
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>> 
+>> The site from which Michael got his data has a reference to a paper
+>> by Eduardo Ley called "On the Peculiar Distribution of Stock Market
+>> Indeces' [sic] Digits", which I've downloaded and read. I'm still
+>> digesting it. But it does contain a reference to a paper by Benford
+>> (1938) called "The Law of Anomalous Numbers". Apparently, Benford
+>> noticed that the beginnings of tables of logs in libraries were always
+>> much dirtier than the ends, and he hypothesised that this could only be
+>> true because people have much more cause to look up the logs of numbers
+>> beginning with a 1 than they do numbers beginning with a 9.
+>
+>I always thought that this was because people started reading at the
+>beginning, but got bored and never got to the end. Which is a shame,
+>because while the beginning is admittedly a bit slow, the plot really
+>starts to pick up around the fives and sixes. I was riveted. :)
+
+Jokes aside, Benford's orginal starting point struck me as dubious as
+well: there might be all kinds of reasons other than his hypothesis why
+books of log tables in libraries are dirtier at the beginning that at
+the end. What's more difficult to dismiss are the discoveries of many
+different tables of numbers whose first digits appear in distributions
+roughly according to his law. The reference to specific heats and
+molecular weights of chemical compunds is especially intriguing. 
+
+But here's a speculative hypothesis of my own: when we measure
+quantities, we choose 'sensible' units, ie, we choose units such that
+typical examples of the quantities being measured will be small,
+manageable numbers, like those between 1-20. It's convenient to do so,
+because such numbers are easy to remember, and we can do arithmetic for
+these numbers in our heads, and so on. This might account for Benford's
+Law in the cases cited by Ley (street numbers, specific heats and
+molecular weights, lengths and surface areas of rivers).
+
+This hypothesis is testable, of course. All you have to do is to see
+whether the various quantities continue to have first digits distributed
+according to Benford's Law when those quantities are redescribed using
+other, less sensible units. (Of course you can't do that for street
+numbers, but you can do it for specific heat, chemical weight, length,
+surface area, and other physical magnitudes).
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+

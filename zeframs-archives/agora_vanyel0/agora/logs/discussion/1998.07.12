@@ -1,0 +1,116 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 12 02:51 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA04920 for <dpb@cs.brown.edu>; Sun, 12 Jul 1998 02:51:42 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA14785
+	for agora-discussion-list; Sun, 12 Jul 1998 16:43:18 +1000
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA14779
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 12 Jul 1998 16:42:50 +1000
+Received: by windowsnt from localhost
+    (router,SLMail V2.6); Sun, 12 Jul 1998 02:37:29 -0400
+Received: by windowsnt from friend-computer
+    (199.107.161.143::mail daemon; unverified,SLMail V2.6); Sun, 12 Jul 1998 02:37:27 -0400
+From: "Ed Murphy" <ford@bayside.net>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: RE: DIS: RE: RE: RE: proto: Make Being On Hold Safe Again
+Date: Sat, 11 Jul 1998 23:37:45 -0700
+Message-ID: <000801bdad5f$941d79e0$8fa16bc7@friend-computer>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2173.0
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.2106.4
+In-Reply-To: <199807111438.JAA11241@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 1427
+Lines: 32
+
+Scott wrote:
+
+> Dave> The main problem I have with the approach is that when a Stay is
+> Dave> vacated, "the previously stayed order again has effect as if it
+> Dave> had been originally executed at the moment the stay ceases to be
+> Dave> effective."  This would allow a Player to permanently avoid a PO
+> Dave> by use of the Hold mechanism.
+
+> Yes, that is inappropriate.  I would prefer that the time during which
+> an order is stayed is not counted toward the amount of time before
+> which the order must be satisfied.  Expressing that in language
+> acceptable to Agorans is not simple, however.
+
+"When a Player goes On Hold, all Payment Orders naming em as payee
+ are stayed; each such Payment Order is assigned an Elapsed Time
+ equal to the length of time since it was executed.
+
+ When a Player comes Off Hold, each Payment Orders naming em as payee
+ and having an Elapsed Time is reinstated, as if it had been executed
+ at a time equal to the current time minus its Elapsed Time."
+
+Is it possible to vacate an Order twice, then vacate one of those Orders
+to Vacate?  If so, does the original Order regain effect, despite the
+non-vacated Order to Vacate?  Perhaps Rule 1802 could borrow the last
+sentence of Rule 1801, just in case.
+
+
+-- 
+Ed Murphy <ford@bayside.net>     http://www.bayside.net/users/ford/
+"A war?  Oh, good, more food for my family - all 75 million
+ of 'em.  That's a lot of mouths to feed, you know."
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jul 12 12:59 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA12743 for <dpb@cs.brown.edu>; Sun, 12 Jul 1998 12:59:44 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA17139
+	for agora-discussion-list; Mon, 13 Jul 1998 02:40:47 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id CAA17136
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 13 Jul 1998 02:40:31 +1000
+Received: From elgar With LocalMail ; Mon, 13 Jul 98 02:40:14 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 13 Jul 1998 02:40:12 +1000 (EST)
+Message-Id:  <980712164013.20704@cse.unsw.edu.au>
+Subject: Re: DIS: RE: RE: RE: proto: Make Being On Hold Safe Again
+In-Reply-To: <000801bdad5f$941d79e0$8fa16bc7@friend-computer> from "Ed Murphy" at Jul 11, 98 11:37:45 pm
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1042
+Lines: 24
+
+Ed Murphy writes:
+> 
+> "When a Player goes On Hold, all Payment Orders naming em as payee
+>  are stayed; each such Payment Order is assigned an Elapsed Time
+>  equal to the length of time since it was executed.
+> 
+>  When a Player comes Off Hold, each Payment Orders naming em as payee
+>  and having an Elapsed Time is reinstated, as if it had been executed
+>  at a time equal to the current time minus its Elapsed Time."
+
+Wasn't the point oringially to stay POs incurred _while_ on Hold?
+In which case, the above doesn't work. And I'm not sure I like allowing
+players to stay POs just by going on hold. You should pay your debts
+before going awaym or face the consequences.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+

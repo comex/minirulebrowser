@@ -1,0 +1,483 @@
+From owner-agora-official@gecko.serc.rmit.edu.au Mon Sep  7 05:09 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA18625 for <dpb@cs.brown.edu>; Mon, 7 Sep 1998 05:09:41 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA07530
+	for agora-official-list; Mon, 7 Sep 1998 19:08:10 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA07527
+	for <agora-official@gecko.serc.rmit.edu.au>; Mon, 7 Sep 1998 19:08:08 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id TAA01462
+	for <agora-official@gecko.serc.rmit.edu.au>; Mon, 7 Sep 1998 19:08:19 +1000 (EST)
+	(envelope-from michael.norrish@cl.cam.ac.uk)
+Received: from heaton.cl.cam.ac.uk(128.232.32.11) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001460; Mon, 7 Sep 98 19:08:07 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0zFxGt-0000Rm-00; Mon, 7 Sep 1998 10:07:39 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0zFxGs-00071A-00; Mon, 7 Sep 1998 10:07:38 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13811.41562.794620.418941@albatross.cl.cam.ac.uk>
+Date: Mon, 7 Sep 1998 10:07:38 +0100 (BST)
+To: agora-official@gecko.serc.rmit.edu.au
+Subject: OFF: Revolt success re-calculated
+In-Reply-To: <199809070336.NAA01349@silas-1.cc.monash.edu.au>
+References: <199809070336.NAA01349@silas-1.cc.monash.edu.au>
+X-Mailer: VM 6.61 under Emacs 19.34.1
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1647
+Lines: 43
+
+Steve Gardner writes:
+
+[ Some welcome analysis deleted. ]
+ 
+> The DJIA crossed 6000 for the first time on 14 Oct. 1996. Perhaps
+> since that time, the average daily change in the DJIA has been
+> larger than 17 points. Perhaps a chi-squared test on the figures
+> from that period would show a better result. Personally, I doubt
+> it. In any case, I think this whole exercise has been useful in
+> showing the foolhardiness of relying on the DJIA as a random number
+> generator. I hope that Michael will now give up and use the dice
+> server or some other demonstrably fair method.
+ 
+Given the absence of more recent data for the DJIA's behaviour, I
+thank Steve for his expert witness provision of information, and
+naturally agree that my attempt to provide a verifiable random value
+was flawed.
+
+I will therefore use the supposedly acceptable method of using my
+computer's built-in random number generator.  This generator's next
+value is of course is entirely determined by the previous value in the
+sequence, but is presumably equivalent in this respect to the
+dice-server in Denmark (now defunct it seems) that a past CFJ
+established to be adequate.  (The truly suspicious among you might
+find it amusing that I judged the CFJ in question.)
+
+There is an outstanding CFJ on another issue here (that of whether or
+not I should be computing 10/17 or 10/16), but I believe 10/17 is
+correct, and will be continuing with it.  So, here we go: 
+
+I (or rather my computer :-) rolled a 9.  (From a possible range of
+0-16.)
+
+So, the revolt in fact succeeded!
+
+Well done Robespierre Blob!
+
+Consequences of this momentous circumstance to follow.
+
+Michael.
+
+
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Mon Sep  7 05:23 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA18834 for <dpb@cs.brown.edu>; Mon, 7 Sep 1998 05:23:18 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA07609
+	for agora-official-list; Mon, 7 Sep 1998 19:21:40 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA07606
+	for <agora-official@gecko.serc.rmit.edu.au>; Mon, 7 Sep 1998 19:21:38 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id TAA01484
+	for <agora-official@gecko.serc.rmit.edu.au>; Mon, 7 Sep 1998 19:21:49 +1000 (EST)
+	(envelope-from michael.norrish@cl.cam.ac.uk)
+Received: from heaton.cl.cam.ac.uk(128.232.32.11) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001482; Mon, 7 Sep 98 19:21:21 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0zFxTk-0000a6-00; Mon, 7 Sep 1998 10:20:56 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0zFxTj-00071v-00; Mon, 7 Sep 1998 10:20:55 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13811.42359.21385.297927@albatross.cl.cam.ac.uk>
+Date: Mon, 7 Sep 1998 10:20:55 +0100 (BST)
+To: agora-official@gecko.serc.rmit.edu.au
+Subject: OFF: Payment orders (vacation and others from the Revolt)
+X-Mailer: VM 6.61 under Emacs 19.34.1
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1109
+Lines: 25
+
+I hereby vacate Payment orders RIPO31 - RIPO40. 
+
+I further order the Bank to pay each of the following Players 2 VTs: 
+
+Blob (RVTPO645), Crito (RVTPO646), General Chaos (RVTPO647), 
+Harlequin (RVTPO648), lee (RVTPO649), Macross (RVTPO650), 
+Morendil (RVTPO651), Murphy (RVTPO652), Swann (RVTPO653)
+
+Given the authority of Rule 1664 "Rebellion", I also vacate all
+Indulgence payment orders naming any of the above Players as payor.
+(To the best of my knowledge, these orders include at least:
+
+POI804, POI807, POI808, POI810, POI812, POI818, POI819, POI824,
+POI830, POI831, POI833, POI838, POI839, POI841, POI842, POI860,
+POI861, POI863, POI871, POI872, POI876, POI892, POI893, POI903,
+POI904, POI908, POI909, POI910, POI920, POI921, POI924, POI935,
+POI936, POI939, POI943, POI944, POI948, POI949, POI952, POI953,
+POI959, POI960, POI962, POI970, POI971, POI976, POI982, POI983,
+POI984, POI985, POI987, POI988, POI000, POI001, POI002, POI003,
+POI004, POI014, POI015, POI016, POI017.)
+
+(I take it the fact that the Herald is suffering from a Blot 1000 bug
+doesn't confuse the issue here :-)
+
+Registrar Michael.
+
+From owner-agora-official@gecko.serc.rmit.edu.au Mon Sep  7 05:30 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA18998 for <dpb@cs.brown.edu>; Mon, 7 Sep 1998 05:30:42 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA07663
+	for agora-official-list; Mon, 7 Sep 1998 19:29:10 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA07660
+	for <agora-official@gecko.serc.rmit.edu.au>; Mon, 7 Sep 1998 19:29:08 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id TAA01492
+	for <agora-official@gecko.serc.rmit.edu.au>; Mon, 7 Sep 1998 19:29:19 +1000 (EST)
+	(envelope-from michael.norrish@cl.cam.ac.uk)
+Received: from heaton.cl.cam.ac.uk(128.232.32.11) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001490; Mon, 7 Sep 98 19:28:58 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0zFxb6-0000Yu-00; Mon, 7 Sep 1998 10:28:33 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0zFxb5-00072Y-00; Mon, 7 Sep 1998 10:28:31 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13811.42815.303986.296347@albatross.cl.cam.ac.uk>
+Date: Mon, 7 Sep 1998 10:28:31 +0100 (BST)
+To: agora-official@gecko.serc.rmit.edu.au
+Subject: OFF: Dereliction of duty?
+X-Mailer: VM 6.61 under Emacs 19.34.1
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 470
+Lines: 11
+
+Accountor Lee became the Electee for his Office on 30 August, and was
+Electee at midnight this last Sunday.  He had also at this time failed
+to produce an Accountor's report for three weeks in a row.  However,
+he wasn't Electee for all of those weeks. 
+
+Does Rule 1644 mean that he has committed Dereliction of Duty?  (DoD
+is a Class B Crime: 10 Blots and 10 VTs.)  I am authorised to detect
+and report this Infraction, but not seemingly required to do so.  
+
+Michael.
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Mon Sep  7 05:40 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA19159 for <dpb@cs.brown.edu>; Mon, 7 Sep 1998 05:40:23 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA07729
+	for agora-official-list; Mon, 7 Sep 1998 19:38:42 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA07726
+	for <agora-official@gecko.serc.rmit.edu.au>; Mon, 7 Sep 1998 19:38:39 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id TAA01503
+	for <agora-official@gecko.serc.rmit.edu.au>; Mon, 7 Sep 1998 19:38:49 +1000 (EST)
+	(envelope-from michael.norrish@cl.cam.ac.uk)
+Received: from heaton.cl.cam.ac.uk(128.232.32.11) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001501; Mon, 7 Sep 98 19:38:38 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0zFxkQ-0000In-00; Mon, 7 Sep 1998 10:38:10 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0zFxkQ-00076q-00; Mon, 7 Sep 1998 10:38:10 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13811.43393.425915.477095@albatross.cl.cam.ac.uk>
+Date: Mon, 7 Sep 1998 10:38:09 +0100 (BST)
+To: agora-official@gecko.serc.rmit.edu.au
+Subject: OFF: official salaries correction
+In-Reply-To: <980907022239.26959@cse.unsw.edu.au>
+References: <13810.51102.109487.461720@albatross.cl.cam.ac.uk>
+	<980907022239.26959@cse.unsw.edu.au>
+X-Mailer: VM 6.61 under Emacs 19.34.1
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1120
+Lines: 31
+
+Malcolm Ross Kinsella Ryan writes:
+> > (RVTPO628) to Promotor Crito,              0.6 VTs
+ 
+> Um, I think you'll find that I am Promotor, not Crito.
+ 
+Urk.  Thank you for pointing this out. 
+ 
+> Could you please check the last couple of these reports, to make
+> sure that I have been paid appropriately.
+ 
+Indeed. 
+
+I hereby vacate RVTPO577, which paid Crito a salary for the week
+ending the 16th, when in fact Blob had come into office on the 13th.
+Blob doesn't get a salary for that week though as he hadn't been in
+Office for five days or more. 
+
+I also vacate RVTPO603, which paid Crito a salary for the week ending
+the 23rd.  I also order the Bank to pay Blob 0.6 VTs (RVTPO654) as his
+Promotor's salary for that week.  I finally order the vacation of
+RVTPO612, which was Blob's unemployment benefit for that week.
+
+I also vacate RVTPO628, which paid Crito a salary for the week ending
+the 30th.  I also order the Bank to pay Blob 0.6 VTs (RVTPO655) as his
+Promotor's salary for that week.  I finally order the vacation of
+RVTPO637, which was Blob's unemployment benefit for that week. 
+
+Phew!
+
+Registrar Michael.
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Mon Sep  7 13:55 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA28258 for <dpb@cs.brown.edu>; Mon, 7 Sep 1998 13:55:17 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA10993
+	for agora-official-list; Tue, 8 Sep 1998 03:53:21 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id DAA10990
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 8 Sep 1998 03:53:18 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id DAA02274
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 8 Sep 1998 03:53:29 +1000 (EST)
+	(envelope-from agoralee@schawk.com)
+Received: from click.schawk.com(205.184.253.12) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma002272; Tue, 8 Sep 98 03:53:13 +1000
+Received: from schawk-pdc (205.184.253.10)
+	by click.schawk.com (FirstClass Mail Server v5.11)
+	transient id 30; 12:49:55 PM -0500
+From: agoralee@schawk.com (Agora lee)
+To: Michael.Norrish@cl.cam.ac.uk
+Cc: agora-official@gecko.serc.rmit.edu.au
+Date: Mon, 7 Sep 1998 12:47:15 -0500
+Subject: Re: OFF: Dereliction of duty?
+Message-ID: <msg15027.thr-998429bf.76adf1@Schawk.com>
+References: <13811.42815.303986.296347@albatross.cl.cam.ac.uk>
+Organization: Schawk Inc.
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-ID: <msg15027.thr-998429bf.76adf1.part0@Schawk.com>
+X-Gateway: NASTA Gate 2.0 for FirstClass(R)
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=iso-8859-1
+Content-Length: 726
+Lines: 18
+
+Michael.Norrish@cl.cam.ac.uk,Internet writes:
+>Accountor Lee became the Electee for his Office on 30 August, and was
+>Electee at midnight this last Sunday.  He had also at this time failed
+>to produce an Accountor's report for three weeks in a row.  However,
+>he wasn't Electee for all of those weeks. 
+
+>Does Rule 1644 mean that he has committed Dereliction of Duty?  (DoD
+>is a Class B Crime: 10 Blots and 10 VTs.)  I am authorised to detect
+>and report this Infraction, but not seemingly required to do so.  
+
+>Michael.
+
+I quite understand this and am doing my best to prepare the report.  I
+want to give the next Accountor  better start than i had. 
+
+---
+lee 
+If you don't want to know the answer, don't ask the question.
+
+From owner-agora-official@gecko.serc.rmit.edu.au Mon Sep  7 23:44 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA14227 for <dpb@cs.brown.edu>; Mon, 7 Sep 1998 23:44:02 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA15405
+	for agora-official-list; Tue, 8 Sep 1998 13:41:28 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA15402
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 8 Sep 1998 13:41:25 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id NAA03037
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 8 Sep 1998 13:41:41 +1000 (EST)
+	(envelope-from gardner@silas-1.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma003033; Tue, 8 Sep 98 13:41:27 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id NAA23132
+	for agora-official@gecko.serc.rmit.edu.au; Tue, 8 Sep 1998 13:39:50 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199809080339.NAA23132@silas-1.cc.monash.edu.au>
+Subject: OFF: Voting Report: 3787-3788
+To: agora-official@gecko.serc.rmit.edu.au (Agora Nomic Official List)
+Date: Tue, 8 Sep 1998 13:39:49 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 5132
+
+
+Agora Nomic
+Voting Report: 3787-3788
+
+Date of this Report: Tue, 08 Sep 1998
+Date of last Report: Wed, 02 Sep 1998
+
+===========================================================================
+Voting on Proposals 3787-3788 commenced: Fri, 28 Aug 1998 08:09:18 GMT
+Voting on Proposals 3787-3788 concluded: Mon, 07 Sep 1998 08:09:18 GMT
+
+At the commencement of the Voting Periods of Proposals 3787-3788 there
+were 16 Registered Players: 13 Active (1 denied Voting Privileges) and 3
+On Hold. Therefore Quorum for these Proposals is 4 (Rule 879/7).
+
+   Num. Proposer      AI Title                             RESULT  F A * 
+
+   3787 Steve          1 Get Rid of 4 Offices              PASSES  5-0-1
+   3788 Steve          1 Lower the MUQ of VTs              PASSES  3-0-1
+   
+===========================================================================
+
+                    3  3
+                    7  7
+                    8  8
+                    7  8
+
+Chuck               F  *
+Crito               F  F
+G. Chaos            F
+Kolja A.            *
+Michael             F  F
+Steve               F  F
+
+FOR                 5  3
+AGAINST             0  0
+PRESENT             1  1
+
+Num. Voters         6  4
+Quorum?             Y  Y
+PASSES?             Y  Y
+
+======================================================================
+Denial of Voting Privileges
+======================================================================
+None.
+======================================================================
+Zeitgeist
+======================================================================
+H. Registrar Michael: please note the Steve has twice been awarded the
+Patent Title of Zeitgeist for the unanimous passages of P3787 and P3788.
+Appropriate POs are issued below.
+======================================================================
+Payment Orders
+======================================================================
+The following Payment Orders are issued, each for the reason specified:
+
+  Ass#  Payor          Payee      Amt  Currency  Reason
+
+aaa316  Chuck          the Bank     1  VT        voting
+aaa317  Crito          the Bank     2  VTs       voting
+aaa318  G. Chaos       the Bank     1  VT        voting
+aaa319  Michael        the Bank     2  VTs       voting
+aaa320  Steve          the Bank     2  VTs       voting
+aaa321  the Bank       Steve        2  P-Notes   R833
+aaa322  the Bank       Steve        1  P-Note    Zeitgeist, P3787
+aaa323  the Bank       Steve        1  P-Note    Zeitgeist, P3788
+aaa324  the Bank       Steve      0.4  VTs       Commission, P3787-3788
+
+
+======================================================================
+Score Changes
+======================================================================
+None.
+======================================================================
+Text of Adopted Proposals
+======================================================================
+Proposal 3787  (Steve) AI = 1
+Get Rid of 4 Offices
+
+[Comment: this Proposal will delete the Offices of Scorekeepor, 
+Archivist, Wizard, and Commander-in-Chief. Plots and the Cartographor
+remain untouched.]
+
+Be it hereby resolved that Rules 1775 (Points and Scoring), 1776 (the
+Scorekeepor), 1782 (Changing a Player's Score), 1783 (Ordering Changes
+in a Player's Score), 1784 (The Omnibus Scoring Rule), 1790 (Buying
+points), 1777 (Winning Scores), 1778 (Initiating an Endgame Procedure),
+1779 (Challenging an Endgame Procedure), 1780 (Losing Eligibility to
+Win) and 1781 (Termination of the Endgame Procedure) all be repealed.
+
+Be it further resolved that Rules 1657 (The Archivist) and 417 (Duties of
+the Archivist) be repealed.
+
+Be it further resolved that R1370 (How To Get A Degree) be amended by
+replacing in it the text which currently reads:
+
+      The Archivist shall retain a copy of each Thesis posted in this
+      manner.
+
+with text which reads: 
+
+      The Rulekeepor shall retain a copy of each Thesis posted in this
+      manner.
+
+Be it further resolved that R786 (Rule of Succession for Speaker or
+Speaker-Elect) be amended by deleting from it the line which reads:
+"the Archivist".
+
+Be it further resolved that Rules 1543 (Style Points), 1543 (The
+Wizard) and 1682 (Boors) all be repealed.
+
+Be it further resolved that R1720 (The Militia) be repealed.
+
+----------------------------------------------------------------------
+Proposal 3788 (Steve) AI = 1
+Lower the MUQ of VTs
+
+[Comment: the new 5% commission which the Assessor takes out of votes
+spent on Proposals means awkward rounding problems unless we lower the
+MUQ of VTs. I could propose to lower it to 0.05, but we might as well go
+the whole way and lower it to 0.01.]
+
+Be it hereby resolved that R1696 (Voting Tokens) be amended by replacing
+the text in it which currently reads:
+
+      The MUQ of VTs is 0.1.
+
+with text which reads:
+
+      The MUQ of VTs is 0.01.
+
+======================================================================
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+

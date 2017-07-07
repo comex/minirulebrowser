@@ -1,0 +1,118 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Sep 18 01:08 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA04147 for <dpb@cs.brown.edu>; Fri, 18 Sep 1998 01:08:46 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA05112
+	for agora-discussion-list; Fri, 18 Sep 1998 15:06:20 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA05109
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 18 Sep 1998 15:06:17 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id PAA11638
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 18 Sep 1998 15:07:15 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma011636; Fri, 18 Sep 98 15:07:09 +1000
+Received: From spoons06 With LocalMail ; Fri, 18 Sep 98 15:05:01 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 18 Sep 1998 15:05:00 +1000 (EST)
+Message-Id:  <980918050500.7404@cse.unsw.edu.au>
+Subject: Re: DIS: Re: OFF: CFJ 1107 (assigned to Blob)
+In-Reply-To: <199809180138.LAA07473@silas-1.cc.monash.edu.au> from "Steve Gardner" at Sep 18, 98 11:38:40 am
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 818
+Lines: 19
+
+> 
+> OK, you're right about the language in R1817: it says that the RK is
+> not required to abide by a TO which would result in the payor possessing
+> a negative amount of Currency. But since that's what it says, how do you
+> get to the conclusion that R1817 requires the RK to abide by such a TO?
+
+But the TO continues to exist, doesn't it? So, if at a later date it
+would no longer result in a negative result, isn't the RK required to
+abide by it?
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Sep 18 10:09 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA11244 for <dpb@cs.brown.edu>; Fri, 18 Sep 1998 10:09:21 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA08211
+	for agora-discussion-list; Sat, 19 Sep 1998 00:05:34 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA08208
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 19 Sep 1998 00:05:30 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id AAA12547
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 19 Sep 1998 00:06:29 +1000 (EST)
+	(envelope-from dalbertz@rmv.state.ma.us)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma012545; Sat, 19 Sep 98 00:06:20 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 18 Sep 1998 10:07:43 -0400
+Message-Id: <s60230ef.063@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 18 Sep 1998 10:07:06 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: OFF: CFJ 1107 (assigned to Blob)
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1699
+
+Re: DIS: Re: OFF: CFJ 1107 (assigned to Blob)
+
+The point is that "except for those transfers which would result in an
+entity possessing a negative quantity of Currency." has the implied and natural
+meaning of "except for those...*at the time of the transfer*".  Since the time
+of the transfer is constrained by R1819 to be at a particular time, it doesn't
+matter what happens to a Player's currency holdings in the future.  There is no
+time in the future at which the TO in question would *not* result in a negative
+holding at the time of the transfer.  Therefore the Recordkeepor is *never*
+required to abide by such a TO.  Like Steve, I don't really see this as a
+conflict, but as a set of constraints that taken together allow a Recordkeepor
+to indefinitely ignore certain kinds of TOs.
+
+-- Crito
+
+>>> Malcolm Ross Kinsella Ryan <malcolmr@cse.unsw.edu.au> 09/18/98 01:05am >>>
+> 
+> OK, you're right about the language in R1817: it says that the RK is
+> not required to abide by a TO which would result in the payor possessing
+> a negative amount of Currency. But since that's what it says, how do you
+> get to the conclusion that R1817 requires the RK to abide by such a TO?
+
+But the TO continues to exist, doesn't it? So, if at a later date it
+would no longer result in a negative result, isn't the RK required to
+abide by it?
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+

@@ -1,0 +1,737 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct  9 00:08 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA25795 for <dpb@cs.brown.edu>; Fri, 9 Oct 1998 00:08:55 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA12685
+	for agora-discussion-list; Fri, 9 Oct 1998 13:49:14 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA12682
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 13:49:12 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id NAA00699
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 13:50:19 +1000 (EST)
+	(envelope-from gardner@silas-2.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma000697; Fri, 9 Oct 98 13:50:07 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id NAA28711
+	for agora-discussion@gecko.serc.rmit.edu.au; Fri, 9 Oct 1998 13:47:53 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199810090347.NAA28711@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: The Big Picture
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 9 Oct 1998 13:47:53 +1000 (EST)
+In-Reply-To: <199810090233.VAA12337@poverty.bloomington.in.us> from "Scott Goehring" at Oct 8, 98 09:33:28 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2261
+Lines: 44
+
+Scott Goehring wrote:
+>
+>"Steve" == Steve Gardner <gardner@silas-2.cc.monash.edu.au> writes:
+>
+>Steve> For while
+>Steve> it is true that there were serious uncertainties about how the
+>Steve> Frankenstein Monster should be *interpreted* (because it didn't
+>Steve> make any sense), there were no serious uncertainties as to what
+>Steve> the Frankenstein Monster actually *said*, ie what it's text
+>Steve> was, which is what you claim is the problem with
+>Steve> other-modifying Rules.
+>
+>This is simply not true.  A myriad of "reported" changes to the
+>Frankenstein Rule turned out to not have been made, because of error.
+>Our handling of error in this situation was pathetic.  I believe that
+>allowing self-modifying and other-modifying rules dramatically
+>increases the possibility of an unchecked error cascade.  Aside from
+>philosophical reasons, this is my primary opposition to them.
+
+Hm, yes, now that I think back more carefully I think you're right about
+the FM. But I still think that the argument from the case of the FM to
+conclusions about self-modifying and other-modifying Rules *in general*
+is a poor one. For the FM was a pretty atypical kind of case: a cluster
+of Rules operating repeatedly to amend one of the cluster, and what is
+more, doing so in a way such that the calculation of future amendments
+depended critically on the results of past amendments. In other words, a
+feedback loop. Given those particular and highly unusual circumstances,
+any error that went undetected for any length of time was guaranteed in
+that case to have cascading effects. This is, you are right to point
+out, a recipe for disaster, and so it proved. But the fault in that case
+was due to the particular way in which the FM worked (ie the feedback
+loop); the Virus suffered from no such difficulties. So I don't think
+you've established your case that the use of self- and other-modifying
+Rules must of necessity dramatically increase the chances of an
+unchecked error cascade. What you have established is that feedback
+loops are to be avoided.
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct  9 00:22 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA26091 for <dpb@cs.brown.edu>; Fri, 9 Oct 1998 00:22:26 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA12787
+	for agora-discussion-list; Fri, 9 Oct 1998 14:03:14 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA12784
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 14:03:12 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id OAA00728
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 14:04:20 +1000 (EST)
+	(envelope-from gardner@silas-1.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma000726; Fri, 9 Oct 98 14:04:14 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id OAA16536
+	for agora-discussion@gecko.serc.rmit.edu.au; Fri, 9 Oct 1998 14:01:59 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199810090401.OAA16536@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: The Big Picture
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 9 Oct 1998 14:01:59 +1000 (EST)
+In-Reply-To: <199810090238.VAA12361@poverty.bloomington.in.us> from "Scott Goehring" at Oct 8, 98 09:38:48 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2425
+
+Scott Goehring wrote:
+>
+>"Charles" == Charles E Carroll <ccarroll@nationwide.net> writes:
+>
+>Charles> No more than if there is a dispute over the effect of a
+>Charles> Proposal, it seems to me.
+>
+>The problem is that we might not even know _IF_ a self-modifying or
+>other-modifying rule has operated.  It's pretty obvious when a
+>Proposal has been adopted.  The chance for error cascade is much
+>greater when multiple major events (such as rule changes) can arise
+>without any need for human action or even human awareness.
+
+OK, but that's just a special case of the general argument for
+Pragmatism. One doesn't say "At the beginning of the week, every Player
+receives a VT from the Bank"; one says "As soon as possible after the
+beginning of the week, the Chancellor shall pay out a VT to every
+Player." In fact, the Virus was one of the earliest examples of the
+application of Pragmatic principles to Rule-design. It didn't say "At
+the beginning of the week, a random Rule is amended in such-and-such a
+way."; it said "Once each week, the Rulekeepor selects a Rule at
+random and amends it in such-and-such a way." And we never had any
+problems with the Virus.
+
+>>> The practical importance arises when you think about how you deal
+>>> with error.  Our present Rules do not deal at all well with error
+>>> with respect to the reporting of Proposal results, for example.
+>
+>Charles> Could you elaborate?
+>
+>Suppose the Assessor correctly reports that a Proposal has passed,
+>then mistakenly reports that it did not pass, but the Assessor's
+>mistake is not recognized for six months.  Under the present regime,
+>the Rule Changes pursuant to that Proposal take effect at the time of
+>the first report, even though nobody believed they were in effect for
+>the subsequent six months.  This is unacceptable to me, and would not
+>happen in the regime I propose.
+
+Of course we all know that this is precisely what happened with the
+adoption of Pragmatic Currencies. No-one could disagree that this
+episode exposed a flaw in the system when dealing with errors in
+announcing the results of Proposals. But the connection between this
+episode and your argument against self-modifying and other-modifying
+Rules escapes me.
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct  9 00:39 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA26648 for <dpb@cs.brown.edu>; Fri, 9 Oct 1998 00:39:18 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA12856
+	for agora-discussion-list; Fri, 9 Oct 1998 14:14:44 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA12853
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 14:14:42 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id OAA00750
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 14:15:50 +1000 (EST)
+	(envelope-from ccarroll@dfw.nationwide.net)
+Received: from dfw.nationwide.net(198.175.15.10) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma000748; Fri, 9 Oct 98 14:15:28 +1000
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id XAA14038
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 8 Oct 1998 23:10:11 -0500 (CDT)
+Message-Id: <199810090410.XAA14038@dfw.nationwide.net>
+Subject: Re: DIS: The Big Picture
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 8 Oct 1998 23:10:10 -0500 (CDT)
+In-Reply-To: <199810090238.VAA12361@poverty.bloomington.in.us> from "Scott Goehring" at Oct 8, 98 09:38:48 pm
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 568
+
+Scott Goehring wrote:
+>
+>Suppose the Assessor correctly reports that a Proposal has passed,
+>then mistakenly reports that it did not pass, but the Assessor's
+>mistake is not recognized for six months.  Under the present regime,
+>the Rule Changes pursuant to that Proposal take effect at the time of
+>the first report, even though nobody believed they were in effect for
+>the subsequent six months.  This is unacceptable to me, and would not
+>happen in the regime I propose.
+
+A massive overhaul such as yours is not necessary to rectify
+that situation, however.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct  9 01:20 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA27631 for <dpb@cs.brown.edu>; Fri, 9 Oct 1998 01:20:39 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA13038
+	for agora-discussion-list; Fri, 9 Oct 1998 14:55:45 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA13035
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 14:55:43 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id OAA00824
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 14:56:51 +1000 (EST)
+	(envelope-from eljefe@eastpac.com)
+Received: from icarus.nodewarrior.net(209.48.67.3) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma000822; Fri, 9 Oct 98 14:56:41 +1000
+Received: from [209.61.75.15] by icarus.nodewarrior.net
+          (Post.Office MTA v3.5 release 215 ID# 0-52828U300L100S0V35)
+          with SMTP id net for <agora-discussion@gecko.serc.rmit.edu.au>;
+          Thu, 8 Oct 1998 21:50:27 -0700
+Message-Id: <3.0.5.32.19981009005034.0079fe80@mail.eastpac.com>
+X-Sender: eljefe@mail.eastpac.com (Unverified)
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Fri, 09 Oct 1998 00:50:34 -0400
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: eljefe@eastpac.com (Jeff Caruso)
+Subject: Re: DIS: proto: Restore Sanity (Chaos35, rev. 1)
+In-Reply-To: <199810080110.LAA07989@silas-1.cc.monash.edu.au>
+References: <199810071612.LAA08279@poverty.bloomington.in.us>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 648
+
+Steve wrote:
+>Yes, I have pursued a policy of keeping VTs scarce. In this, I have been
+>joined by Crito, Kolja, Blob, Macross and many others. There has been a
+>broad and solid political consensus behind this policy, and this should
+>be no surprise. The idea was and remains a good one. Were things better
+>when there were 8000 VTs in circulation, with Crito, Jeff and I holding
+>6000 between us?
+
+Well, if you're asking me personally...   :-D
+
+Regards,
+-- elJefe
+
+***********************************************
+  Dr. Jeffrey L. Caruso <eljefe@eastpac.com>
+  Bitstream Corp., 262 First St. Cambridge, MA 02142
+  also at:  <jcaruso@bitstream.com>
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct  9 01:24 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA27648 for <dpb@cs.brown.edu>; Fri, 9 Oct 1998 01:24:09 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA13090
+	for agora-discussion-list; Fri, 9 Oct 1998 15:06:15 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA13087
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 15:06:13 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id PAA00843
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 15:07:21 +1000 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from dial-126-105.ucs.indiana.edu(156.56.126.105) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma000841; Fri, 9 Oct 98 15:07:05 +1000
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id XAA12654 for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 8 Oct 1998 23:52:54 -0500
+Message-Id: <199810090452.XAA12654@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: More radical ideas (duck and run!) 
+In-reply-to: Your message of "Fri, 09 Oct 1998 13:34:21 +1000."
+             <199810090334.NAA11671@silas-1.cc.monash.edu.au> 
+Date: Thu, 08 Oct 1998 23:52:52 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 482
+
+"Steve" == Steve Gardner <gardner@silas-1.cc.monash.edu.au> writes:
+
+Steve> Heh. Unfortunately, that is not a very practical
+Steve> suggestion. Even if it were, though, all of the veteran Players
+Steve> would, over the course of the last 5 years, have made enough
+Steve> Proposals to prevent them from incurring any future duty to
+Steve> vote for a very long time to come, and this would this make the
+Steve> Proposal politically unsaleable to the newer Players. 
+
+Fine with me. :)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct  9 01:31 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA27853 for <dpb@cs.brown.edu>; Fri, 9 Oct 1998 01:31:15 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA13152
+	for agora-discussion-list; Fri, 9 Oct 1998 15:13:16 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA13149
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 15:13:14 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id PAA00884
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 15:14:21 +1000 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from dial-126-105.ucs.indiana.edu(156.56.126.105) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma000882; Fri, 9 Oct 98 15:14:19 +1000
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id AAA12674 for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 00:00:09 -0500
+Message-Id: <199810090500.AAA12674@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: The Big Picture 
+In-reply-to: Your message of "Fri, 09 Oct 1998 13:47:53 +1000."
+             <199810090347.NAA28711@silas-1.cc.monash.edu.au> 
+Date: Fri, 09 Oct 1998 00:00:08 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1547
+
+"Steve" == Steve Gardner <gardner@silas-2.cc.monash.edu.au> writes:
+
+Steve> But the fault in that case was due to the particular way in
+Steve> which the FM worked (ie the feedback loop); the Virus suffered
+Steve> from no such difficulties.
+
+Actually, I believe we have had cases where reported viral infections
+turned out not to have happened because the Rulekeepor was mistaken as
+to the number of Rules in the Ruleset.  Even if this actually never
+happened, it was a possibility.
+
+Steve> So I don't think you've established your case that the use of
+Steve> self- and other-modifying Rules must of necessity dramatically
+Steve> increase the chances of an unchecked error cascade. 
+
+It is my opinion that every instance in which one might want to use a
+self-modifying or other-modifying rule falls into one of three
+categories:
+
+1. sunset by self-repeal or temporary measure by self-amendment, which
+   can be equally achieved without self-amendment using cut-on and
+   cut-off dates;
+2. modification upon proper player action, which can be achieved by
+   directly authorizing the player to change the rules (making the
+   change a player-caused rule change, something I have no problem
+   with); and
+3. unsafe automatic changes which either inherently lead to cascade
+   errors, or at least prone to them.
+
+Since the only desirable circumstances are (1) and (2), and both can
+be achieved without using self-modifying Rules, I see no need for
+them, and since prohibiting them protects from the undesirable
+situations in (3), it is worth doing so.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct  9 01:34 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA27935 for <dpb@cs.brown.edu>; Fri, 9 Oct 1998 01:34:36 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA13171
+	for agora-discussion-list; Fri, 9 Oct 1998 15:16:46 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA13168
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 15:16:43 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id PAA00895
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 15:17:51 +1000 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from dial-126-105.ucs.indiana.edu(156.56.126.105) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma000893; Fri, 9 Oct 98 15:17:38 +1000
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id AAA12710 for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 00:03:28 -0500
+Message-Id: <199810090503.AAA12710@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: The Big Picture 
+In-reply-to: Your message of "Fri, 09 Oct 1998 14:01:59 +1000."
+             <199810090401.OAA16536@silas-1.cc.monash.edu.au> 
+Date: Fri, 09 Oct 1998 00:03:28 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1508
+
+"Steve" == Steve Gardner <gardner@silas-1.cc.monash.edu.au> writes:
+
+Steve> In fact, the Virus was one of the earliest examples of the
+Steve> application of Pragmatic principles to Rule-design. It didn't
+Steve> say "At the beginning of the week, a random Rule is amended in
+Steve> such-and-such a way."; it said "Once each week, the Rulekeepor
+Steve> selects a Rule at random and amends it in such-and-such a way."
+Steve> And we never had any problems with the Virus.
+
+I seem to recall that there were a few problems with the Virus, but
+that they were not severe.  As I have previously noted, the incomplete
+pragmatism of the Virus rule was such that a misapprehension as to the
+number of Rules in the Ruleset would result in the Rulekeepor making
+an erroneous Virus Report, possibly creating the mistaken impression
+that a Rule had been infected as a result.  I am almost certain that
+there have been a few times when the Rulekeepor was mistaken as to the
+number of Rules in the Ruleset over the past two years.
+
+Steve> Of course we all know that this is precisely what happened with
+Steve> the adoption of Pragmatic Currencies. No-one could disagree
+Steve> that this episode exposed a flaw in the system when dealing
+Steve> with errors in announcing the results of Proposals. But the
+Steve> connection between this episode and your argument against
+Steve> self-modifying and other-modifying Rules escapes me.
+
+The same conceptual changes I suggest will remedy both problems.
+There is no direct connection.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct  9 03:38 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA00124 for <dpb@cs.brown.edu>; Fri, 9 Oct 1998 03:38:24 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA13709
+	for agora-discussion-list; Fri, 9 Oct 1998 17:19:48 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA13706
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 17:19:46 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id RAA01189
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 17:20:54 +1000 (EST)
+	(envelope-from gardner@silas-2.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001185; Fri, 9 Oct 98 17:20:48 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id RAA21873
+	for agora-discussion@gecko.serc.rmit.edu.au; Fri, 9 Oct 1998 17:18:33 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199810090718.RAA21873@silas-1.cc.monash.edu.au>
+Subject: DIS: proto: A Duty to Propose, v2
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+Date: Fri, 9 Oct 1998 17:18:32 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 4837
+
+
+####
+Proto-Proposal
+A Duty to Propose
+
+[Comment: I've developed a procedure for dealing with Players who are On
+Hold. I've tried to make the instructions to the Promotor as clear as I
+can. Please bring any problems to my attention.]
+
+Be it hereby resolved that a Rule, entitled "A Duty to Propose", be
+created with the following text:
+
+      Active Players not in their Grace Periods (henceforth in this
+      Rule, 'Experienced Players') shall periodically incur a duty to
+      submit a Proposal, as described in this Rule.
+
+      The Promotor shall maintain an alphabetically sorted list of all
+      Players. As soon as possible after the beginning of the Week, the
+      Promotor shall perform the following procedure, which accomplishes
+      the selection of the two Experienced Players to incur the duty to
+      propose for that Week, the announcement of the names of those
+      Players, and the updating of the list:
+
+      (a) Experienced Players with an 'H' next to their names shall be
+      selected before other Experienced Players. If there are more than
+      two such Players, then the Promotor shall select the two highest
+      on the list.
+      
+      (b) If, after selecting Experienced Players with an 'H' next to
+      their names, there remain any places to be filled to bring the
+      total number of Players selected for that Week to two, then the
+      Promotor shall select the Experienced Player(s) highest on the list
+      who do not have an asterisk ('*') next to their names. If there
+      are not enough such Players, then only one Player is selected is
+      selected for that Week.
+
+      (c) The Promotor shall then announce in the Public Forum the names
+      of the Players who have been selected for that Week. These Players
+      have two weeks from the time of the Promotor's announcement to
+      submit a Proposal. 
+
+      (d) The Promotor shall then place an asterisk ('*') next to the
+      names of the Players selected for that Week. If any of these
+      Players had an 'H' next to their names, it shall be removed. 
+
+      (e) If after step (d) is performed, it is the case that all
+      Experienced Players have an asterisk next to their names, then the
+      Promotor shall place an 'H' next to the name of any Player who is
+      On Hold and who does not have an asterisk next to eir name, and
+      remove all asterisks from the list.
+
+      As stated above, the two Experienced Players selected by the
+      Promotor each incur a duty to submit a Proposal within two weeks
+      of the Promotor's announcement. Failure to do so is the Infraction
+      of Failure to Propose, incurring a penalty of 1 Blot and 1 P-Note,
+      to be detected and reported by the Promotor. The requirement to
+      submit a Proposal placed upon a Player by this Rule lapses when
+      the Player submits a Proposal, or when two weeks have elapsed from
+      the time of the Promotor's announcement, whichever comes first.
+
+####
+
+It might be worth working an example thourgh to see how the above
+procedure operates.
+
+Initially, the list of Players will have the form: 
+
+(A) (B) (C) (D) (E)
+
+Let's say A is On Hold and C is a new Player, still in eir Grace Period.
+Since neither A nor C are Experienced Players, according to the
+definition, and since initially no Players have an 'H' next to their
+names, the first Players to incur the duty to propose will be B and D.
+After step (d), then, the list will look like this: 
+
+(A) (B *) (C) (D *) (E)
+
+In Week 2, A and C remain as before. So in step (b), there will not be
+two Players to select. In this case, only E is selected for Week two.
+After step (d), the list looks like this:
+
+(A) (B *) (C) (D *) (E *)
+
+Since it is now the case that every Experienced Player has an asterisk
+next to their name, the condition in step (e) is met, and the list
+becomes:
+
+(A H) (B) (C) (D) (E)
+
+In Week 3, A and C remain as before. As in Week 1, B and D are selected,
+leaving us with:
+
+(A H) (B *) (C) (D *) (E)
+
+In Week 4, A comes Off Hold and C's Grace Period has concluded, while B
+and E go On Hold. A and C are selected; after step (d) we have:
+
+(A *) (B *) (C *) (D *) (E)
+
+from which we can see that all Experienced Players once again have an
+asterisk next to their names. After step (e), we have:
+
+(A) (B) (C) (D) (E H)
+
+Finally, in Week 5, E comes Off Hold, so A and E are selected, leaving
+us with:
+
+(A *) (B) (C) (D) (E *)
+
+We can see that E did not succeed in avoiding eir turn by going On Hold
+briefly. Also, the system picked up the fact that B had already had
+their turn before going On Hold, and did not place an 'H' next to eir
+name.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct  9 03:41 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA00205 for <dpb@cs.brown.edu>; Fri, 9 Oct 1998 03:41:45 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA13738
+	for agora-discussion-list; Fri, 9 Oct 1998 17:23:48 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA13735
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 17:23:46 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id RAA01229
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 17:24:54 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001222; Fri, 9 Oct 98 17:24:48 +1000
+Received: From mozart With LocalMail ; Fri, 9 Oct 98 17:22:23 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 9 Oct 1998 17:22:17 +1000 (EST)
+Message-Id:  <981009072217.18217@cse.unsw.edu.au>
+Subject: Re: DIS: Voting Tariff
+In-Reply-To: <199810090053.KAA03323@silas-1.cc.monash.edu.au> from "Steve Gardner" at Oct 9, 98 10:53:57 am
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1171
+
+> 
+> Klaus Herrmanns wrote:
+> >
+> >I see a big technical problem if the voting tariff is 0: then, R1442
+> >will require the Assessor to issue POs for 0 VTs which are prohibited
+> >by R1596.
+> >
+> >Unfortunately, the proposal has already been submitted with the bug.
+
+Doesn't 1442 already have that bug then? It says: 
+
+      ....the Assessor shall bill each Voting Entity a
+      number of Voting Tokens equal to the votes cast on that
+      Proposal by that entity multiplied by the voting cost for
+      that Proposal.
+
+Not "each Voting Entity that votes", but "each Voting Entity". Thus
+anyone who didn't vote should be billed from 0 VTs.
+
+> It can be withdrawn before it is distributed. I think. (Is R1774
+> working?)
+
+R1774 should be working. R106 was the problem, but it has since been 
+amended.  
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct  9 14:56 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA18872 for <dpb@cs.brown.edu>; Fri, 9 Oct 1998 14:56:19 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA16389
+	for agora-discussion-list; Sat, 10 Oct 1998 04:50:01 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA16383
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 10 Oct 1998 04:49:59 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id EAA04439
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 10 Oct 1998 04:51:08 +1000 (EST)
+	(envelope-from dalbertz@rmv.state.ma.us)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma004437; Sat, 10 Oct 98 04:50:38 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 09 Oct 1998 14:51:55 -0400
+Message-Id: <s61e230b.049@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 09 Oct 1998 14:51:05 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Crito Unavailable
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 494
+Lines: 13
+
+Crito Unavailable
+
+Unfortunately, the LAN people here are going to be doing some major upgrades
+this weekend.  As a result, starting at 5PM EST today, I will not have access
+to e-mail until next Tuesday morning.  I doubt if it matters, but I thought I'd
+let y'all know.  I'll have the Herald's Report ready on Tuesday.  Have a good
+weekend, everyone.
+
+-- Crito
+
+If you *really* need to reach me, you can always call US (617) 864-5358.  Of
+course, you'll probably get an answering machine.  8)
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Oct  9 23:03 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA13051 for <dpb@cs.brown.edu>; Fri, 9 Oct 1998 23:03:41 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA17935
+	for agora-discussion-list; Sat, 10 Oct 1998 12:34:10 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA17932
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 10 Oct 1998 12:34:07 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id MAA04868
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 10 Oct 1998 12:35:17 +1000 (EST)
+	(envelope-from gardner@silas-1.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma004866; Sat, 10 Oct 98 12:35:05 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id MAA31816
+	for agora-discussion@gecko.serc.rmit.edu.au; Sat, 10 Oct 1998 12:32:50 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199810100232.MAA31816@silas-1.cc.monash.edu.au>
+Subject: DIS: Secret/Public voting transition
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+Date: Sat, 10 Oct 1998 12:32:50 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1010
+Lines: 20
+
+This is a reminder to Players that on Mon, 12 Oct 12:03:24 GMT, R1859
+(Secret Voting) will repeal itself, and the suppression clause will
+delete itself from R1764 (Public Voting). At that moment, voting in the
+Public Forum will cease to be illegal and resume being required (in the
+sense that votes not sent to the PF will not be effective). Players
+should adjust their behaviour accordingly.
+
+It's probably also worth noting that all Active Players likely have a
+duty to vote on one of P3794-3795. It's a little difficult to be certain
+without an up-to-date Accountor's Report, but I do know that there are
+plenty of VTs in circulation. According to the last Report (Sep 9), the
+only Player too poor to vote would have been Blob, and he has received a
+month's Salaries for two Offices since then.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+

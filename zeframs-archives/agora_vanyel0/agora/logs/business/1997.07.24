@@ -1,0 +1,613 @@
+From owner-nomic-business@teleport.com Thu Jul 24 09:26 EDT 1997
+Received: from portia.teleport.com ([192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA08062 for <dpb@cs.brown.edu>; Thu, 24 Jul 1997 09:26:30 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id GAA29710; Thu, 24 Jul 1997 06:21:51 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 06:21:44 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id GAA29644 for nomic-business-outgoing; Thu, 24 Jul 1997 06:21:43 -0700 (PDT)
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id GAA29627 for <nomic-business@teleport.com>; Thu, 24 Jul 1997 06:21:39 -0700 (PDT)
+Received: from lh1.roc.servtech.com (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id JAA16847 for <nomic-business@teleport.com>; Thu, 24 Jul 1997 09:21:37 -0400 (EDT)
+Message-Id: <199707241321.JAA16847@cyber1.servtech.com>
+From: harlequin@tmbg.org (Chaos Harlequin)
+To: nomic-business@teleport.com
+Subject: BUS: PROTO: Clean Up After Pragmatic Currencies v1.1
+Date: Thu, 24 Jul 1997 12:25:32 GMT
+X-Newsreader: Forte Free Agent 1.0.82
+Sender: owner-nomic-business@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 3827
+Status: N
+
+####
+PROTO-Proposal: Pragmatic and *Functional* Currencies :)
+ 
+Let Rule 1435 ("Definition of Indulgences, Blots and Immaculate") be
+amended to read:
+
+      Indulgences are a Currency.  The Recordkeepor for Indulgences is
+      the Herald. The Mintor of Indulgences is the Bank.
+
+      A Payment Order for 1 Indulgence, the payee of which is the
+      Bank, is called a Blot.  When a Rule states that a Player is to
+      gain some number of Blots, a Payment Order shall be executed
+      with that Player as the payor, the Bank as the payee, and for a
+      number of Indulgences equal to the number of Blots that Player
+      is to receive.  This order is to be executed by whomever is
+      required to report the change in Blots.
+
+      A Player may be said to have a number of Blots equal to the sum
+      of the amounts of all Payment Orders for Indulgences naming em
+      as the payor and the Bank as payee, including orders which are
+      disputed (but not those which have been vacated or satisfied).  
+      A Player with no such Payment Orders is Immaculate.  It is a 
+      Win-Preventing condition for a Player to have one or more Blots.
+
+Change Rule 1712's title ("Distribution of Indulgences") to
+"Indulgences are a Closed System" and amend it to read:
+
+      At the beginning of each Nomic Week, the Herald shall randomly 
+      distribute a number of Indulgences equal to the number of 
+      Blots executed in the past Week, minus the number of Blots 
+      vacated in the past Week, among all Players. For each such 
+      Indulgence, the Herald shall randomly select one Player and 
+      transfer the Indulgence to em. 
+
+      Whenever a Player transfers an Indulgence to the Bank in order 
+      to satisfy a Blot, or a Blot is vacated, one Indulgence in the 
+      Bank is destroyed. Whenever a Blot is issued, one Indulgence
+      is created in the Bank.
+
+      If the number of Indulgences in existence is ever less than the 
+      number of Blots minus one, the Bank is required to create enough
+      Indulgences so that the number of Indulgences is equal to the 
+      number of Blots minus one.
+
+      If the number of Indulgences in existence is ever more than the 
+      number of Blots minus one, the Bank is required to destroy 
+      enough Indulgences so that the number of Indulgences is equal to
+
+      the number of Blots minus one. If the Bank does not possess 
+      sufficient Indulgences, the Bank is required to destroy all 
+      Indulgences it possesses.
+      
+Let Rule 1701 ("Proposal Notes") be amended by replacing the text:
+
+      Proposal Notes (P-Notes) are a currency, their MUQ is one, and
+      their Recordkeepor is the Promotor.
+
+with the text:
+
+      Proposal Notes (P-Notes) are a currency, their MUQ is one, 
+      their Recordkeepor is the Promotor, and their Mintor is the
+      Bank.
+
+Amend Rule 1579 ("Mintors") by adding the text:
+
+      All Players have Mint Authority.
+
+after the sentence reading:
+
+      The Recordkeepor of that Currency shall publically announce 
+      when this happens.
+
+The Promotor's Report of Sun, 20 Jul 1997 19:59:11 -0500 is ratified.
+
+The Herald's Report of Mon, 21 Jul 1997 11:34:34 -0400 is ratified.
+
+Amend Rule 1727 ("Happy Birthday") by changing the word "BIrth" to
+"Birth."
+
+{Comments:
+Changed the Indulgence distribution method and fiddled with it until
+it's got a reasonable facsimile of a closed system. Simplified stuff,
+too, and used Ratification rather than hard-coding to set Players'
+values correctly.
+} 
+####
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+
+From owner-nomic-business@teleport.com Thu Jul 24 14:22 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA17360 for <dpb@cs.brown.edu>; Thu, 24 Jul 1997 14:22:23 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id LAA01808; Thu, 24 Jul 1997 11:21:09 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 11:21:03 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id LAA01776 for nomic-business-outgoing; Thu, 24 Jul 1997 11:21:02 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-3-3.ucs.indiana.edu [129.79.18.153]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id LAA01746 for <nomic-business@teleport.com>; Thu, 24 Jul 1997 11:20:57 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id NAA12923 for <nomic-business@teleport.com>; Thu, 24 Jul 1997 13:20:54 -0500
+Message-Id: <199707241820.NAA12923@poverty.bloomington.in.us>
+To: nomic-business@teleport.com
+Subject: BUS: Re: OFF: Herald's Report for 21 July 1997 
+In-reply-to: Your message of "Mon, 21 Jul 1997 11:34:34 -0400."
+             <s3d3497c.062@rmv.state.ma.us> 
+Date: Thu, 24 Jul 1997 13:20:53 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-business@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 725
+Status: N
+
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David>     1 Indulgence in The Nomic Bank randomly assigned as
+David> follows:
+
+David>         1 Indulgence is paid from the Bank to Vanyel.
+
+It is improper and illegal for you to record this transfer.  Only the
+Chancellor, acting as the Bank's Executor, may transfer Currencies
+from the Bank to another entity.  Rule 1712 requires you to issue a
+Payment Order for one Indulgence from the Bank to Vanyel, but does not
+in any way authorize you to execute any Transfer Orders on behalf of
+the Bank.
+
+I therefore claim that this Herald's Report is in error, in that it
+reflects a transfer of Currencies which was not the result of a
+legally submitted Transfer Order.
+
+From owner-nomic-business@teleport.com Thu Jul 24 14:55 EDT 1997
+Received: from betty.teleport.com (betty.teleport.com [192.108.254.9]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA18313 for <dpb@cs.brown.edu>; Thu, 24 Jul 1997 14:55:20 -0400 (EDT)
+Received: from localhost (daemon@localhost)
+	by betty.teleport.com (8.8.5/8.8.5) with SMTP id LAA23028;
+	Thu, 24 Jul 1997 11:49:01 -0700 (PDT)
+Received: by betty.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 11:48:54 -0700
+Received: (from daemon@localhost)
+	by betty.teleport.com (8.8.5/8.8.5) id LAA23010
+	for nomic-business-outgoing; Thu, 24 Jul 1997 11:48:53 -0700 (PDT)
+Received: from kanga.INS.CWRU.Edu (gb485@kanga.INS.CWRU.Edu [129.22.8.32])
+	by betty.teleport.com (8.8.5/8.8.5) with ESMTP id LAA22998
+	for <nomic-business@lists.teleport.com>; Thu, 24 Jul 1997 11:48:48 -0700 (PDT)
+Received: (gb485@localhost) by kanga.INS.CWRU.Edu (8.8.6+cwru/CWRU-2.4-bsdi)
+	id OAA14258; Thu, 24 Jul 1997 14:48:44 -0400 (EDT) (from gb485)
+Message-Id: <199707241848.OAA14258@kanga.INS.CWRU.Edu>
+Date: Thu, 24 Jul 1997 14:48:44 -0400 (EDT)
+From: gb485@cleveland.Freenet.Edu (Steven A Swiniarski)
+To: nomic-business@teleport.com
+Subject: BUS: PROTO:No more nomic entities, and sensible names
+Sender: owner-nomic-business@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 2584
+Status: N
+
+PROTO:Revise Nomic Entities
+
+
+----------------------------------------------------------------------
+
+Let the following Rule be created:
+
+     The name of any entity, if that name is assigned by the Rules, or 
+     via procedures defined in the Rules, is a Nomic Property.  The 
+     Rules may not assign two entities the same name.  If an attempt is 
+     made to give entities duplicate names, only one entity is so named, 
+     the other is unnamed.  The named entity is determined as follows:
+
+      i) If both entities are named directly by the Rules, the entity 
+         named by the higher precedence Rule is named.
+
+     ii) If one entity is named directly by a Rule and the other is 
+         named by some other procedure, the entity named by the Rule is 
+         named.
+
+    iii) If both entities are named by procedures other than directly 
+         by a Rule, then the entity named first is the named entity.
+
+     Classes of entities are themselves entities for the purpose of 
+     this rule, and are permitted to have names.  A Players nickname is 
+     a name for the purpose of this rule.  
+
+{Comment: This finally legislates a proceedure to deal with duplicate
+          names, I also think it would be better to get away from the
+          idea of "Name" since IMO this restriction was origginally 
+          intended to _avoid_ confusion.  I think that if the Rules call
+          an entity something, that should be its name unless something
+          says different.}
+
+----------------------------------------------------------------------
+
+Rule 1586 is amended to read as follows:
+
+      Any entity that has existence solely due to the fact that the
+      Rules define it to exist, shall cease to exist whenever those
+      Rules are repealed or amended to remove the definition of that 
+      entity.
+
+      When the Rules defining a given entity are amended such that they
+      still define the entity but in a different way or with
+      different properties, that entity and its properties continue to
+      exist to whatever extent is possible under the new definition.
+
+{Comment: Axed the Nomic Entity idea, but kept the continuity provisions,
+          which were the important part of this rule anyway.}
+
+----------------------------------------------------------------------
+
+Swann
+
+--
+Steven Swiniarski (aka S Andrew Swann) http://www.sff.net/people/SASwann
+gb485@cleveland.freenet.edu            
+"There can be no effective control of corporations while their political
+ activity remains."                                    --Theodore Roosevelt
+
+From owner-nomic-business@teleport.com Thu Jul 24 15:05 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA18667 for <dpb@cs.brown.edu>; Thu, 24 Jul 1997 15:05:27 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id MAA13974; Thu, 24 Jul 1997 12:03:09 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 12:03:07 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id MAA13948 for nomic-business-outgoing; Thu, 24 Jul 1997 12:03:06 -0700 (PDT)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19]) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id MAA13929 for <nomic-business@teleport.com>; Thu, 24 Jul 1997 12:02:59 -0700 (PDT)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 24 Jul 1997 15:07:25 -0400
+Message-Id: <s3d76fad.084@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 24 Jul 1997 15:07:13 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic-business@teleport.com
+Subject: BUS: Re: OFF: Herald's Report for 21 July 1997
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic-business@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain
+Content-Length: 6461
+Status: N
+
+BUS: Re: OFF: Herald's Report for 21 July 1997
+This time to the PF.
+>>> Scott Goehring <scott@poverty.bloomington.in.us> 07/24/97 02:20pm >>>
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David>     1 Indulgence in The Nomic Bank randomly assigned as
+David> follows:
+
+David>         1 Indulgence is paid from the Bank to Vanyel.
+
+It is improper and illegal for you to record this transfer.  Only the
+Chancellor, acting as the Bank's Executor, may transfer Currencies
+from the Bank to another entity.  Rule 1712 requires you to issue a
+Payment Order for one Indulgence from the Bank to Vanyel, but does not
+in any way authorize you to execute any Transfer Orders on behalf of
+the Bank.
+
+I therefore claim that this Herald's Report is in error, in that it
+reflects a transfer of Currencies which was not the result of a
+legally submitted Transfer Order.
+>>> Scott Goehring <scott@poverty.bloomington.in.us> 07/24/97 02:20pm >>>
+------------------------
+
+I hereby admit this claim.  This report, and my suggestion for Indulgence/Blot
+balancing were based on a deeply flawed understanding of Pragmatic Currencies. 
+I see now the error of my ways - only the Chancellor is allowed to transfer,
+create, or destroy currencies in the Bank.  The Rules do not give this power,
+even in limited circumstances, to any other Officer.  I submit my most abject
+apologies for my unbounded stupidity.  I submit a corrected version of the
+Herald's report below.  8)
+
+Crito
+----------------------------
+Herald's Report as of 21 July 1997
+
+--------------
+Recent events:
+--------------
+
+Date: Tue, 15 Jul 1997 22:23:20 -0500
+Subject: BUS: Negative Indulgence Rectification (ATTN: Herald, Rulekeepor)
+
+    Elde's 9 Indulgences are created in the Nomic Bank and transfered to Elde.
+    An Order for the payment of 9 Indulgences from Elde is issued by the
+    Chancellor.
+
+    "The Bank, having determined that a shortage of Indulgences exists,
+    hereby creates 9 Indulgences, under the authority granted to it by
+    Rule 1471.
+
+    In accordance with Rule 1740, the Bank transfers 9 Indulgences to Elde.
+
+    Elde is hereby commanded to transfer 9 Indulgences to the Bank, this
+    order arising by the authority granted the Chancellor by Rule 1740."
+
+Date: Wed, 16 Jul 1997 21:30:04 +0200 (MET DST)
+Subject: OFF: On Hold
+
+    Andre goes On Hold.
+
+Date: Mon, 21 July 1997 00:00:00 +0000
+
+    Elde commits the Infraction of Persistent Indebtedness (R1713) and is
+    commanded, as of this report, to transfer one (1) Indulgence to the Nomic
+    Bank.
+
+Date: Mon, 21 July 1997 10:37:00 (EDT)
+
+    1 Indulgence in The Nomic Bank randomly assigned as follows:
+
+        The Bank is hereby commanded to transfer one (1) Indulgence to
+        Vanyel.
+
+    Eligible recipients:  Blob, Chuck, Crito, Elde, elJefe, General Chaos,
+                          Harlequin, Kolja A., Michael, Morendil, Murphy,
+                          Steve, Swann, Vanyel
+
+
+---------------------------
+Old status as of 1997/14/07
+New status as of 1997/21/07
+
+---------------------------
+Kudo Status
+---------------------------
+Indicators: s = Samurai
+            S = Shogun
+            * = new Player
+
+                        OLD                         NEW
+
+                       Kudos                       Kudos
+ Andre                  13                          13
+ Antimatter             20                          20
+ Blob                   19                          19
+ Chuck                  25                          25
+ Crito                  22                          22
+ Elde                   20                          20   
+ elJefe                 31 s                        31 s
+ General Chaos          23                          23
+ Harlequin              21                          21
+ Kolja A.               20                          20
+ Michael                25                          25
+ Morendil                4                           4
+ Murphy                 16                          16   
+ Oerjan                 21                          21
+ Steve                  34 sS                       34 sS
+ Swann                  18                          18
+ Vanyel                 34 sS                       34 sS
+ Zefram                 20                          20
+
+
+---------------------------
+Indulgence Holdings
+---------------------------
+                 OLD                    NEW
+
+             Indulgences             Indulgences
+ Andre            0                       0
+ Antimatter       0                       0
+ Blob             2                       2
+ Chuck            0                       0
+ Crito            0                       0
+ Elde            -9                       0
+ elJefe           1                       1
+ General Chaos    0                       0
+ Harlequin        0                       0
+ Kolja A.         1                       1
+ Michael          1                       1
+ Morendil         0                       0
+ Murphy           0                       0
+ Oerjan           1                       1
+ Steve            0                       0
+ Swann            1                       1
+ Vanyel           0                       0
+ Zefram           0                       0
+
+The Nomic Bank    1                       1
+
+---------------------------
+Outstanding Payment Orders
+---------------------------
+
+    Date: Tue, 15 Jul 1997 22:23:20 -0500  9 Indulgences from Elde to the Bank.
+    Date: Mon, 21 Jul 1997 10:37:00 (EDT)  1 Indulgence  from Elde to the Bank.
+
+---------------------------
+Disputed Payment Orders
+---------------------------
+
+    None
+
+---------------------------
+Satisfied Payment Orders
+---------------------------
+
+    None
+
+---------------------------
+Vacated Payment Orders
+---------------------------
+
+    None
+
+---------------------------
+Miscellaneous
+---------------------------
+
+Jtael left the Game with 3 Blots.
+Macross left the Game with 0 Blots and 21 Kudos on Mon, 24 Mar 97 18:13:29.
+favor left the Game with 3 Blots and 33 Kudos on Thu, 12 Jun 97 11:25:08 EDT
+KoJen left the Game with 1 Indulgence and 3 Kudos on Thu, 12 Jun 97 12:07:45
+-0400
+
+
+The last Tabulator's Report that was subject to the adoption of
+a VOC directive was the report published in the PF on 1996/08/13
+(back when we had a Tabulator, and e was responsible for Blots).
+
+As far as I know, no Herald's Report has ever been subject to
+the adoption of a VOC directive.
+
+-- Herald Crito
+
+
+From owner-nomic-business@teleport.com Thu Jul 24 16:22 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA20986 for <dpb@cs.brown.edu>; Thu, 24 Jul 1997 16:22:40 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id NAA15390; Thu, 24 Jul 1997 13:21:14 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 13:21:10 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id NAA15367 for nomic-business-outgoing; Thu, 24 Jul 1997 13:21:08 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-3-3.ucs.indiana.edu [129.79.18.153]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id NAA15341 for <nomic-business@teleport.com>; Thu, 24 Jul 1997 13:21:02 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id PAA17114 for <nomic-business@teleport.com>; Thu, 24 Jul 1997 15:20:55 -0500
+Message-Id: <199707242020.PAA17114@poverty.bloomington.in.us>
+To: nomic-business@teleport.com
+Subject: Re: BUS: Re: OFF: Distribution of Proposal 354 
+In-reply-to: Your message of "Mon, 21 Jul 1997 10:13:12 -0400."
+             <s3d33661.092@rmv.state.ma.us> 
+Date: Thu, 24 Jul 1997 15:20:53 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-business@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 602
+Status: N
+
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> H. Assessor take note, I hereby disown proposal 3541. 
+
+So noted.  Crito is hereby commanded to pay, to the Bank, one P-Note.
+
+David> If it is legal for me to do so, I hereby pay the 1 P-Note
+David> required for disowning a proposal at this time.
+
+Interesting question.  I'm not sure whether this should be treated as
+a null action, or if it should be interpreted as a transfer of 1
+P-Note to the Bank.  (It's clearly legal for you to do so, but it may
+not have the effect of satisfying the Payment Order I just executed.)
+
+Opinions?
+
+From owner-nomic-business@teleport.com Thu Jul 24 18:54 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA24823 for <dpb@cs.brown.edu>; Thu, 24 Jul 1997 18:54:35 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id PAA00587; Thu, 24 Jul 1997 15:45:45 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 15:45:43 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id PAA00572 for nomic-business-outgoing; Thu, 24 Jul 1997 15:45:42 -0700 (PDT)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19]) by greta.teleport.com (8.8.5/8.7.3) with SMTP id PAA00541 for <nomic-business@teleport.com>; Thu, 24 Jul 1997 15:45:34 -0700 (PDT)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 24 Jul 1997 18:49:55 -0400
+Message-Id: <s3d7a3d3.076@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 24 Jul 1997 18:49:34 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic-business@teleport.com
+Subject: Re: BUS: Re: OFF: Distribution of Proposal 354
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic-business@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain
+Content-Length: 1116
+Status: N
+
+Re: BUS: Re: OFF: Distribution of Proposal 354
+
+>>> Scott Goehring <scott@poverty.bloomington.in.us> 07/24/97 04:20pm >>>
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> H. Assessor take note, I hereby disown proposal 3541. 
+
+So noted.  Crito is hereby commanded to pay, to the Bank, one P-Note.
+
+David> If it is legal for me to do so, I hereby pay the 1 P-Note
+David> required for disowning a proposal at this time.
+
+Interesting question.  I'm not sure whether this should be treated as
+a null action, or if it should be interpreted as a transfer of 1
+P-Note to the Bank.  (It's clearly legal for you to do so, but it may
+not have the effect of satisfying the Payment Order I just executed.)
+
+Opinions?
+>>> Scott Goehring <scott@poverty.bloomington.in.us> 07/24/97 04:20pm >>>
+
+I think it's clear that this was a conditional attempt to make a transfer in
+order to satisfy a future PO, but I won't lose any sleep if I lose an extra
+P-Note.  8)
+
+In any case, if the above Payment Order has not already been satisfied, I
+hereby transfer 1 P-Note to the Bank in order to satisfy this PO.
+
+-- Crito
+
+
+From owner-nomic-business@teleport.com Thu Jul 24 22:22 EDT 1997
+Received: from betty.teleport.com (betty.teleport.com [192.108.254.9]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA29042 for <dpb@cs.brown.edu>; Thu, 24 Jul 1997 22:22:11 -0400 (EDT)
+Received: from localhost (daemon@localhost)
+	by betty.teleport.com (8.8.5/8.8.5) with SMTP id TAA05957;
+	Thu, 24 Jul 1997 19:20:38 -0700 (PDT)
+Received: by betty.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 19:20:36 -0700
+Received: (from daemon@localhost)
+	by betty.teleport.com (8.8.5/8.8.5) id TAA05949
+	for nomic-business-outgoing; Thu, 24 Jul 1997 19:20:35 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (gardner@aurora.cc.monash.edu.au [130.194.1.91])
+	by betty.teleport.com (8.8.5/8.8.5) with ESMTP id TAA05788
+	for <nomic-business@lists.teleport.com>; Thu, 24 Jul 1997 19:18:43 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id MAA22586 for nomic-business@lists.teleport.com; Fri, 25 Jul 1997 12:18:21 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707250218.MAA22586@aurora.cc.monash.edu.au>
+Subject: BUS: Deregistration of Elde
+To: nomic-business@teleport.com (Business Nomic Mailing List)
+Date: Fri, 25 Jul 1997 12:18:21 +1000 (EST)
+In-Reply-To: <199707080422.OAA09279@aurora.cc.monash.edu.au> from "Steve Gardner" at Jul 8, 97 02:22:54 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-business@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 567
+Status: N
+
+Steve Gardner writes:
+>
+>Elde is Maybe Absent. He has two weeks to post a message to the
+>Public Forum, or e will become Absent.
+>
+
+The above was posted on July 8, meaning that Elde has been Absent
+since July 22. In accordance with R1042, I hereby cause Elde to
+become Abandoning, which results in his deregistration, which I
+hereby report in my capacity as Registrar.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-business@teleport.com Thu Jul 24 22:25 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA29114 for <dpb@cs.brown.edu>; Thu, 24 Jul 1997 22:25:35 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id TAA14902; Thu, 24 Jul 1997 19:23:50 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 19:23:46 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id TAA14870 for nomic-business-outgoing; Thu, 24 Jul 1997 19:23:45 -0700 (PDT)
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10]) by portia.teleport.com (8.8.5/8.7.3) with SMTP id TAA14854 for <nomic-business@teleport.com>; Thu, 24 Jul 1997 19:23:42 -0700 (PDT)
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA26931; Thu, 24 Jul 97 21:25:15 CDT
+Message-Id: <9707250225.AA26931@dfw.dfw.net>
+Subject: Re: BUS: New Category and WO intentions
+To: nomic-business@teleport.com (Agora Business)
+Date: Thu, 24 Jul 1997 21:25:15 -0500 (CDT)
+In-Reply-To: <9707202210.AA18148@dfw.dfw.net> from "Charles E. Carroll" at Jul 20, 97 05:10:50 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-nomic-business@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 531
+Status: N
+
+Charles E. Carroll wrote:
+>
+>I intend to move Rule 1601 ("Probate") into the Rule Category "Probate"
+>from its current Category "Currencies" Without Objection.
+>
+>I intend to move Rule 1637 ("Wills") into the Rule Category "Probate"
+>from its current Category "Subordinate Legal Codes" Without Objection.
+>
+>I intend to change the Title of Rule 1470 ("The Mint and the Bank")
+>to "The Bank" Without Objection.
+
+There having been no objection to any of the above three changes,
+all three hereby take place Without Objection.
+
+Chuck
+

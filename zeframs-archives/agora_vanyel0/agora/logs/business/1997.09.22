@@ -1,0 +1,950 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 02:32 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA14759 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 02:32:19 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA26191
+	for agora-business-list; Mon, 22 Sep 1997 16:14:13 +1000
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA26187
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 22 Sep 1997 16:14:09 +1000
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id PAA11779 for agora-business@gecko.serc.rmit.edu.au; Mon, 22 Sep 1997 15:13:49 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199709220513.PAA11779@aurora.cc.monash.edu.au>
+Subject: BUS: proto: Liberalize Annotations, Slightly
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic Business List)
+Date: Mon, 22 Sep 1997 15:13:49 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1764
+
+I've been thinking about Vlad's remark that it's pretty hard to
+remember all the precedent that's been set by past CFJs. I have
+an idea, which, while it won't completely solve that problem, may
+make it less severe. Basically, I'd like to broaden, slightly, the
+power of Judges to Annotate the Ruleset.
+
+Consider CFJ 942. In that CFJ, I sought to have R789 Annotated
+with the Statement. This can only happen if a Judge judges TRUE.
+As it happens, the CFJ turned out to be FALSE - but this is no
+less informative in this case than a TRUE Judgement would have
+been. The judgement that the definitions of 'CFJ' offered by
+Rules 789 and 991 are in conflict and that R991 takes precedence
+would be a useful Annotation to make to one or both Rules.
+
+So, how about this:
+
+####
+Proto-Proposal
+Liberalize Annotations, Slightly
+
+Be it hereby resolved that R789 be amended by replacing the text
+in which currently reads:
+
+      If the Judge finds this CFJ's Statement TRUE, e is permitted to
+      issue an Injunction requiring the Rulekeepor to annotate the
+      Rule in question with that Statement and the list of relevant
+      Rules.  This annotation, while it exists, shall guide
+      application of that Rule.
+
+with text which reads:
+
+      The Judge of such a CFJ is permitted to issue an Injunction
+      requiring the Rulekeepor to annotate the Rule in question with
+      that Statement, an indication of whether it was Judged TRUE or
+      FALSE, and the list of relevant Rules. This annotation, while
+      it exists, shall guide application of that Rule.
+
+####
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 04:03 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA16263 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 04:03:13 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA28332
+	for agora-business-list; Mon, 22 Sep 1997 17:44:30 +1000
+Received: from wsinfm15.win.tue.nl (wsinfm15.win.tue.nl [131.155.69.168])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA28329
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 22 Sep 1997 17:44:16 +1000
+Received: by wsinfm15.win.tue.nl (8.7.1/1.45)
+    id JAA07335; Mon, 22 Sep 1997 09:47:38 +0200 (MET DST)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199709220747.JAA07335@wsinfm15.win.tue.nl>
+Subject: BUS: COE on Mad Scientist's Report
+To: agora-business@gecko.serc.rmit.edu.au (nomic-business list)
+Date: Mon, 22 Sep 1997 09:47:37 +0200 (MET DST)
+In-Reply-To: <3425C37E.1706@tmbg.org> from "Chaos Harlequin" at Sep 21, 97 06:01:50 pm
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 631
+
+> 
+> Agora Nomic
+> Mad Scientist's Report
+> 
+> Date of this Report: Sun, 21 September 1997
+> 
+> 
+> STEP 1: SENTENCE DELETION
+> =========================
+> 
+> As of this date, there were 12 sentences between the first and last
+> paragraphs of the Frankenstein Rule. N is thus equal to 1. In
+> accordance to Rule 1673, I randomly selected 2N sentences. The
+> sentences selected were sentences 5 and 9, which read:
+> 
+>       If a Frankenstein Monster is defined as a Voting Entity then
+>       it is permitted to cast Voting Tokens on Proposals as if it
+>       were a Player.
+
+
+COE: Only line 5 read this way, line 9 didn't.
+
+Andre
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 02:32 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA14759 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 02:32:19 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA26191
+	for agora-business-list; Mon, 22 Sep 1997 16:14:13 +1000
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA26187
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 22 Sep 1997 16:14:09 +1000
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id PAA11779 for agora-business@gecko.serc.rmit.edu.au; Mon, 22 Sep 1997 15:13:49 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199709220513.PAA11779@aurora.cc.monash.edu.au>
+Subject: BUS: proto: Liberalize Annotations, Slightly
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic Business List)
+Date: Mon, 22 Sep 1997 15:13:49 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1764
+Lines: 45
+
+I've been thinking about Vlad's remark that it's pretty hard to
+remember all the precedent that's been set by past CFJs. I have
+an idea, which, while it won't completely solve that problem, may
+make it less severe. Basically, I'd like to broaden, slightly, the
+power of Judges to Annotate the Ruleset.
+
+Consider CFJ 942. In that CFJ, I sought to have R789 Annotated
+with the Statement. This can only happen if a Judge judges TRUE.
+As it happens, the CFJ turned out to be FALSE - but this is no
+less informative in this case than a TRUE Judgement would have
+been. The judgement that the definitions of 'CFJ' offered by
+Rules 789 and 991 are in conflict and that R991 takes precedence
+would be a useful Annotation to make to one or both Rules.
+
+So, how about this:
+
+####
+Proto-Proposal
+Liberalize Annotations, Slightly
+
+Be it hereby resolved that R789 be amended by replacing the text
+in which currently reads:
+
+      If the Judge finds this CFJ's Statement TRUE, e is permitted to
+      issue an Injunction requiring the Rulekeepor to annotate the
+      Rule in question with that Statement and the list of relevant
+      Rules.  This annotation, while it exists, shall guide
+      application of that Rule.
+
+with text which reads:
+
+      The Judge of such a CFJ is permitted to issue an Injunction
+      requiring the Rulekeepor to annotate the Rule in question with
+      that Statement, an indication of whether it was Judged TRUE or
+      FALSE, and the list of relevant Rules. This annotation, while
+      it exists, shall guide application of that Rule.
+
+####
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 04:03 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA16263 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 04:03:13 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA28332
+	for agora-business-list; Mon, 22 Sep 1997 17:44:30 +1000
+Received: from wsinfm15.win.tue.nl (wsinfm15.win.tue.nl [131.155.69.168])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA28329
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 22 Sep 1997 17:44:16 +1000
+Received: by wsinfm15.win.tue.nl (8.7.1/1.45)
+    id JAA07335; Mon, 22 Sep 1997 09:47:38 +0200 (MET DST)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199709220747.JAA07335@wsinfm15.win.tue.nl>
+Subject: BUS: COE on Mad Scientist's Report
+To: agora-business@gecko.serc.rmit.edu.au (nomic-business list)
+Date: Mon, 22 Sep 1997 09:47:37 +0200 (MET DST)
+In-Reply-To: <3425C37E.1706@tmbg.org> from "Chaos Harlequin" at Sep 21, 97 06:01:50 pm
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 631
+Lines: 23
+
+> 
+> Agora Nomic
+> Mad Scientist's Report
+> 
+> Date of this Report: Sun, 21 September 1997
+> 
+> 
+> STEP 1: SENTENCE DELETION
+> =========================
+> 
+> As of this date, there were 12 sentences between the first and last
+> paragraphs of the Frankenstein Rule. N is thus equal to 1. In
+> accordance to Rule 1673, I randomly selected 2N sentences. The
+> sentences selected were sentences 5 and 9, which read:
+> 
+>       If a Frankenstein Monster is defined as a Voting Entity then
+>       it is permitted to cast Voting Tokens on Proposals as if it
+>       were a Player.
+
+
+COE: Only line 5 read this way, line 9 didn't.
+
+Andre
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 10:32 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA23604 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 10:32:03 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA06370
+	for agora-business-list; Tue, 23 Sep 1997 00:20:09 +1000
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id AAA06367
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 23 Sep 1997 00:20:04 +1000
+Received: (qmail 850 invoked from network); 22 Sep 1997 14:23:41 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 22 Sep 1997 14:23:41 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA16637; Mon, 22 Sep 1997 16:23:39 +0200
+Date: Mon, 22 Sep 1997 16:23:39 +0200
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9709221423.AA16637@spinup.tp3.ruhr-uni-bochum.de>
+To: agora-business@gecko.serc.rmit.edu.au
+In-Reply-To: <199709221343.PAA07947@wsinfm15.win.tue.nl> (engels@win.tue.nl)
+Subject: BUS: CFJ 933 Judgement: Appeal
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 655
+Lines: 18
+
+I appeal the judgement on CFJ 933.
+
+>From the judgement:
+>>
+* at that time, the Mintor of VTs was still the Mint (1696)
+* by Rule 1579, all VTs were therefore destroyed at that instant
+                                                         ^^^^^^^
+* (thereafter, 1696 was amended to make the Bank the VT Mintor)
+<<
+
+As I explained in an earlier post, I think no such "instant" ever
+--erm, what do instants do? exist? happen? well, never mind... --
+anyway, there never was such an instant. That's why 1527 speaks of
+infinitesimal time separations, not simply of small ones.
+
+So the bank became mintor in time to save VTs, and so on and so on. 
+
+Kolja A.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 14:49 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA01359 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 14:49:14 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA13111
+	for agora-business-list; Tue, 23 Sep 1997 04:19:06 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id EAA13108
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 23 Sep 1997 04:19:01 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 22 Sep 1997 14:27:40 -0400
+Message-Id: <s426805c.066@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 22 Sep 1997 14:27:07 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: OFF:  New Proposals
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 2300
+
+OFF:  New Proposals
+
+I don't really feel that it is proper for me to refrain from distributing these
+proposals sent to me last week.  I hope my CFJ will be judged TRUE, so that
+they will get at least an abbreviated Voting Period.
+
+There are three new proposals distributed as of this report.
+
+Note that Andre has specified in eir submission that eir proposals are
+to have a Voting Period of 10 days, starting as of this message.  This Promotor
+finds it doubtful whether this specification has any legal
+significance.
+
+======================================================================
+D = Disinterested
+d = Disowned
+S = Silly
+ 
+   3552 Steve    1 A Public Voting Experiment
+D  3553 Andre    1 Don't discourage Proposing
+D  3554 Andre    1 New Player Judgement Leniency
+
+======================================================================
+
+Proposal 3552 (Steve)  AI = 1
+A Public Voting Experiment
+
+WHEREAS voting in Agora's long history has traditionally been by
+secret ballot, and whereas it is well known to psephologists that
+subtle changes in the mechanics of voting can have interesting
+effects, we, the Voting Entities of Agora, do hereby resolve to conduct
+the following Public Voting Experiment for the duration of a trial two-
+month period, and to that end further resolve that a Rule, entitled
+"A Public Voting Experiment", be created with the following text:
+
+      Any other Rule to the contrary notwithstanding, the casting of
+      any votes by Voting Entities on Proposals, Elections or Referenda,
+      may only be achieved by sending a message to the Public Forum.
+
+      This Rule shall repeal itself 60 days after it is created.
+
+======================================================================
+
+Proposal 3553 (Andre)  AI = 1  (Disinterested)
+Don't discourage Proposing
+
+Let Rule 1065 (Discourages Too Many Proposals) be repealed.
+======================================================================
+
+Proposal 3554 (Andre)  AI = 1  (Disinterested)
+New Player Judgement Leniency
+
+Let Rule 1567 (Making Oneself Ineligible To Judge a CFJ) be amended
+by adding after the phrase 'shall bill that Player a fee of 0.5 VT'
+the text ', unless that Player is subject to a Grace Period.
+======================================================================
+
+-- Promotor Crito
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 15:15 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA02207 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 15:14:58 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA14171
+	for agora-business-list; Tue, 23 Sep 1997 05:00:31 +1000
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA14167
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 23 Sep 1997 05:00:27 +1000
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 50781]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49776-17326>; Mon, 22 Sep 1997 20:50:43 +0200
+Date: 	Mon, 22 Sep 1997 20:50:30 +0200 (MET DST)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: Agora Business List <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: COE: Re: OFF: Herald's Report as of 22 September 1997
+In-Reply-To: <s4267de6.053@rmv.state.ma.us>
+Message-ID: <Pine.LNX.3.96.970922204809.15538J-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 1150
+
+On Mon, 22 Sep 1997, David Albertz wrote:
+
+> Herald's Report as of 22 September 1997
+
+>     16 Indulgences in The Nomic Bank at this time, 14 to be distributed.
+> 
+>     The Bank is hereby commanded to transfer one Indulgence to Harlequin.
+>     The Bank is hereby commanded to transfer one Indulgence to G. Chaos.
+>     The Bank is hereby commanded to transfer three Indulgences to elJefe.
+>     The Bank is hereby commanded to transfer one Indulgence to Oerjan.
+>     The Bank is hereby commanded to transfer two Indulgences to Steve.
+>     The Bank is hereby commanded to transfer two Indulgences to Chuck.
+>     The Bank is hereby commanded to transfer one Indulgence to Michael.
+>     The Bank is hereby commanded to transfer one Indulgence to Morendil.
+>     The Bank is hereby commanded to transfer one Indulgence to Vlad.
+>     The Bank is hereby commanded to transfer one Indulgence to Kolja A.
+
+The Herald is reminded that the distribution Rule clearly specifies one PO
+per Indulgence, not one per Player. This is a COE.
+
+Greetings,
+Ørjan.
+
+-- 
+Praeterea censeo Cyberprominem et Agim esse delendas.
+<URL:http://www.cyberpass.net/~fekete/>
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 16:20 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA04304 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 16:19:56 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA15816
+	for agora-business-list; Tue, 23 Sep 1997 05:57:52 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id FAA15813
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 23 Sep 1997 05:57:47 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 22 Sep 1997 16:06:40 -0400
+Message-Id: <s4269790.051@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 22 Sep 1997 16:06:04 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Re:  Payment Order numbers for the Chancellor
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1284
+
+Re:  Payment Order numbers for the Chancellor
+
+H. Chancellor,
+
+For the record, here are the latest batch of PO numbers for the weekly
+Indulgence Lottery, after Oerjan's COE was admitted and replacements were
+issued.
+
+POI101  09/22/97 14:16:24 -0400     1     Bank         Harlequin    Herald
+POI102  09/22/97 14:16:24 -0400     1     Bank         G. Chaos     Herald
+POI104  09/22/97 14:16:24 -0400     1     Bank         Oerjan       Herald
+POI107  09/22/97 14:16:24 -0400     1     Bank         Michael      Herald
+POI108  09/22/97 14:16:24 -0400     1     Bank         Morendil     Herald
+POI109  09/22/97 14:16:24 -0400     1     Bank         Vlad         Herald
+POI110  09/22/97 14:16:24 -0400     1     Bank         Kolja A.     Herald
+POI111  09/22/97 15:34:13 -0400     1     Bank         elJefe       Herald
+POI112  09/22/97 15:34:13 -0400     1     Bank         elJefe       Herald
+POI113  09/22/97 15:34:13 -0400     1     Bank         elJefe       Herald
+POI114  09/22/97 15:34:13 -0400     1     Bank         Steve        Herald
+POI115  09/22/97 15:34:13 -0400     1     Bank         Steve        Herald
+POI116  09/22/97 15:34:13 -0400     1     Bank         Chuck        Herald
+POI117  09/22/97 15:34:13 -0400     1     Bank         Chuck        Herald
+
+Regards,
+Crito
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 18:18 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA07632 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 18:18:32 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA18919
+	for agora-business-list; Tue, 23 Sep 1997 07:59:21 +1000
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA18916
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 23 Sep 1997 07:59:13 +1000
+Received: from cf-tsr-03.fhcrc.org (port03-rem [140.107.12.33])
+	by bug1.fhcrc.org (8.8.7/8.8.7) with SMTP id PAA26832
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 22 Sep 1997 15:02:51 -0700 (PDT)
+Message-Id: <199709222202.PAA26832@bug1.fhcrc.org>
+Comments: Authenticated sender is <rmorganl@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+Organization: very little
+To: agora-business@gecko.serc.rmit.edu.au
+Date: Mon, 22 Sep 1997 13:57:33 -0800
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: BUS: Getting some VT POs into play
+X-mailer: Pegasus Mail for Windows (v2.42a)
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2849
+
+Sorry, I just can't resist abusing the loophole that CFJs by 
+non-Player's can't be dismissed as excess CFJs :-)
+
+H.Clerk of the Courts! I hereby submit the following one hundred 
+CFJs, one per line, barring Blob and Elde:
+
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+The Clerk of the Courts is not paid enough.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+This statement is TRUE.
+
+At least when there are some VTs in the Bank, they'll have someplace 
+to go - judicial salaries, y'know :-)
+-------------------------------
+Antimatter * rmorganl@fhcrc.org
+You have the power of negation.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 20:56 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA11717 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 20:56:37 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA23044
+	for agora-business-list; Tue, 23 Sep 1997 10:41:30 +1000
+Received: from windowsnt ([207.226.81.129])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA23029
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 23 Sep 1997 10:41:21 +1000
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Mon, 22 Sep 1997 20:27:39 -0400
+Received: by windowsnt from friend-computer
+    (206.18.125.35::mail daemon; unverified,SLMail V2.5); Mon, 22 Sep 1997 20:27:37 -0400
+Message-Id: <3.0.3.32.19970922133831.006927c0@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.3 (32)
+Date: Mon, 22 Sep 1997 13:38:31 -0700
+To: agora-business@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: BUS: OFF:  New Proposals
+In-Reply-To: <s426805c.066@rmv.state.ma.us>
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 260
+
+If possible, I Vote FOR Proposal 3552, AGAINST Proposal 3553, and FOR
+Proposal 3554.
+
+Recap (not extra Votes):
+
+        3 3 3
+        5 5 5
+        5 5 5
+        2 3 4
+
+Murphy  F A F
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 20:59 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA11780 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 20:59:36 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA23048
+	for agora-business-list; Tue, 23 Sep 1997 10:41:30 +1000
+Received: from windowsnt ([207.226.81.129])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA23030
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 23 Sep 1997 10:41:21 +1000
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Mon, 22 Sep 1997 20:27:50 -0400
+Received: by windowsnt from friend-computer
+    (206.18.125.35::mail daemon; unverified,SLMail V2.5); Mon, 22 Sep 1997 20:27:47 -0400
+Message-Id: <3.0.3.32.19970922141728.006925c8@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.3 (32)
+Date: Mon, 22 Sep 1997 14:17:28 -0700
+To: agora-business@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: BUS: Indulgence TO
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 519
+
+I hereby create a Transfer Order for 1 Indulgence from myself to the Bank,
+for the sole purpose of satisfying POI097.
+
+Which leaves me with POI041 for 3 Indulgences.  I see that delayed TOI021
+will pay this off whenever I acquire 3 Indulgences.  I thus revise my
+offer to potential Indulgence lenders as follows:
+
+* I will pay back the 3 Indulgences as soon as I am able to do so
+* I will pay 0.5 VT per NW till the Indulgences are paid back
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 21:02 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA11872 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 21:02:52 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA23046
+	for agora-business-list; Tue, 23 Sep 1997 10:41:30 +1000
+Received: from windowsnt ([207.226.81.129])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA23033
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 23 Sep 1997 10:41:21 +1000
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Mon, 22 Sep 1997 20:27:45 -0400
+Received: by windowsnt from friend-computer
+    (206.18.125.35::mail daemon; unverified,SLMail V2.5); Mon, 22 Sep 1997 20:27:44 -0400
+Message-Id: <3.0.3.32.19970922140801.006925c8@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.3 (32)
+Date: Mon, 22 Sep 1997 14:08:01 -0700
+To: agora-business@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: BUS: Proto:  Fix the Blot Scam
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 242
+
+Proto:  Fix the Blot Scam
+
+Amend Rule 1732 by replacing "purpose" with "sole purpose".
+
+[This is IMO a cleaner way of doing it than appending a whole new sentence.]
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 21:45 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA12853 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 21:45:06 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA24510
+	for agora-business-list; Tue, 23 Sep 1997 11:28:13 +1000
+Received: from dfw.dfw.net (DFW.DFW.NET [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id LAA24507
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 23 Sep 1997 11:28:09 +1000
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA12555; Mon, 22 Sep 97 20:33:54 CDT
+Message-Id: <9709230133.AA12555@dfw.dfw.net>
+Subject: BUS: Appeal of CFJ 933
+To: agora-business@gecko.serc.rmit.edu.au (Agora Business)
+Date: Mon, 22 Sep 1997 20:33:54 -0500 (CDT)
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 155
+
+I find Kolja's analysis of 1527/376 interesting, and at the very least
+it deserves closer examination.  I therefore call for the appeal of
+CFJ 933.
+
+Chuck
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 21:52 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA13038 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 21:51:46 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA24866
+	for agora-business-list; Tue, 23 Sep 1997 11:42:50 +1000
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA24861
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 23 Sep 1997 11:42:47 +1000
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id VAA14286 for <agora-business@gecko.serc.rmit.edu.au>; Mon, 22 Sep 1997 21:46:16 -0400 (EDT)
+Message-ID: <342701C6.1F7F@tmbg.org>
+Date: Mon, 22 Sep 1997 16:39:50 -0700
+From: Chaos Harlequin <harlequin@tmbg.org>
+Organization: Nil
+X-Mailer: Mozilla 2.0 (Win16; I)
+MIME-Version: 1.0
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Re: OFF: CFJ 933 Judgement: TRUE
+References: <199709221343.PAA07947@wsinfm15.win.tue.nl>
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 494
+
+Andre Engels wrote:
+> 
+> ======================================================================
+>                                CFJ 933
+> 
+> "All Voting Tokens were destroyed as a result of the Pragmatic
+>  Currencies Proposal taking effect."
+> 
+> ======================================================================
+> 
+> Judge:       Elde
+> 
+> Judgement:   TRUE
+
+I appeal this judgement.
+
+-- 
+Joshua Hall-Bachner
+Chaos Harlequin
+harlequin@tmbg.org
+http://www.servtech.com/public/particle
+
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 22:06 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA13418 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 22:06:02 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA24920
+	for agora-business-list; Tue, 23 Sep 1997 11:44:22 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id LAA24917
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 23 Sep 1997 11:44:18 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 22 Sep 1997 21:53:14 -0400
+Message-Id: <s426e8ca.051@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 22 Sep 1997 21:52:50 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: COE: Re: OFF: Herald's Report as of 22 September 1997
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 2983
+
+BUS: COE: Re: OFF: Herald's Report as of 22 September 1997
+
+
+The following is a repeat of a message that should have been sent to the PF. 
+The payment Orders contained here are meant only to be descriptive and do not
+represent new Payment Orders, unless the ones sent to discussion in the
+original mesage were ineffective.
+
+====
+
+First I also note that the current set of POs in the Heralds Report of Sept 22
+are misnumbered, in that there are two POI105's.  This is a COE.  I hereby
+admit this claim.  The relevant part of the message should have read:
+
+POI101  09/22/97 as of this msg     1     Bank         Harlequin    Herald
+POI102  09/22/97 as of this msg     1     Bank         G. Chaos     Herald
+POI103  09/22/97 as of this msg     3     Bank         elJefe       Herald
+POI104  09/22/97 as of this msg     1     Bank         Oerjan       Herald
+POI105  09/22/97 as of this msg     2     Bank         Steve        Herald
+POI106  09/22/97 as of this msg     2     Bank         Chuck        Herald
+POI107  09/22/97 as of this msg     1     Bank         Michael      Herald
+POI108  09/22/97 as of this msg     1     Bank         Morendil     Herald
+POI109  09/22/97 as of this msg     1     Bank         Vlad         Herald
+POI110  09/22/97 as of this msg     1     Bank         Kolja A.     Herald
+
+Now -
+
+Oerjan wrote:
+
+>> Herald's Report as of 22 September 1997
+
+>>     16 Indulgences in The Nomic Bank at this time, 14 to be distributed.
+ 
+>>     The Bank is hereby commanded to transfer one Indulgence to Harlequin.
+>>     The Bank is hereby commanded to transfer one Indulgence to G. Chaos.
+>>     The Bank is hereby commanded to transfer three Indulgences to elJefe.
+>>     The Bank is hereby commanded to transfer one Indulgence to Oerjan.
+>>     The Bank is hereby commanded to transfer two Indulgences to Steve.
+>>     The Bank is hereby commanded to transfer two Indulgences to Chuck.
+>>     The Bank is hereby commanded to transfer one Indulgence to Michael.
+>>     The Bank is hereby commanded to transfer one Indulgence to Morendil.
+>>     The Bank is hereby commanded to transfer one Indulgence to Vlad.
+>>     The Bank is hereby commanded to transfer one Indulgence to Kolja A.
+
+>The Herald is reminded that the distribution Rule clearly specifies one PO
+>per Indulgence, not one per Player. This is a COE.
+
+Arrgh!  Having re-read the Rule in question, I am forced to admit this claim. 
+You nitpickers will insist on making things more difficult for me (and the
+Chancellor).  8)
+
+I hereby vacate the following POs:  POI103, POI105, POI106
+
+I hereby command the bank to pay one Indulgence to elJefe.
+I hereby command the bank to pay one Indulgence to elJefe.
+I hereby command the bank to pay one Indulgence to elJefe.
+I hereby command the bank to pay one Indulgence to Steve.
+I hereby command the bank to pay one Indulgence to Steve.
+I hereby command the bank to pay one Indulgence to Chuck.
+I hereby command the bank to pay one Indulgence to Chuck.
+
+-- Crito
+
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 22:49 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA14390 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 22:49:26 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA26460
+	for agora-business-list; Tue, 23 Sep 1997 12:34:00 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id MAA26454
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 23 Sep 1997 12:33:49 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 22 Sep 1997 22:42:44 -0400
+Message-Id: <s426f464.055@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 22 Sep 1997 22:42:13 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: CFJ933
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 92
+
+I join in the appeal of CFJ 933.  I think this
+needs as close a look as possible.
+
+-- Crito
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Sep 22 22:58 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA14650 for <dpb@cs.brown.edu>; Mon, 22 Sep 1997 22:58:46 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA26745
+	for agora-business-list; Tue, 23 Sep 1997 12:38:05 +1000
+Received: from poverty.bloomington.in.us (xyplex4-1-9.ucs.indiana.edu [129.79.18.9])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA26742
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 23 Sep 1997 12:38:01 +1000
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id VAA27418 for <agora-business@gecko.serc.rmit.edu.au>; Mon, 22 Sep 1997 21:41:29 -0500
+Message-Id: <199709230241.VAA27418@poverty.bloomington.in.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Re: OFF: CFJ 933 Judgement: TRUE 
+In-reply-to: Your message of "Mon, 22 Sep 1997 15:43:51 +0200."
+             <199709221343.PAA07947@wsinfm15.win.tue.nl> 
+Date: Mon, 22 Sep 1997 21:41:25 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 34
+
+I call for the Appeal of CFJ 933.
+

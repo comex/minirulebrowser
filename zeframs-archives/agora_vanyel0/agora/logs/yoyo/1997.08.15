@@ -1,0 +1,1729 @@
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 01:38 EDT 1997
+Received: from yoyo.cc.monash.edu.au (root@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA29869 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 01:38:15 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id NAA18462 for nomic-outgoing; Fri, 15 Aug 1997 13:49:44 +1000 (EST)
+Received: from aurora.cc.monash.edu.au (gardner@aurora.cc.monash.edu.au [130.194.1.91])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id NAA27156 for <nomic@yoyo.cc.monash.edu.au>; Fri, 15 Aug 1997 13:47:00 +1000 (EST)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id NAA24889 for nomic@yoyo.cc.monash.edu.au; Fri, 15 Aug 1997 13:46:59 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199708150346.NAA24889@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Hi All
+To: nomic@yoyo.cc.monash.edu.au
+Date: Fri, 15 Aug 1997 13:46:58 +1000 (EST)
+In-Reply-To: <3.0.3.32.19970814210201.007a94c0@pop.law.harvard.edu> from "Calabresi" at Aug 14, 97 09:02:01 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3544
+Status: N
+
+Calabresi writes:
+>
+>Hi All
+>
+>Seeing as how this is my first communication, I thought I'd just introduce
+>myself rather than trying to comment substantively on what's going on (I'm
+>still catching up to the game state ...).
+
+And what interesting comments they are, too! I'm really looking forward
+to having a law student playing the game. As a philosopher, my interest
+in the game has also been jurisprudential, and so I'm naturally interested
+in what kinds of arguments get made, and which accepted, and why.
+
+>I got re-interested in it a few weeks ago while surfing the web. The thing
+>that really interested me was the *jurisprudence* of Nomic, i.e. what kinds
+>of arguments are used to justify a decision in a CFJ. This encompasses much
+>of what is being hotly debated right now, ie exactly what sort of entities
+>the laws are, but also other mores and principles.
+>
+>A great example, is the recent CFJ 930 regarding whether Indulgences are
+>(still) a currency. Justice elJefe strives to make the rules internally
+>consistent, and reads R1435 to allow "destroyed currency" to be a form of
+>"currency". Justice Michael allows the rules to be inconsistent (claiming
+>that this is a normal state), and rules that the precedence system takes care
+>of this.
+>
+>There are two very interesting things about this: One is that Nomic is not
+>created to serve normal jurisprudential goals. Its supposed to be supremely
+>logical (perhaps to show that logic isn't complete?). Intent can't be
+>assumed, nor can a "natural meaning", or even that the rules make sense.
+>This is driven home by the fact that CFJ 930 was caused by a virus messing
+>with the text of a rule!
+>
+>The Second thing is that in Agora, rather like ancient Greece, everyone
+>(evenly newly registed players!) are eligible to judge. There is no special
+>professional class that has a privileged viewpoint in the interpretation
+>and application of the rules/laws. Of course, Agora has a rather artificial
+>population in the first place, being composed of people who do this for
+>*pleasure*!
+
+It's true that, other things being equal, any Active Player can Judge.
+But the composition of the Appellate Court is not so arbitrary, as you
+doubtless will have observed, being composed of Players who are likely
+to be experienced in the game. (Although the current situation with 
+respect to CFJs 930 and 932 is interesting: there seems at least the
+prospect of inconsistent Appellate Judgements on the two cases, because
+the Boards are differently composed.) The current judicial system
+developed in part because of experience obtained playing Nomic World,
+a MUD-based Nomic which was in a way a prior incarnation of Agora. In
+that game we found that allowing just anybody to serve as an Appeals
+Judge led to inconsistent Judgements, which led to more CFJs to resolve
+the inconsistencies, which like as not would be Appealed and again
+Judged inconsistently, and so on. Respect for the judicial process ebbed.
+Players were less willing to abide by its determinations and generally
+sought to keep cases open by making more CFJs, hoping to get a favourable
+Judge. There's really no point in making multiple CFJs in the current
+system, since the same Board is likely to end up hearing the case if
+it goes to Appeal - although interesting use might be made of the barring
+mechanism in this respect.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 01:47 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA00050 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 01:47:45 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id PAA20265 for nomic-outgoing; Fri, 15 Aug 1997 15:22:55 +1000 (EST)
+Received: from windowsnt ([207.226.81.129] (may be forged))
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id PAA02120 for <nomic@yoyo.cc.monash.edu.au>; Fri, 15 Aug 1997 15:22:31 +1000 (EST)
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Fri, 15 Aug 1997 02:14:13 -0500
+Received: by windowsnt from friend-computer
+    (199.107.161.205::mail daemon; unverified,SLMail V2.5); Fri, 15 Aug 1997 02:14:10 -0500
+Message-Id: <3.0.1.32.19970814220625.006a1db8@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: Windows Eudora Light Version 3.0.1 (32)
+Date: Thu, 14 Aug 1997 22:06:25 -0700
+To: nomic@yoyo.cc.monash.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: BUS: Blob's Executor in Probate
+In-Reply-To: <199708141549.LAA10430@cyber1.servtech.com>
+References: <199708140053.KAA03394@aurora.cc.monash.edu.au>
+Mime-Version: 1.0
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 2245
+Status: N
+
+Harlequin wrote:
+
+ Steve> Meanwhile, which lucky Player will Murphy select to be Blob's EiP?
+Murphy> Elde.
+ Steve> How perverse!
+
+I enjoy living up to my Nickname.
+
+>And yet, how appropriate. Wait, let me see if I've got the whole thing
+>straight:
+>
+>- Elde becomes Absent
+>- Morendil becomes his Executor
+>- Morendil reregisters Elde
+>- Morendil leaves
+>- Steve alleges Morendil and Elde are absent
+>- Elde is selected to judge a CFJ
+>- Morendil receives Blots as a penalty for Elde's Debt
+>- Elde is appointed as Blob's Executor.
+
+Seems right to me.
+
+>Wow, Elde has done more since he deregistered than when he was a player!
+
+Well, we young'uns don't know about his Olden Days of Playerhood.  He has
+certainly done more since he deregistered than when he was most recently
+a player, though.
+
+>Hmmm. So Morendil, should he arrive back before being deregistered, can,
+>through Elde, reregister Blob, as well, then? Eeek, he's building his own
+>little puppet empire here! :) Also: if Derek Lyons were to return and
+>attempt to play as Elde, what would be the result? Imagine Derek and
+>Morendil, continually posting back and forth, changing the votes that the
+>other cast for Elde to something else. Heh he he he...
+
+Rule 1478, in part:
+
+      The Executor of an entity is a Player who is empowered by the
+      Rules to act on behalf of that entity, as if e was that entity.
+
+      Except when the Rules stipulate otherwise, a Player is eir own
+      Executor.  Any other entity has an Executor only when the Rules
+      specify either a Player or a means to designate a Player to be
+      the Executor of that entity.
+
+I believe that, if Derek returned, e would fail to be eir own Executor,
+thanks to the "Except when" clause.  (I believe an older version of R1478
+had no such clause, and would thus conflict with the Probate Rules, and
+win said conflict.  Which is presumably why the clause was added.)
+
+Reregistering one's charge is certainly an interesting way of getting out
+of being an Executor in Probate...
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>     http://www.bayside.net/users/ford/
+"Don't tell me what I already know."    http://wwp.mirabilis.com/1008745/
+     -Richard Feng                      mailto:1008745@pager.mirabilis.com
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 04:29 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA02456 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 04:29:25 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id SAA27556 for nomic-outgoing; Fri, 15 Aug 1997 18:21:59 +1000 (EST)
+Received: from wsinfm06.win.tue.nl (engels@wsinfm06.win.tue.nl [131.155.70.246])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id SAA25788 for <nomic@yoyo.cc.monash.edu.au>; Fri, 15 Aug 1997 18:21:52 +1000 (EST)
+Received: by wsinfm06.win.tue.nl (8.7.1/1.45)
+    id KAA25853; Fri, 15 Aug 1997 10:21:46 +0200 (MET DST)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199708150821.KAA25853@wsinfm06.win.tue.nl>
+Subject: Re: DIS: Hi All
+To: nomic@yoyo.cc.monash.edu.au
+Date: Fri, 15 Aug 1997 10:21:45 +0200 (MET DST)
+In-Reply-To: <3.0.3.32.19970814210201.007a94c0@pop.law.harvard.edu> from "Calabresi" at Aug 14, 97 09:02:01 pm
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Length: 805
+Status: N
+
+Calabresi:
+
+>There are two very interesting things about this: One is that Nomic is not
+>created to serve normal jurisprudential goals. Its supposed to be supremely
+>logical (perhaps to show that logic isn't complete?). Intent can't be
+>assumed, nor can a "natural meaning", or even that the rules make sense.
+>This is driven home by the fact that CFJ 930 was caused by a virus messing
+>with the text of a rule!
+
+This statement may be too broad. It's certainly true if one replaces
+'Nomic' in line one by 'Agora'. But some Rishonim might well disagree on 
+this point, for example. There the Rules mean what the Players think they 
+mean (at least such has been argued there), while in Agora the Rules mean 
+(as litteraly as possible) what they say, no matter how, why or when they 
+got their text.
+
+Andre
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 04:37 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA02582 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 04:37:43 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id SAA29252 for nomic-outgoing; Fri, 15 Aug 1997 18:28:21 +1000 (EST)
+Received: from wsinfm06.win.tue.nl (engels@wsinfm06.win.tue.nl [131.155.70.246])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id SAA20960 for <nomic@yoyo.cc.monash.edu.au>; Fri, 15 Aug 1997 18:28:04 +1000 (EST)
+Received: by wsinfm06.win.tue.nl (8.7.1/1.45)
+    id KAA25865; Fri, 15 Aug 1997 10:27:29 +0200 (MET DST)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199708150827.KAA25865@wsinfm06.win.tue.nl>
+Subject: Re: OFF: Virus Report for Nomic Week of Aug. 11
+To: nomic@yoyo.cc.monash.edu.au
+Date: Fri, 15 Aug 1997 10:27:29 +0200 (MET DST)
+In-Reply-To: <9708141713.AA12333@dfw.dfw.net> from "Charles E. Carroll" at Aug 14, 97 12:13:38 pm
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Length: 1570
+Status: N
+
+Charles E. Carroll:
+
+>Rule 408 is infected and amended.  It now reads:
+>
+>Rule 408/6 (Power=1)
+>Accepting Judge-ship
+>
+>      The Player assigned to Judge a Call for Judgement is required to
+>      either return a Judgement upon that CFJ or dismiss that CFJ
+>      within seven days of when e was assigned to Judge it.  If e
+>      fails to do so, e ceases to be eligible to Judge that CFJ,
+>      ceases to be assigned to Judge that CFJ, and commits the
+>      Infraction of Failing to Judge to be reported by the Clerk of
+>      the Courts and bearing a penalty of three Blots.
+>
+>      However, if the Player assigned to Judge a CFJ ceases to be
+>      eligible prior to the end of the permitted time, e is neither
+>      required nor permitted to either return a Judgement on, or
+>      dismiss, that CFJ, and ceases to be the Judge assigned to that
+>      CFJ at the moment e becomes ineligible.
+>
+>      This Rule, apart from this paragraph, shall be completely
+>      without effect. Two weeks after this paragraph is inserted into
+>      this Rule, this paragraph shall be deleted from this Rule.
+>
+
+Am I right in assuming that this means that there aren't any time limits
+left for judging a CFJ (as long as the infection stays here)?
+
+I think I'll make a viral antidote proposal, upmutating some rules which
+would cause too much trouble if infected (I think about Rules on the making
+of and voting on Proposals and the basics of the judicial system) to, say
+MI=1.5. I had thought about that before, but other things got in the way
+and I forgot about it.
+
+Andre
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 09:50 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA07826 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 09:50:13 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id XAA20308 for nomic-outgoing; Fri, 15 Aug 1997 23:19:21 +1000 (EST)
+Received: from heaton.cl.cam.ac.uk (exim@heaton.cl.cam.ac.uk [128.232.32.11])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id XAA10023 for <nomic@yoyo.cc.monash.edu.au>; Fri, 15 Aug 1997 23:19:08 +1000 (EST)
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.62 #6)
+	id 0wzMHC-0006Yi-00; Fri, 15 Aug 1997 14:18:50 +0100
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.62 #1)
+	id 0wzMH9-00067S-00; Fri, 15 Aug 1997 14:18:47 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: "Nomic (yoyo)" <nomic@yoyo.cc.monash.edu.au>
+Subject: OFF: (CotC) final verdict on CFJ 932
+X-Mailer: VM 6.31 under Emacs 19.34.1
+Message-Id: <E0wzMH9-00067S-00@merganser.cl.cam.ac.uk>
+Date: Fri, 15 Aug 1997 14:18:47 +0100
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 6652
+Status: N
+
+VT recordkeepor take note:
+
+* in line with R502 I hereby vacate the payment order which paid
+  elJefe 1VT for his now-held to be erroneous judgement in this matter
+  on Mon 4 Aug.
+
+* In line with R1447, I order the bank to pay each of Michael, Murphy
+  and Antimatter 1VT. 
+
+The final case-sheet for CFJ 932 is:
+
+======================================================================
+                               CFJ 932
+
+"No Player is currently authorized to execute Payment Orders for
+ Indulgences pursuant to penalties expressed in terms of Blots."
+
+======================================================================
+
+Judge:        elJefe
+Justices:     Antimatter (pro-S), Michael (C), Murphy (pro-J)
+
+Orgnl Jdgmnt: TRUE
+Judgement:    FALSE
+
+Eligible:     +Andre, +Antimatter, Blob, Chuck, Crito, (elJefe),
+              (General Chaos), Harlequin, Kolja A., (Michael), Murphy,
+              +Oerjan, Steve, Swann, +Vlad
+
+Not eligible:
+Caller:       Morendil
+Barred:       -
+Disqualified: Vanyel
+On hold:      Andre, Antimatter, Oerjan, Zefram
+
+======================================================================
+
+History:
+  Called by Morendil, Sat, 26 Jul 1997 10:45:15 +0100
+  Assigned to elJefe, Mon, 28 Jul 1997 11:57:31 +0100
+  Judged TRUE, Thu, 31 Jul 1997 16:13:02 +0000
+  Published, Mon, 4 Aug 1997 11:34:15 +0100
+  Appealed by Crito, Mon, 04 Aug 1997 09:21:50 -0400
+  Appealed by Michael, Mon, 4 Aug 1997 14:29:38 +0100
+  Appealed by Oerjan, Mon, 4 Aug 1997 20:13:49 +0200 (MET DST)
+  Appealed by Steve, Tue, 5 Aug 1997 17:39:17 +1000 (EST)
+  Appealed by Harlequin, Tue, 05 Aug 1997 00:51:07
+  Murphy selected to replace elJefe as Justiciar
+  Appeals process begun, Tue, 5 Aug 1997 12:36:34 +0100
+  Murphy OVERTURNS/reverses, Tue, 05 Aug 1997 19:44:52 -0700
+  Michael OVERTURNS/reverses, Tue, 12 Aug 1997 12:04:33 +0100
+  General Chaos defaults
+  Antimatter selected as new Justice, Wed, 13 Aug 1997 10:08:07 +0100
+  Antimatter OVERTURNS/reverses, Wed, 13 Aug 1997 09:52:05 -0700 (PDT)
+  Final verdict published, as of this message
+
+======================================================================
+
+Appeal decisions
+
+----------------------------------------------------------------------
+
+Justice Murphy's decision: to OVERTURN and reverse decision
+
+I agree with Judge elJefe that the Caller's argument is incorrect.
+
+Rule 1435 ("Indulgences exist") takes precedence over Rule 1579 ("all
+Currencies must have a Mintor; any Currency ceasing to have one is
+destroyed").  Even accepting CFJ 929's claim that Indulgences were
+destroyed (which seems to be a conflict between those rules),
+Indulgences are then resurrected with no Mintor.
+
+I therefore consider the Statement false for lack of evidence.
+
+----------------------------------------------------------------------
+
+Justice Michael's decision: to OVERTURN and reverse decision
+
+Reasons and arguments:
+
+If Indulgences exist, then a Payment Order was executed by the
+Chancellor when he attempted to transfer 9 Indulgences from the Bank
+to Elde.
+
+If Indulgences exist, then the Indulgence Currency's Recordkeepor is
+authorised to record and execute Payment Orders (R1596).
+
+Thus, if Indulgences exist, the correct judgement for this CFJ is
+FALSE.
+
+The argument that Indulgences do not exist is based on R1579, which
+states that all Currencies have a Mintor and if a Currency should lose
+its Mintor, then it is destroyed.  It is accepted that an entity known
+as the Mint was the Mintor for Indulgences before the Pragmatic
+Currencies reform occurred.
+
+By virtue of R1586, we must also accept that the Mint no longer
+exists, so it would appear that the antecedent of the conditional
+sentence of the second paragraph in R1597 holds.  So, what might
+prevent Indulgences from being destroyed, as required by R1579?
+
+The answer is the precedence taking R1435.  This states that
+"Indulgences are a Currency".  This statement must remain true,
+whatever R1579 says to the contrary.  My Fellow Justice elJefe claims
+that this is possible if one reads "Indulgences are a Currency" as
+"Indulgences are a destroyed Currency".
+
+This is a senseless contortion.  We do not need to put the rules
+through such hoops.  We have rules taking precedence over each other
+all the time.  When we read "Indulgences are a Currency", we know that
+this is equivalent to stating that there exists a Currency whose name
+is "Indulgences".  But now the opposing argument wants us to
+simultaneously read this as admitting the precise opposite, that this
+Currency doesn't exist at all.
+
+I refuse to make the Rules play such tricks.  If a high precedence
+rule says that Indulgences exist, then the lower precedence R1579 can
+yammer on about Mintors and the lack thereof all it likes.
+
+Indulgences exist.
+
+----------------------------------------------------------------------
+
+Justice Antimatter's decision: to OVERTURN/reverse the decision
+
+I vote to OVERTURN this appeal, with the comment that ordinarily I would
+decline judgement, but since my fellow Justices are agreed, I might as
+well go along (since I can't change things anyways).
+
+======================================================================
+Original Judgement: TRUE
+
+Reasons and arguments:
+
+The caller's argument appears to be incorrect:
+
+> Therefore, the specification "the Player who is required to report
+> the change in Blots" points to no particular Player, since the Rules
+> charge no Player with the responsibility of keeping a record of any
+> particular Payment Orders.
+
+This is formally contradicted by Rule 1596, which state, in part "Each
+Recordkeepor shall maintain a record of all Payment Orders executed
+which specify the Currency of which e is the Recordkeepor..."
+
+However, as I have argued in CFJ 929, Indulgences having ceased to be
+a Currency, no POs can issue in terms of them, and so no player is
+authorized to execute such POs pursuant to anything.
+
+======================================================================
+
+(Caller's) Arguments:
+
+Rule 1435 goes : to gain or receive Blots is to be subject to a PO for
+the same number of Indulgences, and a Player's Blots is the total
+amount of such Transfers e has been ordered to effect (that are not
+disputed or vacated). Thus a "change in Blots" is precisely the
+executing, disputing or vacating (but unfortunately not the
+satisfaction) of such a Payment Order.
+
+Therefore, the specification "the Player who is required to report the
+change in Blots" points to no particular Player, since the Rules
+charge no Player with the responsibility of keeping a record of any
+particular Payment Orders.
+
+======================================================================
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 10:43 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA09190 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 10:43:02 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id AAA27045 for nomic-outgoing; Sat, 16 Aug 1997 00:35:27 +1000 (EST)
+Received: from heaton.cl.cam.ac.uk (exim@heaton.cl.cam.ac.uk [128.232.32.11])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id AAA01589 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 00:34:58 +1000 (EST)
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.62 #6)
+	id 0wzNSk-0007Nb-00; Fri, 15 Aug 1997 15:34:50 +0100
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.62 #1)
+	id 0wzNSh-00068t-00; Fri, 15 Aug 1997 15:34:47 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: "Nomic (yoyo)" <nomic@yoyo.cc.monash.edu.au>
+Subject: OFF: (CotC) CFJ 935 (assigned to Vlad)
+X-Mailer: VM 6.31 under Emacs 19.34.1
+Message-Id: <E0wzNSh-00068t-00@merganser.cl.cam.ac.uk>
+Date: Fri, 15 Aug 1997 15:34:47 +0100
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1543
+Status: N
+
+======================================================================
+                               CFJ 935
+
+"Although all individual P-Note entities were destroyed by the PC
+ proposal, the Currency class of P-Notes was re-established by R1701
+ immediately after their destruction by R1579, making it possible to
+ legally issue POs for P-Notes since the PC proposal took effect."
+
+======================================================================
+
+Judge:        Vlad
+
+Judgement:
+
+Eligible:     Andre, Antimatter, Calabresi, Chuck, Elde, elJefe,
+              General Chaos, Harlequin, Kolja A., Michael, Morendil,
+              Murphy, Oerjan, Steve, Vlad, Zefram
+
+Not eligible:
+Caller:       Crito
+Barred:       -
+Disqualified: Vanyel
+On hold:      -
+
+======================================================================
+
+History:
+  Called by Crito, Wed, 13 Aug 1997 13:42:58 -0400
+  Assigned to Vlad, as of this message
+
+======================================================================
+
+(Caller's) Arguments:
+
+As I have noted in a previous post, the wording of R1579 indicates
+that it applies to the single instant at which a Mintor or Mint
+authority ceases to exist.  Since R1701 continues in effect after that
+instant in time, it re-establishes a Currency called P-Notes that does
+not have a Mintor and is then not subject to R1579 since it defines a
+new Currency (albeit with the same name as an old one) for which a
+Mintor has never ceased to exist.
+
+======================================================================
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 11:29 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA10593 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 11:29:21 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id BAA17245 for nomic-outgoing; Sat, 16 Aug 1997 01:20:49 +1000 (EST)
+Received: from heaton.cl.cam.ac.uk (exim@heaton.cl.cam.ac.uk [128.232.32.11])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id BAA08505 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 01:20:28 +1000 (EST)
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.62 #6)
+	id 0wzOAh-00088M-00; Fri, 15 Aug 1997 16:20:15 +0100
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.62 #1)
+	id 0wzOAa-0006Aa-00; Fri, 15 Aug 1997 16:20:08 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: nomic@yoyo.cc.monash.edu.au
+Subject: OFF: (CotC) CFJ 935 (assigned to Vlad)
+In-Reply-To: <E0wzNSh-00068t-00@merganser.cl.cam.ac.uk>
+References: <E0wzNSh-00068t-00@merganser.cl.cam.ac.uk>
+X-Mailer: VM 6.31 under Emacs 19.34.1
+Message-Id: <E0wzOAa-0006Aa-00@merganser.cl.cam.ac.uk>
+Date: Fri, 15 Aug 1997 16:20:08 +0100
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1261
+Status: N
+
+Michael Norrish writes:
+
+>                                CFJ 935
+ 
+> "Although all individual P-Note entities were destroyed by the PC
+>  proposal, the Currency class of P-Notes was re-established by R1701
+>  immediately after their destruction by R1579, making it possible to
+>  legally issue POs for P-Notes since the PC proposal took effect."
+ 
+ 
+> (Caller's) Arguments:
+ 
+> As I have noted in a previous post, the wording of R1579 indicates
+> that it applies to the single instant at which a Mintor or Mint
+> authority ceases to exist.  Since R1701 continues in effect after that
+> instant in time, it re-establishes a Currency called P-Notes that does
+> not have a Mintor and is then not subject to R1579 since it defines a
+> new Currency (albeit with the same name as an old one) for which a
+> Mintor has never ceased to exist.
+ 
+I believe the statement is FALSE.  It is clear that R1701 doesn't take
+precedence over the rule requiring that Currencies have a Mintor (and
+that they should be destroyed if they don't).  If a purported Currency
+doesn't have a Mintor, then I believe that R1701 tells us that it is
+not a Currency.  Given that in this case, this provision is not
+overridden, P-notes aren't a Currency, whatever else they might be. 
+
+Michael.
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 11:41 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA11052 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 11:41:01 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id BAA30618 for nomic-outgoing; Sat, 16 Aug 1997 01:31:53 +1000 (EST)
+Received: from heaton.cl.cam.ac.uk (exim@heaton.cl.cam.ac.uk [128.232.32.11])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id BAA09225 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 01:27:35 +1000 (EST)
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.62 #6)
+	id 0wzOH8-0005pG-00; Fri, 15 Aug 1997 16:26:54 +0100
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.62 #1)
+	id 0wzOH4-0006Ap-00; Fri, 15 Aug 1997 16:26:50 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: nomic@yoyo.cc.monash.edu.au
+Subject: BUS: (CotC) CFJ 933 
+X-Mailer: VM 6.31 under Emacs 19.34.1
+Message-Id: <E0wzOH4-0006Ap-00@merganser.cl.cam.ac.uk>
+Date: Fri, 15 Aug 1997 16:26:50 +0100
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 369
+Status: N
+
+Because of the recent infection of rule 408, this CFJ is in Limbo.
+In particular, there is no rule specifying that Swann is no longer
+eligible to Judge the CFJ in question, so the provisions of R951 do
+not apply, and we just have to sit and wait for Swann to either return
+judgement or for the rule to return to effectiveness.
+
+(In case you were wondering.)
+
+Michael.
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 12:54 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA13174 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 12:54:46 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id CAA23002 for nomic-outgoing; Sat, 16 Aug 1997 02:43:53 +1000 (EST)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id CAA08577 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 02:43:45 +1000 (EST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 15 Aug 1997 12:48:27 -0400
+Message-Id: <s3f4501b.086@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 15 Aug 1997 12:48:04 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: DIS: Re: OFF: (CotC) CFJ 935 (assigned to Vlad)
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain
+Content-Length: 2690
+Status: N
+
+DIS: Re: OFF: (CotC) CFJ 935 (assigned to Vlad)
+
+Michael wrote:
+
+>>                                CFJ 935
+ 
+>> "Although all individual P-Note entities were destroyed by the PC
+>>  proposal, the Currency class of P-Notes was re-established by R1701
+>>  immediately after their destruction by R1579, making it possible to
+>>  legally issue POs for P-Notes since the PC proposal took effect."
+ 
+ 
+>> (Caller's) Arguments:
+ 
+>> As I have noted in a previous post, the wording of R1579 indicates
+>> that it applies to the single instant at which a Mintor or Mint
+>> authority ceases to exist.  Since R1701 continues in effect after that
+>> instant in time, it re-establishes a Currency called P-Notes that does
+>> not have a Mintor and is then not subject to R1579 since it defines a
+>> new Currency (albeit with the same name as an old one) for which a
+>> Mintor has never ceased to exist.
+ 
+>I believe the statement is FALSE.  It is clear that R1701 doesn't take
+>precedence over the rule requiring that Currencies have a Mintor (and
+>that they should be destroyed if they don't).  If a purported Currency
+>doesn't have a Mintor, then I believe that R1701 tells us that it is
+>not a Currency.  Given that in this case, this provision is not
+>overridden, P-notes aren't a Currency, whatever else they might be. 
+
+I don't follow this.  What wording in R1701 tells us that P-Notes are not a
+currency if they don't have a Mintor?  Maybe you meant R1579, the rule that
+calls for the destruction of Currencies when their Mintor ceases to exist.
+
+But R1579 does *not* say any entity without a Mintor is not a Currency, it says
+if a Currency ceases to have a Mintor than *that* Currency is destroyed. It
+makes no statement about the class of Currencies in general, only about how
+individual instances of that class are to be treated.  It says nothing about
+what should be done to a Currency that never had a Mintor.  If we passed a
+proposal that established a brand new Currency, Zlotys, without specifying a
+Mintor for it, your interpretation would mean that Zlotys were not a Currency. 
+I would disagree with that interpretation, since it is clear here that Zlotys
+never had a Mintor that ceased to exist.
+
+P-Notes seem ambigous here because the name refers to a Currency that was
+destroyed.  My contention, however, is that the destruction caused by R1579 was
+total, as seems clear from its wording, and since R1701 was not repealed nor
+had its Power reduced by that action, it is still effective in declaring a
+Currency called P-Notes, which is as much a brand new Currency (post
+destruction) as Zlotys would be, except they have the same name as the old
+Currency that was destroyed.
+
+-- Crito
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 13:23 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA13934 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 13:23:06 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id DAA08846 for nomic-outgoing; Sat, 16 Aug 1997 03:10:42 +1000 (EST)
+Received: from sabre-wulf.nvg.ntnu.no (root@sabre-wulf.nvg.ntnu.no [129.241.210.67])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id DAA03211 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 03:10:34 +1000 (EST)
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 37413]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49325-22708>; Fri, 15 Aug 1997 19:10:22 +0200
+Date: 	Fri, 15 Aug 1997 19:10:08 +0200 (MET DST)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+Reply-To: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: Agora Nomic List <nomic@yoyo.cc.monash.edu.au>
+Subject: BUS: On Hold
+Message-ID: <Pine.LNX.3.95.970815185803.14927C-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 662
+Status: N
+
+I'm going to a mathematics conference in Nordfjordeid, a pretty remote
+little place whose only claim to fame is being the birthplace of
+mathematician Sophus Lie (although he left as soon as he could :-), and if
+things haven't changed greatly since the last time I was there I probably
+will not have Internet access for a week. So just to be sure, I hereby
+move to the Stasis Chamber. 
+
+Distributor Steve: If it should happen that we move to the new lists while
+I am away, could you please s-bscribe me? That includes also the
+discussion list.
+
+Greetings,
+Ørjan.
+
+-- 
+Praeterea censeo Cyberprominem et Agim esse delendas.
+<URL:http://www.cyberpass.net/~fekete/>
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 13:46 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA14748 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 13:46:09 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id DAA29211 for nomic-outgoing; Sat, 16 Aug 1997 03:34:12 +1000 (EST)
+Received: from cyber1.servtech.com (particle@cyber1.servtech.com [199.1.22.8])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id DAA08446 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 03:33:51 +1000 (EST)
+Received: (from particle@localhost) by cyber1.servtech.com (8.8.6/8.8.5) id NAA28767 for nomic@yoyo.cc.monash.edu.au; Fri, 15 Aug 1997 13:33:40 -0400 (EDT)
+From: linda hall <particle@servtech.com>
+Message-Id: <199708151733.NAA28767@cyber1.servtech.com>
+Subject: Re: BUS: Blob's Executor in Probate
+In-Reply-To: <199708150011.KAA08644@aurora.cc.monash.edu.au> from Steve Gardner at "Aug 15, 97 10:11:19 am"
+To: nomic@yoyo.cc.monash.edu.au
+Date: Fri, 15 Aug 1997 13:33:40 -0400 (EDT)
+X-Mailer: ELM [version 2.4ME+ PL31 (25)]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 907
+Status: N
+
+Steve:
+> linda hall writes:
+> >
+> >Hmmm. So Morendil, should he arrive back before being deregistered, can,
+> >through Elde, reregister Blob, as well, then? Eeek, he's building his own
+> >little puppet empire here! :) 
+> 
+> Yes, I think he can do that. I hope he tries.
+
+As do I. This whole thing is becoming more amusing by the moment.
+
+> I talked to Derek about reregistering, but he said that Agora was
+> not the game he played 2 years ago. "Too much silliness - Virus,
+> Frankenstein Monster, Agoraverse, and not enough parliamentary procedure."
+> were his words, more or less.
+
+I hope for his sake Derek never takes a look at any other e-mail Nomics --
+Agora is still the most anal-retentive and uptight Nomic out there. :) I
+sure don't have a problem with the silliness, to a degree (look at what
+Group I formed...) Besides, there was some silliness going on before, too.
+Nomic Potato? Vote-O-Matic?
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 13:48 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA14808 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 13:48:40 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id DAA02084 for nomic-outgoing; Sat, 16 Aug 1997 03:32:44 +1000 (EST)
+Received: from heaton.cl.cam.ac.uk (exim@heaton.cl.cam.ac.uk [128.232.32.11])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id DAA19821 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 03:31:27 +1000 (EST)
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.62 #6)
+	id 0wzQDK-000158-00; Fri, 15 Aug 1997 18:31:06 +0100
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.62 #1)
+	id 0wzQDH-0006E6-00; Fri, 15 Aug 1997 18:31:03 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: nomic@yoyo.cc.monash.edu.au
+Subject: DIS: Re: OFF: (CotC) CFJ 935 (assigned to Vlad)
+In-Reply-To: <s3f4501b.086@rmv.state.ma.us>
+References: <s3f4501b.086@rmv.state.ma.us>
+X-Mailer: VM 6.31 under Emacs 19.34.1
+Message-Id: <E0wzQDH-0006E6-00@merganser.cl.cam.ac.uk>
+Date: Fri, 15 Aug 1997 18:31:03 +0100
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1011
+Status: N
+
+David Albertz writes:
+
+>> I believe the statement is FALSE.  It is clear that R1701 doesn't
+>> take precedence over the rule requiring that Currencies have a
+>> Mintor (and that they should be destroyed if they don't).  If a
+>> purported Currency doesn't have a Mintor, then I believe that R1701
+>> tells us that it is not a Currency.  Given that in this case, this
+>> provision is not overridden, P-notes aren't a Currency, whatever
+>> else they might be.
+ 
+> I don't follow this.  What wording in R1701 tells us that P-Notes
+> are not a currency if they don't have a Mintor?  Maybe you meant
+> R1579, the rule that calls for the destruction of Currencies when
+> their Mintor ceases to exist.
+
+R1579 says "Each Currency shall have associated with it a Mintor,
+which must be an entity to which the Rules grant Mint Authority.  An
+entity has Mint Authority if and only if granted it by the Rules."
+
+This is a requirement on Currencies that P-notes don't satisfy.
+Therefore P-notes are not a Currency.
+ 
+Michael.
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 13:58 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA15125 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 13:57:57 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id DAA24707 for nomic-outgoing; Sat, 16 Aug 1997 03:46:22 +1000 (EST)
+Received: from cyber1.servtech.com (particle@cyber1.servtech.com [199.1.22.8])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id DAA28622 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 03:46:01 +1000 (EST)
+Received: (from particle@localhost) by cyber1.servtech.com (8.8.6/8.8.5) id NAA29712 for nomic@yoyo.cc.monash.edu.au; Fri, 15 Aug 1997 13:45:58 -0400 (EDT)
+From: linda hall <particle@servtech.com>
+Message-Id: <199708151745.NAA29712@cyber1.servtech.com>
+Subject: Re: DIS: Re: OFF: (CotC) CFJ 935 (assigned to Vlad)
+In-Reply-To: <s3f4501b.086@rmv.state.ma.us> from David Albertz at "Aug 15, 97 12:48:04 pm"
+To: nomic@yoyo.cc.monash.edu.au
+Date: Fri, 15 Aug 1997 13:45:57 -0400 (EDT)
+X-Mailer: ELM [version 2.4ME+ PL31 (25)]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 337
+Status: N
+
+Crito:
+
+> If we passed a proposal that established a brand new Currency, Zlotys,
+
+I have nothing to add other than that we should have a Currency called
+Zlotys. With a MUQ of 1,000. :)
+
+Chaos Harlequin
+Thinking of the counterfeiter who spent 800,000 Zlotys on a printer that
+only let him print up 40,000 Zlotys before he was caught...
+
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 14:16 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA15567 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 14:16:55 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id EAA12509 for nomic-outgoing; Sat, 16 Aug 1997 04:09:19 +1000 (EST)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id EAA02594 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 04:09:13 +1000 (EST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 15 Aug 1997 14:13:57 -0400
+Message-Id: <s3f46425.006@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 15 Aug 1997 14:13:39 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: DIS: Re: OFF: (CotC) CFJ 935 (assigned to Vlad)
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain
+Content-Length: 952
+Status: N
+
+DIS: Re: OFF: (CotC) CFJ 935 (assigned to Vlad)
+
+Michael writes:
+
+>R1579 says "Each Currency shall have associated with it a Mintor,
+>which must be an entity to which the Rules grant Mint Authority.  An
+>entity has Mint Authority if and only if granted it by the Rules."
+
+>This is a requirement on Currencies that P-notes don't satisfy.
+>Therefore P-notes are not a Currency.
+ 
+Hmm.  The problem I have is with that word "shall" as opposed to "must".  I've
+never thought of the two words as synonymous, but that may be the only way to
+interpret this.  It seems to me to be putting an obligation on something to
+associate a Mintor with each Currency, but fails to specify what or who that
+something is and fails to specify the time frame in which the association shall
+take place.  But I guess the only way to interpret this then is, as you say, to
+consider this a condition which an entity must fulfill in order to be
+considered a Currency.
+
+-- Crito
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 14:36 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA16197 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 14:36:52 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id EAA09175 for nomic-outgoing; Sat, 16 Aug 1997 04:21:35 +1000 (EST)
+Received: from poverty.bloomington.in.us (root@xyplex3-4-10.ucs.indiana.edu [129.79.18.210])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id EAA09651 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 04:21:28 +1000 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id NAA08872 for <nomic@yoyo.cc.monash.edu.au>; Fri, 15 Aug 1997 13:21:19 -0500
+Message-Id: <199708151821.NAA08872@poverty.bloomington.in.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Re: OFF: (CotC) CFJ 935 (assigned to Vlad) 
+In-reply-to: Your message of "Fri, 15 Aug 1997 12:48:04 -0400."
+             <s3f4501b.086@rmv.state.ma.us> 
+Date: Fri, 15 Aug 1997 13:21:18 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 409
+Status: N
+
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> I don't follow this.  What wording in R1701 tells us that
+David> P-Notes are not a currency if they don't have a Mintor?  Maybe
+David> you meant R1579, the rule that calls for the destruction of
+David> Currencies when their Mintor ceases to exist.
+
+It also states that "Each Currency shall have associated with it a
+Mintor."  P-Notes don't.
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 14:51 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA16607 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 14:51:44 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id EAA18085 for nomic-outgoing; Sat, 16 Aug 1997 04:44:20 +1000 (EST)
+Received: from logatome.micronet.fr (root@logatome.micronet.fr [194.51.75.1])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id EAA30598 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 04:43:54 +1000 (EST)
+Received: from arapael (pppA127.francenet.fr [193.149.100.33])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id UAA13027
+	for <nomic@yoyo.cc.monash.edu.au>; Fri, 15 Aug 1997 20:43:49 +0200 (MET DST)
+Message-Id: <199708151843.UAA13027@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic@yoyo.cc.monash.edu.au
+Date: Fri, 15 Aug 1997 20:47:28 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: BUS: CFJ (Re: Donation)
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1249
+Status: N
+
+> Laurent> While we're having fun...  H. Assessor, please record the
+> Laurent> transfer of one VT from myself to the Frankenstein Monster,
+> Laurent> effective immediately.
+> 
+> I am forced to deny this transfer on the grounds that I cannot find
+> any evidence for the existence of "the Frankenstein Monster".  (As
+> Chancellor, I have previously reported that I believe that there are
+> no Frankenstein Monsters, a claim that has not been challenged.)  As
+> such, this Transfer Order fails to clearly specify exactly one
+> destination entity, and is thus unexecutable.
+
+OK, let's put this to the Courts... I haven't reviewed the arguments pro or 
+contra on the issue of the FM's existence myself, but the debate should be 
+interesting.
+
+H. CotC, I hereby Call for Judgement on the following Statement :
+
+---
+At the time of Player's Morendil posting eir message attempting to transfer one 
+VT to the Frankenstein Monster, no Entity authorized to possess Currencies 
+existed which could be unambiguously referred to as "the Frankenstein Monster".
+---
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Misspelled?  Impossible.  My modem is error correcting.
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 14:52 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA16620 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 14:52:38 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id EAA20485 for nomic-outgoing; Sat, 16 Aug 1997 04:44:15 +1000 (EST)
+Received: from logatome.micronet.fr (root@logatome.micronet.fr [194.51.75.1])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id EAA31645 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 04:43:55 +1000 (EST)
+Received: from arapael (pppA127.francenet.fr [193.149.100.33])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id UAA13032
+	for <nomic@yoyo.cc.monash.edu.au>; Fri, 15 Aug 1997 20:43:50 +0200 (MET DST)
+Message-Id: <199708151843.UAA13032@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic@yoyo.cc.monash.edu.au
+Date: Fri, 15 Aug 1997 20:47:28 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: BUS: Morendil (and Elde) are Definitely Not Absent, Kudo Transfe
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1052
+Status: N
+
+> > I hereby allege that Morendil and Elde have Abandoned the game.
+> > Both these Players are Maybe Absent, and have two weeks to post
+> > to the Public Forum before becoming Absent.
+> 
+> Thou'rt an evil, evil Player...  Remind me never to post *my* travel
+> plans to the list. ;)
+
+Pah ! Just do what I do... Lie. :)
+
+Actually, I got back sooner than I anticipated... A good thing too, it seems.
+
+H. Herald, please note my transfer of one Kudo FROM Steve, for lack of
+imagination (there were after all *lots* of more interesting ways to deal with
+that issue), TO Elde, to compensate for what I deem to be a very unfair 
+deKudoing on Vanyel's part, and...
+
+One Kudo FROM Vanyel, for the abovementioned reasons, TO Vlad, glad to have em
+back.
+
+I also hereby announce as Elde's Executor, on Elde's behalf, that Elde is
+actively participating in Agora. ;)
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+The impossible we do today; allow one week for miracles.
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 14:52 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA16621 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 14:52:39 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id EAA14185 for nomic-outgoing; Sat, 16 Aug 1997 04:44:17 +1000 (EST)
+Received: from logatome.micronet.fr (root@logatome.micronet.fr [194.51.75.1])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id EAA30964 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 04:43:56 +1000 (EST)
+Received: from arapael (pppA127.francenet.fr [193.149.100.33])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id UAA13038
+	for <nomic@yoyo.cc.monash.edu.au>; Fri, 15 Aug 1997 20:43:51 +0200 (MET DST)
+Message-Id: <199708151843.UAA13038@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic@yoyo.cc.monash.edu.au
+Date: Fri, 15 Aug 1997 20:47:28 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: DIS: Re: BUS: Gecko update and PF announcement
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 307
+Status: N
+
+> <agora-official@gecko.serc.rmit.edu.au> and
+> <agora-business@gecko.serc.rmit.edu.au>
+
+No discussion list ?
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Oh, Grep ! You haven't been pattern-matching _again_ ?
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 14:55 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA16688 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 14:55:37 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id EAA21861 for nomic-outgoing; Sat, 16 Aug 1997 04:44:21 +1000 (EST)
+Received: from logatome.micronet.fr (root@logatome.micronet.fr [194.51.75.1])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id EAA11871 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 04:43:58 +1000 (EST)
+Received: from arapael (pppA127.francenet.fr [193.149.100.33])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id UAA13041
+	for <nomic@yoyo.cc.monash.edu.au>; Fri, 15 Aug 1997 20:43:52 +0200 (MET DST)
+Message-Id: <199708151843.UAA13041@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic@yoyo.cc.monash.edu.au
+Date: Fri, 15 Aug 1997 20:47:28 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: BUS: Registration, 3 Proposals, CFJ (Re: Blob's Executor in Prob
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 10304
+Status: N
+
+> >Meanwhile, which lucky Player will Murphy select to be Blob's EiP?
+> 
+> Elde.
+
+Oh boy. How far can this go ? I hereby Announce as Elde's Executor, on Elde's
+behalf, that Elde, acting as Blob's Executor, on Blob's behalf, requests the
+registration of Blob.
+
+Yeah, I know that this is a dangerous business, what with the problem of 
+Cascading Indebtedness and all, but I'll ride that wave. Or at least try to, 
+and hope that I don't wash out. :)
+
+Meanwhile, I think it's not a good idea in general that Executors in Probate
+should be subject to Infractions of Persistent Indebtedness committed by
+Entities other than themselves, since that would very likely lead to EiPs
+desisting time and again from their duties when assigned the estate of a
+Player with Debts.
+
+Therefore, I hereby submit the following Disinterested Proposal :
+
+(Proposal 1)
+---
+Amend Rule 1713 by replacing text which reads :
+
+      The Executor of an entity for which, at the beginning of a given
+      Nomic week, there is at least one Overdue Payment Order naming
+      it as Payor commits the Infraction of Persistent Indebtedness at
+      the beginning of that Week.  If an entity has more than one
+      Overdue Payment Order naming it as payor, its Executor commits
+      as many such Infractions are there are different Currencies
+      named in all these Overdue Payment Orders.
+
+with text reading :
+
+      The Executor of an entity for which, at the beginning of a given
+      Nomic week, there is at least one Overdue Payment Order naming
+      it as Payor commits the Infraction of Persistent Indebtedness at
+      the beginning of that Week, unless that Entity is currently in Probate.
+
+      If such an entity has more than one Overdue Payment Order naming it as
+      payor, its Executor commits as many such Infractions are there are
+      different Currencies named in all such Overdue Payment Orders.
+---
+
+It also seems strange to me that Fugitive Blots should be separate, rather
+than converted from, regular Blots; I therefore also submit the following
+Disinterested Proposal:
+
+(Proposal 2)
+---
+Amend Rule 1437 by replacing text which reads :
+
+      When an Player is deregistered from the game while not
+      Immaculate, e becomes a Fugitive from Justice, and e receives
+      Fugitive Blots equal to the number of Blots e then had.  The
+      Herald shall keep a record of the number of Fugitive Blots
+      attributed to each Fugitive from Justice.
+
+with text reading :
+
+      When an Player is deregistered from the game while not
+      Immaculate, e becomes a Fugitive from Justice, and e receives
+      Fugitive Blots equal to the number of Blots e then had.  The
+      Herald shall keep a record of the number of Fugitive Blots
+      attributed to each Fugitive from Justice. All Blots held by that
+      Player previous to eir deregistration shall be erased, i.e., all Payment 
+      Orders for Indulgences naming that Player as Payor shall at that time be 
+      vacated.
+---
+
+(A further Proposal is at the end this message.)
+
+Lastly, I have a problem with the Appellate Judgement in CFJ 932. The esteemed
+Judge elJefe prefaced eir Judgement with an argument that led em to believe
+that the Statement would have been FALSE, if not for the status of
+Indulgences, which e deemed not to be a Currency.
+
+In Judging its Appeal, the Justices essentially put forth arguments that
+Indulgences do exist, and I have no contention with that decision or their
+arguments supporting it. However, the argument which was rejected by Judge
+elJefe was not considered by the Justices, or at the least the arguments 
+attached to their Judgements did not at any time touch upon the issue.
+
+I therefore feel within my rights to submit the following Statement, which I 
+hope the Courts will address as such rather than rule on peripheral issues. 
+Please note that I am well aware that within our current Judicial system, the 
+decision of an Appellate Court is final, and it is not usually proper to 
+challenge an Appellate decision by issuing an essentially similar Statement; in 
+this instance, however, it is my sincere belief that the Statement in 932 has 
+not been properly adressed which motivates this admittedly inelegant 
+insistence.
+
+I have appended the Statement of 932, part of Judge elJefe's decision, and some 
+additional commentary on the Statement and attached arguments.
+
+I hereby Call for Judgement on the following Statement :
+
+---
+
+   No Player is currently required to report a change in Blots resulting from 
+   the commission of an Infraction.
+
+---
+
+Arguments :
+
+   A Recordkeepor is a Player who is required to maintain a record of
+   past and present Payment Orders naming a particular Currency. To
+   fulfill these obligations, it is necessary, and sufficient, that a Player 
+   should be able, if called upon to do so under Rule 1064 (FOIA), to provide 
+   upon request a list of all Payment Orders naming that particular Currency 
+   that have been executed in the last four Weeks, and their status.
+
+   No additional obligation is imposed upon a Recordkeepor with respect to 
+   Payment Orders, or to any given set of Payment Orders. In particular, a 
+   Currency Recordkeepor is not required to keep track of "changes in the total 
+   amount of Payment Orders executed, but not disputed or vacated", which is 
+   the long-winded expansion of the legal shorthand "a change in Blots". A 
+   Recordkeepor is a fortiori not required to *report* such changes, which 
+   makes Rule 1435's designation of "whomever is required to report the change 
+   in Blots" vacuuous.
+
+   To sum up : if I were the Recordkeepor for Indulgences, no Rule could 
+   currently _require_ me to post a message to the Public Forum whenever a 
+   Player's Blots changed.
+
+   Are some other Players required to post reports of such changes ? This 
+   responsibility could conceivably fall to Players required to post Reports of 
+   Infractions. The reasoning would be : "A report of an Infraction committed 
+   by a particular Player leads to a Blot penalty assessed against that Player, 
+   and thus constitutes a report of a change in Blots".
+
+   This inference, however, misses one crucial step. A "change in Blots" is the 
+   result of a Payment Order in Indulgences being executed. But the report of 
+   an Infraction is not, in and of itself, a Payment Order, and thus the 
+   requirement to report an Infraction cannot simultaneously constitute a 
+   requirement to report a change in Blots.
+
+   A solution to this problem would be to enact Implicit Payment Orders, the 
+   mirror image of Implicit Transfer Orders, which - employed with the same 
+   caution which was reserved to ITOs - would restore reports of Crimes and
+   Infractions to their full effectiveness.
+
+---
+
+Statement of CFJ 932:
+======================================================================
+                               CFJ 932
+
+"No Player is currently authorized to execute Payment Orders for
+ Indulgences pursuant to penalties expressed in terms of Blots."
+
+======================================================================
+
+Excerpt from Judge elJefe's reasoning :
+
+---
+The caller's argument appears to be incorrect:
+
+> Therefore, the specification "the Player who is required to report
+> the change in Blots" points to no particular Player, since the Rules
+> charge no Player with the responsibility of keeping a record of any
+> particular Payment Orders.
+
+This is formally contradicted by Rule 1596, which state, in part "Each
+Recordkeepor shall maintain a record of all Payment Orders executed
+which specify the Currency of which e is the Recordkeepor..."
+---
+
+I now realize that my initial arguments were misleading. It is indeed false
+that "the Rules charge no Player with the responsibility of keeping a record
+of any particular Payment Orders". My meaning was that "the Rules charge no
+Player with the responsibility of keeping a record of the _changes_ in the
+status of any particular subset of Payment Orders", and I should have focused 
+on the word "report" in 1435 in particular. I apologize for the confusion.
+
+To correct the situation I outline above, I also submit the following 
+Disinterested Proposal :
+
+(Proposal 3)
+---
+Enact a Rule (titled "Implicit Payment Orders") reading :
+
+   The Rules, and only the Rules, may specify that certain actions, such as
+   reporting Infractions, are also implicitly the execution of one or more
+   Payment Orders, as long as the action which is implicitly the execution of a
+   Payment Order is the sending of a message to the Executor of the source entity
+   of the Payment Order or to the Public Forum.
+
+[Comment : the substance of 1731; there are no Delayed Payment Orders, and it 
+is not necessary to deal with cancellation as the COE Rule already permits an 
+illegally submitted PO to be vacated if needed.]
+
+Enact a Rule reading :
+
+   The act of reporting an Infraction, and the act of submitting a Judgement 
+   which finds a Player guilty of a Crime, constitute as many Implicit Payment
+   Orders of the appropriate amounts of Currencies as are necessary to carry 
+   out the penalties specified in the Rules.
+
+[Comment : authorizes Players required to report Infractions to
+simultaneously, and implicitly, execute POs.]
+
+Amend rule 1435 by replacing text which reads:
+
+      A Payment Order for 1 Indulgence, the payee of which is the
+      Bank, is called a Blot.  When a Rule states that a Player is to
+      gain some number of Blots, a Payment Order shall be executed
+      with that Player as the payor, the Bank as the payee, and for a
+      number of Indulgences equal to the number of Blots that Player
+      is to receive.  This order is to be executed by whomever is
+      required to report the change in Blots.
+
+by text reading :
+
+   When a Rule describes a penalty as an amount of Blots, this shall be
+   equivalent to requiring the execution of a Payment Order for the same amount
+   of Indulgences, naming the Player who is subject to that penalty as Payor 
+   and the Bank as Payee.
+
+[Comment: brings 1435 in line with the new protocol for assigning Blots.]
+---
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Famous Last Words : I wonder what this button does ?
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 16:12 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA18941 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 16:12:15 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id GAA30603 for nomic-outgoing; Sat, 16 Aug 1997 06:06:26 +1000 (EST)
+Received: from dfw.dfw.net (ccarroll@dfw.dfw.net [198.175.15.10])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id GAA32285 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 06:06:09 +1000 (EST)
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA12535; Fri, 15 Aug 97 15:07:46 CDT
+Message-Id: <9708152007.AA12535@dfw.dfw.net>
+Subject: Re: BUS: Blob's Executor in Probate
+To: nomic@yoyo.cc.monash.edu.au
+Date: Fri, 15 Aug 1997 15:07:45 -0500 (CDT)
+In-Reply-To: <199708151733.NAA28767@cyber1.servtech.com> from "linda hall" at Aug 15, 97 01:33:40 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 114
+Status: N
+
+linda hall wrote:
+>
+>Vote-O-Matic?
+
+Um, that was the Vototron.  A Vote-O-Matic really *would*
+be silly. :)
+
+Chuck
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 16:26 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA19277 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 16:26:45 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id GAA12699 for nomic-outgoing; Sat, 16 Aug 1997 06:19:13 +1000 (EST)
+Received: from logatome.micronet.fr (root@logatome.micronet.fr [194.51.75.1])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id GAA21545 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 06:18:53 +1000 (EST)
+Received: from arapael (pppA147.francenet.fr [193.149.100.53])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id WAA16361
+	for <nomic@yoyo.cc.monash.edu.au>; Fri, 15 Aug 1997 22:18:48 +0200 (MET DST)
+Message-Id: <199708152018.WAA16361@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic@yoyo.cc.monash.edu.au
+Date: Fri, 15 Aug 1997 22:22:28 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: DIS: Can I Judge for Elde ?
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 984
+Status: N
+
+> This is really interesting. Elde is registered and not On Hold or
+> otherwise ineligible, so e is eligible to be selected. However, 
+> Morendil who is acting as Elde's Executor, is barred. Does this mean
+> that Morendil cannot return Judgement? I think he can, since R1478
+> empowers Morendil to act "as if e were" Elde.
+
+I wonder. Rule 1478 does not make me identical to Elde; I am still, in addition
+to being Elde's Executor, subject to any obligations or restrictions applicable
+to 'Player Morendil'. For instance, if a Rule prevented me from posting any
+messages at all to the PF, I guess I would be unable to post messages even on
+Elde's behalf, since even if the actions contained therein would be legally
+attributed to Elde, I would still be the Player posting those messages.
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+I haven't lost my mind, it's on tape backup somewhere !
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 16:27 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA19281 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 16:27:01 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id GAA26975 for nomic-outgoing; Sat, 16 Aug 1997 06:19:12 +1000 (EST)
+Received: from logatome.micronet.fr (root@logatome.micronet.fr [194.51.75.1])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id GAA13452 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 06:18:55 +1000 (EST)
+Received: from arapael (pppA147.francenet.fr [193.149.100.53])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id WAA16371
+	for <nomic@yoyo.cc.monash.edu.au>; Fri, 15 Aug 1997 22:18:51 +0200 (MET DST)
+Message-Id: <199708152018.WAA16371@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic@yoyo.cc.monash.edu.au
+Date: Fri, 15 Aug 1997 22:22:28 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: BUS: Donation, again
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 372
+Status: N
+
+> Hm. What are you going to do if someone tries to transfer some VTs to
+> the Virus?
+
+Let's see : H. Assessor, please note the transfer of one VT from myself
+to the Virus.
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Your email has been returned due to insufficient voltage.
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 21:36 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA25326 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 21:36:29 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id LAA05238 for nomic-outgoing; Sat, 16 Aug 1997 11:17:30 +1000 (EST)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id LAA24567 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 11:17:26 +1000 (EST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 15 Aug 1997 21:22:04 -0400
+Message-Id: <s3f4c87c.057@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 15 Aug 1997 21:21:41 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: DIS: Re: BUS: Registration, 3 Proposals, CFJ (Re: Blob's
+	Executor in Prob
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain
+Content-Length: 635
+Status: N
+
+DIS: Re: BUS: Registration, 3 Proposals, CFJ (Re: Blob's Executor in Prob
+
+Morendil wrote:
+
+>Meanwhile, I think it's not a good idea in general that Executors in Probate
+>should be subject to Infractions of Persistent Indebtedness committed by
+>Entities other than themselves, since that would very likely lead to EiPs
+>desisting time and again from their duties when assigned the estate of a
+>Player with Debts.
+
+I would think just the opposite.  Being subject to Infractions caused by the
+debt of the estate should make the EiP want to wrap things up quickly to get
+all those debts vacated before any penalties befall em.
+
+-- Crito
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 21:45 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA25460 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 21:45:42 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id LAA31867 for nomic-outgoing; Sat, 16 Aug 1997 11:36:32 +1000 (EST)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id LAA16006 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 11:36:23 +1000 (EST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 15 Aug 1997 21:41:04 -0400
+Message-Id: <s3f4ccf0.058@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 15 Aug 1997 21:40:28 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: BUS: Registration, 3 Proposals, CFJ (Re: Blob's Executor in
+	Prob -Reply
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain
+Content-Length: 96
+Status: N
+
+Per R1437, I hereby command Blob to transfer 5
+Indulgences to the Nomic Bank.
+
+-- Herald Crito
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 22:02 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA25705 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 22:02:50 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id LAA31015 for nomic-outgoing; Sat, 16 Aug 1997 11:57:47 +1000 (EST)
+Received: from poverty.bloomington.in.us (root@xyplex3-4-10.ucs.indiana.edu [129.79.18.210])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id LAA12925 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 11:57:21 +1000 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id UAA09385 for <nomic@yoyo.cc.monash.edu.au>; Fri, 15 Aug 1997 20:57:15 -0500
+Message-Id: <199708160157.UAA09385@poverty.bloomington.in.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: an alternate approach to currencies
+Date: Fri, 15 Aug 1997 20:57:14 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 2685
+Status: N
+
+This is the idea I originally had for implementing currencies, which
+in retrospect I should have used.  Comments?
+
+(This is not a Proposal.)
+
+======================================================================
+
+Be it further resolved, that Rule 1467 be amended to read:
+
+      A "currency" is any class of objects with attributed value
+      utilized (or utilizable) as a medium of exchange.
+
+      Instances of a currency are called "units" of that currency.
+
+Be it further resolved, that a Rule be created, with the title
+"Regulation of Currencies" and the following text:
+
+      Certain currencies may be designated as "regulated."  The
+      designation of a currency as regulated is a Nomic Property of
+      that currency.  
+
+      The above notwithstanding, no currency shall be designated as
+      regulated when such designation is in conflict with any other
+      Rule, and a regulated currency shall cease to be regulated if
+      its continuing regulation would offend the Rules.
+
+      The Chancellor shall retain a schedule listing all regulated
+      currencies, and shall publish this schedule as soon as possible
+      after it changes for any reason.
+
+      The possession or trading of instances of a regulated currency
+      contrary to the Rules shall be subject to penalties under the
+      Rules.
+
+      All Rules pertaining to the possession and trading of regulated
+      currencies shall be construed proscriptively.
+
+Be it further resolved, that a Rule be created, with the title
+"Prohibition on Regulation" and the following text:
+
+      Under no circumstances shall any currency minted, issued, or
+      regulated by any member of the United Nations be designated as a
+      regulated currency by or under the authority of the Rules.  
+
+Be it further resolved, that a Rule be created, with the title
+"Requirements for Regulation" and the following text:
+
+      Every currency to be regulated by the Rules shall meet with the
+      following requirements:
+
+      * It shall have a name unique from all other currencies
+        regulated by the Rules.
+
+      * It shall have a Recordkeepor charged to maintain an accurate
+        and complete record of the number of units of that currency
+        attributed to be possessed by the various entities who might
+        possess it, and of all transactions involving that currency
+        which may take place between those entities.
+
+      * It shall have at a Mintor, which is the only entity who may
+        create new instances of that Currency.
+
+      In addition, in order for a currency to be regulated, its
+      Recordkeepor must be a Player, and its Mintor must be an entity
+      with an Executor.
+
+From owner-nomic@yoyo.cc.monash.edu.au Fri Aug 15 22:28 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA26103 for <dpb@cs.brown.edu>; Fri, 15 Aug 1997 22:28:33 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id MAA22883 for nomic-outgoing; Sat, 16 Aug 1997 12:18:36 +1000 (EST)
+Received: from logatome.micronet.fr (root@logatome.micronet.fr [194.51.75.1])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id MAA20832 for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 12:18:18 +1000 (EST)
+Received: from arapael (pppA114.francenet.fr [193.149.100.20])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id EAA29875
+	for <nomic@yoyo.cc.monash.edu.au>; Sat, 16 Aug 1997 04:18:14 +0200 (MET DST)
+Message-Id: <199708160218.EAA29875@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic@yoyo.cc.monash.edu.au
+Date: Sat, 16 Aug 1997 04:21:54 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Re: BUS: Registration, 3 Proposals, CFJ (Re: Blob's	Ex
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1489
+Status: N
+
+> >Meanwhile, I think it's not a good idea in general that Executors in Probate
+> >should be subject to Infractions of Persistent Indebtedness committed by
+> >Entities other than themselves, since that would very likely lead to EiPs
+> >desisting time and again from their duties when assigned the estate of a
+> >Player with Debts.
+> 
+> I would think just the opposite.  Being subject to Infractions caused by the
+> debt of the estate should make the EiP want to wrap things up quickly to get
+> all those debts vacated before any penalties befall em.
+
+This will not always be possible, if only because of the provision whereby an
+EiP is required to refrain from Executing any Transfer Orders arising from
+disputed Payment Orders naming the estate under eir responsibility. When POs
+are disputed, they can remain that way for a long time - initial CFJ, selection
+of a Judge, returning Judgement, publication of a Judgement, can take up to a
+month even in cases where no Judge defaults. We've had CFJs hanging around for
+much longer, what with defaults and Appeals.
+
+In general it will be _much_ easier for an EiP to resign from such duties than
+to fulfill them, especially if the Notary's selection of an EiP is as whimsical
+in the future as it has been to date. Path of least resistance and all that.
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+- This tagline omitted for technical reasons -
+
+

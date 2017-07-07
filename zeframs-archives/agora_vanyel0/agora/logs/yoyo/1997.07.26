@@ -1,0 +1,1013 @@
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 04:36 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA02815 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 04:35:56 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id SAA06753 for nomic-outgoing; Sat, 26 Jul 1997 18:19:22 +1000 (EST)
+Received: from aurora.cc.monash.edu.au (gardner@aurora.cc.monash.edu.au [130.194.1.91])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id SAA15683 for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 18:19:16 +1000 (EST)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id SAA05906 for nomic@yoyo.cc.monash.edu.au; Sat, 26 Jul 1997 18:19:15 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707260819.SAA05906@aurora.cc.monash.edu.au>
+Subject: Teleport dead?
+To: nomic@yoyo.cc.monash.edu.au (Backup Nomic Mailing List)
+Date: Sat, 26 Jul 1997 18:19:15 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1334
+Status: N
+
+Well, this is disturbing:
+
+Mail Delivery Subsystem writes:
+>From MAILER-DAEMON@aurora.cc.monash.edu.au  Sat Jul 26 17:46:51 1997
+>Date: Sat, 26 Jul 1997 17:46:51 +1000 (EST)
+>From: Mail Delivery Subsystem <MAILER-DAEMON@aurora.cc.monash.edu.au>
+>Message-Id: <199707260746.RAA10893@aurora.cc.monash.edu.au>
+>To: gardner@aurora.cc.monash.edu.au
+>MIME-Version: 1.0
+>Content-Type: multipart/report; report-type=delivery-status;
+>	boundary="RAA10893.869903211/aurora.cc.monash.edu.au"
+>Subject: Returned mail: User unknown
+>Auto-Submitted: auto-generated (failure)
+>
+>This is a MIME-encapsulated message
+>
+>--RAA10893.869903211/aurora.cc.monash.edu.au
+>
+>The original message was received at Sat, 26 Jul 1997 17:46:41 +1000 (EST)
+>from gardner@localhost
+>
+>   ----- The following addresses had permanent fatal errors -----
+>nomic-discussion@teleport.com
+>
+>   ----- Transcript of session follows -----
+>... while talking to smtp3.teleport.com.:
+>>>> RCPT To:<nomic-discussion@teleport.com>
+><<< 550 <nomic-discussion@teleport.com>... User unknown
+>550 nomic-discussion@teleport.com... User unknown
+
+Anyone know what's happened to teleport? 
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 04:36 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA02828 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 04:36:04 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id SAA03487 for nomic-outgoing; Sat, 26 Jul 1997 18:26:21 +1000 (EST)
+From: owner-nomic@yoyo.cc.monash.edu.au
+Date: Sat, 26 Jul 1997 18:26:21 +1000 (EST)
+Message-Id: <199707260826.SAA03487@yoyo.cc.monash.edu.au>
+Status: N
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 04:36 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA02832 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 04:36:37 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id SAA20392 for nomic-outgoing; Sat, 26 Jul 1997 18:26:21 +1000 (EST)
+Received: from marble.cc.monash.edu.au (root@marble.cc.monash.edu.au [130.194.9.2])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id SAA28895 for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 18:26:02 +1000 (EST)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by marble.cc.monash.edu.au (8.8.5/8.8.5) with ESMTP id SAA24042
+	for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 18:20:14 +1000
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id SAA11653 for nomic@yoyo.cc.monash.edu.au; Sat, 26 Jul 1997 18:20:19 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707260820.SAA11653@aurora.cc.monash.edu.au>
+Subject: Re: BUS: PROTO: Entity Classes
+To: nomic@yoyo.cc.monash.edu.au (Backup Nomic Mailing List)
+Date: Sat, 26 Jul 1997 18:20:19 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3389
+Status: N
+
+Laurent Bossavit writes:
+>
+>> (2) You might want to get rid of the concept of 'Nomic Entity' entirely.
+>> After all, what does it matter whether an Application is a Nomic Entity
+>> or not? None of its Nomic Properties can be changed except by procedures
+>> specified in the Rules, and none of its non-Nomic properties (eg who wrote
+>> it and when) can be changed at all, and faking them for the purposes
+>> of deception is quite difficult, as we've discussed in another context.
+>
+>Oh hey, I disagree with that - I pointed this out some time ago but it
+>failed to elicit much comment. Suppose that you are Notary and I send
+>you a Will - on paper. (This is to avoid the problem raised by 'a
+>body of text' in the context of mail messages, since such a body of
+>text is duplicated several times while being transported over the Net.)
+>
+>Now the contents of a given 'body ot text' are not a Nomic Property,
+>right ? So what's to prevent you from scratching out the line where
+>I leave all of my precious Cat Foods to MFO and adding a line which
+>says that you are to be the beneficiary of this heritage ?
+
+Nothing prevents me from doing it, in the sense that it's physically
+possible. But this would not have the effect of my changing the
+contents of your Will, since R1637 says that "A Will is created by
+sending to the Notary a collection of text clearly labeled as a Will,
+which shall then become that Player's Will...". Once you've sent me
+the text, it's the text you send me that becomes your Will, not
+your text plus any changes I might make to it. Of course, unless
+you keep a copy of your own, you might find it hard to prove that
+my edited version of your Will is not really your Will, but the issue
+of evidence is orthogonal: you'd have the same problem even if your
+Will uncontroversially *was* a Nomic Entity, and even if the contents
+of your Will were Nomic Properties and thus ostensibly protected from
+tampering by R1011, So I stand by my statement that it really doesn't
+matter whether an Application, or a Will in this case, is a Nomic
+Entity or not.
+
+Oh, but reading back your post, I now see you were making a different
+point: that faking non-Nomic Properties for the purposes of deception
+might not be as difficult as I suggest. To that point I respond by
+noting that you had to make the example quite far fetched (sending
+me your Will on paper) in order to make your point. I think that
+any Notary who actually changed a Will in this fashion would very
+likely get caught. But even if that weren't so - after all, Wills
+are executed upon a Player's being deregistered, so the person most
+likely to be vigilant about the veracity of its contents might well
+be out of the picture - that still doesn't change my point that it
+doesn't matter whether Wills are regarded as Nomic Entities or not.
+The problems of duplicitous Notaries are with us precisely to the
+same extent regardless of what metaphysical view we take of Wills.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+--RAA10893.869903211/aurora.cc.monash.edu.au--
+
+
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 04:50 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA03033 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 04:50:53 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id SAA09361 for nomic-outgoing; Sat, 26 Jul 1997 18:40:37 +1000 (EST)
+Received: from marble.cc.monash.edu.au (root@marble.cc.monash.edu.au [130.194.9.2])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id SAA22703 for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 18:40:31 +1000 (EST)
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1])
+	by marble.cc.monash.edu.au (8.8.5/8.8.5) with ESMTP id SAA24166
+	for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 18:40:14 +1000
+Received: from arapael (pppA227.francenet.fr [193.149.100.81])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id KAA11773
+	for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 10:40:14 +0200 (MET DST)
+Message-Id: <199707260840.KAA11773@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic@yoyo.cc.monash.edu.au (Backup Nomic Mailing List)
+Date: Sat, 26 Jul 1997 10:43:38 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Damn :(
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 250
+Status: N
+
+Well, my post to n-b@lists.teleport.com just bounced. :(
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Press any key to continue or any other key to quit
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 04:53 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA03045 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 04:53:23 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id SAA32362 for nomic-outgoing; Sat, 26 Jul 1997 18:42:11 +1000 (EST)
+Received: from logatome.micronet.fr (root@logatome.micronet.fr [194.51.75.1])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id SAA07314 for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 18:41:57 +1000 (EST)
+Received: from arapael (pppA227.francenet.fr [193.149.100.81])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id KAA11838
+	for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 10:41:52 +0200 (MET DST)
+Message-Id: <199707260841.KAA11838@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic@yoyo.cc.monash.edu.au (Backup Nomic Mailing List)
+Date: Sat, 26 Jul 1997 10:45:15 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: OFF: More Pragmatic Currency Fun and POs
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1479
+Status: N
+
+> It would be nice if I could issue implicit POs (however unlikely), but in the
+> case that I can't, 
+>   I hereby issue Payment Orders ordering that
+>     elJefe, Elde and Blob must each pay the Bank 3 Indulgences.  
+> 
+> (Is this legal now that I haven't done it immediately?  If not, what
+> crime have I committed myself in not following R1504 fully?)
+
+None that I can see, but there's something else needs to be tested
+in that regard... Here we go again...
+
+I hereby dispute the above POs and submit a Call For Judgement on the
+following:
+
+   No Player is currently authorized to execute Payment Orders for
+   Indulgences pursuant to penalties expressed in terms of Blots.
+
+Reasoning :
+
+Rule 1435 goes : to gain or receive Blots is to be subject to a PO for the
+same number of Indulgences, and a Player's Blots is the total amount of such
+Transfers e has been ordered to effect (that are not disputed or vacated). Thus
+a "change in Blots" is precisely the executing, disputing or vacating (but
+unfortunately not the satisfaction) of such a Payment Order.
+
+Therefore, the specification "the Player who is required to report the change
+in Blots" points to no particular Player, since the Rules charge no Player with
+the responsibility of keeping a record of any particular Payment Orders. 
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Reading this tagline will void its warranty.
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 04:56 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA03098 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 04:56:09 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id SAA25284 for nomic-outgoing; Sat, 26 Jul 1997 18:42:09 +1000 (EST)
+Received: from logatome.micronet.fr (root@logatome.micronet.fr [194.51.75.1])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id SAA21098 for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 18:41:55 +1000 (EST)
+Received: from arapael (pppA227.francenet.fr [193.149.100.81])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id KAA11835
+	for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 10:41:51 +0200 (MET DST)
+Message-Id: <199707260841.KAA11835@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic@yoyo.cc.monash.edu.au (Backup Nomic Mailing List)
+Date: Sat, 26 Jul 1997 10:45:15 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: BUS: PROTO: Entity Classes
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1576
+Status: N
+
+> >Now the contents of a given 'body ot text' are not a Nomic Property,
+> >right ? So what's to prevent you from scratching out the line where I
+> >leave all of my precious Cat Foods to MFO and adding a line which says
+> >that you are to be the beneficiary of this heritage ?
+> 
+> Because then it's not the same body of text, it's a similar yet different one.
+> If you submit a body of text, and submit it, that cements its existence, WRT
+> Agora, in that form. 
+
+Oh - but I thought that Agoran entities were, in some senses, physical ones.
+This refutation of yours seems to imply that there is a Platonic "Morendil's
+Will" that is the text that I wrote on that sheet of foolscap, and that this
+body of text cannot be changed by the application of a few strokes of pencil to
+that same sheet, and further that this 'Platonic' body of text is the one that
+has real, legal significance in Agora.
+
+> If the player you send it to changes it, then posts the new version to the PF
+> as your document, it's not the same body of text -- it's a similar one, but
+> not the same. The only way the body of text gains Nomic Properties is for you
+> to submit it in a specific manner, and since the text e posts is not the text
+> you submitted, it does not have those Nomic Properties.
+
+Where in that case _is_ the original body of text, uh ? And which Rule do
+you derive the above interpretation from ?
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+I'm in total control, but don't tell my wife.
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 06:02 EDT 1997
+Received: from yoyo.cc.monash.edu.au (root@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA03849 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 06:02:21 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id SAA14521 for nomic-outgoing; Sat, 26 Jul 1997 18:39:51 +1000 (EST)
+Received: from logatome.micronet.fr (root@logatome.micronet.fr [194.51.75.1])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id SAA16164 for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 18:39:35 +1000 (EST)
+Received: from arapael (pppA227.francenet.fr [193.149.100.81])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id KAA11736
+	for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 10:39:27 +0200 (MET DST)
+Message-Id: <199707260839.KAA11736@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic@yoyo.cc.monash.edu.au (Backup Nomic Mailing List)
+Date: Sat, 26 Jul 1997 10:42:51 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: Teleport dead?
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 709
+Status: N
+
+If you remember, there was a change of policy at Teleport a while ago that
+mailing list adresses were to become x@lists.teleport.com. I don't know anything 
+about Teleport but it's quite possible that the adresses x@teleport.com no 
+longer work - we've had ample time to get used to the change now, and possibly 
+Teleport just decided to finally get rid of the old mail routings.
+
+This is just speculation, though. A recent post of mine is adressed to 
+nomic-business@lists.teleport.com, we'll see if that goes through.
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+- This tagline omitted for technical reasons -
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 10:59 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA07828 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 10:59:44 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id AAA23701 for nomic-outgoing; Sun, 27 Jul 1997 00:47:59 +1000 (EST)
+Received: from poverty.bloomington.in.us (root@xyplex5-4-19.ucs.indiana.edu [129.79.18.79])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id AAA08874 for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 00:47:43 +1000 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id JAA24983 for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 09:47:36 -0500
+Message-Id: <199707261447.JAA24983@poverty.bloomington.in.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: Teleport dead? 
+In-reply-to: Your message of "Sat, 26 Jul 1997 18:19:15 +1000."
+             <199707260819.SAA05906@aurora.cc.monash.edu.au> 
+Date: Sat, 26 Jul 1997 09:47:35 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 210
+Status: N
+
+"Steve" == Steve Gardner <gardner@aurora.cc.monash.edu.au> writes:
+
+Steve> Anyone know what's happened to teleport?
+
+More than likely, they've stopped hosting the lists.  Maybe Coren
+forgot to pay his bill. :)
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 11:21 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA08189 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 11:21:32 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id BAA30007 for nomic-outgoing; Sun, 27 Jul 1997 01:09:40 +1000 (EST)
+Received: from windowsnt ([207.226.81.129] (may be forged))
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id BAA01204 for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 01:08:43 +1000 (EST)
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Sat, 26 Jul 1997 12:00:48 -0500
+Received: by windowsnt from friend-computer
+    (199.107.161.219::mail daemon; unverified,SLMail V2.5); Sat, 26 Jul 1997 12:00:47 -0500
+Message-Id: <3.0.1.32.19970726080708.006a89c4@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: Windows Eudora Light Version 3.0.1 (32)
+Date: Sat, 26 Jul 1997 08:07:08 -0700
+To: nomic@yoyo.cc.monash.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Probate of Elde's estate (attempt #2)
+Mime-Version: 1.0
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 1035
+Status: N
+
+Elde's estate is in Probate.  Since it currently has no Executor in
+Probate, I hereby nominate Morendil as its Executor in Probate.
+
+According to the latest (July 21) Currency reports, Elde has 17 VTs and
+5 P-Notes, and owes 10 Indulgences to the Bank.  To the best of my knowledge,
+Elde had no other creditors, and no heirs.  It therefore appears to me that
+Morendil ought to submit Transfer Orders as follows:
+
+     17 VTs from Elde's estate to the Bank
+     5 P-Notes from Elde's estate to the Bank
+
+and vacate the Indulgence debt of Elde's estate, as it cannot be paid.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>     http://www.bayside.net/users/ford/
+"Don't tell me what I already know."    http://wwp.mirabilis.com/1008745/
+     -Richard Feng                      mailto:1008745@pager.mirabilis.com
+
+
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>     http://www.bayside.net/users/ford/
+"Don't tell me what I already know."    http://wwp.mirabilis.com/1008745/
+     -Richard Feng                      mailto:1008745@pager.mirabilis.com
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 11:21 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA08193 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 11:21:41 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id BAA23719 for nomic-outgoing; Sun, 27 Jul 1997 01:09:11 +1000 (EST)
+Received: from windowsnt ([207.226.81.129] (may be forged))
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id BAA11574 for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 01:08:57 +1000 (EST)
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Sat, 26 Jul 1997 12:00:46 -0500
+Received: by windowsnt from friend-computer
+    (199.107.161.219::mail daemon; unverified,SLMail V2.5); Sat, 26 Jul 1997 12:00:44 -0500
+Message-Id: <3.0.1.32.19970726080655.006a9020@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: Windows Eudora Light Version 3.0.1 (32)
+Date: Sat, 26 Jul 1997 08:06:55 -0700
+To: nomic@yoyo.cc.monash.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: BUS: PROTO: Entity Classes
+Mime-Version: 1.0
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 501
+Status: N
+
+Klaus Herrmanns NB6_25 (3751) wrote:
+
+>- maybe the whole term Nomic Entity can be avoided alltogether, and
+>restrictions can be made just for changing Nomic Properties of _any_
+>entities. 
+
+Rule 1011 already restricts the changing of Nomic Properties of any entities.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>     http://www.bayside.net/users/ford/
+"Don't tell me what I already know."    http://wwp.mirabilis.com/1008745/
+     -Richard Feng                      mailto:1008745@pager.mirabilis.com
+
+
+
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 11:31 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA08324 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 11:31:54 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id BAA18620 for nomic-outgoing; Sun, 27 Jul 1997 01:17:44 +1000 (EST)
+Received: from windowsnt ([207.226.81.129] (may be forged))
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id BAA17081 for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 01:17:16 +1000 (EST)
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Sat, 26 Jul 1997 12:00:50 -0500
+Received: by windowsnt from friend-computer
+    (199.107.161.219::mail daemon; unverified,SLMail V2.5); Sat, 26 Jul 1997 12:00:49 -0500
+Message-Id: <3.0.1.32.19970726080723.006a89c4@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: Windows Eudora Light Version 3.0.1 (32)
+Date: Sat, 26 Jul 1997 08:07:23 -0700
+To: nomic@yoyo.cc.monash.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: BUS: PROTO: Entity Classes
+Mime-Version: 1.0
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 730
+Status: N
+
+Klaus Herrmanns NB6_25 (3751) wrote:
+
+>- maybe the whole term Nomic Entity can be avoided alltogether, and
+>restrictions can be made just for changing Nomic Properties of _any_
+>entities. 
+
+Rule 1011 already restricts the changing of Nomic Properties of any entities.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>     http://www.bayside.net/users/ford/
+"Don't tell me what I already know."    http://wwp.mirabilis.com/1008745/
+     -Richard Feng                      mailto:1008745@pager.mirabilis.com
+
+
+
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>     http://www.bayside.net/users/ford/
+"Don't tell me what I already know."    http://wwp.mirabilis.com/1008745/
+     -Richard Feng                      mailto:1008745@pager.mirabilis.com
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 12:34 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA09226 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 12:34:32 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id CAA14557 for nomic-outgoing; Sun, 27 Jul 1997 02:20:56 +1000 (EST)
+Received: from dfw.dfw.net (ccarroll@dfw.dfw.net [198.175.15.10])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id CAA22347 for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 02:20:48 +1000 (EST)
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA22921; Sat, 26 Jul 97 11:22:15 CDT
+Message-Id: <9707261622.AA22921@dfw.dfw.net>
+Subject: teleport
+To: nomic@yoyo.cc.monash.edu.au (Agora Backup)
+Date: Sat, 26 Jul 1997 11:22:15 -0500 (CDT)
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 221
+Status: N
+
+Well, I subscribed to and successfully sent a message to the
+teleport list test-l, so whatever it is, it's specific to
+the nomic lists. :(  The nomic lists are still listed via
+the majordomo list command, however.
+
+Chuck
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 12:44 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA09374 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 12:44:30 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id CAA22944 for nomic-outgoing; Sun, 27 Jul 1997 02:31:17 +1000 (EST)
+Received: from dfw.dfw.net (ccarroll@dfw.dfw.net [198.175.15.10])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with SMTP
+	  id CAA27665 for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 02:31:06 +1000 (EST)
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA23910; Sat, 26 Jul 97 11:32:37 CDT
+Message-Id: <9707261632.AA23910@dfw.dfw.net>
+Subject: Re: teleport
+To: nomic@yoyo.cc.monash.edu.au
+Date: Sat, 26 Jul 1997 11:32:36 -0500 (CDT)
+In-Reply-To: <9707261622.AA22921@dfw.dfw.net> from "Charles E. Carroll" at Jul 26, 97 11:22:15 am
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 290
+Status: N
+
+Charles E. Carroll wrote:
+>
+>Well, I subscribed to and successfully sent a message to the
+>teleport list test-l, so whatever it is, it's specific to
+>the nomic lists. :(  The nomic lists are still listed via
+>the majordomo list command, however.
+               ^^^^
+
+lists, I meant.
+
+Chuck
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 13:13 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA09828 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 13:12:52 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id DAA21466 for nomic-outgoing; Sun, 27 Jul 1997 03:07:06 +1000 (EST)
+Received: from poverty.bloomington.in.us (root@xyplex5-4-19.ucs.indiana.edu [129.79.18.79])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id DAA10332 for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 03:06:54 +1000 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id MAA25226; Sat, 26 Jul 1997 12:06:41 -0500
+Message-Id: <199707261706.MAA25226@poverty.bloomington.in.us>
+To: nomic@yoyo.cc.monash.edu.au
+Cc: coren@teleport.com
+Subject: Re: teleport 
+In-reply-to: Your message of "Sat, 26 Jul 1997 11:22:15 EST."
+             <9707261622.AA22921@dfw.dfw.net> 
+Date: Sat, 26 Jul 1997 12:06:39 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 413
+Status: N
+
+"Charles" == Charles E Carroll <ccarroll@dfw.net> writes:
+
+Charles> Well, I subscribed to and successfully sent a message to the
+Charles> teleport list test-l, so whatever it is, it's specific to the
+Charles> nomic lists. :( The nomic lists are still listed via the
+Charles> majordomo list command, however.
+
+However, a SMTP VRFY shows that all three lists do not exist.  Coren's
+account is still there, however.
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 13:39 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA10222 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 13:39:00 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id DAA25849 for nomic-outgoing; Sun, 27 Jul 1997 03:33:57 +1000 (EST)
+Received: from poverty.bloomington.in.us (root@xyplex5-4-19.ucs.indiana.edu [129.79.18.79])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id DAA28781 for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 03:33:50 +1000 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id MAA25276 for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 12:33:46 -0500
+Message-Id: <199707261733.MAA25276@poverty.bloomington.in.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: teleport 
+In-reply-to: Your message of "Sat, 26 Jul 1997 12:06:39 EST."
+             <199707261706.MAA25226@poverty.bloomington.in.us> 
+Date: Sat, 26 Jul 1997 12:33:46 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 261
+Status: N
+
+"Scott" == Scott Goehring <scott@poverty.bloomington.in.us> writes:
+
+Scott> However, a SMTP VRFY shows that all three lists do not exist.
+Scott> Coren's account is still there, however.
+
+However, mail to Coren's account bounced with an "over quota"
+message....
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 15:44 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA12351 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 15:44:38 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id FAA09095 for nomic-outgoing; Sun, 27 Jul 1997 05:39:56 +1000 (EST)
+Received: from logatome.micronet.fr (root@logatome.micronet.fr [194.51.75.1])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id FAA13266 for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 05:39:46 +1000 (EST)
+Received: from arapael (pppA136.francenet.fr [193.149.100.42])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id VAA03644
+	for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 21:39:42 +0200 (MET DST)
+Message-Id: <199707261939.VAA03644@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic@yoyo.cc.monash.edu.au
+Date: Sat, 26 Jul 1997 21:43:06 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Elde in limbo :)
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2237
+Status: N
+
+> Elde's estate is in Probate.  Since it currently has no Executor in
+> Probate, I hereby nominate Morendil as its Executor in Probate.
+
+Me and my big mouth. :)
+
+Anyway, I wriggle out of the unpleasant aspects of this, i.e. the drudgery of
+actually moving Currencies around, until such time as CFJ 930 is Judged at the
+least, since by the following provision of the Probate Code I am to hold off on
+carrying out my duties as Elde's Executor :
+
+      If, in order to perform the duties required herein, the Executor
+      in Probate would have to consider, in any way, a Payment Order
+      which is presently disputed, e shall not proceed, but shall wait
+      until the dispute regarding that Payment Order is resolved.
+
+There are however far more interesting aspects to the situation. :)
+
+What happens by the way if Elde reregisters now ? If I read the Rules
+correctly, I do not stop being eir Executor even if e does. To be sure, I am
+"only empowered to submit Transfer Orders for that Entity" but that still
+leaves Elde in a sticky situation - and I suspect anyway that the restriction I
+quote is in conflict which 1478, which conflict 1738 loses.
+
+And is Elde, for the duration, still a Player, or not ? Whatever the Entity
+named (or known as) Elde is, it may not be destroyed until such time as all
+appropriate steps in the Probate Code are carried out. If that Entity is the
+Player known as Elde (and we adopt, for the sake of "destruction" making any
+sense, the recently offered notion that "destroying" an Entity means ceasing to
+grant it any legal significance) then Elde will be prohibited from reregistering
+by Rule 1432. Also by Rule 1432, I'd assume that if Elde were to reregister, e'd
+become "attached" to the same Entity that the Probate Code is protecting...
+
+So : do I get to Vote for Elde ? Or do other such fun things ? Hey, just to
+bring this out of the realm of speculation :
+
+  I hereby, on behalf of Elde, announce Elde's Presence on Proposal 3541.
+
+(Hope that's mild enough not to be regarded as a blatant abuse of power.)
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Any given program, when running, is obsolete.
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 17:25 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA14182 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 17:25:49 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id HAA12874 for nomic-outgoing; Sun, 27 Jul 1997 07:13:01 +1000 (EST)
+Received: from poverty.bloomington.in.us (root@xyplex5-4-19.ucs.indiana.edu [129.79.18.79])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id HAA13750 for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 07:12:55 +1000 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id QAA25499 for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 16:12:51 -0500
+Message-Id: <199707262112.QAA25499@poverty.bloomington.in.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: Elde in limbo :) 
+In-reply-to: Your message of "Sat, 26 Jul 1997 21:43:06 +0100."
+             <199707261939.VAA03644@logatome.micronet.fr> 
+Date: Sat, 26 Jul 1997 16:12:48 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 230
+Status: N
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+Laurent>   I hereby, on behalf of Elde, announce Elde's Presence on
+Laurent> Proposal 3541.
+
+Elde is not a Voting Entity; he ceased to be one when he was
+deregistered.
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 21:05 EDT 1997
+Received: from yoyo.cc.monash.edu.au (root@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA17505 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 21:05:51 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id HAA01770 for nomic-outgoing; Sun, 27 Jul 1997 07:49:10 +1000 (EST)
+Received: from logatome.micronet.fr (root@logatome.micronet.fr [194.51.75.1])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id HAA12840 for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 07:49:05 +1000 (EST)
+Received: from arapael (pppA203.francenet.fr [193.149.100.57])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id XAA08014
+	for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 23:49:02 +0200 (MET DST)
+Message-Id: <199707262149.XAA08014@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic@yoyo.cc.monash.edu.au
+Date: Sat, 26 Jul 1997 23:52:25 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: Elde in limbo :)
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1097
+Status: N
+
+> Laurent>   I hereby, on behalf of Elde, announce Elde's Presence on
+> Laurent> Proposal 3541.
+> 
+> Elde is not a Voting Entity; he ceased to be one when he was
+> deregistered.
+
+Hmm, that is, assuming e ceased to be a Player when e deregistered,
+which I just gave a few arguments in support of the contrary.
+
+Even assuming that Elde is no longer a Player (I'll readily admit the above is
+a long shot) there seems to remain an Entity of some sort that is associated
+with the Nomic Properties that defined "Elde" before eir deregistration. I
+surmise that being a Voting Entity is a Nomic Property. It does not seem
+impossible that the Elde-Entity has retained that property.
+
+If not, a breakdown of what Nomic Properties were retained (obviously the
+Probate Code assumes that an Entity's holding of Currencies are, for instance)
+and which were not, if possible with explanations, would be appreciated. 
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Famous Last Words : I wonder what this button does ?
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 21:06 EDT 1997
+Received: from yoyo.cc.monash.edu.au (root@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA17517 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 21:06:28 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id HAA30501 for nomic-outgoing; Sun, 27 Jul 1997 07:52:52 +1000 (EST)
+Received: from logatome.micronet.fr (root@logatome.micronet.fr [194.51.75.1])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id HAA30367 for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 07:52:43 +1000 (EST)
+Received: from arapael (pppA203.francenet.fr [193.149.100.57])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id XAA08115
+	for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 23:52:37 +0200 (MET DST)
+Message-Id: <199707262152.XAA08115@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic@yoyo.cc.monash.edu.au
+Date: Sat, 26 Jul 1997 23:56:00 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: BUS: Donation
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 878
+Status: N
+
+While we're having fun...
+
+H. Assessor, please record the transfer of one VT from myself to
+the Frankenstein Monster, effective immediately.
+
+Also, as of this message and until whatever ails the regular lists is fixed
+(or we find another venue, if that's what it comes to) I'll try to adopt a
+policy of prefacing Subject: headers with the BUS:, OFF: or DIS: as the case
+may be, so that Players who have mail-sorting filters in place (like me !) and
+find them screwed up by the switch to yoyo, which unfortunately looks likely
+to last a while, can update them to dispatch Agora messages to the appropriate
+folders, inboxes or whatever. I urge everyone else to do the same,
+naturally...
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Tomorrow will be canceled due to lack of interest.
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 21:07 EDT 1997
+Received: from yoyo.cc.monash.edu.au (root@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA17525 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 21:07:35 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id HAA10819 for nomic-outgoing; Sun, 27 Jul 1997 07:52:54 +1000 (EST)
+Received: from logatome.micronet.fr (root@logatome.micronet.fr [194.51.75.1])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id HAA15097 for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 07:52:44 +1000 (EST)
+Received: from arapael (pppA203.francenet.fr [193.149.100.57])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id XAA08118
+	for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 23:52:38 +0200 (MET DST)
+Message-Id: <199707262152.XAA08118@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic@yoyo.cc.monash.edu.au
+Date: Sat, 26 Jul 1997 23:56:00 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: Elde in limbo :)
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1098
+Status: N
+
+> Laurent>   I hereby, on behalf of Elde, announce Elde's Presence on
+> Laurent> Proposal 3541.
+> 
+> Elde is not a Voting Entity; he ceased to be one when he was
+> deregistered.
+
+Hmm, that is, assuming e ceased to be a Player when e deregistered,
+which I just gave a few arguments in support of the contrary.
+
+Even assuming that Elde is no longer a Player (I'll readily admit the above is
+a long shot) there seems to remain an Entity of some sort that is associated
+with the Nomic Properties that defined "Elde" before eir deregistration. I
+surmise that being a Voting Entity is a Nomic Property. It does not seem
+impossible that the Elde-Entity has retained that property.
+
+If not, a breakdown of what Nomic Properties were retained (obviously the
+Probate Code assumes that an Entity's holding of Currencies are, for instance)
+and which were not, if possible with explanations, would be appreciated. 
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Disk crash in progress - tagline service interrupted.
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 21:10 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA17545 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 21:10:14 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id LAA07607 for nomic-outgoing; Sun, 27 Jul 1997 11:04:12 +1000 (EST)
+Received: from marble.cc.monash.edu.au (root@marble.cc.monash.edu.au [130.194.9.2])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id LAA12116 for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 11:04:09 +1000 (EST)
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8])
+	by marble.cc.monash.edu.au (8.8.5/8.8.5) with ESMTP id LAA01333
+	for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 11:03:58 +1000
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id SAA04828 for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 18:31:21 -0400 (EDT)
+Message-Id: <3.0.1.16.19970726140917.087f0018@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Sat, 26 Jul 1997 14:09:17
+To: nomic@yoyo.cc.monash.edu.au
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: teleport 
+In-Reply-To: <199707261733.MAA25276@poverty.bloomington.in.us>
+References: <Your message of "Sat, 26 Jul 1997 12:06:39 EST."             <199707261706.MAA25226@poverty.bloomington.in.us>
+Mime-Version: 1.0
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 762
+Status: N
+
+At 12:33 PM 7/26/97 -0500, Scott Goehring wrote:
+>"Scott" == Scott Goehring <scott@poverty.bloomington.in.us> writes:
+>
+>Scott> However, a SMTP VRFY shows that all three lists do not exist.
+>Scott> Coren's account is still there, however.
+>
+>However, mail to Coren's account bounced with an "over quota"
+>message....
+
+Eeeek. This is bad. Well, it's a good thing we have a backup list...
+
+So. Who's gonna get us hooked up with three nice new mailing lists?
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-nomic@yoyo.cc.monash.edu.au Sat Jul 26 23:21 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA19513 for <dpb@cs.brown.edu>; Sat, 26 Jul 1997 23:20:56 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4)
+	  id NAA23050 for nomic-outgoing; Sun, 27 Jul 1997 13:01:26 +1000 (EST)
+Received: from poverty.bloomington.in.us (root@xyplex3-3-8.ucs.indiana.edu [129.79.18.188])
+          by yoyo.cc.monash.edu.au (8.8.6/8.8.4) with ESMTP
+	  id NAA11798 for <nomic@yoyo.cc.monash.edu.au>; Sun, 27 Jul 1997 13:01:16 +1000 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id WAA12355 for <nomic@yoyo.cc.monash.edu.au>; Sat, 26 Jul 1997 22:01:06 -0500
+Message-Id: <199707270301.WAA12355@poverty.bloomington.in.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: Elde in limbo :) 
+In-reply-to: Your message of "Sat, 26 Jul 1997 23:52:25 +0100."
+             <199707262149.XAA08014@logatome.micronet.fr> 
+Date: Sat, 26 Jul 1997 22:01:05 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text
+Content-Length: 1002
+Status: N
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+Laurent> Hmm, that is, assuming e ceased to be a Player when e
+Laurent> deregistered, which I just gave a few arguments in support of
+Laurent> the contrary.
+
+I don't see how there is any viable argument for claiming that Elde
+failed to be a Player when e was deregistered.
+
+Laurent> Even assuming that Elde is no longer a Player (I'll readily
+Laurent> admit the above is a long shot) there seems to remain an
+Laurent> Entity of some sort that is associated with the Nomic
+Laurent> Properties that defined "Elde" before eir deregistration. 
+
+How, when there never _was_ a Nomic Entity associated with Elde?
+The only change regarding Elde was that e ceased to possess the
+property of Playerhood.  Consequential to that change was the loss of
+the status of Voting Entityhood.
+
+Elde was placed in probate by the last paragraph of Rule 1601, not by
+its first.  The destruction of Elde is clearly far beyond the power of
+the Rules to accomplish.
+

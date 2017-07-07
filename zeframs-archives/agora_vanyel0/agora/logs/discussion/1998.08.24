@@ -1,0 +1,985 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 03:22 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA09370 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 03:22:17 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA20154
+	for agora-discussion-list; Mon, 24 Aug 1998 17:17:45 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA20151
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 24 Aug 1998 17:17:41 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id RAA20214
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 24 Aug 1998 17:17:49 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199808240717.RAA20214@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: R1686, R1585 & R1023
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 24 Aug 1998 17:17:48 +1000 (EST)
+In-Reply-To: <13789.14942.574898.983164@albatross.cl.cam.ac.uk> from "Michael Norrish" at Aug 21, 98 10:14:06 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1756
+
+Michael Norrish wrote:
+>
+>Interestingly, this discussion also suggests to me that our current
+>conflict resolution method would fail to resolve:
+>
+>A: The value of Foo shall be 6, unless another rule states otherwise,
+>   in which case, that rule's specification of Foo's value shall hold.
+>
+>B: The value of Foo shall be 5, unless another rule states otherwise,
+>   in which case, that rule's specification of Foo's value shall hold.
+>
+>Any ideas on how this would pan out given the current ruleset?
+
+In such a case, even the attempt to avoid conflict by using the unless
+construction fails, since each Rule insists on deferring to the other.
+So effectively this is equivalent to a case of mutual deference clauses,
+and lower Number will win.
+
+Say A has the lower Number. Then in that case, I would say that Foo has
+the value 6. This is contrary to those who have argued that if A wins
+the conflict, then the value of Foo should be 5. It depends on what you
+see the conflict as being about. I see it primarily as being about the
+value of Foo, and only secondarily about who gets to defer. This
+reflects my view of precedence/deference claims as second order
+provisions for resolving conflicts between first order provisions. What
+R1030 says is that second order provisions shall be used to resolve
+conflicts, except where these conflict, in which case they shall be
+ignored and a different method imposed by R1030 shall be used. So the
+deference clauses get ignored and the orginal conflict about the value
+of Foo gets resolved in A's favour.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 03:30 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA09500 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 03:30:40 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA20190
+	for agora-discussion-list; Mon, 24 Aug 1998 17:22:30 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA20187
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 24 Aug 1998 17:22:28 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id RAA20290
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 24 Aug 1998 17:22:35 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199808240722.RAA20290@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: R1686, R1585 & R1023
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 24 Aug 1998 17:22:35 +1000 (EST)
+In-Reply-To: <13789.16792.811365.907879@albatross.cl.cam.ac.uk> from "Michael Norrish" at Aug 21, 98 10:44:56 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2355
+
+Michael Norrish wrote:
+>
+>Steve Gardner writes:
+>> Michael Norrish wrote:
+>
+>>> Steve Gardner writes:
+>
+>>>>> No, I'm pretty sure I did cite you for FtR "immediately".  It may not
+>>>>> have felt like it though, because I have fallen into the habit of
+>>>>> issuing my official reports on Saturdays, which means that reports of
+>>>>> salaries for the week preceding take almost a week to appear. 
+> 
+>>>> Ah, but in this case, the penalties were assessed incorrectly: you
+>>>> had forgotten about the previous week's Speaker Transition, and
+>>>> incorrectly reported Blob for Failure to Report. Swann resigned as
+>>>> Scorekeepor on July 11, and you didn't get around to correcting your
+>>>> mistake until after a full week had passed from that time. I quote
+>>>> from the Herald's Report:
+> 
+>>>> Date: Sun, 19 Jul 1998 21:51:58 +0100
+>
+>>>>     Registrar Michael vacates the Failure to Report penalties assessed
+>>>>     to Blob and reissues them to Steve.
+>
+>>> Yes, that's right, and then I assessed you once more for FtR on the
+>>> 25th of July.  This second one was for failure to report during the
+>>> week ending on the 19th, the previous was for failure to report on
+>>> the week up to the 12th.
+>
+>>> [...]
+>
+>> So, are you agreeing with me or disagreeing with me? I can't tell!
+>
+>I don't know either!  I don't know what you're claiming.  If you're
+>claiming that I eventually assessed the penalties incorrectly, then
+>I'd say that's true in light of Murphy's judgement, though Harlequin
+>could confuse things by deciding your second CFJ was FALSE.  I guess
+>that all I'm claiming is that given my understanding of the rules at
+>the time, I did eventually assess the correct penalties. 
+
+Um. I think we must have gotten our wires crossed somewhere. My claim
+was only this: that you never pinged me for FtR earlier than R1585 said
+you ought to have done, even though that may have been your original
+intention. By the time you noticed that Blob was not Speaker, a week had
+passed, and you actions in reporting me were consistent with the view of
+the precedence relations between R1585, R1686 and R1023 which I have
+been elaborating.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 03:34 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA09525 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 03:34:56 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA20214
+	for agora-discussion-list; Mon, 24 Aug 1998 17:26:22 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA20211
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 24 Aug 1998 17:26:17 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id RAA20443
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 24 Aug 1998 17:26:25 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199808240726.RAA20443@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: R1686, R1585 & R1023
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 24 Aug 1998 17:26:24 +1000 (EST)
+In-Reply-To: <13789.16792.811365.907879@albatross.cl.cam.ac.uk> from "Michael Norrish" at Aug 21, 98 10:44:56 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 990
+
+Michael Norrish wrote:
+>
+>On a related note, what do you (addressing everyone in general)
+>suppose is the best course of action with respect to all of those POs
+>determined to have been issued incorrectly?  I have records of all the
+>POs I've issued, but determining which were issued in the manner that
+>we have recently decided was illegitimate, would be a considerable
+>task.  (The thought of doing it has inspired me to try and create an
+>Officer-holding time-line though..)
+
+I'm surprised that no-one has Appealed Blob's Judgement of CFJ 1100,
+since he didn't consider the interesting issues arising in connection
+with R478 that you, Scott and Morendil brought to my attention.
+
+But in any case, the Judgement refers only to Private Transfer Orders,
+not to Payment Orders.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 03:35 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA09532 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 03:35:00 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA20273
+	for agora-discussion-list; Mon, 24 Aug 1998 17:33:21 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA20270
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 24 Aug 1998 17:33:17 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id RAA12467
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 24 Aug 1998 17:33:24 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199808240733.RAA12467@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: R1686, R1585 & R1023
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 24 Aug 1998 17:33:24 +1000 (EST)
+In-Reply-To: <Pine.LNX.4.02.9808211433190.22438-100000@tyrell.nvg.ntnu.no> from "Orjan Johansen" at Aug 21, 98 02:46:23 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2391
+
+Orjan Johansen wrote:
+>
+>On Fri, 21 Aug 1998, Michael Norrish wrote:
+>
+>> Interestingly, this discussion also suggests to me that our current
+>> conflict resolution method would fail to resolve:
+>> 
+>> A: The value of Foo shall be 6, unless another rule states otherwise,
+>>    in which case, that rule's specification of Foo's value shall hold.
+>> 
+>> B: The value of Foo shall be 5, unless another rule states otherwise,
+>>    in which case, that rule's specification of Foo's value shall hold.
+>> 
+>> Any ideas on how this would pan out given the current ruleset?
+>
+>As I see it, the only sensible interpretation is that conflict-avoiding
+>language is the same as deference.
+>
+>The mirror-image interpretation seems sensible in any case as long as both
+>rules take precedence, both defer, or both try to avoid conflict as above.
+>
+>It is only when only one Rule contains such a clause that precedence and
+>deference behave differently, because of the intuitive concept that any
+>rule can limit its own power (small p) but not automatically increase it.
+>
+>In essence, deference may avoid conflict entirely, but may also fail in
+>this if the other rule attempts to defer in a reciprocal way.  I can also
+>envision a case of deference writing resulting in avoidance of conflict by
+>_both_ rules losing their effect - the reason why this doesn't happen in
+>your example is that the deference clauses explicitly say that the other
+>rule shall have effect.
+
+So what if the example had been:
+
+A: The value of Foo shall be 6, unless another Rule states otherwise, in
+   which case this Rule makes no claim as to the value of Foo.
+
+A: The value of Foo shall be 5, unless another Rule states otherwise, in
+   which case this Rule makes no claim as to the value of Foo.
+
+If anything counts as case of two Rules avoiding conflict by mutually
+deferring, then this ought to be it. But I don't see it that way. I can
+still see a clear division here between first and second order
+provisions, so I think R1030 still steps in here, tells us to ignore the
+second order provisions (since they conflict), and gives the lower
+Numbered Rule (A, say) priority, in which case the value of Foo is 6.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 03:35 EDT 1998
+Received: from gecko.serc.rmit.edu.au (root@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA09584 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 03:35:50 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA20089
+	for agora-discussion-list; Mon, 24 Aug 1998 17:07:29 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA20086
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 24 Aug 1998 17:07:24 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id RAA16006
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 24 Aug 1998 17:07:31 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199808240707.RAA16006@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: CFJ: on the existence of conflicts
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 24 Aug 1998 17:07:31 +1000 (EST)
+In-Reply-To:  <980821032015.13194@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Aug 21, 98 01:20:14 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1181
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>> 
+>> 1. The Mirror Image Assumption
+>> 
+>> Precedence and deference are converse relations, logical mirror images
+>> of each other. This simply means that if A claims to take precedence
+>> over B, then this is logically equivalent to B's claiming to defer to A.
+>
+>This is not quite true. If A claims precedence over B, it does so with 
+>the power and precedence of A. If B defers to A, it does so with the
+>power and precedence of B. 
+
+I don't think that's right. Whether A claims precedence over B or B
+claims to defer to A, both do so with the power and precedence of R1030,
+if the Rules are of the same Power.
+
+This invites the question, what if a Rule with same Power as R1030, ie
+3, claimed precedence over R1030 in a conflict, say, over the question
+of how a certain conflict between Rules of the same Power was to be
+resolved? I doubt that the Rules as they presently are would have the
+resources to settle such a dispute.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 03:47 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA09733 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 03:47:39 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA20358
+	for agora-discussion-list; Mon, 24 Aug 1998 17:45:51 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA20355
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 24 Aug 1998 17:45:48 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id RAA21168
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 24 Aug 1998 17:45:56 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199808240745.RAA21168@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: R1686, R1585 & R1023
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 24 Aug 1998 17:45:55 +1000 (EST)
+In-Reply-To: <s5dd4fcb.045@rmv.state.ma.us> from "David Albertz" at Aug 21, 98 10:45:09 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2177
+
+David Albertz wrote:
+>
+>Re: DIS: R1686, R1585 & R1023
+>
+>Michael wrote:
+>
+>>Interestingly, this discussion also suggests to me that our current
+>>conflict resolution method would fail to resolve:
+>
+>>A: The value of Foo shall be 6, unless another rule states otherwise,
+>>   in which case, that rule's specification of Foo's value shall hold.
+>
+>>B: The value of Foo shall be 5, unless another rule states otherwise,
+>>   in which case, that rule's specification of Foo's value shall hold.
+>
+>>Any ideas on how this would pan out given the current ruleset?
+>
+>The way I read the rules, this would be a case where two rules conflict with
+>each other precisely because they both claim to defer to the other, so:
+>
+>      If two or more Rules claim to take precedence over one another
+>      or defer to one another, then the numerical method again
+>      governs.
+>
+>For the sake of argument, suppose A has a lower number.  Now we would have to
+>decide how to interpret the "winning" of a conflict.  Does it mean the "losing"
+>rule is treated as if it didn't exist?  In this case the value of Foo would be
+>6.  Or does it mean only those portions of the Rule which cause the conflict
+>are ignored?  In this case the value of Foo would be 5 - i.e. Rule B's
+>deference clause is ignored since it creates the conflict with A's deference
+>clause.  Interesting.  I suspect that we have always treated conflict
+>resolution in a way that retains as much of the "losing" Rules effects as
+>possible while eliminating the conflict, so I suspect the answer to the above
+>would be "Foo = 5".
+
+I don't think that's right. When R1030 states that if two Rules claim to
+defer to each other, then the numerical method governs, I read this as
+saying "the numerical method governs *instead of the deference
+clauses*." Hence we should simply pretend that neither deference clause
+exists, and resolve the conflict that remains over the value of Foo in
+favour of A. So if A wins, Foo = 6.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 03:57 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA09873 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 03:57:23 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA20438
+	for agora-discussion-list; Mon, 24 Aug 1998 17:55:49 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id RAA20435
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 24 Aug 1998 17:55:46 +1000
+Received: From mozart With LocalMail ; Mon, 24 Aug 98 17:55:19 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 24 Aug 1998 17:55:18 +1000 (EST)
+Message-Id:  <980824075519.8089@cse.unsw.edu.au>
+Subject: Re: DIS: R1686, R1585 & R1023
+In-Reply-To: <199808240726.RAA20443@silas-1.cc.monash.edu.au> from "Steve Gardner" at Aug 24, 98 05:26:24 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1318
+
+> 
+> Michael Norrish wrote:
+> >
+> >On a related note, what do you (addressing everyone in general)
+> >suppose is the best course of action with respect to all of those POs
+> >determined to have been issued incorrectly?  I have records of all the
+> >POs I've issued, but determining which were issued in the manner that
+> >we have recently decided was illegitimate, would be a considerable
+> >task.  (The thought of doing it has inspired me to try and create an
+> >Officer-holding time-line though..)
+> 
+> I'm surprised that no-one has Appealed Blob's Judgement of CFJ 1100,
+> since he didn't consider the interesting issues arising in connection
+> with R478 that you, Scott and Morendil brought to my attention.
+
+I must admit that I did not read any of your n-d discussion of the 
+issue, and based my judgement mostly on the arguments of the Justices.
+
+> But in any case, the Judgement refers only to Private Transfer Orders,
+> not to Payment Orders.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 04:06 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA10073 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 04:05:57 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA20546
+	for agora-discussion-list; Mon, 24 Aug 1998 18:04:25 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA20543
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 24 Aug 1998 18:04:20 +1000
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id SAA21908;
+	Mon, 24 Aug 1998 18:04:27 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199808240804.SAA21908@silas-1.cc.monash.edu.au>
+Subject: DIS: Re: OFF: Rulekeepor's Memo
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 24 Aug 1998 18:04:27 +1000 (EST)
+Cc: ccarroll@nationwide.net (Charles E. Carroll)
+In-Reply-To: <199808230302.WAA02020@dfw.nationwide.net> from "Charles E. Carroll" at Aug 22, 98 10:02:41 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 659
+
+Charles E. Carroll wrote:
+>
+>
+>Rulekeepor's Memo
+>August 22, 1998
+>
+>----------------------------------------------------------------------
+>
+>NEW ANNOTATIONS (cf. Rule 789):
+>Rule 1567 has been annotated with the statement of CFJ 1101.
+>Rule 1482 has been annotated with the statement of CFJ 1103.
+>
+>----------------------------------------------------------------------
+
+What about the Annotation of R1585 I required you to make in CFJ 1061?
+
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 05:14 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA10997 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 05:14:31 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA20829
+	for agora-discussion-list; Mon, 24 Aug 1998 19:12:50 +1000
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id TAA20825
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 24 Aug 1998 19:12:41 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0zAsg4-0000Jt-00; Mon, 24 Aug 1998 10:12:40 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0zAsg2-0005O6-00; Mon, 24 Aug 1998 10:12:38 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13793.11910.455769.750215@albatross.cl.cam.ac.uk>
+Date: Mon, 24 Aug 1998 10:12:38 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: R1686, R1585 & R1023
+In-Reply-To: <199808240726.RAA20443@silas-1.cc.monash.edu.au>
+References: <13789.16792.811365.907879@albatross.cl.cam.ac.uk>
+	<199808240726.RAA20443@silas-1.cc.monash.edu.au>
+X-Mailer: VM 6.61 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1187
+
+Steve Gardner writes:
+> Michael Norrish wrote:
+
+>> On a related note, what do you (addressing everyone in general)
+>> suppose is the best course of action with respect to all of those POs
+>> determined to have been issued incorrectly?  I have records of all the
+>> POs I've issued, but determining which were issued in the manner that
+>> we have recently decided was illegitimate, would be a considerable
+>> task.  (The thought of doing it has inspired me to try and create an
+>> Officer-holding time-line though..)
+ 
+> I'm surprised that no-one has Appealed Blob's Judgement of CFJ 1100,
+> since he didn't consider the interesting issues arising in
+> connection with R478 that you, Scott and Morendil brought to my
+> attention.
+ 
+Blob specifically addressed my "equivalence" argument.  This was the
+only thing I thought that stood in the way of sustaining the original
+judgement. 
+
+> But in any case, the Judgement refers only to Private Transfer
+> Orders, not to Payment Orders.
+ 
+In any case, the problem I have above is not with CFJ1100 but with
+1103, which seems to suggest that my handling of Failure to Report for
+new Officers has been incorrect.  How do we fix that?  
+
+Michael.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 05:20 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA11086 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 05:20:01 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA20886
+	for agora-discussion-list; Mon, 24 Aug 1998 19:18:21 +1000
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id TAA20883
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 24 Aug 1998 19:18:14 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0zAslW-0001dh-00; Mon, 24 Aug 1998 10:18:18 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0zAslU-0005OY-00; Mon, 24 Aug 1998 10:18:16 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13793.12248.749581.909233@albatross.cl.cam.ac.uk>
+Date: Mon, 24 Aug 1998 10:18:16 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: R1686, R1585 & R1023
+In-Reply-To: <199808240722.RAA20290@silas-1.cc.monash.edu.au>
+References: <13789.16792.811365.907879@albatross.cl.cam.ac.uk>
+	<199808240722.RAA20290@silas-1.cc.monash.edu.au>
+X-Mailer: VM 6.61 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1311
+
+Steve Gardner writes:
+
+>> I don't know either!  I don't know what you're claiming.  If you're
+>> claiming that I eventually assessed the penalties incorrectly, then
+>> I'd say that's true in light of Murphy's judgement, though Harlequin
+>> could confuse things by deciding your second CFJ was FALSE.  I guess
+>> that all I'm claiming is that given my understanding of the rules at
+>> the time, I did eventually assess the correct penalties. 
+ 
+> Um. I think we must have gotten our wires crossed somewhere. My
+> claim was only this: that you never pinged me for FtR earlier than
+> R1585 said you ought to have done, even though that may have been
+> your original intention. By the time you noticed that Blob was not
+> Speaker, a week had passed, and you actions in reporting me were
+> consistent with the view of the precedence relations between R1585,
+> R1686 and R1023 which I have been elaborating.
+ 
+Right.  I finally understand.  I was failing to realise that by
+imposing a penalty on the 19th for failing to report, my doing so was
+consistent with you having had a week in which to report, even though
+I thought you'd only had a day or so.  Of course, if you had managed
+to produce a report during the week of the 13th-19th, I would still
+have pinged you for failing to report before the 12th.
+
+Michael.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 05:42 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA11388 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 05:42:03 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA20980
+	for agora-discussion-list; Mon, 24 Aug 1998 19:39:57 +1000
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id TAA20977
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 24 Aug 1998 19:39:50 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0zAt6O-0002H5-00; Mon, 24 Aug 1998 10:39:52 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0zAt6M-0005Pv-00; Mon, 24 Aug 1998 10:39:50 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13793.13541.908991.957908@albatross.cl.cam.ac.uk>
+Date: Mon, 24 Aug 1998 10:39:49 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: Steve wrote:
+In-Reply-To: <199808240741.RAA21067@silas-1.cc.monash.edu.au>
+References: <s5dd4b1a.038@rmv.state.ma.us>
+	<199808240741.RAA21067@silas-1.cc.monash.edu.au>
+X-Mailer: VM 6.61 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1871
+
+Steve Gardner writes:
+
+> The argument is based on my view of precedence/deference claims as
+> second order provisions in Rules, which are used to resolve
+> conflicts between first order provisions. If there is no conflict
+> between first order provisions, then there will be no need to invoke
+> any second order provisions. On my view, second order provisions
+> cannot be used to avoid conflict between first order provisions -
+> that would be to treat the second order provisions as first order
+> provisions themselves, which in my view is confused.
+ 
+But this view of provisions in rules having different status (first
+order vs second order) is not supported by anything in the ruleset.
+It seems more likely to me that as far as the ruleset is concerned,
+rules should be read in their entirety.  In particular, I don't see
+why you assume conflict detection happens before a rule is read
+fully.  
+
+You would presumably agree that the two following rules do not
+currently conflict:
+
+A1: The value of Foo shall be 6.  However, if the current President of
+    the United States of America is Bill Clinton, then the value of
+    Foo shall be 5.
+
+B1: The value of Foo shall be 5. 
+
+So, it's OK for A to have conditional statements in it that over-rule
+previous statements, as long as they don't look like:
+
+"If another rule specifies ..."
+
+Your take on conflict would surely lead you to conclude that the
+following rules do in fact conflict:
+
+A2: The value of Foo shall be 6.  However, if another rule attempts to
+    specify a value for Foo, then the value of Foo shall be 5.
+
+B2: The value of Foo shall be 5.
+
+These conflict by your reasoning, and if A had higher power than B,
+the value of Foo would be 6.  I just don't believe this.  Somehow the
+second sentence of A2 is "second order" and thus not able to govern in
+the same way as the second sentence of A1. 
+
+Michael.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 09:34 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA15514 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 09:34:00 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA21859
+	for agora-discussion-list; Mon, 24 Aug 1998 23:31:18 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id XAA21856
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 24 Aug 1998 23:31:13 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 24 Aug 1998 09:34:23 -0400
+Message-Id: <s5e1339f.026@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 24 Aug 1998 09:33:44 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: CFJ: on the existence of conflicts
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 803
+
+Re: DIS: Re: BUS: CFJ: on the existence of conflicts
+
+Steve wrote:
+
+>I don't think that's right. Whether A claims precedence over B or B
+>claims to defer to A, both do so with the power and precedence of R1030,
+>if the Rules are of the same Power.
+
+I think here is where I have a slight disagreement with Steve, although I
+haven't had the time to think through the consequences carefully enough yet.  I
+post the thought anyway, in hopes that it might help others with more time on
+their hands to clarify things.
+
+I don't think the Rules require 1030 to claim precedence or to defer to other
+Rules.  This ability is intrinsic in a Rules capacity to be effective.  R1030
+makes this ability specific and clarifies how such claims of precedence and
+deference should be resolved to avoid paradox.
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 09:44 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA15878 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 09:44:32 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA21920
+	for agora-discussion-list; Mon, 24 Aug 1998 23:42:16 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id XAA21917
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 24 Aug 1998 23:42:11 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 24 Aug 1998 09:45:23 -0400
+Message-Id: <s5e13633.038@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 24 Aug 1998 09:44:19 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: OFF: Voting Report: P3783-3784
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 324
+
+OFF: Voting Report: P3783-3784
+
+Steve wrote:
+
+>   3784 Steve          1 Get Rid of 4 Offices              F/Q     2-0-1
+
+Shoot!  I was hoping this would pass.  8)  Oh well, it shouldn't be as bad as
+keeping track of TOs and POs.  Steve, could you please pass me over the
+Scorekeepor stuff as soon as you can?
+
+Thanks,
+Crito
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 23:12 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA05167 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 23:12:05 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA25383
+	for agora-discussion-list; Tue, 25 Aug 1998 13:10:17 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA25380
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 25 Aug 1998 13:10:14 +1000
+Received: (from gardner@localhost)
+	by silas-2.cc.monash.edu.au (8.9.1a/8.9.1) id NAA17085
+	for agora-discussion@gecko.serc.rmit.edu.au; Tue, 25 Aug 1998 13:10:23 +1000 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199808250310.NAA17085@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: OFF: Voting Report: P3783-3784
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 25 Aug 1998 13:10:23 +1000 (EST)
+In-Reply-To: <s5e13633.038@rmv.state.ma.us> from "David Albertz" at Aug 24, 98 09:44:19 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 741
+
+David Albertz wrote:
+>
+>OFF: Voting Report: P3783-3784
+>
+>Steve wrote:
+>
+>>   3784 Steve          1 Get Rid of 4 Offices              F/Q     2-0-1
+>
+>Shoot!  I was hoping this would pass.  8)  Oh well, it shouldn't be as bad as
+>keeping track of TOs and POs.  Steve, could you please pass me over the
+>Scorekeepor stuff as soon as you can?
+
+I was hoping it would pass, too. Unfortunately, several Players who said
+they would support it failed to vote on it.
+
+Do you have the last Scorekeepor's Report? Nevermind, I'll send it.
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 23:45 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA05693 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 23:45:47 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA25563
+	for agora-discussion-list; Tue, 25 Aug 1998 13:43:22 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA25560
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 25 Aug 1998 13:43:19 +1000
+Received: (from gardner@localhost)
+	by silas-2.cc.monash.edu.au (8.9.1a/8.9.1) id NAA18703
+	for agora-discussion@gecko.serc.rmit.edu.au; Tue, 25 Aug 1998 13:43:28 +1000 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199808250343.NAA18703@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: CFJ: on the existence of conflicts
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 25 Aug 1998 13:43:28 +1000 (EST)
+In-Reply-To: <s5e1339f.026@rmv.state.ma.us> from "David Albertz" at Aug 24, 98 09:33:44 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1589
+
+David Albertz wrote:
+>
+>I don't think the Rules require 1030 to claim precedence or to defer to other
+>Rules.  This ability is intrinsic in a Rules capacity to be effective.  R1030
+>makes this ability specific and clarifies how such claims of precedence and
+>deference should be resolved to avoid paradox.
+
+It's tempting, I agree, to view a Rule's ability to take precedence over
+another Rule as instrinsic to the Rule itself, and independent of R1030.
+But is that really so? In general, we recognise the right of Rules to
+modify the meanings of words in other Rules, without conflict, and
+within reasonable limits. So it seems that in general, the meaning of a
+Rule is always at least potentially an extrinsic, not intrinsic, matter.
+R1030 might, after all, have said "If at least one of the Rules in
+conflict claims to take precedence over, or to defer to, the others,
+then such claims shall be ignored and the Rulekeepor shall choose at
+random one of the Rules in conflict to take precedence over the others."
+I don't think that one could say in case like that a Rule's ability to
+take precedence over another Rule was an intrinsic ability of the Rule
+itself. And I don't think the present situation is so far removed from
+my hypothetical case. R1030 modifies the way precedence/deference claims
+are understood in Rules, and it does so with its own Power and
+effectiveness.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Aug 24 23:59 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA05911 for <dpb@cs.brown.edu>; Mon, 24 Aug 1998 23:59:33 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA25637
+	for agora-discussion-list; Tue, 25 Aug 1998 13:57:49 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA25634
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 25 Aug 1998 13:57:45 +1000
+Received: (from gardner@localhost)
+	by silas-2.cc.monash.edu.au (8.9.1a/8.9.1) id NAA19921
+	for agora-discussion@gecko.serc.rmit.edu.au; Tue, 25 Aug 1998 13:57:54 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199808250357.NAA19921@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Re: Steve wrote:
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 25 Aug 1998 13:57:54 +1000 (EST)
+In-Reply-To: <13793.13541.908991.957908@albatross.cl.cam.ac.uk> from "Michael Norrish" at Aug 24, 98 10:39:49 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2352
+
+Michael Norrish wrote:
+>
+>Steve Gardner writes:
+>
+>> The argument is based on my view of precedence/deference claims as
+>> second order provisions in Rules, which are used to resolve
+>> conflicts between first order provisions. If there is no conflict
+>> between first order provisions, then there will be no need to invoke
+>> any second order provisions. On my view, second order provisions
+>> cannot be used to avoid conflict between first order provisions -
+>> that would be to treat the second order provisions as first order
+>> provisions themselves, which in my view is confused.
+>
+>Your take on conflict would surely lead you to conclude that the
+>following rules do in fact conflict:
+>
+>A2: The value of Foo shall be 6.  However, if another rule attempts to
+>    specify a value for Foo, then the value of Foo shall be 5.
+>
+>B2: The value of Foo shall be 5.
+>
+>These conflict by your reasoning, and if A had higher power than B,
+>the value of Foo would be 6.  I just don't believe this.  Somehow the
+>second sentence of A2 is "second order" and thus not able to govern in
+>the same way as the second sentence of A1. 
+
+I don't accept that the second sentence of A2 in the example above is a
+second order provision. I think it's a rather confused first order
+provision. Its first half looks like a conflict-avoiding provision
+("However, if another Rule says otherwise..."), but then it turns around
+and becomes yet another (potentially) conflict-creating provision
+("...the value of Foo shall be 5."). What it isn't is a conflict-
+*resolving* provision, which is what it would have to be to qualify as a
+second-order provision. So, in fact, I don't think that the above Rules
+actually conflict after all, although it's an interesting question which
+Rule is responsible for setting the value of Foo.
+
+To answer that question, change B2 into B3:
+
+B3: The value of Foo shall be 4.
+
+Now I agree that A2 and B3 conflict. A2 says that Foo=5, while B3 says
+that Foo=4. But there are no second order provisions here to resolve the
+conflict, and once again, if the Rules are of equal Power, R1030 will
+have to step in to resolve the conflict.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+

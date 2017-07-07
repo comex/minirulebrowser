@@ -1,0 +1,135 @@
+From owner-nomic@yoyo.cc.monash.edu.au  Thu May 22 01:24:26 1997
+Return-Path: <owner-nomic@yoyo.cc.monash.edu.au>
+Received: from yoyo.cc.monash.edu.au (yoyo.cc.monash.edu.au [130.194.9.1])
+	by Shamino.quincy.edu (8.8.5/8.8.5) with ESMTP id BAA07605
+	for <blahedo@quincy.edu>; Thu, 22 May 1997 01:24:23 -0500
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.5/8.8.4)
+	  id QAA11147 for nomic-outgoing; Thu, 22 May 1997 16:20:06 +1000 (EST)
+Received: from marble.cc.monash.edu.au (root@marble.cc.monash.edu.au [130.194.9.2])
+          by yoyo.cc.monash.edu.au (8.8.5/8.8.4) with ESMTP
+	  id QAA14400 for <nomic@yoyo.cc.monash.edu.au>; Thu, 22 May 1997 16:17:53 +1000 (EST)
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by marble.cc.monash.edu.au (8.8.5/8.8.5) with ESMTP id QAA00851
+	for <nomic@yoyo.cc.monash.edu.au>; Thu, 22 May 1997 16:13:33 +1000
+Received: from port01-rem.fhcrc.org (port01-rem [140.107.12.31])
+	by bug1.fhcrc.org (8.8.5/8.8.5) with SMTP id XAA06948
+	for <nomic@yoyo.cc.monash.edu.au>; Wed, 21 May 1997 23:13:31 -0700 (PDT)
+Message-Id: <199705220613.XAA06948@bug1.fhcrc.org>
+Comments: Authenticated sender is <rmorganl@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+Organization: very little
+To: nomic@yoyo.cc.monash.edu.au
+Date: Wed, 21 May 1997 22:09:33 -0800
+MIME-Version: 1.0
+Content-type: text/plain; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+Subject: Re: (Fwd) Mad Scientist Report for Nomic Week of May 19
+X-mailer: Pegasus Mail for Windows (v2.42a)
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Status: N
+
+Steve Gardner <gardner@aurora.cc.monash.edu.au> wrote:
+> Ross Morgan-Linial writes:
+> >
+> >Steve Gardner <gardner@aurora.cc.monash.edu.au> wrote:
+> >> Ross Morgan-Linial writes:
+> >> >
+> >> >Fortunately or not, we no longer know exactly what the Frankenstein
+> >> >Monster is (other than 2). However, we now have an additional
+> >> >restriction on what a legal vote is...
+> >> 
+> >> ...or at least, we would have such a restriction if the new provision
+> >> did not directly conflict with Rule 683, with which it loses a precedence
+> >> battle by virtue of its higher Number.
+> >
+> >I don't believe there is a conflict. Rule 683 says that a legal vote must be 
+> >one of FOR, AGAINST or ABSTAIN; it doen't say that all those votes are 
+> >neccessarily legal, so the additional restriction is not in conflict with rule 
+> >683.
+> 
+> I guess I just disagree with you on that point: I think that Rule 683
+> does say that a Vote is legal if and only if it is one of FOR, AGAINST,
+> or ABSTAIN. Here's the relevant part of R683 for reference:
+> 
+>       A Vote upon a Proposal must be one of FOR, AGAINST, or ABSTAIN
+>       (or an obvious synonym of one of these).  Something which is not
+>       one of these is not a Vote upon a Proposal.
+> 
+> But in any case, even if I were to concede for the sake of argument
+> that the locution 'must be one of' does not secure logical equivalence
+> as used in R683, I'd still argue that there is conflict between that
+> Rule and the current Frankenstein Rule. Here's the new sentence from
+> R1671:
+> 
+>       A Vote is the name of exactly one of the Candidates for the given
+>       Frankenstein Monster.
+> 
+> Now, quite regardless of whether all of the Votes 'FOR', 'AGAINST' and
+> 'ABSTAIN' are necessarily legal, R683 informs us categorically that
+> anything which is not one of these or an obvious synonym of one of these
+> is not a Vote. And I think we can agree that the name of one of the
+> Candidates for the given Frankenstein Monster (whatever that might mean,
+> but it certainly appears to refer to some kind of name), is not one of
+> these, nor a synonym. So R683 claims that such a name is not a Vote,
+> directly contradicting the claim in R1671 that such a name *is* a Vote.
+> This clearly establishes my claim that the two Rules are in conflict,
+> which conflict, I reiterate, R683 handsomely wins.
+
+Yes, they're in conflict. The Frankenstein Rule defines what a Vote is - the 
+name of a Candidate for the given Frankenstein Monster. R683 steps in and 
+overrules that, saying that none of those are really votes, since they are not 
+FOR, AGAINST, ABSTAIN, or an obvious synonym of one of those. Thus, the set of 
+legal Votes, defined by the Frankenstein Rule, is reduced to an empty set. 
+Poof, no voting. The precedence conflict is there - not over whether FOR, 
+AGAINST, ABSTAIN are votes (R683 doesn't say they are, the Frankenstein Rule 
+says they aren't), but over whether the things defined as Votes by the 
+Frankenstein Rule are votes (The Frankenstein Rule says they are, R683 says 
+they aren't, so they aren't). So, while yes, R683 takes precedence, there are 
+still no legal Votes (unless someone finds a hole in my argument (I can't see 
+one, but still... (am I using too many nested parenthasis? (yes)))).
+-------------------------------
+Antimatter * rmorganl@fhcrc.org
+You have the power of negation.
+
+From owner-nomic@yoyo.cc.monash.edu.au  Thu May 22 11:11:57 1997
+Return-Path: <owner-nomic@yoyo.cc.monash.edu.au>
+Received: from yoyo.cc.monash.edu.au (yoyo.cc.monash.edu.au [130.194.9.1])
+	by Shamino.quincy.edu (8.8.5/8.8.5) with ESMTP id LAA15950
+	for <blahedo@quincy.edu>; Thu, 22 May 1997 11:11:50 -0500
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.5/8.8.4)
+	  id CAA14300 for nomic-outgoing; Fri, 23 May 1997 02:10:38 +1000 (EST)
+Received: from stone.dcs.warwick.ac.uk (zefram@stone.dcs.warwick.ac.uk [137.205.224.4])
+          by yoyo.cc.monash.edu.au (8.8.5/8.8.4) with ESMTP
+	  id CAA01724 for <nomic@yoyo.cc.monash.edu.au>; Fri, 23 May 1997 02:10:18 +1000 (EST)
+From: Zefram <zefram@dcs.warwick.ac.uk>
+Message-Id: <22568.199705221610@stone.dcs.warwick.ac.uk>
+Subject: Re: (Fwd) Mad Scientist Report for Nomic Week of May 19
+To: nomic@yoyo.cc.monash.edu.au
+Date: Thu, 22 May 1997 17:10:02 +0100 (BST)
+In-Reply-To: <199705220613.XAA06948@bug1.fhcrc.org> from "Ross Morgan-Linial" at May 21, 97 10:09:33 pm
+X-Loop: zefram@dcs.warwick.ac.uk
+X-Stardate: [-31]9368.36
+X-Phase: The Moon is Full
+X-US-Congress: Moronic fuckers
+X-Personality: INTJ
+X-This-is-not-HTML: <blink> <font face="wingdings">
+Content-Type: text
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Status: N
+
+Ross Morgan-Linial wrote:
+>Poof, no voting.
+
+If the upshot of this amendment to the Frankenstein Rule is to make it
+impossible to cast a Vote, then 114 steps in and prevents the amendment.
+We can, therefore, still Vote, though we might need a CFJ to determine
+whether the Frankenstein Rule was amended or not.
+
+-zefram
+

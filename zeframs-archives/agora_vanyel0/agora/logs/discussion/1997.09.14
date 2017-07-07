@@ -1,0 +1,624 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Sep 14 13:34 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA06776 for <dpb@cs.brown.edu>; Sun, 14 Sep 1997 13:34:38 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA31940
+	for agora-discussion-list; Mon, 15 Sep 1997 03:24:53 +1000
+Received: from windowsnt ([207.226.81.129])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id DAA31937
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 15 Sep 1997 03:24:40 +1000
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Sun, 14 Sep 1997 13:29:33 -0400
+Received: by windowsnt from friend-computer
+    (206.18.125.59::mail daemon; unverified,SLMail V2.5); Sun, 14 Sep 1997 13:29:31 -0400
+Message-Id: <3.0.3.32.19970914102615.0068f1a8@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.3 (32)
+Date: Sun, 14 Sep 1997 10:26:15 -0700
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: DIS: Re: BUS: Proto:  Plots (v1.0)
+In-Reply-To: <341A1D33.5AD5@cyber1.servtech.com>
+References: <3.0.3.32.19970911222144.0069bde4@mail.bayside.net>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 2924
+Status: N
+
+Harlequin wrote:
+
+>>      There is a class of Entities called Plots.  Each Plot has a
+>>      unique name.  The Agoraverse is the set of all Locations.
+>
+>"...is the set of all Plots."
+
+Right, sorry.
+
+>>      There is a Plot named "the Origin".
+>
+>Is this really neccesary?
+
+No.
+
+>>      If a Plot's Owner agrees to sell the Plot to another entity,
+>>      then the second entity becomes the Plot's Owner.
+>> 
+>>      For the purpose of this Rule, the Mint agrees to sell a Plot
+>>      when the prospective new Owner pays at least 4 VTs to it for
+>>      the sole purpose of buying that Plot.
+>
+>Ahhh, I see. This Rule is rather awkward, but it's the only way that Groups and other non-players 
+>can reasonably own Plots. Hmmm.
+
+I don't see the first paragraph as awkward.  If anything, the second paragraph
+could be replaced with "When an entity transfers at least 4 VTs to the Mint
+for the sole purpose of buying a Plot owned by the Mint, that entity becomes
+the Owner of that Plot".
+
+>>      Mules are a Currency.  Their MUQ is 1.  Their Recordkeepor is
+>>      is the Cartographor.
+>
+>"Mules"?
+
+Yes.  I'll transfer one of my Kudos to the first person to identify what
+I'm referring to.
+
+>>      Each Owner of one or more Structures is required to pay
+>>      monthly upkeep.  Unless otherwise specified, this is equal to
+>>      2 units of Energy for the first Structure of each type, plus
+>>      1 unit of Energy for each additional Structure.
+>
+>"Mines have no upkeep."
+
+Maybe.
+
+>> Create a rule titled "Production from Structures" reading: 
+>>      Churches have no Production.  However, each Church is considered
+>>      to be two players for the purposes of randomly allocating
+>>      Indulgences, and any Indulgences which would be given to a Church
+>>      are instead given to its Owner.
+>
+>There *has* to be a better way to phrase that. 
+
+Amend the random-Indulgence-allocation Rule.  Gets rid of the legal deeming,
+but loses the quality of having the concept all in one place.  I don't think
+it's worth it.
+
+>>      A Farm's Production is increased by 0.3 VT for each House or
+>>      Church to which it is Adjacent, and decreased by 1 VT for each
+>>      Mine to which it is Adjacent.
+>> 
+>>      A House's Production is increased by 1 P-Note for every 2 Farms
+>>      to which it is Adjacent.
+>> 
+>>      A Mine's Production is increased by 1 unit of Energy for every
+>>      two Houses to which it is Adjacent, and decreased by 1 unit of
+>>      Energy for every two Farms to which it is Adjacent.
+>
+>This part was my idea. :)
+
+Yes, it was.  Apologies for not crediting the various and sundry authors of
+the documents which were edited down into this Proto.
+
+>>        * the ownership and location of all Mules
+>>        * the ownership of all units of Energy
+>
+>Not to mention all the various TO and PO reporting.
+
+Oh, right.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Sep 14 15:27 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA09210 for <dpb@cs.brown.edu>; Sun, 14 Sep 1997 15:27:39 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA02017
+	for agora-discussion-list; Mon, 15 Sep 1997 05:22:05 +1000
+Received: from dfw.dfw.net (DFW.DFW.NET [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id FAA02014
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 15 Sep 1997 05:22:01 +1000
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA18723; Sun, 14 Sep 97 14:26:13 CDT
+Message-Id: <9709141926.AA18723@dfw.dfw.net>
+Subject: DIS: Re: OFF: Mad Scientist's Report
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 14 Sep 1997 14:26:13 -0500 (CDT)
+In-Reply-To: <341B3954.19B1@tmbg.org> from "Chaos Harlequin" at Sep 13, 97 06:09:40 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 287
+Status: N
+
+Chaos Harlequin wrote:
+>
+>{Note:
+>Unless the CFJ currently pending is judged TRUE, I will still consider 
+>the Frankenstein Rule to be modifiable and thus continue to produce
+>amendments.
+>}
+
+As will I.  (Well, consider it modifiable I mean--not produce
+amendments. :)
+
+Rulekeepor Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Sep 14 16:50 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA11204 for <dpb@cs.brown.edu>; Sun, 14 Sep 1997 16:50:17 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA04096
+	for agora-discussion-list; Mon, 15 Sep 1997 06:45:05 +1000
+Received: from ns.calvacom.fr (ns.calvacom.fr [194.2.168.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id GAA04090
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 15 Sep 1997 06:44:56 +1000
+Received: from arapael (pppA353.francenet.fr [193.149.100.155])
+	by ns.calvacom.fr (8.8.6/8.8.6) with SMTP id WAA20818
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 14 Sep 1997 22:47:05 +0200 (MET DST)
+Message-Id: <199709142047.WAA20818@ns.calvacom.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: Agora Discussion List <agora-discussion@gecko.serc.rmit.edu.au>
+Date: Sun, 14 Sep 1997 22:51:06 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: DIS: Infection of 693
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 621
+Status: N
+
+Could the following work ? Well, it might be worth a try.
+
+(Proto) Proposal :
+---
+Amend Rule 693 to read :
+
+      The prescribed Voting Period for a Proposal is ten days,
+      beginning at the time the Proposal is distributed to all
+      Players.
+---
+
+I hereby prescribe for the above Proposal a Voting Period that ends 
+in ten days or whenever Quorum has been met on that Proposal, 
+whichever is sooner. I Vote FOR, etc.
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Oh, Grep ! You haven't been pattern-matching _again_ ?
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Sep 14 16:58 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA11452 for <dpb@cs.brown.edu>; Sun, 14 Sep 1997 16:58:05 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA04370
+	for agora-discussion-list; Mon, 15 Sep 1997 06:52:51 +1000
+Received: from poverty.bloomington.in.us (xyplex8-1-14.ucs.indiana.edu [129.79.117.123])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id GAA04366
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 15 Sep 1997 06:52:45 +1000
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id PAA12271 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 14 Sep 1997 15:54:56 -0500
+Message-Id: <199709142054.PAA12271@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: OFF: Virus Report for Nomic Week of Sep. 8 
+In-reply-to: Your message of "Sun, 14 Sep 1997 15:31:20 EST."
+             <9709142031.AA26900@dfw.dfw.net> 
+Date: Sun, 14 Sep 1997 15:54:52 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 799
+Status: N
+
+"Charles" == Charles E Carroll <ccarroll@dfw.net> writes:
+
+
+Charles> This one's a biggie, folks...I think it's a Good Thing that
+Charles> the virus disinfects itself after 2 weeks.  I'm not quite
+Charles> sure what the exact effect of this is; I haven't looked over
+Charles> the ruleset in detail for other Rules which might be
+Charles> relevant.
+
+As Assessor, I am holding that this does not affect the Voting Periods
+of Proposals already made.  It seems reasonable to me that the Voting
+Periods of these Proposals was established when they were distributed.
+
+Now, the Voting Period of any Proposal made while Rule 693 remains
+infected is open to question.  I believe I shall interpret such
+Proposals to have an indefinite Voting Period; Guillotines will be
+needed to end Voting on such Proposals.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Sep 14 17:06 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA11798 for <dpb@cs.brown.edu>; Sun, 14 Sep 1997 17:05:59 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA04639
+	for agora-discussion-list; Mon, 15 Sep 1997 06:58:05 +1000
+Received: from poverty.bloomington.in.us (xyplex8-1-14.ucs.indiana.edu [129.79.117.123])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id GAA04636
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 15 Sep 1997 06:58:01 +1000
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id QAA12283 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 14 Sep 1997 16:00:10 -0500
+Message-Id: <199709142100.QAA12283@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Effect of R.683 Infection
+Date: Sun, 14 Sep 1997 16:00:07 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 166
+Status: N
+
+I note that the Voting Period of Emergency Proposals is not affected,
+so if you want to make sure your Proposal will be Voted upon, make it
+an Emergency Proposal. :)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Sep 14 17:10 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA11825 for <dpb@cs.brown.edu>; Sun, 14 Sep 1997 17:09:16 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA04664
+	for agora-discussion-list; Mon, 15 Sep 1997 07:00:05 +1000
+Received: from dfw.dfw.net (DFW.DFW.NET [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id HAA04661
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 15 Sep 1997 07:00:01 +1000
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA01659; Sun, 14 Sep 97 16:04:14 CDT
+Message-Id: <9709142104.AA01659@dfw.dfw.net>
+Subject: Re: DIS: Re: OFF: Virus Report for Nomic Week of Sep. 8
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 14 Sep 1997 16:04:13 -0500 (CDT)
+In-Reply-To: <199709142054.PAA12271@poverty.bloomington.in.us> from "Scott Goehring" at Sep 14, 97 03:54:52 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 605
+Status: N
+
+Scott Goehring wrote:
+>
+>As Assessor, I am holding that this does not affect the Voting Periods
+>of Proposals already made.  It seems reasonable to me that the Voting
+>Periods of these Proposals was established when they were distributed.
+
+I think I agree, with a caveat: this is true only because 693 now
+makes no claim one way or another about a Proposal's VP.  If,
+instead, it had been amended to something like "The prescribed
+voting period of a Proposal is 21 days,..." without the current
+viral sentence, I believe that would be effective in changing
+the VP of Proposals already up for vote.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Sep 14 17:12 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA11932 for <dpb@cs.brown.edu>; Sun, 14 Sep 1997 17:12:18 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA04710
+	for agora-discussion-list; Mon, 15 Sep 1997 07:04:05 +1000
+Received: from dfw.dfw.net (DFW.DFW.NET [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id HAA04707
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 15 Sep 1997 07:04:00 +1000
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA01851; Sun, 14 Sep 97 16:08:16 CDT
+Message-Id: <9709142108.AA01851@dfw.dfw.net>
+Subject: Re: DIS: Effect of R.683 Infection
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 14 Sep 1997 16:08:16 -0500 (CDT)
+In-Reply-To: <199709142100.QAA12283@poverty.bloomington.in.us> from "Scott Goehring" at Sep 14, 97 04:00:07 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 312
+Status: N
+
+Scott Goehring wrote:
+>
+>I note that the Voting Period of Emergency Proposals is not affected,
+>so if you want to make sure your Proposal will be Voted upon, make it
+>an Emergency Proposal. :)
+
+Considering the voting on recent proposals, I don't think that
+guarantees your proposal will be voted upon. :)
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Sep 14 18:22 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA13526 for <dpb@cs.brown.edu>; Sun, 14 Sep 1997 18:22:35 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA06493
+	for agora-discussion-list; Mon, 15 Sep 1997 08:11:21 +1000
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id IAA06490
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 15 Sep 1997 08:11:17 +1000
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 15966]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49618-2810>; Mon, 15 Sep 1997 00:13:02 +0200
+Date: 	Mon, 15 Sep 1997 00:12:47 +0200 (MET DST)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: PROTO: Australian Elections
+In-Reply-To: <9709142108.AA01851@dfw.dfw.net>
+Message-ID: <Pine.LNX.3.96.970914233827.10275W-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 1111
+Status: N
+
+On Sun, 14 Sep 1997, Charles E. Carroll wrote:
+
+> Scott Goehring wrote:
+> >
+> >I note that the Voting Period of Emergency Proposals is not affected,
+> >so if you want to make sure your Proposal will be Voted upon, make it
+> >an Emergency Proposal. :)
+> 
+> Considering the voting on recent proposals, I don't think that
+> guarantees your proposal will be voted upon. :)
+
+I just got this idea for introducing "the Australian system"...
+I am not sure if I am satisfied with the wording, but you get the idea.
+
+Proto-Proposal
+Australian Elections
+
+Create a Rule with the following text:
+
+      A Player failing to Vote or declare Presence on every
+      Proposal, distributed in a given Nomic Week, from which e is
+      not excused, commits the Infraction of Voting for the Sofa
+      Party, with a Penalty of 1 Voting Token and to be reported by
+      the Assessor.
+
+      A Player is excused from a Proposal if and only if e was On
+      Hold during the entire Voting Period of that Proposal.
+
+Greetings,
+Ørjan.
+
+-- 
+Praeterea censeo Cyberprominem et Agim esse delendas.
+<URL:http://www.cyberpass.net/~fekete/>
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Sep 14 18:33 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA13748 for <dpb@cs.brown.edu>; Sun, 14 Sep 1997 18:32:56 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA06764
+	for agora-discussion-list; Mon, 15 Sep 1997 08:20:51 +1000
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id IAA06760
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 15 Sep 1997 08:20:47 +1000
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id SAA14656 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 14 Sep 1997 18:22:23 -0400 (EDT)
+Message-ID: <341C7B25.5F51@tmbg.org>
+Date: Sun, 14 Sep 1997 17:02:45 -0700
+From: Chaos Harlequin <harlequin@tmbg.org>
+Organization: Nil
+X-Mailer: Mozilla 2.0 (Win16; I)
+MIME-Version: 1.0
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Proto:  Plots (v1.0)
+References: <3.0.3.32.19970911222144.0069bde4@mail.bayside.net> <3.0.3.32.19970914102615.0068f1a8@mail.bayside.net>
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 2163
+Status: N
+
+Ed Murphy wrote:
+
+> >"...is the set of all Plots."
+> 
+> Right, sorry.
+
+It happens.
+ 
+> >>      There is a Plot named "the Origin".
+> >
+> >Is this really neccesary?
+> 
+> No.
+
+Well, then.
+ 
+> >>      If a Plot's Owner agrees to sell the Plot to another entity,
+> >>      then the second entity becomes the Plot's Owner.
+> >>
+> >>      For the purpose of this Rule, the Mint agrees to sell a Plot
+> >>      when the prospective new Owner pays at least 4 VTs to it for
+> >>      the sole purpose of buying that Plot. 
+> I don't see the first paragraph as awkward.  
+
+How about "Any Entity which possesses a Plot may transfer ownership of that 
+Plot to any other Entity"? 
+
+> If anything, the second paragraph could be replaced with "When an entity 
+> transfers at least 4 VTs to the Mint for the sole purpose of buying a Plot 
+> owned by the Mint, that entity becomes the Owner of that Plot".
+
+"A player may purchase a Plot owned by the Bank by transferring at least 4 
+VTs to the Bank for the sole purpose of purchasing that Plot."
+
+> >"Mines have no upkeep."
+> 
+> Maybe.
+
+Oy vey, this is confusing me. 
+  
+> Amend the random-Indulgence-allocation Rule.  Gets rid of the legal deeming,
+> but loses the quality of having the concept all in one place.  I don't think
+> it's worth it.
+
+Change the Indulgence-assigning rule to create a list of all Players, then have the Church rule 
+add a Player's name onto the list an additional two times for each Church they own. 
+ 
+> Yes, it was.  Apologies for not crediting the various and sundry authors of
+> the documents which were edited down into this Proto.
+
+When you propose it, you could include provisions to have new Rules or amendments be credited to 
+their original authors, or to list "Murphy et al." as the author.
+ 
+> >Not to mention all the various TO and PO reporting.
+> 
+> Oh, right.
+
+I'm afraid I'll need a crash course on this whole PC thing -- not being a Recordkeepor, I haven't 
+been paying as close attention to the big debates and problems as I should have, and I'm still a 
+bit hazy on a few things...
+
+-- 
+Joshua Hall-Bachner
+Chaos Harlequin
+harlequin@tmbg.org
+http://www.servtech.com/public/particle
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Sep 14 18:58 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA14223 for <dpb@cs.brown.edu>; Sun, 14 Sep 1997 18:58:14 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA07284
+	for agora-discussion-list; Mon, 15 Sep 1997 08:37:35 +1000
+Received: from outbound.Princeton.EDU (outbound.Princeton.EDU [128.112.128.84])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id IAA07281
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 15 Sep 1997 08:37:32 +1000
+Received: from IDENT-NOT-QUERIED@ponyexpress.Princeton.EDU (port 3695 [128.112.129.131]) by outbound.Princeton.EDU with ESMTP id <541225-28509>; Sun, 14 Sep 1997 18:39:33 -0400
+Received: from mill.Princeton.EDU (mill.Princeton.EDU [128.112.129.14]) by ponyexpress.Princeton.EDU (8.6.12/8.6.12) with ESMTP id SAA22414 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 14 Sep 1997 18:39:22 -0400
+Received: from [140.180.146.179] (cmonsour.student.Princeton.EDU [140.180.146.179]) by mill.Princeton.EDU (8.8.0/8.6.12) with SMTP id SAA14118 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 14 Sep 1997 18:39:20 -0400 (EDT)
+Message-Id: <199709142239.SAA14118@mill.Princeton.EDU>
+Subject: Re: DIS: Re: BUS: Proto:  Plots (v1.0)
+Date: 	Sun, 14 Sep 97 18:39:45 -0400
+x-sender: cmonsour@pop3.cit.princeton.edu
+x-mailer: Claris Emailer 2.0v2, June 6, 1997
+From: Chris Monsour <cmonsour@Princeton.EDU>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="US-ASCII"
+Content-Length: 1240
+Status: N
+
+On 9/14/97 8:02 PM, Chaos Harlequin wrote:
+
+>Well, then.
+> 
+>> >>      If a Plot's Owner agrees to sell the Plot to another entity,
+>> >>      then the second entity becomes the Plot's Owner.
+>> >>
+>> >>      For the purpose of this Rule, the Mint agrees to sell a Plot
+>> >>      when the prospective new Owner pays at least 4 VTs to it for
+>> >>      the sole purpose of buying that Plot. 
+>> I don't see the first paragraph as awkward.  
+>
+>How about "Any Entity which possesses a Plot may transfer ownership of that 
+>Plot to any other Entity"? 
+
+With either wording, shouldn't it be clarified whether the Entity/Owner 
+needs the other entity's permission to transfer? With the first wording, 
+clearly not; with the second wording, probably not but it should be 
+clarified. I'm just jumping in here with no background in this; is this 
+intentional?
+
+
+
+-----------------------------------------------------------------------
+                               We taught the world / New ways to dream
+       Chris Monsour             Everyone needs / New ways to dream.
+  <cmonsour@princeton.edu>     
+                                               -- Sunset Boulevard
+-----------------------------------------------------------------------
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Sep 14 20:33 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA16295 for <dpb@cs.brown.edu>; Sun, 14 Sep 1997 20:33:13 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA09330
+	for agora-discussion-list; Mon, 15 Sep 1997 10:02:05 +1000
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA09324
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 15 Sep 1997 10:01:51 +1000
+Received: from port03-rem.fhcrc.org (port03-rem [140.107.12.33])
+	by bug1.fhcrc.org (8.8.7/8.8.7) with SMTP id RAA09529;
+	Sun, 14 Sep 1997 17:03:44 -0700 (PDT)
+Message-Id: <199709150003.RAA09529@bug1.fhcrc.org>
+Comments: Authenticated sender is <rmorganl@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+Organization: very little
+To: Chaos Harlequin <harlequin@tmbg.org>,
+        agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 14 Sep 1997 15:58:31 -0800
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Re: BUS: Proto:  Plots (v1.0)
+X-mailer: Pegasus Mail for Windows (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1616
+Status: N
+
+Chaos Harlequin <harlequin@tmbg.org> wrote:
+> Ed Murphy wrote:
+> > >"Mines have no upkeep."
+> > 
+> > Maybe.
+> 
+> Oy vey, this is confusing me. 
+
+The system was 'balanced' for mines to have an upkeep, so eliminating 
+the upkeep for mines might cause there to be too much stuff 
+available. Of course, if there are signifigantly less than three 
+plots/Player, there might not be enough stuff available. (Stuff is 
+VTs & P-Notes.)
+
+> > Amend the random-Indulgence-allocation Rule.  Gets rid of the legal deeming,
+> > but loses the quality of having the concept all in one place.  I don't think
+> > it's worth it.
+> 
+> Change the Indulgence-assigning rule to create a list of all Players, then have the Church rule 
+> add a Player's name onto the list an additional two times for each Church they own. 
+
+Which is how the Herald will do it anyways, I expect :-)
+
+> > Yes, it was.  Apologies for not crediting the various and sundry authors of
+> > the documents which were edited down into this Proto.
+> 
+> When you propose it, you could include provisions to have new Rules or amendments be credited to 
+> their original authors, or to list "Murphy et al." as the author.
+
+<clears throat>
+
+> > >Not to mention all the various TO and PO reporting.
+> > 
+> > Oh, right.
+> 
+> I'm afraid I'll need a crash course on this whole PC thing -- not being a Recordkeepor, I haven't 
+> been paying as close attention to the big debates and problems as I should have, and I'm still a 
+> bit hazy on a few things...
+
+Welcome to the club :-)
+-------------------------------
+Antimatter * rmorganl@fhcrc.org
+You have the power of negation.
+

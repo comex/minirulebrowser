@@ -1,0 +1,893 @@
+From owner-agora-official@gecko.serc.rmit.edu.au Tue Nov 10 03:24 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id DAA13789
+	for <dpb@cs.brown.edu>; Tue, 10 Nov 1998 03:24:05 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA26350
+	for agora-official-list; Tue, 10 Nov 1998 19:20:42 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA26347
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 10 Nov 1998 19:20:40 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id TAA20673
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 10 Nov 1998 19:22:49 +1100 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma020671; Tue, 10 Nov 98 19:22:37 +1100
+Received: From mozart With LocalMail ; Tue, 10 Nov 98 19:19:15 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-official@gecko.serc.rmit.edu.au (Nomic Official)
+Date: Tue, 10 Nov 1998 19:19:06 +1100 (EST)
+Message-Id:  <981110081907.28569@cse.unsw.edu.au>
+Subject: OFF: Repeal-O-Matic Selection for November 10 1998
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1797
+
+Repeal-O-Matic Rule selection for Nov 10 1998
+---------------------------------------------
+There are 332 rules in the latest short logical ruleset.
+Selecting five at random gives:
+
+324 : Rule 1008 (The Shogun)
+187 : Rule 1695 (Appeals of Judicial Orders)
+322 : Rule 1377 (The Herald)
+151 : Rule 951  (Selecting a Judge)
+152 : Rule 698  (Always an Eligible Judge)
+
+Well, none of those are rules I'd particularly like to see go, but 
+seeing as I am allowed by R1753 "to add provisions to the Proposal 
+that leave the ruleset in a more consistent and functional state",
+I'll have a bit of fun...
+
+On behalf of the Repeal-O-Matic, I propose:
+
+PROPOSAL: Repeal Rule 951 (Selecting a Judge)
+      This Proposal shall have an AI = 1
+      Rule 951 is hereby Repealed.
+
+Create a new rule, entitled "Selecting a Judge", with the text:
+
+      Whenever there is an open Call for Judgement to which no Player
+      has been assigned as its Judge, the Clerk of the Court shall, as
+      soon as possible after being made aware of this condition,
+      select a Player to be assigned as its Judge.  This selection 
+      shall be made from amongst all those Players eligible to serve
+      as the Judge of that CFJ.
+
+      Once assigned as the Judge of a CFJ, that Player remains the
+      Judge of that CFJ until e is recused from that CFJ, or e ceases
+      to be a Player.
+
+      The Clerk shall announce the identity of the Player who is
+      assigned to Judge a CFJ as soon as possible after the selection
+      is made.
+
+      A CFJ is "open" if it has neither been dismissed nor judged, or
+      if there is an outstanding judicial motion pertaining to that
+      CFJ which has been neither granted nor denied.  A CFJ which is
+      not open is closed.
+
+[Comment: One crucial word has been left out.]
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Tue Nov 10 03:31 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id DAA13998
+	for <dpb@cs.brown.edu>; Tue, 10 Nov 1998 03:31:26 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA26393
+	for agora-official-list; Tue, 10 Nov 1998 19:25:43 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA26390
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 10 Nov 1998 19:25:40 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id TAA20686
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 10 Nov 1998 19:27:49 +1100 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma020684; Tue, 10 Nov 98 19:27:23 +1100
+Received: From mozart With LocalMail ; Tue, 10 Nov 98 19:25:26 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-official@gecko.serc.rmit.edu.au (Nomic Official)
+Date: Tue, 10 Nov 1998 19:25:26 +1100 (EST)
+Message-Id:  <981110082526.2669@cse.unsw.edu.au>
+Subject: OFF: Proposal Queue as of November 10 1998
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 23681
+
+
+The Proposal Queue as of 2 November, 1998
+
+--------------
+Recent events:
+--------------
+
+Date: Wed, 4 Nov 1998 13:25:35 +1100 (EST)
+
+     Proposals "Monthly Salaries" and "Repeal Rule 1748..." are
+     distributed.
+
+Date: Sun, 8 Nov 1998 11:00:11 -0500
+
+     Gen Chaos proposes "Proposals may Order".
+
+Date: Mon, 9 Nov 1998 19:21:20 +1100 (EST)
+
+     Proposals "End the Conspiracy!" and "Slam the Door" are
+     distributed.
+
+Date: Tue, 10 Nov 1998 19:19:06 +1100 (EST)
+
+     Repeal-O-Matic proposes "Repeal Rule 951 (Selecting a Judge)".
+
+Date: As of this Report
+
+     I use my Promotor's Privilege to increase the Priority of
+     "Repeal Rule 951 (Selecting a Judge)" to one.
+
+======================================================================
+Active Proposals
+
+Current Batch Size = 2
+
+Title                              Proposer Priority   Time Stamp
+------------------------------     -------- --------   -----------------------
+Allow negative priorities          Kolja        1      23Oct98  13:41:30 +0200
+Repeal Rule 1792 (Proposal         R-O-M        1      26Oct98  19:40:08 +1100
+                Applications)
+Repeal Rule 951 (Selecting a       R-O-M        1      10Nov98  19:19:06 +1100
+                   Judge)
+Restore Sanity                     Gen Chaos    0      14Oct98  15:13:24 -0500
+Every Man Is an Island             Gen Chaos    0      14Oct98  15:13:24 -0500
+Oh, what a tangled web....         Gen Chaos    0      16Oct98  22:00:05 -0500
+Unlimited Voting                   Gen Chaos    0      16Oct98  23:00:08 -0500
+Repeal Rule 1561 (Illegality       R-O-M        0      19Oct98  12:23:02 +1000
+               of Bonus Clauses)
+No Passing the Buck                Gen Chaos    0      19Oct98  16:00:07 -0500
+Language shall be Plain            Gen Chaos    0      19Oct98  16:00:07 -0500
+Some Housecleaning                 Gen Chaos    0      19Oct98  16:00:07 -0500
+Evidentiary Status of Officer      Gen Chaos    0      19Oct98  16:00:07 -0500
+                  Reports.
+Winning Isn't Anything             Gen Chaos    0      21Oct98  12:00:04 -0500
+Zero Payment Orders                Gen Chaos    0      21Oct98  17:00:04 -0500
+A minimalist proposal              Kolja        0      30Oct98  17:44:33 +0100
+Down with Playerism!               Gen Chaos    0      30Oct98  18:00:06 -0500
+Evidentiary Status of Officer      Gen Chaos    0      31Oct98  06:00:09 -0500
+                    Reports
+Proposals may Order                Gen Chaos    0      
+(Greatest Proposal number assigned is 3805)
+
+======================================================================
+Discarded Proposals
+
+Title                                  Proposer 
+------------------------------         -------- 
+
+======================================================================
+Text of Undistributed Proposals (not a distribution)
+
+Proposal  (Gen Chaos) AI = 2
+Restore Sanity
+
+NOTE: Text enclosed in right brackets has no legal significance and
+      shall in no way affect the legality or efficacy of any part of
+      this Proposal.
+
+[This Proposal does not seek to eradicate either Voting Tokens or
+ P-Notes; it merely removes them from having any role in the process
+ of making or voting upon Proposals.  I will leave it for later to
+ decide what should be done with the Currencies themselves.]
+
+Be it hereby resolved, that Rule 206 ["Voting Entities and Votes"] be
+      amended to read:
+
+      (a) Each Player is entitled to cast at most one Vote upon each
+          Proposal.
+
+      (b) A Player may be deprived of the right to cast a Vote upon
+          any one Proposal, or upon Proposals generally, by the Rules
+          or by an Order issued pursuant to the Rules.
+
+      (c) No entity other than a Player may cast Votes upon
+          Proposals.
+
+      (d) The term "Voting Entity" is hereby declared to be synonymous
+          with "Player", except where such construction would clearly
+          not make sense.
+
+Be it further resolved, that Rule 1442 ["The Cost of Voting"] be
+      repealed.
+
+Be it further resolved, that Rule 1765 ["Attributing Additional
+      Votes"] be repealed.
+
+Be it further resolved, that Rule 683 be amended to read:
+
+      (a) A Player casts a vote upon a Proposal by sending a message to
+          the Assessor specifying the Vote e is casting and the Proposal
+          upon which it is cast.
+
+      (b) A vote cast under this Rule must be one of FOR, AGAINST, or
+          ABSTAIN, or an obvious synonym thereof.
+
+      (c) Any attempt by a Player to cast a vote is void and without
+          legal effect if:
+        (1) the attempt is made other than during the Voting Period of
+            the Proposal in question,
+        (2) the Player attempting to cast a Vote is barred from
+            Voting upon that Proposal by the Rules or by an Order then
+            in effect barring em from doing so,
+        (3) the Player attempting to cast a Vote has previously cast a
+            vote (other than a vote made void by this subrule) upon
+            that Proposal, or
+        (4) the attempt violates, or if allowed would violate, this or
+            any other Rule.
+
+      (d) Votes, once cast according to this Rule, cannot be
+          retracted, cancelled, or changed except when the Rules
+          require it, and then only as required by the Rules.
+
+Be it further resolved, that Rule 1715 ["Announcing One's Presence"]
+      be repealed.  [Presence is irrelevant with free voting.]
+
+Be it further resolved, that Rule 1449 ["The Assessor"] be amended to
+      read:
+
+      There shall exist the Office of Assessor.  The Assessor shall
+      receive a weekly salary equal to the Basic Officer Salary.
+
+Be it further resolved, that Rule 1824 ["Debt Voting"] be repealed.
+
+Be it further resolved, that Rule 1660 ["The Speaker's Vote"] be
+      repealed.
+
+Be it further resolved, that Rule 1760 ["Quorum Buyback"] be
+      repealed.
+
+Be it further resolved, that Rule 1723 ["Sanity"] be repealed.
+
+Be it further resolved, that Rule 1724 ["Urgent Proposals"] be
+      repealed.
+
+Be it further resolved, that Rule 1036 ["The Proposal Queue"] be
+      amended, by replacing the word "zero" with "one" wherever it
+      appears.
+
+Be it further resolved, that Rule 1771 ["Increasing Priority"] be
+      amended to read:
+
+      (a) Not more than once in any Nomic Week, each Player may select
+          any one Proposal in the Proposal Queue and may increase or
+          decrease the priority of that Proposal by one, by sending a
+          message to the Promotor indicating the Proposal to be
+          affected and whether that Proposal's priority is to be
+          increased or decreased.
+
+      (b) An attempt to change the Priority of a Proposal in the
+          Proposal Queue shall be void and without legal effect if:
+        (1) the Player who attempted it has already changed the
+            priority of any Proposal during the same Nomic Week;
+        (2) the attempt relates to a Proposal which is no longer in
+            the Proposal Queue; or
+        (3) the change attempted would result in the Proposal having a
+            priority less than zero.
+
+      (c) The Promotor and the Speaker shall each be permitted to
+          exercise the right given by subrule (a) of this Rule twice
+          in each week, instead of once.  However, if the same Player
+          is both Promotor and Speaker, e may not exercise this right
+          three times.  The remainder of this Rule shall be
+          interpreted so as to be consistent with the intent of this
+          subrule.
+
+Be it further resolved, that Rule 1772 ["Promotor's Privilege"] be
+      repealed.  [The privilege is incorporated into the revised Rule
+      1771.]
+
+Be it further resolved, that Rule 1862 ["The Voting Tariff"] be
+      repealed.
+
+----------------------------------------------------------------------
+Proposal  (Gen Chaos) AI = 1
+Every Man Is an Island
+
+NOTE: Text enclosed in right brackets has no legal significance and
+      shall in no way affect the legality or efficacy of any part of
+      this Proposal.
+
+Be it therefore resolved, that Rules 766, 716, 719, 721, 1752, 718,
+1446, 1539, 1528, 1614, 1612, 1531, 1547, 1759, 1533, 1397, 1617,
+1458, and 717 be repealed.
+
+Be it further resolved, that Rule 206 be amended, by replacing
+"Players and Groups are Voting Entities" with "Players are Voting
+Entities".
+
+Be it further resolved, that Rule 1637 be amended, by deleting the
+paragraph which begins "A Will belonging to an Organization".
+
+Be it further resolved, that Rule 1727 be amended, by deleting the
+paragraph which contains the phrase "the Notary may select".
+
+Be it further resolved, that Rules 1601, 1637, 1738, and 1757 all be
+amended, by replacing the word "Notary" with the word "Chancellor"
+wherever it may appear.
+
+[While there may be some utility in allowing bodies corporate, the
+current Rules woefully fail to accomplish this in any useful sense.
+Furthermore, most contests can be adequately carried forth under the
+Law of Contracts (Rule 1742) without requiring the overhead of
+statutory support.  SLCs should probably also go, but I'll cross that
+bridge when I find it.]
+
+----------------------------------------------------------------------
+Proposal  (Gen Chaos) AI = 1
+Oh, what a tangled web....
+
+Be it therefore resolved, that Rule 478 be amended to read:
+
+      (a) A Public Forum is any medium of communication so designated as
+          such by the Registrar.
+
+      (b) The Registrar may designate any medium as a Public Forum, or
+          revoke such designation from a medium already so designated,
+          Without Objection.  However, The message which is to
+          effectuate the change intended must be sent via a medium
+          which is a Public Forum both before and after the
+          designation or revocation, in order to have legal effect.
+
+      (c) Every Active Player shall ensure that e is able to receive
+          messages sent to every medium which the Registrar has
+          designated as a Public Forum.  However, the temporary
+          inability of a Player to receive a Public Forum does not
+          deprive that medium of its status as a Public Forum.
+
+      (d) Any message conveyed by one or more Public Fora is deemed to
+          have been sent to the Public Forum.
+
+      (e) The above notwithstanding, any message sent, by any medium or
+          combination of media, to every Active Player so that each
+          Active Player is reasonably certain to receive it, is deemed
+          to have been sent to the Public Forum, but only if it bears
+          a clear indication that it is intended to be a Public Forum
+          message.
+
+      (f) Whenever the Rules require a Player to "announce", "post", or
+          "distribute" some communication or notification, that Player
+          shall do so by sending it to the Public Forum, unless the
+          Rules specify otherwise in that instance.
+
+----------------------------------------------------------------------
+Proposal  (Gen Chaos) AI = 2
+Unlimited Voting
+
+Be it therefore resolved, that Rule 206 be amended to read:
+
+      (a) A Voting Entity is an Entity which is generally authorized
+          by the Rules to cast a vote or votes on a Proposal.  Other
+          Rules may withdraw this authorization from a Voting Entity
+          in specific circumstances without that Entity thereby
+          ceasing to be a Voting Entity.  Only those Entities
+          designated by the Rules to be Voting Entities are Voting
+          Entities.
+
+      (b) No Entity is permitted to vote on a Proposal unless it is a
+          Voting Entity.
+
+      (c) Players and Groups are Voting Entities.
+
+      (d) Unless otherwise specified, each Voting Entity may cast an
+          unlimited number of Votes on a Proposal.
+
+Be it further resolved, that Rules 1660 and 1765 be repealed.
+
+----------------------------------------------------------------------
+Proposal  (Repeal-O-Matic) AI = 2
+Repeal Rule 1561 (Illegality of Bonus Clauses)
+
+      Rule 1561 is hereby Repealed.
+
+----------------------------------------------------------------------
+Proposal  (Gen Chaos) AI = 1
+No Passing the Buck
+
+Be it therefore resolved, that the following Rule be enacted:
+
+      (a) A Recordkeepor may elect to reject any Transfer Order or
+          Payment Order, the amount of which is not specified by its
+          Executor as a fixed numeral.
+
+      (b) The actual numerical value of the amount of a Transfer or
+          Payment Order whose amount was not specified by its Executor
+          as a fixed numeral is whatever the Recordkeepor, in good
+          faith, determines it to be at the time the Order was
+          submitted.
+
+      (c) For the purpose of this Rule, a "fixed numeral" is a
+          numerical constant specified in a manner that the
+          Recordkeepor may determine its value with definite certainty
+          without referring to any information in the Game State other
+          than the message itself.
+
+[This is to prevent Players from stating that they "execute whatever
+ Payment Orders they are required to execute" or "transfer all but two
+ VTs to some entity", thereby transferring the responsibility to
+ determine what they are legally required to do to Recordkeepors,
+ and/or creating uncertainty in Currency Records by specifying
+----------------------------------------------------------------------
+Proposal  (Gen Chaos) AI = 1
+Language shall be Plain
+
+      In the construction or interpretation of the Rules, all words
+      and phrases shall be taken in their plain, or ordinary and
+      usual, sense, except where doing so would be plainly repugnant
+      to the context of those words or phrases.  Technical words and
+      phrases having a peculiar and appropriate meaning shall be
+      understood according to their technical import.
+
+----------------------------------------------------------------------
+Proposal  (Gen Chaos) AI = 1
+Some Housecleaning
+
+Be it therefore resolved, that Rule 408 be amended to read:
+
+      (a) The Judge of an open CFJ is required to, within seven days of
+          when that CFJ last became open or seven days of eir
+          assignment to that CFJ, whichever is later, close that CFJ
+          by dismissing or judging the CFJ and/or granting or denying
+          any outstanding judicial motions pertaining to that CFJ.
+
+      (b) The failure of a Judge to close a case within the prescribed
+          time constitutes the Infraction of Judicial Tardiness and
+          carries a penalty of one Blot for each day (or fraction
+          thereof) that the case remains open beyond the permitted
+          time.  This penalty is to be reported by the Clerk of the
+          Courts.
+
+      (c) The failure to observe this time limit does not, by itself,
+          cause the delinquent Judge to be recused from the CFJ, nor
+          does it invalidate eir judgment or dismissal of the CFJ or
+          grant or denial of any related judicial motion which that
+          Judge might submit after the limit has expired.
+
+      (d) This Rule defers to any other Rule which prescribes a
+          different time limit in which a CFJ must be closed, and to
+          any other Rule which establishes procedures by which the
+          time limit specified in this Rule may be extended or
+          shortened.
+
+[This is a slightly modified version of a rule I proposed last
+ November, and which was adopted but clobbered by the contemporaneous
+ adoption of another Proposal.]
+
+----------------------------------------------------------------------
+Proposal  (Gen Chaos) AI = 1
+Evidentiary Status of Officer Reports
+
+Be it therefore resolved, that Rule 1768 be amended to read:
+
+      (a) The published Report of an Officer, with respect to those
+          matters reported therein which that Officer is required by
+          law to report, shall be afforded the strongest evidentary
+          weight.  Evidence of this nature shall be determinative in
+          the absence of clear and convincing evidence to the
+          contrary.
+
+      (b) No challenge to the published Report of an Officer, with
+          respect to those matters reported therein which that Officer
+          is required by law to report, shall proceed unless:
+          (1) it was been initiated within 21 days of the publication
+              of that report; or
+          (2) credible evidence that the Officer acted in bad faith,
+              or acted in good faith upon information presented to em
+              in bad faith, is presented.
+
+----------------------------------------------------------------------
+Proposal  (Gen Chaos) AI = 3
+Winning Isn't Anything
+
+Be it therefore resolved, that Rules 112, 1498, 1580, 1622, 1638,
+1729, 1844, and 1697 be repealed.
+
+Be it further resolved, that Rule 1748 be amended by deleting the
+paragraph which begins "In addition, if the adoption of".
+
+Be it further resolved, that Rule 1435 be amended by deleting the
+sentence, "It is a Win-Preventing condition for a Player to have one
+or more Blots."
+
+----------------------------------------------------------------------
+Proposal  (Gen Chaos) AI = 1
+Zero Payment Orders
+
+Be it therefore resolved, that Rule 1599 be amended to read:
+
+      (a) Whenever a Rule requires a Player to execute a Payment
+          Order, e shall do so within seven days of when the
+          requirement arises.
+
+      (b) The foregoing does not apply to any requirement to execute a
+          Payment Order for zero units of any Currency.  Such Payment
+          Orders need not be executed, any Rule to the contrary
+          notwithstanding.
+
+----------------------------------------------------------------------
+Proposal  (Kolja) AI = 1
+Allow negative priorities
+
+
+Amend R1771 by removing the sentence "The Priority of a Proposal may
+not be reduced below zero in this manner."
+
+
+Amend R1773 by removing the second paragraph.
+
+
+Amend R1774 by replacing the string "zero Priority" with "zero or
+negative Priority".
+
+----------------------------------------------------------------------
+Proposal  (Repeal-O-Matic) AI = 1
+Repeal Rule 1792 (Proposal Applications)
+
+      Rule 1792 is hereby Repealed.
+
+----------------------------------------------------------------------
+Proposal  (Kolja) AI = 1
+A minimalist proposal
+
+When this proposal is adopted, nothing special happens.
+
+----------------------------------------------------------------------
+Proposal  (Gen Chaos) AI = 1
+Down with Playerism!
+
+Be it therefore resolved, that Rule 833 be amended to read:
+
+      As soon as possible after the beginning of the Nomic Week, the
+      Assessor shall pay out two Proposal Notes to each entity who
+      submitted an Interested Proposal which was adopted during the
+      previous Week.
+
+----------------------------------------------------------------------
+Proposal  (Gen Chaos) AI = 1
+Evidentiary Status of Officer Reports
+
+Be it therefore resolved, that Rule 1768 be amended to read:
+
+      (a) The published Report of an Officer, with respect to those
+          matters reported therein which that Officer is required by
+          law to report, shall be determinative evidence of the facts
+          therein presented, in the absence of clear and convincing
+          evidence contrary to those facts.
+
+      (b) No challenge to the published Report of an Officer, with
+          respect to those matters reported therein which that Officer
+          is required by law to report, shall proceed unless:
+          (1) it was initiated within 21 days of the publication of
+              that report; or 
+          (2) credible evidence that the Officer acted in bad faith,
+              or acted in good faith upon information presented to em
+              in bad faith, is presented.
+
+      (c) For the purpose of this Rule, the Speaker shall be
+          considered an Officer.
+
+----------------------------------------------------------------------
+Proposal  (Repeal-O-Matic) AI = 1
+Repeal Rule 1044 (Unique Patent Titles)
+
+      Rule 1044 is hereby Repealed.
+
+----------------------------------------------------------------------
+Proposal  (Gen Chaos) AI = 1
+Proposals May Order
+
+Be it therefore resolved, that Rule 1794 be amended to read:
+
+      (a) Each Order is of one of the following classes:
+        (1) Judicial: A Judicial Order is an Order executed by a
+            Player while acting as a Judge.
+        (2) Appellate: An Appellate Order is an Order executed by a
+            Board of Appeals. 
+        (3) Administrative: An Administrative Order is an Order
+            executed by an Officer in the course of performing the
+            duties of that Office, except when those duties involve
+            acting as a member of a Board of Appeals.
+        (4) Legislative: A Legislative Order is an Order executed as
+            part of the effect of the adoption of a Proposal.
+        (5) Private: A Private Order is any Order not described above.
+
+      (b) For the purpose of this Rule, the holder of any of the
+          following positions shall be considered an Officer when
+          performing a duty required by or a privilege permitted only
+          by virtue of holding that position:
+        (1) the Speaker;
+        (2) the Recordkeepor of a Currency; or
+        (3) the Trustee of an entity in Probate.
+
+Be it further resolved, that the following Rule be created:
+
+      (a) A Proposal may contain one or more Orders.  
+
+      (b) The effect of adopting a Proposal which contains Orders is
+          to execute those Orders.  Such Orders are known as
+          Legislative Orders, are deemed to have been executed by that
+          Proposal, and are deemed to have been executed as of the
+          date of the proclamation of the Proposal's adoption.
+
+      (c) Legislative Orders may not be stayed, vacated, or amended
+          except:
+        (1) by a subsequent Legislative Order;
+        (2) by a Judicial Order issued only after a judicial finding
+            that the Proposal containing the Legislative Order was not
+            adopted, was barred from taking effect, or was invalid; or
+        (3) by the Clerk of the Courts, but only for the purpose of
+            staying such an Order during the pendency of a dispute
+            which might reasonably lead to a judicial finding of the
+            sort mentioned in subdivision (c)(2) of this Rule.
+
+----------------------------------------------------------------------
+Proposal  (Repeal-O-Matic) AI = 1
+Repeal Rule 951 (Selecting a Judge)
+
+      Rule 951 is hereby Repealed.
+
+Create a new rule, entitled "Selecting a Judge", with the text:
+
+      Whenever there is an open Call for Judgement to which no Player
+      has been assigned as its Judge, the Clerk of the Court shall, as
+      soon as possible after being made aware of this condition,
+      select a Player to be assigned as its Judge.  This selection 
+      shall be made from amongst all those Players eligible to serve
+      as the Judge of that CFJ.
+
+      Once assigned as the Judge of a CFJ, that Player remains the
+      Judge of that CFJ until e is recused from that CFJ, or e ceases
+      to be a Player.
+
+      The Clerk shall announce the identity of the Player who is
+      assigned to Judge a CFJ as soon as possible after the selection
+      is made.
+
+      A CFJ is "open" if it has neither been dismissed nor judged, or
+      if there is an outstanding judicial motion pertaining to that
+      CFJ which has been neither granted nor denied.  A CFJ which is
+      not open is closed.
+
+[Comment: One crucial word has been left out.]
+======================================================================
+
+
+
+
+
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Tue Nov 10 03:31 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id DAA14002
+	for <dpb@cs.brown.edu>; Tue, 10 Nov 1998 03:31:41 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA26379
+	for agora-official-list; Tue, 10 Nov 1998 19:24:43 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA26376
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 10 Nov 1998 19:24:40 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id TAA20681
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 10 Nov 1998 19:26:49 +1100 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma020679; Tue, 10 Nov 98 19:26:45 +1100
+Received: From mozart With LocalMail ; Tue, 10 Nov 98 19:25:00 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-official@gecko.serc.rmit.edu.au (Nomic Official)
+Date: Tue, 10 Nov 1998 19:25:00 +1100 (EST)
+Message-Id:  <981110082500.2397@cse.unsw.edu.au>
+Subject: OFF: Promotor's Report for November 10 1998
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 8540
+
+Promotor's Report of P-Note holdings as of 10 November 1998
+
+--------------
+Recent events:
+--------------
+
+Date: Fri, 6 Nov 1998 17:55:41 +1100 (EST)
+
+     Assessor Blob reports P-Note bonus for P3801
+
+======================================================================
+                                 02Nov98    10Nov98   Change   NetPOs
+
+Antimatter                          1          1          0        0
+Blob                               16         16          0        0
+Chuck                               3          3          0        0
+Crito                               9          9          0        0
+elJefe                              1          1          0        0
+G.Chaos                             1          1          0        0
+Harlequin                           2          2          0        0
+Kolja A.                            4          4          0        0
+Lee                                 1          1          0        0
+macross                             3          3          0        0
+Michael                             1          1          0        0
+Morendil                            2          2          0        0
+Murphy                              3          3          0        0
+Oerjan                              1          1          0        0
+Proglet                             1          1          0        0
+Steve                              17         17          0        0
+
+Repeal-O-Matic                      1          1          0        0
+
+Bank                               47         47          0        0
+
+Total                             115        115          0        0
+
+======================================================================
+
+OUTSTANDING PAYMENT ORDERS
+
+ID     Executed          Amt.  Payor           Payee          Executor
+------ ----------------- ----- --------------  -------------- -------------
+apn013 06Nov98 06:55:41  2     Bank            Blob           Assessor
+
+
+DISPUTED PAYMENT ORDERS
+
+ID     Executed          Amt.  Payor           Payee          Executor
+------ ----------------- ----- --------------  -------------- -------------
+ (none)
+
+
+SATISFIED PAYMENT ORDERS
+
+ID     Exec.    Satis.   Amt.  Payor           Payee          Executor
+------ -------  -------- ----- --------------  -------------- -------------
+POP320 02Sep98  06Sep98      2 Bank            Steve          Assessor
+POP321 02Sep98  06Sep98      1 Bank            Steve          Assessor
+POP322 06Sep98  18Sep98      3 Bank            Steve          Rulekeepor
+POP323 08Sep98  18Sep98      2 Bank            Steve          Assessor
+POP324 08Sep98  18Sep98      1 Bank            Steve          Assessor
+POP325 08Sep98  18Spe98      1 Bank            Steve          Assessor
+POP326 09Sep98  18Sep98      1 Bank            Proglet        Registrar
+POP327 13Sep98  18Sep98      3 Bank            Steve          Rulekeepor
+POP329 22Sep98  27Sep98      2 Bank            Kolja          Ambassador
+POP330 22Sep98  27Sep98      2 Bank            Kolja          Ambassador
+POP331 28Sep98  28Sep98      2 Bank            Steve          Ambassador
+ppn332 06Oct98  08Oct98      2 Kolja           Bank           Promotor
+apn001 06Oct98  10Oct98      2 Bank            Steve          Assessor
+apn002 06Oct98  10Oct98      1 Bank            Steve          Assessor
+apn003 06Oct98  10Oct98      2 Bank            Steve          Assessor
+apn005 06Oct98  10Oct98      1 Bank            Steve          Assessor
+rpn001 09Oct98  27Oct98      3 Bank            Steve          Rulekeepor
+rpn002 09Oct98  27Oct98      3 Bank            Steve          Rulekeepor
+apn006 19Oct98  27Oct98      2 Bank            Blob           Assessor
+apn007 19Oct98  27Oct98      2 Bank            Blob           Assessor
+apn008 19Oct98  27Oct98      1 Bank            Blob           Assessor
+apn009 29Oct98  29Oct98      2 Bank            Macross        Assessor
+apn010 29Oct98  29Oct98      2 Bank            Blob           Assessor
+apn011 29Oct98  29Oct98      1 Bank            Macross        Assessor
+apn012 29Oct98  29Oct98      1 Bank            Blob           Assessor
+
+VACATED PAYMENT ORDERS
+
+ID     Exec.    Vacated  Amt.  Payor           Payee          Executor
+------ -------  -------- ----- --------------  -------------- -------------
+apn004 06Oct98  08Oct98      2 Bank            Steve          Assessor
+apn006 06Oct98  08Oct98      3 Bank            Steve          Assessor
+======================================================================
+
+TRANSFER ORDERS
+
+Executed          Amt.   Payor            Payee              for PO Status
+----------------  -----  ---------------  -----------------  ------ ---------
+04Oct98 02:31:36      1  Steve            Bank                      Succeeded
+06Oct98 03:14:19      1  Chuck            Bank                      Succeeded
+06Oct98 03:48:21      1  Steve            Bank                      Succeeded
+07Oct98 12:54:34      1  Kolja            Bank                      Succeeded
+08Oct98 03:35:56      1  Blob             Bank                      Succeeded
+08Oct98 03:35:56      1  Blob             Bank                      Succeeded
+08Oct98 03:35:56      1  Blob             Bank                      Succeeded
+08Oct98 11:27:21      2  Kolja            Bank               ppn332 Succeeded
+10Oct98 11:35:51      2  Bank             Steve              apn001 Succeeded
+10Oct98 11:35:51      1  Bank             Steve              apn002 Succeeded
+10Oct98 11:35:51      2  Bank             Steve              apn003 Succeeded
+10Oct98 11:35:51      1  Bank             Steve              apn004 Succeeded
+15Oct98 00:41:43      2  Steve            Bank                      Succeeded
+15Oct98 01:19:48      1  Steve            Bank                      Succeeded
+15Oct98 05:34:23      2  Steve            Macross                   Succeeded
+16Oct98 15:28:46      1  Kolja            Bank                      Succeeded
+17Oct98 01:27:39      2  Macross          Bank                      Succeeded
+26Oct98 09:42:23      2  Kolja            Bank                      Succeeded
+26Oct98 09:42:23      1  Kolja            Bank                      Succeeded
+27Oct98 10:27:19      3  Bank             Steve              rpn001 Succeeded
+27Oct98 10:27:19      3  Bank             Steve              rpn002 Succeeded
+27Oct98 10:27:19      2  Bank             Blob               apn006 Succeeded
+27Oct98 10:27:19      2  Bank             Blob               apn007 Succeeded
+27Oct98 10:27:19      1  Bank             Blob               apn008 Succeeded
+29Oct98 10:03:10      2  Bank             Macross            apn009 Succeeded
+29Oct98 10:03:10      2  Bank             Blob               apn010 Succeeded
+29Oct98 10:03:10      1  Bank             Macross            apn011 Succeeded
+29Oct98 10:03:10      1  Bank             Blob               apn012 Succeeded
+31Oct98 12:03:00      2  Swann            Bank                      Succeeded
+02Nov98 07:39:44      1  R-O-M            Bank                      Succeeded
+
+======================================================================
+
+=====================
+Public Service Report
+=====================
+
+Date of this Report: Mon, 10 November 1998
+
+--------------
+Recent events:
+--------------
+
+Date: Sat, 31 Oct 1998 06:00:08 -0500
+
+     Gen Chaos proposes "Evidentiary Status of Officer Reports".
+
+Date: Uncertain
+
+     Antimatter deregisters.
+
+Date: Sun, 8 Nov 1998 11:00:11 -0500
+
+     Gen Chaos proposes "Proposals may Order"
+
+Date: As of this message
+
+     Chuck and Crito are now Required to Serve.
+
+Player       Status             Date of change
+------       ------             --------------
+Blob         Required to Serve  Mon,  2 Nov 1998 18:43:11 +1100
+Chuck        Required to Serve  As of this message
+Crito        Required to Serve  As of this message
+elJefe       Served             Thu, 29 Oct 1998 13:37:55 +1100
+Harlequin    Served             Thu, 29 Oct 1998 13:37:55 +1100
+lee          Served             Thu, 29 Oct 1998 13:37:55 +1100
+Macross      Served             Thu, 29 Oct 1998 13:37:55 +1100
+Michael      Served             Thu, 29 Oct 1998 13:37:55 +1100
+Morendil     Served             Thu, 29 Oct 1998 13:37:55 +1100
+Murphy       Served             Thu, 29 Oct 1998 13:37:55 +1100
+Oerjan       Served             Thu, 29 Oct 1998 13:37:55 +1100
+Steve        Served             Thu, 29 Oct 1998 13:37:55 +1100
+Kolja A.     Served             Fri, 30 Oct 1998 17:44:33 +0100
+G. Chaos     Served             Sun,  8 Nov 1998 11:00:11 -0500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

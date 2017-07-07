@@ -1,0 +1,1438 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 01:02 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA13961 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 01:02:45 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA19580
+	for agora-discussion-list; Sat, 7 Mar 1998 17:01:26 +1100
+Received: from roatan.ucs.indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA19577
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 17:01:18 +1100
+Received: from poverty.bloomington.in.us (scott@dial-126-23.ucs.indiana.edu [156.56.126.23])
+	by roatan.ucs.indiana.edu (8.8.8/8.8.5/1.13IUPO) with ESMTP id BAA29283
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 01:00:11 -0500 (EST)
+Received: (from scott@localhost) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) id BAA07805 for agora-discussion@gecko.serc.rmit.edu.au; Sat, 7 Mar 1998 01:00:07 -0500
+Date: Sat, 7 Mar 1998 01:00:07 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Message-Id: <199803070600.BAA07805@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: proto: The Industrial Revolution (Chaos33, rev. 2)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 7150
+
+Protoproposal Chaos33 [rev. 2]
+
+The Industrial Revolution
+
+Be it therefore resolved, that the following Rule be created:
+
+      Certain entities, or classes of entities, may be designated as
+      Possessions by the Rules.
+
+      Every entity which is designated as a Possession has an Owner.
+      If no other record exists of the Owner of a given Possession,
+      its Owner is the Bank.
+
+      Any entity which possesses any Possession, but which does not
+      have an Executor nor is already in Probate, shall be placed in
+      Probate.
+
+      The Owner of a Possession may transfer the Ownership of that
+      Possession to any other entity capable of owning Plots by
+      sending a message to the Officer responsible for maintaining the
+      record of Ownership of that Possession.  The message shall
+      unambiguously identify the Possession to be transferred and the
+      entity who is to receive ownership of that Possession.  The
+      change of ownership is effective at the time the message is
+      sent, unless the message specifies a later time.
+
+Be it therefore resolved, that Rule 896 be amended by deleting the
+paragraph reading "When a Player registers, eir Location is the
+Welcoming Center." 
+
+Be it therefore resolved, that Rule 1016 be amended by replacing
+"Moves to the Stasis Chamber" with "announces that e does so in the
+Public Forum", and by replacing "Moves from the Stasis Chamber" with
+"announces that e does so in the Public Forum".
+
+Be it therefore resolved, that Rule 1664 be amended by deleting the
+words "whose Location is the Beer Hall".
+
+Be it therefore resolved, that Rule 1711 be amended to read,
+
+      A Degree that has been Granted becomes awarded when the
+      recipient notifies the Speaker (or eir Delegate, as described
+      below) that e accepts the Degree.
+
+      When a Degree is Granted to a recipient who is not a Player, the
+      Speaker shall promptly inform the recipient that e has been
+      Granted the degree by some means which has a reasonable
+      likelihood of reaching the recipient.  The Speaker may Delegate
+      this duty to any other willing Player.
+
+Be it further resolved, that Rules 1706, 1707, 1708, and 1709 be
+repealed, and further that any and all Locations still remaining in
+existence are destroyed.
+
+Be it further resolved, that Rule 1710 be amended to read,
+
+      There shall exist the Office of Cartographor.  The Cartographor
+      shall retain the records of Ownership of Plots and of Factories.
+
+      The Official Report of the Cartographor shall contain:
+      * the Location and Ownership of every Plot
+      * the Placement and Ownership of every Factory
+
+Be it further resolved, that the following Rule be created:
+
+      A Location is an ordered pair of integers.  The first of these
+      two integers is the Longitude of that Location, and the second
+      is the Latitude.  No Longitude may be less than the Minimum
+      Longitude nor greater than the Maximum Longitude.  No Latitude
+      may be less than the Minimum Latitude nor greater than the
+      Maximum Latitude.  Initially, the Minimum Longitude and Minimum
+      Latitude are both 0, and the Maximum Longitude and Maximum
+      Latitude are both 10.  Any of these may be changed
+      (independently of the others) by the action of any Instrument of
+      Power 1 or greater, or by the Cartographor Without Objection,
+      but in no case may the Minimum Longitude be greater than the
+      Maximum Longitude, nor may the Minimum Latitude be greater than
+      the Maximum Latitude.
+
+      For each possible Location (as detailed above) there exists
+      exactly one Plot.  Plots are Possessions.
+
+      A Plot may contain Currencies.  For the purposes of the Rules, a
+      Plot's Executor is the same as the Executor of its Owner.
+
+Be it further resolved, that the following Rule be created:
+
+      Factories are a class of entities which may be placed upon
+      Plots.  At most one Factory may be placed upon a Plot, and every
+      Factory is placed on at most one Plot.  The Plot upon which a
+      Factory is placed is called its Placement.  
+
+      The Owner of a Factory which is not placed upon a Plot may place
+      it upon any Plot which does not already contain a Factory.  The
+      Owner of a Factory which is placed upon a Plot may remove it
+      from that Plot.  The Owner of a Plot may remove any Factory
+      placed upon it.  All of these are accomplished by the Owner of
+      the Factory (or the Plot, in the third case) by sending a
+      message to the Cartographor unambiguously specifying what is to
+      be done.
+
+      Factories are Possessions.  
+
+Be it further resolved, that the following Rule be created:
+
+      Each Factory is of a particular Design, and once created as a
+      Factory of that Design cannot be changed to a Factory of another
+      type.  
+
+      Every Factory consumes and produces units of Currency according
+      to its Design.  The Design for each Factory specifies an input
+      of a positive number of units of a Currency, and an output of a
+      non-negative number of units of a Currency (which need not be
+      distinct from that of the input).
+
+      At the beginning of each Nomic Week, if, in the Plot where a
+      Factory is placed, there exist at least as many units of the
+      input Currency as called for by that Factory's Design, and that
+      Factory is Active, the Factory destroys that many units of the
+      input Currency and creates the number of units of the output
+      Currency as specified in the Design.  The units of Currency thus
+      destroyed are taken from, and the units of Currency thus created
+      are added to, the Plot in which the Factory is Placed.
+
+      Any Factory which has, for the entire preceding Nomic Week, been
+      Placed in the same Plot, is Active.  All other Factories are
+      Idle.
+
+Be it further resolved, that the following Rule be created:
+
+      A Factory with a given Design may only be created by the Mintor
+      of the Output Currency called for by that Design. 
+
+      In order to create a Factory, the Mintor of the Output Currency
+      called for in that Design must destroy 4 Ergs, specifying that e
+      does in a message sent to both the Recordkeepor of Ergs and to
+      the Cartographor.  This message must also specify for the
+      Cartographor the Design of the Factory thus created.
+
+Be it further resolved, that the following Rule be created:
+
+      The following standard Factory Designs exist:
+
+      Mine:   Input is 1 Erg, output is 3 Ergs.
+      House:  Input is 1 Erg, output is 1 P-Note.
+      Farm:   Input is 1 Erg, output is 1 VT.
+      Church: Input is 1 Erg, output is 0 or more Indulgences, as
+      specified elsewhere.
+
+      The Bank may not create any Factory with a Design other than
+      those given by this Rule.
+
+      The Bank, upon the request of any entity who also successfully
+      transfers 4 Ergs to the Bank for the purpose of making that
+      request, shall create a Factory of any of these designs and
+      shall transfer ownership of the Factory thus created to the
+      entity thus requesting.
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 01:48 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA14520 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 01:48:12 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA19756
+	for agora-discussion-list; Sat, 7 Mar 1998 17:47:18 +1100
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id RAA19753
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 17:47:16 +1100
+Received: From hildegard With LocalMail ; Sat, 7 Mar 98 17:28:23 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 7 Mar 1998 17:28:21 +1100 (EST)
+Message-Id:  <980307062822.15806@cse.unsw.edu.au>
+Subject: Re: DIS: proto: The Industrial Revolution (Chaos33, rev. 2)
+In-Reply-To: <199803070600.BAA07805@poverty.bloomington.in.us> from "Scott Goehring" at Mar 7, 98 01:00:07 am
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 862
+
+> 
+> Protoproposal Chaos33 [rev. 2]
+> 
+> The Industrial Revolution
+> 
+
+I don't notice any difference between this and the last revision. In
+particular, you haven't answered my criticisms, which were:
+
+* Location is meaningless, so why bother with it.
+
+* The diversity penalty is missing. (It should cost more to run 
+  1 Farm and 1 House than to run 2 Farms or 2 Houses).
+
+Still, I like the mechanism for handling factory "input". It's neater
+than any maintenance payment system I have devised.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 02:24 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA14999 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 02:24:20 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA19890
+	for agora-discussion-list; Sat, 7 Mar 1998 18:19:31 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id SAA19887
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 18:19:28 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA29452; Sat, 7 Mar 1998 01:14:22 CST
+Message-Id: <199803070714.AA29452@dfw.dfw.net>
+Subject: Re: DIS: The Case for Impeachment
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 7 Mar 1998 01:14:21 -0600 (CST)
+In-Reply-To: <199803061706.MAA23522@placid.skidmore.EDU> from "Jonathan Fry" at Mar 6, 98 12:06:26 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 2338
+
+Jonathan Fry wrote:
+>
+>Consider, first, what will happen if the Impeachments do not pass.  On
+>the one hand, a Rebellion might occur,
+
+The fault of that lies with the Rebels.  It is in their power
+to stop it.  
+
+>On the other hand, if
+>the Rebellion does not occur, nearly all of the Offices will be held
+>by the few members of the Threat, adding further imbalance to the VT
+>distribution and such.
+
+"Imbalance?"  If you measure VT imbalance as VTs held by Threat
+vs. VTs held by non-Threat, I suppose it would.  The only
+VT imbalance I care about, however, is VTs held by me vs
+VTs held by everyone else.
+
+Now, consider that I recently lost an Election for Notary
+(no hard feelings, I hope, Murphy?  Certainly none on this
+side), even with the backing of the Threat.  Thus, it seems
+to me highly unlikely that in another Rebellion, I would
+win any elections except that for Rulekeepor.  In other words:
+No Rebellion: I am Rulekeepor, but hold no other offices.
+Rebellion: I am Rulekeepor, but hold no other offices.
+In either case, the VT imbalance--as I define it--is the same.
+
+>If, however, you and a few others vote for the Impeachments, we will
+>be able to avoid the complete deposition of all non-Threat Players in
+>Office.  We will be able to hold less Elections and keep people like
+>yourself and Kolja A. in office.
+
+I consider it an honor to be named Rulekeepor in perpetuity, but
+I do *not* take that to mean I can suddenly ignore the will of
+Agorans.  There is no shame in my having to run for re-election,
+at any time--if there comes a time when I cannot win an election
+for Rulekeepor, then I do not deserve to be Rulekeepor.
+
+In other words: First, I won't be blackmailed into voting
+for impeachments on the grounds that no impeachments will lead
+to Rebellion.  Second, if there is a Rebellion, either
+a) I win my election as Rulekeepor, in which case no harm
+is done, or b) I lose my election as Rulekeepor, in which
+case I do not deserve to be Rulekeepor anyway.  I feel the
+same holds true for Kolja and the Ambassadorship.
+
+>It is thus in this spirit that I ask you to vote FOR all Impeachments,
+>except in the unfortunate case of Michael.
+
+What if I said I would Rebel if Michael were not impeached?  (I
+ask merely hypothetically.)  Would you find that sufficient cause
+to vote FOR the impeachment of Michael?
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 02:26 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA15060 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 02:26:07 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA19918
+	for agora-discussion-list; Sat, 7 Mar 1998 18:23:35 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id SAA19915
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 18:23:32 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA29636; Sat, 7 Mar 1998 01:18:27 CST
+Message-Id: <199803070718.AA29636@dfw.dfw.net>
+Subject: DIS: Request: Call for Impeachment
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Discussion)
+Date: Sat, 7 Mar 1998 01:18:26 -0600 (CST)
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 158
+
+Looks like I accidentally deleted Sherlock's original
+message calling for impeachment.  Would someone
+send me a copy, including the timestamp?
+
+Thanks,
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 06:13 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA17918 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 06:13:21 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA20746
+	for agora-discussion-list; Sat, 7 Mar 1998 22:10:13 +1100
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id WAA20743
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 22:10:07 +1100
+Received: From hildegard With LocalMail ; Sat, 7 Mar 98 21:45:27 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 7 Mar 1998 21:45:26 +1100 (EST)
+Message-Id:  <980307104527.17232@cse.unsw.edu.au>
+Subject: Re: BUS: Re: DIS: Please Impeach Speaker-Elect Blob...
+In-Reply-To: <199803070722.AA29849@dfw.dfw.net> from "Charles E. Carroll" at Mar 7, 98 01:22:21 am
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 686
+
+> 
+> "A ceremonial handshake even more useless than usual!"  I love
+> it!  Now *this* is a good reason to vote for an impeachment.
+> (Who says procedural nomics can't be silly?  Procedural
+> silliness is much more fun than substantive silliness, anyway. :)
+> 
+> I vote FOR the Impeachment of Speaker-Elect Blob.
+
+Humph!
+
+Blob
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 06:36 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA18206 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 06:36:00 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA20872
+	for agora-discussion-list; Sat, 7 Mar 1998 22:34:41 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA20869
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 22:34:39 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id WAA20895
+	for agora-discussion@gecko.serc.rmit.edu.au; Sat, 7 Mar 1998 22:33:45 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199803071133.WAA20895@silas.cc.monash.edu.au>
+Subject: Re: DIS: Some thoughts on Impeachment
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 7 Mar 1998 22:33:45 +1100 (EST)
+In-Reply-To: <3500D328.5485E71@gwis.com> from "Steven Swiniarski" at Mar 6, 98 11:55:04 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2539
+
+Steven Swiniarski wrote:
+>
+>I've been sitting back, watching the discussion on this, and I've
+>noted that there seems to be an odd dissonance in the moral
+>color people are casting on the recent calls for impeachment.
+>
+>Consider the following; we have three mechanisms for forcing
+>officer elections.  The Speaker can call elections by fiat once
+>in eir term and I have never heard anyone disparage the use of this
+>power, or call it dishonorable.  It is obviously a tool for the
+>Speaker's political power, and I doubt anyone feels put out if the
+>Speaker uses it for such, in an attempt to put eir "party" in power, or
+>to keep the opposition from gaining too much control (as Morendil did
+>this past revolt)
+>
+>The next method is the all-or-nothing Revolt.  This too is a mechanism
+>of political power, or anti-power ;)  Again, there seems to be little
+>objection to the process itself.  I haven't seen anyone imply that
+>revolts are nasty or dishonorable, only that they may be too easy.
+>
+>Then we come to Impeachment, which mechanically is little different than
+>a Speaker's call for elections-- except there has to be two elections,
+>one a majority vote to see if the Office will indeed be up for
+>election.  On the level of political weight, this has to be the least of
+>the three since it requires a successful referendum to have any effect
+>at all.  Why should this inspire such loathing, while the prior two are
+>considered in such a different light?
+>
+>I think I have an answer, and a possible fix.
+>
+>The reason people take Impeachment personally is because, of the three,
+>it _is_ personal.  The call for elections and revolts both refer to
+>Offices.  Impeachment refers to the Player holding the Office.  Even the
+>name of the process has the connotation of wrongdoing, or at least
+>ill-will toward the Officer, in what should be able to be simply a
+>tactical move.
+
+I agree with this analysis. I would add that that the 2:1 majority
+needed to pass an Impeachment Referendum adds significantly to the
+opprobrium, because, if such a Referendum does pass, it carries
+enormous authority. Thus to bring an Impeachment Referendum against
+a Player is an extremely serious matter, and to vote for Impeachment
+is an action that should be taken only after careful consideration,
+not as a kneejerk reaction in the heat of the moment.
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 06:41 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA18255 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 06:41:11 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA20916
+	for agora-discussion-list; Sat, 7 Mar 1998 22:40:35 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA20913
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 22:40:33 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id WAA16575
+	for agora-discussion@gecko.serc.rmit.edu.au; Sat, 7 Mar 1998 22:39:39 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199803071139.WAA16575@silas.cc.monash.edu.au>
+Subject: Re: BUS: Re: DIS: Please Impeach Speaker-Elect Blob...
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 7 Mar 1998 22:39:39 +1100 (EST)
+In-Reply-To:  <980307104527.17232@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Mar 7, 98 09:45:26 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 716
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>> 
+>> "A ceremonial handshake even more useless than usual!"  I love
+>> it!  Now *this* is a good reason to vote for an impeachment.
+>> (Who says procedural nomics can't be silly?  Procedural
+>> silliness is much more fun than substantive silliness, anyway. :)
+>> 
+>> I vote FOR the Impeachment of Speaker-Elect Blob.
+>
+>Humph!
+
+Indeed. Speaker-Elect Blob does not deserve to become the first Player
+to be Impeached just because this would have some slightly amusing
+consequences.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 06:42 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA18260 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 06:42:34 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA20935
+	for agora-discussion-list; Sat, 7 Mar 1998 22:41:54 +1100
+Received: from satsuma.mail.easynet.net (satsuma.mail.easynet.net [195.40.1.44])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id WAA20932
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 22:41:50 +1100
+Received: (qmail 28548 invoked from network); 7 Mar 1998 11:41:11 -0000
+Received: from [193.131.248.4]
+  by satsuma.mail.easynet.net with SMTP; 7 Mar 1998 11:41:11 -0000
+Received: (qmail 6171 invoked from network); 7 Mar 1998 11:42:39 -0000
+Received: from [195.40.61.175]
+  by kiwi.mail.easynet.net with SMTP; 7 Mar 1998 11:42:39 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <l03110700b126cea436ec@[195.40.61.175]>
+In-Reply-To: <199803062307.SAA05087@placid.skidmore.EDU>
+References: <l03110700b1261cee470e@[195.40.61.175]> from "Dr. Jeffrey L.
+ Caruso" at Mar 6, 98 09:41:00 pm
+Mime-Version: 1.0
+Date: Sat, 7 Mar 1998 11:38:54 +0000
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+Subject: Re: DIS: The Case for Impeachment
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 1090
+
+>> What you're trying to do is to hold your chosen clique in Office while
+>> forcing elections for everyone else.  I see no honour in this, and it will
+>> not work anyway.
+>
+>Why not?  It worked for you. ;)
+
+Heh.  :-)
+
+Seriously, though:  Michael has a legitimate grievance because the scam
+forces caused him a lot of work without warning, for which I'm sorry.  He
+was further complaining because it seemed like a pure power grab with
+nothing more to it.
+
+If the original revolt had been purely for the purposes of grabbing power,
+I would not have supported it myself.  Likewise if your present Impeachment
+is for such purposes, I don't expect people to support it.
+
+Naturally, if you have some secret, stylish scam to pull off because of the
+impeachment, you won't tell me.  But you will need to tell someone, if you
+expect cooperation.
+
+Regards,
+-- elJefe, Threat Vizier
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 06:55 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA18439 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 06:55:27 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA21008
+	for agora-discussion-list; Sat, 7 Mar 1998 22:54:44 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA21005
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 22:54:43 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id WAA20723
+	for agora-discussion@gecko.serc.rmit.edu.au; Sat, 7 Mar 1998 22:53:49 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199803071153.WAA20723@silas.cc.monash.edu.au>
+Subject: Re: DIS: Please Impeach Speaker-Elect Blob...
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 7 Mar 1998 22:53:49 +1100 (EST)
+In-Reply-To: <199803062321.AAA21473@logatome.micronet.fr> from "Laurent Bossavit" at Mar 7, 98 00:23:27 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1832
+
+Laurent Bossavit wrote:
+>
+>I don't want to enter into any discussion of whether Impeachment is
+>an acceptable move under the circumstances or not, mostly because
+>I'm still working out an opinion in the matter; but the fact is that
+>the Referendum has been called, and a more fun and interesting 
+>things might come out of it.
+>
+>Take the impeachment of the Speaker-Elect. Rule 1647 says the
+>Speaker cannot be S-E. Rule 1555 says e can. The latter wins the
+>conflict. Just a dull conflict situation which the precedence Rules
+>handle quite well so far. But then, there is a chance that a Revolt
+>might occur shortly afterwards; Rule 1664 then triggers a Speaker
+>Transition. Rule 402 goes into a lovely dance with Speaker Steve
+>ceasing to be the Speaker while Speaker-Elect Steve becomes the
+>Speaker, after having performed a ceremonial handshake even more
+>useless than usual with emself -  surviving the Revolt but becoming
+>Tainted in the process, triggering one more Election.
+>
+>Now who wouldn't want to see such a thing, for the sheer silliness of 
+>it ? I for one woud love to, which is why I chose to vote FOR in this 
+>Referendum - the only one in which at this time I care to do so - and 
+>invite everyone who likes Silly Walks to do so as well.
+
+I hate to spoil your fun, but I think the honourable course is deny
+Players a reason to vote for Blob's Impeachment if it lies within my
+power to do it. Therefore, I announce that if Blob is Impeached, I
+shall immediately resign the Office of Speaker-Elect and appoint Blob
+as my successor, avoiding the fun and games you'd like to have at the
+expense of Blob's good name.
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 07:04 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA18501 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 07:04:28 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA21066
+	for agora-discussion-list; Sat, 7 Mar 1998 23:03:26 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA21063
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 23:03:25 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id XAA19478
+	for agora-discussion@gecko.serc.rmit.edu.au; Sat, 7 Mar 1998 23:02:31 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199803071202.XAA19478@silas.cc.monash.edu.au>
+Subject: Re: DIS: Please Impeach Speaker-Elect Blob...
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 7 Mar 1998 23:02:31 +1100 (EST)
+In-Reply-To: <199803062321.AAA21473@logatome.micronet.fr> from "Laurent Bossavit" at Mar 7, 98 00:23:27 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1303
+
+Laurent Bossavit wrote:
+>
+>I don't want to enter into any discussion of whether Impeachment is
+>an acceptable move under the circumstances or not, mostly because
+>I'm still working out an opinion in the matter; but the fact is that
+>the Referendum has been called, and a more fun and interesting 
+>things might come out of it.
+>
+>Take the impeachment of the Speaker-Elect. Rule 1647 says the
+>Speaker cannot be S-E. Rule 1555 says e can. The latter wins the
+>conflict. Just a dull conflict situation which the precedence Rules
+>handle quite well so far. But then, there is a chance that a Revolt
+>might occur shortly afterwards; Rule 1664 then triggers a Speaker
+>Transition. Rule 402 goes into a lovely dance with Speaker Steve
+>ceasing to be the Speaker while Speaker-Elect Steve becomes the
+>Speaker, after having performed a ceremonial handshake even more
+>useless than usual with emself -  surviving the Revolt but becoming
+>Tainted in the process, triggering one more Election.
+
+Actually, assuming 'Speaker Transition Reform' passed, which I think it
+did, there no longer is a ceremonial handshake.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 07:11 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA18613 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 07:11:56 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA21113
+	for agora-discussion-list; Sat, 7 Mar 1998 23:10:37 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA21110
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 23:10:35 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id XAA12361
+	for agora-discussion@gecko.serc.rmit.edu.au; Sat, 7 Mar 1998 23:09:36 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199803071209.XAA12361@silas.cc.monash.edu.au>
+Subject: Re: BUS: Re: DIS: Please Impeach Speaker-Elect Blob...
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 7 Mar 1998 23:09:36 +1100 (EST)
+In-Reply-To: <199803070722.AA29849@dfw.dfw.net> from "Charles E. Carroll" at Mar 7, 98 01:22:21 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1003
+
+Charles E. Carroll wrote:
+>
+>Laurent Bossavit wrote:
+>>
+>>Rule 402 goes into a lovely dance with Speaker Steve
+>>ceasing to be the Speaker while Speaker-Elect Steve becomes the
+>>Speaker, after having performed a ceremonial handshake even more
+>>useless than usual with emself 
+>
+>"A ceremonial handshake even more useless than usual!"  I love
+>it!  Now *this* is a good reason to vote for an impeachment.
+>(Who says procedural nomics can't be silly?  Procedural
+>silliness is much more fun than substantive silliness, anyway. :)
+>
+>I vote FOR the Impeachment of Speaker-Elect Blob.
+
+A great shame. In the first place, there won't be a ceremonial
+handshake: P3703 got rid of them. In the second place, if Blob
+is Impeached, I intend immediately to resign as Speaker-Elect,
+apoointing him as my successor.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 08:10 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA19507 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 08:10:36 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA21361
+	for agora-discussion-list; Sun, 8 Mar 1998 00:09:20 +1100
+Received: from roatan.ucs.indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA21358
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 8 Mar 1998 00:09:16 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-23.ucs.indiana.edu [156.56.126.23])
+	by roatan.ucs.indiana.edu (8.8.8/8.8.5/1.13IUPO) with ESMTP id IAA17964
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 08:08:08 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id IAA08208 for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 08:08:04 -0500
+Message-Id: <199803071308.IAA08208@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: The Industrial Revolution (Chaos33, rev. 2) 
+In-reply-to: Your message of "Sat, 07 Mar 1998 17:28:21 +1100."
+             <980307062822.15806@cse.unsw.edu.au> 
+Date: Sat, 07 Mar 1998 08:08:03 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 290
+
+"Malcolm" == Malcolm Ross Kinsella Ryan <malcolmr@cse.unsw.edu.au> writes:
+
+Malcolm> I don't notice any difference between this and the last
+Malcolm> revision.
+
+There aren't any.  Changes would have been marked with changebars.  I
+have been too busy with other issues to revise this proto.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 08:32 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA19729 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 08:32:25 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA21453
+	for agora-discussion-list; Sun, 8 Mar 1998 00:30:13 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id AAA21450
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 8 Mar 1998 00:30:10 +1100
+Received: from woodcock.cl.cam.ac.uk [128.232.2.209] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0yBJf7-0007qY-00; Sat, 7 Mar 1998 13:29:13 +0000
+Received: from mn200 by woodcock.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0yBJf5-0003IF-00; Sat, 7 Mar 1998 13:29:11 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Kudo transfers 
+In-Reply-To: <199803062332.SAA06922@poverty.bloomington.in.us>
+References: <l03110702b125d589d876@[195.40.61.175]>
+	<199803062332.SAA06922@poverty.bloomington.in.us>
+X-Mailer: VM 6.42 under Emacs 19.34.1
+Message-Id: <E0yBJf5-0003IF-00@woodcock.cl.cam.ac.uk>
+Date: Sat, 7 Mar 1998 13:29:11 +0000
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 655
+
+Scott Goehring writes:
+ 
+> "Jeffrey" == Jeffrey L Caruso <eljefe@easynet.co.uk> writes:
+ 
+> Jeffrey> I don't recall whether I have done so (and if not I realize
+> Jeffrey> that this is a bit late).  Still, I do apologize for the
+> Jeffrey> extra work we've caused you.
+ 
+> One wonders if the anti-Threats intend to apologize for all the
+> extra work they are about to create; the Registrar will be holding
+> any number of new Elections in the weeks to come.
+
+This is looking less likely at the moment.  I am not keeping track of
+the Impeachment votes, but I'd be surprised if any of them passed, and
+there are now only four Rebellious Players. 
+
+Michael.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 11:47 EST 1998
+Received: from gecko.serc.rmit.edu.au (root@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA01117 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 11:47:21 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA22111
+	for agora-discussion-list; Sun, 8 Mar 1998 01:59:28 +1100
+Received: from placid.skidmore.EDU (placid.skidmore.edu [141.222.1.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id BAA22108
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 8 Mar 1998 01:59:25 +1100
+Received: (from jfry@localhost)
+	by placid.skidmore.EDU (8.8.8/8.8.8) id KAA29705
+	for agora-discussion@gecko.serc.rmit.edu.au; Sat, 7 Mar 1998 10:01:15 -0500 (EST)
+From: Jonathan Fry <jfry@placid.skidmore.EDU>
+Message-Id: <199803071501.KAA29705@placid.skidmore.EDU>
+Subject: Re: DIS: Re: BUS: Kudo transfers
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 7 Mar 1998 10:01:14 -0500 (EST)
+In-Reply-To: <199803071416.JAA08504@poverty.bloomington.in.us> from "Scott Goehring" at Mar 7, 98 09:16:20 am
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1132
+
+Scott Goehring writes:
+> 
+> "Michael" == Michael Norrish <Michael.Norrish@cl.cam.ac.uk> writes:
+> 
+> Michael> This is looking less likely at the moment.  I am not keeping
+> Michael> track of the Impeachment votes, but I'd be surprised if any
+> Michael> of them passed, and there are now only four Rebellious
+> Michael> Players.
+> 
+> At the moment, none of them are passing, but the only one which cannot
+> possibly achieve a 2 to 1 ration is the Impeachment of Michael as
+> Cartographor.  The others are still too close to call.
+
+I was going to post a record of all who have Voted so far and how they
+did so, but I seem prohibited this by R1434.  If anyone else wishes
+to, go for it.
+
+						--Sherlock 
+
++->---->---->---->---->---->---->---->---->---->---->---->---->---->-+
+| It's time we see that thought is free so don't stand in front of   |
+| me and what I believe / Smitten by the unseen hand / Kneeling down |
+| to its command / Victims of a rich man's game / But truth crushed  |
+| shall rise again - Ken Tamplin -----------[jfry@skidmore.edu]------|
++--<----<----<----<----<----<----<----<----<----<----<----<----<----<+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 11:47 EST 1998
+Received: from gecko.serc.rmit.edu.au (root@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA01127 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 11:47:25 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA22048
+	for agora-discussion-list; Sun, 8 Mar 1998 01:47:56 +1100
+Received: from placid.skidmore.EDU (placid.skidmore.edu [141.222.1.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id BAA22045
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 8 Mar 1998 01:47:53 +1100
+Received: (from jfry@localhost)
+	by placid.skidmore.EDU (8.8.8/8.8.8) id JAA29510
+	for agora-discussion@gecko.serc.rmit.edu.au; Sat, 7 Mar 1998 09:49:39 -0500 (EST)
+From: Jonathan Fry <jfry@placid.skidmore.EDU>
+Message-Id: <199803071449.JAA29510@placid.skidmore.EDU>
+Subject: Re: DIS: The Case for Impeachment
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 7 Mar 1998 09:49:39 -0500 (EST)
+In-Reply-To: <l03110700b126cea436ec@[195.40.61.175]> from "Dr. Jeffrey L. Caruso" at Mar 7, 98 11:38:54 am
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1154
+
+Dr. Jeffrey L. Caruso writes:
+> If the original revolt had been purely for the purposes of grabbing power,
+> I would not have supported it myself.  Likewise if your present Impeachment
+> is for such purposes, I don't expect people to support it.
+
+Can I ask where you got the idea that I'm using the Impeachments to
+keep my "clique" in Office or "grab for power"?  First, I don't even
+have a "clique" (I'm too new for that); second, I wasn't planning to
+run in any of the upcoming Elections.
+
+You've charged me with this three times now, and I have to admit that
+I'm befuddled.
+
+If, on the other hand, you don't really believe this, and you're just
+doing it to reverse my argument upon myself --- bravo.  :)
+
+						--Sherlock
+
++->---->---->---->---->---->---->---->---->---->---->---->---->---->-+
+| It's time we see that thought is free so don't stand in front of   |
+| me and what I believe / Smitten by the unseen hand / Kneeling down |
+| to its command / Victims of a rich man's game / But truth crushed  |
+| shall rise again - Ken Tamplin -----------[jfry@skidmore.edu]------|
++--<----<----<----<----<----<----<----<----<----<----<----<----<----<+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 11:47 EST 1998
+Received: from gecko.serc.rmit.edu.au (root@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA01159 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 11:47:36 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA21925
+	for agora-discussion-list; Sun, 8 Mar 1998 01:17:24 +1100
+Received: from roatan.ucs.indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id BAA21922
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 8 Mar 1998 01:17:21 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-23.ucs.indiana.edu [156.56.126.23])
+	by roatan.ucs.indiana.edu (8.8.8/8.8.5/1.13IUPO) with ESMTP id JAA23201
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 09:16:24 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id JAA08504 for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 09:16:22 -0500
+Message-Id: <199803071416.JAA08504@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Kudo transfers 
+In-reply-to: Your message of "Sat, 07 Mar 1998 13:29:11 GMT."
+             <E0yBJf5-0003IF-00@woodcock.cl.cam.ac.uk> 
+Date: Sat, 07 Mar 1998 09:16:20 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 483
+
+"Michael" == Michael Norrish <Michael.Norrish@cl.cam.ac.uk> writes:
+
+Michael> This is looking less likely at the moment.  I am not keeping
+Michael> track of the Impeachment votes, but I'd be surprised if any
+Michael> of them passed, and there are now only four Rebellious
+Michael> Players.
+
+At the moment, none of them are passing, but the only one which cannot
+possibly achieve a 2 to 1 ration is the Impeachment of Michael as
+Cartographor.  The others are still too close to call.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 11:47 EST 1998
+Received: from gecko.serc.rmit.edu.au (root@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA01165 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 11:47:43 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA21487
+	for agora-discussion-list; Sun, 8 Mar 1998 00:35:56 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id AAA21484
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 8 Mar 1998 00:35:50 +1100
+Received: from woodcock.cl.cam.ac.uk [128.232.2.209] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0yBJkb-0004zg-00; Sat, 7 Mar 1998 13:34:53 +0000
+Received: from mn200 by woodcock.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0yBJkZ-0003It-00; Sat, 7 Mar 1998 13:34:51 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: BUS: An apology, and a Kudo transfer
+In-Reply-To: <199803071122.WAA14720@silas.cc.monash.edu.au>
+References: <E0yAuSq-0000la-00@merganser.cl.cam.ac.uk>
+	<199803071122.WAA14720@silas.cc.monash.edu.au>
+X-Mailer: VM 6.42 under Emacs 19.34.1
+Message-Id: <E0yBJkZ-0003It-00@woodcock.cl.cam.ac.uk>
+Date: Sat, 7 Mar 1998 13:34:51 +0000
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 471
+
+Steve Gardner writes:
+ 
+> You are right. Michael, please accept my full and unreserved apology
+> for dumping a lot of work on you without any warning. This apology
+> should have come a lot earlier, but better late than never. With
+> your permission, I should like to consider the matter closed.
+ 
+Thank you Steve (and elJefe also).  I am more than happy to put this
+behind us.  May you both long remain Samurai and Shoguns for your
+honourable play of the game.
+
+Michael.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 12:06 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA01546 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 12:06:23 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA22729
+	for agora-discussion-list; Sun, 8 Mar 1998 04:04:48 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA22726
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 8 Mar 1998 04:04:39 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 45364]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49418-17529>; Sat, 7 Mar 1998 18:02:58 +0100
+Date: 	Sat, 7 Mar 1998 18:02:47 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: Agora Nomic Discussion List <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: Re: DIS: Vanyel gone...
+In-Reply-To: <199803060053.LAA11834@gecko.serc.rmit.edu.au>
+Message-ID: <Pine.LNX.3.96.980307180010.18429D-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 330
+
+On Fri, 6 Mar 1998, Steve Gardner wrote:
+
+> > 550 dpb@cs.brown.edu... User unknown
+> 
+> Sigh. We seem to have lost Vanyel. I'll wait a while and see if this
+> clears itself up before unsubscribing him from the lists.
+
+He just posted to the conlang list with that very address.
+
+Greetings,
+Ørjan.
+
+-- 
+Stop .signature plagiarism!
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 13:48 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA02882 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 13:48:51 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA23131
+	for agora-discussion-list; Sun, 8 Mar 1998 05:47:47 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA23123
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 8 Mar 1998 05:47:42 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.8/8.8.7) with SMTP id KAA01856
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 10:46:43 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id KAA08042; Sat, 7 Mar 1998 10:46:41 -0800
+Message-Id: <199803071846.KAA08042@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 7 Mar 1998 10:45:44 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Re: BUS: Impeachment!
+In-reply-to: <199803060827.TAA21070@silas.cc.monash.edu.au>
+References: <199803060444.AA28431@dfw.dfw.net> from "Charles E. Carroll" at Mar 5, 98 10:44:48 pm
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 301
+
+Steve Gardner <gardner@silas-0.cc.monash.edu.au> wrote:
+> I appreciate your forbearance, and your willingness to hear arguments.
+> Some of the other Players appear to have adopted a 'shoot first and
+> answer questions later' approach.
+
+Isn't that the usual order? :-)
+
+	Antimatter
+	rmorganl@fhcrc.org
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 13:48 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA02883 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 13:48:52 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA23135
+	for agora-discussion-list; Sun, 8 Mar 1998 05:47:49 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA23130
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 8 Mar 1998 05:47:45 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.8/8.8.7) with SMTP id KAA01860
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 10:46:45 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id KAA08044; Sat, 7 Mar 1998 10:46:43 -0800
+Message-Id: <199803071846.KAA08044@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 7 Mar 1998 10:45:44 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Proto: Birthrights
+In-reply-to: <199803060842.TAA25391@silas.cc.monash.edu.au>
+References: <199803060449.UAA06964@fred.fhcrc.org> from "Ross Morgan-Linial" at Mar 5, 98 08:48:44 pm
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3280
+
+Steve Gardner <gardner@silas-0.cc.monash.edu.au> wrote:
+> Ross Morgan-Linial wrote:
+> >Possibly. However, I think that being able to outspend everyone else 
+> >due to VT income qualifies.
+> 
+> But that assumes that the Players divide politically into the
+> Officers and the non-Officers. In general that is not the case.
+> Rather, one tends to find shifting alliances of Officer and non-
+> Officers working against other shifting alliances of other Officers
+> and non-Officers.
+
+Hmmm. That's true, but still, Officers get vastly more income than 
+non-Officers, so eventually non-Officers will become politically 
+negligible (specifically: when their bank accounts run dry). This 
+ignores Quorum, however.
+
+> >It's not a completely different system - the proto would make a total 
+> >of three short rule changes; hardly enough to overhaul the system. It 
+> >would just change the inputs, it wouldn't effect scarcity much.
+> 
+> The fact that the Rule changes are short does not mean that they are
+> not profound. Witness public voting.
+
+True. However, I maintain that under Birthrights, VTs would be more 
+scarce than they are now, not less.
+
+> >> Personally,
+> >> I want to explore the possibilities of this one for a good while longer
+> >> yet.
+> >
+> >Hmm. Why don't I believe you're unbiased? :-)
+> 
+> I would be making exactly the same arguments if I held not a single
+> Office. Indeed, I will continue to make these same arguments through
+> the coming Revolt, even though I do not expect retain any Office that
+> I hold as a result of it.
+
+Well spoken. I would like to know which aspects of the current 
+system, in particular, you think are worth saving.
+
+> >> But in the second place, insofar as the effects of the current system
+> >> are discernible at this early stage, those effects appear to have
+> >> been good ones. We've just witnessed the most interesting and
+> >> closely fought set of Elections ever held in the game, a fact which I
+> >> think is directly attributable to the desirability of holding Office
+> >> in the new system.
+> >
+> >Having the most signifigant source of P-Notes would also be 
+> >desirable, especially if a P-Note RGB provision were added to the 
+> >proto. Does anyone support that?
+> 
+> I would support some kind of attempt to make P-Notes scarce, although
+> the matter is not as urgent as it was for VTs. There are less P-Notes
+> in circulation, very few entering, and substantial numbers leaving.
+> So even if no steps in that direction are taken, scarcity should assert
+> itself soon enough. I should, though, check the last few P-Note Reports
+> to get a better idea of how matters lie.
+> 
+> >> This ensures that Players are motivated to discharge their Official duties
+> >> well.
+> >
+> >I don't believe that the current level of reward is neccessary to 
+> >encourage Officers to do their jobs well.
+> 
+> But it's interesting to note, isn't it, that as soon as Offices
+> reached their current levels of reward, we suddenly saw a whole set
+> of really tough Elections. This makes me think that Offices have just
+> now for the first time reached something like their appropriate level
+> of reward. I think it would be a mistake to step back from that, at
+> least so soon.
+
+Hmmm... this requires some thought.
+
+	Antimatter
+	rmorganl@fhcrc.org
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 13:48 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA02881 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 13:48:50 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA23132
+	for agora-discussion-list; Sun, 8 Mar 1998 05:47:47 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA23124
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 8 Mar 1998 05:47:43 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.8/8.8.7) with SMTP id KAA01864
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 10:46:47 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id KAA08048; Sat, 7 Mar 1998 10:46:45 -0800
+Message-Id: <199803071846.KAA08048@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 7 Mar 1998 10:45:44 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Re: BUS: Registration and other actions
+In-reply-to: <199803060825.TAA15606@silas.cc.monash.edu.au>
+References: <199803060438.UAA06224@fred.fhcrc.org> from "Ross Morgan-Linial" at Mar 5, 98 08:37:22 pm
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2512
+
+Steve Gardner <gardner@silas-0.cc.monash.edu.au> wrote:
+> Ross Morgan-Linial wrote:
+> >Call me paranoid, but I am extremely suspicious of anyone who scams 
+> >for a Power=4 instrument and 10 VTs, regardless of declared 
+> >intentions, even if it *does* close a loophole. Also, since a Revolt 
+> >is imminent anyways, I don't see it making much of a difference. 
+> >Finally, if the Speaker can use eir powers to pursue a scam, lesser 
+> >players can use their powers to respond, yes?
+> 
+> Please note that the scam Proposal very carefully and strictly
+> limits what Power 4 instruments the Threat Vizier can create.
+> Essentially, all we'll be able to do is leave the Monument in
+> the Ruleset, and that's it. Finito. I hope this allays your
+> suspicions. I mean, really, if this were a naked grab for power,
+> don't you think we would have used the instrument loophole to
+> install ourselves as the absolute authority in the game, which
+> we could have done? Does it mean nothing to you at all that we
+> chose not to do this?
+
+I don't believe it's a naked grab for power. I believe it's a naked 
+grab for fame and fortune :-)
+
+> Secondly, it meaks a big difference to *me* whether I'm retired 
+> from Office as part of general Revolt, or summarily removed
+> from it in disgrace as a result of being impeached. Impeachment
+> is a very serious matter.
+
+I seriously doubt you will, in fact, be Impeached. Also, I don't 
+think being removed in a broad Impeachment of many officers is 
+particularly disgraceful. The disgrace associated with impeachment 
+(generally) comes from what the person impeached did, not the 
+impeachment.
+
+> Finally, if impeaching me would impede the scam in some way then
+> I would accept it, the above concerns notwithstanding. But it will
+> have no effect on the scam whatsoever. The Referenda will not
+> conclude until more than 2 days after the Voting Period on P3710
+> has concluded. Attempts to defeat the scam are welcome and I
+> encourage them. But punishment for having executed a scam is, I
+> think, another matter altogether.
+
+I wouldn't vote for impeachment based on the scam if it wasn't a 
+scam which relied on Officership. The criterion for impeachment is 
+generally (TTBOMK) abuse of official powers, and I think that 
+scamming the ruleset is abuse of power (benign, all in good fun, and 
+certainly forgivable, however). Therefore, I am voting to impeach.
+I do hope you don't take it personally.
+
+	Antimatter
+	rmorganl@fhcrc.org
+	Schrodinger's cat is <blink>NOT</blink> DEAD
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 15:42 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA04587 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 15:42:21 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA23595
+	for agora-discussion-list; Sun, 8 Mar 1998 07:41:01 +1100
+Received: from logatome.micronet.fr (logatome-2.francenet.fr [193.149.96.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA23589
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 8 Mar 1998 07:40:58 +1100
+Received: from arapael (pppA228.francenet.fr [193.149.100.82])
+	by logatome.micronet.fr (8.8.8/8.8.8) with SMTP id VAA26155
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Mar 1998 21:40:01 +0100 (CET)
+Message-Id: <199803072040.VAA26155@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 7 Mar 1998 21:41:33 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: BUS: Re: DIS: Please Impeach Speaker-Elect Blob...
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 684
+
+> Indeed. Speaker-Elect Blob does not deserve to become the first
+> Player to be Impeached just because this would have some slightly
+> amusing consequences. 
+
+Oh, come on. It's not as if being Impeached as S-E carries any of
+the opprobrium that arguably attaches to being Impeached for another
+Office. The S-E performs no duties whatsoever; it's purely an Office
+of convenience.
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                       (o o)
+--------------------------------     -oOO--(~)--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 19:46 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA08567 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 19:46:55 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA24510
+	for agora-discussion-list; Sun, 8 Mar 1998 11:45:37 +1100
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id LAA24507
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 8 Mar 1998 11:45:35 +1100
+Received: From hildegard With LocalMail ; Sun, 8 Mar 98 11:44:38 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 8 Mar 1998 11:44:38 +1100 (EST)
+Message-Id:  <980308004438.20364@cse.unsw.edu.au>
+Subject: Re: DIS: BUS: An apology, and a Kudo transfer
+In-Reply-To: <E0yBJkZ-0003It-00@woodcock.cl.cam.ac.uk> from "Michael Norrish" at Mar 7, 98 01:34:51 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1020
+
+> 
+> Steve Gardner writes:
+>  
+> > You are right. Michael, please accept my full and unreserved apology
+> > for dumping a lot of work on you without any warning. This apology
+> > should have come a lot earlier, but better late than never. With
+> > your permission, I should like to consider the matter closed.
+>  
+> Thank you Steve (and elJefe also).  I am more than happy to put this
+> behind us.  May you both long remain Samurai and Shoguns for your
+> honourable play of the game.
+
+I know this sounds like a belated "me too", but I would like to add my 
+apologies to Steve and elJefe's, even if my Rebellion ended up having
+no effect on the outcome.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sat Mar  7 20:01 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA08817 for <dpb@cs.brown.edu>; Sat, 7 Mar 1998 20:01:42 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA24585
+	for agora-discussion-list; Sun, 8 Mar 1998 12:00:45 +1100
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id MAA24582
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 8 Mar 1998 12:00:42 +1100
+Received: From hildegard With LocalMail ; Sun, 8 Mar 98 11:59:45 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 8 Mar 1998 11:59:44 +1100 (EST)
+Message-Id:  <980308005945.20469@cse.unsw.edu.au>
+Subject: Re: DIS: The Case for Impeachment
+In-Reply-To: <199803071449.JAA29510@placid.skidmore.EDU> from "Jonathan Fry" at Mar 7, 98 09:49:39 am
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2194
+
+> 
+> Dr. Jeffrey L. Caruso writes:
+> > If the original revolt had been purely for the purposes of grabbing power,
+> > I would not have supported it myself.  Likewise if your present Impeachment
+> > is for such purposes, I don't expect people to support it.
+> 
+> Can I ask where you got the idea that I'm using the Impeachments to
+> keep my "clique" in Office or "grab for power"?  First, I don't even
+> have a "clique" (I'm too new for that); second, I wasn't planning to
+> run in any of the upcoming Elections.
+
+Isn't it clear that you are part of quite a strong clique which just
+recently formed, ie the "get Threat out of power" clique? Who do you
+intend will fill the Offices that you oust us from? Are they not members
+of that clique? 
+
+Not that I blame you for this, but your concern to keep power out of 
+our hands is pretty much equivalent to our concern to hold on to it,
+isn't it?
+
+You may claim to be working to spread the Offices around a bit, to have
+no strong concentration of power, but if that is the case, why are you
+trying to Impeach us for all the Offices we hold? Why not just select
+about half of them, and let us keep the rest? 
+
+I don't accuse you of wrongdoing, you are just playing the game. And
+part of that is playing to win. I am also playing to win, as recent
+events have shown. I just don't buy your innocent arguments that you
+are doing this for the good of the game.
+
+Of course, by all means resist our hold on power. It wouldn't be 
+much fun if you didn't. And, if it helps your cause, appeal to other
+players for the good of the game in order to help you do so, but 
+don't expect us to sit idly by and let you do so. Agora is a game of
+propaganda as much as any other form of politics. It may not be the
+Public Forum, but I strongly believe that this game is won or lost in
+agora-discussion. 
+
+Blob
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+

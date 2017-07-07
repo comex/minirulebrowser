@@ -1,0 +1,1940 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 00:05 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA02135 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 00:05:47 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA18926
+	for agora-discussion-list; Mon, 10 Nov 1997 15:56:22 +1100
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA18923
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 10 Nov 1997 15:56:10 +1100
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Mon, 10 Nov 1997 00:44:29 -0500
+Received: by windowsnt from ford
+    (199.107.161.243::mail daemon; unverified,SLMail V2.5); Mon, 10 Nov 1997 00:44:18 -0500
+Message-Id: <3.0.3.32.19971109204824.007a1b40@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.3 (32)
+Date: Sun, 09 Nov 1997 20:48:24 -0800
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: DIS: Re: BUS: Proto:  Plots (v1.5)
+In-Reply-To: <199711100239.SAA26506@bug1.fhcrc.org>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 4604
+
+Antimatter wrote:
+
+>>      The Cartographor is authorized to change any non-Rule-Named Plot's
+>>      name Without Objection.
+
+>You give this same power to the Owner of the plot later in the 
+>proposal. I would recommend restricting this to the Assessor only 
+>changing unOwned plots.
+
+Right.
+
+>> All Plots are destroyed.
+
+>I assume this is to destroy any Locations which have been turned into 
+>Plots?
+
+Yes.
+
+>> One hundred Plots are created with the names "Area XY", where X and Y are
+>> each digits ranging from 0 to 9.  "Area XY" is Adjacent to "Area MN" iff
+
+>You should repeat the statement about XYMN being numbers from 0-9, I 
+>think.
+
+Right.
+
+>>      A Plot's Owner may change that Plot's name Without Objection.
+
+>Does this allow the Bank to change Plots' names Without Objection, I 
+>wonder?
+
+I suppose so.
+
+>> Create a Rule entitled "Winning by Ownership" with this text:
+
+>>      Owning at least half of all Plots is a Winning Condition known as
+>>      a Win by Ownership.
+
+>I am still rather suspicious of this, myself. Do we really need to 
+>make it possible to Win, in addition to being able to get an 
+>economically superior position?
+
+It needs a clause along the lines of "Upon such a Win, all the Winner's
+Plots become Owned by the Bank".  Would you support it then?
+
+>> Create a Rule entitled "Mules" with this text:
+>> 
+>>      Mules are a Currency.  Their MUQ is 1.  Their Recordkeepor is the
+>>      Cartographor.
+>> 
+>>      A Mule's Owner may transfer that Mule to any Plot e owns, or vice
+>>      versa, by executing a Transfer Order accordingly.  However, no Plot
+>>      may possess more than one Mule.
+
+>I still like this touch :-) Whose idea was it?
+
+The name was my idea, but someone else created the mechanics.
+
+>> Amend Rule 1677 to read:
+
+>>      Upon the start of a Player's Grace Period, the Registrar shall
+>>      pay out to that Player an award of 5 Voting Tokens, 5 P-Notes,
+>>      5 Mules, and 20 units of Energy.
+
+>Perhaps it would be better if the *Bank* payed that player. I'd hate 
+>to be the Registrar under that :-)
+
+What's so tough about making 4 Payment Orders each time a new Player
+registers?  I have the Registrar do it because that's who tracks
+registrations and Grace Periods.
+
+>BTW, I notice that enough Energy is awarded to develop all five Mules 
+>immediately, provided you can get five Plots. If several are 
+>developed as Mines (and it's timed right), this would allow people to 
+>get up and running at full production immediately. That's bad, I 
+>think. Reduce the Energy award to 15, perhaps.
+
+Sounds good.
+
+>> Create a rule titled "Production from Structures" reading:
+>> 
+>>      At the beginning of each Nomic Week, the Cartographor shall pay
+>>      out each Structure's Production to its Owner (if its Production
+>>      is greater than zero).  Unless otherwise specified, each Structure's
+>>      Production is as follows:
+>> 
+>>        * Farms - 5 VT
+>>        * Houses - 1 P-Note
+>>        * Mines - 2 units of Energy
+
+>That allows one Mine to support four structures, and that's with at 
+>least one of each type. C'mon, we need a little *scarcity*! I think 1 
+>unit of Energy is about right (which means about 1 in 3 structures, 
+>depending on the degree people specialize, need to be Mines - more to 
+>allow people to change structures often)
+
+Sounds good.
+
+>I think Mines should just decrease production of adjacent Farms and 
+>Houses (lowers property values :-). Something like:
+>
+>     A Farm's Production is increased by 0.5 VT for each House or
+>     Church to which it is Adjacent, and decreased by 1 VT for each
+>     Mine to which it is Adjacent.
+>
+>     A House's Production is increased by 1 P-Note for every 2 Farms
+>     to which it is Adjacent, and decreased by 1 P-Note for every 2 
+>     Mines to which it is Adjacent.
+>
+>     A Mine's Production is not affected by Adjacency.
+
+Sounds good.
+
+>>        * all cases of a Mule becoming or ceasing to be a Structure
+>... since the last Report.
+
+Right.
+
+>> Amend Rule 1367 by adding this paragraph:
+>> 
+>>      "Granting a Degree" and "awarding a Degree" are synonymous.  A
+>>      Player who has been awarded a Degree possesses that Degree.
+
+>This belongs in a seperate proposal, methinks.
+
+No, it's because I added Movement to the Degree system by making "granted"
+and "awarded" non-synonymous; so I'm taking it out by making them
+synonymous.  It could also be done by replacing all instances of one with
+the other, but why not allow either term to be used?
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+"I see," said Arthur, who didn't.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 02:16 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA04431 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 02:15:54 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA19397
+	for agora-discussion-list; Mon, 10 Nov 1997 18:05:28 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA19394
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 10 Nov 1997 18:05:23 +1100
+Received: from cf-tsr-02.fhcrc.org (port02-rem [140.107.12.32])
+	by bug1.fhcrc.org (8.8.7/8.8.7) with SMTP id XAA28688
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 9 Nov 1997 23:05:42 -0800 (PST)
+Message-Id: <199711100705.XAA28688@bug1.fhcrc.org>
+Comments: Authenticated sender is <rmorganl@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+Organization: very little
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 9 Nov 1997 22:59:48 -0800
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Re: BUS: Proto:  Plots (v1.5)
+X-mailer: Pegasus Mail for Windows (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1976
+
+"Ed Murphy" <ford@bayside.net> wrote:
+> Antimatter wrote:
+> >> Create a Rule entitled "Winning by Ownership" with this text:
+> 
+> >>      Owning at least half of all Plots is a Winning Condition known as
+> >>      a Win by Ownership.
+> 
+> >I am still rather suspicious of this, myself. Do we really need to 
+> >make it possible to Win, in addition to being able to get an 
+> >economically superior position?
+> 
+> It needs a clause along the lines of "Upon such a Win, all the Winner's
+> Plots become Owned by the Bank".  Would you support it then?
+
+I hadn't even noticed that such a clause was absent. :-/
+
+> >> Amend Rule 1677 to read:
+> 
+> >>      Upon the start of a Player's Grace Period, the Registrar shall
+> >>      pay out to that Player an award of 5 Voting Tokens, 5 P-Notes,
+> >>      5 Mules, and 20 units of Energy.
+> 
+> >Perhaps it would be better if the *Bank* payed that player. I'd hate 
+> >to be the Registrar under that :-)
+> 
+> What's so tough about making 4 Payment Orders each time a new Player
+> registers?  I have the Registrar do it because that's who tracks
+> registrations and Grace Periods.
+
+No no no no. I mean, the Registrar would get rather poor, having to 
+pay each new player all that...
+
+> >> Amend Rule 1367 by adding this paragraph:
+> >> 
+> >>      "Granting a Degree" and "awarding a Degree" are synonymous.  A
+> >>      Player who has been awarded a Degree possesses that Degree.
+> 
+> >This belongs in a seperate proposal, methinks.
+> 
+> No, it's because I added Movement to the Degree system by making "granted"
+> and "awarded" non-synonymous; so I'm taking it out by making them
+> synonymous.  It could also be done by replacing all instances of one with
+> the other, but why not allow either term to be used?
+
+I'm afraid you've lost me completely. What does Movement have to do 
+with Degrees? I'm sure it's very simple, but I'm confused.
+
+-------------------------------
+Antimatter * rmorganl@fhcrc.org
+You have the power of negation.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 02:44 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA04848 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 02:44:07 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA19540
+	for agora-discussion-list; Mon, 10 Nov 1997 18:39:57 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA19532
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 10 Nov 1997 18:39:26 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id SAA00943;
+	Mon, 10 Nov 1997 18:39:53 +1100 (EST)
+Received: from ns.NL.net (ns.NL.net [193.78.240.1])
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) with SMTP id RAA32469
+	for <gardner@aurora.cc.monash.edu.au>; Mon, 10 Nov 1997 17:10:30 +1100 (EST)
+Received: from iwg by ns.NL.net (5.65b/NLnet1.3)
+	id AA17544; Mon, 10 Nov 1997 07:02:06 +0100
+Received: by iwg.nl (0.99.970109)
+  id AA05018; 10 Nov 97 07:00:17 +0200
+From: Berry.Renken@hunze.iwg.nl (Berry Renken)
+Date: 10 Nov 97 00:09:00 +0200
+Subject: DIS: Search for Life on other Nomic Planets
+Message-Id: <7e5_9711100700@iwg.nl>
+Organization: Stichting InterWorld
+To: snowgod@alaska.net
+Cc: gardner@aurora.cc.monash.edu.au
+Cc: geppetto@mnsinc.com
+Cc: johnl@gate1.tomatoweb.com
+Cc: shogun1@earthlink.net
+Cc: rmorganl@fhcrc.org
+Cc: oerjan@nvg.ntnu.no
+Cc: dbh@doc.ic.ac.uk
+Cc: dcr24@cam.ac.uk
+Cc: tows@earthlink.net
+Cc: nomic-admin@soc.titech.ac.jp
+Cc: scott@poverty.bloomington.in.us
+Cc: dmarsh@iserv.net
+Cc: wfs@ubu.edu
+Cc: emcguire@i2.com
+Cc: drwest@umich.edu
+Cc: bruck@actcom.co.il
+Cc: m954290@arctic.nadn.navy.mil
+Cc: thring@iagu.on.net
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 406
+
+ Hello guys,
+
+ I'm running a Nomic game via my E-mail gaming zine (game & discussion 
+ newsletter) "The Bluesmobile" and was wondering if and how contact can be
+ established between the various E-mailable 'Nomic planets' (about 20 in 
+ number, as far as I'm aware). All and any reactions to this are very 
+ welcome.
+
+
+ All the best,
+
+ Berry Renken
+ Diever, the Netherlands
+
+
+
+--- Blue Wave/DOS v2.30 [NR]
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 02:44 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA04845 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 02:43:44 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA19537
+	for agora-discussion-list; Mon, 10 Nov 1997 18:39:29 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA19534
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 10 Nov 1997 18:39:28 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id SAA32709;
+	Mon, 10 Nov 1997 18:39:40 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199711100739.SAA32709@aurora.cc.monash.edu.au>
+Subject: DIS: Re: Search for Life on other Nomic Planets
+To: Berry.Renken@hunze.iwg.nl (Berry Renken)
+Date: Mon, 10 Nov 1997 18:39:40 +1100 (EST)
+Cc: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List),
+        internomic@muppetlabs.com (The InterNomic Mailing List)
+In-Reply-To: <7e5_9711100700@iwg.nl> from "Berry Renken" at Nov 10, 97 00:09:00 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1396
+
+Berry Renken wrote:
+>
+> Hello guys,
+>
+> I'm running a Nomic game via my E-mail gaming zine (game & discussion 
+> newsletter) "The Bluesmobile" and was wondering if and how contact can be
+> established between the various E-mailable 'Nomic planets' (about 20 in 
+> number, as far as I'm aware). All and any reactions to this are very 
+> welcome.
+>
+>
+> All the best,
+>
+> Berry Renken
+> Diever, the Netherlands
+
+We are, to an extent, way ahead of you there, Berry. Several email
+Nomics (Agora, Thring, Acknomic, Rishonomic, The Pumpkin Patch) are
+already in steady contact with each other and are indeed conducting a
+game of Internomic with the individual Nomics as members. It's good
+to see that there are other Nomics out there, though. It'd be great
+to swell the Internomic membership and get more Nomic Players in touch
+with each other.
+
+The Agora Mailing Lists are located at:
+
+<agora-discussion@gecko.serc.rmit.edu.au>
+<agora-official@gecko.serc.rmit.edu.au>
+<agora-business@gecko.serc.rmit.edu.au>
+
+I'll get the Internomic mailing list address for you in a tic and pass
+it along. No, better, I'll cc this to Agora and to Internomic. Someone
+will get in touch with you. Probably several people.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 03:20 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA05459 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 03:20:18 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA19714
+	for agora-discussion-list; Mon, 10 Nov 1997 19:15:16 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id TAA19711
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 10 Nov 1997 19:15:03 +1100
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.736 #1)
+	id 0xUp0B-00040b-00; Mon, 10 Nov 1997 08:15:19 +0000
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0xUp09-0001ZY-00; Mon, 10 Nov 1997 08:15:17 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: reactions to Le ton beau de Marot?
+X-Mailer: VM 6.34 under Emacs 19.34.1
+Message-Id: <E0xUp09-0001ZY-00@merganser.cl.cam.ac.uk>
+Date: Mon, 10 Nov 1997 08:15:17 +0000
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 256
+
+We had a brief spate of people saying that they were reading this.  
+
+I'm wondering what people thought about it.  I haven't read it myself,
+so I want to know if it's worth my time (it'd go to the end of a very
+long queue :-)
+
+Tangentially yours,
+Michael.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 13:09 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA19845 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 13:09:38 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA21927
+	for agora-discussion-list; Tue, 11 Nov 1997 04:27:28 +1100
+Received: from wsinfm15.win.tue.nl (wsinfm15.win.tue.nl [131.155.69.168])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA21920
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 04:27:23 +1100
+Received: by wsinfm15.win.tue.nl (8.7.1/1.45)
+    id OAA04024; Mon, 10 Nov 1997 14:01:32 +0100 (MET)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199711101301.OAA04024@wsinfm15.win.tue.nl>
+Subject: Re: DIS: proto: Inadvertent Transfers to the Bank (Chaos6, rev. 1)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 10 Nov 1997 14:01:31 +0100 (MET)
+In-Reply-To: <199711100246.VAA20419@poverty.bloomington.in.us> from "Scott Goehring" at Nov 9, 97 09:46:43 pm
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 909
+
+Scott Goehring wrote:
+> 
+> Protoproposal Chaos6 [rev. 1]
+> 
+> Inadvertent Transfers to the Bank
+> 
+> Be it therefore resolved, that the following Rule be created:
+> 
+>       If an entity transfers Currency to the Bank without being
+>       required to do so by the Rules (including by a Payment Order)
+>       and does not, at the time, specify that e is donating those
+>       Currencies to the Bank, the Bank shall, as soon as possible,
+>       transfer that Currency back to that entity.
+
+I don't like the 'without being required to do so by the Rules (including
+by a Payment Order)' part. What about '... without being required to do
+so by the Rules, and without satisfying a Payment Order by the Transfer.'
+
+
+-- 
+Andre Engels, engels@win.tue.nl
+http://www.win.tue.nl/cs/fm/engels/index_en.html
+
+"Natuerlich gibt es schoenere Dinge als Go... und wichtigere... 
+ aber nicht viele!" - Andreas Fecke, Stones
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 13:09 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA19848 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 13:09:41 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA21939
+	for agora-discussion-list; Tue, 11 Nov 1997 04:27:35 +1100
+Received: from wsinfm15.win.tue.nl (wsinfm15.win.tue.nl [131.155.69.168])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA21932
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 04:27:31 +1100
+Received: by wsinfm15.win.tue.nl (8.7.1/1.45)
+    id NAA03984; Mon, 10 Nov 1997 13:48:12 +0100 (MET)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199711101248.NAA03984@wsinfm15.win.tue.nl>
+Subject: DIS: Re: BUS: Proto:  Fix Electioneering
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 10 Nov 1997 13:48:11 +0100 (MET)
+In-Reply-To: <3.0.3.32.19971109132233.007d2420@mail.bayside.net> from "Ed Murphy" at Nov 9, 97 01:22:33 pm
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1567
+
+Ed Murphy wrote:
+> 
+> Proto:  Fix Electioneering
+> 
+> Amend Rule 452 by replacing this paragraph:
+> 
+>       This Rule shall in no way prohibit the Vote Collector from
+>       posting, at any time and to the Public Forum, a list of those
+>       Voting Entities which have already voted or declared that they
+>       are Present on a given Proposal, Election or Referendum, as
+>       long as e does not indicate specifically whether the Voting
+>       Entity has voted or declared Presence. Doing so is not a Crime,
+>       unless specified as such by another Rule.
+> 
+> with this one:
+> 
+>       This Rule shall in no way prohibit the Vote Collector from
+>       posting, at any time and to the Public Forum, a list or count of
+>       those Voting Entities which have already voted or declared that they
+>       are Present on a given Proposal, Election or Referendum, as
+>       long as e does not indicate specifically whether any given Voting
+>       Entity has voted or declared Presence. Doing so is not a Crime,
+>       unless specified as such by another Rule.
+
+'... whether any given Voting Entity has voted or declared Presence' can
+be interpreted in the wrong way. I think it is therefore better to change
+the phrase into "... as long as e does not indicate of any given Voting
+Entity specifically whether the Voting Entity has voted or declared
+Presence."
+
+
+-- 
+Andre Engels, engels@win.tue.nl
+http://www.win.tue.nl/cs/fm/engels/index_en.html
+
+"Natuerlich gibt es schoenere Dinge als Go... und wichtigere... 
+ aber nicht viele!" - Andreas Fecke, Stones
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 13:09 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA19853 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 13:09:55 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA21921
+	for agora-discussion-list; Tue, 11 Nov 1997 04:27:24 +1100
+Received: from wsinfm15.win.tue.nl (wsinfm15.win.tue.nl [131.155.69.168])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA21915
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 04:27:20 +1100
+Received: by wsinfm15.win.tue.nl (8.7.1/1.45)
+    id OAA04031; Mon, 10 Nov 1997 14:02:16 +0100 (MET)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199711101302.OAA04031@wsinfm15.win.tue.nl>
+Subject: Re: DIS: proto: Clarify PI Infraction (Chaos7, rev. 1)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 10 Nov 1997 14:02:15 +0100 (MET)
+In-Reply-To: <199711100411.XAA25129@poverty.bloomington.in.us> from "Scott Goehring" at Nov 9, 97 11:11:00 pm
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 644
+
+Scott Goehring wrote:
+> 
+> Protoproposal Chaos7 [rev. 1]
+> 
+> Clarify PI Infraction
+> 
+> Be it therefore resolved, that Rule 1713 be amended by replacing "Each
+> Recordkeeper is authorized to report this Infraction, which" with "The
+> Recordkeepor of each Currency is authorized to report this Infraction
+> with respect to the Currency of which e is the Recordkeepor.  This
+> Infraction"
+
+Those last two words are a cut-and-paste-error, I presume?
+
+-- 
+Andre Engels, engels@win.tue.nl
+http://www.win.tue.nl/cs/fm/engels/index_en.html
+
+"Natuerlich gibt es schoenere Dinge als Go... und wichtigere... 
+ aber nicht viele!" - Andreas Fecke, Stones
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 13:10 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA19897 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 13:10:22 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA21933
+	for agora-discussion-list; Tue, 11 Nov 1997 04:27:31 +1100
+Received: from wsinfm15.win.tue.nl (wsinfm15.win.tue.nl [131.155.69.168])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA21926
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 04:27:28 +1100
+Received: by wsinfm15.win.tue.nl (8.7.1/1.45)
+    id OAA04047; Mon, 10 Nov 1997 14:06:47 +0100 (MET)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199711101306.OAA04047@wsinfm15.win.tue.nl>
+Subject: Re: DIS: Re: BUS: Proto:  Plots (v1.5)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 10 Nov 1997 14:06:46 +0100 (MET)
+In-Reply-To: <199711100705.XAA28688@bug1.fhcrc.org> from "Ross Morgan-Linial" at Nov 9, 97 10:59:48 pm
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1134
+
+> > >>      Upon the start of a Player's Grace Period, the Registrar shall
+> > >>      pay out to that Player an award of 5 Voting Tokens, 5 P-Notes,
+> > >>      5 Mules, and 20 units of Energy.
+> > 
+> > >Perhaps it would be better if the *Bank* payed that player. I'd hate 
+> > >to be the Registrar under that :-)
+> > 
+> > What's so tough about making 4 Payment Orders each time a new Player
+> > registers?  I have the Registrar do it because that's who tracks
+> > registrations and Grace Periods.
+> 
+> No no no no. I mean, the Registrar would get rather poor, having to 
+> pay each new player all that...
+
+No, no, no, no. Paying out doesn't make one any poorer:
+
+Rule 1479/2 (Power=1)
+Definition of "Pay Out" and "Bill"
+
+      Whenever a Rule calls for a Player to pay out some quantity of
+      Currency to some entity, that Player shall execute a Payment
+      Order from the Bank to that entity for the amount specified.
+
+      Whenever a Rule calls for a Player to bill an entity for some
+      quantity of Currency, that Player shall execute a Payment Order
+      from that entity to the Bank for the amount specified.
+
+
+Andre
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 13:10 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA19917 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 13:10:36 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA21960
+	for agora-discussion-list; Tue, 11 Nov 1997 04:28:01 +1100
+Received: from dfw.dfw.net (DFW.DFW.NET [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id EAA21954
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 04:27:56 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA01408; Mon, 10 Nov 97 11:30:47 CST
+Message-Id: <9711101730.AA01408@dfw.dfw.net>
+Subject: DIS: Re: BUS: Potential Judgement, CFJ 1067
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 10 Nov 1997 11:30:47 -0600 (CST)
+In-Reply-To: <199711071554.KAA14107@poverty.bloomington.in.us> from "Scott Goehring" at Nov 7, 97 10:54:47 am
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 712
+
+Scott Goehring wrote:
+>
+>However, this Court sees no reason to
+>introduce a principle that Rule Changes must be interpreted in the
+>fashion which "makes the most sense."  It is not the place of the
+>Rulekeepor to impose rationality on the Electorate's decisions, and if
+>the Electorate chooses to amend a Rule into a form which is
+>gramatically contorted or otherwise foolishly constructed, the
+>Rulekeepor is not entitled to "reinterpret" their intent so as to
+>avoid that situation.
+
+Well said.  And if the Rulekeepor were entitled to "reinterpret"
+Rule Changes in this way, I'm not sure I would want to be Rulekeepor.
+
+Chuck
+(not s-bscribed to a-d; if you think I should see a response, cc it
+directly to me)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 13:26 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA20520 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 13:26:55 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA22241
+	for agora-discussion-list; Tue, 11 Nov 1997 05:21:32 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA22238
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 05:21:28 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 41790]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49575-690>; Mon, 10 Nov 1997 14:23:13 +0100
+Date: 	Mon, 10 Nov 1997 14:23:02 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: several excellent Protos by Scott
+In-Reply-To: <199711100411.XAA25129@poverty.bloomington.in.us>
+Message-ID: <Pine.LNX.3.96.971110140510.6482A-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 2191
+
+I like all these Protos, and it is especially good that we finally get
+some timeout clauses. More comments on that below.
+
+On Sun, 9 Nov 1997, Scott Goehring wrote:
+
+> Protoproposal Chaos2 [rev. 1]
+> 
+> Innocent Error Defense
+
+Good.
+
+On Sun, 9 Nov 1997, Scott Goehring wrote:
+
+> Protoproposal Chaos1 [rev. 1]
+> 
+> Nonchallenge of Election Results
+> 
+> Be it therefore resolved, that Rule 1445 be amended, by appending the
+> following paragraph:
+> 
+>       * Cutoff for Challenges: Any challenge of the correctness of the
+>       announced results of an Election must be made within seven days
+>       of the time the results are announced.  If seven days pass from
+>       the time the results are announced without a challenge, the
+>       announced results are presumed to be the true results of the
+>       Election.
+
+Drop that "presumed" - this are the actual results.  And why not extend
+this to Referenda and Proposals as well (although probably with a longer
+timeout for Proposals)? Ancient errors in the Rules have caused a lot of
+grievance before.
+
+I had an idea myself that we should have a timeout on reporting
+Infractions, as well - somewhere between one and two months, I think.
+
+On Sun, 9 Nov 1997, Scott Goehring wrote:
+
+> Protoproposal Chaos6 [rev. 1]
+> 
+> Inadvertent Transfers to the Bank
+> 
+> Be it therefore resolved, that the following Rule be created:
+> 
+>       If an entity transfers Currency to the Bank without being
+>       required to do so by the Rules (including by a Payment Order)
+>       and does not, at the time, specify that e is donating those
+>       Currencies to the Bank, the Bank shall, as soon as possible,
+>       transfer that Currency back to that entity.
+
+This makes me think - what if the Chancellor forgets? There should a
+timeout for basic requirements as well. Let's be comprehensive.
+
+And to plug the final hole, a 6 month timeout on _absolutely all_ errors.
+This one seems harder to phrase, however.
+
+> No Doubling-Up
+> Allow Mandated Vacation
+> Fix Groups
+> Fix Vizier Specification
+> Clarify PI Infraction
+
+All good.
+
+Greetings,
+Ørjan.
+
+-- 
+Praeterea censeo Cyberprominem et Agim esse delendas.
+<URL:http://www.cyberpass.net/~fekete/>
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 13:27 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA20538 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 13:27:12 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA22246
+	for agora-discussion-list; Tue, 11 Nov 1997 05:21:42 +1100
+Received: from dfw.dfw.net (DFW.DFW.NET [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id FAA22243
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 05:21:37 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA00862; Mon, 10 Nov 97 11:24:29 CST
+Message-Id: <9711101724.AA00862@dfw.dfw.net>
+Subject: DIS: Re: BUS: Rule 1339 and CFJ 822
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 10 Nov 1997 11:24:28 -0600 (CST)
+In-Reply-To: <199711071532.KAA14093@poverty.bloomington.in.us> from "Scott Goehring" at Nov 7, 97 10:31:57 am
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 207
+
+Scott Goehring wrote:
+>
+>Chuck, the informal annotation on Rule 1339 (regarding CFJ 822) seems
+>to be outdated.  You may wish to review its appropriateness.
+
+Thanks for catching it.  I've deleted it.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 13:40 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA21026 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 13:40:18 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA22323
+	for agora-discussion-list; Tue, 11 Nov 1997 05:30:43 +1100
+Received: from dfw.dfw.net (DFW.DFW.NET [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id FAA22320
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 05:30:39 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA29886; Mon, 10 Nov 97 11:21:02 CST
+Message-Id: <9711101721.AA29886@dfw.dfw.net>
+Subject: DIS: Re: BUS: Wills and Groups
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 10 Nov 1997 11:21:01 -0600 (CST)
+In-Reply-To: <l03110700b087fbf9de65@[195.40.61.175]> from "Dr. Jeffrey L. Caruso" at Nov 6, 97 11:33:01 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 194
+
+Dr. Jeffrey L. Caruso wrote:
+>
+>      A Will is an SLC.
+
+Why should a Will be an SLC at all?  This has never made sense to me.
+
+Chuck
+(not s-bscribed to a-d; please cc responses to me directly)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 13:41 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA21077 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 13:41:12 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA22354
+	for agora-discussion-list; Tue, 11 Nov 1997 05:32:34 +1100
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id FAA22349
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 05:32:28 +1100
+Received: (qmail 18246 invoked from network); 10 Nov 1997 14:16:33 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 10 Nov 1997 14:16:33 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA19044; Mon, 10 Nov 1997 15:16:19 +0100
+Date: Mon, 10 Nov 1997 15:16:19 +0100
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9711101416.AA19044@spinup.tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-Reply-To: <199711100100.UAA20255@poverty.bloomington.in.us> (message from Scott Goehring on Sun, 9 Nov 1997 20:00:37 -0500)
+Subject: Re: DIS: proto: Nonchallenge of Election Results (Chaos1, rev. 1)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 236
+
+This is a patch for the particular question of election results. Could
+we not use the more generic instrument of report ratification?
+E.g. making the ratification of the first registrar's report after an
+election obligatory? 
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 13:57 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA21617 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 13:57:34 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA22514
+	for agora-discussion-list; Tue, 11 Nov 1997 05:51:25 +1100
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id FAA22511
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 05:51:21 +1100
+Received: (qmail 12419 invoked from network); 10 Nov 1997 13:34:20 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 10 Nov 1997 13:34:20 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA19031; Mon, 10 Nov 1997 14:34:19 +0100
+Date: Mon, 10 Nov 1997 14:34:19 +0100
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9711101334.AA19031@spinup.tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-Reply-To: <Pine.LNX.3.96.971110010901.17033R-100000@tyrell.nvg.ntnu.no> (message from Orjan Johansen on Mon, 10 Nov 1997 01:16:57 +0100 (MET))
+Subject: Re: DIS: Re: BUS: Proto: Fix Electioneering
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1035
+
+>>
+The main reason for having an exception is
+to remind people whether they have Voted, and publishing just a count
+would not do that.
+<<
+
+Of course, the publication of this information also serves to show
+whether quorum has already been satisfied. For example, I published a
+voting reminder for INP 350 because at that time quorum was not met
+then. 
+
+The decision to publish or not publish such a reminder, of course,
+gives me some influence over the outcome if quorum has not been met
+yet. This kind of influence of the vote collector may be desirable or
+not. 
+
+>>
+I have even been thinking that there should be some opposite declaration
+of Presence,
+<<
+
+This would eliminate the above possibility of influencing the outcome
+slightly, and make the list of possible decisions (2xFOR, FOR,
+PRESENT, no vote, AGAINST, 2xAGAINST) even more symmetric.
+
+To me it would seem more interesting to abolish the cost free
+declaration of presence - that would increase the pressure on decision
+making processes due to scarce VT supply.
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 14:01 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA21776 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 14:01:40 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA22546
+	for agora-discussion-list; Tue, 11 Nov 1997 05:54:17 +1100
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id FAA22543
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 05:54:09 +1100
+Received: (qmail 11732 invoked from network); 10 Nov 1997 13:27:49 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 10 Nov 1997 13:27:49 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA14932; Mon, 10 Nov 1997 14:27:40 +0100
+Date: Mon, 10 Nov 1997 14:27:40 +0100
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9711101327.AA14932@spinup.tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-Reply-To: <3.0.3.32.19971109131645.00815aa0@mail.bayside.net> (ford@bayside.net)
+Subject: DIS: Re: BUS: Proto:  Clarify Senate Proposals
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 384
+
+>>
+[snip]
+      and any delayed Transfer Orders submitted but not yet executed by eir
+      Voting on that Proposal are cancelled.
+<<
+
+This is an automatic cancellation, right? I do think it works, and
+have nothing special against it, but somehow I feel this goes against
+the PC paradigm where all status changes of POs and TOs are made by
+players instead of automatically.
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 14:08 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA22019 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 14:08:26 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA22501
+	for agora-discussion-list; Tue, 11 Nov 1997 05:50:57 +1100
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id FAA22498
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 05:50:53 +1100
+Received: (qmail 13039 invoked from network); 10 Nov 1997 13:38:29 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 10 Nov 1997 13:38:29 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA14937; Mon, 10 Nov 1997 14:38:23 +0100
+Date: Mon, 10 Nov 1997 14:38:23 +0100
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9711101338.AA14937@spinup.tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-Reply-To: <199711100100.UAA20257@poverty.bloomington.in.us> (message from Scott Goehring on Sun, 9 Nov 1997 20:00:37 -0500)
+Subject: Re: DIS: proto: Innocent Error Defense (Chaos2, rev. 1)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 695
+
+Wouldn't that encourage laziness and a general spirit of laissez
+faire? "I'll just do what comes to my mind - if I'm called on it, I
+can always read the rules later and claim to have been unaware of the
+details". 
+
+Of course it it annoying to be penalized for things you weren't aware
+of (or, even worse, for things you _were_ aware of but couldn't
+change, anyway, like my recent failure-to-report penalty, had it
+survived in court), but I think falling into unexpected traps can also
+be considered part of the fun of playing a Nomic with a very complex
+ruleset. 
+
+It may be an inappropriate reference to real life, but I think that
+ignorance should be no protection from persecution.
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 15:08 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA24257 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 15:08:24 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA22925
+	for agora-discussion-list; Tue, 11 Nov 1997 07:02:12 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA22922
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 07:02:07 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 9750]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49606-690>; Mon, 10 Nov 1997 21:01:13 +0100
+Date: 	Mon, 10 Nov 1997 21:00:59 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: BUS: Proto and call for opinions: 1633 (IN proposals)
+In-Reply-To: <9711101111.AA14881@spinup.tp3.ruhr-uni-bochum.de>
+Message-ID: <Pine.LNX.3.96.971110205230.6482I-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 1278
+
+On Mon, 10 Nov 1997, Klaus Herrmanns NB6_25 (3751) wrote:
+
+> I have noticed an unclear point in 1633: The ambassador is required by
+> 1633 to submit the first IN proposal made by an Agora player in any
+> given Nomic week. However, 1633 says nothing whatsoever about
+> additional proposals: do I have to reject them? Decide whether I want
+> to submit them to IN or not? are they not really IN proposals?
+
+The Internomic Judgement was that whatever the Liaison declares is an
+action of eir Nomic, whether or not it is regulated internally. There is
+nothing in Agora's Rules regulating this, so you are free to do as you
+please. I think your Proto is just a rewording of the current status quo.
+
+> BTW, could someone tell me what the last sentence of 1633, 
+> 
+>       This Rule defers to all other Rules which do not contain this
+>       sentence.
+> 
+> is good for?
+
+That's the old Virus sentence - I don't remember whether it was overlooked
+or whether it was Infected while the Amendment of the Virus rule was going
+on.
+
+Note that there is currently a Proposal by Andre to Amend 1633 and
+completely remove the 1 INP per Week limitation (as well as the Virus.)
+
+Greetings,
+Ørjan.
+
+-- 
+Praeterea censeo Cyberprominem et Agim esse delendas.
+<URL:http://www.cyberpass.net/~fekete/>
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 15:15 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA24463 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 15:14:53 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA22950
+	for agora-discussion-list; Tue, 11 Nov 1997 07:05:03 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id HAA22944
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 07:04:57 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 10 Nov 1997 15:11:17 -0500
+Message-Id: <s4672415.095@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 10 Nov 1997 15:10:14 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: BUS: Proto and call for opinions: 1633 (IN proposals)
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 880
+
+BUS: Proto and call for opinions: 1633 (IN proposals)
+
+Kolja wrote:
+
+>I have noticed an unclear point in 1633: The ambassador is required by
+>1633 to submit the first IN proposal made by an Agora player in any
+>given Nomic week. However, 1633 says nothing whatsoever about
+>additional proposals: do I have to reject them? Decide whether I want
+>to submit them to IN or not? are they not really IN proposals?
+
+I would say that the Rules allow you to do anything you want with a subsequent
+proposal.  It might not be a bad idea to make this explicit, as your proto
+does.
+
+>BTW, could someone tell me what the last sentence of 1633, 
+
+>      This Rule defers to all other Rules which do not contain this
+>      sentence.
+
+>is good for?
+
+This Rule was infected by a previous version of the Virus.  It never got
+disinfected and so remains our Rule of lowest precedence.  8)
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 15:17 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA24569 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 15:17:12 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA22985
+	for agora-discussion-list; Tue, 11 Nov 1997 07:09:16 +1100
+Received: from poverty.bloomington.in.us (dial-126-4.ucs.indiana.edu [156.56.126.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA22982
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 07:09:12 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id PAA18806 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 10 Nov 1997 15:09:26 -0500
+Message-Id: <199711102009.PAA18806@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: Clarify PI Infraction (Chaos7, rev. 1) 
+In-reply-to: Your message of "Mon, 10 Nov 1997 14:02:15 +0100."
+             <199711101302.OAA04031@wsinfm15.win.tue.nl> 
+Date: Mon, 10 Nov 1997 15:09:23 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 314
+
+"Andre" == Andre Engels <engels@win.tue.nl> writes:
+
+Andre> Those last two words are a cut-and-paste-error, I presume?
+
+No, they are not.  I had to split a sentence, and the fragment at the
+end of the replacement text is intended to attach to the remainder of
+the text in the original Rule to form a new sentence.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 15:20 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA24652 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 15:20:13 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA23030
+	for agora-discussion-list; Tue, 11 Nov 1997 07:14:46 +1100
+Received: from poverty.bloomington.in.us (dial-126-4.ucs.indiana.edu [156.56.126.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA23027
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 07:14:40 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id PAA18830 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 10 Nov 1997 15:14:21 -0500
+Message-Id: <199711102014.PAA18830@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: Nonchallenge of Election Results (Chaos1, rev. 1) 
+In-reply-to: Your message of "Mon, 10 Nov 1997 15:16:19 +0100."
+             <9711101416.AA19044@spinup.tp3.ruhr-uni-bochum.de> 
+Date: Mon, 10 Nov 1997 15:14:19 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 751
+
+"Klaus" == Klaus Herrmanns NB6 25 (3751) <klaush@spinup.tp3.ruhr-uni-bochum.de> writes:
+
+Klaus> This is a patch for the particular question of election
+Klaus> results. Could we not use the more generic instrument of report
+Klaus> ratification?  E.g. making the ratification of the first
+Klaus> registrar's report after an election obligatory?
+
+No.  First, there is information in the Registrar's Report which does
+not pertain to Officers.  Second, Ratification is, in my opinion, an
+extraordinary measure, not one that should be exercised frequently or
+lightly, let alone routinely.
+
+I would rather establish a set of "cutoff" clauses such as the one I
+propose for various things; the exact cutoffs might be different for
+different things, of course.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 15:22 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA24771 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 15:22:14 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA23054
+	for agora-discussion-list; Tue, 11 Nov 1997 07:16:35 +1100
+Received: from poverty.bloomington.in.us (dial-126-4.ucs.indiana.edu [156.56.126.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA23051
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 07:16:31 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id PAA18852 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 10 Nov 1997 15:16:53 -0500
+Message-Id: <199711102016.PAA18852@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Proto: Clarify Senate Proposals 
+In-reply-to: Your message of "Mon, 10 Nov 1997 14:27:40 +0100."
+             <9711101327.AA14932@spinup.tp3.ruhr-uni-bochum.de> 
+Date: Mon, 10 Nov 1997 15:16:52 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 510
+
+"Klaus" == Klaus Herrmanns NB6 25 (3751) <klaush@spinup.tp3.ruhr-uni-bochum.de> writes:
+
+Klaus> This is an automatic cancellation, right? I do think it works,
+Klaus> and have nothing special against it, but somehow I feel this
+Klaus> goes against the PC paradigm where all status changes of POs
+Klaus> and TOs are made by players instead of automatically.
+
+Voting is already a special case in the PC paradigm.  It is tolerable
+because the Assessor is both collector of Votes and Recordkeepor of
+Voting Tokens.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 15:34 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA25092 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 15:34:01 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA23144
+	for agora-discussion-list; Tue, 11 Nov 1997 07:29:44 +1100
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id HAA23141
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 07:29:39 +1100
+Received: (qmail 3426 invoked from network); 10 Nov 1997 20:30:04 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 10 Nov 1997 20:30:04 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA15782; Mon, 10 Nov 1997 21:30:02 +0100
+Date: Mon, 10 Nov 1997 21:30:02 +0100
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9711102030.AA15782@spinup.tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-Reply-To: <199711102014.PAA18830@poverty.bloomington.in.us> (message from Scott Goehring on Mon, 10 Nov 1997 15:14:19 -0500)
+Subject: Re: DIS: proto: Nonchallenge of Election Results (Chaos1, rev. 1)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 327
+
+>>
+Second, Ratification is, in my opinion, an
+extraordinary measure, not one that should be exercised frequently or
+lightly, let alone routinely.
+<<
+
+I see.
+
+>>
+I would rather establish a set of "cutoff" clauses such as the one I
+propose for various things
+<<
+
+This is a kind of ratification without objection, then?
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 15:51 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA25748 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 15:50:59 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA23239
+	for agora-discussion-list; Tue, 11 Nov 1997 07:46:39 +1100
+Received: from poverty.bloomington.in.us (dial-126-4.ucs.indiana.edu [156.56.126.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA23236
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 07:46:36 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id PAA18884 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 10 Nov 1997 15:46:58 -0500
+Message-Id: <199711102046.PAA18884@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: OFF: Ambassador's report 
+In-reply-to: Your message of "Mon, 10 Nov 1997 11:36:19 +0100."
+             <9711101036.AA04615@spinup.tp3.ruhr-uni-bochum.de> 
+Date: Mon, 10 Nov 1997 15:46:56 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 241
+
+"Klaus" == Klaus Herrmanns NB6 25 (3751) <klaush@spinup.tp3.ruhr-uni-bochum.de> writes:
+
+Klaus> The following mail was sent to several email nomics, including
+Klaus> ours, by one Berry.Renken@hunze.iwg.nl:
+
+I got six copies of that message.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 15:58 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA25926 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 15:57:57 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA23227
+	for agora-discussion-list; Tue, 11 Nov 1997 07:45:43 +1100
+Received: from poverty.bloomington.in.us (dial-126-4.ucs.indiana.edu [156.56.126.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA23224
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 07:45:39 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id PAA18873 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 10 Nov 1997 15:45:29 -0500
+Message-Id: <199711102045.PAA18873@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: Innocent Error Defense (Chaos2, rev. 1) 
+In-reply-to: Your message of "Mon, 10 Nov 1997 14:38:23 +0100."
+             <9711101338.AA14937@spinup.tp3.ruhr-uni-bochum.de> 
+Date: Mon, 10 Nov 1997 15:45:28 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1006
+
+"Klaus" == Klaus Herrmanns NB6 25 (3751) <klaush@spinup.tp3.ruhr-uni-bochum.de> writes:
+
+Klaus> Wouldn't that encourage laziness and a general spirit of
+Klaus> laissez faire? "I'll just do what comes to my mind - if I'm
+Klaus> called on it, I can always read the rules later and claim to
+Klaus> have been unaware of the details".
+
+The general principle I'm shooting at is that one should not be
+punished for not doing things you should not reasonably have been
+aware you had to do.  Ignorance of the Rules is not an excuse; neither
+is ignorance of something being posted to the PF.  But what about the
+case where a CFJ finds that our interpretation of some Rule has been
+in error for six weeks?  This could create a great many penalties for
+the failure to perform various duties ASAP.  This Rule would provide
+those Players with the Innocent Error defense: they reasonably
+believed that they were not obliged to perform those duties.  That's
+not simple ignorance; it's reasoned belief of nonapplicability.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 16:02 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA26079 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 16:01:56 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA23299
+	for agora-discussion-list; Tue, 11 Nov 1997 07:54:40 +1100
+Received: from poverty.bloomington.in.us (dial-126-4.ucs.indiana.edu [156.56.126.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA23296
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 07:54:34 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id PAA18999 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 10 Nov 1997 15:55:00 -0500
+Message-Id: <199711102055.PAA18999@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: Nonchallenge of Election Results (Chaos1, rev. 1) 
+In-reply-to: Your message of "Mon, 10 Nov 1997 21:30:02 +0100."
+             <9711102030.AA15782@spinup.tp3.ruhr-uni-bochum.de> 
+Date: Mon, 10 Nov 1997 15:54:59 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 179
+
+"Klaus" == Klaus Herrmanns NB6 25 (3751) <klaush@spinup.tp3.ruhr-uni-bochum.de> writes:
+
+Klaus> This is a kind of ratification without objection, then?
+
+In a sense, I suppose.  
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 16:14 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA26425 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 16:13:58 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA23369
+	for agora-discussion-list; Tue, 11 Nov 1997 08:04:01 +1100
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id IAA23363
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 08:03:49 +1100
+Received: (qmail 7699 invoked from network); 10 Nov 1997 21:04:14 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 10 Nov 1997 21:04:14 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA18370; Mon, 10 Nov 1997 22:04:12 +0100
+Date: Mon, 10 Nov 1997 22:04:12 +0100
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9711102104.AA18370@spinup.tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-Reply-To: <199711102045.PAA18873@poverty.bloomington.in.us> (message from Scott Goehring on Mon, 10 Nov 1997 15:45:28 -0500)
+Subject: Re: DIS: proto: Innocent Error Defense (Chaos2, rev. 1)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 494
+
+>>
+Ignorance of the Rules is not an excuse; neither
+is ignorance of something being posted to the PF.
+[snip]
+This Rule would provide
+those Players with the Innocent Error defense: they reasonably
+believed that they were not obliged to perform those duties.
+<<
+
+I understand that. How are you going to draw the line between these
+different possibilities? In court? (That would give the courts
+something else to do in addition to "just" rules interpretations,
+which sounds good to me).
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 16:28 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA27167 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 16:27:49 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA23441
+	for agora-discussion-list; Tue, 11 Nov 1997 08:17:36 +1100
+Received: from owl.INS.CWRU.Edu (owl.INS.CWRU.Edu [129.22.8.26])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id IAA23438
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 08:17:27 +1100
+Received: (gb485@localhost) by owl.INS.CWRU.Edu (8.8.6+cwru/CWRU-2.5-bsdi)
+	id QAA24115; Mon, 10 Nov 1997 16:17:52 -0500 (EST) (from gb485)
+Message-Id: <199711102117.QAA24115@owl.INS.CWRU.Edu>
+Date: Mon, 10 Nov 1997 16:17:52 -0500 (EST)
+From: gb485@cleveland.freenet.edu (Steven A Swiniarski)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: OFF:  New Proposals: 3597-3599
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 778
+
+Reply to message from dalbertz@rmv.state.ma.us of Mon, 10 Nov
+>
+>OFF:  New Proposals: 3597-3599
+>
+>There are three new proposals distributed as of this report.
+>
+>======================================================================
+>D = Disinterested
+>d = Disowned
+>S = Silly
+>E = Emergency
+> 
+>D  3597 Andre    1 Blot Amnesty Extension
+>D  3598 Morendil 1 Finish Amnesty
+>D  3599 elJefe   1 Clarify probate for Groups
+>
+Hmm, my proposal application proposal seems to be missing.
+Or is it in the queue?
+
+Swann
+
+-- 
+Steven Swiniarski (aka S Andrew Swann) http://www.sff.net/people/SASwann
+gb485@cleveland.freenet.edu            
+"There can be no effective control of corporations while their political
+ activity remains."                                    --Theodore Roosevelt
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 16:54 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA28204 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 16:54:26 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA23650
+	for agora-discussion-list; Tue, 11 Nov 1997 08:46:20 +1100
+Received: from poverty.bloomington.in.us (dial-126-4.ucs.indiana.edu [156.56.126.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id IAA23647
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 08:46:16 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id QAA25000 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 10 Nov 1997 16:46:36 -0500
+Message-Id: <199711102146.QAA25000@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: Innocent Error Defense (Chaos2, rev. 1) 
+In-reply-to: Your message of "Mon, 10 Nov 1997 22:04:12 +0100."
+             <9711102104.AA18370@spinup.tp3.ruhr-uni-bochum.de> 
+Date: Mon, 10 Nov 1997 16:46:36 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 381
+
+"Klaus" == Klaus Herrmanns NB6 25 (3751) <klaush@spinup.tp3.ruhr-uni-bochum.de> writes:
+
+Klaus> I understand that. How are you going to draw the line between
+Klaus> these different possibilities? In court? (That would give the
+Klaus> courts something else to do in addition to "just" rules
+Klaus> interpretations, which sounds good to me).
+
+Exactly.  Makes being a Judge more fun.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 17:12 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA29116 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 17:12:06 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA23763
+	for agora-discussion-list; Tue, 11 Nov 1997 09:02:27 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id JAA23760
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 09:02:22 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 10 Nov 1997 17:08:49 -0500
+Message-Id: <s4673fa1.030@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 10 Nov 1997 17:07:58 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: OFF:  New Proposals: 3597-3599
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 358
+
+DIS: Re: OFF:  New Proposals: 3597-3599
+
+Swann asks:
+
+>Hmm, my proposal application proposal seems to be missing.
+>Or is it in the queue?
+
+Hmm.  I can't find it in my inbox or archives.  I'm afraid I may have mistaken
+it for a proto, since I do remember seeing it.  My apologies.  Please send me
+another copy and I will distribute it immediately.
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 17:40 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA00363 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 17:40:36 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA23840
+	for agora-discussion-list; Tue, 11 Nov 1997 09:15:40 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id JAA23837
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 09:15:36 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 50732]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49758-690>; Mon, 10 Nov 1997 23:15:35 +0100
+Date: 	Mon, 10 Nov 1997 23:15:22 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: OFF:  New Proposals: 3597-3599
+In-Reply-To: <s4673fa1.030@rmv.state.ma.us>
+Message-ID: <Pine.LNX.3.96.971110231405.6482K-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 603
+
+On Mon, 10 Nov 1997, David Albertz wrote:
+
+> Swann asks:
+> 
+> >Hmm, my proposal application proposal seems to be missing.
+> >Or is it in the queue?
+> 
+> Hmm.  I can't find it in my inbox or archives.  I'm afraid I may have
+> mistaken it for a proto, since I do remember seeing it.  My apologies. 
+> Please send me another copy and I will distribute it immediately. 
+
+Might have something to do with the fact that Swann forgot to remove the
+word "Proto" when he tried to Propose it...
+
+Greetings,
+Ørjan.
+
+-- 
+Praeterea censeo Cyberprominem et Agim esse delendas.
+<URL:http://www.cyberpass.net/~fekete/>
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 19:12 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA03441 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 19:12:11 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA24275
+	for agora-discussion-list; Tue, 11 Nov 1997 11:00:47 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA24272
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 11:00:45 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id LAA32586
+	for agora-discussion@gecko.serc.rmit.edu.au; Tue, 11 Nov 1997 11:01:14 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199711110001.LAA32586@aurora.cc.monash.edu.au>
+Subject: Re: DIS: reactions to Le ton beau de Marot?
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 11 Nov 1997 11:01:13 +1100 (EST)
+In-Reply-To: <E0xUp09-0001ZY-00@merganser.cl.cam.ac.uk> from "Michael Norrish" at Nov 10, 97 08:15:17 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1294
+
+Michael Norrish wrote:
+>
+>We had a brief spate of people saying that they were reading this.  
+>
+>I'm wondering what people thought about it.  I haven't read it myself,
+>so I want to know if it's worth my time (it'd go to the end of a very
+>long queue :-)
+
+I've been reading it, and enjoying it a lot. I'm about half way through
+at the moment, although I seem to have set it aside in an attempt to
+finish David Foster Wallace's immense _Infinite Jest_, a novel about
+addiction in the Republic of Entertainment which I highly recommend.
+_Le Ton Beau de Marot_ is by far Hofstadter's most personal book to
+date, since it includes among many other things many reminiscences of
+his late wife, and anecdotes about translating GEB into many other
+languages. Well, since the book is about translation, there's lots of
+stories about translating all kinds of things - Pushkin's _Eugene
+Onegin_, George Perec's _La Disparition_, and so on. I've just read
+an explanation of the theory of relativity using only English words of
+Anglo-Saxon origin *and* of one syllable. Quite a set of hoops to jump
+through!
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 19:12 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA03440 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 19:12:09 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA24320
+	for agora-discussion-list; Tue, 11 Nov 1997 11:07:57 +1100
+Received: from poverty.bloomington.in.us (dial-126-4.ucs.indiana.edu [156.56.126.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA24317
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 11:07:53 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id TAA25332 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 10 Nov 1997 19:08:11 -0500
+Message-Id: <199711110008.TAA25332@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: OFF: New Proposals: 3597-3599 
+In-reply-to: Your message of "Mon, 10 Nov 1997 16:17:52 EST."
+             <199711102117.QAA24115@owl.INS.CWRU.Edu> 
+Date: Mon, 10 Nov 1997 19:08:10 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 287
+
+"Steven" == Steven A Swiniarski <gb485@cleveland.Freenet.Edu> writes:
+
+Steven> Hmm, my proposal application proposal seems to be missing.  Or
+Steven> is it in the queue?
+
+You forgot to remove "PROTO" from it when you posted it, which means
+it was not unambigiously marked as a Proposal.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 19:23 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA03771 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 19:23:05 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA24398
+	for agora-discussion-list; Tue, 11 Nov 1997 11:17:29 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA24395
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 11:17:27 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id LAA15815
+	for agora-discussion@gecko.serc.rmit.edu.au; Tue, 11 Nov 1997 11:17:55 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199711110017.LAA15815@aurora.cc.monash.edu.au>
+Subject: DIS: Re: OFF: Ambassador's report
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 11 Nov 1997 11:17:55 +1100 (EST)
+In-Reply-To: <9711101036.AA04615@spinup.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns NB6_25 (3751)" at Nov 10, 97 11:36:19 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 742
+
+Klaus Herrmanns NB6_25 (3751) wrote:
+>
+>Agora Nomic
+>Ambassador's Report
+>======================================================================
+>3. Life on other planets
+>
+>The following mail was sent to several email nomics, including ours,
+>by one Berry.Renken@hunze.iwg.nl:
+>
+Clarification: Berry sent this to me and a few other Agorans including
+Scott and Oerjan. I bounced it to the discussion list.
+>
+>Steve already responded briefly on our behalf. Anyone else willing is
+>invited to do so, too.
+
+Hey, you're the Ambassador. Go for it.
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 19:24 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA03785 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 19:23:58 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA24378
+	for agora-discussion-list; Tue, 11 Nov 1997 11:14:53 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA24375
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 11:14:52 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id LAA14423
+	for agora-discussion@gecko.serc.rmit.edu.au; Tue, 11 Nov 1997 11:15:20 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199711110015.LAA14423@aurora.cc.monash.edu.au>
+Subject: DIS: Re: BUS: Proto and call for opinions: 1633 (IN proposals)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 11 Nov 1997 11:15:20 +1100 (EST)
+In-Reply-To: <9711101111.AA14881@spinup.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns NB6_25 (3751)" at Nov 10, 97 12:11:06 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 601
+
+Klaus Herrmanns NB6_25 (3751) wrote:
+>
+>BTW, could someone tell me what the last sentence of 1633, 
+>
+>      This Rule defers to all other Rules which do not contain this
+>      sentence.
+>
+>is good for?
+
+It's a hangover from the previous version of the Virus, which had
+the effect of appending that sentence to the infected Rule. There's
+another one left in Rule 1645 (Temporary Delegation of Office).
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 19:24 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA03791 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 19:24:24 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA24423
+	for agora-discussion-list; Tue, 11 Nov 1997 11:19:04 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA24416
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 11:18:52 +1100
+Received: from cf-tsr-02.fhcrc.org (port02-rem [140.107.12.32])
+	by bug1.fhcrc.org (8.8.7/8.8.7) with SMTP id QAA25953
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 10 Nov 1997 16:19:10 -0800 (PST)
+Message-Id: <199711110019.QAA25953@bug1.fhcrc.org>
+Comments: Authenticated sender is <rmorganl@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+Organization: very little
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 10 Nov 1997 16:13:10 -0800
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Re: BUS: Proto:  Plots (v1.5)
+X-mailer: Pegasus Mail for Windows (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 585
+
+engels@win.tue.nl (Andre Engels) wrote:
+> > No no no no. I mean, the Registrar would get rather poor, having to 
+> > pay each new player all that...
+> 
+> No, no, no, no. Paying out doesn't make one any poorer:
+> 
+> Rule 1479/2 (Power=1)
+> Definition of "Pay Out" and "Bill"
+
+Ah. I misunderstood (or rather, didn't know R1479 existed). There 
+*has* to be a clearer phrase than "Pay Out" (and "Bill"), which sound 
+like the funds are going to/from the person doing the 
+pay-outing/billing.
+
+-------------------------------
+Antimatter * rmorganl@fhcrc.org
+You have the power of negation.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 19:26 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA03872 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 19:26:37 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA24431
+	for agora-discussion-list; Tue, 11 Nov 1997 11:19:14 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA24428
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 11:19:12 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id LAA14887
+	for agora-discussion@gecko.serc.rmit.edu.au; Tue, 11 Nov 1997 11:19:40 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199711110019.LAA14887@aurora.cc.monash.edu.au>
+Subject: Re: DIS: BUS: Proto and call for opinions: 1633 (IN proposals)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 11 Nov 1997 11:19:40 +1100 (EST)
+In-Reply-To: <s4672415.095@rmv.state.ma.us> from "David Albertz" at Nov 10, 97 03:10:14 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 616
+
+David Albertz wrote:
+>
+>>BTW, could someone tell me what the last sentence of 1633, 
+>
+>>      This Rule defers to all other Rules which do not contain this
+>>      sentence.
+>
+>>is good for?
+>
+>This Rule was infected by a previous version of the Virus.  It never got
+>disinfected and so remains our Rule of lowest precedence.  8)
+
+Not quite. R1645 also remains infected by the old Virus - and it has
+a higher number.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 20:54 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA06180 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 20:54:06 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA24873
+	for agora-discussion-list; Tue, 11 Nov 1997 12:46:34 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA24870
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 12:46:33 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id MAA04699
+	for agora-discussion@gecko.serc.rmit.edu.au; Tue, 11 Nov 1997 12:47:01 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199711110147.MAA04699@aurora.cc.monash.edu.au>
+Subject: DIS: Identity of CinC?
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+Date: Tue, 11 Nov 1997 12:47:01 +1100 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1995
+
+I bring to your attention the following sequence of events:
+
+Date: Wed, 5 Nov 1997 15:32:34 -0500 (EST)
+   Harlequin resigns as Commander-in-Chief, naming Vlad as his successor.
+   Harlequin goes On Hold, and is removed form the Office of Cartographor.
+   Speaker Morendil becomes temporary Cartographor.
+
+Date: Wed, 5 Nov 1997 16:50:52 -0600 (CST)
+   Vlad consents to be Commander-in-Chief.
+
+Rule 880:
+
+      An Officer is always permitted to resign from any Office e
+      holds, provided e specifies another Player to succeed
+      em, who then becomes the temporary holder of that Office.  For
+      this appointment to be valid, this Player must either explicitly
+      and publically consent to becoming the new holder of that Office
+      within seven days of such appointment, or be the Speaker.
+
+Question: when an Officer resigns and appoints a Player other than
+the Speaker to succeed em, and the other Player consents (as is
+the case here), when does the change of Office occur? At the time
+of the resignation, or at the time consent is given? What if consent
+is withheld?
+
+If the change does not occur until consent is given, then Harlequin
+was still CinC when he went On Hold. He would thus have been removed
+from that Office when he went On Hold and the Office would have fallen
+to Speaker Morendil. If that's so, does the Office go to Vlad when 
+Vlad consents? That's hard to justify.
+
+There is way to preserve the intuition that Vlad is now CinC - but
+we may not like it much. That is to say that at the time Vlad consents,
+he retroactively becomes CinC as of the time that Harlequin resigned.
+Note that this does not violate the new R108. Maybe this is what former
+Wizard Zefram was referring to when he opined that the new R108 does not
+really prohibit retroactivity.
+
+Comments?
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Nov 10 22:14 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA08179 for <dpb@cs.brown.edu>; Mon, 10 Nov 1997 22:13:37 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA25255
+	for agora-discussion-list; Tue, 11 Nov 1997 14:06:36 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id OAA25250
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 11 Nov 1997 14:06:28 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 10 Nov 1997 22:12:52 -0500
+Message-Id: <s46786e4.041@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 10 Nov 1997 22:12:02 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Identity of CinC?
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 999
+
+DIS: Identity of CinC?
+
+Steve wrote:
+
+>Rule 880:
+
+>      An Officer is always permitted to resign from any Office e
+>      holds, provided e specifies another Player to succeed
+>      em, who then becomes the temporary holder of that Office.  For
+>      this appointment to be valid, this Player must either explicitly
+>      and publically consent to becoming the new holder of that Office
+>      within seven days of such appointment, or be the Speaker.
+
+<snip>
+
+My reading of this is that the new Player becomes temporary holder of the
+Office upon specification as described in the first sentence.  The lack of
+consent within seven days or public refusal then either throws the Office back
+to the original Player at the time of the refusal (or at the end of seven days)
+or retroactively invalidates the appointment (which effectively amounts to the
+same thing).  If there is retroactivity in this Rule, it seems to me to be in
+the refusal provisions, not in the appointment provision.
+
+-- Crito
+
+

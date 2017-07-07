@@ -1,0 +1,437 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Jul  2 00:08 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA03428 for <dpb@cs.brown.edu>; Thu, 2 Jul 1998 00:08:20 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA21889
+	for agora-business-list; Thu, 2 Jul 1998 14:01:42 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA21886
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 2 Jul 1998 14:01:32 +1000
+Received: (from gardner@localhost) by silas-1.cc.monash.edu.au (8.8.8/8.8.0) id OAA21923 for agora-business@gecko.serc.rmit.edu.au; Thu, 2 Jul 1998 14:01:37 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199807020401.OAA21923@silas-1.cc.monash.edu.au>
+Subject: BUS: Proposal: Tweak the Taxation Rules
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic Business List)
+Date: Thu, 2 Jul 1998 14:01:37 +1000 (EST)
+In-Reply-To: <199807011502.KAA29603@dfw.nationwide.net> from "Charles E. Carroll" at Jul 1, 98 10:02:43 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3269
+
+Charles E. Carroll wrote:
+
+Crito> I have a question about the wording in this Rule.  I have levied a
+Crito> tax on VTs as required here.  But the VTPP remains above the VTCL
+Crito> until enough Players have paid the tax.  In this case, the VTPP
+Crito> finally fell below 9 two days after the original announcement. 
+Crito> Obviously it's impossible and against common sense for the Accountor
+Crito> to levy taxes an infinite number of times while waiting for the VTPP
+Crito> to drop enough.  But how do we determine when another levy is
+Crito> actually required?  After all tax POs have been satisfied?  Should
+Crito> this rule be amended to be more specific?
+
+>I don't know about the others, but to the last question, yes!  I
+>would suggest that a simple method would be to redefine the VTCL
+>to be (VTs owned by non-Bank entities) - (VT POs from non-Bank entities
+>to the Bank).
+
+Actually, I think it would be better to make that the definition of
+'in circulation'. 
+
+H. Promotor Crito,
+
+I hereby submit the following Proposal, paying 1 P-Note to the Bank
+to raise its Priority to 1.
+
+####
+Proposal
+Tweak the Taxation Rules
+
+[Comment: two minor fixes to the taxation Rules. The first changes the
+definition of 'in circulation' to exclude Currency already owed to the
+Bank (this fixes the bug which would otherwise require the Accountor to
+Levy Taxes, after e has just done so, but before any taxes have been paid).
+The second lifts the requirement that the taxation POs actually be made
+in the same message as the taxation announcement, and removes the silly
+requirement that the Accountor tax the Bank. As a bonus, I include the
+repeal of R1838 (Tabula Rasa), which should have been provided with an
+auto-repeal mechanism, but wasn't due to an oversight on my part.]
+
+Be it hereby resolved that R1852 (Circulation of Voting Tokens) be
+amended by replacing in it the text which currently reads:
+
+      An amount of Currency is in circulation if it exists and is not
+      possessed by the Bank. 
+
+with text which reads:
+
+      The amount of a Currency in circulation is the amount of that
+      Currency possessed by entities other than the Bank, minus the 
+      total of the undisputed Payment Orders for that Currency naming
+      entities other than Bank as payor, and the Bank as payee.
+
+Be it further resolved that R1853 (Levying Taxes) be amended by replacing
+in it the text which currently reads:
+
+      Finally, the announcement must contain Payment Orders naming
+      each entity in possession of the named Currency as payor, and
+      with the Bank as payee, for an amount of the named Currency
+      equal to the amount of the levy.
+
+with text which reads:
+
+      As soon as possible after making the announcement, the
+      Accountor is required to execute Payment Orders naming each
+      entity other than the Bank in possession of the named Currency
+      as payor, and with the Bank as payee, for an amount of the
+      named Currency equal to the amount of the levy. 
+
+Be it further resolved that R1838 (Tabula Rasa) be repealed.
+
+####
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Jul  2 01:19 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA04490 for <dpb@cs.brown.edu>; Thu, 2 Jul 1998 01:19:39 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA22442
+	for agora-business-list; Thu, 2 Jul 1998 15:13:42 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA22439
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 2 Jul 1998 15:13:36 +1000
+Received: (from gardner@localhost) by silas-1.cc.monash.edu.au (8.8.8/8.8.0) id PAA31432 for agora-business@gecko.serc.rmit.edu.au; Thu, 2 Jul 1998 15:13:41 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199807020513.PAA31432@silas-1.cc.monash.edu.au>
+Subject: BUS: VT transfer
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic Business List)
+Date: Thu, 2 Jul 1998 15:13:41 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 277
+
+H. Accountor Crito,
+
+I hereby transfer 0.5 VTs to General Chaos.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Jul  2 10:20 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA14241 for <dpb@cs.brown.edu>; Thu, 2 Jul 1998 10:20:16 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA24505
+	for agora-business-list; Fri, 3 Jul 1998 00:15:59 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id AAA24502
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 3 Jul 1998 00:15:53 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 02 Jul 1998 10:15:39 -0400
+Message-Id: <s59b5dcb.060@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 02 Jul 1998 10:15:08 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: VT transfer to Harlequin
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 51
+
+I hereby transfer 0.5 VTs to Harlequin.
+
+-- Crito
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Jul  2 10:26 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA14380 for <dpb@cs.brown.edu>; Thu, 2 Jul 1998 10:26:53 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA24547
+	for agora-business-list; Fri, 3 Jul 1998 00:23:42 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id AAA24544
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 3 Jul 1998 00:23:38 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 02 Jul 1998 10:23:39 -0400
+Message-Id: <s59b5fab.080@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 02 Jul 1998 10:23:08 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: VT transfer
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 55
+
+I hereby transfer 0.5 VTs to General Chaos.
+
+-- Crito
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Jul  2 12:52 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA18992 for <dpb@cs.brown.edu>; Thu, 2 Jul 1998 12:52:56 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA25328
+	for agora-business-list; Fri, 3 Jul 1998 02:50:03 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id CAA25322
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 3 Jul 1998 02:50:00 +1000
+Received: From elgar With LocalMail ; Fri, 3 Jul 98 02:50:02 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-business@gecko.serc.rmit.edu.au (Nomic Business)
+Date: Fri, 3 Jul 1998 02:50:01 +1000 (EST)
+Message-Id:  <980702165001.18050@cse.unsw.edu.au>
+Subject: BUS: Pass the Parcel, cleaning up
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 900
+
+Klaus Herrmanns writes:
+> 
+> I may be too late, but I'll try anyway: I hereby pass the parcel to
+> Harlequin. 
+
+I've actually lost the message in which the Parcel was passed to Kolja.
+Does anyone still have it? In any case, here is the contents of the
+encrypted parcel information message:
+
+---cut here---
+The Music shall pause at:
+
+1)  5:45 am (GMT +1200)
+2) 10:10 am 
+3)  2:00 pm
+4)  4:30 pm
+
+The Layers contain:
+
+1) 0.5 VT
+2) 1.0 VT
+3) 1.0 VT
+4) 0.5 VT
+5) 2.0 VT
+
+I hope you all enjoy the game!
+
+Contestmaster Blob
+---cut here---
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Jul  2 13:00 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA19406 for <dpb@cs.brown.edu>; Thu, 2 Jul 1998 13:00:28 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA25397
+	for agora-business-list; Fri, 3 Jul 1998 02:58:20 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id CAA25393
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 3 Jul 1998 02:58:13 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 02 Jul 1998 12:58:12 -0400
+Message-Id: <s59b83e4.014@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 02 Jul 1998 12:57:33 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: This Week with R-O-M
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 813
+
+This Week with R-O-M
+
+I count 353 Rules in the current Rule set.  The candidates this week are:
+
+ 11 = Rule  478 The Public Forum
+133 = Rule 1793 Orders
+323 = Rule 1531 Administrators and Their Duties
+183 = Rule 1564 Initiating Appeals
+263 = Rule 1855 Plots
+
+Another lousy week.  I'll select Rule 1855, but I don't have time to make it
+comprehensive.  Unless someone gets cute, this one will just die for lack of
+priority.
+
+Acting as Executor and on behalf of the Repeal-O-Matic I perform the following
+actions:
+
+I transfer one P-Note from the R-O-M to the Bank for the purpose of increasing
+the priority of "Repeal Rule 1543 (The Wizard)" by one.
+
+I submit the following proposal:
+
+PROPOSAL: Repeal Rule 1855 (Plots)
+This Proposal shall have an AI = 1
+
+Rule 1855 is hereby Repealed.
+
+=======
+
+-- Promotor Crito
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Jul  2 22:54 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA03127 for <dpb@cs.brown.edu>; Thu, 2 Jul 1998 22:54:00 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA27704
+	for agora-business-list; Fri, 3 Jul 1998 12:51:08 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA27701
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 3 Jul 1998 12:51:04 +1000
+Received: (from gardner@localhost) by silas-1.cc.monash.edu.au (8.8.8/8.8.0) id MAA04540 for agora-business@gecko.serc.rmit.edu.au; Fri, 3 Jul 1998 12:51:10 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199807030251.MAA04540@silas-1.cc.monash.edu.au>
+Subject: BUS: Notices of Delegation
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic Business List)
+Date: Fri, 3 Jul 1998 12:51:10 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 854
+Lines: 21
+
+This is a Notice of Delegation for the Office of Assessor; the Office
+is to be Delegated to Chuck for the period 0000 Saturday, July 11 to
+0000 Monday, July 20, all times GMT+1000.
+
+This is a Notice of Delegation for the Office of Wizard; the Office
+is to be Delegated to Blob for the period 0000 Saturday, July 11 to
+0000 Monday, July 20, all times GMT+1000.
+
+This is a Notice of Delegation for the Office of Cartographor; the Office
+is to be Delegated to Blob for the period 0000 Saturday, July 11 to
+0000 Monday, July 20, all times GMT+1000.
+
+(I know I'm not the Cartographor, but I may be, and if I'm not, this
+Notice won't do any harm.)
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Jul  2 23:26 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA03630 for <dpb@cs.brown.edu>; Thu, 2 Jul 1998 23:26:40 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA27891
+	for agora-business-list; Fri, 3 Jul 1998 13:24:45 +1000
+Received: from actcom.co.il (actcom.co.il [192.114.47.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA23207
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 2 Jul 1998 17:50:59 +1000
+Received: from actcom.co.il by actcom.co.il  with SMTP
+	(8.8.6/actcom-0.2) id KAA05295;
+	Thu, 2 Jul 1998 10:50:17 +0300 (EET DST)
+	 (rfc931-sender: bruck@actcom.co.il [192.114.47.1])
+Date: Thu, 2 Jul 1998 10:50:17 +0300 (EET DST)
+From: Uri Bruck <bruck@actcom.co.il>
+To: The InterNomic Mailing List <internomic@muppetlabs.com>
+cc: Agora Nomic Business List <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: Re: Internomic SFJ
+In-Reply-To: <199807020100.LAA29542@silas-1.cc.monash.edu.au>
+Message-ID: <Pine.SUN.3.96-heb-2.07.980702104904.21714D-100000@actcom.co.il>
+MIME-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Length: 1594
+Lines: 49
+
+[Distributor's note: this message was trapped by majordomo. Uri, if you
+want to post regularly to the Agora lists (and I don't know if you do), 
+you'd probably better subscribe to one of them.]
+
+I still need to receive this from the Agora Liason to make it a legal CFJ
+submission. If I were to accept it from anyone else, it might well
+invalidate itself:)
+
+Uri
+Moderator
+
+On Thu, 2 Jul 1998, Steve Gardner wrote:
+
+> H. Ambassador Kolja,
+> 
+> In accordance with R1635, I hereby submit the following Statement
+> for Judgement in InterNomic:
+> 
+> Statement:
+> 
+>     The phrase "unless otherwise specified", as it appears in Rule
+>     214, means "unless otherwise specified by the InterNomic Rules".
+> 
+> Argument:
+> 
+> My argument is essentially the one propounded by Henry Towsner. It is
+> difficult, if not impossible, to completely eliminate all ambiguity
+> from natural language. Therefore context and a shared set of values,
+> customs and interpretative norms must be used to disambiguate, and
+> they are usually sufficient to do so. In this case, the context makes
+> it sufficiently clear that the Statement is true.
+> 
+> Evidence:
+> 
+> Rule 214:
+> 
+>     All business to be conducted with a member nomic shall be
+>     conducted with the liaison to that nomic unless otherwise
+>     specified.  No entity may be liaison to more than one member
+>     nomic. 
+> 
+> -- 
+> 
+> 
+> Steve Gardner                     |        "If it's not worth doing,
+> Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+> gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+> 
+
+

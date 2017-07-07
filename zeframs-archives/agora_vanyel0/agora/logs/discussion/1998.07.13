@@ -1,0 +1,425 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Jul 13 00:57 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA23493 for <dpb@cs.brown.edu>; Mon, 13 Jul 1998 00:57:24 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA19840
+	for agora-discussion-list; Mon, 13 Jul 1998 14:35:44 +1000
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA19837
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 13 Jul 1998 14:35:26 +1000
+Received: by windowsnt from localhost
+    (router,SLMail V2.6); Sun, 12 Jul 1998 23:33:16 -0400
+Received: by windowsnt from friend-computer
+    (206.18.116.34::mail daemon; unverified,SLMail V2.6); Sun, 12 Jul 1998 23:33:14 -0400
+From: "Ed Murphy" <ford@bayside.net>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: RE: DIS: RE: RE: RE: proto: Make Being On Hold Safe Again
+Date: Sun, 12 Jul 1998 20:33:47 -0700
+Message-ID: <000101bdae0f$0b45ace0$227412ce@friend-computer>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2173.0
+In-Reply-To:  <980712164013.20704@cse.unsw.edu.au>
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.2106.4
+Importance: Normal
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 1276
+
+Blob wrote:
+
+> > "When a Player goes On Hold, all Payment Orders naming em as payee
+> >  are stayed; each such Payment Order is assigned an Elapsed Time
+> >  equal to the length of time since it was executed.
+> >
+> >  When a Player comes Off Hold, each Payment Orders naming em as payee
+> >  and having an Elapsed Time is reinstated, as if it had been executed
+> >  at a time equal to the current time minus its Elapsed Time."
+>
+> Wasn't the point oringially to stay POs incurred _while_ on Hold?
+> In which case, the above doesn't work. And I'm not sure I like allowing
+> players to stay POs just by going on hold. You should pay your debts
+> before going awaym or face the consequences.
+
+That makes it easier, then:  "When a Player issues a Payment Order naming
+an Inactive Player as payee, the issuer shall order the stay of that Payment
+Order as soon as possible.  When the payee becomes Active, the issuer shall
+order the vacation of the Order to Stay as soon as possible."
+
+I'm not sure whether the stay should be required to be immediate or just
+ASAP, though.  Both have drawbacks.
+
+
+-- 
+Ed Murphy <ford@bayside.net>     http://www.bayside.net/users/ford/
+"A war?  Oh, good, more food for my family - all 75 million
+ of 'em.  That's a lot of mouths to feed, you know."
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Jul 13 08:52 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA01789 for <dpb@cs.brown.edu>; Mon, 13 Jul 1998 08:52:49 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA21980
+	for agora-discussion-list; Mon, 13 Jul 1998 22:41:07 +1000
+Received: from smtp2.erols.com (smtp2.erols.com [207.172.3.235])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA21977
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 13 Jul 1998 22:41:01 +1000
+Received: from deep-thought (207-172-240-93.s30.as2.bsd.erols.com [207.172.240.93])
+	by smtp2.erols.com (8.8.8/8.8.5) with SMTP id KAA01543
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 12 Jul 1998 10:14:20 -0400 (EDT)
+From: "Dave Smith" <changeling@erols.com>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: RE: DIS: RE: RE: RE: proto: Make Being On Hold Safe Again 
+Date: Sun, 12 Jul 1998 10:24:42 -0400
+Message-ID: <000601bdada0$cf7b9f80$5df0accf@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2173.0
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+Importance: Normal
+In-Reply-To: <199807111438.JAA11241@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 905
+
+> Dave> The main problem I have with the approach is that when a Stay is
+> Dave> vacated, "the previously stayed order again has effect as if it
+> Dave> had been originally executed at the moment the stay ceases to be
+> Dave> effective."  This would allow a Player to permanently avoid a PO
+> Dave> by use of the Hold mechanism.
+>
+> Yes, that is inappropriate.  I would prefer that the time during which
+> an order is stayed is not counted toward the amount of time before
+> which the order must be satisfied.  Expressing that in language
+> acceptable to Agorans is not simple, however.
+>
+
+What would be wrong with wording such as the following (a possible amendment
+of R1713):
+
+       An Overdue Payment Order is a Payment Order which is presently
+       effective, has been effective for more than seven days (excluding
+       days on which the Payor was on hold) and has not been satisfied.
+
+-Macross
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Jul 13 09:53 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA03446 for <dpb@cs.brown.edu>; Mon, 13 Jul 1998 09:53:52 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA22228
+	for agora-discussion-list; Mon, 13 Jul 1998 23:43:48 +1000
+Received: from indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA22225
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 13 Jul 1998 23:43:44 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.8.8/8.8.8/1.16IUPO) with ESMTP id IAA28053
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 13 Jul 1998 08:43:33 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id IAA22639 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 13 Jul 1998 08:43:30 -0500
+Message-Id: <199807131343.IAA22639@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: RE: RE: RE: proto: Make Being On Hold Safe Again 
+In-reply-to: Your message of "Sun, 12 Jul 1998 20:33:47 MST."
+             <000101bdae0f$0b45ace0$227412ce@friend-computer> 
+Date: Mon, 13 Jul 1998 08:43:28 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 730
+
+"Ed" == Ed Murphy <ford@bayside.net> writes:
+
+Ed> That makes it easier, then: "When a Player issues a Payment Order
+Ed> naming an Inactive Player as payee, the issuer shall order the
+Ed> stay of that Payment Order as soon as possible.  When the payee
+Ed> becomes Active, the issuer shall order the vacation of the Order
+Ed> to Stay as soon as possible."
+
+I would be satisfied with a rule that stated that "Any Payment Order
+issued to a Player who is On Hold is automatically stayed by operation
+of law until such time as that Player comes Off Hold or is
+deregistered."
+
+IMO, the automatic issuance of stays is not problematic, because
+the resolution of whether or not a stay is in force can be safely
+deferred to judicial review.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Jul 13 10:24 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA04843 for <dpb@cs.brown.edu>; Mon, 13 Jul 1998 10:24:45 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA22593
+	for agora-discussion-list; Tue, 14 Jul 1998 00:17:15 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id AAA22588
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 14 Jul 1998 00:17:09 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 13 Jul 1998 10:17:14 -0400
+Message-Id: <s5a9deaa.008@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 13 Jul 1998 10:16:58 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: OFF: Herald's Report as of 13 July 1998
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 575
+
+OFF: Herald's Report as of 13 July 1998
+
+Crito wrote:
+
+>Date: Mon, 13 July 1998 00:00:00 GMT
+
+>    The following Players are guilty of Persistent Indebtedness for
+>    Indulgences.
+
+>    Swann is hereby commanded to pay one Indulgence to the Bank.
+>    Harlequin is hereby commanded to pay one Indulgence to the Bank.
+>    Chuck is hereby commanded to pay one Indulgence to the Bank.
+>    Muprhy is hereby commanded to pay one Indulgence to the Bank.
+
+H. Scorekeepor,
+
+As a result of the above Blots, Swann, Harlequin, Chuck, and Murphy each lose 2
+points.
+
+-- Herald Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Jul 13 11:13 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA06486 for <dpb@cs.brown.edu>; Mon, 13 Jul 1998 11:13:45 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA23160
+	for agora-discussion-list; Tue, 14 Jul 1998 01:03:47 +1000
+Received: from indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id BAA23157
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 14 Jul 1998 01:03:33 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-41.ucs.indiana.edu [156.56.126.41])
+	by indiana.edu (8.8.8/8.8.8/1.16IUPO) with ESMTP id KAA03410
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 13 Jul 1998 10:03:20 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id KAA22872 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 13 Jul 1998 10:03:18 -0500
+Message-Id: <199807131503.KAA22872@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: BUS: Taxes! 
+In-reply-to: Your message of "Mon, 13 Jul 1998 10:13:29 -0400."
+             <s5a9ddd8.007@rmv.state.ma.us> 
+Date: Mon, 13 Jul 1998 10:03:16 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 202
+
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> Threat is hereby commanded to pay 3.5 VTs to the Bank.
+
+Per your prior report, the Threat only has 0.7 VTs.  Surely this is an
+error.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Jul 13 12:17 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA08759 for <dpb@cs.brown.edu>; Mon, 13 Jul 1998 12:17:44 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA23454
+	for agora-discussion-list; Tue, 14 Jul 1998 02:06:52 +1000
+Received: from smtp2.erols.com (smtp2.erols.com [207.172.3.235])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA23451
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 14 Jul 1998 02:06:47 +1000
+Received: from deep-thought (207-172-240-93.s30.as2.bsd.erols.com [207.172.240.93])
+	by smtp2.erols.com (8.8.8/8.8.5) with SMTP id KAA03874
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 12 Jul 1998 10:24:48 -0400 (EDT)
+From: "Dave Smith" <changeling@erols.com>
+To: "Agora-Discussion" <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: DIS: Difficulty posting
+Date: Sun, 12 Jul 1998 10:35:10 -0400
+Message-ID: <000701bdada2$459d8420$5df0accf@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2173.0
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+Importance: Normal
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 1233
+
+H. Distributor Steve,
+I seem to be having some minor difficulty in posting...  I have included
+below a message I got in response to a recent test post I made.  The test
+post was ultimately successful, but I thought I should make you aware of the
+situation (hopefully you'll receive this :) ).
+
+-Macross
+
+
+
+
+-----Original Message-----
+From: Mail Delivery Subsystem [mailto:MAILER-DAEMON@erols.com]
+Sent: Saturday, July 11, 1998 10:07 PM
+To: changeling@erols.com
+Subject: Warning: could not send message for past 4 hours
+
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Sat, 11 Jul 1998 17:06:49 -0400 (EDT)
+from 207-172-241-158.s31.as7.bsd.erols.com [207.172.241.158]
+
+   ----- The following addresses had transient non-fatal errors -----
+<agora-discussion@gecko.serc.rmit.edu.au>
+
+   ----- Transcript of session follows -----
+<agora-discussion@gecko.serc.rmit.edu.au>... Deferred: Name server:
+gecko.serc.rmit.edu.au: host name lookup failure
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Jul 13 14:03 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA11807 for <dpb@cs.brown.edu>; Mon, 13 Jul 1998 14:03:51 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA24011
+	for agora-discussion-list; Tue, 14 Jul 1998 03:58:35 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id DAA24008
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 14 Jul 1998 03:58:33 +1000
+Received: From elgar With LocalMail ; Tue, 14 Jul 98 03:58:18 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au (Nomic Discussion)
+Date: Tue, 14 Jul 1998 03:58:17 +1000 (EST)
+Message-Id:  <980713175818.27714@cse.unsw.edu.au>
+Subject: DIS: Wizard Report
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 518
+
+Does anyone know whether Steve issued a Wizard Report for P3769-3771?
+If not, then I guess I have to do it soon.
+
+Blob (The Wizard's Apprentice, as it were)
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Jul 13 17:28 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA18708 for <dpb@cs.brown.edu>; Mon, 13 Jul 1998 17:28:24 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA24829
+	for agora-discussion-list; Tue, 14 Jul 1998 07:23:19 +1000
+Received: from smtp2.erols.com (smtp2.erols.com [207.172.3.235])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA24826
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 14 Jul 1998 07:23:15 +1000
+Received: from deep-thought (207-172-240-59.s59.as1.bsd.erols.com [207.172.240.59])
+	by smtp2.erols.com (8.8.8/8.8.5) with SMTP id RAA12738
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 13 Jul 1998 17:23:43 -0400 (EDT)
+From: "Dave Smith" <changeling@erols.com>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: DIS: RE: Judging
+Date: Mon, 13 Jul 1998 17:33:43 -0400
+Message-ID: <000101bdaea5$e9269a60$3bf0accf@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2173.0
+In-Reply-To: <3.0.5.32.19980711000623.00a3c5e0@cyber1.servtech.com>
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 309
+
+
+>
+> I hereby make myself ineligible to judge any CFJs called.
+>
+
+Doesn't this fall short of the requirements of R1567 in that is doesn't name
+a specific CFJ?  I have no problem with one being able to choose not to be a
+Judge but the Rules don't seem to allow this move (assuming I haven't missed
+anything).
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Jul 13 18:37 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA20481 for <dpb@cs.brown.edu>; Mon, 13 Jul 1998 18:37:47 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA25127
+	for agora-discussion-list; Tue, 14 Jul 1998 08:28:50 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id IAA25124
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 14 Jul 1998 08:28:47 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 13 Jul 1998 18:28:57 -0400
+Message-Id: <s5aa51e9.032@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 13 Jul 1998 18:28:03 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: The last Wizard's report I received goes up to 3768 only.  I
+	can't find any
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 720
+
+The last Wizard's report I received goes up to 3768 only.  I can't find any
+subsequent report in my archives.
+
+-- Crito
+
+
+>>> Malcolm Ross Kinsella Ryan <malcolmr@cse.unsw.edu.au> 07/13/98 01:58pm >>>
+Does anyone know whether Steve issued a Wizard Report for P3769-3771?
+If not, then I guess I have to do it soon.
+
+Blob (The Wizard's Apprentice, as it were)
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+

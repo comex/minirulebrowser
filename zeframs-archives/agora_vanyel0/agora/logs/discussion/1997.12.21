@@ -1,0 +1,830 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 19:11 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA03274 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 19:11:42 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA22562
+	for agora-discussion-list; Mon, 22 Dec 1997 11:06:05 +1100
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA22556
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 11:05:51 +1100
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id TAA17027 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 21 Dec 1997 19:07:08 -0500 (EST)
+Message-Id: <3.0.1.16.19971221190744.3d5f1314@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Sun, 21 Dec 1997 19:07:44
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: DIS: Re: BUS: Proto:  Plots (v1.7)
+In-Reply-To: <3.0.5.32.19971221125806.007da320@mail.bayside.net>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 1281
+
+At 12:58 PM 12/21/97 -0800, Ed Murphy wrote:
+
+>     Plots are a Currency.  Their MUQ is 1.  Their Recordkeepor is the
+>     Cartographor.  Their Mintor is the Bank.
+
+I'm still not sure I like this. Admittedly, we did a similar thing with
+Powers, but I don't think you should define non-fungible entities as
+Currencies...
+>     When a Player Wins in this way, all Plots Owned
+>     by the Winner become Owned by the Bank.
+
+"When a Player Wins in this way, the Cartographor shall issue a Payment
+Order for the number of Plots owned by that Player, from that Player to the
+Bank."
+
+>     An owner's monthly upkeep on eir Working Mule is equal to 2 units of
+>     Energy <snip>
+
+"Units of energy"? Yuck. What's the scientific term for one unit of work
+energy?
+
+>Create a rule titled "Productive Mules" reading:
+
+What was wrong with the old system (with buildings)?
+
+>Harlequin, Blob, and Antimatter become Authors of each Rule created or
+>amended earlier in this Proposal.
+
+Joy.
+
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 19:31 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA03571 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 19:31:18 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA22653
+	for agora-discussion-list; Mon, 22 Dec 1997 11:25:42 +1100
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA22650
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 11:25:38 +1100
+Received: by windowsnt from localhost
+    (router,SLMail V2.6); Sun, 21 Dec 1997 20:14:10 -0500
+Received: by windowsnt from friend-computer
+    (206.18.116.83::mail daemon; unverified,SLMail V2.6); Sun, 21 Dec 1997 20:14:08 -0500
+Message-Id: <3.0.5.32.19971221161547.007a7290@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Sun, 21 Dec 1997 16:15:47 -0800
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: DIS: Re: BUS: Proto:  Plots (v1.7)
+In-Reply-To: <3.0.1.16.19971221190744.3d5f1314@cyber1.servtech.com>
+References: <3.0.5.32.19971221125806.007da320@mail.bayside.net>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 1437
+
+Harlequin wrote:
+
+>>     Plots are a Currency.  Their MUQ is 1.  Their Recordkeepor is the
+>>     Cartographor.  Their Mintor is the Bank.
+
+>I'm still not sure I like this. Admittedly, we did a similar thing with
+>Powers, but I don't think you should define non-fungible entities as
+>Currencies...
+
+I think the existing Currency mechanisms are useful enough to justify
+basing Plots on them.  Perhaps the one idea I added (TOs and POs must
+specify which Plots they refer to, and can't make anyone go negative)
+could be adapted into a general framework for non-fungible Currencies?
+
+>>     When a Player Wins in this way, all Plots Owned
+>>     by the Winner become Owned by the Bank.
+
+>"When a Player Wins in this way, the Cartographor shall issue a Payment
+>Order for the number of Plots owned by that Player, from that Player to the
+>Bank."
+
+Right, that'll go into the next version.
+
+>>     An owner's monthly upkeep on eir Working Mule is equal to 2 units of
+>>     Energy <snip>
+
+>"Units of energy"? Yuck. What's the scientific term for one unit of work
+>energy?
+
+I guess I'll rename them "ergs".
+
+>>Create a rule titled "Productive Mules" reading:
+
+>What was wrong with the old system (with buildings)?
+
+I basically just renamed "Structure" to "Working Mule"; I don't think any of
+the fundamental mechanisms have changed.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+"I see," said Arthur, who didn't.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 21:07 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA05109 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 21:07:45 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA23082
+	for agora-discussion-list; Mon, 22 Dec 1997 13:02:35 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA23079
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 13:02:34 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id NAA25164
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 22 Dec 1997 13:04:14 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712220204.NAA25164@aurora.cc.monash.edu.au>
+Subject: DIS: Re: BUS: Votes
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 22 Dec 1997 13:04:14 +1100 (EST)
+In-Reply-To: <199712191351.OAA08361@wsinfm15.win.tue.nl> from "Andre Engels" at Dec 19, 97 02:51:46 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 331
+
+Andre Engels wrote:
+>
+>I should not forget to vote... I should not forget to vote... 
+
+I think you were about 10 minutes too late...
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 21:08 EST 1997
+Received: from gecko.serc.rmit.edu.au (gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA05131 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 21:08:38 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA23058
+	for agora-discussion-list; Mon, 22 Dec 1997 13:00:33 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA23055
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 13:00:32 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id NAA20512
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 22 Dec 1997 13:02:09 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712220202.NAA20512@aurora.cc.monash.edu.au>
+Subject: Re: DIS: my take on the current situation
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 22 Dec 1997 13:02:08 +1100 (EST)
+In-Reply-To: <199712191313.IAA02687@poverty.bloomington.in.us> from "Scott Goehring" at Dec 19, 97 08:13:26 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2174
+
+Scott Goehring wrote:
+>
+>"Steve" == Steve Gardner <gardner@aurora.cc.monash.edu.au> writes:
+>
+>>> 1. Automatic ratification of undisputed official reports within a
+>>> week.
+>
+>Steve> One week is not long enough to ascertain whether a Report
+>Steve> should be regarded as undisputed, in my opinion. I would regard
+>Steve> 2 weeks as an absolute minimum, and 3 weeks as
+>Steve> preferable. Bring back R1687!
+>
+>The statute of limitations on challenges is clearly different for
+>different types of reports.  The Assessor's Report I think justifies a
+>1 week sunset.
+
+I disagree. I just don't think one week is long enough. I could accept
+a compromise of 2 weeks.
+
+>Steve> I think it's a great shame that the infection of R1598 seems
+>Steve> likely to result in the repeal of the Virus. I think it's a
+>Steve> gross overreaction which will achieve none of the things its
+>Steve> proponents have claimed for it.  We shall be the poorer for its
+>Steve> absence and gain nothing in compensation. The proper response,
+>Steve> in my view, would simply have been (and still is) to upmutate
+>Steve> R1598 to Power = 1.5 or 2. 
+>
+>As I previously stated, there is no reason why we should have to
+>upmutate the bulk of our Rules to a Power greater than 1 merely to
+>protect them from the maurauding Virus.  Doing so makes it that much
+>harder to effectuate deliberate change, which is something that, in my
+>opinion, be impaired, especially not for such a frivilous reason.
+
+Who said anything about the bulk of the Rules? The Virus has been
+operating in its current form or about 8 months, and this is probably
+the first time we've had to consider upmutation as a response. I
+think the Rule that underpins Transfer Orders is a pretty damn
+important Rule and deserves upmutation on those grounds. All the
+Virus has done is to bring this fact to our attention. Your response
+is to shoot the messenger.
+
+I think history has shown by now that amending Power = 2 Rules is
+eminently feasible.
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 21:14 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA05211 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 21:14:09 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA23135
+	for agora-discussion-list; Mon, 22 Dec 1997 13:06:48 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA23132
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 13:06:46 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id NAA02127
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 22 Dec 1997 13:08:26 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712220208.NAA02127@aurora.cc.monash.edu.au>
+Subject: Re: DIS: my take on the current situation
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 22 Dec 1997 13:08:26 +1100 (EST)
+In-Reply-To: <E0xizRj-0004Jc-00@merganser.cl.cam.ac.uk> from "Michael Norrish" at Dec 19, 97 10:14:19 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 809
+
+Michael Norrish wrote:
+>
+>Steve Gardner writes:
+>
+>>> 1. Automatic ratification of undisputed official reports within a
+>>>    week. 
+> 
+>> One week is not long enough to ascertain whether a Report should be
+>> regarded as undisputed, in my opinion. I would regard 2 weeks as an
+>> absolute minimum, and 3 weeks as preferable. Bring back R1687!
+>
+>Three weeks is far too long; two I could just about cope with. 
+
+Why is three weeks far too long to wait before ratifying one of the
+most important documents in the game? What situation is it that you dread,
+that you hope to avoid by ratifying after just 7 days?
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 21:15 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA05271 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 21:15:30 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA23109
+	for agora-discussion-list; Mon, 22 Dec 1997 13:04:15 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA23105
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 13:04:13 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id NAA23742
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 22 Dec 1997 13:05:53 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712220205.NAA23742@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Results of RGB II
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 22 Dec 1997 13:05:53 +1100 (EST)
+In-Reply-To: <199712191520.KAA02989@poverty.bloomington.in.us> from "Scott Goehring" at Dec 19, 97 10:20:53 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 789
+
+Scott Goehring wrote:
+>
+>"Charles" == Charles E Carroll <ccarroll@dfw.net> writes:
+>
+>>>  (The Bank's balance is unchanged because the adjustments RGB II
+>>> would require attempt to attribute ownership of a negative number
+>>> of units of Currency to the Bank, which I deem to be illogical;
+>>> those adjustments are therefore ignored.)
+>
+>Charles> Why is that illogical?
+>
+>Because it makes no logical sense for an entity to possess a negative
+>number of anything.
+
+Perhaps not, but saying "I have a negative amount of money." is an
+acceptable way of saying "I am in debt." in my opinion.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 21:28 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA05418 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 21:28:07 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA23242
+	for agora-discussion-list; Mon, 22 Dec 1997 13:21:21 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA23239
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 13:21:19 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id NAA19682
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 22 Dec 1997 13:22:59 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712220222.NAA19682@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Re: OFF: Wizard's Report
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 22 Dec 1997 13:22:59 +1100 (EST)
+In-Reply-To: <199712191617.RAA17875@logatome.micronet.fr> from "Laurent Bossavit" at Dec 19, 97 05:18:12 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1160
+
+Laurent Bossavit wrote:
+>
+>> I only refrain from imposing a Kudo transfer in the interest of
+>> avoiding (or furthering) a Kudo war.  I consider accusations such as
+>> the above in extremely poor taste, especially when aired publically.
+>
+>I can't refrain from adding that Steve's suddenly taking the high
+>moral ground on this issue as well as that of my response to the
+>situation created by Rule 1729, not the best written Rule we've
+>seen, to put it mildly, and one that he himself authored, certainly
+>puts him next in line as a Kudo victim when I'll need one. And I
+>won't mention matters of taste. ;)
+
+I think you'll find that Oerjan wrote R1729, not me. As for the Kudo
+transfer, no taking of the moral high ground should be inferred. Let
+me repeat that I have the highest respect for your style of play. 
+Nevertheless, it was a violation of the Rules for strategic purposes,
+yes? I just think the pursuit of such strategies should not be without
+risks.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 22:02 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA05981 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 22:02:05 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA23384
+	for agora-discussion-list; Mon, 22 Dec 1997 13:56:18 +1100
+Received: from poverty.bloomington.in.us (dial-126-131.ucs.indiana.edu [156.56.126.131])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA23381
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 13:56:14 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id VAA16156 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 21 Dec 1997 21:57:40 -0500
+Message-Id: <199712220257.VAA16156@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Results of RGB II 
+In-reply-to: Your message of "Mon, 22 Dec 1997 13:05:53 +1100."
+             <199712220205.NAA23742@aurora.cc.monash.edu.au> 
+Date: Sun, 21 Dec 1997 21:57:34 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 693
+
+"Steve" == Steve Gardner <gardner@aurora.cc.monash.edu.au> writes:
+
+>>  Because it makes no logical sense for an entity to possess a
+>> negative number of anything.
+
+Steve> Perhaps not, but saying "I have a negative amount of money." is
+Steve> an acceptable way of saying "I am in debt." in my opinion.
+
+Ah, I was hoping that someone would make this comment!  Suppose that
+we do hold that a negative balance is a debt.  A debt to who?  The
+Bank seems to be the obvious choice.  Then what is a negative balance
+in the Bank?  A debt to the Bank?  That's absurd!
+
+The "negative balance == debt" concept is absurd when there is no
+central lending authority.  We have no central lending authority.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 22:16 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA06210 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 22:16:19 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA23465
+	for agora-discussion-list; Mon, 22 Dec 1997 14:10:08 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA23462
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 14:10:07 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id OAA04884
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 22 Dec 1997 14:11:47 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712220311.OAA04884@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Results of RGB II
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 22 Dec 1997 14:11:47 +1100 (EST)
+In-Reply-To: <199712220257.VAA16156@poverty.bloomington.in.us> from "Scott Goehring" at Dec 21, 97 09:57:34 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1277
+
+Scott Goehring wrote:
+>
+>"Steve" == Steve Gardner <gardner@aurora.cc.monash.edu.au> writes:
+>
+>>>  Because it makes no logical sense for an entity to possess a
+>>> negative number of anything.
+>
+>Steve> Perhaps not, but saying "I have a negative amount of money." is
+>Steve> an acceptable way of saying "I am in debt." in my opinion.
+>
+>Ah, I was hoping that someone would make this comment!  Suppose that
+>we do hold that a negative balance is a debt.  A debt to who?  The
+>Bank seems to be the obvious choice.  Then what is a negative balance
+>in the Bank?  A debt to the Bank?  That's absurd!
+>
+>The "negative balance == debt" concept is absurd when there is no
+>central lending authority.  We have no central lending authority.
+
+Sigh. Economics is not my forte, regrettably. Still, I'll try to
+press on with what limited understanding I have of such matters.
+
+What reason is there for denying that a negative balance in the Bank
+simply means that the Chancellor should mint that many units of
+Currency in order to cancel the debt? Sure, it's technical, but it's
+not absurd.
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 22:17 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA06223 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 22:17:32 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA23488
+	for agora-discussion-list; Mon, 22 Dec 1997 14:12:05 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA23485
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 14:12:03 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id OAA25780
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 22 Dec 1997 14:13:44 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712220313.OAA25780@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Morendil's Votes on 3639-3641
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 22 Dec 1997 14:13:43 +1100 (EST)
+In-Reply-To: <199712191526.KAA03024@poverty.bloomington.in.us> from "Scott Goehring" at Dec 19, 97 10:26:14 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 806
+
+Scott Goehring wrote:
+>
+>"Steve" == Steve Gardner <gardner@aurora.cc.monash.edu.au> writes:
+>
+>Steve> In my view the votes will be legal, but you are in violation of
+>Steve> R1729 for voting in Public on an Insane Proposal. Since the
+>Steve> violation is clearly intentional and strategic, I think you can
+>Steve> expect to be prosecuted to the full extent of the law for this.
+>
+>Oh, good.  I'll be most interested to find out what the penalty for
+>"bending" a Rule is.  Is this within the scope of Rule 754?  I don't
+>know.
+
+Neither do I! It should add some extra interest to the prosecutory
+proceedings.
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 22:37 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA06549 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 22:37:42 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA23585
+	for agora-discussion-list; Mon, 22 Dec 1997 14:28:16 +1100
+Received: from poverty.bloomington.in.us (dial-126-131.ucs.indiana.edu [156.56.126.131])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA23582
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 14:28:12 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id WAA16333 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 21 Dec 1997 22:29:42 -0500
+Message-Id: <199712220329.WAA16333@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Results of RGB II 
+In-reply-to: Your message of "Mon, 22 Dec 1997 14:11:47 +1100."
+             <199712220311.OAA04884@aurora.cc.monash.edu.au> 
+Date: Sun, 21 Dec 1997 22:29:42 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1256
+
+"Steve" == Steve Gardner <gardner@aurora.cc.monash.edu.au> writes:
+
+Steve> What reason is there for denying that a negative balance in the
+Steve> Bank simply means that the Chancellor should mint that many
+Steve> units of Currency in order to cancel the debt? Sure, it's
+Steve> technical, but it's not absurd.
+
+You're creating an obligation out of thin cloth.  I'd say that you
+need support in the Rules to accomodate that interpretation, and that
+supoprt does not exist.
+
+I have yet to be presented with a reasonable model of absolute
+possession in which negative possessed quantities has a reasonable
+interpretation.  The obvious one, that the negative quantity
+represents a debt, fails because without a debtor there cannot be a
+debt, and there is no entity capable of acting in the role of debtor.
+The other arguments I have seen rely solely on Rule 116 for support,
+but the permissibility of a thing does not ensure its possibility.
+Given the lack of a convincing reason why it should be possible for an
+entity--especially the Bank--to possess a negative quantity of a
+Currency, and the obvious problems with doing so, I must refuse to
+recognize the attempts to attribute the possession of negative
+quantities to the Bank as illogical and impossible.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 22:39 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA06567 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 22:38:59 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA23616
+	for agora-discussion-list; Mon, 22 Dec 1997 14:33:39 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA23613
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 14:33:38 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id OAA02978
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 22 Dec 1997 14:35:18 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712220335.OAA02978@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Results of RGB II
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 22 Dec 1997 14:35:17 +1100 (EST)
+In-Reply-To: <199712220329.WAA16333@poverty.bloomington.in.us> from "Scott Goehring" at Dec 21, 97 10:29:42 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1391
+
+Scott Goehring wrote:
+>
+>"Steve" == Steve Gardner <gardner@aurora.cc.monash.edu.au> writes:
+>
+>Steve> What reason is there for denying that a negative balance in the
+>Steve> Bank simply means that the Chancellor should mint that many
+>Steve> units of Currency in order to cancel the debt? Sure, it's
+>Steve> technical, but it's not absurd.
+>
+>You're creating an obligation out of thin cloth.  I'd say that you
+>need support in the Rules to accomodate that interpretation, and that
+>supoprt does not exist.
+>
+>I have yet to be presented with a reasonable model of absolute
+>possession in which negative possessed quantities has a reasonable
+>interpretation.  The obvious one, that the negative quantity
+>represents a debt, fails because without a debtor there cannot be a
+>debt, and there is no entity capable of acting in the role of debtor.
+
+Why not the Bank itself? The case where we regard the Bank as in
+debt to itself seems to me a degenerate case, but not an absurd one.
+
+I'm not going to press the matter; I don't care that much. I'll leave
+it to others if they can be bothered. The only issue of substance (and
+not much substance at that) is whether 'RGB II' has self repealed or not.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 23:19 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA07148 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 23:19:04 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA23797
+	for agora-discussion-list; Mon, 22 Dec 1997 15:12:52 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA23794
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 15:12:50 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id PAA02537
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 22 Dec 1997 15:14:30 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712220414.PAA02537@aurora.cc.monash.edu.au>
+Subject: Re: DIS: my take on the current situation
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 22 Dec 1997 15:14:30 +1100 (EST)
+In-Reply-To: <199712191540.KAA03050@poverty.bloomington.in.us> from "Scott Goehring" at Dec 19, 97 10:40:46 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 621
+
+Scott Goehring wrote:
+>
+>Another possibility is to penalize Players who fail to pay Voting
+>bills by a suspension of Voting privileges for, say, two weeks,
+>beginning with the week following.  This gives the Assessor ample time
+>to account for the penalty.  A two-week suspension of Voting
+>privileges is a hefty penalty, and should be sufficient to discourage
+>debt voting.
+
+That sounds interesting. I could support that.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 23:26 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA07301 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 23:26:20 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA23866
+	for agora-discussion-list; Mon, 22 Dec 1997 15:20:26 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA23863
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 15:20:24 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id PAA20860
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 22 Dec 1997 15:22:04 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712220422.PAA20860@aurora.cc.monash.edu.au>
+Subject: Re: DIS: my take on the current situation
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 22 Dec 1997 15:22:04 +1100 (EST)
+In-Reply-To: <199712191540.KAA03050@poverty.bloomington.in.us> from "Scott Goehring" at Dec 19, 97 10:40:46 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1104
+
+>"Michael" == Michael Norrish <Michael.Norrish@cl.cam.ac.uk> writes:
+>Michael> The Voters seem to disagree with you.  The fact that no-one
+>Michael> is willing to do the Assessor's job, easily the most
+>Michael> important in the game, is a good indication that the system
+>Michael> needs reform.  Eliminating the FM and the Virus will go some
+>Michael> way towards giving the Assessor a more stable platform on
+>Michael> which to work.
+
+I agree with you that the Assessor's job has probably become too onerous,
+and I now think I will support the suggestions being made by Scott and
+yourself which will enable the splitting of the Assessor's functions
+into two roles: one a VT recordkeepor and the other a vote tallyer.
+These are the 'reforms of the system' that we need.
+
+What I don't understand, and what I don't think anyone has demonstrated
+satisfactorily, is what any of this has to do with the Virus.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 23:32 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA07379 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 23:32:24 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA23912
+	for agora-discussion-list; Mon, 22 Dec 1997 15:26:43 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA23909
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 15:26:42 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id PAA18463
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 22 Dec 1997 15:28:12 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712220428.PAA18463@aurora.cc.monash.edu.au>
+Subject: DIS: proto: Bring Back Public Voting
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+Date: Mon, 22 Dec 1997 15:28:12 +1100 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 845
+
+####
+Proto-Proposal
+Bring Back Public Voting
+
+[Comment: the Public Voting Experiment seems to have been popular,
+but the renumbering of the Rule which brought it into being means
+that it will end on Dec 23, since P3634 no longer amends the correct
+Rule. I propose to bring it back quickly.]
+
+Be it hereby resolved that a Rule, entitled "Public Voting", be
+created with the following text:
+
+      Any other Rule to the contrary notwithstanding, the casting of
+      any votes, or the declaration of Presence, by Voting Entities
+      on Proposals, Elections or Referenda, may only be achieved by
+      sending a message to the Public Forum.
+
+####
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Dec 21 23:40 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA07515 for <dpb@cs.brown.edu>; Sun, 21 Dec 1997 23:40:54 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA23967
+	for agora-discussion-list; Mon, 22 Dec 1997 15:34:04 +1100
+Received: from poverty.bloomington.in.us (dial-126-131.ucs.indiana.edu [156.56.126.131])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA23964
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 22 Dec 1997 15:34:00 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id XAA16453 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 21 Dec 1997 23:35:37 -0500
+Message-Id: <199712220435.XAA16453@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: my take on the current situation 
+In-reply-to: Your message of "Mon, 22 Dec 1997 15:22:04 +1100."
+             <199712220422.PAA20860@aurora.cc.monash.edu.au> 
+Date: Sun, 21 Dec 1997 23:35:37 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 801
+
+"Steve" == Steve Gardner <gardner@aurora.cc.monash.edu.au> writes:
+
+Steve> I agree with you that the Assessor's job has probably become
+Steve> too onerous, and I now think I will support the suggestions
+Steve> being made by Scott and yourself which will enable the
+Steve> splitting of the Assessor's functions into two roles: one a VT
+Steve> recordkeepor and the other a vote tallyer.  These are the
+Steve> 'reforms of the system' that we need.
+
+Steve> What I don't understand, and what I don't think anyone has
+Steve> demonstrated satisfactorily, is what any of this has to do with
+Steve> the Virus.
+
+Simply a consequence of the fact that most of our Rules have something
+to do with Voting, and so random infections are more likely to attack
+a Rule that affects some aspect of the Assessor's duties.
+

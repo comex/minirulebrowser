@@ -1,0 +1,1265 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 01:59 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id BAA13732
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 01:59:39 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA06702
+	for agora-discussion-list; Sun, 17 Jan 1999 17:53:05 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA06699
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 17 Jan 1999 17:53:03 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id RAA28018
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 17 Jan 1999 17:57:35 +1100 (EST)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma028016; Sun, 17 Jan 99 17:57:23 +1100
+Received: From mozart With LocalMail ; Sun, 17 Jan 99 17:51:49 +1100 
+From: Malcolm Ross Kinsella Ryan <malcolmr@cse.unsw.edu.au>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 17 Jan 1999 17:51:48 +1100
+Message-ID: <19990117175148.A16616@cse.unsw.edu.au>
+Subject: DIS: Re: your mail
+Mail-Followup-To: agora-discussion@gecko.serc.rmit.edu.au
+References: <19990116124816.13071.qmail@hotmail.com>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.93.2i
+In-Reply-To: <19990116124816.13071.qmail@hotmail.com>; from Alan Riddell on Sat, Jan 16, 1999 at 04:48:14AM -0800
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 2514
+Lines: 56
+
+> 
+> Protoposal  - Commodities
+> 
+> Create a rule with the following text.
+
+Well... I have a number of comments on the technical aspects of the 
+Proposal, but first of all I want to question its motivation? What
+sort of Commodities did you have in mind to implement? How are they
+going to be different from Currencies? I do not see much in the
+proto as it stands which makes Commodities much different from 
+Currencies.
+
+I doubt you will get much support for this idea until you also come
+up with a practical and interesting use for it. Otherwise it is 
+just extraneous clutter in the Ruleset, which we have enough of
+already.
+
+Okay, now to the nitty-gritty. 
+
+First of all, yes it should be several rules, not just one big one.
+Just as the Currency system is spread over several rules. It makes
+it easy to refer to the particular part you want.
+
+Why such an elaborate system for trading? Why can't it work just like
+currency transfers? Why confine deals to being made in terms of 
+Commodities? Can't I trade my commodities for VTs, or political favours?
+Why not let the deals be done priavtely, and just regulation the final
+procedure of transfer? It seems to work fine for Currency deals.
+
+How are Commodities created and destroyed? 
+
+The answers to a lot of these questions would, I imagine, be more
+clear if we had a concrete example of what Commodities would be used
+for. There's really not much point in trying to build a general system
+before you have a use for it. You would be much better off to wait until
+there were two or three Commodity-like things in the game, and then
+try to find their common elements, and converting them into a general
+model. A general model isn't much use on its own, or even with just 
+one example. Why is there no general model that covers Kudo-like 
+entities, for example? The answer is simple: there is only one Kudo-like
+entity, that is the Kudo itself. There is no advantage to having a 
+general system.
+
+Not that I want to discourage you - it was a good proposal on the whole.
+Well written with thought clearly given to making a workable system.
+Just not very interesting on its own. Keep working at it.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 05:00 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id FAA16559
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 05:00:01 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA07256
+	for agora-discussion-list; Sun, 17 Jan 1999 20:43:08 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id UAA07253
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 17 Jan 1999 20:43:06 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id UAA28168
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 17 Jan 1999 20:47:38 +1100 (EST)
+Received: from law-f79.hotmail.com(209.185.131.142) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma028166; Sun, 17 Jan 99 20:47:27 +1100
+Received: (qmail 984 invoked by uid 0); 17 Jan 1999 09:44:31 -0000
+Message-ID: <19990117094431.983.qmail@hotmail.com>
+Received: from 212.211.24.66 by www.hotmail.com with HTTP;
+	Sun, 17 Jan 1999 01:44:30 PST
+X-Originating-IP: [212.211.24.66]
+From: "Alan Riddell" <pkpeekee@hotmail.com>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Commodities
+Date: Sun, 17 Jan 1999 01:44:30 PST
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 3566
+Lines: 91
+
+In reply to Blob.
+
+>What sort of Commodities did you have in mind to implement?
+
+
+I should have made the general idea behind the proto clearer.  The idea 
+behind the rules would be to create a base, so that rules concerning the 
+creation and use of commodities could be created later.  Commodities 
+would relate to natural resources, products and consumables in real 
+life. 
+
+At this point I should say the basic problem is if commodities should 
+have a serious affect on all of Agora.  Or just something which is fun 
+for those who want to do it (see later).
+
+The first type of commodity entity, I planned would be plebes.  Little 
+people who would be owned, and die fairly meaninglessly.  Although it 
+could get complicated, exactly how they would be created and destroyed.  
+Though that could be arranged easily.
+
+In general though there could be any sort of commodities, from oil (if 
+somebody really wants to be boreing, (ha ha)). Houses, cities, land, 
+grass, cows, sheep (possibly that gave to big an incite to how my mind 
+works), just about anything would be possible and I’m sure people could 
+come up with better and wittier ideas than I’ve written here.
+
+All of these though I think would come under the just for fun rather 
+than serious.  It could be that commodities would be a sort of light 
+relief, but in the general style of all nomics they would be what people 
+made them.
+
+
+>How are they going to be different from Currencies?
+
+Commodities I think would have to separate from currencies, it would be 
+silly to have a Mint and a Recordkeepor for each commodity, and you 
+don’t go minting plebes, coal or suchlike.  They would be created and 
+destroyed in different ways which just wouldn't work if they were 
+currencies.
+
+
+>Why such an elaborate system for trading? 
+
+Yeah, I guess it’s a bit dumb.  I just started writing and got carried 
+away I guess, I simpler system would be a lot better.  Which would allow 
+free trading just as long as it would be clear who owns what, as with 
+currency transfers.
+
+
+>How are Commodities created and destroyed?
+
+I realize now if there that if there were separate rules for the 
+creation and destruction of units of each commodity that this would 
+quickly build up and get messy.  However, I think this could be got 
+around.  Have one record and report (from the Storemaster) of how each 
+commodity is created and destroyed rather than actual rules.  This would 
+need a change in the proto about the creation of new commodities but it 
+shouldn’t be too hard to fix.
+
+
+>There's really not much point in trying to build a general system 
+before you have a use for it.
+
+I think that there is a need for a general system, as long as it is set 
+out clearly enough.  This would work better than if commodities were 
+just set up randomly, and also would save making the ruleset more 
+complicated.
+
+Perhaps that some sort of SLC could be set up with a few commodities.  
+It would let people, find out about the system, and use it in a safe and 
+separate environment from the fullset of rules.  Hopefully people would 
+be interested and have a look in, if people didn’t care though they 
+could just ignore it.
+
+This would fit in well with the just for fun type of idea.  However, in 
+this case there would be very little need to trade political favors or 
+VT’s for commodities.
+
+
+>Not that I want to discourage you.
+
+I will not be discouraged… Never, ever, ever…and cheers for the advice 
+Blob.
+
+Peekee
+
+
+
+
+______________________________________________________
+Get Your Private, Free Email at http://www.hotmail.com
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 18:27 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id SAA28886
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 18:27:15 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA10116
+	for agora-discussion-list; Mon, 18 Jan 1999 10:14:53 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA10113
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 10:14:51 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id KAA29161
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 10:19:25 +1100 (EST)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029159; Mon, 18 Jan 99 10:18:57 +1100
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id KAA00563
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 18 Jan 1999 10:16:05 +1100 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199901172316.KAA00563@silas-1.cc.monash.edu.au>
+Subject: DIS: Re: your mail
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 18 Jan 1999 10:16:05 +1100 (EST)
+In-Reply-To: <19990116124816.13071.qmail@hotmail.com> from "Alan Riddell" at Jan 16, 99 04:48:14 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+X-MIME-Autoconverted: from 8bit to quoted-printable by silas-1.cc.monash.edu.au id KAA00563
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by gecko.serc.rmit.edu.au id KAA10114
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 760
+Lines: 19
+
+Alan Riddell wrote:
+>
+>This might seem a bit weird, but I will have to write a proposal 
+>sometime.  So I might as well do something interesting…  Reading over 
+>the mail from the public forums, the talk about economics seemed to have 
+>a point.  So I thought I might try to commodities.
+
+Good on you for having a go at writing a Proposal. I'll read it later
+and pass on any comments I have. But you needn't worry about having to
+make a Proposal immediately. You have 2 months' exemption from the Duty
+to Propose as a New Player. See R1865, 1676.
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 18:32 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id SAA28953
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 18:31:59 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA10142
+	for agora-discussion-list; Mon, 18 Jan 1999 10:19:53 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA10139
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 10:19:51 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id KAA29179
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 10:24:25 +1100 (EST)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029177; Mon, 18 Jan 99 10:24:11 +1100
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id KAA00648
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 18 Jan 1999 10:21:19 +1100 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199901172321.KAA00648@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Re: OFF: Public Service Report for Jan 14 1999
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 18 Jan 1999 10:21:19 +1100 (EST)
+In-Reply-To: <199901161251.HAA00370@poverty.bloomington.in.us> from "Scott Goehring" at Jan 16, 99 07:51:26 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+X-MIME-Autoconverted: from 8bit to quoted-printable by silas-1.cc.monash.edu.au id KAA00648
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by gecko.serc.rmit.edu.au id KAA10140
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1210
+Lines: 28
+
+Scott Goehring wrote:
+>
+>"Steve" == Steve Gardner <Steve> writes:
+>
+>Steve> I should probably add that I have not really given Ørjan the
+>Steve> opportunity to deliver such a ruling, useful though it would
+>Steve> be. CFJ 1112 is not really about the technical meaning of
+>Steve> "receipt of a message in the PF", but about the technical
+>Steve> meaning of "submit a Proposal".
+>
+>But the meaning of "submit a Proposal" is intricately tied to the
+>meaning of "deliver a collection of text to the Public Forum".
+
+That's true in the sense that, if my CFJ is TRUE, then you would need to
+know what it means to deliver a collection of text to the PF in order to
+know what you have to do to submit a Proposal. But Ørjan could very well
+judge that the CFJ is TRUE, accepting my argument that submission of a
+Proposal requires delivery of a collection of text to the PF (which is
+all that the Statement alleges), *without* making a ruling about exactly
+what constitutes delivery of a message to the PF. 
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 19:06 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id TAA29510
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 19:06:41 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA10289
+	for agora-discussion-list; Mon, 18 Jan 1999 10:54:24 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA10286
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 10:54:22 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id KAA29242
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 10:58:56 +1100 (EST)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029238; Mon, 18 Jan 99 10:58:36 +1100
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id KAA01364
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 18 Jan 1999 10:55:43 +1100 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199901172355.KAA01364@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: Re: OFF: Accountor's Report as of 14 January 1999
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 18 Jan 1999 10:55:43 +1100 (EST)
+In-Reply-To: <199901161255.HAA00382@poverty.bloomington.in.us> from "Scott Goehring" at Jan 16, 99 07:55:29 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3157
+Lines: 67
+
+Scott Goehring wrote:
+>
+>"Steve" == Steve Gardner <Steve> writes:
+>
+>Steve> Oops, ignore that. I didn't realize that the BOS was being set
+>Steve> to 1 VT per month.
+>
+>However, the Promotor (R.1607), Assessor (R.1449), Clerk of the Courts
+>(R.889), Registrar (R.559), Rulekeepor (R.1051), and Herald (R.1377)
+>all receive weekly salaries.  I invite comment on how these provisions 
+>shall be construed in connection with Rule 1007.
+
+It's possible that there is no conflict between the provisions, although
+this may have some unexpected effects. R1007 states that:
+
+      At the beginning of each month, the Registrar shall pay out to
+      each Player the designated Salary for each Office that Player has
+      held for a total of at least 12 days in the preceding month.
+
+      There is a Basic Officer Salary, equal to a number of Voting
+      Tokens, the level of which is set by the Chancellor, as
+      described in other Rules.  Salaries are permitted to be
+      expressed in terms of the Basic Salary.  Unless otherwise
+      specified, the Salary for an Office shall be equal to the Basic
+      Salary.
+
+A typical represntative of the group of Rules listed above, R559, states
+that:
+
+      There shall exist the Office of Registrar.  The Registrar shall
+      receive a weekly salary equal to 1.5 times the Basic Officer
+      Salary.
+
+The last Rule we need to have a look at before proceeding is R1854:
+
+      The Chancellor can set the level of the Basic Officer Salary
+      by announcing in the Public Forum that e is doing so, provided
+      that e announces a value between 0 VTs and 8 VTs inclusive,
+      that e makes the announcement before the 25th day of the month,
+      and that the Basic Officer Salary has not already been set by a
+      similar such announcement earlier in the month.
+
+The surprising thing that I notice about these Rules is that nowhere
+does it actually say that the Basic Officer Salary is a monthly salary.
+The first paragraph of R1007 says that the "designated Salary" for each
+Office should be paid at the beginning of the month. The BOS itself is
+simply defined to be "equal to a number of Voting Tokens", a number
+which, according to R1854, the Chancellor can set once per month. That
+seems to me to be consistent with the possibility that Salaries are
+earned weekly (but paid monthly), and this may indeed be the situation
+that now obtains.
+
+Chancellor Andre has just set the BOS to be equal to 1 VT. So R559
+effectively says that the Office of Registrar shall receive a weekly
+salary of 1.5 VTs. R1007 (para. 1) could therefore be interpreted as
+requiring the Registrar to pay himself and the other Officers eir
+accumulated weekly Salaries at the beginning of the month. It may be
+that my original reaction was correct, although for the wrong reasons,
+and that a flood of VTs will come into circulation at the beginning of
+February. Of course, we could take action before then to avert this.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 19:12 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id TAA29613
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 19:12:35 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA10322
+	for agora-discussion-list; Mon, 18 Jan 1999 11:00:24 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA10319
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 11:00:22 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id LAA29275
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 11:04:56 +1100 (EST)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029273; Mon, 18 Jan 99 11:04:44 +1100
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id LAA01443
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 18 Jan 1999 11:01:51 +1100 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199901180001.LAA01443@silas-1.cc.monash.edu.au>
+Subject: DIS: Re: BUS: Proposal
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 18 Jan 1999 11:01:51 +1100 (EST)
+In-Reply-To: <199901161855.TAA14780@dij91.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns" at Jan 16, 99 07:55:13 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2173
+Lines: 55
+
+Klaus Herrmanns wrote:
+>
+>Scott:
+>>>
+>Indeed.  It does occur to me that there is a problem, in that several
+>offices stipulate that they bear a weekly salary while the general
+>salary rules stipulate that salaries be paid monthly.  Anyone want to
+>take a stab at resolving this apparent conflict?
+><<
+>
+>Well, this was obviously overlooked by the proposer of the monthly
+>salary (I wonder who that was... [looks around, trying to look like an
+>innocent bystander]).
+>
+>I guess it boils down to precedence; some weekly salaries are in rules
+>with numbers higher than 1007 (the monthly salary rule), so these
+>should be paid monthly. For those with numbers lower than 1007, I
+>guess it is monthly payments.
+>
+>Although one might try to argue that 1007 requires a monthly payment,
+>and the weekly salaries are paid in addition to this...
+>
+>Anyway, while I did proto the original proposal without anyone
+>spotting the problem, I'll now propose a fix without protoing
+>first. H. Promotor, please note: I hereby submit the following
+>proposal and transfer 1 P-note from myself to the bank to raise its
+>priority by one:
+>
+>>>
+>Fix monthly salaries
+>
+>Amend R1670 by replacing the string "after the beginning of each Nomic
+>Week" with "after the beginning of each month". 
+>
+>Amend rules 1607, 1449, 889, 910, 559, 1051 and 1377 by replacing
+>"weekly salary" with "salary" in each of them.
+><<
+
+To my way of thinking, a really complete solution woukld tackle the
+problem at its source, by amending the definition of the BOS to be "equal
+to a number of Voting Tokens, to be paid to an Officer on a monthly
+basis as remuneration for eir services to the game." It would also
+contain special provisions to negate the effect of the inflated weekly
+Salaries which are now being accumulated by all Officers, and the
+Distributor.
+
+The Distributor is a special case, by the way - e is to be paid at the
+end of the week, regardless of R1007. Registrar Andre, please take note.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 19:22 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id TAA29842
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 19:22:06 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA10381
+	for agora-discussion-list; Mon, 18 Jan 1999 11:09:54 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA10378
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 11:09:52 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id LAA29301
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 11:14:26 +1100 (EST)
+Received: from sabre-wulf.nvg.ntnu.no(129.241.210.67) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029299; Mon, 18 Jan 99 11:14:08 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 47425]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49390-26704> convert rfc822-to-quoted-printable; Mon, 18 Jan 1999 01:11:01 +0100
+Date: 	Mon, 18 Jan 1999 01:10:50 +0100 (CET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Re: OFF: Public Service Report for Jan 14 1999
+In-Reply-To: <199901172321.KAA00648@silas-1.cc.monash.edu.au>
+Message-ID: <Pine.LNX.4.05.9901180102260.27697-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from QUOTED-PRINTABLE to 8bit by gecko.serc.rmit.edu.au id LAA10379
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=iso-8859-1
+Content-Length: 761
+Lines: 17
+
+On Mon, 18 Jan 1999, Steve Gardner wrote:
+
+> That's true in the sense that, if my CFJ is TRUE, then you would need to
+> know what it means to deliver a collection of text to the PF in order to
+> know what you have to do to submit a Proposal. But Ørjan could very well
+> judge that the CFJ is TRUE, accepting my argument that submission of a
+> Proposal requires delivery of a collection of text to the PF (which is
+> all that the Statement alleges), *without* making a ruling about exactly
+> what constitutes delivery of a message to the PF. 
+
+There is a subtlety there, however... you used "received in" rather than
+"received by" or "delivered to" in the Statement.  The recipient is
+missing, but can hardly be anything but the subscribers.
+
+Greetings,
+Ørjan.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 19:28 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id TAA29947
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 19:28:37 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA10428
+	for agora-discussion-list; Mon, 18 Jan 1999 11:16:24 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA10425
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 11:16:22 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id LAA29325
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 11:20:56 +1100 (EST)
+Received: from dial-126-153.dial.indiana.edu(156.56.126.153) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029323; Mon, 18 Jan 99 11:20:28 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id TAA05480 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 17 Jan 1999 19:17:32 -0500
+Message-Id: <199901180017.TAA05480@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Re: OFF: Public Service Report for Jan 14 1999 
+In-reply-to: Your message of "Mon, 18 Jan 1999 10:21:19 +1100."
+             <199901172321.KAA00648@silas-1.cc.monash.edu.au> 
+Date: Sun, 17 Jan 1999 19:17:30 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 914
+Lines: 17
+
+"Steve" == Steve Gardner <Steve> writes:
+
+Steve> That's true in the sense that, if my CFJ is TRUE, then you
+Steve> would need to know what it means to deliver a collection of
+Steve> text to the PF in order to know what you have to do to submit a
+Steve> Proposal. But Ørjan could very well judge that the CFJ is TRUE,
+Steve> accepting my argument that submission of a Proposal requires
+Steve> delivery of a collection of text to the PF (which is all that
+Steve> the Statement alleges), *without* making a ruling about exactly
+Steve> what constitutes delivery of a message to the PF.
+
+I think your CFJ boils down to asking whether a collection of text
+which has not been "received in the Public Forum" (whatever that
+means) has not been "delivered to the Public Forum".  You are
+therefore asking Oerjan to construe both of these phrases, and decide
+whether the former negative is necessarily implied by the latter.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 19:40 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id TAA00161
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 19:40:10 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA10498
+	for agora-discussion-list; Mon, 18 Jan 1999 11:27:55 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA10494
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 11:27:53 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id LAA29351
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 11:32:26 +1100 (EST)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029349; Mon, 18 Jan 99 11:32:03 +1100
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id LAA02036;
+	Mon, 18 Jan 1999 11:29:04 +1100 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199901180029.LAA02036@silas-1.cc.monash.edu.au>
+Subject: DIS: Re: Request For Peer Pressure
+To: internomic@muppetlabs.com
+Date: Mon, 18 Jan 1999 11:29:04 +1100 (EST)
+Cc: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+In-Reply-To: <199901180011.TAA05459@poverty.bloomington.in.us> from "Scott Goehring" at Jan 17, 99 07:11:25 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1720
+Lines: 41
+
+Scott Goehring wrote:
+>
+>"Uri" == Uri Bruck <Uri> writes:
+>
+>Uri> I don't know about Berserker, but I doubt this would work in
+>Uri> acka.
+>
+>It would require major exceptions to most of Agora's rules pertaining
+>to Rule Changes to work in Agora.
+
+The rule as written certainly has its problems, but some amended version
+of it might work, even in Agora. Self-amendment is, at least legally,
+unproblematic under Agoran rules, so my sketch (and it is just a sketch)
+for such a provision something like:
+
+      Upon appropriate notification of the Rulekeepor by AckaNomic (or
+      its representative) of an AckaNomic amendment to the AckaNomic
+      equivalent of this Rule, the Rulekeepor shall publish this
+      notification as soon as possible in the Public Forum. This
+      publication has the effect of causing this Rule to amend itself as
+      indicated in the AckaNomic notification. However, under no
+      circumstances is this paragraph to be amended by these, or any
+      other means.
+
+Obviously, "appropriate notification" needs further elaboration (inter
+alia, to satisfy the requirements for precision in Agoran R1339), as
+does "AckaNomic equivalent of this Rule". The last sentence is probably
+not enough, but something like it will be necessary, perhaps borrowed
+from Agora's old Frankenstein Monster Rule, which contained similar
+provisions which seemed to work quite well.
+
+At any rate, the problems, while considerable, do not seem to me to lie
+with Agora's strictures on Rule Changes.
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 19:44 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id TAA00202
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 19:44:34 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA10531
+	for agora-discussion-list; Mon, 18 Jan 1999 11:32:25 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA10528
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 11:32:23 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id LAA29364
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 11:36:56 +1100 (EST)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029362; Mon, 18 Jan 99 11:36:56 +1100
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id LAA02136
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 18 Jan 1999 11:34:03 +1100 (EST)
+Received: from eidolon.muppetlabs.com (muppetlabs.com [206.191.168.254])
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) with ESMTP id LAA01724
+	for <gardner@aurora.cc.monash.edu.au>; Mon, 18 Jan 1999 11:12:48 +1100 (EST)
+Received: (from majordom@localhost)
+	by eidolon.muppetlabs.com (8.9.1a/8.9.1) id QAA14045
+	for internomic-outgoing; Sun, 17 Jan 1999 16:12:22 -0800
+X-Authentication-Warning: eidolon.muppetlabs.com: majordom set sender to owner-internomic@muppetlabs.com using -f
+Received: from silas-1.cc.monash.edu.au (gardner@silas-1.cc.monash.edu.au [130.194.1.91])
+	by eidolon.muppetlabs.com (8.9.1a/8.9.1) with ESMTP id QAA14039
+	for <internomic@muppetlabs.com>; Sun, 17 Jan 1999 16:12:18 -0800
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id LAA01689
+	for internomic@muppetlabs.com; Mon, 18 Jan 1999 11:12:15 +1100 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199901180012.LAA01689@silas-1.cc.monash.edu.au>
+Subject: DIS: Re: Request For Peer Pressure
+To: internomic@muppetlabs.com
+Date: Mon, 18 Jan 1999 11:12:15 +1100 (EST)
+In-Reply-To: <3.0.1.32.19990117165639.00b96894@sonic.net> from "Mueller" at Jan 17, 99 04:56:39 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1696
+Lines: 39
+
+Mueller wrote:
+>
+>As an experiment I have submitted the following rule in both Acka (as Rule
+>1-0-1) and Berserker (as Rule 005):
+>
+>***
+>There exists a distinct outside world full of things which are not rule
+>defined but nevertheless affect this game.  Human beings are and have
+>traditionally been such things.  Other nomic games are these things as well
+>when a system for their effects exists.
+>
+>This is a rule in the game of Ackanomic and Berserker Nomic.  Moreover, it
+>is the same rule in both nomics and changes in both places when either
+>nomic changes this rule.  Changes to this rule only occur when such changes
+>have been reported in both nomics.
+>***
+
+The second and third sentences of the second paragraph have to me a
+faint smell of inconsistency about them. Say a proposal to amend the
+Rule passes in Acka. The second sentence seems to say that this causes
+the Rule to be amended both in AckaNomic and in Beserker Nomic. But then
+the third sentence seems to deny this by saying that the change does not
+happen until it is reported in Beserker Nomic.
+
+Besides this problem with inconsistent timing, the rule seems destined
+to create procedural tangles. For example, if Acka amends the rule, who
+in Beserker Nomic is required to report this change? And what if
+Berserker Nomic simply declines to report any Ackan amendments? By the
+third sentence, this would appear effectively to block any Ackan
+amendments (and of course the same is true in the other direction).
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 19:51 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id TAA00382
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 19:51:14 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA10566
+	for agora-discussion-list; Mon, 18 Jan 1999 11:38:55 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA10563
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 11:38:53 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id LAA29375
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 11:43:27 +1100 (EST)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029371; Mon, 18 Jan 99 11:43:22 +1100
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id LAA03878
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 18 Jan 1999 11:40:29 +1100 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199901180040.LAA03878@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Re: OFF: Public Service Report for Jan 14 1999
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 18 Jan 1999 11:40:29 +1100 (EST)
+In-Reply-To: <199901180017.TAA05480@poverty.bloomington.in.us> from "Scott Goehring" at Jan 17, 99 07:17:30 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+X-MIME-Autoconverted: from 8bit to quoted-printable by silas-1.cc.monash.edu.au id LAA03878
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by gecko.serc.rmit.edu.au id LAA10564
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1732
+Lines: 36
+
+Scott Goehring wrote:
+>
+>"Steve" == Steve Gardner <Steve> writes:
+>
+>Steve> That's true in the sense that, if my CFJ is TRUE, then you
+>Steve> would need to know what it means to deliver a collection of
+>Steve> text to the PF in order to know what you have to do to submit a
+>Steve> Proposal. But Ørjan could very well judge that the CFJ is TRUE,
+>Steve> accepting my argument that submission of a Proposal requires
+>Steve> delivery of a collection of text to the PF (which is all that
+>Steve> the Statement alleges), *without* making a ruling about exactly
+>Steve> what constitutes delivery of a message to the PF.
+>
+>I think your CFJ boils down to asking whether a collection of text
+>which has not been "received in the Public Forum" (whatever that
+>means) has not been "delivered to the Public Forum".  You are
+>therefore asking Oerjan to construe both of these phrases, and decide
+>whether the former negative is necessarily implied by the latter.
+
+Yes, but again, Ørjan could hold that "delivered" implies "received" and
+hence that "not received" implies "not delivered", and he could do so
+just on the basis of the ordinary meanings of those words, without
+considering the meaning of "delivered to the PF".
+
+What I'm really trying to say is that Ørjan could deliver a Judgement on
+this CFJ without deciding possibly tougher cases which the CFJ does not
+address, e.g., the case of a message which reaches gecko, but goes no
+further than that, say, due to an error in the configuration files for
+the mailing lists.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 20:17 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id UAA00933
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 20:17:11 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA10711
+	for agora-discussion-list; Mon, 18 Jan 1999 12:04:55 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA10708
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 12:04:53 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id MAA29416
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 12:09:27 +1100 (EST)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029414; Mon, 18 Jan 99 12:08:58 +1100
+Received: From mozart With LocalMail ; Mon, 18 Jan 99 12:04:15 +1100 
+From: Malcolm Ross Kinsella Ryan <malcolmr@cse.unsw.edu.au>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 18 Jan 1999 12:04:14 +1100
+Message-ID: <19990118120414.A15731@cse.unsw.edu.au>
+Subject: Re: DIS: Re: BUS: Proposal
+Mail-Followup-To: agora-discussion@gecko.serc.rmit.edu.au
+References: <199901161855.TAA14780@dij91.tp3.ruhr-uni-bochum.de> <199901180001.LAA01443@silas-1.cc.monash.edu.au>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.93.2i
+In-Reply-To: <199901180001.LAA01443@silas-1.cc.monash.edu.au>; from Steve Gardner on Mon, Jan 18, 1999 at 11:01:51AM +1100
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1099
+Lines: 24
+
+On Mon, Jan 18, 1999 at 11:01:51AM +1100, Steve Gardner wrote:
+> 
+> To my way of thinking, a really complete solution woukld tackle the
+> problem at its source, by amending the definition of the BOS to be "equal
+> to a number of Voting Tokens, to be paid to an Officer on a monthly
+> basis as remuneration for eir services to the game." It would also
+> contain special provisions to negate the effect of the inflated weekly
+> Salaries which are now being accumulated by all Officers, and the
+> Distributor.
+
+While you're about it, you might also want to allow the Chancellor to
+set BOS values more than once a month. A lot can happen in a month, and
+you don't want to be stuck with bad decisions made at the beginning of
+the month.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 20:37 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id UAA01272
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 20:37:38 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA10793
+	for agora-discussion-list; Mon, 18 Jan 1999 12:23:55 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA10790
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 12:23:54 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id MAA29446
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 12:28:27 +1100 (EST)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029444; Mon, 18 Jan 99 12:28:27 +1100
+Received: From mozart With LocalMail ; Mon, 18 Jan 99 12:23:34 +1100 
+From: Malcolm Ross Kinsella Ryan <malcolmr@cse.unsw.edu.au>
+To: internomic@muppetlabs.com
+Date: Mon, 18 Jan 1999 12:23:20 +1100
+Message-ID: <19990118122320.A18452@cse.unsw.edu.au>
+Cc: Agora Nomic Discussion List <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: Re: DIS: Re: Request For Peer Pressure
+Mail-Followup-To: internomic@muppetlabs.com,
+	Agora Nomic Discussion List <agora-discussion@gecko.serc.rmit.edu.au>
+References: <199901180011.TAA05459@poverty.bloomington.in.us> <199901180029.LAA02036@silas-1.cc.monash.edu.au>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.93.2i
+In-Reply-To: <199901180029.LAA02036@silas-1.cc.monash.edu.au>; from Steve Gardner on Mon, Jan 18, 1999 at 11:29:04AM +1100
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 2927
+Lines: 81
+
+On Mon, Jan 18, 1999 at 11:29:04AM +1100, Steve Gardner wrote:
+> 
+>       Upon appropriate notification of the Rulekeepor by AckaNomic (or
+>       its representative) of an AckaNomic amendment to the AckaNomic
+>       equivalent of this Rule, the Rulekeepor shall publish this
+>       notification as soon as possible in the Public Forum. This
+>       publication has the effect of causing this Rule to amend itself as
+>       indicated in the AckaNomic notification. However, under no
+>       circumstances is this paragraph to be amended by these, or any
+>       other means.
+> 
+> Obviously, "appropriate notification" needs further elaboration (inter
+> alia, to satisfy the requirements for precision in Agoran R1339), as
+> does "AckaNomic equivalent of this Rule". The last sentence is probably
+> not enough, but something like it will be necessary, perhaps borrowed
+> from Agora's old Frankenstein Monster Rule, which contained similar
+> provisions which seemed to work quite well.
+
+"Ackanomic equivalent of this Rule" would be a very interesting point 
+for interpretation. I can imagine all manner of problematic situations.
+It's the classic "do this" problem from Hofstadter. If a human being 
+says to an elephant "Do this." and points to eir nose with eir finger,
+what should the elephant do? What if it was a three-headed alien, instead
+of an elephant?
+
+Say we agreed that Rule XYZ was the "Ackanomic equivalent of this Rule".
+Then another rule was created, rule ABC that had text identical to rule
+XYZ - which is the equivalent rule now? Maybe it would still be XYZ, but
+what if XYZ was then radically changed so that it no longer resembled
+the Agoran Rule in any way. Is it still the "Acka equivalent"? Or is Rule
+ABC now a closer equivalent?
+
+What if Rule XYZ is not just amended, but repealed? What if it is 
+renumbered?
+
+Another interesting situation would be this:
+
+What if Acka and Agoran amend their rules simultaneously to different texts,
+vis:
+
+Agoran Rule:
+
+  The password is "sibboleth".
+
+Ackan Rule:
+
+  The password is "shibboleth".
+
+The respectively Rulekeepors notify each other of the changes, and announce
+them in the respective fora. Now each rule self-amends thus:
+
+Agoran Rule:
+
+  The password is "shibboleth".
+
+Ackan Rule:
+
+  The password is "sibboleth".
+
+Now, once again the Rulekeepors will have to communicate this amendment
+to their counterparts, who announce it, and self-amendment happens again:
+
+Agoran Rule:
+
+  The password is "sibboleth".
+
+Ackan Rule:
+
+  The password is "shibboleth".
+
+And so on, and so on, and so on...
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 21:06 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id VAA01745
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 21:06:09 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA10927
+	for agora-discussion-list; Mon, 18 Jan 1999 12:53:56 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA10924
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 12:53:54 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id MAA29484
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 12:58:28 +1100 (EST)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029482; Mon, 18 Jan 99 12:58:09 +1100
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id MAA10046
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 18 Jan 1999 12:55:16 +1100 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199901180155.MAA10046@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Re: OFF: Public Service Report for Jan 14 1999
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 18 Jan 1999 12:55:15 +1100 (EST)
+In-Reply-To: <Pine.LNX.4.05.9901152140440.5031-100000@tyrell.nvg.ntnu.no> from "Orjan Johansen" at Jan 15, 99 09:42:59 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1860
+Lines: 46
+
+Orjan Johansen wrote:
+>
+>[Original message apparently cut by the end-of-line period bug in Pine...]
+>
+>On Thu, 14 Jan 1999, Scott Goehring wrote:
+>
+>> I would in no way object to a brightline rule holding that no message
+>> can be considered to have been delivered to a Public Forum if it has
+>> not been received by at least one Player other than the sender.
+>
+>Now if I could justify adding "within a reasonable time" to that, I should
+>be happy - it has occured that email messages have been sitting in queues
+>for _years_.  Although I think that should be a case for legislation to
+>handle.
+>
+>What I would like to be careful about is when messages bounce to the list
+>administrator, and e passes them on later - we have certainly treated
+>these as legal before.  This seems similar to the case in CFJ 752 (from
+>the Stare Decisis list):
+>
+>>>>>
+>Swann, 752:
+>Something sent to someone in such a way that that person has the  obligation
+>to send it to all Players is sufficient for it having been sent to the
+>Public Forum. (upheld upon appeal by CotC)
+>>>>>
+>
+>except that Steve does not actually have an obligation to pass such
+>messages on.
+
+Perhaps we should give to the Distributor an explicit responsibility to
+do what e reasonably can to ensure that messages intended for the PF
+reach their destination. This would connect up the decision in CFJ 752
+with my practice of forwarding on messages trapped by gecko for one or
+another reason, and provide a legal basis for treating such forwarded
+messages as having been delivered to the PF.
+
+Of course, the Distributor need not be a Player, so such a provision
+would only operate when e was.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 21:08 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id VAA01757
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 21:08:04 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA10944
+	for agora-discussion-list; Mon, 18 Jan 1999 12:55:56 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA10941
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 12:55:54 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id NAA29495
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 13:00:28 +1100 (EST)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029493; Mon, 18 Jan 99 13:00:02 +1100
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id MAA10076
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 18 Jan 1999 12:57:09 +1100 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199901180157.MAA10076@silas-1.cc.monash.edu.au>
+Subject: DIS: Re: BUS: Voting Tariff
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 18 Jan 1999 12:57:09 +1100 (EST)
+In-Reply-To: <19990116132108.B610@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Jan 16, 99 01:21:08 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 957
+Lines: 23
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>> The Basic Officer Salary is hereby set to 1 Voting Token.
+>
+>Oooh, that's not very much. The BOS is monthly now, not weekly remember?
+>So that's only 0.25 VTs/week. But if we ignore absolute values, and
+>just look on this as a matter of scale, that means we are all quite
+>rich in terms of the number of weeks' salary we have in the bank. 
+>
+>What do I do? I could shirk, and set the Tariff to just 0.1 VTs,
+>but then Voting would for many weeks be so close to being free that you
+>would have got what you wanted anyway.
+
+According to my analysis, Officers are now earning 1 VT/week, which they
+will be paid at the beginning of Februrary. The Distributor is earning 1
+VT/week, which should be paid weekly.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 21:55 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id VAA02669
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 21:55:52 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA11159
+	for agora-discussion-list; Mon, 18 Jan 1999 13:43:27 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA11156
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 13:43:25 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id NAA29596
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 13:47:59 +1100 (EST)
+Received: from dial-126-153.dial.indiana.edu(156.56.126.153) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029594; Mon, 18 Jan 99 13:47:51 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id VAA06061 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 17 Jan 1999 21:44:53 -0500
+Message-Id: <199901180244.VAA06061@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Re: OFF: Public Service Report for Jan 14 1999 
+In-reply-to: Your message of "Mon, 18 Jan 1999 12:55:15 +1100."
+             <199901180155.MAA10046@silas-1.cc.monash.edu.au> 
+Date: Sun, 17 Jan 1999 21:44:52 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 466
+Lines: 10
+
+"Steve" == Steve Gardner <Steve> writes:
+
+Steve> Of course, the Distributor need not be a Player, so such a
+Steve> provision would only operate when e was.
+
+Or we could require that a non-Player Distributor agree to be bound by 
+that provision prior to accepting that position.  I see nothing in the 
+Rules that prohibits the Rules from having jurisdiction over
+non-Players.  (The argument that Rule 101 limits jurisdiction to
+Players is not supported by its text.)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Jan 17 21:59 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id VAA02688
+	for <dpb@cs.brown.edu>; Sun, 17 Jan 1999 21:59:20 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA11180
+	for agora-discussion-list; Mon, 18 Jan 1999 13:46:57 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA11177
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 13:46:55 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id NAA29619
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 18 Jan 1999 13:51:29 +1100 (EST)
+Received: from dial-126-153.dial.indiana.edu(156.56.126.153) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma029617; Mon, 18 Jan 99 13:51:18 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id VAA06073 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 17 Jan 1999 21:48:24 -0500
+Message-Id: <199901180248.VAA06073@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Voting Tariff 
+In-reply-to: Your message of "Mon, 18 Jan 1999 12:57:09 +1100."
+             <199901180157.MAA10076@silas-1.cc.monash.edu.au> 
+Date: Sun, 17 Jan 1999 21:48:22 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 429
+Lines: 9
+
+"Steve" == Steve Gardner <Steve> writes:
+
+Steve> According to my analysis, Officers are now earning 1 VT/week,
+Steve> which they will be paid at the beginning of Februrary. The
+Steve> Distributor is earning 1 VT/week, which should be paid weekly.
+
+It's far less clear what the salary of Officers whose salary is not
+specified as "weekly" is.  Rule 1007 says "equal to the Basic Salary", 
+but the frequency of payment is unclear.
+

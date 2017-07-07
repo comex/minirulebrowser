@@ -1,0 +1,1164 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 00:19 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id AAA21047
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 00:19:05 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA16269
+	for agora-discussion-list; Mon, 8 Mar 1999 05:17:02 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA16266
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 05:17:01 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id QAA10753
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 16:21:21 +1100 (EST)
+Received: from dial-126-112.dial.indiana.edu(156.56.126.112) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma010751; Mon, 8 Mar 99 16:20:56 +1100
+Received: from poverty.bloomington.in.us (scott@localhost. [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id AAA32437 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 00:08:52 -0500
+Message-Id: <199903080508.AAA32437@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: Taxes, revisited (Chaos243, rev. 2) 
+In-reply-to: Your message of "Mon, 08 Mar 1999 15:30:17 +1100."
+             <19990308153017.A22670@cse.unsw.edu.au> 
+Date: Mon, 08 Mar 1999 00:08:52 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1838
+Lines: 39
+
+"Malcolm" == Malcolm Ryan <Malcolm> writes:
+
+Malcolm> What you're proposing is a limit on the powers of the
+Malcolm> Chancellor to keep minting more and more Currency, by making
+Malcolm> it WO. So to avoid PI penalties for bank debts, e is allowed
+Malcolm> to levy taxes to raise funds.  The nature of taxes appears to
+Malcolm> be more or less up to eir discretion - it can be anything up
+Malcolm> to fifty percent, and their can be an arbitrary cut off
+Malcolm> values for tax-exemption (which can differ for player and
+Malcolm> non- player entities).
+
+You have it exactly.
+
+Malcolm> Hsm. I like it in principle, but I think the discretionary
+Malcolm> tax-exemptions are too open to abuse. It would be too easy to
+Malcolm> victimise a small group of players. There should be more
+Malcolm> checks and balances.
+
+What would you suggest?
+
+Malcolm> Although, I suppose there is one vulnerability - if a player
+Malcolm> refuses to pay eir Taxes, then the Chancellor is somewhat at
+Malcolm> eir mercy. Assuming e only levied as much tax as e needed, e
+Malcolm> is relying on everyone paying up.  If someone holds out, then
+Malcolm> the Bank remains in debt, and the Chancellor faces PI
+Malcolm> penalties. Either e has to make up the difference by taxing
+Malcolm> the rest of the players even more, or e has to mint more
+Malcolm> currency, to which the recalcitrant Player can always object.
+
+Of course, we could allow the Bank to take out loans with willing
+Players, too.
+
+Malcolm> This could bring about a very interesting kind of
+Malcolm> standoff. I'd love to see how it played out in practice.
+
+I think it has considerably more potential for interesting interaction
+than the present system, which mainly seems to be an exercise in
+trying to find the right parameters to a chaotic system so as to
+prevent it from entering a runaway state.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 00:55 EST 1999
+Received: from gecko.serc.rmit.edu.au (gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id AAA21672
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 00:55:15 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA16403
+	for agora-discussion-list; Mon, 8 Mar 1999 05:52:33 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA16400
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 05:52:31 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id QAA10781
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 16:56:52 +1100 (EST)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma010777; Mon, 8 Mar 99 16:56:25 +1100
+Received: From mozart With LocalMail ; Mon, 8 Mar 99 16:50:55 +1100 
+From: Malcolm Ryan <malcolmr@cse.unsw.edu.au>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 8 Mar 1999 16:50:55 +1100
+Message-ID: <19990308165055.B22670@cse.unsw.edu.au>
+Subject: Re: DIS: Re: OFF: Basic Officer Salary
+Mail-Followup-To: agora-discussion@gecko.serc.rmit.edu.au
+References: <19990308131603.B997@cse.unsw.edu.au> <199903080438.XAA32237@poverty.bloomington.in.us>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.93.2i
+In-Reply-To: <199903080438.XAA32237@poverty.bloomington.in.us>; from Scott Goehring on Sun, Mar 07, 1999 at 11:38:39PM -0500
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1250
+Lines: 26
+
+On Sun, Mar 07, 1999 at 11:38:39PM -0500, Scott Goehring wrote:
+> "Malcolm" == Malcolm Ryan <Malcolm> writes:
+> 
+> Malcolm> No, you miss the point. We don't have to spend 1.3 VTs a week
+> Malcolm> _now_.  We will have to spend it in April. Assuming that the
+> Malcolm> VTCL is raised, that is. If it remains at the level it is,
+> Malcolm> then a lot of VTs will be taken out due to taxes, so we will
+> Malcolm> not have to spend nearly as much. So keeping the VTCL low is
+> Malcolm> a solution of sorts, but not a good one.
+> 
+> The problem with a low VTCL is that we're forced to spend our Salaries 
+> immediately.  In fact, if the VTCL is sufficiently low, we have our
+> Salaries taken away from us before we can spend them at all.
+
+That's why I said it was not a good solution. I'd rather raise the VTCL
+and then increase the tariff appropriately in April, to balance the supply.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 02:23 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id CAA22667
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 02:23:56 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA16717
+	for agora-discussion-list; Mon, 8 Mar 1999 07:22:35 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA16714
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 07:22:33 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id SAA10908
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 18:26:53 +1100 (EST)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma010906; Mon, 8 Mar 99 18:26:49 +1100
+Received: From mozart With LocalMail ; Mon, 8 Mar 99 18:21:09 +1100 
+From: Malcolm Ryan <malcolmr@cse.unsw.edu.au>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 8 Mar 1999 18:21:08 +1100
+Message-ID: <19990308182108.C22670@cse.unsw.edu.au>
+Subject: Re: DIS: proto: Taxes, revisited (Chaos243, rev. 2)
+Mail-Followup-To: agora-discussion@gecko.serc.rmit.edu.au
+References: <19990308153017.A22670@cse.unsw.edu.au> <199903080508.AAA32437@poverty.bloomington.in.us>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.93.2i
+In-Reply-To: <199903080508.AAA32437@poverty.bloomington.in.us>; from Scott Goehring on Mon, Mar 08, 1999 at 12:08:52AM -0500
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1129
+Lines: 26
+
+On Mon, Mar 08, 1999 at 12:08:52AM -0500, Scott Goehring wrote:
+> Malcolm> Hsm. I like it in principle, but I think the discretionary
+> Malcolm> tax-exemptions are too open to abuse. It would be too easy to
+> Malcolm> victimise a small group of players. There should be more
+> Malcolm> checks and balances.
+> 
+> What would you suggest?
+
+Well, actually I think that the other problem I pointed out might be 
+sufficient check. The Chancelllor can levy unfair taxes, but if e does
+so, e runs the risk that people will refuse to pay them, leaving em
+with bad bank debts.
+
+The only thing I would add is a restriction which prevents em from 
+levying taxes in greatly in excess of what is needed to cover current
+debts. Taxes should only be enough to cover real debts.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 02:25 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id CAA22688
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 02:25:42 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA16740
+	for agora-discussion-list; Mon, 8 Mar 1999 07:24:35 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA16737
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 07:24:33 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id SAA10913
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 18:28:53 +1100 (EST)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma010911; Mon, 8 Mar 99 18:28:37 +1100
+Received: From mozart With LocalMail ; Mon, 8 Mar 99 18:23:09 +1100 
+From: Malcolm Ryan <malcolmr@cse.unsw.edu.au>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 8 Mar 1999 18:22:51 +1100
+Message-ID: <19990308182251.D22670@cse.unsw.edu.au>
+Subject: DIS: Re: OFF: Proposals 3840-3842
+Mail-Followup-To: agora-discussion@gecko.serc.rmit.edu.au
+References: <199903062011.PAA22815@poverty.bloomington.in.us>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.93.2i
+In-Reply-To: <199903062011.PAA22815@poverty.bloomington.in.us>; from Scott Goehring on Sat, Mar 06, 1999 at 03:11:30PM -0500
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 614
+Lines: 17
+
+     
+> No.  Proposer           AI    Name
+> 3840 Murphy             1     Legal Briefs
+> 3841 Blob               1     Changing the Bar Height
+> 3842 Chuck              1     Down with Proposal Numbers!
+
+I vote twice FOR each of these proposals.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 03:23 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id DAA23273
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 03:23:17 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA16998
+	for agora-discussion-list; Mon, 8 Mar 1999 08:22:07 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id IAA16995
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 08:22:05 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id TAA11031
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 19:26:25 +1100 (EST)
+Received: from manaslu.capway.com(194.2.90.38) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma011029; Mon, 8 Mar 99 19:26:08 +1100
+Received: from z3q1r8 (d085.paris-193.cybercable.fr [212.198.193.85])
+	by capway.com (8.8.8/8.8.8) with SMTP id JAA06544
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 09:29:41 +0100 (MET)
+Message-Id: <199903080829.JAA06544@capway.com>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <laurent@netdive.com>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 8 Mar 1999 09:21:58 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: DIS: Re: OFF: Judgement in Appeal of CFJ 1120
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 732
+Lines: 21
+
+> However, I do not see on what Morendil bases this view. 
+> [...] 
+> But the Rules are silent on the issue of the clarity with which "that
+> Proposal" must be identified in a voting message. 
+
+That's *precisely* what I meant by mentioning that the Rules do not 
+require unambiguous specification.
+
+
+=================================================================
+Laurent Bossavit
+CTO    					 
+NetDIVE 
+CallSite Call Button: http://www.netdive.com/laurent.htm
+Paris Offices
+01 44 64 89 12 - daytime phone
+01 44 64 88 91 - fax, voice mail
+--------------------------------     
+http://www.netdive.com/
+Leading Java client/server systems for Web based communication
+=================================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 08:02 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id IAA25999
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 08:02:23 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA17890
+	for agora-discussion-list; Mon, 8 Mar 1999 13:00:14 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA17883
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 13:00:11 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id AAA11456
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 00:04:31 +1100 (EST)
+Received: from dial-126-13.dial.indiana.edu(156.56.126.13) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma011452; Tue, 9 Mar 99 00:04:06 +1100
+Received: (from scott@localhost) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) id IAA02390 for agora-discussion@gecko.serc.rmit.edu.au; Mon, 8 Mar 1999 08:00:13 -0500
+Date: Mon, 8 Mar 1999 08:00:13 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Message-Id: <199903081300.IAA02390@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: proto: Kill the Lawyers (Chaos64, rev. 4)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 106
+Lines: 7
+
+Protoproposal Chaos64 [rev. 4]
+
+Kill the Lawyers
+
+Be it resolved, that Rules 1841 and 1842 be repealed.
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 09:24 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id JAA27328
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 09:24:15 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA18202
+	for agora-discussion-list; Mon, 8 Mar 1999 14:21:43 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA18199
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 14:21:41 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id BAA11630
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 01:26:02 +1100 (EST)
+Received: from dfw.nationwide.net(198.175.15.10) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma011628; Tue, 9 Mar 99 01:25:40 +1100
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id IAA04374
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 8 Mar 1999 08:18:53 -0600 (CST)
+Message-Id: <199903081418.IAA04374@dfw.nationwide.net>
+Subject: Re: DIS: Monthly Salaries and Taxes
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 8 Mar 1999 08:18:53 -0600 (CST)
+In-Reply-To: <19990307182014.A7389@cse.unsw.edu.au> from "Malcolm Ryan" at Mar 7, 99 06:20:14 pm
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 622
+Lines: 15
+
+Malcolm Ryan wrote:
+>
+>Some might say that this is a good reason to go back to weekly salaries,
+>but I think the opposite. This is an interesting phenomenon, and worth
+>watching for a while to see how it affects the game. It might create
+>certain strategic advantages to making proposals at different times of
+>the month.
+
+There already are such advantages.  If you make a proposal--and
+increase its priority by one when you submit it--shortly after
+the start of the month, you have nearly two months before its
+priority is reduced.  If you do that near the end of the month,
+you have only a little over one month.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 09:48 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id JAA27992
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 09:48:34 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA18301
+	for agora-discussion-list; Mon, 8 Mar 1999 14:47:13 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA18298
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 14:47:11 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id BAA11668
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 01:51:32 +1100 (EST)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma011666; Tue, 9 Mar 99 01:51:15 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 08 Mar 1999 09:45:44 -0500
+Message-Id: <s6e39c48.036@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 08 Mar 1999 09:37:41 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: RE: Re: BUS: Proposal:  Registrar's Report tweaks
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1107
+Lines: 12
+
+Michael wrote:
+
+>> P.S. Tea flavored with oil of bergamot is called "Earl Grey" even in
+>> the U.S. :)
+
+>Wow.  I'm sure it tastes equally foul in all countries :-)
+
+Well, I can certainly vouch for the fact that it tastes foul here in the U.S.  8)
+
+--Crito
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 13:04 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id NAA05152
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 13:04:07 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA19071
+	for agora-discussion-list; Mon, 8 Mar 1999 18:01:48 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA19068
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 18:01:46 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id FAA12101
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 05:06:06 +1100 (EST)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma012099; Tue, 9 Mar 99 05:05:45 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 08 Mar 1999 13:00:14 -0500
+Message-Id: <s6e3c9de.046@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 08 Mar 1999 12:52:06 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: OFF: Appeal of CFJ 1120
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 10663
+Lines: 129
+
+>==========================================================================
+>                               CFJ 1120
+
+>  "Vlad's message dated 'Sun, 7 Feb 1999 23:11:01 -0600 (CST)' did not
+>  succeed in casting any Votes on either Proposal 3830 or Proposal 3833;
+>  as a result, Payment Orders avt083 and avt085 are invalid and should
+>  be vacated."
+
+>==========================================================================
+
+>Called by:           General Chaos
+
+>First Judge:         Andre (made himself ineligible)
+>Second Judge:        Morendil
+>Judgement:           FALSE
+
+/verbose on
+
+There are several issues that I feel need to be addressed in this case.
+
+The first concerns the meaning of "legal significance".  Before this CFJ
+I had taken a rather simplistic view of this phrase, but now I see that
+there can be at least two different categories of "legal significance"
+within Agora.  One is the very strict category of items that have
+"legal significance" as explicitly defined by the Rules.  Another is the
+rather loose category of items that have "legal significance" by virtue
+of their relationship to entities defined by the Rules.  The case at hand
+provides an excellent example for this distinction, namely, appellations.
+The official proposal number is an appellation directly defined by the
+Rules and therefore has legal significance of the strict kind.
+However, there is nothing that prevents a proposer or Promotor
+from associating another appellation with a Proposal which can then
+take on legal significance of the looser kind, since this appellation
+can be used by Players to cause changes in the game state
+(i.e. by using it to cast votes).
+
+If we were to disallow anything to have legal significance other
+than the strict kind, Morendil's judgement would be without question
+correct.  Only one Proposal had the strictly legal designation of 3830
+and by referring to that number in eir post, Vlad, intending it or not,
+could only be referring to the original P3830.  However, I think we
+have strong game custom, as well as the best interests of the game,
+in considering the second, looser form of legal significance to be valid.
+When Promotor G.Chaos attempted to reassign 3830 to the new
+proposal, e temporarily created an appellation for P3833 that was
+identical to the official appellation of P3830.  Of course, at this point
+3830 became ambiguous as to which Proposal it actually referred.
+This brings us to the second issue - what is the significance of an
+ambiguous voting message?
+
+Unfortunately, the Rules are less clear here than I would like.  R683 does
+not explicitly say that a Player's vote must unambiguously refer to a
+particular Proposal.  It merely says that a Player votes on a Proposal
+when e informs the Assessor that e is voting on "that Proposal".  I see
+three possible interpretations when the reference to a Proposal is ambiguous:
+
+1.  The voting message actually cast a vote on *both* Proposals.
+2.  The voting message is invalid, since it does not specify explicitly
+     what "that Proposal" is.
+3.  The Assessor resolves the ambiguity, or invalidates the message
+     at eir own discretion.
+
+The more I think about it, the more I am inclined to believe that the strict
+letter of the law would require interpretation 1.  However, I also think that
+this is a case where it is unambigously clear that Vlad's intention was
+to cast a single vote on a single Proposal, and so I am inclined to take
+this into account and discard option 1.  That is to say, Vlad clearly
+only cast one vote and the Rules do not allow a single vote to be
+split between more than one Proposal.
+
+Although I think 2 may be a reasonable interpretation (and indeed has
+been argued as such by others), I am not yet convinced that it carries
+more weight than interpretation 3.  And, since it gives me the chance
+to set some legal precedent (or maybe at least spark some interesting
+debate), I will focus my decision on this interpretation.
+
+Clearly, Assessor Blob operated under interpretation 3 in
+determining that the ambiguity should be resolved  by strictly
+adhering to the letter of the law regarding Proposal numbers.
+(This, of course, assumes you accept the argument that
+there *was* ambiguity in the message.  At the time of eir
+actions, I suspect Blob did not think so, but that is irrelevant).
+Assuming that Blob was within eir right to do this, what then
+is the role of the Courts in this case?
+
+One might say that since the Rules did not prevent Blob
+from exercising eir own judgement in resolving an ambiguity,
+we should just let it stand and live with it.  But I think Players
+should have a reasonable recourse against such determinations
+that work to their detriment.  So, I will take this opportunity
+to either establish new or add to existing precedent that the
+role of the Courts is to review such actions and to uphold
+or rectify them (as much as possible).  It is my opinion that the
+Courts should not overturn such actions unless there is compelling
+reason to do so.  In this case, I think there are such compelling
+reasons because, IMO, it is in the best interests of the game that:
+
+    a) Players should be able to operate under the reasonable assumption
+        that official reports and announcements are correct.  In other words,
+        although it is their right to double-check and question the validity
+        of official messages, it should not be a *requirement* to do so.
+    b) As much as possible, errors made by one Player should not
+        irreversibly negatively impact other Players.
+
+To accept Blob's actions as Assessor in this case would run counter
+to both of the above principles.  Since the outcome of this analysis
+leads to the same conclusion has accepting interpretation 2, I will
+leave arguments in it's favor in the hands of the other Justices.
+
+/verbose off
+
+Therefore, I hereby vote to overturn Morendil's judgement and return
+a judgement of TRUE.
+
+--Justiciar Crito
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               !
+!
+                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               !
+!
+                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               !
+!
+                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               !
+!
+                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 15:08 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id PAA09790
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 15:08:48 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA19557
+	for agora-discussion-list; Mon, 8 Mar 1999 20:06:19 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id UAA19554
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 20:06:17 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id HAA12313
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 07:10:39 +1100 (EST)
+Received: from sp2n17-t.missouri.edu(128.206.2.27) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma012311; Tue, 9 Mar 99 07:10:31 +1100
+Received: from sp2n23-t.missouri.edu (sp2n23.missouri.edu [128.206.2.84])
+	by sp2n17.missouri.edu (8.9.0/8.9.0) with ESMTP id OAA215452
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 14:05:44 -0600
+Received: from localhost (c647100@localhost)
+	by sp2n23-t.missouri.edu (8.9.0/8.9.0) with SMTP id OAA263170
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 14:05:50 -0600
+X-Authentication-Warning: sp2n23-t.missouri.edu: c647100 owned process doing -bs
+Date: Mon, 8 Mar 1999 14:05:47 -0600 (CST)
+From: Scott de Brestian <c647100@showme.missouri.edu>
+X-Sender: c647100@sp2n23-t.missouri.edu
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: OFF: Assessor's Report for Proposals 3837-3839
+In-Reply-To: <19990308132125.A6384@cse.unsw.edu.au>
+Message-ID: <Pine.A41.3.95q.990308140319.16828A-100000@sp2n23-t.missouri.edu>
+MIME-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Length: 542
+Lines: 16
+
+On Mon, 8 Mar 1999, Malcolm Ryan wrote:
+
+> 
+>    Num. Proposer      AI Title                             RESULT  F A - * 
+>  
+>    3837 Andre          1 CotC? Who's the CotC?             PASSES  3-0-0-2
+>    3838 Steve          2 Vlad the Historian                PASSES  5-0-0-2
+>    3839 Murphy         1 CFJ Tweaks                        PASSES  4-0-0-1
+> 
+Is it just me, or is anyone else disturbed by these voting results?
+Don't get me wrong, I'm flattered by the results, but I can't think
+this reflects well on Agora's health.
+
+Vlad
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 15:50 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id PAA11543
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 15:50:12 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA19715
+	for agora-discussion-list; Mon, 8 Mar 1999 20:48:50 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id UAA19712
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 20:48:48 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id HAA12386
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 07:53:10 +1100 (EST)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma012384; Tue, 9 Mar 99 07:52:51 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 08 Mar 1999 15:47:18 -0500
+Message-Id: <s6e3f106.049@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 08 Mar 1999 15:39:20 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: OFF: Assessor's Report for Proposals 3837-3839
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 2441
+Lines: 28
+
+Vlad wrote:
+
+>>    3837 Andre          1 CotC? Who's the CotC?             PASSES  3-0-0-2
+>>    3838 Steve          2 Vlad the Historian                PASSES  5-0-0-2
+>>    3839 Murphy         1 CFJ Tweaks                        PASSES  4-0-0-1
+
+>Is it just me, or is anyone else disturbed by these voting results?
+>Don't get me wrong, I'm flattered by the results, but I can't think
+>this reflects well on Agora's health.
+
+I'm not sure what disturbs you, but I've been disturbed for some time
+by results that are almost consistently unanimous passage.  Aside
+from the fact that Zeitgeist is pretty much meaningless, I fear that
+there may be very strong pressure against making a serious effort to
+get proposals distributed unless they have universal support (or
+at least universal non-opposition).  In the long run, I think this
+bodes ill for Agora's health.  I'm just hoping the game-balance/
+economy issues get ironed out and the problem is alleviated
+before stagnation truly overcomes us.  I also wish I had
+the time and creativity to come up with some good solutions
+within the current framework.  8)
+
+--Crito
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               !
+!
+                                
+                                                                                                                                                                                                                                                                                                      
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 16:18 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id QAA12604
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 16:18:30 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA19849
+	for agora-discussion-list; Mon, 8 Mar 1999 21:16:51 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA19846
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 21:16:49 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id IAA12445
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 08:21:10 +1100 (EST)
+Received: from dial-126-73.dial.indiana.edu(156.56.126.73) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma012443; Tue, 9 Mar 99 08:21:03 +1100
+Received: from poverty.bloomington.in.us (scott@localhost. [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id QAA04563 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 16:17:12 -0500
+Message-Id: <199903082117.QAA04563@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: OFF: Assessor's Report for Proposals 3837-3839 
+In-reply-to: Your message of "Mon, 08 Mar 1999 14:05:47 CST."
+             <Pine.A41.3.95q.990308140319.16828A-100000@sp2n23-t.missouri.edu> 
+Date: Mon, 08 Mar 1999 16:17:11 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 262
+Lines: 7
+
+"Scott" == Scott de Brestian <Scott> writes:
+
+Scott> Is it just me, or is anyone else disturbed by these voting
+Scott> results?  Don't get me wrong, I'm flattered by the results, but
+Scott> I can't think this reflects well on Agora's health.
+
+How do you figure?
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 16:19 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id QAA12642
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 16:19:56 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA19869
+	for agora-discussion-list; Mon, 8 Mar 1999 21:18:50 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA19866
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 21:18:49 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id IAA12450
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 08:23:10 +1100 (EST)
+Received: from dial-126-73.dial.indiana.edu(156.56.126.73) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma012448; Tue, 9 Mar 99 08:23:01 +1100
+Received: from poverty.bloomington.in.us (scott@localhost. [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id QAA04574 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 16:19:09 -0500
+Message-Id: <199903082119.QAA04574@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: OFF: Assessor's Report for Proposals 3837-3839 
+In-reply-to: Your message of "Mon, 08 Mar 1999 15:39:20 EST."
+             <s6e3f106.049@rmv.state.ma.us> 
+Date: Mon, 08 Mar 1999 16:19:08 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 805
+Lines: 15
+
+"David" == David Albertz <David> writes:
+
+David> I fear that there may be very strong pressure against making a
+David> serious effort to get proposals distributed unless they have
+David> universal support (or at least universal non-opposition).
+
+The cost associated with making a Proposal and getting it distributed
+is too high for Proposals that have a poor chance of being adopted.
+
+David> In the long run, I think this bodes ill for Agora's health.
+
+In the short run, too.
+                                
+                                                                                                                                                                                                                                                                                                      
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 17:02 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id RAA14091
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 17:02:02 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA20061
+	for agora-discussion-list; Mon, 8 Mar 1999 22:00:21 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA20058
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 22:00:20 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id JAA12550
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 09:04:41 +1100 (EST)
+Received: from dial-126-73.dial.indiana.edu(156.56.126.73) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma012546; Tue, 9 Mar 99 09:04:14 +1100
+Received: (from scott@localhost) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) id RAA04791 for agora-discussion@gecko.serc.rmit.edu.au; Mon, 8 Mar 1999 17:00:12 -0500
+Date: Mon, 8 Mar 1999 17:00:12 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Message-Id: <199903082200.RAA04791@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: proto: Let the Promotor Exercise Judgment (Chaos63, rev. 9)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 2051
+Lines: 45
+
+Protoproposal Chaos63 [rev. 9]
+
+Let the Promotor Exercise Judgment
+
+Be it resolved, that Rule 1483 be amended to read:
+
+      (a) A Proposal is any document clearly marked as such.
+
+      (b) A Proposal is Proposed when it is posted by a Proposing
+          Entity to the Public Forum with the clear indication that it
+          is being posted for the purpose of Proposing it.
+
+      (c) A Proposal is not Proposed if, in the Promotor's judgment,
+          it is substantially identical to another Proposal Proposed
+          within the past three weeks, unless
+        (1) the Proposing Entity posting the Proposal clearly
+            indicates at the time of posting that the Proposal is
+            intended to become a duplicate of the prior Proposal, or
+        (2) the prior Proposal has been discarded or withdrawn, or has
+            been distributed and the results of voting upon that
+            Proposal have been announced by the Assessor.
+
+      (d) The Promotor's determination that a Proposal has or has not
+          been Proposed (including a determination made under
+          subdivision (c) of this Rule) is subject to judicial review
+          only for abuse of discretion.
+
+      (e) Under no circumstance shall the Promotor's distribution of
+          previously undistributed Proposals constitute the submission
+          of a new Proposal.
+
+Be it further resolved, that a Rule be enacted, to read:
+
+      (a) Any CFJ which alleges that an Officer made an error
+          regarding a determination of fact where the Rules state that
+          such determinations shall be subject to judicial review only
+          for abuse of discretion lacks standing and shall be
+          dismissed.  (Such CFJs, to have standing, must allege that
+          the Officer in question abused discretion in making the
+          disputed determination.)
+
+      (b) This Rule takes precedence over all other Rules pertaining
+          to when a CFJ has standing, and over all other Rules which
+          specify when a CFJ shall be dismissed.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 17:40 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id RAA15402
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 17:40:34 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA20213
+	for agora-discussion-list; Mon, 8 Mar 1999 22:38:22 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA20210
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 22:38:20 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id JAA12640
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 09:42:42 +1100 (EST)
+Received: from dfw.nationwide.net(198.175.15.10) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma012638; Tue, 9 Mar 99 09:42:40 +1100
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id QAA20323
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 8 Mar 1999 16:35:52 -0600 (CST)
+Message-Id: <199903082235.QAA20323@dfw.nationwide.net>
+Subject: DIS: Re: OFF: Report of P-Note Holdings
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 8 Mar 1999 16:35:52 -0600 (CST)
+In-Reply-To: <199903062010.PAA22802@poverty.bloomington.in.us> from "Scott Goehring" at Mar 6, 99 03:10:39 pm
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 94
+Lines: 4
+
+I think you have the "Payor" and "Payee" labels reversed in the tables
+in this report.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 18:01 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id SAA16025
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 18:01:09 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA20305
+	for agora-discussion-list; Mon, 8 Mar 1999 22:59:52 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA20302
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 22:59:51 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id KAA12682
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 10:04:12 +1100 (EST)
+Received: from dial-126-73.dial.indiana.edu(156.56.126.73) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma012680; Tue, 9 Mar 99 10:04:02 +1100
+Received: (from scott@localhost) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) id SAA04971 for agora-discussion@gecko.serc.rmit.edu.au; Mon, 8 Mar 1999 18:00:11 -0500
+Date: Mon, 8 Mar 1999 18:00:11 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Message-Id: <199903082300.SAA04971@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: proto: Standards of Proof (Chaos73, rev. 4)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 905
+Lines: 22
+
+Protoproposal Chaos73 [rev. 4]
+
+Standards of Proof
+
+Be it resolved, that Rule 1575 be amended to read:
+
+      (a) A CFJ alleging that a Player has violated a Rule or
+          committed a Crime shall not be judged TRUE unless the
+          evidence is sufficient to be certain of that Judgement
+          beyond reasonable doubt.
+
+      (b) In all other CFJs, the Judgement shall be consistent with
+          the preponderance of the evidence at hand.
+
+      (c) Furthermore, it is a complete defense to any accusation of a
+          Crime that the Player accused, at the time e performed or
+          neglected to perform the actions which constitute the Crime
+          accused, reasonably believed that the circumstances were
+          such that e was legally permitted to perform or neglect to
+          perform those acts.  No Player shall be convicted of a Crime
+          if this defense applies.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 18:16 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id SAA16479
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 18:16:03 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA20382
+	for agora-discussion-list; Mon, 8 Mar 1999 23:14:53 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA20379
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 23:14:51 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id KAA12726
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 10:19:13 +1100 (EST)
+Received: from dial-126-73.dial.indiana.edu(156.56.126.73) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma012724; Tue, 9 Mar 99 10:18:47 +1100
+Received: from poverty.bloomington.in.us (scott@localhost. [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id SAA05075 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 18:14:57 -0500
+Message-Id: <199903082314.SAA05075@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: OFF: Report of P-Note Holdings 
+In-reply-to: Your message of "Mon, 08 Mar 1999 16:35:52 CST."
+             <199903082235.QAA20323@dfw.nationwide.net> 
+Date: Mon, 08 Mar 1999 18:14:57 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 248
+Lines: 7
+
+"Charles" == Charles E Carroll <ccarroll@nationwide.net> writes:
+
+Charles> I think you have the "Payor" and "Payee" labels reversed in
+Charles> the tables in this report.
+
+By Jove, you're right.  Amazing that nobody has noticed this before
+now. :)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 21:24 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id VAA22648
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 21:23:58 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA22213
+	for agora-discussion-list; Tue, 9 Mar 1999 02:21:26 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA22210
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 02:21:24 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id NAA13267
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 13:25:46 +1100 (EST)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma013265; Tue, 9 Mar 99 13:25:43 +1100
+Received: From mozart With LocalMail ; Tue, 9 Mar 99 13:19:53 +1100 
+From: Malcolm Ryan <malcolmr@cse.unsw.edu.au>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 9 Mar 1999 13:19:53 +1100
+Message-ID: <19990309131953.B23609@cse.unsw.edu.au>
+Subject: Re: DIS: proto: Taxes, revisited (Chaos243, rev. 2)
+Mail-Followup-To: agora-discussion@gecko.serc.rmit.edu.au
+References: <19990308153017.A22670@cse.unsw.edu.au> <199903080508.AAA32437@poverty.bloomington.in.us> <19990308182108.C22670@cse.unsw.edu.au>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.93.2i
+In-Reply-To: <19990308182108.C22670@cse.unsw.edu.au>; from Malcolm Ryan on Mon, Mar 08, 1999 at 06:21:08PM +1100
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 894
+Lines: 22
+
+On Mon, Mar 08, 1999 at 06:21:08PM +1100, Malcolm Ryan wrote:
+> 
+> The only thing I would add is a restriction which prevents em from 
+> levying taxes in greatly in excess of what is needed to cover current
+> debts. Taxes should only be enough to cover real debts.
+
+Actually I just realise that I misunderstood how the exemptions worked.
+If you have a 50% taxes with a 5 VT cutoff level, then a player with 7 VTs
+only gets taxed 1 VT, right?
+
+If that's the case, then I have no objections to the proposal as it stands
+at all. 
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 22:35 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id WAA24258
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 22:34:59 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA22625
+	for agora-discussion-list; Tue, 9 Mar 1999 03:17:57 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id DAA22622
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 03:17:56 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id OAA13385
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 14:22:17 +1100 (EST)
+Received: from dial-126-73.dial.indiana.edu(156.56.126.73) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma013383; Tue, 9 Mar 99 14:21:43 +1100
+Received: from poverty.bloomington.in.us (scott@localhost. [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id WAA06098 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 8 Mar 1999 22:17:54 -0500
+Message-Id: <199903090317.WAA06098@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: Taxes, revisited (Chaos243, rev. 2) 
+In-reply-to: Your message of "Tue, 09 Mar 1999 13:19:53 +1100."
+             <19990309131953.B23609@cse.unsw.edu.au> 
+Date: Mon, 08 Mar 1999 22:17:53 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 530
+Lines: 16
+
+"Malcolm" == Malcolm Ryan <Malcolm> writes:
+
+Malcolm> Actually I just realise that I misunderstood how the
+Malcolm> exemptions worked.  If you have a 50% taxes with a 5 VT
+Malcolm> cutoff level, then a player with 7 VTs only gets taxed 1 VT,
+Malcolm> right?
+
+Yes.  Doing it the other way (which is, I suppose, that the player
+with 4.9 VTs pays nothing and the player with 7 VTs pays 3.5 VTs)
+would be grossly unfair.
+
+Malcolm> If that's the case, then I have no objections to the proposal
+Malcolm> as it stands at all.
+
+Good. :)
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  8 23:14 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id XAA25401
+	for <dpb@cs.brown.edu>; Mon, 8 Mar 1999 23:14:31 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA22931
+	for agora-discussion-list; Tue, 9 Mar 1999 04:11:58 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA22928
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 04:11:57 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id PAA13545
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 9 Mar 1999 15:16:19 +1100 (EST)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma013542; Tue, 9 Mar 99 15:15:58 +1100
+Received: From mozart With LocalMail ; Tue, 9 Mar 99 15:09:58 +1100 
+From: Malcolm Ryan <malcolmr@cse.unsw.edu.au>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 9 Mar 1999 15:09:56 +1100
+Message-ID: <19990309150956.A4044@cse.unsw.edu.au>
+Subject: Re: DIS: Re: OFF: Assessor's Report for Proposals 3837-3839
+Mail-Followup-To: agora-discussion@gecko.serc.rmit.edu.au
+References: <s6e3f106.049@rmv.state.ma.us>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.93.2i
+In-Reply-To: <s6e3f106.049@rmv.state.ma.us>; from David Albertz on Mon, Mar 08, 1999 at 03:39:20PM -0500
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 2022
+Lines: 40
+
+On Mon, Mar 08, 1999 at 03:39:20PM -0500, David Albertz wrote:
+> Vlad wrote:
+> >Is it just me, or is anyone else disturbed by these voting results?
+> >Don't get me wrong, I'm flattered by the results, but I can't think
+> >this reflects well on Agora's health.
+> 
+> I'm not sure what disturbs you, but I've been disturbed for some time
+> by results that are almost consistently unanimous passage.  Aside
+> from the fact that Zeitgeist is pretty much meaningless, I fear that
+> there may be very strong pressure against making a serious effort to
+> get proposals distributed unless they have universal support (or
+> at least universal non-opposition).  In the long run, I think this
+> bodes ill for Agora's health.  I'm just hoping the game-balance/
+> economy issues get ironed out and the problem is alleviated
+> before stagnation truly overcomes us.  I also wish I had
+> the time and creativity to come up with some good solutions
+> within the current framework.  8)
+
+I'd agree with you, except that I don't even see any vaguely controversial
+proposals even being discussed. So unless people are so convinced that 
+they will never pass that they aren't even bothering to come up with ideas,
+I'd say that the lack of proposals is more due to a lack of ideas, than
+a fault with the system.
+
+And to anyone who has an idea that needs funding, I will re-iterate my
+offer to share the risk and pay part or all of the cost to get it 
+distributed, in return for part or all of the reward for getting it 
+passed (and no charge if it fails). I'll back anything that I judge to
+be a fair risk. And I'm willing to take a gamble in the support of 
+an innovative idea.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+

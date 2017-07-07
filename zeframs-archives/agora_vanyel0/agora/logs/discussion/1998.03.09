@@ -1,0 +1,1745 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 03:16 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA23772 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 03:16:27 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA32102
+	for agora-discussion-list; Mon, 9 Mar 1998 19:11:18 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id TAA32099
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 9 Mar 1998 19:11:13 +1100
+Received: from cormorant.cl.cam.ac.uk [128.232.0.91] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0yBxdP-0003eP-00; Mon, 9 Mar 1998 08:10:07 +0000
+Received: from mn200 by cormorant.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0yBxdH-0003Xy-00; Mon, 9 Mar 1998 08:09:59 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: The Case for Impeachment
+In-Reply-To: <01bd4a6c$2c824460$LocalHost@friend-computer>
+References: <01bd4a6c$2c824460$LocalHost@friend-computer>
+X-Mailer: VM 6.42 under Emacs 19.34.1
+Message-Id: <E0yBxdH-0003Xy-00@cormorant.cl.cam.ac.uk>
+Date: Mon, 9 Mar 1998 08:09:59 +0000
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 909
+
+Ed Murphy writes:
+
+> On another note: I intend to send out the next proto of "Plots"
+> shortly, and hopefully Propose it within the next week.  I believe
+> that Michael is not particularly interested in the Office of
+> Cartographor in its current incarnation.  However, who would be
+> interested in the Office as "Plots" would redefine it?
+ 
+I actually quite like being Cartographor at the moment as it makes my
+job as Registrar easier.  The Registrar has to watch movement for two
+reasons: i) Players can only switch their Hold status by moving, and
+ii) Players can only switch their Abiding/Rebelling status by being in
+the Beer Hall.
+
+In other words, the current system is extremely badly designed because
+it requires one Officer to watch over something that should be the
+provenance of another. 
+
+In any case, I'd probably be quite keen on being Cartographor come the
+brave new world of Plots.
+
+Michael.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 03:21 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA23851 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 03:21:22 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA32150
+	for agora-discussion-list; Mon, 9 Mar 1998 19:19:59 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id TAA32147
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 9 Mar 1998 19:19:55 +1100
+Received: from cormorant.cl.cam.ac.uk [128.232.0.91] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0yBxly-0006cQ-00; Mon, 9 Mar 1998 08:18:58 +0000
+Received: from mn200 by cormorant.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0yBxlw-0003Y5-00; Mon, 9 Mar 1998 08:18:56 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: my comments on Plots (v3.4)
+In-Reply-To: <01bd4a71$e0dbc120$LocalHost@friend-computer>
+References: <01bd4a71$e0dbc120$LocalHost@friend-computer>
+X-Mailer: VM 6.42 under Emacs 19.34.1
+Message-Id: <E0yBxlw-0003Y5-00@cormorant.cl.cam.ac.uk>
+Date: Mon, 9 Mar 1998 08:18:56 +0000
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 792
+
+It seems a waste of time to bother talking about unassigned, idle
+Structures.  Treating Structures as things that exist even when not
+deployed seems like a mistake. 
+
+Why not something like: 
+
+  A Player may build a Structure on a Plot that does not have any
+  other Structure on it as long as this does not result in the Player
+  owning more than five Plots with Structures on them.
+
+  There are different types of Structure available, and their costs
+  are as follows...
+
+I also dislike the way that Churches have been altered so that they
+represent a guaranteed supply of Indulgences.  What was wrong with the
+increased chance of receiving an Indulgence in any distribution?  If
+double the chance was felt not to be significant enough, why not make
+it a fivefold increase?
+
+Michael.
+
+
+
+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 03:34 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA24045 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 03:34:10 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA32216
+	for agora-discussion-list; Mon, 9 Mar 1998 19:32:50 +1100
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id TAA32213
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 9 Mar 1998 19:32:48 +1100
+Received: From elgar With LocalMail ; Mon, 9 Mar 98 19:31:44 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 9 Mar 1998 19:31:36 +1100 (EST)
+Message-Id:  <980309083137.14476@cse.unsw.edu.au>
+Subject: Re: DIS: my comments on Plots (v3.4)
+In-Reply-To: <E0yBxlw-0003Y5-00@cormorant.cl.cam.ac.uk> from "Michael Norrish" at Mar 9, 98 08:18:56 am
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1135
+
+Michael Norrish writes:
+> 
+> I also dislike the way that Churches have been altered so that they
+> represent a guaranteed supply of Indulgences.  What was wrong with the
+> increased chance of receiving an Indulgence in any distribution?  If
+> double the chance was felt not to be significant enough, why not make
+> it a fivefold increase?
+> 
+
+I also thought they were quite good as they were. Okay, so 1 church isn't
+anything special, but with 3 Churches = 7 times better chance to get
+Indulgences than any other player, I think you could do fairly well.
+(Especially if (when) Crito's proposal to reinstate Indulgence scarcity
+passes.)
+
+Blob
+
+(And if you do keep things as they are, I insist that you change "red"
+ to "orange". Does no-one else here have an Irish heritage?)
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                                Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 03:53 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA24354 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 03:53:12 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA32287
+	for agora-discussion-list; Mon, 9 Mar 1998 19:47:31 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id TAA32284
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 9 Mar 1998 19:47:28 +1100
+Received: from cormorant.cl.cam.ac.uk [128.232.0.91] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0yByCc-0003kG-00; Mon, 9 Mar 1998 08:46:30 +0000
+Received: from mn200 by cormorant.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0yByCZ-0003bH-00; Mon, 9 Mar 1998 08:46:27 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: my comments on Plots (v3.4)
+In-Reply-To: <980309083137.14476@cse.unsw.edu.au>
+References: <E0yBxlw-0003Y5-00@cormorant.cl.cam.ac.uk>
+	<980309083137.14476@cse.unsw.edu.au>
+X-Mailer: VM 6.42 under Emacs 19.34.1
+Message-Id: <E0yByCZ-0003bH-00@cormorant.cl.cam.ac.uk>
+Date: Mon, 9 Mar 1998 08:46:27 +0000
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 950
+
+Malcolm Ross Kinsella Ryan writes:
+> Michael Norrish writes:
+
+>> I also dislike the way that Churches have been altered so that they
+>> represent a guaranteed supply of Indulgences.  What was wrong with
+>> the increased chance of receiving an Indulgence in any
+>> distribution?  If double the chance was felt not to be significant
+>> enough, why not make it a fivefold increase?
+ 
+> I also thought they were quite good as they were. Okay, so 1 church
+> isn't anything special, but with 3 Churches = 7 times better chance
+> to get Indulgences than any other player, I think you could do
+> fairly well.  (Especially if (when) Crito's proposal to reinstate
+> Indulgence scarcity passes.)
+ 
+Yes, I should have made it clear that my comments were made under this
+assumption.  I think the "hot Potato" Blot is a great idea, one that
+we also never got a chance to play with properly, and Crito's proposal
+will certainly be getting a vote from me.
+
+Michael.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 05:03 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA25440 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 05:02:59 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA32594
+	for agora-discussion-list; Mon, 9 Mar 1998 21:01:19 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA32591
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 9 Mar 1998 21:01:18 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id VAA20140
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 9 Mar 1998 21:00:26 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199803091000.VAA20140@silas.cc.monash.edu.au>
+Subject: Re: DIS: please vote in Registrar election
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 9 Mar 1998 21:00:26 +1100 (EST)
+In-Reply-To: <35027ADB.91F7BA63@interworx.com.au> from "Kieron Jarvis" at Mar 8, 98 09:02:51 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1128
+
+Kieron Jarvis wrote:
+>
+>Scott Goehring wrote:
+>> 
+>> "Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+>> 
+>> Laurent> BTW, Steve's prediction is almost realized - I believe
+>> Laurent> Jester's the only Player who hasn't voted in these
+>> Laurent> Elections...
+>> 
+>> As I understand it, intentionally.
+>
+>Very astute observation.
+>
+>I've stated previously and I restate now. I hate (loath, abhor, detest,
+>etc.) politics. I don't think I've been here long enough to know the
+>political candidates. Even if I did know the candidates well I would
+>probably have abstained anyway. 
+
+Whether you like it ior not, Jester, *not* voting in the Elections
+was a political act, inasmuch as it had the significant political
+consequences of allowing several Elections to be tied, and of forcing
+Kolja to support Morendil as Justiciar (when I suspect he would have
+preferred to vote for Harlequin), in order to avoid another tie.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 13:43 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA08509 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 13:43:40 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA02137
+	for agora-discussion-list; Tue, 10 Mar 1998 05:24:43 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id FAA02134
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 05:24:39 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 09 Mar 1998 13:31:27 -0500
+Message-Id: <s503ef2f.017@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 09 Mar 1998 13:30:14 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Call for Judgement
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1317
+
+Re: DIS: Re: BUS: Call for Judgement
+
+Sherlock asks:
+
+>This is something I've wondered about.  Why does "Game Custom" exist
+>at all?  Shouldn't the Ruleset be read without prejudice towards
+>previous occurrences?  If a Rule specifically prohibited some action,
+>but for years it was ignored and a different course was taken, would
+>"Game Custom" prevail?
+
+No.  If you brought to attention and could convince everyone that your
+interpretation of the Rule was correct, then "Game Custom" would not prevail. 
+The Rules always prevail.  It's only when the Rules are "silent, inconsistent,
+or unclear" that Game Custom is used.
+
+>Also, with the absence of any written "Game Custom", does this
+>discriminate against new players in that they might infer something
+>from the Rules that is completely legitimate, but is then invalidated
+>because the other Players say "that's not how we do it"?
+
+To some extent, it is true that new players are at a disadvantage when it comes
+to knowing how existing ambiguities in the Rules are being resolved.  But I
+think this is a normal state of affairs for any Nomic, and one of the reasons
+that we have the Grace Period.
+
+>I'm not trying to be argumentative here, just trying to understand an
+>issue I'm a bit unclear on.
+
+I appreciate that and I hope this has been helpful.
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 13:58 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA08963 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 13:57:58 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA02231
+	for agora-discussion-list; Tue, 10 Mar 1998 05:45:08 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id FAA02228
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 05:45:04 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 09 Mar 1998 13:51:57 -0500
+Message-Id: <s503f3fd.030@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 09 Mar 1998 13:50:42 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: BUS: Thesis submission (very long)
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 213
+
+I don't have time to respond to any particulars in
+this thesis right now, but overall I would say it
+is an excellent essay - one with which I agree,in
+general, on a quick reading.  I applaud you Kolja.
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 14:46 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA10946 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 14:46:56 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA02444
+	for agora-discussion-list; Tue, 10 Mar 1998 06:34:13 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA02441
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 06:34:09 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA27045; Mon, 9 Mar 1998 13:29:07 CST
+Message-Id: <199803091929.AA27045@dfw.dfw.net>
+Subject: Re: DIS: Re: BUS: Call for Judgement
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 9 Mar 1998 13:29:07 -0600 (CST)
+In-Reply-To: <199803090022.TAA07790@placid.skidmore.EDU> from "Jonathan Fry" at Mar 8, 98 07:22:09 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 934
+
+Jonathan Fry wrote:
+>
+>This is something I've wondered about.  Why does "Game Custom" exist
+>at all?  Shouldn't the Ruleset be read without prejudice towards
+>previous occurrences?  
+
+I don't agree.  If a Rule is ambiguous, but has always been
+applied in a certain way, Players should be able to reasonably
+assume that it will continue to be applied in that way.
+
+>If a Rule specifically prohibited some action,
+>but for years it was ignored and a different course was taken, would
+>"Game Custom" prevail?
+
+No.  GC applies only when the Rules are silent, inconsitent,
+or unclear.
+
+>Also, with the absence of any written "Game Custom", does this
+>discriminate against new players in that they might infer something
+>from the Rules that is completely legitimate, but is then invalidated
+>because the other Players say "that's not how we do it"?
+
+Possibly, but I think the stability encouraged by GC outweighs
+that consideration.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 17:14 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA16388 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 17:13:56 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA03058
+	for agora-discussion-list; Tue, 10 Mar 1998 09:12:06 +1100
+Received: from mabel.skidmore.EDU (mabel.skidmore.edu [141.222.2.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id JAA03055
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 09:12:03 +1100
+Received: (from jfry@localhost)
+	by mabel.skidmore.EDU (8.8.8/8.8.8) id RAA19842
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 9 Mar 1998 17:09:56 -0500 (EST)
+From: Jonathan Fry <jfry@mabel.skidmore.EDU>
+Message-Id: <199803092209.RAA19842@mabel.skidmore.EDU>
+Subject: DIS: Proto 1.2: The Miscreant
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 9 Mar 1998 17:09:56 -0500 (EST)
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1402
+
+
+Proto-Proposal - Sherlock #1.2
+------------------------------
+
+[ Comment: This Proposal is written with the assumption that Risky
+           Rebellion passes.  It will not be proposed until that time.
+	   Thanks to Blob and Crito for significant additions to this. ]
+
+Let a rule be created with the title "The Miscreant" and with the
+following text:
+
+      Let there exist the Patent Title of "Miscreant".
+
+      If any Player has more than ten Blots, the Player with the most 
+      Blots earns the Title of Miscreant.  If no Player has the most
+      number of Blots, there is no Miscreant.  The Miscreant loses
+      eir Title of Miscreant if eir number of Blots drops below ten
+      or if another Player gains more Blots than em. 
+ 
+      A Player with the Title Miscreant counts as two Players towards
+      the tally needed for Rebellion.  If a Rebellion occurs in which 
+      the Miscreant was a Rebel, the Title of Miscreant is revoked
+      from the Miscreant.
+
++->---->---->---->---->---->---->---->---->---->---->---->---->---->-+
+| It's time we see that thought is free so don't stand in front of   |
+| me and what I believe / Smitten by the unseen hand / Kneeling down |
+| to its command / Victims of a rich man's game / But truth crushed  |
+| shall rise again - Ken Tamplin -----------[jfry@skidmore.edu]------|
++--<----<----<----<----<----<----<----<----<----<----<----<----<----<+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 17:20 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA16596 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 17:20:13 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA03101
+	for agora-discussion-list; Tue, 10 Mar 1998 09:17:52 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id JAA03098
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 09:17:48 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 45916]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49833-28688>; Mon, 9 Mar 1998 23:15:30 +0100
+Date: 	Mon, 9 Mar 1998 23:15:10 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: BUS: Impeachment Proceedings
+In-Reply-To: <199803092203.RAA19673@mabel.skidmore.EDU>
+Message-ID: <Pine.LNX.3.96.980309231028.31118A-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 555
+
+On Mon, 9 Mar 1998, Jonathan Fry wrote:
+
+>   I would encourage those who haven't yet voted in these calls for
+> Impeachment to do so soon; you only have a day or so left.  I will
+> be announcing the results tomorrow night.
+
+You may have noticed that I, as a founding member(1) of Procrastinators
+Anonymous, usually do my Voting during the last minute.  Trust me, I will
+take care of this soon, unless some unexpected event should prevent me.
+
+Greetings,
+Ørjan.
+
+(1) I didn't say I'd got around to founding it yet, did I?
+
+-- 
+Stop .signature plagiarism!
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 17:43 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA17290 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 17:43:02 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA03230
+	for agora-discussion-list; Tue, 10 Mar 1998 09:41:01 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id JAA03224
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 09:40:57 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 12126]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49838-28688>; Mon, 9 Mar 1998 23:30:49 +0100
+Date: 	Mon, 9 Mar 1998 23:30:34 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Proto 1.2: The Miscreant
+In-Reply-To: <199803092209.RAA19842@mabel.skidmore.EDU>
+Message-ID: <Pine.LNX.3.96.980309232638.31118C-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 537
+
+On Mon, 9 Mar 1998, Jonathan Fry wrote:
+
+>       If any Player has more than ten Blots, the Player with the most 
+>       Blots earns the Title of Miscreant.  If no Player has the most
+>       number of Blots, there is no Miscreant.  The Miscreant loses
+>       eir Title of Miscreant if eir number of Blots drops below ten
+>       or if another Player gains more Blots than em. 
+
+This is still inconsistent.  It should be lost if some other Player gains
+equally many Blots, as well.
+
+Greetings,
+Ørjan.
+
+-- 
+Stop .signature plagiarism!
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 17:56 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA17729 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 17:56:07 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA03293
+	for agora-discussion-list; Tue, 10 Mar 1998 09:53:46 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id JAA03290
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 09:53:40 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 09 Mar 1998 18:00:27 -0500
+Message-Id: <s5042e3b.038@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 09 Mar 1998 17:59:40 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: BUS: Impeachment!
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 303
+
+Re: BUS: Impeachment!
+
+Oerjan wrote:
+
+>I hereby vote AGAINST in all the Impeachment Referenda.  It should be
+>noted that Agora is _not_ the Pumpkin Patch, and I so I don't see what
+>good it would do turning our Players into vegetables.
+
+It should be noted, however, that peaches are a fruit.
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 18:12 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA18208 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 18:12:29 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA03378
+	for agora-discussion-list; Tue, 10 Mar 1998 10:10:26 +1100
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id KAA03375
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 10:10:22 +1100
+Received: (qmail 9311 invoked by alias); 10 Mar 1998 00:09:38 -0000
+Received: from pppa364.francenet.fr (HELO micronet.fr) (193.149.100.166)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 10 Mar 1998 00:09:38 -0000
+Message-ID: <35047669.EF653592@micronet.fr>
+Date: Tue, 10 Mar 1998 00:08:26 +0100
+From: NetDIVE Support <morendil@micronet.fr>
+Organization: NetDIVE
+X-Mailer: Mozilla 4.02 [en] (Win95; I)
+MIME-Version: 1.0
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Impeachment!
+References: <s5042e3b.038@rmv.state.ma.us>
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 306
+
+> >I hereby vote AGAINST in all the Impeachment Referenda.  It should be
+> >noted that Agora is _not_ the Pumpkin Patch, and I so I don't see what
+> >good it would do turning our Players into vegetables.
+>
+> It should be noted, however, that peaches are a fruit.
+
+That is as may be, but I, sir, am a nut.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 18:16 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA18333 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 18:16:07 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA03408
+	for agora-discussion-list; Tue, 10 Mar 1998 10:14:04 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA03405
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 10:14:00 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 14688]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49838-28688>; Tue, 10 Mar 1998 00:12:29 +0100
+Date: 	Tue, 10 Mar 1998 00:12:17 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Impeachment!
+In-Reply-To: <s5042e3b.038@rmv.state.ma.us>
+Message-ID: <Pine.LNX.3.96.980310000118.31118D-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 411
+
+On Mon, 9 Mar 1998, David Albertz wrote:
+
+> Oerjan wrote:
+> 
+> >I hereby vote AGAINST in all the Impeachment Referenda.  It should be
+> >noted that Agora is _not_ the Pumpkin Patch, and I so I don't see what
+> >good it would do turning our Players into vegetables.
+> 
+> It should be noted, however, that peaches are a fruit.
+
+All the puns of mice and men...
+
+Greetings,
+Ørjan.
+
+-- 
+Stop .signature plagiarism!
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 18:52 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA19435 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 18:51:40 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA03629
+	for agora-discussion-list; Tue, 10 Mar 1998 10:47:09 +1100
+Received: from indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA03625
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 10:47:01 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-147.ucs.indiana.edu [156.56.126.147])
+	by indiana.edu (8.8.8/8.8.8/1.16IUPO) with ESMTP id SAA11141
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 9 Mar 1998 18:45:57 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id SAA13958 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 9 Mar 1998 18:45:54 -0500
+Message-Id: <199803092345.SAA13958@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Impeachment! 
+In-reply-to: Your message of "Mon, 09 Mar 1998 17:59:40 EST."
+             <s5042e3b.038@rmv.state.ma.us> 
+Date: Mon, 09 Mar 1998 18:45:52 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 185
+
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> It should be noted, however, that peaches are a fruit.
+
+It should be noted, however, that all fruits are vegetables.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 18:54 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA19470 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 18:54:02 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA03651
+	for agora-discussion-list; Tue, 10 Mar 1998 10:49:05 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA03648
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 10:49:01 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 25696]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49857-28688>; Tue, 10 Mar 1998 00:47:43 +0100
+Date: 	Tue, 10 Mar 1998 00:47:35 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: BUS: A *bad* bug in the Impeachment Rules
+In-Reply-To: <199803092330.KAA07311@silas.cc.monash.edu.au>
+Message-ID: <Pine.LNX.3.96.980310004456.31118E-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 786
+
+On Tue, 10 Mar 1998, Steve Gardner wrote:
+
+> Here's the last paragraph of R1486:
+> 
+>       For this Referendum the default procedure for referenda is
+>       modified as follows: Vote Collector is the Player who called for
+>       the Impeachment Referendum. Voting Entities do not include the
+>       Officer under consideration for Impeachment. Adoption Ratio is
+>       2.
+> 
+> 'Adoption Ratio'?? That should very definitely be 'Adoption Index'.
+> It means that all Impeachment Referenda pass regardless of the votes
+> cast in them, as long as they make Quorum.
+
+Utterly fascinating, but rubbish.  "Adoption Ratio" is defined in Rule
+1434, "Default Procedure for Referendum Voting".  "Adoption Index" 
+applies only to Proposals.
+
+Greetings,
+Ørjan.
+
+-- 
+Stop .signature plagiarism!
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 19:03 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA19721 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 19:02:58 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA03723
+	for agora-discussion-list; Tue, 10 Mar 1998 10:57:28 +1100
+Received: from satsuma.mail.easynet.net (satsuma.mail.easynet.net [195.40.1.44])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id KAA03713
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 10:57:24 +1100
+Received: (qmail 29063 invoked from network); 9 Mar 1998 23:57:09 -0000
+Received: from [193.131.248.4]
+  by satsuma.mail.easynet.net with SMTP; 9 Mar 1998 23:57:09 -0000
+Received: (qmail 21904 invoked from network); 9 Mar 1998 23:58:19 -0000
+Received: from [195.40.61.175]
+  by kiwi.mail.easynet.net with SMTP; 9 Mar 1998 23:58:19 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <l03110700b12a0b8da31c@[195.40.61.175]>
+In-Reply-To: <199803090022.TAA07790@placid.skidmore.EDU>
+References: <199803090000.TAA11476@poverty.bloomington.in.us> from "Scott
+ Goehring" at Mar 8, 98 07:00:55 pm
+Mime-Version: 1.0
+Date: Mon, 9 Mar 1998 21:20:29 +0000
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+Subject: Re: DIS: Re: BUS: Call for Judgement
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 1740
+
+Jonathan Fry writes:
+>This is something I've wondered about.  Why does "Game Custom" exist
+>at all?  Shouldn't the Ruleset be read without prejudice towards
+>previous occurrences?  If a Rule specifically prohibited some action,
+>but for years it was ignored and a different course was taken, would
+>"Game Custom" prevail?
+
+Very good question.  2nd question first:  if there was no ambiguity in the
+text of the Rule, but we all simply assumed that it meant something other
+than it did, a Judge realizing this would be obliged to favor the text of
+the Rule over even the most long-standing Game Custom.  This has happened
+at least once, when the Kudo system turned out to be invalid.
+
+In the case where a Rule is ambiguous or unclear, we often rely on the
+Courts.  A CFJ tends to bind future interpretations of the same Rules until
+the Rules change.  But sometimes the unclear Rule never gets as far as a
+CFJ: everybody agrees, or is at least willing to go along with the
+consensus without challenging it in court.  After a time this constitutes
+"Game Custom".  In a sense it ought to be even _more_ authoritative than a
+CFJ, as it derives from at least consensus of all players rather than
+decision of a Judge.
+
+I take your point that new players are somewhat disadvantaged with respect
+to this.  It's hard to know "the way things have always been done".  It's
+also hard to know the results of earlier CFJs, but they guide play in the
+same way and for the same reason:  to promote consistency over time.
+
+Regards,
+-- elJefe
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 19:10 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA19957 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 19:10:11 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA03835
+	for agora-discussion-list; Tue, 10 Mar 1998 11:05:18 +1100
+Received: from satsuma.mail.easynet.net (satsuma.mail.easynet.net [195.40.1.44])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id LAA03832
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 11:05:14 +1100
+Received: (qmail 29228 invoked from network); 10 Mar 1998 00:05:07 -0000
+Received: from [193.131.248.4]
+  by satsuma.mail.easynet.net with SMTP; 10 Mar 1998 00:05:07 -0000
+Received: (qmail 23980 invoked from network); 10 Mar 1998 00:06:17 -0000
+Received: from [195.40.61.175]
+  by kiwi.mail.easynet.net with SMTP; 10 Mar 1998 00:06:17 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <l03110701b12a32ed633d@[195.40.61.175]>
+In-Reply-To: <Pine.LNX.3.96.980310004456.31118E-100000@tyrell.nvg.ntnu.no>
+References: <199803092330.KAA07311@silas.cc.monash.edu.au>
+Mime-Version: 1.0
+Date: Tue, 10 Mar 1998 00:02:41 +0000
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+Subject: Re: DIS: Re: BUS: A *bad* bug in the Impeachment Rules
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 787
+
+Oerjan writes:
+>Utterly fascinating, but rubbish.  "Adoption Ratio" is defined in Rule
+>1434, "Default Procedure for Referendum Voting".  "Adoption Index"
+>applies only to Proposals.
+
+Strange, but not rubbish.  I read the relevant paragraph of 1434 as
+defining the "Adoption Ratio" as the ratio of FOR votes to AGAINST votes.
+1434 says that this may be overridden by other Rules, so instead of this
+calculation, it is set to 2.  Rule 1434 further says that the "Adoption
+Ratio" must be greater than 1 to succeed.  2 is greater than 1.
+
+Regards,
+-- elJefe, Threat Vizier
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 19:24 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA20298 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 19:24:00 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA04017
+	for agora-discussion-list; Tue, 10 Mar 1998 11:16:34 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA04014
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 11:16:30 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 35168]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49869-28688>; Tue, 10 Mar 1998 01:15:23 +0100
+Date: 	Tue, 10 Mar 1998 01:15:12 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: A *bad* bug in the Impeachment Rules
+In-Reply-To: <l03110701b12a32ed633d@[195.40.61.175]>
+Message-ID: <Pine.LNX.3.96.980310011303.31118F-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 769
+
+On Tue, 10 Mar 1998, Dr. Jeffrey L. Caruso wrote:
+
+> Oerjan writes:
+> >Utterly fascinating, but rubbish.  "Adoption Ratio" is defined in Rule
+> >1434, "Default Procedure for Referendum Voting".  "Adoption Index"
+> >applies only to Proposals.
+> 
+> Strange, but not rubbish.  I read the relevant paragraph of 1434 as
+> defining the "Adoption Ratio" as the ratio of FOR votes to AGAINST votes.
+> 1434 says that this may be overridden by other Rules, so instead of this
+> calculation, it is set to 2.  Rule 1434 further says that the "Adoption
+> Ratio" must be greater than 1 to succeed.  2 is greater than 1.
+
+Whoops.  Just utterly fascinating, then.  I note that Rule 1658 (Tainting
+the Speaker) has the same problem.
+
+Greetings,
+Ørjan.
+
+-- 
+Stop .signature plagiarism!
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 19:41 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA20757 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 19:41:42 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA04095
+	for agora-discussion-list; Tue, 10 Mar 1998 11:26:12 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id LAA04092
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 11:26:08 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 09 Mar 1998 19:32:57 -0500
+Message-Id: <s50443e9.044@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 09 Mar 1998 19:32:08 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: BUS: A *bad* bug in the Impeachment Rules
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 443
+
+BUS: A *bad* bug in the Impeachment Rules
+
+Steve wrote:
+
+>'Adoption Ratio'?? That should very definitely be 'Adoption Index'.
+>It means that all Impeachment Referenda pass regardless of the votes
+>cast in them, as long as they make Quorum.
+
+I don't see why this necessarily follows.  Why wouldn't it be that they can't
+pass at all? Or that they take the default AI of 1?  Of course the delegation
+bug makes this a moot point anyway.
+
+-- Crito
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 19:45 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA20821 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 19:45:04 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA04152
+	for agora-discussion-list; Tue, 10 Mar 1998 11:37:26 +1100
+Received: from mabel.skidmore.EDU (mabel.skidmore.edu [141.222.2.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA04145
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 11:36:52 +1100
+Received: (from jfry@localhost)
+	by mabel.skidmore.EDU (8.8.8/8.8.8) id TAA22045
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 9 Mar 1998 19:34:49 -0500 (EST)
+From: Jonathan Fry <jfry@mabel.skidmore.EDU>
+Message-Id: <199803100034.TAA22045@mabel.skidmore.EDU>
+Subject: DIS: Re: BUS: A *bad* bug in the Impeachment Rules
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 9 Mar 1998 19:34:49 -0500 (EST)
+In-Reply-To: <199803092330.KAA07311@silas.cc.monash.edu.au> from "Steve Gardner" at Mar 10, 98 10:30:52 am
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1066
+
+Steve Gardner writes:
+> I therefore consent to be Delegated Registrar, and I ask Sherlock to
+> delay announcing the results of the Referenda until Michael has had
+> a chance to Delegate his Office, either to me or to some other Player.
+
+Would that have any effect?  I would read the rules to mean that when
+the Referendum ends, the results take effect, not when they're
+announced later.
+
+But, I acknowledge that I might be wrong, so I'll certainly hold off
+for a reasonable time if Michael does not do anything.
+
+And, say what you might about me, my calls for Impeachment have
+exposed some serious flaws in the system.
+
+						--Sherlock
+
++->---->---->---->---->---->---->---->---->---->---->---->---->---->-+
+| It's time we see that thought is free so don't stand in front of   |
+| me and what I believe / Smitten by the unseen hand / Kneeling down |
+| to its command / Victims of a rich man's game / But truth crushed  |
+| shall rise again - Ken Tamplin -----------[jfry@skidmore.edu]------|
++--<----<----<----<----<----<----<----<----<----<----<----<----<----<+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 19:52 EST 1998
+Received: from gecko.serc.rmit.edu.au (gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA20966 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 19:51:50 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA04239
+	for agora-discussion-list; Tue, 10 Mar 1998 11:45:01 +1100
+Received: from mabel.skidmore.EDU (mabel.skidmore.edu [141.222.2.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA04232
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 11:44:57 +1100
+Received: (from jfry@localhost)
+	by mabel.skidmore.EDU (8.8.8/8.8.8) id TAA22371
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 9 Mar 1998 19:42:54 -0500 (EST)
+From: Jonathan Fry <jfry@mabel.skidmore.EDU>
+Message-Id: <199803100042.TAA22371@mabel.skidmore.EDU>
+Subject: DIS: Proto 1.3: The Miscreant
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 9 Mar 1998 19:42:54 -0500 (EST)
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1483
+
+
+Proto-Proposal - Sherlock #1.3
+------------------------------
+
+[ Comment: This Proposal is written with the assumption that Risky
+           Rebellion passes.  It will not be proposed until that time.
+	   Thanks to Blob, Crito and Oerjan for significant additions 
+     	   to this Proposal. ]
+
+Let a rule be created with the title "The Miscreant" and with the
+following text:
+
+      Let there exist the Patent Title of "Miscreant".
+
+      If any Player has more than ten Blots, the Player with the most 
+      Blots earns the Title of Miscreant.  If no Player has the most
+      number of Blots, there is no Miscrean t.  The Miscreant loses
+      eir Title of Miscreant if eir number of Blots drops below ten,
+      if another Player gains as many Blots as em, or if another Player
+      gains more Blots than em. 
+ 
+      A Player with the Title Miscreant counts as two Players towards
+      the tally needed for Rebellion.  If a Rebellion occurs in which 
+      the Miscreant was a Rebel, the Title of Miscreant is revoked from 
+      the Miscreant.
+
++->---->---->---->---->---->---->---->---->---->---->---->---->---->-+
+| It's time we see that thought is free so don't stand in front of   |
+| me and what I believe / Smitten by the unseen hand / Kneeling down |
+| to its command / Victims of a rich man's game / But truth crushed  |
+| shall rise again - Ken Tamplin -----------[jfry@skidmore.edu]------|
++--<----<----<----<----<----<----<----<----<----<----<----<----<----<+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 19:59 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA21101 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 19:59:51 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA04365
+	for agora-discussion-list; Tue, 10 Mar 1998 11:54:44 +1100
+Received: from satsuma.mail.easynet.net (satsuma.mail.easynet.net [195.40.1.44])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id LAA04361
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 11:54:33 +1100
+Received: (qmail 682 invoked from network); 10 Mar 1998 00:54:27 -0000
+Received: from [193.131.248.4]
+  by satsuma.mail.easynet.net with SMTP; 10 Mar 1998 00:54:27 -0000
+Received: (qmail 4198 invoked from network); 10 Mar 1998 00:55:37 -0000
+Received: from [195.40.61.175]
+  by kiwi.mail.easynet.net with SMTP; 10 Mar 1998 00:55:36 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <l03110702b12a3e2e4c37@[195.40.61.175]>
+In-Reply-To: <199803100034.TAA22045@mabel.skidmore.EDU>
+References: <199803092330.KAA07311@silas.cc.monash.edu.au> from "Steve
+ Gardner" at Mar 10, 98 10:30:52 am
+Mime-Version: 1.0
+Date: Tue, 10 Mar 1998 00:52:00 +0000
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+Subject: Re: DIS: Re: BUS: A *bad* bug in the Impeachment Rules
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 788
+
+Sherlock writes:
+>Would that have any effect?  I would read the rules to mean that when
+>the Referendum ends, the results take effect, not when they're
+>announced later.
+
+Rule 1434 contains:
+
+      * Effectiveness: the full effects of a Referendum, as defined
+      in Rules which make use of the Referendum procedure, come
+      into force as of the moment the results are announced to the
+      Public Forum.
+
+
+>And, say what you might about me, my calls for Impeachment have
+>exposed some serious flaws in the system.
+
+Indeed.   :-)
+
+Regards,
+-- elJefe, Threat Vizier
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 20:16 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA21614 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 20:16:06 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA04450
+	for agora-discussion-list; Tue, 10 Mar 1998 12:05:24 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA04447
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 12:05:22 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id MAA12732
+	for agora-discussion@gecko.serc.rmit.edu.au; Tue, 10 Mar 1998 12:04:31 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199803100104.MAA12732@silas.cc.monash.edu.au>
+Subject: DIS: Re: OFF: CFJ 1086 Judgement: FALSE
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 10 Mar 1998 12:04:31 +1100 (EST)
+In-Reply-To: <l03110702b12a108fd061@[195.40.61.175]> from "Dr. Jeffrey L. Caruso" at Mar 9, 98 11:53:14 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2502
+
+Dr. Jeffrey L. Caruso wrote:
+>=====================================================================
+>
+>                               CFJ 1086
+>
+>     "The Proposal submitted by Crito with title Cantus Cygneus, claimed
+>      to be a Silly Proposal, is not, in fact, a Silly Proposal."
+>
+>======================================================================
+>Judge:       Harlequin
+>Judgement:   FALSE
+>======================================================================
+>History:
+>  Called by Morendil, 21 Feb 1998 03:30:27 +0100
+>  Assigned to Harlequin, 23 Feb 1998 12:55:16 +0000
+>  Harlequin goes On Hold, 03 Mar 1998 09:49:45 -0500
+>  Judged TRUE, 06 Mar 1998 23:08:17 -0500
+
+I think that should be 'FALSE', yes?
+
+>======================================================================
+>Caller's Arguments:
+>
+>R&A : firstly, I contend that Crito's pun, while able to elicit a
+>brief groan, is not "truly hideous". Secondly, I submit that the
+>Proposal *contains* a pun, but does not, as a whole, *consist of* a
+>pun, as required by the Silly Proposal Rule.
+>
+>
+>======================================================================
+>Judge's Argument:
+>
+>I will adress the second point first. While it is true that this proposal
+>does not, in the most specific sense, completely consist of a single "truly
+>hideous" pun, I do not agree that this is the proper measure of whether a
+>Silly Proposal is indeed Silly. As evidence, I submit any number of
+>previous Silly Proposals, which required a short "setup" beforehand, which
+>provides the context which allows for the "truly hideous" pun. In this
+>case, the other paragraphs of the Proposal were required to provide the
+>context of the pun.
+>
+>I will now adress the first point raised by the caller. In an issue as
+>subjective as this, it is difficult for anyone to make a judgement that
+>will be accepted by anyone, and I am loath to decide just what "truly
+>hideous" means in this case. Therefore, I am inclined to give the Silly
+>Proposer the benefit of the doubt: as almost any proposal which contains a
+>pun that could elicit such a groan, could reasonably be called "truly
+>hideous," in my judicial opinion, any such proposal should qualify as a
+>Silly Proposal.
+>======================================================================
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 20:31 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA21977 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 20:31:43 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA04544
+	for agora-discussion-list; Tue, 10 Mar 1998 12:17:44 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA04541
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 12:17:42 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id MAA22493
+	for agora-discussion@gecko.serc.rmit.edu.au; Tue, 10 Mar 1998 12:16:48 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199803100116.MAA22493@silas.cc.monash.edu.au>
+Subject: Re: DIS: BUS: A *bad* bug in the Impeachment Rules
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 10 Mar 1998 12:16:48 +1100 (EST)
+In-Reply-To: <s50443e9.044@rmv.state.ma.us> from "David Albertz" at Mar 9, 98 07:32:08 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 968
+
+David Albertz wrote:
+>
+>BUS: A *bad* bug in the Impeachment Rules
+>
+>Steve wrote:
+>
+>>'Adoption Ratio'?? That should very definitely be 'Adoption Index'.
+>>It means that all Impeachment Referenda pass regardless of the votes
+>>cast in them, as long as they make Quorum.
+>
+>I don't see why this necessarily follows.  Why wouldn't it be that they can't
+>pass at all? Or that they take the default AI of 1?  Of course the delegation
+>bug makes this a moot point anyway.
+
+As Jeff as has already pointed out, R1434 allows other Rules to override
+its defaults. So R1486 can set the Adoption Ratio of all Impeachment
+Referenda to 2, regardless of the votes cast. Since 2 is greater than
+1, all such Referenda meet R1434's criteria of effectiveness as long as
+they meet Quorum.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 20:53 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA22372 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 20:53:21 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA04704
+	for agora-discussion-list; Tue, 10 Mar 1998 12:46:41 +1100
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id MAA04701
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 12:46:39 +1100
+Received: From elgar With LocalMail ; Tue, 10 Mar 98 12:45:39 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 10 Mar 1998 12:45:38 +1100 (EST)
+Message-Id:  <980310014539.20023@cse.unsw.edu.au>
+Subject: Re: DIS: Proto 1.2: The Miscreant
+In-Reply-To: <Pine.LNX.3.96.980309232638.31118C-100000@tyrell.nvg.ntnu.no> from "Orjan Johansen" at Mar 9, 98 11:30:34 pm
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1154
+
+Orjan Johansen writes:
+> 
+> On Mon, 9 Mar 1998, Jonathan Fry wrote:
+> 
+> >       If any Player has more than ten Blots, the Player with the most=20
+> >       Blots earns the Title of Miscreant.  If no Player has the most
+> >       number of Blots, there is no Miscreant.  The Miscreant loses
+> >       eir Title of Miscreant if eir number of Blots drops below ten
+> >       or if another Player gains more Blots than em.=20
+> 
+> This is still inconsistent.  It should be lost if some other Player gains
+> equally many Blots, as well.
+
+I disagree. It should work like the Shogun does (I think) - that is, you 
+should have to actually overtake the Miscreant in order to take eir 
+Title.
+
+I will note, however, that the proposal still needs a precedence clause,
+to make sure it has effect.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 20:53 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA22379 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 20:53:37 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA04697
+	for agora-discussion-list; Tue, 10 Mar 1998 12:46:14 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA04694
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 12:46:12 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id MAA06308
+	for agora-discussion@gecko.serc.rmit.edu.au; Tue, 10 Mar 1998 12:45:21 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199803100145.MAA06308@silas.cc.monash.edu.au>
+Subject: DIS: Re: BUS: Call for Judgement
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 10 Mar 1998 12:45:21 +1100 (EST)
+In-Reply-To: <199803072220.OAA17962@fred.fhcrc.org> from "Ross Morgan-Linial" at Mar 7, 98 02:19:49 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1946
+
+Ross Morgan-Linial wrote:
+>
+>I submit the following CFJ, barring Blob, General Chaos, and Swann.
+>
+>    The last sentence of Rule 1766 prevents the remainder of that 
+>    rule from granting additional votes.
+>
+>The last sentence of rule 1766 states that 'This provision shall not 
+>increase the maximum number of votes that are permitted to be cast by 
+>that Player.' The previous sentence states '... then that Player may 
+>cast two additional votes on that Proposal beyond what e is otherwise 
+>entitled to cast.' I argue that the first sentence would, in fact, 
+>raise the maximum number of votes above what it would otherwise be 
+>(two), and thus the second sentence renders that null.
+>
+>Rule 206 says that 'Each Voting Entity has two votes on a proposal, 
+>unless another Rule says otherwise.' This clearly establishes a 
+>maximum number of legal votes. The second sentence of that paragraph 
+>says 'However, no such Entity shall have more than five votes on any 
+>Proposal, regardless of what any other Rule may say to the contrary.' 
+>This establishes a second maximum on the number of votes which may 
+>legally cast, such that the maximum equates to 'two, plus any granted 
+>by other rules, or five, whichever is lower'.
+
+I simply disagree that the first sentence establishes a maximum number
+of votes that Voting Entities may cast. It does no more than it seeks
+to do, which is to establish the number of votes which Voting Entities
+may cast in the normal course of events. Nowhere does it say, and nowhere
+is it implied, that this constitutes any kind of maximum. Only the
+second sentence established a maximum number of votes, namely 5, and it
+is clearly this maximum, the only maximum established by the Rules,
+to which R1766 refers.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 21:08 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA22729 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 21:07:51 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA04822
+	for agora-discussion-list; Tue, 10 Mar 1998 13:02:24 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA04816
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 13:01:34 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id NAA24631
+	for agora-discussion@gecko.serc.rmit.edu.au; Tue, 10 Mar 1998 13:00:41 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199803100200.NAA24631@silas.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Call for Judgement
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 10 Mar 1998 13:00:41 +1100 (EST)
+In-Reply-To: <199803090024.QAA21184@fred.fhcrc.org> from "Ross Morgan-Linial" at Mar 8, 98 04:23:12 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1550
+
+Ross Morgan-Linial wrote:
+>
+>> And how would you interpret Rule 1660 in the light of your claims ?
+>
+>Rule 1660 is a bit more muddled, since the last sentence does not say 
+>'... that can be cast by that Player.', but instead says '... that 
+>can be cast by a Voting Entity.' I am not sure whether that has the 
+>intended effect or not, but IMO, it is entirely plausible for Rule 
+>1660 to have effect and Rule 1766 not to, since the two clauses have 
+>an important difference. If Rule 1660 said 'that Voting Entity' or 
+>'any Voting Entity' or 'the Speaker', I would agree that it has no 
+>effect either. However, I think 'a Voting Entity' could be 
+>interpreted to mean Voting Entities in general, and that is how it 
+>has been interpreted.
+
+I don't think R1660 is muddled. It only seems so to you because you
+have this peculiar idea that the 2 votes granted to Voting Entities
+by R206 is some kind of maximum. I see nothing in the Rules to support
+any such conclusion. The 2 votes is simply not a maximum at all, just
+a limit on voting in the ordinary course of events, which course can
+be disrupted precisely by the operation of Rules such as R1660,
+R1766, or, I might add, the old Power of Influence Rule. The 'maximum'
+referred to in Rules 1660 and 1766 is plainly the 5 vote maximum
+which R206 really does impose, and which really is a maximum.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 21:23 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA23042 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 21:23:15 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA04899
+	for agora-discussion-list; Tue, 10 Mar 1998 13:17:28 +1100
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id NAA04896
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 13:17:13 +1100
+Received: From elgar With LocalMail ; Tue, 10 Mar 98 13:16:10 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au (Nomic Discussion)
+Date: Tue, 10 Mar 1998 13:16:08 +1100 (EST)
+Message-Id:  <980310021609.20433@cse.unsw.edu.au>
+Subject: DIS: Votes
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 592
+
+
+I was keeping tally of votes on my Rebellion proposal, but I accidentally
+deleted my whole nomic-business folder, and lost the info. Is there 
+anyone who has been keeping tally who could possibly tell me what its
+status is?
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 21:46 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA23548 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 21:45:04 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA05075
+	for agora-discussion-list; Tue, 10 Mar 1998 13:39:35 +1100
+Received: from mabel.skidmore.EDU (mabel.skidmore.edu [141.222.2.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA05072
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 13:39:26 +1100
+Received: (from jfry@localhost)
+	by mabel.skidmore.EDU (8.8.8/8.8.8) id VAA24554
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 9 Mar 1998 21:37:20 -0500 (EST)
+From: Jonathan Fry <jfry@mabel.skidmore.EDU>
+Message-Id: <199803100237.VAA24554@mabel.skidmore.EDU>
+Subject: Re: DIS: Proto 1.2: The Miscreant
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 9 Mar 1998 21:37:19 -0500 (EST)
+In-Reply-To:  <980310014539.20023@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Mar 10, 98 12:45:38 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 640
+
+Malcolm Ross Kinsella Ryan writes:
+> I will note, however, that the proposal still needs a precedence clause,
+> to make sure it has effect.
+
+Can you give an example?  I'm unclear what you mean.
+
+					--Sherlock
+
++->---->---->---->---->---->---->---->---->---->---->---->---->---->-+
+| It's time we see that thought is free so don't stand in front of   |
+| me and what I believe / Smitten by the unseen hand / Kneeling down |
+| to its command / Victims of a rich man's game / But truth crushed  |
+| shall rise again - Ken Tamplin -----------[jfry@skidmore.edu]------|
++--<----<----<----<----<----<----<----<----<----<----<----<----<----<+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 22:41 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA25093 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 22:41:07 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA06291
+	for agora-discussion-list; Tue, 10 Mar 1998 14:32:34 +1100
+Received: from indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA06288
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 14:32:25 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-147.ucs.indiana.edu [156.56.126.147])
+	by indiana.edu (8.8.8/8.8.8/1.16IUPO) with ESMTP id WAA18022
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 9 Mar 1998 22:31:25 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id WAA14704 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 9 Mar 1998 22:31:23 -0500
+Message-Id: <199803100331.WAA14704@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: BUS: A *bad* bug in the Impeachment Rules 
+In-reply-to: Your message of "Mon, 09 Mar 1998 19:32:08 EST."
+             <s50443e9.044@rmv.state.ma.us> 
+Date: Mon, 09 Mar 1998 22:31:22 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 658
+
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> I don't see why this necessarily follows.  Why wouldn't it be
+David> that they can't pass at all? Or that they take the default AI
+David> of 1?  
+
+"Adoption Index" is meaningless for Referenda.  Rule 1434 states
+(indirectly) that a Referendum passes if its Adoption Ratio is greater
+than 1, if it receives a Quorum of Votes, and if its Vote Collector
+reports the result of the Referendum within seven days of the end of
+its Voting Period.  Since the Adoption Ratio of all Referenda to
+Impeach is locked at 2, only the latter two conditions need be met for
+a Referendum to Impeach to pass.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 22:47 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA25253 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 22:47:45 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA06354
+	for agora-discussion-list; Tue, 10 Mar 1998 14:41:41 +1100
+Received: from indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA06346
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 14:40:52 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-147.ucs.indiana.edu [156.56.126.147])
+	by indiana.edu (8.8.8/8.8.8/1.16IUPO) with ESMTP id WAA19579
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 9 Mar 1998 22:39:50 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id WAA14690 for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 9 Mar 1998 22:26:39 -0500
+Message-Id: <199803100326.WAA14690@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: A *bad* bug in the Impeachment Rules 
+In-reply-to: Your message of "Tue, 10 Mar 1998 00:47:35 +0100."
+             <Pine.LNX.3.96.980310004456.31118E-100000@tyrell.nvg.ntnu.no> 
+Date: Mon, 09 Mar 1998 22:26:38 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 435
+
+"Orjan" == Orjan Johansen <oerjan@nvg.ntnu.no> writes:
+
+Orjan> Utterly fascinating, but rubbish.  "Adoption Ratio" is defined
+Orjan> in Rule 1434, "Default Procedure for Referendum Voting".
+Orjan> "Adoption Index"=20 applies only to Proposals.
+
+You are correct that replacing "Adoption Ratio" with "Adoption Index"
+would not achieve the desired effect; however, Steve's argument that
+the Impeachment Rules are flawed is not "rubbish".
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 23:29 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA26186 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 23:29:28 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA06638
+	for agora-discussion-list; Tue, 10 Mar 1998 15:24:54 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA06632
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 15:24:44 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.8/8.8.7) with SMTP id UAA10705
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 9 Mar 1998 20:23:52 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id UAA14682; Mon, 9 Mar 1998 20:23:49 -0800
+Message-Id: <199803100423.UAA14682@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 9 Mar 1998 20:22:33 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Re: BUS: Call for Judgement
+In-reply-to: <199803100145.MAA06308@silas.cc.monash.edu.au>
+References: <199803072220.OAA17962@fred.fhcrc.org> from "Ross Morgan-Linial" at Mar 7, 98 02:19:49 pm
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3047
+
+Steve Gardner <gardner@silas-0.cc.monash.edu.au> wrote:
+> Ross Morgan-Linial wrote:
+> >
+> >I submit the following CFJ, barring Blob, General Chaos, and Swann.
+> >
+> >    The last sentence of Rule 1766 prevents the remainder of that 
+> >    rule from granting additional votes.
+> >
+> >The last sentence of rule 1766 states that 'This provision shall not 
+> >increase the maximum number of votes that are permitted to be cast by 
+> >that Player.' The previous sentence states '... then that Player may 
+> >cast two additional votes on that Proposal beyond what e is otherwise 
+> >entitled to cast.' I argue that the first sentence would, in fact, 
+> >raise the maximum number of votes above what it would otherwise be 
+> >(two), and thus the second sentence renders that null.
+> >
+> >Rule 206 says that 'Each Voting Entity has two votes on a proposal, 
+> >unless another Rule says otherwise.' This clearly establishes a 
+> >maximum number of legal votes. The second sentence of that paragraph 
+> >says 'However, no such Entity shall have more than five votes on any 
+> >Proposal, regardless of what any other Rule may say to the contrary.' 
+> >This establishes a second maximum on the number of votes which may 
+> >legally cast, such that the maximum equates to 'two, plus any granted 
+> >by other rules, or five, whichever is lower'.
+> 
+> I simply disagree that the first sentence establishes a maximum number
+> of votes that Voting Entities may cast. It does no more than it seeks
+> to do, which is to establish the number of votes which Voting Entities
+> may cast in the normal course of events. Nowhere does it say, and nowhere
+> is it implied, that this constitutes any kind of maximum.
+
+I disagree. At the current momement, if I were to vote on any 
+proposals up for vote, I could make one vote or two votes, but not 
+more than two votes. I can't make five votes, so that's not the 
+maximum number of votes I can make. Since two is the most votes I 
+could legally make, without getting some special privelege (in which 
+case the number would be three or four or five) I don't currently 
+have, I conclude that that is the maximum number of votes I could 
+make is two.
+
+Let me reiterate that Rule 1766 says the maximum number of votes cast 
+by _the player voting_ isn't raised, as opposed to Rule 1660, which 
+uses the much more general "a Player".
+
+> Only the
+> second sentence established a maximum number of votes, namely 5, and it
+> is clearly this maximum, the only maximum established by the Rules,
+> to which R1766 refers.
+
+If the only maximum established by the rules is five, then why can't 
+I make any number of votes higher than two on any given proposal? You 
+seem to be trying to say that 'the maximum number of votes that are 
+permitted to be cast by that Player' means something other than the 
+greatest number of votes which that Player has the option of legally 
+casting. If this is your argument, could you please give your 
+justification? If this isn't your argument, what _is_ your argument?
+
+	Antimatter
+	rmorganl@fhcrc.org
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Mon Mar  9 23:29 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA26190 for <dpb@cs.brown.edu>; Mon, 9 Mar 1998 23:29:36 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA06635
+	for agora-discussion-list; Tue, 10 Mar 1998 15:24:47 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA06630
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 10 Mar 1998 15:24:43 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.8/8.8.7) with SMTP id UAA10701
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 9 Mar 1998 20:23:50 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id UAA14679; Mon, 9 Mar 1998 20:23:47 -0800
+Message-Id: <199803100423.UAA14679@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 9 Mar 1998 20:22:33 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Re: BUS: Call for Judgement
+In-reply-to: <199803100200.NAA24631@silas.cc.monash.edu.au>
+References: <199803090024.QAA21184@fred.fhcrc.org> from "Ross Morgan-Linial" at Mar 8, 98 04:23:12 pm
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1643
+
+Steve Gardner <gardner@silas-0.cc.monash.edu.au> wrote:
+> I don't think R1660 is muddled. It only seems so to you because you
+> have this peculiar idea that the 2 votes granted to Voting Entities
+> by R206 is some kind of maximum. I see nothing in the Rules to support
+> any such conclusion. The 2 votes is simply not a maximum at all, just
+> a limit on voting in the ordinary course of events, which course can
+> be disrupted precisely by the operation of Rules such as R1660,
+> R1766, or, I might add, the old Power of Influence Rule. The 'maximum'
+> referred to in Rules 1660 and 1766 is plainly the 5 vote maximum
+> which R206 really does impose, and which really is a maximum.
+
+If the word 'maximum' were applied to Voting in general, or voting on 
+that Proposal in general, I would agree with you. However, Rule 1766 
+is clearly talking about the votes made by a specific Player on a 
+specific Proposal, which almost always has a different, lower 
+maximum (usually two).
+
+For those who wish to judge whether or not that is true, I present 
+the full text of Rule 1766 (which was included as evidence in my 
+CFJ):
+
+Rule 1766/0 (Power=1)
+The Officer's Vote
+
+      If a particular Proposal amends the duties or description of a
+      particular Office, and a Player holds that Office in normal
+      fashion, and that Player is not the same Player who Proposed the
+      Proposal, then that Player may cast two additional votes on that
+      Proposal beyond what e is otherwise entitled to cast.  This
+      shall not increase the maximum number of votes that are
+      permitted to be cast by that Player.
+
+
+	Antimatter
+	rmorganl@fhcrc.org
+

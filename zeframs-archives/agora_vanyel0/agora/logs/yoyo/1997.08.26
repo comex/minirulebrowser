@@ -1,0 +1,1150 @@
+From owner-nomic@yoyo.cc.monash.edu.au Tue Aug 26 00:07 EDT 1997
+Received: from yoyo.cc.monash.edu.au (yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA01515 for <dpb@cs.brown.edu>; Tue, 26 Aug 1997 00:07:05 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4)
+	  id NAA31670 for nomic-outgoing; Tue, 26 Aug 1997 13:56:58 +1000 (EST)
+Received: from aurora.cc.monash.edu.au (gardner@aurora.cc.monash.edu.au [130.194.1.91])
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4) with ESMTP
+	  id NAA16412 for <nomic@yoyo.cc.monash.edu.au>; Tue, 26 Aug 1997 13:55:59 +1000 (EST)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id NAA17792 for nomic@yoyo.cc.monash.edu.au; Tue, 26 Aug 1997 13:55:55 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199708260355.NAA17792@aurora.cc.monash.edu.au>
+Subject: Re: trouble with yoyo
+To: nomic@yoyo.cc.monash.edu.au (Backup Nomic Mailing List)
+Date: Tue, 26 Aug 1997 13:55:55 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1807
+Status: N
+
+I thought you might like to see this:
+
+Leon Troeth writes:
+>From owner-agora@win.tue.nl  Tue Aug 26 02:17:22 1997
+>Date: Tue, 26 Aug 1997 02:11:44 +1000 (EST)
+>From: Leon Troeth <lanks@aurora.cc.monash.edu.au>
+>To: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+>cc: agora@win.tue.nl, postmaster@yoyo.cc.monash.edu.au
+>Subject: Re: trouble with yoyo
+>In-Reply-To: <199708250359.NAA27679@aurora.cc.monash.edu.au>
+>Message-ID: <Pine.OSF.3.96.970826020801.19729G-100000@aurora.cc.monash.edu.au>
+>MIME-Version: 1.0
+>Content-Type: TEXT/PLAIN; charset=US-ASCII
+>Sender: owner-agora@win.tue.nl
+>Precedence: bulk
+>Reply-To: agora@win.tue.nl
+>
+>On Mon, 25 Aug 1997, Steve Gardner wrote:
+>
+>> Date: Mon, 25 Aug 1997 13:59:25 +1000 (EST)
+>> From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+>> To: agora@win.tue.nl
+>> Cc: postmaster@yoyo.cc.monash.edu.au
+>> Subject: trouble with yoyo
+>> 
+>> I can confirm that yoyo is having problems. Upon my return from
+>> my weekend away, I found 12 messages waiting for me in my capacity as
+>> yoyo admin, each looking like this:
+>
+>Hi,
+>
+>The operating system on yoyo was updated over the weekend.  During the
+>installation, a new copy of sendmail (from the CD) was installed on the
+>machine.  That wasn't set up properly and as a result some mail
+>(especially majordomo ones since there was no majordomo.cf file too!)
+>bounced.
+>
+>It should all be working now.  Please let me know if you receive any
+>more bounced messages.
+>
+>Sorry for the inconvenience.
+>
+>  Leon Troeth
+>
+>-------------
+>Leon Troeth
+>lanks@yoyo.cc.monash.edu.au
+>http://www-personal.monash.edu.au/~lanks/
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic@yoyo.cc.monash.edu.au Tue Aug 26 04:02 EDT 1997
+Received: from yoyo.cc.monash.edu.au (yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA05142 for <dpb@cs.brown.edu>; Tue, 26 Aug 1997 04:02:04 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4)
+	  id RAA09691 for nomic-outgoing; Tue, 26 Aug 1997 17:32:35 +1000 (EST)
+Received: from windowsnt ([207.226.81.129])
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4) with ESMTP
+	  id QAA16428 for <nomic@yoyo.cc.monash.edu.au>; Tue, 26 Aug 1997 16:28:20 +1000 (EST)
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Tue, 26 Aug 1997 03:11:31 -0500
+Received: by windowsnt from friend-computer
+    (206.18.125.111::mail daemon; unverified,SLMail V2.5); Tue, 26 Aug 1997 03:11:29 -0500
+Message-Id: <3.0.3.32.19970825231657.0068cae8@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.3 (32)
+Date: Mon, 25 Aug 1997 23:16:57 -0700
+To: agora-official@gecko.serc.rmit.edu.au, agora@win.tue.nl,
+        nomic@yoyo.cc.monash.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: BUS: VT transfer
+Mime-Version: 1.0
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 329
+Status: N
+
+I hereby do whatever is necessary to transfer one (1) VT from myself to
+the Order of the Evil Eye.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>     http://www.bayside.net/users/ford/
+"Don't tell me what I already know."    http://wwp.mirabilis.com/1008745/
+     -Richard Feng                      mailto:1008745@pager.mirabilis.com
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Tue Aug 26 04:06 EDT 1997
+Received: from yoyo.cc.monash.edu.au (yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA05206 for <dpb@cs.brown.edu>; Tue, 26 Aug 1997 04:06:16 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4)
+	  id RAA21589 for nomic-outgoing; Tue, 26 Aug 1997 17:32:34 +1000 (EST)
+Received: from windowsnt ([207.226.81.129])
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4) with ESMTP
+	  id QAA19191 for <nomic@yoyo.cc.monash.edu.au>; Tue, 26 Aug 1997 16:28:00 +1000 (EST)
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Tue, 26 Aug 1997 03:09:05 -0500
+Received: by windowsnt from friend-computer
+    (206.18.125.111::mail daemon; unverified,SLMail V2.5); Tue, 26 Aug 1997 03:09:03 -0500
+Message-Id: <3.0.3.32.19970825231451.0068cae8@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.3 (32)
+Date: Mon, 25 Aug 1997 23:14:51 -0700
+To: agora-official@gecko.serc.rmit.edu.au,
+        agora-discussion@gecko.serc.rmit.edu.au, agora@win.tue.nl,
+        nomic@yoyo.cc.monash.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Test
+Mime-Version: 1.0
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 301
+Status: N
+
+Making sure.
+
+Why doesn't agora-business@gecko.serc.rmit.edu.au exist?
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>     http://www.bayside.net/users/ford/
+"Don't tell me what I already know."    http://wwp.mirabilis.com/1008745/
+     -Richard Feng                      mailto:1008745@pager.mirabilis.com
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Tue Aug 26 08:22 EDT 1997
+Received: from yoyo.cc.monash.edu.au (yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA08733 for <dpb@cs.brown.edu>; Tue, 26 Aug 1997 08:22:02 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4)
+	  id WAA32697 for nomic-outgoing; Tue, 26 Aug 1997 22:04:15 +1000 (EST)
+Received: from sabre-wulf.nvg.ntnu.no (root@sabre-wulf.nvg.ntnu.no [129.241.210.67])
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4) with ESMTP
+	  id WAA32599 for <nomic@yoyo.cc.monash.edu.au>; Tue, 26 Aug 1997 22:03:17 +1000 (EST)
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 39702]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49484-20395>; Tue, 26 Aug 1997 14:01:18 +0200
+Date: 	Tue, 26 Aug 1997 14:00:31 +0200 (MET DST)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: Agora Nomic List <nomic@yoyo.cc.monash.edu.au>
+Subject: Re: DIS: Arbitrary Change and Nomic Entities  (fwd)
+Message-ID: <Pine.LNX.3.96.970826140009.14292D-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 980
+Status: N
+
+[Resending bounced message]
+
+---------- Forwarded message ----------
+Date: Sat, 23 Aug 1997 21:25:26 +0200 (MET DST)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Arbitrary Change and Nomic Entities 
+
+On Wed, 20 Aug 1997, Scott Goehring wrote:
+
+> I am not an "Entitist"; I don't care to think about mathematical
+> objects dancing around like angels on the head of a pin.  Too
+> formalistic and divorced from reality for my likes.
+
+It worries me, however, that in addition to trying to make Proposals to
+change Agora into something more "real", you seem to constantly argue that
+Agora already is that way. 
+
+In other words, you deny even the possible existence of these abstractions
+just because you don't like them.
+
+Incidentally, I like them a lot, and I would probably find Agora too
+boring to play without them.
+
+Greetings,
+Ørjan.
+
+-- 
+Praeterea censeo Cyberprominem et Agim esse delendas.
+<URL:http://www.cyberpass.net/~fekete/>
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Tue Aug 26 08:23 EDT 1997
+Received: from yoyo.cc.monash.edu.au (yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA08772 for <dpb@cs.brown.edu>; Tue, 26 Aug 1997 08:23:44 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4)
+	  id WAA31473 for nomic-outgoing; Tue, 26 Aug 1997 22:01:03 +1000 (EST)
+Received: from sabre-wulf.nvg.ntnu.no (root@sabre-wulf.nvg.ntnu.no [129.241.210.67])
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4) with ESMTP
+	  id VAA27411 for <nomic@yoyo.cc.monash.edu.au>; Tue, 26 Aug 1997 21:59:31 +1000 (EST)
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 61716]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49483-20395>; Tue, 26 Aug 1997 13:59:08 +0200
+Date: 	Tue, 26 Aug 1997 13:58:37 +0200 (MET DST)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: Agora Nomic List <nomic@yoyo.cc.monash.edu.au>
+Subject: Re: OFF: Voting Token Report (fwd)
+Message-ID: <Pine.LNX.3.96.970826135746.14292B-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 829
+Status: N
+
+Resending bounced message..
+
+---------- Forwarded message ----------
+Date: Sat, 23 Aug 1997 20:53:52 +0200 (MET DST)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: OFF: Voting Token Report
+
+On Sun, 17 Aug 1997, Scott Goehring wrote:
+
+> 		   Report of Voting Token Holdings
+> ======================================================================
+> Voting Tokens:                    Aug 10     Aug 17  Change
+> 			                            
+> Oerjan                            8.4 VT     8.4 VT     0.0
+
+I thought all VTs were wiped out by the Pragmatic Currencies proposal? How
+could I possibly have got any?
+
+I did in fact not vote FOR Proposal 3543 because of this.
+
+Greetings,
+Ørjan.
+
+-- 
+Praeterea censeo Cyberprominem et Agim esse delendas.
+<URL:http://www.cyberpass.net/~fekete/>
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Tue Aug 26 08:25 EDT 1997
+Received: from yoyo.cc.monash.edu.au (yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA08794 for <dpb@cs.brown.edu>; Tue, 26 Aug 1997 08:25:07 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4)
+	  id WAA32688 for nomic-outgoing; Tue, 26 Aug 1997 22:04:06 +1000 (EST)
+Received: from sabre-wulf.nvg.ntnu.no (root@sabre-wulf.nvg.ntnu.no [129.241.210.67])
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4) with ESMTP
+	  id WAA32602 for <nomic@yoyo.cc.monash.edu.au>; Tue, 26 Aug 1997 22:03:14 +1000 (EST)
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 7702]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49479-20395>; Tue, 26 Aug 1997 14:00:10 +0200
+Date: 	Tue, 26 Aug 1997 13:59:34 +0200 (MET DST)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: Agora Nomic List <nomic@yoyo.cc.monash.edu.au>
+Subject: Re: DIS: Arbitrary changes et al.  (fwd)
+Message-ID: <Pine.LNX.3.96.970826135911.14292C-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 1273
+Status: N
+
+[Resending bounced message]
+
+---------- Forwarded message ----------
+Date: Sat, 23 Aug 1997 21:16:06 +0200 (MET DST)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: DIS: Arbitrary changes et al. 
+
+On Wed, 20 Aug 1997, Scott Goehring wrote:
+
+> I have expounded at some length on this issue already.  My position
+> may not be particularily pleasing to other Players, and could prove
+> most difficult for Judges (who might theoretically have to do research
+> in multinational law in order to determine the personhood of an
+> entity), not to mention that an entity's personhood might vary if that
+> person were to relocate elsewhere in the world (!), but I think it's
+> most consistent with the way "person" is use elsewhere.
+
+I don't think the common sense meaning of "person" is anything but
+"natural person". Common sense takes precedence over juridical and
+commercial custom in Agoran matters. It should be possible for anyone to
+play this game without special field knowledge. Except that higher
+mathematics is to be encouraged, of course. ;-)
+
+Other than that, I share your disagreement with the avatar theory. 
+
+Greetings,
+Ørjan.
+
+-- 
+Praeterea censeo Cyberprominem et Agim esse delendas.
+<URL:http://www.cyberpass.net/~fekete/>
+
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Tue Aug 26 09:37 EDT 1997
+Received: from yoyo.cc.monash.edu.au (yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA10499 for <dpb@cs.brown.edu>; Tue, 26 Aug 1997 09:37:39 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4)
+	  id WAA06715 for nomic-outgoing; Tue, 26 Aug 1997 22:50:32 +1000 (EST)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4) with SMTP
+	  id WAA05734 for <nomic@yoyo.cc.monash.edu.au>; Tue, 26 Aug 1997 22:48:18 +1000 (EST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Tue, 26 Aug 1997 08:52:44 -0400
+Message-Id: <s402995c.014@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Tue, 26 Aug 1997 08:51:56 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: OFF: Voting Token Report (fwd)
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain
+Content-Length: 607
+Status: N
+
+Re: OFF: Voting Token Report (fwd)
+
+Oerjan wrote:
+
+>I thought all VTs were wiped out by the Pragmatic Currencies proposal? How
+>could I possibly have got any?
+
+>I did in fact not vote FOR Proposal 3543 because of this.
+
+Apparently, someone (Harlequin, I think) put forward an argument that this was
+not the case for VTs.  I missed the post somehow, so I never saw what the
+argument was - I only saw someone else's referece to it.  However, the recent
+court decisions have rendered the point moot anyway, since the judicial
+reasoning has concluded that none of the Currencies were ever destroyed.
+
+-- Crito
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Tue Aug 26 11:49 EDT 1997
+Received: from yoyo.cc.monash.edu.au (root@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA14709 for <dpb@cs.brown.edu>; Tue, 26 Aug 1997 11:49:22 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4)
+	  id XAA08931 for nomic-outgoing; Tue, 26 Aug 1997 23:06:12 +1000 (EST)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4) with SMTP
+	  id XAA03179 for <nomic@yoyo.cc.monash.edu.au>; Tue, 26 Aug 1997 23:04:31 +1000 (EST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Tue, 26 Aug 1997 09:09:14 -0400
+Message-Id: <s4029d3a.042@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Tue, 26 Aug 1997 09:08:07 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: OFF: Promotor's Report of P-Note holdings as of 25 August 1997
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain
+Content-Length: 3286
+Status: N
+
+OFF: Promotor's Report of P-Note holdings as of 25 August 1997
+
+As a courtesy to those who may not have been subscribed to the new backup list,
+here is a re-post of the last P-Note report.
+
+--------------
+Recent events:
+--------------
+
+
+======================================================================
+Proposal Notes:                 Aug 18  Aug 25  Change 
+ 			     	               
+Andre                              3       3       0
+Antimatter                         5       5       0 
+Blob                               4       4       0
+Calabresi                          5       5       0
+Chuck                             22      22       0
+Crito                              5       5       0
+Elde                               5       5       0
+elJefe                             6       6       0
+General Chaos                     30      30       0
+Harlequin                         16      16       0
+Kolja A                            5       5       0
+Michael                            5       5       0
+Morendil                           3       3       0
+Murphy                            17      17       0
+Oerjan                             6       6       0
+Steve                             37      37       0
+Swann                              1       1       0
+Vanyel                             5       5       0
+Vlad                               5       5       0
+Zefram                            34      34       0
+                                               
+Misanthropists' Group             13      13       0
+FENICS                             5       5       0
+all other Groups and Contests      0       0       0
+
+a P-Note                           1       1       0
+
+The Nomic Bank                   798     798       0
+Total                           1036    1036       0
+
+======================================================================
+
+---------------------------
+Outstanding Payment Orders
+---------------------------
+
+    None
+
+---------------------------
+Disputed Payment Orders
+---------------------------
+
+    None
+
+---------------------------
+Satisfied Payment Orders
+---------------------------
+
+Date: Tue, 05 Aug 1997 18:37:56 -0400  5 P-Notes, from the Bank to Vlad.
+                                         Executor: Promotor Crito
+Date: Tue, 12 Aug 1997 09:27:19 -0400  5 P-Notes from the Bank to Calabresi.
+                                         Executor: Promotor Crito
+
+---------------------------
+Vacated Payment Orders
+---------------------------
+
+    None
+
+---------------------------
+Transfer Orders
+---------------------------
+
+    Tue, 05 Aug 1997 11:38:24 +0200    1 P-Note, from Andre to itself.
+                                         Succeeded.
+    Sun, 10 Aug 1997 18:41:41 -0500    5 P-Notes, from the Bank, to Vlad.
+                                         Succeeded.
+    Sun, 17 Aug 1997 18:19:34 -0500    5 P-Notes, from the Bank, to Vlad.
+                                         Failed (since first attempt actually
+                                         succeeded.)
+    Sun, 17 Aug 1997 18:19:34 -0500    5 P-Notes, from the Bank, to Calabresi.
+                                         Succeeded.
+
+=========================================================================
+
+-- Promotor Crito
+
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Tue Aug 26 12:12 EDT 1997
+Received: from yoyo.cc.monash.edu.au (root@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA15558 for <dpb@cs.brown.edu>; Tue, 26 Aug 1997 12:12:17 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4)
+	  id XAA09167 for nomic-outgoing; Tue, 26 Aug 1997 23:06:02 +1000 (EST)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4) with SMTP
+	  id XAA08914 for <nomic@yoyo.cc.monash.edu.au>; Tue, 26 Aug 1997 23:03:54 +1000 (EST)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Tue, 26 Aug 1997 09:08:14 -0400
+Message-Id: <s4029cfe.037@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Tue, 26 Aug 1997 09:07:15 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic@yoyo.cc.monash.edu.au
+Subject: Re: OFF: Herald's Report as of 25 August 1997
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain
+Content-Length: 14009
+Status: N
+
+Re: OFF: Herald's Report as of 25 August 1997
+
+As a courtesy to those who may not have been subscribed to the new backup list,
+here is a re-post of the last Herald's Report.
+
+Chancellor take note:  This report contains new orders for transfers of
+Indulgences from the Bank to individual Players.
+
+--------------
+Recent events:
+--------------
+
+Date: Mon, 18 Aug 1997 12:56:03 +1000 (EST)
+Subject: BUS: Failures to report
+
+    Andre commits the Infraction of Failing to Report and is commanded to pay
+    2 Indulgences to the Bank by Registrar Steve.
+
+Date: Mon, 18 Aug 1997 12:56:03 +1000 (EST)
+Subject: BUS: Failures to report
+
+    Murphy commits the Infraction of Failing to Report and is commanded to pay
+    2 Indulgences to the Bank by Registrar Steve.
+
+Date: Mon, 18 Aug 1997 11:16:30 +0200 (MET DST)
+Subject: Re: BUS: Failures to report
+
+    Andre submits a delayed Transfer Order for 2 Indulgences from emself to the
+    Bank.
+
+Date: Mon, 18 Aug 1997 09:43:22 -0400
+Subject: Re: DIS Re: OFF: Bank Transaction Notices
+
+    Crito transfers 1 Kudo FROM Scott TO Vanyel.
+
+    I hereby transfer 1 Kudo from Scott, for intimidation by persistent threats
+    of Kudo transfers, to Vanyel, who did not deserve to lose a Kudo for eir
+    imaginative use of Elde as a Kudo victim.
+
+Date: Mon, 18 Aug 1997 10:54:06 -0700 (PDT)
+Subject: Re: DIS Re: OFF: Bank Transaction Notices
+
+    Antimatter transfers 1 Kudo FROM Antimatter TO Scott.
+
+    I hereby transfer 1 Kudo FROM myself, for lack of a better victim (since
+    Crito doesn't really deserve deKudoing for this), TO Scott, to make up for
+    Crito's deKudoing of em.
+
+Date: Tue, 19 Aug 1997 09:22:12 -0400
+Subject: BUS: Redistribution of Indulgences
+
+    Payment Orders are re-issued for the corrected version of the weekly
+    Indulgence distribution.
+
+Date: Mon, 25 August 1997 00:00:00 GMT
+
+    Elde commits the Infraction of Persistent Indebtedness and Morendil, as
+    Elde's Executor, is hereby commanded to transfer one Indulgence to the
+    Bank.
+
+Date: Mon, 25 August 1997 00:00:00 GMT
+
+    Blob commits the Infraction of Persistent Indebtedness and Elde, as Blob's
+    Executor, is hereby commanded to transfer one Indulgence to the Bank.
+
+Date: Mon, 25 August 1997 00:00:00 GMT
+
+    elJefe commits the Infraction of Persistent Indebtedness and is hereby
+    commanded to transfer one Indulgence to the Bank.
+
+Date: Mon, 25 August 1997 00:00:00 GMT
+
+    G. Chaos commits the Infraction of Persistent Indebtedness and is hereby
+    commanded to transfer one Indulgence to the Bank.
+
+Date: Mon, 25 August 1997 00:00:00 GMT
+
+    22 Indulgences in The Nomic Bank at this time, 7 available for
+    distribution.
+
+        The Bank is hereby commanded to transfer two (2) Indulgences to G.
+                                                         Chaos.
+        The Bank is hereby commanded to transfer one (1) Indulgence to Blob.
+        The Bank is hereby commanded to transfer one (1) Indulgence to Crito.
+        The Bank is hereby commanded to transfer two (2) Indulgences to Zefram.
+        The Bank is hereby commanded to transfer one (1) Indulgence to Vanyel.
+
+    Eligible recipients:  Andre, Antimatter, Blob, Calabresi, Chuck, Crito,
+                          Elde, elJefe, General Chaos, Harlequin, Kolja A.,
+                          Michael, Morendil, Murphy,  Steve, Vanyel, Vlad,
+                          Zefram
+
+
+---------------------------
+Old status as of 1997/18/08
+New status as of 1997/25/08
+
+---------------------------
+Kudo Status
+---------------------------
+Indicators: s = Samurai
+            S = Shogun
+            * = new Player
+
+                        OLD                         NEW
+
+                       Kudos                       Kudos
+ Andre                  13                          13
+ Antimatter             20                          19
+ Blob                   19                          19
+ Calabresi              20                          20
+ Chuck                  25                          25
+ Crito                  22                          22
+ Elde                   20                          20
+ elJefe                 31 s                        31 s
+ General Chaos          23                          23
+ Harlequin              21                          21
+ Kolja A.               20                          20
+ Michael                25                          25
+ Morendil                4                           4
+ Murphy                 16                          16   
+ Oerjan                 22                          22
+ Steve                  33 sS                       33 sS
+ Swann                  18                          18
+ Vanyel                 33 sS                       34 sS
+ Vlad                   21                          21
+ Zefram                 20                          20
+
+
+---------------------
+Indulgences and Blots
+---------------------
+                       OLD                     NEW
+
+             Indulgences  Blots      Indulgences  Blots
+ Andre            0         0             0         2
+ Antimatter       0         0             0         0
+ Blob             2        10             2        10
+ Calabresi        0         0             0         0
+ Chuck            0         0             0         0
+ Crito            0         0             0         0
+ Elde             0        26             0        29
+ elJefe           1         3             1         5
+ General Chaos    0         8             0         9
+ Harlequin        0         0             0         0
+ Kolja A.         1         0             1         0
+ Michael          1         0             1         0
+ Morendil         0         0             0         2
+ Murphy           0         0             0         2
+ Oerjan           1         0             1         0
+ Steve            0         0             0         0
+ Swann            1         0             1         0
+ Vanyel           1         0             1         0
+ Vlad             0         0             0         0
+ Zefram           0         0             0         0
+
+The Nomic Bank   35                      35
+Total            43                      43
+
+---------------------------
+Outstanding Payment Orders
+---------------------------
+
+    Date: Tue, 15 Jul 1997 22:23:20 -0500  9 Indulgences from Elde to the Bank.
+                                             Executor: Chancellor G. Chaos
+    Date: Mon, 21 Jul 1997 10:37:00 (EDT)  1 Indulgence  from Elde to the Bank.
+                                             Executor: Herald Crito
+    Date: Thu, 24 Jul 1997 09:35:39 +0100  3 Indulgences from Blob to the Bank.
+                                             Executor: CotC Michael
+    Date: Thu, 24 Jul 1997 09:39:56 +0100  3 Indulgences from Elde to the Bank.
+                                             Executor: CotC Michael
+    Date: Fri, 25 Jul 1997 17:59:28 +0100  3 Indulgences from elJefe to the
+                                             Bank.
+                                             Executor: CotC Michael
+    Date: Mon, 04 Aug 1997 09:46:29 -0400 13 Indulgences from Elde to the Bank.
+                                             Executor: Herald Crito
+    Date: Tue, 05 Aug 1997 16:29:22 +1000  2 Indulgences from Blob to the Bank.
+                                             Executor: Registrar Steve
+    Date: Tue, 12 Aug 1997 14:02:00 +1000  2 Indulgences from G. Chaos to the
+                                             Bank.
+                                             Executor: Registrar Steve.
+    Date: Wed, 13 Aug 1997 09:57:56 +0100  3 Indulgences from G. Chaos to the
+                                             Bank.
+                                             Executor: CotC Michael
+    Date: Wed, 13 Aug 1997 10:08:07 +0100  3 Indulgences from G. Chaos to the
+                                             Bank.
+                                             Executor: CotC Michael
+    Date: Fri, 15 Aug 1997 21:40:28 -0400  5 Indulgences from Blob to the Bank.
+                                             Executor: Herald Crito
+    Date: Sun, 17 Aug 1997 19:44:00 -0500  1 Indulgence from Elde to the Bank.
+                                             Executor: Assessor G. Chaos
+    Date: Mon, 18 Aug 1997 12:56:03 +1000  2 Indulgences from Andre to the
+                                             Bank.
+                                             Executor: Registrar Steve
+    Date: Mon, 18 Aug 1997 12:56:03 +1000  2 Indulgences from Murphy to the
+                                             Bank.
+                                             Executor: Registrar Steve
+    Date: Mon, 18 Aug 1997 10:17:49 -0400  1 Indulgence from Elde to the Bank. 
+                                             Executor: Herald Crito
+    Date: Mon, 18 Aug 1997 10:17:49 -0400  1 Indulgence from elJefe to the
+                                             Bank. 
+                                             Executor: Herald Crito
+    Date: Mon, 18 Aug 1997 14:18:35 -0400  1 Indulgence from Morendil to the
+                                             Bank. 
+                                             Executor: Herald Crito
+    Date: Tue, 19 Aug 1997 09:22:12 -0400  2 Indulgences from the Bank to
+                                             Zefram. 
+                                             Executor: Herald Crito
+    Date: Tue, 19 Aug 1997 09:22:12 -0400  1 Indulgence from the Bank to
+                                             Morendil. 
+                                             Executor: Herald Crito
+    Date: Tue, 19 Aug 1997 09:22:12 -0400  1 Indulgence from the Bank to
+                                             Antimatter. 
+                                             Executor: Herald Crito
+    Date: Tue, 19 Aug 1997 09:22:12 -0400  1 Indulgence from the Bank to Steve.
+                                             Executor: Herald Crito
+    Date: Tue, 19 Aug 1997 09:22:12 -0400  2 Indulgences from the Bank to
+                                             elJefe. 
+                                             Executor: Herald Crito
+    Date: Tue, 19 Aug 1997 09:22:12 -0400  1 Indulgence from the Bank to
+                                             Harlequin. 
+                                             Executor: Herald Crito
+    Date: Tue, 19 Aug 1997 09:22:12 -0400  1 Indulgence from the Bank to Elde. 
+                                             Executor: Herald Crito
+    Date: Tue, 19 Aug 1997 09:22:12 -0400  1 Indulgence from the Bank to
+                                             Murphy. 
+                                             Executor: Herald Crito
+    Date: Tue, 19 Aug 1997 09:22:12 -0400  1 Indulgence from the Bank to Vlad. 
+                                             Executor: Herald Crito
+    Date: Tue, 19 Aug 1997 09:22:12 -0400  1 Indulgence from the Bank to G.
+                                             Chaos. 
+                                             Executor: Herald Crito
+    Date: Tue, 19 Aug 1997 09:22:12 -0400  1 Indulgence from the Bank to Andre.
+                                             Executor: Herald Crito
+
+---------------------------
+Disputed Payment Orders
+---------------------------
+
+    None
+
+---------------------------
+Satisfied Payment Orders
+---------------------------
+
+    None
+
+---------------------------
+Vacated Payment Orders
+---------------------------
+
+    Date: Mon, 18 Aug 1997 10:17:49 -0400  1 Indulgence from Blob to the Bank.
+                                             Executor: Herald Crito
+    Date: Mon, 18 Aug 1997 10:17:49 -0400  1 Indulgence from the Bank to
+                                             Vanyel. 
+                                             Executor: Herald Crito
+    Date: Mon, 18 Aug 1997 10:17:49 -0400  1 Indulgence from the Bank to Steve.
+                                             Executor: Herald Crito
+    Date: Mon, 18 Aug 1997 10:17:49 -0400  1 Indulgence from the Bank to Andre.
+                                             Executor: Herald Crito
+    Date: Mon, 18 Aug 1997 10:17:49 -0400  1 Indulgence from the Bank to Chuck.
+                                             Executor: Herald Crito
+    Date: Mon, 18 Aug 1997 10:17:49 -0400  2 Indulgences from the Bank to
+                                             Harlequin. 
+                                             Executor: Herald Crito
+    Date: Mon, 18 Aug 1997 10:17:49 -0400  2 Indulgences from the Bank to 
+                                             Kolja A. 
+                                             Executor: Herald Crito
+    Date: Mon, 18 Aug 1997 10:17:49 -0400  3 Indulgences from the Bank to
+                                             Calabresi. 
+                                             Executor: Herald Crito
+    Date: Mon, 18 Aug 1997 10:17:49 -0400  1 Indulgence from the Bank to Elde. 
+                                             Executor: Herald Crito
+    Date: Mon, 18 Aug 1997 10:17:49 -0400  1 Indulgence from the Bank to Blob. 
+                                             Executor: Herald Crito
+
+---------------------------
+Transfer Orders
+---------------------------
+
+    Date: Mon, 18 Aug 1997 11:16:30 +0200  2 Indulgences from Andre to the
+                                             Bank.
+                                             Delayed.
+
+---------------------------
+Miscellaneous
+---------------------------
+
+Jtael left the Game with 3 Blots.
+Macross left the Game with 0 Blots and 21 Kudos on Mon, 24 Mar 97 18:13:29.
+favor left the Game with 3 Blots and 33 Kudos on Thu, 12 Jun 97 11:25:08 EDT
+KoJen left the Game with 1 Indulgence and 3 Kudos on Thu, 12 Jun 97 12:07:45
+-0400
+
+The last Tabulator's Report that was subject to the adoption of
+a VOC directive was the report published in the PF on 1996/08/13
+(back when we had a Tabulator, and e was responsible for Blots).
+
+As far as I know, no Herald's Report has ever been subject to
+the adoption of a VOC directive.
+
+-- Herald Crito
+
+
+From owner-nomic@yoyo.cc.monash.edu.au Tue Aug 26 20:21 EDT 1997
+Received: from yoyo.cc.monash.edu.au (majordom@yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA28675 for <dpb@cs.brown.edu>; Tue, 26 Aug 1997 20:20:53 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4)
+	  id KAA14807 for nomic-outgoing; Wed, 27 Aug 1997 10:07:37 +1000 (EST)
+Received: from aurora.cc.monash.edu.au (gardner@aurora.cc.monash.edu.au [130.194.1.91])
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4) with ESMTP
+	  id KAA07383 for <nomic@yoyo.cc.monash.edu.au>; Wed, 27 Aug 1997 10:06:51 +1000 (EST)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id KAA08299 for nomic@yoyo.cc.monash.edu.au; Wed, 27 Aug 1997 10:06:48 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199708270006.KAA08299@aurora.cc.monash.edu.au>
+Subject: Re: Proto: Viral Antidote
+To: nomic@yoyo.cc.monash.edu.au
+Date: Wed, 27 Aug 1997 10:06:48 +1000 (EST)
+In-Reply-To: <199708251548.RAA02776@wsinfm15.win.tue.nl> from "Andre Engels" at Aug 25, 97 05:48:19 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 913
+Status: N
+
+Andre Engels writes:
+>
+>The following is a Protoproposal. This is NOT a Proposal Submission
+>
+>Proto (should get AI=1.5)
+>Viral Antidote
+>
+>For the purpose of this Proposal 'protecting a Rule' will be synonymous to:
+>- if the Rule contains a paragraph with the text:
+>
+>      This Rule, apart from this paragraph, shall be completely
+>      without effect. Two weeks after this paragraph is inserted into
+>      this Rule, this paragraph shall be deleted from this Rule.
+>
+>   amending it by removing every instance of such a paragraph from the rule,
+>   and changing its Power to 1.5
+>- if the Rule does not contain such a paragraph, changing its power to 1.5.
+
+I don't like the fractional Power. Make it Power=2.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic@yoyo.cc.monash.edu.au Tue Aug 26 21:14 EDT 1997
+Received: from yoyo.cc.monash.edu.au (yoyo.cc.monash.edu.au [130.194.9.1]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA29653 for <dpb@cs.brown.edu>; Tue, 26 Aug 1997 21:13:52 -0400 (EDT)
+Received: (from majordom@localhost)
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4)
+	  id KAA13422 for nomic-outgoing; Wed, 27 Aug 1997 10:49:12 +1000 (EST)
+Received: from aurora.cc.monash.edu.au (gardner@aurora.cc.monash.edu.au [130.194.1.91])
+          by yoyo.cc.monash.edu.au (8.8.7/8.8.4) with ESMTP
+	  id KAA14648 for <nomic@yoyo.cc.monash.edu.au>; Wed, 27 Aug 1997 10:48:12 +1000 (EST)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id KAA08464 for nomic@yoyo.cc.monash.edu.au; Wed, 27 Aug 1997 10:48:09 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199708270048.KAA08464@aurora.cc.monash.edu.au>
+Subject: OFF: Registrar's Report
+To: nomic@yoyo.cc.monash.edu.au (Backup Nomic Mailing List)
+Date: Wed, 27 Aug 1997 10:48:09 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic@yoyo.cc.monash.edu.au
+Precedence: bulk
+Reply-To: nomic@yoyo.cc.monash.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 11858
+Status: N
+
+
+Agora Nomic
+Registrar's Report
+
+Date of last Report: Mon, 18 Aug 1997
+Date of this Report: Wed, 27 Aug 1997
+
+NB: a Salary Report for the week ending Sun, 24 Aug 1997 is included in
+this Report. The commission of Infractions of Failure to Report are
+also noted there. Assessor and Herald, please note.
+
+===========================================================================
+0. RECENT EVENTS
+===========================================================================
+
+Date: Mon, 25 Aug 1997 15:24:41 +1000 (EST)
+   Registrar Steve designates the mailing list at <agora@win.tue.nl>
+      as a Public Forum.
+
+===========================================================================
+1. WHITE PAGES (Player Listing)
+===========================================================================
+
+Status (A)=Active (M)=Maybe Absent (H)=On Hold (L)=Left the game
+       (W)=Watcher (R)=Rebellious
+
+    Nickname         Preferred adress                        last tr. date
+
+(A) Andre     (R)    engels@win.tue.nl                         Aug 04 1997
+(A) Antimatter       rmorganl@fred.fhcrc.org                   Aug 04 1997
+(A) Blob             malcolmr@cse.unsw.edu.au                  Aug 15 1997
+(A) Calabresi        mcdaniel@law.hardvard.edu                 Aug 11 1997
+(A) Chuck            ccarroll@dfw.net                          Jan 03 1996
+(A) Crito            dalbertz@mrb.state.ma.us                  Feb 19 1997
+(A) Elde             elde@hurricane.net                        Aug 15 1997
+(A) elJefe           eljefe@easynet.co.uk                      Jan 25 1996
+(A) General Chaos    scott@poverty.bloomington.in.us           Feb 21 1997
+(A) Harlequin        harlequin@tmbg.org                        Apr 19 1997
+(A) Kolja A.         klaush@spinup.tp3.ruhr-uni-bochum.de      Jul 02 1997
+(A) Michael          michael.norrish@cl.cam.ac.uk              Nov 02 1994
+(A) Morendil  (R)    morendil@micronet.fr                      Aug 15 1997
+(A) Murphy           ford@bayside.net                          Aug 23 1996
+(H) Oerjan           oerjan@nvg.ntnu.no                        Aug 15 1997
+(A) Steve            gardner@aurora.cc.monash.edu.au           Jul 16 1996
+(H) Swann     (R)    gb485@cleveland.freenet.edu               Aug 07 1997
+(A) Vanyel           dpb@cs.brown.edu                          Aug 22 1996
+(A) Vlad             c647100@showme.missouri.edu               Jul 30 1997
+(A) Zefram           zefram@tao.co.uk                          Aug 12 1997
+
+(W) Bethmo           scrybsprite@msn.com                       Jun 30 1993
+(W) JonRock          jferro@vaughn.ece.cmu.edu                 Apr 29 1996
+(W) Xanadu           A.Bishop@student.anu.edu.au               Apr 01 1997
+
+(L) Pascal           jreed@waun.tdsnet.com                     Jan 21 1996
+(L) Dave Bowen       david.bowen@cray.com                      Feb 21 1996
+(L) Gecko            gecko@magika.com                          Mar 06 1996
+(L) Greycell         dshannon@ga.com.au                        Mar 21 1996
+(L) Ghost            labrown@dg-rtp.dg.com                     Mar 25 1996
+(L) Doug             dchatham@utk.edu                          Apr 13 1996
+(L) dcuman           shodan@indirect.com                       Apr 23 1996
+(L) Narcisse         hap@iglou.com                             May 21 1996
+(L) Jtael            mhough@leland.stanford.edu                Jul 24 1996
+(L) Henry            tows@earthlink.net                        Aug 21 1996
+(L) Coren            coren@teleport.com                        Dec 19 1996
+(L) Macross          macross@tiac.net                          Mar 24 1997
+(L) favor            chess@watson.ibm.com                      Jun 12 1997
+(L) KoJen            cogen@ll.mit.edu                          Jun 12 1997
+
+There are currently 20 Registered Players; 18 Active, 2 On Hold.
+There are currently 3 Rebellious Players; 7 are required for a Revolt.     
+
+===========================================================================
+2. BLUE PAGES (Officer Listing)
+===========================================================================
+
+Current status of Offices
+D=Delegated
+
+Office                     Holder        Elected       Retiring
+------                     ------        -----------   -----------
+Archivist                  Vanyel        May 08 1997   Sep 01 1997
+Ambassador                 G. Chaos      Jun 11 1997   Oct 01 1997
+Assessor                   G. Chaos      Jul 08 1997   Nov 01 1997
+Cartographor               Harlequin     Jun 02 1997   Oct 01 1997
+Chancellor                 G. Chaos      Jun 18 1997   Oct 01 1997
+Clerk of the Courts        Michael       May 08 1997   Sep 01 1997
+Commander-in-Chief         Harlequin     May 27 1997   Sep 01 1997
+Herald                     Crito         May 27 1997   Sep 01 1997
+Justiciar                  Eljefe        Jul 01 1997   Nov 01 1997
+Mad Scientist              Harlequin     Jul 08 1997   Nov 01 1997
+Notary                     Murphy        May 08 1997   Sep 01 1997      
+Promotor                   Crito         Jul 25 1997   Nov 01 1997
+Registrar                  Steve         May 08 1997   Sep 01 1997      
+Rulekeepor                 Chuck         May 08 1997   Sep 01 1997      
+Speaker-Elect              Steve         Jul 08 1997   Nov 01 1997
+Wizard                     Zefram        Aug 18 1997   Dec 01 1997
+
+Position                   Holder        Held Since
+--------                   ------        -----------
+Speaker                    G. Chaos      Jul 01 1997
+
+Salary Report (Attn: Chancellor)
+================================
+
+For the week ending Sun, 24 Aug 1997, Payment Orders are hereby executed
+in the amounts specified below for the purposes of paying Salaries from
+the Bank: 
+
+Chuck           2.0 VT (Rulekeepor)
+Crito           3.5 VT (Herald, Promotor)
+General Chaos   6.0 VT (Ambassador, Assessor, Chancellor)
+Michael         2.0 VT (CotC)
+Murphy          1.0 VT (Notary)
+Steve           1.5 VT (Registrar)
+Vanyel          2.0 VT (Archivist)
+
+Steve earns 1 VT in recognition of his services as Distributor; a 
+Payment Order is hereby executed from the Bank to Steve for 1 VT.
+
+Zefram does not earn the Wizard's Salary (failure to produce a Report).
+Harlequin does not earn the Cartographor's Salary (failure to produce a
+Report).
+Harlequin does not earn the Mad Scientist's Salary (failure to produce a
+Report).
+
+Zefram and Harlequin (twice) have committed the Infraction of Failure
+to Report, which carries penalties equivalent to those for a Class D
+Crime. Payment Orders are hereby executed from Zefram for 2 VTs and 2
+Indulgences, and from Harlequin for 4 VTs and 4 Indulgences. (These
+are 6 Payment Orders: 2 from Zefram and 4 from Harlequin.)
+
+* Nomic Backup list    :  nomic@yoyo.cc.monash.edu.au
+* Nomic Backup list    :  agora@win.tue.nl
+
+* designated as a Public Forum by the Registrar
+
+===========================================================================
+3. GOLD PAGES (Patent Title Listing)
+===========================================================================
+
+I - Current Titles
+
+The following Patent Titles, currently defined in the Rules, have been
+awarded to (and not revoked from) the following persons :
+
+Distributor:      Steve
+Hero:             Peter Suber
+Scamsters:        Waggie, Troublemaker at Large
+Samurai:          Steve, Eljefe, Vanyel
+Shogun:           Steve, Vanyel
+Boor:             Crito
+Winners' Cups -
+         Plain:   Andre, Blob, Dave B, Favor, Garth, Ian, Jeffrey,
+                  Michael, Oerjan, Timothy, Vanyel (Paper Cups), elJefe,
+                  Swann (Tin Cups), Morendil, KoJen, Troublemaker at
+                  Large, Wes (Glass Cups), Chuck (Crystal Cup)
+
+         Noble:   Kelly, Steve (Silver Cups)
+
+   Extravagant:   <none>
+       Supreme:   Crito
+
+Zeitgeist:        General Chaos (3533)
+
+II - Degrees
+
+The following Degrees, currently defined in the Rules, have been
+awarded to the following persons :
+
+B.N.:          Steve, Vanyel, elJefe, favor
+D.N.Phil.:     Steve
+D.N.Hist.:     Swann
+
+III - Historical Titles
+
+The following Patent Titles have been awarded to the following persons
+(though such Titles may no longer be held by these persons or no longer be
+defined by the Rules) :
+
+Champions:        Andre, Blob, Chuck, Dave B, ElJefe, Favor, Garth, Ian,
+                  Jeffrey, Kelly, KoJen, Michael, Morendil, Oerjan,
+                  Troublemaker at Large, Steve, Swann, Timothy,
+                  Vanyel (twice), Wes (twice)
+Champions*(7/6):  Chuck, Eljefe, Kelly, KoJen, Morendil, Troublemaker at
+                  Large, Steve, Swann
+Champions*(4/3):  Chuck, Kelly, KoJen, Troublemaker at Large, Steve, Wes
+Champions*(3/2):  Chuck, Kelly, Steve
+Champions*(5/3):  Kelly, Steve
+Champion*(11/6):  Kelly
+
+Former Shogun:    <none?>
+Former Zeitgeists*:
+ Andre    (2655,2656,2740,2791,3455)
+ Chuck    (2415,2599,2637,3513,3521,3530)
+ favor    (1734,1755,2429,2750,3483)
+ Harlequin (3509)
+ Kelly/G.Chaos (2563,2564,2568,2569,2570,2571,2604,2625,2630,2632,2633,3516)
+ Michael  (3464)
+ Morendil (2048,2424,2562,2585,2595,2598)
+ Murphy   (2808,2831,3511)
+ Steve    (2588,2613,2618,2639,2645,2716,2732,2832,3515)
+ Swann    (2035,2443,2739)
+ Wes      (2450)
+ Zefram   (2730,3512)
+
+(* Zeitgeists awarded before Oct 11, 1995 and between Proposals 2750 and
+   2791 missing)
+
+Agoraphobes:       BethMo, Blue, Ross Morgan-Linial
+Entrepeneur:       Chuck
+First Speaker:     Michael
+Nomic Thief:       Swann
+Originator:        Chuck
+
+===========================================================================
+4. GREEN PAGES (Champions' Rewards)
+===========================================================================
+
+             Recent Wins       Recent Champion's Rewards
+
+Player       Date of win       Commencement       Conclusion
+------       -----------       ------------       -----------
+Crito        22 Mar 1997       31 Mar 1997        28 Apr 1997
+
+===========================================================================
+5. PINK PAGES (New Players' Grace Periods)
+===========================================================================
+
+Player       Registration      Conclusion
+------       ------------      ----------
+Kolja A.     02 Jul 1997       02 Sep 1997
+Vlad         30 Jul 1997       30 Sep 1997
+
+===========================================================================
+6. YELLOW PAGES (Private Enterprise Listing)
+===========================================================================
+
+Fantasy Rules Committee                                        frc@troll.no
+Try out your weird rule ideas! Subscribe at <frc-request@troll.no>
+Web page at <http://www.win.tue.nl/cs/fm/engels/frc/>
+
+Yellow Pages Advertising                    gardner@aurora.cc.monash.edu.au
+Get your own Group banner, Contest advertisement, or service
+promotion distributed with the Registrar's Report. Free trial gives
+name, address, and 3 lines of description! Try it today!
+
+A.Word.A.Day                                           wsmith@wordsmith.org
+The music and magic of words--that's what A.Word.A.Day is all about.
+It is a service from the wordserver at wsmith@wordsmith.org which
+mails out a vocabulary word (in English) and its definition to the
+subscribers every day.  You can think of it as a word trek where we
+explore strange new words.  For info send mail with <Subject: info
+A.Word.A.Day>
+
+Foreign Correspondent                                 Majordomo@lglobal.com
+Inside Track On World News By International Syndicated Columnist &
+Broadcaster Eric Margolis <emargolis@lglobal.com> To receive Foreign
+Correspondent via email send a note to Majordomo@lglobal.com with the
+message in the body: "subscribe foreignc".
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+

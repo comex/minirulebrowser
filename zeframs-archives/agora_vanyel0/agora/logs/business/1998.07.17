@@ -1,0 +1,296 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Jul 17 14:23 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA18256 for <dpb@cs.brown.edu>; Fri, 17 Jul 1998 14:23:46 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA23562
+	for agora-business-list; Sat, 18 Jul 1998 04:18:00 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id EAA23559
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 18 Jul 1998 04:17:57 +1000
+Received: From elgar With LocalMail ; Sat, 18 Jul 98 04:17:57 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-business@gecko.serc.rmit.edu.au (Nomic Business)
+Date: Sat, 18 Jul 1998 04:17:55 +1000 (EST)
+Message-Id:  <980717181756.26327@cse.unsw.edu.au>
+Subject: BUS: Proposal: A collection of fiexs
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3034
+
+I submit the following Proposal, and spend 1 P-Note to raise
+its Priority to one.
+
+Blob
+
+---
+
+Proposal: A collection of small fixes.
+
+[Comment: I have collected together a number of recent proto's I
+ have made, into a single proposal, in the hope that people will
+ think it is worth spending VTs on.]
+
+Amend Rule 1837 ("The Miscreant") to read:
+
+      Let there exist the Patent Title of "Miscreant".
+
+      If any Player has more than ten Blots, the Player with the most
+      Blots earns the Title of Miscreant.  If no Player has the most
+      number of Blots, there is no Miscreant.  The Miscreant loses
+      eir Title of Miscreant if eir number of Blots drops below ten,
+      if another Player gains as many Blots as em, or if another
+      Player gains more Blots than em.
+
+      The Herald shall announce in the Public Forum whenever a Player
+      receives or loses this Title, as soon as possible after such
+      award or revocation occurs.
+
+      A Player with the Title Miscreant counts as two Rebellious 
+      Players when determining the outcome of a Revolt. This rule
+      takes precedence over any other rule determining the outcome
+      of a Revolt.
+
+[Comment: Add a reporting requirement, as per the Samurai, and also
+ a precedence clause, so that the last paragraph actually works.]
+
+Amend Rule 879 ("Quorum") to read:
+
+      Quorum for a Proposal is achieved if a vote is cast on that
+      Proposal by one-third of Active Players not denied voting 
+      privileges, or one-fifth of all Players, whichever is greater.
+
+      Quorum for a Proposal is calculated at the beginning of the 
+      prescribed Voting Period for that Proposal, using information
+      current at that time.
+
+[Comment: If there are a lot of people who can't vote, it makes
+ achieving Quorum rather difficult. This eases the burden.]
+
+Amend Rule 1632 ("InterNomic Voting Procedure") by replacing the text:
+
+      The InterNomic Vote shall be FOR if the Referendum on that
+      Proposal has passed and AGAINST if the Referendum on that
+      Proposal has failed. If the Referendum on that Proposal is
+      undecided, then Agora shall abstain from voting on that
+      Proposal.
+
+with:
+
+      The InterNomic Vote shall be FOR if the Referendum on that
+      Proposal has passed and AGAINST if the Referendum on that
+      Proposal has failed. If the Referendum on that Proposal is
+      undecided, then the Ambassador may decide how Agora votes,
+      as e sees fit.
+
+[Comment: Not exactly a fix, but a toned down version of my previous
+ attempt to empower the Ambasssador. Now e only has power to choose
+ when the voting public are too apathetic to tell him how to vote.]
+
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Jul 17 14:26 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA18359 for <dpb@cs.brown.edu>; Fri, 17 Jul 1998 14:26:13 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA23595
+	for agora-business-list; Sat, 18 Jul 1998 04:22:42 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id EAA23592
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 18 Jul 1998 04:22:41 +1000
+Received: From elgar With LocalMail ; Sat, 18 Jul 98 04:22:51 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-business@gecko.serc.rmit.edu.au (Nomic Business)
+Date: Sat, 18 Jul 1998 04:22:50 +1000 (EST)
+Message-Id:  <980717182251.26355@cse.unsw.edu.au>
+Subject: BUS: Proposal: Skimming off the top
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 908
+
+I submit the following Proposal, pay pay 1 P-Note to raise its
+Priority to one.
+
+Blob
+
+---
+
+Proposal: Skimming a bit off the top.
+
+Amend rule 1449 ("The Assessor") to read:
+
+      There shall exist the Office of Assessor.  The Assessor
+      shall receive a weekly salary equal to 0.5 times the Basic
+      Officer Salary.
+
+      The Assessor shall also receive a Commission. At the end
+      of the Voting Period for a Proposal, the Assessor shall
+      pay out to emself an amount equal to 5% of the VTs spent
+      on voting on that Proposal.
+
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Jul 17 14:28 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA18388 for <dpb@cs.brown.edu>; Fri, 17 Jul 1998 14:28:07 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA23631
+	for agora-business-list; Sat, 18 Jul 1998 04:26:06 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id EAA23628
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 18 Jul 1998 04:26:05 +1000
+Received: From elgar With LocalMail ; Sat, 18 Jul 98 04:26:16 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-business@gecko.serc.rmit.edu.au (Nomic Business)
+Date: Sat, 18 Jul 1998 04:26:15 +1000 (EST)
+Message-Id:  <980717182615.26393@cse.unsw.edu.au>
+Subject: BUS: Proposal: The Voting Tariff
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1973
+
+I submit the following Proposal, and spend 1 P-Note to raise its
+Priority to one.
+
+blob
+
+---
+
+Proprosal: The Voting Tariff
+
+Crete a rule, entitled "The Voting Tariff", with text:
+
+      The Voting Tariff is a number of VTs, a multiple of the
+      MUQ, between 0.5 and 2.0 inclusive. Unless the Rules give
+      it another value, the Voting Tariff is 1 VT.
+
+      The Assessor may change the value of the Voting Tariff by
+      announcing the new value in the Public Forum, provided that
+      e announces a value within the range proscribed above, that
+      e makes the announcement prior to midnight GMT Thursday, and 
+      that e has not already made such an announcement earlier in 
+      the Week. The new value of the Voting Tariff does not take
+      effect until the beginning of the Nomic Week after the
+      change has been announced.
+
+Amend rule Rule 1442 ("The Cost of Voting") to read:
+
+      Proposals have a voting cost, equal to the Voting Tariff
+      at the time they were distributed. If there was no value
+      set for the Voting Tariff at that time, then the voting
+      cost is 1 VT.
+
+      As soon as possible after the end of the Voting Period of a
+      given Proposal, the Assessor shall bill each Voting Entity a
+      number of Voting Tokens equal to the votes cast on that
+      Proposal by that entity multiplied by the voting cost for
+      that Proposal.
+
+[Comment: Yet another parameter for the economy. Gives us a way 
+ to handle voting slumps, like the present one, by making voting
+ cheaper. But Votes are still valuable, because of the danger that
+ prices will go up.]
+
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Jul 17 20:42 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA27095 for <dpb@cs.brown.edu>; Fri, 17 Jul 1998 20:42:10 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA25040
+	for agora-business-list; Sat, 18 Jul 1998 10:39:14 +1000
+Received: from dfw.nationwide.net (dfw.nationwide.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA25037
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 18 Jul 1998 10:39:10 +1000
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id TAA25841
+	for agora-business@gecko.serc.rmit.edu.au; Fri, 17 Jul 1998 19:35:52 -0500 (CDT)
+Message-Id: <199807180035.TAA25841@dfw.nationwide.net>
+Subject: BUS: Rulekeepor's Memo
+To: agora-business@gecko.serc.rmit.edu.au (Agora Business)
+Date: Fri, 17 Jul 1998 19:35:52 -0500 (CDT)
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1348
+Lines: 44
+
+
+Rulekeepor's Memo
+July 17, 1998
+
+This memo includes effects due to Proposals 3766-3771.
+
+----------------------------------------------------------------------
+
+PAYMENT ORDERS (cf. Rule 947): None. 
+
+----------------------------------------------------------------------
+
+SCORE CHANGES (cf. Rule 1784):
+Due to having Rule-changing Proposals adopted during the Nomic
+Week of July 13 1998, Steve and Chuck each gain 3 Points.
+
+----------------------------------------------------------------------
+
+RULE CHANGES:
+
+Prop  Proposer  Rule Change  Title of New Rule
+----  --------  -----------  -----------------
+3766  Steve     Amend  1784
+3768  Chuck     Amend   789
+                Amend  1500
+                Amend  1829
+                Amend  1795
+                Amend  1814
+                Amend  1798
+                Create 1861  Blot Amnesty for Chuck
+
+
+NPRC=Non-Proposed Rule Change
+
+----------------------------------------------------------------------
+
+PENDING NON-PROPOSED RULE CHANGES:
+Rule 1715 will self-Amend at Aug. 12 1998 06:53:27 GMT
+Rule 1764 will self-Amend at Aug. 12 1998 06:53:27 GMT
+Rule  452 will self-Amend at Aug. 19 1998 04:11:27 GMT
+Rule 1625 will self-Amend at Aug. 19 1998 04:11:27 GMT
+Rule 1861 will self-Repeal once its conditions are fulfilled
+
+----------------------------------------------------------------------
+

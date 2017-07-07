@@ -1,0 +1,1067 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 00:34 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA00034 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 00:34:41 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA06691
+	for agora-business-list; Mon, 5 Jan 1998 16:27:48 +1100
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA06685
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 16:27:43 +1100
+Received: by windowsnt from localhost
+    (router,SLMail V2.6); Mon, 05 Jan 1998 01:15:41 -0500
+Received: by windowsnt from friend-computer
+    (206.18.125.47::mail daemon; unverified,SLMail V2.6); Mon, 05 Jan 1998 01:15:35 -0500
+Message-Id: <3.0.5.32.19980104212009.00795320@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Sun, 04 Jan 1998 21:20:09 -0800
+To: agora-business@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: BUS: Plots (v2.3)
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 8307
+
+Proto:  Plots (v2.3)
+
+
+[Ideas not yet incorporated:
+  * Currencies can't be created except by Structure Production.
+  * Indulgences are created by the Pope, whose Plot is the Vatican.
+  * Privately minted Currencies have corresponding Structures.  The Mintor may
+      specify their properties, and sell the ability to sell such Structures.
+  * Instead of having a Type, each Structure may possess a Tool.]
+
+
+[Part One:  Replace Locations with Plots]
+
+All Locations are destroyed.
+
+Amend Rule 1706 to read:
+
+     There is a class of entities called Plots.  All Plots are initially owned
+     by the Bank.
+
+     Each Plot has a unique name.  A Plot's owner may change its name Without
+     Objection.
+
+     A Plot's owner may give the Plot to any other consenting entity.
+
+[Non-Players give and consent via their Executor.  Yes, this includes the
+Bank.]
+
+Repeal Rule 1707.
+
+Amend Rule 1708 to read:
+
+     Each Plot has a Longitude and Latitude, each of which is an integer.  Two
+     Plots are Adjacent if and only if one of the following applies:
+
+       * They have the same Longitude, and their Latitudes differ by one.
+       * They have the same Latitude, and their Longitudes differ by one.
+
+Repeal Rule 1709.
+
+[Rule 1710 will be amended later.]
+
+
+For each combination of Latitude (X) from 0 to 9 and Longitude (Y) from 0 to 9,
+a Plot named "Area XY" (substituting the Latitude and Longitude for "XY") is
+created.
+
+
+Create a Rule entitled "Winning by Ownership" with this text:
+
+     Being the only entity other than the Bank to own Plots is a Winning
+     Condition known as a Win by Ownership.  A Player may also Win in this way
+     by being the Executor of such an entity.
+
+     When a Player Wins in this way, all Plots Owned by the entity in question
+     become Owned by the Bank.
+
+
+[Part Two:  Define Structures and Ergs]
+
+Create a Rule entitled "Structures" with this text:
+
+     There exists a class of entities known as Structures.  All Structures are
+     initially owned by the Bank.
+
+     Each Structure is either assigned to a specific Plot, or unassigned.  An
+     unassigned Structure's owner may assign it to a Plot by informing the
+     Cartographor, if the Plot's owner consents, and if no other Structure is
+     assigned to that Plot.  An assigned Structure's owner may make it
+     unassigned by informing the Cartographor.
+
+Create a Rule entitled "Ergs" with this text:
+
+     Ergs are a Currency.  Their MUQ is 1.  Their Recordkeepor is the
+     Cartographor.  Their Mintor is the Bank.
+
+100 Structures and 10,000 Ergs are created.
+
+Amend Rule 1677 to read:
+
+     Upon the start of a Player's Grace Period, the Registrar shall pay out to
+     that Player an award of 5 Voting Tokens, 5 P-Notes, and 15 Ergs.  In
+     addition, e shall order the Cartographor to create 5 Structures and give
+     them to the Player; the Cartographor shall do so as soon as possible after
+     being so ordered.
+
+Amend Rule 1701 by removing this paragraph:
+
+     Whenever there exists a Player who has never before possessed
+     any P-Notes, the Promotor shall pay out 5 P-Notes to that Player.
+
+Create a new Rule with this text:
+
+     As soon as possible after this Rule is created, the Registrar shall pay
+     out 15 Ergs to each person who was a Player when this Rule was created.
+     In addition, for each such Player, e shall order the Cartographor to
+     create 5 Structures and give them to the Player; the Cartographor shall do
+     so as soon as possible after being so ordered.
+
+     This Rule shall repeal itself one second after all events mandated by the
+     previous paragraph have taken place.
+
+
+[Part Three:  Make Structures useful]
+
+Create a Rule entitled "Types of Structures" with this text:
+
+     All Structures have a Type.  All Structures are initially Idle, and any
+     unassigned Structures become Idle if they are not already Idle.
+
+     An assigned Structure's owner may change its Type by informing the
+     Cartographor and paying the new Type's price to the Bank.
+
+     As soon as possible after a Structure's Type changes, the Cartographor
+     shall pay half the old Type's price (rounded down) to the Structure's
+     owner.
+
+Create a rule titled "Maintenance of Structures" with this text:
+
+     Each Structure has a Maintenance Fee that becomes due at the beginning of
+     each month.  When due, the Maintenance Fee for a Structure is paid when an
+     entity successfully executes a Transfer Order for the amount of that
+     Structure's Maintenance Fee, provided that e indicates clearly that the
+     Transfer Order is being executed to pay the Maintenance Fee for that
+     Structure.
+
+     For each Structure whose Maintenance Fee remains unpaid one week after it
+     becomes due, the Cartographor shall as soon as possible transfer that
+     Structure to the Bank.
+
+Create a rule titled "Production of Structures" reading:
+
+     At the beginning of each Nomic Week, the Cartographor shall pay out each
+     Structure's Production (if any) to the owner of the Plot to which it is
+     assigned.
+
+     Churches have no Production.  However, each Church is considered to be two
+     players for the purpose of randomly allocating Indulgences, and any
+     Indulgence that would otherwise be given to a Church is instead given to
+     its owner.
+
+Create a Rule entitled "Types of Structures" with this text:
+
+     A Type of Structure exists only if the Rules explicitly define it.
+
+     The following Types of Structure exist, with the specified prices,
+     Productions, and Maintenance Fees, unless otherwise specified:
+
+       Type         Price      Production   Maintenance Fee
+       ----------------------------------------------------
+       Idle         none       none         none
+       Farm         4 Ergs     5 VTs        1 Erg
+       House        4 Ergs     1 P-Note     1 Erg
+       Mine         4 Ergs     1 Erg        1 Erg
+       Church       4 Ergs     none         1 Erg
+
+Create a new Rule titled "Interaction of Structures" and this text:
+
+     Two Structures are Adjacent if and only if they are assigned to Adjacent
+     Plots.
+
+     A Farm's Production is increased by 0.5 VT for each House or Church to
+     which it is Adjacent, and decreased by 0.5 VT for each Mine to which it is
+     Adjacent.
+
+     A House's Production is increased by 1 P-Note for every 2 Farms or Mines
+     to which it is Adjacent.
+
+     A Mine's Production is not affected by Adjacency.
+
+
+[Part Four:  Amend the Rule defining the Cartographor and eir duties]
+
+Amend Rule 1710 to read:
+
+     There is an Office of Cartographor. The Cartographor recieves a 
+     salary equal to 2 times the Basic Officer Salary.
+
+     At least once each Nomic Week, the Cartographor shall post a 
+     Report to the Public Forum containing the following information:
+
+       * the name, ownership, and Adjacency of all Plots
+       * the ownership, assignment (if any) and Type of all Structures
+       * the ownership of all Ergs
+       * all changes in ownership of Plots since the last Report
+       * all changes in ownership, assignment, or Type of all Structures since
+           the last Report
+       * all Transfer Orders and Payment Orders specifying Ergs since the last
+           Report
+
+Repeal Rule 1684 (VT Supply).
+
+
+[Part Five:  Clean up other references to Locations]
+
+Amend Rule 869 by removing the following paragraph:
+
+     When a Player registers, eir Location is the Welcoming Center.
+
+Amend Rule 1016 to read:
+
+     At any time, each Player shall either be On Hold or Off Hold.  This status
+     shall not be changed except as specified in the Rules.
+
+     When a Player registers (or reregisters), e is Off Hold.
+
+     An Off Hold Player becomes On Hold when e says so in the Public Forum.
+
+     An On Hold Player becomes Off Hold when e says so in the Public Forum;
+     however, any attempt to do so within 96 hours after e last went On Hold is
+     ineffective.
+
+Amend Rule 1664 by removing the text "whose Location is the Beer Hall".
+
+Amend Rule 1367 by adding this paragraph:
+
+     "Granting a Degree" and "awarding a Degree" are synonymous.  A Player who
+     has been awarded a Degree possesses that Degree.
+
+Repeal Rule 1711.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+"I see," said Arthur, who didn't.
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 04:16 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA03356 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 04:16:42 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA07518
+	for agora-business-list; Mon, 5 Jan 1998 20:11:00 +1100
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id UAA07512
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 20:10:56 +1100
+Received: from arapael (pppA213.francenet.fr [193.149.100.67])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id KAA05571
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 10:12:49 +0100 (MET)
+Message-Id: <199801050912.KAA05571@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-business@gecko.serc.rmit.edu.au
+Date: Mon, 5 Jan 1998 10:13:19 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: BUS: Re: DIS: R1505 Infected
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 468
+
+> A demonstration: Speaker Morendil is hereby made Quiet.
+
+WHAT, ME ?
+
+There, was that Noisy enough ?
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                       (o o)
+--------------------------------     -oOO--(~)--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in Web chat & Internet Communication technologies
+		Communicate better, Communicate Cheaper
+=====================================================
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 08:12 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA07050 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 08:12:42 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA08394
+	for agora-business-list; Tue, 6 Jan 1998 00:07:53 +1100
+Received: from kanga.INS.CWRU.Edu (kanga.INS.CWRU.Edu [129.22.8.32])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA08391
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 00:07:41 +1100
+Received: (gb485@localhost) by kanga.INS.CWRU.Edu (8.8.6+cwru/CWRU-2.5-bsdi)
+	id IAA26520; Mon, 5 Jan 1998 08:09:29 -0500 (EST) (from gb485)
+Message-Id: <199801051309.IAA26520@kanga.INS.CWRU.Edu>
+Date: Mon, 5 Jan 1998 08:09:29 -0500 (EST)
+From: gb485@cleveland.Freenet.Edu (Steven A Swiniarski)
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Transfer Orders Swann
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 499
+
+I pay 1 indulgence each to satisfy
+POI627 POI633 POI647 and POI651
+
+I pay 1 P-Note to satisfy POP137
+I make a delayed transfer of 1 P-Note to satisfy each of
+POP095 and POP097 to be made when I have such a P-Note to transfer.
+
+Swann
+
+-- 
+Steven Swiniarski (aka S Andrew Swann) http://www.sff.net/people/SASwann
+gb485@cleveland.freenet.edu            
+"There can be no effective control of corporations while their political
+ activity remains."                                    --Theodore Roosevelt
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 10:15 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA09924 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 10:15:30 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA09065
+	for agora-business-list; Tue, 6 Jan 1998 02:10:41 +1100
+Received: from cayman.ucs.indiana.edu (cayman.ucs.indiana.edu [129.79.10.63])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA09062
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 02:10:38 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-38.ucs.indiana.edu [156.56.126.38])
+	by cayman.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id KAA20980
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 10:12:29 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id KAA09927 for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 10:12:25 -0500
+Message-Id: <199801051512.KAA09927@poverty.bloomington.in.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Voting Reminder
+Date: Mon, 05 Jan 1998 10:12:22 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 802
+
+Voting for 3656-3658 commenced:     Mon Dec 29 16:17:02 1997
+Voting for 3656-3658 will conclude: Thu Jan  8 16:17:02 1998
+
+At the commencement of the Voting Periods of Proposals 3656-3658 there
+were 15 Registered Players: 13 Active, 2 On Hold.  Therefore the
+Quorum for these Proposals is 5 (Rule 879).
+
+Votes (or Declarations of Presence) have been received from the
+following Voters:
+
+                    3  3  3
+                    6  6  6
+                    5  5  5
+                    6  7  8
+
+Chuck               *  *  *
+General Chaos       *     *
+Harlequin           *  *  *
+Michael             *  *  *
+Murphy                    *
+Steve               *  *  *
+
+
+Current Senators are:
+	Andre, Chuck, Crito, General Chaos, Harlequin, Kolja A., Michael,
+	Murphy, Oerjan, Steve, Swann, Vir, elJefe
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 10:17 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA09960 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 10:17:12 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA09089
+	for agora-business-list; Tue, 6 Jan 1998 02:12:51 +1100
+Received: from roatan.ucs.indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA09086
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 02:12:48 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-38.ucs.indiana.edu [156.56.126.38])
+	by roatan.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id KAA32387
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 10:14:40 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id KAA09945 for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 10:14:38 -0500
+Message-Id: <199801051514.KAA09945@poverty.bloomington.in.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Infraction Reports
+Date: Mon, 05 Jan 1998 10:14:37 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 358
+
+			     AGORA NOMIC
+			OFFICE OF THE ASSESSOR
+			   JANUARY 5, 1998
+
+		    Persistent Indebtedness Report
+----------------------------------------------------------------------
+The following Players are hereby cited for Persistent Indebtedness:
+
+	Harlequin
+	Morendil
+
+Each is hereby ordered to pay one Indulgence to the Bank as penalty
+for this Infraction.
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 12:14 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA13211 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 12:13:58 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA09665
+	for agora-business-list; Tue, 6 Jan 1998 04:01:09 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA09662
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 04:01:06 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 30790]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49424-16125>; Mon, 5 Jan 1998 18:02:35 +0100
+Date: 	Mon, 5 Jan 1998 18:02:30 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: Agora Business List <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: Happy New Year!
+Message-ID: <Pine.LNX.3.96.980105175751.21728A-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 338
+
+Hi all, I'm back and and just about to take a look at my 1029 new emails. 
+If I can make any sense of what has happened since I left, I should get
+back to you with more Official business in a few days.
+
+Greetings from his MADNESS,
+Ørjan.
+
+-- 
+Praeterea censeo Cyberprominem et Agim esse delendas.
+<URL:http://www.cyberpass.net/~fekete/>
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 14:54 EST 1998
+Received: from gecko.serc.rmit.edu.au (gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA18044 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 14:53:59 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA10348
+	for agora-business-list; Tue, 6 Jan 1998 06:47:33 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA10345
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 06:47:30 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 05 Jan 1998 14:56:03 -0500
+Message-Id: <s4b0f483.070@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 05 Jan 1998 14:55:25 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Transfer Orders Swann
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 544
+
+BUS: Transfer Orders Swann
+
+Swann wrote:
+
+>I make a delayed transfer of 1 P-Note to satisfy each of
+>POP095 and POP097 to be made when I have such a P-Note to transfer.
+
+I am rejecting this Transfer Order because it is delayed and for no other
+reason, per R1730.  However, I might have been more likely to accept it had it
+not been ambiguous as to whether it is one or two Transfer Orders.  8)
+
+Note that R1732 has been amended to prevent the old loophole that allowed
+Players to make one transfer satisfy more than one PO.
+
+-- Promotor Crito
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 16:01 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA20337 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 16:01:25 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA10689
+	for agora-business-list; Tue, 6 Jan 1998 07:55:58 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id HAA10685
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 07:55:55 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 05 Jan 1998 16:04:33 -0500
+Message-Id: <s4b10491.008@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 05 Jan 1998 16:03:49 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Votes
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 247
+
+Votes
+
+H. Assessor,
+
+I hereby transfer 2 VTs to the Order of the Evil Eye and vote as follows: 
+
+                  3  3  3
+                  6  6  6
+                  5  5  5
+                  6  7  8
+
+Crito             *  F  * 
+
+
+Regards,
+Crito
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 17:15 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA22729 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 17:15:23 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA10994
+	for agora-business-list; Tue, 6 Jan 1998 09:09:57 +1100
+Received: from satsuma.mail.easynet.net (satsuma.mail.easynet.net [193.131.248.57])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id JAA10987
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 09:09:53 +1100
+Received: (qmail 22515 invoked from network); 5 Jan 1998 22:11:38 -0000
+Received: from kiwi.easynet.co.uk (193.131.248.4)
+  by satsuma.mail.easynet.net with SMTP; 5 Jan 1998 22:11:38 -0000
+Received: (qmail 12753 invoked from network); 5 Jan 1998 22:12:52 -0000
+Received: from eljefe.easynet.co.uk (HELO ?195.40.61.175?) (195.40.61.175)
+  by kiwi.easynet.co.uk with SMTP; 5 Jan 1998 22:12:52 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <l03110700b0d7058418c6@[195.40.61.175]>
+In-Reply-To: <s4a786f5.055@rmv.state.ma.us>
+Mime-Version: 1.0
+Date: Mon, 5 Jan 1998 21:49:19 +0000
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic)
+From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+Subject: BUS: Votes in 3656-3658
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 392
+
+H. Assessor Gen Chaos:
+
+I hereby declare my presence on 3656-3658:
+
+
+         3  3  3
+         6  6  6
+         5  5  5
+         6  7  8
+
+elJefe   *  *  *
+
+Regards,
+-- elJefe
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 18:53 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA25313 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 18:53:47 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA11426
+	for agora-business-list; Tue, 6 Jan 1998 10:36:38 +1100
+Received: from cayman.ucs.indiana.edu (cayman.ucs.indiana.edu [129.79.10.63])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA11423
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 10:36:35 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-38.ucs.indiana.edu [156.56.126.38])
+	by cayman.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id SAA08883
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 18:38:19 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id SAA10893 for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 18:38:13 -0500
+Message-Id: <199801052338.SAA10893@poverty.bloomington.in.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Re: OFF: New Proposals: 3659 - 3663 
+In-reply-to: Your message of "Mon, 05 Jan 1998 15:59:56 EST."
+             <s4b103a1.006@rmv.state.ma.us> 
+Date: Mon, 05 Jan 1998 18:38:09 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 163
+
+I claim that the Promotor's Publication of Proposal 3663 is in error,
+in that it fails to note that Proposal 3663 is Silly, and that its AI
+is therefore 2, not 1.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 19:31 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA26077 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 19:31:09 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA11589
+	for agora-business-list; Tue, 6 Jan 1998 11:16:33 +1100
+Received: from owl.INS.CWRU.Edu (owl.INS.CWRU.Edu [129.22.8.26])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA11586
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 11:16:25 +1100
+Received: (gb485@localhost) by owl.INS.CWRU.Edu (8.8.6+cwru/CWRU-2.5-bsdi)
+	id TAA03410; Mon, 5 Jan 1998 19:18:07 -0500 (EST) (from gb485)
+Message-Id: <199801060018.TAA03410@owl.INS.CWRU.Edu>
+Date: Mon, 5 Jan 1998 19:18:07 -0500 (EST)
+From: gb485@cleveland.Freenet.Edu (Steven A Swiniarski)
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Re: Votes OFF:  New Proposals: 3659 - 3663
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 300
+
+
+3661 2 Against
+3663 2 For
+
+Swann
+
+-- 
+Steven Swiniarski (aka S Andrew Swann) http://www.sff.net/people/SASwann
+gb485@cleveland.freenet.edu            
+"There can be no effective control of corporations while their political
+ activity remains."                                    --Theodore Roosevelt
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 19:32 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA26101 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 19:32:36 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA11653
+	for agora-business-list; Tue, 6 Jan 1998 11:27:02 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA11646
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 11:26:59 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id LAA25860
+	for agora-business@gecko.serc.rmit.edu.au; Tue, 6 Jan 1998 11:28:56 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199801060028.LAA25860@aurora.cc.monash.edu.au>
+Subject: BUS: Proposal: Repeal 'VT Supply'
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic Business List)
+Date: Tue, 6 Jan 1998 11:28:56 +1100 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 376
+
+H. Promotor Crito!
+
+I hereby submit the following Proposal, paying the Petition Fee to do so.
+
+####
+Proposal
+Repeal VT Supply
+
+Be it hereby resolved that R1684 be repealed.
+####
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 19:45 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA26385 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 19:45:46 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA11709
+	for agora-business-list; Tue, 6 Jan 1998 11:31:22 +1100
+Received: from belize.ucs.indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA11705
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 11:31:19 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-38.ucs.indiana.edu [156.56.126.38])
+	by belize.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id TAA27651
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 19:33:07 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id TAA10967 for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 19:33:02 -0500
+Message-Id: <199801060033.TAA10967@poverty.bloomington.in.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Voodoo Lounge
+Date: Mon, 05 Jan 1998 19:32:58 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 127
+
+It is my belief that the Voodoo Lounge is an entity which possesses
+Currency and which lacks an Executor.  Notary, do so note.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 19:46 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA26405 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 19:46:01 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA11752
+	for agora-business-list; Tue, 6 Jan 1998 11:41:25 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA11737
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 11:37:23 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id LAA24584
+	for agora-business@gecko.serc.rmit.edu.au; Tue, 6 Jan 1998 11:32:56 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199801060032.LAA24584@aurora.cc.monash.edu.au>
+Subject: BUS: Steve's vote on INP 357
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic Business List)
+Date: Tue, 6 Jan 1998 11:32:56 +1100 (EST)
+In-Reply-To: <9801051912.AA21587@scarlet.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns NB6_25(3751)" at Jan 5, 98 08:12:28 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1138
+
+Klaus Herrmanns NB6_25(3751) wrote:
+>
+>Agora Nomic
+>Ambassador's Report
+>
+>Date of this Report: 05 Jan 1997
+>
+>======================================================================
+>Diplomatic Report
+>
+>
+>1. New Proposal
+>
+>The following proposal has been submitted:
+>
+>============================================================
+>Proposal 357
+>Proposed by Agora
+>
+>Rule 215 shall be amended by changing the text which currently
+>reads "Ackanomic," to read "New Rishonnomic, Ackanomic,"
+>
+>============================================================
+
+I vote FOR in the Referendum in INP 357.
+
+>2. Result of INP 356
+>
+>There was some confusion because IN moderator Malenkai did not receive
+>any votes at all due to email problems on eir side. The IN rules are
+>silent concernng what happens in such a case. Later, however, Acka's
+>liaison claimed to have voted for INP 356, so this may end up as
+>adopted, anyway.
+
+Why didn't Agora vote?
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 20:00 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA26745 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 20:00:38 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA11958
+	for agora-business-list; Tue, 6 Jan 1998 11:55:04 +1100
+Received: from roatan.ucs.indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA11955
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 11:55:01 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-38.ucs.indiana.edu [156.56.126.38])
+	by roatan.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id TAA32370
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 19:56:24 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id TAA11010 for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 19:56:17 -0500
+Message-Id: <199801060056.TAA11010@poverty.bloomington.in.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: P-Note and Indulgence Transfers
+Date: Mon, 05 Jan 1998 19:56:13 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1278
+
+I hereby transfer 1 P-Note to the Bank for the purpose of satisfying
+POP112.
+
+I hereby transfer 1 P-Note to the Bank for the purpose of satisfying
+POP113.
+
+I hereby transfer 1 P-Note to the Bank for the purpose of satisfying
+POP114.
+
+I hereby transfer 1 P-Note to the Bank for the purpose of satisfying
+POP138.
+
+I hereby transfer 1 P-Note to the Bank for the purpose of satisfying
+POP139.
+
+I hereby transfer 2 P-Notes to the Bank for the purpose of satisfying
+POP140.
+
+I hereby transfer 1 P-Note to the Bank for the purpose of satisfying
+POP141.
+
+I hereby transfer 3 P-Notes to the Bank for the purpose of satisfying
+POP142.
+
+I hereby transfer 3 P-Notes to the Bank for the purpose of satisfying
+POP143.
+
+I hereby transfer 1 Indulgence to the Bank for the purpose of
+satisfying POI583.
+
+I hereby transfer 1 Indulgence to the Bank for the purpose of
+satisfying POI645.
+
+I hereby transfer 1 Indulgence to the Bank for the purpose of
+satisfying POI656.
+
+I hereby transfer 1 Indulgence to the Bank for the purpose of
+satisfying POI657.
+
+I hereby transfer 1 Indulgence to the Bank for the purpose of
+satisfying POI660.
+
+I hereby transfer 1 Indulgence to the Bank for the purpose of
+satisfying POI661.
+
+I hereby transfer 1 Indulgence to the Bank for the purpose of
+satisfying POI675.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 20:07 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA26855 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 20:07:53 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA11993
+	for agora-business-list; Tue, 6 Jan 1998 11:59:01 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id LAA11987
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 11:58:58 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 05 Jan 1998 20:07:35 -0500
+Message-Id: <s4b13d87.077@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 05 Jan 1998 20:07:05 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Re: OFF: New Proposals: 3659 - 3663
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 432
+
+BUS: Re: OFF: New Proposals: 3659 - 3663
+
+Scott wrote:
+
+>I claim that the Promotor's Publication of Proposal 3663 is in error,
+>in that it fails to note that Proposal 3663 is Silly, and that its AI
+>is therefore 2, not 1.
+
+
+Claim admitted.  The relevant portions of the report should read...
+
+DS 3663 Harlequin      2 Guatemalan Insanity Peppers
+<snip>
+Proposal 3663 (Harlequin)  AI = 2  (Disinterested, Silly)
+
+
+-- Promotor Crito
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 20:44 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA27622 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 20:44:53 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA12153
+	for agora-business-list; Tue, 6 Jan 1998 12:33:32 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA12150
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 12:33:30 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id MAA29165
+	for agora-business@gecko.serc.rmit.edu.au; Tue, 6 Jan 1998 12:34:57 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199801060134.MAA29165@aurora.cc.monash.edu.au>
+Subject: BUS: Steve's votes: 3659-3663
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic Business List)
+Date: Tue, 6 Jan 1998 12:34:57 +1100 (EST)
+In-Reply-To: <s4b103a1.006@rmv.state.ma.us> from "David Albertz" at Jan 5, 98 03:59:56 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 782
+
+David Albertz wrote:
+>
+>OFF:  New Proposals: 3659 - 3663
+>
+>======================================================================
+>D  3659 Repeal-O-Matic 1 Repeal Rule 1451
+>D  3660 G. Chaos       1 Fix Extended Patronage
+>   3661 G. Chaos       3 No Retroactivity
+>   3662 G. Chaos       1 Probate tweak...
+>D  3663 Harlequin      1 Guatemalan Insanity Peppers
+>======================================================================
+
+H. Assessor G. Chaos!
+
+My votes on Proposals 3659-3663 are as follows:
+
+ 3  3  3  3  3
+ 6  6  6  6  6
+ 5  6  6  6  6
+ 9  0  1  2  3
+
+ F  *  A  *  F
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 22:06 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA29201 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 22:06:40 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA12603
+	for agora-business-list; Tue, 6 Jan 1998 13:57:38 +1100
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA12597
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 13:57:29 +1100
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id VAA13225 for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 21:59:01 -0500 (EST)
+Message-Id: <3.0.1.16.19980105201203.08cf075e@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Mon, 05 Jan 1998 20:12:03
+To: agora-business@gecko.serc.rmit.edu.au
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: BUS: VT Transfer
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 448
+
+>1342   21Oct97 09:15:56   2.0 Harlequin      Bank           Zefram,
+Registrar 
+
+I hereby transfer 2 VTs to the Bank to satisfy the above PO.
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 22:06 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA29202 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 22:06:42 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA12591
+	for agora-business-list; Tue, 6 Jan 1998 13:57:22 +1100
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA12588
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 13:57:16 +1100
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id VAA13222 for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 21:58:59 -0500 (EST)
+Message-Id: <3.0.1.16.19980105201100.305fbd7e@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Mon, 05 Jan 1998 20:11:00
+To: agora-business@gecko.serc.rmit.edu.au
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: BUS: Infraction Reports
+In-Reply-To: <199801051514.KAA09945@poverty.bloomington.in.us>
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 596
+
+At 10:14 AM 1/5/98 -0500, Scott Goehring wrote:
+
+>The following Players are hereby cited for Persistent Indebtedness:
+>
+>	Harlequin
+
+>Each is hereby ordered to pay one Indulgence to the Bank as penalty
+>for this Infraction.
+
+I hereby transfer one Indulgence to the Bank to satisfy this PO.
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon Jan  5 22:06 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA29207 for <dpb@cs.brown.edu>; Mon, 5 Jan 1998 22:06:45 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA12598
+	for agora-business-list; Tue, 6 Jan 1998 13:57:30 +1100
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA12594
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 6 Jan 1998 13:57:27 +1100
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id VAA13215 for <agora-business@gecko.serc.rmit.edu.au>; Mon, 5 Jan 1998 21:58:53 -0500 (EST)
+Message-Id: <3.0.1.16.19980104221752.2ea79560@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Sun, 04 Jan 1998 22:17:52
+To: agora-business@gecko.serc.rmit.edu.au
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: BUS: Report of Win
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 557
+
+In accordance with Rule 1638, I hereby report that Harlequin has Won the
+Game of Agora. This Win occured on December 23, at 08:21:01 -0500. This Win
+was caused by Rule 1729, since this Player proposed an Insane proposal
+which received no votes FOR.
+
+
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+

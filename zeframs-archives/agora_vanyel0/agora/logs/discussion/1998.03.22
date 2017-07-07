@@ -1,0 +1,774 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Mar 22 00:21 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA05479 for <dpb@cs.brown.edu>; Sun, 22 Mar 1998 00:21:25 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA22202
+	for agora-discussion-list; Sun, 22 Mar 1998 16:19:50 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA22193
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 22 Mar 1998 16:19:44 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.8/8.8.7) with SMTP id VAA09334
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 21 Mar 1998 21:18:58 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id VAA03998; Sat, 21 Mar 1998 21:18:56 -0800
+Message-Id: <199803220518.VAA03998@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 21 Mar 1998 21:18:18 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Baby Bottles and Rule 206
+In-reply-to: <199803181118.MAA19381@logatome.micronet.fr>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1348
+
+"Laurent Bossavit" <morendil@micronet.fr> wrote:
+> But we still have a problem. Consider two ways of carrying out the 
+> computation you outline above :
+> 
+> 1) Rule 206 says to start with two Votes
+> 2) Rule 1766 says to increase that by two
+> 3) Rule 1766 says not to increase that past the maximum allowed for 
+> that Player, which is now 4.
+> 4) Rule 206 says not to increase that past 5.
+
+I find this interpretation absurd. Rule 1766 clearly says that it 
+doesn't increase the number of votes; to determine if it increases 
+it, the only way to go is to look at the number of votes before Rule 
+1766 takes effect, and afterwards, and compare them.
+
+> and
+> 
+> 1) Rule 206 says to start with two Votes
+> 2) Rule 1766 says it can't increase that Player's Voting rights 
+> past the current maximum, which is two
+> 3) Rule 1766 says to increase that Player's Voting rights by two, 
+> which fails due to 2)
+> 4) Rule 206 says not to increase that past 5.
+> 
+> The problem is that we don't have any principles for resolving 
+> conflicting or contradictory provisions *within the same Rule*, or 
+> for determining precedence between such.
+
+I think that game custom is for provisions within a rule that 
+refer to other provisions within that rule to have precedence over 
+the other provisions. For example, the Virus Text.
+
+	Antimatter
+	rmorganl@fhcrc
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Mar 22 00:21 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA05480 for <dpb@cs.brown.edu>; Sun, 22 Mar 1998 00:21:25 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA22203
+	for agora-discussion-list; Sun, 22 Mar 1998 16:19:51 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA22186
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 22 Mar 1998 16:19:38 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.8/8.8.7) with SMTP id VAA09344
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 21 Mar 1998 21:19:01 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id VAA04004; Sat, 21 Mar 1998 21:18:59 -0800
+Message-Id: <199803220518.VAA04004@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 21 Mar 1998 21:18:18 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: DIS: Re: BUS: Judgement 1087: FALSE
+In-reply-to: <199803190948.KAA19586@logatome.micronet.fr>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 252
+
+"Laurent Bossavit" <morendil@micronet.fr> wrote:
+> >      "The last sentence of Rule 1766 prevents the remainder of that
+> >       rule from granting additional votes."
+> 
+> Judgement : FALSE.
+
+I appeal this judgement.
+
+	Antimatter
+	rmorganl@fhcrc.org
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Mar 22 00:21 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA05481 for <dpb@cs.brown.edu>; Sun, 22 Mar 1998 00:21:26 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA22195
+	for agora-discussion-list; Sun, 22 Mar 1998 16:19:46 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA22189
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 22 Mar 1998 16:19:40 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.8/8.8.7) with SMTP id VAA09339
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 21 Mar 1998 21:18:59 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id VAA04000; Sat, 21 Mar 1998 21:18:57 -0800
+Message-Id: <199803220518.VAA04000@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 21 Mar 1998 21:18:18 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Baby Bottles and Rule 206
+In-reply-to: <199803190044.LAA21258@silas.cc.monash.edu.au>
+References: <199803181118.MAA19381@logatome.micronet.fr> from "Laurent Bossavit" at Mar 18, 98 12:19:44 pm
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 664
+
+Steve Gardner <gardner@silas-0.cc.monash.edu.au> wrote:
+> However, the real point to be made here is that we do have available
+> to us another principle, which says that self-contradictory
+> interpretations of Rules are to be avoided where possible. As your
+> post shows, it manifestly is possible to avoid such an interpretation
+> here, simply by opting for the first method.
+
+I find plenty of evidence in Game Custom that, when a later provision 
+in a rule says it overrides or modifies the effect of an earlier 
+provision, the later provision has precedence. See Rules 1030, 1755, 
+and 452, and the old Viral Text for examples.
+
+	Antimatter
+	rmorganl@fhcrc.org
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Mar 22 00:21 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA05492 for <dpb@cs.brown.edu>; Sun, 22 Mar 1998 00:21:50 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA22217
+	for agora-discussion-list; Sun, 22 Mar 1998 16:20:09 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA22188
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 22 Mar 1998 16:19:39 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.8/8.8.7) with SMTP id VAA09325
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 21 Mar 1998 21:18:54 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id VAA03994; Sat, 21 Mar 1998 21:18:52 -0800
+Message-Id: <199803220518.VAA03994@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 21 Mar 1998 21:18:18 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: DIS: More Baby Bottles
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1144
+
+Steve, would you mind telling me what your answer your interpretation 
+gives in the following hypothetical situations?
+
+A] A rule says 'No player may have more than three moogs.' What is the
+maximum number of moogs a player can have, given no other information
+about the player?
+
+B] Same as [A], but a higher-power rule says 'The Speaker may have up
+to five moogs.' What is the maximum number of moogs a player can have,
+with no extra information? What is the maximum number of moogs a
+player other than the Speaker can have?
+
+C] Same as [A], but a higher-power rule says 'The Speaker may have up
+to five moogs iff it is a Tuesday.' What is the maximum number of
+moogs a player can have if the day is unknown? On a Tuesday? On a
+Friday?
+
+D] Same as [A], but another rule will replace the 'three' in the first
+rule with 'five' in one day. The maximum number of moogs a player can
+have is?
+
+E] Same as [D], but in one year instead of one day. The maximum 
+numbef of  moogs a player can have is?
+
+For reference, here are my interpretation's answers:
+A] Three
+B] Five; three
+C] Five; five; three
+D] Three
+E] Three
+
+
+ Antimatter
+ rmorganl@fhcrc.org
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Mar 22 00:22 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA05496 for <dpb@cs.brown.edu>; Sun, 22 Mar 1998 00:21:57 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA22198
+	for agora-discussion-list; Sun, 22 Mar 1998 16:19:48 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA22185
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 22 Mar 1998 16:19:38 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.8/8.8.7) with SMTP id VAA09330
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 21 Mar 1998 21:18:56 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id VAA03996; Sat, 21 Mar 1998 21:18:53 -0800
+Message-Id: <199803220518.VAA03996@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 21 Mar 1998 21:18:18 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Baby Bottles and Rule 206
+In-reply-to: <199803180744.SAA06108@silas.cc.monash.edu.au>
+References: <199803180447.UAA14149@fred.fhcrc.org> from "Ross Morgan-Linial" at Mar 17, 98 08:42:29 pm
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 5007
+
+Steve Gardner <gardner@silas-0.cc.monash.edu.au> wrote:
+> Ross Morgan-Linial wrote:
+> >
+> >Rule 1766 states that 'This shall not increase...', which indicates 
+> >that Rule 1766 cannot raise the maximum above what it would be 
+> >without Rule 1766. Unless there's some new definition of 'increase' 
+> >I'm not familiar with :-)
+> >
+> >Of course, that isn't Steve's argument. The whole thing pivots on the 
+> >definition of 'maximum', and particularly the set of things for 
+> >which the maximum is being found. I say it's the number of votes 
+> >which can be made by the Player given extra votes by Rule 1766 
+> >(which, IMO, is definitiely supported by that Rule) on the Proposal 
+> >the extra votes are given on, without taking into account the effect 
+> >of Rule 1766 [Which, of course, is nothing]. Steve (correct me if I'm 
+> >wrong) considers the set to be the number of Votes which may be cast 
+> >by that Player in some not-clearly-defined set of hypothetical 
+> >worlds.
+> 
+> The above is hard to make out. You start by saying that the whole
+> thing pivots on what we take to be the set of things for which the
+> maximum is being found. Then you try to give your version of which
+> set that is. Except that what you then give is not a set. Neither
+> is the answer you attribute to me a set. Could be a little more
+> precise as to what you mean? At the moment I'm not either what you're
+> saying, or what argument you're attributing to me.
+
+Okay, you're right those aren't sets. Take two.
+
+I say that Rule 1766 cannot increase the maximum of the set of 
+numbers which could legally be the number of votes cast by the player 
+in question on the proposal in question if e cast those votes at the 
+time the maximum was being determined.
+
+I _believe_ your argument to be that Rule 1766 cannot increase the 
+maximum of the set of numbers which could legally be the number of 
+votes cast by the player in question on any member of the set of 
+proposals up for vote in any member of a subset, X, of the set of all 
+possible hypothetical future worlds.
+
+I just don't know what X is. It's not just the real, current world, 
+because that would give a number very close to my number, differing 
+only when the player could cast extra votes on some but not all of 
+the proposals up for vote [I don't even want to think of how two Rule 
+1766 proposals would work]. It's not all possible hypothetical 
+future worlds, because that gives you aleph-null numbers which could 
+legally be the number of votes cast, and the maximum of that is not 
+5. So my question is, what is X?
+
+> I think Morendil has probably put my argument for me as well as 
+> anyone. I interpret R206 as saying something like (and I claim that
+> R206 has in the past been interpreted as saying something like):
+
+I would like to see the evidence which supports the view that this is 
+how R206 works.
+
+>       There is a basic voting privilege of two votes for each Voting
+>       Entity. Other Rules can grant additional voting privileges to
+>       one or more Voting Entities for one or more Proposals, with the
+>       proviso that no Voting Entity shall exceed a maximum of five
+>       votes on any Proposal.
+> 
+> If we read R206 that way, Morendil agrees with me that R1766 is not
+> self-depriving, or, as I would put it, self-contradictory.
+
+I'm not sure I follow. Rule 1766 doesn't care about the maximum 
+voting privilege the player can have, it's concerned with the maximum 
+number of votes the player can cast.
+
+> But even we don't read R206 that way, I still claim that your
+> argumentative task is much harder than mine. For on your interpretation, 
+> R1766 says something deeply silly: here, have two additional votes;
+> no on second thoughts, don't.
+
+That's an interesting way of putting it [Rule 1766]. I'd say that, 
+perhaps, this fact gives you 'draw odds': if both interpretations are 
+equally possible, then yours should be the one we use, since its 
+results are more sensible. However, if your interpretation is 
+signifigantly less plausible then mine, the result in the way Rule 
+1766 is applied is not relevant in determining the correct 
+interpretation.
+
+> I think we should only accept such an
+> interpretation of R1766 if we're absolutely forced to it.
+
+That I disagree with. What is 'absolutely forced'? It's reasonable to 
+say that we must have been 'absolutely forced' to make the 
+interpretations that have led to all past rule-crises, right?
+
+> And I just
+> can't see that we're forced to it. A much more sensible interpretation 
+> is available, and just because it is available, it is to be preferred.
+
+You're saying (I _hope_ you're saying) that the results of your 
+interpretation are more sensible than the results of my 
+interpretation. You're probably right. However, I can't figure out 
+how to generalize your interpretation to other, similar 
+interpretations; and since I can't do that, it isn't clear to me that 
+it makes sense.
+
+Please see the message 'More Baby Bottles'.
+
+	Antimatter
+	rmorganl@fhcrc.org
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Mar 22 05:29 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA09684 for <dpb@cs.brown.edu>; Sun, 22 Mar 1998 05:29:31 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA23354
+	for agora-discussion-list; Sun, 22 Mar 1998 21:26:40 +1100
+Received: from satsuma.mail.easynet.net (satsuma.mail.easynet.net [195.40.1.44])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id VAA23351
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 22 Mar 1998 21:26:35 +1100
+Received: (qmail 6529 invoked from network); 22 Mar 1998 10:27:10 -0000
+Received: from [193.131.248.4]
+  by satsuma.mail.easynet.net with SMTP; 22 Mar 1998 10:27:10 -0000
+Received: (qmail 20695 invoked from network); 22 Mar 1998 10:27:55 -0000
+Received: from [195.40.61.175]
+  by kiwi.mail.easynet.net with SMTP; 22 Mar 1998 10:27:55 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <l03110701b13a96367f5b@[195.40.61.175]>
+In-Reply-To: <199803220518.VAA04004@fred.fhcrc.org>
+References: <199803190948.KAA19586@logatome.micronet.fr>
+Mime-Version: 1.0
+Date: Sun, 22 Mar 1998 10:21:39 +0000
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+Subject: Re: DIS: Re: BUS: Judgement 1087: FALSE
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 753
+
+>From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+>To: agora-discussion@gecko.serc.rmit.edu.au
+>Date: Sat, 21 Mar 1998 21:18:18 +0000
+>Subject: DIS: Re: BUS: Judgement 1087: FALSE
+>
+>"Laurent Bossavit" <morendil@micronet.fr> wrote:
+>> >      "The last sentence of Rule 1766 prevents the remainder of that
+>> >       rule from granting additional votes."
+>>
+>> Judgement : FALSE.
+>
+>I appeal this judgement.
+
+Not to the PF.  This CFJ is still one call short of being appealed.
+
+Regards,
+-- elJefe, Clerk of the Courts of Agora Nomic
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Mar 22 18:08 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA20553 for <dpb@cs.brown.edu>; Sun, 22 Mar 1998 18:08:52 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA26344
+	for agora-discussion-list; Mon, 23 Mar 1998 10:06:55 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id KAA26341
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 23 Mar 1998 10:06:51 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AB25843; Sun, 22 Mar 1998 17:02:06 CST
+Message-Id: <199803222302.AB25843@dfw.dfw.net>
+Subject: DIS: Rule Changes due to Proposals 3698, 3700-3702, 3704, 3709, 3713-3715
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Discussion)
+Date: Sun, 22 Mar 1998 17:02:06 -0600 (CST)
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 3756
+Lines: 91
+
+This report is preliminary, unofficial, and advisory only.
+An official version will be posted when I have evaluated
+the attempted Rule Changes more thoroughly.
+
+Prop  Proposer  Rule Change  Title of New Rule
+----  --------  -----------  -----------------
+3698  Kolja A.  Create 1790  Buying points
+3700  Swann     Create 1791  Ratification Without Objection
+3701  Swann     Create 1792  Proposal Applications
+3704* GenChaos  Create 1793  Orders
+                Create 1794  Classes of Orders
+                Create 1795  Timing Requirements of Orders
+                Create 1796  Validity of Orders
+                Create 1797  Abuse of Authority
+                Create 1798  I Was Only Obeying Orders
+                Create 1799  Amendment, Stay, and Vacation of Orders
+                Create 1800  Amendment of Orders
+                Create 1801  Stay of Orders
+                Create 1802  Vacation of Orders
+                Create 1803  Judicial Orders
+                Create 1804  Appeal of Judicial Orders
+                Create 1805  Appellate Orders
+                Create 1806  No Appeal of Appellate Orders
+                Create 1807  Validity of Appellate Orders
+                Create 1808  Administrative and Private Orders
+                Create 1809  Appeal of Administrative and Private Orders
+                Create 1810  Noncompliance with Orders
+                Create 1811  Contempt by Action
+                Amend  1551
+                Repeal  663
+                Repeal 1571
+                Repeal 1573
+                Amend  1503
+                Amend  1504
+                Create 1812  Notices of Infraction
+                Create 1813  Imposition of Penalties for Infractions
+                Create 1814  Timing of Penalties for Crimes and Infractions
+                Create 1815  Crimes and Infractions Without Penalties
+                Amend  1652
+                Create 1816  No Double Jeopardy for Crimes
+                Amend  1598
+                Create 1817  Recordkeepors' Obedience to Transfer Orders
+                Create 1818  Vacation of Transfer Orders
+                Create 1819  Effect of Transfer Orders
+                Create 1820  Recording of Transfer Orders
+                Amend  1730
+                Repeal 1746
+                Repeal 1731
+                Amend  1596
+                Create 1821  Validity of Payment Orders
+                Create 1822  Recording of Payment Orders
+                Amend  1599
+                Create 1823  Combining Payment Orders
+                Amend  1734
+                Repeal 1736
+                Repeal 1737
+                Repeal 1733
+                Amend  1713
+                Amend  1442
+                Create 1824  Debt Voting
+                Create 1825  Denying Voting Privileges
+                Create 1826  Motions
+                Create 1827  Granting or Denying Motions
+                Create 1828  Motions Requesting Judicial Orders
+                Repeal 1725
+                Amend   789
+                Amend  1500
+                Amend  1681
+                Amend  1509
+                Create 1829  Refusal of Duty by the Speaker
+                Create 1830  No Compulsion of Judges
+                Create 1831  Filing a CFJ with the Justiciar
+                Amend   908
+                Create 1832  Failure to Apologize
+                Amend  1564
+                Amend  1695
+                Create 1833  Lead Justice
+                Amend  1742
+3713  Blob      Amend  1664
+                Create 1834  Robespierre
+3714  Crito     Amend  1712
+3715  Blob      Create 1835  Standing Down
+
+
+
+*=A Payment Order will be issued in accordance with Rule 947
+NPRC=Non-Proposed Rule Change
+
+Proposals which do not enact any Rule Changes are not
+listed here.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Mar 22 19:53 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA22222 for <dpb@cs.brown.edu>; Sun, 22 Mar 1998 19:53:08 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA26853
+	for agora-discussion-list; Mon, 23 Mar 1998 11:50:34 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id LAA26850
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 23 Mar 1998 11:50:30 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA04347; Sun, 22 Mar 1998 18:45:52 CST
+Message-Id: <199803230045.AA04347@dfw.dfw.net>
+Subject: DIS: Self-Conflicting Rules
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Discussion)
+Date: Sun, 22 Mar 1998 18:45:52 -0600 (CST)
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 759
+Lines: 17
+
+In response to someone who asserted (sorry, I deleted the original)
+that there is a game custom that when a Rule conflicts with itself,
+the latter of the two conflicting provisions take precedence:
+
+I would argue that there are several such cases, because that
+is a frequent and natural way of phrasing things.  I don't necessarily
+think  that that can be extended to all possible cases of self-conflicting
+Rules.
+
+In other words, if the natural reading of a self-conflicting Rule
+is that the latter provision takes precedence, that's fine.  But
+the fact that there are several such Rules should not be extrapolated
+to mean that the latter provision of a self-conflicting Rule
+takes precedence, when natural usage does *not* support such
+a precedence.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Mar 22 20:04 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA22363 for <dpb@cs.brown.edu>; Sun, 22 Mar 1998 20:04:55 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA26929
+	for agora-discussion-list; Mon, 23 Mar 1998 12:03:25 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA26926
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 23 Mar 1998 12:03:23 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id MAA15859
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 23 Mar 1998 12:02:50 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199803230102.MAA15859@silas.cc.monash.edu.au>
+Subject: Re: DIS: Self-Conflicting Rules
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 23 Mar 1998 12:02:49 +1100 (EST)
+In-Reply-To: <199803230045.AA04347@dfw.dfw.net> from "Charles E. Carroll" at Mar 22, 98 06:45:52 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1914
+Lines: 39
+
+Charles E. Carroll wrote:
+>
+>In response to someone who asserted (sorry, I deleted the original)
+>that there is a game custom that when a Rule conflicts with itself,
+>the latter of the two conflicting provisions take precedence:
+>
+>I would argue that there are several such cases, because that
+>is a frequent and natural way of phrasing things.  I don't necessarily
+>think  that that can be extended to all possible cases of self-conflicting
+>Rules.
+>
+>In other words, if the natural reading of a self-conflicting Rule
+>is that the latter provision takes precedence, that's fine.  But
+>the fact that there are several such Rules should not be extrapolated
+>to mean that the latter provision of a self-conflicting Rule
+>takes precedence, when natural usage does *not* support such
+>a precedence.
+
+Thankyou, Chuck, you took the words right out of my mouth. Chuck
+is here restating the conclusions we came to at the end of a long
+debate some time ago as to whether or not we should legislate on
+how to deal with self-contradictory Rules. We concluded that we
+should not legislate on this subject. Dealing with self-contradictory
+Rules requires a lot of flexibility, and as soon as you try to
+say in advance how they should be treated (eg by having a Rule
+which says "when two provisions in a Rule conflict with each, the
+latter takes precedence"), you've given up some of that flexibility.
+
+No conclusions should be drawn from the Virus, by the way, particularly
+not from the fact that the Viral sentence always appeared at the end
+of the Rule. That's just a historical accident; the Virus could just as
+well have operated by prepending the Viral sentence at the top of the
+Rule rather than appending it to the bottom.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Mar 22 20:27 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA22799 for <dpb@cs.brown.edu>; Sun, 22 Mar 1998 20:27:41 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA27024
+	for agora-discussion-list; Mon, 23 Mar 1998 12:25:51 +1100
+Received: from indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA27021
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 23 Mar 1998 12:25:47 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-9.ucs.indiana.edu [156.56.126.9])
+	by indiana.edu (8.8.8/8.8.8/1.16IUPO) with ESMTP id UAA21993
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 22 Mar 1998 20:25:03 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id UAA01865 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 22 Mar 1998 20:25:00 -0500
+Message-Id: <199803230125.UAA01865@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Self-Conflicting Rules 
+In-reply-to: Your message of "Sun, 22 Mar 1998 18:45:52 CST."
+             <199803230045.AA04347@dfw.dfw.net> 
+Date: Sun, 22 Mar 1998 20:24:59 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1057
+Lines: 22
+
+
+"Charles" == Charles E Carroll <ccarroll@dfw.net> writes:
+
+Charles> In response to someone who asserted (sorry, I deleted the
+Charles> original) that there is a game custom that when a Rule
+Charles> conflicts with itself, the latter of the two conflicting
+Charles> provisions take precedence:
+
+Charles> I would argue that there are several such cases, because that
+Charles> is a frequent and natural way of phrasing things.  I don't
+Charles> necessarily think that that can be extended to all possible
+Charles> cases of self-conflicting Rules.
+
+Charles> In other words, if the natural reading of a self-conflicting
+Charles> Rule is that the latter provision takes precedence, that's
+Charles> fine.  But the fact that there are several such Rules should
+Charles> not be extrapolated to mean that the latter provision of a
+Charles> self-conflicting Rule takes precedence, when natural usage
+Charles> does *not* support such a precedence.
+
+I find that agree with Chuck's proposed handling of self-conflict far
+more than I do with that proposed by Antimatter.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Mar 22 21:15 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA23610 for <dpb@cs.brown.edu>; Sun, 22 Mar 1998 21:15:10 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA27209
+	for agora-discussion-list; Mon, 23 Mar 1998 13:12:45 +1100
+Received: from indiana.edu (cayman.ucs.indiana.edu [129.79.10.68])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA27206
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 23 Mar 1998 13:12:41 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-9.ucs.indiana.edu [156.56.126.9])
+	by indiana.edu (8.8.8/8.8.8/1.16IUPO) with ESMTP id VAA15606
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 22 Mar 1998 21:12:01 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id VAA01958 for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 22 Mar 1998 21:11:58 -0500
+Message-Id: <199803230211.VAA01958@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Self-Conflicting Rules 
+In-reply-to: Your message of "Mon, 23 Mar 1998 12:02:49 +1100."
+             <199803230102.MAA15859@silas.cc.monash.edu.au> 
+Date: Sun, 22 Mar 1998 21:11:57 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 949
+Lines: 17
+
+"Steve" == Steve Gardner <gardner@silas-0.cc.monash.edu.au> writes:
+
+Steve> Thankyou, Chuck, you took the words right out of my
+Steve> mouth. Chuck is here restating the conclusions we came to at
+Steve> the end of a long debate some time ago as to whether or not we
+Steve> should legislate on how to deal with self-contradictory
+Steve> Rules. We concluded that we should not legislate on this
+Steve> subject. Dealing with self-contradictory Rules requires a lot
+Steve> of flexibility, and as soon as you try to say in advance how
+Steve> they should be treated (eg by having a Rule which says "when
+Steve> two provisions in a Rule conflict with each, the latter takes
+Steve> precedence"), you've given up some of that flexibility.
+
+Then why do we legislate the resolution of conflicts between different
+Rules?  Could we not elect to resolve those conflicts in the natural
+manner, just as you have proposed here for resolving conflicts within
+a Rule?
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Mar 22 22:11 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA24570 for <dpb@cs.brown.edu>; Sun, 22 Mar 1998 22:11:30 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA27432
+	for agora-discussion-list; Mon, 23 Mar 1998 14:09:10 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA27429
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 23 Mar 1998 14:09:05 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id OAA08253
+	for agora-discussion@gecko.serc.rmit.edu.au; Mon, 23 Mar 1998 14:08:31 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199803230308.OAA08253@silas.cc.monash.edu.au>
+Subject: Re: DIS: Self-Conflicting Rules
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 23 Mar 1998 14:08:31 +1100 (EST)
+In-Reply-To: <199803230211.VAA01958@poverty.bloomington.in.us> from "Scott Goehring" at Mar 22, 98 09:11:57 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1852
+Lines: 36
+
+Scott Goehring wrote:
+>
+>"Steve" == Steve Gardner <gardner@silas-0.cc.monash.edu.au> writes:
+>
+>Steve> Thankyou, Chuck, you took the words right out of my
+>Steve> mouth. Chuck is here restating the conclusions we came to at
+>Steve> the end of a long debate some time ago as to whether or not we
+>Steve> should legislate on how to deal with self-contradictory
+>Steve> Rules. We concluded that we should not legislate on this
+>Steve> subject. Dealing with self-contradictory Rules requires a lot
+>Steve> of flexibility, and as soon as you try to say in advance how
+>Steve> they should be treated (eg by having a Rule which says "when
+>Steve> two provisions in a Rule conflict with each, the latter takes
+>Steve> precedence"), you've given up some of that flexibility.
+>
+>Then why do we legislate the resolution of conflicts between different
+>Rules?  Could we not elect to resolve those conflicts in the natural
+>manner, just as you have proposed here for resolving conflicts within
+>a Rule?
+
+We could - except that conflicts between different Rules are so much
+more common than conflicts between provisions in a single Rule that
+the need for the flexibility which allows for resolutions in a natural
+manner, as you put it, is outweighed by the need for quick resolutions
+of those conflicts. Compare the fraction of a second that it takes me
+to determine that R402 takes precedence over R1660, with the weeks it
+might easily take me to extract a specific determination in this matter
+from the courts. In the case of self-contradictory Rules, their
+occurrence is infrequent enough, and their interpretation ticky enough,
+to warrant spending the extra time.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+

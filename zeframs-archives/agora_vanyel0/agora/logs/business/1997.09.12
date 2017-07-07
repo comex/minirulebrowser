@@ -1,0 +1,425 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Sep 12 01:41 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA01229 for <dpb@cs.brown.edu>; Fri, 12 Sep 1997 01:41:16 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA04522
+	for agora-business-list; Fri, 12 Sep 1997 15:24:38 +1000
+Received: from windowsnt ([207.226.81.129])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA04519
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 12 Sep 1997 15:24:34 +1000
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Fri, 12 Sep 1997 01:29:40 -0400
+Received: by windowsnt from friend-computer
+    (199.107.161.222::mail daemon; unverified,SLMail V2.5); Fri, 12 Sep 1997 01:29:39 -0400
+Message-Id: <3.0.3.32.19970911212056.0069a560@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.3 (32)
+Date: Thu, 11 Sep 1997 21:20:56 -0700
+To: agora-business@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: BUS: Executor in Probate
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 148
+Status: N
+
+I hereby name Harlequin as Executor in Probate of Antimatter's estate.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Sep 12 01:47 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA01311 for <dpb@cs.brown.edu>; Fri, 12 Sep 1997 01:47:27 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA04530
+	for agora-business-list; Fri, 12 Sep 1997 15:24:53 +1000
+Received: from windowsnt ([207.226.81.129])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA04524
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 12 Sep 1997 15:24:43 +1000
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Fri, 12 Sep 1997 01:29:50 -0400
+Received: by windowsnt from friend-computer
+    (199.107.161.222::mail daemon; unverified,SLMail V2.5); Fri, 12 Sep 1997 01:29:44 -0400
+Message-Id: <3.0.3.32.19970911222144.0069bde4@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.3 (32)
+Date: Thu, 11 Sep 1997 22:21:44 -0700
+To: agora-business@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: BUS: Proto:  Plots (v1.0)
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 5549
+Status: N
+
+Proto:  Plots (v1.0)
+
+
+[Part One:  Rename Locations to Plots.  Discard Entities having
+ Locations and Moving.]
+
+Amend Rule 1706 to read:
+
+     There is a class of Entities called Plots.  Each Plot has a
+     unique name.  The Agoraverse is the set of all Locations.
+
+     A Plot is Rule-Named if it is referred to by name in the Rules.
+
+     The Cartographor is authorized to change any non-Rule-Named
+     Plot's name Without Objection.
+
+     There is a Plot named "the Origin".
+
+Repeal Rule 1707.
+
+Amend Rule 1708 to read:
+
+     Two Plots may be Adjacent to each other.  No Plot is Adjacent to itself.
+
+Repeal Rule 1709.
+
+[Rule 1710 will be amended later.]
+
+
+[Part Two:  Create land ownership.]
+
+Create a Rule titled "Landowners" with this text:
+
+     Each non-Rule-Named Plot has an Executor, known as its Owner;
+     each such Plot's initial Owner is the Mint.
+
+     Rule-Named Plots never have an Executor or Owner.
+
+Create a Rule titled "Buying Land" with this text:
+
+     If a Plot's Owner agrees to sell the Plot to another entity,
+     then the second entity becomes the Plot's Owner.
+
+     For the purpose of this Rule, the Mint agrees to sell a Plot
+     when the prospective new Owner pays at least 4 VTs to it for
+     the sole purpose of buying that Plot.
+
+Create a Rule entitled "Winning by Ownership" with this text:
+
+     Owning at least half of all Plots is a Winning Condition
+     known as a Win by Ownership.
+
+
+[Part Three:  Create something to do with the Plots you own]
+
+Create a Rule entitled "Mules" with this text:
+
+     Mules are a Currency.  Their MUQ is 1.  Their Recordkeepor is
+     is the Cartographor.
+
+     A Mule's Owner may transfer it to any Plot e owns by executing a
+     Transfer Order of one Mule from emself to that Plot.  However,
+     a given Plot may possess at most one Mule.
+
+     A Mule's Owner may remove it from its Plot by notifying
+     the Cartographor that e does so, at which time the Mule is
+     transferred to the Owner.
+
+Create a Rule entitled "Energy" with this text:
+
+     Energy is a currency.  Its MUQ is 1.  Its Recordkeepor is the
+     Cartographor.
+
+The Mint has 10000 units of Energy.
+
+Amend Rule 1677 to read:
+
+     Upon the start of a Player's Grace Period, the Registrar shall
+     pay out to that Player an award of 5 Voting Tokens, 5 P-Notes,
+     20 Mules, and 20 units of Energy.
+
+Amend Rule 1701 by removing this paragraph:
+
+     Whenever there exists a Player who has never before possessed
+     any P-Notes, the Promotor shall pay out 5 P-Notes to that Player.
+
+Each current Player gains 20 Mules and 20 units of Energy.
+
+Create a Rule entitled "Structures" with this text:
+
+     Any Mule within a Plot may become a Structure (unless it is one
+     already) when its Owner pays the price of that type of Structure
+     to the Mint.  Unless otherwise specified, the price is 4 units
+     of Energy.
+
+     A type of Structure exists only if the Rules explicitly define it.
+
+     The following types of Structures exist:
+
+       * Farms
+       * Houses
+       * Mines
+       * Churches
+
+     A Structure ceases to be a Structure when its Owner says so, or
+     when it is no longer within a Plot.  At that time, its Owner
+     receives half the price of that type of Structure, rounded down.
+
+Create a rule titled "Upkeep on Structures" with this text:
+
+     Each Owner of one or more Structures is required to pay
+     monthly upkeep.  Unless otherwise specified, this is equal to
+     2 units of Energy for the first Structure of each type, plus
+     1 unit of Energy for each additional Structure.
+
+     If an Owner does not pay the upkeep on all of eir Structures
+     within one week of the beginning of the month, all of eir
+     Structures collapse and are destroyed.
+
+Create a rule titled "Production from Structures" reading:
+
+     At the beginning of each Nomic Week, the Cartographor shall
+     pay out each Structure's Production to its Owner.  Unless
+     otherwise specified, each Structure's Production is as follows:
+
+       * Farms - 5 VT
+       * Houses - 1 P-Note
+       * Mines - 1 unit of Energy
+
+     Churches have no Production.  However, each Church is considered
+     to be two players for the purposes of randomly allocating
+     Indulgences, and any Indulgences which would be given to a Church
+     are instead given to its Owner.
+
+Create a new Rule titled "Proximity of Plots" and this text:
+
+     A Farm's Production is increased by 0.3 VT for each House or
+     Church to which it is Adjacent, and decreased by 1 VT for each
+     Mine to which it is Adjacent.
+
+     A House's Production is increased by 1 P-Note for every 2 Farms
+     to which it is Adjacent.
+
+     A Mine's Production is increased by 1 unit of Energy for every
+     two Houses to which it is Adjacent, and decreased by 1 unit of
+     Energy for every two Farms to which it is Adjacent.
+
+
+[Part Four:  Amend the Rule defining the Cartographor and eir duties]
+
+Amend Rule 1710 to read:
+
+     There is an Office of Cartographor. The Cartographor recieves a 
+     salary equal to 2 times the Basic Officer Salary.
+
+     At least once each Nomic Week, the Cartographor shall post a 
+     Report to the Public Forum containing the following information:
+
+       * all Plots, and which Plots are Adjacent to which others
+       * the Ownership of all Plots
+       * the ownership and location of all Mules
+       * the ownership of all units of Energy
+       * what type of Structure (if any) each Mule is
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Sep 12 08:16 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA07399 for <dpb@cs.brown.edu>; Fri, 12 Sep 1997 08:15:57 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA14548
+	for agora-business-list; Fri, 12 Sep 1997 22:06:26 +1000
+Received: from wsinfm15.win.tue.nl (wsinfm15.win.tue.nl [131.155.69.168])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA14545
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 12 Sep 1997 22:06:15 +1000
+Received: by wsinfm15.win.tue.nl (8.7.1/1.45)
+    id OAA24819; Fri, 12 Sep 1997 14:07:53 +0200 (MET DST)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199709121207.OAA24819@wsinfm15.win.tue.nl>
+Subject: BUS: Kudo Transfer
+To: agora-business@gecko.serc.rmit.edu.au (nomic-business list)
+Date: Fri, 12 Sep 1997 14:07:53 +0200 (MET DST)
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 98
+Status: N
+
+I hereby transfer one Kudo from Elde to Blob, the only reason for it being
+that I want to.
+
+Andre
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Sep 12 11:50 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA13503 for <dpb@cs.brown.edu>; Fri, 12 Sep 1997 11:50:52 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA20718
+	for agora-business-list; Sat, 13 Sep 1997 01:43:43 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA20715
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 13 Sep 1997 01:43:39 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 12 Sep 1997 11:50:53 -0400
+Message-Id: <s4192c9d.020@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 12 Sep 1997 11:50:18 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: OFF: Results in Some Elections
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 87
+Status: N
+
+I hereby vote for Kolja for CotC, Harlequin for
+CiC, and Murphy for Notary.
+
+-- Crito
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Sep 12 12:29 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA15173 for <dpb@cs.brown.edu>; Fri, 12 Sep 1997 12:29:07 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA21293
+	for agora-business-list; Sat, 13 Sep 1997 02:09:09 +1000
+Received: from taos.demon.co.uk (taos.demon.co.uk [158.152.120.224])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA21290
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 13 Sep 1997 02:09:04 +1000
+Received: (from zefram@localhost) by taos.demon.co.uk (8.8.3/8.8.3) id RAA05346 for agora-business@gecko.serc.rmit.edu.au; Fri, 12 Sep 1997 17:11:11 +0100
+From: Andrew Main <zefram@tao.co.uk>
+Message-Id: <199709121611.RAA05346@taos.demon.co.uk>
+Subject: BUS: Kudo transfer
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic business mailing list)
+Date: Fri, 12 Sep 1997 17:11:11 +0100 (BST)
+X-Loop: zefram@tao.co.uk
+X-Headers: in preparation
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 349
+Status: N
+
+I hereby transfer one Kudo
+
+FROM General Chaos, for unnecessarily and excessively delaying the
+announcement of a trivial Election result, and thereby causing me problems
+in taking over the Office of Registrar.
+
+TO Steve, who has consistently performed well in said Office, and in
+recognition of his philosophical contributions to the game.
+
+-zefram
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Sep 12 14:41 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA19818 for <dpb@cs.brown.edu>; Fri, 12 Sep 1997 14:41:10 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA25081
+	for agora-business-list; Sat, 13 Sep 1997 04:30:10 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id EAA25078
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 13 Sep 1997 04:30:05 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 12 Sep 1997 14:37:23 -0400
+Message-Id: <s41953a3.037@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 12 Sep 1997 14:36:49 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Andre's P-note
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1244
+Status: N
+
+Andre,
+
+It dawned on me that when you transferred a P-Note
+on 9/7/97 (TOP007), it was possible for you to
+distinguish between one P-Note and the others. 
+That is, one of your P-Notes itself owned a P-Note
+and was therefore distinguishable from the others.
+
+It seems to me, since you have control over
+transfers out of your possession, you also have
+control over which P-Note is actually transferred,
+if you can distinguish one from another.  In this
+case you could.  Since you did not tell me which
+one at the time, we've got two ways to go.
+
+1.  Consider the owning P-Note to have been
+transferred with 1/3 probability (you had 3
+P-Notes at the time).
+
+2.  Consider that you just neglected to tell me
+which one, so that you can tell me now and I can
+update my records properly.
+
+Option 1 is probably more accurate assuming you,
+like the rest of us, forgot about this little
+situation at the time of the transfer.  But, what
+the heck, it's just your word for it, so let me
+know which way to go (unless other Players have
+some thoughts about what should be done here).
+
+-- Promotor Crito
+
+P.S.  Once this P-Note makes it's way to the Bank,
+it's my impression that the Chancellor will have
+control over when and whether it gets transferred
+out.
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Sep 12 16:13 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA22616 for <dpb@cs.brown.edu>; Fri, 12 Sep 1997 16:13:28 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA27697
+	for agora-business-list; Sat, 13 Sep 1997 06:03:58 +1000
+Received: from law.harvard.edu (law.harvard.edu [140.247.200.68])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id GAA27694
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 13 Sep 1997 06:03:53 +1000
+Received: from isomorph (nas2-20.fas.harvard.edu) by law.harvard.edu with SMTP
+	(1.40.112.8/16.2) id AA165064756; Fri, 12 Sep 1997 16:05:56 -0400
+Message-Id: <3.0.3.32.19970912160517.008cf600@pop.law.harvard.edu>
+X-Sender: mcdaniel@pop.law.harvard.edu
+X-Mailer: QUALCOMM Windows Eudora Pro Version 3.0.3 (32)
+Date: Fri, 12 Sep 1997 16:05:17 -0500
+To: agora-business@gecko.serc.rmit.edu.au
+From: Brian McDaniel <mcdaniel@law.harvard.edu>
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 267
+Status: N
+
+I hereby declare that I am present for the purposes of Proposal 3350
+
+                                            ~ ~
+Brian McDaniel              _____________  ~ ~
+[mcdaniel@law.harvard.edu] |_____________|||
+
+========================== Ce .sig n'est pas une .cig
+
+
+

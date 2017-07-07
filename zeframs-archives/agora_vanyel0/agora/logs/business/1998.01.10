@@ -1,0 +1,397 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Sat Jan 10 21:05 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA12404 for <dpb@cs.brown.edu>; Sat, 10 Jan 1998 21:05:17 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA09928
+	for agora-business-list; Sun, 11 Jan 1998 13:00:23 +1100
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA09919
+	for <agora-business@gecko.serc.rmit.edu.au>; Sun, 11 Jan 1998 13:00:19 +1100
+Received: by windowsnt from localhost
+    (router,SLMail V2.6); Sat, 10 Jan 1998 21:47:52 -0500
+Received: by windowsnt from friend-computer
+    (206.18.125.39::mail daemon; unverified,SLMail V2.6); Sat, 10 Jan 1998 21:47:49 -0500
+Message-Id: <3.0.5.32.19980110173513.008017c0@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Sat, 10 Jan 1998 17:35:13 -0800
+To: agora-business@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: BUS: Trustee assignment
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 378
+
+I hereby assign Morendil as Trustee of The Voodoo Lounge's Estate.
+
+Also, from the latest VT report:
+
+The Evil Eye                     10.0 VT    10.0 VT     -         -  
+The Order of the Evil Eye        31.1 VT    35.1 VT    +4.0       -  
+
+What is "The Evil Eye"?
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+"I see," said Arthur, who didn't.
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Sat Jan 10 21:05 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA12423 for <dpb@cs.brown.edu>; Sat, 10 Jan 1998 21:05:25 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA09906
+	for agora-business-list; Sun, 11 Jan 1998 12:59:48 +1100
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA09902
+	for <agora-business@gecko.serc.rmit.edu.au>; Sun, 11 Jan 1998 12:59:43 +1100
+Received: by windowsnt from localhost
+    (router,SLMail V2.6); Sat, 10 Jan 1998 21:47:47 -0500
+Received: by windowsnt from friend-computer
+    (206.18.125.39::mail daemon; unverified,SLMail V2.6); Sat, 10 Jan 1998 21:47:42 -0500
+Message-Id: <3.0.5.32.19980110173337.007ee100@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Sat, 10 Jan 1998 17:33:37 -0800
+To: agora-business@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: BUS: Proto:  Plots (v3.0)
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 11747
+
+Proto:  Plots (v3.0)
+
+
+[Part One:  Replace Locations with Plots]
+
+All Locations are destroyed.
+
+Rename Rule 1706 ("Locations") to "Plots" and amend it to read:
+
+     There is a class of entities called Plots.  All Plots are initially owned
+     by the Bank.
+
+     Each Plot has a unique name.  A Plot's owner may change its name Without
+     Objection.
+
+     A Plot's owner may give the Plot to any other consenting entity.
+
+[Bank-owned Plots are traded by the Chancellor on its behalf.]
+
+Repeal Rule 1707 ("Movement").
+
+Amend Rule 1708 ("Adjacency") to read:
+
+     Each Plot has a Longitude and Latitude, each of which is an integer.  Two
+     Plots are Adjacent if and only if one of the following applies:
+
+       * They have the same Longitude, and their Latitudes differ by one.
+       * They have the same Latitude, and their Longitudes differ by one.
+
+Repeal Rule 1709 ("Distance").
+
+[Rule 1710 ("The Cartographor") will be amended later.]
+
+
+For each combination of Latitude (X) from 0 to 9 and Longitude (Y) from 0 to 9,
+a Plot named "Area XY" (substituting the Latitude for "X" and the Longitude for
+"Y") is created.
+
+
+Create a Rule entitled "Winning by Ownership" with this text:
+
+     If at least one-third of all Plots are not owned by the Bank, and all
+     Plots not owned by the Bank are owned by a single entity, then that
+     entity's Executor satisfies a Win Condition known as a Win by Monopoly.
+
+     Upon the correct report of such a Win, all Plots become Owned by the Bank.
+
+
+[Part Two:  Define Structures and Ergs]
+
+Create a Rule entitled "Structures" with this text:
+
+     There exists a class of entities known as Structures.  All Structures are
+     initially owned by the Bank.
+
+     Each Structure is either assigned to a specific Plot, or unassigned.  All
+     Structures are initially unassigned.
+
+     An unassigned Structure's owner may assign it to a Plot by informing the
+     Cartographor that e does so, unless another Structure is already assigned
+     to that Plot.
+
+     An assigned Structure's owner may make it unassigned by informing the
+     Cartographor that e does so.  The owner of a Plot with a Structure
+     assigned to it may also make that Structure unassigned by informing the
+     Cartographor that e does so.
+
+Create a Rule entitled "Ergs" with this text:
+
+     Ergs are a Currency.  Their MUQ is 1.  Their Recordkeepor is the
+     Cartographor.  Their Mintor is the Bank.
+
+100 Structures and 10,000 Ergs are created.
+
+Amend Rule 1677 ("Currency Awards for New Players") to read:
+
+     As soon as possible after the start of a Player's Grace Period, the
+     Registrar shall pay out 5 Voting Tokens, 5 P-Notes, and 15 Ergs to that
+     Player.  In addition, e shall order the Cartographor to create 5
+     Structures and give them to the Player; the Cartographor shall do so as
+     soon as possible after being so ordered.
+
+Amend Rule 1701 ("Proposal Notes") by removing this paragraph:
+
+     Whenever there exists a Player who has never before possessed
+     any P-Notes, the Promotor shall pay out 5 P-Notes to that Player.
+
+All Voting Tokens and P-Notes are destroyed.  For each Player, 5 VTs, 5
+P-Notes, and 15 Ergs are created in that Player's possession.
+
+
+[Part Three:  Make Structures useful]
+
+Create a Rule entitled "Types of Structures" with this text:
+
+     All Structures have a Type.  All Structures are initially Idle, and any
+     unassigned Structures become Idle if they are not already Idle.
+
+     An assigned Structure's owner may change its Type by informing the
+     Cartographor and paying the new Type's price to the Bank (if the new Type
+     is defined by the Rules) or the Maintainer of the new Type's Blueprint
+     (otherwise).
+
+     As soon as possible after a Structure's Type changes, the Cartographor
+     shall execute a Payment Order for half the old Type's price (rounded down)
+     to the Structure's owner, from the Bank (if the old Type is defined by the
+     Rules) or the Maintainer of the old Type's Blueprint (otherwise).
+
+Create a rule titled "Maintenance of Structures" with this text:
+
+     Each Structure has a Maintenance Fee that becomes due at the beginning of
+     each month.  When due, the Maintenance Fee for a Structure is paid when an
+     entity successfully executes a Transfer Order for the amount of that
+     Structure's Maintenance Fee, provided that e indicates clearly that the
+     Transfer Order is being executed to pay the Maintenance Fee for that
+     Structure.
+
+     One week after a Structure's Maintenance Fee becomes due, if it has not
+     yet been paid, then it becomes delinquent.  As soon as possible after this
+     happens, the Cartographor shall destroy that Structure.
+
+Create a rule titled "Production of Structures" reading:
+
+     As soon as possible after the beginning of the Nomic Week, the
+     Cartographor shall report the Production of all Structures.
+
+     When the Cartographor reports the Production of a Structure for a given
+     Nomic Week, a number of units of the appropriate Currency are created in
+     the possession of the owner of the Plot to which the Structure is
+     assigned.
+
+     Churches have no Production.  However, each Church is considered to be two
+     players for the purpose of randomly allocating Indulgences, and any
+     Indulgence that would otherwise be given to a Church is instead given to
+     its owner.
+
+     Only one Vatican may exist at any time, and it is always owned by the
+     Bank.  Its Production is a number of Indulgences equal to the number of
+     Blots issued and not vacated during the previous Nomic Week.
+
+A Structure is assigned to Area 42 and becomes the Vatican.
+
+Create a Rule entitled "Standard Types of Structures" with this text:
+
+     A Type of Structure exists only if it is specifically defined in the Rules
+     or in a Blueprint.
+
+     The following Types of Structure exist, with the specified prices,
+     Productions, and Maintenance Fees, unless otherwise specified:
+
+       Type         Price      Production   Maintenance Fee
+       ----------------------------------------------------
+       Idle         none       none         none
+       Farm         4 Ergs     5 VTs        1 Erg
+       House        4 Ergs     1 P-Note     1 Erg
+       Mine         4 Ergs     1 Erg        1 Erg
+       Church       4 Ergs     none         1 Erg
+       Vatican      none       special      3 Ergs
+
+Create a new Rule titled "Design of Blueprints" and this text:
+
+     A Currency not Minted by the Bank may be associated with a type of SLC
+     known as a Blueprint.  A Blueprint indicates the properties of a Structure
+     that produces units of the Currency associated with the Blueprint.  The
+     Blueprint's Maintainer is the Mintor of the associated Currency.
+
+     A Blueprint can only be created through an Application to Create a
+     Blueprint. Such an Application must contain the following information:
+
+       * The name of the Type of Structure defined by the Blueprint.
+       * The type and amount of Currency produced by this Type.
+       * Any changes to the amount of Currency produced by this Type due to its
+           Adjacencies to other Structures.
+       * The Price of this Type.
+       * The Maintenance Fee of this Type.
+
+     The Maintainer of a Blueprint may change its text by posting the changes
+     to the Public Forum, and indicating what Blueprint is being changed. Such
+     changes may only take effect if the new text of the Blueprint would still
+     define each of the properties of the Type listed above.
+
+[This allows multiple Blueprints per non-Rule-defined Currency.]
+
+Create a new Rule titled "Interaction of Structures" and this text:
+
+     Two Structures are Adjacent if and only if they are assigned to Adjacent
+     Plots.
+
+     A Farm's Production is increased by 0.5 VT for each House or Church to
+     which it is Adjacent, and decreased by 0.5 VT for each Mine to which it is
+     Adjacent.
+
+     A House's Production is increased by 1 P-Note for every 2 Farms or Mines
+     to which it is Adjacent.
+
+
+[Part Four:  Remove other Currency inputs; make P-Notes useful]
+
+
+Amend Rule 1471 ("Creation and Destruction of Currencies") by replacing the
+text reading:
+
+      New units of a Currency are created when the Mintor of that
+      Currency transmits to the Recordkeepor of that Currency a notice
+      that e is creating new units of that Currency, specifying the
+      number of units that e is creating.  The newly created units are
+      added to the Mintor's possessions.
+
+with the text:
+
+      New units of a Currency can only be created by an assigned
+      Structure of the appropriate Type to produce that Currency,
+      as described in other Rules. 
+
+Rename Rule 1763 ("Inadvertent Transfers to the Bank II") to "Intentional
+Transfers to the Bank") and amend it to read:
+
+      If an Entity transfers Currency to the Bank and specifies a 
+      purpose for this transfer, and the transfer succeeds in
+      accomplishing that purpose, the Bank shall, as soon as possible,
+      destroy that Currency. 
+
+[Rules 1754 ("Inadvertent Transfers to the Bank") and Rule 1763 currently have
+  identical text.]
+
+Repeal Rule 1684 ("VT Supply").
+
+Amend Rule 1623 ("Disinterested Proposals") to read:
+
+     A Proposal is Disinterested if it is clearly labelled as such by its
+     Proposer.  If a Proposal is not Disinterested, it is Interested.
+
+Amend Rule 1753 ("Repeal-O-Matic") by replacing "submitted its Proposal
+concerning a given Rule" with "submitted its Proposal concerning a given Rule,
+and paid the Petition Fee for that Proposal,".
+
+Amend Rule 833 ("Awards & Penalties for Proposals") to read:
+
+     As soon as possible after the beginning of the Nomic Week, the Assessor
+     shall pay out two Voting Tokens to each Player who submitted a Proposal
+     which was adopted during the previous Week.
+
+
+Amend Rule 1702 ("Petition Fee for Proposals") by appending this paragraph:
+
+     All Rules to the contrary notwithstanding, no Proposal shall be adopted
+     unless its Proposal Fee is paid by the end of its voting period.
+
+
+[Part Five:  Amend the Rule defining the Cartographor and eir duties]
+
+Amend Rule 1710 ("The Cartographor") to read:
+
+     There is an Office of Cartographor. The Cartographor recieves a 
+     salary equal to 2 times the Basic Officer Salary.
+
+     At least once each Nomic Week, the Cartographor shall post a 
+     Report to the Public Forum containing the following information:
+
+       * the name, ownership, and Adjacency of all Plots
+       * the ownership, assignment (if any) and Type of all Structures
+       * the ownership of all Ergs
+       * all changes in ownership of Plots since the last Report
+       * all changes in ownership, assignment, or Type of all Structures since
+           the last Report
+       * all Transfer Orders and Payment Orders specifying Ergs since the last
+           Report
+
+
+[Part Six:  Clean up other references to Locations]
+
+Amend Rule 869 ("Registered Players") by removing the following paragraph:
+
+     When a Player registers, eir Location is the Welcoming Center.
+
+Amend Rule 1016 ("Putting Oneself On Hold") by replacing "Moves to the Stasis
+Chamber" with "says so in the Public Forum", and by replacing "Moves from the
+Stasis Chamber" with "says so in the Public Forum".
+
+Amend Rule 1664 ("Rebellion") by removing the text "whose Location is the Beer
+Hall".
+
+Amend Rule 1367 ("Degrees") by adding this paragraph:
+
+     "Granting a Degree" and "awarding a Degree" are synonymous.  A Player who
+     has been awarded a Degree possesses that Degree.
+
+Repeal Rule 1711 ("Accepting Degrees").
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+"I see," said Arthur, who didn't.
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Sat Jan 10 21:05 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA12435 for <dpb@cs.brown.edu>; Sat, 10 Jan 1998 21:05:34 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA09924
+	for agora-business-list; Sun, 11 Jan 1998 13:00:22 +1100
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA09918
+	for <agora-business@gecko.serc.rmit.edu.au>; Sun, 11 Jan 1998 13:00:18 +1100
+Received: by windowsnt from localhost
+    (router,SLMail V2.6); Sat, 10 Jan 1998 21:48:18 -0500
+Received: by windowsnt from friend-computer
+    (206.18.125.39::mail daemon; unverified,SLMail V2.6); Sat, 10 Jan 1998 21:48:11 -0500
+Message-Id: <3.0.5.32.19980110174023.00816430@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Sat, 10 Jan 1998 17:40:23 -0800
+To: agora-business@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: BUS: Dissolution
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 205
+
+The Contest "Murphy's Cayman Islands Holding Company" hereby undergoes
+Voluntary Dissolution.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+"I see," said Arthur, who didn't.
+
+

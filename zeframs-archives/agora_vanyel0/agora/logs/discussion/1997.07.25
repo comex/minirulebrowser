@@ -1,0 +1,1729 @@
+From owner-nomic-discussion@teleport.com Fri Jul 25 00:09 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA00945 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 00:09:15 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id VAA28145; Thu, 24 Jul 1997 21:08:18 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 21:08:15 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id VAA28109 for nomic-discussion-outgoing; Thu, 24 Jul 1997 21:08:13 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id VAA28096 for <nomic-discussion@teleport.com>; Thu, 24 Jul 1997 21:08:06 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id OAA18981 for nomic-discussion@teleport.com; Fri, 25 Jul 1997 14:07:53 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707250407.OAA18981@aurora.cc.monash.edu.au>
+Subject: Re: BUS: Re: OFF: Distribution of Proposal 354
+To: nomic-discussion@teleport.com
+Date: Fri, 25 Jul 1997 14:07:52 +1000 (EST)
+In-Reply-To: <9707242112.AA06088@dfw.dfw.net> from "Charles E. Carroll" at Jul 24, 97 04:12:32 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1668
+Status: N
+
+Charles E. Carroll writes:
+>
+>Scott Goehring wrote:
+>>
+>>"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+>>
+>>David> H. Assessor take note, I hereby disown proposal 3541. 
+>>
+>>So noted.  Crito is hereby commanded to pay, to the Bank, one P-Note.
+>>
+>>David> If it is legal for me to do so, I hereby pay the 1 P-Note
+>>David> required for disowning a proposal at this time.
+>>
+>>Interesting question.  I'm not sure whether this should be treated as
+>>a null action, or if it should be interpreted as a transfer of 1
+>>P-Note to the Bank.  (It's clearly legal for you to do so, but it may
+>>not have the effect of satisfying the Payment Order I just executed.)
+>>
+>>Opinions?
+>
+>I think it is a null action.  Note Crito's statement reads "...I hereby
+>pay the 1 P-Note *required for disowning a proposal* at this time."
+>The only reasonable way to interpret that is that he executes a
+>transfer order in order to satisfy the payment order generated due
+>to disowning a proposal.  But since the PO did not exist at the point
+>he posted that, it is not legal for him to satisfy that order at that time.
+
+If that's right - and it sounds plausible - then I think we should
+tweak the system to allow some anticipation of Transfer Orders not
+yet created. This ability needs to be constrained. One way to do it
+is to allow it only in cases where the yet-to-be-created TO is
+clearly identified, where I take it that Crito's statement does
+clearly identify such a TO.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 00:31 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA01327 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 00:31:18 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id VAA09593; Thu, 24 Jul 1997 21:30:50 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 21:30:48 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id VAA09575 for nomic-discussion-outgoing; Thu, 24 Jul 1997 21:30:47 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id VAA09454 for <nomic-discussion@teleport.com>; Thu, 24 Jul 1997 21:30:34 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id OAA26011 for nomic-discussion@teleport.com; Fri, 25 Jul 1997 14:30:26 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707250430.OAA26011@aurora.cc.monash.edu.au>
+Subject: Re: OFF: (CotC) 930 - Kolja's strategy
+To: nomic-discussion@teleport.com
+Date: Fri, 25 Jul 1997 14:30:26 +1000 (EST)
+In-Reply-To: <9707241945.AA14834@spinup.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns NB6_25 (3751)" at Jul 24, 97 09:45:21 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1753
+Status: N
+
+Klaus Herrmanns NB6_25 (3751) writes:
+>
+>1. A proposal is submitted that contains the definition of a new Nomic
+>Entity, Payment Orders. Its voting period begins.
+
+Did we ever reach a consensus on whether Payment Orders (the
+Pragmatic Currencies ones, I mean) are Nomic Entities or not? Much
+that is significant to the debate might turn on the answer to that
+question, since if the PC-POs are not Nomic Entities, then that
+premise becomes a solid plank in an argument that they cannot be
+identical with (units of) Morendil's Currency of the name, which I
+take it *are* Nomic Entities (although some have argued to the
+contrary). I recall providing an argument, which I'll repeat here
+without necessarily endorsing it, that they are not Nomic Entities:
+they are bodies of text (or, more broadly, messages), created by
+Players, and hence do not owe their existence qua bodies of text
+solely to the Rules. On the other hand, these bodies of text do have
+the Nomic Property of being Transfer Orders, so one might be tempted
+to say that they owe their existence qua Transfer Orders solely to
+the Rules, since it is only the Rules that confer legal significance
+on certain bodies of text. So perhaps they are Nomic Entities after
+all. Whatever answer we give here should apply also to Applications,
+SLCs, Opinions and the like. Do we want to say that these things were
+Nomic Entities? Or do we prefer to keeping that tag for things like
+Kudos, VTs, Locations, and Morendil's Misanthropist-minted 'Transfer
+Orders'?  
+
+Where do people stand on these questions? 
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 00:40 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA01418 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 00:40:27 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id VAA05739; Thu, 24 Jul 1997 21:39:08 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 21:39:06 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id VAA05728 for nomic-discussion-outgoing; Thu, 24 Jul 1997 21:39:05 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id VAA05559 for <nomic-discussion@teleport.com>; Thu, 24 Jul 1997 21:38:42 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id OAA25501 for nomic-discussion@teleport.com; Fri, 25 Jul 1997 14:38:39 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707250438.OAA25501@aurora.cc.monash.edu.au>
+Subject: Re: BUS: PROTO: Entity Classes
+To: nomic-discussion@teleport.com
+Date: Fri, 25 Jul 1997 14:38:39 +1000 (EST)
+In-Reply-To: <9707220934.AA18025@spinup.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns NB6_25 (3751)" at Jul 22, 97 11:34:47 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2039
+Status: N
+
+Klaus Herrmanns NB6_25 (3751) writes:
+>
+>Steve wrote:
+>
+>>>That's ok as long as you consistently refuse to identify such Nomic
+>Entities as Rules, Proposals, SLCs, Applications etc with bodies of
+>text - which, unfortunately for this suggestion, I think there is
+>a strong temptation, and good reason, to do.<<
+>
+>I agree - I am not sure why some people are so intent of identifying
+>such entities with bodies of text. This raises all the problems about
+>the "existence without the rules" etc, especially for the Transfer and
+>Payment Orders of PC. 
+
+I think you may have misunderstood me (not your fault, reading back
+what I wrote, it is a little unclear). I am possibly one of those
+very people who wants to identify Rules, Proposals, SLC, Applications,
+Opinions and PC Orders with bodies of text, or more broadly, with
+messages. Once we've made such an identification, we can then go on
+to talk about various properties of these messages, some of which
+will be Nomic Properties, in which the Rules place some legal
+significance.  The identification seems to me to be at least prima
+facie plausible, although I'm still investigating all the pros and
+cons. 
+
+>By the way, IMHO in the case of _implicit_ Transfer Orders, eg in
+>voting, the associated body of text will be hard to find - as I
+>understand the new phrasing of 1442, a message for voting only needs
+>to include the votes and nothing else. VTs, Transfer orders or
+>anything alse connected with paying the VT cost of voting does not
+>have to be mentioned at all. This seems to me the best example of such
+>a nomic entity not connected with a body of text.
+
+My view, shared I think by Scott and some others, is that in that
+case, the voting message is deemed to be a Transfer Order. Ie, the
+Rules impute to voting messages the property of being Transfer 
+Orders of a certain kind.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 00:49 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA01605 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 00:49:25 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id VAA07767; Thu, 24 Jul 1997 21:48:44 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 21:48:43 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id VAA07739 for nomic-discussion-outgoing; Thu, 24 Jul 1997 21:48:41 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-3-3.ucs.indiana.edu [129.79.18.153]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id VAA07719 for <nomic-discussion@teleport.com>; Thu, 24 Jul 1997 21:48:36 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id XAA21876 for <nomic-discussion@teleport.com>; Thu, 24 Jul 1997 23:48:34 -0500
+Message-Id: <199707250448.XAA21876@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: Kolja wrote: 
+In-reply-to: Your message of "Thu, 24 Jul 1997 22:14:36 -0400."
+             <s3d7d3fd.081@rmv.state.ma.us> 
+Date: Thu, 24 Jul 1997 23:48:33 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 144
+Status: N
+
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> Scott has made a good defense of e, which I won't repeat here.
+
+What's "e"?
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 00:52 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA01664 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 00:52:14 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id VAA06876; Thu, 24 Jul 1997 21:49:38 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 21:49:32 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id VAA06855 for nomic-discussion-outgoing; Thu, 24 Jul 1997 21:49:31 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-3-3.ucs.indiana.edu [129.79.18.153]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id VAA06849 for <nomic-discussion@teleport.com>; Thu, 24 Jul 1997 21:49:29 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id XAA21887 for <nomic-discussion@teleport.com>; Thu, 24 Jul 1997 23:49:26 -0500
+Message-Id: <199707250449.XAA21887@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: Deregistration of Elde 
+In-reply-to: Your message of "Fri, 25 Jul 1997 12:18:21 +1000."
+             <199707250218.MAA22586@aurora.cc.monash.edu.au> 
+Date: Thu, 24 Jul 1997 23:49:25 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 393
+Status: N
+
+"Steve" == Steve Gardner <gardner@aurora.cc.monash.edu.au> writes:
+
+Steve> The above was posted on July 8, meaning that Elde has been Absent
+Steve> since July 22. In accordance with R1042, I hereby cause Elde to
+Steve> become Abandoning, which results in his deregistration, which I
+Steve> hereby report in my capacity as Registrar.
+
+I remind the Notary that this invokes the Probate Code. :)
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 00:55 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA01707 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 00:55:33 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id VAA07375; Thu, 24 Jul 1997 21:54:14 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 21:54:14 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id VAA07366 for nomic-discussion-outgoing; Thu, 24 Jul 1997 21:54:13 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id VAA07342 for <nomic-discussion@teleport.com>; Thu, 24 Jul 1997 21:54:05 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id OAA25698 for nomic-discussion@teleport.com; Fri, 25 Jul 1997 14:53:54 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707250453.OAA25698@aurora.cc.monash.edu.au>
+Subject: Re: BUS: PROTO: Entity Classes
+To: nomic-discussion@teleport.com
+Date: Fri, 25 Jul 1997 14:53:53 +1000 (EST)
+In-Reply-To: <9707221515.AA15387@spinup.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns NB6_25 (3751)" at Jul 22, 97 05:15:33 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1809
+Status: N
+
+Klaus Herrmanns NB6_25 (3751) writes:
+>
+>Tu summarize: The possibility to connect items like proposals, rules,
+>TOs etc with bodies of text has been used in descriptions of the
+>"entitiness" of such items. Others have mentioned that these items can
+>cease to be Nomic Entities without ceasing to be connected to bodies
+>of text; I still insist that items like TOs or POs may be created
+>implicitly by the _act_ of making or communicating a body of text, but
+>they are definitely distinct from this body of text. So the connection
+>"Nomic Entitiness" <--> "Body of text" does not work.
+
+Granted, but this is a problem only if one absolutely insists that
+Proposals, Rules, Applications, SLCs, Opinions, PC Orders and such
+like be granted the status of Nomic Entities. There are two reasons
+why one might want to drop such an insistence:
+
+(1) You might want to reserve the tag 'Nomic Entity' for such things
+as Kudos, Currencies, Patent Titles, Winner's Cups and Locations, none
+of which are (associated with) bodies of text.
+
+(2) You might want to get rid of the concept of 'Nomic Entity' entirely.
+After all, what does it matter whether an Application is a Nomic Entity
+or not? None of its Nomic Properties can be changed except by procedures
+specified in the Rules, and none of its non-Nomic properties (eg who wrote
+it and when) can be changed at all, and faking them for the purposes
+of deception is quite difficult, as we've discussed in another context.
+
+If you like (1), then I've got a nice new definition of Nomic Entity
+for you: a Nomic Entity is an Entity all of whose properties are
+Nomic Properties.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 01:11 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA01966 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 01:11:39 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id WAA16770; Thu, 24 Jul 1997 22:05:30 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 22:05:28 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id WAA16728 for nomic-discussion-outgoing; Thu, 24 Jul 1997 22:05:26 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id WAA16700 for <nomic-discussion@teleport.com>; Thu, 24 Jul 1997 22:05:19 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id PAA19262 for nomic-discussion@teleport.com; Fri, 25 Jul 1997 15:05:14 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707250505.PAA19262@aurora.cc.monash.edu.au>
+Subject: Re: Steve's Metaphysical Manifesto
+To: nomic-discussion@teleport.com
+Date: Fri, 25 Jul 1997 15:05:14 +1000 (EST)
+In-Reply-To: <199707240646.BAA23476@poverty.bloomington.in.us> from "Scott Goehring" at Jul 24, 97 01:46:57 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1095
+Status: N
+
+Scott Goehring writes:
+>
+>Steve> It's worth making explicit here the connection I see between
+>Steve> this point and Scott's Jurism: the rules of any game govern
+>Steve> player actions, no matter what language they use to express
+>Steve> this fact, since ultimately everything that happens in a game
+>Steve> is going to have be recorded in some fashion, and recording is
+>Steve> something the players are going to have to do.
+>
+>Or possibly some non-player participant; but that participant is still
+>bound by the rules of that game, if only by being charged to "maintain
+>an accurate record of what happens."
+
+Many Italian and German card games, eg Skat and its variations, are
+for three players. When four gather to play, the fourth is nominated
+scorekeeper and sometimes dealer, with that position rotating, so that
+a different player sits out each hand. But the scorekeeper is still
+a player.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 01:42 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA02430 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 01:42:26 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id WAA24134; Thu, 24 Jul 1997 22:41:45 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 22:41:43 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id WAA24084 for nomic-discussion-outgoing; Thu, 24 Jul 1997 22:41:41 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-3-3.ucs.indiana.edu [129.79.18.153]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id WAA23976 for <nomic-discussion@teleport.com>; Thu, 24 Jul 1997 22:41:32 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id AAA22049 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 00:40:47 -0500
+Message-Id: <199707250540.AAA22049@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: Deregistration of Elde 
+In-reply-to: Your message of "Thu, 24 Jul 1997 22:16:38 MST."
+             <3.0.1.32.19970724221638.0069dfa4@mail.bayside.net> 
+Date: Fri, 25 Jul 1997 00:40:43 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 366
+Status: N
+
+"Ed" == Ed Murphy <ford@bayside.net> writes:
+
+Ed> According to the latest (July 21) Currency reports, Elde has 17
+Ed> VTs and 5 P-Notes.  Due to his Agoran inactivity of late, I assume
+Ed> that that hasn't changed since.
+
+Ed> To the best of my knowledge, Elde had no creditors or heirs. 
+
+Elde had Payment Orders in Indulgences; the Bank is therefore a
+creditor. :)
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 02:21 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA03006 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 02:21:10 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id XAA00586; Thu, 24 Jul 1997 23:19:08 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Thu, 24 Jul 1997 23:19:02 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id XAA00576 for nomic-discussion-outgoing; Thu, 24 Jul 1997 23:19:01 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id XAA00412 for <nomic-discussion@teleport.com>; Thu, 24 Jul 1997 23:17:51 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id QAA27420 for nomic-discussion@teleport.com; Fri, 25 Jul 1997 16:17:41 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707250617.QAA27420@aurora.cc.monash.edu.au>
+Subject: Re: BUS: Minting of new Currencies
+To: nomic-discussion@teleport.com
+Date: Fri, 25 Jul 1997 16:17:40 +1000 (EST)
+In-Reply-To: <199707160644.IAA15257@logatome.micronet.fr> from "Laurent Bossavit" at Jul 16, 97 08:47:13 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1574
+Status: N
+
+Laurent Bossavit writes:
+>
+>> Basically, my argument is that it makes no sense to regard the
+>> references to 'Payment Orders', 'Transfer Orders' etc in the new
+>> PC Rules as references to your newly minted Currencies. The new
+>> PC Rules speak of the vacation, satisfaction, execution, and
+>> cancellation of such orders. I can make no sense of what it might
+>> mean to execute a unit of your newly minted Currency. 
+>
+>I can make no sense of the Rules calling for an Application to be
+>destroyed, either, if an Application is a message I post to the
+>Public Forum (or, in fact, as the Rules allow, write down in the
+>privacy of my own home). Why isn't that a problem if Executing a unit
+>of Currency is a problem ? 
+
+It would be nice if the Rules reflected a consistent metaphysical view
+of these matters. But we'd have to be extremely lucky for things
+actually to turn out that way, given that the Rules are written by
+different people at different times, and in different circumstances.
+In the context of the current discussion about Nomic Entities, I agree
+that talking of the 'destruction' of Applications is unfortunate. I
+regard it basically as a kind of loose talk, especially since R1626
+says straight out that an Application is a body of text created by a
+Player. So we should not talk of its 'destruction', but rather of its
+'ceasing to have legal significance'.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 05:17 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA05748 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 05:17:33 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id CAA26332; Fri, 25 Jul 1997 02:15:30 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 02:15:28 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id CAA26322 for nomic-discussion-outgoing; Fri, 25 Jul 1997 02:15:27 -0700 (PDT)
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id CAA26301 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 02:15:21 -0700 (PDT)
+Received: from lolo.knc ([194.250.73.197])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id LAA06574
+	for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 11:15:18 +0200 (MET DST)
+Message-ID: <33D85CB8.F77@micronet.fr>
+Date: Fri, 25 Jul 1997 09:58:48 +0200
+From: Laurent Bossavit <morendil@micronet.fr>
+Organization: netDIVE - publishers of CUChat, the One & Only 100% Visual Java Chat
+X-Mailer: Mozilla 3.01Gold (Win95; I)
+MIME-Version: 1.0
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: PROTO: Entity Classes
+References: <199707250453.OAA25698@aurora.cc.monash.edu.au>
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1060
+Status: N
+
+> (2) You might want to get rid of the concept of 'Nomic Entity' entirely.
+> After all, what does it matter whether an Application is a Nomic Entity
+> or not? None of its Nomic Properties can be changed except by procedures
+> specified in the Rules, and none of its non-Nomic properties (eg who wrote
+> it and when) can be changed at all, and faking them for the purposes
+> of deception is quite difficult, as we've discussed in another context.
+
+Oh hey, I disagree with that - I pointed this out some time ago but it
+failed to elicit much comment. Suppose that you are Notary and I send
+you a Will - on paper. (This is to avoid the problem raised by 'a
+body of text' in the context of mail messages, since such a body of
+text is duplicated several times while being transported over the Net.)
+
+Now the contents of a given 'body ot text' are not a Nomic Property,
+right ? So what's to prevent you from scratching out the line where
+I leave all of my precious Cat Foods to MFO and adding a line which
+says that you are to be the beneficiary of this heritage ?
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 05:18 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA05756 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 05:18:49 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id CAA28816; Fri, 25 Jul 1997 02:15:28 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 02:15:23 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id CAA28801 for nomic-discussion-outgoing; Fri, 25 Jul 1997 02:15:22 -0700 (PDT)
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id CAA28796 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 02:15:17 -0700 (PDT)
+Received: from lolo.knc ([194.250.73.197])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id LAA06566
+	for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 11:15:14 +0200 (MET DST)
+Message-ID: <33D85805.5F7C@micronet.fr>
+Date: Fri, 25 Jul 1997 09:38:45 +0200
+From: Laurent Bossavit <morendil@micronet.fr>
+Organization: netDIVE - publishers of CUChat, the One & Only 100% Visual Java Chat
+X-Mailer: Mozilla 3.01Gold (Win95; I)
+MIME-Version: 1.0
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: Re: OFF: Distribution of Proposal 354
+References: <s3d7a3d3.076@rmv.state.ma.us>
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 482
+Status: N
+
+> I think it's clear that this was a conditional attempt to make a transfer in
+> order to satisfy a future PO, but I won't lose any sleep if I lose an extra
+> P-Note.  8)
+
+Delayed TOs are explicitly allowed. Conditional TOs are not, and IMHO
+should be prohibited. Also I doubt very much that your inclusion of
+the phrase "at this time" leaves any doubt that it precisely was _not_
+a delayed TO. But that's for the better, this notion of proactive TOs
+is an interesting new twist.
+
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 07:11 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA07438 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 07:11:25 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id EAA21828; Fri, 25 Jul 1997 04:09:45 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 04:09:22 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id EAA21809 for nomic-discussion-outgoing; Fri, 25 Jul 1997 04:09:21 -0700 (PDT)
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11]) by portia.teleport.com (8.8.5/8.7.3) with SMTP id EAA21805 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 04:09:18 -0700 (PDT)
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.62 #6)
+	id 0wriFH-0001Cy-00; Fri, 25 Jul 1997 12:09:15 +0100
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.62 #1)
+	id 0wriFF-0000EP-00; Fri, 25 Jul 1997 12:09:13 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: nomic-discussion@teleport.com
+Subject: BUS: Deregistration of Elde
+In-Reply-To: <199707250218.MAA22586@aurora.cc.monash.edu.au>
+References: <199707080422.OAA09279@aurora.cc.monash.edu.au>
+	<199707250218.MAA22586@aurora.cc.monash.edu.au>
+X-Mailer: VM 6.31 under Emacs 19.34.1
+Message-Id: <E0wriFF-0000EP-00@merganser.cl.cam.ac.uk>
+Date: Fri, 25 Jul 1997 12:09:13 +0100
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 617
+Status: N
+
+Steve Gardner writes:
+> Steve Gardner writes:
+
+>> Elde is Maybe Absent. He has two weeks to post a message to the
+>> Public Forum, or e will become Absent.
+
+> The above was posted on July 8, meaning that Elde has been Absent
+> since July 22. In accordance with R1042, I hereby cause Elde to
+> become Abandoning, which results in his deregistration, which I
+> hereby report in my capacity as Registrar.
+
+Incidentally, I was trying to find this information out yesterday, and
+was wondering if it might be something you could include in future
+Registrar's Reports (i.e., a list of those who are Maybe Absent).
+
+Michael.
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 09:06 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA09485 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 09:06:01 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id GAA24023; Fri, 25 Jul 1997 06:04:51 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 06:04:50 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id GAA23995 for nomic-discussion-outgoing; Fri, 25 Jul 1997 06:04:49 -0700 (PDT)
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id GAA23978 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 06:04:45 -0700 (PDT)
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id JAA19733 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 09:04:43 -0400 (EDT)
+Message-Id: <3.0.1.16.19970724155718.2a3727f4@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Thu, 24 Jul 1997 15:57:18
+To: nomic-discussion@teleport.com
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: BUS: PROTO:No more nomic entities, and sensible names
+In-Reply-To: <199707241848.OAA14258@kanga.INS.CWRU.Edu>
+Mime-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 358
+Status: N
+
+At 02:48 PM 7/24/97 -0400, Steven A Swiniarski wrote:
+>PROTO:Revise Nomic Entities
+
+<snip>
+
+You also need to go through the Ruleset and remove all the other references
+to Nomic Entities. For this Proposal to really accomplish anything, it
+should go through and change all the Rules defining various Entities so
+that they define them via their Properties. 
+
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 09:06 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA09489 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 09:06:41 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id GAA03608; Fri, 25 Jul 1997 06:04:47 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 06:04:45 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id GAA03594 for nomic-discussion-outgoing; Fri, 25 Jul 1997 06:04:44 -0700 (PDT)
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id GAA03586 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 06:04:42 -0700 (PDT)
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id JAA19729 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 09:04:39 -0400 (EDT)
+Message-Id: <3.0.1.16.19970724155141.2c97166e@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Thu, 24 Jul 1997 15:51:41
+To: nomic-discussion@teleport.com
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: BUS: PROTO:No more nomic entities, and sensible names
+In-Reply-To: <9707241913.AA19423@spinup.tp3.ruhr-uni-bochum.de>
+References: <199707241848.OAA14258@kanga.INS.CWRU.Edu>
+Mime-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 364
+Status: N
+
+At 09:13 PM 7/24/97 +0200, Klaus Herrmanns NB6_25 (3751) wrote:
+
+>Isn't that just a tautology? Basically it says, an entity that only
+>exists under condition X ceases to exist when condition X ceases to
+>hold. So what is the information (or legal) content of the sentence? 
+
+Perhaps "...came into being due solely to the Rules..." would be better in
+that case. 
+
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 09:07 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA09493 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 09:07:11 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id GAA24001; Fri, 25 Jul 1997 06:04:49 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 06:04:46 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id GAA23979 for nomic-discussion-outgoing; Fri, 25 Jul 1997 06:04:45 -0700 (PDT)
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id GAA23949 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 06:04:38 -0700 (PDT)
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id JAA19725 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 09:04:35 -0400 (EDT)
+Message-Id: <3.0.1.16.19970724123534.2ca70018@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Thu, 24 Jul 1997 12:35:34
+To: nomic-discussion@teleport.com
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: BUS: PROTO: Clean Up After Pragmatic Currencies v1.1 
+In-Reply-To: <199707241336.IAA23818@poverty.bloomington.in.us>
+References: <Your message of "Thu, 24 Jul 1997 12:25:32 GMT."             <199707241321.JAA16847@cyber1.servtech.com>
+Mime-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 909
+Status: N
+
+At 08:36 AM 7/24/97 -0500, Scott Goehring wrote:
+
+>This performs automatic destruction and creation of Currencies.  I
+>will therefore oppose it.  The language I suggested a few days ago
+>should serve the desired purpose of keeping the proper quantity of
+>Indulgences in the population, regardless of the Bank's balance of the
+>damn things; please consider using that implementation instead.
+
+I did add the language you suggested, if you notice. For some reason the
+create/destroy language is still in there; I'll take that out for the final
+proposal. Now, do you also object to the Chancellor needing to create
+Indulgences when Blots are issued and destroy them when Blots are paid? If
+we don't have that, where are the Indulgences going to come from? I suppose
+we could just create a whole bunch of Indulgences in the Bank. I suppose
+I'll have to go with that; we can make additional fine-tunings later.
+
+
+
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 09:08 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA09506 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 09:08:53 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id GAA01008; Fri, 25 Jul 1997 06:05:26 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 06:05:23 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id GAA00911 for nomic-discussion-outgoing; Fri, 25 Jul 1997 06:05:17 -0700 (PDT)
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id GAA00860 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 06:04:54 -0700 (PDT)
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id JAA19740 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 09:04:49 -0400 (EDT)
+Message-Id: <3.0.1.16.19970724220231.2a3707ca@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Thu, 24 Jul 1997 22:02:31
+To: nomic-discussion@teleport.com
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: Steve's Metaphysical Manifesto
+In-Reply-To: <199707250213.MAA21791@aurora.cc.monash.edu.au>
+References: <199707230315.FAA17565@logatome.micronet.fr>
+Mime-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 941
+Status: N
+
+At 12:13 PM 7/25/97 +1000, Steve Gardner wrote:
+
+>But there are easier ways, which Blob actually mentioned.
+
+Funny, I thought that was me. :)
+
+>You don't *have* to hack any files - just convince the RK (and enough of 
+>the other Players, or perhaps just the right Players) that the transfer 
+>is legal. Fraud is possible as well as outright theft.
+
+Exactly. Which is where my point about the complexity came up -- it's
+actually easier to accomplish this sort of convincing in Agora than it is
+in Monopoly. There, you can easily see if anything has caused you to gain
+or lose money on your turn. In Agora, you have to pay attention to every
+Rule which requires Players to issue TOs or POs and all judicial precedent
+regarding them. Pulling a scam of misinformation out of that is entirely
+possible. Of course, as Steve mentions, theft in general is much easier in
+Monopoly, but I think this example if nothing else cements the similarity.
+
+
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 09:09 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA09518 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 09:09:24 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id GAA01005; Fri, 25 Jul 1997 06:05:26 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 06:05:23 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id GAA00930 for nomic-discussion-outgoing; Fri, 25 Jul 1997 06:05:20 -0700 (PDT)
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id GAA00859 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 06:04:53 -0700 (PDT)
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id JAA19719 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 09:04:31 -0400 (EDT)
+Message-Id: <3.0.1.16.19970724122906.2ca790ca@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Thu, 24 Jul 1997 12:29:06
+To: nomic-discussion@teleport.com
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: BUS: PROTO: Entity Classes
+In-Reply-To: <9707241656.AA23107@dfw.dfw.net>
+References: <s3d72c85.079@rmv.state.ma.us>
+Mime-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 523
+Status: N
+
+At 11:56 AM 7/24/97 -0500, Charles E. Carroll wrote:
+
+>In his arguments, Judge Michael reasoned that a certain entity 
+>which, according to the Rules, was to be "known as the Nomic 
+>Potato", was not *named* the Nomic Potato.  Now, R!596 can 
+>conceivably be argued otherwise, since it uses the term 
+>"called" rather than "known as", but I believe the same
+>reasoning applies.
+
+Echoes of Lewis Carroll... anyone have a record of the relevant passage,
+the one about a song's name being different from what it was called?
+
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 09:23 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA09779 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 09:23:30 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id GAA03740; Fri, 25 Jul 1997 06:20:26 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 06:20:25 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id GAA03722 for nomic-discussion-outgoing; Fri, 25 Jul 1997 06:20:24 -0700 (PDT)
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33]) by greta.teleport.com (8.8.5/8.7.3) with SMTP id GAA03707 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 06:20:18 -0700 (PDT)
+Received: (qmail 22834 invoked from network); 25 Jul 1997 13:19:58 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 25 Jul 1997 13:19:58 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA16196; Fri, 25 Jul 1997 15:19:53 +0200
+Date: Fri, 25 Jul 1997 15:19:53 +0200
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9707251319.AA16196@spinup.tp3.ruhr-uni-bochum.de>
+To: nomic-discussion@teleport.com
+In-Reply-To: <199707242058.WAA02724@logatome.micronet.fr> (morendil@micronet.fr)
+Subject: Re: OFF: (CotC) 930 - Kolja's strategy
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 3051
+Status: N
+
+Kolja A. wrote:
+>>
+>And it avoids the attempts to say that either the MMM-POs are not NEs
+>or the PC-POs are not really named "POs" - two solutions which I find
+>rather unpleasant. They look too much like an improvised patch to
+>quickly cover one loophole, maybe opening up many more in the
+>process. And they certainly go very much against the intuitive, common
+>sense way in which one would normally handle things like NEs or names.
+<<
+
+Morendil answered:
+>>
+This would be viewpoint d), then. Just because you don't like it doesn't mean 
+you shouldn't acknowledge it. :)
+<<
+
+Crito answered:
+>>
+That makes d and e (not just d 8).
+<<
+
+Well, yes and no. It does describe alternative strategies to spoil
+MMM, I agree. However, my post was not an attempted comprehensive
+listing of all anti-MMM strategies discussed so far, it was just an
+outline of the one strategy I prefer.
+
+My list of points a) to c) was not one of all the different possible
+overall strategies. It was a list of different interpretations of the
+effect of 1586, _under the condition_ that steps 1. and 2. in my post:
+
+Kolja A. wrote:
+>>
+1. A proposal is submitted that contains the definition of a new Nomic
+Entity, Payment Orders. Its voting period begins.
+
+2. Morendil creates a currency with the same name as the
+not-yet-defined NE. This is also an NE.
+<<
+
+are a correct description of what happened before the adoption of PC.
+The variants Crito quickly summarized in eir reply basically say that
+my description of 1. and/or 2. is wrong.
+
+And I dislike them because I would prefer to accept the situation
+created by steps 1 and 2 as I described them and then spoil MMM later,
+by a suitable application of 1586 in step 3. This seems to me to be a
+little less improvised. Not also that it does not involve challenging
+the established (or, at least, the naive and common sense) way of
+thinking about basics like naming and Nomic Entities. 
+
+Challenging steps 1. and 2. as I described them (and, I gather,as
+Morendil intended them) would be a bit of an overreaction in my eyes,
+like shooting sparrows with cannonballs (is there a saying like that
+in English?), and also in more risk of creating new loopholes with the
+fix of an old one.
+
+Crito wrote:
+>>
+In defense of d, it is not an improvised
+patch but a result of a close look at R1586.  It may go against the intuitive,
+comman sense way in which one would normally handle NEs (I agree), but that is
+the way R1586 defines NEs.  Note your own statement above which I underlined. 
+R1586 clearly states that an NE is something that exists only due to the Rules
+defining it.
+
+Scott has made a good defense of e, which I won't repeat here.
+<<
+
+You caught me with that remark and the underlined part of my own
+statement ;). And I admit that your d (and e) may also be possible
+ways to spoil MMM. I'm not saying that the one I outlined is the only
+feasible one, I would just prefer it for style reasons, and to
+minimize the risk of creating new loopholes (and unintuitive ways of
+dealing with names and NEs), as I stated above.
+
+Kolja A.
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 09:43 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA10314 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 09:43:44 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id GAA07599; Fri, 25 Jul 1997 06:40:21 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 06:40:20 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id GAA07586 for nomic-discussion-outgoing; Fri, 25 Jul 1997 06:40:19 -0700 (PDT)
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33]) by portia.teleport.com (8.8.5/8.7.3) with SMTP id GAA07571 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 06:40:16 -0700 (PDT)
+Received: (qmail 24507 invoked from network); 25 Jul 1997 13:40:14 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 25 Jul 1997 13:40:14 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA04754; Fri, 25 Jul 1997 15:40:13 +0200
+Date: Fri, 25 Jul 1997 15:40:13 +0200
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9707251340.AA04754@spinup.tp3.ruhr-uni-bochum.de>
+To: nomic-discussion@teleport.com
+In-Reply-To: <199707250453.OAA25698@aurora.cc.monash.edu.au> (message from Steve Gardner on Fri, 25 Jul 1997 14:53:53 +1000 (EST))
+Subject: Re: BUS: PROTO: Entity Classes
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 2599
+Status: N
+
+Steve:
+>>
+My view, shared I think by Scott and some others, is that in that
+case, the voting message is deemed to be a Transfer Order.
+<<
+
+Now Scott may well call this nitpicking again, but I still don't
+believe that is an appropriate description of implicitly submitted TOs
+in general, and those created by 1442 in particular. So far I haven't
+seen an argument how the statement "the voting message is deemed to be
+a Transfer Order" can be justified when 1442 states that it is "the
+_act_ of submitting the vote" that comprises the implicit submission of
+a TO. 
+
+However, I will admit to anyone who asks me that I keep talking about
+details like this because I don't feel I have a clear grasp of the
+overall problem ;).
+
+What helped me a little in the more general direction was Steve's
+remark: 
+
+>>
+(2) You might want to get rid of the concept of 'Nomic Entity' entirely.
+After all, what does it matter whether an Application is a Nomic Entity
+or not? None of its Nomic Properties can be changed except by procedures
+specified in the Rules, ...[snip]
+<<
+
+If I understand correctly what was said about the origin of the NE
+concept within the Agora rules, then it was not introduced because
+someone wanted to fix eir metaphysical principles in some rules, but
+for the very practical purpose of avoiding arbitrary manipulation of
+entities that are relevant for the game, but not explicitly protected
+against unwanted manipulations by some rule or other.
+
+So although it is not explicitly defined this way, really a Nomic
+Entity is meant to be any entity that can in principle manipulated in
+a way that is not explicitly provided for in the rules and that is not
+wanted by other players. Example: The points needed for winning in
+InterNomic and the way Ackanomic won the game by CFJ 5.
+
+And rules like 1586 were made to avoid this. It seems to me we want a
+new, more intuitive and direct way to avoid it; maybe Steve's
+suggestion to define NEs as having only Nomic Properties is such a way
+- maybe the whole term Nomic Entity can be avoided alltogether, and
+restrictions can be made just for changing Nomic Properties of _any_
+entities. 
+
+Maybe we can also generalize the strategy behind the PC reform:
+let important entities be controlled by one officer; let em be the
+only one whi is authorized to effectively change the entity or its
+properties; allow other players only to request (or order) changes
+from this officer. Abuse by the responsible officer might then become
+technically possible: more politics - how much "cheating" or
+corruption can I get away with without being impeached?
+
+Kolja A.
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 10:15 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA10965 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 10:15:03 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id HAA07217; Fri, 25 Jul 1997 07:12:14 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 07:12:03 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id HAA07166 for nomic-discussion-outgoing; Fri, 25 Jul 1997 07:12:02 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-3-3.ucs.indiana.edu [129.79.18.153]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id HAA07125 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 07:11:57 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id JAA22761 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 09:11:55 -0500
+Message-Id: <199707251411.JAA22761@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: PROTO: Clean Up After Pragmatic Currencies v1.1 
+In-reply-to: Your message of "Thu, 24 Jul 1997 12:35:34."
+             <3.0.1.16.19970724123534.2ca70018@cyber1.servtech.com> 
+Date: Fri, 25 Jul 1997 09:11:54 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 712
+Status: N
+
+"Chaos" == Chaos Harlequin <harlequin@tmbg.org> writes:
+
+Chaos> I did add the language you suggested, if you notice. For some
+Chaos> reason the create/destroy language is still in there; I'll take
+Chaos> that out for the final proposal. Now, do you also object to the
+Chaos> Chancellor needing to create Indulgences when Blots are issued
+Chaos> and destroy them when Blots are paid? 
+
+It seems kinda clunky.  Why not just leave them in the Bank?  It's not
+like their being there make any difference.
+
+Chaos> If we don't have that,
+Chaos> where are the Indulgences going to come from?
+
+They can be created when needed.  The Chancellor has an interest in
+keeping the Bank from running out of currencies, you know.
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 10:16 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA11047 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 10:16:43 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id HAA14719; Fri, 25 Jul 1997 07:15:14 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 07:15:09 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id HAA14536 for nomic-discussion-outgoing; Fri, 25 Jul 1997 07:14:55 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-3-3.ucs.indiana.edu [129.79.18.153]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id HAA14489 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 07:14:35 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id JAA22772 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 09:13:49 -0500
+Message-Id: <199707251413.JAA22772@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: OFF: (CotC) 930 - Kolja's strategy 
+In-reply-to: Your message of "Fri, 25 Jul 1997 15:19:53 +0200."
+             <9707251319.AA16196@spinup.tp3.ruhr-uni-bochum.de> 
+Date: Fri, 25 Jul 1997 09:13:48 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 223
+Status: N
+
+"Klaus" == Klaus Herrmanns NB6 25 (3751) <klaush@spinup.tp3.ruhr-uni-bochum.de> writes:
+
+Klaus> like shooting sparrows with cannonballs (is there a saying like
+Klaus> that in English?)
+
+Swatting flies with a sledgehammer.
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 10:39 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA11598 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 10:39:11 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id HAA12684; Fri, 25 Jul 1997 07:37:42 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 07:37:39 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id HAA12657 for nomic-discussion-outgoing; Fri, 25 Jul 1997 07:37:38 -0700 (PDT)
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11]) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id HAA12638 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 07:37:35 -0700 (PDT)
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.62 #6)
+	id 0wrlUm-0001oS-00; Fri, 25 Jul 1997 15:37:28 +0100
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.62 #1)
+	id 0wrlUm-0000Qw-00; Fri, 25 Jul 1997 15:37:28 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: PROTO: Entity Classes
+In-Reply-To: <3.0.1.16.19970724122906.2ca790ca@cyber1.servtech.com>
+References: <s3d72c85.079@rmv.state.ma.us>
+	<9707241656.AA23107@dfw.dfw.net>
+	<3.0.1.16.19970724122906.2ca790ca@cyber1.servtech.com>
+X-Mailer: VM 6.31 under Emacs 19.34.1
+Message-Id: <E0wrlUm-0000Qw-00@merganser.cl.cam.ac.uk>
+Date: Fri, 25 Jul 1997 15:37:28 +0100
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1888
+Status: N
+
+Chaos Harlequin writes:
+> At 11:56 AM 7/24/97 -0500, Charles E. Carroll wrote:
+ 
+>> In his arguments, Judge Michael reasoned that a certain entity
+>> which, according to the Rules, was to be "known as the Nomic
+>> Potato", was not *named* the Nomic Potato.  Now, R!596 can
+>> conceivably be argued otherwise, since it uses the term "called"
+>> rather than "known as", but I believe the same reasoning applies.
+ 
+> Echoes of Lewis Carroll... anyone have a record of the relevant
+> passage, the one about a song's name being different from what it
+> was called?
+ 
+Well spotted that man.  The passage in question is from "Through the
+looking glass" and is where the White Knight is talking about the song
+he sings to Alice. 
+
+Michael 
+
+----------------------------------------------------------------------
+
+(With thanks to the Project Gutenberg)
+
+It's long,' said the Knight, `but very, VERY beautiful.  Everybody
+that hears me sing it--either it brings the TEARS into their eyes, or
+else--'
+
+  `Or else what?' said Alice, for the Knight had made a sudden pause.
+
+  `Or else it doesn't, you know.  The name of the song is called
+"HADDOCKS' EYES."'
+
+  `Oh, that's the name of the song, is it?' Alice said, trying to feel
+interested.
+
+  `No, you don't understand,' the Knight said, looking a little vexed.
+`That's what the name is CALLED.  The name really IS "THE AGED AGED
+MAN."'
+
+  `Then I ought to have said "That's what the SONG is called"?'  Alice
+corrected herself.
+
+  `No, you oughtn't: that's quite another thing!  The SONG is called
+"WAYS AND MEANS": but that's only what it's CALLED, you know!'
+
+  `Well, what IS the song, then?' said Alice, who was by this time
+completely bewildered.
+
+  `I was coming to that,' the Knight said.  `The song really IS
+"A-SITTING ON A GATE": and the tune's my own invention.'
+
+----------------------------------------------------------------------
+ 
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 10:58 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA12120 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 10:58:30 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id HAA24444; Fri, 25 Jul 1997 07:57:41 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 07:57:40 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id HAA24433 for nomic-discussion-outgoing; Fri, 25 Jul 1997 07:57:38 -0700 (PDT)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19]) by greta.teleport.com (8.8.5/8.7.3) with SMTP id HAA24408 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 07:57:33 -0700 (PDT)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 25 Jul 1997 11:01:57 -0400
+Message-Id: <s3d887a5.015@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 25 Jul 1997 11:01:19 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: PROTO: Entity Classes
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain
+Content-Length: 1169
+Status: N
+
+Re: BUS: PROTO: Entity Classes
+
+Steve wrote:
+
+>Granted, but this is a problem only if one absolutely insists that
+>Proposals, Rules, Applications, SLCs, Opinions, PC Orders and such
+>like be granted the status of Nomic Entities. There are two reasons
+>why one might want to drop such an insistence:
+
+>(1) You might want to reserve the tag 'Nomic Entity' for such things
+>as Kudos, Currencies, Patent Titles, Winner's Cups and Locations, none
+>of which are (associated with) bodies of text.
+
+>(2) You might want to get rid of the concept of 'Nomic Entity' entirely.
+>After all, what does it matter whether an Application is a Nomic Entity
+>or not? None of its Nomic Properties can be changed except by procedures
+>specified in the Rules, and none of its non-Nomic properties (eg who wrote
+>it and when) can be changed at all, and faking them for the purposes
+>of deception is quite difficult, as we've discussed in another context.
+
+>If you like (1), then I've got a nice new definition of Nomic Entity
+>for you: a Nomic Entity is an Entity all of whose properties are
+>Nomic Properties.
+
+I like (2), but I think that's a great definition of Nomic Entity.  8)
+
+-- Crito
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 11:00 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA12145 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 11:00:03 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id HAA23630; Fri, 25 Jul 1997 07:54:58 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 07:54:41 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id HAA23490 for nomic-discussion-outgoing; Fri, 25 Jul 1997 07:54:38 -0700 (PDT)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19]) by greta.teleport.com (8.8.5/8.7.3) with SMTP id HAA23457 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 07:54:32 -0700 (PDT)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 25 Jul 1997 10:58:57 -0400
+Message-Id: <s3d886f1.013@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 25 Jul 1997 10:58:19 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic-discussion@teleport.com
+Subject: Re: Kolja wrote:
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain
+Content-Length: 469
+Status: N
+
+Re: Kolja wrote:
+
+>>> Scott Goehring <scott@poverty.bloomington.in.us> 07/25/97 12:48am >>>
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> Scott has made a good defense of e, which I won't repeat here.
+
+What's "e"?
+>>> Scott Goehring <scott@poverty.bloomington.in.us> 07/25/97 12:48am >>>
+--------------
+
+"e" is the argument that the Rules of Pragmatic Currencies do not give the
+names "Payment Order" or "Transfer Order" to any entity.
+
+-- Crito
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 11:28 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA12894 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 11:28:51 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id IAA05168; Fri, 25 Jul 1997 08:27:01 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 08:26:37 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id IAA05075 for nomic-discussion-outgoing; Fri, 25 Jul 1997 08:26:36 -0700 (PDT)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19]) by greta.teleport.com (8.8.5/8.7.3) with SMTP id IAA05063 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 08:26:31 -0700 (PDT)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 25 Jul 1997 11:30:57 -0400
+Message-Id: <s3d88e71.032@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 25 Jul 1997 11:30:34 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: PROTO: Entity Classes
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain
+Content-Length: 1955
+Status: N
+
+Re: BUS: PROTO: Entity Classes
+
+Morendil wrote:
+
+>> (2) You might want to get rid of the concept of 'Nomic Entity' entirely.
+>> After all, what does it matter whether an Application is a Nomic Entity
+>> or not? None of its Nomic Properties can be changed except by procedures
+>> specified in the Rules, and none of its non-Nomic properties (eg who wrote
+>> it and when) can be changed at all, and faking them for the purposes
+>> of deception is quite difficult, as we've discussed in another context.
+
+>Oh hey, I disagree with that - I pointed this out some time ago but it
+>failed to elicit much comment. Suppose that you are Notary and I send
+>you a Will - on paper. (This is to avoid the problem raised by 'a
+>body of text' in the context of mail messages, since such a body of
+>text is duplicated several times while being transported over the Net.)
+
+>Now the contents of a given 'body ot text' are not a Nomic Property,
+>right ? So what's to prevent you from scratching out the line where
+>I leave all of my precious Cat Foods to MFO and adding a line which
+>says that you are to be the beneficiary of this heritage ?
+
+Same problem in RL.  I submit my time sheet to my client but it has a mistake
+on it, which e points out.  I scratch out the mistake, initial it and give it
+back to em.  It's not until that body of text is given legal significance that
+I have to worry about preventing changes to it.  That happens when the body of
+text takes on some other property - it's put in a particular location, or it's
+officially recorded in some other medium.
+
+The problem of some unscrupulous Officer changing the document before or after
+it has taken on legal significance in Agora is the same whether you keep the
+Nomic Entity distinction or not.  Although it may be true that some non-Nomic
+properties might be more easily altered (illegally) than Steve suggests, if you
+don't take advantage of the built in redundancy of the e-mail system.
+
+-- Crito
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 11:38 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA13102 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 11:38:45 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id IAA09829; Fri, 25 Jul 1997 08:37:54 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 08:37:45 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id IAA09746 for nomic-discussion-outgoing; Fri, 25 Jul 1997 08:37:42 -0700 (PDT)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19]) by greta.teleport.com (8.8.5/8.7.3) with SMTP id IAA09696 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 08:37:32 -0700 (PDT)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 25 Jul 1997 11:41:57 -0400
+Message-Id: <s3d89105.038@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 25 Jul 1997 11:41:18 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic-discussion@teleport.com
+Subject: Re: OFF: (CotC) 930 - Kolja's strategy
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain
+Content-Length: 1130
+Status: N
+
+Re: OFF: (CotC) 930 - Kolja's strategy
+
+Kolja A. wrote:
+
+>Crito wrote:
+
+>In defense of d, it is not an improvised
+>patch but a result of a close look at R1586.  It may go against the intuitive,
+>common sense way in which one would normally handle NEs (I agree), but that is
+>the way R1586 defines NEs.  Note your own statement above which I underlined. 
+>R1586 clearly states that an NE is something that exists only due to the Rules
+>defining it.
+
+>You caught me with that remark and the underlined part of my own
+>statement ;). And I admit that your d (and e) may also be possible
+>ways to spoil MMM. I'm not saying that the one I outlined is the only
+>feasible one, I would just prefer it for style reasons, and to
+>minimize the risk of creating new loopholes (and unintuitive ways of
+>dealing with names and NEs), as I stated above.
+
+Fair enough.  But I would point out that argument "d" doesn't create any new
+loopholes, it merely takes advantage of one that already exists.  As long as
+R1586 exists in its current form, the risk of Players using that loophole is
+the same whether you use "d" to spoil MMM or not.
+
+-- Crito
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 14:15 EDT 1997
+Received: from portia.teleport.com ([192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA17747 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 14:15:37 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id LAA00583; Fri, 25 Jul 1997 11:14:54 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 11:14:51 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id LAA00526 for nomic-discussion-outgoing; Fri, 25 Jul 1997 11:14:50 -0700 (PDT)
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33]) by portia.teleport.com (8.8.5/8.7.3) with SMTP id LAA00397 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 11:14:18 -0700 (PDT)
+Received: (qmail 13556 invoked from network); 25 Jul 1997 18:13:11 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 25 Jul 1997 18:13:11 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA17943; Fri, 25 Jul 1997 20:13:10 +0200
+Date: Fri, 25 Jul 1997 20:13:10 +0200
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9707251813.AA17943@spinup.tp3.ruhr-uni-bochum.de>
+To: nomic-discussion@teleport.com
+In-Reply-To: <3.0.1.16.19970724155141.2c97166e@cyber1.servtech.com> (message from Chaos Harlequin on Thu, 24 Jul 1997 15:51:41)
+Subject: Re: BUS: PROTO:No more nomic entities, and sensible names
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 1909
+Status: N
+
+Harlequin:
+>>
+At 09:13 PM 7/24/97 +0200, Klaus Herrmanns NB6_25 (3751) wrote:
+
+>Isn't that just a tautology? Basically it says, an entity that only
+>exists under condition X ceases to exist when condition X ceases to
+>hold. So what is the information (or legal) content of the sentence? 
+
+Perhaps "...came into being due solely to the Rules..." would be better in
+that case. 
+<<
+
+But that's a difference that came up quite often now: for example, it
+was argued that the MMM currencies were _created_ not just according
+to the rules (because Morendil's actions, and some decisions of eir,
+like naming the new currency, were required, too), but that they
+continued to exist only due to the rules (because as soon as the
+relevant rules are repealed, they cease to exist).
+
+I think for a proper definition of NEs (if we still need the concept at
+all) we should not put so much emphasis on the metaphysical or
+ontological aspect of NEs, but on the practical purpose of this
+definition. NEs are defined so they can be protected against unwanted
+manipulations. So they should somehow be defined as such: entities
+which play a role in Agora and which should be protected from
+unregulated manipulations.
+
+InterNomic takes a much more direct approach to that:
+
+>>
+Rule 323/0 (Mutable)
+
+It is forbidden to alter the essentials of the game state except as is
+explicitly or implicitly permitted by a rule or a set of rules. The
+essentials of the game state consist of the rules themselves, the
+scores of the member nomics, the proposals, the votes cast on
+proposals, the statements for judgement and verdicts returned upon
+them, and anything else so designated by some rule. No other things
+are included in the essentials of the game state.  
+<<
+
+Maybe not so elegant, and less flexible in case some of these
+"essentials" are abolished or substantially changed, but the purpose
+of the rule becomes much clearer.
+
+Kolja A.
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 14:44 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA18478 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 14:44:09 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id LAA06806; Fri, 25 Jul 1997 11:42:07 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 11:42:02 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id LAA06754 for nomic-discussion-outgoing; Fri, 25 Jul 1997 11:41:59 -0700 (PDT)
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33]) by greta.teleport.com (8.8.5/8.7.3) with SMTP id LAA06727 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 11:41:54 -0700 (PDT)
+Received: (qmail 15197 invoked from network); 25 Jul 1997 18:41:50 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 25 Jul 1997 18:41:50 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA13090; Fri, 25 Jul 1997 20:41:48 +0200
+Date: Fri, 25 Jul 1997 20:41:48 +0200
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9707251841.AA13090@spinup.tp3.ruhr-uni-bochum.de>
+To: nomic-discussion@teleport.com
+In-Reply-To: <199707160320.NAA29813@aurora.cc.monash.edu.au> (message from Steve Gardner on Wed, 16 Jul 1997 13:20:43 +1000 (EST))
+Subject: Re: Steve's Metaphysical Manifesto
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 3757
+Status: N
+
+In the whole discussion around Steve's Metaphysical Manifesto I am
+beginning to think that the real issue (at least the issue relevant to
+Agora) is not so much one of meta_physics_ (in which way do Agora
+related entities exist?) but one of meta_rules_, mostly concerned with
+attempts to cheat.
+
+I am quite willing to follow Steve's argument and accept that Agora
+entities are not more virtual or Platonic than the items used to
+reperesent money in ftf games of Poker or Monopoly.
+
+But what we are discussing a lot in this context is what constitutes
+cheating or stealing, and in particular, successful cheating or
+stealing. 
+
+Various differences between an eMail and a ftf game have been
+mentioned: game complexity, tokens that can be held in hand or must be
+chased through a huge number of data files all over the world etc.
+
+But more important is the difference in metarules (if there is one,
+that is). In ftf games it is usually considered fair (metarule) not to
+steal game money from a player while e is absent. The same normally
+holds for other manipulations of eir game pieces, records etc; for
+accessing hidden information (like face down cards) of the absent
+player; present players discussing strategy or making secret plans
+against the absent player etc. A similar example are metarules that
+govern the behavior of players who are also bankkeepers or have other
+functions (don't mix your own money and the bank's, etc).
+
+What are the analogous metarules in Agora? And what is more
+interesting: isn't the dividing line between ordinary rules listed
+explicitly in the rules and the unspoken metarules drawn differently
+in family board games and in eMail games such as Agora? (Someone also
+mentioned that such "metarules" are explicit in "serious" tournament
+card games like bridge). For example all the rekordkeeping for
+currencies is much more explicitly regulated in Agora than in
+Monopoly.
+
+There are several reasons for these different approaches to metarules:
+
+- deliberate attempts to cheat are more difficult to detect in an
+eMail game than ftf, especially when attempted by recordkeepors and
+the like. Some have argued against this, but:
+
+- same goes for unintentional mistakes (lost mails, wrong rule
+interpretations...) - and even that happens often enough!
+
+- technical differences in recordkeeping (physical tokens you can hold
+in your hand vs electronically stored information) - hence the
+importance of naming entities properly. A naming conflict as in MMM
+would not be a problem in ftf games, you could just point to the
+different tokens and say "this here thingy" - or you could see that
+two players are giving different names to the same thing. Not so easy
+in an eMail game where (written) language is the only means of
+communication and recordkeeping.
+
+- interest of the players: in family board games (usually) noone is
+interested in exploring potential ways to cheat successfully, abuse
+loopholes in the rules etc. And if someone does and is caught that is
+considered a breach of some metarules and punished outside of the game
+("I'm not going to play with you anymore !") In Agora, doing the same
+thing is part of the fun, and punished (I hope :) only within the
+game, for example via the Kudo system - Morendil lost a lot of these
+recently, didn't he? But he still made a very valid contribution to
+the game and the general enjoyment of it all.
+
+Morale: I think that some of our discussions, especially in the conceptual
+difficulties raised by MMM, would be easier to phrase in terms of game
+design, meta rules etc and the concepts behind them - instead of
+metaphysical or philosophical discussions that do not lead to more
+clarity (sorry if some scientists' prejudice comes through here, I'll
+stop rambling 
+
+NOW.)
+
+Kolja A.
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 16:49 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA21555 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 16:49:10 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id NAA11718; Fri, 25 Jul 1997 13:48:34 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 13:48:31 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id NAA11688 for nomic-discussion-outgoing; Fri, 25 Jul 1997 13:48:29 -0700 (PDT)
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id NAA11663 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 13:48:24 -0700 (PDT)
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id QAA26545 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 16:48:17 -0400 (EDT)
+Message-Id: <3.0.1.16.19970725152157.2ee77f0e@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Fri, 25 Jul 1997 15:21:57
+To: nomic-discussion@teleport.com
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: OFF: (CotC) 930 - Kolja's strategy
+In-Reply-To: <9707251319.AA16196@spinup.tp3.ruhr-uni-bochum.de>
+References: <199707242058.WAA02724@logatome.micronet.fr>
+Mime-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 934
+Status: N
+
+At 03:19 PM 7/25/97 +0200, Klaus Herrmanns NB6_25 (3751) wrote:
+
+>And I dislike them because I would prefer to accept the situation
+>created by steps 1 and 2 as I described them and then spoil MMM later,
+>by a suitable application of 1586 in step 3. This seems to me to be a
+>little less improvised.
+
+As Chuck mentioned, though, the "name" method already has Judicial
+Precedent. While it may be unpleasant (I'm not too sure of it, myself) it's
+a perfectly acceptable way to handle the issue.
+
+>like shooting sparrows with cannonballs (is there a saying like that
+>in English?), 
+
+I usually hear it with "flies" and "bazookas."
+
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 16:49 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA21559 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 16:49:14 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id NAA11734; Fri, 25 Jul 1997 13:48:36 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 13:48:34 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id NAA11705 for nomic-discussion-outgoing; Fri, 25 Jul 1997 13:48:32 -0700 (PDT)
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id NAA11669 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 13:48:26 -0700 (PDT)
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id QAA26559 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 16:48:22 -0400 (EDT)
+Message-Id: <3.0.1.16.19970725153120.20a7e99a@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Fri, 25 Jul 1997 15:31:20
+To: nomic-discussion@teleport.com
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: BUS: PROTO: Entity Classes
+In-Reply-To: <33D85CB8.F77@micronet.fr>
+References: <199707250453.OAA25698@aurora.cc.monash.edu.au>
+Mime-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 1502
+Status: N
+
+At 09:58 AM 7/25/97 +0200, Laurent Bossavit wrote:
+
+>Now the contents of a given 'body ot text' are not a Nomic Property,
+>right ? So what's to prevent you from scratching out the line where
+>I leave all of my precious Cat Foods to MFO and adding a line which
+>says that you are to be the beneficiary of this heritage ?
+
+Because then it's not the same body of text, it's a similar yet different
+one. If you submit a body of text, and submit it, that cements its
+existence, WRT Agora, in that form. If the player you send it to changes
+it, then posts the new version to the PF as your document, it's not the
+same body of text -- it's a similar one, but not the same. The only way the
+body of text gains Nomic Properties is for you to submit it in a specific
+manner, and since the text e posts is not the text you submitted, it does
+not have those Nomic Properties.
+
+The only way you can change the contents of a body of text and have it
+retain the Nomic Properties it has is if the Rules specifically let you --
+otherwise, you're just creating a new body of text, without such
+Properties. Of course, this allows you to change the document as much as
+you want before it gains any Nomic Properties.
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 16:51 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA21634 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 16:51:03 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id NAA26695; Fri, 25 Jul 1997 13:49:58 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 13:49:55 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id NAA26660 for nomic-discussion-outgoing; Fri, 25 Jul 1997 13:49:53 -0700 (PDT)
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id NAA26555 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 13:49:37 -0700 (PDT)
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id QAA26569 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 16:48:26 -0400 (EDT)
+Message-Id: <3.0.1.16.19970725153900.2baf190e@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Fri, 25 Jul 1997 15:39:00
+To: nomic-discussion@teleport.com
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: OFF: Virus Report for Nomic Week of Jul. 21
+In-Reply-To: <9707251931.AA27159@dfw.dfw.net>
+Mime-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 532
+Status: N
+
+At 02:31 PM 7/25/97 -0500, Charles E. Carroll wrote:
+>This one could be interesting...
+
+Hmmm. I hope no one was planning on going On Hold soon... 
+
+Well. Finally the New And Improved Virus actually does something significant.
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 17:19 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA22242 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 17:19:57 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id OAA01911; Fri, 25 Jul 1997 14:19:27 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 14:19:25 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id OAA01892 for nomic-discussion-outgoing; Fri, 25 Jul 1997 14:19:24 -0700 (PDT)
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id OAA01783 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 14:19:09 -0700 (PDT)
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.5/8.8.5) with SMTP id OAA09908
+	for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 14:18:15 -0700 (PDT)
+Received: from localhost by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id OAA16892; Fri, 25 Jul 1997 14:18:15 -0700
+Date: Fri, 25 Jul 1997 14:18:15 -0700 (PDT)
+From: Ross Morgan-Linial <rmorganl@fred.fhcrc.org>
+X-Sender: rmorganl@fred
+To: nomic-discussion@teleport.com
+Subject: Re: OFF: Virus Report for Nomic Week of Jul. 21
+In-Reply-To: <3.0.1.16.19970725153900.2baf190e@cyber1.servtech.com>
+Message-ID: <Pine.GSO.3.95.970725141501.16112A-100000@fred>
+MIME-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Length: 526
+Status: N
+
+On Fri, 25 Jul 1997, Chaos Harlequin wrote:
+
+// Hmmm. I hope no one was planning on going On Hold soon... 
+
+What about Off Hold? :-(
+
+// Well. Finally the New And Improved Virus actually does something significant.
+
+I have an idea for an "improvement" to the Virus... to make it more like a
+*real* virus. Boom! HA HA HA HA HA!
+
+Sorry, I occasionally lapse back to my Mad Scientist days :-)
+
+------
+Ross Morgan-Linial * rmorganl@fhcrc.org
+
+Any man who goes to a psychiatrist ought to have his head examined.
+ - Samuel Goldwyn
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 18:59 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA24243 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 18:59:32 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id PAA03690; Fri, 25 Jul 1997 15:58:41 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 15:58:38 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id PAA03661 for nomic-discussion-outgoing; Fri, 25 Jul 1997 15:58:38 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-4-19.ucs.indiana.edu [129.79.18.79]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id PAA03644 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 15:58:34 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id RAA23846 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 17:58:29 -0500
+Message-Id: <199707252258.RAA23846@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: Steve's Metaphysical Manifesto 
+In-reply-to: Your message of "Fri, 25 Jul 1997 20:41:48 +0200."
+             <9707251841.AA13090@spinup.tp3.ruhr-uni-bochum.de> 
+Date: Fri, 25 Jul 1997 17:58:26 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 210
+Status: N
+
+Just a comment, on the cheating issue...
+
+In the game Illuminati (an excellent game from Steve Jackson Games),
+there is a rule that states that "Cheating is permitted, as long as
+you can get away with it."
+
+:)
+
+From owner-nomic-discussion@teleport.com Fri Jul 25 21:53 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA27034 for <dpb@cs.brown.edu>; Fri, 25 Jul 1997 21:53:04 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id SAA16155; Fri, 25 Jul 1997 18:52:35 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Fri, 25 Jul 1997 18:52:34 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id SAA16147 for nomic-discussion-outgoing; Fri, 25 Jul 1997 18:52:33 -0700 (PDT)
+Received: from albeniz.orchestra.cse.unsw.EDU.AU (albeniz.orchestra.cse.unsw.EDU.AU [129.94.242.13]) by portia.teleport.com (8.8.5/8.7.3) with SMTP id SAA16140 for <nomic-discussion@teleport.com>; Fri, 25 Jul 1997 18:52:30 -0700 (PDT)
+Received: From goanna With LocalMail ; Sat, 26 Jul 97 11:52:26 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: nomic-discussion@teleport.com
+Date: Sat, 26 Jul 1997 11:52:25 +1000 (EST)
+Message-Id:  <970726015225.24866@cse.unsw.edu.au>
+Subject: Re: BUS: PROTO: Entity Classes
+In-Reply-To: <3.0.1.16.19970724122906.2ca790ca@cyber1.servtech.com> from "Chaos Harlequin" at Jul 24, 97 12:29:06 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2160
+Status: N
+
+> 
+> At 11:56 AM 7/24/97 -0500, Charles E. Carroll wrote:
+> 
+> >In his arguments, Judge Michael reasoned that a certain entity 
+> >which, according to the Rules, was to be "known as the Nomic 
+> >Potato", was not *named* the Nomic Potato.  Now, R!596 can 
+> >conceivably be argued otherwise, since it uses the term 
+> >"called" rather than "known as", but I believe the same
+> >reasoning applies.
+> 
+> Echoes of Lewis Carroll... anyone have a record of the relevant passage,
+> the one about a song's name being different from what it was called?
+
+_Through_the_Looking_Glass_, Chapter VIII "It's My Own Invention"
+
+  "The name of the song is called `Haddock's eyes'."
+
+  "Oh, that's the name of the song, is it?" Alice said, trying to feel
+   interested.
+
+  "No, you don't understand." the Knight said, looking a little vexed.
+  "That's what the name of the song is _called_. The name real _is_ 
+   'The Aged Aged Man'."
+
+  "Then I ought to have said `That's what the _song_ is called'?" Alice
+   corrected herself.
+
+  "No, you oughtn't: that's quite another thing! The _song_ is called
+   `Ways and Means': but that's only what it is _called_, you know!"
+
+  "Well, what _is_ the song, then?" said Alice, who was by this time
+   completely bewildered.
+
+  "I was coming to that." the Knight said. "The song really _is_ `A-sitting
+   On A Gate': and the tune's my own invention."
+
+Of course, as Roger Holmes points out, the Knight was wrong, the song is 
+_not_ really `A-sitting On A Gate' at all. This is just other name. He
+should really have said "the song is..." and then burst into the song itself.
+(Which is, needless to say, very, very beautiful. Everybody that hears
+ it - either it brings teats into their eyes, or else...)
+
+Blob
+
+PS: ... or else it doesn't, you know.
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+   "Don't accept that what's happening is just a case of others' suffering
+          Or you'll find that you're joining in The Turning Away." 
+                                                                  - Pink Floyd
+

@@ -1,0 +1,327 @@
+From blahedo Tue Sep 20 23:44:48 1994
+Return-Path: <blahedo>
+Message-Id: <m0qnJXv-000lyDC@Shamino.quincy.edu>
+From: blahedo (Don Blaheta)
+Subject: New proto
+To: nomic-discussion@teleport.com
+Date: Tue, 20 Sep 1994 23:44:43 -0500 (CDT)
+Cc: blahedo (Don Blaheta)
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+Content-Length: 832       
+Status: RO
+
+I believe that the Mark deficit should *NOT* be repudiated, and so to
+make up some of the difference, I proto the following:
+
+Proto-PROPOSAL DB7  (Vanyel)
+Nomic Taxes
+(Creates a Rule)
+
+Exactly once every Nomic Week, the Banker shall deduct .05 Mark from the
+Account of every Player who has more than 1 Mark.  These deducted Marks
+shall be added to the Bank.  
+
+***END PROTO
+
+This will provide a method (albeit slow) of returning Marks to the Bank.
+The .05 Mark seemed sufficiently low... although that can be modified.
+The 1 Mark minimum is there to prevent players "living in abject poverty"
+from having to pay taxes.
+
+At any rate, we need some way of returning Marks to the Bank without
+repudiating the debt.  I also thought, perhaps, that a percentage tax
+might work, but that would be up to you guys. (gals, its, etc.)
+
+Vanyel
+
+
+From mizar.astro.indiana.edu!poverty!kelly Wed Sep 21 00:13:23 1994
+Return-Path: <poverty!kelly@mizar.astro.indiana.edu>
+Received: from poverty by mizar.astro.indiana.edu with uucp
+	(Smail3.1.28.1 #7) id m0qnK0u-0001QVC; Wed, 21 Sep 94 00:14 EST
+Received: by poverty.bloomington.in.us (V1.17-beta/Amiga)
+	  id <121w@poverty.bloomington.in.us>; Wed, 21 Sep 94 00:11:24 EST
+Date: Wed, 21 Sep 94 00:11:24 EST
+Message-Id: <9409210511.121w@poverty.bloomington.in.us>
+In-reply-to: Don Blaheta's message of Tue, 20 Sep 1994 23:44:43 -0500 (CDT) <m0qnJXv-000lyDC@Shamino.quincy.edu>
+From: kelly@poverty.bloomington.in.us (Kelly Martin)
+To: nomic-discussion@teleport.com
+Cc: nomic-discussion@teleport.com, blahedo@quincy.edu
+Subject: Re: New proto
+Status: RO
+
+"Don" == Don Blaheta <blahedo@quincy.edu> writes:
+
+Don> Exactly once every Nomic Week, the Banker shall deduct .05 Mark
+Don> from the Account of every Player who has more than 1 Mark.  These
+Don> deducted Marks shall be added to the Bank.
+
+eek!  a tax!  and not only that, but a regressive tax!
+
+i'd rather see a 1% per week tax than a flat tax.  this would be a way
+of dealing with mark inflation, however.  if you want to give poverty
+protection, make it 1% per week, with the first mark exempt _for
+players only_.  groups get no tax break.  groups should definitely
+have to pay any tax that players have to pay; else everyone will
+transfer all their marks into their group treasuries.
+
+we also need to stop destroying marks when players leave the game.  i
+would rather see these transferred to the Bank.
+
+k.
+--
+kelly martin                                 <kelly@poverty.bloomington.in.us>
+GCS/M/O -d+(x) H+ s+:- g+? p? au-- !a w++ v+(*) C+(++) U P+++ L 3- E++ N++ K--
+        !W--- M-- V -po+(--) Y+ t+(++) !5 j R@ G? tv b++>+++$ !D B-- e+ u+ h----
+        f- r+++ n---- z++++*
+
+
+From teleport.com!nomic-discussion-owner Wed Sep 21 00:46:35 1994
+Return-Path: <nomic-discussion-owner@teleport.com>
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.11]) by teleport.com (8.6.9/8.6.9) with ESMTP id WAA16042 for <nomic-discussion-outgoing>; Tue, 20 Sep 1994 22:38:20 -0700
+Received: from Shamino.quincy.edu (root@shamino.quincy.edu [192.217.45.2]) by teleport.com (8.6.9/8.6.9) with SMTP id WAA16025 for <nomic-discussion@teleport.com>; Tue, 20 Sep 1994 22:38:11 -0700
+Message-Id: <m0qnKMF-000ly6C@Shamino.quincy.edu>
+From: blahedo@quincy.edu (Don Blaheta)
+Subject: Re: New proto, Take II
+To: nomic-discussion@teleport.com
+Date: Wed, 21 Sep 1994 00:36:43 -0500 (CDT)
+In-Reply-To: <m0qnJXv-000lyDC@Shamino.quincy.edu> from "Don Blaheta" at Sep 20, 94 11:44:43 pm
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+Content-Length: 665       
+Sender: owner-nomic-discussion@teleport.com
+Precedence: bulk
+Reply-To: nomic-discussion@teleport.com
+Status: RO
+
+Well, I had my own doubts about it, but wasn't sure whether a regressive
+tax fit the bill.  (heh)  SO here is the re-proto.
+
+Proto-PROPOSAL DB7  (Vanyel)
+Nomic Taxes
+(Creates a Rule)
+
+Exactly once every Nomic Week, the Banker shall deduct 1% from the 
+Mark Accounts of all Players and Groups, and any other Mark-Possessing 
+Entities except the Bank.  Players who have 1 Mark or less are exempt
+from this requirement.  All proceeds from this Tax shall be added to
+the Bank.
+
+***END PROTO
+
+proto history:
+1st protoed 9/20 12:20AM CDT
+revised 9/20 12:35AM CDT
+
+And, as a companion to this:
+
+Proto-PROPOSAL DB8  (Vanyel)
+Destruction of Marks
+(Amends a Rule)
+
+
+
+Vanyel
+
+
+From teleport.com!nomic-discussion-owner Wed Sep 21 01:49:45 1994
+Return-Path: <nomic-discussion-owner@teleport.com>
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.11]) by teleport.com (8.6.9/8.6.9) with ESMTP id XAA20477 for <nomic-discussion-outgoing>; Tue, 20 Sep 1994 23:42:41 -0700
+Received: from mizar.astro.indiana.edu (mizar.astro.indiana.edu [129.79.160.43]) by teleport.com (8.6.9/8.6.9) with SMTP id XAA20449 for <nomic-discussion@teleport.com>; Tue, 20 Sep 1994 23:42:24 -0700
+Received: from poverty by mizar.astro.indiana.edu with uucp
+	(Smail3.1.28.1 #7) id m0qnLNl-0001QLC; Wed, 21 Sep 94 01:42 EST
+Received: by poverty.bloomington.in.us (V1.17-beta/Amiga)
+	  id <123p@poverty.bloomington.in.us>; Wed, 21 Sep 94 01:33:20 EST
+Date: Wed, 21 Sep 94 01:33:20 EST
+Message-Id: <9409210633.123p@poverty.bloomington.in.us>
+In-reply-to: Don Blaheta's message of Wed, 21 Sep 1994 00:36:43 -0500 (CDT) <m0qnKMF-000ly6C@Shamino.quincy.edu>
+From: kelly@poverty.bloomington.in.us (Kelly Martin)
+To: nomic-discussion@teleport.com
+Cc: nomic-discussion@teleport.com
+Subject: Re: New proto, Take II
+Sender: owner-nomic-discussion@teleport.com
+Precedence: bulk
+Reply-To: nomic-discussion@teleport.com
+Status: RO
+
+"Don" == Don Blaheta <blahedo@quincy.edu> writes:
+
+Don> Exactly once every Nomic Week, the Banker shall deduct 1% from
+Don> the Mark Accounts of all Players and Groups, and any other
+Don> Mark-Possessing Entities except the Bank.  Players who have 1
+Don> Mark or less are exempt from this requirement.  All proceeds from
+Don> this Tax shall be added to the Bank.
+
+this is reasonably close to what i'd like, although i would write it
+as
+
+      At noon GMT on Monday of each Nomic Week, a tax of 1% of all
+      Marks held by Players in excess of 1.00 Mark, and of 1% of all
+      Marks held by all non-Player Entities excluding the Bank, shall
+      be levied.  This tax shall be collected by the Banker, and all
+      revenues resulting from this tax shall be deposited in the Bank.
+
+1% per week results in a 50% depletion in 69 weeks -- in other words,
+after 69 weeks the Bank will have collected 50% of the Marks held by
+Players as taxes (the actual value is close to 68.9675639).  each
+doubling of the percentage halves this depletion time.  a 5% rate will
+make the 50% depletion time roughly 13.5 weeks, or just about three
+months.
+
+i haven't received any of the Banker's records yet so i can't say how
+many Marks there are out there, as well as the total quantity of Marks
+held in arrears.  as soon as i know these data it will be easier for
+me to recommend a tax rate.
+
+k.
+--
+kelly martin                                 <kelly@poverty.bloomington.in.us>
+GCS/M/O -d+(x) H+ s+:- g+? p? au-- !a w++ v+(*) C+(++) U P+++ L 3- E++ N++ K--
+        !W--- M-- V -po+(--) Y+ t+(++) !5 j R@ G? tv b++>+++$ !D B-- e+ u+ h----
+        f- r+++ n---- z++++*
+
+
+From teleport.com!nomic-discussion-owner Fri Sep 23 03:07:10 1994
+Return-Path: <nomic-discussion-owner@teleport.com>
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.11]) by teleport.com (8.6.9/8.6.9) with ESMTP id AAA01215 for <nomic-discussion-outgoing>; Fri, 23 Sep 1994 00:57:39 -0700
+Received: from rockall.cent.gla.ac.uk (901732ca@rockall-34.cent.gla.ac.uk [130.209.34.10]) by teleport.com (8.6.9/8.6.9) with ESMTP id AAA01199 for <nomic-discussion@teleport.com>; Fri, 23 Sep 1994 00:57:29 -0700
+Message-Id: <24138.199409230757@rockall.cent.gla.ac.uk>
+From: Leigh Blue Caldwell <901732ca@udcf.gla.ac.uk>
+Received: (from 901732ca@localhost sender 901732ca) by rockall.cent.gla.ac.uk (8.6.9/UK-2.2a/rockall) id IAA24138 for nomic-discussion@teleport.com; Fri, 23 Sep 1994 08:57:20 +0100
+Subject: Re: New proto, Take II
+To: nomic-discussion@teleport.com
+Date: Fri, 23 Sep 1994 08:57:20 +0100 (BST)
+In-Reply-To: <m0qnKMF-000ly6C@Shamino.quincy.edu> from "Don Blaheta" at Sep 21, 94 00:36:43 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 1388      
+Sender: owner-nomic-discussion@teleport.com
+Precedence: bulk
+Reply-To: nomic-discussion@teleport.com
+Status: RO
+
+Don Blaheta wrote:
+> 
+> Well, I had my own doubts about it, but wasn't sure whether a regressive
+> tax fit the bill.  (heh)  SO here is the re-proto.
+> 
+> Proto-PROPOSAL DB7  (Vanyel)
+> Nomic Taxes
+> (Creates a Rule)
+> 
+> Exactly once every Nomic Week, the Banker shall deduct 1% from the 
+> Mark Accounts of all Players and Groups, and any other Mark-Possessing 
+> Entities except the Bank.  Players who have 1 Mark or less are exempt
+> from this requirement.  All proceeds from this Tax shall be added to
+> the Bank.
+> 
+> ***END PROTO
+> 
+
+One point I would make is that the tax should be on only the portion
+of accounts over 1 Mark.  This reflects the way income taxes work in
+the UK and (I presume) most other countries.  In this case, it
+hardly matters, but on general principles it should be this way so
+as not to discourage wealth creation.  In our taxation system, for
+example, incomes up to about UK#5000 are untaxed, the next #25000 or
+so are taxed at 25%, and those over #30000 are taxed at 40%.  If the 
+system worked like DB7, when someone's salary increased from 29000
+to 30000, their net income would go from 21750 to 18000.  But only
+the part actually over #30000 is taxed at 40%, so your net income
+never goes down when your gross goes up.
+
+If we are ever going to expand the taxation system, this might
+become important, so we should set the right precedent now.
+
+	Blue
+
+
+From MAILER-DAEMON Wed Sep 28 12:33:30 1994
+Return-Path: <MAILER-DAEMON>
+Message-Id: <m0qq2sf-000mV3C@Shamino.quincy.edu>
+Date: Wed, 28 Sep 94 12:33 CDT
+From: <MAILER-DAEMON@quincy.edu>
+To: blahedo
+Subject: mail failed, returning to sender
+Reference: <m0qq2se-000mV2C@Shamino.quincy.edu>
+Status: RO
+
+|------------------------- Message log follows: -------------------------|
+ no valid recipients were found for this message
+|------------------------- Failed addresses follow: ---------------------|
+ ccarroll@student.wisc.edu ... unknown host
+|------------------------- Message text follows: ------------------------|
+Message-Id: <m0qq2se-000mV2C@Shamino.quincy.edu>
+From: blahedo (Don Blaheta)
+Subject: Re: New proto, Take II (fwd)
+To: ccarroll@student.wisc.edu
+Date: Wed, 28 Sep 1994 12:33:24 -0500 (CDT)
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+Content-Length: 748       
+
+Proposal
+Nomic Taxes
+(Creates a Rule)
+
+At noon GMT on Monday of each Nomic Week, the Banker shall levy
+a Tax on all Marks accounts except the Bank.  The Tax for Players
+shall be 1% of all Marks owned by that Player in excess of 1.00, 
+and the Tax for all non-Player Marks-holding Entities (excluding
+the Bank) shall be 1% of all Marks owned by that entity.  All
+proceeds from this Tax shall be entered into the Bank.
+
+[It may be said that 1% per Week is a fairly stiff Tax; however,
+considering that almost all to-Player Mark flow is directly from
+the Bank, such a Tax does not seem prohibitive.  In addition, the
+Rate may be changed later when the Bank is not so deeply in debt.
+Once the Rule is in place, however, precedents may be set.]
+
+Vanyel
+
+From blahedo Mon Oct  3 12:32:58 1994
+Return-Path: <blahedo>
+Message-Id: <m0qrrFt-000mV2C@Shamino.quincy.edu>
+From: blahedo (Don Blaheta)
+Subject: Taxes Proposal, confirming
+To: timothy.ferguson@jcu.edu.au (Timothy Ferguson)
+Date: Mon, 3 Oct 1994 12:32:53 -0500 (CDT)
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+Content-Length: 1383      
+Status: RO
+
+Once again, this is merely to confirm that you've received this proposal:
+
+ Proposal
+ Nomic Taxes
+ (Creates a Rule)
+ 
+ At noon GMT on Monday of each Nomic Week, the Banker shall levy
+ a Tax on all Marks accounts except the Bank.  The Tax for Players
+ shall be 1% of all Marks owned by that Player in excess of 1.00, 
+ and the Tax for all non-Player Marks-holding Entities (excluding
+ the Bank) shall be 1% of all Marks owned by that entity.  All
+ proceeds from this Tax shall be entered into the Bank.
+ 
+ [It may be said that 1% per Week is a fairly stiff Tax; however,
+ considering that almost all to-Player Mark flow is directly from
+ the Bank, such a Tax does not seem prohibitive.  In addition, the
+ Rate may be changed later when the Bank is not so deeply in debt.
+ Once the Rule is in place, however, precedents may be set.]
+
+ first proto: 20 Sep 1994 11:44 PM CDT
+ Changes: ".1 Mark" changed to "1% of all Marks", Groups etc. are also
+  Taxed, cleaned up language (as per Kelly)
+
+ Vanyel
+
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Don Blaheta       | GAT d?(--) H+ s-:- g-(+) p?>! !au a-- w+ v+ C++(+++) USL
+dblaheta@aol.com  | !3 E--- N++ K- W--- M++ !v -po+ Y+ t++>+++ 5- jx R(+) G+
+blahedo@quincy.edu| tv-- b+++ D--- B-- e(*)(+>+++) u++ h(*) f+ r-- n---- !y*
+=-=-=-=-=-=-=-=-=-+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+

@@ -1,0 +1,589 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Nov 12 05:36 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id FAA09169
+	for <dpb@cs.brown.edu>; Thu, 12 Nov 1998 05:36:42 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA19653
+	for agora-discussion-list; Thu, 12 Nov 1998 21:33:52 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA19650
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 12 Nov 1998 21:33:50 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id VAA26269
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 12 Nov 1998 21:36:30 +1100 (EST)
+	(envelope-from michael.norrish@cl.cam.ac.uk)
+Received: from heaton.cl.cam.ac.uk(128.232.32.11) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma026267; Thu, 12 Nov 98 21:36:05 +1100
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0zdu3k-0001ST-00; Thu, 12 Nov 1998 10:33:04 +0000
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0zdu3j-0007mT-00; Thu, 12 Nov 1998 10:33:03 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13898.47454.945659.561160@albatross.cl.cam.ac.uk>
+Date: Thu, 12 Nov 1998 10:33:02 +0000 (GMT)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: BUS: Proto: Let everyone have a turn v2
+In-Reply-To: <981112062836.6078@cse.unsw.edu.au>
+References: <981112062836.6078@cse.unsw.edu.au>
+X-Mailer: VM 6.61 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 886
+Lines: 20
+
+Malcolm Ross Kinsella Ryan writes:
+> Create a rule, with title "Turns for all", with text:
+ 
+>      Whenever a Player is selected to judge a CFJ, e becomes ineligible
+>      to judge any future CFJs. If ever there are no Players eligible to
+>      Judge a CFJ, then all Players made ineligible by this rule become
+>      eligible again.
+ 
+>      Being made ineligible to judge a CFJ by this rule does not cause
+>      a Player to become ineligible to serve as a Justice on that CFJ.
+>      This rule takes precedence over any rule which claims otherwise.
+ 
+Nice.  It might be helpful to say that this rule defers to R698
+"Always an eligible judge" (though you may not want to refer to the
+rule explicitly).  I believe that this deferral is sufficiently
+important to be explicitly noted, though it will be true by default
+when adopted because of their relative rule numbers. 
+
+Michael.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Nov 12 07:00 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id HAA10573
+	for <dpb@cs.brown.edu>; Thu, 12 Nov 1998 07:00:15 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA20057
+	for agora-discussion-list; Thu, 12 Nov 1998 22:57:22 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA20053
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 12 Nov 1998 22:57:21 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id XAA26385
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 12 Nov 1998 23:00:01 +1100 (EST)
+	(envelope-from klaush@dij91.tp3.ruhr-uni-bochum.de)
+Received: from dij91.tp3.ruhr-uni-bochum.de(134.147.160.152) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma026375; Thu, 12 Nov 98 22:59:52 +1100
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id MAA09412; Thu, 12 Nov 1998 12:57:01 +0100 (NFT)
+Date: Thu, 12 Nov 1998 12:57:01 +0100 (NFT)
+Message-Id: <199811121157.MAA09412@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-reply-to: <199811120305.WAA24868@poverty.bloomington.in.us> (message from
+	Scott Goehring on Wed, 11 Nov 1998 22:05:18 -0500)
+Subject: Re: DIS: proto: Currencies (Chaos56, rev. 13)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 345
+Lines: 11
+
+Scott:
+>>
+I'm not sure there'd be any point in my doing so; my interpretation
+will be biased by virtue of being its author.
+<<
+
+But even then it will give others like me a chance to see quickly what
+you consider the point, and the merit, of your proposal. That makes it
+easier to form an opinion than just reading through the text alone.
+
+Kolja
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Nov 12 13:27 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id NAA22022
+	for <dpb@cs.brown.edu>; Thu, 12 Nov 1998 13:27:12 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA21631
+	for agora-discussion-list; Fri, 13 Nov 1998 05:19:00 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA21625
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 05:18:58 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id FAA27147
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 05:21:39 +1100 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from dial-126-8.ucs.indiana.edu(156.56.126.8) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma027145; Fri, 13 Nov 98 05:21:22 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id NAA26265 for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 12 Nov 1998 13:01:25 -0500
+Message-Id: <199811121801.NAA26265@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: Currencies (Chaos56, rev. 13) 
+In-reply-to: Your message of "Thu, 12 Nov 1998 12:57:01 +0100."
+             <199811121157.MAA09412@dij91.tp3.ruhr-uni-bochum.de> 
+Date: Thu, 12 Nov 1998 13:01:24 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 2862
+Lines: 64
+
+"Klaus" == Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de> writes:
+
+Klaus> But even then it will give others like me a chance to see
+Klaus> quickly what you consider the point, and the merit, of your
+Klaus> proposal. That makes it easier to form an opinion than just
+Klaus> reading through the text alone.
+
+Never rely on someone else's opinion as to what the law says; always
+read it yourself and make your own conclusion. :)
+
+First, the definition of Currency is redrafted to make designation the
+key determinant, not qualification.  Presently, something is not a
+Currency even if designated as such if it fails to meet certain
+conditions.  This is anti-pragmatic, and I have moved away from this
+position.  If the circumstances surrounding a Currency change such
+that it is improper for it to remain a Currency, then the designation
+should be affirmatively revoked (by Proposal, Chancellor action, or
+Judicial Order).
+
+Recordkeepors need not be Players, but a non-Player Recordkeepor is
+still subject to the jurisdiction of the Rules.  Currencies may have
+any number of Mintors.
+
+Transfers, creations, and destructions are done by notice to the
+Recordkeepor.  Transfer Orders are abolished.  Proposed Rule 1817 sets
+out which sorts of transfers the RK is required to record.  Other
+transfers may be recorded at the RK's discretion.
+
+Payment Orders are also abolished and replaced by a more general
+concept of debt.  Debts may be reduced to Orders when they become
+overdue.  It is possible (but not required) for entities to track as a
+matter of course only the total debt due to em by each other entity;
+individual debts need not be tracked with particularity until a
+dispute arises.
+
+Notices of Debt are used for the formal imposition of debts, and are
+mainly a means for Officers to formally convey the finding of fact
+that the Rules have created a "public" debt (i.e. one involving the
+Bank).
+
+Probate has been technically rewritten, mainly to avoid a conflict in
+language with the current use of the term "debt" in the Probate Code.
+It has also been simplified somewhat and some procedural streamlining
+added.  Some minor tinkering has taken place with respect to Wills.
+No substantial change in the law is intended; mostly, these are
+procedural simplifications and conforming amendments.
+
+The tax rules are amended to conform with the substance of this
+legislation.
+
+Voting debts are segregated by having them be due to a new entity, the
+Voting Bank.  Any overdue debt to the Voting Bank results in the
+Infraction of Debt Voting.  Note that the new Rules allow prepayment
+of debts, so you could make a large deposit in the Voting Bank if you
+wanted.
+
+Group Coins are eliminated.  A Group who wants Coins can either beg
+the Chancellor to designate them, or seek to get a Proposal adopted to
+the same end.
+
+The remainder of the amendments are conformal.
+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Nov 12 14:43 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id OAA24671
+	for <dpb@cs.brown.edu>; Thu, 12 Nov 1998 14:43:48 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA21927
+	for agora-discussion-list; Fri, 13 Nov 1998 06:40:31 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id GAA21924
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 06:40:29 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id GAA27267
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 06:43:11 +1100 (EST)
+	(envelope-from dalbertz@rmv.state.ma.us)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma027265; Fri, 13 Nov 98 06:43:09 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 12 Nov 1998 14:38:09 -0500
+Message-Id: <s64af2d1.093@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 12 Nov 1998 14:36:12 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: tax and indebtedness payment
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 3452
+Lines: 76
+
+Re: DIS: Re: BUS: tax and indebtedness payment
+
+Steve wrote:
+
+>Klaus Herrmanns wrote:
+>>
+>>Michael wrote:
+>>>>
+>>I also transfer one Indulgence from the X Group to the Bank to satisfy
+>>POI058.
+>><<
+>>
+>>I hate to be so nitpicky (or, to be honest, I don't really ;), but I'd
+>>like to know whether people consider this to be valid, given that
+>>R1478 states      
+
+>>      Whenever a Player is acting on behalf of some entity of which e
+>>      is the Executor other than emself, e must make it clear that e
+>>      is doing so.  If such a Player fails to clearly indicate that e
+>>      is acting as the Executor of some other entity, it shall be
+>>      presumed that e is acting on eir own behalf.
+
+<snip>
+
+>I think you're quite right to point this out, and I agree with you that
+>Michael's transfer is invalid for the reasons you give. Pretty clearly,
+>the purpose of R1478 is to require Michael to say something like "As
+>Executor of the X Group, I hereby transfer 1 Indulgence from the X Group
+>the Bank to satisfy POI058." This is not just nitpickiness. The purpose
+>is relieve the Recordkeepor of the responsibility of checking to see
+>whether the person making the transfer is authorized to do so.
+
+I'm afraid that I don't agree with the conclusion that the TO was invalid. 
+Note that R1478 quoted above does *not* say that failing to identify oneself as
+an Executor causes the specified action to be invalid.  It merely forces
+everyone to *presume* the action was taken on ones own behalf.  In this case,
+it would mean we must presume that Michael, on his own behalf, tried to
+transfer an Indulgence from X-Group to the Bank.  But now look at R1598 and
+R1817:
+
+Rule 1598/7 (Power=1)
+Transfer Orders
+
+      A Transfer Order is an Order requiring the Recordkeepor of a
+      Currency to note the transfer of units of that Currency from one
+      entity to another.  A valid Transfer Order specifies exactly one
+      source entity, exactly one destination entity, exactly one
+      Currency, and a number of units of that Currency which is a
+      positive multiple of that Currency's MUQ.  If a Transfer Order...
+
+Rule 1817/0 (Power=1)
+Recordkeepors' Obedience to Transfer Orders
+
+      A Recordkeepor is required to abide by all valid Transfer Orders
+      submitted by the Executor of the owner of the units of Currency
+      to be transferred (or, with respect to any entity which lacks an...
+
+
+Note that R1598 does *not* require the issuer of a TO to be the executor of the
+source entity in order for it to be valid.  Michael's TO was a valid TO, by any
+interpretation of R1598.  This brings us to R1817, which is supposed to prevent
+anyone who is not the executor of an entity from being able to transfer from
+that entity.  If Michael had *not* been the executor of the X-Group, then R1817
+would have relieved the Herald of the requirement to abide by this TO. 
+However, Michael *is* the executor.  And, since it was a valid TO, the Herald
+*is* required to abide by it.  The purpose Steve alludes to in eir last
+sentence is a noble and desireable one.  Unfortunately the Rules, as written,
+do not serve that purpose.  I'm afraid R1817 is written in a way that puts the
+responsibility of determining whether a TO issuer is authorized squarely on the
+shoulders of the RK.
+
+I consider the original TO to have been successful and will deny any COE that
+seeks to claim otherwise.  If you disagree with my analysis here, please CFJ.
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Nov 12 14:58 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id OAA25126
+	for <dpb@cs.brown.edu>; Thu, 12 Nov 1998 14:58:37 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA21990
+	for agora-discussion-list; Fri, 13 Nov 1998 06:54:01 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id GAA21984
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 06:54:00 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id GAA27302
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 06:56:41 +1100 (EST)
+	(envelope-from dalbertz@rmv.state.ma.us)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma027300; Fri, 13 Nov 98 06:56:10 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 12 Nov 1998 14:51:09 -0500
+Message-Id: <s64af5dd.006@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 12 Nov 1998 14:49:19 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: Bank Transaction notices
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 184
+Lines: 10
+
+Re: Bank Transaction notices
+
+Michael,
+
+I can't find anything in my archives indicated that you paid off POI071 through
+POI079.  Have I missed something, or have you?
+
+Regards,
+Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Nov 12 15:54 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id PAA27015
+	for <dpb@cs.brown.edu>; Thu, 12 Nov 1998 15:54:36 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA22283
+	for agora-discussion-list; Fri, 13 Nov 1998 07:50:32 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA22280
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 07:50:30 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id HAA27408
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 07:53:12 +1100 (EST)
+	(envelope-from rmorganl@fred.fhcrc.org)
+Received: from bug1.fhcrc.org(140.107.10.110) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma027406; Fri, 13 Nov 98 07:53:02 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by fhcrc.org (8.9.1/8.9.1) with SMTP id MAA20802
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 12 Nov 1998 12:48:18 -0800 (PST)
+Received: from localhost by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id MAA16475; Thu, 12 Nov 1998 12:48:14 -0800
+Date: Thu, 12 Nov 1998 12:48:14 -0800 (PST)
+From: Ross Morgan-Linial <rmorganl@fred.fhcrc.org>
+X-Sender: rmorganl@fred
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: OFF: New Proposals: 3804 - 3805
+In-Reply-To: <981109082121.24341@cse.unsw.edu.au>
+Message-ID: <Pine.GSO.3.95.981112124714.13680A-100000@fred>
+MIME-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Length: 414
+Lines: 14
+
+On Mon, 9 Nov 1998, Malcolm Ross Kinsella Ryan wrote:
+
+// NOTE: Text enclosed in right brackets has no legal significance and
+//       shall in no way affect the legality or efficacy of any part of
+//       this Proposal.
+
+"Right brackets"? Does that refer to [this] or ]this]?
+
+------
+Ross Morgan-Linial * rmorganl@fhcrc.org
+
+Any man who goes to a psychiatrist ought to have his head examined.
+ - Samuel Goldwyn
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Nov 12 16:13 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id QAA27739
+	for <dpb@cs.brown.edu>; Thu, 12 Nov 1998 16:13:31 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA22408
+	for agora-discussion-list; Fri, 13 Nov 1998 08:08:32 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id IAA22405
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 08:08:31 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id IAA27474
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 08:11:12 +1100 (EST)
+	(envelope-from ccarroll@dfw.nationwide.net)
+Received: from dfw.nationwide.net(198.175.15.10) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma027472; Fri, 13 Nov 98 08:11:10 +1100
+Received: (from ccarroll@localhost)
+	by dfw.nationwide.net (8.9.0/8.9.0) id PAA08499
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 12 Nov 1998 15:05:28 -0600 (CST)
+Message-Id: <199811122105.PAA08499@dfw.nationwide.net>
+Subject: Re: DIS: Re: OFF: New Proposals: 3804 - 3805
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 12 Nov 1998 15:05:27 -0600 (CST)
+In-Reply-To: <Pine.GSO.3.95.981112124714.13680A-100000@fred> from "Ross Morgan-Linial" at Nov 12, 98 12:48:14 pm
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 531
+Lines: 17
+
+Ross Morgan-Linial wrote:
+>
+>On Mon, 9 Nov 1998, Malcolm Ross Kinsella Ryan wrote:
+>
+>// NOTE: Text enclosed in right brackets has no legal significance and
+>//       shall in no way affect the legality or efficacy of any part of
+>//       this Proposal.
+>
+>"Right brackets"? Does that refer to [this] or ]this]?
+
+Right as in right-angled, not right-side.
+
+Privately, I'm not certain that the above paragraph has its desired
+effect, although I won't challenge it.  (At least not until I have
+a lot more time on my hands. :)
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Nov 12 19:30 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id TAA04372
+	for <dpb@cs.brown.edu>; Thu, 12 Nov 1998 19:30:28 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA23234
+	for agora-discussion-list; Fri, 13 Nov 1998 11:26:36 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA23231
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 11:26:34 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id LAA27865
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 11:29:16 +1100 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from xyplex8-1-6.ucs.indiana.edu(129.79.117.115) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma027863; Fri, 13 Nov 98 11:29:08 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id SAA27167 for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 12 Nov 1998 18:39:30 -0500
+Message-Id: <199811122339.SAA27167@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: OFF: New Proposals: 3804 - 3805 
+In-reply-to: Your message of "Thu, 12 Nov 1998 12:48:14 PST."
+             <Pine.GSO.3.95.981112124714.13680A-100000@fred> 
+Date: Thu, 12 Nov 1998 18:39:29 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 231
+Lines: 6
+
+"Ross" == Ross Morgan-Linial <rmorganl@fred.fhcrc.org> writes:
+
+Ross> "Right brackets"? Does that refer to [this] or ]this]?
+
+"Right" in this case means "right angle".  Not to be confused with
+{curly brackets} or <angle brackets>.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Nov 12 21:20 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:root@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id VAA07188
+	for <dpb@cs.brown.edu>; Thu, 12 Nov 1998 21:20:22 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA23478
+	for agora-discussion-list; Fri, 13 Nov 1998 12:16:07 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA23475
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 12:16:05 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id MAA27997
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 12:18:47 +1100 (EST)
+	(envelope-from gardner@silas-1.cc.monash.edu.au)
+Received: from silas-1.cc.monash.edu.au(130.194.1.91) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma027995; Fri, 13 Nov 98 12:18:32 +1100
+Received: (from gardner@localhost)
+	by silas-1.cc.monash.edu.au (8.9.1a/8.9.1) id MAA23660
+	for agora-discussion@gecko.serc.rmit.edu.au; Fri, 13 Nov 1998 12:15:44 +1100 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199811130115.MAA23660@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: Re: OFF: New Proposals: 3804 - 3805
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 13 Nov 1998 12:15:43 +1100 (EST)
+In-Reply-To: <199811122339.SAA27167@poverty.bloomington.in.us> from "Scott Goehring" at Nov 12, 98 06:39:29 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 609
+
+Scott Goehring wrote:
+>
+>"Ross" == Ross Morgan-Linial <rmorganl@fred.fhcrc.org> writes:
+>
+>Ross> "Right brackets"? Does that refer to [this] or ]this]?
+>
+>"Right" in this case means "right angle".  Not to be confused with
+>{curly brackets} or <angle brackets>.
+
+Hm...the angles in those angle brackets look pretty close to right
+angles to me...'course that's only in this font I'm using under X.
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Nov 12 21:31 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id VAA07491
+	for <dpb@cs.brown.edu>; Thu, 12 Nov 1998 21:31:07 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA23798
+	for agora-discussion-list; Fri, 13 Nov 1998 13:27:08 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA23795
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 13:27:06 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id NAA28125
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 13 Nov 1998 13:29:49 +1100 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from dial-126-64.ucs.indiana.edu(156.56.126.64) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma028123; Fri, 13 Nov 98 13:29:24 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id VAA27802 for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 12 Nov 1998 21:14:38 -0500
+Message-Id: <199811130214.VAA27802@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: OFF: New Proposals: 3804 - 3805 
+In-reply-to: Your message of "Fri, 13 Nov 1998 12:15:43 +1100."
+             <199811130115.MAA23660@silas-1.cc.monash.edu.au> 
+Date: Thu, 12 Nov 1998 21:14:36 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 394
+
+"Steve" == Steve Gardner <gardner@silas-1.cc.monash.edu.au> writes:
+
+Steve> Hm...the angles in those angle brackets look pretty close to
+Steve> right angles to me...'course that's only in this font I'm using
+Steve> under X.
+
+Hey, complain to the typographers.  They're the ones who come up with
+these names.
+
+Shall we have an argument over the proper name for the '#' character?
+How about '@'?
+

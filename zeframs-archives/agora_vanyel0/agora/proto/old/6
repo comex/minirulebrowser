@@ -1,0 +1,143 @@
+From blahedo Fri Sep  9 18:36:24 1994
+Return-Path: <blahedo>
+Message-Id: <m0qjFUQ-000ly6C@Shamino.quincy.edu>
+From: blahedo (Don Blaheta)
+Subject: Re: A proto and an idea
+To: nomic-discussion@teleport.com
+Date: Fri, 9 Sep 1994 18:36:18 -0500 (CDT)
+Cc: blahedo (Don Blaheta)
+In-Reply-To: <63887.ccarroll@students.wisc.edu> from "Charles E. Carroll" at Sep 9, 94 05:44:39 pm
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+Content-Length: 4301      
+Status: RO
+
+Hm.
+
+Proto-Proposal DB6  (Vanyel)
+(Creates a rule)
+Critical Review of the CFJ Handling System
+
+	As the current CFJ system seems to be inadequate, and the legal
+ambiguity in the rules regarding Crimes is appaling, I propose the
+following changes:
+   --Any occurence in the rules of the phrase "Violation of this Rule is 
+	a Class A Crime" or some variation therefrom, shall be interpreted
+	as "If you do not comply with what has been decreed above, then 
+	you shall be Guilty of a Class A Crime."  (Replacing A with the 
+	appropriate Crime-type.)
+   --There shall be several types of CFJ: Error, Illegality, Appeal, or
+	Interpretation.  It must be explicitly stated somewhere in the
+	CFJ what type it is.  Different procedures will be followed for
+	each:
+	   --Error.  In the case of an Error on the part of an Officer or
+		other Player, a single Player shall be selected from the
+		list of Active Players (not including the Player allegedly
+		in Error, or the accusing Player, or any other Player 
+		currently serving as a Judge) randomly by the Clerk
+		of the Courts.  This Player will have no more than three
+		days to render Judgement on the Error.  Eir judgement
+		will be either "TRUE", "FALSE", or "UNDECIDED".  If "TRUE",
+		then the Judge must issue an Injunction decreeing how to
+		Fix the Error.  This Judgement may be Appealed.
+	   --Illegality.  An illegality is total disobeyance of the Rules,
+		a direct violation of Rule 101.  Being such a serious
+		offense, any CFJ alleging an Illegality will require the
+		appointment of three (3) Judges at random (by the Clerk
+		of the Courts) from the list of Active Players, not 
+		including the Plaintiff, the Defendant, or any of up to
+		three (3) people explicitly Barred from the Case by the
+		Plaintiff, or any other Player currently serving as a
+		Judge.  These three Judges will render Judgement
+		separately over the course of no more than one (1) week.
+		They must rule "TRUE" or "FALSE".  If two or more of
+		them vote "TRUE", then the Plaintiff wins the case and
+		must propose an appropriate Punishment in the form of
+		an NRC Proposal with the Declaration (Metes a Punishment).
+		This Judgement may be Appealed.
+	   --Interpretation.  This is a matter which totally affects the
+		entire Nomic, so any Interpretation CFJ must be forwarded
+		by the CotC to the Public Forum for Discussion.  After one
+		week, the CotC shall glean the Public Opinion and write
+		an RC Proposal to Annotate the Rule under Interpretation.
+		The CotC will not receive any points, Marks, or other
+		Quantity, or any Penalty (of points, Marks, or other
+		Quantity) which normally would be associated with such
+		a Proposal.  This is voted on like any other Proposal.
+		The final vote may not be Appealed (although, of course, 
+		the Rule can still be Amended.) 
+	   --Appeal.  If at least three (3) Players request an Appeal
+		of a previous CFJ, three (3) Judges will be appointed
+		by the CotC at random from the list of Players, not 
+		including the Plaintiff, the Defendant, any of up to
+		three Players barred from the original case (no additional
+		Players may be Barred from an Appeal), or anyone else
+		currently serving as a Judge.  These Judges have one (1)
+		week in which to review the case and the Rules, and
+		post their Judgement to the Public Forum.  This Judgement
+		must be either "OVERTURN" or "SUSTAIN".  If two or more
+		of the Judges vote to Overturn, then the CFJ in question
+		is declared void.  If the original CFJ was judged "TRUE",
+		then all changes resulting from that CFJ are revoked.  If
+		the original CFJ was judged "FALSE", then Game Play 
+		continues as if the original CFJ has just ended with a
+		judgement of "TRUE".  An Appeal may not be Appealed.
+   --If at any time there are not enoguh eligible Players to Judge a CFJ, 
+	then the CFJ and all its effects are postponed until enough Judges
+	become available.  If there can not be (within the current list of
+	Active Players) enough Players eligible to Judge, then ANY Player
+	besides the Plaintiff and Defendant becomes eligible to Judge.
+   --All effects of CFJ are assumed to take effect immediately upon the
+	decision of the Judgement.
+ 
+*****END PROTO
+history:
+first protoed Sep 9 6:37 CDT
+
+Whew!  I'm tired now.  That was a Whopper....  suggestions, anyone?
+
+Vanyel
+
+From MIZZOU1.missouri.edu!C647100 Sun Sep 11 23:37:08 1994
+Return-Path: <C647100@MIZZOU1.missouri.edu>
+Message-Id: <m0qk38Z-000ly6C@Shamino.quincy.edu>
+Received: from MIZZOU1 by MIZZOU1.missouri.edu (IBM VM SMTP V2R2)
+   with BSMTP id 6295; Sun, 11 Sep 94 23:40:25 CDT
+Received: from MIZZOU1 (C647100) by MIZZOU1 (Mailer R2.10 ptf000) with BSMTP id
+ 9244; Sun, 11 Sep 94 23:40:25 CDT
+Date:         Sun, 11 Sep 94 23:37:52 CDT
+From:         Vlad <C647100@MIZZOU1.missouri.edu>
+Subject:      Getting together
+To:           Don Blaheta <blahedo@quincy.edu>
+Status: RO
+
+  I think we should get together on CFJ Reform. I like your ideas, indeed,
+I came up with many of the same solutions in APPLE II. I agree that Players
+should have a say in matters of Interpretation, so I have a provision for
+such CFJ's to result in a Proposal. In other areas I think we can easily
+amalgamate our ideas. What do you say??
+
+   Vlad
+
+From blahedo Mon Sep 12 02:29:23 1994
+Return-Path: <blahedo>
+Message-Id: <m0qk5pG-000ly6C@Shamino.quincy.edu>
+From: blahedo (Don Blaheta)
+Subject: Re: Getting together
+To: C647100@MIZZOU1.missouri.edu (Vlad)
+Date: Mon, 12 Sep 1994 02:29:18 -0500 (CDT)
+Cc: blahedo (Don Blaheta)
+In-Reply-To: <m0qk38Z-000ly6C@Shamino.quincy.edu> from "Vlad" at Sep 11, 94 11:37:52 pm
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+Content-Length: 232       
+Status: RO
+
+That'd probably be a good idea.  I was mostly making my proto in response to
+APPLE I, as APPLE II hadn't been protoed yet... we came up with them at the
+same time.  Anyway, where would you like to start?
+
+Vanyel
+blahedo@quincy.edu
+
+

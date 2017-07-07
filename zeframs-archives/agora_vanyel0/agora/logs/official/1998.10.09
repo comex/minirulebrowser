@@ -1,0 +1,201 @@
+From owner-agora-official@gecko.serc.rmit.edu.au Fri Oct  9 04:53 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA01407 for <dpb@cs.brown.edu>; Fri, 9 Oct 1998 04:53:23 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA14125
+	for agora-official-list; Fri, 9 Oct 1998 18:50:49 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA14122
+	for <agora-official@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 18:50:47 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id SAA01695
+	for <agora-official@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 18:51:55 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001691; Fri, 9 Oct 98 18:51:31 +1000
+Received: From mozart With LocalMail ; Fri, 9 Oct 98 18:48:56 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-official@gecko.serc.rmit.edu.au (Nomic Official)
+Date: Fri, 9 Oct 1998 18:48:55 +1000 (EST)
+Message-Id:  <981009084856.6950@cse.unsw.edu.au>
+Subject: OFF: New Proposals: 3794 - 3795
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 4355
+
+New Proposals: 3794 - 3795
+
+There are two new proposals distributed as of this report. The Voting Period
+on these Proposals commences as of this message and will end on Monday,  
+October 19. Voting on these proposals will cost 1 VT.
+
+======================================================================
+D = Disinterested
+S = Sane
+E = Emergency
+I = Insane
+U = Urgent
+
+   3794 Kolja          1 Indulgence tax after successful rebellion
+   3795 Blob           1 Allow Free Voting...
+
+======================================================================
+
+Proposal 3794 (Kolja) AI = 1
+Indulgence tax after successful rebellion
+
+1. Introduce the tax
+
+Amend R1664 by inserting the text
+
+         - The Registrar is empowered and required to levy a tax of 
+           75% on indulgences. The holder of the Patent Title 
+           "Robespierre" is exempt from this tax, even if other rules
+           don't allow tax exemptions.
+
+after the existing text
+
+         - The Registrar shall pay out 2 VTs to each Rebellious
+           Player.
+
+
+2. Levy a one-off indulgence tax
+
+Create a new rule with the text
+
+ As soon as possible after the creation of this rule, the Herald shall
+ levy a tax of 80% on indulgences.
+
+ This rule is automatically repealed two weeks after it is created.
+
+
+3. Allow taxes of more than 50% 
+
+[Comment: This tax only makes sense if it is close to 100%, as it aims
+to offset the effect of a 100% destruction of blots.]
+
+Amend R1853 by replacing the text
+
+      The announcement must specify which Currency the tax in
+      being levied on (and this must be a Currency on which the Player
+      making the announcement is empowered to levy a tax), and the
+      amount of the levy, expressed as a percentage of holdings of
+      that Currency, not in excess of fifty percent, which each
+      entity in possession of that Currency will be required to pay
+      to the Bank (the levy must be the same for all entities).
+
+with 
+
+ The announcement must specify which Currency the tax in
+ being levied on (and this must be a Currency on which the Player
+ making the announcement is empowered to levy a tax), and the amount
+ of the levy, expressed as a percentage of holdings of that Currency,
+ which each entity in possession of that Currency will be required to
+ pay to the Bank (the levy must be the same for all entities). Unless
+ the rule(s) authorizing a particular tax explicitly say so, the amount
+ of the levy of that tax may never be larger than 50%.
+
+
+Appendix: Small, and hopefully uncontroversial IN fixes, appended to
+this proposal to save money.
+
+A1. Reduce the IN awards to realistic levels.
+
+Amend R1748 by replacing the text
+
+       ii) In the case where the InterNomic Proposal fails, but Agora
+           did vote FOR it, the award shall be one Voting Token.
+      iii) In the case where the InterNomic Proposal passes, the award
+           shall be five Voting Tokens and two Proposal Notes.
+
+with 
+
+       ii) In the case where the InterNomic Proposal fails, but Agora
+           did vote FOR it, the award shall be 0.5 Voting Tokens.
+      iii) In the case where the InterNomic Proposal passes, the award
+           shall be one Voting Token and one Proposal Note.
+
+
+A2. Allow the ambassador to vote on uninteresting/uncontroversial IN
+proposals.
+
+Amend R1632 by replacing the text
+
+      If the Referendum on that Proposal is
+      undecided, then the Ambassador may decide how Agora votes,
+      as e sees fit.
+
+with 
+
+      If the Referendum on that Proposal is undecided or has not 
+      reached quorum, then the Ambassador may decide how Agora votes,
+      as e sees fit.
+
+----------------------------------------------------------------------
+Proposal 3795 (Blob) AI = 1
+Allow Free Voting (at the Assessor's Discretion)
+
+Amend Rule 1862 (The Voting Tariff) by replacing the text
+"between 0.5 and 2.0 inclusive" with "between 0 and 2 inclusive".
+
+[Comment: Some players want to bring back free voting. Rather than 
+ eliminate the entire pay-for-vote system, we can simply give the
+ Assessor the power to make all voting free, for a period of time.
+ Of course doing so will dramatically cut eir Commission, but that
+ shouldn't bother the free-for-voters, as there would be no need for
+ the Assessor to earn VTs in the first place. :)]
+
+======================================================================
+
+
+
+
+
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Fri Oct  9 07:01 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA03449 for <dpb@cs.brown.edu>; Fri, 9 Oct 1998 07:01:01 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA14557
+	for agora-official-list; Fri, 9 Oct 1998 20:58:21 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id UAA14554
+	for <agora-official@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 20:58:20 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id UAA01824
+	for <agora-official@gecko.serc.rmit.edu.au>; Fri, 9 Oct 1998 20:59:28 +1000 (EST)
+	(envelope-from klaush@dij91.tp3.ruhr-uni-bochum.de)
+Received: from dij91.tp3.ruhr-uni-bochum.de(134.147.160.152) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma001822; Fri, 9 Oct 98 20:59:24 +1000
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id MAA10470; Fri, 9 Oct 1998 12:56:49 +0200 (DFT)
+Date: Fri, 9 Oct 1998 12:56:49 +0200 (DFT)
+Message-Id: <199810091056.MAA10470@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-official@gecko.serc.rmit.edu.au
+Subject: OFF: Ambassador's report
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 326
+
+Agora Nomic
+Ambassador's Report
+
+Date of this Report: 9 Oct 1998
+
+======================================================================
+Diplomatic Report
+
+Nothing official to report.
+
+======================================================================
+Friendliness Report:
+
+Friendly: Agora, FRC, InterNomic
+Hostile:  none
+

@@ -1,0 +1,187 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Nov 30 05:13 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA03139 for <dpb@cs.brown.edu>; Sun, 30 Nov 1997 05:13:02 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA25859
+	for agora-discussion-list; Sun, 30 Nov 1997 21:08:05 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA25856
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 30 Nov 1997 21:08:04 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id VAA04122
+	for agora-discussion@gecko.serc.rmit.edu.au; Sun, 30 Nov 1997 21:09:18 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199711301009.VAA04122@aurora.cc.monash.edu.au>
+Subject: Re: DIS: proto-Judgement of CFJ 1070
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 30 Nov 1997 21:09:18 +1100 (EST)
+In-Reply-To: <3.0.5.32.19971129091411.007a04e0@mail.bayside.net> from "Ed Murphy" at Nov 29, 97 09:14:11 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1430
+
+Ed Murphy wrote:
+>
+>Steve wrote:
+>
+>>>I argue that the first sentence of R869 should be interpreted as
+>>>  "X is a Player <-> X is registered as a Player"
+>>>which, together with Rule 103, forms a procedure for registering
+>>>Morendil as a result of eir becoming Speaker.
+>
+>>I disagree. The procedure for Registration (ie the definition of
+>>Registration) is quite clear: you have to send a message to the PF.
+>>If one reads R869 as saying that a person is a Player if and only if
+>>that person is registered as a Player then R869 simply conflicts with
+>>R103 which makes the different claim that a person is a Player if
+>>they are the Speaker, and regardless of whether they have registered.
+>
+>I don't see that the "X is a Player <-> X is registered as a Player"
+>interpretation creates a conflict between R869 and R103.  If R103 is a
+>mechanism for becoming a Player, then why can't it also be an indirect
+>mechanism for becoming registered as a Player?
+
+Because Rule 869 provides the mechanism for becoming Registered:
+you have to send a message to the Public Forum. There's nothing
+in Rule 103 that suggests that Morendil became Registered in some
+other way; R103 goes no further than claiming that Morendil became
+a Player.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Nov 30 05:32 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA03649 for <dpb@cs.brown.edu>; Sun, 30 Nov 1997 05:32:31 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA25973
+	for agora-discussion-list; Sun, 30 Nov 1997 21:27:09 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA25970
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 30 Nov 1997 21:27:07 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id VAA21480
+	for agora-discussion@gecko.serc.rmit.edu.au; Sun, 30 Nov 1997 21:28:21 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199711301028.VAA21480@aurora.cc.monash.edu.au>
+Subject: DIS: probabilty of Viral infection
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+Date: Sun, 30 Nov 1997 21:28:21 +1100 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 376
+
+Haven't done this calculation for a while:
+
+M = 101; N = 1748; r = N-M = 1647
+R = 288;
+
+Pr(infection) = 1 - (1 - R/r)^5
+              = 0.6175
+
+Somewhat lower than I expected...
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Nov 30 08:26 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA05702 for <dpb@cs.brown.edu>; Sun, 30 Nov 1997 08:26:51 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA26605
+	for agora-discussion-list; Mon, 1 Dec 1997 00:21:45 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id AAA26602
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 1 Dec 1997 00:21:41 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Sun, 30 Nov 1997 08:28:54 -0500
+Message-Id: <s48123c6.093@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Sun, 30 Nov 1997 08:28:18 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto-Judgement of CFJ 1070
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 586
+Lines: 15
+
+Re: DIS: proto-Judgement of CFJ 1070
+
+Murphy wrote:
+
+>I don't see that the "X is a Player <-> X is registered as a Player"
+>interpretation creates a conflict between R869 and R103.  If R103 is a
+>mechanism for becoming a Player, then why can't it also be an indirect
+>mechanism for becoming registered as a Player?
+
+I agree with Steve.  The phrase "is registered" is not just an adjective, it is
+a verbal construction that implies an action taken by or on behalf of the
+Player.  The only action defined by the Rules for being registered is the
+sending of a message to the PF.
+
+-- Crito
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun Nov 30 21:22 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA18874 for <dpb@cs.brown.edu>; Sun, 30 Nov 1997 21:21:53 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA29681
+	for agora-discussion-list; Mon, 1 Dec 1997 13:07:08 +1100
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id NAA29678
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 1 Dec 1997 13:07:07 +1100
+Received: From dvorak With LocalMail ; Mon, 1 Dec 97 13:04:10 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 1 Dec 1997 13:03:52 +1100 (EST)
+Message-Id:  <971201020352.28429@cse.unsw.edu.au>
+Subject: Re: DIS: Re: BUS: New CONTEST
+In-Reply-To: <199711281022.LAA23375@wsinfm15.win.tue.nl> from "Andre Engels" at Nov 28, 97 11:22:04 am
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 814
+
+Andre Engels writes:
+> 
+> I think it starts with something like:
+> "The first who has correctly translated this regulation..." but after tha=
+> t I'm
+> completely in the dark.
+
+I agree with you on the likely translation of the first half, but from the
+looks of the words in the second helf, I know _I_ don't want to be the 
+first one the provide a translation. Do _you_ want to be "stemmemerke av
+konkurranselederen"? I shudder at the thought. :)
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+

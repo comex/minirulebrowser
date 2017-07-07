@@ -1,0 +1,157 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Nov  6 08:19 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:root@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id IAA07927
+	for <dpb@cs.brown.edu>; Fri, 6 Nov 1998 08:19:37 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA00794
+	for agora-discussion-list; Fri, 6 Nov 1998 21:19:00 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA00791
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 6 Nov 1998 21:18:59 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id VAA10974
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 6 Nov 1998 21:20:54 +1100 (EST)
+	(envelope-from klaush@dij91.tp3.ruhr-uni-bochum.de)
+Received: from dij91.tp3.ruhr-uni-bochum.de(134.147.160.152) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma010972; Fri, 6 Nov 98 21:20:46 +1100
+Received: (from klaush@localhost) by dij91.tp3.ruhr-uni-bochum.de (AIX4.2/UCB 8.7/8.7) id LAA15260; Fri, 6 Nov 1998 11:17:54 +0100 (NFT)
+Date: Fri, 6 Nov 1998 11:17:54 +0100 (NFT)
+Message-Id: <199811061017.LAA15260@dij91.tp3.ruhr-uni-bochum.de>
+From: Klaus Herrmanns <klaush@tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au (Nomic Official)
+Subject: DIS: Proto: Monthly Voting Bills
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1429
+Lines: 37
+
+Hi all,
+
+Here is another attempt to reduce the number of POs and TOs around. 
+
+>>
+Amend R1442 to read:
+
+      Every vote cast on a proposal has a voting cost, equal to 
+      the Voting Tariff at the time the proposal was distributed. 
+      The voting cost of a particular vote is unbilled if it has 
+      not been billed yet.
+
+      As soon as possible after the beginning of each month, the 
+      Assessor shall bill each Voting Entity a number of Voting 
+      Tokens equal to the overall unbilled voting cost of all votes
+      cast on Proposals by that entity in the past month. 
+<<
+
+I tried to check whether changes are needed in other rules that
+interact with the timing of these Voting bills, but I don't think
+there are any such rules.
+
+Denial of voting privileges (R1825) still works as written, there may
+just be times when it is more or less likely that players are denied
+this privilege.
+
+Concerning R1863 (Duty to vote) we might either insert a clause that
+the number of "effectively controlled" VTs is the number of VTs owned
+minus the unbilled voting cost of votes already cast in that month, or
+should we leave it to the courts to establish that this is just what
+"effective control" means? I'd favor the latter.
+
+One might try and bunch the Duty to Vote penalties together into
+monthly bills, too, but that conflicts with the gereal infraction and
+penalty framework, so I'd rather not change this.
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Nov  6 20:11 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id UAA01623
+	for <dpb@cs.brown.edu>; Fri, 6 Nov 1998 20:11:48 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA04250
+	for agora-discussion-list; Sat, 7 Nov 1998 12:08:48 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA04247
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Nov 1998 12:08:46 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id MAA14164
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Nov 1998 12:10:43 +1100 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma014162; Sat, 7 Nov 98 12:10:19 +1100
+Received: From mozart With LocalMail ; Sat, 7 Nov 98 12:07:35 +1100 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sat, 7 Nov 1998 12:07:35 +1100 (EST)
+Message-Id:  <981107010735.23964@cse.unsw.edu.au>
+Subject: Re: DIS: Proto: Monthly Voting Bills
+In-Reply-To: <199811061017.LAA15260@dij91.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns" at Nov 6, 98 11:17:54 am
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 865
+Lines: 25
+
+> 
+> Hi all,
+> 
+> Here is another attempt to reduce the number of POs and TOs around. 
+
+...
+
+While this does reduce the number of TOs, it really doesn't decrease 
+the amount of PO recordkeeping. It just transfers the work from the 
+Accountor to the Assessor. Someone still has to keep track of all those
+voting debts.
+
+This doesn't mean I am opposed to the change, just that I would like 
+to see a small pay rise for the Assessor included in the Proposal, to
+compensate em for the additional work.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Nov  6 20:18 EST 1998
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id UAA01727
+	for <dpb@cs.brown.edu>; Fri, 6 Nov 1998 20:18:49 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA04332
+	for agora-discussion-list; Sat, 7 Nov 1998 12:16:48 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA04329
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Nov 1998 12:16:46 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id MAA14185
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 7 Nov 1998 12:18:43 +1100 (EST)
+	(envelope-from scott@poverty.bloomington.in.us)
+Received: from dial-126-88.ucs.indiana.edu(156.56.126.88) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma014183; Sat, 7 Nov 98 12:18:36 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id UAA07551 for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 6 Nov 1998 20:03:56 -0500
+Message-Id: <199811070103.UAA07551@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: silence!
+Date: Fri, 06 Nov 1998 20:03:55 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 18
+Lines: 1
+
+Did everyone die?
+

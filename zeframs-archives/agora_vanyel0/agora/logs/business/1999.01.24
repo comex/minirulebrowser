@@ -1,0 +1,360 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Sun Jan 24 03:24 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id DAA26617
+	for <dpb@cs.brown.edu>; Sun, 24 Jan 1999 03:24:25 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA19954
+	for agora-business-list; Sun, 24 Jan 1999 19:17:23 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA19951
+	for <agora-business@gecko.serc.rmit.edu.au>; Sun, 24 Jan 1999 19:17:21 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id TAA17904
+	for <agora-business@gecko.serc.rmit.edu.au>; Sun, 24 Jan 1999 19:22:44 +1100 (EST)
+Received: from dial-126-79.dial.indiana.edu(156.56.126.79) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma017902; Sun, 24 Jan 99 19:22:43 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id DAA22598 for <agora-business@gecko.serc.rmit.edu.au>; Sun, 24 Jan 1999 03:20:11 -0500
+Message-Id: <199901240820.DAA22598@poverty.bloomington.in.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Votes, 3825-3826
+Date: Sun, 24 Jan 1999 03:20:09 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 56
+
+I hereby vote AGAINST 3825, twice, and FOR 3826, twice.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Sun Jan 24 07:16 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id HAA01222
+	for <dpb@cs.brown.edu>; Sun, 24 Jan 1999 07:16:43 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA20880
+	for agora-business-list; Sun, 24 Jan 1999 23:02:57 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA20877
+	for <agora-business@gecko.serc.rmit.edu.au>; Sun, 24 Jan 1999 23:02:55 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id XAA18186
+	for <agora-business@gecko.serc.rmit.edu.au>; Sun, 24 Jan 1999 23:08:19 +1100 (EST)
+Received: from dial-126-79.dial.indiana.edu(156.56.126.79) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018184; Sun, 24 Jan 99 23:08:04 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id HAA23269 for <agora-business@gecko.serc.rmit.edu.au>; Sun, 24 Jan 1999 07:05:34 -0500
+Message-Id: <199901241205.HAA23269@poverty.bloomington.in.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: P-Note Payment Orders
+Date: Sun, 24 Jan 1999 07:05:31 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1761
+Lines: 28
+
+The following two Payment Orders were vacated by the implementation of
+Crito's Budget, and then subsequently Transfer Orders were made
+attempting to satisfy them.  Those Transfers Orders were improperly
+reported as succeeding.  These errors have been corrected.
+
++-------+--------+------+--------+----------+----------+---------------------+
+| seqno | ident  | curr | amt    | payor    | payee    | exedate             |
++-------+--------+------+--------+----------+----------+---------------------+
+|    50 | RPPO 4 | PN   | 1.0000 | The Bank | Peekee   | 1999-01-04 03:30:51 |
+|    56 | ppn008 | PN   | 1.0000 | Morendil | The Bank | 1999-01-14 02:05:12 |
++-------+--------+------+--------+----------+----------+---------------------+
+
+The following five orders (including the two above) were vacated by
+the implementation of Crito's Budget.
+
++-------+--------+------+--------+----------+----------+---------------------+
+| seqno | ident  | curr | amt    | payor    | payee    | exedate             |
++-------+--------+------+--------+----------+----------+---------------------+
+|    39 | NULL   | PN   | 1.0000 | lee      | The Bank | 1998-12-09 20:48:43 |
+|    52 | NULL   | PN   | 1.0000 | Proglet  | The Bank | 1998-12-28 12:51:02 |
+|    50 | RPPO 4 | PN   | 1.0000 | The Bank | Peekee   | 1999-01-04 03:30:51 |
+|    51 | NULL   | PN   | 1.0000 | Murphy   | The Bank | 1998-12-28 12:51:02 |
+|    56 | ppn008 | PN   | 1.0000 | Morendil | The Bank | 1999-01-14 02:05:12 |
++-------+--------+------+--------+----------+----------+---------------------+
+
+This message shall be construed as an admission of all COEs related to 
+the correctness of the Payment Orders and Transfers Orders referenced
+herein, to the extent that it can be reasonably so construed.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Sun Jan 24 08:10 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id IAA01992
+	for <dpb@cs.brown.edu>; Sun, 24 Jan 1999 08:09:59 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA21211
+	for agora-business-list; Sun, 24 Jan 1999 23:56:29 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA21208
+	for <agora-business@gecko.serc.rmit.edu.au>; Sun, 24 Jan 1999 23:56:28 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id AAA18331
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 25 Jan 1999 00:01:51 +1100 (EST)
+Received: from wsinfm15.win.tue.nl(131.155.69.168) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018329; Mon, 25 Jan 99 00:01:39 +1100
+Received: from engels@localhost by wsinfm15.win.tue.nl (8.8.7)
+	  for agora-business@gecko.serc.rmit.edu.au
+	  id NAA11443. Sun, 24 Jan 1999 13:58:35 +0100 (MET)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199901241258.NAA11443@wsinfm15.win.tue.nl>
+Subject: Re: DIS: Re: BUS: COE & transfer
+In-Reply-To: <199901241206.HAA23280@poverty.bloomington.in.us> from Scott Goehring at "Jan 24, 1999  7: 6:46 am"
+To: agora-business@gecko.serc.rmit.edu.au (nomic-business list)
+Date: Sun, 24 Jan 1999 13:58:34 +0100 (MET)
+X-Mailer: ELM [version 2.4ME+ PL43 (25)]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 826
+Lines: 25
+
+Scott Goehring wrote:
+> "Andre" == Andre Engels <engels@win.tue.nl> writes:
+> 
+> Andre> I hereby also issue a Payment Order for 1 Proposal Note to be
+> Andre> transferred from me to Peekee, because Peekee through my fault
+> Andre> (as Chancellor) e did not receive one from the Bank.
+> 
+> Please note that this has been recorded as a Private Payment Order,
+> not as a Transfer Orders, which is what I think you intended.
+
+These currency rules will make me crazy some day. Or better, they already
+have done so...
+
+I hereby issue a Transfer Order of 1 Proposal Note to Peekee, to satisfy
+the Payment Order above.
+
+And thanks for notifying...
+
+
+-- 
+Andre Engels, engels@win.tue.nl, ICQ #6260644
+http://www.win.tue.nl/cs/fm/engels/index_en.html
+
+A child is not a glass that is filled but a fire that is set ablaze.
+							-- N.N.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Sun Jan 24 08:11 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id IAA02048
+	for <dpb@cs.brown.edu>; Sun, 24 Jan 1999 08:11:14 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA21224
+	for agora-business-list; Sun, 24 Jan 1999 23:57:58 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA21221
+	for <agora-business@gecko.serc.rmit.edu.au>; Sun, 24 Jan 1999 23:57:57 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id AAA18338
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 25 Jan 1999 00:03:20 +1100 (EST)
+Received: from dial-126-79.dial.indiana.edu(156.56.126.79) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018334; Mon, 25 Jan 99 00:02:50 +1100
+Received: (from scott@localhost) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) id IAA23377; Sun, 24 Jan 1999 08:00:18 -0500
+Date: Sun, 24 Jan 1999 08:00:18 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Message-Id: <199901241300.IAA23377@poverty.bloomington.in.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: ATTN: Agora Nomic Proposal
+Cc: scott@poverty.bloomington.in.us
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 2275
+Lines: 49
+
+
+This message contains exactly one Proposal.  The Proposal begins
+immediately after the line marked "**START PROPOSAL" and ends at the
+end of the message.
+
+The following Proposal is to be titled "Let the Promotor Exercise
+Judgment" and is to have Adoption Index 1.
+**START PROPOSAL
+Be it therefore resolved, that Rule 1483 be amended to read:
+
+      (a) A Proposal is any document clearly marked as such.
+
+      (b) A Proposal is Proposed when it is posted by a Proposing
+          Entity to the Public Forum with the clear indication that it
+          is being posted for the purpose of Proposing it.
+
+      (c) A Proposal is not Proposed if, in the Promotor's judgment,
+          it is substantially identical to another Proposal Proposed
+          within the past three weeks, unless
+        (1) the Proposing Entity posting the Proposal clearly
+            indicates at the time of posting that the Proposal is
+            intended to become a duplicate of the prior Proposal, or
+        (2) the prior Proposal has been discarded or withdrawn, or has
+            been distributed and the results of voting upon that
+            Proposal have been announced by the Assessor.
+
+      (d) The Promotor's determination that a Proposal has or has not
+          been Proposed (including a determination made under
+          subdivision (c) of this Rule) is subject to judicial review
+          only for abuse of discretion.
+
+      (e) Under no circumstance shall the Promotor's distribution of
+          previously undistributed Proposals constitute the submission
+          of a new Proposal.
+
+Be it further resolved, that a Rule be enacted, to read:
+
+      (a) Any CFJ which alleges that an Officer made an error
+          regarding a determination of fact where the Rules state that
+          such determinations shall be subject to judicial review only
+          for abuse of discretion lacks standing and shall be
+          dismissed.  (Such CFJs, to have standing, must allege that
+          the Officer in question abused discretion in making the
+          disputed determination.)
+
+      (b) This Rule takes precedence over all other Rules pertaining
+          to when a CFJ has standing, and over all other Rules which
+          specify when a CFJ shall be dismissed.
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Sun Jan 24 13:09 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id NAA06340
+	for <dpb@cs.brown.edu>; Sun, 24 Jan 1999 13:09:24 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA22655
+	for agora-business-list; Mon, 25 Jan 1999 04:59:04 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA22652
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 25 Jan 1999 04:59:02 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id FAA18719
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 25 Jan 1999 05:04:26 +1100 (EST)
+Received: from sabre-wulf.nvg.ntnu.no(129.241.210.67) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018717; Mon, 25 Jan 99 05:04:01 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 25408]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49519-31099>; Sun, 24 Jan 1999 19:00:53 +0100
+Date: 	Sun, 24 Jan 1999 19:00:50 +0100 (CET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: Agora Business List <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: Vote (Re: OFF: Speaker-Elect Referendum)
+In-Reply-To: <199901191723.SAA25286@wsinfm15.win.tue.nl>
+Message-ID: <Pine.LNX.4.05.9901241858170.26427-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from QUOTED-PRINTABLE to 8bit by gecko.serc.rmit.edu.au id EAA22653
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=iso-8859-1
+Content-Length: 388
+Lines: 14
+
+On Tue, 19 Jan 1999, Andre Engels wrote:
+
+> The Nomination Period for the Office of Speaker-Elect has ended. Candidates
+> are Andre and Blob. A Referendum starts as of this message between these two
+> Candidates.
+
+As I have seen no campaigning from either Candidate, I am following my
+policy of throwing a coin^H^H^H^H$RANDOM.
+
+I am voting for Andre as Speaker-Elect.
+
+Greetings,
+Ørjan.
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Sun Jan 24 14:11 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id OAA07310
+	for <dpb@cs.brown.edu>; Sun, 24 Jan 1999 14:11:45 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA22897
+	for agora-business-list; Mon, 25 Jan 1999 06:07:36 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id GAA22894
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 25 Jan 1999 06:07:34 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id GAA18817
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 25 Jan 1999 06:12:58 +1100 (EST)
+Received: from wsinfm15.win.tue.nl(131.155.69.168) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018815; Mon, 25 Jan 99 06:12:41 +1100
+Received: from engels@localhost by wsinfm15.win.tue.nl (8.8.7)
+	  for agora-business@gecko.serc.rmit.edu.au
+	  id UAA14604. Sun, 24 Jan 1999 20:09:36 +0100 (MET)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199901241909.UAA14604@wsinfm15.win.tue.nl>
+Subject: BUS: DIS: Re: OFF: Proposals 3825-3826 (fwd)
+To: agora-business@gecko.serc.rmit.edu.au (nomic-business list)
+Date: Sun, 24 Jan 1999 20:09:35 +0100 (MET)
+X-Mailer: ELM [version 2.4ME+ PL43 (25)]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 275
+Lines: 12
+
+Again, this time to the PF:
+
+I hereby make the following votes:
+3825: present
+3826: 2 FOR
+
+-- 
+Andre Engels, engels@win.tue.nl, ICQ #6260644
+http://www.win.tue.nl/cs/fm/engels/index_en.html
+
+A child is not a glass that is filled but a fire that is set ablaze.
+							-- N.N.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Sun Jan 24 14:13 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id OAA07343
+	for <dpb@cs.brown.edu>; Sun, 24 Jan 1999 14:13:30 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA22918
+	for agora-business-list; Mon, 25 Jan 1999 06:09:35 +1100
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id GAA22915
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 25 Jan 1999 06:09:33 +1100
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id GAA18823
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 25 Jan 1999 06:14:58 +1100 (EST)
+Received: from wsinfm15.win.tue.nl(131.155.69.168) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma018820; Mon, 25 Jan 99 06:14:45 +1100
+Received: from engels@localhost by wsinfm15.win.tue.nl (8.8.7)
+	  for agora-business@gecko.serc.rmit.edu.au
+	  id UAA14658. Sun, 24 Jan 1999 20:11:41 +0100 (MET)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199901241911.UAA14658@wsinfm15.win.tue.nl>
+Subject: BUS: Speaker-Elect vote
+To: agora-business@gecko.serc.rmit.edu.au (nomic-business list)
+Date: Sun, 24 Jan 1999 20:11:41 +0100 (MET)
+X-Mailer: ELM [version 2.4ME+ PL43 (25)]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 246
+Lines: 8
+
+I vote for myself in the ongoing Election for Speaker-Elect.
+
+-- 
+Andre Engels, engels@win.tue.nl, ICQ #6260644
+http://www.win.tue.nl/cs/fm/engels/index_en.html
+
+A child is not a glass that is filled but a fire that is set ablaze.
+							-- N.N.
+

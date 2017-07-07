@@ -1,0 +1,170 @@
+From owner-agora-official@gecko.serc.rmit.edu.au Wed May 27 12:43 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA04471 for <dpb@cs.brown.edu>; Wed, 27 May 1998 12:42:55 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA29464
+	for agora-official-list; Thu, 28 May 1998 02:31:51 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id CAA29314
+	for <agora-official@gecko.serc.rmit.edu.au>; Thu, 28 May 1998 02:31:46 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 27 May 1998 12:31:38 -0400
+Message-Id: <s56c07aa.040@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 27 May 1998 12:30:43 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-official@gecko.serc.rmit.edu.au
+Subject: OFF: New Proposals: 3752 - 3754
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 5558
+
+New Proposals: 3752 - 3754
+
+There are three new proposals distributed as of this report.  The Voting Period
+on these Proposals commences as of this message and will end on Saturday, June
+6.
+
+======================================================================
+D = Disinterested
+S = Sane
+E = Emergency
+I = Insane
+U = Urgent
+
+   3752 Crito          1 Discard Disinterest 
+   3753 Murphy         1 Plot Repair
+   3754 Steve          1 Reinstate unemployment benefits
+
+======================================================================
+Proposal 3752 (Crito) AI = 1
+Discard Disinterest
+
+Repeal Rule 1623.
+
+Amend Rule 1723 by replacing the text:
+
+        ii) The Proposal is Interested,
+
+       iii) The Proposer has paid 2 P-Notes to the Bank, expressly
+            for this purpose (and not for any other). In order for
+            this payment to have effect, it must be made before
+            the Proposal is distributed.
+
+With the text:
+
+        ii) The Proposer has paid 2 P-Notes to the Bank, expressly
+            for this purpose (and not for any other). In order for
+            this payment to have effect, it must be made before
+            the Proposal is distributed.
+
+Amend Rule 1724 by replacing the text:
+
+        ii) The Proposal is Interested,
+
+       iii) The Proposer has paid 1 P-Note to the Bank, expressly
+            for this purpose (and not for any other). In order for
+            this payment to have effect, it must be made before
+            the Proposal is distributed.
+
+With the text:
+
+        ii) The Proposer has paid 1 P-Note to the Bank, expressly
+            for this purpose (and not for any other). In order for
+            this payment to have effect, it must be made before
+            the Proposal is distributed.
+
+Amend Rule 1729 by replacing "An Interested Proposal" with "A Proposal".
+Amend Rule 833 by replacing "an Interested Proposal" with "a Proposal".
+Amend Rule 1678 by replacing "an Interested Proposal" with "a Proposal".
+Amend Rule 1047 by replacing "an Interested Proposal" with "a Proposal".
+
+======================================================================
+Proposal 3753 (Murphy) AI = 1
+Plot Repair
+
+Create a Rule entitled "Plots" with this text:
+
+      There is a class of entities called Plots.  All Plots are initially
+      owned by the Bank.
+
+      Each Plot has a unique name.  A Plot's owner may change its name
+      Without Objection.
+
+Create a Rule entitled "Adjacency" with this text:
+
+      Each Plot has a Longitude and Latitude, each of which is an integer.
+      Two Plots are Adjacent if and only if one of the following applies:
+
+        * They have the same Longitude, and their Latitudes differ by one.
+        * They have the same Latitude, and their Longitudes differ by one.
+
+      For each combination of Latitude (X) from 0 to 9 and Longitude (Y)
+      from 0 to 9:
+
+        * If a Plot named "Area XY" (substituting the Latitude for "X" and the
+          Longitude for "Y") already exists, its Latitude and Longitude are set
+to
+          X and Y, respectively.
+        * If no such Plot exists, then a Plot with that name, Latitude and
+          Longitude is created.
+
+Create a Rule entitled "The Cartographor" with this text:
+
+     There is an Office of Cartographor. The Cartographor recieves a
+      salary equal to 2 times the Basic Officer Salary.
+
+      At least once each Nomic Week, the Cartographor shall post a
+      Report to the Public Forum containing the following information:
+
+        * the name, ownership, and Adjacency of all Plots
+        * the ownership, assignment (if any) and Type of all Structures
+        * the ownership of all Ergs
+        * all changes in ownership of Plots since the last Report
+        * all changes in ownership, assignment, or Type of all Structures
+          since the last Report
+        * all Transfer Orders and Payment Orders specifying Ergs since the
+          last Report
+
+======================================================================
+Proposal 3754 (Steve) AI = 1
+Reinstate unemployment benefits
+
+[Comment: the current VT supply situation for non-Officers is most unfair.
+P3741 passed, repealing unemployment benefits, but being crippled by the
+passage of P3740, no other source of VTs has replaced them, leaving non-
+Officers with no reliable income at all. At least util we sort out what
+we're going to do with Plots, we should reinstate unemployment benefits.
+I've also used this opportunity to propose a minor tweak to R1670 (The
+Distributor) to bring it under the control of LMP.]
+
+Be it hereby resolved that a Rule, entitled "Unemployment Benefits", be
+created with the following text:
+
+      As soon as possible after the beginning of each Week, the
+      Registrar shall pay out to every Player who did not receive any
+      Officer's Salary for the previous week an unemployment benefit
+      of half the Basic Officer Salary.
+
+Be it further resolved that R1670 (The Distributor) be amended by 
+replacing in it the text which currently reads:
+
+      If the Distributor is a Player, the Registrar shall, at the
+      beginning of each Nomic Week, pay out one Voting Token to the
+      Distributor, in recognition of eir service.
+
+with text which reads:
+
+      If the Distributor is a Player, the Registrar shall, as soon as
+      possible after the beginning of each Nomic Week, pay out to the
+      Distributor Voting Tokens equivalent to the Basic Officer
+      Salary, in recognition of eir service.
+
+======================================================================
+
+-- Promotor Crito
+
+

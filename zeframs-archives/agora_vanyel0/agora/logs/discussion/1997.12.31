@@ -1,0 +1,651 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Dec 31 01:04 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA03042 for <dpb@cs.brown.edu>; Wed, 31 Dec 1997 01:04:26 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA10509
+	for agora-discussion-list; Wed, 31 Dec 1997 17:00:02 +1100
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA10503
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 31 Dec 1997 16:59:59 +1100
+Received: by windowsnt from localhost
+    (router,SLMail V2.6); Wed, 31 Dec 1997 01:48:29 -0500
+Received: by windowsnt from friend-computer
+    (206.18.125.226::mail daemon; unverified,SLMail V2.6); Wed, 31 Dec 1997 01:48:27 -0500
+Message-Id: <3.0.5.32.19971230205611.0079e6e0@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Tue, 30 Dec 1997 20:56:11 -0800
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: DIS: Plots proto
+In-Reply-To: <E0xmjfx-0001Ta-00@sturgeon.cl.cam.ac.uk>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 1666
+
+Michael wrote:
+
+>I think it is a big mistake to conflate the notion of possession with
+>that of Mule allocation to Plots.  Despite the similarities at one
+>level, the two things are really quite different and I don't think
+>it's wise to muddle things up in this way.  It may work now, but the
+>similarities may go away, and then we'll be left in the unpleasant
+>situation of having to update Currencies to also keep Plots working,
+>or vice versa.  The CompSci phrase is "clean separation of concerns". 
+
+I'll see about addressing that in the next version.
+
+Incidentally, would someone please send me a copy of my most recent
+proto?  I seem to have misplaced it.
+
+>In any case, I can't see that the system needs much complicated
+>machinery.  The Cartographor needs to be able to bill people who are
+>maintaining Mules (I think I preferred the notion of buildings
+>somehow; "Mules" keeps on making me think of telepathic psychopaths),
+
+Lucky I read that series this month, or I wouldn't know what in heaven's
+name you were talking about.
+
+>and people need to be able to tell the Cartographor what their
+>allocation is to be, which in turn will cost them money.  There will
+>have to be some sort of Official Document that the C. maintains with
+>this information in it, and the Cartographor will have to pay out the
+>returns on people's investments, but there's not much more to it than that. 
+
+Right.
+
+>While you're fiddling with the Cartographor, could you simultaneously
+>get rid of Locations?  They seem to me to be a waste of time.
+
+The proto does that.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+"I see," said Arthur, who didn't.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Dec 31 01:04 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA03043 for <dpb@cs.brown.edu>; Wed, 31 Dec 1997 01:04:27 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA10472
+	for agora-discussion-list; Wed, 31 Dec 1997 16:56:01 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id QAA10466
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 31 Dec 1997 16:55:58 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA14349; Tue, 30 Dec 97 23:57:57 CST
+Message-Id: <9712310557.AA14349@dfw.dfw.net>
+Subject: DIS: Away for awhile
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Discussion)
+Date: Tue, 30 Dec 1997 23:57:57 -0600 (CST)
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 268
+
+I'll be away from email access from Jan. 2-9.  I will not be going
+on hold during that time, but I am uns-bscribing from a-d starting
+now.  So please cc to me anything on a-d which you feel important for me
+to see.  I'll be publishing a Ruleset before I leave.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Dec 31 06:07 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA07876 for <dpb@cs.brown.edu>; Wed, 31 Dec 1997 06:07:02 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA11577
+	for agora-discussion-list; Wed, 31 Dec 1997 22:02:17 +1100
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA11574
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 31 Dec 1997 22:02:14 +1100
+Received: by windowsnt from localhost
+    (router,SLMail V2.6); Wed, 31 Dec 1997 06:50:41 -0500
+Received: by windowsnt from friend-computer
+    (206.18.125.191::mail daemon; unverified,SLMail V2.6); Wed, 31 Dec 1997 06:50:39 -0500
+Message-Id: <3.0.5.32.19971231025257.007a9d10@mail.bayside.net>
+X-Sender: ford@mail.bayside.net (Unverified)
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Wed, 31 Dec 1997 02:52:57 -0800
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: DIS: Re: OFF:  New Proposals: 3656-3658
+In-Reply-To: <3.0.1.16.19971230221350.098f2cf4@cyber1.servtech.com>
+References: <s4a786f5.055@rmv.state.ma.us>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 322
+
+Harlequin wrote:
+
+>>D  3656 Repeal-O-Matic 1 Repeal Rule 1494
+>
+>Present.
+> 
+>>D  3657 Repeal-O-Matic 1 Repeal Rule 1741
+>
+>Present.
+>
+>>   3658 Steve          1 Bring Back Public Voting
+>
+>FOR.
+
+Not to the PF.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+"I see," said Arthur, who didn't.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Dec 31 11:07 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA13588 for <dpb@cs.brown.edu>; Wed, 31 Dec 1997 11:07:11 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA12909
+	for agora-discussion-list; Thu, 1 Jan 1998 03:02:19 +1100
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id DAA12906
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 1 Jan 1998 03:02:14 +1100
+Received: from arapael (pppA107.francenet.fr [193.149.100.13])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id RAA10927
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 31 Dec 1997 17:03:53 +0100 (MET)
+Message-Id: <199712311603.RAA10927@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 31 Dec 1997 17:03:36 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: DIS: Happy New Year
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 17
+
+...to all of ya.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Dec 31 11:07 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA13599 for <dpb@cs.brown.edu>; Wed, 31 Dec 1997 11:07:30 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA12926
+	for agora-discussion-list; Thu, 1 Jan 1998 03:03:58 +1100
+Received: from cayman.ucs.indiana.edu (cayman.ucs.indiana.edu [129.79.10.63])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id DAA12923
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 1 Jan 1998 03:03:55 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-150.ucs.indiana.edu [156.56.126.150])
+	by cayman.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id LAA11190
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 31 Dec 1997 11:05:40 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id LAA00136 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 31 Dec 1997 11:05:37 -0500
+Message-Id: <199712311605.LAA00136@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: OFF: New Proposals: 3656-3658 
+In-reply-to: Your message of "Wed, 31 Dec 1997 02:52:57 PST."
+             <3.0.5.32.19971231025257.007a9d10@mail.bayside.net> 
+Date: Wed, 31 Dec 1997 11:05:34 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 284
+
+"Ed" == Ed Murphy <ford@bayside.net> writes:
+
+
+Ed> Harlequin wrote:
+>>> D 3656 Repeal-O-Matic 1 Repeal Rule 1494
+>>  Present.
+>> 
+>>> D 3657 Repeal-O-Matic 1 Repeal Rule 1741
+>>  Present.
+>> 
+>>> 3658 Steve 1 Bring Back Public Voting
+>>  FOR.
+
+Ed> Not to the PF.
+
+Not required to be.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Dec 31 11:29 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA14129 for <dpb@cs.brown.edu>; Wed, 31 Dec 1997 11:29:55 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA13032
+	for agora-discussion-list; Thu, 1 Jan 1998 03:25:57 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id DAA13029
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 1 Jan 1998 03:25:53 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 31 Dec 1997 11:34:03 -0500
+Message-Id: <s4aa2dab.043@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 31 Dec 1997 10:08:38 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: OFF: CFJ 1077 Assignment: Steve
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 2144
+
+Re: OFF: CFJ 1077 Assignment: Steve
+
+>                               CFJ 1077
+
+> "Rule 833 should be interpreted such that it does not cause the
+>  Proposer of a failed Disinterested Proposal to be billed 1 P-Note."
+
+>Caller's Arguments:
+
+>The relevant sentence is: "If the Sponsor and the Proposer of a
+>Proposal are not the same and the Proposal fails, the Assessor shall
+>bill the Proposer 1 P-Note."
+
+>The Sponsor is earlier defined in the same rule as "The entity which
+>paid the Petition fee for a given Proposal".  By definition, a
+>Disinterested Proposal does not have a Sponsor (R1623), so the first
+>sentence quoted is best interpreted as having no meaning; just as
+>sentences involving the "King of France in 1997" are meaningless.
+
+Although I haven't decided for sure how *I* would decide this CFJ, I do have a
+problem with this argument.  Specifically, sentences involving the "King of
+France in 1997" are not necessarily meaningless just because there is no such
+King.  For instance, "Is Morendil the King of France in 1997?" is not a
+meaningless sentence.  It's a meaningful sentence to which the answer is "No". 
+
+Sentences like "If x then y" are semantically equivalent to the two sentences
+"Is x true? If the answer is yes, then y".  Now, I would not consider the
+sentence, "Is the Sponsor of a Disinterested Proposal the same as that
+Proposal's Proposer?", to be a meaningless sentence.  I would say it's the same
+as my King of France example.  It's meaningful, but the answer is "No, because
+the Proposal has no Sponsor".  Before I could judge the CFJ "True", I would
+have to be convinced that the relevant sentence is not equivalent to the above
+construction in the case of Disinterested Proposals.  I'm open to arguments
+about this, but my tendency at the moment is to consider them as equivalent and
+therefore that the relevant sentence is meaningful and operates properly wrt
+Disinterest.
+
+For the mathematically minded, I would say that the value of the logical
+construction "x not equal y" is well defined even when x or y are null, i.e.
+the statement is true if either x or y is null and the other is not.
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Dec 31 12:13 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA15181 for <dpb@cs.brown.edu>; Wed, 31 Dec 1997 12:13:34 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA13206
+	for agora-discussion-list; Thu, 1 Jan 1998 04:09:51 +1100
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA13203
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 1 Jan 1998 04:09:47 +1100
+Received: from arapael (pppA313.francenet.fr [193.149.100.115])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id SAA14583
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 31 Dec 1997 18:11:34 +0100 (MET)
+Message-Id: <199712311711.SAA14583@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 31 Dec 1997 18:12:03 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Re: OFF: CFJ 1077 Assignment: Steve
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1007
+
+> Although I haven't decided for sure how *I* would decide this CFJ, I do have a
+> problem with this argument.  Specifically, sentences involving the "King of
+> France in 1997" are not necessarily meaningless just because there is no such
+> King.  For instance, "Is Morendil the King of France in 1997?" is not a
+> meaningless sentence.  It's a meaningful sentence to which the answer is "No". 
+
+But this question is not logically equivalent to "Is Morendil the
+same person as the King of France in 1997 ?". The former does not
+assume the existence of such a person, whereas the latter does. I 
+suppose this is the core of Steve's argument.
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                       (o o)
+--------------------------------     -oOO--(~)--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in Web chat & Internet Communication technologies
+		Communicate better, Communicate Cheaper
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Dec 31 12:40 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA15868 for <dpb@cs.brown.edu>; Wed, 31 Dec 1997 12:40:15 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA13320
+	for agora-discussion-list; Thu, 1 Jan 1998 04:36:18 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id EAA13317
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 1 Jan 1998 04:36:15 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 31 Dec 1997 12:44:42 -0500
+Message-Id: <s4aa3e3a.097@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 31 Dec 1997 12:44:11 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: OFF: CFJ 1077 Assignment: Steve
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1416
+
+Re: DIS: Re: OFF: CFJ 1077 Assignment: Steve
+
+Morendil wrote:
+
+>>problem with this argument.  Specifically, sentences involving the "King of
+>>France in 1997" are not necessarily meaningless just because there is no
+>>such King.  For instance, "Is Morendil the King of France in 1997?" is not a
+>> meaningless sentence.  It's a meaningful sentence to which the answer is
+>> "No". 
+
+>But this question is not logically equivalent to "Is Morendil the
+>same person as the King of France in 1997 ?". The former does not
+>assume the existence of such a person, whereas the latter does. I 
+>suppose this is the core of Steve's argument.
+
+True.  But the invalid assumption does not render the question meaningless,
+IMO.  It still has a definite answer, "No", which is justified with the further
+information that there is no King of France in 1997.  The question to me, then,
+is whether Rule sentences with predicates that make assumptions which may be
+false under some circumstances, should be considered completely ineffective
+under those circumstances or whether those circumstances simply affect the
+truth or falsity of the predicate.  The latter seems more natural to me, but I
+would love to see a justification for the former.  I also suspect that choosing
+the former interpretation, if applied uniformly, will get us into trouble in
+other circumstances - but I haven't had time to think up a good example.
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Dec 31 12:46 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA16075 for <dpb@cs.brown.edu>; Wed, 31 Dec 1997 12:46:34 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA13365
+	for agora-discussion-list; Thu, 1 Jan 1998 04:43:00 +1100
+Received: from belize.ucs.indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA13362
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 1 Jan 1998 04:42:57 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-150.ucs.indiana.edu [156.56.126.150])
+	by belize.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id MAA23331
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 31 Dec 1997 12:44:42 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id MAA00547 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 31 Dec 1997 12:44:35 -0500
+Message-Id: <199712311744.MAA00547@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: OFF: CFJ 1077 Assignment: Steve 
+In-reply-to: Your message of "Wed, 31 Dec 1997 10:08:38 EST."
+             <s4aa2dab.043@rmv.state.ma.us> 
+Date: Wed, 31 Dec 1997 12:44:30 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1609
+
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> Sentences like "If x then y" are semantically equivalent to the
+David> two sentences "Is x true? If the answer is yes, then y".  Now,
+David> I would not consider the sentence, "Is the Sponsor of a
+David> Disinterested Proposal the same as that Proposal's Proposer?",
+David> to be a meaningless sentence.  I would say it's the same as my
+David> King of France example.  It's meaningful, but the answer is
+David> "No, because the Proposal has no Sponsor".  Before I could
+David> judge the CFJ "True", I would have to be convinced that the
+David> relevant sentence is not equivalent to the above construction
+David> in the case of Disinterested Proposals.  I'm open to arguments
+David> about this, but my tendency at the moment is to consider them
+David> as equivalent and therefore that the relevant sentence is
+David> meaningful and operates properly wrt Disinterest.
+
+This is, I believe, the construction I adopted when making my original
+interpretation.  I think it more closely represents the natural
+meaning of language in this case.  It may be that a strict adherence
+to the method of construction that Crito outlines above may lead to
+seemingly paradoxical constructions in some cases.  My response to
+that is that one should simply not adhere to that method in such
+cases, but should instead apply a different method which does not
+yield paradox in those cases.  Legal reasoning does not seek to avoid
+paradox, but to accomodate it by circumventing it.  (It is my belief
+that all nontrivial legal systems contain inherent paradoxes.)
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Dec 31 13:06 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA16539 for <dpb@cs.brown.edu>; Wed, 31 Dec 1997 13:06:20 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA13461
+	for agora-discussion-list; Thu, 1 Jan 1998 05:02:30 +1100
+Received: from roatan.ucs.indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA13458
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 1 Jan 1998 05:02:26 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-150.ucs.indiana.edu [156.56.126.150])
+	by roatan.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id NAA02293
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 31 Dec 1997 13:04:10 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id NAA00602 for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 31 Dec 1997 13:04:07 -0500
+Message-Id: <199712311804.NAA00602@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: OFF: CFJ 1077 Assignment: Steve 
+In-reply-to: Your message of "Wed, 31 Dec 1997 18:12:03 +0100."
+             <199712311711.SAA14583@logatome.micronet.fr> 
+Date: Wed, 31 Dec 1997 13:04:03 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 2153
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+>> Although I haven't decided for sure how *I* would decide this CFJ,
+>> I do have a problem with this argument.  Specifically, sentences
+>> involving the "King of France in 1997" are not necessarily
+>> meaningless just because there is no such King.  For instance, "Is
+>> Morendil the King of France in 1997?" is not a meaningless
+>> sentence.  It's a meaningful sentence to which the answer is "No".
+
+Laurent> But this question is not logically equivalent to "Is Morendil
+Laurent> the same person as the King of France in 1997 ?". The former
+Laurent> does not assume the existence of such a person, whereas the
+Laurent> latter does. I suppose this is the core of Steve's argument.
+
+I think the two questions are essentially equivalent semantically,
+even if they have different representations in certain formal
+languages.  After all, the sentence "Is Morendil the King of France?"
+(clearly false) can be translated into formalisms that mean "Is the
+entity whose name is Morendil the same as the entity which is the King
+of France?" (indeterminate).  The suspect process here is the
+translation, not the original statement.  Finding the "proper"
+formalization of a given natural language statement is a difficult and
+often contentious process.
+
+I assert that a system of legal reasoning must necessarily be more
+flexible than strict logical reasoning because systems of legal
+reasoning must be able to cope with poorly defined and paradoxical
+situations without imploding.  A "unanswerable" response to a question
+is not acceptable in a legal context, at least not when that question
+forms the heart of the dispute at law.
+
+(I also seem to recall that there is a canon of interpretation
+established in our Game Custom that requires that the Rules be
+construed so as to deprive meaning of the smallest portion of the
+Rules necessary to avoid a paradox.  This canon is suggestive of
+denying Steve's argument; Steve asserts that we should deny meaning to
+a portion of the Rules, when a reasonable interpretation exists which
+grants meaning to that same portion without engendering a paradox.)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Dec 31 13:30 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA16975 for <dpb@cs.brown.edu>; Wed, 31 Dec 1997 13:30:52 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA13563
+	for agora-discussion-list; Thu, 1 Jan 1998 05:26:53 +1100
+Received: from satsuma.mail.easynet.net (satsuma.mail.easynet.net [193.131.248.57])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id FAA13560
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 1 Jan 1998 05:26:48 +1100
+Received: (qmail 10775 invoked from network); 31 Dec 1997 18:28:33 -0000
+Received: from kiwi.easynet.co.uk (193.131.248.4)
+  by satsuma.mail.easynet.net with SMTP; 31 Dec 1997 18:28:33 -0000
+Received: (qmail 3234 invoked from network); 31 Dec 1997 18:29:52 -0000
+Received: from eljefe.easynet.co.uk (HELO ?195.40.61.175?) (195.40.61.175)
+  by kiwi.easynet.co.uk with SMTP; 31 Dec 1997 18:29:52 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <l03110701b0d03e290763@[195.40.61.175]>
+In-Reply-To: <s4aa2dab.043@rmv.state.ma.us>
+Mime-Version: 1.0
+Date: Wed, 31 Dec 1997 18:27:03 +0000
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+Subject: Re: DIS: Re: OFF: CFJ 1077 Assignment: Steve
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 1394
+
+>Although I haven't decided for sure how *I* would decide this CFJ, I do have a
+>problem with this argument.  Specifically, sentences involving the "King of
+>France in 1997" are not necessarily meaningless just because there is no such
+>King.  For instance, "Is Morendil the King of France in 1997?" is not a
+>meaningless sentence.  It's a meaningful sentence to which the answer is
+>"No".
+
+I agree with Crito, which is why when this argument was used in CFJ 1074, I
+based my finding on a different argument.  To wit:
+
+>
+>I would like to judge this TRUE.  The facts and Rules are as noted by the
+>Caller, in particular the crucial sentence of Rule 833, "If the Sponsor and
+>the Proposer of a Proposal are not the same and the Proposal fails, the
+>Assessor shall bill the Proposer 1 P-Note."  Any meaning that it has
+>clearly presupposes that the Sponsor and the Proposer are entities.  Since
+>the Sponsor does not exist (for a Disinterested proposal), the antecedent
+>is False by virtue of depending on a false assumption, and so the
+>consequent does not take effect.
+
+Thus I interpret the antecedent of the sentence as being False rather than
+meaningless.
+
+Regards,
+-- elJefe
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Dec 31 13:31 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA16989 for <dpb@cs.brown.edu>; Wed, 31 Dec 1997 13:31:47 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA13579
+	for agora-discussion-list; Thu, 1 Jan 1998 05:27:49 +1100
+Received: from satsuma.mail.easynet.net (satsuma.mail.easynet.net [193.131.248.57])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id FAA13574
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 1 Jan 1998 05:27:45 +1100
+Received: (qmail 10793 invoked from network); 31 Dec 1997 18:29:33 -0000
+Received: from kiwi.easynet.co.uk (193.131.248.4)
+  by satsuma.mail.easynet.net with SMTP; 31 Dec 1997 18:29:33 -0000
+Received: (qmail 3498 invoked from network); 31 Dec 1997 18:30:52 -0000
+Received: from eljefe.easynet.co.uk (HELO ?195.40.61.175?) (195.40.61.175)
+  by kiwi.easynet.co.uk with SMTP; 31 Dec 1997 18:30:52 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <l03110702b0d03f123e39@[195.40.61.175]>
+In-Reply-To: <199712311603.RAA10927@logatome.micronet.fr>
+Mime-Version: 1.0
+Date: Wed, 31 Dec 1997 18:28:06 +0000
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+Subject: Re: DIS: Happy New Year
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 310
+
+>...to all of ya.
+
+... and to you, Morendil.
+
+Happy New Year, everybody!
+
+Regards,
+-- elJefe
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Wed Dec 31 13:36 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA17114 for <dpb@cs.brown.edu>; Wed, 31 Dec 1997 13:36:53 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA13635
+	for agora-discussion-list; Thu, 1 Jan 1998 05:33:17 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id FAA13632
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 1 Jan 1998 05:33:12 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 31 Dec 1997 13:41:42 -0500
+Message-Id: <s4aa4b96.006@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 31 Dec 1997 13:41:19 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Happy New Year
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 127
+
+Re: DIS: Happy New Year
+
+>>...to all of ya.
+
+>... and to you, Morendil.
+
+>Happy New Year, everybody!
+
+Ditto, ditto!
+
+-- Crito
+
+

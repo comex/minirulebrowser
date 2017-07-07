@@ -1,0 +1,2233 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 00:47 EST 1998
+Received: from gecko.serc.rmit.edu.au (root@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA02583 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 00:47:13 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA12543
+	for agora-discussion-list; Tue, 24 Feb 1998 16:16:01 +1100
+Received: from roatan.ucs.indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA12535
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 16:15:43 +1100
+Received: from poverty.bloomington.in.us (root@xyplex8-1-20.ucs.indiana.edu [129.79.117.129])
+	by roatan.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id AAA12488
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 00:18:18 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id AAA24640 for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 00:18:15 -0500
+Message-Id: <199802240518.AAA24640@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Plots (v3.3) 
+In-reply-to: Your message of "Tue, 24 Feb 1998 14:28:47 +1100."
+             <980224032848.11400@cse.unsw.edu.au> 
+Date: Tue, 24 Feb 1998 00:18:15 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 768
+
+"Malcolm" == Malcolm Ross Kinsella Ryan <malcolmr@cse.unsw.edu.au> writes:
+
+Malcolm> This could be formalised by creating a "Maintenance Account"
+Malcolm> for each player - an entity which could own Ergs, whose
+Malcolm> executor was the Carto- grapher. Players could transfer Ergs
+Malcolm> into their Accounts (or even into each others') whenever they
+Malcolm> wanted. The Cgr could then execute transfers from the
+Malcolm> Accounts to the bank, whenever Maintenance needed to be paid.
+
+A similar idea: allow Locations to own Currencies (should be
+Commodities, but we're not there yet).  Structures dump their output
+into and draw inputs from their Location.  No inputs, no production.
+You pay for a Structure's "Upkeep" by depositing sufficient Ergs in
+its Location.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 01:32 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA03350 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 01:32:06 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id RAA12857
+	for agora-discussion-list; Tue, 24 Feb 1998 17:26:28 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id RAA12854
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 17:26:24 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id RAA13967
+	for agora-discussion@gecko.serc.rmit.edu.au; Tue, 24 Feb 1998 17:29:27 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199802240629.RAA13967@silas.cc.monash.edu.au>
+Subject: DIS: FAQ: Steve's answers to section 3.1
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 24 Feb 1998 17:29:27 +1100 (EST)
+In-Reply-To: <34F1C131.33416DA8@gwis.com> from "Steven Swiniarski" at Feb 23, 98 01:34:26 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3037
+
+Steven Swiniarski wrote:
+>============================================================
+>The Agora FAQ v0.2 Beta
+>============================================================
+>
+>3.0: Democracy in Agora.
+>  3.1: How do I vote?
+
+As of Jan. 1998, all voting on Proposals, Elections and Referenda
+must be done in public, ie by sending a message to the Public Forum
+during the Voting Period. The message should specify what you're voting
+on, and how you are voting.
+[cf. 1764]
+
+>   +3.1.2: Voting Token, what's that?
+
+Voting Tokens are a Currency, the primary use of which is to vote on
+Proposals. Each vote you cast on a Proposal costs you one Voting
+Token, which you will be billed by the Assessor after the end of the
+Voting Period. [This assumes that P3693 will pass.]
+[cf. 1442]
+
+>   +3.1.3: This is a democracy, but voting isn't free?
+
+The best things in life may be free, but the best things in Agora
+are not. Or at least, they aren't any more. For about the first
+two years of the game, until March 1995, voting was completely
+free. For about two years after that, Players' first votes were
+free, and Players had the option to cast a second vote, at the
+expense of a Voting Token, which at the time were called Extra
+Votes. A desire to make Extra Votes more valuable led to the
+removal of the right to cast a free first vote, in April 1997,
+at which time Extra Votes were renamed Voting Tokens.
+[cf. 1442, especially the History]
+
+>   +3.1.4: Then what's Presence?  Isn't that a vote?
+
+Technically, no, Presence is not a vote. It doesn't cost you
+a Voting Token to declare your Presence on a Proposal. 
+Declaring Presence is just like abstaining on a Proposal,
+while counting towards Quorum. Since the cheapest way to get
+a Proposal to fail is to get it to fail Quorum, declaring
+Presence has the effect of expressing very mild support for
+a Proposal; mild opposition would be expressed by not voting
+or declaring Presence on it at all.
+[cf. 1715]
+
+>   +3.1.5: How do I get a Voting Token then?
+
+This is always a major focus of legislative activity, so any answer
+given here is unlikely to remain up to date for long. At time of
+writing, the most common way of earning VTs is to hold one of the
+Offices which pays a weekly Salary [cf. 1007]. Making a Proposal
+which gets adopted will earn you 2 VTs [cf. 833]. Judges also earn
+a salary for delivering Judgement [cf. 591].
+
+>   +3.1.6: I can't vote on anything without a Voting Token?
+
+[Once again, assuming P3693 passes.]
+It's not quite that simple. First of all, voting on Referenda and
+in Elections remains completely free. Secondly, it is possible to
+vote on Proposals without Voting Tokens. However, you will then
+have to find a way to pay the Voting Token bills that voting on
+Proposals will cause you to incur. If you cannot do so, the 
+penalties may be severe.
+[cf. 1442, 1713]
+
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 04:18 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA05411 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 04:18:44 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA13446
+	for agora-discussion-list; Tue, 24 Feb 1998 20:10:54 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id UAA13443
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 20:10:46 +1100
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0y7GQm-00009g-00; Tue, 24 Feb 1998 09:13:40 +0000
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0y7GQj-0005Qb-00; Tue, 24 Feb 1998 09:13:37 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: reforming election voting system?
+X-Mailer: VM 6.42 under Emacs 19.34.1
+Message-Id: <E0y7GQj-0005Qb-00@merganser.cl.cam.ac.uk>
+Date: Tue, 24 Feb 1998 09:13:37 +0000
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1760
+
+What do people think about this?  In an election like the forthcoming
+one for Justiciar there are five candidates, and assuming that all of
+them attract some support, there will be a large number of wasted
+votes.
+
+A standard fix for this sort of problem is to use a preferential
+voting system where Voters rank the Candidates in order of preference,
+and then if after the all the first choice votes have been tallied
+no-one has a majority, the candidate with the least number of votes is
+dropped and all of their votes are redistributed to second choice
+candidates.  &c &c.  I understand that this is how Australian
+elections to their lower hourse work.
+
+However, for all that this might give us a more rational system (and
+beware: what do you do if A gets five votes and B and C both get 3?),
+it will also make voting in Elections less strategically interesting.
+At a national level, where these things are (perhaps :-) more
+important, I'd be the first to campaign for a more rational system
+(having to vote strategically (i.e. counter-intuitively) to get a
+desired result seems a pretty good indication that a system needs
+reform), but perhaps this sort of thing makes Agora more interesting. 
+
+Michael.
+
+PS: preference voting as practised in Australia does not produce
+proportional results on a party basis in the legislature, which is
+probably why the big parties in the UK are so keen on it as a possible
+reform of the existing system.  For proportionality you need
+multi-member constituencies and the Single Transferable Vote system
+(as in the Republic of Ireland), or you need a system that allows
+people to vote for parties directly and which then adjusts the
+legislature appropriately, as happens (with variations) in Germany,
+Israel and New Zealand.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 04:38 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA05634 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 04:37:57 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA13554
+	for agora-discussion-list; Tue, 24 Feb 1998 20:27:27 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id UAA13551
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 20:27:22 +1100
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0y7Ggt-00003m-00; Tue, 24 Feb 1998 09:30:19 +0000
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0y7Ggs-0005S6-00; Tue, 24 Feb 1998 09:30:18 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: a bit of voting strategy
+X-Mailer: VM 6.42 under Emacs 19.34.1
+Message-Id: <E0y7Ggs-0005S6-00@merganser.cl.cam.ac.uk>
+Date: Tue, 24 Feb 1998 09:30:18 +0000
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 611
+
+If I'd been really on the ball, I would have just retracted my
+nomination, but my thoughts about voting systems etc came too late and
+I'm in the Election for Justiciar.
+
+However, in the interests of narrowing the field, I "retract" my
+nomination, and urge everyone that was going to vote for me (anyone?
+:-) to vote for Morendil instead.
+
+Morendil was Speaker until the recent revolt, and is well-qualified to
+serve on the Board of Appeals, being a Player of long-standing etc,
+etc.  As Speaker in his last term he served at least once on the BoA,
+and I'd like to see him continue in that position.
+
+Michael.
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 04:41 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA05672 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 04:41:52 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA13641
+	for agora-discussion-list; Tue, 24 Feb 1998 20:35:39 +1100
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id UAA13638
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 20:35:34 +1100
+Received: by windowsnt from localhost
+    (router,SLMail V2.6); Tue, 24 Feb 1998 04:33:57 -0500
+Received: by windowsnt from friend-computer
+    (206.18.116.85::mail daemon; unverified,SLMail V2.6); Tue, 24 Feb 1998 04:33:55 -0500
+From: "Ed Murphy" <ford@bayside.net>
+To: "Agora Discussion" <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: DIS: Things to add to the FAQ
+Date: Tue, 24 Feb 1998 01:37:35 -0800
+Message-ID: <01bd4107$d66ebd00$557412ce@friend-computer>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 4.71.1712.3
+X-MimeOLE: Produced By Microsoft MimeOLE V4.71.1712.3
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 633
+
+  * Public Voting.
+  * Non-free Voting/Proposing makes Currency scarce, thus more
+      valuable, thus its usage more interesting.
+  * Any mention of Marks/Mil, Directives, Tabulator, Powers, Extra
+      Votes, Win Tokens.
+  * Double-check Disinterestedness.
+  * Mutation Index becomes Power.  Update the Index section accordingly.
+  * High Style Mark; also the Wizard is now an Officer.
+  * Blots/Indulgences.
+  * Offices held in perpetuity.
+  * Notary also maintains Wills and Probate stuff.
+  * Banker becomes Chancellor.
+  * Ability to create non-Rule-defined Currencies.
+  * Update the acronym list (8.3).  And add UTC to it.
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 04:53 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA05799 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 04:53:22 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA13746
+	for agora-discussion-list; Tue, 24 Feb 1998 20:45:44 +1100
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id UAA13742
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 20:45:39 +1100
+Received: by dij91.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA13556; Tue, 24 Feb 1998 10:48:34 +0100
+Date: Tue, 24 Feb 1998 10:48:34 +0100
+From: klaush@dij91.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25(3751))
+Message-Id: <9802240948.AA13556@dij91.tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-Reply-To: <E0y7GQj-0005Qb-00@merganser.cl.cam.ac.uk> (message from Michael Norrish on Tue, 24 Feb 1998 09:13:37 +0000)
+Subject: Re: DIS: reforming election voting system?
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 708
+
+I think that the election of Justitiar might become most interesting
+just because we have the simple voting system we have. In fact, I
+believe that the current elections are the first time I've really seen
+the group structure used for something like party politics. For
+example, if the Threat (four votes) all vote for Scott, and maybe buy
+a few more votes, the only way for Scott to lose would be a
+considerable degree of planning by all the other players, so they
+don't split their votes and let Scott win.
+
+This can be fun, and while I'd rather not see an all-Threat
+government, I'd rather have some fun with these elections than a more
+complicated election system that avoids these "problems".
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 05:07 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA06020 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 05:07:41 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA13850
+	for agora-discussion-list; Tue, 24 Feb 1998 21:01:27 +1100
+Received: from belize.ucs.indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA13836
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 21:00:49 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-143.ucs.indiana.edu [156.56.126.143])
+	by belize.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id FAA14287
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 05:03:46 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id FAA25392 for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 05:03:43 -0500
+Message-Id: <199802241003.FAA25392@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: reforming election voting system? 
+In-reply-to: Your message of "Tue, 24 Feb 1998 09:13:37 GMT."
+             <E0y7GQj-0005Qb-00@merganser.cl.cam.ac.uk> 
+Date: Tue, 24 Feb 1998 05:03:41 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 855
+
+"Michael" == Michael Norrish <Michael.Norrish@cl.cam.ac.uk> writes:
+
+Michael> What do people think about this?  In an election like the
+Michael> forthcoming one for Justiciar there are five candidates, and
+Michael> assuming that all of them attract some support, there will be
+Michael> a large number of wasted votes.
+
+I was thinking the French system (at least that's what we call it
+here) of two ballots might be more interesting, not to mention a lot
+less complicated.  If one candidate wins a majority on the first
+ballot, e is elected.  Otherwise, a second vote is taken with just the
+top two candidates from the first ballot, in a runoff election.  Only
+problem is ties, but those can be dealt with.
+
+As is it now, an Officer can be elected by a plurality, which makes
+for odd dynamics when there are four or more candidates up for a
+single Office.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 05:48 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA06460 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 05:48:28 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA13997
+	for agora-discussion-list; Tue, 24 Feb 1998 21:38:02 +1100
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id VAA13991
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 21:37:57 +1100
+Received: by dij91.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA10563; Tue, 24 Feb 1998 11:40:53 +0100
+Date: Tue, 24 Feb 1998 11:40:53 +0100
+From: klaush@dij91.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25(3751))
+Message-Id: <9802241040.AA10563@dij91.tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Some officers' statistics
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 2089
+
+Hi all,
+
+Just an attempt to spice up the upcoming elections: here are some data
+on Offices held, and incomes connected to these offices, sorted by
+groups. 
+
+Before the current elections, the situation looked like this (I'm
+leaving out the paper tiger office of CinC, because it doesn't really
+play any role at the moment and doesn't draw a salary, either).
+
+Group      no of offices     sum of salaries
+
+Threat      7 of 15 (47%)      9 VTs of 21 (43%)
+
+Order       3 of 15 (20%)    4.5 VTs of 21 (21%)
+
+X group     2 of 15 (13%)    2.5 VTs of 21 (12%)
+
+none        3 of 15 (20%)      5 VTs of 21 (24%)
+
+
+In the current elections most players have already cast their votes;
+the only votes I have not seen yet are by three unaffiliated players
+and one member of the Threat (elJefe). At the moment the elections for
+CotC, Notary, Promotor and Wizard are close contests between members
+of the Threat and the Order - exactly split votes at the moment, and I
+guess elJefe's vote will help the Threat win them all... For
+Scorekeepor Harlequin might win, because Swann attracted some votes,
+including one from a member of the Threat. Morale: If the Threat votes
+unanimously, they can win elections.
+
+The same goes for the Justiciar election, which just began (the
+non-Threat votes will be split among many other candidates), while the
+elections for Archivist and Chancellor are between Threat members and
+unaffiliated candidates. So the Threat can win these, too. Then we
+have: 
+
+
+Group      no of offices     sum of salaries
+
+Threat      9 of 15 (60%)   11.5 VTs of 21 (55%)
+
+Order       3 of 15 (20%)      5 VTs of 21 (24%)
+
+X group     2 of 15 (13%)    2.5 VTs of 21 (12%)
+
+none        1 of 15 (20%)      2 VTs of 21 ( 9%)
+
+
+Bad times for independent candidates, good times for the
+Threat... I wonder whether the last revolution really was but a lame
+attempt to use the delegation loophole in the revolution
+rules. Especially as offices are gaining more and more real political
+power, and at the moment salaries are the only serious form of income. 
+</propaganda mode>
+
+Happy voting, Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 06:26 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA06826 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 06:26:06 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA14149
+	for agora-discussion-list; Tue, 24 Feb 1998 22:15:15 +1100
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id WAA14146
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 22:15:12 +1100
+Received: by dij91.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA11627; Tue, 24 Feb 1998 12:18:12 +0100
+Date: Tue, 24 Feb 1998 12:18:12 +0100
+From: klaush@dij91.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25(3751))
+Message-Id: <9802241118.AA11627@dij91.tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-Reply-To: <9802241040.AA10563@dij91.tp3.ruhr-uni-bochum.de> (klaush@dij91.tp3.ruhr-uni-bochum.de)
+Subject: Re: DIS: Some officers' statistics
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 409
+
+Before anyone else has to find this, here is a correction (I knew I'd
+make some mistake counting all these offices, and of course it did
+make things look eben worse for us non-Threat-people): even in my
+all-for-Threat scenario there will be two offices held by unaffiliated
+players, Chuck as rulekeepor and the Notary (Chuck or
+Murphy). Probably I've assigned the Threat one office too many. Sorry!
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 06:56 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA07115 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 06:56:21 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA14279
+	for agora-discussion-list; Tue, 24 Feb 1998 22:47:29 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id WAA14276
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 22:47:24 +1100
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0y7IsC-0008Nj-00; Tue, 24 Feb 1998 11:50:08 +0000
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0y7Is5-0005ai-00; Tue, 24 Feb 1998 11:50:01 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Some officers' statistics
+In-Reply-To: <9802241040.AA10563@dij91.tp3.ruhr-uni-bochum.de>
+References: <9802241040.AA10563@dij91.tp3.ruhr-uni-bochum.de>
+X-Mailer: VM 6.42 under Emacs 19.34.1
+Message-Id: <E0y7Is5-0005ai-00@merganser.cl.cam.ac.uk>
+Date: Tue, 24 Feb 1998 11:50:01 +0000
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 184
+
+Given that I'm the only member of the X group, you probably should
+count me among the unaffiliated.  The picture you get then of the
+situation becomes a little less extreme.
+
+Michael.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 09:12 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA09548 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 09:12:28 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA14976
+	for agora-discussion-list; Wed, 25 Feb 1998 01:02:42 +1100
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA14838
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 01:02:31 +1100
+Received: by dij91.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA14063; Tue, 24 Feb 1998 15:05:25 +0100
+Date: Tue, 24 Feb 1998 15:05:25 +0100
+From: klaush@dij91.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25(3751))
+Message-Id: <9802241405.AA14063@dij91.tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-Reply-To: <Pine.LNX.3.96.980224003445.15680L-100000@tyrell.nvg.ntnu.no> (message from Orjan Johansen on Tue, 24 Feb 1998 00:57:14 +0100 (MET))
+Subject: DIS: Historian
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 376
+
+Why limit this to a single person? I think it would be better to try
+to revive the thesis idea (as someone else remarked before). The
+historian would then not be responsible for _writing_ Agora history,
+but for collecting contributions from all players, archiving them,
+maybe even reviewing/editing the material, and for handing out rewards
+to those who contribute.
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 10:40 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA12557 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 10:40:06 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA15377
+	for agora-discussion-list; Wed, 25 Feb 1998 02:33:51 +1100
+Received: from cyber3.servtech.com (cyber3.servtech.com [199.1.22.25])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA15374
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 02:33:48 +1100
+Received: (from particle@localhost) by cyber3.servtech.com (8.8.6/8.8.5) id KAA18951 for agora-discussion@gecko.serc.rmit.edu.au; Tue, 24 Feb 1998 10:36:42 -0500 (EST)
+From: linda hall <particle@servtech.com>
+Message-Id: <199802241536.KAA18951@cyber3.servtech.com>
+Subject: DIS: Re: OFF: Champion's reward
+In-Reply-To: <E0y7H6j-0005UU-00@merganser.cl.cam.ac.uk> from Michael Norrish at "Feb 24, 98 09:57:01 am"
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 24 Feb 1998 10:36:42 -0500 (EST)
+X-Mailer: ELM [version 2.4ME+ PL31 (25)]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 449
+
+> Unfortunately for Harlequin his period of being able to cast more
+> votes than usual doesn't seem to be affected: i.e., it lasted for four
+> weeks after the legal and correct announcement of his win, which was
+> on 12 January.  This period is now over. 
+
+Grrr...
+ 
+> Sorry Harlequin, but at least you get your money. 
+
+If only. Now that I've received the 10 VTs, I can promptly use them to pay
+off the vacation PO from when my Win was appealed.
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 11:00 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA13371 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 11:00:52 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA15578
+	for agora-discussion-list; Wed, 25 Feb 1998 02:54:34 +1100
+Received: from cyber3.servtech.com (cyber3.servtech.com [199.1.22.25])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA15575
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 02:54:29 +1100
+Received: (from particle@localhost) by cyber3.servtech.com (8.8.6/8.8.5) id KAA25964 for agora-discussion@gecko.serc.rmit.edu.au; Tue, 24 Feb 1998 10:57:27 -0500 (EST)
+From: linda hall <particle@servtech.com>
+Message-Id: <199802241557.KAA25964@cyber3.servtech.com>
+Subject: DIS: Re: OFF: elections begin for Archivist, Chancellor and Justiciar
+In-Reply-To: <E0y7GYd-0005Rh-00@merganser.cl.cam.ac.uk> from Michael Norrish at "Feb 24, 98 09:21:47 am"
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 24 Feb 1998 10:57:27 -0500 (EST)
+X-Mailer: ELM [version 2.4ME+ PL31 (25)]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 209
+
+> Archivist         Morendil, Steve
+
+I declare Presence.
+
+> Chancellor        General Chaos, Swann
+
+I declare Presence.
+
+> Justiciar         General Chaos, Harlequin, Michael, Morendil, Swann
+
+I vote for Me.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 11:34 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA14503 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 11:34:21 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA15766
+	for agora-discussion-list; Wed, 25 Feb 1998 03:26:58 +1100
+Received: from scott (scott.skidmore.edu [141.222.1.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id DAA15763
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 03:26:55 +1100
+Received: from placid.skidmore.EDU by scott (SMI-8.6/SMI-SVR4)
+	id LAA14810; Tue, 24 Feb 1998 11:29:14 -0500
+Received: by placid.skidmore.EDU (SMI-8.6/SMI-SVR4)
+	id LAA02624; Tue, 24 Feb 1998 11:32:37 -0500
+From: jfry@scott.skidmore.edu (Jonathan Fry)
+Message-Id: <199802241632.LAA02624@placid.skidmore.EDU>
+Subject: DIS: Re: BUS: Election Votes
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 24 Feb 1998 11:32:37 -0500 (EST)
+In-Reply-To: <199802241600.LAA27195@cyber3.servtech.com> from "linda hall" at Feb 24, 98 11:00:54 am
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 910
+
+linda hall writes:
+> 
+> Sorry. To The PF:
+> 
+> > Archivist         Morendil, Steve
+> 
+> I declare Presence.
+> 
+> > Chancellor        General Chaos, Swann
+> 
+> I declare Presence.
+> 
+> > Justiciar         General Chaos, Harlequin, Michael, Morendil, Swann
+> 
+> I vote for Me.
+
+Seeing as you don't ever specify your name, and your e-mail address is
+not the usual "Chaos Harlequin" but instead "linda hall", is it
+possible to argue that you didn't cast those votes?
+
+						--Sherlock
+
++->---->---->---->---->---->---->---->---->---->---->---->---->---->-+
+| It's time we see that thought is free so don't stand in front of   |
+| me and what I believe / Smitten by the unseen hand / Kneeling down |
+| to its command / Victims of a rich man's game / But truth crushed  |
+| shall rise again - Ken Tamplin -----------[jfry@skidmore.edu]------|
++--<----<----<----<----<----<----<----<----<----<----<----<----<----<+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 11:58 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA15389 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 11:58:26 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA15873
+	for agora-discussion-list; Wed, 25 Feb 1998 03:51:41 +1100
+Received: from scott (scott.skidmore.edu [141.222.1.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id DAA15870
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 03:51:38 +1100
+Received: from placid.skidmore.EDU by scott (SMI-8.6/SMI-SVR4)
+	id LAA19912; Tue, 24 Feb 1998 11:53:57 -0500
+Received: by placid.skidmore.EDU (SMI-8.6/SMI-SVR4)
+	id LAA05160; Tue, 24 Feb 1998 11:57:20 -0500
+From: jfry@scott.skidmore.edu (Jonathan Fry)
+Message-Id: <199802241657.LAA05160@placid.skidmore.EDU>
+Subject: Re: DIS: Re: BUS: Election Votes
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 24 Feb 1998 11:57:20 -0500 (EST)
+In-Reply-To: <199802241632.LAA02624@placid.skidmore.EDU> from "Jonathan Fry" at Feb 24, 98 11:32:37 am
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 723
+
+Jonathan Fry writes:
+> Seeing as you don't ever specify your name, and your e-mail address is
+> not the usual "Chaos Harlequin" but instead "linda hall", is it
+> possible to argue that you didn't cast those votes?
+
+Wait, I didn't mean e-mail address.  I meant identity.  Sorry.
+					--Sherlock
+
++->---->---->---->---->---->---->---->---->---->---->---->---->---->-+
+| It's time we see that thought is free so don't stand in front of   |
+| me and what I believe / Smitten by the unseen hand / Kneeling down |
+| to its command / Victims of a rich man's game / But truth crushed  |
+| shall rise again - Ken Tamplin -----------[jfry@skidmore.edu]------|
++--<----<----<----<----<----<----<----<----<----<----<----<----<----<+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 12:04 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA15592 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 12:04:12 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA15921
+	for agora-discussion-list; Wed, 25 Feb 1998 03:58:00 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id DAA15915
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 03:57:39 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Tue, 24 Feb 1998 12:07:50 -0500
+Message-Id: <s4f2b816.039@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Tue, 24 Feb 1998 12:07:14 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: BUS: Election Votes
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 440
+
+DIS: Re: BUS: Election Votes
+
+Sherlock writes:
+
+>linda hall writes:
+>> > Justiciar         General Chaos, Harlequin, Michael, Morendil, Swann
+ 
+>> I vote for Me.
+
+>Seeing as you don't ever specify your name, and your e-mail address is
+>not the usual "Chaos Harlequin" but instead "linda hall", is it
+>possible to argue that you didn't cast those votes?
+
+No.  All actions are taken by the person.  What name e uses is irrelevant.
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 13:09 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA17520 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 13:09:42 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA16195
+	for agora-discussion-list; Wed, 25 Feb 1998 05:03:25 +1100
+Received: from roatan.ucs.indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA16192
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 05:03:21 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-143.ucs.indiana.edu [156.56.126.143])
+	by roatan.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id NAA22680
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 13:06:20 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id MAA26188 for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 12:53:08 -0500
+Message-Id: <199802241753.MAA26188@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Election Votes 
+In-reply-to: Your message of "Tue, 24 Feb 1998 11:32:37 EST."
+             <199802241632.LAA02624@placid.skidmore.EDU> 
+Date: Tue, 24 Feb 1998 12:53:07 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 353
+
+"Jonathan" == Jonathan Fry <jfry@scott.skidmore.edu> writes:
+
+Jonathan> Seeing as you don't ever specify your name, and your e-mail
+Jonathan> address is not the usual "Chaos Harlequin" but instead
+Jonathan> "linda hall", is it possible to argue that you didn't cast
+Jonathan> those votes?
+
+We all know who "linda hall" is.  At least enough of us do. :)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 14:40 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA21149 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 14:40:48 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA16551
+	for agora-discussion-list; Wed, 25 Feb 1998 06:34:55 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA16548
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 06:34:51 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA23833; Tue, 24 Feb 98 13:38:19 CST
+Message-Id: <9802241938.AA23833@dfw.dfw.net>
+Subject: Re: DIS: FAQ: Steve's answers to section 3.1
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 24 Feb 1998 13:38:19 -0600 (CST)
+In-Reply-To: <199802240629.RAA13967@silas.cc.monash.edu.au> from "Steve Gardner" at Feb 24, 98 05:29:27 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 834
+
+Steve Gardner wrote:
+>
+>>   +3.1.4: Then what's Presence?  Isn't that a vote?
+>
+>Technically, no, Presence is not a vote. It doesn't cost you
+>a Voting Token to declare your Presence on a Proposal. 
+>Declaring Presence is just like abstaining on a Proposal,
+>while counting towards Quorum. Since the cheapest way to get
+>a Proposal to fail is to get it to fail Quorum, declaring
+>Presence has the effect of expressing very mild support for
+>a Proposal; mild opposition would be expressed by not voting
+>or declaring Presence on it at all.
+>[cf. 1715]
+
+To this I would add:
+
+N.B.: Casting a Vote Against a Proposal may, paradoxically,
+cause it to pass, by causing that Proposal to meet Quorum.
+Keep a close eye on the voting to see if this is likely.
+
+(Or is this something we should let new Players figure
+out for themselves?)
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 14:46 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA21308 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 14:46:32 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA16593
+	for agora-discussion-list; Wed, 25 Feb 1998 06:39:52 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA16590
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 06:39:49 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Tue, 24 Feb 1998 14:50:22 -0500
+Message-Id: <s4f2de2e.001@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Tue, 24 Feb 1998 14:49:41 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Proto: Meaningful Zeitgeist
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1066
+
+Proto: Meaningful Zeitgeist
+
+Now that votes are scarce and Interest is free, the Zeitgeist title and awards
+are not very meaningful - who wants to waste a vote to vote against a proposal
+just to prevent a Zeitgeist award and only one vote FOR by the proposer and the
+rest declarations of presence does not seem to me to be worthy of Zeitgeist.  I
+suggest the following fix:
+
+Amend Rule 1047 by replacing the text:
+
+      When an Interested Proposal Proposed by some Player is adopted
+      with no votes cast AGAINST it, that Player is awarded the Patent
+      Title of Zeitgeist.
+
+with the text:
+
+      When an Interested Proposal Proposed by some Player is adopted
+      with no votes cast AGAINST it and at least two Players other than
+      the proposer voting FOR it, that Player is awarded the Patent
+      Title of Zeitgeist.
+
+I picked "two Players other than the proposer" to get back some of the original
+meaning of Zeitgeist, overwhelming support by the Agoran community.  I'm open
+to suggestion on this.  Anyone think it should be even harder?
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 14:49 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA21401 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 14:49:35 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA16610
+	for agora-discussion-list; Wed, 25 Feb 1998 06:41:10 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA16607
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 06:41:05 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA25191; Tue, 24 Feb 98 13:44:45 CST
+Message-Id: <9802241944.AA25191@dfw.dfw.net>
+Subject: Re: DIS: reforming election voting system?
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 24 Feb 1998 13:44:44 -0600 (CST)
+In-Reply-To: <E0y7GQj-0005Qb-00@merganser.cl.cam.ac.uk> from "Michael Norrish" at Feb 24, 98 09:13:37 am
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1337
+
+Michael Norrish wrote:
+>
+>What do people think about this?  In an election like the forthcoming
+>one for Justiciar there are five candidates, and assuming that all of
+>them attract some support, there will be a large number of wasted
+>votes.
+
+I think it's less likely with Public Voting.
+
+Consider the following: last year, the School of Library and
+Information Studies (SLIS) here at the University of Wisconsin-
+Madison decided to produce a T-shirt to sell to students in the
+school.  There were about ten candidate slogans for the
+T-shirt, and students were asked to vote for one.  However,
+voting was essentially public: a sheet was posted with the
+possible slogans, and students were asked to place a check
+mark by the one preferred (we were on our honor to vote
+only once).
+
+Only two of the slogans got any votes at all.
+
+I don't think it's because everyone wanted only one of these
+two slogans.  Rather, it was obvious early in the voting
+that one of these two would win, and so people chose
+to cast their votes in a meaningful manner, for one of
+those two.  (I don't remember what the slogans were, so
+don't ask.)
+
+I think such a system would be further enhanced if we
+allowed people to change their votes during voting.
+(Why isn't changing votes allowed during Referenda/Elections,
+anyway?  This never made sense to me.)
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 14:51 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA21462 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 14:51:14 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA16644
+	for agora-discussion-list; Wed, 25 Feb 1998 06:45:10 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA16641
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 06:45:05 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA25873; Tue, 24 Feb 98 13:48:38 CST
+Message-Id: <9802241948.AA25873@dfw.dfw.net>
+Subject: Re: DIS: Some officers' statistics
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 24 Feb 1998 13:48:37 -0600 (CST)
+In-Reply-To: <9802241040.AA10563@dij91.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns NB6_25(3751)" at Feb 24, 98 11:40:53 am
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 243
+
+Klaus Herrmanns NB6_25(3751) wrote:
+>
+>At the moment the elections for
+>CotC, Notary, Promotor and Wizard are close contests between members
+>of the Threat and the Order 
+
+I'm one of the two candidates for Notary, and I'm unaffiliated.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 14:54 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA21549 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 14:54:55 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA16692
+	for agora-discussion-list; Wed, 25 Feb 1998 06:49:01 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA16686
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 06:48:57 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA26675; Tue, 24 Feb 98 13:52:37 CST
+Message-Id: <9802241952.AA26675@dfw.dfw.net>
+Subject: DIS: Re: BUS: Kudo Transfer
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 24 Feb 1998 13:52:37 -0600 (CST)
+In-Reply-To: <199802241538.KAA19676@cyber3.servtech.com> from "linda hall" at Feb 24, 98 10:38:49 am
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 436
+
+linda hall wrote:
+>
+>I hereby transfer 1 Kudo:
+>
+>FROM Chuck, for causing me to lose all benefit from my Win, and indeed, to
+>be *penalized* for it;
+
+You are of course free to transfer Kudos in any manner you see
+fit, but I hardly think it's appropriate to blame me for
+problems which lie in the handling of possibly-incorrect
+POs/TOs.  I legitimately believed you had not won the
+game.  What would you have done in my position?
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 15:00 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA21812 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 15:00:32 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA16752
+	for agora-discussion-list; Wed, 25 Feb 1998 06:54:24 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA16749
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 06:54:21 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA27981; Tue, 24 Feb 98 13:58:00 CST
+Message-Id: <9802241958.AA27981@dfw.dfw.net>
+Subject: DIS: Re: OFF: Notary's Report (February 23, 1998)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 24 Feb 1998 13:57:59 -0600 (CST)
+In-Reply-To: <01bd40e5$bc9aec40$LocalHost@friend-computer> from "Ed Murphy" at Feb 23, 98 09:33:25 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 324
+
+Ed Murphy wrote:
+>
+>This is a multi-part message in MIME format.
+
+For the benefit of anyone who hasn't voted yet, if I am
+elected Notary, Notary's Reports will be sent out as
+regular text, and not as MIME-type messages.  (I suppose
+this could be either good or bad, depending on your
+personal preferences and setup.)
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 15:01 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA21850 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 15:01:13 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA16726
+	for agora-discussion-list; Wed, 25 Feb 1998 06:52:10 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA16723
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 06:52:01 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Tue, 24 Feb 1998 15:02:23 -0500
+Message-Id: <s4f2e0ff.069@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Tue, 24 Feb 1998 15:01:40 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Proto: Indulgence Scarcity
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 971
+
+Proto: Indulgence Scarcity
+
+Amend Rule 1712 by replacing the following text:
+
+      At the beginning of each Nomic Week, the Herald shall randomly
+      distribute a number of Indulgences equal to the number of Blots
+      executed in the past Week, less the number of Blots vacated in
+      the past Week, among all Players:
+
+with the text:
+
+      At the beginning of each Nomic Week, if the total number of
+      Indulgences held by all Players is less than the total number of
+      outstanding Blots by two or more, the Herald shall randomly
+      distribute a number of Indulgences equal to the number of Blots
+      executed in the past Week, less the number of Blots vacated in the
+      past Week, among all Players:
+
+This will gradually bring Indulgence holdings back down to where they were
+intended, with the possibility of that "hot-potato" Blot.  It is also
+automatically self-adjusting when Players deregister while holding Blots or
+Indulgences.
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 15:03 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA21913 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 15:03:12 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA16733
+	for agora-discussion-list; Wed, 25 Feb 1998 06:52:20 +1100
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA16730
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 06:52:15 +1100
+Received: by dij91.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA11393; Tue, 24 Feb 1998 20:55:16 +0100
+Date: Tue, 24 Feb 1998 20:55:16 +0100
+From: klaush@dij91.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25(3751))
+Message-Id: <9802241955.AA11393@dij91.tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-Reply-To: <9802241944.AA25191@dfw.dfw.net> (ccarroll@dfw.net)
+Subject: Re: DIS: reforming election voting system?
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 359
+
+>>
+(Why isn't changing votes allowed during Referenda/Elections,
+anyway?  This never made sense to me.)
+<<
+
+Because of time zone disadvantages? In potentially tricky situations
+like the current elections, changing your vote very close to the end
+of the voting period would havee a considerable impact (and make
+public voting essentially worthless).
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 15:11 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA22190 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 15:11:15 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA16854
+	for agora-discussion-list; Wed, 25 Feb 1998 07:05:44 +1100
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id HAA16851
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 07:05:38 +1100
+Received: by dij91.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA16545; Tue, 24 Feb 1998 21:08:39 +0100
+Date: Tue, 24 Feb 1998 21:08:39 +0100
+From: klaush@dij91.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25(3751))
+Message-Id: <9802242008.AA16545@dij91.tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Election vote
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 45
+
+I hereby vote for Chuck as Notary.
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 15:40 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA23159 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 15:40:29 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id HAA16971
+	for agora-discussion-list; Wed, 25 Feb 1998 07:34:14 +1100
+Received: from belize.ucs.indiana.edu (belize.ucs.indiana.edu [129.79.10.64])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id HAA16968
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 07:34:07 +1100
+Received: from poverty.bloomington.in.us (root@dial-126-143.ucs.indiana.edu [156.56.126.143])
+	by belize.ucs.indiana.edu (8.8.5/8.8.5/1.13IUPO) with ESMTP id PAA04667
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 15:36:32 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id PAA26714 for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 15:36:29 -0500
+Message-Id: <199802242036.PAA26714@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: reforming election voting system? 
+In-reply-to: Your message of "Tue, 24 Feb 1998 20:55:16 +0100."
+             <9802241955.AA11393@dij91.tp3.ruhr-uni-bochum.de> 
+Date: Tue, 24 Feb 1998 15:36:28 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 479
+
+"Klaus" == Klaus Herrmanns NB6 25(3751) <klaush@dij91.tp3.ruhr-uni-bochum.de> writes:
+
+Klaus> Because of time zone disadvantages? In potentially tricky
+Klaus> situations like the current elections, changing your vote very
+Klaus> close to the end of the voting period would havee a
+Klaus> considerable impact (and make public voting essentially
+Klaus> worthless).
+
+So what?  Makes things more interesting.  Have you ever played Empire?
+(on the net, not the single-player version)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 18:53 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA29947 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 18:53:06 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA17707
+	for agora-discussion-list; Wed, 25 Feb 1998 10:44:15 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA17704
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 10:44:11 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id KAA12408
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 25 Feb 1998 10:47:13 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199802242347.KAA12408@silas.cc.monash.edu.au>
+Subject: DIS: Re: OFF: Champion's reward
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 25 Feb 1998 10:47:12 +1100 (EST)
+In-Reply-To: <E0y7H6j-0005UU-00@merganser.cl.cam.ac.uk> from "Michael Norrish" at Feb 24, 98 09:57:01 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 412
+
+Michael Norrish wrote:
+>
+>The state of play now appears to be that Harlequin *did* win in
+>December after all.  Therefore, I order the Bank to pay him 10 VTs
+>(RVTPO26).
+
+And what if the new Judgement is Appealed?
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 19:02 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA00195 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 19:01:23 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA17783
+	for agora-discussion-list; Wed, 25 Feb 1998 10:54:00 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA17777
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 10:53:58 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id KAA15878
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 25 Feb 1998 10:57:03 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199802242357.KAA15878@silas.cc.monash.edu.au>
+Subject: DIS: Re: BUS: Kudo Transfer
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 25 Feb 1998 10:57:03 +1100 (EST)
+In-Reply-To: <199802241538.KAA19676@cyber3.servtech.com> from "linda hall" at Feb 24, 98 10:38:49 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 682
+
+linda hall wrote:
+>
+>I hereby transfer 1 Kudo:
+>
+>FROM Chuck, for causing me to lose all benefit from my Win, and indeed, to
+>be *penalized* for it;
+
+I'm not going to get involved in a Kudowar, but that does seem a little
+unfair to Chuck. All he did was to pursue a matter of Rule interpretation
+through the Courts, and I can see no dishonour in that. It is true and
+unfortunate that this resulted in you getting shafted, but such things
+will happen in a game designed by committee.
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 19:06 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA00394 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 19:06:37 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA17831
+	for agora-discussion-list; Wed, 25 Feb 1998 10:59:00 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA17823
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 10:58:57 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.8/8.8.7) with SMTP id QAA19709
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 16:02:00 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id QAA08000; Tue, 24 Feb 1998 16:01:57 -0800
+Message-Id: <199802250001.QAA08000@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 24 Feb 1998 16:01:37 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Re: BUS: Plots (v3.3) 
+In-reply-to: <199802240518.AAA24640@poverty.bloomington.in.us>
+References: Your message of "Tue, 24 Feb 1998 14:28:47 +1100."             <980224032848.11400@cse.unsw.edu.au> 
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 415
+
+Scott Goehring <scott@poverty.bloomington.in.us> wrote:
+> A similar idea: allow Locations to own Currencies (should be
+> Commodities, but we're not there yet).  Structures dump their output
+> into and draw inputs from their Location.  No inputs, no production.
+> You pay for a Structure's "Upkeep" by depositing sufficient Ergs in
+> its Location.
+
+Simple, and effective. I like it.
+
+	Antimatter
+	rmorganl@fhcrc.org
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 19:10 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA00421 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 19:09:16 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA17836
+	for agora-discussion-list; Wed, 25 Feb 1998 10:59:02 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA17826
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 10:58:59 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.8/8.8.7) with SMTP id QAA19705
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 16:01:58 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id QAA07993; Tue, 24 Feb 1998 16:01:56 -0800
+Message-Id: <199802250001.QAA07993@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 24 Feb 1998 16:01:37 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: Some officers' statistics
+In-reply-to: <9802241040.AA10563@dij91.tp3.ruhr-uni-bochum.de>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2021
+
+klaush@dij91.tp3.ruhr-uni-bochum.de (Klaus Herrmanns) wrote:
+> Hi all,
+> 
+> Just an attempt to spice up the upcoming elections: here are some data
+> on Offices held, and incomes connected to these offices, sorted by
+> groups. 
+
+I thought this voting tally might interest those who havn't made a 
+similar one themselves:
+
+
+                Score  CotC  C-in-C  Notary  Prom.  Wizard
+                G H          H                      H
+                e a          a                      a
+                n r          r                      r
+                e l      e   l         M            l
+                r e S  C l   e S     C u	   C    e S S
+                a q w  r J   q t     h r     B r    q w t
+                l u a  i e   u e     u p     l i    u a e
+                  i n  t f   i v     c h     o t    i n v
+                C n n  o e   n e     k y     b o    n n e
+
+  (Order etc.)
+Crito *           X    X     X         X       X    X
+Harlequin *       X    X     X         X       X    X
+Murphy            X    X     X         X       X    X
+Kolja A. *        X    X     X       X         X    X
+Michael             X  X     X         X       X        X
+  (Threat etc.)
+Steve *         X        X     X     X       X          X
+Chuck           X        X     X     X       X          X
+Blob *              X    X     X     X       X          X
+General C. *    X        X     X     X       X        X
+Morendil        X        X     X       X       X      X  
+  (Strong independent)
+Swann               X    X   X         X     X        X
+Sherlock          X    X       X     X       X      X
+
+Total           4 5 3  6 6   6 6     6 6     6 6    5 3 4
+* = member of Order or Threat
+
+Harlequin is winning both 3-way races, with 5 votes; Steve is losing 
+both 3-way races, with 3 votes. All other races are tied, 6-6, mostly 
+on party lines. Late voters ae expected to be highly influential. 
+Those are elJefe (Threat), Jester, Oerjan, and Time Agent (officially 
+unaligned, general affiliation unknown).
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 19:31 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA00987 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 19:30:34 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA18074
+	for agora-discussion-list; Wed, 25 Feb 1998 11:21:24 +1100
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA18069
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 11:21:19 +1100
+Received: from particle (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id TAA11371 for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 19:23:30 -0500 (EST)
+Message-Id: <3.0.5.32.19980224192116.007b42d0@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Tue, 24 Feb 1998 19:21:16 -0500
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: Joshua Hall-Bachner <harlequin@tmbg.org>
+Subject: Re: DIS: Re: BUS: Kudo Transfer
+In-Reply-To: <199802242357.KAA15878@silas.cc.monash.edu.au>
+References: <199802241538.KAA19676@cyber3.servtech.com>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 988
+
+At 10:57 AM 2/25/98 +1100, Steve Gardner wrote:
+
+>I'm not going to get involved in a Kudowar, but that does seem a little
+>unfair to Chuck. All he did was to pursue a matter of Rule interpretation
+>through the Courts, and I can see no dishonour in that. It is true and
+>unfortunate that this resulted in you getting shafted, but such things
+>will happen in a game designed by committee.
+
+
+I can see your point; I'm annoyed enough at what's happened with my Win so
+far; now that I've at least managed to escape further PI penalties, I found
+it unneccesary and irritating for Chuck to once again appeal the judgement.
+Perhaps this is a bit harsh, but I'm not going to change my mind.
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 19:36 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA01148 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 19:35:49 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA18093
+	for agora-discussion-list; Wed, 25 Feb 1998 11:24:03 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA18090
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 11:24:01 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id LAA23561
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 25 Feb 1998 11:27:06 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199802250027.LAA23561@silas.cc.monash.edu.au>
+Subject: Re: DIS: reforming election voting system?
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 25 Feb 1998 11:27:06 +1100 (EST)
+In-Reply-To: <9802241955.AA11393@dij91.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns NB6_25(3751)" at Feb 24, 98 08:55:16 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 844
+
+Klaus Herrmanns NB6_25(3751) wrote:
+>
+>>>
+>(Why isn't changing votes allowed during Referenda/Elections,
+>anyway?  This never made sense to me.)
+><<
+>
+>Because of time zone disadvantages? In potentially tricky situations
+>like the current elections, changing your vote very close to the end
+>of the voting period would havee a considerable impact (and make
+>public voting essentially worthless).
+
+That may be a good reason to keep indelible voting, but I'm pretty sure
+that's not why we happen to have it for Referenda and Elections. I
+doubt that the author of R1434 (Blob?) had any clear intentions in
+using this system. I think it's just luck.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 19:44 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA01344 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 19:44:06 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA18040
+	for agora-discussion-list; Wed, 25 Feb 1998 11:17:04 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA18037
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 11:17:03 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id LAA14857
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 25 Feb 1998 11:20:07 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199802250020.LAA14857@silas.cc.monash.edu.au>
+Subject: Re: DIS: reforming election voting system?
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 25 Feb 1998 11:20:07 +1100 (EST)
+In-Reply-To: <9802241944.AA25191@dfw.dfw.net> from "Charles E. Carroll" at Feb 24, 98 01:44:44 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3287
+
+Charles E. Carroll wrote:
+>
+>Michael Norrish wrote:
+>>
+>>What do people think about this?  In an election like the forthcoming
+>>one for Justiciar there are five candidates, and assuming that all of
+>>them attract some support, there will be a large number of wasted
+>>votes.
+>
+>I think it's less likely with Public Voting.
+>
+>Consider the following: last year, the School of Library and
+>Information Studies (SLIS) here at the University of Wisconsin-
+>Madison decided to produce a T-shirt to sell to students in the
+>school.  There were about ten candidate slogans for the
+>T-shirt, and students were asked to vote for one.  However,
+>voting was essentially public: a sheet was posted with the
+>possible slogans, and students were asked to place a check
+>mark by the one preferred (we were on our honor to vote
+>only once).
+>
+>Only two of the slogans got any votes at all.
+>
+>I don't think it's because everyone wanted only one of these
+>two slogans.  Rather, it was obvious early in the voting
+>that one of these two would win, and so people chose
+>to cast their votes in a meaningful manner, for one of
+>those two.  (I don't remember what the slogans were, so
+>don't ask.)
+>
+>I think such a system would be further enhanced if we
+>allowed people to change their votes during voting.
+>(Why isn't changing votes allowed during Referenda/Elections,
+>anyway?  This never made sense to me.)
+
+That's an interesting anecdote, Chuck. To me it demonstrates that
+the current system magnifies random effects due to early voting.
+If it had happened that supporters of some of the other slogans had
+voted earlier, it may well have been two completely different
+slogans that ended up getting all the votes.
+
+In that light, it's interesting to think about the effect that
+indelible voting has. It certainly makes an enormous difference to
+the political process, just as public voting does. Once you've voted,
+you've thrown all your negotiating power out the window. On the other
+hand, early voting can be strategically crucial in persuading other
+undecided voters that the candidate you support has a chance of
+winning and that therefore their votes will not be wasted if they
+also support your preferred candidate. Of course, the thing to do in
+that case is announce your support for a certain candidate early on,
+but withhold your vote until you have a clearer picture of what
+others are going to do.
+
+Moving to a system like the Proposal system where votes can be
+changed would certainly be quite different. Negotiating about votes
+would go on until the last minute, since someone might renege on
+a deal they made with you if the price is right. Indelible voting
+provides a public way of keeping one's promises.
+
+Now, as between these two system, I don't have a strong preference.
+They're both interesting in their own ways. But I do think it's
+kind of neat that we're using one system for Proposals and the
+other for Elections and Referenda (with the additional difference
+of course that voting in Elections and Referenda is free). This
+way, we get to explore both kinds of voting system at once!
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 20:23 EST 1998
+Received: from gecko.serc.rmit.edu.au (gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA02225 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 20:15:54 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA18278
+	for agora-discussion-list; Wed, 25 Feb 1998 11:55:21 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA18275
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 11:55:18 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id LAA11975
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 25 Feb 1998 11:58:23 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199802250058.LAA11975@silas.cc.monash.edu.au>
+Subject: Re: DIS: Some officers' statistics
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 25 Feb 1998 11:58:22 +1100 (EST)
+In-Reply-To: <199802250001.QAA07993@fred.fhcrc.org> from "Ross Morgan-Linial" at Feb 24, 98 04:01:37 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2400
+
+Ross Morgan-Linial wrote:
+>
+>I thought this voting tally might interest those who havn't made a 
+>similar one themselves:
+>
+>
+>                Score  CotC  C-in-C  Notary  Prom.  Wizard
+>                G H          H                      H
+>                e a          a                      a
+>                n r          r                      r
+>                e l      e   l         M            l
+>                r e S  C l   e S     C u	C    e S S
+>                a q w  r J   q t     h r     B r    q w t
+>                l u a  i e   u e     u p     l i    u a e
+>                  i n  t f   i v     c h     o t    i n v
+>                C n n  o e   n e     k y     b o    n n e
+>
+>  (Order etc.)
+>Crito *           X    X     X         X       X    X
+>Harlequin *       X    X     X         X       X    X
+>Murphy            X    X     X         X       X    X
+>Kolja A. *        X    X     X       X         X    X
+>Michael             X  X     X         X       X        X
+>  (Threat etc.)
+>Steve *         X        X     X     X       X          X
+>Chuck           X        X     X     X       X          X
+>Blob *              X    X     X     X       X          X
+>General C. *    X        X     X     X       X        X
+>Morendil        X        X     X       X       X      X  
+>  (Strong independent)
+>Swann               X    X   X         X     X        X
+>Sherlock          X    X       X     X       X      X
+>
+>Total           4 5 3  6 6   6 6     6 6     6 6    5 3 4
+>* = member of Order or Threat
+>
+>Harlequin is winning both 3-way races, with 5 votes; Steve is losing 
+>both 3-way races, with 3 votes. All other races are tied, 6-6, mostly 
+>on party lines. Late voters ae expected to be highly influential. 
+>Those are elJefe (Threat), Jester, Oerjan, and Time Agent (officially 
+>unaligned, general affiliation unknown).
+
+There are two inaccuracies in the above: It is Swann and not I who is
+involved in two 3-way races (for Scorekeepor and Wizard). But he does
+does not have 3 votes in each: you have misrepresented General
+Chaos' vote in the Wizard Election. The General voted for me and
+not for Swann for Wizard. This means that the vote for Wizard is
+tied 5-5.
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 20:45 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA02948 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 20:45:33 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA18420
+	for agora-discussion-list; Wed, 25 Feb 1998 12:27:12 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA18417
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 12:27:10 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id MAA21355
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 25 Feb 1998 12:30:14 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199802250130.MAA21355@silas.cc.monash.edu.au>
+Subject: Re: DIS: Some officers' statistics
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 25 Feb 1998 12:30:13 +1100 (EST)
+In-Reply-To: <9802241040.AA10563@dij91.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns NB6_25(3751)" at Feb 24, 98 11:40:53 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2549
+
+Klaus Herrmanns NB6_25(3751) wrote:
+>
+>In the current elections most players have already cast their votes;
+>the only votes I have not seen yet are by three unaffiliated players
+>and one member of the Threat (elJefe). At the moment the elections for
+>CotC, Notary, Promotor and Wizard are close contests between members
+>of the Threat and the Order - exactly split votes at the moment, and I
+>guess elJefe's vote will help the Threat win them all... For
+>Scorekeepor Harlequin might win, because Swann attracted some votes,
+>including one from a member of the Threat. Morale: If the Threat votes
+>unanimously, they can win elections.
+
+Given that Jester, Time Agent and Oerjan have yet to vote and are
+unaffiliated, surely it's more than possible that Threat candidates
+could lose all these Elections. It's too early to be calling the
+results just yet. Contra your moral, it's not enough for Threat
+candidates, or the candidates of any Group for that matter, to
+support themselves; they need to form alliances with other Players,
+as the Order appears to have done with Murphy, for example.
+
+I'd like to say how thrilled I am with how these Elections are
+being conducted, no matter what the results. These are the most
+intriguing and closely contested set of Elections I can ever recall
+in the game, and I think that's reflected in the public interest in
+them. 12 of 16 Players have already voted, and there's a good chance
+that by the end of the Voting Periods, we will have seen every single
+Player cast a vote, something which I do not believe has ever
+happened before in the nearly three years we've been conducting
+Elections for Offices. At least three Players have been keeping
+personal tallies of the votes cast so far, and that information
+is being disseminated and discussed by the Players. Pretty clearly,
+Players are pursuing private strategies and negotiations. These are
+very healthy signs that the game is really alive and holding the
+interest of the Players. It's a good time to be playing Agora, and
+I think we all know why: VT scarcity has made holding Office more
+desirable than it ever has been before, and public voting has enabled
+everyone to see how an Election is progressing while it is occurring,
+which make the contests more interesting. It's nice to see that,
+at least once in a while, policy can work out the way you hoped.
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 20:46 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA02958 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 20:46:20 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA18482
+	for agora-discussion-list; Wed, 25 Feb 1998 12:40:35 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA18479
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 12:40:33 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id MAA07676
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 25 Feb 1998 12:43:38 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199802250143.MAA07676@silas.cc.monash.edu.au>
+Subject: Re: DIS: Proto: Meaningful Zeitgeist
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 25 Feb 1998 12:43:37 +1100 (EST)
+In-Reply-To: <s4f2de2e.001@rmv.state.ma.us> from "David Albertz" at Feb 24, 98 02:49:41 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1400
+
+David Albertz wrote:
+>
+>Proto: Meaningful Zeitgeist
+>
+>Now that votes are scarce and Interest is free, the Zeitgeist title and awards
+>are not very meaningful - who wants to waste a vote to vote against a proposal
+>just to prevent a Zeitgeist award and only one vote FOR by the proposer and the
+>rest declarations of presence does not seem to me to be worthy of Zeitgeist.  I
+>suggest the following fix:
+>
+>Amend Rule 1047 by replacing the text:
+>
+>      When an Interested Proposal Proposed by some Player is adopted
+>      with no votes cast AGAINST it, that Player is awarded the Patent
+>      Title of Zeitgeist.
+>
+>with the text:
+>
+>      When an Interested Proposal Proposed by some Player is adopted
+>      with no votes cast AGAINST it and at least two Players other than
+>      the proposer voting FOR it, that Player is awarded the Patent
+>      Title of Zeitgeist.
+>
+>I picked "two Players other than the proposer" to get back some of the original
+>meaning of Zeitgeist, overwhelming support by the Agoran community.  I'm open
+>to suggestion on this.  Anyone think it should be even harder?
+
+This seem fine to me. I'd be in favour of converting the award
+back to VTs, though, say 2 of them.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 20:49 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA02973 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 20:47:41 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA18461
+	for agora-discussion-list; Wed, 25 Feb 1998 12:37:19 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA18458
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 12:37:13 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id MAA21976
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 25 Feb 1998 12:40:18 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199802250140.MAA21976@silas.cc.monash.edu.au>
+Subject: Re: DIS: Some officers' statistics
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 25 Feb 1998 12:40:17 +1100 (EST)
+In-Reply-To: <199802250001.QAA07993@fred.fhcrc.org> from "Ross Morgan-Linial" at Feb 24, 98 04:01:37 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2008
+
+Ross Morgan-Linial wrote:
+>
+>I thought this voting tally might interest those who havn't made a 
+>similar one themselves:
+>
+>
+>                Score  CotC  C-in-C  Notary  Prom.  Wizard
+>                G H          H                      H
+>                e a          a                      a
+>                n r          r                      r
+>                e l      e   l         M            l
+>                r e S  C l   e S     C u       C    e S S
+>                a q w  r J   q t     h r     B r    q w t
+>                l u a  i e   u e     u p     l i    u a e
+>                  i n  t f   i v     c h     o t    i n v
+>                C n n  o e   n e     k y     b o    n n e
+>
+>  (Order etc.)
+>Crito *           X    X     X         X       X    X
+>Harlequin *       X    X     X         X       X    X
+>Murphy            X    X     X         X       X    X
+>Kolja A. *        X    X     X       X         X    X
+>Michael             X  X     X         X       X        X
+>  (Threat etc.)
+>Steve *         X        X     X     X       X          X
+>Chuck           X        X     X     X       X          X
+>Blob *              X    X     X     X       X          X
+>General C. *    X        X     X     X       X        X
+>Morendil        X        X     X       X       X      X  
+>  (Strong independent)
+>Swann               X    X   X         X     X        X
+>Sherlock          X    X       X     X       X      X
+>
+>Total           4 5 3  6 6   6 6     6 6     6 6    5 3 4
+>* = member of Order or Threat
+>
+
+Given that Morendil has supported non-Threat candidates in two
+Elections (Promotor and Wizard), Threat candidates in three Elections
+(Scorekeepor, CotC and CinC), but voted against the Threat-supported
+candidate for Notary, I'd say he qualifies as an independent voter. 
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 21:26 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA03958 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 21:25:24 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA18665
+	for agora-discussion-list; Wed, 25 Feb 1998 13:16:53 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id NAA18662
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 13:16:44 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA17448; Tue, 24 Feb 98 20:20:11 CST
+Message-Id: <9802250220.AA17448@dfw.dfw.net>
+Subject: Re: DIS: Re: BUS: Kudo Transfer
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 24 Feb 1998 20:20:09 -0600 (CST)
+In-Reply-To: <3.0.5.32.19980224192116.007b42d0@cyber1.servtech.com> from "Joshua Hall-Bachner" at Feb 24, 98 07:21:16 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 581
+
+Joshua Hall-Bachner wrote:
+>
+>I can see your point; I'm annoyed enough at what's happened with my Win so
+>far; now that I've at least managed to escape further PI penalties, I found
+>it unneccesary and irritating for Chuck to once again appeal the judgement.
+>Perhaps this is a bit harsh, but I'm not going to change my mind.
+
+In the message in which you de-Kudoed me, you said nothing about
+my latest call for appeal.  If *that* was the reason you transferred
+a Kudo away from me, you should have said so.  Perhaps this is
+a bit harsh, but I'm not going to change my mind.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 21:39 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA04201 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 21:36:24 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA18737
+	for agora-discussion-list; Wed, 25 Feb 1998 13:29:40 +1100
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA18734
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 13:29:36 +1100
+Received: from particle (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id VAA20905 for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 21:31:19 -0500 (EST)
+Message-Id: <3.0.5.32.19980224213054.007b2da0@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Tue, 24 Feb 1998 21:30:54 -0500
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: DIS: Re: BUS: Kudo Transfer
+In-Reply-To: <9802250220.AA17448@dfw.dfw.net>
+References: <3.0.5.32.19980224192116.007b42d0@cyber1.servtech.com>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 585
+
+At 08:20 PM 2/24/98 -0600, Charles E. Carroll wrote:
+
+>In the message in which you de-Kudoed me, you said nothing about
+>my latest call for appeal.  If *that* was the reason you transferred
+>a Kudo away from me, you should have said so.  
+
+You're right. I do apologize for that.
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 21:41 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA04345 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 21:41:48 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA18776
+	for agora-discussion-list; Wed, 25 Feb 1998 13:33:52 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA18773
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 13:33:51 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id NAA17654
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 25 Feb 1998 13:36:55 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199802250236.NAA17654@silas.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Plots (v3.3 - really)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 25 Feb 1998 13:36:54 +1100 (EST)
+In-Reply-To:  <980223062200.5866@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Feb 23, 98 05:21:59 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 814
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>> Create a rule titled "Maintenance of Structures" with this text:
+>> 
+>>       A Player's Maintenance Fee equals the total of the Maintenance Fees of
+>>       all the Structures e owns, plus 1 Erg per Type of Structure e owns, at
+>>       the end of the Nomic Week.
+>> 
+>>       As soon as possible after the end of the Nomic Week, the Cartographor
+>>       shall bill each Player's Maintenance Fee to that Player.
+>
+>Eeek! Too much paperwork! And anyone who doesn't pay will not only lose
+>their production, but they'll be hit with a Blot penalty too.
+
+What's wrong with that?
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 23:16 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA06924 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 23:15:45 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA19180
+	for agora-discussion-list; Wed, 25 Feb 1998 14:58:52 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA19177
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 14:58:50 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id PAA30106
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 25 Feb 1998 15:01:55 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199802250401.PAA30106@silas.cc.monash.edu.au>
+Subject: DIS: proto: No Free Voting
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+Date: Wed, 25 Feb 1998 15:01:53 +1100 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1268
+
+I'm not sure I'm even going to propose this, but the times seem right
+to at least be asking the question: is it time for...
+
+####
+Proto-Proposal
+No Free Voting
+
+[Comment: the logical conclusion of legislative trends which have
+been operating for a number of years is the end of free voting
+on Elections and Referenda.]
+
+Be it hereby resolved that R1434 (Default Procedure for Referendum
+Voting) be amneded by inserting in it, immediately after the
+paragraph which begins "* Voting:", a new paragraph which reads:
+
+      * Cost of Voting: as soon as possible after the end of the
+      Voting Period, the Vote Collector shall bill each Player
+      who cast a vote in the Referendum one Voting Token. In the
+      case where a Player has voted in more than one Referendum,
+      the results of which the Vote Collector has published at
+      the same time, the Vote Collector is permitted to execute
+      a single Payment Order for all the votes cast by that 
+      Player in the Referenda, instead of billing em separately
+      for each vote.
+
+####
+
+Reactions sought.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 23:46 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA07686 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 23:46:27 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA19352
+	for agora-discussion-list; Wed, 25 Feb 1998 15:36:36 +1100
+Received: from mail-out-0.tiac.net (mail-out-0.tiac.net [199.0.65.247])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA19344
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 15:36:19 +1100
+Received: from mail-out-2.tiac.net (mail-out-2.tiac.net [199.0.65.13])
+	by mail-out-0.tiac.net (8.8.8/8.8.8) with ESMTP id XAA04330
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 23:39:00 -0500 (EST)
+	(envelope-from macross@tiac.net)
+Received: from macross.tiac.net ([209.61.77.113])
+	by mail-out-2.tiac.net (8.8.7/8.8.7) with SMTP id XAA23943
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 24 Feb 1998 23:38:58 -0500 (EST)
+	(envelope-from macross@tiac.net)
+Message-ID: <000701bd41a8$99421d40$714d3dd1@macross.tiac.net>
+From: "Dave Smith" <macross@tiac.net>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: DIS: Re: proto: No Free Voting
+Date: Tue, 24 Feb 1998 23:45:51 -0500
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 4.72.2106.4
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.2106.4
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="US-ASCII"
+Content-Length: 733
+
+
+-----Original Message-----
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+To: Agora Nomic Discussion List <agora-discussion@gecko.serc.rmit.edu.au>
+Date: Tuesday, February 24, 1998 11:19 PM
+Subject: DIS: proto: No Free Voting
+
+
+>I'm not sure I'm even going to propose this, but the times seem right
+>to at least be asking the question: is it time for...
+>
+>####
+>Proto-Proposal
+>No Free Voting
+>
+>[Comment: the logical conclusion of legislative trends which have
+>been operating for a number of years is the end of free voting
+>on Elections and Referenda.]
+>
+
+
+I would think that since holding Office is the primary means of gaining VT's
+that charging for voting in Elections would give Office holders an undue
+advantage.
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Feb 24 23:49 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA07734 for <dpb@cs.brown.edu>; Tue, 24 Feb 1998 23:48:11 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA19349
+	for agora-discussion-list; Wed, 25 Feb 1998 15:36:28 +1100
+Received: from silas.cc.monash.edu.au (silas-0.cc.monash.edu.au [130.194.1.100])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA19346
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 25 Feb 1998 15:36:26 +1100
+Received: (from gardner@localhost)
+	by silas.cc.monash.edu.au (8.8.8/8.8.8) id PAA15551
+	for agora-discussion@gecko.serc.rmit.edu.au; Wed, 25 Feb 1998 15:39:31 +1100 (EST)
+From: Steve Gardner <gardner@silas-0.cc.monash.edu.au>
+Message-Id: <199802250439.PAA15551@silas.cc.monash.edu.au>
+Subject: Re: DIS: reforming election voting system?
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Wed, 25 Feb 1998 15:39:30 +1100 (EST)
+In-Reply-To: <E0y7GQj-0005Qb-00@merganser.cl.cam.ac.uk> from "Michael Norrish" at Feb 24, 98 09:13:37 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3499
+
+Michael Norrish wrote:
+>
+>What do people think about this?  In an election like the forthcoming
+>one for Justiciar there are five candidates, and assuming that all of
+>them attract some support, there will be a large number of wasted
+>votes.
+>
+>A standard fix for this sort of problem is to use a preferential
+>voting system where Voters rank the Candidates in order of preference,
+>and then if after the all the first choice votes have been tallied
+>no-one has a majority, the candidate with the least number of votes is
+>dropped and all of their votes are redistributed to second choice
+>candidates.  &c &c.  I understand that this is how Australian
+>elections to their lower hourse work.
+>
+>However, for all that this might give us a more rational system (and
+>beware: what do you do if A gets five votes and B and C both get 3?),
+>it will also make voting in Elections less strategically interesting.
+>At a national level, where these things are (perhaps :-) more
+>important, I'd be the first to campaign for a more rational system
+>(having to vote strategically (i.e. counter-intuitively) to get a
+>desired result seems a pretty good indication that a system needs
+>reform), but perhaps this sort of thing makes Agora more interesting. 
+
+I'm not really keen on moving to a preferential ballot, since the
+present system is pretty interesting as it is, and preferential
+ballots will be a lot more complicated to legislate. But are you
+sure that voting in a preferential ballot would not be strategic?
+
+Consider an example where A has 4 votes, and B and C each have
+3 votes. Of B's supporters, 2 have A as their second preference,
+while 1 has C; all of C's supporters have B as their second 
+preference. Your have the last vote, and your own preferences are, in
+order: A, B, C. How should you actually vote? Your strategic aim
+has got to be to eliminate B so as to redistribute B's preferences.
+So pretty clearly, you shouldn't put A first, despite preferring A,
+because that would leave B and C tied, and the tie-breaking procedure
+might well not be under your control. Obviously voting for B is a
+disaster, since that will eliminate C and put B over the line. So,
+despite C being your least preferred candidate, you should vote C,
+A, B. This eliminates B, giving A two votes and putting A over the
+line.
+
+>PS: preference voting as practised in Australia does not produce
+>proportional results on a party basis in the legislature, which is
+>probably why the big parties in the UK are so keen on it as a possible
+>reform of the existing system.  For proportionality you need
+>multi-member constituencies and the Single Transferable Vote system
+>(as in the Republic of Ireland), or you need a system that allows
+>people to vote for parties directly and which then adjusts the
+>legislature appropriately, as happens (with variations) in Germany,
+>Israel and New Zealand.
+
+All very interesting, but we don't really have a fully fledged party 
+political system in Agora yet, despite the Group activity in the current
+Elections, (which I'm pleased to see, mind you). We could, of course,
+legislate a party political system by allowing only parties to stand
+for Office, which would force Players to join a party if they wanted
+to hold Office. But somehow I don't think we're quite ready for that
+yet...
+
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+

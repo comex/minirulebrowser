@@ -1,0 +1,258 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Thu Jan 15 13:36 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA08070 for <dpb@cs.brown.edu>; Thu, 15 Jan 1998 13:36:00 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA11134
+	for agora-business-list; Fri, 16 Jan 1998 05:25:33 +1100
+Received: from kanga.INS.CWRU.Edu (kanga.INS.CWRU.Edu [129.22.8.32])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA11131
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 16 Jan 1998 05:25:28 +1100
+Received: (gb485@localhost) by kanga.INS.CWRU.Edu (8.8.6+cwru/CWRU-2.5-bsdi)
+	id NAA23330; Thu, 15 Jan 1998 13:27:38 -0500 (EST) (from gb485)
+Message-Id: <199801151827.NAA23330@kanga.INS.CWRU.Edu>
+Date: Thu, 15 Jan 1998 13:27:38 -0500 (EST)
+From: gb485@cleveland.Freenet.Edu (Steven A Swiniarski)
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: PROTO: Points Mark II
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 10687
+
+
+
+PROTO-PROPOSAL: The Return of Points.
+
+     Preface: One of the things the economy needs is an encouragement 
+     for people to spend the currencies that the game provides.  There 
+     used to be an encouragement for both making Proposals, and for 
+     Voting.  They were called Points, and could make you win the game.  
+     The problem with points was that they became a currency (with the 
+     EOG reset caused a lot of bizarre transactions), they were anti-
+     pragmatic with dozens of what Scott would term "automagical" 
+     transfers, and they were linked to an End of Game event upon which 
+     dozens of other events depended (Speaker Transition, Win Tokens, 
+     Blots, re-registrations) which meant uncertainties in points had a 
+     cascade effect whenever a win was involved.  None of these problems 
+     has anything to do with the concept of points themselves, they were 
+     all problems with how the concept evolved into in the context of 
+     Agora.
+
+     This Proto is an effort to return a Scoring System to Agora, one 
+     that is pragmatic and driven by Player actions.  There is some 
+     analogy here with how currencies are currently handled, it also is 
+     a small scale example of how I would like Officer Reports to be 
+     handled eventually.  Please note, I purposely never define "points" 
+     as an entity in and of themselves, this is to prevent Players from 
+     arguing that the possibility of a negative Score is somehow 
+     illogical, and to avoid all the BS involved in the creation and 
+     destruction of something that shouldn't be an independent entity.
+
+
+Let the following Rule be created;
+(Title: Points and Scoring)
+
+     Every Player has associated with em specific numerical value known 
+     as their Score.  A Player's Score shall always be an integer.  If 
+     the rules specify a non-integral change in a Player's Score, that 
+     change shall be rounded to the nearest integer before being 
+     applied.
+
+     Changes in a Player's Score can be referred to as a gain or loss of 
+     Points.  A gain of some number of Points means that number is to be
+     added to a Player's Score, a loss of some number of Points means 
+     that number is to be subtracted from a Player's Score. In this 
+     context, the term "Points" is only used to reference changes in a 
+     Player's Score.
+
+     This rule takes precedence over all other Rules dealing with Points 
+     and Scoring.
+
+{Comment: This is an attempt to initiate a Scoring system that does not 
+          imply the treatment of Points as entities.  There's no talk of 
+          transfers, creations or destructions.  "Points" as a term is 
+          relegated to being a synonym for a Score change.}
+
+
+Let the following Rule be created;
+(Title: the Scorekeepor)
+
+     There is an Office of Scorekeepor whose salary is twice the Basic 
+     Officer Salary.  The Scorekeepor shall keep and maintain a record 
+     of the current Scores of each Player.  The Scorekeepor's Official 
+     Report shall include the Scores of every player, the changes in 
+     those Scores since the last report, and the reasons for those 
+     changes.  E shall publish this report in the Public Forum at least 
+     once a week.
+
+{Comment: Fairly straightforward.}
+
+
+Let the following Rule be created;
+(Title: Winning Scores)
+
+     If any Player reaches a Score of 100 or more, then the Player who 
+     has the highest Score and no win-preventing conditions is Eligible 
+     to Win the game.  In the case of a tie for the highest such Score, 
+     all such Players are eligible to Win.
+
+     The Scorekeepor must announce this event in the Public Forum as 
+     soon as possible after it occurs.  Eligibility for Winning shall 
+     be determined at the time of the Scorekeepor's announcement.
+
+     This announcement initiates the Endgame Procedure.  At the end of
+     this Procedure, if the Scorekeepor's announcement was not
+     successfully Challenged during the Endgame Proceedure, the
+     Scorekeepor shall announce that all those Players who are still 
+     Eligible to Win have won.  Upon the Scorekeepor's announcement, 
+     those Players shall Win and all Players' Scores shall be set at 
+     zero.  The Scorekeepor must order this Score change.
+
+{Comment: When someone reaches 100 points, someone wins (not necessarily 
+          the same someone)  there is probably some explanation needed 
+          for the Endgame Procedure--  there should be a chance a) for 
+          Players to challenge the announcement with a COE, and b) for 
+          those with high scores to try and buy off win-preventing 
+          conditions (i.e. Blots)}
+
+
+Let the following Rule be created;
+(Title: The Endgame Proceedure)
+
+     When the Scorekeepor announces a Player is Eligible to Win e 
+     initiates an Endgame Procedure.  During an Endgame Procedure no 
+     changes to any Player's scores are permitted.  This rule takes 
+     precedence over Rules that would allow these changes to be ordered.
+
+     The Endgame Procedure persists one week, unless, during that week, 
+     there is a Challenge of the Scorekeepor's announcement.
+
+     If there is a COE or CFJ on the Scorekeepor's announcement it is 
+     not a Challenge of that announcement unless it alleges an error 
+     that affects a Player's Eligibility to Win.
+
+     If there is such a COE on the Scorekeepor's announcement, and the 
+     Scorekeepor admits the error, then the announcement is successfully 
+     Challenged and the Endgame Procedure ends immediately.  If the 
+     Scorekeepor denies the error, the Challenge is not successful and 
+     the Endgame Procedure continues as if there were no COE.
+
+     If there is a CFJ issued during an Endgame Procedure which alleges 
+     an error that affects a Player's Eligibility to Win, then the 
+     Endgame Procedure shall persist until a Judge issues a ruling.  If 
+     the Judge finds that there was such an error, then the 
+     Scorekeepor's announcement is successfully Challenged and the 
+     Endgame Procedure ends immediately.  If there is any other ruling, 
+     then the Scorekeepor's announcement was not successfully Challenged 
+     and the Endgame Procedure proceeds as if there was no such CFJ, and 
+     if it has been more than a week since the Scorekeepor's 
+     announcement, the Endgame Procedure ends immediately.
+
+
+
+Let the following Rule be created;
+(Title: Changing a Player's Score)
+
+     A Player's Score is the Score reported by the Scorekeepor.  A 
+     Player's Score changes only when the Scorekeepor records the 
+     change.
+
+     The Scorekeepor shall only record changes when a Player empowered 
+     by the Rules to order such a change so orders eim. When the
+     Scorekeepor is so ordered to make a change e must do so as soon as 
+     possible.
+
+     The Scorkeepor shall not record any changes ordered to the Scores 
+     of non-Player Entities.
+
+     A Player's score is correct when it reflects all changes mandated 
+     by the Rules and ordered by the appropriate Players.  A Player's 
+     score is incorrect when it is in error, reflects changes that were 
+     not ordered as mandated by the Rules, or fails to reflect a change 
+     that was ordered as mandated by the Rules.
+
+     A COE or CFJ can be issued alleging that a Player's score is 
+     incorrect.  If such a CFJ or COE finds that the Score was 
+     incorrect, then the Scorekeepor must order that Score to be changed 
+     to the correct Score.
+
+     If the Rules mandate a change in a Player's score, and do not 
+     empower a Player to order that change, that change shall not be 
+     included in any determination of a correct Score.
+
+     The effect of ratifying the Scorekeepor's report is to render all 
+     Scores listed in it as correct.
+
+     This Rule takes precedence over any Rule that attempts to specify a 
+     Player's Score.
+
+
+{Comment: This is an attempt to have a completely pragmatic Officer's
+          Report.  The Scores are what the Scorekeepor says they are.  
+          (Another reason for the Endgame Procedure, the Scorekeepor can 
+          illegally give someone a Score of 100, but then the Player's 
+          have a week to get a CFJ together, nullifying such a win.)}
+
+
+Let the following Rule be created;
+(Title: Ordering Changes in a Player's Score)
+
+     When a Rule states that a Player's Score must change, and specifies 
+     a Player who is empowered order this change, that Player then must, 
+     this as soon as possible after the Rules mandate the change, order 
+     the Scorekeepor to make this change. This order shall be a message 
+     to the Scorekeepor naming the Player subject to the Score change 
+     and the magnitude of that change.
+
+     A Player is empowered to issue such an order only if the Rules 
+     specify e must order the change.
+
+
+{Comment: This is partially lifted from the Currency Rules, but it's in
+          a simpler form since there's no conceit about virtual tokens 
+          running around being created and destroyed, going from Player 
+          to Player or to the Bank and back.}
+
+
+Let the following Rule be created;
+(Title: The Omnibus Scoring Rule)
+
+
+     In any week that at least one Rule Change Proposed by a Player is 
+     adopted, that Player shall gain three Points.  The Rulekeepor must 
+     order this Score change.
+
+     In any week where a Player Voted on more than three Proposals, e 
+     gains three Points. The Assessor must order this Score change.
+
+     Whenever a Player wins an Election, e shall gain five Points.  The 
+     Vote Collector for the Election must order this Score change.
+
+     Whenever a Player becomes Speaker, e shall gain three Points.  The 
+     Registrar must order this Score change.
+
+     Whenever a Player gains three style points for a Proposal, e shall 
+     gain two Points.  The Wizard must order this Score change.
+
+     Whenever a Player Judges a CFJ, e gains three Points.  The Clerk of 
+     the Courts must order this Score change.
+
+     Whenever a Player gains a Blot, e shall lose two Points.  The 
+     Herald must order this Score change.
+
+
+{Comment: I think it's easier on everyone to have a single Rule that
+          lists what causes Score changes, rather than going around 
+          amending half a dozen Rules. I also tried to keep it so there 
+          was only one Score-Changing event per Officer.}
+
+
+
+
+
+-- 
+Steven Swiniarski (aka S Andrew Swann) http://www.sff.net/people/SASwann
+gb485@cleveland.freenet.edu            
+"There can be no effective control of corporations while their political
+ activity remains."                                    --Theodore Roosevelt
+

@@ -1,0 +1,922 @@
+From owner-nomic-discussion@teleport.com Fri Jul 11 00:22 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA05618 for <dpb@cs.brown.edu>; Fri, 11 Jul 1997 00:22:10 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id VAA02872; Thu, 10 Jul 1997 21:18:14 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Thu, 10 Jul 1997 21:18:09 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id VAA02797 for nomic-discussion-outgoing; Thu, 10 Jul 1997 21:18:05 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex3-5-14.ucs.indiana.edu [129.79.18.234]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id VAA02752 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 21:17:58 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id XAA05719 for <nomic-discussion@teleport.com>; Thu, 10 Jul 1997 23:17:51 -0500
+Message-Id: <199707110417.XAA05719@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: proto: Restore Game Balance II, v2 
+In-reply-to: Your message of "Fri, 11 Jul 1997 13:55:05 +1000."
+             <199707110355.NAA24492@aurora.cc.monash.edu.au> 
+Date: Thu, 10 Jul 1997 23:17:48 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 1414
+Status: N
+
+"Steve" == Steve Gardner <gardner@aurora.cc.monash.edu.au> writes:
+
+Steve> As the author of RGB I & II, I can tell you that I regard the
+Steve> form that RGB II takes as a self-repealing Rule as a
+Steve> regrettably inelegant necessity.
+
+Note that if it is couched in the form of Currency balance
+adjustments, it need not be a self-repealing Rule.
+
+Steve> I take it, for instance, that it would be pretty messy
+Steve> (although perfectly legal) for a Proposal to create a large
+Steve> number of Transfer Orders (in the case of RGB II, one for every
+Steve> Player, another one for every Contestmaster, and a few others),
+Steve> which individual Players would then have to satisfy by making
+Steve> the appropriate Payment Orders.
+
+One, you have it backward: Transfer Orders satisfy Payment Orders.
+Two, as other have noted, it is not clear that a Proposal can create a
+nomic entity, which means that a Proposal cannot create a Payment
+Order, and a Proposal lacks authority to command Players to execute
+Payment Orders on its own.  Hence, I do not believe that a Proposal
+can, by itself, cause the execution of Payment or Transfer Orders.  I
+would somewhat like to see this rectified.
+
+However, P/C will not prevent the use of direct manipulations of
+currencies held by entities.  Note, however, that Treasuries will not
+exist after P/C (assuming it passes); Players should keep this in mind
+when drafting Proposals.
+
+From owner-nomic-discussion@teleport.com Fri Jul 11 04:30 EDT 1997
+Received: from portia.teleport.com ([192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA09375 for <dpb@cs.brown.edu>; Fri, 11 Jul 1997 04:30:16 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id BAA20212; Fri, 11 Jul 1997 01:26:17 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Fri, 11 Jul 1997 01:26:15 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id BAA20190 for nomic-discussion-outgoing; Fri, 11 Jul 1997 01:26:14 -0700 (PDT)
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id BAA20148 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 01:26:06 -0700 (PDT)
+Received: from arapael (pppA205.francenet.fr [193.149.100.59])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id KAA18613
+	for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 10:26:03 +0200 (MET DST)
+Message-Id: <199707110826.KAA18613@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic-discussion@teleport.com
+Date: Fri, 11 Jul 1997 10:29:16 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: BUS: proto: Restore Game Balance II, v2 -Reply
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 602
+Lines: 18
+Status: N
+
+> Hmm, let's see if there's a logical grouping for the nature (rather than
+> the lack-of-controversy) of the changes that can occur Without Objection:
+> 
+> * Whether a medium is a Public Forum
+> * Name of a Rule Category
+> * Which Rule Category a Rule is in
+> * Title of a Rule
+> * Name of a Location not named in the Rules
+> * Friendliness of a Nomic
+> 
+> What do you think?
+
+"Mostly harmless". -- D.N.A.
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Please stand by for total destruction of your planet.
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 11 08:27 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA12953 for <dpb@cs.brown.edu>; Fri, 11 Jul 1997 08:27:23 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id FAA17073; Fri, 11 Jul 1997 05:24:29 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Fri, 11 Jul 1997 05:24:27 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id FAA17048 for nomic-discussion-outgoing; Fri, 11 Jul 1997 05:24:26 -0700 (PDT)
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33]) by portia.teleport.com (8.8.5/8.7.3) with SMTP id FAA17039 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 05:24:23 -0700 (PDT)
+Received: (qmail 1178 invoked from network); 11 Jul 1997 12:23:53 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 11 Jul 1997 12:23:53 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA19186; Fri, 11 Jul 1997 14:23:52 +0200
+Date: Fri, 11 Jul 1997 14:23:52 +0200
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9707111223.AA19186@spinup.tp3.ruhr-uni-bochum.de>
+To: nomic-discussion@teleport.com
+Subject: Copy of the production/mines/farms... proto?
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 232
+Status: N
+
+I'm sorry that I have to ask this, but unfortunately during the
+last few weeks I did not keep copies of protos. Could anyone send
+ma a copy of the proto introducing mines, farms etc to produce
+VTs and the like?
+
+Thank you! Kolja A.
+
+From owner-nomic-discussion@teleport.com Fri Jul 11 09:09 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA14067 for <dpb@cs.brown.edu>; Fri, 11 Jul 1997 09:09:04 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id GAA21563; Fri, 11 Jul 1997 06:06:24 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Fri, 11 Jul 1997 06:06:23 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id GAA21551 for nomic-discussion-outgoing; Fri, 11 Jul 1997 06:06:22 -0700 (PDT)
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33]) by portia.teleport.com (8.8.5/8.7.3) with SMTP id GAA21526 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 06:06:16 -0700 (PDT)
+Received: (qmail 4763 invoked from network); 11 Jul 1997 13:06:14 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 11 Jul 1997 13:06:14 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA18949; Fri, 11 Jul 1997 15:06:13 +0200
+Date: Fri, 11 Jul 1997 15:06:13 +0200
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9707111306.AA18949@spinup.tp3.ruhr-uni-bochum.de>
+To: nomic-discussion@teleport.com
+In-Reply-To: <33C24B78.7CB3@micronet.fr> (message from Laurent Bossavit on Tue, 08 Jul 1997 16:15:20 +0200)
+Subject: Re: List of players; and a kind of Internomic Proto.
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 2560
+Status: N
+
+Morendil wrote:
+>>In principle I am against any legislation of a Player's Nomicality -
+our analogue to nationality.<<
+
+I must admit I'm a little surprized to hear you, of all players, say
+that after the anti-war campaigning you have done. If it wasn't for
+the "nomicality" of the players involved, the whole enterprize you
+disliked could hardly have been considered an "invasion" or a "war
+effort" at all, could it? - maybe as the malicious action of a player,
+or a group of players.
+
+But the danger of players joining a Nomic with bad intentions has
+nothing to do with inter-nomic relations. It is present because (and
+as long as) nomics run via open mailing lists or other open systems
+that are hard to protect against such attacks. (Of course this is an
+interesting problem, too: how to organize an immigration policy that
+protects you from evildoers, but does not keep people from joining. In
+Agora the senate provides for that, I think),
+
+Morendil:
+>>I wouldn't like any restriction, however benign in intent, on my
+rights to circulate freely within the Nomic Community.<<
+
+My idea is not to restrict registrations in any way, just to force
+people to publish their nomic memberships. It would only allow
+individual nomics to introduce such restrictions internally. But they
+can do that already, and why shouldn't they be allowed to do it?
+
+I don't see in which way my idea conflicts with your goal that
+
+>>...a Nomic should be free to adopt any kind of immigration policy it
+likes, provided naturally that the basic rights of the Players are
+respected by its legislation.
+If Rishon wants to subject immigrant Players to a detailed questionnaire,
+so be it - I certainly don't approve, but neither do I think such a move
+would be unfounded in light of recent events. ;)<<
+
+Morendil:
+>>Note though that IN Points are really less than exciting - member
+Nomics seem to care little for them.<<
+
+I don't mind that too much - it's just like real life, isn't it? Some
+nations can be condemned by UN resolutions over and over again, but
+they just don't care. And not all of them automatically loose their
+reputation or status, either, if they are interresting or powerful
+enough to ignore the UN's "sanctions".
+
+I think that's a very interesting part of international politics - you
+do want a forum for exchange, and you do want to fix some elementary
+standards and a kind of code of conduct for all, but the means to
+enforce such standards are very limited indeed - basically limited to
+persuasion and moral pressure. Why should Internomic be different?
+
+Kolja A.
+
+From owner-nomic-discussion@teleport.com Fri Jul 11 09:19 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA14386 for <dpb@cs.brown.edu>; Fri, 11 Jul 1997 09:19:50 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id GAA29607; Fri, 11 Jul 1997 06:16:34 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 11 Jul 1997 06:16:18 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id GAA29559 for nomic-discussion-outgoing; Fri, 11 Jul 1997 06:16:17 -0700 (PDT)
+Received: from wsinfm04.win.tue.nl (wsinfm04.win.tue.nl [131.155.70.115]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id GAA29501 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 06:16:02 -0700 (PDT)
+Received: by wsinfm04.win.tue.nl (8.7.1/1.45)
+    id PAA16036; Fri, 11 Jul 1997 15:15:48 +0200 (MET DST)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199707111315.PAA16036@wsinfm04.win.tue.nl>
+Subject: Re: Copy of the production/mines/farms... proto?
+To: nomic-discussion@teleport.com
+Date: Fri, 11 Jul 1997 15:15:47 +0200 (MET DST)
+In-Reply-To: <9707111223.AA19186@spinup.tp3.ruhr-uni-bochum.de> from "Klaus Herrmanns NB6_25 (3751)" at Jul 11, 97 02:23:52 pm
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Length: 6673
+Status: N
+
+Klaus Herrmanns NB6_25 (3751):
+>
+>I'm sorry that I have to ask this, but unfortunately during the
+>last few weeks I did not keep copies of protos. Could anyone send
+>ma a copy of the proto introducing mines, farms etc to produce
+>VTs and the like?
+>
+>Thank you! Kolja A.
+>
+
+Here is the version that Blob posted on 9 June. I don't know whether it
+is the most current version.
+
+----------------------------------------------------------------------
+
+PROTO: Plots v0.2
+
+------------
+
+This is a combined effort by Antimatter and myself, at creating some form
+of economy around here. The basic aim is the same as my earlier Jobs 
+proto - to encourage Players to specialise in the production of one of
+our major currencies - VTs, P-Notes or Indulgences - and then trade their
+excess for other currencies.
+
+The concept we are working with is that of land ownership and building
+various structures on your land, to produce the various commodities. A
+unit of land is a Plot. Each player starts with 3 of these, but they can
+be traded. On a Plot, a player can build a Structure. Every week, a
+Structure produces a certain amount of a given currency, depending on its
+type. Houses produce P-Notes, Farms produce VTs, Churches (indirectly)
+produce Indulgences, there are also Mines, which produce a new currency
+call Materials, which is necessary for creating & maintaining Structures.
+
+A player must pay monthly upkeep on eir Structures, or else they fall 
+apart. Upkeep is paid in Materials, and is 1 Mt/month for each Structure,
+plus 1 extra Mt for each type of Structure owned. So 3 Farms cost 4 Mt/month,
+and 1 Farm, 1 House and 1 Mine costs 6 Mt, etc - this is arranged so as to
+encourage specialisation. (But note that 1 Farm & 2 Mines is a self-supporting
+arrangement, which provides a (meagre) supply of VTs and a slight excess
+of Mts, for any Player who does not want to get involved in trading, but
+still wants to be able to vote and pay eir rent.)
+
+This is still an early draft - more an explanation of the idea than an 
+actual proposal. We would appreciate any input on the following:
+
+1) Plots as a currency - we want the number of Plots in the system to be
+relatively constant, but we also need to provide new Players with Plots.
+I do not want there to ever be any entity with a negative Plots holding.
+The best way I can see to do this, is to work Plots like the Kudo system.
+When a new player joins, 3 Plots are created & given to em. When e leaves
+all eir Plots are destroyed. The problem is that this is scammable, by 
+getting new players to join, transfer their plots to you, and then leave.
+
+2) Timing of transfers & reporting, in order to streamline this as much 
+as possible.
+
+3) Tuning the economy
+
+Constructive criticisms are very welcome.
+
+------------
+
+Create a rule titled "Plots" reading:
+
+   Plots are a currency. The recordkeeper of Plots is the Cartographer.
+
+   Whenever a Player joins the game for the first time, e recieves 3 Plots.
+
+Create a rule titled "Material" reading:
+
+   Material is a currency. The recordkeeper of Material is the Cartographer. 
+   Material may be abbreviated as Mt.
+
+   Whenever a Player joins the game for the first time, e recieves 10 Mt.
+
+Each current player recieves 3 Plots and 10 Mt.
+
+Amend rule 1710 by to read:
+
+   There is an Office of Cartographor. The Cartographor recieves a salary 
+   equal to 2 times the Basic Officer Salary.
+
+   At least once each Nomic Week, the Cartographor shall post a Report to the 
+   Public Forum containing the following information: 
+
+    * all Locations, and which Locations are Adjacent to which others
+    * the Location of all Entities that have a Location
+    * all Movement since the previous report (if any)
+    * the current status of all Plots in the game, and the changes (if any)
+      since the previous report
+    * the current status of all Material in the game, and the changes (if any) 
+      since the previous report
+    * the status of all Plots and Material possessed by all former Players
+      at the time they left the game
+
+Create a rule titled "Structures" reading:
+
+   Each plot may have one Structure on it, or be empty. Only those Structures 
+   exist which are defined in the rules. The Structure on a plot is part of
+   that plot's status.
+
+   The following Structures exist:
+    * Farms
+    * Churches
+    * Mines
+    * Houses
+
+   A Player may build a Structure of eir choice on an empty Plot e possesses 
+   by informing the Cartographor that e is building the Structure and paying 
+   5 Mt, which are destroyed.
+
+   A Player may tear down a Structure on one of eir Plots by informing the 
+   Cartographor that e is tearing down the structure. When a Player tears 
+   down a Structure, the Plot becomes empty, and 2 Mt are created and given
+   to the Player.
+
+Create a rule titled "Upkeep on Structures" reading:
+
+   Each Structure requires an upkeep. The upkeep cost is 2 Mt for the first 
+   Structure of each type that a Player owns, and 1 Mt for each additional 
+   structure. The upkeep is paid automatically on the 1st of every month. 
+   However, if a player does not have enough Mt to pay the upkeep on all of 
+   eir Structures, e has one week to pay the upkeep on eir structures or 
+   all of eir Structures collapse and are destroyed.
+
+Create a rule titled "Production from Structures" reading:
+
+   Structures may produce something each week. The production from Structures 
+   takes place at the time of the Cartographor's weekly report. The items 
+   produced by Structures are as follows:
+
+    * Farms produce 5 VT
+    * Houses produce 1 P-Note
+    * Mines produce 1 Mt
+
+   Churches do not produce anything. However, each Church is considered to 
+   be two players for the purposes of randomly allocating Indulgences, and 
+   any Indulgences which would be given to the Church are instead given to 
+   the Church's owner.
+
+   The Cartographor shall detect and report all currency transfers required
+   by this rule.
+
+Amend rule 833 by removing the text:
+
+   At the end of the Voting Period for a Proposal, if a Proposal has received
+   more FOR Votes than AGAINST Votes, the Payor for that Proposal gains a 
+   number of P-Notes equal to the number of FOR Votes less the number of 
+   AGAINST Votes.
+
+   If, however, a Proposal has received more AGAINST Votes than FOR Votes, 
+   that Payor loses a number of P-Notes equal the number of AGAINST Votes 
+   less the number of FOR Votes.
+
+   If the number of FOR Votes and AGAINST Votes are equal, the Payor neither
+   gains nor loses P-Notes as a result of this Rule.
+
+Repeal rule 947. [P-Notes for ruleset reduction]
+
+Repeal rule 1705. [P-Notes for style]
+
+Repeal rule 1684. [VT Supply]
+
+From owner-nomic-discussion@teleport.com Fri Jul 11 10:01 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA15378 for <dpb@cs.brown.edu>; Fri, 11 Jul 1997 10:01:42 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id GAA06495; Fri, 11 Jul 1997 06:54:53 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 11 Jul 1997 06:54:52 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id GAA06484 for nomic-discussion-outgoing; Fri, 11 Jul 1997 06:54:51 -0700 (PDT)
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id GAA06463 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 06:54:45 -0700 (PDT)
+Received: from lolo.knc ([194.250.81.227])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id PAA08877
+	for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 15:54:30 +0200 (MET DST)
+Message-ID: <33C63A0C.6C3B@micronet.fr>
+Date: Fri, 11 Jul 1997 15:50:05 +0200
+From: Laurent Bossavit <morendil@micronet.fr>
+Organization: netDIVE - publishers of CUChat, the One & Only 100% Visual Java Chat
+X-Mailer: Mozilla 3.01Gold (Win95; I)
+MIME-Version: 1.0
+To: nomic-discussion@teleport.com
+Subject: Re: List of players; and a kind of Internomic Proto.
+References: <9707111306.AA18949@spinup.tp3.ruhr-uni-bochum.de>
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 2886
+Status: N
+
+> >>In principle I am against any legislation of a Player's Nomicality -
+> our analogue to nationality.<<
+> 
+> I must admit I'm a little surprized to hear you, of all players, say
+> that after the anti-war campaigning you have done. If it wasn't for
+> the "nomicality" of the players involved, the whole enterprize you
+> disliked could hardly have been considered an "invasion" or a "war
+> effort" at all, could it? - maybe as the malicious action of a player,
+> or a group of players.
+
+Don't misunderstand - I'm not saying there should be no such notion as
+Nomicality. I am a 'nomizen' of Agora; other Agora Players are nomizens
+of various other Nomics in addition. What I was stating was my opposition
+to the notion of enacting any Rules that would place different requirements
+upon Players, solely based upon the Nomicality, or lack thereof, of the
+Players involved. I want to have the right to join a Nomic without having
+to state other Nomic-related (or for that matter non-Nomic-related)
+affiliations. I should not have to disclose any information about myself
+when joining a Nomic other than my name and email address.
+
+> >>I wouldn't like any restriction, however benign in intent, on my
+> rights to circulate freely within the Nomic Community.<<
+> 
+> My idea is not to restrict registrations in any way, just to force
+> people to publish their nomic memberships. It would only allow
+> individual nomics to introduce such restrictions internally. But they
+> can do that already, and why shouldn't they be allowed to do it?
+
+That _is_ a restriction. And your idea was to _require_ Players of
+member Nomics to do that, not merely to allow member Nomics to adopt
+such policies, which as you rightly point out they can do anyway.
+Since I don't want Agora to adopt such a policy, I'd have to oppose
+it on the IN level.
+
+> I don't see in which way my idea conflicts with your goal that
+> >>...a Nomic should be free to adopt any kind of immigration policy it
+> likes, provided naturally that the basic rights of the Players are
+> respected by its legislation.
+
+It doesn't - it's a different issue. On the InterNomic level I want to
+preserve the right of member Nomics to restrict immigration however
+they want, because I think it would be harmful to IN as a whole to
+attempt to place such restrictions on member Nomics; on a local level
+I'm against any immigration policy at all.
+
+> I think that's a very interesting part of international politics - you
+> do want a forum for exchange, and you do want to fix some elementary
+> standards and a kind of code of conduct for all, but the means to
+> enforce such standards are very limited indeed - basically limited to
+> persuasion and moral pressure. Why should Internomic be different?
+
+I don't believe that's quite true - enforcement can be quite effective
+with such tools as economic sanctions, embargoes and the like, for
+instance.
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 11 10:51 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA16487 for <dpb@cs.brown.edu>; Fri, 11 Jul 1997 10:51:11 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id HAA16069; Fri, 11 Jul 1997 07:43:31 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 11 Jul 1997 07:43:28 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id HAA16047 for nomic-discussion-outgoing; Fri, 11 Jul 1997 07:43:27 -0700 (PDT)
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33]) by greta.teleport.com (8.8.5/8.7.3) with SMTP id HAA16028 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 07:43:22 -0700 (PDT)
+Received: (qmail 12086 invoked from network); 11 Jul 1997 14:43:20 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 11 Jul 1997 14:43:20 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA18983; Fri, 11 Jul 1997 16:40:41 +0200
+Date: Fri, 11 Jul 1997 16:40:41 +0200
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9707111440.AA18983@spinup.tp3.ruhr-uni-bochum.de>
+To: nomic-discussion@teleport.com
+Subject: Proto: Proto: Unequal stipends to drive the economy
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 6238
+Status: N
+
+Proto: Unequal stipends to drive the economy
+
+-----
+Idea: In the Plots proto Blob and Antimatter want to create not only a
+scarce supply of currency, but also an unequally distributed one, to
+make the economy more interesting. 
+
+However, they do more than that: they also introduce an economic
+background simulation. This may be fun in itself, but seems to me very
+much like MUDding (or playing a computer game like SimCity or
+whatever) by hand.
+
+While I fully support the first goal I don't feel like spending a lot
+of time micromanaging my "real estate". This is a strategic problem in
+game design (for example, a very important one for ConSims): do you
+want it to be results oriented or simulation oriented? Both aspects
+can be fun, but for the latter the paperwork must compare favorably to
+the entertainment gained - in the case of the Plots proto I don't
+think it does. 
+
+So I would suggest the same incentive to trade currencies, and thus to
+have more of an economy, can be introduced in a much simpler way if we
+cut the simulation aspect and focus on the desired result: how to give
+unequal amounts of currency to each player.
+
+This proto would introduce a stipend of both P-notes and VTs as
+(nearly ?) the only source of these currencies in addition to
+officers' salaries. Inequalitiy is introduced by giving a much higher
+stipend to players who "specialize" in one of the two currencies. On
+the other hand, one can choose a small, but balanced income to avoid
+trading (just as one can build 1 Farm & 2 Mines to be self-supporting
+in the Plots proto).
+
+I am sure the detailed amounts of income need a lot of finetuning - I
+just lack the experience for this - comments anyone?. I have based my
+first suggestion on the following estimate:
+
+On average (over players and time), every player needs a little less
+than one P-note per week, and about three VTs. (Dear assessor and
+promotor, is that a good estimate in your experience?)
+
+So we need to introduce 3*N VTs and N P-notes into the game each week,
+where N is the number of active players. Roughly N VTs are given out
+as salaries, the rest must come from stipends.
+
+I did not want to make the stipends noninteger amounts of currency,
+esp. as the MUQ for P-notes is one, so I decided to pay them only
+fortnightly - this way more finetuning of the amounts is possible.
+
+------
+Proto:
+
+Every two weeks every player receives a stipend of either VTs or
+P-notes or both.
+
+There are three types of stipend: balanced, VT only or P-note only. A
+player must choose which type of stipend e wants to receive. This
+choice can be changed by notifying ??; the change only becomes valid
+four weeks after this notification.
+
+After the adoption of this rule every player must make this choice for
+the first time and notify ?? As Soon As Possible. Players who fail to
+do so start with a balanced stipend. This paragraph will remove itself
+10 days after the adoption of this rule.
+
+A balanced stipend consists of 1 P-note and 4 VTs.
+A VT only stipend consists of 9 VTs.
+A P-note only stipend consists of 4 P-notes.
+
+(Missing: who pays these?)
+
+Amend rule 833 by removing the text:
+
+   At the end of the Voting Period for a Proposal, if a Proposal has received
+   more FOR Votes than AGAINST Votes, the Payor for that Proposal gains a 
+   number of P-Notes equal to the number of FOR Votes less the number of 
+   AGAINST Votes.
+
+   If, however, a Proposal has received more AGAINST Votes than FOR Votes, 
+   that Payor loses a number of P-Notes equal the number of AGAINST Votes 
+   less the number of FOR Votes.
+
+   If the number of FOR Votes and AGAINST Votes are equal, the Payor neither
+   gains nor loses P-Notes as a result of this Rule.
+
+Repeal rule 1684. [VT Supply]
+
+------
+Pro's: 
+
+- Introduces the same effect (scarce and unequally distributed
+currency incomes) as the Plots proto, but with much less paperwork
+(especially for each player, but also for the officer(s) supervising
+the stipends) 
+
+- Changes and readjustments are easy to implement. For example it may
+turn out that too few (or too many) units of one currency are
+circulating. This would either stifle the game (or make the economy
+ineffective in creating scarcity and trade). But a simple rule change
+can adjust the income provided by stipends. Or an additional rule
+could limit the overall circulation of some currency and raise taxes
+to pay the stipends, as I suggested some time ago.
+
+Adjustments like that would be much harder to implement in an economy
+driven by private property like plots and production facilities;
+changing their effectiveness would not only be more difficult than
+changing stipends technically, it would also be frustrating for
+players who invested a lot of effort into getting eir businesses
+running.
+
+Con's:
+
+- We loose the fun and excitement of running an economy simulation
+within Agora as a whole; individual players loose the possibility to
+be proud owners of a well run business and trade organization.
+
+- Whatever else you can think of.
+
+Open questions:
+
+- Who is responsible for paying the stipends and for keeping a list of
+who gets which stipend? We could either introduce a new office for
+this, or split the task: The assessor stays responsible for the VT
+part of the stipends, the promotor for the P-notes.
+
+- We may want to keep Rules 947 and 1705, after all. In an environment
+of scarce P-notes they may even make more of a difference than
+now. Then we would have some extra source for VTs (salaries) and for
+P-notes(R 947 & 1705). The old main sources of VTs and P-notes from
+Rule 1684 and 833 must be abolished, of course.
+
+Remarks:
+
+- It might be nice to change some officers' salaries to be paid in
+P-notes to introduce some variety. On the other hand, then every
+officer could collect eir salary in one currency and eir stipend in
+the other, avoiding the need to trade. 
+
+- Needs some technical polishing if Pragmatic Currencies go through,
+of course.
+
+I hope the developers and supporters of the Plots concept see this as
+a constructive challenge, not as a personal attack on all the nice
+toys they have devised (this is _not_ meant to sound ironic - I
+have fiddled around with homemade economy simulations, too, and I
+think I know how much fun - and work - it is).
+
+Kolja A.
+
+From owner-nomic-discussion@teleport.com Fri Jul 11 11:28 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA17379 for <dpb@cs.brown.edu>; Fri, 11 Jul 1997 11:28:27 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id IAA01577; Fri, 11 Jul 1997 08:27:34 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Fri, 11 Jul 1997 08:27:12 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id IAA01480 for nomic-discussion-outgoing; Fri, 11 Jul 1997 08:27:11 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex3-5-14.ucs.indiana.edu [129.79.18.234]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id IAA01471 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 08:27:07 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id KAA06324 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 10:27:01 -0500
+Message-Id: <199707111527.KAA06324@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: Proto: Proto: Unequal stipends to drive the economy 
+In-reply-to: Your message of "Fri, 11 Jul 1997 16:40:41 +0200."
+             <9707111440.AA18983@spinup.tp3.ruhr-uni-bochum.de> 
+Date: Fri, 11 Jul 1997 10:26:58 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 772
+Status: N
+
+"Klaus" == Klaus Herrmanns NB6 25 (3751) <klaush@spinup.tp3.ruhr-uni-bochum.de> writes:
+
+Klaus> So I would suggest the same incentive to trade currencies, and
+Klaus> thus to have more of an economy, can be introduced in a much
+Klaus> simpler way if we cut the simulation aspect and focus on the
+Klaus> desired result: how to give unequal amounts of currency to each
+Klaus> player.
+
+This idea is not new: it's the essence of the Jobs proto that someone,
+Blob I think, was floating some time back.
+
+Klaus> On average (over players and time), every player needs a little
+Klaus> less than one P-note per week, and about three VTs. (Dear
+Klaus> assessor and promotor, is that a good estimate in your
+Klaus> experience?)
+
+Ask Blob; he did the computations for this a while ago.
+
+From owner-nomic-discussion@teleport.com Fri Jul 11 11:54 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA18215 for <dpb@cs.brown.edu>; Fri, 11 Jul 1997 11:54:45 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id IAA07935; Fri, 11 Jul 1997 08:53:23 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Fri, 11 Jul 1997 08:53:19 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id IAA07857 for nomic-discussion-outgoing; Fri, 11 Jul 1997 08:53:17 -0700 (PDT)
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10]) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id IAA07812 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 08:53:07 -0700 (PDT)
+Received: by  dfw.dfw.net (4.1/SMI-4.1)
+	id AA05996; Fri, 11 Jul 97 10:53:30 CDT
+Message-Id: <9707111553.AA05996@ dfw.dfw.net>
+Subject: Re: BUS: proto: Restore Game Balance II, v2 -Reply
+To: nomic-discussion@teleport.com
+Date: Fri, 11 Jul 1997 10:53:30 -0500 (CDT)
+In-Reply-To: <199707102350.SAA04943@poverty.bloomington.in.us> from "Scott Goehring" at Jul 10, 97 06:50:40 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 318
+Status: N
+
+Scott Goehring wrote:
+>
+>I've considered suggesting a provision allowing a Proposal to
+>establish obligations (with limitations).  I don't think it would be
+>all that hard to do.
+
+I'd rather limit obligations to Rules and SLCs.  How many different
+documents do we want floating around with obligations, anyway?
+
+Chuck
+
+From owner-nomic-discussion@teleport.com Fri Jul 11 12:05 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA18466 for <dpb@cs.brown.edu>; Fri, 11 Jul 1997 12:05:34 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id JAA04053; Fri, 11 Jul 1997 09:04:22 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 11 Jul 1997 09:04:10 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id JAA03991 for nomic-discussion-outgoing; Fri, 11 Jul 1997 09:04:08 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex3-5-14.ucs.indiana.edu [129.79.18.234]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id JAA03963 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 09:04:02 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id LAA06400 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 11:03:55 -0500
+Message-Id: <199707111603.LAA06400@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: proto: Restore Game Balance II, v2 -Reply 
+In-reply-to: Your message of "Fri, 11 Jul 1997 10:53:30 EST."
+             <9707111553.AA05996@ dfw.dfw.net> 
+Date: Fri, 11 Jul 1997 11:03:54 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 447
+Status: N
+
+"Charles" == Charles E Carroll <ccarroll@dfw.net> writes:
+
+Charles> I'd rather limit obligations to Rules and SLCs.  How many
+Charles> different documents do we want floating around with
+Charles> obligations, anyway?
+
+I would limit the ability of Proposals to create obligations to a
+single performance of some duty (as opposed to a repeating or ongoing
+obligation), and with a time limit of probably two weeks after the
+adoption of the Proposal.
+
+From owner-nomic-discussion@teleport.com Fri Jul 11 13:18 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA20241 for <dpb@cs.brown.edu>; Fri, 11 Jul 1997 13:18:03 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id KAA28086; Fri, 11 Jul 1997 10:15:18 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Fri, 11 Jul 1997 10:13:36 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id KAA27546 for nomic-discussion-outgoing; Fri, 11 Jul 1997 10:13:35 -0700 (PDT)
+Received: from easynet.co.uk (kiwi.easynet.co.uk [193.131.248.4]) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id KAA27498 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 10:13:29 -0700 (PDT)
+Received: (qmail 8308 invoked from network); 11 Jul 1997 17:15:00 -0000
+Received: from eljefe.easynet.co.uk (HELO ?195.40.61.175?) (195.40.61.175)
+  by kiwi.easynet.co.uk with SMTP; 11 Jul 1997 17:15:00 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <v01530500afec19ce4fac@[195.40.61.175]>
+Mime-Version: 1.0
+Date: Fri, 11 Jul 1997 17:12:26 +0000
+To: nomic-discussion@teleport.com
+From: eljefe@easynet.co.uk (Dr. Jeffrey L. Caruso)
+Subject: Re: OFF: Proposals 3531-3533
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 301
+Status: N
+
+You mean that currency reform will mean the end of Rule 1687 ??
+
+Regards,
+-- elJefe
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+
+From owner-nomic-discussion@teleport.com Fri Jul 11 14:20 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA22327 for <dpb@cs.brown.edu>; Fri, 11 Jul 1997 14:20:19 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id LAA16805; Fri, 11 Jul 1997 11:17:49 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Fri, 11 Jul 1997 11:15:55 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id LAA16545 for nomic-discussion-outgoing; Fri, 11 Jul 1997 11:15:55 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex3-5-14.ucs.indiana.edu [129.79.18.234]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id LAA16539 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 11:15:52 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id NAA06539 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 13:15:40 -0500
+Message-Id: <199707111815.NAA06539@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: OFF: Proposals 3531-3533 
+In-reply-to: Your message of "Fri, 11 Jul 1997 17:12:26 GMT."
+             <v01530500afec19ce4fac@[195.40.61.175]> 
+Date: Fri, 11 Jul 1997 13:15:39 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 613
+Status: N
+
+"Jeffrey" == Jeffrey L Caruso <eljefe@easynet.co.uk> writes:
+
+Jeffrey> You mean that currency reform will mean the end of Rule 1687
+Jeffrey> ?? 
+
+It would have been difficult to recast Rule 1687 into the new
+paradigm; it violates the principle that units of Currency are only
+transferred when their owner causes them to be transferred, amongst
+other things.  Furthermore, one of the basic goals of Pragmatic
+Currencies is to make Currency Recordkeeping much less error-prone and
+far more straightforward.  I do not believe that Rule 1687's measures
+are necessary in the paradigm proposed by Pragmatic Currencies.
+
+From owner-nomic-discussion@teleport.com Fri Jul 11 18:23 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA29080 for <dpb@cs.brown.edu>; Fri, 11 Jul 1997 18:23:28 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id PAA17086; Fri, 11 Jul 1997 15:19:37 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Fri, 11 Jul 1997 15:19:36 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id PAA17072 for nomic-discussion-outgoing; Fri, 11 Jul 1997 15:19:35 -0700 (PDT)
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10]) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id PAA17053 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 15:19:32 -0700 (PDT)
+Received: by  dfw.dfw.net (4.1/SMI-4.1)
+	id AA10295; Fri, 11 Jul 97 17:20:51 CDT
+Message-Id: <9707112220.AA10295@ dfw.dfw.net>
+Subject: Re: BUS: proto: Restore Game Balance II, v2 -Reply
+To: nomic-discussion@teleport.com
+Date: Fri, 11 Jul 1997 17:20:51 -0500 (CDT)
+In-Reply-To: <199707111603.LAA06400@poverty.bloomington.in.us> from "Scott Goehring" at Jul 11, 97 11:03:54 am
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 540
+Lines: 16
+Status: N
+
+Scott Goehring wrote:
+>
+>"Charles" == Charles E Carroll <ccarroll@dfw.net> writes:
+>
+>Charles> I'd rather limit obligations to Rules and SLCs.  How many
+>Charles> different documents do we want floating around with
+>Charles> obligations, anyway?
+>
+>I would limit the ability of Proposals to create obligations to a
+>single performance of some duty (as opposed to a repeating or ongoing
+>obligation), and with a time limit of probably two weeks after the
+>adoption of the Proposal.
+
+Oh, I misunderstood.  That seems reasonable, then.
+
+Chuck
+
+From owner-nomic-discussion@teleport.com Fri Jul 11 22:25 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA03566 for <dpb@cs.brown.edu>; Fri, 11 Jul 1997 22:25:48 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id TAA13423; Fri, 11 Jul 1997 19:23:10 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Fri, 11 Jul 1997 19:22:58 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id TAA13366 for nomic-discussion-outgoing; Fri, 11 Jul 1997 19:22:56 -0700 (PDT)
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id TAA13343 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 19:22:52 -0700 (PDT)
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id WAA09687 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 22:22:50 -0400 (EDT)
+Message-Id: <3.0.1.16.19970711144826.2b8faa96@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Fri, 11 Jul 1997 14:48:26
+To: nomic-discussion@teleport.com
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: Proto: Proto: Unequal stipends to drive the economy
+In-Reply-To: <9707111440.AA18983@spinup.tp3.ruhr-uni-bochum.de>
+Mime-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 551
+Lines: 13
+Status: N
+
+At 04:40 PM 7/11/97 +0200, Klaus Herrmanns NB6_25 (3751) wrote:
+
+>On average (over players and time), every player needs a little less
+>than one P-note per week, and about three VTs. 
+
+The average player needs far less than one P-Note a week. 
+
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-nomic-discussion@teleport.com Fri Jul 11 22:26 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA03586 for <dpb@cs.brown.edu>; Fri, 11 Jul 1997 22:26:37 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id TAA09139; Fri, 11 Jul 1997 19:23:04 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Fri, 11 Jul 1997 19:22:57 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id TAA09096 for nomic-discussion-outgoing; Fri, 11 Jul 1997 19:22:56 -0700 (PDT)
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id TAA09061 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 19:22:50 -0700 (PDT)
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id WAA09682 for <nomic-discussion@teleport.com>; Fri, 11 Jul 1997 22:22:49 -0400 (EDT)
+Message-Id: <3.0.1.16.19970711212145.2bb7cc46@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Fri, 11 Jul 1997 21:21:45
+To: nomic-discussion@teleport.com
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: BUS: proto: Restore Game Balance II, v2
+In-Reply-To: <199707110317.NAA20420@aurora.cc.monash.edu.au>
+References: <s3c4b1f7.035@rmv.state.ma.us>
+Mime-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 315
+Lines: 11
+Status: N
+
+At 01:17 PM 7/11/97 +1000, Steve Gardner wrote:
+
+>>I think Kolja's suggestion that it be made generic (any player with less
+>>than 5 VTs gets 5 VTs) is a good one.
+
+>I agree and will make the change.
+
+Make sure you set it so that players whose VTs would be reduced to *less*
+than 5 are set to 5 instead, as well.
+
+
+

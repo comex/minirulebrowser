@@ -1,0 +1,61 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Apr  2 21:49 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id VAA29437
+	for <dpb@cs.brown.edu>; Fri, 2 Apr 1999 21:49:07 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA04576
+	for agora-business-list; Sat, 3 Apr 1999 02:48:09 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA04573
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 3 Apr 1999 02:48:08 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id MAA19780
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 3 Apr 1999 12:52:46 +1000 (EST)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma019775; Sat, 3 Apr 99 12:52:21 +1000
+Received: From mozart With LocalMail ; Sat, 3 Apr 99 12:46:56 +1000 
+From: Malcolm Ryan <malcolmr@cse.unsw.edu.au>
+To: Agora Business <agora-business@gecko.serc.rmit.edu.au>
+Date: Sat, 3 Apr 1999 12:46:55 +1000
+Message-ID: <19990403124655.A6139@cse.unsw.edu.au>
+Subject: BUS: Proto: Tighter Quorum
+Mail-Followup-To: Agora Business <agora-business@gecko.serc.rmit.edu.au>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.93.2i
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1380
+Lines: 29
+
+As I said in n-d, I think voter apathy is a problem, and I'd like to
+make it a little riskier. So I suggest adding a condition to the Debt
+Voting rule which allows the removal of Voting Privileges from anyone
+who doesn't pay their penalties for Failing to Vote. This will also
+have the effect of reducing Quorum slightly, both of which are, imho
+worthy risks for anyone who is not willing to participate it such 
+a central aspect of the game.
+
+Proto-proposal: Use it or Lose it, v2
+
+Amend Rule 1824 ("Debt Voting") to read:
+
+      An entity for which, at the beginning of a given Nomic week,
+      there is at least one Overdue Payment Order naming it as Payor
+      which was executed originally for the purpose of paying for
+      Voting upon Proposals, or as a penalty for Failing to Vote,
+      commits the Infraction of Debt Voting.
+
+      This Infraction shall be reported by the Recordkeepor for Voting
+      Tokens, and shall bear the penalty of the denial of Voting
+      Privileges for a period of two weeks.
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+

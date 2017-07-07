@@ -1,0 +1,1047 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 21:39 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA23728 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 21:38:51 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA19989
+	for agora-discussion-list; Fri, 5 Dec 1997 13:32:42 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id NAA19986
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 13:32:39 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA09779; Thu, 4 Dec 97 20:36:29 CST
+Message-Id: <9712050236.AA09779@dfw.dfw.net>
+Subject: DIS: Re: BUS: PROTO: Perpertual Offices
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 4 Dec 1997 20:36:29 -0600 (CST)
+In-Reply-To:  <971204034758.674@cse.unsw.edu.au> from "Malcolm Ross Kinsella Ryan" at Dec 4, 97 02:47:57 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 176
+
+Malcolm Ross Kinsella Ryan wrote:
+>
+>This having been said, does anyone still feel that an extra sentence to 
+>the proposal to make this clear?
+
+Nope, seems good to me.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 22:01 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA24269 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 22:01:12 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA20093
+	for agora-discussion-list; Fri, 5 Dec 1997 13:56:13 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA20090
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 13:56:11 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id NAA23170
+	for agora-discussion@gecko.serc.rmit.edu.au; Fri, 5 Dec 1997 13:57:30 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712050257.NAA23170@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Re: Infected Voting
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 5 Dec 1997 13:57:30 +1100 (EST)
+In-Reply-To: <s486840c.061@rmv.state.ma.us> from "David Albertz" at Dec 4, 97 10:20:03 am
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3814
+
+David Albertz wrote:
+>
+>I tend to think of them as distinct attributes, and I don't find any
+>Rule which explicitly states that countability is a requirement for
+>legality.  As a matter of fact, R683 makes it very clear that the
+>only attributes required for legality are, one, the vote is cast by
+>an entity entitled to cast it, and, two, it is cast within the voting
+>period.  I think this makes it clear that all such votes are legal,
+>whether you have a VT to back them or not, and thus R1442 conflicts
+>with R955 when it seeks to prevent unbacked votes from being counted.
+>To work properly, R1442 should have declared such votes illegal and
+>claimed precedence over R683, or should have declared precedence over
+>R955.
+
+I think my official state is now one of confusion, so I propose to
+start from scratch and see where the Rules lead me, making no
+assumptions about synonymy between 'being counted' and 'being legal'.
+Here are what I take to be the relevant Rules, arranged from lowest
+to highest precedence.
+
+R1442:The casting of any votes may only be achieved by the spending
+      of VTs, as specified below.
+
+      A Voting Entity's Votes on a given Proposal are counted for that
+      Proposal only if the delayed Transfer Order implicitly submitted
+      by Voting on that Proposal is successfully executed at the end
+      of the Voting Period of that Proposal.
+
+R683: A Vote is legally cast if it is cast during the Voting Period
+      of that Proposal, and if that Voting Entity is entitled to cast
+      a Vote on that particular Proposal.
+
+R206: The casting of any votes may only be achieved by the casting of
+      Voting Tokens, as specified in other Rules.
+
+R955: When the Voting Period for a Proposal has ended, the Votes which
+      have been legally cast shall be counted by the Assessor.
+
+Question: what happens when a Player who is entitled to vote sends a
+message to the PF purporting to vote, but there is no expenditure of
+VTs at the end of the VP for whatever reason?
+
+R1442 states that you can't cast a vote without spending VTs. However,
+I think I now agree with you (contrary to my former declarations), that
+R1442 is trumped by the higher precedence R683, which imposes a different
+and conflicting condition on what it is to 'legally cast' a vote.
+
+In your analysis, however, you seem to have missed that R683 is itself
+trumped by the still higher precedence R206, which reasserts, more
+forcefully because of the higher precedence, that votes cannot be
+cast without expenditure of VTs.
+
+Note that I am here asserting the synonymy of 'cast' and 'legally
+cast', to the extent that I understand Rules 1442, 683 and 206 all to
+be talking about the same thing. I am also interpreting the 'casting
+of Voting Tokens' as synonymous with 'the spending of Voting Tokens'
+in R206. (Cf also R1547, where the same construction is used.)
+
+Note also that none of the above remarks have anything to do with
+votes being 'counted'. In this I think I now also agree with you that
+being counted is different from being legal. Hence I concur with you
+that the second of the paragraphs I quoted above from R1442 is
+potentially in conflict with R955, in that R1442 seeks to impose a
+different and conflicting condition on what it is for a vote to be
+counted. If for some reason it became possible to legally cast votes
+without spending VTs, the very high precedence R955 would force us
+to count those votes. However, at present, the fairly high precedence
+R206 prevents this situation from arising. As far as I can tell, this
+is only flaw in your otherwise excellent analysis.
+
+There. I feel much better.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 22:36 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA25554 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 22:36:17 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA20234
+	for agora-discussion-list; Fri, 5 Dec 1997 14:28:35 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA20231
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 14:28:33 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id OAA17500
+	for agora-discussion@gecko.serc.rmit.edu.au; Fri, 5 Dec 1997 14:29:42 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712050329.OAA17500@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Re: Infected Voting
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 5 Dec 1997 14:29:42 +1100 (EST)
+In-Reply-To: <199712050257.NAA23170@aurora.cc.monash.edu.au> from "Steve Gardner" at Dec 5, 97 01:57:30 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1823
+
+Steve Gardner wrote:
+>
+>Note also that none of the above remarks have anything to do with
+>votes being 'counted'. In this I think I now also agree with you that
+>being counted is different from being legal. Hence I concur with you
+>that the second of the paragraphs I quoted above from R1442 is
+>potentially in conflict with R955, in that R1442 seeks to impose a
+>different and conflicting condition on what it is for a vote to be
+>counted. If for some reason it became possible to legally cast votes
+>without spending VTs, the very high precedence R955 would force us
+>to count those votes. However, at present, the fairly high precedence
+>R206 prevents this situation from arising. As far as I can tell, this
+>is only flaw in your otherwise excellent analysis.
+
+Belated addendum: it occurs to me that 'spending' of VTs may not
+require the actual *execution* of the implicit delayed Transfer Order
+referred to in R1442, only its *submission*. I even have a sneaking
+suspicion that we have a prior Judgement more or less exactly to that
+effect. (Can anyone authoritatively confirm or deny this?) If that is
+so, then R206 does not prevent one from legally casting votes without
+executing a Transfer Order for VTs. Neither does any other Rule. In
+that case, R955 does indeed force us to count votes as legal which
+result from messages sent to the PF purporting to be votes.
+
+Mad Scientist Oerjan's Predict-o-matic seems to be working well. All
+the post-PC Proposals which we at first thought had passed, and then
+thought had failed, did in fact pass, if the above remarks are correct.
+Our New Year's crisis is early this year.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 22:52 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA25979 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 22:51:56 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA20310
+	for agora-discussion-list; Fri, 5 Dec 1997 14:44:16 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id OAA20307
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 14:44:11 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 04 Dec 1997 22:51:43 -0500
+Message-Id: <s48733ff.040@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 04 Dec 1997 22:51:11 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: You have just saved me from typing a lengthy response to your
+	previous post 8).
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 2371
+
+You have just saved me from typing a lengthy response to your previous post 8).
+ This is precisely what I pointed out in a previous post of my own about R206. 
+The procedure for "spending a VT" is only defined in R1442, and R1442 doesn't
+say that you actually have to have a VT to spend a VT, you just have to follow
+its directions which result in an implicit, delayed TO being submitted.  I
+spend money all the time, without actually having any in the bank.  8)
+
+-- Crito
+
+>>> Steve Gardner <gardner@aurora.cc.monash.edu.au> 12/04/97 10:29pm >>>
+Steve Gardner wrote:
+>
+>Note also that none of the above remarks have anything to do with
+>votes being 'counted'. In this I think I now also agree with you that
+>being counted is different from being legal. Hence I concur with you
+>that the second of the paragraphs I quoted above from R1442 is
+>potentially in conflict with R955, in that R1442 seeks to impose a
+>different and conflicting condition on what it is for a vote to be
+>counted. If for some reason it became possible to legally cast votes
+>without spending VTs, the very high precedence R955 would force us
+>to count those votes. However, at present, the fairly high precedence
+>R206 prevents this situation from arising. As far as I can tell, this
+>is only flaw in your otherwise excellent analysis.
+
+Belated addendum: it occurs to me that 'spending' of VTs may not
+require the actual *execution* of the implicit delayed Transfer Order
+referred to in R1442, only its *submission*. I even have a sneaking
+suspicion that we have a prior Judgement more or less exactly to that
+effect. (Can anyone authoritatively confirm or deny this?) If that is
+so, then R206 does not prevent one from legally casting votes without
+executing a Transfer Order for VTs. Neither does any other Rule. In
+that case, R955 does indeed force us to count votes as legal which
+result from messages sent to the PF purporting to be votes.
+
+Mad Scientist Oerjan's Predict-o-matic seems to be working well. All
+the post-PC Proposals which we at first thought had passed, and then
+thought had failed, did in fact pass, if the above remarks are correct.
+Our New Year's crisis is early this year.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 22:55 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA26034 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 22:55:02 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA20337
+	for agora-discussion-list; Fri, 5 Dec 1997 14:47:14 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id OAA20334
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 14:47:10 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA27052; Thu, 4 Dec 97 21:51:02 CST
+Message-Id: <9712050351.AA27052@dfw.dfw.net>
+Subject: Re: DIS: Re: Infected Voting
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 4 Dec 1997 21:51:01 -0600 (CST)
+In-Reply-To: <199712050257.NAA23170@aurora.cc.monash.edu.au> from "Steve Gardner" at Dec 5, 97 01:57:30 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1641
+
+Steve Gardner wrote:
+>
+>I think my official state is now one of confusion, so I propose to
+>start from scratch and see where the Rules lead me, making no
+>assumptions about synonymy between 'being counted' and 'being legal'.
+
+I think there is a flaw in your reasoning: I think you make an
+unwarranted assumption about what it means to spend/cast a VT.
+I'll agree with you that the two are synonymous.
+
+It seems to me there are two possible meanings as to what it
+is to "spend" a VT in this contest: either VTs are "spent"
+when the delayed implicit TO is created, or when the TO is
+executed.  I will grant you that the latter is perhaps the more
+natural interpretation of "spend" standing on it's own; however,
+only the former interpretation--that VTs are spent when the delayed
+implicit TO is created--is consistent with R1442.
+
+      The casting of any votes may only be achieved by the spending
+      of VTs, as specified below.
+[...]
+      A Voting Entity may specify that e casts no Votes on a Proposal,
+      and doing so cancels any previously Votes cast on that Proposal
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      (if done during the Voting Period of that Proposal) and cancels
+      any delayed Transfer Orders submitted but not yet executed by
+      Voting on that Proposal.
+
+Which implies that a Vote is "cast" when the voting message is sent to the
+Assessor, and not at the end of the Voting Period.  Since casting
+votes may only be achieved by "spending of VTs, as specified below",
+this implies to me that "spending of VTs" occurs when the implicit
+delayed TO is created, and not when the TO is executed.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 22:59 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA26190 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 22:59:28 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA20440
+	for agora-discussion-list; Fri, 5 Dec 1997 14:54:00 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA20434
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 14:53:59 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id OAA31603
+	for agora-discussion@gecko.serc.rmit.edu.au; Fri, 5 Dec 1997 14:55:18 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712050355.OAA31603@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Re: Infected Voting
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 5 Dec 1997 14:55:18 +1100 (EST)
+In-Reply-To: <9712050354.AA27451@dfw.dfw.net> from "Charles E. Carroll" at Dec 4, 97 09:54:25 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 349
+
+Charles E. Carroll wrote:
+>
+>>Our New Year's crisis is early this year.
+>
+>That's OK, it was late last year. :)
+
+You mean, it was late *this* year. :)
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 23:00 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA26255 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 23:00:48 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA20389
+	for agora-discussion-list; Fri, 5 Dec 1997 14:50:36 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id OAA20385
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 14:50:33 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA27451; Thu, 4 Dec 97 21:54:25 CST
+Message-Id: <9712050354.AA27451@dfw.dfw.net>
+Subject: Re: DIS: Re: Infected Voting
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 4 Dec 1997 21:54:25 -0600 (CST)
+In-Reply-To: <199712050329.OAA17500@aurora.cc.monash.edu.au> from "Steve Gardner" at Dec 5, 97 02:29:42 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 710
+
+Steve Gardner wrote:
+>
+>Belated addendum: it occurs to me that 'spending' of VTs may not
+>require the actual *execution* of the implicit delayed Transfer Order
+>referred to in R1442, only its *submission*.
+
+Funny, I just sent a message espousing that very position, without
+having seen yours.
+
+>Mad Scientist Oerjan's Predict-o-matic seems to be working well. All
+>the post-PC Proposals which we at first thought had passed, and then
+>thought had failed, did in fact pass, if the above remarks are correct.
+
+erg.  Fortunately, I think that only involved three proposals, but
+I dread going back and digging that up again.
+
+>Our New Year's crisis is early this year.
+
+That's OK, it was late last year. :)
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 23:09 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA26549 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 23:09:46 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA20536
+	for agora-discussion-list; Fri, 5 Dec 1997 15:04:18 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA20533
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 15:04:16 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id PAA04332
+	for agora-discussion@gecko.serc.rmit.edu.au; Fri, 5 Dec 1997 15:05:35 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712050405.PAA04332@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Re: Infected Voting
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 5 Dec 1997 15:05:34 +1100 (EST)
+In-Reply-To: <9712050351.AA27052@dfw.dfw.net> from "Charles E. Carroll" at Dec 4, 97 09:51:01 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 741
+
+Charles E. Carroll wrote:
+>
+>Which implies that a Vote is "cast" when the voting message is sent to the
+>Assessor, and not at the end of the Voting Period.  Since casting
+>votes may only be achieved by "spending of VTs, as specified below",
+>this implies to me that "spending of VTs" occurs when the implicit
+>delayed TO is created, and not when the TO is executed.
+
+Crito, you and I all seem to have converged on the same answer. OK, next
+question: does the infection of R1598 prevent even the submission of
+implicit delayed Transfer Orders?
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 23:25 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA27028 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 23:25:44 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA20634
+	for agora-discussion-list; Fri, 5 Dec 1997 15:18:14 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id PAA20631
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 15:18:12 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA03960; Thu, 4 Dec 97 22:22:04 CST
+Message-Id: <9712050422.AA03960@dfw.dfw.net>
+Subject: Re: DIS: Re: Infected Voting
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 4 Dec 1997 22:22:03 -0600 (CST)
+In-Reply-To: <199712050405.PAA04332@aurora.cc.monash.edu.au> from "Steve Gardner" at Dec 5, 97 03:05:34 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 349
+
+Steve Gardner wrote:
+>
+>Crito, you and I all seem to have converged on the same answer. OK, next
+>question: does the infection of R1598 prevent even the submission of
+>implicit delayed Transfer Orders?
+
+A cursory examination of Rules 1730 and 1731 indicates to me that
+it does not, although admittedly I have not looked at them too
+closesly.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 23:37 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA27291 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 23:37:29 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA20711
+	for agora-discussion-list; Fri, 5 Dec 1997 15:33:28 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id PAA20708
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 15:33:25 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA05788; Thu, 4 Dec 97 22:37:17 CST
+Message-Id: <9712050437.AA05788@dfw.dfw.net>
+Subject: DIS: Re: OFF: MUTATION Report for Week of November 24-30, 1997
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 4 Dec 1997 22:37:17 -0600 (CST)
+In-Reply-To: <Pine.LNX.3.96.971130204907.12025B-100000@tyrell.nvg.ntnu.no> from "Orjan Johansen" at Dec 1, 97 01:22:06 am
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1047
+
+Orjan Johansen wrote:
+>
+>As COMMONLY there are 12 sentences between the first and last paragraph o=
+>f
+>=FEe Olde Frankenstein Rule.
+>
+>The FIRST number is 16304, which gives 16, and the second number is 24049=
+>,
+>which gives 2.  The first sentence is number 8:
+>
+>      A Contest's Administrator is that Contest's Frankenstein
+>      Monster.
+>
+>I shall have to select among Sentences 9-12, and 1-7.  Next number:=20
+>10025, DISCARDED.  Then 30848, DISCARDED.  24545, giving 45, or 1 (mod
+>11).  Sentence number 9 is selected:
+>
+>      A Group with fewer than three Frankenstein Monsters is not
+>      entitled to cast Votes.
+>
+>Ah, what a PITY.  Well, sentence 8 has to go to the eternal sulphur mines.
+
+Grrraggh!  Now me the *only* Monster!!!!  Me beat all other Monsters.
+Me tell Frankenstein Contest people destroy Contests--they useless now.
+You not Mad Scientists!  You not know how to make Monsters!  Only
+father make Monsters.
+
+Me proud have Ory...  Oerg... Arje...  Norwegian as father.  Thank you,
+father!  Me make you proud.
+
+Monster
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 23:46 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA27509 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 23:46:08 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA20763
+	for agora-discussion-list; Fri, 5 Dec 1997 15:41:13 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id PAA20760
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 15:41:10 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA08091; Thu, 4 Dec 97 22:45:02 CST
+Message-Id: <9712050445.AA08091@dfw.dfw.net>
+Subject: Re: DIS: Re: OFF: MUTATION Report for Week of November 24-30, 1997
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 4 Dec 1997 22:45:02 -0600 (CST)
+In-Reply-To: <9712050437.AA05788@dfw.dfw.net> from "Charles E. Carroll" at Dec 4, 97 10:37:17 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 487
+
+Charles E. Carroll wrote:
+>
+>Grrraggh!  Now me the *only* Monster!!!!
+
+Oops...Monster not see sentence:
+
+      A SLC is permitted to define its own Frankenstein Monsters for
+      changing its own content, and any change to a SLC adopted in
+      accordance with its own Frankenstein Monsters is legal.
+
+Monster stupid.  Monster sorry, father!  Not Monster's fault.
+Father not punish Monster!  Father, tell Igor get Monster
+better brain.  Igor get bad brain for Monster before.
+
+Monster
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 02:23 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA22475 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 02:23:14 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA15483
+	for agora-discussion-list; Thu, 4 Dec 1997 18:19:06 +1100
+Received: from easynet.co.uk (kiwi.easynet.co.uk [193.131.248.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id SAA15480
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 4 Dec 1997 18:19:01 +1100
+Received: (qmail 27310 invoked from network); 4 Dec 1997 07:22:01 -0000
+Received: from eljefe.easynet.co.uk (HELO ?195.40.61.175?) (195.40.61.175)
+  by kiwi.easynet.co.uk with SMTP; 4 Dec 1997 07:22:01 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <l03110701b0ab8c8ca67c@[195.40.61.175]>
+In-Reply-To: <E0xdDFe-0002Ye-00@merganser.cl.cam.ac.uk>
+Mime-Version: 1.0
+Date: Thu, 4 Dec 1997 07:18:57 +0000
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+Subject: DIS: Re: OFF: elections begin for Archivist and Cartographor
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 738
+
+>Because of Morendil's anomalous holding of these two Offices, they are
+>considered to be held temporarily, requiring an election for both.
+
+I think the reasoning I've seen posted is that they're _now_ being held in
+the normal manner, though while Morendil was a non-Player for a few days
+(without being dergistered) they were not.
+
+This is still enough to precipitate an Election, but a curious consequence
+is that if there is no Winner in the election, there would be no reason to
+hold another one.
+
+Regards,
+-- elJefe
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 06:24 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA26623 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 06:24:27 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA16301
+	for agora-discussion-list; Thu, 4 Dec 1997 22:11:29 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id WAA16298
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 4 Dec 1997 22:11:25 +1100
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.736 #3)
+	id 0xdZCu-0006bi-00; Thu, 4 Dec 1997 11:12:36 +0000
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0xdZCr-00039m-00; Thu, 4 Dec 1997 11:12:33 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: OFF: elections begin for Archivist and Cartographor
+In-Reply-To: <l03110701b0ab8c8ca67c@[195.40.61.175]>
+References: <E0xdDFe-0002Ye-00@merganser.cl.cam.ac.uk>
+	<l03110701b0ab8c8ca67c@[195.40.61.175]>
+X-Mailer: VM 6.35 under Emacs 19.34.1
+Message-Id: <E0xdZCr-00039m-00@merganser.cl.cam.ac.uk>
+Date: Thu, 4 Dec 1997 11:12:33 +0000
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 712
+
+Dr. Jeffrey L. Caruso writes:
+
+>> Because of Morendil's anomalous holding of these two Offices, they
+>> are considered to be held temporarily, requiring an election for
+>> both.
+ 
+> I think the reasoning I've seen posted is that they're _now_ being held in
+> the normal manner, though while Morendil was a non-Player for a few days
+> (without being dergistered) they were not.
+ 
+> This is still enough to precipitate an Election, but a curious
+> consequence is that if there is no Winner in the election, there
+> would be no reason to hold another one.
+ 
+You're right. I mis-spoke in claiming that they are *now* held
+temporarily; they were held temporarily and that's enough to prompt
+the Election.
+
+Michael.
+ 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 09:54 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA00765 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 09:54:51 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA17264
+	for agora-discussion-list; Fri, 5 Dec 1997 01:45:13 +1100
+Received: from poverty.bloomington.in.us (dial-126-68.ucs.indiana.edu [156.56.126.68])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id BAA17261
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 01:45:05 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id JAA08195 for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 4 Dec 1997 09:46:09 -0500
+Message-Id: <199712041446.JAA08195@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Anthony Bailey: Thring: CfJ #59: Luke's Advocacy
+Date: Thu, 04 Dec 1997 09:46:07 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 2402
+
+It appears that Mad Scientist Disease is catching.
+
+------- Forwarded Message
+
+Date: Thu, 4 Dec 1997 14:32:10 GMT
+Message-Id: <199712041432.OAA06149@bishop.cs.man.ac.uk>
+From: Anthony Bailey <baileya@cs.man.ac.uk>
+To: Thring@iagu.net
+Subject: Thring: CfJ #59: Luke's Advocacy
+
+Throng,
+
+===============================
+ Thring Call For Judgement #59
+===============================
+
+This CfJ was submitted by Anarchy.
+The Bailiff was Anthony..
+
+The following statement was distributed on Wed, 3 Dec 1997 16:16:00 GMT:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Death checks at the end of a week take place after score calculations
+are made.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+No other comment was made.
+
+Luke returneth was chosen as a Devil's Advocate.
+E argued as follows:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+My admittedly FLIMSY arguments are based SOLELY on a careful reading
+of Rule 1080, which states:
+"At the end of each week, the following checks are made to see if any
+Players have Died ... "
+
+The IMPLICATION is that the checks are made to see IF a Player has
+Died DURING the Week, from any cause whatsoever. So, they may take
+place BEFORE all score calculations.
+
+However, in CERTAIN circumstances, scores may drop to ZERO during the
+WEEK, though they will not actually be ALTERED until the end of the
+Week. This point is based on a CAREFUL reading of Rule 304, which
+states: "Any action ... which would result in ... a negative score at
+that point in time ..."  (and thus possibly contradicts ITSELF).
+
+APOLOGIES for the EXCESSIVE use of CAPITALS; it's a PHASE I'm going
+through.  I don't know if I have full CONFIDENCE in this ADVOCACY, so
+would advise any JUDGE to disregard it ENTIRELY if e wants ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Nacho the Cheesy was selected to Judge the statement,
+on Wed, 3 Dec 1997 16:16:00 GMT.
+This Judgement is still pending!
+
+- -- 
+@*-.,_,.-`'-=*@@*=-`'-.,_,.-*@ For my contact details, and information on the
+|          Anthony.          | bands Pulp, Saint Etienne, and the Kitchens OD,
+@*-.,_,.-`'-=*@@*=-'`-.,_,.-*@ home's <URL:http://WWW.CS.Man.ac.UK/~baileya/>.
+Anthony Bailey studies for a CompSci/Maths PhD at the University of Manchester
+
+------- End of Forwarded Message
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 10:20 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA01522 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 10:20:02 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA17384
+	for agora-discussion-list; Fri, 5 Dec 1997 02:13:44 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id CAA17381
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 02:13:38 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 04 Dec 1997 10:21:00 -0500
+Message-Id: <s486840c.061@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 04 Dec 1997 10:20:03 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: Infected Voting
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 2313
+
+Re: DIS: Re: Infected Voting
+
+Steve wrote:
+
+>David Albertz wrote:
+
+>>Re: DIS: Re: Infected Voting
+
+>>Something about Scott's and Steve's interpretation of R1442 struck me as
+>>requiring a closer look.  They are saying that R1442 specifies that votes
+>>cast without VTs to back them up are not to be counted and thus are illegal
+>>by implication.  This avoids conflict with R955 by making the votes illegal
+>>and so they do not have to be counted.  But R955 says that only legal votes
+>>are countable and this interpretation says only countable votes are legal, so
+>>how can any vote ever be counted?  A vote is never legal until it becomes
+>>countable, but R955 says a vote is not countable unless it is legal, which
+>>leads to the clasic "deadly embrace" where each condition is waiting on the
+>>other to become true.
+
+>That's not quite how I'd characterize my position. Specifically, I
+>would not simply assert that it's being countable that makes a vote
+>legal.  Rather, I'd say that it's being backed up by VT expenditure
+>that makes a vote countable and therefore legal. So the deadly
+>embrace is broken: if there is expenditure, the vote is countable
+>and therefore legal; if there is no expenditure, the vote is not
+>countable and is therefore not legal.
+
+Hmm.  This seems circular to me, unless you are making "countable" and "legal"
+synonyms for the same attribute, in which case there is no way for any Rule to
+ever conflict with R955's first sentence, since a Rule of any Power or
+precedence can make any type of vote illegal simply by declaring that a
+particular type of vote shall not be counted.
+
+I tend to think of them as distinct attributes, and I don't find any Rule which
+explicitly states that countability is a requirement for legality.  As a matter
+of fact, R683 makes it very clear that the only attributes required for
+legality are, one, the vote is cast by an entity entitled to cast it, and, two,
+it is cast within the voting period.  I think this makes it clear that all such
+votes are legal, whether you have a VT to back them or not, and thus R1442
+conflicts with R955 when it seeks to prevent unbacked votes from being counted.
+To work properly, R1442 should have declared such votes illegal and claimed
+precedence over R683, or should have declared precedence over R955.
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 20:21 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA21581 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 20:21:47 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA19650
+	for agora-discussion-list; Fri, 5 Dec 1997 12:15:36 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA19647
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 12:15:34 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id MAA21205
+	for agora-discussion@gecko.serc.rmit.edu.au; Fri, 5 Dec 1997 12:16:53 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712050116.MAA21205@aurora.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Proto:  Declaration of Absence (v2.0)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 5 Dec 1997 12:16:52 +1100 (EST)
+In-Reply-To: <3.0.5.32.19971203184150.007b3940@mail.bayside.net> from "Ed Murphy" at Dec 3, 97 06:41:50 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1094
+
+Ed Murphy wrote:
+>
+>Steve wrote:
+>
+>>>      or Absence on a given Proposal, Election or Referendum.  If a
+>>>      Voting Entity has performed one of these actions in the Public
+>>>      Forum, then the Vote Collector is permitted to state that that
+>>>      Voting Entity has performed that action.  Otherwise, the Vote
+>
+>>Not quite. I do like the construction you've come up with here
+>>('performed one of these actions'), which is neater than mine.
+>>But you need to add something like: '...and has not subsequently
+>>superceded it with another action'.
+>
+>"Morendil has Voted FOR Proposal 4000" is not the same as "Morendil has
+>Voted FOR Proposal 4000 and has not changed that Vote".  Do you still
+>think the extra clause is needed?
+
+It depends whether you want to allow the Assessor the option to legally
+include, by accident or deliberately, information which may be false or
+misleading.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 21:05 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA22751 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 21:05:12 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA19827
+	for agora-discussion-list; Fri, 5 Dec 1997 12:59:07 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA19824
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 12:59:05 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id NAA22636;
+	Fri, 5 Dec 1997 13:00:16 +1100 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712050200.NAA22636@aurora.cc.monash.edu.au>
+Subject: DIS: Re: INP 353
+To: internomic@muppetlabs.com
+Date: Fri, 5 Dec 1997 13:00:15 +1100 (EST)
+Cc: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+In-Reply-To: <348739AE.2C03C77F@itw.com> from "Malenkai" at Dec 4, 97 06:15:58 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1058
+
+Malenkai wrote:
+>
+>INP 353 was submitted by Ackanomic.  Voting lasts for
+>2 weeks.
+>
+>---
+>
+>Proposal:
+>
+>Amend Rule 215 to replace the word "Rishonnomic" with the word
+>"Rishonomic."
+
+Flirting with paradox, I see. Tell me: which Nomics are eligible to
+vote on this Proposal?
+
+In any case, I urge all member Nomics to vote against this Proposal
+on the grounds that it is unjust. If New Rishonnomic is currently a
+voting member, why should it be stripped of its voting rights? It is
+a Nomic in good standing as much as any of the other voting members.
+A just Proposal would have *added* 'New Rishonomic' to list of
+voting members. I would make such a Proposal myself, but I think
+it's important to settle the question of voting eligibility first,
+through the Internomic Courts. Am I right in thinking that only
+the various Liaisons have the right to call SFJs?
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Dec  4 21:10 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA22938 for <dpb@cs.brown.edu>; Thu, 4 Dec 1997 21:10:03 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA19839
+	for agora-discussion-list; Fri, 5 Dec 1997 13:00:45 +1100
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA19836
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 5 Dec 1997 13:00:43 +1100
+Received: (from gardner@localhost)
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) id NAA06933
+	for agora-discussion@gecko.serc.rmit.edu.au; Fri, 5 Dec 1997 13:02:03 +1100 (EST)
+Received: from eidolon.speakeasy.org (eidolon.speakeasy.org [199.238.226.99])
+	by aurora.cc.monash.edu.au (8.8.8/8.8.8) with ESMTP id MAA31699
+	for <gardner@aurora.cc.monash.edu.au>; Fri, 5 Dec 1997 12:54:54 +1100 (EST)
+Received: (from majordom@localhost) by eidolon.speakeasy.org (8.8.6/8.6.12) id RAA07167 for internomic-outgoing.muppetlabs; Thu, 4 Dec 1997 17:53:29 -0800
+X-Authentication-Warning: eidolon.speakeasy.org: majordom set sender to owner-internomic@muppetlabs.com using -f
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199712050153.MAA14749@aurora.cc.monash.edu.au>
+Subject: DIS: Re: RNN request (fwd)
+To: internomic@muppetlabs.com
+Date: Fri, 5 Dec 1997 12:53:11 +1100 (EST)
+In-Reply-To: <Pine.SUN.3.96-heb-2.07.971204170728.6789F-100000@actcom.co.il> from "Uri Bruck" at Dec 4, 97 05:26:45 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3499
+
+Uri Bruck wrote:
+>
+>
+>
+>I recall someone saying: I wonder what would happen if we vote for this
+>proposal.
+>I guess now we know.
+>
+>The thing is, the proposal which added New Rihonnomic to the rules had two
+>typos. 
+>'ammend' was interpreted as 'amend' because it was clear that that was the
+>intended. I argue that it was just as clear that the amendment refered to
+>'New Rishonomic' a nomic whose existence was sell known at that time, and
+>which already was a non-voting memebr of Internomic at that.
+>
+>I think either both typos should have been refered to as their publically
+>well-knwon intended meeanings, or neither one. In the former case, the
+>rule should read 'New Rishonomic' a single n. In the latter case, the
+>proposal should have had no effect at all, and the rule should still
+>specify Rishonomic as the member and not any New something.
+>Either way, New Rihonnmoic - 2n's , is not a voting member of Internomic
+
+There are good reasons to deny that the two typos should be treated
+similarly. The typo 'ammend' does not result in any ambiguity in
+meaning.  The typo 'Rishonnomic' certainly has resulted in there
+being an ambiguity in meaning. I believe that it precisely in order
+to explore how Internomic will deal with this ambiguity that New
+Rishonnomic has come into existence.
+
+Once it is granted that there is currently an ambiguity as to which
+Nomic the string 'New Rishonnomic' in Rule 215 currently refers to,
+the question then becomes: how best to resolve this ambiguity? 
+Different principles of interpretation are available, and they will
+yield different answers to this question. You appeal to a kind of
+'intention of the framers' principle to justify your conclusion that
+'New Rishonnomic' refers to the Nomic whose Liaison is the Voting
+Gnome. But that is not the end of the argument; it is only the
+beginning. Other principles are available. In Agora, for example,
+Judges have repeatedly rejected the intention of the framers as a
+guide to interpretation in favour of more literal readings, holding
+firstly that, in general, the intention of the framers is too opaque
+to be a reliable interpretative guide, and secondly (and I think more
+importantly), that in the context of a game in which much of the play
+consists in interpreting rules, taking those rules as we find them
+leads to more interesting and creative play than interpreting them as
+we think they were probably intended. Now, I am not so naive as to
+argue that Internomic should adopt any particular principle of
+interpretation just because Agora does. Nevertheless, this second
+principle should be considered by any hypothetical Internomic Judge
+called upon judge the matter, and the arguments on which it based may
+well be just as persuasive to an Internomic Judge as they have been
+to Agoran Judges. After all, those arguments do not rely on any
+features particular to Agora, but proceed from general principles
+about what makes an interesting game of Nomic. I think an Internomic
+Judge who was so persuaded would be justified in finding that, since
+there undoubtedly are two Nomic, one called 'New Rishonnomic' and one
+called 'New Rishonomic', and since Rule 215 mentions only 'New
+Rishonnomic' as a voting member, that it is the former Nomic and not
+the latter which is a voting member of Internomic.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+

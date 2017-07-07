@@ -1,0 +1,645 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Oct 10 01:42 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA08427 for <dpb@cs.brown.edu>; Fri, 10 Oct 1997 01:31:51 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA27485
+	for agora-business-list; Fri, 10 Oct 1997 14:49:16 +1000
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA27482
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 10 Oct 1997 14:49:08 +1000
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Fri, 10 Oct 1997 01:40:07 -0400
+Received: by windowsnt from ford
+    (206.18.125.42::mail daemon; unverified,SLMail V2.5); Fri, 10 Oct 1997 01:40:06 -0400
+Message-Id: <3.0.3.32.19971009211316.007ae2a0@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.3 (32)
+Date: Thu, 09 Oct 1997 21:13:16 -0700
+To: agora-business@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: BUS: Agoran Daily Journal (October 1, 1997)
+In-Reply-To: <343D0A06.5337@tmbg.org>
+References: <3.0.3.32.19971001224404.007b97b0@mail.bayside.net>
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 532
+
+Harlequin wrote:
+
+>> * Antimatter deregistered last month and is now eligible to be
+>>   reregistered by Harlequin, eir Executor in Probate.
+
+>Acting on behalf of Antimatter, Antimatter hereby reregisters.
+
+So noted.
+
+>> * Murphy Rebels.  One more Rebel will trigger a Rebellion.
+
+>Murphy, your attempt to Rebel was ineffective, since you were not in
+>the Beer Hall at the time. Sooooorrryyyy...
+
+Oh dear, you're right.
+
+I Move to the Beer Hall.
+I Rebel.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Oct 10 02:01 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA08869 for <dpb@cs.brown.edu>; Fri, 10 Oct 1997 02:01:09 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA27529
+	for agora-business-list; Fri, 10 Oct 1997 14:52:47 +1000
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA27526
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 10 Oct 1997 14:52:37 +1000
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Fri, 10 Oct 1997 01:40:22 -0400
+Received: by windowsnt from ford
+    (206.18.125.42::mail daemon; unverified,SLMail V2.5); Fri, 10 Oct 1997 01:40:18 -0400
+Message-Id: <3.0.3.32.19971009213205.007c8220@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.3 (32)
+Date: Thu, 09 Oct 1997 21:32:05 -0700
+To: agora-business@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: BUS: Proto:  Plots (v1.4)
+In-Reply-To: <3.0.3.32.19971008230431.007a1360@mail.bayside.net>
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 7389
+
+Proto:  Plots (v1.3)
+
+
+[Part One:  Rename Locations to Plots.  Discard Entities having
+ Locations and Moving.]
+
+Amend Rule 1706 to read:
+
+     There is a class of Entities called Plots.  Each Plot has a unique
+     name.  The Agoraverse is the set of all Plots.
+
+     A Plot is Rule-Named if and only if it is referred to by name in
+     the Rules.
+
+     The Cartographor is authorized to change any non-Rule-Named Plot's
+     name Without Objection.
+
+Repeal Rule 1707.
+
+Amend Rule 1708 to read:
+
+     Two Plots may be Adjacent to each other.  No Plot is Adjacent to
+     itself.
+
+Repeal Rule 1709.
+
+[Rule 1710 will be amended later.]
+
+All Plots are destroyed.
+
+One hundred Plots are created with the names "Area XY", where X and Y are
+each digits ranging from 0 to 9.  "Area XY" is Adjacent to "Area MN" iff
+one of the following conditions is true:
+  X = M and Y-N = 1 (mod 10)
+  X = M and N-Y = 1 (mod 10)
+  X-M = 1 (mod 10) and Y = N
+  M-X = 1 (mod 10) and Y = N
+
+
+[Part Two:  Create land ownership.]
+
+Create a Rule titled "Landowners" with this text:
+
+     Each non-Rule-Named Plot has an Executor, known as its Owner; each
+     such Plot's initial Owner is the Bank.
+
+     Rule-Named Plots never have an Executor or Owner.
+
+     A Plot's Owner may change that Plot's name Without Objection.
+
+Create a Rule titled "Buying Land" with this text:
+
+     When a Plot is sold, its Owner before the sale is known as the
+     Seller, and its Owner after the sale is known as the Buyer.
+
+     For a Plot to be sold, the Seller must inform the Cartographor of
+     the identity of the Plot and the Buyer; and the Buyer must agree
+     to the sale, unless the Buyer is the Bank.
+
+     For a Plot owned by the Bank to be sold, the Buyer must pay 4 VTs to
+     the Bank for the sole purpose of buying that Plot.
+
+     When a Plot is sold to the Bank, the Cartographor shall pay out 2 VTs
+     to the Seller.
+
+Create a Rule entitled "Winning by Ownership" with this text:
+
+     Owning at least half of all Plots is a Winning Condition known as
+     a Win by Ownership.
+
+
+[Part Three:  Create something to do with the Plots you own]
+
+Create a Rule entitled "Mules" with this text:
+
+     Mules are a Currency.  Their MUQ is 1.  Their Recordkeepor is the
+     Cartographor.
+
+     A Mule's Owner may transfer that Mule to any Plot e owns, or vice
+     versa, by executing a Transfer Order accordingly.  However, no Plot
+     may possess more than one Mule.
+
+Create a Rule entitled "Energy" with this text:
+
+     Energy is a currency.  Its MUQ is 1.  Its Recordkeepor is the
+     Cartographor.
+
+The Bank has 100 Mules and 10000 units of Energy.
+
+Amend Rule 1677 to read:
+
+     Upon the start of a Player's Grace Period, the Registrar shall
+     pay out to that Player an award of 5 Voting Tokens, 5 P-Notes,
+     5 Mules, and 20 units of Energy.
+
+Amend Rule 1701 by removing this paragraph:
+
+     Whenever there exists a Player who has never before possessed
+     any P-Notes, the Promotor shall pay out 5 P-Notes to that Player.
+
+Each current Player gains 5 Mules and 20 units of Energy.
+
+Create a Rule entitled "Structures" with this text:
+
+     Any Mule within a Plot may become a Structure (unless it is one
+     already) when its Owner pays the price of that type of Structure
+     to the Bank.  Unless otherwise specified, the price is 4 units of
+     Energy.
+
+     A type of Structure exists only if the Rules explicitly define it.
+
+     The following types of Structures exist:
+
+       * Farms
+       * Houses
+       * Mines
+       * Churches
+
+     A Structure ceases to be a Structure when its Owner informs the
+     Cartographor that it does so, or when it is no longer within a
+     Plot.  At that time, its Owner receives half the price of that
+     type of Structure, rounded down.
+
+Create a rule titled "Upkeep on Structures" with this text:
+
+     Monthly upkeep on Structures is equal to 2 units of Energy for the
+     first Structure of each type, plus 1 unit of Energy for each
+     additional Structure, except as otherwise specified.
+
+     If an Owner does not pay the upkeep on all of eir Structures
+     within one week of the beginning of the month, all of eir
+     Structures collapse and are destroyed.
+
+Create a rule titled "Production from Structures" reading:
+
+     At the beginning of each Nomic Week, the Cartographor shall pay
+     out each Structure's Production to its Owner (if its Production
+     is greater than zero).  Unless otherwise specified, each Structure's
+     Production is as follows:
+
+       * Farms - 5 VT
+       * Houses - 1 P-Note
+       * Mines - 2 units of Energy
+
+     Churches have no Production.  However, each Church is considered
+     to be two players for the purposes of randomly allocating
+     Indulgences, and any Indulgences which would be given to a Church
+     are instead given to its Owner.
+
+Create a new Rule titled "Proximity of Plots" and this text:
+
+     A Farm's Production is increased by 0.5 VT for each House or
+     Church to which it is Adjacent, and decreased by 1 VT for each
+     Mine to which it is Adjacent.
+
+     A House's Production is increased by 1 P-Note for every 2 Farms
+     to which it is Adjacent.
+
+     A Mine's Production is increased by 1 unit of Energy for every
+     two Houses to which it is Adjacent, and decreased by 1 unit of
+     Energy for every two Farms to which it is Adjacent.
+
+
+[Part Four:  Amend the Rule defining the Cartographor and eir duties]
+
+Amend Rule 1710 to read:
+
+     There is an Office of Cartographor. The Cartographor recieves a 
+     salary equal to 2 times the Basic Officer Salary.
+
+     At least once each Nomic Week, the Cartographor shall post a 
+     Report to the Public Forum containing the following information:
+
+       * all Plots, and which Plots are Adjacent to which others
+       * the Ownership of all Plots
+       * all changes in Plot Ownership since the last Report (if any)
+       * the ownership and location of all Mules
+       * the ownership of all units of Energy
+       * all Transfer Orders and Payment Orders specifying Mules or
+         units of Energy since the last Report (if any)
+       * what type of Structure (if any) each Mule is
+       * all cases of a Mule becoming or ceasing to be a Structure
+
+
+[Part Five:  Authorship]
+
+Harlequin, Blob, and Antimatter become Authors of each Rule created or
+amended earlier in this Proposal.
+
+
+[Part Six:  Clean up other references to Locations]
+
+Amend Rule 869 by removing the following paragraph:
+
+     When a Player registers, eir Location is the Welcoming Center.
+
+Amend Rule 1016 to read:
+
+     At any time, each Player shall either be On Hold or Off Hold.
+     This status shall not be changed except as specified in the
+     Rules.
+
+     When a Player registers (or reregisters), e is Off Hold.
+
+     An Off Hold Player becomes On Hold when e says so in the Public
+     Forum.
+
+     An On Hold Player becomes Off Hold when e says so in the Public
+     Forum; however, any attempt to do so within 96 hours after e last
+     went On Hold is ineffective.
+
+Amend Rule 1664 by removing the text "whose Location is the Beer Hall".
+
+Amend Rule 1367 by adding this paragraph:
+
+     "Granting a Degree" and "awarding a Degree" are synonymous.  A
+     Player who has been awarded a Degree possesses that Degree.
+
+Repeal Rule 1711.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Oct 10 04:32 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA11456 for <dpb@cs.brown.edu>; Fri, 10 Oct 1997 04:32:52 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA32287
+	for agora-business-list; Fri, 10 Oct 1997 18:12:37 +1000
+Received: from easynet.co.uk (kiwi.easynet.co.uk [193.131.248.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id SAA32284
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 10 Oct 1997 18:12:30 +1000
+Received: (qmail 28273 invoked from network); 10 Oct 1997 08:19:37 -0000
+Received: from eljefe.easynet.co.uk (HELO ?195.40.61.175?) (195.40.61.175)
+  by kiwi.easynet.co.uk with SMTP; 10 Oct 1997 08:19:37 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <l03110700b0639492deaf@[195.40.61.175]>
+Mime-Version: 1.0
+Date: Fri, 10 Oct 1997 08:17:12 +0000
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic)
+From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+Subject: BUS: Proto-Proposal: Dezombify Probate
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 1681
+
+I wrote this before Oerjan made his Proposal.  Should that pass, I'll
+obviously be modifying this.  But I'd like to see that people don't keep
+terminal estates alive for long periods.
+
+PROTOPROPOSAL
+Dezombify Probate
+
+Create a Rule, titled "Procrastination in Probate" with the following text:
+
+When any player correctly posts to the PF that an entity has been in
+Probate for 28 days or more, the Speaker becomes that entity's new Executor
+in Probate (EiP), unless e was already the entity's EiP, in which case the
+Clerk of the Courts becomes the new Executor in Probate); simultaneously
+the old EiP ceases to be the entity's EiP.  This assignment is carried out
+in place of the usual assignment by the Notary, and this Rule takes
+precedence over any Rule that would have the Notary assign the position.
+
+When this happens, the old Executor in Probate has committed the Infraction
+of Procrastination in Probate, which bears a penalty of 1 Blot and reported
+by the new EiP.
+
+In addition, the new EiP is authorized to vacate any PO naming the entity
+as payor.  Further, those PO's which e does not vacate shall be deemed to
+be no longer disputed for the purposes of Probate, and e shall as soon as
+possible execute the steps of the Probate Code and terminate the estate.
+This Rule takes precedence over any Rule which would prevent em from
+vacating such PO's or excuse em from performing the steps of the Probate
+code or terminating the estate.
+
+
+Regards,
+-- elJefe
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Oct 10 13:57 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA25485 for <dpb@cs.brown.edu>; Fri, 10 Oct 1997 13:57:27 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA13373
+	for agora-business-list; Sat, 11 Oct 1997 03:38:35 +1000
+Received: from wsinfm15.win.tue.nl (wsinfm15.win.tue.nl [131.155.69.168])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id DAA13370
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 11 Oct 1997 03:38:31 +1000
+Received: by wsinfm15.win.tue.nl (8.7.1/1.45)
+    id TAA13810; Fri, 10 Oct 1997 19:44:22 +0200 (MET DST)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199710101744.TAA13810@wsinfm15.win.tue.nl>
+Subject: BUS: Re: OFF: CFJ 1048 Assignment: Michael
+To: agora-business@gecko.serc.rmit.edu.au (nomic-business list)
+Date: Fri, 10 Oct 1997 19:44:22 +0200 (MET DST)
+In-Reply-To: <199710101731.TAA13763@wsinfm15.win.tue.nl> from "Andre Engels" at Oct 10, 97 07:31:16 pm
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 541
+
+The CFJ numbered 1048 which I posted a few minutes ago, should have
+been numbered 1049. This is a COE, which I hereby admit. The corrected
+part of the message should read:
+
+======================================================================
+
+                               CFJ 1049
+
+	"Elde is in violation of Rule 478 in that e is not 
+         able to receive messages sent to the Public Forum."
+
+======================================================================
+
+Also the subject should read 'CFJ 1049 Assignment: Michael'.
+
+Andre
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Oct 10 14:16 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA26105 for <dpb@cs.brown.edu>; Fri, 10 Oct 1997 14:16:25 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA13972
+	for agora-business-list; Sat, 11 Oct 1997 04:03:55 +1000
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA13966
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 11 Oct 1997 04:03:51 +1000
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] HELO tyrell.nvg.ntnu.no ident: oerjan [port 63299]) by sabre-wulf.nvg.ntnu.no with SMTP id <49533-8033>; Fri, 10 Oct 1997 20:09:39 +0200
+Date: 	Fri, 10 Oct 1997 20:09:33 +0200 (MET DST)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: Agora Business List <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: Proposal: Patent Title for Andre
+In-Reply-To: <199710101734.TAA13773@wsinfm15.win.tue.nl>
+Message-ID: <Pine.LNX.3.96.971010195319.1842O-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Length: 364
+
+On Fri, 10 Oct 1997, Andre Engels wrote:
+
+> History:
+>   Called by <player>, <date>
+>   Assigned to <judge>, as of this message
+
+I hereby Propose the following:
+
+>>>>
+PROPOSAL
+Patent Title for Andre
+
+Andre is awarded the Patent Title of .
+>>>>
+
+Greetings,
+Oerjan.
+
+-- 
+Praeterea censeo Cyberprominem et Agim esse delendas.
+<URL:http://www.cyberpass.net/~fekete/>
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Oct 10 14:18 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA26135 for <dpb@cs.brown.edu>; Fri, 10 Oct 1997 14:18:07 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA14198
+	for agora-business-list; Sat, 11 Oct 1997 04:05:00 +1000
+Received: from poverty.bloomington.in.us (xyplex5-1-12.ucs.indiana.edu [129.79.18.122])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA14193
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 11 Oct 1997 04:04:54 +1000
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id NAA23320 for <agora-business@gecko.serc.rmit.edu.au>; Fri, 10 Oct 1997 13:10:53 -0500
+Message-Id: <199710101810.NAA23320@poverty.bloomington.in.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Re: OFF: CFJ 1050 Assignment 
+In-reply-to: Your message of "Fri, 10 Oct 1997 19:34:22 +0200."
+             <199710101734.TAA13773@wsinfm15.win.tue.nl> 
+Date: Fri, 10 Oct 1997 13:10:52 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 117
+
+To whom is CFJ 1050 assigned?  "<judge>" does not appear to be an
+unambiguous way to refer to any particular Player.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Oct 10 14:18 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA26143 for <dpb@cs.brown.edu>; Fri, 10 Oct 1997 14:18:34 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA13657
+	for agora-business-list; Sat, 11 Oct 1997 03:48:43 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id DAA13654
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 11 Oct 1997 03:48:33 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 10 Oct 1997 13:59:56 -0400
+Message-Id: <s43e34dc.054@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 10 Oct 1997 13:59:11 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Re: OFF: CFJ 1050 Assignment
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 2692
+
+Re: OFF: CFJ 1050 Assignment
+
+To whom is this assigned?
+
+-- Crito
+
+>>> Andre Engels <engels@win.tue.nl> 10/10/97 01:34pm >>>
+======================================================================
+                               CFJ 1050
+
+	"Blob is in violation of Rule 478 in that e is not 
+         able to receive messages sent to the Public Forum."
+
+======================================================================
+
+Judge:       
+
+Judgement:   
+
+Eligible:    Andre, Blob, Calabresi, ChrisM, Chuck, Crito,
+	     elJefe, General Chaos, Harlequin, Michael, 
+             Murphy, Oerjan, Steve, Vir, Vlad, Zefram
+
+Not eligible:
+Caller:
+Barred:	     Morendil, Elde (not a Player)
+On request:  Vanyel
+On hold:     Swann, Kolja A.
+
+======================================================================
+
+History:
+  Called by <player>, <date>
+  Assigned to <judge>, as of this message
+
+======================================================================
+
+(Caller's) Arguments:
+
+======================================================================
+
+Evidence:
+1. Rule 478 (Excerpt)
+2. Registrar's Report (Excerpt)
+3. list of subscribers of agora-business@gecko.serc.rmit.edu.au
+
+R478 (in part)
+
+      It is the responsibility of each Active Player to ensure that e
+      is able to receive messages sent to every medium which the
+      Registrar has designated as a Public Forum.  The temporary
+      inability of a Player to receive a Public Forum does not deprive
+      that medium of any legal significance as a Public Forum.
+
+Latest Registrar's report: (in part)
+
+A R  Blob           <malcolmr@cse.unsw.edu.au              1997-08-15
+A R  Elde           <elde@hurricane.net                    1997-08-15
+
+>From majordomo@gecko.serc.rmit.edu.au:
+
+Members of list 'agora-business':
+
+gb485@cleveland.Freenet.Edu
+ford@bayside.net
+engels@win.tue.nl
+gardner@aurora.cc.monash.edu.au
+arpalists+listserv.nomic@andrew.cmu.edu
+bublsort@max.tiac.net
+C647100@MIZZOU1.missouri.edu
+cogen@ll.mit.edu
+DRD5380@ACFcluster.NYU.EDU
+ferro@chem.cmu.edu
+marjeta@cis.udel.edu
+Michael.Norrish@cl.cam.ac.uk
+paoluzi@mat.uniroma1.it
+c647100@showme.missouri.edu
+ap169@detroit.freenet.org
+morendil@micronet.fr
+mhough@leland.Stanford.edu
+ccarroll@dfw.net
+blue@ftech.co.uk
+eljefe@easynet.co.uk
+oerjan@nvg.ntnu.no
+rmorganl@fhcrc.org
+benbar@dcs.warwick.ac.uk
+macross@tiac.net
+ScrybSprite@msn.com
+scott@poverty.bloomington.in.us
+dpb@cs.brown.edu
+klaush@spinup.tp3.ruhr-uni-bochum.de
+harlequin@tmbg.org
+dalbertz@mrb.state.ma.us
+zefram@tao.co.uk
+A.Bishop@student.anu.edu.au
+mcdaniel@law.harvard.edu
+eer@nwu.edu
+cmonsour@Princeton.EDU
+
+35 subscribers
+
+======================================================================
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Fri Oct 10 20:18 EDT 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA05446 for <dpb@cs.brown.edu>; Fri, 10 Oct 1997 20:18:39 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA23202
+	for agora-business-list; Sat, 11 Oct 1997 10:09:19 +1000
+Received: from merle.acns.nwu.edu (merle.acns.nwu.edu [129.105.16.57])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA23199
+	for <agora-business@gecko.serc.rmit.edu.au>; Sat, 11 Oct 1997 10:09:16 +1000
+Received: (from mailnull@localhost)
+	by merle.acns.nwu.edu (8.8.7/8.8.7) id TAA20988
+	for <agora-business@gecko.serc.rmit.edu.au>; Fri, 10 Oct 1997 19:15:15 -0500 (CDT)
+Received: from behemoth.res-hall.nwu.edu(199.74.127.90) by merle.acns.nwu.edu via smap (V2.0)
+	id xma020150; Fri, 10 Oct 97 19:14:30 -0500
+Message-Id: <3.0.1.32.19971010191511.0069584c@merle.acns.nwu.edu>
+X-Sender: erick@merle.acns.nwu.edu
+X-Mailer: Windows Eudora Pro Version 3.0.1 (32)
+Date: Fri, 10 Oct 1997 19:15:11 -0500
+To: agora-business@gecko.serc.rmit.edu.au
+From: Erick Robertson <eer@nwu.edu>
+Subject: BUS: Kudo Transfer
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 237
+
+I hereby transfer one Kudo from Andre for mailing his entire inbox to the
+list, which took me at least fifteen seconds to download on my T3 and
+thirty seconds to open on my Pentium Pro/200, to Orjan for being the life
+of the party.
+
+Vir
+

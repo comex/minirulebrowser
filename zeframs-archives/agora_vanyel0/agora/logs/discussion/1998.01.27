@@ -1,0 +1,1027 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 00:07 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA29458 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 00:06:57 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA18711
+	for agora-discussion-list; Tue, 27 Jan 1998 16:00:15 +1100
+Received: from UPIMSRGSMTP09 (upimsrgsmtp09.msn.com [207.68.152.53])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA18708
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 27 Jan 1998 16:00:13 +1100
+Received: from upmajb06 - 204.95.110.89 by msn.com with Microsoft SMTPSVC;
+	 Mon, 26 Jan 1998 21:02:33 -0800
+Date: Tue, 27 Jan 98 05:03:11 UT
+From: "Beth Moursund" <ScrybSprite@classic.msn.com>
+Message-Id: <UPMAIL08.199801270501540553@classic.msn.com>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: RE: proto: Changing Nomic Properties
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 620
+
+> No Nomic Property shall be changed be changed except as the
+> result of actions taken by persons in accordance with the Rules.
+
+First, you've got "be changed" in there twice.
+
+Second, wouldn't this throw everything back into Platonic confusion again?  If 
+someone interpreted the rules such that an action was legal but it was later 
+judged not to be in accordance with the rules, you'd have to go back and 
+re-compute the game state, since the Properties were never actually changed 
+after all... and this might make other, later actions now illegal, requiring 
+additional recomputation, etc.
+
+  - Agoraphobe BethMo
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 00:07 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA29459 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 00:06:57 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA18707
+	for agora-discussion-list; Tue, 27 Jan 1998 16:00:13 +1100
+Received: from UPIMSRGSMTP10 (upimsrgsmtp10.msn.com [207.68.152.54])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA18703
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 27 Jan 1998 16:00:04 +1100
+Received: from upmajb09 - 204.95.110.82 by msn.com with Microsoft SMTPSVC;
+	 Mon, 26 Jan 1998 21:02:16 -0800
+Date: Tue, 27 Jan 98 03:52:22 UT
+From: "Beth Moursund" <ScrybSprite@classic.msn.com>
+Message-Id: <UPMAIL08.199801270501510506@classic.msn.com>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: RE: Proposal:  Plots
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 13433
+
+Sorry I didn't see and comment on this in the proto-proposal stage...
+
+> Each Structure has a Maintenance Fee that becomes due at the beginning of
+> each month.  When due, the Maintenance Fee for a Structure is paid when an
+> entity successfully executes a Transfer Order for the amount of that
+> Structure's Maintenance Fee, provided that e indicates clearly that the
+> Transfer Order is being executed to pay the Maintenance Fee for that
+> Structure.
+
+Is there someplace else in the rules further defining this?  If not, then 
+Player A and Player B could each transfer currency to the other, indicating 
+clearly that these Transfer Orders are being executed to pay their Maintenance 
+Fees, and thus get off scott free.
+
+> A Currency not Minted by the Bank may be associated with a type of SLC
+> known as a Blueprint.  A Blueprint indicates the properties of a Structure
+> that produces units of the Currency associated with the Blueprint.  The
+
+Is this sufficient to prevent players from creating or changing a Blueprint to 
+make its associated Structure produce a rule-defined currency?
+
+  - Agoraphobe BethMo
+    (Who has just been appointed Magic Rules Manager for Wizards of the Coast, 
+and thinks her Nomic experience should stand her in good stead...)
+
+-----Original Message-----
+From:	owner-agora-business@gecko.serc.rmit.edu.au  On Behalf Of Ed Murphy
+Sent:	Wednesday, January 21, 1998 12:15 AM
+To:	agora-business@gecko.serc.rmit.edu.au
+Subject:	BUS: Proposal:  Plots
+
+I submit this Proposal and pay its Petition Fee.
+
+
+Proposal:  Plots
+
+
+[Part One:  Replace Locations with Plots]
+
+All Locations are destroyed.
+
+Rename Rule 1706 ("Locations") to "Plots" and amend it to read:
+
+      There is a class of entities called Plots.  All Plots are initially 
+owned
+      by the Bank.
+
+      Each Plot has a unique name.  A Plot's owner may change its name Without
+      Objection.
+
+      A Plot's owner may give the Plot to any other consenting entity.
+
+[Bank-owned Plots are traded by the Chancellor on its behalf.]
+
+Repeal Rule 1707 ("Movement").
+
+Amend Rule 1708 ("Adjacency") to read:
+
+      Each Plot has a Longitude and Latitude, each of which is an integer.  
+Two
+      Plots are Adjacent if and only if one of the following applies:
+
+        * They have the same Longitude, and their Latitudes differ by one.
+        * They have the same Latitude, and their Longitudes differ by one.
+
+Repeal Rule 1709 ("Distance").
+
+[Rule 1710 ("The Cartographor") will be amended later.]
+
+
+For each combination of Latitude (X) from 0 to 9 and Longitude (Y) from 0 to 
+9,
+a Plot named "Area XY" (substituting the Latitude for "X" and the Longitude 
+for
+"Y") is created.
+
+
+Create a Rule entitled "Winning by Ownership" with this text:
+
+      If at least one-third of all Plots are not owned by the Bank, and all
+      Plots not owned by the Bank are owned by a single entity, then that
+      entity's Executor satisfies a Win Condition known as a Win by Monopoly.
+
+      Upon the correct report of such a Win, all Plots become Owned by the 
+Bank.
+
+
+[Part Two:  Define Structures and Ergs]
+
+Create a Rule entitled "Structures" with this text:
+
+      There exists a class of entities known as Structures.  All Structures 
+are
+      initially owned by the Bank.
+
+      Each Structure is either assigned to a specific Plot, or unassigned.  
+All
+      Structures are initially unassigned.
+
+      An unassigned Structure's owner may assign it to a Plot by informing the
+      Cartographor that e does so, unless another Structure is already 
+assigned
+      to that Plot.
+
+      An assigned Structure's owner may make it unassigned by informing the
+      Cartographor that e does so.  The owner of a Plot with a Structure
+      assigned to it may also make that Structure unassigned by informing the
+      Cartographor that e does so.
+
+Create a Rule entitled "Ergs" with this text:
+
+      Ergs are a Currency.  Their MUQ is 1.  Their Recordkeepor is the
+      Cartographor.  Their Mintor is the Bank.
+
+100 Structures and 10,000 Ergs are created.
+
+Amend Rule 1677 ("Currency Awards for New Players") to read:
+
+      As soon as possible after the start of a Player's Grace Period, the
+      Registrar shall pay out 5 Voting Tokens, 5 P-Notes, and 15 Ergs to that
+      Player.  In addition, e shall order the Cartographor to create 5
+      Structures and give them to the Player; the Cartographor shall do so as
+      soon as possible after being so ordered.
+
+Amend Rule 1701 ("Proposal Notes") by removing this paragraph:
+
+      Whenever there exists a Player who has never before possessed
+      any P-Notes, the Promotor shall pay out 5 P-Notes to that Player.
+
+All Voting Tokens and P-Notes are destroyed.  For each Player, 5 VTs, 5
+P-Notes, and 15 Ergs are created in that Player's possession.
+
+
+[Part Three:  Make Structures useful]
+
+Create a Rule entitled "Types of Structures" with this text:
+
+      All Structures have a Type.  All Structures are initially Idle, and any
+      unassigned Structures become Idle if they are not already Idle.
+
+      An assigned Structure's owner may change its Type by informing the
+      Cartographor and paying the new Type's price to the Bank (if the new 
+Type
+      is defined by the Rules) or the Maintainer of the new Type's Blueprint
+      (otherwise).
+
+      As soon as possible after a Structure's Type changes, the Cartographor
+      shall execute a Payment Order for half the old Type's price (rounded 
+down)
+      to the Structure's owner, from the Bank (if the old Type is defined by 
+the
+      Rules) or the Maintainer of the old Type's Blueprint (otherwise).
+
+Create a rule titled "Maintenance of Structures" with this text:
+
+      Each Structure has a Maintenance Fee that becomes due at the beginning 
+of
+      each month.  When due, the Maintenance Fee for a Structure is paid when 
+an
+      entity successfully executes a Transfer Order for the amount of that
+      Structure's Maintenance Fee, provided that e indicates clearly that the
+      Transfer Order is being executed to pay the Maintenance Fee for that
+      Structure.
+
+      One week after a Structure's Maintenance Fee becomes due, if it has not
+      yet been paid, then it becomes delinquent.  As soon as possible after 
+this
+      happens, the Cartographor shall destroy that Structure.
+
+Create a rule titled "Production of Structures" reading:
+
+      As soon as possible after the beginning of the Nomic Week, the
+      Cartographor shall report the Production of all Structures.
+
+      When the Cartographor reports the Production of a Structure for a given
+      Nomic Week, a number of units of the appropriate Currency are created in
+      the possession of the owner of the Plot to which the Structure is
+      assigned.
+
+      Churches have no Production.  However, each Church is considered to be 
+two
+      players for the purpose of randomly allocating Indulgences, and any
+      Indulgence that would otherwise be given to a Church is instead given to
+      its owner.
+
+      Only one Vatican may exist at any time, and it is always owned by the
+      Bank.  Its Production is a number of Indulgences equal to the number of
+      Blots issued and not vacated during the previous Nomic Week.
+
+A Structure is assigned to Area 42 and becomes the Vatican.
+
+Create a Rule entitled "Standard Types of Structures" with this text:
+
+      A Type of Structure exists only if it is specifically defined in the 
+Rules
+      or in a Blueprint.
+
+      The following Types of Structure exist, with the specified prices,
+      Productions, and Maintenance Fees, unless otherwise specified:
+
+        Type         Price      Production   Maintenance Fee
+        ----------------------------------------------------
+        Idle         none       none         none
+        Farm         4 Ergs     2 VTs        1 Erg
+        House        4 Ergs     1 P-Note     1 Erg
+        Mine         4 Ergs     1 Erg        1 Erg
+        Church       4 Ergs     none         1 Erg
+        Vatican      none       special      3 Ergs
+
+Create a new Rule titled "Design of Blueprints" and this text:
+
+      A Currency not Minted by the Bank may be associated with a type of SLC
+      known as a Blueprint.  A Blueprint indicates the properties of a 
+Structure
+      that produces units of the Currency associated with the Blueprint.  The
+      Blueprint's Maintainer is the Mintor of the associated Currency.
+
+      A Blueprint can only be created through an Application to Create a
+      Blueprint. Such an Application must contain the following information:
+
+        * The name of the Type of Structure defined by the Blueprint.
+        * The type and amount of Currency produced by this Type.
+        * Any changes to the amount of Currency produced by this Type due to 
+its
+            Adjacencies to other Structures.
+        * The Price of this Type.
+        * The Maintenance Fee of this Type.
+
+      The Maintainer of a Blueprint may change its text by posting the changes
+      to the Public Forum, and indicating what Blueprint is being changed. 
+Such
+      changes may only take effect if the new text of the Blueprint would 
+still
+      define each of the properties of the Type listed above.
+
+[This allows multiple Blueprints per non-Rule-defined Currency.]
+
+Create a new Rule titled "Interaction of Structures" and this text:
+
+      Two Structures are Adjacent if and only if they are assigned to Adjacent
+      Plots.
+
+      A Farm's Production is increased by 0.5 VT for each House or Church to
+      which it is Adjacent, and decreased by 0.5 VT for each Mine to which it 
+is
+      Adjacent.
+
+      A House's Production is increased by 1 P-Note for every 2 Farms or Mines
+      to which it is Adjacent.
+
+
+[Part Four:  Remove other Currency inputs; make P-Notes useful]
+
+
+Amend Rule 1471 ("Creation and Destruction of Currencies") by replacing the
+text reading:
+
+       New units of a Currency are created when the Mintor of that
+       Currency transmits to the Recordkeepor of that Currency a notice
+       that e is creating new units of that Currency, specifying the
+       number of units that e is creating.  The newly created units are
+       added to the Mintor's possessions.
+
+with the text:
+
+       New units of a Currency can only be created by an assigned
+       Structure of the appropriate Type to produce that Currency,
+       as described in other Rules. 
+
+Rename Rule 1763 ("Inadvertent Transfers to the Bank II") to "Intentional
+Transfers to the Bank") and amend it to read:
+
+       If an Entity transfers Currency to the Bank and specifies a 
+       purpose for this transfer, and the transfer succeeds in
+       accomplishing that purpose, the Bank shall, as soon as possible,
+       destroy that Currency. 
+
+[Rules 1754 ("Inadvertent Transfers to the Bank") and Rule 1763 currently have
+  identical text.]
+
+Repeal Rule 1684 ("VT Supply").
+
+Amend Rule 1623 ("Disinterested Proposals") to read:
+
+      A Proposal is Disinterested if it is clearly labelled as such by its
+      Proposer.  If a Proposal is not Disinterested, it is Interested.
+
+Amend Rule 1753 ("Repeal-O-Matic") by replacing "submitted its Proposal
+concerning a given Rule" with "submitted its Proposal concerning a given Rule,
+and paid the Petition Fee for that Proposal,".
+
+Amend Rule 833 ("Awards & Penalties for Proposals") to read:
+
+      As soon as possible after the beginning of the Nomic Week, the Assessor
+      shall pay out two Voting Tokens to each Player who submitted a Proposal
+      which was adopted during the previous Week.
+
+
+Amend Rule 1702 ("Petition Fee for Proposals") by appending this paragraph:
+
+      All Rules to the contrary notwithstanding, no Proposal shall be adopted
+      unless its Proposal Fee is paid by the end of its voting period.
+
+
+[Part Five:  Amend the Rule defining the Cartographor and eir duties]
+
+Amend Rule 1710 ("The Cartographor") to read:
+
+      There is an Office of Cartographor. The Cartographor recieves a 
+      salary equal to 2 times the Basic Officer Salary.
+
+      At least once each Nomic Week, the Cartographor shall post a 
+      Report to the Public Forum containing the following information:
+
+        * the name, ownership, and Adjacency of all Plots
+        * the ownership, assignment (if any) and Type of all Structures
+        * the ownership of all Ergs
+        * all changes in ownership of Plots since the last Report
+        * all changes in ownership, assignment, or Type of all Structures 
+since
+            the last Report
+        * all Transfer Orders and Payment Orders specifying Ergs since the 
+last
+            Report
+
+
+[Part Six:  Clean up other references to Locations]
+
+Amend Rule 869 ("Registered Players") by removing the following paragraph:
+
+      When a Player registers, eir Location is the Welcoming Center.
+
+Amend Rule 1016 ("Putting Oneself On Hold") by replacing "Moves to the Stasis
+Chamber" with "says so in the Public Forum", and by replacing "Moves from the
+Stasis Chamber" with "says so in the Public Forum".
+
+Amend Rule 1664 ("Rebellion") by removing the text "whose Location is the Beer
+Hall".
+
+Amend Rule 1367 ("Degrees") by adding this paragraph:
+
+      "Granting a Degree" and "awarding a Degree" are synonymous.  A Player 
+who
+      has been awarded a Degree possesses that Degree.
+
+Repeal Rule 1711 ("Accepting Degrees").
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+"I see," said Arthur, who didn't.
+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 00:25 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA29775 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 00:25:06 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA18844
+	for agora-discussion-list; Tue, 27 Jan 1998 16:20:51 +1100
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA18839
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 27 Jan 1998 16:20:35 +1100
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id AAA28172 for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 27 Jan 1998 00:21:53 -0500 (EST)
+Message-Id: <3.0.1.16.19980127002851.30070018@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Tue, 27 Jan 1998 00:28:51
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: DIS: RE: Proposal:  Plots
+In-Reply-To: <UPMAIL08.199801270501510506@classic.msn.com>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 1433
+
+At 03:52 AM 1/27/98 UT, Beth Moursund wrote:
+>> A Currency not Minted by the Bank may be associated with a type of SLC
+>> known as a Blueprint.  A Blueprint indicates the properties of a Structure
+>> that produces units of the Currency associated with the Blueprint.  The
+
+>Is this sufficient to prevent players from creating or changing a
+Blueprint to 
+>make its associated Structure produce a rule-defined currency?
+
+I believe so. A Blueprint may only define properties for a Structure that
+produces units of the Currency that is associated with the Blueprint; only
+non-Bank-minted currencies may be associated with Blueprints.
+
+>  - Agoraphobe BethMo
+>    (Who has just been appointed Magic Rules Manager for Wizards of the
+Coast, 
+
+Congratulations! Do you get to have a pithy slogan like your predecessor
+did? :)
+
+>and thinks her Nomic experience should stand her in good stead...)
+
+Indeed. Some of the issues you have to deal with are eerily similar. (I
+think you could take some of the Agora rules discussion posts, change a few
+words, and pass them off as M:tG rules discussion posts, without anyone
+being the wiser. :)
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 03:13 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA02649 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 03:13:35 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA19556
+	for agora-discussion-list; Tue, 27 Jan 1998 19:09:10 +1100
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA19548
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 27 Jan 1998 19:09:06 +1100
+Received: by windowsnt from localhost
+    (router,SLMail V2.6); Tue, 27 Jan 1998 03:57:10 -0500
+Received: by windowsnt from friend-computer
+    (206.18.125.74::mail daemon; unverified,SLMail V2.6); Tue, 27 Jan 1998 03:57:06 -0500
+Message-Id: <3.0.5.32.19980127000530.007d3b10@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Tue, 27 Jan 1998 00:05:30 -0800
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: DIS: RE: Proposal:  Plots
+In-Reply-To: <UPMAIL08.199801270501510506@classic.msn.com>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 1232
+
+Beth Moursund wrote:
+
+>> Each Structure has a Maintenance Fee that becomes due at the beginning of
+>> each month.  When due, the Maintenance Fee for a Structure is paid when an
+>> entity successfully executes a Transfer Order for the amount of that
+>> Structure's Maintenance Fee, provided that e indicates clearly that the
+>> Transfer Order is being executed to pay the Maintenance Fee for that
+>> Structure.
+
+>Is there someplace else in the rules further defining this?  If not, then 
+>Player A and Player B could each transfer currency to the other, indicating 
+>clearly that these Transfer Orders are being executed to pay their Maintenance 
+>Fees, and thus get off scott free.
+
+No, you're right.  Sigh.  Care to Propose a fix?
+
+>> A Currency not Minted by the Bank may be associated with a type of SLC
+>> known as a Blueprint.  A Blueprint indicates the properties of a Structure
+>> that produces units of the Currency associated with the Blueprint.  The
+
+>Is this sufficient to prevent players from creating or changing a Blueprint to 
+>make its associated Structure produce a rule-defined currency?
+
+I don't know.
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>
+http://www.bayside.net/users/ford/
+"I see," said Arthur, who didn't.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 03:24 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA02796 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 03:24:20 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA19669
+	for agora-discussion-list; Tue, 27 Jan 1998 19:20:17 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id TAA19666
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 27 Jan 1998 19:20:14 +1100
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.736 #3)
+	id 0xx6I2-0007vw-00; Tue, 27 Jan 1998 08:22:38 +0000
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0xx6I1-0000fy-00; Tue, 27 Jan 1998 08:22:37 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: OFF: Registrar's report
+In-Reply-To: <199801270058.LAA22529@aurora.cc.monash.edu.au>
+References: <E0xuf2C-0003q1-00@merganser.cl.cam.ac.uk>
+	<199801270058.LAA22529@aurora.cc.monash.edu.au>
+X-Mailer: VM 6.39 under Emacs 19.34.1
+Message-Id: <E0xx6I1-0000fy-00@merganser.cl.cam.ac.uk>
+Date: Tue, 27 Jan 1998 08:22:37 +0000
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 165
+
+Steve Gardner writes:
+
+>> Angry Villager:   (none)
+ 
+> This Title is no longer defined by the Rules.
+ 
+I've removed this from the next report.  
+
+Thanks,
+Michael.
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 04:20 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA03714 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 04:20:21 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA19909
+	for agora-discussion-list; Tue, 27 Jan 1998 20:14:13 +1100
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id UAA19906
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 27 Jan 1998 20:14:10 +1100
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.736 #3)
+	id 0xx78E-0007Gx-00; Tue, 27 Jan 1998 09:16:34 +0000
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0xx78B-0000i2-00; Tue, 27 Jan 1998 09:16:31 +0000
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: proto: Block successive Revolts
+In-Reply-To: <199801270019.LAA23586@aurora.cc.monash.edu.au>
+References: <199801270019.LAA23586@aurora.cc.monash.edu.au>
+X-Mailer: VM 6.39 under Emacs 19.34.1
+Message-Id: <E0xx78B-0000i2-00@merganser.cl.cam.ac.uk>
+Date: Tue, 27 Jan 1998 09:16:32 +0000
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 46
+
+Sounds like a good proposal to me. 
+
+Michael.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 07:14 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA06171 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 07:14:15 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA20595
+	for agora-discussion-list; Tue, 27 Jan 1998 23:07:40 +1100
+Received: from dij91.tp3.ruhr-uni-bochum.de (dij91.tp3.ruhr-uni-bochum.de [134.147.160.152])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id XAA20592
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 27 Jan 1998 23:07:20 +1100
+Received: by dij91.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA14486; Tue, 27 Jan 1998 13:09:15 +0100
+Date: Tue, 27 Jan 1998 13:09:15 +0100
+From: klaush@dij91.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25(3751))
+Message-Id: <9801271209.AA14486@dij91.tp3.ruhr-uni-bochum.de>
+To: agora-discussion@gecko.serc.rmit.edu.au
+In-Reply-To: <34CC695D.7F6AF2AA@interworx.com.au> (message from Kieron Jarvis on Mon, 26 Jan 1998 21:45:50 +1100)
+Subject: DIS: Re: BUS: New Currency: Ode Favores
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 142
+
+>>
+Anybody else want to mint some Ode Favores ?
+<<
+
+We can't, I'm afraid - you're the only one who can mint new Ode
+Favores (1471).
+
+Kolja A.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 11:04 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA12266 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 11:04:49 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA21739
+	for agora-discussion-list; Wed, 28 Jan 1998 02:59:11 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id CAA21736
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 28 Jan 1998 02:59:05 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA27620; Tue, 27 Jan 98 10:02:02 CST
+Message-Id: <9801271602.AA27620@dfw.dfw.net>
+Subject: DIS: Re: BUS: New Currency: Ode Favores
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 27 Jan 1998 10:02:01 -0600 (CST)
+In-Reply-To: <34CC695D.7F6AF2AA@interworx.com.au> from "Kieron Jarvis" at Jan 26, 98 09:45:50 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 106
+
+Kieron Jarvis wrote:
+>
+>I hereby transfer 0.5 Jester's Ode Favores to Chuck.
+
+Well, I'm flattered!
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 15:02 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA21689 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 15:02:33 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA22648
+	for agora-discussion-list; Wed, 28 Jan 1998 06:56:10 +1100
+Received: from MAIL.PCTB.COM (mail.pctb.com [167.160.253.130])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA22645
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 28 Jan 1998 06:56:07 +1100
+Received: from SF_Mail-Message_Server by MAIL.PCTB.COM
+	with Novell_GroupWise; Tue, 27 Jan 1998 11:55:36 -0800
+Message-Id: <s4cdcb38.028@MAIL.PCTB.COM>
+X-Mailer: Novell GroupWise 4.1
+Date: Tue, 27 Jan 1998 11:57:44 -0800
+From: PCTB David Andreasen <dAndreasen@pctb.com>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: BUS: VT transfers
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 395
+
+>> Steve:  In order to ensure that our recent arrivals have enough
+VTs to vote on Proposals 3670-3679, I hereby transfer 10 VTs to each
+of Jester, Sherlock and Time Agent. <<
+
+     Boy, you're going to make us regret passing your proposal that
+takes away everyone's VTs.
+
+-Time Agent-
+
+Kingsley Amis:
+     "It is no wonder that people are so horrible when they start
+their life as children." 
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 17:18 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA27370 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 17:17:54 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA23173
+	for agora-discussion-list; Wed, 28 Jan 1998 09:12:00 +1100
+Received: from scott (scott.skidmore.edu [141.222.1.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id JAA23167
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 28 Jan 1998 09:11:57 +1100
+Received: from placid.skidmore.EDU by scott (SMI-8.6/SMI-SVR4)
+	id RAA16030; Tue, 27 Jan 1998 17:13:58 -0500
+Received: by placid.skidmore.EDU (SMI-8.6/SMI-SVR4)
+	id RAA29490; Tue, 27 Jan 1998 17:16:53 -0500
+From: jfry@scott.skidmore.edu (Jonathan Fry)
+Message-Id: <199801272216.RAA29490@placid.skidmore.EDU>
+Subject: DIS: Re: BUS: PROTO: Son of Frankenstein
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 27 Jan 1998 17:16:52 -0500 (EST)
+In-Reply-To: <199801271939.OAA01882@owl.INS.CWRU.Edu> from "Steven A Swiniarski" at Jan 27, 98 02:39:21 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 726
+
+
+
+  Swann's Frankenstein Monster proposal gave me a thought: what would
+you all think of an anti-Repeal-O-Matic, that would automically revive
+1-3 defeated/repealed proposals each week?  This could be fun, if
+there was a safeguard that only proposals more than two months old
+were eligible (to ensure proposals just defeated wouldn't be
+reversed).  Would there be any support for this idea?
+
+					--Sherlock
+
++-------------------------------------------------+
+| Historian, Theologian, Fool - jfry@skidmore.edu |
+|-------------------------------------------------|
+| Interactive Fiction * rec.music.christian * Van |
+| Halen * Byzantium * Ken Tamplin * In Your Face! |
++-------------------------------------------------+ 
+
+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 17:19 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA27410 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 17:19:24 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA23151
+	for agora-discussion-list; Wed, 28 Jan 1998 09:08:11 +1100
+Received: from MAIL.PCTB.COM (mail.pctb.com [167.160.253.130])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id JAA23148
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 28 Jan 1998 09:08:07 +1100
+Received: from SF_Mail-Message_Server by MAIL.PCTB.COM
+	with Novell_GroupWise; Tue, 27 Jan 1998 14:07:31 -0800
+Message-Id: <s4cdea23.048@MAIL.PCTB.COM>
+X-Mailer: Novell GroupWise 4.1
+Date: Tue, 27 Jan 1998 14:09:45 -0800
+From: PCTB David Andreasen <dAndreasen@pctb.com>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Magic Rules Manager
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 348
+
+>> BethMo:  (Who has just been appointed Magic Rules Manager for
+Wizards of the Coast, and thinks her Nomic experience should stand
+her in good stead...) <<
+
+     Congrats!  Does that mean you're in charge of Tom Wylie? ;-)
+
+-Time Agent-
+
+Kingsley Amis:
+     "It is no wonder that people are so horrible when they start
+their life as children." 
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 17:37 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA28144 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 17:37:15 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA23277
+	for agora-discussion-list; Wed, 28 Jan 1998 09:31:19 +1100
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id JAA23274
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 28 Jan 1998 09:31:13 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Tue, 27 Jan 1998 17:40:39 -0500
+Message-Id: <s4ce1c17.025@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Tue, 27 Jan 1998 17:39:49 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: BUS: PROTO: Son of Frankenstein
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 997
+
+DIS: Re: BUS: PROTO: Son of Frankenstein
+
+Sherlock writes:
+
+
+>  Swann's Frankenstein Monster proposal gave me a thought: what would
+>you all think of an anti-Repeal-O-Matic, that would automically revive
+>1-3 defeated/repealed proposals each week?  This could be fun, if
+>there was a safeguard that only proposals more than two months old
+>were eligible (to ensure proposals just defeated wouldn't be
+>reversed).  Would there be any support for this idea?
+
+I'm slightly against this.  I think you mean that old defeated proposals will
+automatically be resubmitted as new proposals (I don't know what you mean by a
+"repealed" proposal).  This forces us to maintain records for defeated
+proposals (I assume you will put an upper limit on the age of potential
+revivals, otherwise I'm very against it) which could otherwise be discarded. 
+If Players want to change their minds about an old defeat, they can always
+resubmit it anyway.  At least the Son of Frankenstein submits something new.
+
+-- Crito
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 17:40 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA28255 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 17:40:16 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA23303
+	for agora-discussion-list; Wed, 28 Jan 1998 09:34:30 +1100
+Received: from UPIMSRGSMTP09 (upimsrgsmtp09.msn.com [207.68.152.53])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id JAA23300
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 28 Jan 1998 09:34:28 +1100
+Received: from upmajb08 - 204.95.110.71 by msn.com with Microsoft SMTPSVC;
+	 Tue, 27 Jan 1998 14:36:47 -0800
+Date: Tue, 27 Jan 98 22:37:44 UT
+From: "Beth Moursund" <ScrybSprite@classic.msn.com>
+Message-Id: <UPMAIL08.199801272236080869@classic.msn.com>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: RE: Magic Rules Manager
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 507
+
+No, Tom Wylie has moved out of the Magic group entirely.  (He was splitting 
+his time between Magic and other stuff, and as the time requirements grew, 
+Magic got squeezed -- that's why we've had a shortage of official rulings for 
+the past few months.)
+
+So, another Magic-playing Agoran, eh?  I still find the parallels between some 
+of the MTG-L and Agora discussions entertaining.
+
+(BTW, I laughed for nearly a minute when I read your "slip" about the 
+Gardnerian turbo-whatever-it-was.)
+
+  - BethMo
+
+
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 17:41 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA28313 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 17:41:42 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA23316
+	for agora-discussion-list; Wed, 28 Jan 1998 09:35:04 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id JAA23313
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 28 Jan 1998 09:35:01 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA06784; Tue, 27 Jan 98 16:37:55 CST
+Message-Id: <9801272237.AA06784@dfw.dfw.net>
+Subject: DIS: Re: BUS: PROTO: Son of Frankenstein
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 27 Jan 1998 16:37:53 -0600 (CST)
+In-Reply-To: <199801271939.OAA01882@owl.INS.CWRU.Edu> from "Steven A Swiniarski" at Jan 27, 98 02:39:21 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 147
+
+Steven A Swiniarski wrote:
+>
+>PROTO: Son of Frankenstein
+
+Um, why?  There doesn't seem to be anything in here that can't
+be done privately.
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 17:51 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA28747 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 17:51:45 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA23392
+	for agora-discussion-list; Wed, 28 Jan 1998 09:45:17 +1100
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id JAA23389
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 28 Jan 1998 09:45:13 +1100
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA07879; Tue, 27 Jan 98 16:48:08 CST
+Message-Id: <9801272248.AA07879@dfw.dfw.net>
+Subject: Re: DIS: Magic Rules Manager
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 27 Jan 1998 16:48:07 -0600 (CST)
+In-Reply-To: <s4cdea23.048@MAIL.PCTB.COM> from "PCTB David Andreasen" at Jan 27, 98 02:09:45 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 369
+
+>>> BethMo:  (Who has just been appointed Magic Rules Manager for
+>Wizards of the Coast, and thinks her Nomic experience should stand
+>her in good stead...) <<
+
+I'm sure it will...I know it helped me when I started my cataloging
+course.  (AACR2R--over 600 pages--plus its amendments and rule
+interpretations--makes Agora's Ruleset look like a trifold pamphlet.)
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 19:14 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA01187 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 19:14:23 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA23802
+	for agora-discussion-list; Wed, 28 Jan 1998 11:06:56 +1100
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA23798
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 28 Jan 1998 11:06:49 +1100
+Received: from fred.fhcrc.org (fred [140.107.32.6])
+	by bug1.fhcrc.org (8.8.7/8.8.7) with SMTP id QAA13884
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Tue, 27 Jan 1998 16:09:10 -0800 (PST)
+Received: from mlinial by fred.fhcrc.org (SMI-8.6/SMI-SVR4)
+	id QAA20696; Tue, 27 Jan 1998 16:09:08 -0800
+Message-Id: <199801280009.QAA20696@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 27 Jan 1998 16:09:25 +0000
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: DIS: RE: Magic Rules Manager
+In-reply-to: <UPMAIL08.199801272236080869@classic.msn.com>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 387
+
+"Beth Moursund" <ScrybSprite@classic.msn.com> wrote:
+> So, another Magic-playing Agoran, eh?  I still find the parallels between some 
+> of the MTG-L and Agora discussions entertaining.
+
+<raises hand> Me! Me! Meeee! :-)
+I also design Magic cards for fun (some old ones can be found at 
+http://sparky.fhcrc.org/~ross/magic-expansion.html ).
+
+	Antimatter
+	rmorganl@fhcrc.org
+	Anyone else?
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Tue Jan 27 20:18 EST 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA02827 for <dpb@cs.brown.edu>; Tue, 27 Jan 1998 20:18:54 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA24072
+	for agora-discussion-list; Wed, 28 Jan 1998 12:09:53 +1100
+Received: from scott (scott.skidmore.edu [141.222.1.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id MAA24069
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Wed, 28 Jan 1998 12:09:48 +1100
+Received: from placid.skidmore.EDU by scott (SMI-8.6/SMI-SVR4)
+	id UAA13230; Tue, 27 Jan 1998 20:11:45 -0500
+Received: by placid.skidmore.EDU (SMI-8.6/SMI-SVR4)
+	id UAA20539; Tue, 27 Jan 1998 20:14:40 -0500
+From: jfry@scott.skidmore.edu (Jonathan Fry)
+Message-Id: <199801280114.UAA20539@placid.skidmore.EDU>
+Subject: DIS: Re: OFF: Speaker's Patronage
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Tue, 27 Jan 1998 20:14:40 -0500 (EST)
+In-Reply-To: <199801280023.LAA23880@gecko.serc.rmit.edu.au> from "Laurent Bossavit" at Jan 28, 98 01:25:40 am
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 589
+
+Laurent Bossavit writes:
+> 
+> I hereby order the Bank to transfer one Indulgence to Sherlock,
+> continuing my policy of rewarding new Players for renewing Agora's
+> most precious resource. 
+
+While I'm not sure I get your meaning, I do thank you greatly!
+
+					--Sherlock
+
++-------------------------------------------------+
+| Historian, Theologian, Fool - jfry@skidmore.edu |
+|-------------------------------------------------|
+| Interactive Fiction * rec.music.christian * Van |
+| Halen * Byzantium * Ken Tamplin * In Your Face! |
++-------------------------------------------------+ 
+
+
+
+
+

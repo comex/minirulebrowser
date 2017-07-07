@@ -1,0 +1,614 @@
+From owner-nomic-discussion@teleport.com Wed Jul 23 00:06 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA26390 for <dpb@cs.brown.edu>; Wed, 23 Jul 1997 00:06:16 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id UAA22612; Tue, 22 Jul 1997 20:59:04 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Tue, 22 Jul 1997 20:59:02 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id UAA22536 for nomic-discussion-outgoing; Tue, 22 Jul 1997 20:59:00 -0700 (PDT)
+Received: from owl.INS.CWRU.Edu (owl.INS.CWRU.Edu [129.22.8.26]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id UAA22490 for <nomic-discussion@teleport.com>; Tue, 22 Jul 1997 20:58:55 -0700 (PDT)
+Received: (gb485@localhost) by owl.INS.CWRU.Edu (8.8.6+cwru/CWRU-2.4-bsdi)
+	id XAA04373; Tue, 22 Jul 1997 23:58:53 -0400 (EDT) (from gb485)
+Message-Id: <199707230358.XAA04373@owl.INS.CWRU.Edu>
+Date: Tue, 22 Jul 1997 23:58:53 -0400 (EDT)
+From: gb485@cleveland.freenet.edu (Steven A Swiniarski)
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: PROTO: Entity Classes
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 1340
+Lines: 32
+Status: N
+
+Reply to message from klaush@spinup.tp3.ruhr-uni-bochum.de of Tue, 22 Jul
+>
+>
+>General Chaos:
+>>>I am becoming more and more convinced that the entire "Nomic Entity"
+>concept is a very bad one, and one which should be jettisoned from the
+>game entirely.<<
+>
+>I tend to agree - the concept seems very abstract and somewhat
+>unmotivated to a newcomer like me. However, I thought it might have
+>been introduced to close some loopholes you found - in that case a
+>replacement would be needed.
+>
+I think the current "Nomic Entity" idea existed to prevent arbitrary
+modifications to the game, by making Nomic Entities immune from the
+corrosive effects of 116.  
+
+What may be needed is a jettison of the term, and a reweite of the rules
+so that Entities (of any sort) that the Rules claim jurisdiction
+over cannot be legally manipulated in ways other than provided for in
+the rules.  The idea of a special place for entities created "solely by
+the Rules" (however you define it) should be completly orthoginal to
+the question of how we want 116 to apply to it.
+
+Swann
+(still here)
+
+--
+Steven Swiniarski (aka S Andrew Swann) http://www.sff.net/people/SASwann
+gb485@cleveland.freenet.edu            
+"There can be no effective control of corporations while their political
+ activity remains."                                    --Theodore Roosevelt
+
+From owner-nomic-discussion@teleport.com Wed Jul 23 02:16 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA28435 for <dpb@cs.brown.edu>; Wed, 23 Jul 1997 02:16:47 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id XAA12824; Tue, 22 Jul 1997 23:15:03 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Tue, 22 Jul 1997 23:15:00 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id XAA12781 for nomic-discussion-outgoing; Tue, 22 Jul 1997 23:14:59 -0700 (PDT)
+Received: from windowsnt ([207.226.81.129]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id XAA12744 for <nomic-discussion@teleport.com>; Tue, 22 Jul 1997 23:14:54 -0700 (PDT)
+Received: by windowsnt from localhost
+    (router,SLMail V2.5); Wed, 23 Jul 1997 03:07:40 -0500
+Received: by windowsnt from friend-computer
+    (199.107.161.150::mail daemon; unverified,SLMail V2.5); Wed, 23 Jul 1997 03:07:39 -0500
+Message-Id: <3.0.1.32.19970722225816.006a0a88@mail.bayside.net>
+X-Sender: ford@mail.bayside.net
+X-Mailer: Windows Eudora Light Version 3.0.1 (32)
+Date: Tue, 22 Jul 1997 22:58:16 -0700
+To: nomic-discussion@teleport.com
+From: "Ed Murphy" <ford@bayside.net>
+Subject: Re: BUS: PROTO: Entity Classes
+In-Reply-To: <199707221607.LAA30855@poverty.bloomington.in.us>
+References: <Your message of "Tue, 22 Jul 1997 17:15:33 +0200."             <9707221515.AA15387@spinup.tp3.ruhr-uni-bochum.de>
+Mime-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 1044
+Lines: 22
+Status: N
+
+Scott Goehring wrote:
+
+>I think we are way too deeply concerned with "entitiness".  It is
+>pointless, to me, to dwell on whether or not something is an entity.
+>Can you name a thing which is _not_ an entity, in some sense or
+>another?  It makes more sense to me to consider those properties of
+>entities which distinguish them from one another, rather than to bask
+>in the meaningless glow of their universal entitiness.
+
+What about using new Nomic Properties (e.g. "Playerhood") in place of Nomic
+Entitiness?  For the purpose of Rule 1586, certain Nomic Properties could
+be defined as Important, and an entity which loses an Important NP loses all
+its NPs (except as stated otherwise).
+
+[I can just see someone minting a Currency named "Nomic Properties", or at
+ least attempting to do so for eir own amusement.]
+
+-- 
+Ed Murphy <mailto:ford@bayside.net>     http://www.bayside.net/users/ford/
+"Don't tell me what I already know."    http://wwp.mirabilis.com/1008745/
+     -Richard Feng                      mailto:1008745@pager.mirabilis.com
+
+
+From owner-nomic-discussion@teleport.com Wed Jul 23 05:44 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA01682 for <dpb@cs.brown.edu>; Wed, 23 Jul 1997 05:44:52 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id CAA26359; Wed, 23 Jul 1997 02:42:22 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Wed, 23 Jul 1997 02:42:16 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id CAA26334 for nomic-discussion-outgoing; Wed, 23 Jul 1997 02:42:15 -0700 (PDT)
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33]) by greta.teleport.com (8.8.5/8.7.3) with SMTP id CAA26328 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 02:42:12 -0700 (PDT)
+Received: (qmail 27401 invoked from network); 23 Jul 1997 09:42:06 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 23 Jul 1997 09:42:06 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA19007; Wed, 23 Jul 1997 11:41:23 +0200
+Date: Wed, 23 Jul 1997 11:41:23 +0200
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9707230941.AA19007@spinup.tp3.ruhr-uni-bochum.de>
+To: nomic-discussion@teleport.com
+In-Reply-To: <3.0.1.16.19970722190819.363f2914@cyber1.servtech.com> (message from Chaos Harlequin on Tue, 22 Jul 1997 19:08:19)
+Subject: Re: BUS: PROTO: Entity Classes
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 718
+Lines: 18
+Status: N
+
+Harlequin:
+
+>>even though, say, "H. Assessor, I hereby vote FOR Proposal 9999"
+does not specifically mention anything about the transfer of VTs, it
+is still a body of text which is a TO because the existence of that
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+particular text, whatever it might mean in "plain English," within the
+body causes it to transfer a VT. <<
+
+The underlined bit is what I don't agree with. 1442 says that tha
+_act_ of communicating your vote to the Assessor comprises the
+implicit submission of a TO, not that the _text_ of your vote must be
+reinterpreted to include a TO.
+
+The TO exists as something separate from the voting message, it was
+just created (or submitted) at the same time. 
+
+Kolja A.
+
+From owner-nomic-discussion@teleport.com Wed Jul 23 05:50 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA01750 for <dpb@cs.brown.edu>; Wed, 23 Jul 1997 05:50:16 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id CAA11092; Wed, 23 Jul 1997 02:48:38 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Wed, 23 Jul 1997 02:48:36 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id CAA11083 for nomic-discussion-outgoing; Wed, 23 Jul 1997 02:48:36 -0700 (PDT)
+Received: from mailhost.rz.ruhr-uni-bochum.de (sunu450.rz.ruhr-uni-bochum.de [134.147.222.33]) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id CAA11065 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 02:48:32 -0700 (PDT)
+Received: (qmail 28030 invoked from network); 23 Jul 1997 09:48:30 -0000
+Received: from spinup.tp3.ruhr-uni-bochum.de (134.147.140.80)
+  by mailhost.rz.ruhr-uni-bochum.de with SMTP; 23 Jul 1997 09:48:30 -0000
+Received: by spinup.tp3.ruhr-uni-bochum.de (AIX 3.2/UCB 5.64/4.03)
+          id AA17989; Wed, 23 Jul 1997 11:48:25 +0200
+Date: Wed, 23 Jul 1997 11:48:25 +0200
+From: klaush@spinup.tp3.ruhr-uni-bochum.de (Klaus Herrmanns NB6_25 (3751))
+Message-Id: <9707230948.AA17989@spinup.tp3.ruhr-uni-bochum.de>
+To: nomic-discussion@teleport.com
+In-Reply-To: <3.0.1.16.19970722190103.363f22d2@cyber1.servtech.com> (message from Chaos Harlequin on Tue, 22 Jul 1997 19:01:03)
+Subject: Re: BUS: PROTO: Clean Up After Pragmatic Currencies
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 1635
+Lines: 34
+Status: N
+
+Kolja A:
+>I am sceptical about a simple reintroduction of this mint
+>authority. All of Morendil's Mint Manipulation is based not on a
+>loophole in the PC rules, but on a hole that resides at least partly
+>in the minting rules: That a player can create nomic entities with any
+>names e wants, and that via a suitable naming conflict this can mess
+>up the results of proposals which are just being voted on. 
+
+Harlequin:
+>>If we decide to do so, it's easy to fix this without actually getting rid
+of Mint Authority for Players and Groups -- just make it an action Without
+Objection, or hold a referendum of some sort.<<
+
+I like that idea very much. It would be sad to abolish mint authority
+for playrs just because it can be abused. Action Without Objection
+might give a bit too much power to other players to prevent mintings
+that are non-abusive, but still introduce some effect that is
+unpleasant for some players.
+
+What about giving some control over this to relevant officers like the
+Chancellor? Like an "Action without objection by the Chancellor"? 
+
+We might also want to give such an officer the possibility to stop
+abuse after the creation of anew currency; if we don't, new scams will
+just include the new challenge to hide the intended results long
+enough to get the creation through. Or some payers might get paranoid
+and just object to any new currency that is not abviously harmless and
+boring. So the Chancellor may have the power to command the destruction
+or at least a change of properties of privately minted currencies.
+
+That would also give an office some real power in addition to record
+keeping tasks. 
+
+Kolja A.
+
+From owner-nomic-discussion@teleport.com Wed Jul 23 11:39 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA09222 for <dpb@cs.brown.edu>; Wed, 23 Jul 1997 11:39:48 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id IAA11953; Wed, 23 Jul 1997 08:38:01 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Wed, 23 Jul 1997 08:37:58 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id IAA11927 for nomic-discussion-outgoing; Wed, 23 Jul 1997 08:37:58 -0700 (PDT)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19]) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id IAA11909 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 08:37:53 -0700 (PDT)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 23 Jul 1997 11:42:19 -0400
+Message-Id: <s3d5ee1b.017@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 23 Jul 1997 11:41:51 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: PROTO: Entity Classes
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain
+Content-Length: 1554
+Lines: 33
+Status: N
+
+Re: BUS: PROTO: Entity Classes
+
+Harlequin wrote:
+
+>>I agree with this, except that when the Rules define a class I would say the
+>>Rules have defined/created *something* and to me it is natural to think of
+>>that something as an entity - to me "entity" just means something that has
+>>existence.  
+
+>Well, there's the rub. Defining and creating are completely different
+>things. It's like the difference between me saying "An ice cream sundae is
+>a dessert consisting of ice cream topped with chocolate sauce, whipped
+>cream, nuts, and/or other toppings" and actually going downstairs and
+>dishing myself out one. In this case, I agree with Scott -- the Rules may
+>very well define something, but they don't just bring it into existence.
+
+Yes, that's the difference between defining a class and creating a specific
+instance of that class.  What I'm saying is, when the Rules define a class of
+entities, they have brought something into existence - a new class.  And that
+class is thus an entity.
+
+>>The fact that it is just an artifice of law does not deprive it of
+>>its existence and therefore, IMO, does not prevent it from being an entity.  
+
+>Scott isn't saying that they aren't entities, AFAICT -- he's arguing that
+>abstract things can be entities whether or not the Rules describe them or not.
+
+Well, I apologize if I have misunderstood Scott, but AFAICT he *is* arguing
+that a class is not an entity (and therefore it is irrelevant to discuss
+whether or not it is a *Nomic* Entity).  But of course Scott can speak for
+emself here.  8)
+
+-- Crito
+
+From owner-nomic-discussion@teleport.com Wed Jul 23 15:15 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA15647 for <dpb@cs.brown.edu>; Wed, 23 Jul 1997 15:15:08 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id MAA10981; Wed, 23 Jul 1997 12:14:39 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Wed, 23 Jul 1997 12:14:36 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id MAA10963 for nomic-discussion-outgoing; Wed, 23 Jul 1997 12:14:35 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-3-2.ucs.indiana.edu [129.79.18.152]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id MAA10936 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 12:14:27 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id OAA18604 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 14:14:16 -0500
+Message-Id: <199707231914.OAA18604@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: PROTO: Entity Classes 
+In-reply-to: Your message of "Wed, 23 Jul 1997 11:41:51 -0400."
+             <s3d5ee1b.017@rmv.state.ma.us> 
+Date: Wed, 23 Jul 1997 14:14:16 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 1715
+Lines: 30
+Status: N
+
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> Well, I apologize if I have misunderstood Scott, but AFAICT he
+David> *is* arguing that a class is not an entity (and therefore it is
+David> irrelevant to discuss whether or not it is a *Nomic* Entity).
+David> But of course Scott can speak for emself here.  8)
+
+I am not necessarily arguing that classes are not entities.  Rather, I
+am arguing that classes are too nebulous to be discussed in the same
+manner as other, less abstract entities, which I shall call "objects",
+for the lack of a better word.  My main point of contention is that
+classes don't have properties of their own (except for trivial ones
+like names); rather, class properties are imputed from the properties
+of their members.  Most, if not all, of the time, when we appear to be
+assigning a property to a class entity, we are actually merely using a
+shorthand to assign some property to each of the members of the class.
+
+Of course, there can be argument as to whether an entity is a member
+of a given class, but that really boils down to whether that entity
+possesses the characteristics that are defining of that class, or
+not.  Furthermore, creating or destroying a class in no substantial
+way changes the properties of its members, since a class is nothing
+more than a grouping of objects, presumably based on the presence or
+absence of some distinguishable characteristic shared by the members
+of that class.
+
+Because of this substantial distinction, I believe that it does not
+all that much sense to treat classes as on an equal level with
+objects, nor do I believe that doing so creates any substantial
+benefit in interpretation, expression, or operation of the Rules.
+
+From owner-nomic-discussion@teleport.com Wed Jul 23 15:41 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id PAA16533 for <dpb@cs.brown.edu>; Wed, 23 Jul 1997 15:41:30 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id MAA26820; Wed, 23 Jul 1997 12:40:39 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Wed, 23 Jul 1997 12:40:32 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id MAA26808 for nomic-discussion-outgoing; Wed, 23 Jul 1997 12:40:32 -0700 (PDT)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19]) by portia.teleport.com (8.8.5/8.7.3) with SMTP id MAA26804 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 12:40:29 -0700 (PDT)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 23 Jul 1997 15:44:51 -0400
+Message-Id: <s3d626f3.072@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 23 Jul 1997 15:44:07 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: PROTO: Entity Classes
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain
+Content-Length: 2876
+Lines: 57
+Status: N
+
+Re: BUS: PROTO: Entity Classes
+
+Scott wrote:
+
+>David> Well, I apologize if I have misunderstood Scott, but AFAICT he
+>David> *is* arguing that a class is not an entity (and therefore it is
+>David> irrelevant to discuss whether or not it is a *Nomic* Entity).
+>David> But of course Scott can speak for emself here.  8)
+
+>I am not necessarily arguing that classes are not entities.  Rather, I
+>am arguing that classes are too nebulous to be discussed in the same
+>manner as other, less abstract entities, which I shall call "objects",
+>for the lack of a better word.  My main point of contention is that
+>classes don't have properties of their own (except for trivial ones
+>like names); rather, class properties are imputed from the properties
+>of their members.  Most, if not all, of the time, when we appear to be
+>assigning a property to a class entity, we are actually merely using a
+>shorthand to assign some property to each of the members of the class.
+
+>Of course, there can be argument as to whether an entity is a member
+>of a given class, but that really boils down to whether that entity
+>possesses the characteristics that are defining of that class, or
+>not.  Furthermore, creating or destroying a class in no substantial
+>way changes the properties of its members, since a class is nothing
+>more than a grouping of objects, presumably based on the presence or
+>absence of some distinguishable characteristic shared by the members
+>of that class.
+
+>Because of this substantial distinction, I believe that it does not
+>all that much sense to treat classes as on an equal level with
+>objects, nor do I believe that doing so creates any substantial
+>benefit in interpretation, expression, or operation of the Rules.
+
+Good.  Thanks for the clarification.  I agree with this.  The problem here is
+that the "trivial" property of class, name, is one that is important in the
+current dispute about Morendil's currencies, since it is the name of eir
+currencies that causes potential problems via R1586 with the classes of
+entities named POs and TOs.
+
+I agree that the distinction of Nomic Entities in the Rules probably causes
+more trouble than it's worth.  However, in this case I think it happens to
+provide us with a way out of problems caused by MMM (as Kolja so succinctly
+names it 8).
+
+Swann wrote:
+
+>What may be needed is a jettison of the term, and a reweite of the rules 
+>so that Entities (of any sort) that the Rules claim jurisdiction
+>over cannot be legally manipulated in ways other than provided for in
+>the rules.  The idea of a special place for entities created "solely by
+>the Rules" (however you define it) should be completly orthoginal to
+>the question of how we want 116 to apply to it.
+
+And, I would add, how R1011 applies to it.  This is the tack I think I would
+prefer, along with some provisions to avoid problems with duplicate names.
+
+-- Crito
+
+From owner-nomic-discussion@teleport.com Wed Jul 23 17:07 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA19234 for <dpb@cs.brown.edu>; Wed, 23 Jul 1997 17:07:21 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id OAA14494; Wed, 23 Jul 1997 14:05:08 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Wed, 23 Jul 1997 14:05:05 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id OAA14472 for nomic-discussion-outgoing; Wed, 23 Jul 1997 14:05:04 -0700 (PDT)
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id OAA14429 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 14:04:52 -0700 (PDT)
+Received: from LOCALNAME (lh1.roc.servtech.com [206.106.146.203]) by cyber1.servtech.com (8.8.6/8.8.5) with SMTP id RAA13447 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 17:04:47 -0400 (EDT)
+Message-Id: <3.0.1.16.19970723131804.2c97e0ea@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: Windows Eudora Light Version 3.0.1 (16)
+Date: Wed, 23 Jul 1997 13:18:04
+To: nomic-discussion@teleport.com
+From: Chaos Harlequin <harlequin@tmbg.org>
+Subject: Re: BUS: PROTO: Entity Classes
+In-Reply-To: <3.0.1.32.19970722225816.006a0a88@mail.bayside.net>
+References: <199707221607.LAA30855@poverty.bloomington.in.us>
+ <Your message of "Tue, 22 Jul 1997 17:15:33 +0200."             <9707221515.AA15387@spinup.tp3.ruhr-uni-bochum.de>
+Mime-Version: 1.0
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 642
+Lines: 14
+Status: N
+
+At 10:58 PM 7/22/97 -0700, Ed Murphy wrote:
+
+>What about using new Nomic Properties (e.g. "Playerhood") in place of Nomic
+>Entitiness? 
+
+While going through the types of Entities in the Ruleset recently, I found
+that almost all of them would work better as Properties. Being able to Vote
+or Propose, for example, should be Properties. 
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+
+From owner-nomic-discussion@teleport.com Wed Jul 23 18:01 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id SAA20755 for <dpb@cs.brown.edu>; Wed, 23 Jul 1997 18:01:34 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id PAA23011; Wed, 23 Jul 1997 15:01:10 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Wed, 23 Jul 1997 15:01:08 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id PAA22993 for nomic-discussion-outgoing; Wed, 23 Jul 1997 15:01:07 -0700 (PDT)
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id PAA22971 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 15:01:01 -0700 (PDT)
+Received: from arapael (pppA107.francenet.fr [193.149.100.13])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id AAA22662
+	for <nomic-discussion@teleport.com>; Thu, 24 Jul 1997 00:00:59 +0200 (MET DST)
+Message-Id: <199707232200.AAA22662@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic-discussion@teleport.com
+Date: Thu, 24 Jul 1997 00:04:21 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: BUS: PROTO: Entity Classes 
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 418
+Lines: 10
+Status: N
+
+> of their members.  Most, if not all, of the time, when we appear to be
+> assigning a property to a class entity, we are actually merely using a
+> shorthand to assign some property to each of the members of the class.
+
+How about MUQs ?
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+How come wrong numbers are never busy?
+
+
+From owner-nomic-discussion@teleport.com Wed Jul 23 19:29 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA22542 for <dpb@cs.brown.edu>; Wed, 23 Jul 1997 19:29:45 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id QAA09877; Wed, 23 Jul 1997 16:29:08 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Wed, 23 Jul 1997 16:29:03 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id QAA09864 for nomic-discussion-outgoing; Wed, 23 Jul 1997 16:29:02 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-3-2.ucs.indiana.edu [129.79.18.152]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id QAA09854 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 16:28:59 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id SAA21536 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 18:28:55 -0500
+Message-Id: <199707232328.SAA21536@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: PROTO: Entity Classes 
+In-reply-to: Your message of "Wed, 23 Jul 1997 13:18:04."
+             <3.0.1.16.19970723131804.2c97e0ea@cyber1.servtech.com> 
+Date: Wed, 23 Jul 1997 18:28:54 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 424
+Lines: 10
+Status: N
+
+"Chaos" == Chaos Harlequin <harlequin@tmbg.org> writes:
+
+Chaos> While going through the types of Entities in the Ruleset
+Chaos> recently, I found that almost all of them would work better as
+Chaos> Properties. Being able to Vote or Propose, for example, should
+Chaos> be Properties.
+
+The Nomic Property concept is, of course, much newer.  The Nomic
+Entity concept is an outdated anachronism that deserves to be put to
+rest.
+
+From owner-nomic-discussion@teleport.com Wed Jul 23 19:35 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA22737 for <dpb@cs.brown.edu>; Wed, 23 Jul 1997 19:35:37 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id QAA10752; Wed, 23 Jul 1997 16:34:18 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Wed, 23 Jul 1997 16:34:17 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id QAA10740 for nomic-discussion-outgoing; Wed, 23 Jul 1997 16:34:17 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-3-2.ucs.indiana.edu [129.79.18.152]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id QAA10722 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 16:34:13 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id SAA21577 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 18:34:10 -0500
+Message-Id: <199707232334.SAA21577@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: PROTO: Entity Classes 
+In-reply-to: Your message of "Thu, 24 Jul 1997 00:04:21 +0100."
+             <199707232200.AAA22662@logatome.micronet.fr> 
+Date: Wed, 23 Jul 1997 18:34:09 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 712
+Lines: 16
+Status: N
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+
+>> of their members.  Most, if not all, of the time, when we appear to
+>> be assigning a property to a class entity, we are actually merely
+>> using a shorthand to assign some property to each of the members of
+>> the class.
+
+Laurent> How about MUQs ?
+
+MUQs are a consequence of the size of the individual units and the
+fact that the units are atomic.  The MUQ of a currency is merely that
+portion of the common name of that currency that an individual unit
+comprises.  There is no functional difference between a currency whose
+MUQ is 0.01 and one whose MUQ is 1, except that we call a group of 100
+of the former "1" and 100 of the latter "100".  
+
+From owner-nomic-discussion@teleport.com Wed Jul 23 19:36 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA22790 for <dpb@cs.brown.edu>; Wed, 23 Jul 1997 19:36:48 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id QAA27073; Wed, 23 Jul 1997 16:35:46 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Wed, 23 Jul 1997 16:35:44 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id QAA27062 for nomic-discussion-outgoing; Wed, 23 Jul 1997 16:35:43 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-3-2.ucs.indiana.edu [129.79.18.152]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id QAA27045 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 16:35:38 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id SAA21589 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 18:35:36 -0500
+Message-Id: <199707232335.SAA21589@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: PROTO: Entity Classes 
+In-reply-to: Your message of "Wed, 23 Jul 1997 13:18:04."
+             <3.0.1.16.19970723131804.2c97e0ea@cyber1.servtech.com> 
+Date: Wed, 23 Jul 1997 18:35:36 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 577
+Lines: 13
+Status: N
+
+"Chaos" == Chaos Harlequin <harlequin@tmbg.org> writes:
+
+Chaos> While going through the types of Entities in the Ruleset
+Chaos> recently, I found that almost all of them would work better as
+Chaos> Properties. Being able to Vote or Propose, for example, should
+Chaos> be Properties.
+
+I gloss "Voting Entity" as "an entity possessing the property of being
+a Voting Entity" (which sounds recursive, but isn't), and similarly
+for Proposing Entity.
+
+Neither Voting Entities nor Proposing Entities need be Nomic
+Entities.  In fact, presently, no Proposing Entity is a Nomic Entity.
+
+From owner-nomic-discussion@teleport.com Wed Jul 23 19:39 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA22827 for <dpb@cs.brown.edu>; Wed, 23 Jul 1997 19:39:27 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id QAA25132; Wed, 23 Jul 1997 16:38:54 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Wed, 23 Jul 1997 16:38:51 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id QAA25123 for nomic-discussion-outgoing; Wed, 23 Jul 1997 16:38:50 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-3-2.ucs.indiana.edu [129.79.18.152]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id QAA25105 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 16:38:47 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id SAA21602 for <nomic-discussion@teleport.com>; Wed, 23 Jul 1997 18:38:45 -0500
+Message-Id: <199707232338.SAA21602@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: PROTO: Entity Classes 
+In-reply-to: Your message of "Wed, 23 Jul 1997 15:44:07 -0400."
+             <s3d626f3.072@rmv.state.ma.us> 
+Date: Wed, 23 Jul 1997 18:38:44 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 770
+Lines: 16
+Status: N
+
+"David" == David Albertz <dalbertz@rmv.state.ma.us> writes:
+
+David> Good.  Thanks for the clarification.  I agree with this.  The
+David> problem here is that the "trivial" property of class, name, is
+David> one that is important in the current dispute about Morendil's
+David> currencies, since it is the name of eir currencies that causes
+David> potential problems via R1586 with the classes of entities named
+David> POs and TOs.
+
+Except, as others have noted, the entities created by Pragmatic
+Currencies are not named "Payment Orders" or "Transfer Orders"; they
+are merely known by those appelations.
+
+I am not particularily bothered by the fact that a Payment Order (the
+unit of currency) is not a Payment Order (as defined by R.1596).
+Stranger things have happened.
+

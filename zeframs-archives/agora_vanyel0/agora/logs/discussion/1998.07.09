@@ -1,0 +1,611 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jul  9 02:23 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA11899 for <dpb@cs.brown.edu>; Thu, 9 Jul 1998 02:22:58 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA28284
+	for agora-discussion-list; Thu, 9 Jul 1998 16:20:12 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA28281
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 9 Jul 1998 16:20:01 +1000
+Received: (from gardner@localhost) by silas-1.cc.monash.edu.au (8.8.8/8.8.0) id QAA06931 for agora-discussion@gecko.serc.rmit.edu.au; Thu, 9 Jul 1998 16:19:55 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199807090619.QAA06931@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: proto: Make Being On Hold Safe Again
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 9 Jul 1998 16:19:55 +1000 (EST)
+In-Reply-To: <s5a3eecf.006@rmv.state.ma.us> from "David Albertz" at Jul 8, 98 10:11:44 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 843
+
+David Albertz wrote:
+>
+>Looks OK.  But it might be easier and cleaner just to amend the definition of
+>"Overdue".
+>
+>Rule 1713/5 (Power=1)
+>Debt
+>
+>      An Overdue Payment Order is a Payment Order which is presently
+>      effective, has been effective for more than seven days, and has
+>      not been satisfied, unless the payor of the Payment Order was
+>      On Hold at the time it was issued, in which case it becomes
+>      overdue if it remains effective and unsatisfied for more than
+>      seven days after the payor first comes Off Hold.
+>
+>What do you think?
+
+I think you're right. Does 'effective' imply 'undisputed'?
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jul  9 02:23 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id CAA11904 for <dpb@cs.brown.edu>; Thu, 9 Jul 1998 02:23:01 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA28271
+	for agora-discussion-list; Thu, 9 Jul 1998 16:18:38 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA28268
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 9 Jul 1998 16:18:26 +1000
+Received: (from gardner@localhost) by silas-1.cc.monash.edu.au (8.8.8/8.8.0) id QAA31090 for agora-discussion@gecko.serc.rmit.edu.au; Thu, 9 Jul 1998 16:18:19 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199807090618.QAA31090@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: proto: Make Being On Hold Safe Again
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 9 Jul 1998 16:18:19 +1000 (EST)
+In-Reply-To: <199807090320.UAA27985@fred.fhcrc.org> from "Ross Morgan-Linial" at Jul 8, 98 08:18:13 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1381
+
+Ross Morgan-Linial wrote:
+>
+>David Albertz <dalbertz@rmv.state.ma.us> wrote:
+>> Looks OK.  But it might be easier and cleaner just to amend the definition of
+>> "Overdue".
+>> 
+>> Rule 1713/5 (Power=1)
+>> Debt
+>> 
+>>       An Overdue Payment Order is a Payment Order which is presently
+>>       effective, has been effective for more than seven days, and has
+>>       not been satisfied, unless the payor of the Payment Order was
+>>       On Hold at the time it was issued, in which case it becomes
+>>       overdue if it remains effective and unsatisfied for more than
+>>       seven days after the payor first comes Off Hold.
+>> 
+>> What do you think?
+>
+>Even simpler:
+>
+>      An Overdue Payment Order is a Payment Order which is presently 
+>      effective, has been effective for more than seven days during 
+>      which the payor was not On Hold, and has not been satisfied.
+>
+>This gives the player the benefit of a full seven days (which may or 
+>may not be a good thing).
+
+I think your version is more complicated to administer, since it
+requires Recordkeepors to track in much more detail exactly when
+Players are coming On and Off Hold. So I prefer Crito's.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jul  9 04:27 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA13899 for <dpb@cs.brown.edu>; Thu, 9 Jul 1998 04:27:26 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA28816
+	for agora-discussion-list; Thu, 9 Jul 1998 18:25:54 +1000
+Received: from smtp2.erols.com (smtp2.erols.com [207.172.3.235])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA28812
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 9 Jul 1998 18:25:50 +1000
+Received: from deep-thought (207-172-240-128.s1.as3.bsd.erols.com [207.172.240.128])
+	by smtp2.erols.com (8.8.8/8.8.5) with SMTP id EAA23557
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 9 Jul 1998 04:25:29 -0400 (EDT)
+From: "Dave Smith" <changeling@erols.com>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: RE: DIS: Re: OFF: election result
+Date: Thu, 9 Jul 1998 04:36:05 -0400
+Message-ID: <000301bdab14$9cf772c0$0bf0accf@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2173.0
+Importance: Normal
+In-Reply-To: <199807082247.IAA23664@gecko.serc.rmit.edu.au>
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 259
+
+
+> > Wouldn't it make more sense to have obligations apply to the
+> Office not the
+> > Player holding the Office?
+>
+> The Speaker is not an Officer.
+>
+
+Then apply the obligations to the position of Speaker, not to the particular
+Player holding the position.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jul  9 04:42 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA14093 for <dpb@cs.brown.edu>; Thu, 9 Jul 1998 04:42:01 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA28900
+	for agora-discussion-list; Thu, 9 Jul 1998 18:40:11 +1000
+Received: from smtp2.erols.com (smtp2.erols.com [207.172.3.235])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA28897
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 9 Jul 1998 18:40:08 +1000
+Received: from deep-thought (207-172-240-9.s9.as1.bsd.erols.com [207.172.240.9])
+	by smtp2.erols.com (8.8.8/8.8.5) with SMTP id EAA23942
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 9 Jul 1998 04:40:07 -0400 (EDT)
+From: "Dave Smith" <changeling@erols.com>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: DIS: RE: proto: Make Being On Hold Safe Again
+Date: Thu, 9 Jul 1998 04:50:43 -0400
+Message-ID: <000401bdab16$a8394e40$0bf0accf@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2173.0
+Importance: Normal
+In-Reply-To: <199807090006.KAA10684@silas-2.cc.monash.edu.au>
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 1056
+
+>
+> Dave Smith wrote:
+> >
+> >> If you pay all your debts, go on hold, get levyed with a tax just
+> >> afterwards,
+> >> and then don't come back off hold until the tax levy becomes
+> >> overdue, you will
+> >> get hit with a PI Blot for that tax levy.
+> >>
+> >
+> >Hmmm...  maybe we need a Rule that causes currencies held by
+> Players on hold
+> >to be treated as if they weren't in circulation.
+>
+> I don't really see how that would help. It might delay a little the
+> necessity for levying a tax, bvut it certainly won't make it impossible
+> for a tax to be levied, and so won't solve the problem.
+>
+
+Hmmm....  Perhaps what I really meant to say is that we might temporarily
+treat currencies held by Players on hold as if they didn't exist.  They
+don't count as in circulation and when a tax is levied the Player in
+question is not considered to be holding any of the currency.
+
+I like your idea of simply giving the Player time to pay.  Couldn't this be
+done by requiring all POs issued to a Player on Hold be stayed until they
+come off hold?
+
+-Macross
+I
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jul  9 05:34 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA14852 for <dpb@cs.brown.edu>; Thu, 9 Jul 1998 05:34:46 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA29146
+	for agora-discussion-list; Thu, 9 Jul 1998 19:33:06 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA29143
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 9 Jul 1998 19:33:01 +1000
+Received: (from gardner@localhost) by silas-1.cc.monash.edu.au (8.8.8/8.8.0) id TAA31542 for agora-discussion@gecko.serc.rmit.edu.au; Thu, 9 Jul 1998 19:32:54 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199807090932.TAA31542@silas-1.cc.monash.edu.au>
+Subject: Re: DIS: RE: proto: Make Being On Hold Safe Again
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 9 Jul 1998 19:32:54 +1000 (EST)
+In-Reply-To: <000401bdab16$a8394e40$0bf0accf@deep-thought> from "Dave Smith" at Jul 9, 98 04:50:43 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 549
+
+Dave Smith wrote:
+>
+>I like your idea of simply giving the Player time to pay.  Couldn't this be
+>done by requiring all POs issued to a Player on Hold be stayed until they
+>come off hold?
+
+Well, that's basically what I proposed to do, although I didn't use the
+technical language of staying. But Crito's solution is probably
+preferable.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jul  9 10:44 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA22229 for <dpb@cs.brown.edu>; Thu, 9 Jul 1998 10:44:41 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA30373
+	for agora-discussion-list; Fri, 10 Jul 1998 00:41:13 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id AAA30370
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 10 Jul 1998 00:41:07 +1000
+Received: From elgar With LocalMail ; Fri, 10 Jul 98 00:40:50 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 10 Jul 1998 00:40:49 +1000 (EST)
+Message-Id:  <980709144049.2140@cse.unsw.edu.au>
+Subject: Re: DIS: Re: BUS: Protos: More Economics
+In-Reply-To: <199807090026.KAA13481@silas-2.cc.monash.edu.au> from "Steve Gardner" at Jul 9, 98 10:26:21 am
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2206
+
+Steve Gardner writes:
+> 
+> Malcolm Ross Kinsella Ryan wrote:
+> >
+> >Various ideas that popped into my head this evening;
+> 
+> Interesting ideas, Blob.
+
+Thankyou.
+
+> >[Comment: Yet another parameter for the economy. Gives us a way 
+> > to handle voting slumps, like the present one, by making voting
+> > cheaper. If tied to the Assessor's income, as proto'ed above, it
+> > gives the Assessor an interesting dilemma - does e raise prices to
+> > increase eir commission, or would e be better off lowering them
+> > and attracting more voters?] 
+> 
+> Zefram used to have a lot of ideas for making voting cheaper, and 
+> I didn't much like any of them. This is a little better because the
+> Voting Tariff is a lever. Still, the general objection remains: why
+> make VTs scarce if you're only going to react by making voting cheaper?
+> (Although I suppose I can anticipate your reply: VTs will remain both
+> scarce and valuable in this system because there's always the
+> possibility that costs will rise.)
+
+Firstly, I will point out that you are objecting not to the proposal
+itself, but to my recommendation how the Assessor might use this lever
+in the current situation. It doesn't necessarily follow that having the
+lever is a bad thing. The Chancellor could allieviation the current
+problems by raising the BOS significantly, but e doesn't because there
+is sufficient political pressure for em not to.
+
+Perhaps this lever is redundant then, because the same effect could
+be had by increasing the BOS and the tax threshold. To some degree this
+is true, but I rather like the symmetry of having a this third lever.
+I could create some interesting dynamics between the Chancellor,
+Accountor and Assessor. Tying it to the Assessor's income makes things
+even more interesting.
+
+On matters of economic policy, I will say more in a follwoing email.
+
+Blob
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jul  9 11:10 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA23155 for <dpb@cs.brown.edu>; Thu, 9 Jul 1998 11:10:01 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA30723
+	for agora-discussion-list; Fri, 10 Jul 1998 01:07:00 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA30720
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 10 Jul 1998 01:06:58 +1000
+Received: From elgar With LocalMail ; Fri, 10 Jul 98 01:06:47 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au (Nomic Discussion)
+Date: Fri, 10 Jul 1998 01:06:46 +1000 (EST)
+Message-Id:  <980709150646.2289@cse.unsw.edu.au>
+Subject: DIS: Economic policy
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1599
+
+On the current economic situation, I am pleased to see that our economy
+seems to have taken off at last. The degree of wheeling and dealing
+going on excites me, and I'm not about to suggest that we go back to
+the days when everything was free.
+
+I do, however, think we have picked an inopportune time to be
+experimenting with quite this level of scarcity, when a large proportion
+of our population is relatively inactive. As a result, we seem to be
+struggling to achieve quorum on every single proposal, which is 
+getting rather tedious. 
+
+The blame for this does not really lie on our current economic policy.
+History will show that this sort of lull happens every year. But this
+year we have the tools in place to rectify the situation. By setting
+the parameters correctly, we can boost our economy through this
+difficult time. Not to remove all economic pressures, but to save
+the game from stagnation as proposal after proposal fails to gather
+enough support to even make Quorum. 
+
+The most excellent thing about the economic levers we have established
+is that we can tune our economy from season to season, to suit the 
+level of activity at that time. This being a naturally dry season,
+I suggest we turn up the sprinklers. :)
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jul  9 12:13 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA24906 for <dpb@cs.brown.edu>; Thu, 9 Jul 1998 12:13:40 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA30970
+	for agora-discussion-list; Fri, 10 Jul 1998 02:10:01 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id CAA30964
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 10 Jul 1998 02:09:57 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 09 Jul 1998 12:09:38 -0400
+Message-Id: <s5a4b302.088@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 09 Jul 1998 12:08:49 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: Make Being On Hold Safe Again
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 975
+
+Re: DIS: proto: Make Being On Hold Safe Again
+
+Antimatter wrote:
+
+>>       An Overdue Payment Order is a Payment Order which is presently
+>>       effective, has been effective for more than seven days, and has
+>>       not been satisfied, unless the payor of the Payment Order was
+>>       On Hold at the time it was issued, in which case it becomes
+>>       overdue if it remains effective and unsatisfied for more than
+>>       seven days after the payor first comes Off Hold.
+
+>Even simpler:
+
+>      An Overdue Payment Order is a Payment Order which is presently 
+>      effective, has been effective for more than seven days during 
+>      which the payor was not On Hold, and has not been satisfied.
+
+Yes, but this has the disadvantage of allowing a Player to postpone PI
+infractions indefinitely by remaining On Hold except for the infinitessimal
+time it takes to make a move within a message.  Of course, e could only send
+one such message every 96 hours.
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jul  9 12:25 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA25266 for <dpb@cs.brown.edu>; Thu, 9 Jul 1998 12:25:43 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA31037
+	for agora-discussion-list; Fri, 10 Jul 1998 02:23:56 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id CAA31034
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 10 Jul 1998 02:23:52 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 09 Jul 1998 12:23:38 -0400
+Message-Id: <s5a4b64a.093@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 09 Jul 1998 12:23:00 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: Make Being On Hold Safe Again
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1027
+
+Re: DIS: proto: Make Being On Hold Safe Again
+
+Steve asks:
+
+>>      An Overdue Payment Order is a Payment Order which is presently
+>>      effective, has been effective for more than seven days, and has
+>>      not been satisfied, unless the payor of the Payment Order was
+>>      On Hold at the time it was issued, in which case it becomes
+>>      overdue if it remains effective and unsatisfied for more than
+>>      seven days after the payor first comes Off Hold.
+
+>>What do you think?
+
+>I think you're right. Does 'effective' imply 'undisputed'?
+
+Interestingly, I can no longer find a definition of 'disputed Order' in the
+Rules, although I think the natural meaning would be an Order whose validity is
+the subject of a pending CFJ.  In that case the CotC is required to stay the
+order and I think 'effective' does imply that the order must be neither stayed
+nor vacated.  Of course you don't automatically get this protection upon filing
+a CFJ.  You have to wait until the CotC actually issues the stay order.
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jul  9 12:30 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA25361 for <dpb@cs.brown.edu>; Thu, 9 Jul 1998 12:30:11 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA31078
+	for agora-discussion-list; Fri, 10 Jul 1998 02:28:17 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id CAA31075
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 10 Jul 1998 02:28:14 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 09 Jul 1998 12:28:09 -0400
+Message-Id: <s5a4b759.096@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 09 Jul 1998 12:27:15 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: RE: proto: Make Being On Hold Safe Again
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 482
+
+DIS: RE: proto: Make Being On Hold Safe Again 
+
+macross wrote:
+
+>I like your idea of simply giving the Player time to pay.  Couldn't this be
+>done by requiring all POs issued to a Player on Hold be stayed until they
+>come off hold?
+
+Yes, that's a nice, clean solution too.  I wonder if anyone (Scott) would
+object to the condition that a PO is automatically stayed when issued to a
+Player On Hold and automatically becomes effective as soon as the Player comes
+Off Hold?
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jul  9 22:51 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA11179 for <dpb@cs.brown.edu>; Thu, 9 Jul 1998 22:51:36 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA02301
+	for agora-discussion-list; Fri, 10 Jul 1998 12:42:22 +1000
+Received: from smtp2.erols.com (smtp2.erols.com [207.172.3.235])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA02295
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 10 Jul 1998 12:41:42 +1000
+Received: from deep-thought (207-172-241-18.s18.as5.bsd.erols.com [207.172.241.18])
+	by smtp2.erols.com (8.8.8/8.8.5) with SMTP id WAA19533
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 9 Jul 1998 22:41:12 -0400 (EDT)
+From: "Dave Smith" <changeling@erols.com>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: RE: DIS: Re: BUS: Protos: More Economics
+Date: Thu, 9 Jul 1998 22:51:09 -0400
+Message-ID: <000501bdabad$976ae960$0bf0accf@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2173.0
+Importance: Normal
+In-Reply-To:  <980709144049.2140@cse.unsw.edu.au>
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 211
+
+Blob wrote:
+> Perhaps this lever is redundant then, because the same effect could
+> be had by increasing the BOS and the tax threshold. 
+
+The effects of the two are VERY different for us non-Officers.
+
+-Macross
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Jul  9 22:52 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA11185 for <dpb@cs.brown.edu>; Thu, 9 Jul 1998 22:51:59 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA02317
+	for agora-discussion-list; Fri, 10 Jul 1998 12:45:57 +1000
+Received: from smtp2.erols.com (smtp2.erols.com [207.172.3.235])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA02314
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 10 Jul 1998 12:45:53 +1000
+Received: from deep-thought (207-172-241-18.s18.as5.bsd.erols.com [207.172.241.18])
+	by smtp2.erols.com (8.8.8/8.8.5) with SMTP id WAA21248
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 9 Jul 1998 22:45:53 -0400 (EDT)
+From: "Dave Smith" <changeling@erols.com>
+To: <agora-discussion@gecko.serc.rmit.edu.au>
+Subject: DIS: RE: RE: proto: Make Being On Hold Safe Again
+Date: Thu, 9 Jul 1998 22:55:50 -0400
+Message-ID: <000601bdabae$3f32e080$0bf0accf@deep-thought>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2173.0
+Importance: Normal
+In-Reply-To: <s5a4b759.096@rmv.state.ma.us>
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 375
+
+> Yes, that's a nice, clean solution too.  I wonder if anyone (Scott) would
+> object to the condition that a PO is automatically stayed when issued to a
+> Player On Hold and automatically becomes effective as soon as the
+> Player comes
+> Off Hold?
+>
+
+Why not have the announcement of going on and off hold Implicitly Order the
+stay and implicitly vacate the stay?
+
+-Macross
+
+

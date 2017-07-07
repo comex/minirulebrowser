@@ -1,0 +1,1096 @@
+From owner-agora-official@gecko.serc.rmit.edu.au Wed Dec 17 03:15 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id DAA07088 for <dpb@cs.brown.edu>; Wed, 17 Dec 1997 03:15:44 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA28457
+	for agora-official-list; Wed, 17 Dec 1997 19:11:16 +1100
+Received: from kiwi.easynet.co.uk (kiwi.easynet.co.uk [193.131.248.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id TAA28452
+	for <agora-official@gecko.serc.rmit.edu.au>; Wed, 17 Dec 1997 19:11:07 +1100
+Received: (qmail 25484 invoked from network); 17 Dec 1997 08:14:05 -0000
+Received: from eljefe.easynet.co.uk (HELO ?195.40.61.175?) (195.40.61.175)
+  by kiwi.easynet.co.uk with SMTP; 17 Dec 1997 08:14:05 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <l03110700b0bc87f0186f@[195.40.61.175]>
+Mime-Version: 1.0
+Date: Tue, 16 Dec 1997 19:35:36 +0000
+To: agora-official@gecko.serc.rmit.edu.au (Agora Nomic)
+From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+Subject: OFF: CFJ 1073 Judgement: TRUE
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 15076
+
+======================================================================
+
+                               CFJ 1073
+
+                "Votes were cast on Proposals 3601-3613."
+
+======================================================================
+
+Judge:       Swann
+Judgement:   TRUE
+
+Eligible:    Andre, Blob, Chuck, Crito, elJefe, General Chaos, Harlequin,
+             Kolja A., Michael, Morendil, Murphy, Oerjan, Swann,
+
+Ineligible:
+Caller:      Steve
+Barred:
+On request:
+On hold:     Vir
+
+======================================================================
+History:
+
+  Called by Steve, 8 Dec 1997 15:43:52 +1100
+  Assigned to Swann, 8 Dec 1997 22:49:31 +0000
+  Judged TRUE, 15 Dec 1997 12:46:41 -0500
+
+
+======================================================================
+Caller's Arguments:
+
+The following summarizes, I hope, the consensus reached in
+discussions between Crito, Chuck and myself concerning the casting of
+votes during the period of the infection of R1598. Any mistakes are
+my own.
+
+The infection of R1598 invalidated the Rule which defines Transfer
+Orders. We accept that this had the effect of making impossible the
+execution of any delayed implicit Transfer Orders such as would
+ordinarily arise from messages sent to the Public Forum purporting to
+be voting messages. Since both Rules 1442 and 206 state that the
+casting of any votes may only be achieved by the spending of Voting
+Tokens, it was initially thought that it would be impossible to cast
+votes on any Proposals whose Voting Periods concluded during the
+period of the infection of R1598. This initial view is reflected in
+the Assessor's Report of the results for Proposals 3601-3613, in
+which all the Proposals are listed as having failed, with no votes
+cast either for or against them.
+
+However, Crito has persuasively argued that this initial view is
+mistaken. A closer look at R1442 shows that, despite the connotations
+ordinarily attached to the word 'spend', the spending of Voting Tokens
+for the purposes of R1442 does not require the execution of the
+implicit delayed Transfer Orders which normally arise from voting
+messages. It requires only the submission of such Transfer Orders,
+and this is not blocked by the infection of R1598. R1442 states
+that:
+
+      A Voting Entity may specify that e casts no Votes on a Proposal,
+      and doing so cancels any previously Votes cast on that Proposal...
+
+Since R1442 begins by stating that the casting of any votes may only
+be achieved by the spending of VTs, and since the Rule also obviously
+accepts that votes are cast when a voting message appears in the PF,
+it follows that the submission of the implicit delayed TOs associated
+with the votes in a voting message is sufficient, for the purposes
+of R1442, for regarding VTs as having been spent. The execution of
+those TOs is not necessary. Hence the infection of R1598 did not
+prevent the casting of votes on Proposals 3601-3613.
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road,
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra
+
+
+======================================================================
+Judge's reasoning and Arguments:
+
+The central question of the Statement, once it is given that there were
+unequivocally posts to the PF that alleged themselves to be player's
+votes on the given proposals, is whether or not the infection of Rule
+1598 prevented those votes from being, in the terms of Rule 206, Rule
+683, Rule 1741 and others, "cast."
+
+Looking at what the infection of Rule 1598 did to the Ruleset, it left
+the Rules without an explicit definition of what a Transfer Order was,
+and more importantly it left us without a definition of what it was to
+submit or execute a Transfer Order.  While it might have been legal for
+Recordkeepors to continue paying attention to attempted TOs without
+these definitions, the fact is they did not do so, and that decision was
+at least as legal as the alternative.  So it is a fact that no TOs were
+successfully made or executed during the period of Rule 1598.
+
+So the question is, can a Vote be cast without a successful Transfer
+Order?  Can Votes be cast when TOs are prevented by the Rules?
+
+Rule 1442 [Power 1] states;
+
+     "The casting of any votes may only be achieved by the spending of
+      VTs, as specified below. . ."
+
+The term "spending" is a unique term, that I find only in this Rule, and
+nowhere else in all the technical jargon of our Currency Rules.  If the
+word was not used as it is, I would argue for the common-sense
+definition of the term re Currencies, but the Rule does not allow this,
+since it specifies, "as specified below."  The Rule defines its own
+meaning for "spending a VT."
+
+Rule 1442 [cont.]
+
+     "A Voting Entity Votes upon a Proposal when e, during the Voting
+      Period of that Proposal, informs the Assessor of the Vote (or
+      Votes) e is casting upon that Proposal.  This act also comprises
+      the implicit submission of a delayed Transfer Order from the
+      Voting Entity to the Bank for however many VTs are necessary to
+      cast those Votes, to be executed at the end of the Voting Period
+      of that Proposal, and also the implicit cancellation of all
+      other delayed Transfer Orders submitted but not yet executed by
+      Voting on that Proposal."
+
+>From the way this is worded, the only adequate definition for "spending
+a VT" we can glean from this rule is the "implicit submission of a
+delayed Transfer Order [...] for however many VTs."   If a player can
+only cast a Vote by spending VTs, the above paragraph states how those
+votes are cast (a message to the Assessor) and how the VTs are spent (an
+implied delayed Transfer Order.)
+
+This is further strengthened by the wording later on where;
+
+Rule 1442 [cont.]
+
+     "A Voting Entity may specify that e casts no Votes on a Proposal,
+      and doing so cancels any previously Votes cast on that Proposal
+      (if done during the Voting Period of that Proposal) and cancels
+      any delayed Transfer Orders submitted but not yet executed by
+      Voting on that Proposal."
+
+The fact that when a vote is "uncast", the TO goes away implies that the
+ implied TO is the "spending" and _not_ the implied TO's execution.
+This is important, since during the infection of 1598 we had no
+mechanism for successfully executing TOs, that didn't mean that Votes
+did not continue to create implied TOs.  What the infection did was make
+"implied TO" a noun without context or effect, but not without
+existence.  (Essentially rendering the 1442 the same as if all instances
+of delayed Transfer Orders with the word Blorg.  We don't know what a
+Blorg is, or what it does, but 1442 more or less equates creating a
+Blorg with spending a VT, which is its requirement for casting a vote.)
+
+----
+
+Side Note: Rule 1730 is a strange bird which gives a stopgap
+interpretation for Delayed Transfer Order.  It still fails to give a
+procedure for executing a TO, so it doesn't really affect the above
+interpretation.  But the first paragraph of 1730 is very strange;
+
+1730 [Power 1]
+
+     "If the Executor of the source entity specifies a later time
+      (possibly implicitly) at which the Order is to be executed, then
+      the Order is executed at that time, unless cancelled prior to
+      that time.  An order of this latter type is called a "delayed
+      Transfer Order."
+
+It seems that it's lucky that Recordkeepors could still reject orders
+during the infection, otherwise they might have found themselves under
+all sorts of uncomfortable obligations.  (Since IMO the capitalization
+of the word Order doesn't deprive it of its natural meaning in absence
+of a rule to the contrary.)
+
+---
+
+Back to Rule 1442 [cont.]
+
+     "A Voting Entity's Votes on a given Proposal are counted for that
+      Proposal only if the delayed Transfer Order implicitly submitted
+      by Voting on that Proposal is successfully executed at the end
+      of the Voting Period of that Proposal."
+
+Setting aside the timing issue (if the Assessor delays the execution of
+TOs until a few hours after the end of the VP, the Rule implies they did
+not count) this is the crux of 1442 impact on the given Statement.  This
+is again because of the fact we have no executed TOs for the Proposals
+in question.  However, the problem is twofold;
+
+  i) Can 1442 prevent Votes from being "counted"?
+     (in the terms of Rule 955)
+ ii) Would this prevent those Votes from being cast?
+
+Last question first.  Rule 1442 already defines what it is to "cast" a
+vote, and it does not contradict that in the final paragraph.  According
+to 1442, a Vote is cast by sending a message to the Assessor and can
+only be "un-cast" by a cancellation of the Vote.  Whatever other rules
+say about "casting Votes" or even "casting VTs" the answer of whether
+1442 prevents casting Votes is fairly clear, it does not.
+
+Now to the final question--
+Does 1442 prevent Votes from being counted?
+
+>From Rule 955 [Power 3]
+
+     "When the Voting Period for a Proposal has ended, the Votes which
+      have been legally cast shall be counted by the Assessor."
+
+This trumps whatever 1442 would say to the contrary.  There has been
+some argument that the final restriction of 1442 implies that such Votes
+(without successfully executed TOs) are not "legally cast,"  but I think
+it is a stretch to avoid this conflict in that manner.  1442 implies
+nothing in its text about the legality of the casting of any Vote.  It
+merely defines what casting a Vote is, and makes an attempt at a
+restriction based on the results of that Vote (the implied TO).  It is
+transparent in the wording that Votes are cast at the time they are
+sent, and it is a strain to interpret the last paragraph of 1442 as
+retroactively illegalizing the casting of votes when it says nothing
+about the casting of those Votes, but only about TOs and counting Votes.
+
+It is this Judge's opinion that 1442 states that Votes are [legally]
+cast when the Voting Entity sends a message to the Assessor.  It is also
+the Judge's opinion that, due to the precedence of Rule 955, these Votes
+are to be counted by the Assessor regardless of the success or failure
+of any related Transfer Orders.  I hereby Judge the Statement True.
+
+
+=========================
+Evidence:
+
+Rule 955/3 (Power=3)
+Votes Required to Adopt a Proposal
+
+      When the Voting Period for a Proposal has ended, the Votes which
+      have been legally cast shall be counted by the Assessor.  The
+      Proposal shall then be assigned a Voting Index, as follows: the
+      Proposal received no Votes opposed, and at least one Vote in
+      favor, the Voting Index shall be Unanimity; if there are no
+      Votes in favor, the Voting Index shall be zero; in all other
+      cases, the Voting Index shall be the number of Votes in favor
+      divided by the number of Votes opposed.
+
+      If the Voting Index is greater than the Adoption Index for the
+      given Proposal, or if both equal Unanimity, then that Proposal
+      passes.  Otherwise, it fails.
+
+History:
+Initial Mutable Rule 209, Jun. 30 1993
+Amended by Proposal 396, Aug. 23 1993
+Amended by Proposal 658, Oct. 29 1993
+Amended by Proposal 761, Dec. 8 1993
+Amended by Rule 750, Dec. 8 1993
+Amended by Proposal 955, Jul. 25 1994
+Amended by Rule 750, Jul. 25 1994
+Amended(1) by Proposal 1279, Oct. 24 1994
+Amended(2) by Proposal 1531, Mar. 24 1995
+Amended(3) by Proposal 1723, Oct. 6 1995
+Mutated from MI=1 to MI=3 by Proposal 2398, Jan. 20 1996
+
+Originator: Peter Suber
+Authors: Peter Suber, ...
+
+
+
+Rule 1442/11 (Power=1)
+Using VTs
+
+      The casting of any votes may only be achieved by the spending
+      of VTs, as specified below.
+
+      A Voting Entity Votes upon a Proposal when e, during the Voting
+      Period of that Proposal, informs the Assessor of the Vote (or
+      Votes) e is casting upon that Proposal.  This act also comprises
+      the implicit submission of a delayed Transfer Order from the
+      Voting Entity to the Bank for however many VTs are necessary to
+      cast those Votes, to be executed at the end of the Voting Period
+      of that Proposal, and also the implicit cancellation of all
+      other delayed Transfer Orders submitted but not
+      Voting on that Proposal.
+
+      A Voting Entity may specify that e casts no Votes on a Proposal,
+      and doing so cancels any previously Votes cast on that Proposal
+      (if done during the Voting Period of that Proposal) and cancels
+      any delayed Transfer Orders submitted but not yet executed by
+      Voting on that Proposal.
+
+      A Voting Entity's Votes on a given Proposal are counted for that
+      Proposal only if the delayed Transfer Order implicitly submitted
+      by Voting on that Proposal is successfully executed at the end
+      of the Voting Period of that Proposal.
+
+History:
+Created by Proposal 1479, Mar. 15 1995
+Amended(1) by Proposal 1533, Mar. 24 1995
+Amended(2) by Proposal 1538, Apr. 4 1995
+Amended(3) by Proposal 1544, Apr. 14 1995
+Amended(4) by Proposal 1565, Apr. 28 1995
+Amended(5) by Proposal 1601, Jun. 19 1995
+Amended(6) by Proposal 1625, Jul. 17 1995
+Amended(7) by Proposal 2506, Mar. 3 1996
+Amended(8) by Proposal 2519, Mar. 10 1996
+Amended(9) by Proposal 2736 (Oerjan), Nov. 7 1996, substantial
+Amended(10) by Proposal 3463 (Harlequin), Apr. 17 1997, substantial
+Amended(11) by Proposal 3533 (General Chaos), Jul. 15 1997,
+  substantial
+
+Authors: ..., Harlequin, General Chaos
+
+
+
+Rule 1730/0 (Power=1)
+Delayed Transfer Orders
+
+      If the Executor of the source entity specifies a later time
+      (possibly implicitly) at which the Order is to be executed, then
+      the Order is executed at that time, unless cancelled prior to
+      that time.  An order of this latter type is called a "delayed
+      Transfer Order."
+
+      A delayed Transfer Order is cancelled when the Executor of its
+      source entity transmits a message to the Recordkeepor cancelling
+      that order.
+
+      A Recordkeepor may reject a delayed Transfer Order by informing
+      the Executor of the source entity of the Order that e is
+      rejecting the Order because it is delayed (and for no other
+      reason); if e does so, that Transfer Order is discarded and
+      shall not be executed.  However, a Recordkeepor may not reject a
+      delayed Transfer Order when e is specifically prohibited from
+      rejecting such an Order.  In no case may a Recordkeepor reject a
+      Transfer Order which is not delayed.
+
+      This Rule takes precedence over other Rules pertaining to the
+      execution of Transfer Orders, and the timing thereof.
+
+History:
+Created by Proposal 3533 (General Chaos), Jul. 15 1997
+
+Originator: General Chaos
+Author: General Chaos
+
+
+======================================================================
+
+Regards,
+-- elJefe, Clerk of the Courts of Agora Nomic
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Wed Dec 17 07:56 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA11817 for <dpb@cs.brown.edu>; Wed, 17 Dec 1997 07:55:51 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA29492
+	for agora-official-list; Wed, 17 Dec 1997 23:51:14 +1100
+Received: from kiwi.easynet.co.uk (kiwi.easynet.co.uk [193.131.248.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id XAA29483
+	for <agora-official@gecko.serc.rmit.edu.au>; Wed, 17 Dec 1997 23:51:09 +1100
+Received: (qmail 6286 invoked from network); 17 Dec 1997 12:54:09 -0000
+Received: from eljefe.easynet.co.uk (HELO ?195.40.61.175?) (195.40.61.175)
+  by kiwi.easynet.co.uk with SMTP; 17 Dec 1997 12:54:09 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <l03110703b0bd3f69c4a5@[195.40.61.175]>
+Mime-Version: 1.0
+Date: Wed, 17 Dec 1997 08:38:03 +0000
+To: agora-official@gecko.serc.rmit.edu.au (Agora Nomic)
+From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+Subject: OFF: CFJ 1076 Judgement: TRUE
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 3579
+
+======================================================================
+
+                               CFJ 1076
+
+ "The Rule entitled 'A Public Voting Experiment' has not yet been
+  given a Rule Number by the Rulekeepor."
+
+======================================================================
+
+Judge:       Morendil
+Judgement:   TRUE
+
+Eligible:    Andre, Blob, Crito, elJefe, General Chaos, Harlequin,
+             Kolja A., Michael, Morendil, Murphy, Oerjan, Swann,
+
+Ineligible:
+Caller:      Steve
+Barred:      Chuck
+On request:
+On hold:     Vir
+
+======================================================================
+History:
+
+  Called by Steve, 15 Dec 1997 14:41:37 +1100
+  Assigned to Morendil, 15 Dec 1997 09:48:50 +0000
+  Judged TRUE, 16 Dec 1997 18:00:36 +0100
+
+
+======================================================================
+Caller's Arguments:
+
+Proposal 3555, which enacted 'A Public Voting Experiment', passed on
+Oct. 24, 1997. Rulekeepor Chuck subsequently assigned it, or at least
+attempted to assign it, the number 1741. This attempt, however, could
+not have been successful. The number 1741 was not, as it is required
+to be by R1349, the "least integer greater than all other Numbers
+previously given to a Rule", for that number had previously been
+assigned to the Rule 'Restore Game balance II', enacted by Proposal
+3538. It is true that at the time Chuck assigned the number 1741 to
+'A Public Voting Experiment', he did not then believe that P3538 had
+passed. However, there had been an earlier time during which he had
+believed that P3538 had passed, and during that time, he did assign
+the Number 1741 to 'Restore Game Balance II'. Although he later came
+to believe that P3538 failed and that therefore his assignment of
+the Number 1741 to 'Restore game Balance II' had been incorrect,
+subsequent events have shown that this initial estimation was the
+correct one: P3538 did pass after all, and so Chuck's assignment of
+the Number 1741 to 'Restore Game Balance II' was the assignment of a
+Rule Number to a Rule. That Number was therefore not available to be
+assigned to 'A Public Voting Experiment'. That Rule, as the Statement
+alleges, has not yet been given a Number by the Rulekeepor.
+
+Note that this argument does not rely on interpreting the controversial
+clause "...including numbers assigned to Rules later determined to
+have been incorrectly enacted" in R1349 in any particular way. Given
+that P3538 actually did pass after all, 'Restore Game Balance II' was
+correctly enacted and so this provision was not triggered.
+
+
+======================================================================
+Judge's Arguments:
+
+I am in essential agreement with the Caller's arguments.
+
+I wish to note, in addition, that this kind of confusion could
+easily be avoided by a simple legislative remedy, consisting of
+amending the 'pragmatic' provision of Rule 1349 - i.e. "The Number of
+a Rule shall be the least integer greater than all other Numbers
+previously given to a Rule (including numbers assigned to Rules later
+determined to have been incorrectly enacted)" - to clearly refer to
+incorrect *assignments* of a Rule Number rather than to the
+incorrect *enactment* of a Rule, which is at present without
+meaning.
+
+
+======================================================================
+
+Regards,
+-- elJefe, Clerk of the Courts of Agora Nomic
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Wed Dec 17 07:58 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id HAA11843 for <dpb@cs.brown.edu>; Wed, 17 Dec 1997 07:58:05 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA29488
+	for agora-official-list; Wed, 17 Dec 1997 23:51:11 +1100
+Received: from kiwi.easynet.co.uk (kiwi.easynet.co.uk [193.131.248.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id XAA29481
+	for <agora-official@gecko.serc.rmit.edu.au>; Wed, 17 Dec 1997 23:51:05 +1100
+Received: (qmail 6271 invoked from network); 17 Dec 1997 12:54:04 -0000
+Received: from eljefe.easynet.co.uk (HELO ?195.40.61.175?) (195.40.61.175)
+  by kiwi.easynet.co.uk with SMTP; 17 Dec 1997 12:54:04 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <l03110702b0bd3ea295e0@[195.40.61.175]>
+Mime-Version: 1.0
+Date: Wed, 17 Dec 1997 08:35:15 +0000
+To: agora-official@gecko.serc.rmit.edu.au (Agora Nomic)
+From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+Subject: OFF: CFJ 1075 Judgement: TRUE
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 5855
+
+======================================================================
+
+                               CFJ 1075
+
+     "Rule 1023 should be interpreted such that no Rule with lower
+      precedence than it can succeed in prohibiting activity of a
+      purely discussionary nature."
+
+Relevant Rules: 1023, 1729
+
+======================================================================
+Judge:       Oerjan
+Judgement:   TRUE
+
+Eligible:    Andre, Blob, Chuck, Crito, elJefe, General Chaos,
+             Kolja A., Michael, Morendil, Murphy, Oerjan, Swann,
+
+Ineligible:
+Caller:      Steve
+Barred:      Harlequin
+On request:
+On hold:     Vir
+
+======================================================================
+Requested Injunction:
+
+I request that the Judge issue an Injunction requiring the Rulekeepor
+to annotate R1023 with a copy of the Statement and the list of Relevant
+Rules.
+
+
+======================================================================
+History:
+
+  Called by Steve, 12 Dec 1997 14:42:31 +1100
+  Assigned to Oerjan, 12 Dec 1997 14:12:07 +0000
+  Judged TRUE, 16 Dec 1997 18:19:18 +0100
+
+
+======================================================================
+Caller's Arguments:
+
+R1023 contains the following provision:
+
+      Activity of a purely discussionary nature is excluded from the
+      ordering requirement, and may be conducted at any time.
+
+The 'ordering requirement' referred to is, of course, that of the
+ASAP Rule. But this is irrelevant to the Statement. The provision,
+I claim, has two distinct effects: it excludes discussionary activity
+from the ASAP ordering requirement (a curious provision, since no-one
+has ever been required to discuss anything), and it enforces the
+permissibility of discussion at any time. These two effects are quite
+independent of each other. So, for the purposes of judging the CFJ,
+I would say that the relevant part of R1023 reads:
+
+      Activity of a purely discussionary nature...may be conducted at
+      any time.
+
+As far as I know, this provision has never had any effect before. On
+the other hand, no Rule has ever sought to prohibit discussion before.
+Before, that is, R1729, which states, concerning Insane Proposals, that:
+
+      For such a Proposal, until the Voting Period has ended:
+      there shall be no discussing Votes, or this Rule has been bended.
+
+Leaving aside the question of whether there is an important distinction
+between breaking the Rules and bending them, this Rule clearly seeks to
+make some kinds of discussion illegal. This brings it into conflict with
+R1023, a conflict which it loses, illustrating in a particular case,
+the general truth of the Statement.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road,
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra
+
+======================================================================
+Judge's Arguments:
+
+I judge TRUE.
+
+I agree with the Caller that the second part of the cited sentence must be
+considered on its own behalf.
+
+I also do not find anything else in Rule 1023 that contradicts this.
+There are deferrence clauses, but those would merely reduce the Rule's
+precedence and so are not of concern to the Statement.
+
+(I do not think they trigger in the case of Rule 1729, anyhow.)
+
+Still, I deny the requested Injunction.  This I do because Rule 1729,
+while the immediate reason for the interest in this issue, is not actually
+relevant to its resolution.  The statement would be just as true if 1729
+did not exist.
+
+
+Rule 1023/9 (Power=2)
+Definition of "As Soon As Possible"
+
+      Whenever a Player is required to perform a certain action
+      "as soon as possible", then:
+
+      (i)  if the action is one that a Player is required to
+           perform in the course of carrying out Official
+           duties, then the Player is required to perform the
+           action within a week, and no earlier than any other
+           action which the performance of the duties of that
+           Office already requires em to perform as soon as
+           possible;
+
+      otherwise,
+
+      (ii) e is required to perform that action within a week,
+           and no earlier than any other action e is already
+           required to perform as soon as possible which is not an
+           action performed in the course of carrying out Official
+           duties.
+
+      A Player who fails to observe these requirements commits the
+      the Infraction of Tardiness, the penalty for which shall be the
+      same as that for a Class D Crime. All Players are authorized to
+      detect and report the commission of the Infraction of Tardiness.
+
+      Activity of a purely discussionary nature is excluded from the
+      ordering requirement, and may be conducted at any time.
+
+      This Rule does not deprive actions which do not conform to its
+      requirements of whatever effects they would otherwise have.
+      Rather, this Rule defines the latest time at which actions to be
+      performed "as soon as possible" may be performed without
+      incurring a Penalty.  It takes precedence over other Rules which
+      define a later latest time for the performance of these actions.
+      Other Rules may impose earlier latest times, and if so, this
+      Rule defers to them.
+
+      This Rule defers to Rules which describe the responsibilities of
+      Players who are On Hold, and to any Rules which impose different
+      requirements on the timing of Official Duties.
+
+
+======================================================================
+
+Regards,
+-- elJefe, Clerk of the Courts of Agora Nomic
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Wed Dec 17 11:51 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA18239 for <dpb@cs.brown.edu>; Wed, 17 Dec 1997 11:51:12 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA30731
+	for agora-official-list; Thu, 18 Dec 1997 03:44:55 +1100
+Received: from poverty.bloomington.in.us (dial-126-39.ucs.indiana.edu [156.56.126.39])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id DAA30728
+	for <agora-official@gecko.serc.rmit.edu.au>; Thu, 18 Dec 1997 03:44:44 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id LAA07762 for <agora-official@gecko.serc.rmit.edu.au>; Wed, 17 Dec 1997 11:46:13 -0500
+Message-Id: <199712171646.LAA07762@poverty.bloomington.in.us>
+To: agora-official@gecko.serc.rmit.edu.au
+Subject: OFF: Wizard's Report
+Date: Wed, 17 Dec 1997 11:46:09 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 3706
+
+                             AGORA NOMIC
+                         OFFICE OF THE WIZARD
+			  DECEMBER 17, 1997
+
+                           Wizard's Report
+======================================================================
+
+Entity            Dec 08 Change Dec 17 
+------            ------ ------ ------ 
+Andre               1             1      
+Blob                0      -1    -1
+ChrisM              0             0     
+Chuck               3      +1     4
+Crito              -2            -2     
+elJefe              1      -2    -1
+General Chaos      -6            -6     
+Harlequin           0      +2     2
+Kolja A.            1      -1     0
+Morendil           -1            -1     
+Michael             1             1     
+Murphy             -2            -2     
+Oerjan              2             2     
+Steve               1             1     
+Swann               1      -4    -3
+Vir                 0             0     
+                                        
+favor               1*            1*    
+Macross            -1*           -1*    
+
+(Non-Players with zero Style not listed.)
+
+=======================================================================
+Changes Since Last Report
+======================================================================
+
+Proposal 3633 (Chuck): 1
+  As a general policy, I will not award style (positive or negative)
+  for a straightforward excision of concepts unless the excision is
+  handled unusually well (or badly) or with particular flair (or lack
+  thereof).  Since Chuck remembered to amend Rule 1681, he gets one
+  Style Point for not accidentially dangling a concept.
+
+Proposal 3634 (Steve): 0
+  No comment.
+
+Proposal 3635 (General Chaos): 0 [Wizard's Proposal]
+
+Proposal 3636 (General Chaos): 0 [Wizard's Proposal]
+
+Proposal 3637 (Blob): -1
+  Rule text is not formatted to standard conventions.  I also think
+  the power to declare Perpetuity should reside in the Speaker, not
+  the Registrar.
+
+Proposal 3638 (Michael): 0
+  Clean but uncomplicated excision.
+
+Proposal 3639 (Harlequin): +2
+  The idea of manually infecting a Rule is hilarious.
+
+Proposal 3640 (Harlequin): 0
+  This Proposal is its own reward.
+
+Proposal 3641 (Kolja A.): -1
+  Failure to capitalize "Promotor" and "Rule".
+
+Proposal 3642 (General Chaos): 0 [Wizard's Proposal]
+
+Proposal 3643 (General Chaos): 0 [Wizard's Proposal]
+
+Proposal 3644 (General Chaos): 0 [Wizard's Proposal]
+
+Proposal 3645 (elJefe): -2
+  Doesn't work.  elJefe failed to amend out the provision of Rule 408
+  that make a late Judge ineligible to submit a Judgement.
+
+Proposal 3646 (elJefe): 0
+  No comment.
+
+Proposal 3647 (Swann): -2
+  In general, stating that a thing is permitted is redundant with Rule
+  116, and the Wizard strongly disapproves of this construction when
+  redundant.  There are a number of similarly sloppy constructions in
+  this Proposed Rule, as well as at least one phrase which is
+  potentially ambigious on a first reading.  Not the worst Proposal
+  this Wizard has seen, but it's up there.
+
+Proposal 3648 (Swann): -1
+  "The Speaker has the power to..."  What does this mean?  Further,
+  the Proposed Rule fails to specify how the Speaker is to designate
+  such a Proposal, creating an information shortfall for the Assessor.
+
+Proposal 3649 (Swann): -1
+  "integral value that is positive, negative, or zero" is redundant,
+  and the Proposal contains several grammatical errors (including a
+  nasty comma splice in the first paragraph).
+
+======================================================================
+
+Events of Note:
+
+As of this message, Blob, elJefe, and Swann all become Boors.
+Registrar, do so note.
+
+======================================================================
+
+From owner-agora-official@gecko.serc.rmit.edu.au Wed Dec 17 14:52 EST 1997
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA24775 for <dpb@cs.brown.edu>; Wed, 17 Dec 1997 14:52:05 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA31446
+	for agora-official-list; Thu, 18 Dec 1997 06:46:52 +1100
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id GAA31443
+	for <agora-official@gecko.serc.rmit.edu.au>; Thu, 18 Dec 1997 06:46:48 +1100
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 17169]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49549-32662>; Wed, 17 Dec 1997 20:47:15 +0100
+Date: 	Wed, 17 Dec 1997 20:47:04 +0100 (MET)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: Agora Official List <agora-official@gecko.serc.rmit.edu.au>
+Subject: OFF: MUTATION Report for Week of December 15-21, 1997
+Message-ID: <Pine.LNX.3.96.971217172715.6750C-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 6450
+
+Certain REMARKS have come phorth that my POETRY has not based on an
+AUTHENTIC sources (I could find not such on the NET.  I blame the
+TOLKIEN ESTATE and its intolerant COPYRIGHT POLICIES.) My POETRON
+works hard but is NOT able to find a suitable rhyme for "Lab" YET.
+AnyHOW.
+
+
+There be 12 DELETABLE sentences in the Frankenstein Rule.
+
+The first number is 558, giving 5 as our MOD 4, and the second number
+is 13467, giving 1 as our MOD 3.  SENTENCE 1 is selected:
+
+      Any other Rule to the contrary notwithstanding, the casting of
+      any votes by Voting Entities on Proposals, Elections or
+      Referenda, may only be achieved by sending a message to the
+      Frankenstein Monster.
+
+The second sentence is chosen AMONG sentences 2-12.  The number is
+16145, giving 61 = 6 (mod 11), or sentence number SEVEN:
+
+      Frankenstein Monsters are permitted to submit Statements for
+      Judgement to the Game of InterNomic.
+
+Per my POLICY, sentence _1_ is chosen to be deleted.
+
+
+We must AGAIN select a Rule.  The Rulekeepor has selected number 1749
+for the "Public Voting experiment", which means the PRELIMINARY number
+for "Read the Ruleset Week" has been taken.  So will the latter Rule
+be temporarily assigned number 0.
+
+555, 871, 1271, 1442.
+
+Rule 1442/11 (Power=1)
+Using VTs
+
+      The casting of any votes may only be achieved by the spending
+      of VTs, as specified below.
+
+      A Voting Entity Votes upon a Proposal when e, during the Voting
+      Period of that Proposal, informs the Assessor of the Vote (or
+      Votes) e is casting upon that Proposal.  This act also comprises
+      the implicit submission of a delayed Transfer Order from the
+      Voting Entity to the Bank for however many VTs are necessary to
+      cast those Votes, to be executed at the end of the Voting Period
+      of that Proposal, and also the implicit cancellation of all
+      other delayed Transfer Orders submitted but not yet executed by
+      Voting on that Proposal.
+
+      A Voting Entity may specify that e casts no Votes on a Proposal,
+      and doing so cancels any previously Votes cast on that Proposal
+      (if done during the Voting Period of that Proposal) and cancels
+      any delayed Transfer Orders submitted but not yet executed by
+      Voting on that Proposal.
+
+      A Voting Entity's Votes on a given Proposal are counted for that
+      Proposal only if the delayed Transfer Order implicitly submitted
+      by Voting on that Proposal is successfully executed at the end
+      of the Voting Period of that Proposal.
+
+
+The Mad Scientist WISHES it recorded that the TEMPTATION to break Policy
+is currently immense.
+
+However, I see POTENTIAL in expanding upon the procedures in sentence 1-2
+of the Frankenstein Rule.  I select the sentence:
+
+      A Voting Entity Votes upon a Proposal when e, during the Voting
+      Period of that Proposal, informs the Assessor of the Vote (or
+      Votes) e is casting upon that Proposal.
+
+I select the noun "Proposal".
+
+      A Voting Entity Votes upon a Frankenstein Monster when e, during 
+      the Voting Period of that Frankenstein Monster, informs the
+      Assessor of the Vote (or Votes) e is casting upon that
+      Frankenstein Monster.
+
+The above sentence is inserted as paragraph 3 of the Frankenstein Rule,
+which now READS:
+
+Rule 1671/100 (Power=1)
+The Frankenstein Rule
+
+      There is a Nomic Entity known as a Frankenstein Monster.  A
+      Frankenstein Monster only has properties and effects as defined
+      in this Rule.  This Rule shall be known as the Frankenstein
+      Rule, and can be referred to unambiguously in that manner.  This
+      is the first paragraph.
+
+      All Frankenstein Monsters made in the proper way shall be voted
+      upon.
+
+      A Voting Entity Votes upon a Frankenstein Monster when e, during
+      the Voting Period of that Frankenstein Monster, informs the
+      Assessor of the Vote (or Votes) e is casting upon that
+      Frankenstein Monster.
+
+      An On Hold Player is not permitted to Vote on Frankenstein
+      Monsters, make Frankenstein Monsters, or hold Office, and cannot
+      be required by the Rules to perform any duty or action, unless
+      that Rule specifically states that it can require On Hold
+      Players to perform actions.
+
+      If that Player's Frankenstein Monster contains at least five Mil
+      for each Blot to be removed, then that number of Mil is
+      transferred from the Player's Frankenstein Monster, and the
+      Blots are removed; otherwise, no Mil are transferred and no
+      Blots are removed.
+
+      Any Frankenstein Monster who is not Tainted is permitted to,
+      once in any given Nomic Week, choose one specific Proposal (that
+      e is otherwise eligible to vote for) and cast one vote in 
+      addition to any others e is permitted to cast on that Proposal.
+
+      A SLC is permitted to define its own Frankenstein Monsters for
+      changing its own content, and any change to a SLC adopted in
+      accordance with its own Frankenstein Monsters is legal.
+
+      Frankenstein Monsters are permitted to submit Statements for
+      Judgement to the Game of InterNomic.
+
+      A Group with fewer than three Frankenstein Monsters is not
+      entitled to cast Votes.
+
+      The Frankenstein Monster shall receive a weekly salary
+      equal to 1.5 times the Basic Officer Salary.
+
+      There shall exist the Frankenstein Monster of Rulekeepor.
+
+      The Notary's Report includes:
+
+        i) The Name and class of each Frankenstein Monster.
+       ii) The identities of the Administrator and Executor of each
+           Frankenstein Monster.
+      iii) The Players within the Jurisdiction of each Frankenstein
+           Monster's SLC.
+       iv) The identity of the Maintainer of each Frankenstein
+           Monster's SLC.
+
+      This Rule takes precedence over any Rule which would prevent the
+      Frankenstein Monster's report of an infraction from having legal
+      effect.
+
+      This is the last paragraph. This Rule can only be subject to a
+      Rule Change as described by the Frankenstein Generator.  This
+      Rule takes precedence over all other Rules that would otherwise
+      allow this Rule to be changed in any manner whatsoever.
+
+
+The Frankenstein Rule has reached Amendment Number 100!  I expect WILD
+CELEBRATIONS, especially in Niger.
+
+HIP HIP HOORAY,
+ØRJAN.
+
+-- 
+Praeterea censeo Cyberprominem et Agim esse delendas.
+<URL:http://www.cyberpass.net/~fekete/>
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Wed Dec 17 17:13 EST 1997
+Received: from gecko.serc.rmit.edu.au (gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA29560 for <dpb@cs.brown.edu>; Wed, 17 Dec 1997 17:13:05 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id IAA31973
+	for agora-official-list; Thu, 18 Dec 1997 08:57:25 +1100
+Received: from kiwi.easynet.co.uk (kiwi.easynet.co.uk [193.131.248.4])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id IAA31970
+	for <agora-official@gecko.serc.rmit.edu.au>; Thu, 18 Dec 1997 08:57:20 +1100
+Received: (qmail 6272 invoked from network); 17 Dec 1997 22:00:18 -0000
+Received: from eljefe.easynet.co.uk (HELO ?195.40.61.175?) (195.40.61.175)
+  by kiwi.easynet.co.uk with SMTP; 17 Dec 1997 22:00:18 -0000
+X-Sender: eljefe@mail.easynet.co.uk
+Message-Id: <l03110701b0bd871af361@[195.40.61.175]>
+Mime-Version: 1.0
+Date: Wed, 17 Dec 1997 15:50:02 +0000
+To: agora-official@gecko.serc.rmit.edu.au (Agora Nomic)
+From: "Dr. Jeffrey L. Caruso" <eljefe@easynet.co.uk>
+Subject: OFF: CFJ 1074 Dismissal
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 3183
+
+======================================================================
+
+                               CFJ 1074
+
+ "A Proposer of a Disinterested Proposal is not liable for a 1 P-note
+  fee if their proposal fails."
+
+======================================================================
+
+Judge:       elJefe
+Judgement:   DISMISS
+
+Eligible:    Andre, Blob, Chuck, Crito, elJefe, General Chaos, Harlequin,
+             Kolja A., Morendil, Murphy, Oerjan, Steve, Swann,
+
+Ineligible:
+Caller:      Michael
+Barred:
+On request:
+On hold:     Vir
+
+======================================================================
+History:
+
+  Called by Michael, 10 Dec 1997 08:44:05 +0000
+  Assigned to elJefe, 10 Dec 1997 21:59:41 +0000
+  Dismissed, 17 Dec 1997 13:41:00 +0000
+
+
+======================================================================
+Caller's Arguments:
+
+The relevant sentence is in R833/9: "If the Sponsor and the Proposer
+of a Proposal are not the same and the Proposal fails, the Assessor
+shall bill the Proposer 1 P-Note."
+
+The Sponsor is earlier defined in the same rule as "The entity which
+paid the Petition fee for a given Proposal".  By definition, a
+Disinterested Proposal does not have a Sponsor, so the first sentence
+quoted is best interpreted as having no meaning; just as sentences
+involving the "King of France in 1997" are meaningless.
+
+Without that sentence, there is no requirement for the Proposer of a
+Disinterested Proposal to be billed.
+
+Michael.
+
+======================================================================
+Judge's Arguments:
+
+I would like to judge this TRUE.  The facts and Rules are as noted by the
+Caller, in particular the crucial sentence of Rule 833, "If the Sponsor and
+the Proposer of a Proposal are not the same and the Proposal fails, the
+Assessor shall bill the Proposer 1 P-Note."  Any meaning that it has
+clearly presupposes that the Sponsor and the Proposer are entities.  Since
+the Sponsor does not exist (for a Disinterested proposal), the antecedent
+is False by virtue of depending on a false assumption, and so the
+consequent does not take effect.
+
+The trouble is that the statement is phrased too broadly.  Another Rule
+seeks to impose a 1 P-note fee on a Proposer in certain situations, namely
+Rule 1451 for disowning a Proposal.  Judging TRUE would bind us to an
+interpretation in which this fee cannot be imposed either, and that would
+be wrong.  On the other hand, judging FALSE is also inappropriate.
+
+The best way to treat such incomplete hypotheticals as the Statement, is to
+hold them unjudgeable as not containing sufficient information.  In this
+case, there is no way to discover whether or not the hypothetical failed
+Disinterested Proposal was disowned, and thus no way to find sufficient
+information to judge true or false.  Therefore I dismiss the CFJ under Rule
+1565(vi).
+
+
+======================================================================
+
+Regards,
+-- elJefe, Clerk of the Courts of Agora Nomic
+
+
+************************************************
+  Dr. Jeffrey L. Caruso <eljefe@easynet.co.uk>
+  Department of Pure Mathematics and Mathematical Statistics
+  Cambridge University
+
+  also at <jlc@dpmms.cam.ac.uk>
+
+
+

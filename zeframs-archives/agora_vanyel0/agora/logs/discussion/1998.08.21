@@ -1,0 +1,518 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Aug 21 05:21 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@[131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA00547 for <dpb@cs.brown.edu>; Fri, 21 Aug 1998 05:21:07 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA03493
+	for agora-discussion-list; Fri, 21 Aug 1998 19:15:54 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA03490
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 21 Aug 1998 19:15:52 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id TAA10676
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 21 Aug 1998 19:15:52 +1000 (EST)
+	(envelope-from michael.norrish@cl.cam.ac.uk)
+X-Authentication-Warning: fw.serc.rmit.edu.au: mail set sender to <michael.norrish@cl.cam.ac.uk> using -f
+Received: from heaton.cl.cam.ac.uk(128.232.32.11) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma010674; Fri, 21 Aug 98 19:15:31 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0z9nGr-00021T-00; Fri, 21 Aug 1998 10:14:09 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0z9nGo-00005J-00; Fri, 21 Aug 1998 10:14:06 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13789.14942.574898.983164@albatross.cl.cam.ac.uk>
+Date: Fri, 21 Aug 1998 10:14:06 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: R1686, R1585 & R1023
+In-Reply-To: <199808210311.NAA05607@silas-1.cc.monash.edu.au>
+References: <199808201230.HAA10869@poverty.bloomington.in.us>
+	<199808210311.NAA05607@silas-1.cc.monash.edu.au>
+X-Mailer: VM 6.61 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1329
+Lines: 30
+
+Steve Gardner writes:
+ 
+>> I also agree with Michael that there is no conflict when the rules in
+>> question are written so as to avoid it.
+ 
+> I have no quarrel with either of you on that point. I only claim
+> that you can't avoid conflict by using a deference clause, since the
+> way the Rules talk about deference clauses makes it clear that they
+> only get invoked when a conflict already exists. If you want to
+> avoid conflicts, you have to use some other construction (eg "unless
+> another Rules says otherwise").
+ 
+Well, it looks as if the Judge agrees with you, but I have to say that
+we seem to have achieved a pretty ridiculous redefinition of what it
+is to defer to a rule.  It seems that to really defer to a rule, in
+the sense that I claim most people would understand it, we have to
+carefully write our rule not to use the word "defer".
+
+Interestingly, this discussion also suggests to me that our current
+conflict resolution method would fail to resolve:
+
+A: The value of Foo shall be 6, unless another rule states otherwise,
+   in which case, that rule's specification of Foo's value shall hold.
+
+B: The value of Foo shall be 5, unless another rule states otherwise,
+   in which case, that rule's specification of Foo's value shall hold.
+
+Any ideas on how this would pan out given the current ruleset?
+
+Michael.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Aug 21 05:51 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@[131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA00971 for <dpb@cs.brown.edu>; Fri, 21 Aug 1998 05:51:15 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA03686
+	for agora-discussion-list; Fri, 21 Aug 1998 19:46:24 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA03683
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 21 Aug 1998 19:46:22 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id TAA10709
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 21 Aug 1998 19:46:23 +1000 (EST)
+	(envelope-from michael.norrish@cl.cam.ac.uk)
+X-Authentication-Warning: fw.serc.rmit.edu.au: mail set sender to <michael.norrish@cl.cam.ac.uk> using -f
+Received: from heaton.cl.cam.ac.uk(128.232.32.11) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma010707; Fri, 21 Aug 98 19:46:16 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0z9nkg-0001QS-00; Fri, 21 Aug 1998 10:44:58 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0z9nke-00009G-00; Fri, 21 Aug 1998 10:44:56 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13789.16792.811365.907879@albatross.cl.cam.ac.uk>
+Date: Fri, 21 Aug 1998 10:44:56 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: R1686, R1585 & R1023
+In-Reply-To: <199808200107.LAA06567@silas-1.cc.monash.edu.au>
+References: <13786.38897.548505.7112@albatross.cl.cam.ac.uk>
+	<199808200107.LAA06567@silas-1.cc.monash.edu.au>
+X-Mailer: VM 6.61 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 2095
+
+Steve Gardner writes:
+> Michael Norrish wrote:
+
+>> Steve Gardner writes:
+
+>>>> No, I'm pretty sure I did cite you for FtR "immediately".  It may not
+>>>> have felt like it though, because I have fallen into the habit of
+>>>> issuing my official reports on Saturdays, which means that reports of
+>>>> salaries for the week preceding take almost a week to appear. 
+ 
+>>> Ah, but in this case, the penalties were assessed incorrectly: you
+>>> had forgotten about the previous week's Speaker Transition, and
+>>> incorrectly reported Blob for Failure to Report. Swann resigned as
+>>> Scorekeepor on July 11, and you didn't get around to correcting your
+>>> mistake until after a full week had passed from that time. I quote
+>>> from the Herald's Report:
+ 
+>>> Date: Sun, 19 Jul 1998 21:51:58 +0100
+
+>>>     Registrar Michael vacates the Failure to Report penalties assessed
+>>>     to Blob and reissues them to Steve.
+
+>> Yes, that's right, and then I assessed you once more for FtR on the
+>> 25th of July.  This second one was for failure to report during the
+>> week ending on the 19th, the previous was for failure to report on
+>> the week up to the 12th.
+
+>> [...]
+
+> So, are you agreeing with me or disagreeing with me? I can't tell!
+
+I don't know either!  I don't know what you're claiming.  If you're
+claiming that I eventually assessed the penalties incorrectly, then
+I'd say that's true in light of Murphy's judgement, though Harlequin
+could confuse things by deciding your second CFJ was FALSE.  I guess
+that all I'm claiming is that given my understanding of the rules at
+the time, I did eventually assess the correct penalties. 
+
+On a related note, what do you (addressing everyone in general)
+suppose is the best course of action with respect to all of those POs
+determined to have been issued incorrectly?  I have records of all the
+POs I've issued, but determining which were issued in the manner that
+we have recently decided was illegitimate, would be a considerable
+task.  (The thought of doing it has inspired me to try and create an
+Officer-holding time-line though..)
+
+Michael.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Aug 21 08:48 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@[131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA04349 for <dpb@cs.brown.edu>; Fri, 21 Aug 1998 08:48:20 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA04356
+	for agora-discussion-list; Fri, 21 Aug 1998 22:46:38 +1000
+Received: from sabre-wulf.nvg.ntnu.no (sabre-wulf.nvg.ntnu.no [129.241.210.67])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA04353
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 21 Aug 1998 22:46:34 +1000
+Received: from tyrell.nvg.ntnu.no ([129.241.210.70] EHLO tyrell.nvg.ntnu.no ident: oerjan [port 12109]) by sabre-wulf.nvg.ntnu.no with ESMTP id <49279-1585>; Fri, 21 Aug 1998 14:46:29 +0200
+Date: 	Fri, 21 Aug 1998 14:46:23 +0200 (CEST)
+From: Orjan Johansen <oerjan@nvg.ntnu.no>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: R1686, R1585 & R1023
+In-Reply-To: <13789.14942.574898.983164@albatross.cl.cam.ac.uk>
+Message-ID: <Pine.LNX.4.02.9808211433190.22438-100000@tyrell.nvg.ntnu.no>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8BIT
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Length: 1572
+
+On Fri, 21 Aug 1998, Michael Norrish wrote:
+
+> Interestingly, this discussion also suggests to me that our current
+> conflict resolution method would fail to resolve:
+> 
+> A: The value of Foo shall be 6, unless another rule states otherwise,
+>    in which case, that rule's specification of Foo's value shall hold.
+> 
+> B: The value of Foo shall be 5, unless another rule states otherwise,
+>    in which case, that rule's specification of Foo's value shall hold.
+> 
+> Any ideas on how this would pan out given the current ruleset?
+
+As I see it, the only sensible interpretation is that conflict-avoiding
+language is the same as deference.
+
+The mirror-image interpretation seems sensible in any case as long as both
+rules take precedence, both defer, or both try to avoid conflict as above.
+
+It is only when only one Rule contains such a clause that precedence and
+deference behave differently, because of the intuitive concept that any
+rule can limit its own power (small p) but not automatically increase it.
+
+In essence, deference may avoid conflict entirely, but may also fail in
+this if the other rule attempts to defer in a reciprocal way.  I can also
+envision a case of deference writing resulting in avoidance of conflict by
+_both_ rules losing their effect - the reason why this doesn't happen in
+your example is that the deference clauses explicitly say that the other
+rule shall have effect.
+
+Greetings,
+Ørjan.
+
+-- 
+A pro-spam bill has passed the US Senate, and is now in the House of
+Representatives.  See <http://www.cauce.org> and
+<http://www.ybecker.net/>.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Aug 21 10:39 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@[131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA07607 for <dpb@cs.brown.edu>; Fri, 21 Aug 1998 10:39:16 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA04761
+	for agora-discussion-list; Sat, 22 Aug 1998 00:37:19 +1000
+Received: from indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA04758
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 22 Aug 1998 00:37:15 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-23.ucs.indiana.edu [156.56.126.23])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id JAA32534
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 21 Aug 1998 09:37:10 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id JAA13310 for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 21 Aug 1998 09:37:07 -0500
+Message-Id: <199808211437.JAA13310@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: R1686, R1585 & R1023 
+In-reply-to: Your message of "Fri, 21 Aug 1998 10:14:06 +0100."
+             <13789.14942.574898.983164@albatross.cl.cam.ac.uk> 
+Date: Fri, 21 Aug 1998 09:37:05 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1487
+
+"Michael" == Michael Norrish <Michael.Norrish@cl.cam.ac.uk> writes:
+
+Michael> Interestingly, this discussion also suggests to me that our
+Michael> current conflict resolution method would fail to resolve:
+
+Michael> A: The value of Foo shall be 6, unless another rule states
+Michael> otherwise, in which case, that rule's specification of Foo's
+Michael> value shall hold.
+
+Michael> B: The value of Foo shall be 5, unless another rule states
+Michael> otherwise, in which case, that rule's specification of Foo's
+Michael> value shall hold.
+
+Michael> Any ideas on how this would pan out given the current
+Michael> ruleset?
+
+I don't think it is proper to interpret the clauses above as deference
+clauses in the sense of Rule 1030, because we're not dealing with
+deference between Rules, but rather two Rules who (mutually) agree to
+defer to each other's specifications.  It would be different if Rule
+A, above, said "This rule defers to any Rules which states a different
+value for Foo."  But that is not what it says.  This is deference on a
+finer level than I believe Rule 1030 contemplates, and I don't believe
+that our current Rules have much to say on this sort of deference.  I
+suspect that the proper interpretation is to consider Rules A and B to
+be in conflict, and given the absence of any explicit claim of Rule
+precedence or deference, hold that whichever of the two is of lower
+number holds.  But I am not wholly satisfied with this.  (The
+situation may in fact be paradoxical.)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Aug 21 10:40 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@[131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA07633 for <dpb@cs.brown.edu>; Fri, 21 Aug 1998 10:40:05 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA04776
+	for agora-discussion-list; Sat, 22 Aug 1998 00:38:19 +1000
+Received: from indiana.edu (cayman.ucs.indiana.edu [129.79.10.68])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA04773
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 22 Aug 1998 00:38:15 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-23.ucs.indiana.edu [156.56.126.23])
+	by indiana.edu (8.9.1/8.9.1/1.18IUPO) with ESMTP id JAA05615
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 21 Aug 1998 09:38:16 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id JAA13323 for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 21 Aug 1998 09:38:15 -0500
+Message-Id: <199808211438.JAA13323@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: R1686, R1585 & R1023 
+In-reply-to: Your message of "Fri, 21 Aug 1998 14:46:23 +0200."
+             <Pine.LNX.4.02.9808211433190.22438-100000@tyrell.nvg.ntnu.no> 
+Date: Fri, 21 Aug 1998 09:38:14 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 201
+
+"Orjan" == Orjan Johansen <oerjan@nvg.ntnu.no> writes:
+
+Orjan> As I see it, the only sensible interpretation is that
+Orjan> conflict-avoiding language is the same as deference.
+
+I disagree, strongly.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Aug 21 10:44 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@[131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA07730 for <dpb@cs.brown.edu>; Fri, 21 Aug 1998 10:44:22 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA04824
+	for agora-discussion-list; Sat, 22 Aug 1998 00:42:41 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id AAA04821
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 22 Aug 1998 00:42:37 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 21 Aug 1998 10:45:31 -0400
+Message-Id: <s5dd4fcb.045@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 21 Aug 1998 10:45:09 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: R1686, R1585 & R1023
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1534
+
+Re: DIS: R1686, R1585 & R1023
+
+Michael wrote:
+
+>Interestingly, this discussion also suggests to me that our current
+>conflict resolution method would fail to resolve:
+
+>A: The value of Foo shall be 6, unless another rule states otherwise,
+>   in which case, that rule's specification of Foo's value shall hold.
+
+>B: The value of Foo shall be 5, unless another rule states otherwise,
+>   in which case, that rule's specification of Foo's value shall hold.
+
+>Any ideas on how this would pan out given the current ruleset?
+
+The way I read the rules, this would be a case where two rules conflict with
+each other precisely because they both claim to defer to the other, so:
+
+      If two or more Rules claim to take precedence over one another
+      or defer to one another, then the numerical method again
+      governs.
+
+For the sake of argument, suppose A has a lower number.  Now we would have to
+decide how to interpret the "winning" of a conflict.  Does it mean the "losing"
+rule is treated as if it didn't exist?  In this case the value of Foo would be
+6.  Or does it mean only those portions of the Rule which cause the conflict
+are ignored?  In this case the value of Foo would be 5 - i.e. Rule B's
+deference clause is ignored since it creates the conflict with A's deference
+clause.  Interesting.  I suspect that we have always treated conflict
+resolution in a way that retains as much of the "losing" Rules effects as
+possible while eliminating the conflict, so I suspect the answer to the above
+would be "Foo = 5".
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Aug 21 10:54 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@[131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA08059 for <dpb@cs.brown.edu>; Fri, 21 Aug 1998 10:54:14 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA04881
+	for agora-discussion-list; Sat, 22 Aug 1998 00:52:31 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA04878
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 22 Aug 1998 00:52:29 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id AAA10940
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 22 Aug 1998 00:52:29 +1000 (EST)
+	(envelope-from michael.norrish@cl.cam.ac.uk)
+X-Authentication-Warning: fw.serc.rmit.edu.au: mail set sender to <michael.norrish@cl.cam.ac.uk> using -f
+Received: from heaton.cl.cam.ac.uk(128.232.32.11) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma010938; Sat, 22 Aug 98 00:52:22 +1000
+Received: from albatross.cl.cam.ac.uk [128.232.0.96] 
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0z9sWu-0003MJ-00; Fri, 21 Aug 1998 15:51:04 +0100
+Received: from mn200 by albatross.cl.cam.ac.uk with local (Exim 1.70 #2)
+	id 0z9sWt-0000o5-00; Fri, 21 Aug 1998 15:51:03 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13789.35159.143652.443163@albatross.cl.cam.ac.uk>
+Date: Fri, 21 Aug 1998 15:51:03 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: R1686, R1585 & R1023
+In-Reply-To: <s5dd4fcb.045@rmv.state.ma.us>
+References: <s5dd4fcb.045@rmv.state.ma.us>
+X-Mailer: VM 6.61 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 930
+
+David Albertz writes:
+> Michael wrote:
+ 
+>> Interestingly, this discussion also suggests to me that our current
+>> conflict resolution method would fail to resolve:
+ 
+>> A: The value of Foo shall be 6, unless another rule states otherwise,
+>>    in which case, that rule's specification of Foo's value shall hold.
+ 
+>> B: The value of Foo shall be 5, unless another rule states otherwise,
+>>    in which case, that rule's specification of Foo's value shall hold.
+ 
+>> Any ideas on how this would pan out given the current ruleset?
+ 
+> The way I read the rules, this would be a case where two rules
+> conflict with each other precisely because they both claim to defer
+> to the other...
+
+Yes, I would have thought this was the sensible way of seeing things
+as well, but one of the consequences of the CFJ Murphy judged seems to
+be that we're not allowed to see the above rules as deferring to each
+other after all.   
+
+Michael.
+
+ 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Aug 21 11:01 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@[131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA08509 for <dpb@cs.brown.edu>; Fri, 21 Aug 1998 11:01:06 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA04929
+	for agora-discussion-list; Sat, 22 Aug 1998 00:59:30 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id AAA04926
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 22 Aug 1998 00:59:25 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 21 Aug 1998 11:02:31 -0400
+Message-Id: <s5dd53c7.056@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 21 Aug 1998 11:01:46 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: OFF: CFJ 1104 (assigned to Harlequin)
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1014
+
+OFF: CFJ 1104 (assigned to Harlequin)
+
+Michael wrote:
+
+>======================================================================
+>                               CFJ 1104
+
+>  The presence in a Rule of deference clause, claiming that the Rule
+>  defers to another Rule, does not prevent a conflict with the other
+>  Rule arising, but shows only how the Rule says that conflict is to
+>  be resolved when it does arise.
+
+>======================================================================
+
+My 2 cents.  I have a problem with the compound nature of this CFJ.  Although I
+tend to agree that a deference clause does not *necessarily* prevent a conflict
+from arising, I do not agree that such a clause "only" shows how to resolve a
+conflict - nothing in the Rules, that I can see, prevents a Rule from deferring
+to one with which it has no conflict.  So, at this point, I would consider the
+first clause true, but the second one false, which, if I'm reading the Rules
+correctly, means it should be dismissed.
+
+-- Crito
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Fri Aug 21 11:08 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@[131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA08721 for <dpb@cs.brown.edu>; Fri, 21 Aug 1998 11:08:52 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA05191
+	for agora-discussion-list; Sat, 22 Aug 1998 01:07:07 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA05188
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sat, 22 Aug 1998 01:07:01 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Fri, 21 Aug 1998 11:10:01 -0400
+Message-Id: <s5dd5589.060@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Fri, 21 Aug 1998 11:09:06 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: OFF: Ambassador's report
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 552
+
+OFF: Ambassador's report
+
+Kolja wrote:
+
+>Unfortunately, both referenda fail quorum. If I read 1632 correctly, a
+>referendum that fails quorum is not "undecided", so Agora will not
+>vote on these proposals at all. Please let me know if you disagree
+>with this reading.
+
+I think a natural meaning for "undecided" would include failing quorum. 
+However, the Rules only explicitly designate INP Referenda as "undecided" if
+the AI is exactly one.  So I suppose you are right and we should add a fix for
+this to one of the multiple fix proposals.
+
+-- Crito
+
+

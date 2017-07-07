@@ -1,0 +1,140 @@
+From owner-agora-official@gecko.serc.rmit.edu.au Thu Jul  2 16:25 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA25893 for <dpb@cs.brown.edu>; Thu, 2 Jul 1998 16:25:44 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA26113
+	for agora-official-list; Fri, 3 Jul 1998 06:19:30 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA26110
+	for <agora-official@gecko.serc.rmit.edu.au>; Fri, 3 Jul 1998 06:19:29 +1000
+Received: From elgar With LocalMail ; Fri, 3 Jul 98 06:19:27 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-official@gecko.serc.rmit.edu.au (Nomic Official)
+Date: Fri, 3 Jul 1998 06:19:23 +1000 (EST)
+Message-Id:  <980702201924.18758@cse.unsw.edu.au>
+Subject: OFF: Plot holdings for 2 July 1998
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 677
+
+Cartographor's Report of Plot Holdings as of 2 July 1998
+
+Plot Ownership
+======================================================================
+
+There are 100 Plots, named Area00 through to Area99
+
+All Plots are owned by the bank.
+
+
+
+Plot Adjacency
+======================================================================
+
+Each Plot "AreaXY" has Longitude X and Latitude Y.
+Two Plots are adjacent if:
+
+        * They have the same Longitude, and their Latitudes differ by
+          one.
+        * They have the same Latitude, and their Longitudes differ by
+          one.
+
+
+Structures
+======================================================================
+
+No Structures exist
+
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Thu Jul  2 16:25 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id QAA25894 for <dpb@cs.brown.edu>; Thu, 2 Jul 1998 16:25:46 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id GAA26105
+	for agora-official-list; Fri, 3 Jul 1998 06:19:08 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id GAA26102
+	for <agora-official@gecko.serc.rmit.edu.au>; Fri, 3 Jul 1998 06:19:06 +1000
+Received: From elgar With LocalMail ; Fri, 3 Jul 98 06:19:06 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-official@gecko.serc.rmit.edu.au (Nomic Official)
+Date: Fri, 3 Jul 1998 06:19:05 +1000 (EST)
+Message-Id:  <980702201905.18745@cse.unsw.edu.au>
+Subject: OFF: Erg holdings for 2 July 1998
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2535
+
+
+Cartographor's Report of Erg Holdings as of 2 July 1998
+
+======================================================================
+                                 23Jun98   02Jul98  Change   NetPOs
+
+Antimatter                          0         0       0        -
+Blob                                0         0       0        -
+Chuck                               0         0       0        -
+Crito                               0         0       0        -
+elJefe                              0         0       0        -
+G.Chaos                             0         0       0        -
+Harlequin                           0         0       0        -
+Kolja A.                            0         0       0        -
+macross                             0         0       0        -
+Michael                             0         0       0        -
+Morendil                            0         0       0        -
+Murphy                              0         0       0        -
+Oerjan                              0         0       0        -
+Sherlock's Estate                   0         0       0        -
+Steve                               0         0       0        -
+Swann                               0         0       0        -
+
+OEE                                 0         0       0        -
+Threat                              0         0       0        -
+X Group                             0         0       0        -
+
+Bank                                0         0       0        -
+
+Total                               0         0       
+
+======================================================================
+
+OUTSTANDING PAYMENT ORDERS
+
+ID     Executed          Amt.  Payor           Payee          Executor
+------ ----------------- ----- --------------  -------------- -------------
+ (none)
+
+DISPUTED PAYMENT ORDERS
+
+ID     Executed          Amt.  Payor           Payee          Executor
+------ ----------------- ----- --------------  -------------- -------------
+ (none)
+
+SATISFIED PAYMENT ORDERS
+
+ID     Exec.    Satis.   Amt.  Payor           Payee          Executor
+------ -------  -------- ----- --------------  -------------- -------------
+ (none)
+
+VACATED PAYMENT ORDERS
+
+ID     Exec.    Vacated  Amt.  Payor           Payee          Executor
+------ -------  -------- ----- --------------  -------------- -------------
+ (none)
+
+TRANSFER ORDERS
+
+Executed          Amt.   Payor            Payee              for PO Status
+----------------  -----  ---------------  -----------------  ------ ---------
+ (none)
+
+

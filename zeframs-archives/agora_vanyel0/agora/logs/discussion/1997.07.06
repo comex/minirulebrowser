@@ -1,0 +1,382 @@
+From owner-nomic-discussion@teleport.com Sun Jul  6 00:47 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA05484 for <dpb@cs.brown.edu>; Sun, 6 Jul 1997 00:47:56 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id VAA11056; Sat, 5 Jul 1997 21:46:43 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Sat, 5 Jul 1997 21:46:38 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id VAA11022 for nomic-discussion-outgoing; Sat, 5 Jul 1997 21:46:37 -0700 (PDT)
+Received: from bug1.fhcrc.org (bug1.fhcrc.org [140.107.10.110]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id VAA10970 for <nomic-discussion@teleport.com>; Sat, 5 Jul 1997 21:46:31 -0700 (PDT)
+Received: from port02-rem.fhcrc.org (port02-rem [140.107.12.32])
+	by bug1.fhcrc.org (8.8.5/8.8.5) with SMTP id VAA26683
+	for <nomic-discussion@teleport.com>; Sat, 5 Jul 1997 21:45:40 -0700 (PDT)
+Message-Id: <199707060445.VAA26683@bug1.fhcrc.org>
+Comments: Authenticated sender is <rmorganl@fred.fhcrc.org>
+From: "Ross Morgan-Linial" <rmorganl@fred.fhcrc.org>
+Organization: very little
+To: nomic-discussion@teleport.com
+Date: Sat, 5 Jul 1997 20:41:07 -0800
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: BUS: Proposal: Rebellion
+X-mailer: Pegasus Mail for Windows (v2.42a)
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 4058
+Lines: 91
+Status: N
+
+malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan) wrote:
+> H. Promotor, 
+> 
+> I hereby make the following proposal, and spend 1 P-Note to pay its
+> Petition Fee.
+> 
+> ----
+> 
+> Proposal: Make Rebellion more interesting
+> 
+> Amend Rule 1664 to read:
+> 
+>       Any Player is either Abiding or Rebellious. A new Player is always
+>       Abiding when e becomes a player. A Player whose Location is the 
+>       Beer Hall can switch from Abiding to Rebellious or from Rebellious
+>       to Abiding by sending a message to the Public Forum saying e does
+>       change so. The Registrar shall maintain a list of all Players that
+>       are Rebellious. This list is known as the Red Pages, and is part
+>       of the Registrar's Report.
+> 
+>       A Rebellious Player may Call for a Revolt at any time, by sending
+>       a message to the Public Forum saying e does so. Abiding Players may
+>       not Call for Revolt. If more than one Call for Revolt is made
+>       in a Nomic Week, only the first such Call has effect.
+> 
+>       As soon as possible after the posting of a Call for Revolt, the
+>       Registrar must determine whether the Revolt succeeds, as outlined
+>       below, and post the result to the Public Forum.
+> 
+>       The result of a Revolt is determined as follows: The Registrar
+>       selects a random integer from 1 to the number of Players at the
+>       time of the Call for Revolt. If this number is less than or equal
+>       to the number of Rebellious Players at the time of the Call for 
+>       Revolt, then the Revolt succeeds, otherwise it fails.
+
+I would prefer:
+
+       The result of a Revolt is determined as follows: The Registrar 
+       selects two random integers, the first between the number of 
+       Rebellious Players and twice that number, inclusive, and the 
+       second between the number of non-Rebellious Players and twice 
+       that number, inclusive. If the first number is greater than 
+       the second, then the Revolt succeeds, otherwise it fails.
+
+This makes less than one-third of all players being Rebellious 
+guaranteed failure, and more than two-thirds guaranteed success.
+
+>       If a Revolt succeeds, then the following events occur (in order):
+> 
+>          - All Rebellious Players lose all their Blots.
+>          - All Rebellious Players gain 3 EVs from the Bank
+
+Ah-HEM. EVs?
+
+>          - The Speaker-Elect becomes Speaker
+>          - All Players that hold one or more Offices in the normal
+>            fashion cease to hold those in a normal fashion and hold them
+>            temporarily instead.
+>          - All Rebellious Players become Abiding again
+> 
+>       If a Revolt does not succeed, then:
+> 
+>          - All Rebellious Players gain 2 Blots
+>          - The Player who Called for Revolt gains 1 (additional) Blot
+> 
+>       The Registrar is required to report all Currency and Blot transfers
+>       resulting from this Rule.
+> 
+> Create a Rule with the title "Robespierre":
+> 
+>       There shall exist a Patent Title of "Robespierre".
+>       When a Revolt succeeds, the Player who Called for the Revolt is
+>       awarded this Title, and any previous holder of the Title loses it.
+> 
+> [v1.0 The aim is to make Rebellion a bit more risky, but also to set 
+>       penalties so that if a Revolt does take place, you'd rather be
+>       on the winning side.]
+> [v1.1 fixed some language, added reporting requirement]
+> [v2.0 added Blot penalties & Patent Title]
+> [v2.1 toned down some of the rewards & penalties]
+> [v2.2 Added some language modifications suggested by Murphy]
+> [v2.3 Removed "At the time this Rule is created..." sentence]
+> [v2.4 Fiddled with the penalties again.]
+> [v3.0 Removed the penalty for Abiding Players, and changed the reward to 3 EVs]
+> [v3.1 Removed vague language about determining the result of the Revolt]
+> [v3.2 Changed to reflect new Agoraspace & Indulgences rules.]
+
+Perhaps you should change it to reflect the new VT rules? :-)
+-------------------------------
+Antimatter * rmorganl@fhcrc.org
+You have the power of negation.
+
+From owner-nomic-discussion@teleport.com Sun Jul  6 10:39 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA13229 for <dpb@cs.brown.edu>; Sun, 6 Jul 1997 10:39:03 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id HAA11849; Sun, 6 Jul 1997 07:37:42 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Sun, 6 Jul 1997 07:37:34 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id HAA11841 for nomic-discussion-outgoing; Sun, 6 Jul 1997 07:37:34 -0700 (PDT)
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id HAA11833 for <nomic-discussion@teleport.com>; Sun, 6 Jul 1997 07:37:30 -0700 (PDT)
+Received: from arapael (pppA209.francenet.fr [193.149.100.63])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id QAA28654
+	for <nomic-discussion@teleport.com>; Sun, 6 Jul 1997 16:37:28 +0200 (MET DST)
+Message-Id: <199707061437.QAA28654@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic-discussion@teleport.com
+Date: Sun, 6 Jul 1997 16:40:37 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: BUS: COE (Re: Diplomatic Update) 
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 694
+Lines: 14
+Status: N
+
+> I admit that the report as published did not count your Votes on 342
+> thru 345.  However, the report as published did count your votes on
+> 339 through 341, and the report as published made no claim regarding
+> your votes on 324 through 338.  Therefore, your COE is admitted with
+> respect to INPs 342 through 345, and denied with respect to INPs 324
+> through 341.
+
+Well, I never claimed anything as far as my Votes on any INPs other than 
+342-345 - I'm not sure you can deny a COE I never made. :)
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Walk through doors, don't crawl through Windows.
+
+
+From owner-nomic-discussion@teleport.com Sun Jul  6 11:04 EDT 1997
+Received: from portia.teleport.com (portia.teleport.com [192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA13590 for <dpb@cs.brown.edu>; Sun, 6 Jul 1997 11:04:46 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id IAA13946; Sun, 6 Jul 1997 08:04:24 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Sun, 6 Jul 1997 08:04:23 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id IAA13938 for nomic-discussion-outgoing; Sun, 6 Jul 1997 08:04:23 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-2-7.ucs.indiana.edu [129.79.18.137]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id IAA13934 for <nomic-discussion@teleport.com>; Sun, 6 Jul 1997 08:04:20 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id KAA07538 for <nomic-discussion@teleport.com>; Sun, 6 Jul 1997 10:04:16 -0500
+Message-Id: <199707061504.KAA07538@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: COE (Re: Diplomatic Update) 
+In-reply-to: Your message of "Sun, 06 Jul 1997 16:40:37 +0100."
+             <199707061437.QAA28654@logatome.micronet.fr> 
+Date: Sun, 06 Jul 1997 10:04:14 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 365
+Lines: 11
+Status: N
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+Laurent> Well, I never claimed anything as far as my Votes on any INPs
+Laurent> other than 342-345 - I'm not sure you can deny a COE I never
+Laurent> made. :)
+
+Reread your original COE.  It stated "This did not count my Votes on
+324-345."
+^^^
+
+You may not have intended to make such a COE, but you did.
+
+From owner-nomic-discussion@teleport.com Sun Jul  6 11:12 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA13713 for <dpb@cs.brown.edu>; Sun, 6 Jul 1997 11:12:34 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id IAA10974; Sun, 6 Jul 1997 08:12:02 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Sun, 6 Jul 1997 08:11:59 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id IAA10961 for nomic-discussion-outgoing; Sun, 6 Jul 1997 08:11:59 -0700 (PDT)
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id IAA10954 for <nomic-discussion@teleport.com>; Sun, 6 Jul 1997 08:11:55 -0700 (PDT)
+Received: from arapael (pppA112.francenet.fr [193.149.100.18])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id RAA29715
+	for <nomic-discussion@teleport.com>; Sun, 6 Jul 1997 17:11:50 +0200 (MET DST)
+Message-Id: <199707061511.RAA29715@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic-discussion@teleport.com
+Date: Sun, 6 Jul 1997 17:14:59 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: BUS: COE (Re: Diplomatic Update) 
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 568
+Lines: 16
+Status: N
+
+> Laurent> Well, I never claimed anything as far as my Votes on any INPs
+> Laurent> other than 342-345 - I'm not sure you can deny a COE I never
+> Laurent> made. :)
+> 
+> Reread your original COE.  It stated "This did not count my Votes on
+> 324-345."
+> ^^^
+> 
+> You may not have intended to make such a COE, but you did.
+
+Oh right - just a typo. Does 754 apply, I wonder...
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+[ This tagline has been left blank intentionally. ]
+
+
+From owner-nomic-discussion@teleport.com Sun Jul  6 11:42 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA14170 for <dpb@cs.brown.edu>; Sun, 6 Jul 1997 11:42:04 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id IAA13840; Sun, 6 Jul 1997 08:41:45 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Sun, 6 Jul 1997 08:41:44 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id IAA13831 for nomic-discussion-outgoing; Sun, 6 Jul 1997 08:41:43 -0700 (PDT)
+Received: from poverty.bloomington.in.us (xyplex5-2-7.ucs.indiana.edu [129.79.18.137]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id IAA13822 for <nomic-discussion@teleport.com>; Sun, 6 Jul 1997 08:41:40 -0700 (PDT)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id KAA07891 for <nomic-discussion@teleport.com>; Sun, 6 Jul 1997 10:41:38 -0500
+Message-Id: <199707061541.KAA07891@poverty.bloomington.in.us>
+To: nomic-discussion@teleport.com
+Subject: Re: BUS: COE (Re: Diplomatic Update) 
+In-reply-to: Your message of "Sun, 06 Jul 1997 17:14:59 +0100."
+             <199707061511.RAA29715@logatome.micronet.fr> 
+Date: Sun, 06 Jul 1997 10:41:37 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 216
+Lines: 6
+Status: N
+
+"Laurent" == Laurent Bossavit <morendil@micronet.fr> writes:
+
+Laurent> Oh right - just a typo. Does 754 apply, I wonder...
+
+I would think not, because the typo substantially changes the meaning
+of the communication.
+
+From owner-nomic-discussion@teleport.com Sun Jul  6 14:24 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id OAA16651 for <dpb@cs.brown.edu>; Sun, 6 Jul 1997 14:23:59 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id LAA07342; Sun, 6 Jul 1997 11:23:36 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Sun, 6 Jul 1997 11:23:30 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id LAA07253 for nomic-discussion-outgoing; Sun, 6 Jul 1997 11:23:29 -0700 (PDT)
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10]) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id LAA07239 for <nomic-discussion@teleport.com>; Sun, 6 Jul 1997 11:23:26 -0700 (PDT)
+Received: by  dfw.dfw.net (4.1/SMI-4.1)
+	id AA19758; Sun, 6 Jul 97 13:24:50 CDT
+Message-Id: <9707061824.AA19758@ dfw.dfw.net>
+Subject: Re: BUS: COE (Re: Diplomatic Update)
+To: nomic-discussion@teleport.com
+Date: Sun, 6 Jul 1997 13:24:50 -0500 (CDT)
+In-Reply-To: <199707061511.RAA29715@logatome.micronet.fr> from "Laurent Bossavit" at Jul 6, 97 05:14:59 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 519
+Lines: 19
+Status: N
+
+Laurent Bossavit wrote:
+>
+>> Laurent> Well, I never claimed anything as far as my Votes on any INPs
+>> Laurent> other than 342-345 - I'm not sure you can deny a COE I never
+>> Laurent> made. :)
+>> 
+>> Reread your original COE.  It stated "This did not count my Votes on
+>> 324-345."
+>> ^^^
+>> 
+>> You may not have intended to make such a COE, but you did.
+>
+>Oh right - just a typo. Does 754 apply, I wonder...
+>
+
+Somehow I doubt that "324" can be unambiguously interpreted--even
+in that context--to mean "342."
+
+Chuck
+
+From owner-nomic-discussion@teleport.com Sun Jul  6 17:08 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id RAA19229 for <dpb@cs.brown.edu>; Sun, 6 Jul 1997 17:08:02 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id OAA03991; Sun, 6 Jul 1997 14:07:43 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Sun, 6 Jul 1997 14:07:36 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id OAA03975 for nomic-discussion-outgoing; Sun, 6 Jul 1997 14:07:35 -0700 (PDT)
+Received: from logatome.micronet.fr (logatome.micronet.fr [194.51.75.1]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id OAA03942 for <nomic-discussion@teleport.com>; Sun, 6 Jul 1997 14:07:27 -0700 (PDT)
+Received: from arapael (pppA215.francenet.fr [193.149.100.69])
+	by logatome.micronet.fr (8.8.5/8.8.5) with SMTP id XAA12298
+	for <nomic-discussion@teleport.com>; Sun, 6 Jul 1997 23:07:24 +0200 (MET DST)
+Message-Id: <199707062107.XAA12298@logatome.micronet.fr>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: nomic-discussion@teleport.com
+Date: Sun, 6 Jul 1997 23:10:33 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: Re: BUS: COE (Re: Diplomatic Update)
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 486
+Lines: 13
+Status: N
+
+> >Oh right - just a typo. Does 754 apply, I wonder...
+> >
+> 
+> Somehow I doubt that "324" can be unambiguously interpreted--even
+> in that context--to mean "342."
+
+You're saying someone _could_ have thought I was referring to Votes on INPs
+dating back to, what, February of this year ? Hmmm...
+
+-[Morendil]--------[Check out Club Chat : http://www.clubchat.com/ ]-
+-[Chat enable your Web site with CUChat at http://www.netdive.com/ ]-
+Walk through doors, don't crawl through Windows.
+
+
+From owner-nomic-discussion@teleport.com Sun Jul  6 20:55 EDT 1997
+Received: from portia.teleport.com ([192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA23130 for <dpb@cs.brown.edu>; Sun, 6 Jul 1997 20:55:18 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id RAA14073; Sun, 6 Jul 1997 17:54:27 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Sun, 6 Jul 1997 17:54:17 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id RAA14055 for nomic-discussion-outgoing; Sun, 6 Jul 1997 17:54:16 -0700 (PDT)
+Received: from albeniz.orchestra.cse.unsw.EDU.AU (albeniz.orchestra.cse.unsw.EDU.AU [129.94.242.13]) by portia.teleport.com (8.8.5/8.7.3) with SMTP id RAA13980 for <nomic-discussion@teleport.com>; Sun, 6 Jul 1997 17:54:11 -0700 (PDT)
+Received: From goanna With LocalMail ; Mon, 7 Jul 97 10:53:49 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: nomic-discussion@teleport.com
+Date: Mon, 7 Jul 1997 10:53:49 +1000 (EST)
+Message-Id:  <970707005349.24279@cse.unsw.edu.au>
+Subject: Re: BUS: Proposal: Rebellion
+In-Reply-To: <199707060445.VAA26683@bug1.fhcrc.org> from "Ross Morgan-Linial" at Jul 5, 97 08:41:07 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 546
+Status: N
+
+> > 
+> >          - All Rebellious Players lose all their Blots.
+> >          - All Rebellious Players gain 3 EVs from the Bank
+> 
+> Ah-HEM. EVs?
+
+Ooops.
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  RAVE Lab, CSE, UNSW, Australia, Phone: +61 2 9385-1447 Fax: +61 2 9385-1814
+
+   "Don't accept that what's happening is just a case of others' suffering
+          Or you'll find that you're joining in The Turning Away." 
+                                                                  - Pink Floyd
+

@@ -1,0 +1,690 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 30 10:07 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id KAA18551 for <dpb@cs.brown.edu>; Thu, 30 Apr 1998 10:07:06 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA10244
+	for agora-discussion-list; Thu, 30 Apr 1998 23:54:36 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id XAA10241
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 30 Apr 1998 23:54:26 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 30 Apr 1998 09:56:39 -0400
+Message-Id: <s5484ad7.021@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 30 Apr 1998 09:55:44 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: missing results
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 7372
+
+DIS: missing results
+
+Steve wrote:
+
+>I seem to have deleted my copy of the Voting Report for Proposals
+>3730-3734. Can someone please my boiunce me a copy?
+
+Steve,
+
+Here is the copy from my archives.
+
+Regards,
+Crito
+
+Agora Nomic
+Voting Report: 3730-3734
+
+Date of this Report: Fri, 24 Apr 1998
+Date of last Report: Wed, 22 Apr 1998
+
+======================================================================
+Voting on Proposal 3730 commenced: Mon, 13 Apr 1998 14:19:51
+Voting on Proposal 3730 concluded: Sat, 18 Apr 1998 14:19:51
+
+Voting on Proposals 3731-3734 commenced: Mon, 13 Apr 1998 14:19:51 
+Voting on Proposals 3731-3734 concluded: Thu, 23 Apr 1998 14:19:51
+
+At the commencement of the Voting Periods of Proposals 3730-3734
+there were 17 Registered Players: 14 Active, 3 On Hold. Therefore the
+Quorum for these Proposals is 5 (Rule 879).
+
+   Num. Proposer      AI Title                             RESULT  F A - *
+
+U  3730 Swann          1 The Great Officer's Veto Scam...  F/Q     0-0-0-1
+   3731 Steve          1 Variable Batch Sizes              PASSES  3-0-0-2
+   3732 Kolja A.       1 No Trustees On Hold               FAILS   1-0-0-4
+   3733 Kolja A.       1 Vacated blots and scores          PASSES  3-0-0-3
+   3734 Kolja A.       1 No PI for players on hold         PASSES  4-0-0-1
+
+U = Urgent
+
+=====================================================================
+
+                    3  3  3  3  3
+                    7  7  7  7  7
+                    3  3  3  3  3
+                    0  1  2  3  4
+
+Blob                   F  *  *  *
+Kolja A.               F  *  F  F
+Murphy                 *  F 2F  F
+Steve                  F  *  *  F
+Swann               *  *  *  *  F
+
+FOR                 0  3  1  3  4
+AGAINST             0  0  0  0  0
+ABSTAIN             0  0  0  0  0
+PRESENT             1  2  4  3  1
+
+Num. Voters         5  5  5  5  5
+Quorum?             N  Y  Y  Y  Y
+PASSES?             N  Y  N  Y  Y
+
+======================================================================
+Zeitgeist
+======================================================================
+
+The Registrar should note that Steve and Kolja have successively earned
+the Patent Title of Zeitgeist for the unanimous passage of Proposals
+3731 and 3734, respectively. I hereby order the Bank to pay them 1 P-Note
+each.
+
+======================================================================
+Payment Orders
+======================================================================
+The following Payment Orders are issued, each for the reason specified:
+
+  Ass#  Payor          Payee      Amt  Currency  Reason
+aaa168  the Bank       Steve        1  P-Note    Zeitgeist, P3731
+aaa169  the Bank       Kolja        1  P-Note    Zeitgeist, P3734
+aaa170  the Bank       Steve        2  VTs       R833, NW252
+aaa171  the Bank       Kolja        2  VTs       R833, NW252
+aaa172  Blob           the Bank     1  VT        Voting
+aaa173  Kolja A.       the Bank     3  VTs       Voting
+aaa174  Murphy         the Bank     4  VTs       Voting
+aaa175  Steve          the Bank     2  VTs       Voting
+aaa176  Swann          the Bank     1  VT        Voting
+======================================================================
+Score Changes
+======================================================================
+None.
+======================================================================
+Text of Adopted Proposals
+======================================================================
+Proposal 3731 (Steve) AI = 1
+Variable Batch Sizes
+
+[Comment: fixed the bug spotted by Murphy (I think?), and decided
+after all to force the Promotor to give a bit of warning -4 days,
+in fact. Note that "midnight GMT Thursday" is assumed to mean
+Wednesday night/Thursday morning, in line with the customary 
+interpretation of R459.]
+
+Be it hereby resolved that a Rule entitled "The Promotor can change
+the Batch Size" be created with the following text:
+
+      The Batch Size is an integer with a value between two and six
+      inclusive, indicating the number of Proposals which will be
+      distributed by the Promotor in the following Nomic Week,
+      provided that there are that many Proposals in the Queue.
+      Unless the Rules give it another value, the Batch Size is five.
+
+      The Promotor may change the value of the Batch Size by
+      announcing the new value in the Public Forum, provided that
+      e announces a value between two and six inclusive, that e makes
+      the announcement prior to midnight GMT Thursday, and that e has
+      not already made such an announcement earlier in the Week. As
+      indicated above, this change in the Batch Size has the effect
+      of changing the number of Proposals which will be distributed
+      by the Promotor in the Nomic Week *following* that in which the
+      change is made; once the Week has begun, the Promotor cannot
+      change the number of Proposals which will be distributed in
+      that Week by changing the Batch Size.
+      
+Be it further resolved that R1770 (Distributing Proposals) be amended
+by replacing the text in which currently reads:
+
+      If there are five or fewer Proposals in the Proposal Queue
+      having a Priority greater than zero, then the batch shall
+      consist of all such Proposals.
+
+      If there are more than five such proposals, then the batch
+      shall consist of the first five such Proposals, in the order
+      given by the Queue.
+
+with text which reads:
+
+      If the number of Proposals in the Proposal Queue with a
+      Priority greater than zero is less than or equal to the Batch
+      Size, then the batch shall consist of all such Proposals.
+
+      If the number of Proposals in the Proposal Queue is greater
+      than the Batch Size, then the batch shall consist of those
+      Proposals in the Queue with the highest Priority such that the
+      number of Proposals distributed is equal to the Batch Size.
+
+======================================================================
+Proposal 3733 (Kolja A.) AI = 1
+Vacated blots and scores
+
+Amend 1784 by replacing the paragraph reading
+
+      Whenever a Player gains a Blot, e shall lose two Points.  The
+      Herald must order this Score change.
+
+with       
+
+      Whenever a Player gains a Blot, e shall lose two Points.
+      Whenever a Payment order for a certain number of indulgences 
+      naming a player as payor is vacated, this player shall gain a 
+      number of Points equal to twice the number of indulgences in 
+      the PO. The Herald must order this Score change.
+
+======================================================================
+Proposal 3734 (Kolja A.) AI = 1
+No PI for players on hold
+
+Amend 1713 by replacing the second sentence with the following text:
+
+      If the Executor of an entity for which, at the beginning of a 
+      given Nomic week, there is at least one Overdue Payment Order 
+      naming it as Payor is not on hold, e commits the Infraction of 
+      Persistent Indebtedness at the beginning of that Week. If the
+      Executor of such an entity comes off hold, e commits the 
+      Infraction of Persistent Indebtedness.
+
+======================================================================
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 30 11:18 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA20914 for <dpb@cs.brown.edu>; Thu, 30 Apr 1998 11:18:07 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA10730
+	for agora-discussion-list; Fri, 1 May 1998 01:09:15 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA10727
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 1 May 1998 01:09:10 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 30 Apr 1998 11:11:41 -0400
+Message-Id: <s5485c6d.049@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 30 Apr 1998 11:10:56 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Another Disinterest Proto
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1826
+
+Another Disinterest Proto
+
+Ok, so the Disinterest concept turned out to be more controversial than I
+expected.  IMO, we should either make it meaningful or get rid of it.  To that
+end, here is a proposal to eliminate it.  It would be nice to know which of
+these two options has more support - opinions greatly appreciated.
+
+-- Crito
+
+Proto: Discard Disinterest
+
+Repeal Rule 1623.
+
+Amend Rule 1723 by replacing the text:
+
+        ii) The Proposal is Interested,
+
+       iii) The Proposer has paid 2 P-Notes to the Bank, expressly
+            for this purpose (and not for any other). In order for
+            this payment to have effect, it must be made before
+            the Proposal is distributed.
+
+With the text:
+
+        ii) The Proposer has paid 2 P-Notes to the Bank, expressly
+            for this purpose (and not for any other). In order for
+            this payment to have effect, it must be made before
+            the Proposal is distributed.
+
+Amend Rule 1724 by replacing the text:
+
+        ii) The Proposal is Interested,
+
+       iii) The Proposer has paid 1 P-Note to the Bank, expressly
+            for this purpose (and not for any other). In order for
+            this payment to have effect, it must be made before
+            the Proposal is distributed.
+
+With the text:
+
+        ii) The Proposer has paid 1 P-Note to the Bank, expressly
+            for this purpose (and not for any other). In order for
+            this payment to have effect, it must be made before
+            the Proposal is distributed.
+
+Amend Rule 1729 by replacing "An Interested Proposal" with "A Proposal".
+Amend Rule 833 by replacing "an Interested Proposal" with "a Proposal".
+Amend Rule 1678 by replacing "an Interested Proposal" with "a Proposal".
+Amend Rule 1047 by replacing "an Interested Proposal" with "a Proposal".
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 30 11:49 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA21950 for <dpb@cs.brown.edu>; Thu, 30 Apr 1998 11:49:21 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA10851
+	for agora-discussion-list; Fri, 1 May 1998 01:39:44 +1000
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA10839
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 1 May 1998 01:36:04 +1000
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0yUvOp-00074O-00; Thu, 30 Apr 1998 16:37:27 +0100
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0yUvOk-0006P4-00; Thu, 30 Apr 1998 16:37:22 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13640.39600.904193.740156@merganser.cl.cam.ac.uk>
+Date: Thu, 30 Apr 1998 16:37:20 +0100 (BST)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Another Disinterest Proto
+In-Reply-To: <s5485c6d.049@rmv.state.ma.us>
+References: <s5485c6d.049@rmv.state.ma.us>
+X-Mailer: VM 6.47 under Emacs 19.34.1
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 334
+
+I'm interested in seeing what happens if we repeal Disinterest, so I
+would be happy to support this proposal.  On the other hand, rule
+changes without objection is also an interesting idea.  Perhaps we try
+both, but with a separation of a month or two between the two trials
+and with no overriding commitment to the second.
+
+Michael.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 30 21:00 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA09227 for <dpb@cs.brown.edu>; Thu, 30 Apr 1998 21:00:43 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA13037
+	for agora-discussion-list; Fri, 1 May 1998 10:54:21 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA13034
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 1 May 1998 10:54:19 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id KAA02881 for agora-discussion@gecko.serc.rmit.edu.au; Fri, 1 May 1998 10:57:26 +1000 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199805010057.KAA02881@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Another Disinterest Proto
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 1 May 1998 10:57:26 +1000 (EST)
+In-Reply-To: <13640.39600.904193.740156@merganser.cl.cam.ac.uk> from "Michael Norrish" at Apr 30, 98 04:37:20 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 921
+
+Michael Norrish wrote:
+>
+>I'm interested in seeing what happens if we repeal Disinterest, so I
+>would be happy to support this proposal.  On the other hand, rule
+>changes without objection is also an interesting idea.  Perhaps we try
+>both, but with a separation of a month or two between the two trials
+>and with no overriding commitment to the second.
+
+I think I'm strongly opposed to the idea of Rule Changes Without Objection.
+I think the principle that everything is voted on should be preserved at
+the heart of Agora. (And arguably, R107 already enshrines this principle
+which would make the concept difficult to implement in any case).
+
+Another independent reason for opposing it is that it reduces VT
+expenditure.
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 30 21:03 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA09265 for <dpb@cs.brown.edu>; Thu, 30 Apr 1998 21:03:16 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA13074
+	for agora-discussion-list; Fri, 1 May 1998 10:58:10 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA13071
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 1 May 1998 10:58:08 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id LAA10146 for agora-discussion@gecko.serc.rmit.edu.au; Fri, 1 May 1998 11:01:18 +1000 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199805010101.LAA10146@silas-2.cc.monash.edu.au>
+Subject: DIS: Re: BUS: Oops
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 1 May 1998 11:01:18 +1000 (EST)
+In-Reply-To: <3548D58A.99EF01D5@gwis.com> from "Steven Swiniarski" at Apr 30, 98 03:48:26 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 651
+
+Steven Swiniarski wrote:
+>
+>>I hereby order Swann to pay 2 Indulgences (RIPO8) and 2 VTs (RVTPO230) to
+>>the Bank as penalty for committing the Infraction of Failing to Report
+>>as Scorekeepor. 
+>
+>I pay the Bank 2 VTs to satisfy (RVTPO230).
+>I solicit anyone who's selling indulgences.
+
+I don't think anyone has any at the moment, thanks to Tabula Rasa.
+Does this mean that the Herald should conduct an Indulgence Lottery,
+or don't they exist anymore?
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 30 21:12 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA09500 for <dpb@cs.brown.edu>; Thu, 30 Apr 1998 21:12:27 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA13137
+	for agora-discussion-list; Fri, 1 May 1998 11:07:11 +1000
+Received: from indiana.edu (cayman.ucs.indiana.edu [129.79.10.68])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA13134
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 1 May 1998 11:07:08 +1000
+Received: from poverty.bloomington.in.us (root@xyplex8-1-5.ucs.indiana.edu [129.79.117.114])
+	by indiana.edu (8.8.8/8.8.8/1.16IUPO) with ESMTP id UAA24934
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 30 Apr 1998 20:10:01 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id UAA21377 for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 30 Apr 1998 20:09:59 -0500
+Message-Id: <199805010109.UAA21377@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Another Disinterest Proto 
+In-reply-to: Your message of "Fri, 01 May 1998 10:57:26 +1000."
+             <199805010057.KAA02881@silas-2.cc.monash.edu.au> 
+Date: Thu, 30 Apr 1998 20:09:58 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 605
+
+"Steve" == Steve Gardner <gardner@silas.cc.monash.edu.au> writes:
+
+Steve> I think I'm strongly opposed to the idea of Rule Changes
+Steve> Without Objection.  I think the principle that everything is
+Steve> voted on should be preserved at the heart of Agora. (And
+Steve> arguably, R107 already enshrines this principle which would
+Steve> make the concept difficult to implement in any case).
+
+While I won't debate you on the issue of principle, Rule 107 doesn't
+say anything about Rule Changes, only about Proposals.  A Rule Change
+Without Objection is not a Proposal, so Rule 107 does not come into
+play.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 30 21:52 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA10634 for <dpb@cs.brown.edu>; Thu, 30 Apr 1998 21:52:28 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA13292
+	for agora-discussion-list; Fri, 1 May 1998 11:47:18 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA13289
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 1 May 1998 11:47:16 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id LAA11188 for agora-discussion@gecko.serc.rmit.edu.au; Fri, 1 May 1998 11:50:25 +1000 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199805010150.LAA11188@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Another Disinterest Proto
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 1 May 1998 11:50:25 +1000 (EST)
+In-Reply-To: <199805010109.UAA21377@poverty.bloomington.in.us> from "Scott Goehring" at Apr 30, 98 08:09:58 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1712
+
+Scott Goehring wrote:
+>
+>"Steve" == Steve Gardner <gardner@silas.cc.monash.edu.au> writes:
+>
+>Steve> I think I'm strongly opposed to the idea of Rule Changes
+>Steve> Without Objection.  I think the principle that everything is
+>Steve> voted on should be preserved at the heart of Agora. (And
+>Steve> arguably, R107 already enshrines this principle which would
+>Steve> make the concept difficult to implement in any case).
+>
+>While I won't debate you on the issue of principle, Rule 107 doesn't
+>say anything about Rule Changes, only about Proposals.  A Rule Change
+>Without Objection is not a Proposal, so Rule 107 does not come into
+>play.
+
+Well, to be completely accurate, R107 does talk about Rule Changes - 
+it's just that it talks about "proposed Rule Changes". It doesn't
+actually say anything about Proposals, contrary to what you say
+above. But given the accretions of game custom, I accept that there's
+no way I'm going to get away with saying that 'proposed' in Rule 107
+means something like 'suggested' and not the more formal 'Proposed'.
+So I take your point, which I take to be that R107 does not block the
+adoption of Rule Changes Without Objection. If it did, it would
+equally have to block all non-Proposed Rule Changes, which it clearly
+has not been interpreted as doing.
+
+Rule 107/0 (Power=3)
+
+      Any proposed Rule Change must be written down (or otherwise
+      communicated in print media) before it is voted on. If adopted,
+      it must guide play in the form in which it was voted on.
+
+
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 30 21:54 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA10657 for <dpb@cs.brown.edu>; Thu, 30 Apr 1998 21:54:23 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA13319
+	for agora-discussion-list; Fri, 1 May 1998 11:49:24 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA13315
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 1 May 1998 11:49:22 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id LAA03735 for agora-discussion@gecko.serc.rmit.edu.au; Fri, 1 May 1998 11:52:32 +1000 (EST)
+From: Steve Gardner <gardner@silas.cc.monash.edu.au>
+Message-Id: <199805010152.LAA03735@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Another Disinterest Proto
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 1 May 1998 11:52:32 +1000 (EST)
+In-Reply-To: <s5485c6d.049@rmv.state.ma.us> from "David Albertz" at Apr 30, 98 11:10:56 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 594
+
+David Albertz wrote:
+>
+>Another Disinterest Proto
+>
+>Ok, so the Disinterest concept turned out to be more controversial than I
+>expected.  IMO, we should either make it meaningful or get rid of it.  To that
+>end, here is a proposal to eliminate it.  It would be nice to know which of
+>these two options has more support - opinions greatly appreciated.
+
+I'm happy to get rid of Disinterestedness.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 30 22:18 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA11366 for <dpb@cs.brown.edu>; Thu, 30 Apr 1998 22:18:11 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA13439
+	for agora-discussion-list; Fri, 1 May 1998 12:12:23 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id MAA13436
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 1 May 1998 12:12:19 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 30 Apr 1998 22:14:36 -0400
+Message-Id: <s548f7cc.072@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 30 Apr 1998 22:13:25 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: BUS: Oops
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 904
+
+DIS: Re: BUS: Oops
+
+At the beginning of next week, if Swann has not deregistered by then, there
+will be a requirement for one Indulgence to be distributed in a lottery.
+
+-- Crito
+
+>>> Steve Gardner <gardner@silas.cc.monash.edu.au> 04/30/98 09:01pm >>>
+Steven Swiniarski wrote:
+>
+>>I hereby order Swann to pay 2 Indulgences (RIPO8) and 2 VTs (RVTPO230) to
+>>the Bank as penalty for committing the Infraction of Failing to Report
+>>as Scorekeepor. 
+>
+>I pay the Bank 2 VTs to satisfy (RVTPO230).
+>I solicit anyone who's selling indulgences.
+
+I don't think anyone has any at the moment, thanks to Tabula Rasa.
+Does this mean that the Herald should conduct an Indulgence Lottery,
+or don't they exist anymore?
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 30 22:24 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA11511 for <dpb@cs.brown.edu>; Thu, 30 Apr 1998 22:24:26 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA13488
+	for agora-discussion-list; Fri, 1 May 1998 12:18:59 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA13485
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 1 May 1998 12:18:58 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id MAA12290 for agora-discussion@gecko.serc.rmit.edu.au; Fri, 1 May 1998 12:22:07 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199805010222.MAA12290@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Oops
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 1 May 1998 12:22:07 +1000 (EST)
+In-Reply-To: <s548f7cc.072@rmv.state.ma.us> from "David Albertz" at Apr 30, 98 10:13:25 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 466
+
+David Albertz wrote:
+>
+>DIS: Re: BUS: Oops
+>
+>At the beginning of next week, if Swann has not deregistered by then, there
+>will be a requirement for one Indulgence to be distributed in a lottery.
+
+Poor Swann, with two Blots! How else do Indulgences enter the economy?
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Apr 30 22:59 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA12456 for <dpb@cs.brown.edu>; Thu, 30 Apr 1998 22:59:17 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA13638
+	for agora-discussion-list; Fri, 1 May 1998 12:53:26 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA13635
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 1 May 1998 12:53:24 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id MAA12644 for agora-discussion@gecko.serc.rmit.edu.au; Fri, 1 May 1998 12:56:32 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199805010256.MAA12644@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: Oops
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Fri, 1 May 1998 12:56:32 +1000 (EST)
+In-Reply-To: <199805010222.MAA12290@silas-2.cc.monash.edu.au> from "Steve Gardner" at May 1, 98 12:22:07 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 588
+
+Steve Gardner wrote:
+>
+>David Albertz wrote:
+>>
+>>DIS: Re: BUS: Oops
+>>
+>>At the beginning of next week, if Swann has not deregistered by then, there
+>>will be a requirement for one Indulgence to be distributed in a lottery.
+>
+>Poor Swann, with two Blots! How else do Indulgences enter the economy?
+
+Let me answer my own question: apparently in no other way. Now
+*that's* scarcity for you!
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+

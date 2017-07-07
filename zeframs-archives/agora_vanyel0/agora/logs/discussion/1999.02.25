@@ -1,0 +1,1083 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Feb 25 00:02 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id AAA24396
+	for <dpb@cs.brown.edu>; Thu, 25 Feb 1999 00:02:04 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id QAA12670
+	for agora-discussion-list; Thu, 25 Feb 1999 16:00:30 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id QAA12667
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 25 Feb 1999 16:00:27 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id QAA23591
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 25 Feb 1999 16:03:58 +1100 (EST)
+Received: from dial-126-40.dial.indiana.edu(156.56.126.40) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma023589; Thu, 25 Feb 99 16:03:27 +1100
+Received: (from scott@localhost) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) id AAA20207 for agora-discussion@gecko.serc.rmit.edu.au; Thu, 25 Feb 1999 00:00:13 -0500
+Date: Thu, 25 Feb 1999 00:00:13 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Message-Id: <199902250500.AAA20207@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: proto: Eliminate Transfer Orders (Chaos232, rev. 1)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 10157
+Lines: 220
+
+Protoproposal Chaos232 [rev. 1]
+
+Eliminate Transfer Orders
+
+Be it resolved, that Rule 1799 be amended to read:
+
+      Any Order may always be amended, stayed, or vacated by the
+      Player (or, in the case of Appellate Orders, Board of Appeal)
+      who executed it.  Certain classes of Orders may be amended,
+      stayed, or vacated in other circumstances as well, when the
+      Rules so allow.  In all cases, this is done by an Order to
+      Amend, Stay, or Vacate, respectively, the original Order.
+
+      Otherwise, an Order shall not be amended, stayed, vacated, or
+      otherwise changed once executed.
+
+Be it further resolved, that Rule 1637 be amended to read:
+
+      A Will is an SLC.  The Jurisdiction of a Will is always empty.
+      Each Will belongs to exactly one entity.  The Notary shall be
+      the Maintainer of all Wills.
+
+      A Will shall specify the heirs of the entity to which it
+      belongs, and how the currencies possessed by that entity and its
+      other assets will be divided amongst those heirs when that
+      entity is placed in Probate.  When an entity's Will is executed,
+      the Executor in Probate of that entity will first execute all
+      the transfers required by the Will (excepting those which e
+      cannot execute or cannot execute successfully, for whatever
+      reason), and will then divide the remaining residual assets as
+      provided by the Will.
+
+      A Will is created or amended by the Execution of an Application
+      to Create a Will.  Such an Application must clearly identify the
+      entity to which the Will is to belong, requires the Signature of
+      the Executor of the entity to which the Will is to belong, and
+      is Executed by submitting it to the Notary.  The effect of
+      Executing such an Application is to create a Will belonging to
+      that entity.  Any prior Will belonging to that entity is
+      destroyed at the same time.
+
+      A Will belonging to an Organization is not an SLC associated to
+      that Organization, as defined elsewhere.
+
+Be it further resolved, that Rule 1727 be amended, by replacing the
+paragraph reading:
+
+      BE IT FURTHER RESOLVED that, not less than seven days prior to
+      Agora's Birthday, the Chancellor shall, on behalf of the Bank,
+      submit delayed Transfer Orders to be executed at 00:04:30 GMT
+      +1200 on Agora's Birthday to each Player for the amount of 3 VTs
+      each;
+
+with a paragraph reading
+
+      BE IT FURTHER RESOLVED that, as close to Agora's Birthday as
+      possible, the Chancellor shall, on behalf of the Bank, execute
+      transfers of 3 VTs to each Player;
+
+and by replacing the paragraph reading:
+
+      BE IT FURTHER RESOLVED that the Chancellor shall, on behalf of
+      the Bank, submit Transfer Orders for one P-note each from the
+      Bank to each Player who posts to the Public Forum during Agora's
+      Birthday a message recognizing Agora's Birthday; these Transfer
+      Orders to be executed as soon as possible after Agora's Birthday
+      ends;
+
+with a paragraph reading
+
+      BE IT FURTHER RESOLVED that the Chancellor shall, on behalf of
+      the Bank, execute transfers for one P-note each from the Bank to
+      each Player who posts to the Public Forum during Agora's
+      Birthday a message recognizing Agora's Birthday; these transfers
+      to be executed as soon as possible after Agora's Birthday ends;
+
+Be it further resolved, that Rule 1730 be repealed.
+
+Be it further resolved, that Rule 1732 be amended to read:
+
+      A Payment Order is only satisfied when a transfer to the payee
+      of that Payment Order for the currency and amount named in that
+      Payment Order is successfully executed, provided that, when that
+      transfer was executed, its executor clearly indicated that that
+      transfer was being executed for the purpose of satisfying the
+      Payment Order in question.
+
+      A given Payment Order can be satisfied at most once.  A vacated
+      Payment Order cannot be satisfied.
+
+      A given transfer may be used for the purpose of satisfying at
+      most one Payment Order.
+
+Be it further resolved, that Rule 1735 be amended to read:
+
+      The Chancellor is the Executor of the Bank.  As soon as possible
+      after a Payment Order is executed for which the Bank is the
+      payor, the Chancellor shall either (as the Bank's Executor)
+      satisfy the Payment Order, or dispute it by making a COE or CFJ.
+      However, the Chancellor need not do so if another Player makes
+      such a COE or CFJ first.
+
+      If the Chancellor executes a transfer from the Bank for any
+      reason other than to satisfy a Payment Order (except when
+      specifically required by the Rules to execute a transfer), e
+      commits the Class A Crime of Misappropriation, and upon
+      conviction of this Crime shall be removed from Office.
+
+Be it further resolved, that Rule 1817 be amended to read:
+
+      A Recordkeepor is required to record all valid transfers
+      executed by the Executor of the owner of the units of Currency
+      to be transferred (or, with respect to any entity which lacks an
+      Executor, by any other person empowered by the Rules to execute
+      transfers on the behalf of such entities), except for those
+      transfers which would result in an entity possessing a negative
+      quantity of Currency. Transfers shall be noted on the
+      Recordkeepor's records in the order in which they are received
+      by the Recordkeepor.
+
+Be it further resolved, that Rule 1818 be repealed.
+
+Be it further resolved, that Rule 1739 be amended, by replacing the
+paragraph reading
+
+      Units of Currency are assigned to an entity by requiring a
+      Transfer Order for those Units of Currency from the entity in
+      Probate to that Entity.
+
+with one reading
+
+      Units of Currency are assigned to an entity by requiring the
+      execution of a transfer of those Units of Currency from the
+      entity in Probate to that Entity.
+
+Be it further resolved, that Rule 1820 be amended to read:
+
+      Each Recordkeepor shall maintain a record of all transfers
+      executed which specify the Currency of which e is the
+      Recordkeepor, for at least four weeks after their execution.
+
+Be it further resolved, that Rule 1823 be amended to read:
+
+      If a Player is required to execute two or more Payment Orders,
+      all of which name the same Payor, Payee, and Currency, that
+      Player may elect to instead execute one Payment Order naming
+      that Payor, Payee and Currency, and for an amount equal to the
+      sum of all such Payment Orders required.  Doing so satisfies by
+      substitution the requirement to execute all such Payment Orders.
+
+      This Rule may not be applied with respect to any Payment Order
+      required consequent to the vacation or stay of another Payment
+      Order.
+
+      Payment Orders to be executed for the purpose of paying for
+      Voting upon Proposals may not be combined by this Rule with
+      Payment Orders executed for any other purpose.
+
+Be it further resolved, that Rule 1757 be amended to read:
+
+      (a) The Trustee of an entity in Probate is empowered to execute
+          on behalf of that entity whatever transfers are necessary to
+          implement eir Plan for the disposition of that entity's
+          Estate, as if e were that entity's Executor.  The Trustee
+          may also execute and vacate Payment Orders when necessary to
+          implement the Plan for the disposition of the Estate.
+
+      (b) The Trustee may exercise the above powers only when
+          implementing a Plan for the disposition of the Estate of the
+          entity in Probate of which e is the Trustee.
+
+      (c) The Trustee of an entity in Probate ceases to be Trustee
+          when:
+        (1) e announces in the Public Forum that e resigns as Trustee;
+        (2) e ceases to be a Player;
+        (3) the entity of which e is Trustee ceases to be in Probate;
+            or
+        (4) the Notary announces that e has been removed as Trustee.
+
+      (d) An entity in Probate ceases to be in Probate when its
+          Trustee announces the completion of the implementation of a
+          Plan for the disposition of the Estate of that entity.
+
+Be it further resolved, that Rule 1596 be amended to read:
+
+      A Payment Order is an Order requiring an entity (the payor) to
+      execute a transfer transferring units of a Currency from itself
+      to some other entity (the payee).  A Payment Order specifies
+      exactly one source entity, exactly one destination entity,
+      exactly one Currency, and a number of units of that Currency
+      which is a positive multiple of that Currency's MUQ.
+
+Be it further resolved, that Rule 1598 be amended to read:
+
+      (a) A transfer is valid if:
+        (1) the entity executing it is the Executor of the entity from
+            which the transfer is to be made, or if that entity has no
+            Executor, such other Player as is authorized to execute
+            transfers on behalf of that entity;
+        (2) the transfer is denominated in exactly one Currency;
+        (3) the amount transferred is a positive multiple of that
+            Currency's MUQ;
+        (4) the entity from which the transfer is to be made, prior to
+            that transfer, possesses at least that many units of that
+            Currency; and
+        (5) if the transfer purports to be executed to satisfy a
+            particular Payment, that Payment Order exists and is
+            capable of being satisfied by that transfer.
+
+      (b) A transfer is executed by submitting a Transfer Notice to
+          the Recordkeepor of the Currency in which it is denominated;
+          this Notice shall set forth:
+        (1) the entity from which the transfer is being made;
+        (2) the entity to which the transfer is being made;
+        (3) the Currency involved;
+        (4) the number of units of Currency being transferred; and
+        (5) the purpose of the transfer, if specification of the
+            purpose of the transfer is necessary to meet with the
+            requirements of another Rule.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Feb 25 02:57 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id CAA28402
+	for <dpb@cs.brown.edu>; Thu, 25 Feb 1999 02:57:02 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA01088
+	for agora-discussion-list; Thu, 25 Feb 1999 18:56:34 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA01085
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 25 Feb 1999 18:56:33 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id TAA23885
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 25 Feb 1999 19:00:02 +1100 (EST)
+Received: from silas-2.cc.monash.edu.au(130.194.1.7) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma023877; Thu, 25 Feb 99 18:59:33 +1100
+Received: (from gardner@localhost)
+	by silas-2.cc.monash.edu.au (8.9.1a/8.9.1) id SAA24912
+	for agora-discussion@gecko.serc.rmit.edu.au; Thu, 25 Feb 1999 18:55:27 +1100 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199902250755.SAA24912@silas-2.cc.monash.edu.au>
+Subject: DIS: another month without Salaries...
+To: agora-discussion@gecko.serc.rmit.edu.au (Agora Nomic Discussion List)
+Date: Thu, 25 Feb 1999 18:55:26 +1100 (EST)
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 212
+Lines: 7
+
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Feb 25 03:14 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id DAA28740
+	for <dpb@cs.brown.edu>; Thu, 25 Feb 1999 03:14:13 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA01185
+	for agora-discussion-list; Thu, 25 Feb 1999 19:13:34 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA01182
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 25 Feb 1999 19:13:33 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id TAA23922
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 25 Feb 1999 19:17:02 +1100 (EST)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma023920; Thu, 25 Feb 99 19:16:55 +1100
+Received: From mozart With LocalMail ; Thu, 25 Feb 99 19:12:30 +1100 
+From: Malcolm Ryan <malcolmr@cse.unsw.edu.au>
+To: Agora Discussion <agora-discussion@gecko.serc.rmit.edu.au>
+Date: Thu, 25 Feb 1999 19:12:30 +1100
+Message-ID: <19990225191230.A15812@cse.unsw.edu.au>
+Subject: DIS: another month without Salaries
+Mail-Followup-To: Agora Discussion <agora-discussion@gecko.serc.rmit.edu.au>
+Mime-Version: 1.0
+X-Mailer: Mutt 0.93.2i
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 805
+Lines: 20
+
+
+> From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+> Subject: DIS: another month without Salaries...
+
+Strictly speaking, this is our first month without Salaries. Andre did
+pay salaries at the beginning of last month, quite inflated ones at that.
+Of course, they were heavily taxed...
+
+Damn, I forgot to set the Tariff back to 0.4. I had meant to only keep it
+at zero for a week. Would somebody remind me to fix that, next Monday?
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Feb 25 07:52 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id HAA03223
+	for <dpb@cs.brown.edu>; Thu, 25 Feb 1999 07:52:53 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA02149
+	for agora-discussion-list; Thu, 25 Feb 1999 23:50:41 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA02144
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 25 Feb 1999 23:50:38 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id XAA24268
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 25 Feb 1999 23:54:08 +1100 (EST)
+Received: from icarus.nodewarrior.net(209.48.67.3) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma024264; Thu, 25 Feb 99 23:53:53 +1100
+Received: from [209.30.104.74] by icarus.nodewarrior.net
+          (Post.Office MTA v3.5 release 215 ID# 0-52828U300L100S0V35)
+          with SMTP id net for <agora-discussion@gecko.serc.rmit.edu.au>;
+          Thu, 25 Feb 1999 04:48:26 -0800
+Message-Id: <3.0.5.32.19990224202617.007ae6a0@mail.eastpac.com>
+X-Sender: eljefe@mail.eastpac.com
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Wed, 24 Feb 1999 20:26:17 -0500
+To: agora-discussion@gecko.serc.rmit.edu.au
+From: eljefe@eastpac.com (Jeff Caruso)
+Subject: DIS: Re: OFF: Accountor's Report as of 22 February 1999
+In-Reply-To: <s6d13bad.071@rmv.state.ma.us>
+Mime-Version: 1.0
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 364
+Lines: 12
+
+I hereby transfer 0.50 VT to the Bank to satisfy the following PO:
+
+>VT650  08Feb99 20:49:08   0.50 elJefe          Bank           Accountor
+
+Regards,
+-- elJefe
+
+******************************************************************
+Dr. Jeffrey L. Caruso <eljefe@eastpac.com> <jcaruso@bitstream.com>
+Bitstream, Inc.  215 First St  Cambridge, MA 02142  (617)520-8366
+
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Feb 25 08:06 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id IAA03666
+	for <dpb@cs.brown.edu>; Thu, 25 Feb 1999 08:06:15 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA02225
+	for agora-discussion-list; Thu, 25 Feb 1999 23:57:10 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA02222
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 25 Feb 1999 23:57:08 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id AAA24297
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 00:00:38 +1100 (EST)
+Received: from dial-126-74.dial.indiana.edu(156.56.126.74) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma024295; Fri, 26 Feb 99 00:00:08 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id HAA30520 for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 25 Feb 1999 07:56:57 -0500
+Message-Id: <199902251256.HAA30520@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: another month without Salaries 
+In-reply-to: Your message of "Thu, 25 Feb 1999 19:12:30 +1100."
+             <19990225191230.A15812@cse.unsw.edu.au> 
+Date: Thu, 25 Feb 1999 07:56:57 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 331
+Lines: 8
+
+"Malcolm" == Malcolm Ryan <Malcolm> writes:
+
+Malcolm> Strictly speaking, this is our first month without
+Malcolm> Salaries. Andre did pay salaries at the beginning of last
+Malcolm> month, quite inflated ones at that.  Of course, they were
+Malcolm> heavily taxed...
+
+Steve's point is that it's too late to change it for next month.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Feb 25 08:40 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id IAA04394
+	for <dpb@cs.brown.edu>; Thu, 25 Feb 1999 08:40:05 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id AAA02400
+	for agora-discussion-list; Fri, 26 Feb 1999 00:38:12 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id AAA02397
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 00:38:10 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id AAA24466
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 00:41:39 +1100 (EST)
+Received: from manaslu.capway.com(194.2.90.38) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma024464; Fri, 26 Feb 99 00:41:37 +1100
+Received: from z3q1r8 (dyn-8-1-202.Def.dialup.oleane.fr [62.161.2.202])
+	by capway.com (8.8.8/8.8.8) with SMTP id OAA23969
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 25 Feb 1999 14:45:19 +0100 (MET)
+Message-Id: <199902251345.OAA23969@capway.com>
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <laurent@netdive.com>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Thu, 25 Feb 1999 14:38:13 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: DIS: Re: BUS: Re: OFF: CFJ 1120: Judged FALSE by Morendil 
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 753
+Lines: 24
+
+> I also note that the Judge has failed to rule on my Motions.
+
+I was legally unable to do so :
+
+Rule 1827/1 (Power=1)
+Granting or Denying Motions
+
+      A Judge must either grant or deny each Motion forwarded to em by
+      the Clerk of the Courts, within five days of when the Motion was
+      received by the Judge.
+
+
+=================================================================
+Laurent Bossavit
+CTO    					 
+NetDIVE 
+CallSite Call Button: http://www.netdive.com/laurent.htm
+Paris Offices
+01 44 64 89 12 - daytime phone
+01 44 64 88 91 - fax, voice mail
+--------------------------------     
+http://www.netdive.com/
+Leading Java client/server systems for Web based communication
+=================================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Feb 25 12:12 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id MAA11444
+	for <dpb@cs.brown.edu>; Thu, 25 Feb 1999 12:12:16 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA03497
+	for agora-discussion-list; Fri, 26 Feb 1999 04:11:15 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA03494
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 04:11:13 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id EAA24800
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 04:14:43 +1100 (EST)
+Received: from dial-126-74.dial.indiana.edu(156.56.126.74) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma024794; Fri, 26 Feb 99 04:14:20 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id MAA03208 for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 25 Feb 1999 12:11:04 -0500
+Message-Id: <199902251711.MAA03208@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: BUS: Re: OFF: CFJ 1120: Judged FALSE by Morendil 
+In-reply-to: Your message of "Thu, 25 Feb 1999 14:38:13 +0100."
+             <199902251345.OAA23969@capway.com> 
+Date: Thu, 25 Feb 1999 12:11:03 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 202
+Lines: 6
+
+"Laurent" == Laurent Bossavit <laurent@netdive.com> writes:
+
+>> I also note that the Judge has failed to rule on my Motions.
+Laurent> I was legally unable to do so :
+
+Nevertheless, you failed to do so.
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Feb 25 12:13 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id MAA11469
+	for <dpb@cs.brown.edu>; Thu, 25 Feb 1999 12:13:13 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA03512
+	for agora-discussion-list; Fri, 26 Feb 1999 04:12:15 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA03509
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 04:12:13 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id EAA24811
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 04:15:43 +1100 (EST)
+Received: from dial-126-74.dial.indiana.edu(156.56.126.74) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma024809; Fri, 26 Feb 99 04:15:39 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id MAA03223 for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 25 Feb 1999 12:12:26 -0500
+Message-Id: <199902251712.MAA03223@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: another month without Salaries 
+In-reply-to: Your message of "Thu, 25 Feb 1999 19:12:30 +1100."
+             <19990225191230.A15812@cse.unsw.edu.au> 
+Date: Thu, 25 Feb 1999 12:12:23 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 225
+Lines: 7
+
+"Malcolm" == Malcolm Ryan <Malcolm> writes:
+
+Malcolm> Damn, I forgot to set the Tariff back to 0.4. I had meant to
+Malcolm> only keep it at zero for a week. Would somebody remind me to
+Malcolm> fix that, next Monday?
+
+No. :)
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Feb 25 12:21 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id MAA11809
+	for <dpb@cs.brown.edu>; Thu, 25 Feb 1999 12:21:10 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id EAA03570
+	for agora-discussion-list; Fri, 26 Feb 1999 04:20:15 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id EAA03567
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 04:20:13 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id EAA24824
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 04:23:43 +1100 (EST)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma024822; Fri, 26 Feb 99 04:23:19 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 25 Feb 1999 12:17:58 -0500
+Message-Id: <s6d53f76.052@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 25 Feb 1999 12:10:57 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: OFF: Accountor's Report as of 22 February 1999
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1456
+Lines: 18
+
+Peekee asks:
+
+>>Peekee                           2.80       3.80      +1.00    -1.20
+
+
+>>VT668  15Feb99 02:18:43   1.20 Peekee          Bank           Voting
+
+>I thought I had paid this????
+
+I can't find any payment message in my archives.  The last one I have from you
+is the one paying your taxes of .7 VTs on 8 Feb.  If you have a copy of your
+payment message, please send me a copy and I will adjust my reports.
+
+--Accountor Crito
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               !
+!
+                        
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Feb 25 13:01 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id NAA13065
+	for <dpb@cs.brown.edu>; Thu, 25 Feb 1999 13:01:07 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA03783
+	for agora-discussion-list; Fri, 26 Feb 1999 05:00:16 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA03777
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 05:00:14 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id FAA24896
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 05:03:44 +1100 (EST)
+Received: from dial-126-74.dial.indiana.edu(156.56.126.74) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma024892; Fri, 26 Feb 99 05:03:22 +1100
+Received: (from scott@localhost) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) id NAA04372 for agora-discussion@gecko.serc.rmit.edu.au; Thu, 25 Feb 1999 13:00:11 -0500
+Date: Thu, 25 Feb 1999 13:00:11 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Message-Id: <199902251800.NAA04372@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: proto: Merit (Chaos233, rev. 1)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 2749
+Lines: 54
+
+Protoproposal Chaos233 [rev. 1]
+
+Merit
+
+Be it resolved, that a Rule be enacted, to read:
+
+      (a) Each Player has a Merit Rating, an integer, which may be
+          positive, negative, or zero.  Until the Rules act to give a
+          Player some other Merit Rating, a Player's Merit Rating is
+          zero.  Merit Ratings shall be changed only when authorized
+          by the Rules.
+
+      (b) The Office of the Secretary is hereby established.
+        (1) The Secretary shall maintain a record of the Merit Rating
+            of every Player.
+        (2) The Secretary's Report shall include:
+          (A) a schedule setting forth the Merit Rating of each
+              Player; and
+          (B) a description of all changes made to the Merit Rating of
+              any Player since the last such Report.
+        (3) The Secretary shall receive a salary equal to one and
+            one-half times the Basic Officer Salary.
+
+      (c) When an entitlement is to be randomly distributed to the
+          Players, the Officer making the distribution shall use the
+          following procedure (or any other procedure which results in
+          each Player having the same probability of receiving the
+          entitlement as e would under the following procedure):
+        (1) The Officer shall, for each Player, place in a bin one
+            hundred tokens bearing the name of that Player, in each
+            case augmenting or diminishing that number by that
+            Player's Merit Rating.  (If a Player's Merit Rating is
+            less than negative one hundred, then no tokens are placed
+            in the bin.)
+        (2) The Officer shall then draw one token from the bin, and
+            award the entitlement to the Player whose name is on the
+            token.
+
+      (d) When making a distribution the procedure described in
+          subdivision (c), the Officer shall use the Merit Ratings of
+          the Players reported in the most recent uncontested
+          Secretary's Report, and no other.  A distribution made based
+          on Merit Ratings as required by this subdivision is valid
+          notwithstanding any error in the Secretary's Report which
+          may later become apparent.
+        (1) If the most recent uncontested Secretary's Report is more
+            than twenty-one days old, the Officer may elect to delay
+            the distribution until a new Report is made.  If the
+            Officer elects to delay a distribution, e must announce in
+            the Public Forum that e has elected to do so.
+        (2) If there has never been an uncontested Secretary's Report,
+            the Officer shall proceed on the assumption that every
+            Player has a Merit Rating of zero.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Feb 25 13:01 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id NAA13071
+	for <dpb@cs.brown.edu>; Thu, 25 Feb 1999 13:01:09 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA03784
+	for agora-discussion-list; Fri, 26 Feb 1999 05:00:18 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA03778
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 05:00:14 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id FAA24897
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 05:03:44 +1100 (EST)
+Received: from dial-126-74.dial.indiana.edu(156.56.126.74) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma024893; Fri, 26 Feb 99 05:03:22 +1100
+Received: (from scott@localhost) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) id NAA04369 for agora-discussion@gecko.serc.rmit.edu.au; Thu, 25 Feb 1999 13:00:11 -0500
+Date: Thu, 25 Feb 1999 13:00:11 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Message-Id: <199902251800.NAA04369@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: proto: The New Herald (Chaos230, rev. 1)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 3754
+Lines: 85
+
+Protoproposal Chaos230 [rev. 1]
+
+The New Herald
+
+Be it resolved, that Rules 1062, 1008, 1377, 1872 and 1378 be
+repealed.
+
+Be it further resolved, that a Rule be enacted, to read:
+
+      (a) Each Player has Honour, which is measured in Kudos.  Each
+          Player possesses at all times an integral number of Kudos,
+          not less than zero.
+
+      (b) When a Player registers, eir Honour is set:
+        (1) to twenty Kudos, if, for the three months immediately
+            prior to eir most recent registration, that Player was not
+            at any time registered as a Player; otherwise,
+        (2) to whatever eir Honour was at the time e was last
+            deregistered.
+
+Be it further resolved, that a Rule be enacted, to read:
+
+      (a) The Office of the Herald is hereby established.
+
+      (b) The Herald shall receive a salary equal to twice the Basic
+          Officer Salary.
+
+      (c) The Herald's Report includes the following:
+        (1) the Honour of every Entity that has been a Player at any
+            time within the last three months, and the changes thereof
+            since the last posting of the Herald's Report, including
+            the reason for such change provided by the Player which
+            initiated it, if any.
+        (2) The Currency Records for Indulgences.
+        (3) A list of all Fugitives from Justice, and the number of
+            Fugitive Blots attributed to each such Fugitive.
+
+Be it further resolved, that a Rule be enacted, to read:
+
+      (a) Any Player may, twice in each week, transfer a Kudo from one
+          Player to another (thereby reducing the Honour of the first
+          by one, and increasing the Honour of the second by one), by
+          Public Forum Announcement, provided the following conditions
+          hold:
+        (1) the Player whose Honour is to be increased is not the
+            Player causing the changes;
+        (2) the Player whose Honour is to be decreased has at least
+            one Kudo;
+        (3) the Player causing the transfer has neither transferred a
+            Kudo away from the Player whose Honour is to be reduced,
+            nor transferred a Kudo to the Player whose Honour is to be
+            increased, at any prior time during that Nomic Week; and
+        (4) the announcement sets forth a reason for the transfer.
+
+      (b) The Herald may, once in each month, increase the Honour of
+          any Player by one, by Public Forum Announcement, provided
+          the following conditions are met:
+        (1) the Player whose Honour is to be increased is not the
+            Herald; and
+        (2) the announcement sets forth a reason for the award.
+
+      (c) This Rule does not in any way prohibit other Rules from
+          defining other means by which a Player's Honour may be
+          changed.
+
+Be it further resolved, that a Rule be enacted, to read:
+
+      (a) A Samurai is a Player whose Honor is more than thirty Kudos.
+
+      (b) Whenever a Player is a Samurai, that Player has at least as
+          much Honor as every other Player, and that Player does not
+          already hold the Patent Title of Shogun, that Player is
+          automatically awarded the Patent Title of Shogun.
+
+      (c) The Patent Title of Shogun is revoked automatically from any
+          Player who holds it if e ceases to be a Samurai.
+
+      (d) Thie Patent Title of Shogun shall not be awarded or revoked
+          except as specified in this Rule; this Rule takes precedence
+          over any Rule which would permit otherwise.
+
+      (e) The Herald shall announce in the Public Forum whenever a
+          Player receives or loses the Patent Title of Shogun, as soon
+          as possible after such award or revocation occurs.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Feb 25 13:08 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id NAA13324
+	for <dpb@cs.brown.edu>; Thu, 25 Feb 1999 13:08:54 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id FAA03863
+	for agora-discussion-list; Fri, 26 Feb 1999 05:07:46 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id FAA03860
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 05:07:44 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id FAA24910
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 05:11:14 +1100 (EST)
+Received: from rmvsmtp.rmv.state.ma.us(206.32.173.19) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma024908; Fri, 26 Feb 99 05:10:48 +1100
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Thu, 25 Feb 1999 13:05:31 -0500
+Message-Id: <s6d54a9b.082@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Thu, 25 Feb 1999 12:58:14 -0500
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: proto: Merit (Chaos233, rev. 1)
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 1376
+Lines: 20
+
+Scott wrote:
+
+>Protoproposal Chaos233 [rev. 1]
+
+>Merit
+
+>Be it resolved, that a Rule be enacted, to read:
+
+>      (a) Each Player has a Merit Rating, an integer, which may be
+                             ^^^^^^^^^^^^
+
+I like it.  My current (long term) client is the Merit Rating Board
+of the state of Massachusetts.  8)
+
+--Crito
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               !
+!
+                                
+                
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Feb 25 17:01 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id RAA23459
+	for <dpb@cs.brown.edu>; Thu, 25 Feb 1999 17:01:20 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA04657
+	for agora-discussion-list; Fri, 26 Feb 1999 09:00:20 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id JAA04654
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 09:00:19 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id JAA25224
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 09:03:49 +1100 (EST)
+Received: from dial-126-74.dial.indiana.edu(156.56.126.74) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma025220; Fri, 26 Feb 99 09:03:25 +1100
+Received: (from scott@localhost) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) id RAA09458 for agora-discussion@gecko.serc.rmit.edu.au; Thu, 25 Feb 1999 17:00:11 -0500
+Date: Thu, 25 Feb 1999 17:00:11 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Message-Id: <199902252200.RAA09458@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: proto: Cleanup of R.1445 (Chaos42, rev. 3)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 4859
+Lines: 90
+
+Protoproposal Chaos42 [rev. 3]
+
+Cleanup of R.1445
+
+Be it resolved, that Rule 1445 be amended to read:
+
+      (a) When an Election is required and the procedure is not
+          defined elsewhere, the following Standard Election Procedure
+          shall be used. Details specified herein are defaults which
+          may be modified by other Rules for specific situations.
+        (1) Vote Collector: The Vote Collector is the Entity
+            responsible for taking nominations, collecting and
+            tallying the Votes, and announcing the result.
+          (A) Unless otherwise specified, this Entity is the Player
+              who is Speaker at the time the Referendum starts.
+          (B) If another Player is specified, this Player shall be the
+              Vote Collector for the entire duration of the
+              Referendum.
+          (C) If the Vote Collector deregisters or is deregistered
+              before the Voting Period ends, the Election has no
+              Winner.
+        (2) Nominating Entities: Every Player not on Hold may Nominate
+            eirself in an Election. On Hold status is measured at the
+            time a Player makes a Nomination.
+        (3) Nominations: A Nominating Entity makes a Nomination by
+            sending a message to the Vote Collector during the
+            Nominating Period, indicating what Election e is
+            Nominating for.
+        (4) Candidates: A Player who has Nominated for an Election is
+            called a Candidate for that Election.
+        (5) Retraction: A Nomination, once sent to the Vote Collector,
+            may be retracted before the end of the Nominating Period.
+            A player may retract a Nomination e has made by sending a
+            message to the Vote Collector, indicating that e wishes to
+            retract eir Nomination.
+        (6) Start of Nominations: The Nominating Period begins at the
+            time of the first correct and legal announcement that the
+            Election has begun, as required by the Rules calling for
+            the Election.
+        (7) Duration of Nominations: The Nominating Period lasts for
+            one Week.  All Nominations received by the Vote Collector
+            outside of the Nominating Period have no effect.
+        (8) Secrecy: Nominations need not be kept secret.
+
+      (b) Announcing Candidates: the Vote Collector shall announce to
+          the Public Forum, as soon as possible after the Nominating
+          Period is over, the names of all Players who Nominated for
+          the Election.
+
+      (c) If there are no Candidates in a given Election, then that
+          Election shall have no Winner. If there is only one
+          Candidate in a given Election, then that Candidate shall be
+          the Winner of that Election.
+
+      (d) In all other cases, a Referendum shall being at the time
+          Candidates are Announced, which shall be conducted using the
+          standard procedure for Referendum Voting with the following
+          exceptions:
+        (1) Vote Collector: The Vote Collector for the Referendum is
+            the same as the Vote Collector for the Election.
+        (2) Vote Values: A Vote is the name of exactly one of the
+            Candidates for the given Election. Words which are
+            effectively synonymous with these are also permissible.
+        (3) Adoption: The Winner of the Election is the Candidate for
+            whom the most votes were cast. If there is more than one
+            such candidate, the Speaker chooses one of those
+            candidates as the winner, and must announce eir chosen
+            candidate as winner to the Public Forum.
+        (4) Quorum: Quorum shall be set at 50% of the eligible Voting
+            Entities at the beginning of the Voting Period. If a
+            smaller fraction voted, the Election has no Winner.
+
+      (e) Nonperformance by Vote Collector: The Vote Collector must
+          perform eir required duties, but if the result of an
+          Election is not announced within one Week following the end
+          of the Voting Period, the Election has no Winner.
+
+      (f) Effective Time of Election Results: The results of an
+          Election are effective at the time the results of the
+          Referendum are announced; or, if there is no Referendum, at
+          the time that the Vote Collector announces that there is to
+          be no Referendum.
+
+      (g) Cutoff for Challenges: Any challenge of the correctness of
+          the announced results of an Election must be made within
+          seven days of the time the results are announced.  If seven
+          days pass from the time the results are announced without a
+          challenge, the announced results are the true results of
+          that Election, whether or not they be in error in any way.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Feb 25 18:00 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id SAA25551
+	for <dpb@cs.brown.edu>; Thu, 25 Feb 1999 18:00:56 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA04890
+	for agora-discussion-list; Fri, 26 Feb 1999 10:00:21 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA04887
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 10:00:20 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id KAA25377
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 10:03:50 +1100 (EST)
+Received: from dial-126-74.dial.indiana.edu(156.56.126.74) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma025375; Fri, 26 Feb 99 10:03:20 +1100
+Received: (from scott@localhost) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) id SAA10774 for agora-discussion@gecko.serc.rmit.edu.au; Thu, 25 Feb 1999 18:00:10 -0500
+Date: Thu, 25 Feb 1999 18:00:10 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Message-Id: <199902252300.SAA10774@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: proto: Simplify Probate (Chaos72, rev. 5)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1372
+Lines: 33
+
+Protoproposal Chaos72 [rev. 5]
+
+Simplify Probate
+
+Be it resolved, that Rules 1637, 1738, 1739 and 1757 be repealed.
+
+Be it further resolved, that Rule 1601 be amended to read:
+
+      (a) An entity is inanimate if it:
+        (1) possesses any number of units of Currency, and
+        (2) does not have an Executor.
+
+      (b) The Notary may perform any of the following with respect to
+          a inanimate entity:
+        (1) transfer Currencies owned by the inanimate entity for the
+            purpose of satisfying a Payment Order naming the inanimate
+            entity as payor;
+        (2) Without Objection, vacate any Payment Order naming the
+            inanimate entity as payor or payee; or
+        (3) Without Objection, transfer Currencies owned by that
+            entity to the Bank.
+
+      (c) The Notary is authorized, all other Rules notwithstanding,
+          to transfer Currency from any inanimate entity to any other
+          entity as if e were the inanimate entity's Executor, when e
+          is permitted to do so in accordance with subdivision (b) of
+          this Rule.
+
+      (d) A inanimate entity is considered to continue to have legal
+          existence as long as it continues to possess units of
+          Currency, even if it is dissolved, destroyed, or otherwise
+          would cease to have legal existence prior to that time.
+
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Thu Feb 25 22:53 EST 1999
+Received: from gecko.serc.rmit.edu.au (IDENT:majordomo@gecko.serc.rmit.edu.au [131.170.42.16])
+	by cs.brown.edu (8.9.0/8.9.0) with ESMTP id WAA03453
+	for <dpb@cs.brown.edu>; Thu, 25 Feb 1999 22:52:59 -0500 (EST)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA06937
+	for agora-discussion-list; Fri, 26 Feb 1999 14:51:57 GMT
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id OAA06934
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 14:51:55 GMT
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.9.1/8.9.1) id OAA25993
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Fri, 26 Feb 1999 14:55:26 +1100 (EST)
+Received: from dial-126-78.dial.indiana.edu(156.56.126.78) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma025991; Fri, 26 Feb 99 14:55:15 +1100
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id WAA28132 for <agora-discussion@gecko.serc.rmit.edu.au>; Thu, 25 Feb 1999 22:51:50 -0500
+Message-Id: <199902260351.WAA28132@poverty.bloomington.in.us>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: DIS: Re: BUS: Official reports 
+In-reply-to: Your message of "Thu, 25 Feb 1999 21:13:55 CST."
+             <Pine.A41.3.95q.990225211312.221434A-100000@sp2n21.missouri.edu> 
+Date: Thu, 25 Feb 1999 22:51:48 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 189
+Lines: 6
+
+"Scott" == Scott de Brestian <Scott> writes:
+
+Scott> Could the Promotor and Accountor please tell me if they plan on
+Scott> publishing another Official Report before the first?
+
+I will be.
+

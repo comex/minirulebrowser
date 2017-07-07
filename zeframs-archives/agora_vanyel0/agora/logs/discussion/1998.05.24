@@ -1,0 +1,486 @@
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun May 24 05:00 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id FAA04762 for <dpb@cs.brown.edu>; Sun, 24 May 1998 05:00:09 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA27688
+	for agora-discussion-list; Sun, 24 May 1998 18:56:43 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id SAA27685
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 24 May 1998 18:56:39 +1000
+Message-Id: <199805240856.SAA27685@gecko.serc.rmit.edu.au>
+Received: (qmail 16074 invoked by alias); 24 May 1998 08:56:50 -0000
+Received: from pppa330.francenet.fr (HELO arapael) (193.149.100.132)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 24 May 1998 08:56:50 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 24 May 1998 10:59:53 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: DIS: Re: BUS: Order Fix Proto v1.3
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 949
+
+>       An Order may be directed to the holder of an Office or other
+>       official position in eir capacity as that Office or other
+>       official position, and in this case if the Office or position
+>       changes hands before the Order is satisfied, the duty to abide
+>       by the Order automatically attaches to the new holder of that
+>       Office or position.
+
+There are occasions when we might not want that to be the case. I
+don't believe this is necessary, though; a more general mechanism
+could be desirable, such as allowing the Speaker to issue
+'presumptively valid' Orders to Amend (or a suitably restricted
+class thereof). 
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun May 24 13:49 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA12272 for <dpb@cs.brown.edu>; Sun, 24 May 1998 13:48:57 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id DAA09180
+	for agora-discussion-list; Mon, 25 May 1998 03:47:06 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id DAA09177
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 25 May 1998 03:47:02 +1000
+Message-Id: <199805241747.DAA09177@gecko.serc.rmit.edu.au>
+Received: (qmail 20458 invoked by alias); 24 May 1998 17:47:19 -0000
+Received: from pppa333.francenet.fr (HELO arapael) (193.149.100.135)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 24 May 1998 17:47:19 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 24 May 1998 19:50:35 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: DIS: Re: BUS: PROTO: Order Repair v1.5
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 2279
+
+> Rule 217 is amended to read;
+> 
+>       All Judgements, and Judical Orders, must be in accordance with the
+>       Rules; however, if the Rules are silent, inconsistent, or unclear 
+>       on the Statement to be Judged, or the Order to be issued, then the
+>       Judge shall consider game custom, commonsense, past Judgements, 
+>       and the best interests of the game before applying other 
+>       standards.
+
+To be complete, make that
+
+       [...] the Judge shall consider game custom,
+       commonsense, past Judgements, past Judicial Orders issued
+       in similar circumstances, and the best interests of the
+       game before applying other standards.
+
+>       Judicial Orders are subject to appeal to a Board of Appeal by a
+>       Call for Appeal.
+
+Shouldn't this specify a number of Players required to initiate the 
+Appeal, in which case you could have it as "upon the insistence
+of three arbitrary Players, or the Player (or one of the Players) 
+such an Order is directed at", in line with Criminal Judgements.
+
+> Rule 1565 is amended by changing the text;
+[...]
+>         v) It lacks standing, as defined elsewhere.
+
+Do we have a definition of 'standing' by now ? If not, maybe you
+can take this occasion to dispose of this clause.
+
+>       vii) Its statement alleges that a Judge or Justice has failed to
+>            perform a duty of a judicial nature.
+
+I fail to see the reason for this.
+
+>        i) Private Orders shall not be for a proper purpose unless they 
+>           are directly relevant to the personal business of the Player 
+>           issuing them, or to the business of entities over which that 
+>           player has legal control when the Order was issued.
+
+You should get the "agreement between that Player and the entity to 
+which the Order is directed" language in there as well. I also think
+the notion of "legal control" could do with a clarification; you 
+could mention Executors, Executors in Probate and Power of Attorney.
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun May 24 21:23 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA19338 for <dpb@cs.brown.edu>; Sun, 24 May 1998 21:23:46 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA20427
+	for agora-discussion-list; Mon, 25 May 1998 11:21:05 +1000
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id LAA20424
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 25 May 1998 11:21:01 +1000
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA07651; Sun, 24 May 1998 20:17:22 CDT
+Message-Id: <199805250117.AA07651@dfw.dfw.net>
+Subject: DIS: Re: OFF:  New Proposals: 3749 - 3751
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 24 May 1998 20:17:22 -0500 (CDT)
+In-Reply-To: <s56191b7.041@rmv.state.ma.us> from "David Albertz" at May 19, 98 02:05:23 pm
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 269
+
+David Albertz wrote:
+>
+>======================================================================
+>Proposal 3749 (Steve) AI = 1
+>The Levers of Monetary Policy
+
+Did I miss a correction to this Proposal Distribution?  Or has
+this Proposal now been distributed twice?
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun May 24 21:29 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA19448 for <dpb@cs.brown.edu>; Sun, 24 May 1998 21:28:55 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA20678
+	for agora-discussion-list; Mon, 25 May 1998 11:25:24 +1000
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id LAA20675
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 25 May 1998 11:25:19 +1000
+Received: by dfw.dfw.net (4.1/SMI-4.1)
+	id AA08026; Sun, 24 May 1998 20:21:43 CDT
+Message-Id: <199805250121.AA08026@dfw.dfw.net>
+Subject: DIS: Re: OFF:  New Proposals: 3749 - 3751
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Sun, 24 May 1998 20:21:43 -0500 (CDT)
+In-Reply-To: <s56191b7.041@rmv.state.ma.us> from "David Albertz" at May 19, 98 02:05:23 pm
+From: "Charles E. Carroll" <ccarroll@nationwide.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 1824
+
+>======================================================================
+>Proposal 3750 (Swann) AI = 1
+>Trumpet Mk II.
+>          Let the following rule be created with an Power=3
+>          (text delimited by "***")
+>          {Title: Limits on the Power of Instruments};
+>
+>               ***
+>
+>               No instrument can create another instrument with a Power 
+>               greater than its own Power.  This Rule takes precedence 
+>               over any Rule that specifies the Power of the created
+>               instrument.  Proposals are explicitly exempt from this
+>               provision.
+>
+>               In the specific case of Proposals, a Proposal shall have
+>               a Power equal to its Adoption Index.  In no case shall a
+>               Proposal take effect unless its Voting Index exceeds its
+>               Adoption Index, (or equals it in the case both equal
+>               Unanimity) and the Rules otherwise permit it to take
+>               effect.  A Proposal cannot create an instrument with a
+>               Power that exceeds the Proposal's Power.
+>
+>               If an instrument creates another instrument, and fails to
+>               specify a legal Power for the created instrument, the 
+>               Power of the new instrument is 1.
+>
+>               ***"
+
+This still contains the same flaws I pointed out in the first
+Veto Scam Proposal--First, that "Proposals are explicitly exempt
+from this provision" is vague--Proposals are exempt as the creating
+instrument, or the created instrument, or both?  Second, and mor
+importantly, setting the Power of a Proposal equal to its
+Adoption Index is dangerous, as I attempted to demonstrate with
+my Counterscam the Veto Scam.  The Power of a Proposal should not be
+set until the time at which it takes effect.  
+
+Chuck
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun May 24 22:10 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA20152 for <dpb@cs.brown.edu>; Sun, 24 May 1998 22:10:27 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA21780
+	for agora-discussion-list; Mon, 25 May 1998 12:07:32 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA21777
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 25 May 1998 12:07:30 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id MAA06857 for agora-discussion@gecko.serc.rmit.edu.au; Mon, 25 May 1998 12:07:41 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199805250207.MAA06857@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Re: OFF:  New Proposals: 3749 - 3751
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 25 May 1998 12:07:41 +1000 (EST)
+In-Reply-To: <199805250117.AA07651@dfw.dfw.net> from "Charles E. Carroll" at May 24, 98 08:17:22 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 607
+
+Charles E. Carroll wrote:
+>
+>David Albertz wrote:
+>>
+>>======================================================================
+>>Proposal 3749 (Steve) AI = 1
+>>The Levers of Monetary Policy
+>
+>Did I miss a correction to this Proposal Distribution?  Or has
+>this Proposal now been distributed twice?
+
+There was a correction. 'More Fun with Priority' was eventually distributed
+about 2 days later.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun May 24 22:13 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA20164 for <dpb@cs.brown.edu>; Sun, 24 May 1998 22:13:25 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA21812
+	for agora-discussion-list; Mon, 25 May 1998 12:11:03 +1000
+Received: from gwis.com (darcy.gwis.com [209.57.72.3])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA21805
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 25 May 1998 12:10:46 +1000
+Received: from gwis.com (pap21.gwis.com [209.57.71.51])
+	by gwis.com (8.9.0/8.9.0) with ESMTP id WAA23779
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Sun, 24 May 1998 22:10:36 -0400 (EDT)
+Message-ID: <3568D2F3.E862D115@gwis.com>
+Date: Sun, 24 May 1998 22:09:55 -0400
+From: Steven Swiniarski <saswann@gwis.com>
+Organization: S Andrew Swann
+X-Mailer: Mozilla 4.04 [en] (Win95; U)
+MIME-Version: 1.0
+To: agora-discussion@gecko.serc.rmit.edu.au
+Subject: Re: DIS: Re: OFF:  New Proposals: 3749 - 3751
+References: <199805250121.AA08026@dfw.dfw.net>
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 1444
+
+Charles E. Carroll wrote:
+> 
+> This still contains the same flaws I pointed out in the first
+> Veto Scam Proposal--First, that "Proposals are explicitly exempt
+> from this provision" is vague--Proposals are exempt as the creating
+> instrument, or the created instrument, or both?
+
+Both, since the 2nd paragraph specifies the Power a Proposal may have,
+and the power of instruments it will create.
+
+> importantly, setting the Power of a Proposal equal to its
+> Adoption Index is dangerous, as I attempted to demonstrate with
+> my Counterscam the Veto Scam.  The Power of a Proposal should not be
+> set until the time at which it takes effect.
+> 
+
+But, if the Voting Index doesn't exceed the Adoption Index, which is
+impossible until the end of the voting period, the proposal can't take
+effect whatever its Power. You can't side-step this by directly setting
+a Proposal's Voting Index, because it still has to be Adopted before it
+takes effect.
+
+Swann
+
+
+
+-- 
+=====================================================================
+Steven A. Swiniarski                http://www.sff.net/people/saswann
+aka S Andrew Swann                                   saswann@gwis.com
+---------------------------------------------------------------------
+ "The contest for ages has been to rescue liberty from the grasp of
+  executive power."                                --Daniel Webster
+=====================================================================
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun May 24 22:47 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA20687 for <dpb@cs.brown.edu>; Sun, 24 May 1998 22:47:31 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA22857
+	for agora-discussion-list; Mon, 25 May 1998 12:42:52 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id MAA22854
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 25 May 1998 12:42:49 +1000
+Received: From hildegard With LocalMail ; Mon, 25 May 98 12:42:51 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 25 May 1998 12:42:50 +1000 (EST)
+Message-Id:  <980525024250.29519@cse.unsw.edu.au>
+Subject: Re: DIS: Re: OFF: Coup d'etat CFJ
+In-Reply-To: <Pine.LNX.3.96.980521202031.21468C-100000@tyrell.nvg.ntnu.no> from "Orjan Johansen" at May 21, 98 08:33:35 pm
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1523
+
+> 
+> I disagree with these statements.  There has always been a strong
+> separation between Crimes and Rule breaking.=20
+> 
+> At no time that I can remember have the Rules prohibited Crimes, only
+> punished them. Therefore, I have no problems committing them, in
+> principle.  (Notwithstanding that penalties and bad consequences for the
+> game may make specific Crimes a bad idea.)
+> 
+> However, I will not willfully break the Rules.  If it should come to such
+> a point that obeying them becomes intolerable, I will instead use Rule
+> 113.
+
+I agree with Oerjan. I consider breaking the rules and committing Crimes
+as quite distinct things. It's an "in-game" vs. "meta-game" distinction.
+A player who commits a Crime should be punished, and should expect to face 
+recriminations in-game (in a role-playing sense), but may well be 
+regarded by me as a clever game-player at the meta-game level. 
+
+However a player who flagrantly disobeys the rules should expect
+recriminations at the meta-game level, because they are violating the
+meta-game agreement to abide by the rules of the game.
+
+Note that this does not mean that Crimes can be committed lightly. 
+
+Blob
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun May 24 23:13 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA21046 for <dpb@cs.brown.edu>; Sun, 24 May 1998 23:13:27 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA23158
+	for agora-discussion-list; Mon, 25 May 1998 13:00:05 +1000
+Received: from silas-2.cc.monash.edu.au (silas-2.cc.monash.edu.au [130.194.1.7])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA23152
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 25 May 1998 12:59:59 +1000
+Received: (from gardner@localhost) by silas-2.cc.monash.edu.au (8.8.8/8.8.0) id MAA09842 for agora-discussion@gecko.serc.rmit.edu.au; Mon, 25 May 1998 12:59:56 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199805250259.MAA09842@silas-2.cc.monash.edu.au>
+Subject: Re: DIS: Re: BUS: PROTO: Truely Criminal Actions
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 25 May 1998 12:59:56 +1000 (EST)
+In-Reply-To: <199805232258.RAA01065@poverty.bloomington.in.us> from "Scott Goehring" at May 23, 98 05:58:44 pm
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1349
+
+Scott Goehring wrote:
+>
+>"Orjan" == Orjan Johansen <oerjan@nvg.ntnu.no> writes:
+>
+>Orjan> I don't think "cannot" [sic, as I know from bad experience :-)]
+>Orjan> belongs here - that more naturally implies an actual claim of
+>Orjan> impossibility.
+>
+>However, "cannot" (and "can not") are frequently used to denote
+>impermissibility, the strict incorrectness of such usage
+>notwithstanding.
+
+An example to make the point would be nice. Perhaps R1792 contains one:
+
+      There is a type of Application known as an Proposal Application.
+      Such an Application is executed by submitting it to the
+      Promotor.  This application takes effect when executed.  For a
+      Proposal Application to take effect it must;
+
+      iii) Specify the non-player entity which the Rules shall deem to
+           have submitted the included Proposal.  This entity cannot
+           be an entity defined elsewhere in the Rules as a Proposing
+           Entity.
+
+The other appearances of 'cannot' in the Ruleset appear to be
+legitimate instances of impossibility, so the claim that the word
+is "frequently" misused doesn't really stand up to scrutiny.
+
+-- 
+
+
+Steve Gardner                     |        "If it's not worth doing,
+Dept. of Philosophy, Monash Uni.  |        it's not worth doing well."
+gardner@silas.cc.monash.edu.au    |            -- Donald Hebb --
+
+From owner-agora-discussion@gecko.serc.rmit.edu.au Sun May 24 23:24 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA21197 for <dpb@cs.brown.edu>; Sun, 24 May 1998 23:24:30 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA23421
+	for agora-discussion-list; Mon, 25 May 1998 13:07:50 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id NAA23418
+	for <agora-discussion@gecko.serc.rmit.edu.au>; Mon, 25 May 1998 13:07:49 +1000
+Received: From hildegard With LocalMail ; Mon, 25 May 98 13:07:56 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-discussion@gecko.serc.rmit.edu.au
+Date: Mon, 25 May 1998 13:07:56 +1000 (EST)
+Message-Id:  <980525030756.988@cse.unsw.edu.au>
+Subject: Re: DIS: Re: BUS: COE on Promotor's Report
+In-Reply-To: <s56402e8.075@rmv.state.ma.us> from "David Albertz" at May 21, 98 10:32:59 am
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-discussion@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 281
+
+> 
+> Ouch!  Of course you are correct.  I'm afraid some RL issues have me a little
+> distracted at the moment.  8(  The claim was properly admitted, but the
+> correction was improperly made.  I have attached a corrected version of the
+> proposal submission.
+
+Not to the PF.
+
+Blob
+
+

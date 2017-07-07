@@ -1,0 +1,139 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jul  8 00:28 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA06682 for <dpb@cs.brown.edu>; Wed, 8 Jul 1998 00:28:52 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id OAA19176
+	for agora-business-list; Wed, 8 Jul 1998 14:23:48 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id OAA19173
+	for <agora-business@gecko.serc.rmit.edu.au>; Wed, 8 Jul 1998 14:23:42 +1000
+Received: From elgar With LocalMail ; Wed, 8 Jul 98 14:23:20 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-business@gecko.serc.rmit.edu.au (Nomic Business)
+Date: Wed, 8 Jul 1998 14:23:18 +1000 (EST)
+Message-Id:  <980708042319.22028@cse.unsw.edu.au>
+Subject: BUS: Protos: More Economics
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 3241
+
+Various ideas that popped into my head this evening;
+
+Proto: Vote Early, Vote Often
+
+Create a rule, entitled "The Early Bird...", with text:
+
+     At the end of the voting period of a Proposal, the Assesor
+     shall pay out 1 VT to the first Player (other than the Assessor)
+     to have voted on that Proposal, who did not subsequently change
+     or retract eir vote.
+
+[Comments: An incentive to vote - with a sting in the tail. As long
+ as voting is secret, you can't be sure whether you really are 
+ going to be the first one to vote.]
+
+Proto: Skimming a bit off the top.
+
+Amend rule 1449 ("The Assessor") to read:
+
+      There shall exist the Office of Assessor.  The Assessor
+      shall receive a weekly salary equal to 0.5 times the Basic
+      Officer Salary.
+
+      The Assessor shall also receive a Commission. At the end
+      of the Voting Period for a Proposal, the Assessor shall
+      pay out to emself an amount equal to 5% of the VTs spent
+      on voting on that Proposal.
+
+[Comment: Gives the Assessor good reason to encourage voting,
+ although maybe it leaves em a bit too much at the mercy of the 
+ Promotor, who controls the batch sizes. Things are better, if it
+ is combined with the below.]
+
+Proto: What does this lever do?
+
+Crete a rule, entitled "The Voting Tariff", with text:
+
+      The Voting Tariff is a number of VTs, a multiple of the
+      MUQ, between 0.5 and 2.0 inclusive. Unless the Rules give
+      it another value, the Voting Tariff is 1 VT.
+
+      The Assessor may change the value of the Voting Tariff by
+      announcing the new value in the Public Forum, provided that
+      e announces a value within the range proscribed above, that
+      e makes the announcement prior to midnight GMT Thursday, and 
+      that e has not already made such an announcement earlier in 
+      the Week. The new value of the Voting Tariff does not take
+      effect until the beginning of the Nomic Week after the
+      change has been announced.
+
+Amend rule Rule 1442 ("The Cost of Voting") to read:
+
+      Proposals have a voting cost, equal to the Voting Tariff
+      at the time they were distributed. If there was no value
+      set for the Voting Tariff at that time, then the voting
+      cost is 1 VT.
+
+      As soon as possible after the end of the Voting Period of a
+      given Proposal, the Assessor shall bill each Voting Entity a
+      number of Voting Tokens equal to the votes cast on that
+      Proposal by that entity multiplied by the voting cost for
+      that Proposal.
+
+[Comment: Yet another parameter for the economy. Gives us a way 
+ to handle voting slumps, like the present one, by making voting
+ cheaper. If tied to the Assessor's income, as proto'ed above, it
+ gives the Assessor an interesting dilemma - does e raise prices to
+ increase eir commission, or would e be better off lowering them
+ and attracting more voters?] 
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-business@gecko.serc.rmit.edu.au Wed Jul  8 23:37 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA09467 for <dpb@cs.brown.edu>; Wed, 8 Jul 1998 23:37:15 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA25459
+	for agora-business-list; Thu, 9 Jul 1998 13:34:15 +1000
+Received: from cyber1.servtech.com (cyber1.servtech.com [199.1.22.8])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id NAA25456
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 9 Jul 1998 13:34:07 +1000
+Received: from computername (lh1.roc.servtech.com [206.106.146.203])
+	by cyber1.servtech.com (8.8.8/8.8.8) with SMTP id DAA15606
+	for <agora-business@gecko.serc.rmit.edu.au>; Thu, 9 Jul 1998 03:33:36 GMT
+Message-Id: <3.0.5.32.19980708225203.00a3d640@cyber1.servtech.com>
+X-Sender: particle@cyber1.servtech.com
+X-Mailer: QUALCOMM Windows Eudora Light Version 3.0.5 (32)
+Date: Wed, 08 Jul 1998 22:52:03 -0400
+To: agora-business@gecko.serc.rmit.edu.au
+From: Joshua Hall-Bachner <harlequin@tmbg.org>
+Subject: BUS: Re: OFF: Voting Report: 3764-3765
+In-Reply-To: <199807060012.KAA14514@silas-2.cc.monash.edu.au>
+Mime-Version: 1.0
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 481
+
+At 10:12 AM 7/6/98 +1000, Steve Gardner wrote:
+
+>aaa258  Harlequin      the Bank     2  VTs       Voting
+
+I hereby transfer 2 VTs from me to the bank to satisfy the above PO.
+
+
+/---------------------------Joshua Hall-Bachner---------------------------\
+|      harlequin@tmbg.org      http://www.servtech.com/public/particle/   |
+| "We all have our idiosyncracies -- maybe thinning hair, or gum disease."|
+\---- Kowanko, "Will You Come To?" ------ Thank You, And Goodnight. ------/
+

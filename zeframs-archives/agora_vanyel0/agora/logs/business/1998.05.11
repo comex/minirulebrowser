@@ -1,0 +1,1080 @@
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 04:41 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA16625 for <dpb@cs.brown.edu>; Mon, 11 May 1998 04:41:23 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA16864
+	for agora-business-list; Mon, 11 May 1998 18:34:39 +1000
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA16861
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 11 May 1998 18:34:33 +1000
+Received: by windowsnt from localhost
+    (router,SLMail V2.6); Mon, 11 May 1998 04:32:04 -0400
+Received: by windowsnt from friend-computer
+    (199.107.161.146::mail daemon; unverified,SLMail V2.6); Mon, 11 May 1998 04:31:38 -0400
+From: "Ed Murphy" <ford@bayside.net>
+To: "Agora Business" <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: Plot Repair
+Date: Mon, 11 May 1998 01:32:04 -0700
+Message-ID: <000001bd7cb7$47d2d220$92a16bc7@friend-computer>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2173.0
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.2106.4
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 2081
+
+[Proposal 3741, "Plots", was partly broken by the prior adoption of
+ Proposal 3740, "Repeal Locations".  This Proposal, if adopted, will
+ repair the damage.]
+
+Proposal:  Plot Repair
+
+Create a Rule entitled "Plots" with this text:
+
+      There is a class of entities called Plots.  All Plots are initially
+owned
+      by the Bank.
+
+      Each Plot has a unique name.  A Plot's owner may change its name
+Without
+      Objection.
+
+Create a Rule entitled "Adjacency" with this text:
+
+      Each Plot has a Longitude and Latitude, each of which is an integer.
+Two
+      Plots are Adjacent if and only if one of the following applies:
+
+        * They have the same Longitude, and their Latitudes differ by one.
+        * They have the same Latitude, and their Longitudes differ by one.
+
+For each combination of Latitude (X) from 0 to 9 and Longitude (Y) from 0 to
+9:
+
+  * If a Plot named "Area XY" (substituting the Latitude for "X" and the
+    Longitude for "Y") already exists, its Latitude and Longitude are set to
+    X and Y, respectively.
+  * If no such Plot exists, then a Plot with that name, Latitude and
+Longitude
+    is created.
+
+Create a Rule entitled "The Cartographor" with this text:
+
+     There is an Office of Cartographor. The Cartographor recieves a
+      salary equal to 2 times the Basic Officer Salary.
+
+      At least once each Nomic Week, the Cartographor shall post a
+      Report to the Public Forum containing the following information:
+
+        * the name, ownership, and Adjacency of all Plots
+        * the ownership, assignment (if any) and Type of all Structures
+        * the ownership of all Ergs
+        * all changes in ownership of Plots since the last Report
+        * all changes in ownership, assignment, or Type of all Structures
+since
+            the last Report
+        * all Transfer Orders and Payment Orders specifying Ergs since the
+last
+            Report
+
+
+
+
+I spend 1 P-Note to raise this Proposal's Priority to 1.
+
+
+-- 
+-- 
+Ed Murphy <ford@bayside.net>
+http://www.bayside.net/users/ford/
+"Don't tell me what I already know."  -Richard Feng
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 04:41 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA16622 for <dpb@cs.brown.edu>; Mon, 11 May 1998 04:41:17 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id SAA16872
+	for agora-business-list; Mon, 11 May 1998 18:35:19 +1000
+Received: from windowsnt ([38.179.24.2])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id SAA16869
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 11 May 1998 18:35:15 +1000
+Received: by windowsnt from localhost
+    (router,SLMail V2.6); Mon, 11 May 1998 04:32:27 -0400
+Received: by windowsnt from friend-computer
+    (199.107.161.146::mail daemon; unverified,SLMail V2.6); Mon, 11 May 1998 04:32:16 -0400
+From: "Ed Murphy" <ford@bayside.net>
+To: "Agora Business" <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: Probate of Time Agent, part 2 of 3 (again)
+Date: Mon, 11 May 1998 01:32:36 -0700
+Message-ID: <000101bd7cb7$59f61200$92a16bc7@friend-computer>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook 8.5, Build 4.71.2173.0
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.2106.4
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Length: 1236
+
+According to the latest reports for VTs (Accountor), P-Notes (Promotor)
+and Indulgences (Herald), Time Agent possesses 0.5 VTs and is the Payor
+of the following Payment Orders:
+
+  VT1932 (2.0 VTs to Bank)
+  VT1987 (2.0 VTs to Bank)
+  POI778 (1 Indulgence to Bank)
+  POI785 (3 Indulgences to Bank)
+  POI787 (1 Indulgence to Bank)
+  POI789 (1 Indulgence to Bank)
+  POI790 (1 Indulgence to Bank)
+  POI796 (1 Indulgence to Bank)
+  POI797 (1 Indulgence to Bank)
+
+Furthermore, I interpret the following message from Harlequin:
+
+> Brrr. No irises. NOOOOOOOO IRISESSSSSSSS.
+
+as meaning that Time Agent possesses no Irises or Iris debts.  (Yes, I know
+the
+message was a reply to Jester's Probate, and may have been intended to apply
+solely to Jester.  However, I will probably deKudo anyone who insists on
+arguing
+the point further, unless it's Harlequin emself.)
+
+
+I submit the following plan for the completion of Time Agent's Probate:
+
+  * Transfer 0.5 VTs from Time Agent to the Bank
+  * Vacate Payment Orders VT1932 and VT1987
+  * Vacate Payment Orders POI778, POI785, POI787, POI789, POI790,
+      POI796, and POI797
+
+
+-- 
+-- 
+Ed Murphy <ford@bayside.net>
+http://www.bayside.net/users/ford/
+"Don't tell me what I already know."  -Richard Feng
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 06:08 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id GAA18020 for <dpb@cs.brown.edu>; Mon, 11 May 1998 06:08:55 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id UAA19225
+	for agora-business-list; Mon, 11 May 1998 20:04:13 +1000
+Received: from heaton.cl.cam.ac.uk (heaton.cl.cam.ac.uk [128.232.32.11])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id UAA19219
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 11 May 1998 20:03:23 +1000
+Received: from merganser.cl.cam.ac.uk [128.232.0.49] (exim)
+	by heaton.cl.cam.ac.uk with smtp (Exim 1.82 #1)
+	id 0yYpQE-000712-00; Mon, 11 May 1998 11:03:02 +0100
+Received: from mn200 by merganser.cl.cam.ac.uk with local (Exim 1.70 #1)
+	id 0yYpQC-0001W1-00; Mon, 11 May 1998 11:03:00 +0100
+From: Michael Norrish <Michael.Norrish@cl.cam.ac.uk>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Message-ID: <13654.52436.285781.748558@merganser.cl.cam.ac.uk>
+Date: Mon, 11 May 1998 11:03:00 +0100 (BST)
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: judgement of CFJ 1093
+X-Mailer: VM 6.47 under Emacs 19.34.1
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 3329
+
+======================================================================
+                               CFJ 1093
+
+  Player Morendil did not commit the Infraction of Inciting to Riot.
+
+======================================================================
+
+Judgement: FALSE
+
+Reasons and arguments:
+
+I hold that one commits the Infraction of Inciting to Riot by failing
+to become Abiding within a month of last becoming Rebellious.
+Further, at any given time it is easy to determine whether or not
+someone has committed the Infraction: we ask "Are they rebellious, and
+have they been so for the last month or more?"  This is clearly the
+easiest and most sensible reading of the rule as it will come to
+operate in the months after its passage.  This case is only
+interesting because it involves a Player who became Rebellious before
+the passage of the Proposal defining the Infraction.
+
+Further support to this view comes from Real World practice when
+similar laws are enacted.  For example, in Britain the gun laws were
+recently tightened to make it illegal to posses various forms of
+hand-gun.  This legislation could have been phrased so as to instantly
+make criminals of all those who had been holding guns that had been
+legal up to this point.  Rather than do something so unfair, the
+Government allowed for an Amnesty Period.  In not doing something
+similar in Agora, the proposal creating the Rule defining the
+Infraction of Inciting to Riot has made instant "criminals" of
+Morendil and Harlequin.
+
+The Caller makes two further claims.  Firstly he claims that Rule 1513
+"Authority of non-rule entities" exempts him from being subject to the
+Infraction as the rule was not available to him at the time when he
+became Rebellious.  This is suspect for two reasons.  The first is
+that there is a strong case that R1513 does not restrict the power of
+the rules when its third paragraph states "No Nomic Entity is
+permitted to require...."  The whole scope of the rule in question is
+non-rule entities, so to suppose that this third paragraph is now
+talking about the rules as well as the non-rule entities it has been
+talking about hitherto is suspect.
+
+Secondly, the claim that R1513 prevents the Infraction from being
+applied is countered by the fact that Morendil did have the text of
+the putative rule available to him before he became liable to the
+Infraction.  This is because the rule was necessarily published in
+proposal form before becoming a rule.  The fact that this text was not
+available to him when he Rebelled is irrelevant as he committed the
+Infraction on failing to become Abiding a month later.
+
+The final argument presented by the Caller is that Morendil is not
+liable to the Infraction because at the time of the detection and
+reporting of the Infraction he had become Abiding, and thus performed
+the duty required of him.  This argument is akin to claiming that
+eventually submitting a late judgement for a CFJ exempts one from the
+penalty for late judgement if that Infraction has not yet been
+detected and reported.  We well know that Agoran practice, custom and
+law does not suport this view.  At the time of the passage of the
+proposal establishing the Infraction, Morendil instantaneously
+committed it.  That this was only detected and reported after Morendil
+had attempted become Abiding is irrelevant.
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 11:12 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA25429 for <dpb@cs.brown.edu>; Mon, 11 May 1998 11:12:02 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id BAA27174
+	for agora-business-list; Tue, 12 May 1998 01:03:38 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id BAA27171
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 12 May 1998 01:03:23 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 11 May 1998 11:02:24 -0400
+Message-Id: <s556dac0.051@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 11 May 1998 11:01:20 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: OFF: official salaries and benefits for week ending 10 May
+	1998
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 317
+
+OFF: official salaries and benefits for week ending 10 May 1998
+
+Michael wrote:
+
+>I order Chuck to pay 2 VTs (RVTPO279) and 2 Indulgences (RIPO12) to
+>the Bank for committing the Infraction of Failure to Report as
+>Rulekeepor.
+
+H. Scorekeepor,
+
+As a result of the above Blots, Chuck loses 4 points.
+
+-- Herald Crito
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 12:21 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA27981 for <dpb@cs.brown.edu>; Mon, 11 May 1998 12:21:21 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA29091
+	for agora-business-list; Tue, 12 May 1998 02:13:36 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id CAA29088
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 12 May 1998 02:13:30 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 11 May 1998 12:12:55 -0400
+Message-Id: <s556eb47.007@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 11 May 1998 12:12:10 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: COE on Herald's Report
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 911
+
+COE on Herald's Report
+
+Crito wrote:
+
+>Date: Mon, 11 May 1998 00:00:00 GMT
+
+>    3 Indulgences required to be distributed this week.
+
+>    The Bank is hereby ordered to pay one Indulgence to Crito.
+>    The Bank is hereby ordered to pay one Indulgence to Time Agent.
+>    The Bank is hereby ordered to pay one Indulgence to Steve.
+
+
+>Eligible recipients:  Antimatter, Blob, Chuck, Crito, elJefe, G. Chaos,
+>                      Harlequin, Kolja A., Michael, Morendil, Murphy,
+>                      Oerjan, Sherlock, Steve, Swann, Time Agent
+
+Where is my brain?  Time Agent is no longer a Player and should not be included
+in this list, and should not receive an Indulgence.  This is a Claim of Error
+which I admit.  The above PO to Time Agent is hereby vacated.  A new random
+number was selected, and a new PO issued as follows:
+
+The Bank is hereby ordered to pay one Indulgence to Michael.
+
+-- Herald Crito
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 12:22 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA28001 for <dpb@cs.brown.edu>; Mon, 11 May 1998 12:21:59 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA29354
+	for agora-business-list; Tue, 12 May 1998 02:18:03 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id CAA29349
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 12 May 1998 02:18:00 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 11 May 1998 12:17:25 -0400
+Message-Id: <s556ec55.009@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 11 May 1998 12:16:46 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Votes
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 213
+
+Votes
+
+H. Assessor,
+
+I hereby vote as follows: 
+
+                  3  3  3  3
+                  7  7  7  7
+                  4  4  4  4
+                  5  6  7  8
+
+Crito             F  F  F  F
+
+Regards,
+Crito
+
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 12:26 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA28191 for <dpb@cs.brown.edu>; Mon, 11 May 1998 12:26:36 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA29405
+	for agora-business-list; Tue, 12 May 1998 02:23:07 +1000
+Received: from altern.org (host101.a-272.99.66.209.in-addr.arpa [209.66.99.101])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id CAA29389
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 12 May 1998 02:21:58 +1000
+Message-Id: <199805111621.CAA29389@gecko.serc.rmit.edu.au>
+Received: (qmail 18375 invoked by alias); 11 May 1998 16:21:42 -0000
+Received: from pppa226.francenet.fr (HELO arapael) (193.149.100.80)
+  by host096.a-272.99.66.209.in-addr.arpa with SMTP; 11 May 1998 16:21:41 -0000
+Comments: Authenticated sender is <morendil@mail.micronet.fr>
+From: "Laurent Bossavit" <morendil@micronet.fr>
+To: agora-business@gecko.serc.rmit.edu.au
+Date: Mon, 11 May 1998 18:24:52 +0100
+MIME-Version: 1.0
+Content-transfer-encoding: 7BIT
+Subject: BUS: Blot Payoff
+X-mailer: Pegasus Mail for Win32 (v2.42a)
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 452
+
+I hereby transfer one Indulgence to the Bank to satisfy the following
+PO :
+
+> POI809 05May98 09:05:32      1 Morendil        Bank          Registrar
+
+
+=====================================================
+Laurent Bossavit
+NetDIVE Paris offices                      (o o)
+--------------------------------     -oOO--( )--OOo-
+http://www.netdive.com/
+NetDIVE: the leader in virtual meeting technology
+=====================================================
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 12:57 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id MAA29498 for <dpb@cs.brown.edu>; Mon, 11 May 1998 12:57:11 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id CAA30237
+	for agora-business-list; Tue, 12 May 1998 02:48:19 +1000
+Received: from gwis.com (darcy.gwis.com [209.57.72.3])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id CAA30230
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 12 May 1998 02:48:14 +1000
+Received: from gwis.com (pbp50.gwis.com [209.57.71.80]) by gwis.com (8.8.5/8.6.12) with ESMTP id MAA09716 for <agora-business@gecko.serc.rmit.edu.au>; Mon, 11 May 1998 12:48:01 -0400 (EDT)
+Message-ID: <35572BB0.C3EB29A6@gwis.com>
+Date: Mon, 11 May 1998 12:47:44 -0400
+From: Steven Swiniarski <saswann@gwis.com>
+Organization: S Andrew Swann
+X-Mailer: Mozilla 4.04 [en] (Win95; U)
+MIME-Version: 1.0
+To: Agora-Business <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: Vote Payment
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 609
+
+I give 2 VTs to the bank to satisfy this:
+
+VT2268 08May98 00:24:18    2.0 Swann           Bank           Voting
+
+Swann
+-- 
+=====================================================================
+Steven A. Swiniarski                http://www.sff.net/people/saswann
+aka S Andrew Swann                                   saswann@gwis.com
+---------------------------------------------------------------------
+ "The contest for ages has been to rescue liberty from the grasp of
+  executive power."                                --Daniel Webster
+=====================================================================
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 19:44 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id TAA13855 for <dpb@cs.brown.edu>; Mon, 11 May 1998 19:44:15 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id JAA07867
+	for agora-business-list; Tue, 12 May 1998 09:37:18 +1000
+Received: from indiana.edu (roatan.ucs.indiana.edu [129.79.10.65])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id JAA07864
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 12 May 1998 09:37:14 +1000
+Received: from poverty.bloomington.in.us (root@dial-126-141.ucs.indiana.edu [156.56.126.141])
+	by indiana.edu (8.8.8/8.8.8/1.16IUPO) with ESMTP id SAA09750
+	for <agora-business@gecko.serc.rmit.edu.au>; Mon, 11 May 1998 18:36:59 -0500 (EST)
+Received: from poverty.bloomington.in.us (scott@localhost [127.0.0.1]) by poverty.bloomington.in.us (8.7.3/8.7.3/poverty) with ESMTP id SAA01598 for <agora-business@gecko.serc.rmit.edu.au>; Mon, 11 May 1998 18:36:57 -0500
+Message-Id: <199805112336.SAA01598@poverty.bloomington.in.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Flashdance
+Date: Mon, 11 May 1998 18:36:57 -0500
+From: Scott Goehring <scott@poverty.bloomington.in.us>
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text
+Content-Length: 68
+
+I hereby move to the Origin.
+
+I hereby move to the Stasis Chamber.
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 20:12 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA14665 for <dpb@cs.brown.edu>; Mon, 11 May 1998 20:12:50 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA08422
+	for agora-business-list; Tue, 12 May 1998 10:06:28 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA08419
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 12 May 1998 10:06:23 +1000
+Received: (from gardner@localhost) by silas-1.cc.monash.edu.au (8.8.8/8.8.0) id KAA24534 for agora-business@gecko.serc.rmit.edu.au; Tue, 12 May 1998 10:06:13 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199805120006.KAA24534@silas-1.cc.monash.edu.au>
+Subject: BUS: Score change
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic Business List)
+Date: Tue, 12 May 1998 10:06:12 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 838
+
+Michael Norrish writes:
+>
+>Steve Gardner writes:
+>
+>> Michael is correct. Scorekeepor Swann, I hereby order you to increase
+>> Michael's Score by 3 points for having voted on more than 3 Proposals
+>> in a week. (Note that this Score Change will not be applied until
+>> after th termination of the Endgame Procedure.)
+> 
+>Just noticed that this wasn't to the PF.  Incidentally, I support your
+>proposed fix to the rule in question; I agree that having to keep
+>track of who's voted and when is otherwise quite a burden.
+
+This time to the PF then. I order the Scorekeepor to increase Michael's
+score as above, if he has not already done so.
+
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 20:17 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id UAA14808 for <dpb@cs.brown.edu>; Mon, 11 May 1998 20:17:40 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA08675
+	for agora-business-list; Tue, 12 May 1998 10:12:11 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA08671
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 12 May 1998 10:12:10 +1000
+Received: (from gardner@localhost) by silas-1.cc.monash.edu.au (8.8.8/8.8.0) id KAA05456 for agora-business@gecko.serc.rmit.edu.au; Tue, 12 May 1998 10:12:05 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199805120012.KAA05456@silas-1.cc.monash.edu.au>
+Subject: BUS: COE on benefits
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic Business List)
+Date: Tue, 12 May 1998 10:12:04 +1000 (EST)
+In-Reply-To: <13654.50611.456785.670616@merganser.cl.cam.ac.uk> from "Michael Norrish" at May 11, 98 10:32:35 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 693
+
+Michael Norrish wrote:
+>
+>I finally order the Bank to pay 0.5 VTs to each of the following as
+>their unemployment benefit: 
+>
+>(RVTPO280) Antimatter      
+>(RVTPO281) Blob            
+>(RVTPO282) elJefe          
+>(RVTPO283) General Chaos   
+>(RVTPO284) Harlequin       
+>(RVTPO285) Morendil        
+>(RVTPO286) Oerjan          
+>(RVTPO287) Sherlock        
+
+I claim that the above Payment Orders were improperly issued, as R1788
+(VT unemployment benefits) was repealed by P3741. This is a COE.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 21:06 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA16179 for <dpb@cs.brown.edu>; Mon, 11 May 1998 21:06:13 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id KAA09997
+	for agora-business-list; Tue, 12 May 1998 10:59:41 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id KAA09994
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 12 May 1998 10:59:35 +1000
+Received: (from gardner@localhost) by silas-1.cc.monash.edu.au (8.8.8/8.8.0) id KAA14965 for agora-business@gecko.serc.rmit.edu.au; Tue, 12 May 1998 10:59:20 +1000 (EST)
+From: Steve Gardner <gardner@silas-2.cc.monash.edu.au>
+Message-Id: <199805120059.KAA14965@silas-1.cc.monash.edu.au>
+Subject: BUS: Proposal: Tweak R1784
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic Business List)
+Date: Tue, 12 May 1998 10:59:20 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 783
+
+H. Promotor Crito,
+
+I hereby submit the following Proposal (regrettably I have no
+P-Notes with which to raise its Priority):
+
+####
+Proposal
+Tweak R1784
+
+Be it hereby resolved that R1784 be amended by replacing in it the text
+which currently reads:
+
+      In any week where a Player Voted on more than three Proposals, e
+      gains three Points. The Assessor must order this Score change.
+
+with text which reads:
+
+      In any week where a Player Voted on more than three Proposals
+      in a single message, e gains three Points. The Assessor must
+      order this Score change.
+####
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 21:33 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA16847 for <dpb@cs.brown.edu>; Mon, 11 May 1998 21:33:25 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA10885
+	for agora-business-list; Tue, 12 May 1998 11:27:26 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id LAA10882
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 12 May 1998 11:27:21 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 11 May 1998 21:26:48 -0400
+Message-Id: <s5576d18.064@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 11 May 1998 21:25:54 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Score Change
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 564
+
+Score Change
+
+Crito wrote:
+
+>Date: Mon, 11 May 1998 00:00:00 GMT
+
+>    The following Players are guilty of Persistent Indebtedness for
+>    Indulgences.
+
+>    Swann is hereby ordered to pay one Indulgence to the Bank.
+
+>Date: Mon, 11 May 1998 10:32:35 +0100
+
+>    Registrar Michael reports that Rulekeepor Chuck is guilty of Failure
+>    to Report and orders em to pay 2 Indulgences (and 2 VTs) to the Bank.
+
+
+H. Scorekeepor,
+
+If I have not already done so, I note that Swann loses 2 points and Chuck loses
+4 points as a result of the above Blot gains.
+
+-- Crito
+
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 21:54 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id VAA17291 for <dpb@cs.brown.edu>; Mon, 11 May 1998 21:54:43 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA11797
+	for agora-business-list; Tue, 12 May 1998 11:48:25 +1000
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id LAA11794
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 12 May 1998 11:48:21 +1000
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Mon, 11 May 1998 21:47:48 -0400
+Message-Id: <s5577204.065@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Mon, 11 May 1998 21:47:13 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: agora-business@gecko.serc.rmit.edu.au
+Subject: BUS: Batch Size
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain
+Content-Length: 323
+
+Batch Size
+
+Well, proposal making has heated up a bit, and I see a hint from Steve that e
+would like a larger Batch Size.  We saw some real horse trading going on with
+the size of 2, so I am reluctant to increase it.  But I'll compromise a bit and
+see what happens - I hereby change the Batch Size to 3.
+
+-- Promotor Crito
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 22:02 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA17512 for <dpb@cs.brown.edu>; Mon, 11 May 1998 22:02:01 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id LAA11854
+	for agora-business-list; Tue, 12 May 1998 11:56:35 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id LAA11851
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 12 May 1998 11:56:30 +1000
+Received: (from gardner@localhost) by silas-1.cc.monash.edu.au (8.8.8/8.8.0) id LAA27133 for agora-business@gecko.serc.rmit.edu.au; Tue, 12 May 1998 11:56:12 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199805120156.LAA27133@silas-1.cc.monash.edu.au>
+Subject: BUS: Steve's votes: 3747-3748
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic Business List)
+Date: Tue, 12 May 1998 11:56:11 +1000 (EST)
+In-Reply-To: <s556e876.098@rmv.state.ma.us> from "David Albertz" at May 11, 98 11:59:56 am
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 543
+
+David Albertz wrote:
+>
+>OFF:  New Proposals: 3747 - 3748
+>======================================================================
+>
+>   3747 Steve          1 The Levers of Monetary Policy 
+>   3748 Steve          1 No Quorum Tools
+>
+>======================================================================
+
+I vote FOR both of the above Proposals.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 22:46 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA18580 for <dpb@cs.brown.edu>; Mon, 11 May 1998 22:46:14 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA13231
+	for agora-business-list; Tue, 12 May 1998 12:40:12 +1000
+Received: from silas-1.cc.monash.edu.au (silas-1.cc.monash.edu.au [130.194.1.91])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA13228
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 12 May 1998 12:40:09 +1000
+Received: (from gardner@localhost) by silas-1.cc.monash.edu.au (8.8.8/8.8.0) id MAA03172 for agora-business@gecko.serc.rmit.edu.au; Tue, 12 May 1998 12:40:04 +1000 (EST)
+From: Steve Gardner <gardner@silas-1.cc.monash.edu.au>
+Message-Id: <199805120240.MAA03172@silas-1.cc.monash.edu.au>
+Subject: BUS: Voting Reminder
+To: agora-business@gecko.serc.rmit.edu.au (Agora Nomic Business List)
+Date: Tue, 12 May 1998 12:40:03 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL24 PGP3 *ALPHA*]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 614
+
+Players are reminded that the Voting Periods for Proposals 3745-3746
+will conclude at Thu, 14 May 1998 14:25:12 GMT. Quorum for these 
+Proposals is 5. I have received votes and declarations of Presence
+as follows:
+
+                    3  3
+                    7  7
+                    4  4
+                    5  6
+
+Crito               F  F
+Kolja A.            *  *
+Murphy              *  *
+Steve               *  F
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@silas.cc.monash.edu.au    |                       -- Yogi Berra 
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 22:51 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id WAA18691 for <dpb@cs.brown.edu>; Mon, 11 May 1998 22:51:20 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id MAA13259
+	for agora-business-list; Tue, 12 May 1998 12:45:21 +1000
+Received: from gwis.com (darcy.gwis.com [209.57.72.3])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id MAA13256
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 12 May 1998 12:45:15 +1000
+Received: from gwis.com (pap36.gwis.com [209.57.71.66]) by gwis.com (8.8.5/8.6.12) with ESMTP id WAA23921 for <agora-business@gecko.serc.rmit.edu.au>; Mon, 11 May 1998 22:45:01 -0400 (EDT)
+Message-ID: <3557B7A7.F7E00EA2@gwis.com>
+Date: Mon, 11 May 1998 22:44:55 -0400
+From: Steven Swiniarski <saswann@gwis.com>
+Organization: S Andrew Swann
+X-Mailer: Mozilla 4.04 [en] (Win95; U)
+MIME-Version: 1.0
+To: Agora-Business <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: PROTO: The Ombudsman
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 8349
+
+PROTO: The Ombudsman
+
+I thought it might be time for this.  I think that, with the tremendous
+shift of power to the Officers, there might be some need to have someone
+to act as the voice of the common folk.  I also think the Ombudsman's
+job will be somewhat interesting, since it would be one of the most
+broadly defined official positions in Agora.  I think there can be more
+for this guy to do, but at the moment I think this is enough of a start.
+
+Swann
+
+
+================
+Let the following rule be created;
+(Title: The Ombudsman)
+
+     There is a Patent Title of Ombudsman.  This title shall be awarded 
+     in the following ways;
+
+       i) If the prior Ombudsman designates an eligible successor, then 
+          the player designated by the Ombudsman is awarded the title.
+
+      ii) If a referendum is called to award the title to an eligible 
+          player, then upon the passage of that referendum the title is 
+          awarded to that player.
+
+     iii) If no Ombudsman exists, then the Speaker shall, in the Public 
+          Forum, call for volunteers from amongst all eligible players.  
+          One week from this call, the speaker shall select at random a 
+          new Ombudsman from all eligible players who volunteered.
+
+     Whenever a player is awarded the title of Ombudsman, that title is 
+     removed from all prior holders.
+
+     The player holding the title of Ombudsman shall be known as the 
+     Ombudsman.
+
+     If an Ombudsman ceases to be a Player, then eir title is removed.
+
+
+Let the following rule be created;
+(Title: Elgibility to be Ombudsman)
+
+     In order to be eligible to be the Ombudsman, the following must be 
+     true of a Player;
+
+       i) The Player must hold no Office or be the Speaker.
+      ii) The Player must not be On Hold.
+     iii) The Player must not be Vizier or Ordinancekeepor of any Group.
+      iv) The Player has no Blots.
+
+     If any of these conditions becomes false of any Ombudsman, that 
+     Player has a period of 14 days to either change the situation or 
+     designate a willing successor in the Public Forum. If the Ombudsman
+     fails to do either within the 14 day period, then the Title of 
+     Ombudsman is immediately removed from that Player.
+
+
+Let the following rule be created;
+(Title: Designating a Successor Ombudsman)
+
+     At any time, an Ombudsman is permitted to designate an eligible 
+     player to succeed him as Ombudsman.  E must do this in the Public 
+     Forum.  To be successful, this designation must be of a willing 
+     player.
+
+     If a successor is designated, and that Player is eligible to be the 
+     Ombudsman, and that Player consents to be the Ombudsman in the 
+     Public Forum within three days of the designation, then that Player 
+     is awarded the title of Ombudsman either upon the designation, or 
+     upon eir consent, whichever is later.
+
+
+Let the following rule be created;
+(Title: Referendum to replace the Ombudsman)
+
+     Any Player can call for a referendum to replace the Ombudsman.  The 
+     Player must make this call in the Public Forum, and the Referendum 
+     must name an eligible Player to replace the current Ombudsman.  For 
+     the referendum to begin, the named Player must consent in the 
+     Public Forum within the two days immediately after the call.  If 
+     the named Player consents, then the voting period begins as of the 
+     consent.
+
+     The default procedure for referenda changes as follows;  Vote 
+     collector is the Player who called for the referendum.  Voting 
+     entities only include players who hold no Office and are not the 
+     Vizier or Ordinancekeepor of any Group, and who are not the
+     Speaker.
+
+     If the referendum passes, the named player becomes Ombudsman, if it 
+     fails, the referendum has no effect.
+
+
+Let the following rule be crated;
+(Title: Duties and Responsibilities of the Ombudsman)
+
+     The Ombudsman is responsible for being the voice of the people of 
+     Agora.  His duties, broadly defined, are as follows;
+
+       i) To help new Players acclimate to Agora by providing mentoring
+          and guidance.
+      ii) To hear grievances by the Players and bring them to the 
+          attention of Officers and the Speaker.
+     iii) To fight injustice insofar as the powers of the Ombudsman 
+          allow.
+      iv) To be an impartial representative for all the Players of 
+          Agora.
+
+     Other Rules shall define the specifics of these duties and 
+     responsibilities.
+
+
+Let the following rule be created;
+(Title: The Ombudsman's Grievance Report)
+
+     The Ombudsman has the responsibility to hear confidential 
+     grievances from any Player about the game of Agora. The Ombudsman 
+     shall regularly poll the people of Agora, with special attention to 
+     those Players who hold no Office, and solicit their grievances.  In 
+     addition, any Player with a grievance can submit their grievances 
+     to the Ombudsman without being polled.  These grievances need not 
+     be matters of law (which are subjects of the courts) but can be 
+     manners of style, culture, fairness, and anything else that affects 
+     a Player's ability to participate in Agora and enjoy doing so.
+
+     Every week, the Ombudsman shall publish an Official Grievance 
+     Report listing grievances e has received since the last such 
+     report.  This report shall not give out the names of the Players 
+     with these grievances unless the Player with the grievance 
+     explicitly states that eir name is to be attached to the report, 
+     otherwise all grievances given to the Ombudsman shall be 
+     confidential and shall never be revealed.  This rule takes 
+     precedence over any rule that would require or permit the Ombudsman 
+     to violate this confidentiality.
+
+
+Let the following rule be created;
+(Title: The Ombudsman's Duty to New and Inexperienced Players)
+
+     Upon the registration of any new Player the Ombudsman shall 
+     communicate to that Player, as soon as possible, the fact that the 
+     Ombudsman exists to be a mentor to that Player.  The Ombudsman 
+     shall also provide the following services to any Player.
+
+       i) To the best of eir ability answer any question about Agora. 
+      ii) To assist any player in understanding the mechanics of a given 
+          action (submitting/judging a CFJ, submitting a Proposal, 
+          manipulating currency, and so on.)
+     iii) To direct a player's query to the appropriate Officer. (Such 
+          as FOIA requests and so on.)
+      iv) Provide advice to any player who needs it.
+
+
+Let the following rule be crated;
+(Title: Special Privileges of the Ombudsman)
+
+     The Ombudsman shall have the following rights and privileges, to be 
+     exercised only in the spirit of advocacy for *all* Agorans;
+
+       i) Once every month, the Ombudsman is permitted and empowered to 
+          vacate all the Blots on a single individual Player.  This must 
+          only be done to correct what the Ombudsman believes to be an 
+          injustice to an otherwise Rule-abiding Player.
+
+      ii) The Ombudsman is permitted to cast an additional two votes 
+          AGAINST any proposal e believes disenfranchises a large number 
+          of Players,  distributes power unfairly, or adversely affects 
+          a large class of Players who do not themselves have the 
+          resources to oppose.
+
+     iii) The Ombudsman has the power to, once a week, pay out one of 
+          any currency minted by the Bank to any single Player who has 
+          none of that currency.
+
+      iv) If the Ombudsman Rebels, e counts as three players toward a
+          Revolt.
+
+     In addition, the Ombudsman shall receive a weekly stipend equal to 
+     1.5 times the Basic Officer Salary, to be paid out by the 
+     Registrar.
+
+================
+
+
+
+-- 
+=====================================================================
+Steven A. Swiniarski                http://www.sff.net/people/saswann
+aka S Andrew Swann                                   saswann@gwis.com
+---------------------------------------------------------------------
+ "The contest for ages has been to rescue liberty from the grasp of
+  executive power."                                --Daniel Webster
+=====================================================================
+
+From owner-agora-business@gecko.serc.rmit.edu.au Mon May 11 23:53 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [144.110.168.141]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA20174 for <dpb@cs.brown.edu>; Mon, 11 May 1998 23:53:16 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id NAA14874
+	for agora-business-list; Tue, 12 May 1998 13:46:24 +1000
+Received: from note.orchestra.cse.unsw.EDU.AU (note.orchestra.cse.unsw.EDU.AU [129.94.242.29])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with SMTP id NAA14871
+	for <agora-business@gecko.serc.rmit.edu.au>; Tue, 12 May 1998 13:46:18 +1000
+Received: From hildegard With LocalMail ; Tue, 12 May 98 13:46:00 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-business@gecko.serc.rmit.edu.au (Nomic Business)
+Date: Tue, 12 May 1998 13:46:00 +1000 (EST)
+Message-Id:  <980512034600.16174@cse.unsw.edu.au>
+Subject: BUS: Voting Reminder (fwd)
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-business@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 844
+
+> Players are reminded that the Voting Periods for Proposals 3745-3746
+> will conclude at Thu, 14 May 1998 14:25:12 GMT. Quorum for these 
+> Proposals is 5. I have received votes and declarations of Presence
+> as follows:
+> 
+>                     3  3
+>                     7  7
+>                     4  4
+>                     5  6
+> 
+> Crito               F  F
+> Kolja A.            *  *
+> Murphy              *  *
+> Steve               *  F
+
+My votes:
+
+Blob                  F  F
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+

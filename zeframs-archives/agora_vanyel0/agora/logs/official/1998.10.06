@@ -1,0 +1,789 @@
+From owner-agora-official@gecko.serc.rmit.edu.au Tue Oct  6 01:36 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA19220 for <dpb@cs.brown.edu>; Tue, 6 Oct 1998 01:36:20 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA13867
+	for agora-official-list; Tue, 6 Oct 1998 15:32:08 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA13861
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 6 Oct 1998 15:32:06 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id PAA03999
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 6 Oct 1998 15:33:17 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma003992; Tue, 6 Oct 98 15:32:49 +1000
+Received: From mozart With LocalMail ; Tue, 6 Oct 98 15:16:37 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-official@gecko.serc.rmit.edu.au (Nomic Official)
+Date: Tue, 6 Oct 1998 15:16:36 +1000 (EST)
+Message-Id:  <981006051636.20469@cse.unsw.edu.au>
+Subject: OFF: Assessor's Report for Proposals 3790-3791
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 5109
+Lines: 130
+
+
+Agora Nomic
+Voting Report: 3790-3791
+
+[Comment: I thought I had already sent this, but I can find no record
+ of it anywhere. I apologise for the delay.]
+
+Date of last Report: Wed, 02 Sep 1998
+Date of this Report: Sat, 26 Sep 1998
+
+H. Accountor Lee, H. Promotor Blob, please be advised that this message
+contains Payment Orders for Currencies for which you are the Recordkeepors.
+
+===========================================================================
+Voting on Proposals 3790-3791 commenced: Wed, 16 Sep 1998 08:40:47 GMT
+Voting on Proposals 3790-3791 concluded: Sat, 26 Sep 1998 08:40:47 GMT
+
+At the commencement of the Voting Periods of Proposals 3785-3786 there
+were There are currently 16 registered Players; 14 Active, and 2 On Hold.
+Therefore Quorum for these Proposals is 5 (Rule 879/7).
+
+   Num. Proposer      AI Title                             RESULT  F A * 
+
+   3790 Steve          1 Tweak the Taxation Rules          PASSES  3-0-3
+   3791 R-O-M          1 Repeal Rule 1547 (Some Org...)    FAILS   0-6-1
+
+===========================================================================
+
+                    3  3
+                    7  7
+                    9  9
+                    0  1
+
+Antimatter          *  A
+Blob                *  *
+Crito               F  A
+Kolja               * 2A
+Murphy              F   
+Steve               F  
+
+OEE                   2A
+
+FOR                 3  0
+AGAINST             0  6
+PRESENT             3  1
+
+Num. Voters         5  4
+Quorum?             Y  N
+PASSES?             Y  N
+
+======================================================================
+Denial of Voting Privileges
+======================================================================
+None.
+======================================================================
+Zeitgeist
+======================================================================
+H. Registrar Michael: please note the Steve has been awarded the Patent
+Title of Zeitgeist for the unanimous passage of P3790. An appropriate PO
+is issued below.
+======================================================================
+Payment Orders
+======================================================================
+The following Payment Orders are issued, each for the reason specified:
+
+Please note: I have introduced a new numbering scheme, and have 
+restarted numbering from 001.
+
+  Ass#  Payor          Payee      Amt  Currency  Reason
+avt001  Antimatter     the Bank     1  VT        voting
+avt002  Crito          the Bank     2  VTs       voting
+avt003  Kolja          the Bank     2  VT        voting
+avt004  Murphy         the Bank     1  VT        voting
+avt005  Steve          the Bank     1  VT        voting
+avt006  the Bank       Blob      0.45  VTs       Commission, P3790-3791
+
+apn001  the Bank       Steve        2  P-Notes   R833, P3790
+apn002  the Bank       Steve        1  P-Note    Zeitgeist, P3790
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+Proposal 3790 Steve (AI = 1)
+Tweak the Taxation Rules
+
+[Comment: a second try (the first failed Quorum while declaring Presence
+was banned) at two minor fixes to the taxation Rules. The first changes
+the definition of 'in circulation' to exclude Currency already owed to
+the Bank (this fixes the bug which would otherwise require the Accountor
+to Levy Taxes again immediately after e has just done so, but before any
+taxes have been paid). The second lifts the requirement that the
+taxation POs actually be made in the same message as the taxation
+announcement, and removes the silly requirement that the Accountor tax
+the Bank. As a bonus, I include the repeal of R1542 (Style Points),
+which was supposed to have been repealed with the passage of 'Get Rid of
+4 Offices'.]
+
+Be it hereby resolved that R1852 (Circulation of Voting Tokens) be
+amended by replacing in it the text which currently reads:
+
+      An amount of Currency is in circulation if it exists and is not
+      possessed by the Bank. 
+
+with text which reads:
+
+      The amount of a Currency in circulation is the amount of that
+      Currency possessed by entities other than the Bank, minus the 
+      total of the undisputed Payment Orders for that Currency naming
+      entities other than Bank as payor, and the Bank as payee.
+
+Be it further resolved that R1853 (Levying Taxes) be amended by replacing
+in it the text which currently reads:
+
+      Finally, the announcement must contain Payment Orders naming
+      each entity in possession of the named Currency as payor, and
+      with the Bank as payee, for an amount of the named Currency
+      equal to the amount of the levy.
+
+with text which reads:
+
+      As soon as possible after making the announcement, the
+      Accountor is required to execute Payment Orders naming each
+      entity other than the Bank in possession of the named Currency
+      as payor, and with the Bank as payee, for an amount of the
+      named Currency equal to the amount of the levy. 
+
+Be it further resolved that R1542 (Style Points) be repealed.
+
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Tue Oct  6 01:36 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA19224 for <dpb@cs.brown.edu>; Tue, 6 Oct 1998 01:36:21 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id PAA13870
+	for agora-official-list; Tue, 6 Oct 1998 15:32:10 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id PAA13862
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 6 Oct 1998 15:32:06 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id PAA04000
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 6 Oct 1998 15:33:17 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma003993; Tue, 6 Oct 98 15:32:54 +1000
+Received: From mozart With LocalMail ; Tue, 6 Oct 98 15:16:50 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-official@gecko.serc.rmit.edu.au (Nomic Official)
+Date: Tue, 6 Oct 1998 15:16:48 +1000 (EST)
+Message-Id:  <981006051648.20563@cse.unsw.edu.au>
+Subject: OFF: Assessor's Report for Proposals 3792-3793
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 5557
+Lines: 146
+
+
+Agora Nomic
+Voting Report: 3792-3793
+
+Date of this Report: Sat, 26 Sep 1998
+Date of last Report: Tue, 06 Oct 1998
+
+H. Accountor Lee, H. Promotor Blob, please be advised that this message
+contains Payment Orders for Currencies for which you are the Recordkeepors.
+
+===========================================================================
+Voting on Proposals 3792-3793 commenced: Thu, 24 Sep 1998 07:41:19 GMT
+Voting on Proposals 3792-3793 concluded: Sun, 04 Oct 1998 07:41:19 GMT
+
+At the commencement of the Voting Periods of Proposals 3792-3793 there
+were 16 registered Players; 15 Active (none denied Voting Privileges) and
+1 On Hold. Steve bought back Quorum on Proposal 3792, so Quorum is 4 for
+P3792 and 5 for P3793. 
+
+   Num. Proposer      AI Title                             RESULT  F A * 
+
+   3792 Steve          1 A Duty to Vote                    PASSES  7-6-1
+   3793 Steve          1 Fix Private Orders                PASSES  3-0-2
+
+===========================================================================
+
+                    3  3
+                    7  7
+                    9  9
+                    2  3
+
+Antimatter          A  *
+Blob               2F
+Chuck               *
+elJefe             2F
+Kolja               F  *
+Macross            2A
+Michael            2A  F
+Murphy                 F
+Oerjan              A
+Steve              2F  F
+
+FOR                 7  3
+AGAINST             6  0
+PRESENT             1  2
+
+Num. Voters         9  5
+Quorum?             Y  Y
+PASSES?             Y  Y
+
+Note: Crito and Lee also attempted to vote, but not until after the 
+Voting Period had ended.
+
+======================================================================
+Denial of Voting Privileges
+======================================================================
+None.
+======================================================================
+Zeitgeist
+======================================================================
+H. Registrar Michael: please note the Steve has been awarded the Patent
+Title of Zeitgeist for the unanimous passage of P3793. An appropriate PO
+is issued below.
+======================================================================
+Payment Orders
+======================================================================
+The following Payment Orders are issued, each for the reason specified:
+
+  Ass#  Payor          Payee      Amt  Currency  Reason
+avt007  Antimatter     the Bank     1  VT        voting
+avt008  Blob           the Bank     2  VTs       voting
+avt009  elJefe         the Bank     2  VTs       voting
+avt010  Kolja          the Bank     1  VT        voting
+avt011  Macross        the Bank     2  VTs       voting
+avt012  Michael        the Bank     3  VTs       voting
+avt013  Murphy         the Bank     1  VT        voting
+avt014  Oerjan         the Bank     1  VT        voting
+avt015  Steve          the Bank     3  VTs       voting
+avt016  the Bank       Blob       0.8  VTs       Commission, P3792-3793
+
+apn003  the Bank       Steve        2  P-Notes   R833, P3792
+apn004  the Bank       Steve        2  P-Notes   R833, P3793
+apn005  the Bank       Steve        1  P-Note    Zeitgeist, P3793
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+Proposal 3792 (Steve) AI = 1
+A Duty to Vote
+
+[Comment: a second try at this. Crito said he would have voted for it
+if it hadn't been for the Blot penalty, so I've taken the Blot penalty
+out. I've also added some other extraneous stuff at the end, including
+the repeal of R1625 that 'Permanent Electioneering' was supposed to have
+accompished.]
+
+Be it hereby resolved that a Rule, entitled "A Duty to Vote", be enacted
+with the following text:
+
+      An Active Player with effective control of more than three Voting
+      Tokens at the time a batch of Proposals is distributed, who is not
+      denied Voting Privileges at that time, who is Active at the end of
+      the Voting Period of the Proposal in the batch whose Voting Period
+      finishes latest, and who fails to cast a vote on any Proposal in
+      the batch, commits the Infraction of Failing to Vote, to be
+      detected and reported by the Assessor. The penalty for commission
+      of this Infraction is 1 VT.
+
+      Effective control of an asset (eg. a unit of Currency) is the
+      ability to dispose of that asset as one wishes. The Assessor is
+      empowered to make determinations as to whether a Player has
+      effective control over a particular asset at a particular time.
+      Such determinations are defeasible and may be overturned by the
+      Courts.
+
+      Three months after this Rule is created, this Rule shall repeal
+      itself.
+
+Be it further resolved that Rule 1016 (Putting Oneself on Hold) be
+amended by replacing in it the text which currently reads:
+
+      E may not do so until at least 96 hours after e last went On Hold.
+
+with text which reads:
+
+      E may not do so until at least a week after e last went On Hold.
+
+Be it further resolved that R1838 (Tabula Rasa) be repealed.
+
+Be it further resolved that R1744 (Danger! Danger Will Robinson!) be
+repealed.
+
+Be it further resolved that R1625 (Secrecy of Votes) be repealed.
+
+----------------------------------------------------------------------
+
+Proposal 3793 (Steve) AI = 1
+Fix Private Orders
+
+[Comment: it's hard to believe we haven't already done this.]
+
+Be it hereby resolved that R1808 (Administrative and Private Orders)
+be amended by deleting from it the word "directly".
+
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Tue Oct  6 08:05 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA25329 for <dpb@cs.brown.edu>; Tue, 6 Oct 1998 08:05:12 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id VAA18705
+	for agora-official-list; Tue, 6 Oct 1998 21:53:49 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id VAA18702
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 6 Oct 1998 21:53:46 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id VAA04740
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 6 Oct 1998 21:54:59 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma004738; Tue, 6 Oct 98 21:54:32 +1000
+Received: From mozart With LocalMail ; Tue, 6 Oct 98 12:56:13 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-official@gecko.serc.rmit.edu.au (Nomic Official)
+Date: Tue, 6 Oct 1998 12:56:05 +1000 (EST)
+Message-Id:  <981006025605.6828@cse.unsw.edu.au>
+Subject: OFF: Repeal-O-Matic Selection for October 6 1998
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 705
+
+Repeal-O-Matic Rule selection for Oct 06 1998
+---------------------------------------------
+
+There are 335 rules in the latest short logical ruleset.
+Selecting five at random gives:
+
+111 : Rule 1760/0 (Quorum Buyback)
+160 : Rule 217/3  (Judgements Must Accord with the Rules)
+ 57 : Rule 1644/2 (Dereliction of Duty)
+211 : Rule 1044/5 (Unique Patent Titles)
+ 76 : Rule 404/2  (Legality of Proposals)
+
+This week I'll select Rule 1760. It's been a contraversial
+rule in the past. Let's see if we still want to hold on to
+it. On behalf of the Repeal-O-Matic, I propose the following:
+
+PROPOSAL: Repeal Rule 1760 (Quorum Buyback)
+      This Proposal shall have an AI = 1
+      Rule 1760 is hereby Repealed.
+
+
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Tue Oct  6 08:15 EDT 1998
+Received: from gecko.serc.rmit.edu.au (root@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA25655 for <dpb@cs.brown.edu>; Tue, 6 Oct 1998 08:15:16 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id TAA15144
+	for agora-official-list; Tue, 6 Oct 1998 19:22:16 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id TAA15141
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 6 Oct 1998 19:22:14 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id TAA04542
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 6 Oct 1998 19:23:26 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma004540; Tue, 6 Oct 98 19:23:12 +1000
+Received: From mozart With LocalMail ; Tue, 6 Oct 98 18:51:47 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-official@gecko.serc.rmit.edu.au (Nomic Official)
+Date: Tue, 6 Oct 1998 18:51:29 +1000 (EST)
+Message-Id:  <981006085129.6071@cse.unsw.edu.au>
+Subject: OFF: Repeal-O-Matic Selection for October 6 1998 (fwd)
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1205
+
+The message below doesn't seem to have made it to the lists, so I'll repost
+it:
+
+Forwarded message:
+> 
+> Repeal-O-Matic Rule selection for Oct 06 1998
+> ---------------------------------------------
+> 
+> There are 335 rules in the latest short logical ruleset.
+> Selecting five at random gives:
+> 
+> 111 : Rule 1760/0 (Quorum Buyback)
+> 160 : Rule 217/3  (Judgements Must Accord with the Rules)
+>  57 : Rule 1644/2 (Dereliction of Duty)
+> 211 : Rule 1044/5 (Unique Patent Titles)
+>  76 : Rule 404/2  (Legality of Proposals)
+> 
+> This week I'll select Rule 1760. It's been a contraversial
+> rule in the past. Let's see if we still want to hold on to
+> it. On behalf of the Repeal-O-Matic, I propose the following:
+> 
+> PROPOSAL: Repeal Rule 1760 (Quorum Buyback)
+>       This Proposal shall have an AI = 1
+>       Rule 1760 is hereby Repealed.
+
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-3988 Fax: +61 2 9385-1814
+
+                    "Just as we are. At a total loss.
+          Jesus is for losers. Broken at the foot of the cross." 
+                                                               - Steve Taylor
+
+From owner-agora-official@gecko.serc.rmit.edu.au Tue Oct  6 08:58 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id IAA26986 for <dpb@cs.brown.edu>; Tue, 6 Oct 1998 08:58:30 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id WAA18924
+	for agora-official-list; Tue, 6 Oct 1998 22:45:19 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id WAA18921
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 6 Oct 1998 22:45:17 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id WAA04850
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 6 Oct 1998 22:46:30 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma004848; Tue, 6 Oct 98 22:46:28 +1000
+Received: From mozart With LocalMail ; Tue, 6 Oct 98 11:38:23 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-official@gecko.serc.rmit.edu.au (Nomic Official)
+Date: Tue, 6 Oct 1998 11:38:10 +1000 (EST)
+Message-Id:  <981006013810.19748@cse.unsw.edu.au>
+Subject: OFF: Assessor's Report for Proposals 3790-3791
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 5109
+
+
+Agora Nomic
+Voting Report: 3790-3791
+
+[Comment: I thought I had already sent this, but I can find no record
+ of it anywhere. I apologise for the delay.]
+
+Date of last Report: Wed, 02 Sep 1998
+Date of this Report: Sat, 26 Sep 1998
+
+H. Accountor Lee, H. Promotor Blob, please be advised that this message
+contains Payment Orders for Currencies for which you are the Recordkeepors.
+
+===========================================================================
+Voting on Proposals 3790-3791 commenced: Wed, 16 Sep 1998 08:40:47 GMT
+Voting on Proposals 3790-3791 concluded: Sat, 26 Sep 1998 08:40:47 GMT
+
+At the commencement of the Voting Periods of Proposals 3785-3786 there
+were There are currently 16 registered Players; 14 Active, and 2 On Hold.
+Therefore Quorum for these Proposals is 5 (Rule 879/7).
+
+   Num. Proposer      AI Title                             RESULT  F A * 
+
+   3790 Steve          1 Tweak the Taxation Rules          PASSES  3-0-3
+   3791 R-O-M          1 Repeal Rule 1547 (Some Org...)    FAILS   0-6-1
+
+===========================================================================
+
+                    3  3
+                    7  7
+                    9  9
+                    0  1
+
+Antimatter          *  A
+Blob                *  *
+Crito               F  A
+Kolja               * 2A
+Murphy              F   
+Steve               F  
+
+OEE                   2A
+
+FOR                 3  0
+AGAINST             0  6
+PRESENT             3  1
+
+Num. Voters         5  4
+Quorum?             Y  N
+PASSES?             Y  N
+
+======================================================================
+Denial of Voting Privileges
+======================================================================
+None.
+======================================================================
+Zeitgeist
+======================================================================
+H. Registrar Michael: please note the Steve has been awarded the Patent
+Title of Zeitgeist for the unanimous passage of P3790. An appropriate PO
+is issued below.
+======================================================================
+Payment Orders
+======================================================================
+The following Payment Orders are issued, each for the reason specified:
+
+Please note: I have introduced a new numbering scheme, and have 
+restarted numbering from 001.
+
+  Ass#  Payor          Payee      Amt  Currency  Reason
+avt001  Antimatter     the Bank     1  VT        voting
+avt002  Crito          the Bank     2  VTs       voting
+avt003  Kolja          the Bank     2  VT        voting
+avt004  Murphy         the Bank     1  VT        voting
+avt005  Steve          the Bank     1  VT        voting
+avt006  the Bank       Blob      0.45  VTs       Commission, P3790-3791
+
+apn001  the Bank       Steve        2  P-Notes   R833, P3790
+apn002  the Bank       Steve        1  P-Note    Zeitgeist, P3790
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+Proposal 3790 Steve (AI = 1)
+Tweak the Taxation Rules
+
+[Comment: a second try (the first failed Quorum while declaring Presence
+was banned) at two minor fixes to the taxation Rules. The first changes
+the definition of 'in circulation' to exclude Currency already owed to
+the Bank (this fixes the bug which would otherwise require the Accountor
+to Levy Taxes again immediately after e has just done so, but before any
+taxes have been paid). The second lifts the requirement that the
+taxation POs actually be made in the same message as the taxation
+announcement, and removes the silly requirement that the Accountor tax
+the Bank. As a bonus, I include the repeal of R1542 (Style Points),
+which was supposed to have been repealed with the passage of 'Get Rid of
+4 Offices'.]
+
+Be it hereby resolved that R1852 (Circulation of Voting Tokens) be
+amended by replacing in it the text which currently reads:
+
+      An amount of Currency is in circulation if it exists and is not
+      possessed by the Bank. 
+
+with text which reads:
+
+      The amount of a Currency in circulation is the amount of that
+      Currency possessed by entities other than the Bank, minus the 
+      total of the undisputed Payment Orders for that Currency naming
+      entities other than Bank as payor, and the Bank as payee.
+
+Be it further resolved that R1853 (Levying Taxes) be amended by replacing
+in it the text which currently reads:
+
+      Finally, the announcement must contain Payment Orders naming
+      each entity in possession of the named Currency as payor, and
+      with the Bank as payee, for an amount of the named Currency
+      equal to the amount of the levy.
+
+with text which reads:
+
+      As soon as possible after making the announcement, the
+      Accountor is required to execute Payment Orders naming each
+      entity other than the Bank in possession of the named Currency
+      as payor, and with the Bank as payee, for an amount of the
+      named Currency equal to the amount of the levy. 
+
+Be it further resolved that R1542 (Style Points) be repealed.
+
+
+
+From owner-agora-official@gecko.serc.rmit.edu.au Tue Oct  6 09:37 EDT 1998
+Received: from gecko.serc.rmit.edu.au (majordomo@gecko.serc.rmit.edu.au [131.170.42.16]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id JAA27962 for <dpb@cs.brown.edu>; Tue, 6 Oct 1998 09:37:55 -0400 (EDT)
+Received: (from majordomo@localhost)
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) id XAA19074
+	for agora-official-list; Tue, 6 Oct 1998 23:21:49 +1000
+Received: from fw.serc.rmit.edu.au (fw-in.serc.rmit.edu.au [131.170.42.1])
+	by gecko.serc.rmit.edu.au (8.8.5/8.8.5) with ESMTP id XAA19071
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 6 Oct 1998 23:21:48 +1000
+Received: (from mail@localhost)
+	by fw.serc.rmit.edu.au (8.8.8/8.8.8) id XAA04890
+	for <agora-official@gecko.serc.rmit.edu.au>; Tue, 6 Oct 1998 23:23:01 +1000 (EST)
+	(envelope-from malcolmr@cse.unsw.edu.au)
+Received: from note.orchestra.cse.unsw.edu.au(129.94.242.29) by fw.serc.rmit.edu.au via smap (V2.1)
+	id xma004888; Tue, 6 Oct 98 23:22:55 +1000
+Received: From mozart With LocalMail ; Tue, 6 Oct 98 11:38:24 +1000 
+From: malcolmr@cse.unsw.edu.au (Malcolm Ross Kinsella Ryan)
+To: agora-official@gecko.serc.rmit.edu.au (Nomic Official)
+Date: Tue, 6 Oct 1998 11:38:20 +1000 (EST)
+Message-Id:  <981006013820.19753@cse.unsw.edu.au>
+Subject: OFF: Assessor's Report for Proposals 3792-3793
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-agora-official@gecko.serc.rmit.edu.au
+Precedence: bulk
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 5557
+
+
+Agora Nomic
+Voting Report: 3792-3793
+
+Date of this Report: Sat, 26 Sep 1998
+Date of last Report: Tue, 06 Oct 1998
+
+H. Accountor Lee, H. Promotor Blob, please be advised that this message
+contains Payment Orders for Currencies for which you are the Recordkeepors.
+
+===========================================================================
+Voting on Proposals 3792-3793 commenced: Thu, 24 Sep 1998 07:41:19 GMT
+Voting on Proposals 3792-3793 concluded: Sun, 04 Oct 1998 07:41:19 GMT
+
+At the commencement of the Voting Periods of Proposals 3792-3793 there
+were 16 registered Players; 15 Active (none denied Voting Privileges) and
+1 On Hold. Steve bought back Quorum on Proposal 3792, so Quorum is 4 for
+P3792 and 5 for P3793. 
+
+   Num. Proposer      AI Title                             RESULT  F A * 
+
+   3792 Steve          1 A Duty to Vote                    PASSES  7-6-1
+   3793 Steve          1 Fix Private Orders                PASSES  3-0-2
+
+===========================================================================
+
+                    3  3
+                    7  7
+                    9  9
+                    2  3
+
+Antimatter          A  *
+Blob               2F
+Chuck               *
+elJefe             2F
+Kolja               F  *
+Macross            2A
+Michael            2A  F
+Murphy                 F
+Oerjan              A
+Steve              2F  F
+
+FOR                 7  3
+AGAINST             6  0
+PRESENT             1  2
+
+Num. Voters         9  5
+Quorum?             Y  Y
+PASSES?             Y  Y
+
+Note: Crito and Lee also attempted to vote, but not until after the 
+Voting Period had ended.
+
+======================================================================
+Denial of Voting Privileges
+======================================================================
+None.
+======================================================================
+Zeitgeist
+======================================================================
+H. Registrar Michael: please note the Steve has been awarded the Patent
+Title of Zeitgeist for the unanimous passage of P3793. An appropriate PO
+is issued below.
+======================================================================
+Payment Orders
+======================================================================
+The following Payment Orders are issued, each for the reason specified:
+
+  Ass#  Payor          Payee      Amt  Currency  Reason
+avt007  Antimatter     the Bank     1  VT        voting
+avt008  Blob           the Bank     2  VTs       voting
+avt009  elJefe         the Bank     2  VTs       voting
+avt010  Kolja          the Bank     1  VT        voting
+avt011  Macross        the Bank     2  VTs       voting
+avt012  Michael        the Bank     3  VTs       voting
+avt013  Murphy         the Bank     1  VT        voting
+avt014  Oerjan         the Bank     1  VT        voting
+avt015  Steve          the Bank     3  VTs       voting
+avt016  the Bank       Blob       0.8  VTs       Commission, P3792-3793
+
+apn003  the Bank       Steve        2  P-Notes   R833, P3792
+apn004  the Bank       Steve        2  P-Notes   R833, P3793
+apn005  the Bank       Steve        1  P-Note    Zeitgeist, P3793
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+Proposal 3792 (Steve) AI = 1
+A Duty to Vote
+
+[Comment: a second try at this. Crito said he would have voted for it
+if it hadn't been for the Blot penalty, so I've taken the Blot penalty
+out. I've also added some other extraneous stuff at the end, including
+the repeal of R1625 that 'Permanent Electioneering' was supposed to have
+accompished.]
+
+Be it hereby resolved that a Rule, entitled "A Duty to Vote", be enacted
+with the following text:
+
+      An Active Player with effective control of more than three Voting
+      Tokens at the time a batch of Proposals is distributed, who is not
+      denied Voting Privileges at that time, who is Active at the end of
+      the Voting Period of the Proposal in the batch whose Voting Period
+      finishes latest, and who fails to cast a vote on any Proposal in
+      the batch, commits the Infraction of Failing to Vote, to be
+      detected and reported by the Assessor. The penalty for commission
+      of this Infraction is 1 VT.
+
+      Effective control of an asset (eg. a unit of Currency) is the
+      ability to dispose of that asset as one wishes. The Assessor is
+      empowered to make determinations as to whether a Player has
+      effective control over a particular asset at a particular time.
+      Such determinations are defeasible and may be overturned by the
+      Courts.
+
+      Three months after this Rule is created, this Rule shall repeal
+      itself.
+
+Be it further resolved that Rule 1016 (Putting Oneself on Hold) be
+amended by replacing in it the text which currently reads:
+
+      E may not do so until at least 96 hours after e last went On Hold.
+
+with text which reads:
+
+      E may not do so until at least a week after e last went On Hold.
+
+Be it further resolved that R1838 (Tabula Rasa) be repealed.
+
+Be it further resolved that R1744 (Danger! Danger Will Robinson!) be
+repealed.
+
+Be it further resolved that R1625 (Secrecy of Votes) be repealed.
+
+----------------------------------------------------------------------
+
+Proposal 3793 (Steve) AI = 1
+Fix Private Orders
+
+[Comment: it's hard to believe we haven't already done this.]
+
+Be it hereby resolved that R1808 (Administrative and Private Orders)
+be amended by deleting from it the word "directly".
+
+
+

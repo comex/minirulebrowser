@@ -1,0 +1,370 @@
+From owner-nomic-discussion@teleport.com Wed Jul  9 00:15 EDT 1997
+Received: from portia.teleport.com ([192.108.254.5]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA01523 for <dpb@cs.brown.edu>; Wed, 9 Jul 1997 00:15:33 -0400 (EDT)
+Received: from localhost (daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) with SMTP id VAA01282; Tue, 8 Jul 1997 21:14:09 -0700 (PDT)
+Received: by portia.teleport.com (bulk_mailer v1.5); Tue, 8 Jul 1997 21:14:06 -0700
+Received: (from daemon@localhost) by portia.teleport.com (8.8.5/8.7.3) id VAA01270 for nomic-discussion-outgoing; Tue, 8 Jul 1997 21:14:05 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by portia.teleport.com (8.8.5/8.7.3) with ESMTP id VAA01232 for <nomic-discussion@teleport.com>; Tue, 8 Jul 1997 21:13:57 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id OAA01964 for nomic-discussion@teleport.com; Wed, 9 Jul 1997 14:13:51 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707090413.OAA01964@aurora.cc.monash.edu.au>
+Subject: Re: Rule Changes and P-Notes due to Proposals 3527-3529
+To: nomic-discussion@teleport.com
+Date: Wed, 9 Jul 1997 14:13:51 +1000 (EST)
+In-Reply-To: <9707082028.AA21705@ dfw.dfw.net> from "Charles E. Carroll" at Jul 8, 97 03:28:47 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 627
+Status: N
+
+Charles E. Carroll writes:
+>
+>Prop  Proposer  Rule Change  Type  Title of New Rule
+>----  --------  -----------  ----  -----------------
+>3527  Oerjan    Create 1729  u     Insanity
+
+Does anyone else think we should break the link between Attribution
+and Interestedness? Proposal 3527 may have been Disinterested, but
+I don't think Oerjan should therefore go unacknowledged as the 
+Originator and Author of the very witty R1729.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Wed Jul  9 00:32 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA01826 for <dpb@cs.brown.edu>; Wed, 9 Jul 1997 00:32:42 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id VAA29038; Tue, 8 Jul 1997 21:31:33 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Tue, 8 Jul 1997 21:31:21 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id VAA28988 for nomic-discussion-outgoing; Tue, 8 Jul 1997 21:31:20 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id VAA28976 for <nomic-discussion@teleport.com>; Tue, 8 Jul 1997 21:31:15 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id OAA02721 for nomic-discussion@teleport.com; Wed, 9 Jul 1997 14:31:10 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707090431.OAA02721@aurora.cc.monash.edu.au>
+Subject: Re: Mail trouble
+To: nomic-discussion@teleport.com
+Date: Wed, 9 Jul 1997 14:31:10 +1000 (EST)
+In-Reply-To: <19970708192349.07789@cslab3a.cs.brown.edu> from "Don Blaheta" at Jul 8, 97 07:23:49 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 1987
+Status: N
+
+Don Blaheta writes:
+>
+>Quoth Ross Morgan-Linial:
+>> Scott Goehring <scott@poverty.bloomington.in.us> wrote:
+>> > "Steve" == Steve Gardner <gardner@aurora.cc.monash.edu.au> writes:
+>> > 
+>> > Steve> Well, I've solved the problem by switching to filter. My
+>> > Steve> procmail days are over, I think.
+>> > 
+>> > I have _never_ lost mail as a result of procmail.  Go figure.
+>> 
+>> Same here. Of course, I've only been using it for one week.
+>> (Okay, I lost two messages while trying to get it set up, plus a 
+>> bunch of test messages, but those don't count.)
+>
+>I've only ever used procmail to pipe everything to a perl mail filter of
+>my own devising... if anyone likes I can send them a copy.
+
+Well, I don't know what to do now. I've had to turn filter off because
+I wasn't receiving any mail. Right now, I have no mail handling at all;
+it's all just landing in my inbox on /var/spool/mail, unsorted, which
+is annoying. Ideas from you mail wizards would be appreicated.
+
+Twice now in the last month, some weirdness in the way procmail works
+which I haven't been able to track down (the procmailrc I use is
+really very simple) has actually crashed the machine where my account
+is, not to mention losing me a heap of mail. The first time it
+happened, a machine crash seems to have caught procmail by surprise,
+and it failed to clean up after itself, leaving a .lockmail file in
+my home directory. Thereafter, each piece of incoming mail spawned a
+new procmail process which couldn't complete itself becuase it was
+waiting for the lock to be removed. Since I get a lot of mail. it
+didn't take long for me to exceed maxprocesses.  Shortly after that,
+the machine crashed again. Bad.
+
+I'm not quite sure what happened this time, but the net result was the
+same. I lost a heap of mail. Sigh.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Wed Jul  9 00:37 EDT 1997
+Received: from betty.teleport.com (betty.teleport.com [192.108.254.9]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id AAA01915 for <dpb@cs.brown.edu>; Wed, 9 Jul 1997 00:37:43 -0400 (EDT)
+Received: from localhost (daemon@localhost)
+	by betty.teleport.com (8.8.5/8.8.5) with SMTP id VAA24057;
+	Tue, 8 Jul 1997 21:36:12 -0700 (PDT)
+Received: by betty.teleport.com (bulk_mailer v1.5); Tue, 8 Jul 1997 21:36:09 -0700
+Received: (from daemon@localhost)
+	by betty.teleport.com (8.8.5/8.8.5) id VAA24046
+	for nomic-discussion-outgoing; Tue, 8 Jul 1997 21:36:07 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (gardner@aurora.cc.monash.edu.au [130.194.1.91])
+	by betty.teleport.com (8.8.5/8.8.5) with ESMTP id VAA24036
+	for <nomic-discussion@lists.teleport.com>; Tue, 8 Jul 1997 21:35:58 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id OAA02847 for nomic-discussion@lists.teleport.com; Wed, 9 Jul 1997 14:35:48 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707090435.OAA02847@aurora.cc.monash.edu.au>
+Subject: test, please ignore
+To: nomic-discussion@teleport.com (Discussion Nomic Mailing List)
+Date: Wed, 9 Jul 1997 14:35:48 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 209
+Status: N
+
+testing...
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Wed Jul  9 01:03 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA02310 for <dpb@cs.brown.edu>; Wed, 9 Jul 1997 01:03:04 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id WAA18880; Tue, 8 Jul 1997 22:01:58 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Tue, 8 Jul 1997 22:01:53 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id WAA18850 for nomic-discussion-outgoing; Tue, 8 Jul 1997 22:01:52 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id WAA18817 for <nomic-discussion@teleport.com>; Tue, 8 Jul 1997 22:01:41 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id PAA03250 for nomic-discussion@teleport.com; Wed, 9 Jul 1997 15:01:23 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707090501.PAA03250@aurora.cc.monash.edu.au>
+Subject: Re: BUS: Re: OFF: VT Report (COE)
+To: nomic-discussion@teleport.com
+Date: Wed, 9 Jul 1997 15:01:23 +1000 (EST)
+In-Reply-To: <9707060148.AA14070@ dfw.dfw.net> from "Charles E. Carroll" at Jul 5, 97 08:48:03 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 976
+Status: N
+
+Charles E. Carroll writes:
+>
+>Steve Gardner wrote:
+>>
+>>
+>>Agora Nomic
+>>Report of the Recordkeepor for Voting Tokens
+>>
+>>Date of last Report: Fri, 27 Jun 1997
+>>Date of this Report: Tue, 01 Jul 1997
+>>
+>
+>I claim this report is in error, in that it does not include
+>the VTs due to Rule 1727/0 ("Happy Birthday").
+>
+>Rule 1727/0 was in effect until Jul 1 00:40:36 GMT +1000, which
+>is equivalent to Jun 30 02:40:36 GMT -1200.  Rule 1727/0 stated
+>that each player received 3 VTs at Jun 30 00:04:30 GMT -1200.
+>Thus, this transfer was effective.
+>
+>Sorry I didn't post earlier, but this just occurred to me.
+
+I think this Claim should be admitted, and a Correction published,
+but that duty I believe will now fall to the new Assessor, General
+Chaos. See R1585 (Power=2, note).
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Wed Jul  9 01:44 EDT 1997
+Received: from betty.teleport.com (betty.teleport.com [192.108.254.9]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id BAA03074 for <dpb@cs.brown.edu>; Wed, 9 Jul 1997 01:44:20 -0400 (EDT)
+Received: from localhost (daemon@localhost)
+	by betty.teleport.com (8.8.5/8.8.5) with SMTP id WAA29759;
+	Tue, 8 Jul 1997 22:42:37 -0700 (PDT)
+Received: by betty.teleport.com (bulk_mailer v1.5); Tue, 8 Jul 1997 22:42:26 -0700
+Received: (from daemon@localhost)
+	by betty.teleport.com (8.8.5/8.8.5) id WAA29744
+	for nomic-discussion-outgoing; Tue, 8 Jul 1997 22:42:25 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (gardner@aurora.cc.monash.edu.au [130.194.1.91])
+	by betty.teleport.com (8.8.5/8.8.5) with ESMTP id WAA29668
+	for <nomic-discussion@lists.teleport.com>; Tue, 8 Jul 1997 22:40:49 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id PAA04270 for nomic-discussion@lists.teleport.com; Wed, 9 Jul 1997 15:40:59 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707090540.PAA04270@aurora.cc.monash.edu.au>
+Subject: missing Wizard Election announcement
+To: nomic-discussion@teleport.com (Discussion Nomic Mailing List)
+Date: Wed, 9 Jul 1997 15:40:59 +1000 (EST)
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 333
+Status: N
+
+My announcement of the Wizard Election never made it back to me. Can
+someone please bounce me a copy of it for my Registrar's records?
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
+From owner-nomic-discussion@teleport.com Wed Jul  9 04:38 EDT 1997
+Received: from greta.teleport.com (sandra.teleport.com [192.108.254.11]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id EAA05904 for <dpb@cs.brown.edu>; Wed, 9 Jul 1997 04:38:46 -0400 (EDT)
+Received: from localhost (daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) with SMTP id BAA25647; Wed, 9 Jul 1997 01:36:45 -0700 (PDT)
+Received: by greta.teleport.com (bulk_mailer v1.5); Wed, 9 Jul 1997 01:36:43 -0700
+Received: (from daemon@localhost) by greta.teleport.com (8.8.5/8.7.3) id BAA25638 for nomic-discussion-outgoing; Wed, 9 Jul 1997 01:36:42 -0700 (PDT)
+Received: from wsinfm04.win.tue.nl (wsinfm04.win.tue.nl [131.155.70.115]) by greta.teleport.com (8.8.5/8.7.3) with ESMTP id BAA25629 for <nomic-discussion@teleport.com>; Wed, 9 Jul 1997 01:36:38 -0700 (PDT)
+Received: by wsinfm04.win.tue.nl (8.7.1/1.45)
+    id KAA12162; Wed, 9 Jul 1997 10:36:29 +0200 (MET DST)
+From: engels@win.tue.nl (Andre Engels)
+Message-Id: <199707090836.KAA12162@wsinfm04.win.tue.nl>
+Subject: Re: Rule Changes and P-Notes due to Proposals 3527-3529
+To: nomic-discussion@teleport.com
+Date: Wed, 9 Jul 1997 10:36:28 +0200 (MET DST)
+In-Reply-To: <199707090413.OAA01964@aurora.cc.monash.edu.au> from "Steve Gardner" at Jul 9, 97 02:13:51 pm
+X-Mailer: ELM [version 2.4 PL23]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Length: 478
+Status: N
+
+Steve Gardner:
+>
+>Charles E. Carroll writes:
+>>
+>>Prop  Proposer  Rule Change  Type  Title of New Rule
+>>----  --------  -----------  ----  -----------------
+>>3527  Oerjan    Create 1729  u     Insanity
+>
+>Does anyone else think we should break the link between Attribution
+>and Interestedness? Proposal 3527 may have been Disinterested, but
+>I don't think Oerjan should therefore go unacknowledged as the 
+>Originator and Author of the very witty R1729.
+
+Yes, I agree.
+
+Andre
+
+From owner-nomic-discussion@teleport.com Wed Jul  9 11:36 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id LAA14710 for <dpb@cs.brown.edu>; Wed, 9 Jul 1997 11:36:27 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id IAA15488; Wed, 9 Jul 1997 08:33:16 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Wed, 9 Jul 1997 08:33:06 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id IAA15449 for nomic-discussion-outgoing; Wed, 9 Jul 1997 08:33:05 -0700 (PDT)
+Received: from dfw.dfw.net (dfw.dfw.net [198.175.15.10]) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id IAA15408 for <nomic-discussion@teleport.com>; Wed, 9 Jul 1997 08:33:01 -0700 (PDT)
+Received: by  dfw.dfw.net (4.1/SMI-4.1)
+	id AA12946; Wed, 9 Jul 97 10:34:26 CDT
+Message-Id: <9707091534.AA12946@ dfw.dfw.net>
+Subject: Re: Rule Changes and P-Notes due to Proposals 3527-3529
+To: nomic-discussion@teleport.com
+Date: Wed, 9 Jul 1997 10:34:25 -0500 (CDT)
+In-Reply-To: <199707090413.OAA01964@aurora.cc.monash.edu.au> from "Steve Gardner" at Jul 9, 97 02:13:51 pm
+From: "Charles E. Carroll" <ccarroll@dfw.net>
+X-Mailer: ELM [version 2.4 PL23]
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text
+Content-Length: 550
+Status: N
+
+Steve Gardner wrote:
+>
+>Does anyone else think we should break the link between Attribution
+>and Interestedness? Proposal 3527 may have been Disinterested, but
+>I don't think Oerjan should therefore go unacknowledged as the 
+>Originator and Author of the very witty R1729.
+
+He won't.  Only unattributed *amendments* fail to cause the
+proposer to be an author.  (Odd that *all* Rule Changes resulting
+from disinterested proposals are unattributed, but any non-Amendment
+unattributed Rule changes have no real effect due to being
+unattributed.)
+
+Chuck
+
+From owner-nomic-discussion@teleport.com Wed Jul  9 13:49 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id NAA18656 for <dpb@cs.brown.edu>; Wed, 9 Jul 1997 13:49:22 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id KAA22822; Wed, 9 Jul 1997 10:48:25 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Wed, 9 Jul 1997 10:48:24 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id KAA22810 for nomic-discussion-outgoing; Wed, 9 Jul 1997 10:48:23 -0700 (PDT)
+Received: from rmv.state.ma.us (rmvsmtp.rmv.state.ma.us [206.32.173.19]) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id KAA22804 for <nomic-discussion@teleport.com>; Wed, 9 Jul 1997 10:48:20 -0700 (PDT)
+Received: from RMVMail-Message_Server by rmv.state.ma.us
+	with Novell_GroupWise; Wed, 09 Jul 1997 13:52:32 -0400
+Message-Id: <s3c397a0.070@rmv.state.ma.us>
+X-Mailer: Novell GroupWise 4.1
+Date: Wed, 09 Jul 1997 13:51:57 -0400
+From: David Albertz <dalbertz@rmv.state.ma.us>
+To: nomic-discussion@teleport.com
+Subject: Re: Rule Changes and P-Notes due to Proposals 3527-3529 -Reply
+Mime-Version: 1.0
+Content-Disposition: inline
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain
+Content-Length: 97
+Status: N
+
+I agree.  Maybe it should be unattributed only if disinterested *and* not
+substantial.
+
+-- Crito
+
+From owner-nomic-discussion@teleport.com Wed Jul  9 23:47 EDT 1997
+Received: from desiree.teleport.com (desiree.teleport.com [192.108.254.21]) by cs.brown.edu (8.8.5/8.7.1) with ESMTP id XAA03597 for <dpb@cs.brown.edu>; Wed, 9 Jul 1997 23:47:25 -0400 (EDT)
+Received: from localhost (daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) with SMTP id UAA24491; Wed, 9 Jul 1997 20:46:47 -0700 (PDT)
+Received: by desiree.teleport.com (bulk_mailer v1.5); Wed, 9 Jul 1997 20:46:36 -0700
+Received: (from daemon@localhost) by desiree.teleport.com (8.8.5/8.7.3) id UAA24405 for nomic-discussion-outgoing; Wed, 9 Jul 1997 20:46:34 -0700 (PDT)
+Received: from aurora.cc.monash.edu.au (aurora.cc.monash.edu.au [130.194.1.91]) by desiree.teleport.com (8.8.5/8.7.3) with ESMTP id UAA24318 for <nomic-discussion@teleport.com>; Wed, 9 Jul 1997 20:46:16 -0700 (PDT)
+Received: (from gardner@localhost) by aurora.cc.monash.edu.au (8.8.5/8.8.0) id NAA04004 for nomic-discussion@teleport.com; Thu, 10 Jul 1997 13:45:49 +1000 (EST)
+From: Steve Gardner <gardner@aurora.cc.monash.edu.au>
+Message-Id: <199707100345.NAA04004@aurora.cc.monash.edu.au>
+Subject: Re: Rule Changes and P-Notes due to Proposals 3527-3529 -Reply
+To: nomic-discussion@teleport.com
+Date: Thu, 10 Jul 1997 13:45:49 +1000 (EST)
+In-Reply-To: <s3c397a0.070@rmv.state.ma.us> from "David Albertz" at Jul 9, 97 01:51:57 pm
+X-Mailer: ELM [version 2.4 PL21]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Sender: owner-nomic-discussion@teleport.com
+Reply-To: nomic-discussion@teleport.com
+Content-Type: text/plain; charset=US-ASCII
+Content-Length: 509
+Status: N
+
+David Albertz writes:
+>
+>I agree.  Maybe it should be unattributed only if disinterested *and* not
+>substantial.
+
+I think the original definition in R1668 is fine: an amendment is
+Attributed if it makes more than a cosmetic change. As far as I'm
+concerned, Disinterestedness simply runs along a different axis.
+
+-- 
+
+Steve Gardner                     | When you come to a fork in the road, 
+Dept. of Philosophy, Monash Uni.  | take it.
+gardner@aurora.cc.monash.edu.au   |                       -- Yogi Berra 
+
