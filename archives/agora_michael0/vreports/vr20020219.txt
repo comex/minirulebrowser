@@ -1,0 +1,601 @@
+Assessor's Voting Report
+Proposals 4246 - 4253
+
+=====SUMMARY=====================================================
+
+No.     Title                           By        AI Result
+----    -----------------------------   --------  -- ----------------
+4246     Fix the Speaker-Elect bug       Steve     1  ADOPTED VI  7.0
+4247     Increase VE Circulation         Murphy    1  ADOPTED VI    U
+4248     Fix Discussion Forum            Murphy    1  ADOPTED VI 11.0
+4249     Simplify Identity of Auctioneer Murphy    1  ADOPTED VI 11.0
+4250     Omnibus Office Reform           harvel    1  ADOPTED VI  1.7
+4251     Single-Bid Auctions             Steve     1  ADOPTED VI    U
+4252     Contestant's Purse              Goethe    1  FAILED  VI  0.7
+4253     Win Differently                 Goethe    1  ADOPTED VI  2.6
+----    -----------------------------   --------  -- ----------------
+
+H. Scorekeeper take note, by Rule 1930:
+  - Steve is awarded 4 Points (4246 Adopted with 2 votes against).
+  - Murphy is awarded 2 Points (4248 Adopted with 1 vote against).
+  - Goethe is awarded 2 Points (Only Player to vote against 4248).
+  - Murphy is awarded 2 Points (4249 Adopted with 1 vote against).
+  - Goethe is awarded 2 Points (Only Player to vote against 4249).
+  - harvel is awarded 8 Points (4250 Adopted with 4 votes against).
+  - t is awarded 2 Points (only Player to vote against 4253).
+  - Goethe is awarded 16 Points (4253 Adopted with 8 Votes against).
+
+====DETAILS=========================================================
+
+Voting Period Began: Sat, 09 Feb 2002 01:41:50 GMT
+Voting Period Ended: Sat, 16 Feb 2002 01:41:50 GMT
+Voting Mode: Public
+
+> No.    | Title                          | By        | AI | Date    | Flag
+> 4246   | Fix the Speaker-Elect bug      | Steve     |  1 | 28Jan02 | C
+> 4247   | Increase VE Circulation        | Murphy    |  1 | 28Jan02 | C
+> 4248   | Fix Discussion Forum           | Murphy    |  1 | 28Jan02 | CD
+> 4249   | Simplify Identity of Auctioneer| Murphy    |  1 | 28Jan02 | CD
+> 4250   | Omnibus Office Reform          | harvel    |  1 | 28Jan02 | C
+> 4251   | Singe-Bid Auctions             | Steve     |  1 | 04Feb02 |
+> 4252   | Contestant's Purse             | Goethe    |  1 | 08Feb02 | C
+> 4253   | Win Differently                | Goethe    |  1 | 08Feb02 | C
+> D: Disinterested  C: Democratic  U: Urgent  S: Sane  I: Insane
+> O: Opposite
+
+(*) present
+(-) abstain
+
+Entity      4246    4247    4248    4249    4250    4251    4252    4253
+----------  -----   -----   -----   -----   -----   -----   -----   -----
+harvel      1F      *       1F      1F      1F      *       *       *
+Steve       4F,1A   1F      1F      1F      2F,1A           *       5F
+Sir Toby    1F      1F      1F      1F      1F              1F      1F
+Murphy      1F      1F      1F      1F      1F              1F      1F
+Michael     2F      2F      2F      2F      2A      1F      2A      2F
+t           1F      -       1F      1F      *               1A      1A
+root        1F      1F      1F      1F      1F      1F      1F      1F
+Crito       1F      *       1F      1F      *               *       *
+Goethe      1F,1A   2F      1F,1A   1F,1A   1F,1A   1F      2F      2F
+Taral       1F      *       1F      1F      *               5A      *
+Anemocrats                                                          9F,7A
+
+FOR         14       8      11      11       7       3       5      21
+AGAINST      2       0       1       1       4       0       7       8
+ABSTAIN      0       1       0       0       0       0       0       0
+Voters      10      10      10      10      10       3      10      10
+Quorum       3       3       3       3       3       3       3       3
+Adopted?   Yes     Yes     Yes     Yes     Yes     Yes      No     Yes
+
+
+=========Text of adopted Proposals======================================
+
+Proposal #4246 by Steve, AI=1
+Fix the Speaker-Elect bug
+
+Amend Rule 1647 (The Speaker-Elect) by replacing the text in it which
+currently reads:
+
+      The Speaker can never hold the Office of Speaker-Elect.
+
+with text which reads:
+
+      The Speaker can never hold the Office of Speaker-Elect, nor be the
+      Electee to the Office of Speaker-Elect. If the Speaker somehow
+      becomes the Electee to the Office of Speaker-Elect, e is
+      immediately removed from that Office.
+
+
+------------------------------------------------------------------------------
+
+Proposal #4247 by Murphy, AI=1
+Increase VE Circulation
+
+Amend Rule 1946 (Distribution of Voting Entitlements) by replacing this
+text:
+
+      The Ideal Voting Entitlement Circulation Level (IVECL) is equal
+      to the number of registered Players.
+
+with this text:
+
+      The Ideal Voting Entitlement Circulation Average (IVECA) is equal
+      to one plus the New Player Award in Voting Entitlements.
+
+      The Ideal Voting Entitlement Circulation Level (IVECL) is equal
+      to the IVECA times the number of registered Players.
+
+------------------------------------------------------------------------------
+
+Proposal #4248 by Murphy, AI=1
+Fix Discussion Forum
+
+Amend Rule 478 (The Public Forum) by replacing this text:
+
+      A Discussion Forum is a medium of communication so designated
+      by the Registrar. A Discussion Forum shall never be a Public
+      Forum and messages sent to a Discussion Forum are never
+      considered to have been sent to all Players.
+
+with this text:
+
+      A Discussion Forum is a medium of communication so designated
+      by the Registrar. A Discussion Forum shall never be a Public
+      Forum, and a message is not considered to have been sent to
+      all Players solely because it was sent to a Discussion Forum.
+
+------------------------------------------------------------------------------
+
+Proposal #4249 by Murphy, AI=1
+Simplify Identity of Auctioneer
+
+Amend Rule 1887 (Default Procedure for Auctions) by replacing this text:
+
+      (a) Auctioneer: The Auctioneer is responsible for collecting
+          bids and announcing the result of the Auction. Unless
+          otherwise specified, the Speaker shall be the Auctioneer.
+
+with this text:
+
+      (a) Auctioneer: The Auctioneer is responsible for collecting
+          bids and announcing the result of the Auction. The Auctioneer
+          is the Player who initiates the Auction. If the Rules require
+          or allow an Auction to be initiated, but do not specify which
+          Player shall initiate it, then the Speaker shall initiate it.
+
+Amend Rule 1954 (Distribution of Papyri) by replacing the text "The
+Auctioneer shall be the Promotor, and the" with the text "The".
+
+Amend Rule 2006 (Looting Auctions) by removing the text "(1) The
+Auctioneer shall be the Notary.", and by replacing the texts "(2)" and
+"(3)" and "(4)" with "(1)" and "(2)" and "(3)", respectively.
+
+Amend Rule 1971 (Bank Issuance of Bonds) by removing the text "The
+Auctioneer of all Bank Bond Auctions shall be the Treasuror.".
+
+Amend Rule 1946 (Distribution of Voting Entitlements) by replacing the
+text "The Auctioneer shall be the Assessor, and the" with the text
+"the".
+
+Amend Rule 1712 (Distribution of Indulgences) by replacing the text "the
+Auctioneer shall be the Herald, and the" with "the".
+
+Amend Rule 2004 (Land Auctions) by removing the text "* The Auctioneer
+shall be the Mapkeepor.".
+
+
+------------------------------------------------------------------------------
+
+Proposal #4250 by harvel, AI=1
+Omnibus Office Reform
+
+Section 0: Basic definitions
+
+Amend Rule 459 (The Nomic Week) to read:
+
+      Weeks, months, quarters and years are epochs.  The corresponding
+      Agoran epochs, which constitute the four types of Agoran epochs,
+      are Agoran weeks, Agoran months, Agoran quarters, and Agoran
+      years, respectively.
+
+      Agoran weeks begin at midnight GMT on Monday.  Agoran months begin
+      at midnight GMT on the first day of each Gregorian month.  Agoran
+      quarters begin when the Agoran months of January, April, July, and
+      October begin.  Agoran years begin when the Agoran month of
+      January begins.  An Agoran epoch lasts until the next Agoran epoch
+      of the same type begins.
+
+      Except in this Rule, when the Rules refer to an epoch, they shall
+      be interpreted to refer to the corresponding Agoran epoch.
+
+      Automatic events that happen weekly, monthly, quarterly, or yearly
+      happen at the beginning of the corresponding Agoran epoch.  Any
+      activity that must be performed weekly, monthly, quarterly, or
+      yearly must be performed at least once during each corresponding
+      Agoran epoch.
+
+      Other Rules may explicitly define alternate schedules for events
+      or classes of events.
+
+Change the title of Rule 459 to "Agoran Epochs".
+
+Amend Rule 1006 (Definition of Office) to read:
+
+      The Rules may designate positions to be offices.  No office may be
+      held by more than one player.  Each office that would otherwise
+      not be held by any player shall be held by the Speaker, unless it
+      is not possible for the Speaker to hold that office.
+
+      The holder of an office may be referred to by the name of the
+      office.
+
+Change the title of Rule 1006 to "Offices".
+
+Amend Rule 1942 (Property) to read:
+
+      A property is an entity which the rules permit to be possessed by
+      another entity.  The term "possess" refers to the legal status of
+      possessing a property; the terms "possessor" and "owner" are
+      synonyms, as are "possess" and "own".  Individual properties may
+      not be created or destroyed, or their ownership changed, except in
+      accordance with the rules.
+
+      Each property shall have a recordkeepor, which is a player
+      required to maintain a record of who owns that property.  The
+      Treasuror is the recordkeepor for each property that would
+      otherwise have no recordkeepor.
+
+      If one of the official duties of an officer is to be the
+      recordkeepor of a property, then eir Weekly Report shall include
+      this record and any changes thereto since the last posting of eir
+      Report.
+
+Section 1: Generic office changes
+
+Amend Rule 880 (Resignation of Offices) to read:
+
+      An oligarch or the holder of an office may resign from eir
+      position at any time by announcing that e does so.
+
+      The electee to an office may appoint another player as a successor
+      when e resigns.  If so, the resigning player is retired from that
+      office, and if within one week from the appointment the named
+      succcessor publicly agrees to be successor to the office, that
+      player becomes holder of the office.
+
+      An oligarch may appoint another player as a successor when e
+      resigns.  If so, the resigning player is removed from the
+      Oligarchy, and if within one week from the appointment the named
+      successsor publicly agrees to be successor to the seat in the
+      Oligarchy and pays a fee of 1 Voting Entitlement, that player
+      becomes an Oligarch.
+
+      A non-electee who resigns or an electee who does not name a
+      successor is immediately removed from office.  An oligarch who
+      does not name a successor is immediately removed from the
+      Oligarchy.
+
+Change the title of Rule 880 to "Resignation".
+
+Amend Rule 1905 (The Cabinet) to read:
+
+      The Cabinet, or Inner Cabinet, consists of the Speaker and all
+      electees to office.  The Outer Cabinet consists of all Oligarchs
+      who are not members of the Inner Cabinet.
+
+Amend Rule 1957 (Budgets) to read:
+
+      A budget is a document maintained by an office which determines
+      the values of various properties the office is empowered to
+      determine.  An office has a budget only if the Rules explicitly
+      indicate that the office has a budget.  Each budget shall be part
+      of the corresponding office's Monthly Report.  As soon as possible
+      after a budget changes, the holder of the corresponding office
+      (the maintainer) shall publish it.
+
+      As soon as possible after a budget is discovered to be invalid,
+      its maintainer shall create a valid budget as close as possible to
+      the most recent valid version of the budget.  The new budget shall
+      be effective when the maintainer publishes it.
+
+      While holding an office as electee, an officer may Without
+      Objection amend the budget to adhere to a proto-budget which e
+      must publish at the time e announces eir intent to amend.  The
+      Rules regarding a particular budget may specify a different
+      procedure for its amendment.
+
+Amend Rule 1686 (Official Reports) to read:
+
+      The Rules may designate certain information to be part of an
+      Office's Weekly Report or Monthly Report.  An Office's Weekly
+      Reports and Monthly Reports constitute the Office's Official
+      Report.  All information that is part of an Office's Official
+      Report shall be maintained by the corresponding officer.
+
+      The rules may specify conditions under which a player is marvy;
+      that player is not marvy unless the rules explicitly state at
+      least one such condition and all such conditions are satisfied.
+      As soon as possible after a player becomes marvy, the Speaker
+      shall announce this fact.  The only condition for marviness is
+      membership in the Outer Cabinet.
+
+      Each officer with a Weekly Report must publish it weekly; each
+      officer with a Monthly Report must publish it monthly.  Failure to
+      do so is the Class 2 Infraction of Failure to Report.  If an
+      officer fails to do so for at least three consecutive reporting
+      periods, e may be cited for either Failure to Report or the Class
+      10 Infraction of Dereliction of Duty but not both.  Any officer
+      cited for Derelicition of Duty is immediately retired.  The
+      Assistant Director of Personnel and the Speaker may report these
+      Infractions.
+
+Section 2: Offices
+
+Amend Rule 1955 (The Grand Warden of the Oligarchy) to read:
+
+      The Grand Warden of the Oligarchy (GWotO) is an office; its
+      holder is recordkeepor of oligarchs and is responsible for
+      conducting auctions for positions in the Oligarchy.
+
+      The GWotO's Weekly Report shall include a list of all oligarchs
+      identifying which, if any, are elder oligarchs.
+
+      The GWotO shall have a budget containing the Oligarchy Auction
+      Rate, which is a positive integer less than 5.  The GWotO may
+      Without 2 Objections from oligarchs replace the budget with a
+      proto-budget e publishes when e announces eir intent to do so.
+
+Amend Rule 1975 (The Assistant Director of Personnel) to read:
+
+      The Assistant Director of Personnel (ADoP) is an office; its
+      holder is recordkeepor for offices and the Speaker and is
+      responsible for holding elections for offices.
+
+      The ADoP's Weekly Report shall include:
+
+      (a) a list of all offices;
+
+      (b) for each office, the electee to the office and the date on
+          which e most recently became electee to that office;
+
+      (c) for each office for which the holder of the office is not the
+          electee, the current holder of the office, and the date on
+          which e most recently became holder of that office;
+
+      (d) for each office, the date on which the term of service for
+          that office ends, or an indication that the office is held in
+          perpetuity; and
+
+      (e) the identity of the Speaker and the date of the next quarterly
+          speaker transition.
+
+Amend Rule 1892 (The Treasuror) to read:
+
+      The Treasuror is an office; its holder is recordkeepor of
+      generic information, excluding holdings, of currencies, and is
+      responsible for setting the values of compensations.
+
+      The Treasuror's Monthly Report shall include, for each currency,
+      its name, mintor, recordkeepor, and Minimum Unit Quantity.
+
+Amend Rule 1607 (The Promotor) to read:
+
+      The Promotor is an office; its holder is recordkeepor of Papyri
+      and is responsible for receiving and distributing proposals.
+
+      The Promotor's Weekly Report shall include a list of the titles
+      and submission dates of all proposals in the proposal pool.
+
+Amend Rule 1449 (The Assessor) to read:
+
+      The Assessor is an office; its holder is recordkeepor of Voting
+      Entitlements and is responsible for receiving and announcing the
+      results of votes on proposals.
+
+      The Assessor's Weekly Report shall include a list of the identity,
+      voting power on ordinary proposals, and voting power on democratic
+      proposals for each entity with nonzero voting power on either
+      ordinary or democratic proposals.
+
+Amend Rule 889 (The Clerk of the Courts) to read:
+
+      The Clerk of the Courts (CotC) is an office; its holder is
+      responsible for receiving and distributing Calls for Judgement
+      (CFJs) and Appeals.
+
+      The CotC's Monthly Report shall include the Stare Decisis, which
+      is a list of past CFJs.  The following information shall be
+      included for each CFJ:
+
+        (i) its statement;
+       (ii) the date on which it was called;
+      (iii) its outcome (if any) on Judgement; and
+       (iv) its outcome (if any) on Appeal.
+
+      Whenever a CFJ is made, the CotC shall add it to the list.  E may,
+      at eir discretion, add earlier CFJs.  E may Without Objection
+      remove any CFJ e deems no longer relevant from the list.
+
+Amend Rule 910 (The Justiciar) to read:
+
+      The Justiciar is an office; its holder is responsible for
+      justice and for serving on a Board of Appeals when necessary.
+
+      Neither the Speaker nor the Clerk of the Courts (CotC) may
+      nominate for the office of Justiciar; if the Justiciar ever
+      becomes CotC, e is removed from the office of Justiciar.
+
+Amend Rule 559 (The Registrar) by replacing the text reading:
+
+      There exists the Office of Registrar, whose responsibility it is
+      to maintain a list of players.
+
+with text reading:
+
+      The Registrar is an office; its holder is responsible for
+      maintaining the register of players.
+
+Amend Rule 1051 (The Rulekeepor) to read:
+
+      The Rulekeepor is an office; its holder is responsible for
+      maintaining the text of the rules of Agora.
+
+      The Rulekeepor's Weekly Report shall include the Short Logical
+      Ruleset.  The Rulekeepor's Monthly Report shall include the Full
+      Logical Ruleset.
+
+Amend Rule 1970 (The Usuror) to read:
+
+      The Usuror is an office; its holder is recordkeepor for Bonds and
+      is partially responsible for the woes of revolving credit.
+
+      The Usuror is a Limited Executor of the Bank, with the authority
+      to satisfy debts of Bonds owed by the Bank to its creditors.
+
+Amend Rule 1909 (The Payroll Clerk) to read:
+
+      The Payroll Clerk is an office; its holder is recordkeepor of
+      Stems and is responsible for paying out salaries and other
+      compensations.
+
+Amend Rule 1928 (The Scorekeepor) to read:
+
+      The Scorekeepor is an office; its holder is responsible for
+      keeping track of scores.
+
+      The Scorekeepor's Weekly Report shall include the score of each
+      registered player, as well as any changes thereto since the last
+      posting of the Report.
+
+Amend Rule 1377 (The Herald) by replacing the text reading:
+
+      There exists the Office of Herald, whose responsibility it is to
+      keep track of Blots and to be the Recordkeepor of Indulgences.
+
+with text reading:
+
+      The Herald is an office; its holder is recordkeepor of
+      Indulgences and is responsible for keeping track of Blots.
+
+Amend Rule 1647 (The Speaker-Elect) by replacing the text reading:
+
+      There exists the Office of Speaker-Elect, whose responsibility
+      it is to be the Speaker's successor.
+
+with text reading:
+
+      The Speaker-Elect is an office; its holder is usually the
+      Speaker's successor.
+
+Amend Rule 1458 (The Notary) by replacing the text reading:
+
+      There exists the Office of Notary, whose responsibility it is to
+      maintain a Record of Organizations and their Jurisdictions.
+
+with text reading:
+
+      The Notary is an office; its holder is responsible for
+      maintaining a record of organizations and their jurisdictions.
+
+Amend Rule 1996 (The Mapkeepor) to read:
+
+      The Mapkeepor is an office; its holder is recordkeepor for the
+      Land of Arcadia.
+
+      The Mapkeepor's Weekly Report shall include:
+
+        (i) the ownership and land type of all existing land;
+       (ii) all changes in the ownership and land type of existing land
+            since the most recent report; and
+      (iii) the location of each entity or instrument with a defined
+            non-secret location.
+
+------------------------------------------------------------------------------
+
+Proposal 4251 by Steve, AI=1
+Single-Bid Auctions
+
+Create a Rule entitled "Single-Bid Auctions" with the following text:
+
+      (a) There is a type of Auction called a Single-Bid Auction. The
+	  procedure for conducting a Single-Bid Auction is the same as
+	  that used in the Default Auction Procedure, with the following
+	  additions and exceptions:
+
+	  (1) Bid Inflation Factor: As part of any correct and legal
+	      announcement that a Single-Bid Auction is commencing, the
+	      Auctioneer must announce the value of the Bid Inflation
+	      Factor for the Auction, a real number between 0 and 1
+	      inclusive.
+
+	  (2) Making Bids: Each Player eligible to bid in the Auction is
+	      permitted to make only one bid, called the initial Bid.
+	      Any bids made by a Player after eir initial Bid in the
+	      Auction are invalid. A Player who cancels eir bid is
+	      ineligible to make further bids in the Auction. All Bids
+	      must be made publically.
+
+	  (3) Value of Bids: at each midnight GMT during the Auction,
+	      the value of each valid, uncancelled Bid remaining in the
+	      Auction is increased by an amount equal to the Bid
+	      Inflation Factor multiplied by the initial Bid.
+
+	  (4) Final Auction Price: for the purposes of determining the
+	      Winner(s) of the Auction, the value of each Bid as
+	      calculated in (3) above is used. However, the debt
+	      incurred by a Winner of the Auction is equal to eir
+	      initial Bid.
+
+------------------------------------------------------------------------------
+
+Proposal #4253 by Goethe, AI=1
+Win Differently
+
+[Change from proto:  Makes the ideal time between wins (from the
+                     Champion's view) 4 months, and gives a bonus
+                     to the Champion dependent on the # of Contestants
+                     in the Champion's Contest. ]
+
+Enact the following Rule, Champion's Contests:
+
+      A Contest may be a Champion's Contest if and only if:
+            (i) its Contestmaster bears the Patent Title
+                Current Champion;
+           (ii) no other Contest is a Champion's Contest;
+          (iii) the Contest's Regulations state that it is a
+                Champion's Contest.
+      If any of these criteria cease to be true, the Contest
+      immediately ceases being a Champion's Contest.
+
+
+Enact the Following Rule, SemiGenii:
+
+      SemiGenius is a defined regular Patent Title.
+
+      Bearing the Patent Title SemiGenius is a Win Condition.
+      If at any time a Player Wins the Game, the Patent Title
+      SemiGenius is revoked from all those who bear it.
+
+      The Patent Title SemiGenius may only be Awarded by an
+      valid Public Announcement of SemiGeniosity naming the
+      Awardee.  Such an Announcement may only be made by the
+      Contestmaster of a Champion's Contest.   To be valid, the
+      Announcement must be made only as explicitly permitted
+      by the Regulations of the Contest.
+
+
+Enact the following Rule, A Champion's Retirement:
+
+      Rules to the contrary nonwithstanding, the Winner's
+      Stipend may not be changed except as permitted by
+      this Rule.
+
+      If a Player Wins the Game by Bearing the Patent Title
+      SemiGenius, The Winner's Stipend shall be set equal to
+      proportion, rounded to the nearest multiple of 0.1, of
+      Active Players (out of total number of Active Players
+      at the time of the Win) that were Contestants, at
+      any time since the most recent previous Win, in the
+      Champion's Contest that Awarded that Patent Title.
+
+      In this case, the Scorekeepor shall pay out the Champion's
+      Pension, equal to this new Winner's Stipend times the BOS,
+      to the Contestmaster who awarded the Patent Title.
+
+      If a Player Wins the Game by any other Win Condition,
+      the Winner's Stipend shall be set to 0.5, and no
+      Champion's Pension shall be awarded.
+
+      If a Player bears the Patent Title Current Champion
+      at the beginning of four consecutive Nomic months
+      without a Win occuring, then at the beginning each
+      month thereafter, until a Win occurs, the Scorekeepor
+      shall Bill the Player an amount equal to twice the
+      current Winner's Stipend times the BOS.
+
+=================================================================
+
+ -H. Assessor Goethe
+
+
+

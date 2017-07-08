@@ -1,0 +1,123 @@
+Assessor's Voting Report
+Proposals 4321-4323
+
+No.    Title                           By        AI Flags  Result     VI
+----  ------------------------------  ---------- -- ----- --------- -----
+4321   Fix Single-Bid Auctions         Steve      1  D     ADOPTED   3/0
+4322   Fix The Bank                    t          2  DC    ADOPTED  11/1
+4323   INSANE STEM DISTRIBUTION        Craig      1  *IC   ADOPTED   2/2
+----  ------------------------------- ---------- -- ----- --------- -----
+Flags: Disinterested;demoCratic;Urgent;Sane;Opposite;conTested;
+       Parliamentary; *Insane when Distributed
+
+H. Scorekeepor please note, by Rule 1930:
+   - t receives 2 Points (4322 adopted with 1 against).
+   - Steve receives 2 Points (Only Player to vote against 4322).
+   - Craig receives 4 Points (4323 adopted with 2 against).
+
+H. Payroll Clerk,
+   Does 4323 do anything? (esp. in light of 4322).
+
+Voting Mode: Unrestricted (4323 maybe Private)
+Voting Period Began : Wed, 22 May 2002 20:01:57 GMT
+              Ended : Wed, 29 May 2002 20:01:57 GMT
+
+              4321      4322     4323
+              -----     -----    -----
+Crito                     *        *
+root          1F,       2F,      1F,
+Steve                   4F,1A      ,1A
+Michael       1F,       1F,
+t                       2F,
+Goethe        1F,       2F,      1F,1A
+
+
+FOR/AGAI.      3/0      11/1      2/2
+ABSTAIN         0        0         0
+VOTERS          3        6         4
+QUORUM?       yes      yes       yes
+ADOPTED?      yes      yes       yes
+
+
+===========================================================================
+TEXT OF ADOPTED PROPOSALS
+---------------------------------------------------------------------------
+
+Proposal #4321 by Steve, AI=1
+Fix Single-Bid Auctions
+
+Amend Rule 2012 (Single-Bid Auctions) by replacing the text in it which
+currently reads:
+
+          (4) Final Auction Price: for the purposes of determining the
+              Winner(s) of the Auction, the value of each Bid as
+              calculated in (3) above is used. However, the debt
+              incurred by a Winner of the Auction is equal to eir
+              initial Bid.
+
+with text which reads:
+
+          (4) Final Auction Price: for the purposes of determining the
+	      Winner(s) of the Auction, the value of each Bid as
+	      calculated in (3) above is used. However, the debt
+	      incurred by a Winner of the Auction is equal to the Nth
+	      highest Winning Initial Bid, where N is the number of
+	      items being Auctioned, or to the Starting Bid, if there
+	      were fewer than N bids.
+
+----------------------------------------------------------------------------
+
+Proposal #4322 by t, AI=2
+Fix the Bank
+
+[Officers who have (Limited) Executorship of the Bank should not be
+able to spend its funds in any way they find amusing. Also, Rules which
+define things should have a Power of 2.]
+
+This Proposal shall have an AI of 2.
+
+Rule 1470 "The Bank" shall be upmutated to have Power of 2 and amended
+to read:
+
+      (a) There is an entity known as the Bank. The Bank has Mint
+          Authority. The Bank is the Mintor of each Bank
+          Currency. The Bank may transfer Property in its possession
+          to other entities only to satisfy its debts.
+
+      (b) The Treasuror is the Executor of the Bank. Each Recordkeepor
+          of each Bank Currency is a Limited Executor of the Bank, and
+          is empowered to make transfers of that Currency from the
+          Bank.
+
+      (c) Each Recordkeepor of each Bank Currency is the Prime
+          Executor of the Bank with respect to debts denominated in
+          that Currency. The Treasuror is the Prime Executor of the
+          Bank with respect to all other actions that the Bank is
+          required to perform.
+
+      (d) As soon as possible after the Bank incurs a debt to any
+          other entity, the Bank shall either satisfy that debt by
+          transferring appropriate Properties to the creditor, or
+          dispute the debt by whatever means are appropriate in the
+          situation.
+
+      (e) The Bank is permitted to forgive debts owed to it, in whole
+          or in part:
+          (1) pursuant to a properly-issued Order; or
+          (2) Without Objection, at the Treasuror's discretion.
+
+-----------------------------------------------------------------------
+
+Proposal #4323 by Craig, AI=1
+INSANE STEM DISTRIBUTION
+
+THE BANK SHALL TRANSFER TWENTY STEMS TO ANYONE WHO VOTED AGAINST THE
+PROPOSAL 'INSANE STEM DISTRIBUTION'.
+
+
+------------------------------------------------------------------------
+
+ -Assessor Goethe
+  "Confusing Powers with Duties since 1991."
+
+

@@ -1,0 +1,183 @@
+Agora Nomic
+Voting Report for Proposals 4420-4424
+16 Dec 2002
+
+Current Voting Mode: Public
+===========================================================================
+Voting on Proposals 4420-4424 commenced: Sun,  8 Dec 2002 16:10:02 -0700
+Voting on Proposals 4420-4424 concluded: Sun, 15 Dec 2002 16:10:02 -0700
+
+Num. Type Proposer    AI Title                        RESULT   F  A  -  *
+4420 Ord  OscarMeyr    1 No More Guillotine           FAILS/Q  2  0  0  0
+4421 DemS Steve        2 End Tax Avoidance            FAILS    4  3  0  0
+4422 DemC Sir Toby     1 DCP                          FAILS    1 14  0  0
+4423 Dem  Murphy       1 Sensible Timing for Auctions PASSES   3  2  0  1
+4424 Dem  Steve        1 Protect the inactive         PASSES   5  1  0  1
+===========================================================================
+
+Ordinary                 Democratic
+              4420                     4421   4422   4423   4424
+
+RedKnight     F          Cecilius      F      A      A      F
+Sir Toby      F          Eris          A      A      F      F
+                         Michael       F      A      F      F
+                         OscarMeyr     A      2A     *      *
+                         RedKnight     A      F      F      F
+                         Steve         F                    F
+                         Sir Toby      F      A      A      A
+
+                         Regroup              8A
+
+FOR           2          FOR           4      1      3      5
+AGAINST       0          AGAINST       3      14     2      1
+ABSTAIN       0          ABSTAIN       0      0      0      0
+Present       0          Present       0      0      1      1
+
+Voters        2          Voters        7      6      6      6
+Quorum?       N          Quorum?       Y      Y      Y      Y
+PASSES?       N          PASSES?       N      N      Y      Y
+
+======================================================================
+
+Miscellaneous
+======================================================================
+
+There were a few failed votes on Sane Proposal 4421 (over the limit of
+one vote per player and no votes for other entities).
+
+This is a Notice of Complacency for Proposal 4420.
+
+Points awards (R1930):
+    Murphy     6 (4423 adopted with 2 votes AGAINST)
+    Steve      5 (4424 adopted with 1 vote AGAINST)
+    Sir Toby   2 (only vote AGAINST 4424)
+    RedKnight  2 (only vote FOR 4422)
+
+The following players are awarded 10 Points for voting AGAINST 4422
+(R2016): Cecilius, Eris, Michael, OscarMeyr and Sir Toby.
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+> [Wow the spacing turned up right]
+...
+
+----------------------------------------------------------------------------
+
+Proposal 4423 by Murphy, AI=1, Democratic
+Sensible Timing for Auctions
+
+Proposal: Sensible Timing for Indulgence Auctions
+
+Amend Rule 1712 (Distribution of Indulgences) to read:
+
+      (a) The Ideal Indulgence Circulation Level (IICL) is equal to
+          the number of Players plus the total Stain of all Players.
+
+      (b) The Actual Indulgence Circulation Level (AICL) is the total
+          number of Indulgences owned by entities other than the Bank,
+          augmented by the total number of Indulgences owned by the
+          Bank which either:
+
+          (1) are already being Auctioned by the Bank in prior
+              Indulgence Auctions that have not yet concluded; or
+          (2) have been auctioned in prior Indulgence Auctions that
+              have concluded, but where the debts arising from Winning
+              Bids have neither been paid nor defaulted upon; or
+          (3) have been Auctioned in prior Indulgence Auctions that
+              have concluded, and the debts arising from the Winning
+              Bids have been paid, but the Indulgences have not been
+              transferred to the Winning Bidders.
+
+      (c) The Indulgence Surplus is the difference between the IICL
+          and the AICL; if the AICL is greater than the IICL, the
+          Indulgence Surplus is zero.
+
+      (d) If the Indulgence Surplus is positive at the beginning of
+          the month, the Herald shall as soon as possible auction off
+          the surplus Indulgences. The items to be auctioned are
+          individual Indulgences; the number of items is equal to the
+          Indulgence Surplus, rounded down to the nearest integer.
+          The Auctioneer shall be the Herald, and the Auction shall be
+          conducted in Stems.
+
+      (e) The Monthly Bank Indulgence Gain (MBIG) is the number of
+          Indulgences transferred from other entities to the Bank
+          during a given Nomic Month, less the number of Indulgences
+          transferred from the Bank to other entities during that same
+          Nomic Month.
+
+      (f) If the Indulgence Surplus is zero or negative at the
+          beginning of the month, the Herald may still conduct an
+          Indulgence auction, but only if e initiates it within one
+          week after the beginning of the month. The items to be
+          auctioned are individual Indulgences; the number of items is
+          chosen by the Herald, with a minimum of 1 and a maximum of
+          half the MBIG, rounded down to the nearest integer. The
+          Auctioneer shall be the Herald, and the Auction shall be
+          conducted in Stems.
+
+----------------------------------------------------------------------
+
+Proposal 4424 by Steve, AI=1, Democratic
+Protect the inactive
+
+Proposal
+Protect the inactive
+
+When this Proposal takes effect, any inactive players who became quiet
+within the previous month become noisy.
+
+Amend Rule 1042 (Deregistration Due to Silence) by replacing the text
+in it which currently reads:
+
+      (b) A player who has not quietened another player in the past 24
+          hours may do so by publically identifying the player and
+          stating that e causes that player to become quiet.
+
+with text which reads:
+
+      (b) A player who has not quietened another active, noisy player
+          in the past 24 hours may cause another active, noisy player
+          to become quiet by publically identifying the player and
+          stating that e causes that player to become quiet.
+
+[Comment: it strikes me as odd that we have these very strong
+protections against requiring inactive players to do anything, and
+then we make a solitary exception in the case of selecting Judges,
+which exception we never invoke anyway. I think it would be more
+consistent and elegant simply not to require inactive players to be
+judges, and this is what I propose here.]
+
+Amend Rule 698 (Always an Eligible Judge) to read:
+
+      (a) Each active player is eligible to judge a given CFJ, unless
+          a rule specifically makes em ineligible. Inactive players
+          are ineligible to judge CFJs.
+
+      (b) If the Clerk of the Courts is required to select a Judge,
+          but after taking all other rules affecting eligibility into
+          account, no player is eligible to judge that CFJ, then:
+          (1) All active non-barred players become eligible to judge
+              that CFJ.
+          (2) If there is still no player eligible to judge, then all
+              active barred players, other than the caller emself,
+              become eligible to judge that CFJ.
+          (3) If there is still no eligible Judge, then the game is in
+              serious trouble. My usual advice in such situations is
+              to panic, and run screaming for the hills.
+
+      (c) This Rule takes precedence over other Rules concerning who
+          is and is not eligible to judge CFJs.
+
+----------------------------------------------------------------------------
+
+Assessor t
+
+
+   teemu korkiakangas: scurra@iki.fi . http://www.iki.fi/scurra/
+              "kunpa kaikki elämän suuret mysteerit ratkeaisivat
+                  kengurukepin ja kermapullon avulla" (don rosa)
+
+

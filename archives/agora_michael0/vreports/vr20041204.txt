@@ -1,0 +1,59 @@
+Voting Results
+
+This Report:  Fri  3 Nov 04 (Proposal  4627       )
+Last Report:  Sat 20 Nov 04 (Proposals 4618 - 4626)
+(All times are in GMT)
+
+Start of Voting Period:  Sat 20 Nov 17:05:17
+  End of Voting Period:  Sat 27 Nov 17:05:17
+
+O = Ordinary        d = Disinterested   s = Sane         + = Positive Ad
+D = Democratic      u = Urgent                           - = Negative Ad
+
+Number    Title                         Author    AI   Flags     Result
+------------------------------------------------------------------------
+4627      Limit Surprises               root      1    O         Adopted
+
+               4627
+
+Eris             F
+Murphy          4F
+OscarMeyr        F
+root            2F
+
+(RedKnight's attempt to declare Presence occurred after the voting
+period
+had already ended.)
+
+FOR              8
+AGAINST          0
+Abstain          0
+Present          0
+
+Voting Index    *U*
+Adoption Index   1
+
+Voters           4
+Quorum (D:13/3)  3
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4627 by root, AI=1, Ordinary
+Limit Surprises
+
+
+Amend Rule 2071 by replacing the text:
+
+     * Caption: It's a Surprise!
+       Quota: 1
+       Elements: Handed [2]
+       Exploit: You may Draw two Cards without paying a Fee.
+
+with:
+
+     * Caption: It's a Surprise!
+       Quota: 1
+       Elements: Handed [2], Delayed [3]
+       Exploit: You may Draw two Cards without paying a Fee.
+

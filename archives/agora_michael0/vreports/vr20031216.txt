@@ -1,0 +1,100 @@
+Voting Results
+
+This Report:  Mon 15 Dec 03 (Proposals 4543 - 4544)
+Last Report:  Sun 23 Nov 03 (Proposals 4540 - 4542)
+(All times are in UTC)
+
+Start of Voting Period:  Sun  7 Dec 23:58:11
+  End of Voting Period:  Sun 14 Dec 23:58:11
+
+O = Ordinary        d = Disinterested
+D = Democratic      u = Urgent
+P = Parliamentary   s = Sane
+                    c = contested
+
+Number    Title                    Author    AI   Flags     Result
+----------------------------------------------------------------------
+4543      Nondescript Proposal     OscarMeyr  1     Dc      Adopted
+4544      Team Captains            OscarMeyr  1     O       Adopted
+
+                    4543  4544       Team
+
+Goethe               2F            Bleethan
+Maud                  A            Sliehough
+Michael              2A            Dovesdar
+Murphy                F     F      Bleethan
+OscarMeyr             F            Sliehough
+RedKnight             F     F      Bleethan
+root                  F     A      Dovesdar
+Sherlock             2A            Sliehough
+Sir Toby              F            Bleethan
+
+FOR                   7     2
+AGAINST               5     1
+Abstain               0     0
+Present               0     0
+
+Voting Index          1.4   2
+Adoption Index        1     1
+
+Voters                9     3
+Quorum (D:13/3)       5     3
+
+H. Scorekeepor OscarMeyr, please note Points awards due to Rule 2055:
+
+     [P6] <none>
+     [P7] OscarMeyr +9 (4543), OscarMeyr +5 (4544)
+     [P8] root +2 (4544)
+
+     [T1] <none>
+     [T2] Kinhatis -20 (4543)
+     [T3] <none>
+
+and due to Rule 2016:
+
+     Goethe, Murphy, OscarMeyr, RedKnight, root, Sir Toby +10 each
+(4543)
+
+Text of Adopted Proposals
+---------------------------------------------------------------------------
+
+Proposal 4543 by OscarMeyr, AI=1, Democratic, Contested
+Nondescript Proposal
+
+
+This space available for rent.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4544 by OscarMeyr, AI=1, Ordinary
+Team Captains
+
+
+Create a new rule, titled "Team Captains" of Power = 1, with the
+following
+text:
+
+Leadership is a loose Team switch with values null and each of the
+Team's
+Members.  The Scorekeepor shall maintain and report records for this
+switch.
+
+If a Team's leadership is null, any Member of that Team may flip the
+Team's
+leadership, Without Objection from the other Members of that Team.
+
+If a Team's leadership is non-null, the leadership identifies the Team
+Captain,
+who is the Executor of that Team.  The Captain may flip eir Team's
+leadership
+without restriction; any other Member of the Team may flip the Team's
+leadership with N Supporters, where N + 1 is the minimal majority of
+that
+Team's Members.
+
+If the Team Captain ceases to be a member of the Team, that Team's
+leadership
+becomes null.
+

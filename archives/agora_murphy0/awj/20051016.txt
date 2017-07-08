@@ -1,0 +1,303 @@
+Subject:
+BUS: Agoran Weekly Journal
+From:
+Ed Murphy <emurphy42@socal.rr.com>
+Date:
+Sun, 16 Oct 2005 19:55:52 -0700
+To:
+Agora Business <agora-business@agoranomic.org>
+
+     THE AGORAN WEEKLY JOURNAL
+     VOLUME 50, ISSUE 5
+     Sunday, October 16, 2005
+
+
+BACK TO THE PRESENT
+-------------------
+
+Andre    - Old CFJs           http://www.win.tue.nl/~engels/stare.txt
+Elysion  - Thesis archive     http://www.msu.edu/~boehmejo/agora.html
+Goethe   - Claustronomic      http://faculty.washington.edu/kerim/nomic/
+Maud     - Proto archive      http://cokernel.org/agora/proto/
+           Assessor archive   http://cokernel.org/assessor/
+Michael  - First Speaker      http://web.rsise.anu.edu.au/~michaeln/agora/
+             RCS SLR            RCS/short-ruleset,v
+             RCS FLR            RCS/full-ruleset,v
+Murphy   - CotC Web           http://zenith.homelinux.net/cotc/
+           AWJ archive        http://zenith.homelinux.net/awj/
+Riail    - AgoraMOO           telnet://mail.feoh.org:4781
+root     - Proposal Pool      http://www.periware.org/agora/
+Sherlock - Agora Library      ftp://ftp.cse.unsw.edu.au/pub/users/malcolmr/
+                                nomic/articles/agora-theses/library.html
+
+
+ERRATA
+------
+
+
+ADOPTED PROPOSALS
+-----------------
+
+"Kudononsuch" by Goethe - Proposal 4837 adopted 10/2
+  Pending draws are either free or heavy (stuck switch Encumbrance).
+  Only free pending draws increase hand size.  Heavy pending draws cannot be
+    satisfied if the gambler's hand size exceeds the maximum hand size.
+  If a gambler has both heavy and free pending draws, the heavy ones must be
+    satisfied (to the extent possible) first.
+  If a gambler loses a pending draw, e loses free ones first.  If e has no
+    draws, e loses a card; if e has no cards, e loses eir next pending draw.
+  Each player gets three heavy draws and one free draw per month, and one
+    heavy draw for each of eir adopted proposals.
+  Boons give free draws.  Albatrosses take away draws.
+  Checking out cards from the Library is done by spending draws.
+  When the deck is frozen, all heavy draws are lost.
+  Repeal kudos, fees, and expunging blots for a fee.
+
+"Move your ors" by Goethe - Proposal 4835 adopted 10/2
+  Remove superfluous commas and an "or" from Rule 698 (Always an Eligible
+    Judge).
+
+"New game in town" by Goethe - Proposal 4838 adopted 10/2
+  Replace Winning Hands in the Deckmastor's budget with Scoring Instructions
+    in the Cardbooks.
+  Blueprint Scoring Instructions may be amended with M support and without N
+    objections (M >= N >= 1 at the time of the change).
+  Initial Scoring Instructions in the Onepower Cardbook:
+    0. Each SI has a unique index, default (highest existing + 1).  Each
+         hand has a complex score, default 0.
+    1. SIs are applied in order of increasing index, affecting all hands
+         simultaneously.
+    9999. Winning score is > 250 and > any other non-site score.
+  Initial Scoring Instructions in the Blueprints Cardbook:
+    10. Each card adds to score based on the first letter of its caption
+          (A -> 1, B -> 2, ..., Z -> 26).
+
+"Odds and Ends" by Goethe - Proposal 4839 adopted 10/2
+  Repeal Prime Executors.
+  Repeal Nth Anniversary Ribbon, and closing the courts on Agora's Birthday.
+
+"Speaker Reforms" by Goethe and Maud - Proposal 4836 adopted 10/2
+  Proposals are once again ordinary by default.
+  The Speaker may make undistributed proposals democratic for free, and may
+    veto distributed ordinary proposals without needing support (increasing
+    their Adoption Index by 1).
+  The Speaker may rubberstamp ordinary proposals during their voting period,
+    setting their quorum to 3.
+  Cardinals are continuously defined.
+  Pope selection uses the mechanisms of Agoran decisions, rather than a
+    custom nominate-and-support system.
+  Finish repealing Speaker Taint.
+  New card Debate-o-Matic (Common, initial quota 10; change a proposal's
+    chamber).  Repeal Chamber fees, in anticipation of repealing fees in
+    general (see "Kudononsuch").
+
+REJECTED PROPOSALS
+------------------
+
+PENDING PROPOSALS
+-----------------
+
+"Clarify Rule 1567" by Murphy
+  Requests like e.g. "all CFJs for the next two weeks" are interpreted
+    as "all CFJs called within the next two weeks".
+
+"Generalize Compensation for Ex-Cards" by Murphy
+  When a class of cards is repealed, non-site instances are converted to
+    pending draws.
+
+"Order categorical" by Goethe - Proposal 4841
+  Merge Rule 1048 (Rule Categories) into Rule 1681 (The Logical Rulesets).
+  New rules are assigned to categories at the Rulekeepor's discretion.  All
+    other category operations are without 2 objections.
+
+"some fixup" by Goethe - Proposal 4840
+  Replace the Grace Period kudo clause with three free draws.
+  Add a missing word to Rule 2019 (The Speaker's Veto) ("Assessor shall
+    [place] a copy").
+
+PROTO-PROPOSALS
+---------------
+
+"Andre would have wanted it this way" by Murphy (backlogged from April)
+  Return to one player, one vote.
+  Repeal Chambers, Sane Proposals, Shares, and Voting Potential.
+
+"Appellate Stability" by Murphy (backlogged from June)
+  Each appeal increases by two the number of appeals required for a new appeal.
+
+"Bicycle" by Murphy (backlogged from April)
+  Define Rank and Suit as card elements, and Hand Rank based on standard
+    poker rules (except with Dead Man's Hand - AS AC 8S 8C JH and nothing
+    else - beating royal flush).
+  Each week, a player may ante a Kudo.  At the end of the week, the pot goes
+    to the gambler with highest hand rank.
+
+"boon cash-out" by Goethe
+  Convert boons at the time of "Kudononsuch"'s adoption to heavy draws.
+
+"Diebold Electronic Voting Machines" by Murphy (backlogged from April)
+  Gaining Sente increases Voting Potential to 4 (if needed), and never
+    reduces Voting Power on Democratic Proposals below the 1 that those
+    with Gote have.
+  Players need not be Shareholders when voting on Ordinary Proposals.
+  Define Mainsail as a proposal switch (from "Taking Over Takeovers") and
+    some cards to manipulate it.
+  Corporate Raiders must include the proposal author.
+
+"Don't Get Stuck on Stupid" by Murphy
+  Allow the Associate Director of Personnel to conduct eir own election,
+    unless someone objects, in which case the Speaker conducts it as before.
+
+"Fix Contempt" by Murphy (backlogged from April)
+  If an order is invalid or improper, there shall be no penalty for either
+    obeying or disobeying it.
+
+"Pending Draw Reform" by Murphy
+  Replace pending draws with chips.
+
+"Simplify Orders" by Murphy (backlogged from April)
+  Define the Commander, Commanded, Positive Orders (to act) and Negative
+    Orders (to refrain from acting).
+  If an Order commands an Office, a change in holder does not absolve the
+    old holder of past violations.
+  Centralize the definitions of when orders are issued and become effective.
+  An Order's Base Time is its issue date, effective date, or (if commanding
+    an Office) the last time the Office changed hands, whichever is most
+    recent.  Default time limit is ASAP after the Base Time.
+  Propriety of Orders is explicitly left to judicial discretion.
+  Define Orders to Cancel, and reword specific stay/vacation of Orders to
+    use them.  Collapse several short rules into a few longer ones.
+
+"Two-Tone Economics Reloaded" by Murphy (backlogged from April)
+  Generalize fees in terms of multiple cost indexes:  Red/Green/Blue Quarks,
+    Parchments, Ballots, and Kudos.
+  Red + Green -> Parchment, Red + Blue -> Ballot, Green + Blue -> Kudo.
+  All cost indexes are reset quarterly.
+  A player's voting power is one, plus one for every five ballots e
+    possessed at the start of the voting period, plus one for every ballot
+    e spends on that proposal.
+  A player's proposing power (number of proposals e may submit per week) is
+    one, plus one for every five parchments e possessed at the start of the
+    week, plus one for every parchment e spends that week.
+
+
+CALLS FOR JUDGEMENT
+-------------------
+
+Requests for ineligibility:
+
+9/18  Quazie (all CFJs "for the next 298 hours 256 minutes and 34 seconds"
+
+CFJ 1278  "The Assessor has announced the results of the voting on Proposal
+[TRUE]     4111."
+          2/21/01           Called by Murphy
+          2/26/01-3/8/01    Assigned to Syllepsis, who Judges TRUE
+          8/10/05           Goethe motions the now-deregistered Syllepsis to
+                              consider a spurious argument ("Basset Hounds
+                              have Long Ears"); see CFJ 1575
+          8/26/05-10/16/05  Motion assigned to root; e fulfills eir (buggy)
+                              requirement to judge by judging TRUE
+          Caller's argument (summary):  The Assessor's announcement specified
+            the Vote count correctly, but specified the result of that Vote
+            count (adoption or rejection) incorrectly.
+          Judge's argument (summary):  Later in the message, the Assessor
+            specified the result of the Vote count correctly.
+
+CFJ 1575  "root is required to deliver a legal judgement for CFJ 1278."
+[TRUE]    8/26     Called by Goethe
+          9/18-25  Assigned to Eris, who judges TRUE
+          Caller's argument (summary):  root was only assigned to consider a
+            motion, but Rule 408 still requires em to judge.
+
+
+OFFICES
+-------
+
+9/4   Maud nominates Murphy for Assessor.
+
+9/5   Murphy is elected Deckmastor.
+
+      Nominations open for Deckmastor.  Mode is Open.
+
+9/11  Maud nominates Goethe for Deckmastor.
+
+9/13  Goethe is elected Deckmastor, with a privately submitted proto-budget of
+        20 of each card, maximum deck size reduced from 100 to 90, maximum deck
+        diversity reduced from 30 to 28, winning hands
+          Money Money Money Money (9 Cash cards)
+          alt.boring.hand. (9 Duds)
+          Total Control (9 Card cards)
+          Share Alike (9 Share cards)
+          Quick draw (9 "Instant" cards)
+
+9/15  Nominations open for Clerk of the Courts, Herald, and Promotor.  Mode is
+        Open.  Nominations do not open for Associate Director of Personnel
+        because the Speaker must initiate that election.
+
+      Maud attempts to nominate Murphy for Associate Director of Personnel.
+
+      Maud nominates Manu for Clerk of the Courts.
+
+      Maud nominates root for Herald.
+
+      Maud nominates OscarMeyr for Promotor.
+
+      root nominates emself for Promotor.
+
+      OscarMeyr nominates Quazie for Clerk of the Courts, Herald, and
+        Promotor, and attempts to nominate em for Associate Director of
+        Personnel.
+
+9/16  Manu declines eir nomination for Clerk of the Courts.
+
+      Quazie declines eir nominations for Clerk of the Courts, Herald, and
+        Promotor (and eir ineffective nomination for Associate Director of
+        Personnel).
+
+9/18  Murphy nominates emself for Clerk of the Courts.
+
+9/20  OscarMeyr declines eir nomination for Promotor.
+
+      OscarMeyr nominates emself for Herald.
+
+9/26  Murphy is incorrectly announced as being elected Associate Director of
+        Personnel.
+
+      Voting is incorrectly announced as opening for Clerk of the Courts, with
+        Manu (who declined) and Murphy as candidates.
+
+      Voting opens for Herald.  Candidates are root and OscarMeyr.
+
+      root is elected Promotor.
+
+      root stands down from the Herald election.
+
+9/27  OscarMeyr is elected Herald.
+
+      Murphy is elected Clerk of the Courts.
+
+      Nominations open for Associate Director of Personnel.  Mode is Open.
+
+9/28  OscarMeyr nominates Maud and Murphy for Associate Director of Personnel.
+
+      Maud declines eir nomination for Associate Director of Personnel.
+
+
+SHAREHOLDERS
+------------
+
+
+CARDS
+-----
+
+10/7  Goethe intends (with more support than objections) to add a Scoring
+        Instruction to the Blueprint Cardbook, and Eris supports it:
+          20. Each player's score is increased by i for each of eir pending
+                draws.
+
+
+IN OTHER NEWS
+-------------
+
+9/14  Quazie comes off hold.
+

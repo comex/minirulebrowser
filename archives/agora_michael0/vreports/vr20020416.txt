@@ -1,0 +1,450 @@
+
+Assessor's Voting Report
+Proposals 4281-4283
+
+No.    Title                           By        AI Flags  Result     VI
+----  ------------------------------  ---------- -- ----- --------- -----
+4281   Massive Economic Reform         Goethe     2  C     ADOPTED  24/1
+4282   Massive Political Reform        Goethe     2  C     ADOPTED  21/6
+4283   Massive Land Reform             Goethe     2  C     ADOPTED  23/3
+----  ------------------------------- ---------- -- ----- --------- -----
+D:Disinterested C:Democratic U:Urgent S:Sane
+I:Insane O:Opposite T: Contested
+
+H. Scorekeepor please note, by Rule 1930:
+   - OscarMeyr receives 2 Points (only Player to vote Against 4281).
+   - Goethe receives 20 Points (4281-4283 adopted with total 10 votes
+     against).
+
+              4281      4282      4283         [* Presence]
+              -----     -----     -----
+Sir Toby      1F        1F          ,1A
+Michael       2F        2F
+Crito           *         *         *
+Goethe        3F        3F        3F
+root            *         *       2F
+Orjan           *         *         ,1A
+OscarMeyr       ,1A       ,1A       ,1A
+Steve         3F          ,5A     3F
+Anemocrats   15F       15F       15F
+
+FOR/AGAI.    24/1       21/6      23/3
+ABSTAIN        0          0         0
+VOTERS         8          8         7
+QUORUM?      yes        yes       yes
+ADOPTED?     yes        yes       yes
+
+
+=========Text of adopted Proposals======================================
+
+Proposal #4281 by Goethe, AI=2
+Massive Economic Reform
+
+[This changes the basis of the economy.  All Players may bid
+ on any currency.  However, the appropriate roles can perform
+ currency-related actions much more cheaply, so they can set
+ the "going rate" for the actions (while still allowing all
+ Players to spend to perform them).]
+
+
+This Proposal has an Adoption Index of 2.
+
+
+Amend Rule 1946 by deleting the following text:
+                           Only Politicians may bid.
+
+
+Amend Rule 1954 by deleting the following text:
+                           Only Scribes may bid.
+
+
+Amend Rule 1712 by replacing:
+      In addition, the Auction shall be conducted in Stems
+      with only Acolytes being allowed to bid.
+
+with:
+      The Auction shall be conducted in Stems.
+
+
+Amend Rule 1986 to read:
+
+   A Scribe may Rubberstamp a Proposal by paying a Fee in Papyri,
+   or receiving the Support of a number of other Scribes, equal to
+   the number of Proposals that the Scribe has previously
+   Rubberstamped in the current Nomic Week (minimum zero).  A
+   Rubberstamped Proposal becomes Distributable:  this does not
+   change its Distribution Fee.
+
+   An Acolyte may absolve (remove) 1 Blot from any Entity by paying
+   Fee in Indulgences, or receiving the Support of a number of other
+   Acolytes, equal to the number of such Absolutions the Acolyte has
+   previously performed in the current Nomic Week (minimum zero).
+
+   An Acolyte may Exorcise a Dissolute Entity with the Support of
+   another Acolyte.  The effect of Exorcism is to instantly
+   transfer all of the Entity's Indulgences to the Bank.
+
+   An Acolyte with the Support of a Scribe, or a Scribe with the
+   Support of an Acolyte, may Bless an Undistributed Proposal.  A
+   moment after its Distribution, a Blessed Proposal becomes
+   Democratic if it is not already.
+
+   A Politician, with the Support of another Poltician, may Unbless
+   an Undistributed Blessed Proposal.  An Unblessed Proposal is no
+   longer Blessed.
+
+   An Untainted Speaker, with 2 Supporters, may Sanitise a
+   Distributed Proposal for which the Voting Period has not ended.
+   If this happens, the Proposal is Aborted as described elsewhere,
+   but remains Distributable and becomes Democratic and Sane.
+
+-------------------------------------------------------------------------------
+
+Proposal #4282 by Goethe, AI=2
+Massive Political Reform
+
+This Proposal has an Adoption Index of 2.
+
+
+Amend Rule 1933 (Ordinary and Democratic Proposals) to read:
+
+      Every Proposal shall be in (or have) exactly one defined
+      Chamber out of the following possibile Chambers:
+          (A) Ordinary;
+          (B) Democratic;
+          (C) Parliamentary.
+
+      Rules to the nonwithstanding, a Proposal can never be
+      Ordinary if its Adoption Index is two (2) or greater.
+
+      Every Proposals is initially Ordinary unless the above
+      limitation applies to it, in which case it is initially
+      Democratic.  The Chamber of a Proposal may only be changed
+      as specified by an instrument with Power greater than or equal
+      to two (2).
+
+
+Change the title of Rule 1933 to "A Proposal's Chamber"
+
+
+Amend Rule 1770 (Distributing Proposal) by replacing:
+       and an indication of whether the Proposal is Ordinary or
+       Democratic.
+with:
+       and an indication of the Proposal's Chamber.
+
+
+Amend Rule 1449 (The Assessor) by replacing:
+      The Assessor's Weekly Report shall include a list of the
+      identity, voting power on ordinary proposals, and voting power
+      on democratic proposals for each entity with nonzero voting
+      power on either ordinary or democratic proposals.
+with:
+      The Assessor's Weekly Report shall include a list of the
+      identity and voting power for Proposals in each Chamber, for
+      all entities with nonzero voting power in at least one Chamber.
+
+
+Amend Rule 1950 (Voting Power) to read:
+
+      (a) An entity's Voting Power on an Ordinary Proposal is as
+          follows:
+            (1) An Oligarch: one;
+            (2) Any other entity: zero.
+
+      (b) An entity's Voting Power on a Democratic Proposal is as
+          follows:
+            (1) A Player: one plus the number of Voting Entitlements e
+                possesses rounded down, minus one for every five Blots
+                e has, with a minimum of zero and a maximum of:
+                 (a) for an Oligarch, two;
+                 (b) for a non-Oligarch, five.
+            (2) The Bank: zero;
+            (3) Any other entity: as defined in the Rules, with a
+                default of zero if the Rules don't specify the Voting
+                power on a Democratic Proposal for that entity.
+
+      (c) An entity's Voting Power on a Parliamentary Proposal is
+          as follows:
+            (1) One, if the entity is one of the following:
+                (a)   The Oligarchy;
+                (b)   The Democracy;
+                (c)   The Speakership.
+            (2) Any other entity, zero.
+
+      (c) The value of an entity's Voting Power for any given Chamber
+          at the beginning of each Week shall be in effect for all
+          Proposals distributed during that Week. However, if a Proposal's
+          Chamber is changed after it has been distributed, the Voting
+          Power of each entity for that Proposal is redetermined at the
+          time the Chamber is changed.
+
+      (d) An entity may cast as many votes as e wishes on a Proposal,
+          in any combination, up to the limit determined by that entity's
+          Voting Power on that Proposal, with the exceptions that:
+              (1) no Player may vote on an Ordinary Proposal unless
+                  e is an Oligarch at the time e casts eir vote.
+              (2) Votes on Parliamentary Proposals shall only be
+                  cast through specific mechanisms indicated by the
+                  Rules for each specific entity with Voting Power
+                  on Parliamentary Proposals.
+
+
+Amend Rule 879 (Quorum) by appending the following text to the end:
+
+       A Parliamentary Proposal acheives quorum if at least
+       two of the entities with Voting Power on the Proposal
+       are deemed to have cast votes either FOR or AGAINST it.
+
+
+Create the following Rule entitled "Parliamentary Votes":
+
+       For a Parliamentary Proposal, the Assessor will count
+       as "Preliminary Votes" after the voting period has
+       ended:
+         1.  Communications from Oligarch Players or their
+             executors which would have been legal votes if the
+             Proposal had been Ordinary.
+         2.  Communications from non-Oligarch Players or their
+             executors which would have been legal votes if the
+             Proposal had been Democratic.
+         3.  Public communications from an untainted Speaker,
+             indicating a Veto of the Proposal.
+
+       If the preliminary votes of the Oligarch Players (both voting
+       index and quorum, with the exception that the Speaker's Veto does
+       not affect this determination of quorum) would have passed the
+       Proposal were they deemed to be Ordinary Votes on an Ordinary
+       Proposal, the Oligarchy shall be deemed to have cast 1 vote FOR the
+       Proposal, otherwise the Oligarchy will be deemed to have cast 1
+       vote AGAINST.
+
+       If the preliminary votes of the non-Oligarch Players (both voting
+       index and quorum) would have passed the Proposal were they
+       deemed to be Democratic Votes on a Democratic Proposal, the
+       Democracy shall be deemed to have cast 1 vote FOR the Proposal,
+       otherwise the Democracy will be deemed to have cast 1 vote AGAINST.
+
+       If the untainted Speaker Vetoed the Proposal, the Speakership
+       shall be deemed to have cast 1 vote AGAINST the Proposal,
+       otherwise the Speakership shall be deemed to have cast 1 vote
+       FOR the Proposal.
+
+       The timing of all votes cast on Parliamentary Proposals shall
+       be deemed to be an instant before the end of the Voting Period.
+       There are no other specific mechanisms for casting votes
+       on Parliamentary Proposals.
+
+
+
+Amend Rule 1986 (Role-Based Powers) to read:
+
+   A Scribe may Rubberstamp a Proposal by paying a Fee in Papyri,
+   or receiving the Support of a number of other Scribes, equal to
+   the number of Proposals that the Scribe has previously
+   Rubberstamped in the current Nomic Week (minimum zero).  A
+   Rubberstamped Proposal becomes Distributable:  this does not
+   change its Distribution Fee.
+
+   An Acolyte may absolve (remove) 1 Blot from any Entity by paying
+   Fee in Indulgences, or receiving the Support of a number of other
+   Acolytes, equal to the number of such Absolutions the Acolyte has
+   previously performed in the current Nomic Week (minimum zero).
+
+   An Acolyte may Exorcise a Dissolute Entity with the Support of
+   another Acolyte.  The effect of Exorcism is to instantly
+   transfer all of the Entity's Indulgences to the Bank.
+
+   An Acolyte with the Support of a Scribe, or a Scribe with the
+   Support of an Acolyte, may Bless an Undistributed Proposal.  A
+   moment after its Distribution, a Blessed Proposal becomes
+   Democratic if it is not already.
+
+   A Politician, with the Support of another Poltician, may Unbless
+   an Undistributed Blessed Proposal.  An Unblessed Proposal is no
+   longer Blessed.
+
+
+Create a new Rule (Chamber Procedure) with a Power of 2, to read:
+
+   The Chamber Fee for a Proposal is initially 0.1 Voting
+   Entitlements.  Any Politician may change the Chamber of a
+   Proposal that is not Sane to another Chamber of eir choice,
+   by publicly paying this fee, provided that it is legal for the
+   Proposal to be in the new Chamber.  When a Proposal's Chamber
+   is changed via this Rule:
+        (i)  The Chamber Fee for the Proposal is doubled;
+        (ii) If the Proposal is in its Voting Period, it
+             is Aborted as described elsewhere, and returned
+             to the Proposal Pool with its Distributability
+             and other characteristics intact.
+
+   An Untainted Speaker, with 2 Supporters, may Sanitise a
+   Distributed Proposal for which the Voting Period has not ended.
+   If this happens, the Proposal is Aborted as described elsewhere,
+   but remains Distributable and becomes Democratic and Sane.
+
+-------------------------------------------------------------------------------
+
+Proposal #4283 by Goethe, AI=2
+Massive Land Reform
+
+[Let's Play Go.]
+
+This Proposal has an Adoption Index of 2.
+
+Upon the adoption of this Proposal, the Payroll Clerk shall pay out
+an amount of Stems to the Mapkeepor equal to the Mapkeepor's salary
+times the BOS.
+
+For the purposes of this Proposal, every Player that owns at least
+one Land Unit in the moment before this Proposal is adopted shall
+be know as Entitled.
+
+
+Repeal Rule 2000 (Rule Location).
+Repeal Rule 2001 (This Landscape, This Ruleset).
+Repeal Rule 2007 (Developing Land).
+Repeal Rule 2008 (Arcadian Cities).
+
+
+Upon the adoption of this Proposal:
+   All Land Units become Aether.
+   All Land Units are transferred to the Land Bureau.
+   The location of each Entity with a defined location is set to 0,0.
+
+
+Amend Rule 1993 by replacing:
+
+      All values for Latitude must lie between -25 and +25, inclusive.
+      All values for Longitude must lie between -25 and +25, inclusive.
+
+with:
+
+      All values for Latitude must lie between -9 and +9, inclusive.
+      All values for Longitude must lie between -9 and +9, inclusive.
+
+
+
+Amend Rule 1997 to read:
+
+      In addition to Aether, the following Land Types are defined:
+           (a) Black;
+           (b) White.
+
+
+Amend Rule 1998 to read:
+
+      Two Units of Land are Adjacent if and only if:
+         (i) They have the same Latitude, and their Longitudes differ
+             by exactly one; or
+        (ii) They have the same Longitude, and their Latitudes differ
+             by exactly one.
+
+      The Penguin Distance between two given Units of Land is the
+      minimum number of Single Waddles required to Travel from one of
+      the given Units to the other given Unit, where one Single Waddle
+      is the Penguin Distance required to Travel from one Unit of Land
+      to an Adjacent Unit of Land.
+
+      Two Units of Land are said to be Connected by a specific Type or
+      Subtype of Land if it is possible to travel from the first Unit
+      to the second by Waddling only over Land of that specific Type
+      or Subtype.
+
+
+Amend Rule 2003 to read:
+
+      Every week, each Player may expend up to 10 Movement Units,
+      and an Organization may expend up to 5 Movement Units, to
+      move about in the Land of Arcadia.  Movement Units are not
+      transferrable, and do not persist from one week to the next.
+
+      A player makes a move by notifying the Mapkeepor of the specifics
+      of the move.  So long as e does not spend more than eir allotted
+      number of Movement Units, a Player may move as many times as e
+      wishes in a single week.
+
+      Entities may expend:
+        * 2 Movement Units to move from one Land Unit to an adjacent
+          Unit if their Land Types are the same and the destination
+          is not Aether.
+        * 5 Movement Units to move from one Land Unit to an adjacent
+          Unit if their Land Types differ and the destination is not
+          Aether;
+        * 5 Movement Units to set Land Type of a Land Unit which e owns
+          to any Land Type other than Aether, whether or not e is located
+          at that Land Unit.
+        * 10 Movement Units to set the Land Type of the Entity's current
+          location to any Land Type of eir choice other than Aether, if
+          and only if the Unit is owned by the Land Bureau.
+
+      Unless explicity permitted by other Rules, all other Moves
+      are invalid.
+
+
+Create the following Rule entitled "Sente and Gote" with a Power of 1:
+
+    On the fifteenth of each Nomic Month, the following actions occur in
+    sequence, and these changes must be reported by the Mapkeepor as soon
+    as possible after they occur:
+
+          (i) Every Land Unit that is not connected by its own type to a
+              unit of Aether shall be transformed to Aether;
+
+         (ii) Any entities whose locations are on land units so transformed
+              shall have their locations set to 0,0.
+
+        (iii) If any land unit so transformed is not property of the Land
+              Bureau, it becomes property of the Land Bureau.
+
+         (iv) If there are more Land Units of a single defined Land Type,
+              Aether excepted, then there are of all other Land Types
+              combined (other than Aether), then all Land Units of that
+              majority Type are said to have Sente.  Land Units of all
+              other defined Types are said to have Gote.
+
+          (v) the Mapkeepor shall Pay Out:
+              (a) an amount of Stems equal to the Minimum Income times
+                  the Basic Officer's Salary to all Players whose location
+                  has Sente;
+              (b) to the owner of each Land Unit that has Sente as is not
+                  owned by the Bank or the Land Bureau
+                      * 3 Stems if the Weather is Plenty;
+                      * 2 Stems if the Weather is Fair;
+                      * 1 Stem if the Weather is Foul.
+
+    Sente and Gote shall only be changed as defined by this Rule, on the
+    fifteenth of each Nomic Month.
+
+
+Upon the adoption of this Proposal, no Land Units have Sente, and all
+Land Units have Gote.
+
+Upon the adoption of this Proposal, the Land Type of (0,0) shall be
+set to Black, and transferred to the Bank.
+
+All Players that are Entitled as defined by this Proposal may,
+within seven days of this Proposal passing, inform the
+Mapkeepor of the identity of a single Land Unit, and a defined
+Land Type for that Land Unit.
+  A. If the Land Unit in question is owned by the Land Bureau and not
+     In Escrow:
+     1.  The Land Bureau incurs a debt to that Player for
+         that Land Unit.
+     1.  The Land Unit is changed to the indicated type.
+     2.  The location of that Player is set to that Land Unit.
+  B.  If the Land Unit in question is owned by an entity other than
+      the Land Bureau or is in Escrow, the Mapkeepor shall inform
+      the Player of this fact, and the Player shall have seven
+      additional days from being so informed to select a different
+      unit of land and have it changed and transferred as described
+      here.
+
+-------------------------------------------------------------------------------
+
+ -Goethe
+  "Confusing Powers with Duties since 1991."
+
+
+

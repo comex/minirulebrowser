@@ -1,0 +1,391 @@
+Assessor's Voting Report
+Proposals 4209 - 4212
+
+H. Scorekeepor, please note:
+solublefish gains 2 Points because only e voted AGAINST Proposal 4210.
+root gains 2 Points because only e voted AGAINST Proposal 4211.
+
+Voting began:  Sun, 2 Sep 2001 21:30:27 -0400
+Voting ended:  Sun, 9 Sep 2001 21:30:27 -0400
+
+> No.    | Title                          | By           | AI | Date    | Flag
+>        |                                |              |    |         | 
+> 4209   | Breaking the Law               | neil         |  1 | 28Aug01 | 
+> 4210   | Land Auctions and Tolls        | neil         |  1 | 28Aug01 | 
+> 4211   | None Of You Zombies...         | harvel       |  1 | 02Sep01 | 
+> 4212   | Upholding the Law              | neil         |  1 | 02Sep01 | O
+> 
+> D: Disinterested  C: Democratic  U: Urgent  S: Sane  I: Insane  O: Opposite
+
+harvel sent separate messages to a-b and agora@win.tue.nl, each claiming to
+vote (2A,1F,2F,1A).  I consider this to have aggregate effect (2A,2F,2F,2A)
+because harvel is a Middle Oligarch and may vote up to twice per Ordinary
+Proposal, and because the messages were clearly separate.  If there is any
+precedent to the contrary, then please let me know.  This does not affect
+the adoption or rejection of any Proposal.
+
+neil sent separate messages to a-b and agora@win.tue.nl, each claiming to
+vote (1-,1F,1F,1F).  This has aggregate effect (1-,1F,1F,1F) because neil is a
+Low Oligarch and may vote up to once per Ordinary Proposal.
+
+Entity          4209  4210  4211  4212
+------          ----  ----  ----  ----
+harvel           2A    2F    2F    2A
+neil              -     F     F     F
+Michael          3A     -    3F    3A
+root             2A    2F    F+A   2A
+solublefish       A     A     F     F
+
+FOR               0     5     8     2
+AGAINST           8     1     1     7
+ABSTAIN           1     1     0     0
+Present           0     0     0     0
+
+AI                1     1     1     1
+VI                0     5     8     0.14
+Voters            5     5     5     5
+Quorum            3     3     3     3
+Adopted?          No   Yes   Yes    No
+
+Text of adopted Proposals
+-------------------------
+
+Proposal #4210 by neil, AI=1
+Land Auctions and Tolls
+
+Create the following Rule, titled `Land Auctions'
+      As soon as possible after the tenth day of each Month, the
+      Mapkeepor shall, if the number of units of Land held by players
+      is less than one half the total number of units of Land, auction
+      a number of units of Land not to exceed 10.  The units of Land
+      to be Auctioned are:
+        * if there exist at least 10 Units of non-Aether Land in the
+          possession of the Land Bureau: any 10 such Units of Land, to
+          be chosen by the Mapkeepor;
+        * if there exist fewer than 10 Units of non-Aether Land in the
+          possession of the Land Bureau: all such Units.
+
+      There shall be a separate Auction for each Unit of Land under
+      consideration.  These Auctions shall be conducted concurrently.
+      For each of these Auctions:
+        * The item to be Auctioned is the piece of Land in question.
+        * The Procedure to be used is the Vickrey Auction.
+        * The Auctioneer shall be the Mapkeepor.
+        * The Auction shall be conducted in Indulgences.
+
+Create the following Rule, titled `Tolls'
+      A Player who owns Land may impose a Toll on any (currently
+      un-Tolled) piece of Land e owns.  To do so, e must pay a Fee of
+      0.2 Indulgences and clearly and unambiguously identify the Unit
+      of Land in question, as well as the amount of the Toll for that
+      Unit of Land.
+
+      A Toll is a number of VEs, Indulgences, or Papyri.  No Unit of
+      Land may have a Toll in other currencies, or in more than one
+      of these currencies.  No Toll shall be greater than 200 times
+      the MUQ of the currency in which it is denominated.
+      If a Player (the Tollee) Moves into a Unit of Land which is at
+      the time owned by another Player (the Toller), and for which
+      there is at the time a Toll established, e (the Tollee) is said
+      to be In Toll to the Unit of Land in question, for the amount of
+      the Toll on that unit of land (at the time of the Move)
+
+      The owner (Toller) of a Unit of Land may notify the Mapkeepor
+      that e believes a Player has been In Toll to a Unit of Land
+      owned by em; to do so, e submits a Notification of Toll, which
+      must unambiguously describe the Unit of Land in question, the
+      amount of the Toll, and the Player (alleged Tollee) in question.
+      The alleged Move must have occurred within the past week.  A
+      Player may submit only one such Notification for a given Unit of
+      Land in a single week, and may not submit substantially the same
+      Notification two weeks in a row.  Any Notification of Toll
+      contrary to this Rule is invalid and shall be discarded.
+
+      If, in the Mapkeepor's determination, the alleged Tollee was in
+      fact, in the week before the Notification, In Toll to the
+      specified Unit of Land for the specified amount, the Mapkeepor
+      shall confirm the Toll by publicly informing the Tollee and the
+      Toller.  The Tollee then incurs to the Toller a debt equal to
+      the Toll specified in the Notification.  If, in the Mapkeepor's
+      determination, the alleged Tollee was not In Toll to the
+      specified Unit of Land for the specified amount, e shall deny
+      the Notification by informing the Toller of eir determination.
+
+      If the Mapkeepor fails to respond to a valid Notification of
+      Toll, e commits the Class 2 Crime of Looking the Other Way.  If
+      the Mapkeepor confirms a Notification of Toll when in fact the
+      alleged Tollee was not In Toll to the specified Unit of Land
+      for the specified amount, e (the Mapkeepor) commits the Class 3
+      Crime of Conspiracy to Commit Highway Robbery.  If the Mapkeeper
+      denies a Notification of Toll when in fact the alleged Tollee
+      was In Toll to the specified Unit of Land for the specified
+      amount, e (the Mapkeepor) commits the Class 3 Crime of Not
+      Feeding the Toll Under the Bridge.
+
+      A Player may remove a Toll from any Tolled Unit of Land e owns.
+      If a Player loses possession of a Unit of Land, all Tolls
+      imposed on that Unit by that Player are removed.
+
+[ If `Moving in Arcadia' doesn't pass, this is going to be a rather
+  silly Rule.  Also, note that the Mapkeepor's Report need not list
+  the Moves taken by Players; thus, Players must be careful about what
+  Land they Toll, since movement through most Land is not easily
+  detectible. ]
+
+The Land Bureau is ordered to transfer the unit of Land located at
+(0,0) to the Bank.
+
+
+------------------------------------------------------------------------------
+
+Proposal #4211 by harvel, AI=1
+None Of You Zombies...
+
+======================================================================
+Section 0: Zombies Deserve Their Rest
+======================================================================
+
+Be it hereby resolved, that all Zombies are hereby deregistered.
+
+======================================================================
+Section 1: Lest We Forget
+======================================================================
+
+Amend Rule 1976 (Mentor's Bonus) is by striking the sentence: "A
+Zombie may not make such an award.".
+
+Amend Rule 1042 (Zombification Due to Silence) to read:
+
+        Each player is always Noisy, Quiet, or Silent, but never more
+        than one of these.  Whenever a player registers or posts to a
+        public forum, that player is Noisy.
+
+        A player who has not within the most recent 24 hours caused
+        another player to become Quiet may cause another Active Noisy
+        player to become Quiet by sending a message to a public forum
+        in which e identifies the player and states that e causes that
+        player to become Quiet.  Whenever a player has been Quiet
+        continuously for two weeks or has been Inactive continuously
+        for two months, e becomes Silent.
+
+        Any player may publicly allege that some other player has
+        abandoned the game.  A player has abandoned the game if and
+        only if e is Silent.  As soon as possible after a public
+        allegation that a player has abandoned the game, the Registrar
+        shall publicly confirm or deny the allegation.
+
+        If the allegation is confirmed, then the following events
+        shall occur in order:
+
+         (i) if the Silent player is the Speaker, e commits the Class
+             15 Crime of Speaker Abandonment and ceases to be Speaker,
+             and the Speaker-Elect becomes Speaker;
+
+        (ii) the Silent player is deregistered.
+
+        The Silent player shall be deemed to have been deregistered as
+        of the timestamp of the message from the Registrar confirming
+        the allegation.
+
+Change the title of Rule 1042 to "Deregistration Due to Silence".
+
+Amend Rule 1755 to read:
+
+        Whenever a player is deregistered, e ceases to be a candidate,
+        officer, judge, or in general to occupy any role or position
+        to which the rules assign any duties or powers.  No one who is
+        not registered may occupy such a role or position, unless at
+        least one of the rules defining the role or position
+        explicitly indicate it may be occupied by a nonplayer.
+
+        Bearing a Patent Title shall not be deemed to be occupying a
+        role or position.
+
+        This rule shall not act to prevent a nonplayer from
+        registering, calling for judgement, or otherwise doing things
+        that nonplayers are generally able to do.
+
+Amend Rule 1841 (Granting Power of Attorney) by replacing the text
+reading:
+
+        (f) Other Rules to the contrary notwithstanding, no Player who
+            has granted PoA to another Player as described in this rule
+            shall become a Zombie while the grant of PoA is in effect.
+
+with text reading:
+
+        (f) Other Rules to the contrary notwithstanding, no Player who
+            has granted PoA to another Player as described in this rule
+            shall be deregistered while the grant of PoA is in effect.
+
+Amend Rule 1992 (Monks) to read:
+
+        A player is Sanctimonious if e satisfies all of the following
+        conditions:
+
+        1. E possesses less than four times the Basic Officer Salary
+           of Stems.
+        2. E does not possess any Voting Entitlement.s
+        3. E is a Senator.
+        4. E is not the Executor or Limited Executor of any entity
+           other than emself, the Bank, or Monastery which possesses
+           Voting Entitlements or Stems.
+        5. E is Immaculate.
+
+        A player who has been Sanctimonious continuously for the most
+        recent week becomes a Monk by notifying the Registrar that e
+        becomes a Monk.  Whenever a Monk has not satisfied all
+        conditions for Sanctimony for at least 48 hours, any player
+        may report this to the Registrar.  On the Registrar's public
+        confirmation of this report, the Monk ceases to be a Monk.
+
+Amend Rule 1555 (Electees and Removal from Office) by replacing the
+text reading: 
+
+        If a Player goes On Hold, deregisters, is deregistered, or
+        becomes a Zombie, e is removed from all Offices e holds.
+
+with text reading:
+
+        If a Player goes On Hold, deregisters, or is deregistered, e
+        is removed from all Offices e holds.
+
+Amend Rule 559 (The Registrar) to read:
+
+        There exists the Office of Registrar, whose responsibility it
+        is to maintain a list of players.
+
+        The Registrar's Report shall include all of the following
+        information:
+
+           (i) a list of all registered players, with their nicknames,
+               if any, and preferred email addresses;
+
+          (ii) a list of all Grace Periods in progress, including the
+               player subject to the Grace period, the time at which
+               it started, and the time at which it will end;
+
+         (iii) a list of all Unready players;
+
+          (iv) the most recent date on which each registered player
+               registered;
+
+           (v) each player's Active/Inactive status, and the most
+               recent date on which that player became Active or
+               Inactive;
+
+          (vi) each player's Noisy/Quiet/Silent status, and the most
+               recent date on which that player became Noisy, Quiet,
+               or Silent;
+
+         (vii) the identities of the Distributor and the Speaker (and
+               eir Term of Service); and
+
+        (viii) a list of players who are Monks.
+
+
+======================================================================
+Section 2: The Gangrene Repeals
+======================================================================
+
+Repeal Rule 1884 (Zombie Masters).
+Repeal Rule 1885 (Zombie Auctions).
+Repeal Rule 1948 (Zombie Transfer Tax).
+Repeal Rule 1886 (Vivification Due to Noise).
+Repeal Rule 1924 (Living Twice Shall Have Its Price).
+
+======================================================================
+Section 3: Filling The Void In All Our Lives
+======================================================================
+
+Amend Rule 1910 (Stems) to read:
+
+        Stems are a Bank Currency.  The MUQ of Stems is 1.  The
+        Recordkeepor for Stems is the Payroll Clerk.
+
+        Transfers of Stems are permitted only if at least one of the
+        following is true:
+
+        (1) either the transferor or the transferee is the Bank;
+        (2) the Stems are to be transferred from a Dissolute to a
+            player who has the privilege of Looting the Corpse of that
+            Dissolute; or
+        (3) the transferor is an Organization, and the Stems to be
+            transferred had not been held continuously by the
+            Organization for one week.
+
+        All other transfers of Stems are prohibited.
+
+Amend Rule 1908 (Abandoned Property) to read:
+
+        Property possessed by an entity (the Dissolute) without a
+        Prime Executor is deemed to be abandoned as long as it is
+        possessed by the Dissolute.
+
+        The Notary is a Limited Executor of each Dissolute, on behalf
+        of whom e may:
+
+        (1) transfer property owned by em to any creditor of any of
+            eir debts, for the purpose of making partial or complete
+            payment on those debts;
+
+        (2) forgive in part or in full any debts owed to em;
+
+        (3) Without Objection, transfer property owned by em to the
+            Bank, unless the Dissolute was a player before eir
+            property was abandoned; or
+        
+        (4) transfer property to satisfy the Dissolute's Will,
+            provided that the Dissolute was not Silent when e lost eir
+            Prime Executor and all debts for that type of property
+            that the Dissolute had when e lost eir Prime Executor have
+            been satisfied. 
+            
+        If any entity possessing property dies, dissolves, or
+        otherwise ceases to exist, that entity shall be deemed to
+        exist for as long as e possesses property.
+
+Create a Rule, titled "Looting Auctions" and reading:
+
+        As soon as possible after a player becomes a Dissolute, the
+        Notary shall initiate an Auction for the privilege of Looting
+        the Corpse of the Dissolute.  Once a Looting Auction begins,
+        the Notary may not transfer property on behalf of the
+        Dissolute until either the Auction ends without any winning
+        bids or the winning bidder defaults on eir bid or loses eir
+        privilege to Loot the Corpse of that Dissolute.
+
+        Looting Auctions shall follow the default procedure for
+        Auctions with the following modifications:
+
+        (1) The Auctioneer shall be the Notary.
+        (2) The Auction Currency shall be Indulgences.
+        (3) The Starting Price shall be the number of Blots the
+            Dissolute had when e became a Dissolute, or one Indulgence
+            if the Dissolute was Immaculate.
+        (4) The Auction shall be for a temporary privilege, not for an
+            item, and so no debt of items to the winning Bidder when
+            eir bill is paid shall be incurred.
+
+        If there are no winning bids for the privilege of Looting the
+        Corpse of that Dissolute, the Notary must, as soon as possible
+        after the end of the Looting Auction, transfer all the
+        Dissolute's property to the Bank.
+
+        When the winning bidder pays eir bill from the Looting
+        Auction, e gains the privilege of Looting the Corpse of that
+        Dissolute; e becomes a Limited Executor of the Dissolute, with
+        the authority to transfer property from the Dissolute to
+        emself.  One week after e gains this privilege, e loses it,
+        and ceases to be a Limited Executor of the Dissolute.  If the
+        Dissolute still has property after the winning bidder loses
+        this privilege, the Notary must transfer the Dissolute's
+        remaining property to the Bank as soon as possible afterward.
+
+
+-- 
+Ed Murphy <ford@jps.net>     http://members.fortunecity.com/emurphy/
+          "Most of the time, it seemed sublimely unaware of its limbs,
+           though it was beginning to suspect it had hands."
+
+

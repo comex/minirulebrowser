@@ -1,0 +1,158 @@
+Assessor's Voting Report
+Proposals 4202 - 4205
+
+Voting began:  Mon Aug 20 20:11:45 EDT 2001
+Voting ended:  Mon Aug 27 20:11:45 EDT 2001
+
+> No.    | Title                          | By           | AI | Date    | Flag
+>        |                                |              |    |         |
+> 4202   | Fix Monkhood                   | Neil         |  1 | 13Aug01 |
+> 4203   | Decrease MUQs and fix...       | Neil         |  1 | 13Aug01 |
+> 4204   | Filthy Bureaucrat              | Syllepsis    |  1 | 05Aug01 | C
+> 4205   | Increase MUQs and break...     | Neil         |  1 | 21Aug01 | O
+>
+> D: Disinterested  C: Democratic  U: Urgent  S: Sane  I: Insane  O: Opposite
+
+Entity     4202  4203  4205
+------     ----  ----  ----
+harvel            2F    F+A
+Murphy       F     A     A
+neil         F     F     A
+root        2F    F+A   2A
+
+FOR          4     4     1
+AGAINST      0     2     5
+ABSTAIN      0     0     0
+Present      0     0     0
+
+AI           1     1     1
+VI          *U*    2     0.2
+Voters       3     4     4
+Quorum       3     3     3
+Adopted?    Yes   Yes    No
+
+Entity     4204
+------     ----
+Crito        F
+David        F
+Goethe       F
+harvel      2A
+Murphy       F
+neil         F
+Razl         A
+root         F
+Steve        F
+Syllepsis   2F
+Taral       5F
+
+FOR         14
+AGAINST      3
+ABSTAIN      0
+Present      0
+
+AI           1
+VI           4.7
+Voters      11
+Quorum       6
+Adopted?    Yes
+
+Text of adopted Proposals
+-------------------------
+
+Proposal #4202 by Neil, AI=1
+Fix Monkhood
+
+Amend Rule 1992 (Monks) by replacing the text:
+      6. E is not the Executor or Limited Executor of any entity other
+         than the Bank or Monastery which possesses Voting
+         Entitlements, Zombies, or Stems.
+with
+      6. E is not the Executor or Limited Executor of any entity other
+         than emself, the Bank, or Monastery which possesses Voting
+         Entitlements, Zombies, or Stems.
+
+------------------------------------------------------------------------------
+
+Proposal #4203 by Neil, AI=1
+Decrease MUQs and fix...
+
+[Full title is "Decrease MUQs and fix currency auctions" -- Promotor neil]
+
+Amend Rule 1951 (`Papyri') by replacing the text `0.1' with `0.001'.
+
+Amend Rule 1945 (`Voting Entitlements') by replacing the text `0.1'
+with `0.001'.
+
+Amend Rule 1435 (`Definition of Indulgences, Blots and Immaculate') by
+replacing the text `0.1' with `0.001'.
+
+Amend Rule 1985 (`The Usuror's Budget') by replacing the text:
+        (v) The Player Credit Limit for each Bank currency, other than
+            Stems, which is a multiple of the MUQ of that Currency
+            between 0 and 20 inclusive.
+
+       (vi) The Non-Player Credit Limit for each Bank currency, other
+            than Stems, which is a multiple of the MUQ of that
+            Currency between 0 and 20 inclusive.
+with:
+        (v) The Player Credit Limit for each Bank currency, other than
+            Stems, which is a multiple of the MUQ of that Currency
+            between 0 and 2000 inclusive.
+
+       (vi) The Non-Player Credit Limit for each Bank currency, other
+            than Stems, which is a multiple of the MUQ of that
+            Currency between 0 and 2000 inclusive.
+
+
+Amend Rule 1946 (`Distribution of Voting Entitlements') by replacing
+the text:
+      Whenever it occurs that the Voting Entitlement Surplus is
+      positive and no Auction of Voting Entitlements is already in
+      progress, the Assessor shall auction off the surplus Voting
+      Entitlements. The items to be auctioned are Minimum Unit
+      Quantities of of Voting Entitlements, and thus the number of
+      items is equal to the Voting Entitlement Surplus divided by the
+      MUQ of VEs.  The Auctioneer shall be the Assessor, and the
+      Auction shall be conducted in Stems. Only Politicians may bid.
+
+      Upon the satisfaction of a debt arising from an Voting
+      Entitlement Auction, the Assessor shall pay out one Voting
+      Entitlement to the debtor of the satisfied debt.
+with:
+      Whenever it occurs that the Voting Entitlement Surplus is
+      positive and no Auction of Voting Entitlements is already in
+      progress, the Assessor shall auction off the surplus Voting
+      Entitlements. The items to be auctioned are lots of 0.1 VEs;
+      the number of items is equal to the Voting Entitlement Surplus
+      multiplied by 10, rounded down to the nearest integer.  The
+      Auctioneer shall be the Assessor, and the Auction shall be
+      conducted in Stems. Only Politicians may bid.
+
+
+Amend Rule 1954 (`Distribution of Papyri') by removing the text:
+      Upon the satisfaction of a debt arising from a Papyrus Auction,
+      the Promotor shall pay out one Papyrus to the debtor of the
+      satisfied debt.
+
+Amend Rule 1712 (`Distribution of Indulgences) by removing the text:
+      Upon the satisfaction of a debt arising from an Indulgence
+      Auction, the Herald shall pay out one Indulgence to the debtor
+      of the satisfied debt.
+
+------------------------------------------------------------------------------
+
+Proposal #4204 by Syllepsis, AI=1
+Filthy Bureaucrat
+
+1. Amend Rule 1922 "Defined Regular Patent Titles" by appending the text:
+
+"(d) Filthy Bureaucrat, to be awarded to any player who at some point
+     simultaneously holds and is Electee to three or more Offices."
+
+
+--
+Ed Murphy <ford@jps.net>     http://members.fortunecity.com/emurphy/
+          "Most of the time, it seemed sublimely unaware of its limbs,
+           though it was beginning to suspect it had hands."
+
+

@@ -1,0 +1,197 @@
+Subject:
+BUS: Agoran Weekly Journal
+From:
+Ed Murphy <emurphy42@socal.rr.com>
+Date:
+Sat, 15 Oct 2005 18:35:57 -0700
+To:
+Agora Business <agora-business@agoranomic.org>
+
+     THE AGORAN WEEKLY JOURNAL
+     VOLUME 50, BACK ISSUE 4
+     Wednesday, August 31, 2005
+
+
+SIMON SAYS REGISTER
+-------------------
+
+Andre    - Old CFJs           http://www.win.tue.nl/~engels/stare.txt
+Elysion  - Thesis archive     http://www.msu.edu/~boehmejo/agora.html
+Goethe   - Claustronomic      http://faculty.washington.edu/kerim/nomic/
+Maud     - Proto archive      http://cokernel.org/agora/proto/
+           Assessor archive   http://cokernel.org/assessor/
+Michael  - First Speaker      http://web.rsise.anu.edu.au/~michaeln/agora/
+             RCS SLR            RCS/short-ruleset,v
+             RCS FLR            RCS/full-ruleset,v
+Murphy   - CotC Web           http://zenith.homelinux.net/cotc/
+           AWJ archive        http://zenith.homelinux.net/awj/
+Riail    - AgoraMOO           telnet://mail.feoh.org:4781
+root     - Proposal Pool      http://www.periware.org/agora/
+Sherlock - Agora Library      ftp://ftp.cse.unsw.edu.au/pub/users/malcolmr/
+                                nomic/articles/agora-theses/library.html
+
+
+ERRATA
+------
+
+
+ADOPTED PROPOSALS
+-----------------
+
+"Card Fixins" by root - Proposal 4834 adopted 8/6
+  Site Gamblers are generalized, including the Deck, Discard Pile, Library,
+    and now the Table.
+  Cards are transferred to the Table while they take effect, discarded
+    afterward (unless Persistent).
+  Indications, Impositions, and Feats are explicitly defined as components
+    of card exploits.  Individual cards may override their default mechanisms.
+
+"Condense ratification" by Maud - Proposal 4832 adopted 8/6
+  Merge ratification into a single rule, simplify "not subject to COE/CFJ"
+    to "not in dispute", and allow non-required documents to be ratified.
+
+"Tension makes a tangle" by Maud - Proposal 4833 adopted 8/6
+  Regulated activities (which Rule 101, renamed "Agora May I?", allows players
+    to perform only as specified) are activities that are prohibited, are
+    allowed if a condition holds, would modify records required to be kept,
+    would break Agora's Nomic-ness, or have been judicially declared as
+    regulated.
+  Repeal the leftover mention of the Initial Ruleset.
+  Players may not be required to do what they are not empowered to do, and
+    failing to do such actions is still never a crime or infraction.
+  A set of events in a message with ambiguous order and thus effect may be
+    invalidated without invalidating other events in the same message with
+    unambiguous order and effect.
+  Merge the rules for registration and deregistration.
+  Simplify the language of Rule 478 (Fora).
+
+REJECTED PROPOSALS
+------------------
+
+"Rulebooks" by Maud - Proposal 4831 rejected 8/6
+  Rulebooks may define terms, enable, require, and regulate their own
+    amendment, but cannot affect amendment of the Rules.
+  Rulebooks have default Power 1, and (if non-blank) their maintainers shall
+     publish them monthly and ASAP after changes.
+  The Codex is a Rulebook with Power 3:
+    The Speaker may appoint a player as Rules Lawyer by announcement.
+    List of Rulebooks.  The Codex is maintained by the Rules Lawyer.
+
+"The Random Repeal" by Maud - Proposal 4830 rejected 8/6
+  Repeal Rule 1079 (Definition of "Random").
+
+PENDING PROPOSALS
+-----------------
+
+PROTO-PROPOSALS
+---------------
+
+"Fix Power" by Maud
+  An instrument may modify an entity's power to an amount that does not
+    exceed the instrument's power either before or after modification.
+
+
+CALLS FOR JUDGEMENT
+-------------------
+
+Requests for ineligibility:
+
+<none>
+
+CFJ 1278  "The Assessor has announced the results of the voting on Proposal
+[TRUE]     4111."
+          2/21/01         Called by Murphy
+          2/26/01-3/8/01  Assigned to Syllepsis, who Judges TRUE
+          8/10/05         Goethe motions the now-deregistered Syllepsis to
+                            consider a spurious argument ("Basset Hounds
+                            have Long Ears"); see CFJ 1575
+          8/26/05         Motion assigned to root
+          Caller's argument (summary):  The Assessor's announcement specified
+            the Vote count correctly, but specified the result of that Vote
+            count (adoption or rejection) incorrectly.
+          Judge's argument (summary):  Later in the message, the Assessor
+            specified the result of the Vote count correctly.
+
+CFJ 1453  "As a result of the formation of root's Pay Out Scam Contest (rPOSC),
+[TRUE]     the Bank incurred a debt to root consisting of one or more
+            properties."
+           3/4/03    Called by root
+           3/10-17   Assigned to t, who makes emself ineligible
+           3/20-24   Assigned to Sir Toby, who Judges TRUE
+           6/16/05   Appealed by root, Maud, and Goethe
+           6/19-7/4  Appeal assigned to Murphy, Maud, and Michael, who are
+                       recused
+           7/8       Appeal assigned to Riail, Manu, and OscarMeyr
+           7/22      OscarMeyr moves to SUSTAIN
+           7/28      Manu moves to SUSTAIN
+           8/29      Riail recused
+           8/7-11    Appeal assigned to Eris, who moves to REASSIGN
+           Caller's argument (summary):  The Contest required root to pay out
+             Property to emself, and Rule 1594 (Violation of SLCs) requires em
+             to obey the Regulations.  Since Rule 1594 requires em to pay out
+             Property, Rule 1479 (Definition of "Pay Out" and "Bill") causes
+             the Bank to incur a debt.
+           Judge's argument (summary):  This is backed up by game custom that
+             Orders requiring paying-out create debts because they are also
+             backed by Rule 1594.
+           Counterargument (summary):  SLCs and similar entities do not
+             empower in the same way that they restrict.  This appeal will
+             provide an analogy for Cardbooks, Contracts, and Agreements.
+
+CFJ 1574  "All Cards currently defined in the Onepower Cardbook that change
+[FALSE]    Kudos (other than fees) are invalid and have no effect."
+          7/28    Called by Manu
+          8/7-14  Assigned to OscarMeyr, who judges FALSE
+          Caller's argument (summary):  Such cards are neither the rules nor
+            an instrument with Power >= 2.
+          Judge's refutation (summary):  For the purpose of resolving
+            conflicts, cards are considered part of the rule defining their
+            Cardbook, and are thus able to change Kudos.
+
+CFJ 1575  "root is required to deliver a legal judgement for CFJ 1278."
+          8/26  Called by Goethe
+          Caller's argument (summary):  root was only assigned to consider a
+            motion, but Rule 408 still requires em to judge.
+
+
+OFFICES
+-------
+
+8/18  Nominations open for Deckmastor and Justiciar.  Mode is Open.
+
+8/25  Goethe nominates emself for Deckmastor and Justiciar, with a Deckmastor
+        proto-budget of 20 of each card, maximum deck size reduced from 100 to
+        90, maximum deck diversity reduced from 30 to 28, winning hands
+          Money Money Money Money (9 Cash cards)
+          alt.boring.hand. (9 Duds)
+          Total Control (9 Card cards)
+          Share Alike (9 Share cards)
+          Quick draw (9 "Instant" cards)
+
+      root nominates for Deckmastor.
+
+8/26  Maud resigns as Assessor and Justiciar.  Offices go to Speaker Eris.
+
+8/28  Goethe is elected Justiciar.
+
+      Nominations open for Assessor.  Mode is Open.
+
+      Voting opens for Deckmastor.  Candidates are Goethe and root.
+
+
+SHAREHOLDERS
+------------
+
+
+CARDS
+-----
+
+8/1  Maud adds the Blueprint for Stock Swap (Rare, Restricted [Shareholders];
+       exchange all your Stock with another Shareholder).
+
+
+IN OTHER NEWS
+-------------
+
+8/8  Eris becomes pope, thus Speaker.
+

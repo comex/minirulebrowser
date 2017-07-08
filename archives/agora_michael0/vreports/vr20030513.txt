@@ -1,0 +1,256 @@
+Agora Nomic
+Voting Report for Proposals 4493-4497
+
+This Report: Tue, 13 May 2003
+Last Report: Tue, 06 May 2003
+
+Current Voting Mode: Unrestricted
+===========================================================================
+Voting on Proposals 4493-4497 commenced: Mon, 05 May 2003 06:51:54 GMT
+Voting on Proposals 4493-4497 concluded: Mon, 12 May 2003 06:51:54 GMT
+
+Num. Title                           By         AI  Fl RESULT  F  A  - *
+
+4493 Tiptoe Through the Tulips       Steve      2   D  PASSES  8  1  0 0
+4494 Team Scores                     Peekee     1   O  PASSES  3  0  0 0
+4495 Repeal Ohm's Law                RedKnight  1   Dc FAILS   4  4  0 0
+4496 Sink Arcadia                    Sherlock   1   Od PASSES  2  1  0 0
+4497 ANF bugfixes                    Steve      1   Od PASSES  2  1  0 0
+
+
+Flags:
+o: ordinary D: Democratic P: Parliamentary
+d: disinterested  u: urgent  s: sane  c: contested
+
+===========================================================================
+
+                D   o   D   o   o
+                4   4   4   4   4
+                4   4   4   4   4
+	        9   9   9   9   9
+	        3   4   5   6   7
+
+Manu            F       F   
+Murphy          F       A
+OscarMeyr (O)   A   F   F   F   A
+Peekee          F
+RedKnight       F       A
+root      (O)   F   F   A   F   F
+Sherlock       2F      2F
+Steve     (O)   F   F   A   A   F
+
+FOR             8   3   4   2   2
+AGAINST         1   0   4   1   1
+ABSTAIN         0   0   0   0   0
+Present         0   0   0   0   0
+
+Voters          8   3   7   3   3 
+Quorum(6|3)     Y   Y   Y   Y   Y
+PASSES?         Y   Y   N   Y   Y
+
+===========================================================================
+Miscellaneous
+===========================================================================
+
+H. Scorekeepor OscarMeyr, please note: 
+
+Points awards:
+
+Player     Points   Reason/Rule
+-------------------------------
+Steve      +5       Interested P4493 adopted, 1 vote against; R1930
+OscarMeyr  +2       Only player to vote against P4493; R1930
+Peekee     +4       Interested P4494 adopted, 0 votes against; R1930
+Murphy     +10      Voted against defeated Contested Proposal; R2016
+RedKnight  +10      Voted against defeated Contested Proposal; R2016
+root       +10      Voted against defeated Contested Proposal; R2016
+Steve      +10      Voted against defeated Contested Proposal; R2016
+Sherlock   +3       Disinterested P4496 adopted, 1 vote against; R1930
+Steve      +2       Only player to vote against P4496; R1930
+Steve      +3       Disinterested P4497 adopted, 1 vote against; R1930
+OscarMeyr  +2       Only player to vote against P4497; R1930
+
+===========================================================================
+Text of Adopted Proposals
+===========================================================================
+
+Proposal 4493 by Steve, AI=2, Democratic
+Tiptoe Through the Tulips
+
+
+Proposal
+First ANF Fix
+
+Amend Rule 1986 by replacing the text in it which currently reads:
+
+       A progressive action may be associated with a role if
+       the rules so state.  If an energetic action is associated
+       with a role, only players who hold that role may perform,
+       or support performance of, that action.
+
+with text which reads:
+
+       A progressive action may be associated with a role if the rules
+       so state.  If an progressive action is associated with a role,
+       only players who hold that role may perform, or support
+       performance of, that action.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4494 by Peekee, AI=1, Ordinary
+Team Scores
+
+
+Proposal: "Team Scores"
+
+[Changed scoring clause (c), to Steve's Suggestion.]
+
+Amend Rule 2041 "Teams" to read as follows,
+
+All Players are grouped into units known as Teams.  No Player may belong
+to more than one Team at any time.
+
+Each Team shall have a Team Name by which it is known.  A Player in a
+Team may change that Team's Team Name with the Support of two other
+Players in the same Team.
+
+
+Create a rule titled "Team Points, Team Scores" to read as follows,
+
+A Team Score is at all times an integer.  The Team Score of a Team is
+the total sum of all Points of all Players grouped into that Team, plus
+the Team's Team Points.
+
+A Team who has not been Awarded or Penalized since the last Team Win has
+zero Team Points.
+
+The Rules may specify that certain events may cause a certain Team to be
+Awarded or Penalised Team Points. If said event occurs, then any Player
+may notify the Scorekeepor of the Award or Penalty. The Scorekeepor
+shall then note the change in the affected Team Points.
+
+Such a notification must meet the following requirements, else it is
+ineffective:
+-- It must be sent within 7 days of the event
+-- It must unambiguously describe the event
+-- It must indicate the Rule allowing the Award or Penalty
+-- It must be the first valid notification for that specific event
+
+
+Create a rule titled "Team Scoring" to read as follows,
+
+(a) If all the Players on a Team Vote on a Democratic Proposal, the Team
+may be Awarded 10 Team Points.
+(b) If none of the Players on a Team Vote on a Democratic Proposal, the
+Team may be Penalised 20 Team Points.
+(c) If all the players on a Team vote FOR a Democratic Proposal and none
+of them vote AGAINST it, or all the players on a Team vote AGAINST a
+Democratic Proposal and none of them vote FOR it, the Team may be
+awarded 10 Team points. (d) If all the Players on a Team Vote in an
+Election, the Team may be Awarded 10 Team Points.
+(e) If none of the Players on a Team Vote in an Election, the Team may
+be Penalised 20 Team Points.
+(f) If all the Players on a Team Vote for the same Candidate in an
+Election, the Team may be awarded 10 Team Points.
+(g) If a Revolt succeeds, and every Player on a Team is Rebellious, the
+Team may be Awarded 30 Points.
+(h) If a Revolt fails, and every Player on a Team is Rebellious, the
+Team may be Penalised 30 Points.
+(i) Once in each Agoran week if all the Players on a Team are
+Immaculate, the Team may be Awarded 5 Team Points.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4496 by Sherlock, AI=1, Ordinary, Disinterested
+Sink Arcadia
+
+
+Repeal Rule 1999 (Entity Location).
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4497 by Steve, AI=1, Ordinary, Disinterested
+ANF bugfixes
+
+
+Proposal
+ANF bugfixes
+
+[Bugfix 1]
+Amend Rule 649 (Patent Titles) by replacing:
+      Unless otherwise specified, each Patent Title has Historical
+      Significance.  The Herald may, Without Objection, cause that
+      Title to lose its Historical Significance.  That Title
+      immediately gains Hysterical Significance.
+with:
+      Significance is a stuck switch for Patent Titles with
+      states Historical, Hysterical, and Ephemeral.  The Herald
+      may, Without Objection, cause a Title be switched from
+      Historical Significance to Hysterical Significance.
+
+Amend Rule 1930 (Scoring) by replacing:
+      (k) If a Player gains a Patent Title which e has not held during
+          the 7 days prior to gaining it, e may be Awarded 5 Points.
+with:
+      (k) If a Player gains a Historical Patent Title which e has
+          not held during the 7 days prior to gaining it, e may be
+          Awarded 5 Points.
+
+Amend the rule entitled Ephemera by replacing:
+         A Patent Title is Ephemeral if
+with:
+         A Patent Title has Ephemeral significance if
+
+
+[Bugfix 2]
+Amend Rule 1908 (Abandoned property) by replacing:
+      (3) Without Objection, transfer property owned by em to the
+          Bank, unless the Dissolute was a player before eir property
+          was abandoned; or
+with
+      (3) Without Objection, transfer property owned by em to the
+          Mintor or Recordkeepor of that Property, unless the
+          Dissolute was a player before eir property was abandoned;
+          or
+
+
+[Bugfix 3]
+
+All debts denoted in Stems, Papyri, voting entitlements or
+Indulgences are forgiven.
+
+All rights to demand the return of Property under R1598(f) are
+forfeited.
+
+Amend Rule 1942 (Property) by appending the following text:
+
+      If a category of properties ceases to exist, all debts
+      of that property shall cease to exist.  The former
+      recordkeepor of that property category must, as soon as
+      possible after the category ceases to exist, publish
+      entities' holdings of that category as they existed
+      immediately before this destruction.
+
+      If a Player destroys a category of property for which
+      e is a debtor, e commits the Class-4 Crime of Writing
+      Bad Checks.
+
+
+-----------------------------------------------------------------------
+
+
+
+-- 
+
+
+Steve Gardner                   | 
+School of Computer Science      |      I've only just realized
+ and Software Engineering       |      how self-conscious I am.
+gardner@sng.its.monash.edu.au   | 
+

@@ -1,0 +1,224 @@
+Voting Results
+
+This Report:  Sun 21 Mar 04 (Proposals 4555 - 4556)
+Last Report:  Fri 27 Feb 04 (Proposals 4553 - 4554)
+(All times are in GMT)
+
+Start of Voting Period:  Fri 27 Feb 20:45:46
+  End of Voting Period:  Fri  5 Mar 20:45:46
+
+O = Ordinary        d = Disinterested   s = Sane         + = Positive Ad
+D = Democratic      u = Urgent          c = Contested    - = Negative Ad
+
+Number    Title                         Author    AI   Flags     Result
+------------------------------------------------------------------------
+4555      Vox Populi                    Elysion   2    D         Adopted
+4556      Note the Captains             Goethe    1    D         Adopted
+
+                    4555      4556      Team
+
+Elysion               F         F       Vyregurk
+Eris                  -         -       Duckfield
+Goethe               2F        2F       Bryzzleoc
+Kolja                 F         A       Vyregurk
+OscarMeyr             F         F       Wuckleshaw
+RedKnight             A         F       Bryzzleoc
+root                  F         F       Vyregurk
+Sherlock             2F        F+A      Wuckleshaw
+Sir Toby              F         F       Bryzzleoc
+
+(t's votes of F and F were invalid because eir VPDP is 0.)
+
+FOR                   9         8
+AGAINST               1         2
+Abstain               1         1
+Present               0         0
+
+Voting Index          9         4
+Adoption Index        2         1
+
+Voters                9         9
+Quorum (D:15/3)       5         5
+
+H. Scorekeepor Goethe, please note Points awards due to Rule 2055:
+
+     [P3] Elysion +6 (4555), Goethe +9 (4556)
+     [P4] RedKnight +5 (4555)
+     [P5] <none>
+     [P6] <none>
+     [P7] <none>
+     [P8] <none>
+
+     [T1] <none>
+
+and due to Rule 2016:
+
+     <none>
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4555 by Elysion, AI=2, Democratic
+Vox Populi
+
+
+[Friends, Agorans, lend me your ears. We have been subject to the
+tyrannical rule of an aristocracy. It is time for the people to make
+their voices heard and replace these institutions with a representative
+republic. The revolution is upon us!
+
+The outline of the new system is:
+
++ Each player has a Lobbying Strength, which may be increased by paying
+  a fee
+
++ Players may use eir Lobbying Strength to support another player by
+  joining that player's coalition
+  
++ A player is eligible to become an Oligarch only if eir coalition has
+  enough Lobbying Strength
+
+Changes since the proto:
+
++ "than than" was corrected in the proposed amendment to rule 1936
+]
+
+Upon the adoption of this proposal, the Potency Threshold is set to
+equal 6, the Political Charge is set to equal the Oligarchy Charge
+Requirement immediately prior to the adoption of this proposal, and the
+Lobbying Strength of each Player is set to 1.
+
+Create a rule with power 2 entitled "Coalitions" reading:
+
+      Each Player shall have associated with them a list known as that
+      Player's Coalition. A Coalition consists of a set (possibly null)
+      of registered Players. At any time, a player may be a member of at
+      most one Coalition. A player may be a member of eir own Coalition.
+      Whenever a member of a Coalition ceases to be a Player, e is
+      removed from that Coalition.
+
+      A Player may join a Coalition by announcing e does so and
+      specifying which Coalition e is joining, provided e has not
+      successfully made such an announcement in the past week and is not
+      currently a member of another Coalition. A Player may leave a 
+      Coalition e is a member of by announcing e does so.
+
+
+Create a rule with power 2 entitled "Potency and Lobbying" reading:
+
+      Each Player has two associated non-negative integral numbers
+      known as that Player's Potency and Lobbying Strength.
+
+      A Player's Potency is equal to the sum of the Lobbying Strengths
+      of the members of eir Coalition.
+
+      At any time, a Player may, by announcement, increase their
+      Lobbying Strength by a positive integral amount, N. The Fee
+      associated with this action is the Political Charge multiplied by
+      N, or half that amount (rounded up) if the Player is a Politician.
+
+      At the beginning of each new month, every Player's Lobbying
+      Strength is set to 1. Whenever a Player registers, eir Lobbying
+      Strength is set to 1.
+
+
+Rename rule 1932 (The Oligarchy) to "Oligarchs and the Oligarchy" and
+amend it to read:
+
+      Class is a stuck player switch with values Plebeian and Oligarch.
+      A Plebeian may flip eir class if eir Potency is greater than or
+      equal to the
+ Potency Threshold. An Oligarch may flip eir class at
+      any time.
+
+      The Oligarchy is the set of all Players who are Oligarchs.
+
+
+Amend rule 1955 (The Grand Warden of the Oligarchy) to read:
+
+      (a) The Grand Warden of the Oligarchy (GWotO) is an office; its
+          holder is recordkeepor of Oligarchs.
+
+      (b) The GWotO's Weekly Report shall include a list of all
+          Oligarchs, the membership of each Player's Coalition, the
+          Potency and Lobbying Strength of each Player, the
+          identity of the Speaker, and the date of the next quarterly
+          Speaker transition.
+                                                                        
+                                     
+      (c) The GWotO shall have a budget containing the Political Charge,
+          which is a positive integer less than 10, and the Potency
+          Threshold, which is a positive integer less than 10.
+                                                                        
+                                     
+      (d) The GWotO may Without 2 Objections from Oligarchs replace
+          the budget with a proto-budget e publishes when e announces
+          eir intent to do so.
+
+
+Amend Rule 1963 (Eligible Oligarchs) by replacing the text reading:
+
+          (5) e is the Grand Warden of the Oligarchy; or
+
+with:
+
+          (5) e is the Grand Warden of the Oligarchy; or
+          (6) eir Potency is less than the Potency Threshold and
+              has been continuously so for at least five days;
+
+
+[And some cleanup.]
+
+Repeal rule 2027 (Vacant Oligarchy)
+Repeal rule 1936 (Oligarchic Service)
+
+Amend rule 1664 (Rebellion) by replacing the text reading:
+
+      - The GWotO shall remove all Abiding Oligarchs from the Oligarchy
+
+with:
+
+      - The Lobbying Strength of each Abiding Player is set to 0
+
+and removing the text reading ", Oligarchy membership"
+
+
+Amend rule 2058 (Removing Oligarchs from the Oligarchy) by replacing:
+
+      If this notice is correct, the named Player ceases to be an
+      Oligarch as of the GWotO's announcement.
+
+with:
+
+      If this notice is correct, the named Player's class is flipped
+      to Plebeian as of the GWotO's announcement.
+
+
+Amend rule 2052 (Voting Potential) by replacing all instances of
+"Oligarchy Charge Requirement" with "Political Charge"
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4556 by Goethe, AI=1, Democratic
+Note the Captains
+
+
+Proposal:  Note the Captains
+
+[Because current Team Wins Rules should leave permanent
+recognition among past rolls of Champions, Winner's Cups,
+Zeitgeists, etc.]
+
+Amend Rule 1922 (Defined Regular Patent Titles) by appending
+the following text:
+
+      (e)  Admiral, to be awarded to a Team Captain when eir
+           Team achieves a Team Win.
+
+
+Upon adoption of this Proposal, any player who was a Team
+Captains when eir Team previously achieved a Team win is 
+awarded the title Admiral.
+

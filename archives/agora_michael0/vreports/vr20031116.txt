@@ -1,0 +1,141 @@
+Voting Results
+
+This Report:  Sun 16 Nov 03 (Proposals 4535 - 4539)
+Last Report:  Sat  8 Nov 03 (Proposal 4534)
+(All times are in UTC)
+
+Start of Voting Period:  Fri  7 Nov 02:40:58
+   End of Voting Period:  Fri 14 Nov 02:40:58
+
+O = Ordinary        d = Disinterested
+D = Democratic      u = Urgent
+P = Parliamentary   s = Sane
+                     c = contested
+
+Number    Title                    Author    AI   Flags     Result
+----------------------------------------------------------------------
+4535      Boon of Zeitgeist        Murphy     1     O       Failed quorum
+4536      The Omnibus Reform...    Murphy     1     O       Failed quorum
+4537      A Little Bribe Never...  Murphy     2     D       Adopted
+4538      Pragmatize Scoring       Murphy     1     O       Failed quorum
+4539      Remember Remember        Goethe     2     Ds      Adopted
+
+                     4535  4536  4537  4538  4539       Team
+
+Goethe                            F           F      Bleethan
+Murphy                F     F     F     F     F      Bleethan
+OscarMeyr                         F           F      Sliehough
+Sherlock                         2F           F      Sliehough
+Sir Toby                          A           F      Bleethan
+Steve                 A     F     F     F     A      Dovesdar
+
+FOR                   1     2     6     2     5
+AGAINST               1     0     1     0     1
+Abstain               0     0     0     0     0
+Present               0     0     0     0     0
+
+Voting Index          1    *U*    6    *U*    5
+Adoption Index        1     1     2     1     2
+
+Voters                2     2     6     2     6
+Quorum (D:14/3)       3     3     5     3     5
+
+This is a Notice of Complacency for Proposals 4535, 4536, and 4538.
+
+H. Scorekeepor OscarMeyr, please note Points awards due to Rule 2055:
+
+      [P6] <none>
+      [P7] Murphy +5 (4537), Goethe +5 (4539)
+      [P8] Sir Toby +2 (4537), Steve +2 (4539)
+
+      [T1] <none>
+      [T2] Kinhatis -20 (4537), Kinhatis -20 (4539)
+      [T3] <none>
+
+Text of Adopted Proposals
+---------------------------------------------------------------------------
+
+Proposal 4537 by Murphy, AI=2, Democratic
+A Little Bribe Never Hurt Anyone
+
+
+Proposal:  A Little Bribe Never Hurt Anyone
+(AI=2, please)
+
+[Title inspired by Nomicron.]
+
+Create a new Rule titled "Legality of Bonus Clauses" with this text:
+
+         Advertising is a stuck proposal switch with values none, positive,
+         negative.
+
+         A player may pay 2 kudos to flip a proposal's advertising switch
+         from none to another value, or from another value to none.
+
+Upon the adoption of this proposal, the following Scoring Events are
+added to the Scorekeepor's Budget:
+
+         * If a player votes FOR a proposal with positive advertising, e
+           may be awarded 5 points.
+         * If a player votes AGAINST a proposal with negative advertising,
+           e may be awarded 5 points.
+         * If all the players on a team vote FOR a proposal with positive
+           advertising, the team may be awarded 10 team points.
+         * If all the players on a team vote AGAINST a proposal with
+           negative advertising, the team may be awarded 10 team points.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4539 by Goethe, AI=2, Democratic, Sane
+Remember Remember
+
+
+Proposal:  Remember Remember
+
+
+This is a Sane Proposal.
+
+
+Repeal Rule 2020 (Parliamentary Votes).
+
+
+Amend Rule 1933 (A Proposal's Chamber) by replacing the text:
+       Every Proposal shall be in (or have) exactly one defined Chamber
+       out of the following possibile Chambers:
+           (A) Ordinary;
+           (B) Democratic;
+           (C) Parliamentary.
+with:
+       Chamber is a stuck switch for Proposals with values Ordinary
+       and Democratic.
+
+
+Amend Rule 1950 (Voting Power) by removing the text:
+       (c) An entity's Voting Power on a Parliamentary Proposal is as
+           follows:
+             (1) One, if the entity is one of the following:
+                 (a)   The First Estate;
+                 (b)   The Second Estate;
+                 (c)   The Third Estate.
+             (2) Any other entity, zero.
+
+  and by removing the text:
+               (2) Votes on Parliamentary Proposals shall only be cast
+                   through specific mechanisms indicated by the Rules
+                   for each specific entity with Voting Power on
+                   Parliamentary Proposals.
+
+  and by replacing the text (d) with (c)
+  and by replacing the text (e) with (d)
+
+
+Enact the following Rule, "Guy Fawkes Day", with a Power of 2:
+
+       Any Proposal submitted on the Fifth of November shall become
+       upon delivery Distributable, Democratic, Urgent, and Sane,
+       rules to the contrary nonwithstanding.
+
+       If a Proposal so submitted is subsequently adopted, the
+       Assessor shall award the Proposer the Boon of A Penny.

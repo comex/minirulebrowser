@@ -1,0 +1,266 @@
+Voting Results
+
+This Report:  Tue 29 Mar 05 (Proposals 4654 - 4662)
+Last Report:  Tue 22 Mar 05 (Proposals 4645 - 4653)
+(All times are in GMT)
+
+Start of Voting Period:  Mon 21 Mar 01:11:52
+   End of Voting Period:  Mon 28 Mar 01:11:52
+
+O = Ordinary        d = Disinterested   s = Sane
+D = Democratic      u = Urgent          t = Takeover
+
+Number    Title                         Author    AI   Flags    Result
+-----------------------------------------------------------------------
+4654      Bye Bye Blob                  Quazie    2    D        Rejected
+4655      Slow Play Reporting           Kolja     1    Od       Adopted
+4656      Tiny spelling error fix       Quazie    2    Dd       Adopted
+4657      The University of Agora       Sherlock  1    O        Adopted
+4658      Some Things Are More Trou...  root      1    Od       Adopted
+4659      Fix CFJ Linkage               root      1    Od       Adopted
+4660      Look Ma, No Hand-Waving (...  root      2    D        Adopted
+4661      More cards                    Quazie    2    D        Rejected
+4662      More Awesomer than not        Quazie    2    D        Rejected
+
+(At the beginning of the week in which these proposals were distributed:
+   Maud's VPOP was 0
+   Manu's VPOP was 1
+   gazebo_dude's VPOP was 1
+so some of their votes were ineffective.  gazebo_dude's votes in
+parentheses may have also been ineffective, due to the "3xFOR" question
+that AFAIK *still* remains unsettled by CFJ or Proposal; the subsequent
+totals assume that e cast one effective vote on each proposal.)
+
+                4654  4655  4656  4657  4658  4659  4660  4661  4662
+
+Eris             F   P+3F    F     P    3A    3F     P     A     A
+gazebo_dude      F     A*    F     F*    P     F*    P     A     F
+Goethe           A     A     F     F     F     F     F     A     A
+Kolja            A           F                       P     A     A
+Manu             F     F     F     F     F     P    P+F    A     A
+Maud             A           F                       P     A     A
+OscarMeyr        F           F                       F     A     A
+Quazie           F     F     F     F     F     F     F     F     F
+RedKnight        A           F                       P     A     A
+Riail            A     F     F     F     F     F     F     A     A
+root             A           F                       F     P     A
+Sherlock         F           F                      P+F    F     A
+
+FOR              6     6    12     5     4     7     7     2     2
+AGAINST          6     2     0     0     3     0     0     9    10
+Abstain          0     0     0     0     0     0     0     0     0
+Present          0     1     0     1     1     1     7     1     0
+
+Voting Index     1     3    *U*   *U*    4/3  *U*   *U*   2/9    0.2
+Adoption Index   2     1     2     1     1     1     2     2     2
+
+Voters          12     6    12     6     6     6    12    12    12
+Quorum (D:14/3)  5     3     5     3     3     3     5     5     5
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4655 by Kolja, AI=1, Ordinary, Disinterested
+Slow Play Reporting
+
+
+Amend 1686 by replacing
+"Each officer with a Weekly Report must publish it weekly; each"
+with
+"Each officer with a Weekly Report must publish it weekly unless the
+content of the report would substantially be the same as in the
+previously published report. In this case, a report must only be
+published within one week of the next substantial change to the
+report's content. Each"
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4656 by Quazie, AI=2, Democratic, Disinterested
+Tiny spelling error fix
+
+
+Replace the following from R1841
+
+"seven says"
+
+with
+
+"seven days"
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4657 by Sherlock, AI=1, Ordinary
+The University of Agora
+
+
+[ V1.2 - Thanks to Quazie and root, again - there is now a check in
+          place against outrageous Research Grant awards and also a
+          guard against the same Card being checked out by different
+          Players.
+
+   V1.1 - Thanks to Quazie for suggestions and to root for a rewrite of
+          the Library rules.  The Library works more like a book store
+          now and should be effectively closed when Cards are frozen.
+          Players may still request Cards during this time, however.
+
+          I also rewrote some sections and renamed the Boons.
+
+   V1.0 - Components of this proposal:
+
+          - The University becomes a functioning Entity.
+          - The Speaker assumes a role as President of the University.
+          - The President may offer research grants to stimulate Agoran
+            growth.  These are purposefully vague; I could see them
+            ranging anywhere from "Write a proposal that cleans up typos
+            in the Ruleset" to "Assemble an Agora website".
+          - A monthly Book Club fosters public discussion of the rules.
+          - The Library acts as a public resource for Cards.
+
+          I envision the University as something that would grow over time.
+          The basic framework is provided in this proposal along with three
+          applications.  There are many more possibilities with this theme
+          and I would encourage expansion of the campus by other Players
+          if and when this passes.
+
+          Thanks to Maud for some new phrasing in the Book Club section. ]
+
+Rename the Rules Category "Degrees and Theses" to "The University of
+Agora".
+
+Create a rule entitled "The University of Agora":
+
+     The University is an Entity.
+
+     As President of the University, the Speaker is the sole Executor of
+     the University, but may take no action on behalf of The University
+     except as explicitly permitted by the Rules.
+
+     Education is a stuck Player switch with values Student and Faculty
+     Member.  The Herald shall flip the Education switch to Faculty
+     Member for a Player as soon as possible after that Player is awarded
+     a Degree.  The Herald is the recordkeepor of Education.
+
+Create a rule entitled "Research Grants":
+
+     The University offers Research Grants for projects that improve
+     the intellectual, cultural and social life of Agora.  The Speaker
+     may announce a Research Grant by publicly describing a task to be
+     performed and stating a number between one and five.
+
+     If another Player completes this task to the Speaker's satisfaction
+     within the next month, the Speaker shall award to that Player an
+     equal number of Boons of Achievement, without two objections.  No
+     more than one Player may receive this award.  If more than one Player
+     undertakes the task, the Speaker shall choose only one Player to
+     receive the award.
+
+Create a rule entitled "The University Book Club":
+
+     The University sponsors a monthly Book Club.  During the first week
+     of each month the first Player who publically specifies a rule as
+     that month's Book Club Selection becomes the Moderator for the
+     University Book Club.  The Assessor shall award one Boon of
+     Refinement apiece to the Moderator and Proposer for the first passed
+     proposal within the next thirty days that either amends or repeals
+     this Selection.
+
+Create a rule entitled "Gardner Library":
+
+     The University (hereafter the Library) is a Gambler.  Whenever the
+     Library has fewer than five Cards, the Deckmastor shall as soon as
+     possible deal randomly chosen Cards to the Library until it has
+     five cards.
+
+     A Player (hereafter the Borrower) may check out a specified Card
+     from the Library by paying a Fee for the Library's upkeep.  The
+     fee is 2 Kudos for Students and 1 Kudo for Faculty Members.  The
+     Card is considered reserved and may not be checked out by any
+     Player until it is dealt to the Library again by the Deckmastor.
+
+     As soon as possible after a Card is checked out from the Library
+     and it is within the Speaker's ability to do so, the Speaker shall
+     transfer the Card from the Library to the Borrower.
+
+All Players who Bear a Degree at the time of the passing of this Proposal
+immediately have their Education switches set to Faculty Member.
+
+The Deckmastor shall as soon as possible after the passing of this
+Proposal deal five randomly chosen cards to the Library.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4658 by root, AI=1, Ordinary, Disinterested
+Some Things Are More Trouble Than They're Worth
+
+
+Amend Rule 1483 by deleting the text that reads:
+
+      The delivery of text identical to another Proposal which was
+      Proposed less than three weeks previous does not create a
+      new Proposal unless accompanied by a clear and explicit
+      indication that the intent was to Propose a duplicate Proposal.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4659 by root, AI=1, Ordinary, Disinterested
+Fix CFJ Linkage
+
+
+[Linked CFJs become unlinked if the judge is automatically recused.
+  They shouldn't.]
+
+Amend Rule 2024 by replacing the text reading:
+
+       If a Trial Judge is recused from a Linked CFJ, then it ceases to
+       be Linked to any other CFJ.  If a Trial Judge is recused from
+       two or more Linked CFJs in a single message, then those CFJs
+       continue to be Linked to each other, but not to any other CFJs
+       to which the Judge is still assigned.
+
+with:
+
+       If a Trial Judge is recused from a Linked CFJ, then it ceases to
+       be Linked to any other CFJ.  If a Trial Judge is recused from
+       two or more Linked CFJs in a single message, or if a Trial Judge
+       is simultaneously and automatically recused from two or more
+       Linked CFJs, then those CFJs continue to be Linked to each other,
+       but not to any other CFJs to which the Judge is still assigned.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4660 by root, AI=2, Democratic
+Look Ma, No Hand-Waving (It's Invisibilitated)
+
+
+A new rule with power 2 shall be created, with the text:
+
+       Upon the creation of this rule, all unsatisfied requirements to
+       discard one or more cards that arose from from Rule 2075/1 or Rule
+       2083/0 prior to March 19, 2005 are hereby voided and are deemed to
+       have never existed.
+
+
+The same rule shall then be repealed.
+
+
+Rule 2074 shall be amended to read:
+
+       Flux is a stuck switch for Gamblers with states Free and Frozen.
+       Rules to the contrary notwithstanding, a Gambler with frozen
+       flux may not play, discard, or transfer cards from eir hand, nor
+       may the Deckmastor satisfy pending draws for that hand. However,
+       the Deckmastor may by public announcement discard cards from
+       any Frozen Gambler as required by the Rules.
+
+       The Deck's flux shall always be free, rules to the contrary
+       notwithstanding.

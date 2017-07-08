@@ -1,0 +1,477 @@
+Voting Results
+
+This report:  Sun  2 Oct 05 (4835 - 4839)
+Last report:  Sat  6 Aug 05 (4830 - 4834)
+(All times given in UTC)
+
+Start of voting period:  Mon 19 Sep 03:00:22
+   End of voting period:  Mon 26 Sep 03:00:22
+
+Proposal  Title                    Author(s)  F/A/P  VI/AI  Quorum  Result
+--------------------------------------------------------------------------
+4835 (D)  Move your ors            Goethe     6/0/0   U/1    6/5    Adopted
+4836 (D)  Speaker Reforms v2.0     Goethe     3/1/3   3/2    7/5    Adopted
+4837 (D)  Kudononsuch              Goethe     4/0/2   U/2    6/5    Adopted
+4838 (D)  New game in town         Goethe     5/0/1   U/1    6/5    Adopted
+4839 (D)  Odds and Ends            Goethe     5/0/1   U/1    6/5    Adopted
+
+                4835  4836  4837  4838  4839
+
+Eris             F     P     P     F     F
+Goethe           F     F     F     F     F
+Manu             F     F     F     F     F
+Maud             F     P     F     F     F
+Murphy           F     P     P     P     P
+root             F     F     F     F     F
+Quazie                 A
+
+FOR              6     3     4     5     5
+AGAINST          0     1     0     0     0
+PRESENT          0     3     2     1     1
+
+Voting Index    *U*    3    *U*   *U*   *U*
+Adoption Index   1     2     2     1     1
+
+Voters           6     7     6     6     6
+Quorum           5     5     5     5     5
+
+Text of Adopted Proposals
+-------------------------
+
+Proposal 4835 by Goethe, AI=1, Democratic
+Move your ors
+
+
+Proposal: Move your ors
+
+Amend Rule 698 by replacing:
+                        A player who is inactive, unready, or is
+           ineligible to judge CFJs.
+with:
+                        A player who is inactive or unready is
+           ineligible to judge CFJs.
+
+and by replacing:
+           (1) all ready, active, non-barred, players become
+with:
+           (1) all ready, active, non-barred players become
+
+and by replacing:
+               ready, active, barred, players, other than
+with:
+               ready, active, barred players, other than
+
+and by replacing:
+               active, players, other than the caller
+with:
+               active players, other than the caller
+
+
+----------------------------------------------------------------------
+
+
+Proposal 4836 by Goethe, AI=2, Democratic
+Speaker Reforms v2.0
+
+
+Speaker Reforms v2.0
+by Goethe and Maud
+
+[
+v2.0 1. adds many wording changes suggested by Maud.
+      2. removes chamber fees in anticipation of removing fees.
+      3. added Speaker's RUBBERSTAMP to lower quorum on ordinary
+         proposals (fun!)
+
+v1.0 rearranges a little, adds debate-o-matic back to the deck.
+
+v0.1
+1.  Tidies up chambers.  Makes Ordinary the default again.  Gives
+     Speaker ability to flip chambers for free.
+2.  New Veto, operating through quorum failure.
+3.  Agoran Decisions allow Conclaves to be simplified a bit.
+4.  The Asenion solution may be broken if there's already a Pope at
+     the time of a win.  This fixes that (and condenses Church and
+     State a little).
+5.  Tainting is removed.
+]
+
+Amend Rule 1933 (A Proposal's Chamber) to read:
+
+       Chamber is a stuck proposal switch with values ordinary and
+       democratic.  The default chamber for a proposal with an adoption
+       index of at least 2 is democratic.
+
+       An ordinary proposal with an adoption index of two or greater is
+       stalled.  Rules to the contrary notwithstanding, a stalled
+       proposal is undistributable, and if a proposal is distributed
+       that was stalled at the time of distribution, its chamber shall
+       immediately and automatically be set to democratic.
+
+
+Amend Rule 2019 (The Speaker's Veto) to read:
+
+       The Speaker may veto an Ordinary Proposal in its voting period
+       by announcement.  Whenever a proposal is vetoed, its quorum is
+       set to the current number of eligible voters on that proposal
+       plus one, other rules governing quorum notwithstanding.
+
+       As soon as possible after a vetoed proposal fails quorum, the
+       Assessor shall a copy of that proposal to the Proposal Pool.
+       When e does so, that copy shall become distributable and
+       democratic, and its adoption index shall be increased by one.
+
+       The Speaker may Rubberstamp an Ordinary Proposal in its voting
+       period by announcement.  Quorum for a rubberstamped ordinary
+       proposal is three, other rules governing quorum nonwithstanding.
+
+
+Amend Rule 402 (Church and State) to read:
+
+       A cardinal is an active, ready player who is neither the current
+       Speaker nor the Associate Director of Personnel.
+
+       When a cardinal becomes a pope, any previous pope immediately
+       ceases being a pope.  Whenever a pope is not a cardinal, e
+       immediately ceases being a pope.
+
+       For seven days after a cardinal wins the game with no other
+       players simultaneously winning, that cardinal may announce that
+       e becomes a pope.  Upon this announcement, that player becomes a
+       pope, so please treat em right good forever.
+
+       A notice of papal succession is a notice published by the
+       Associate Director of Personnel, that declares that a specified
+       player is a pope, and is valid if the named player is indeed a
+       pope.  Upon publication of a valid notice of papal succession,
+       the current Speaker ceases to be Speaker, the pope becomes the
+       new Speaker, and the pope ceases to be a pope.
+
+
+Amend Rule 786 (Default Procedure for Conclaves) to read:
+
+       When the rules require that a conclave be convened and no
+       competing conclave is currently convened, then as soon as
+       possible, the Associate Director of Personnel (ADoP) shall
+       convene a conclave by announcement, specifying the collection of
+       qualified cardinals.  A cardinal is qualified for a conclave
+       unless the rules specify otherwise.
+
+       The announcement is ineffective if the ADoP is not required to
+       convene a conclave or eir announcement does not list all and
+       only the cardinals qualified for that conclave.  However, if
+       errors are not announced until after 7 days after the conclave
+       concludes, the results shall stand.
+
+       The convening of a conclave initiates an Agoran Decision to
+       determine the Pope, a decision in which quorum is zero, the
+       voting period is 7 days, all Players are eligible voters, all
+       qualified cardinals are valid options as long as they remain
+       qualified cardinals, and the ADoP has the privilege of resolving
+       ties as for elections.
+
+       The ADoP's announcement of the cardinal chosen by Agora makes
+       that cardinal the pope and concludes the conclave.
+
+       If no cardinal may be legally chosen by Agora, the ADoP shall so
+       announce, and the conclave concludes as a cliffhanger.  If a
+       conclave has not concluded within a fortnight from the time it
+       was convened, any player may announce that it is inconclusive
+       and thus conclude it as a cliffhanger.  When an conclave
+       concludes as a cliffhanger, this canon calls for a consecutive
+       conclave to be convened to calculate the correct cardinal.
+
+       If the office of ADoP is ever vacant, or the identity of its
+       holder cannot be determined with reasonable certainty, then the
+       first player who announces that e convenes a conclave, with eir
+       announcement adhering to the conditions for the ADoP's
+       announcement, shall then be permitted and required to perform
+       the actions that would have been required of the ADoP for that
+       conclave.
+
+Amend Rule 1791 by removing the phrase "who is not Tainted"
+Amend Rule 1661 by removing the phrase "who is not Tainted"
+
+Repeal Rule 1647 (The Asenion Solution)
+Repeal Rule 1658 (The Speaker we do Taint)
+
+Add the following card definition to the Twopower Cardbook:
+
+       * Caption:    Debate-o-Matic
+         Frequency:  Common
+         Elements:   None
+         Exploit: Indicate an undistributed proposal and a legal
+         chamber for that proposal.  The chamber of the indicated
+         proposal is set to the indicated chamber.
+
+The quota for Debate-o-Matic is hereby set to 10.
+
+
+----------------------------------------------------------------------
+
+
+Proposal 4837 by Goethe, AI=2, Democratic
+Kudononsuch
+
+
+Proposal: Kudononsuch
+
+Amend Rule 2069 by removing the following text:
+
+       (e) A nonsite gambler whose hand size is smaller than the
+           maximum hand size, plus the number of offices e holds, may
+           draw a card for a fee equal to the number of times during
+           the current month e has previously drawn a card in this
+           manner.
+
+       (f) When a gambler draws a card, e gains a pending draw.  As
+           soon as possible afterward, the Deckmastor shall deal a card
+           to that gambler.  When e does so, the draw is no longer
+           pending.
+
+and by replacing:
+
+                             A gambler's hand size is the size of this
+           collection, plus one for each pending draw for that gambler.
+
+with:
+
+                             A gambler's hand size is the size of this
+           collection, plus one for each free pending draw for that
+           gambler.
+
+
+Create the following Rule, entitled "Satisfying draws":
+
+       When a gambler draws a card as specified by the Rules, e gains a
+       Pending Draw.
+
+       Encumbrance is a stuck switch for pending draws, with values
+       Free and Heavy.  Drawing a [Encumbrance value] card is a synonym
+       for gaining a pending draw with the indicated encumbrance.
+
+       As soon as possible after a gambler draws a card, the Deckmastor
+       shall satisfy the draw by dealing a card to the gambler with the
+       pending draw, but only if the draw is Satisfiable.  A draw is
+       satisfiable unless defined otherwise.
+
+       A heavy pending draw is not satisfiable as long as the gambler
+       with the draw has a hand size equal to or greater than eir
+       defined maximum hand size.  If a gambler has both heavy and free
+       pending draws, the Deckmastor must satisfy all satisfiable heavy
+       draws before satisfying any free draws for that gambler.
+
+       If the Rules state that a gambler loses a pending draw, than
+       that draw is considered satisfied without the dealing of a card,
+       whether or not it is satisfiable.  E shall first lose all free
+       draws before losing any heavy draws.  If e has no draws, the
+       Deckmastor shall discard a random card from that gambler's hand.
+       If e has no cards, then the deckmastor shall satisfy the next
+       pending draw e gains without dealing a card.
+
+       A satisfied draw is no longer pending.
+
+
+Amend Rule 2080 (Cards for Proposals) by renaming it "Basic Draws" and
+amending it to read:
+
+       The maximum hand size for a Player is defined as the maximum
+       hand size in the Deckmastor's Budget plus the number of Offices
+       (including the Speakership) that the Player holds.
+
+       Any Player may draw up to three heavy cards in a single month by
+       announcement.  If a Player draws a card without specifying the
+       explicit circumstances allowing the draw, it shall be considered
+       an attempt to draw one of these heavy cards.
+
+       Any Player may draw one free card in a single month, by noting
+       it is eir free draw for the month.
+
+       Any Player may draw one heavy card for each Proposal e proposes
+       that is adopted, by noting the Proposal's number.
+
+
+AMEND RULE 2049 (Ephemera) to read:
+
+       Players may be permitted or required by the Rules to grant Boons
+       or Albatrosses to other Players.  If so, these awards are
+       performed by public announcement.  The Herald shall note the
+       granting of all such awards.
+
+       A Player who gains a Boon is considered to have drawn a free
+       card for that boon.  A Player who gains an Albatross loses a
+       pending draw.
+
+
+AMEND RULE 2089 (Gardner Library) by replacing:
+
+       A player (hereafter the Borrower) may check out a specified card
+       from the Library by paying a Fee for the Library's upkeep.  The
+       fee is 2 Kudos for Students and 1 Kudo for Faculty Members.  The
+       card is reserved and may not be checked out by any player until
+       it is dealt to the Library again by the Deckmastor.
+
+with:
+
+       A player (hereafter the Borrower) may check out a specified card
+       from the Library by announcement, which must satisfy a number of
+       satisfiable pending draws that e, in fact, possesses.  The
+       number is 2 pending draws for Students and 1 pending draw for
+       Faculty Members.  The card is reserved and may not be checked
+       out by any player until it is dealt to the Library again by the
+       Deckmastor.
+
+
+Amend Rule 2075 (Winning Hands) by replacing:
+
+       Exactly one week after a true announcement, the Flux of all
+       Gamblers except the Deck shall become frozen.
+
+with:
+
+       Exactly one week after a true announcement, the Flux of all
+       Gamblers except the Deck shall become frozen, and all heavy
+       pending draws shall be deemed satisfied.
+
+REPEAL RULE 2051 (Tabla Rasa)
+REPEAL RULE 2096 (Ephemeral Time Limits)
+REPEAL RULE 2047 (Kudos)
+REPEAL RULE 2048 (Enlightenment)
+REPEAL RULE 1941 (Fees)
+REPEAL RULE 2018 (Expunging Blots)
+
+[Kudo card deletions in upcoming proposal]
+
+
+----------------------------------------------------------------------
+
+
+Proposal 4838 by Goethe, AI=1, Democratic
+New game in town
+
+
+Proposal:  New game in town
+
+Amend Rule 2114 (Card Definitions) by replacing:
+
+               and can define an Element by specifying its name and
+       description.  Neither classes of cards nor Elements may be
+       otherwise defined.
+
+with:
+
+               and can define an Element or Scoring Instruction by
+       specifying its name and description.  Neither classes of cards
+       Elements, nor Scoring Instructions may be otherwise defined.
+
+
+Amend Rule 2075 (Winning Hands) by replacing:
+
+       The Deckmastor's Budget shall contain between one and five
+       Winning Hands, each of which is a list of cards with a hand size
+       at least two greater than the Maximum Hand Size.
+
+       If a Gambler's Hand is identical to a winning hand at any
+       particular moment, any Gambler has 72 hours from that moment to
+       announce that a Gambler holds or has held a winning hand.
+
+with:
+
+       The Scoring Instructions contained in cardbooks, interpreted
+       collectively, may define a nonsite gambler as holding a winning
+       hand at a particular moment.  If so, any Gambler has 72 hours
+       from that moment to announce that a Gambler holds or has held a
+       winning hand.
+
+
+Amend Rule 2104 (Contreras Card Labs) by appending the following text:
+
+       Any Player may add, delete, or amend a Scoring Instruction in
+       the Blueprints Cardbook, with M support and without N
+       Objections, where M is greater than or equal to N at the time
+       the change is performed, and N is at least 1.
+
+
+Add the following Scoring instructions to the Onepower Cardbook, with
+each numbered item being a seperate instruction:
+
+       0.  Each scoring instructions shall be indexed with a unique
+       integer, which if unspecified will be one greater than the
+       highest index at the time of its creation.  The score of each
+       hand is a complex number, which is 0 if otherwise undefined.
+
+       1.  The score of hands will be calculated by applying the lowest
+       indexed instruction to every hand simultaneously, followed by
+       the next highest instruction and so forth until all instructions
+       have been applied.
+
+       9999.  A winning hand has a score magnitude greater than 250 and
+       greater than the score magnitude of any other nonsite gambler's
+       hand.
+
+
+Add the following Scoring Instruction to the Blueprints cardbook:
+
+       10.  A single card adds N to the score of its hand, where N is
+       determined by the first letter of its caption, with 'A' worth 1,
+       'B' worth 2, [...], 'Z' worth 26.
+
+
+----------------------------------------------------------------------
+
+
+Proposal 4839 by Goethe, AI=1, Democratic
+Odds and Ends
+
+
+Proposal:  Odds and Ends
+
+[Just a couple odds and ends].
+
+
+Repeal Rule 1989 (Prime Executors).
+    [Holdover from economics days really, other rules specify who
+     is responsible for what without this].
+
+
+Amend Rule 1727 (Happy Birthday) by replacing:
+
+       BE IT THEREFORE RESOLVED that Agora's Birthday is defined to be
+       the entire day of June 30, GMT +1200, of each year;
+
+       BE IT FURTHER RESOLVED that, as soon as possible after the end
+       of Agora's Birthday, the Herald shall award the boon of
+       celebration to each Player who, during Agora's Birthday,
+       publicly recognized Agora's Birthday;
+
+       BE IT FURTHER RESOLVED that the Herald may select one Contract,
+       in existence on Agora's Birthday, which has as its purpose
+       encouraging the celebration of Agora's Birthday.  Within the
+       month following Agora's Birthday, that Contract may award its
+       Members the Patent Title Nth Anniversary Ribbon, where N is the
+       number of years of Agora's existence;
+
+       BE IT FURTHER RESOLVED that the Courts shall be closed on
+       Agora's Birthday; that is, the Clerk of the Courts shall not
+       publish any Calls For Judgement, Judgements, notices of Appeals,
+       Decisions of Appeals Boards, or Opinions, on Agora's Birthday;
+       nor shall any Player submit to the Clerk of the Courts a Call
+       For Judgement, notice of ineligibility to Judge, Judgement, call
+       for Appeal, or Appellate Decision, on Agora's Birthday; nor
+       shall any Player submit an Application to Submit an Opinion on
+       Agora's Birthday; however, if any of the above do take place on
+       Agora's Birthday, in violation of this Rule, this Rule does not
+       deprive them of their usual effects.
+
+with:
+
+       BE IT THEREFORE RESOLVED that Agora's Birthday is defined to be
+       the entire day of June 30, GMT +1200, of each year, and as soon
+       as possible after the end of Agora's Birthday, the Herald shall
+       award the boon of celebration to each Player who, during Agora's
+       Birthday, publicly recognizes this Grand Event.
+
+
+[Why bother to close the courts for a day?  And also, that contest
+hasn't been used since it was created.  The best part of the birthday
+is just saying happy birthday!]

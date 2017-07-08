@@ -1,0 +1,555 @@
+From emurphy42@socal.rr.com Tue Oct  2 22:36:07 2001
+Date: Sat, 29 Sep 2001 15:37:29 -0700
+From: Ed Murphy <emurphy42@socal.rr.com>
+Reply-To: agora-discussion@agoranomic.org
+To: Agora Business <agora-business@agoranomic.org>
+Subject: BUS: Agoran Weekly Journal
+
+     THE AGORAN WEEKLY JOURNAL
+     VOLUME 48, ISSUE 12
+     Saturday, September 29, 2001
+
+
+#19:  SATISFACTION IS NOT GUARANTEED
+------------------------------------
+
+Andre   - Stare Decisis       www.win.tue.nl/~engels/stare.txt
+harvel  - THE END IS NI       tarski.2y.net/~harvel/
+Elysion - Field of Dreams     www.msu.edu/~boehmejo/agora.html
+Goethe  - Land of Arcadia     faculty.washington.edu/kerim/agora/map
+Lindrum - The AgorEx          www.panix.com/~lindrum/agorex/
+Michael - First Speaker       www.cl.cam.ac.uk/users/mn200/games/nomic/yoyo/
+Murphy  - Garden Nomic II     groups.yahoo.com/group/garden-nomic/
+pTang   - Bribe Tokens        marknau.editthispage.com/stories/storyReader$44
+t       - AWJ Archive         www.iki.fi/scurra/agora.html
+Taral   - Web Judiciary       cotc.taral.net:8888/
+Wes     - Web Judiciary       www.netgecko.com/cotc/
+
+
+ADOPTED PROPOSALS
+-----------------
+
+"Building Arcadian Cities" by Syllepsis - Proposal 4217 adopted 9/29
+  Two units of Land are Connected by a Type (Subtype) if one can travel between
+    them by going through only Land of that Type (Subtype).
+  A Player who owns eir Location may spend 5 Movement Points and a Fee
+    (measured as a multiple of the Basic Officer Salary) to change it:
+
+    From                    To                  Fee
+    -------------------     --------            ---
+    Wilderness/Forest       Farmland            0.10
+    Wilderness/Desert       Farmland            0.25
+    Wilderness/Mountain     Farmland            1.00
+    Farmland                Urbana/Road         0.10
+    Farmland                Urbana/Aqueduct     0.25
+    Farmland                Urbana/City         1.00 *
+
+  * Requires:
+    a) No units of City within Penguin Distance of 3.
+    b) Connected to Water by Aqueduct.
+    c) At least 8 units of Farmland within Penguin Distance of 2.
+    d) Player must give it a unique name.
+
+  Changes take effect at beginning of next week.
+  (0,0) is always the Bank-owned City of Tripolis.
+  If b) or c) ceases to be true of a City (other than Tripolis), then it
+    becomes a Road.
+
+"Burn Down the Winderness" by neil - Proposal 4215 adopted 9/29
+  Amend Rule 2003 by replacing "Winderness" with "Wilderness".
+
+"Land Auctions and Tolls" by neil - Proposal 4210 adopted 9/11
+  While less than half the Land in Arcadia is Player-owned, the Mapkeepor shall
+    Auction 10 units of non-Aether Land each month (or all of them, if there
+    are less than 10).  This is a Vickrey Auction, with Bids in Indulgences.
+  A Player may pay 0.2 Indulgences to add a Toll to a unit of eir Land.  The
+    amount of the Toll is specified by the Player; it is in exactly one of
+    (VEs, Indulgences, Papyri) and is at most 200 times the MUQ.  Any other
+    Player who moves there owes this Toll to the owner.
+  The Mapkeepor commits the Class 3 Crime of Conspiracy to Commit Highway
+    Robbery if e incorrectly confirms a Toll, or the Class 3 Crime of Not
+    Feeding the Toll Under the Bridge if e incorrectly denies a Toll.
+  A Player may remove a Toll from a unit of eir Land, and eir Toll is
+    automatically removed if e ceases to own the Land.
+  The Location (0,0) shall be transferred to the Bank.
+
+"Make The CotC's Life Easier" by Taral - Proposal 4213 adopted 9/29
+  Ineligiblity to be a Justice is based on ineligibility to be a Judge at the
+    time the Board of Appeal is formed, not the time the CFJ was called.
+
+"None Of You Zombies..." by harvel - Proposal 4211 adopted 9/11
+  Zombies are repealed.
+  Silence causes deregistration.
+  Zombie Auctions are replaced by Auctioning the right to Loot the Corpse of
+    the Dissolute.  The winner (if any) has one week to do so (and may loot
+    Stems); any remaining Property shall be transferred to the Bank.
+
+REJECTED PROPOSALS
+------------------
+
+"Breaking the Law" by neil - Proposal 4212 (opposite of Proposal 4209) rejected
+    9/11
+  A Player is doubly penalized for violating the Rule corresponding to eir
+    Location in Arcadia, or committing a Crime or Infraction defined by that
+    Rule.
+
+"Fluidify VEs" by Syllepsis - Proposal 4214 rejected 9/29
+  A Player Activates a Voting Entitlement by transferring it to the Bank and
+    stating that e does so.
+  Voting Power on Democratic Proposals is increased by Voting Entitlements
+    activated during the current month.
+  If there would otherwise be no VE Auction in a month, the Assessor may
+    Auction up to half the Bank's net VE gain from transfers that month.
+  The Bank shall mint 82.2 VEs.
+  All Rule 1946 debts prior to July 2001 are forgiven.
+  All other VE holdings and debts are tripled.
+
+"Multiple Mintors" by Syllepsis - Proposal 4216 rejected 9/29
+  A Currency may have multiple Mintors.
+  The Recordkeepor of a Currency may name a new Mintor (with consent) or revoke
+    Mintorship.
+
+"Upholding the Law" by neil - Proposal 4209 rejected 9/11
+  A Player is half penalized for violating the Rule corresponding to eir
+    Location in Arcadia, or committing a Crime or Infraction defined by that
+    Rule.
+
+"The Nobility" by Syllepsis - Proposal 4218 rejected 9/29
+  A non-Oligarch's Voting Power on Ordinary Proposals equals the number of
+    Cities e owns that are connected by Road to Tripolis.
+  A Low Oligarch's VPOP is 1/10 the number of Cities (minimum 1).
+  A Medium Oligarch's VPOP is 2/10 the number of Cities (minimum 2).
+  A High Oligarch's VPOP is 3/10 the number of Cities (minimum 3).
+
+PENDING PROPOSALS
+-----------------
+
+"Don't Talk About Zombies" by harvel
+  Remove dangling Zombie references from Rules 1963 and 1936.
+
+"Fix Multiple Mintors Proposal" by Syllepsis - Proposal 4219
+  Amend Rule 1579 as intended by Proposal 4216 (Multiple Mintors), which
+    incorrectly specified Rule 1597 (which does not exist).
+
+"Free Fees just for Visiting" by Goethe
+  If a Rule defines an action with a Fee, then a Player who is at that the
+    Location corresponding to that Rule (and says so when e performs the
+    action) may perform the action without paying the Fee.
+
+"Perhaps it is Somewhat More Civilized" by Syllepsis
+  All current Dissolutes become subject to Looting Auctions.
+
+"The Bank Should Not Be Under The Control Of The Oligarchy" by t
+  Rule 1470 (The Bank) has its Adoption Index increased from 1 to 2.
+
+
+PROTO-PROPOSALS
+---------------
+
+
+CALLS FOR JUDGEMENT
+-------------------
+
+CFJ 1316  "Zombies may not be Players."
+[FALSE]   8/16     Called by neil
+          8/16     Assigned to root, who Judges TRUE
+          8/22-23  Appealed by Murphy, Steve, root, and Crito
+          8/26     Appeal assigned to Taral, Peekee, and Murphy
+          9/6      Taral, Peekee, and Murphy recused from Board of Appeals
+          9/6      Appeal reassigned to Crito, Oerjan, and solublefish
+          9/10     Oerjan moves to overturn and reverse
+          9/11     Crito moves to overturn and reverse
+          9/11     solublefish moves to overturn and reverse
+          Caller's argument (summary):  Players have duties (obeying the Rules,
+            from Rule 101) and so Rule 1755 prevents a Zombie from being one.
+            While Rule 1042 states that Silent Players become Zombies, it does
+            not state that they remain Players afterward.  Zombies are
+            Property, Players are individuals, international law prohibits
+            slavery, and it is in the best interest of the game not to violate
+            international law.
+          Counterargument:  Rules 1976, 1885, 1886, 1755 itself, 1992, 1555,
+            1963, 1936, and 559 all clearly intend that Zombies remain Players,
+            and cease being Zombies if they cease being Players.  Rule 1042
+            explicitly contains the clause "the Zombie is a Player", though it
+            is embedded within another clause.  "Property" does not have its
+            natural language meaning in Agora, and Zombies may escape their
+            Property-ness at any time by becoming Noisy, so anti-slavery law
+            does not apply.
+
+CFJ 1318 "Rule 1470 explicitly permits all transfers of Property from the
+[TRUE]    Bank, and therefore no transfer of Property from the Bank is
+          unauthorized for the purpose of Rule 1981."
+         9/12     Called by Murphy
+         9/12-18  Assigned to solublefish, who Judges TRUE
+         Caller's argument (summary):  Rule 1470 says "The Bank is permitted to
+           transfer Property in its possession to other entities."
+
+CFJ 1319 "There exist no entity known as Steve's Bond Scam Contest."
+[TRUE]   9/12     Called by neil
+         9/12-19  Assigned to Lindrum, who Judges TRUE
+         Caller's argument (summary):  Steve's Bond Scam Contest was dissolved
+           and nothing has caused it to continue to exist.
+
+CFJ 1320 "There do not exist any Bonds issued by Steve's Bond Scam Contest."
+[FALSE]  9/12     Called by neil
+         9/12-17  Assigned to Crito, who Judges FALSE
+         Caller's argument (summary):  Steve's Bond Scam Contest (if it exists
+           at all) is neither a Player nor an entity with an Executor, so Bonds
+           issued by it no longer satisfy Rule 1966 (a).
+         Judge's refutation (summary):  Rule 1966 (a) need only hold when the
+           Bond is issued.
+
+CFJ 1321 "There do not exist any Bonds issued by David."
+[TRUE]   9/12     Called by neil
+         9/12-15  Assigned to Peekee, who Judges TRUE
+         9/15-19  Appealed by harvel, Crito, and Goethe
+         9/19     Appeal assigned to Syllepsis, Oerjan, and Steve
+         9/19     Oerjan moves to sustain
+         9/25     Steve moves to overturn and reassign
+         9/25     solublefish moves to sustain
+         Caller's argument (summary):  David is neither a Player nor an entity
+           with an Executor, so Bonds issued by em no longer satisfy Rule 1966
+           (a).
+
+CFJ 1322 "The Player, former Player, or Dissolute Blob has at least one Blot."
+[FALSE]  9/19     Called by Goethe
+         9/19-20  Assigned to Oerjan, who Judges FALSE
+         Caller's argument (summary):  A Sentencing Order ordered the Herald to
+           record that Blob incurred Blots.  Blob was a Zombie Player at the
+           time, but ceased to be a Player before the Herald obeyed the Order.
+         Judge's refutation (summary):  Rule 1435 says that only Players have
+           Blots, and takes precedence over Rules attempting to say otherwise.
+
+
+OFFICES
+-------
+
+9/6   neil is Elected Promotor.
+
+      No Nominees for Speaker-Elect.  Nominations open in a new Election.
+
+      solublefish Nominates for Speaker-Elect.
+
+9/15  solublefish is Elected Speaker-Elect.
+
+      Nominations begin for Assistant Director of Personnel, Grand Warden of
+        the Oligarchy, Registrar, Rulekeepor, and Treasuror.
+
+      neil Nominates for Assistant Director of Personnel and Grand Warden of
+        the Oligarchy.
+
+9/17  Michael Nominates for Rulekeepor.
+
+      t Nominates for Assistant Director of Personnel, Grand Warden of the
+        Oligarchy, and Registrar.
+
+      solublefish Nominates for Registrar and Rulekeepor.
+
+9/21  Goethe Nominates for Grand Warden of the Oligarchy and Treasuror.
+
+9/23  Voting begins for Assistant Director of Personnel.  Candidates are neil,
+        Syllepsis (private Nomination), and t.
+
+      Voting begins for Grand Warden of the Oligarchy.  Candidates are Goethe,
+        neil, and t.
+
+      Voting begins for Registrar.  Candidates are solublefish and t.
+
+      Voting begins for Rulekeepor.  Candidates are Michael and solublefish.
+
+      Goethe (private Nomination) is Elected Treasuror with a proto-Budget
+        identical to the current Budget.
+
+      Syllepsis Stands Down in the Election for Assistant Director of
+        Personnel.
+
+9/25  solublefish Stands Down in the Election for Rulekeepor.  Michael is
+        Elected Rulekeepor.
+
+
+OLIGARCHS
+---------
+
+9/18  High Oligarch Michael is rotated out.  Auction begins for one position.
+
+9/24  Oligarch Auction ends.  Goethe pays eir winning bid of 5 Stems and
+        becomes a Low Oligarch.
+
+9/25  Abnormal distribution of Oligarchy announced.  Low Oligarchs have three
+        days to choose Middle Oligarch harvel or root for promotion to High
+        Oligarch.  neil chooses harvel.  solublefish, Murphy, and Goethe choose
+        root.  root is promoted.
+
+      Continued abnormal distribution of Oligarchy announced.  High Oligarch
+        root has three days to choose Low Oligarch neil, Murphy, solublefish,
+        or Goethe for promotion to Middle Oligarch.
+
+9/26  root selects Murphy for promotion.  Murphy is promoted.
+
+Auction for one position
+----------
+50 Goethe - cancelled
+ 5 Goethe
+
+
+PROPERTY AUCTIONS
+-----------------
+
+9/10  Indulgence Auction ends.  Steve wins 2 and David wins 2, at 50 Stems
+        each.
+
+9/12  Vickrey Auction begins for each of the following units of Land:
+
+(  2, -11) [Farmland]
+(- 4, -12) [Farmland]
+(- 8, - 5) [Farmland]
+(  6,   9) [Farmland]
+(  0, - 1) [Urbana/Road]
+(- 1,   0) [Urbana/Road]
+(  0, - 2) [Water]
+(- 2, - 1) [Wilderness/Forest]
+(- 2,   0) [Wilderness/Desert]
+(- 2,   1) [Wilderness/Forest]
+
+      Starting Bid in each Auction is 0.001 Indulgence.
+
+9/19  Auction begins for 15 Papyri.
+
+9/20  Land Auctions end.
+
+(  2, -11) [Farmland]          won by Taral  for 0.01 Indulgences
+(- 4, -12) [Farmland]          won by Taral  for 0.01 Indulgences
+(- 8, - 5) [Farmland]          won by Taral  for 0.01 Indulgences
+(  6,   9) [Farmland]          won by Taral  for 0.05 Indulgences
+(  0, - 1) [Urbana/Road]       won by Taral  for 0.02 Indulgences
+(- 1,   0) [Urbana/Road]       won by Taral  for 0.02 Indulgences
+(  0, - 2) [Water]             won by Murphy for 0.01 Indulgences
+(- 2, - 1) [Wilderness/Forest] won by Goethe for 0.01 Indulgences
+(- 2,   0) [Wilderness/Desert] won by Goethe for 0.01 Indulgences
+(- 2,   1) [Wilderness/Forest] won by Goethe for 0.01 Indulgences
+
+9/24  Auction ends for 15 Papyri.  Syllepsis wins 10, harvel wins 3, and Oerjan
+        wins 2, at 37 Stems each.
+
+Auction for 15 Papyri
+----------
+196 Syllepsis
+196 Syllepsis
+130 Syllepsis
+ 98 Syllepsis
+ 78 Syllepsis
+ 75 Oerjan
+ 65 Syllepsis
+ 56 Syllepsis
+ 50 harvel
+ 50 harvel
+ 50 harvel
+ 49 Syllepsis
+ 43 Syllepsis
+ 39 Syllepsis
+ 37 Oerjan
+ 35 Syllepsis
+ 32 Syllepsis
+ 30 Syllepsis
+ 28 Syllepsis
+ 26 Syllepsis
+ 25 Oerjan
+ 18 Oerjan
+ 15 Oerjan
+ 12 Oerjan
+ 10 Oerjan
+  9 Oerjan
+  8 Oerjan
+  7 Oerjan
+  6 Oerjan
+  6 Oerjan
+  5 Oerjan
+  5 Oerjan
+  5 Oerjan
+
+Auction for (  2, -11) [Farmland]
+----------
+0.100 Taral (private)
+0.010 Goethe (private)
+0.010 solublefish (private)
+0.010 Syllepsis (private)
+0.001 root
+
+Auction for (- 4, -12) [Farmland]
+----------
+0.100 Taral (private)
+0.010 Goethe (private)
+0.010 solublefish (private)
+0.010 Syllepsis (private)
+0.001 root
+
+Auction for (- 8, - 5) [Farmland]
+----------
+0.100 Taral (private)
+0.010 Goethe (private)
+0.010 solublefish (private)
+0.010 Syllepsis (private)
+0.001 root
+
+Auction for (  6,   9) [Farmland]
+----------
+0.100 Taral (private)
+0.050 root
+0.010 Goethe (private)
+0.010 solublefish (private)
+0.010 Syllepsis (private)
+0.001 root
+
+Auction for (  0, - 1) [Urbana/Road]
+----------
+0.100 Taral (private)
+0.020 Syllepsis (private)
+0.010 Goethe (private)
+0.010 solublefish (private)
+0.001 root
+
+Auction for (- 1,   0) [Urbana/Road]
+----------
+0.100 Taral (private)
+0.020 Syllepsis (private)
+0.010 Goethe (private)
+0.010 solublefish (private)
+0.001 root
+
+Auction for (  0, - 2) [Water]
+----------
+0.145 Murphy
+0.010 Goethe (private)
+0.010 solublefish (private)
+0.001 root
+
+Auction for (- 2, - 1) [Wilderness/Forest]
+----------
+0.010 Goethe (private)
+0.010 solublefish (private)
+0.001 root
+
+Auction for (- 2,   0) [Wilderness/Desert]
+----------
+0.010 Goethe (private)
+0.010 solublefish (private)
+0.001 root
+
+Auction for (- 2,   1) [Wilderness/Forest]
+----------
+0.010 Goethe (private)
+0.010 solublefish (private)
+0.001 root
+
+Auction for 4 Indulgences
+----------
+51 Steve
+51 Steve
+50 David
+50 David
+50 David
+50 David
+ 1 David
+ 1 David
+ 1 David
+ 1 David
+
+
+IN OTHER NEWS
+-------------
+
+9/6   Wes deregisters.
+
+      Steve becomes an Acolyte.
+
+9/7   Speaker Syllepsis awards Patronage to Michael for eir archives.
+
+      David submits a Will:  Use Stems to redeem outstanding Bonds, transfer
+        rest to Syllepsis.
+
+9/12  Notary Syllepsis attempts (Without Objection) to transfer all ex-Zombie
+        Property to the Bank.  Taral Objects.
+
+      Treasuror Murphy attempts (Without Objection) to mint 10 Papyri.
+
+9/13  Taral becomes an Acolyte.
+
+9/18  Treasuror Murphy mints 10 Papyri.
+
+9/20  Oerjan makes emself ineligible to Judge CFJs.
+
+      Blaise registers.
+
+9/23  Razl goes On Hold.
+
+      Taral leaves Ungroup.
+
+9/24  Goethe becomes a Blue Yeek.
+
+      Goethe creates a new Contest, the Agoran Commodities Exchange of
+        Supplemental Potato Ad-hoc Deployment, Energizing and Serving
+        (ACE of SPADES).
+
+
+TRADE OFFERS
+------------
+
+Ongoing offers:
+
+Player    Date     Will sell           In return for
+-----------------------------------------------------------------------
+AgorEx    3/28/01  1 VE                mP; see web page
+AgorEx    3/28/01  1 Papyrus           mVE; see web page
+neil      7/2/01   1 Corruption Token  0.2 VE, 0.5 Papyrus, 1 Indulgence, or
+                                         mature Bond for 54 Stems
+neil      7/2/01   Proposal Vote       1 Corruption Token
+neil      7/2/01   Referendum Vote     2 Corruption Tokens
+Peekee    5/3/01   Votes on Proposals  Negotiable
+                     and Elections
+Razl      4/17/01  1 Circle            2*pi Slices
+Wes       4/5/00   1 Twig              Commenting on and changing a proto
+Wes       4/5/00   ad space            1 Twig per 30 days
+
+Recent one-time offers:
+
+Player      Date     Will sell         In return for
+-----------------------------------------------------------------------
+Hooloovoo   3/2/01   1 Papyri          1 VE
+Lindrum     5/18/01  Negotiable        Indulgences
+neil        8/21/01  0.2 VEs           2 Papyri per 0.1 VE
+pTang       8/7/01   Votes for         Negotiable
+                       2 months
+Razl        8/12/01  1 BIT             50 mVEs, 900 mP, or 437 mIN
+solublefish 4/19/01  $5                1 VE
+solublefish 7/31/01  0.1 VE            1 Indulgence
+solublefish 7/31/01  0.5 VE            4.7 Indulgences
+Steve       2/5/01   2 Indulgences     2 Papyri
+t           2/6/01   1 Papyrus         2 Indulgences
+t           8/29/01  Bond, 100 Stems   Indulgences
+Taral       8/14/01  1 BIT             Negotiable
+Wes         9/2/01   Various           $
+
+A Blue Yeek is a Player who generally intends to Vote on Democratic Proposals
+based on Blubbery Icky Thing holdings, as follows:
+  * AGAINST, if the proposer has transferred a BIT to a non-Player or destroyed
+    a BIT
+  * FOR, if the proposer has four BITs
+  * AGAINST, if the proposer has one to three BITs
+  * At will, if the proposer has no BITs
+and to return any BITs transferred to em.
+
+Syllepsis and Goethe are Blue Yeeks.
+
+
+ERRATA
+------
+
+The attempted distribution of Proposal 4213 was ineffective because it omitted
+  part of the text.  It was successfully distributed on September 21.
+
+
+-- 
+Ed Murphy <emurphy42@socal.rr.com>          "I'm not sure I can go through
+http://members.fortunecity.com/emurphy/      with it.  Leave, I mean."
+
+

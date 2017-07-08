@@ -1,0 +1,139 @@
+Voting Results
+
+This Report:  Sun 19 Dec 04 (Proposals 4628 - 4631)
+Last Report:  Fri  3 Dec 04 (Proposal  4627       )
+(All times are in GMT)
+
+Start of Voting Period:  Mon  6 Dec 01:45:01
+  End of Voting Period:  Mon 13 Dec 01:45:01
+
+O = Ordinary        d = Disinterested   s = Sane         + = Positive Ad
+D = Democratic      u = Urgent                           - = Negative Ad
+
+Number    Title                         Author    AI   Flags     Result
+------------------------------------------------------------------------
+4628      Drinks on the House           Murphy    1    O         Adopted
+4629      Quorum for Referenda and ...  Murphy    1    O         Adopted
+4630      Crashing the Party            Goethe    1    O         Adopted
+4631      Powered Cards 0.2             root      2    D         Adopted
+
+               4628  4629  4630  4631
+
+Eris             F     F     F     F
+Goethe           F     F     F     F
+Maud                               F
+OscarMeyr        F     F     A     F
+Riail                              F
+root            2F    2F    2F     F
+Sherlock                           F
+
+(Riail's attempts to vote on Ordinary Proposals were ineffective, as
+eir VPOP was zero.)
+
+FOR              5     5     4     7
+AGAINST          0     0     1     0
+Abstain          0     0     0     0
+Present          0     0     0     0
+
+Voting Index    *U*   *U*    4    *U*
+Adoption Index   1     1     1     2
+
+Voters           4     4     4     7
+Quorum (D:12/3)  3     3     3     4
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4628 by Murphy, AI=1, Ordinary
+Drinks on the House
+
+
+(I nominated myself with the intent of offering OscarMeyr a
+competition bonus - which doesn't even exist any more - then
+failed to either vote for em or stand down)
+(I play a Distrib-u-Matic card to make this distributable)
+
+Upon the adoption of this proposal, all Blots gained due to
+Apathy in the Herald election that ended on or about November
+21, 2004, are expunged.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4629 by Murphy, AI=1, Ordinary
+Quorum for Referenda and Elections
+
+
+(Why is it higher than for democratic proposals?)
+(I make this distributable for a fee of 1 kudo)
+
+Amend Rule 1434 (Default Procedure for Referendum Voting) by
+replacing "Quorum is 50% of the eligible Voters" with "Quorum
+is one third of the eligible Voters".
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4630 by Goethe, AI=1, Ordinary
+Crashing the Party
+
+
+"Well, you'll get it. You'll see. The party isn't on yet..."
+-Eris
+
+Create the following rule, entitled "Discord":
+
+   The following card is defined:
+
+     Caption: Chaos Apple
+     Quota:   1
+     Elements: Handed[5], Delayed[7], Kallisti!
+     Exploit: If this card has not been Played in the current
+     quarter, then, as soon as possible after this card is played,
+     the Deckmaster shall simultaneously transfer all cards from
+     non-Deck hands to a temporary Gambler known as Fate.  E shall
+     then deal cards at random from Fate to each Gambler until
+     each Gambler has the same number of cards as e had immediately
+     before Fate took a hand.  If, between the time this card is
+     Played and the time Fate's cards are dealt, exactly a single
+     Player publicly claims to be The Prettiest One, the Deckmastor
+     shall transfer this card to em as soon as possible after Fate's
+     cards are dealt.  The Deckmastor is encouraged use Heisenberg's
+     Law in dealing hands from Fate.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4631 by root, AI=2, Democratic
+Powered Cards 0.2
+
+
+Amend Rule 2070 by adding the text:
+
+    * Powered [X], where X is a positive integer:  This Card has a
+      Power of X.  To Activate any Exploit possessed by this Card, a
+      Fee of X - 1 must be paid in addition to any other Fees required
+      to Activate that Exploit, unless that Exploit explicitly
+      specifies otherwise.
+
+Amend Rule 2067 by replacing the text:
+
+     * Caption: Debate-o-Matic
+       Elements: Budgeted
+       Exploit: Change the Chamber of any one non-Sane Proposal to
+         the Chamber of your choice, provided it is legal for that
+         Proposal to be in the named Chamber.
+
+with:
+
+     * Caption: Debate-o-Matic
+       Elements: Budgeted, Powered [2]
+       Exploit: Change the Chamber of any one non-Sane Proposal to
+         the Chamber of your choice, provided it is legal for that
+         Proposal to be in the named Chamber.
+
+Change the Power of Rule 2067 to 2 if it is not already 2.
+

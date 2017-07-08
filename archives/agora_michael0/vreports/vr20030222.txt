@@ -1,0 +1,294 @@
+Agora Nomic
+Voting Report for Proposals 4443-4456
+
+This Report: Sat, 22 Feb 2003 
+Last Report: Mon, 03 Feb 2003
+
+Current Voting Mode: Unrestricted
+===========================================================================
+Voting on Proposals 4443-4449 commenced: Sat, 15 Feb 2003 04:01:15 
+Voting on Proposals 4443-4449 concluded: Sat, 22 Feb 2003 04:01:15 
+
+Voting on Proposals 4450-4456 commenced: Sat, 15 Feb 2003 04:10:24 
+Voting on Proposals 4450-4456 concluded: Sat, 22 Feb 2003 04:10:24 
+
+
+Num. Title                           By         AI  Fl RESULT  F  A  - *
+
+4443 Trifecta, Part 1                Murphy      4  D  FAILS  14  4  0 0
+4444 Trifecta, Part 2                Murphy      4  D  FAILS  14  4  0 0
+4445 The Wormhole                    Peekee      1  D  FAILS   7  8  0 3
+4446 Fix Single-Bid Auctions         Steve       1  D  PASSES 14  3  0 1
+4447 Titleless Proposal              RedKnight   1  D  FAILS   7  9  0 1
+4448 Win by Proposing                RedKnight   1  D  FAILS   8  0  0 0
+4449 Invisibilitating?               Steve       1  Dc PASSES 10  6  0 0
+4450 Trifecta, Part 3                Murphy      4  D  FAILS  14  4  0 0
+4451 Holiday Registration Fix        Cecilius    1  od PASSES  2  1  0 0
+4452 Fix Justicar CFJs               SirToby     2  Dd PASSES 15  2  0 2
+4453 Teamwork                        Sherlock    3  D  FAILS  10  8  0 1
+4454 Stem Patch                      Pakaran     1  o  FAILS   1  2  0 0
+4455 Two-tone Economics              Murphy      2  D  FAILS   5 11  0 0
+4456 Switches                        Maud        2  D  PASSES 15  2  0 0
+
+Flags:
+o: ordinary D: Democratic P: Parliamentary
+d: disinterested  u: urgent  s: sane  c: contested
+
+===========================================================================
+
+                D   D   D   D   D   D   D   D   o   D   D   o   D   D
+                4   4   4   4   4   4   4   4   4   4   4   4   4   4
+                4   4   4   4   4   4   4   4   4   4   4   4   4   4
+	        4   4   4   4   4   4   4   5   5   5   5   5   5   5  
+	        3   4   5   6   7   8   9   0   1   2   3   4   5   6  
+
+Cecilius        F   F   F   F       A   F   F   F   F   A   A   A   A
+Eris            A   A  3F  3F  3A  3F       A      3F  3A      3F  3F
+Goethe          A   A   *   A   A   F   A   A       F   F       F   F
+Maud            F   F                       F       *               F 
+Murphy          F   F   *   *   *   A   A   F       F   *       F   F
+OscarMeyr (O)  FA  FA  2F  FA  2F  2F  2F  FA   A  FA  2A   F  2A   A  
+Pakaran         F   F   A   F   F   A   F   F       F   F           F 
+Peekee          F   F   A   F   A   F   F   F       *   A       A   A
+RedKnight (O)   F   F   A   F   F   F   F   F       F   F       A   F
+root           3F  3F F2A 2FA 2FA  3A  3A  3F     2FA 2FA      3A  3F  
+Sherlock  (O)   F   F   *   F   F       A   F   F   F   F   A       F
+Steve         A3F A3F  3A  3F  3A  3A  4F A3F     A3F  4F      3A  3F
+
+FOR            14  14   7  14   7   8  10  14   2  15  10   1   5  15
+AGAINST         4   4   8   3   9   9   6   4   1   2   8   2  11   2
+ABSTAIN         0   0   0   0   0   0   0   0   0   0   0   0   0   0
+Present         0   0   3   1   1   0   0   0   0   2   1   0   0   0
+
+Voters         12  12  11  11  10  10  10  12   3  12  11   3   9  12
+Quorum(5|3)     Y   Y   Y   Y   Y   Y   Y   Y   Y   Y   Y   Y   Y   Y
+PASSES?         N   N   N   Y   N   N   Y   N   Y   Y   N   N   N   Y
+
+===========================================================================
+Miscellaneous
+===========================================================================
+
+Cecilius earns a new player encouragement award of 1 Papyrus, courtesy
+of R1678, for having P4451 adopted. 
+
+H. Promotor RedKnight, please note that the Bank has incurred a debt of
+1 Papyrus to Cecilius.
+
+H. Scorekeepor OscarMeyr, please note:
+
+Points awards:
+
+Player     Points   Reason/Rule
+-------------------------------
+
+Steve      +7       Interested Proposal adopted, 3 votes against; R1930(g)
+Steve      +10      Interested Proposal adopted, 6 votes against; R1930(g)
+Cecilius   +10      Voted for adopted Contested Proposal, R2016
+OscarMeyr  +10      Voted for adopted Contested Proposal, R2016
+Pakaran    +10      Voted for adopted Contested Proposal, R2016
+Peekee     +10      Voted for adopted Contested Proposal, R2016
+RedKnight  +10      Voted for adopted Contested Proposal, R2016
+Steve      +10      Voted for adopted Contested Proposal, R2016
+Cecilius   +3       Disinterested Proposal adopted, 1 vote against; R1930(h)
+Sir Toby   +4       Disinterested Proposal adopted, 2 votes against; R1930(h)
+Maud       +6       Interested Proposal adopted, 2 votes against; R1930(g)
+
+===========================================================================
+Text of Adopted Proposals
+===========================================================================
+
+Proposal 4446 by Steve, AI=1, Democratic
+Fix Single-Bid Auctions
+
+[Single-Bid Auctions are slightly broken - they cannot end early because
+the value of bids changes every 24 hours.]
+
+Amend Rule 2012 (Single-Bid Auctions) to read:
+
+      There is a type of auction called a single-bid auction. The
+      procedure for conducting a single-bid auction is the same as that
+      used in the default auction procedure, with the following
+      additions and exceptions:
+
+      (a) Bid inflation factor: As part of any correct and legal
+	  announcement that a single-bid auction is commencing, the
+	  Auctioneer must announce the value of the bid inflation factor
+	  for the auction, a real number between 0 and 1 inclusive.
+
+      (b) Making bids: each player eligible to bid in the auction is
+	  permitted to make only one bid, called the initial bid.  Any
+	  bids made by a player after eir initial bid in the auction are
+	  invalid. A player who cancels eir bid is ineligible to make
+	  further bids in the auction. All bids must be made publically.
+
+      (c) Value of bids: at each midnight GMT during the auction, the
+	  value of each valid, uncancelled bid remaining in the auction
+	  is increased by an amount equal to the bid inflation factor
+	  multiplied by the initial bid.
+
+      (d) End of auction: the auction ends if any of the following occur:
+
+          (1) one week has passed from the start of the auction, and no
+	      bids have been made; or
+
+          (2) a bid has been made in the auction, and there has been no
+              change in the N highest initial bids for 72 hours; or
+
+          (3) fourteen days have passed since the Auction began.
+
+      (e) Final auction price: for the purposes of determining the
+	  winner(s) of the auction, the value of each bid as calculated
+	  in (c) above is used. However, the debt incurred by a winner
+	  of the auction is equal to the Nth highest winning initial
+	  bid, where N is the number of items being auctioned, or to the
+	  starting bid, if there were fewer than N bids.
+
+-----------------------------------------------------------------------
+
+Proposal 4449 by Steve, AI=1, Democratic, contested
+February Contested Proposal
+
+
+-----------------------------------------------------------------------
+
+Proposal 4451 by Cecilius, AI=1, Ordinary
+Holiday Regisration Fix
+
+Amend Rule 869 by inserting the following delimited text:
+
+###
+Whenever a Player registers during a Holiday, eir Grace Period shall be
+extended by a period of time equal to the time which elapses between eir
+registration and the conclusion of that Holiday, provided that no other
+Rule extends eir Grace Period by reason of that Holiday.
+###
+
+That text shall be inserted in the Rule immediately prior to the
+following delimited text:
+
+###
+For the purposes of determining when a Player's Grace Period is
+scheduled to conclude, where more than one Holiday falls fully or
+partially within that Grace Period, the calculation shall be made
+separately for each Holiday.
+###
+
+----------------------------------------------------------------------
+
+Proposal 4452 by Sir Toby, AI=2, Democratic, disinterested
+Fix Justicar CFJs
+
+Make Rule 2023 be a Power 2 Rule.
+
+Amend Rule 2023 to read as follows:
+
+      A CFJ may be submitted to the Justiciar.  For such a CFJ, the
+      Justiciar shall perform all duties and fulfill all roles that
+      would otherwise be assigned to the Clerk of the Courts. This takes
+      precedence over Rules that would otherwise assign duties and roles
+      regarding a CFJ to the Clerk of the Courts.
+
+      All persons are encouraged to submit a CFJ to the Justiciar only
+      when there is a good reason not to submit it to the Clerk of the
+      Courts.
+
+----------------------------------------------------------------------
+
+
+Proposal 4456 by Maud, AI=2, Democratic
+Switches
+
+Enact a rule of power 2, titled "Switches", reading:
+
+      A switch is a set of states associated with a class of entities.
+      Each switch shall have a default state, which if not otherwise
+      specified shall be the first state mentioned in the rule defining
+      the switch.
+
+      The recordkeepor for a class of entities shall also maintain
+      records of any switches associated with that class, as well as
+      for each entity of the class the current state of the switch.  If
+      the recordkeepor is required to publish a report, that report
+      shall include records of these switches.
+
+      Whenever an entity is created in a class of entities associated
+      with a switch, it shall be in the state of the switch specified
+      by the order or provision creating it; if no state is specified,
+      it shall be in the default state of the switch.
+
+      Whenever an entity joins a class of entities associated with a
+      switch, the entity shall be in the default state of the switch.
+
+      A player who may flip a switch on an entity to some state may do
+      so by announcement.  In eir announcement, e must indicate the
+      entity, switch, and new state.  When a switch on an entity is
+      flipped to some state, the entity shall come to be in that state
+      and simultaneously cease to be in any other state of the switch.
+
+      Viscosity is a stuck switch for switches with values loose and
+      stuck.
+
+      An executor of an entity may flip any of the loose switches on
+      that entity, unless the rules otherwise prohibit doing so.
+
+      The stuck switches on an entity can be flipped only when the
+      rules so indicate.
+
+      Whenever a switch is created, or becomes associated with a class
+      of entities, then each entity in the class that had previously
+      been in a state that is now a state of the switch shall continue
+      to be in that state; all other entities in the class shall be in
+      the default state of the switch.
+
+
+Amend rule 478 (The Public Forum) to read:
+
+      Publicity is a stuck forum switch with values null, Discussion,
+      and Public.
+
+      The Registrar may, without objection, flip the publicity of a
+      forum.  In addition to any other requirements the rules place on
+      this action, the Registrar's announcement of intent must be sent
+      to that forum, and if the forum is being made Public, then the
+      announcement by which the Registrar performs the modification
+      must be sent to all existing Public fora.
+
+      It is the responsibility of each active player to ensure that
+      e can receive messages via each Public forum.
+
+      The Registrar shall include as part of eir Report all Public or
+      Discussion fora and sufficient data regarding each such forum to
+      allow players to receive messages via that medium.  The Registrar
+      need not keep track of fora with null state.
+
+      A message is not public unless some rule states that it is public.
+      A message is public if it is sent via a Public forum, or if it is
+      sent to all players via a combination of fora and contains a clear
+      designation of intent to be public.
+
+      A player publishes information by publicly sending a message
+      containing that information, and announces something by publishing
+      it.
+
+      If the rules state that a player may perform an action by
+      announcement, then that player may perform that action by
+      announcing that e performs it.  If the rules state that a player
+      may perform an action by private message to some player, then
+      that player may perform that action by sending a message privately
+      to the specified player indicating that e performs it.  In either
+      case, such a message must unambiguously describe the action to be
+      performed.
+
+Change the title of rule 478 to "Fora".
+
+-----------------------------------------------------------------------
+
+
+-- 
+
+
+Steve Gardner                     |  Each writer creates their own
+School of Computer Science        |  precursors.
+ and Software Engineering         |  
+gardner@sng.its.monash.edu.au     |           -- Jorge Luis Borges
+

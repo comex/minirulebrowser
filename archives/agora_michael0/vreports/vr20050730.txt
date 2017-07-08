@@ -1,0 +1,129 @@
+Voting Results
+
+This report:     Sat 30 Jul 2005 (4828-4829)
+Previous report: Fri 22 Jul 2005 (4826-4827)
+(All times given in UTC)
+
+Start of voting period: Sat 23 Jul 17:40:23 2005
+  End of voting period: Sat 30 Jul 17:40:23 2005
+
+O = Ordinary            P = Primary author
+D = Democratic          Vote summary: F/A/P
+
+No./Flags Title                  Authors            Vote    Result
+-----------------------------------------------------------------------
+4828-D1   Welcome All Coauthors  Maud (P)           5/0/0   Adopted       
+4829-D2   The Cobalt Repairs     Maud (P)           5/0/0   Adopted       
+
+                4828  4829                                            
+
+Manu              F     F                                            
+Maud              F     F                                            
+Michael           F     F                                            
+OscarMeyr         F     F                                            
+root              F     F                                            
+
+FOR               5     5                                            
+AGAINST           0     0                                            
+PRESENT           0     0                                            
+
+Voting index:     U     U                                            
+Adoption index:   1     2                                            
+
+Voters:           5     5                                            
+Quorum:           5     5                                            
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4828 by Maud, AI=1, Democratic
+Welcome All Coauthors
+
+
+Amend rule 1430 (Mandatory Rule Annotations) to read:
+
+      Whenever a rule is changed in any way, the Rulekeeper shall
+      record a historical annotation to the rule indicating:
+
+      (a) the type of change;
+      (b) if the rule was changed due to a proposal, a reference to
+          that proposal, its proposer, and any coauthors explicitly
+          named in that proposal;
+      (c) if the rule was changed by some other mechanism, the
+          mechanism which specified the change; and
+      (d) the date on which the change took effect.
+
+      Other rules may require additional information to appear in an
+      annotation for certain types of Rule Change.
+
+      Annotations to a rule are not part of the rule, and annotating a
+      rule is not a rule change.  The Rulekeepor shall indicate all
+      annotations in such a way that they are readily distinguished
+      from the text of the rule.
+
+      When a rule is repealed, all annotations attached to it are
+      discarded, and need not appear in the published Ruleset.
+
+----------------------------------------------------------------------
+
+Proposal 4829 by Maud, AI=2, Democratic
+The Cobalt Repairs
+
+
+Change the title of rule 1932 (Shareholders and the Corporation) to
+"Shares and Shareholders", and amend it to read:
+
+      A Stock Card is a card with the Element "Shares [X]".
+
+      The Share Holdings of an entity is the number of Shares
+      possessed by that entity.  The Number of Shares is the sum of
+      the Share Holdings of all entities.
+
+      A Shareholder is an entity with positive Share Holdings.  A
+      Plebeian is a player who is not a Shareholder.  The Corporation
+      is the collection of all Shareholders.
+
+Repeal rule 1963 (Eligible Shareholders).
+
+Amend rule 1483 (Definition of Proposals) to read:
+
+      A proposal is a document outlining changes to be made to Agora,
+      including enacting, repealing, or amending rules, or making
+      other explicit changes to the gamestate.
+
+      A legislator submits a proposal by publishing it with a clear
+      indication that it is intended to become a proposal.  As soon as
+      possible afterward, the Promotor shall add this proposal to the
+      Proposal Pool.
+
+      Before the Promotor distributes a proposal, its proposer may
+      modify its adoption index by announcement.  The default adoption
+      index of a proposal is one.
+
+      All players are legislators.
+
+Repeal rule 1953 (Sane Proposals).
+
+Amend rule 1952 (Making Proposals Distributable) to read:
+
+      The Promotor shall have a budget containing the per-player
+      proposal limit, which shall be a positive integer defaulting to
+      four.
+
+      Depth is a stuck proposal switch with values undistributable and
+      distributable.
+
+      Before the Promotor distributes a proposal, its proposer may
+      flip its depth by announcement as long as the number of eir
+      distributable proposals which have been submitted but have not
+      been distributed or retracted is less than the per-player
+      proposal limit.
+
+Repeal rule 2021 (Chamber Procedure).
+
+----------------------------------------------------------------------
+
+-- 
+C. Maud Image (Michael Slone)
+Oh, come on.  My reputation isn't quite that bad.
+                -- Kelly, in agora-discussion

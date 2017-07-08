@@ -1,0 +1,162 @@
+Voting Results
+
+This report:  Sat 31 Dec 05 (4846       )
+Last report:  Sat 31 Dec 05 (4845       )
+(All times given in UTC)
+
+Start of voting period:  Tue 13 Dec 15:36:52
+   End of voting period:  Tue 20 Dec 15:36:52
+
+Proposal  Title                    Author(s)  F/A/P  VI/AI  Quorum  Result
+--------------------------------------------------------------------------
+4846 (O)  Pragmatize hand limits   Goethe    13/0/0   U/1    6/5    Adopted
+
+                4846
+
+Eris            2F
+Goethe          4F
+Manu             F
+Maud             F
+OscarMeyr       4F
+root             F
+
+FOR             13
+AGAINST          0
+PRESENT          0
+
+Voting Index    *U*
+Adoption Index   1
+
+Voters           6
+Quorum           5
+
+Text of Adopted Proposals
+-------------------------
+
+Proposal 4846 by Goethe, AI=1, Ordinary
+Pragmatize hand limits
+
+
+Proposal:  Pragmatize hand limits
+
+[Turns hand limits into a play-and-discard model.  You can draw 3
+cards/month+bonuses regardless of handsize, but every month your
+handsize is reduced to max.  You can do it yourself or if you don't,
+the deckmastor will do it for you at random.]
+
+Repeal Rule 2074 (Hand Flux)
+
+Amend Rule 2069 (Card Actions) by removing the following text:
+
+               , plus one for each free pending draw for that
+           gambler
+
+
+Amend Rule 2080 (Basic Draws) to read:
+
+       Any Player may draw up to three cards in a single month by
+       announcement.
+
+       Any Player may draw one card for each Proposal e proposes that
+       is adopted, by noting the Proposal's number.
+
+
+Amend Rule 2120 (Satisfying Draws) to read:
+
+       When a gambler draws a card as specified by the Rules, e gains a
+       Pending Draw.
+
+       As soon as possible after a gambler draws a card, the Deckmastor
+       shall satisfy the draw by dealing a card to the gambler with the
+       pending draw, but only if the draw is Satisfiable.  A draw is
+       satisfiable unless defined otherwise.
+
+       If the Rules state that a gambler loses a pending draw, than
+       that draw is considered satisfied without the dealing of a card,
+       whether or not it is satisfiable.  If e has no draws, the
+       Deckmastor shall discard a random card from that gambler's hand.
+       If e has no cards, then the deckmastor shall satisfy the next
+       pending draw e gains without dealing a card.
+
+       A satisfied draw is no longer pending.
+
+
+Amend Rule 2075 (Winning Hands) to read:
+
+       The Scoring Instructions contained in cardbooks, interpreted
+       collectively, may define a nonsite gambler as holding a winning
+       hand at a particular moment.  If so, any Gambler has 72 hours
+       from that moment to announce that a Gambler holds or has held a
+       winning hand.
+
+       If the announcement is false, the Deckmastor shall, as soon as
+       possible, transfer 1 card at random from the announcing
+       Gambler's Hand to the Deck.
+
+       If the announcement is true, the holding Gambler Wins the Game,
+       and is awarded the boon of Pokerface and the defined regular
+       Patent Title Champion.  All Players' hands become subject to a
+       Hand Reduction to the Minimum Hand Size.  After the winner's
+       hand is so reduced, e gains a number of pending draws equal to
+       the Maximum Hand Size.
+
+       If no true announcement of a winning hand or a Skunk has been
+       made in the last six months, then any Gambler may announce a
+       Skunk, which shall trigger the effects of a true announcement of
+       a win above, except that no boon shall be awarded nor extra
+       winner's cards dealt.
+
+----------------------------------------------------------------------
+
+Amend Rule 2083 (Win Resolution) by changing its title to
+"Hand Reductions" and amending to read:
+
+       The Rules may declare that a nonsite Gambler's hand is subject
+       to a Hand Reduction.  A particular hand reduction must have a
+       maximum hand size associated with it; if none is defined, the
+       Maximum Hand Size in the Deckmastor's budget is used.
+
+       As soon as possible after a requirement for a reduction arises,
+       the Deckmastor shall:
+
+         (i) Satisfy all satisfiable pending draws for that gambler and
+             announce a pending hand reduction;
+
+        (ii) Wait at least four days, during which e may not satisfy
+             pending draws for that gambler;
+
+       (iii) Discard cards at random from that Gambler's hand until eir
+             hand size is equal to or less than maximum associated with
+             the reduction.
+
+        (iv) If a gambler loses no cards during a reduction, and has
+             not played, transferred or discarded a card since the last
+             reduction, the Deckmastor shall discard one card at random
+             from the gambler's hand (if it has any cards).
+
+       If a dispute on the gambler's hand size or pending draws is
+       raised and not resolved prior to (iii), above, the Deckmastor
+       shall not perform (iii) for that hand until the dispute is
+       resolved.  If no dispute is raised prior to (iii) being
+       performed, then the reduction shall stand regardless of
+       subsequent disputes.  However, a Judge in such a dispute may
+       Order the Deckmastor to perform further card transfers to
+       resolve such disputes.
+
+       If the Deckmastor knowingly reduces a hand incorrectly, e
+       commits the Class 4 Crime of Card Thievery.
+
+       If more than one hand reduction is pending for the same hand,
+       then the Deckmastor need only perform the reduction for the
+       reduction with the lowest associated maximum; this shall satisfy
+       all pending reductions.
+
+       At the beginning of each month, each Player's hand becomes
+       subject to a Hand Reduction to the maximum hand size in the
+       Deckmastor's Budget plus the number of Offices (including the
+       Speakership) that e holds.
+
+
+
+The Maximum Hand Size is hereby set to 5.  (Since it only limits
+things once a month, it should be lower to encourage card turnover).

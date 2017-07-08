@@ -1,0 +1,248 @@
+Assessor's Voting Report
+Proposals 4220 - 4221
+
+This message is a Notice of Complacency for Proposal 4220.
+
+Voting on 4220 - 4221 began:  Mon,  1 Oct 2001 09:42:04 -0400
+Voting on 4220 - 4221 ended:  Mon,  8 Oct 2001 09:42:04 -0400
+
+> No.    | Title                          | By           | AI | Date    | Flag
+>        |                                |              |    |         | 
+> 4220   | Perhaps it is Somewhat . . .   | Syllepsis    |  1 | 13Sep01 | 
+> 4221   | The Neo-Oligarchy, again       | Steve        |  2 | 30Sep01 | C
+> 
+> D: Disinterested  C: Democratic  U: Urgent  S: Sane  I: Insane  O: Opposite
+
+Entity          4220
+------          ----
+Goethe            F
+root            2F+A
+
+FOR               3
+AGAINST           1
+ABSTAIN           0
+Present           0
+
+AI                1
+VI                3
+Voters            2
+Quorum            3
+Adopted?          No
+
+Entity          4221
+------          ----
+Goethe           2F
+harvel           2F
+Michael          3A
+root              F
+Steve            3F
+Taral            5F
+
+FOR              13
+AGAINST           3
+ABSTAIN           0
+Present           0
+
+AI                1
+VI                4 1/3
+Voters            6
+Quorum            4
+Adopted?         Yes
+
+Text of adopted Proposals
+-------------------------
+
+Proposal #4221 by Steve, AI=2
+The Neo-Oligarchy, again
+
+[
+ The Neo-Oligarchy differs in several respects from the current Oligarchy:
+        + There is no ideal number of Oligarchs
+        + All Oligarchs have 1 vote on Ordinary Proposals and a maximum of 2
+          on Democratic Proposals
+        + Each month, betwen 1 and 4 Oligarchy seats are auctioned off
+        + Value is set by the GWotO in eir Budget (changeable without 2
+          Oligarchy Objections)
+        + Each month, all non-Elder Oligarchs must pay 0.1 VE within 1 week
+          be removed from the Oligarchy
++ All current Oligarchs become Elder Oligarchs for 3 months (or
+    until they cease to be Oligarchs); Elder Oligarchs pay no
+  monthly upkeep
+
+
+Amend Rule 1955 (The Grand Warden of the Oligarchy) to read:
+
+  (a) There is an Office of Grand Warden of the Oligarchy (GWotO),
+      whose responsibility it is to maintain a list of Oligarchs.
+      
+  (b) The Grand Warden of the Oligarchy's Report shall consist of a
+      list of all Oligarchs and a list of all Elder Oligarchs (if any).
+      
+  (c) The GWotO shall have a budget containing the Oligarchy Auction Rate,
+      which is an integer between 1 and 4 inclusive. The GWotO may amend
+      eir budget Without 2 Objections from Oligarchs.
+
+
+The Oligarchy Auction Rate is hereby set to 2.
+
+
+Amend Rule 1932 (The Oligarchy, Power=2) to read:
+
+  (a) The Oligarchy is the set of all Players who are Oligarchs.
+
+  (b) An Oligarch may resign eir position in the Oligarchy by publicly
+      announcing that e does so. Upon such an announcement, e ceases to
+      be an Oligarch.
+
+
+Create a Rule entitled "Elder Oligarchs" with Power 2 and reading:
+
+  (a) Upon the creation of this Rule, all Players who were Low, Middle,
+      or High Oligarchs when the Proposal creating this Rule was adopted
+      become Oligarchs. Each of these Players is an Elder Oligarch until
+      e ceases to be an Oligarch or until e has been an Elder Oligarch
+      for 3 months.
+
+  (b) The Rulekeepor may repeal this Rule Without Objection if there are
+      no Elder Oligarchs.
+
+
+Rename Rule 1963 (Vacancies in the Oligarchy, Power=2) to "Eligible
+Oligarchs" and amend it to read:
+
+  (a) A Player is ineligible to be an Oligarch if and only if any of the
+      following are true:
+
+        (1) e is On Hold;
+        (2) e has three or more Blots;
+        (3) e is the Speaker or the Speaker-Elect; or
+        (4) e is the Grand Warden of the Oligarchy.
+
+  (b) If an Oligarch becomes ineligible to be an Oligarch, the GWotO
+      shall remove that Player from the Oligarchy as soon as possible.
+      The GWoTO removes a Player from the Oligarchy by correctly
+      announcing that at least one of the above conditions has arisen
+      for that Player. The named Player ceases to be an Oligarch as of
+      the GWoTO's announcement.
+
+  (c) An Oligarch who ceases to be a Player ceases to be an Oligarch.
+
+
+Amend Rule 1950/1 (Voting Power, Power=2) to read:
+
+  (a) An entity's Voting Power on an Ordinary Proposal is as follows:
+
+        (1) An Oligarch: one;
+        (2) Any other entity: zero.
+
+  (b) An entity's Voting Power on a Democratic Proposal is as follows:
+
+        (1) A Player: one plus the number of Voting Entitlements
+            e possesses rounded down, minus one for every five Blots
+            e has, with a minimum of zero and a maximum of:
+             (a) for an Oligarch, two;
+             (b) for a non-Oligarch, five.
+        (2) The Bank: zero;
+        (3) Any other entity: as defined in the Rules, with a default
+            of zero if the Rules don't specify the Voting power on a
+            Democratic Proposal for that entity.
+
+  (c) The value of an entity's Voting Power on Ordinary and Democratic
+      Proposals at the beginning of each Week shall be in effect for all
+      Proposals distributed during that Week. However, if a Proposal is
+      made Democratic after it has been distributed, the Voting Power of
+      each entity for that Proposal is redetermined at the time the
+      Proposal is made Democratic.
+
+  (d) An entity may cast as many votes as e wishes on a Proposal, up
+      to the limit determined by that entity's Voting Power on
+      that Proposal, with the exception that no Player may vote on an
+      Ordinary Proposal unless e is an Oligarch at the time e casts
+      eir vote. An entity may cast its votes in any combination e
+      wishes.
+
+
+Amend Rule 1449 (The Assessor) to read:
+
+  (a) There exists the Office of Assessor, whose responsibility it is
+      to receive and announce the results of Votes on Proposals.
+
+  (b) The Assessor shall include the Voting Power of each entity on
+      Ordinary and Democratic Proposals in eir Weekly Report. E may
+      exclude entities whose Voting Power is zero on both Ordinary and
+      Democratic Proposal from the Report.
+
+
+Amend Rule 1936 (Auctioning Positions in the Oligarchy, Power=2) to read:
+
+  (a) As soon as possible after the beginning of each month, the GWotO
+      shall auction off a number of Oligarchy positions equal to the
+      Oligarchy Auction Rate. The GWotO shall conduct the Auction
+      according to one of the Rules-defined Auction Procedures, with the
+      following modifications:
+
+      (1) Auction Currency: the Auction Currency is Stems.
+
+      (2) Bidders: Only non-Oligarchy Politicians who are eligible to
+          be Oligarchs may bid. 
+
+      (3) If a bidder becomes an Oligarch or becomes ineligible to be
+          an Oligarch, then all eir bids in the Auction are cancelled.
+
+      (4) Winning bids: when the Auctions ends, the winning bids are
+          the N largest valid uncancelled bids made by different
+          Players who are not Oligarchs, where N is the number of
+          positions being Auctioned.
+
+      (5) Defaulting: a winning bidder has one week from the time e
+          is billed by the Auctioneer for eir winning bid in which to
+          pay the bill. If the bill remains unpaid for more than one
+          week, then the winning bidder is considered to have
+          defaulted. In that case, the Auctioneer shall forgive the
+          debt and penalise the defaulting bidder 2 Blots.
+
+  (b) When a winning bidder pays the bill for eir winning bid in the
+      Auction, e becomes an Oligarch.
+
+
+Create a Rule entitled "Oligarchy Upkeep" with Power 2 and reading:
+     
+      As soon as possible after the beginning of each month, the GWotO
+      shall bill each non-Elder Oligarch 0.1 VEs. The GWotO shall remove
+      from the Oligarchy any Oligarch who does not pay a debt resulting
+      from this Rule within 7 days of the announcement of such a debt.
+
+[Minor adjustments]
+
+Amend Rule 1664 (Rebellion, Power=2) by replacing the text reading:
+
+         - All positions in the Oligarchy become vacant.        
+
+with:
+
+         - The GWotO shall remove all Abiding Oligarchs from the Oligarchy
+
+and the text reading:
+
+      The effects of a Call for Revolt shall be based on the
+      Political Status and Indulgence holdings of players at the time
+      of the Call.
+
+with:
+
+      The effects of a Call for Revolt shall be based on the
+      Political Status, Oligarchy membership, and Indulgence holdings
+      of players at the time of the Call.
+
+[Remove the deadwood]
+
+Repeal Rule 1964 (Filling Vacancies in the Oligarchy).
+Repeal Rule 1937 (Distributing Positions in the Oligarchy, Power=2)
+Repeal Rule 1938 (Rotation Out of the Oligarchy, Power=2)
+
+
+-- 
+Ed Murphy <emurphy42@socal.rr.com>          "I'm not sure I can go through
+http://members.fortunecity.com/emurphy/      with it.  Leave, I mean."
+
+

@@ -1,0 +1,243 @@
+
+Agora Nomic
+Voting Report for Proposals 4509-4515
+
+This Report: Fri, 11 Jul 2003
+Last Report: Thu, 26 Jun 2003
+
+
+Current Voting Mode: Unrestricted
+===========================================================================
+Voting on Proposals 4509-4515 commenced: Mon, 30 Jun 2003 01:46:08
+Voting on Proposals 4509-4515 concluded: Mon, 07 Jul 2003 01:46:08
+
+Num. Title                          By          AI  Fl RESULT  F  A  - *
+
+4509 Vote Collector for Office...   Murphy       1  Dd PASSES  6  0  0 0
+4510 Publicize Organizations        Sherlock     1  o  PASSES  2  1  0 0
+4511 Non-Preferential Silent T...   Murphy       1  o  PASSES  2  1  0 0
+4512 Shuffle, Stem, Boon, Fix       Peekee       1  o  FAILS   1  2  0 0
+4513 Invisibilitating               Steve        1  o  PASSES  2  1  0 0
+4514 A Duty to Vote                 Murphy       1  o  PASSES  2  1  0 0
+4515 Expunge Nomic Properties       Maud         3  D  FAILS   4  2  0 0
+
+
+Flags:
+o: ordinary D: Democratic P: Parliamentary
+d: disinterested  u: urgent  s: sane  c: contested
+
+===========================================================================
+
+                D   o   o   o   o   o   D
+                4   4   4   4   4   4   4
+                5   5   5   5   5   5   5
+	        0   1   1   1   1   1   1
+	        9   0   1   2   3   4   5
+
+Maud            F                       F
+Michael         F                       F
+Murphy    (O)   F   F   F   A   F   F   F
+root      (O)   F   A   A   A   A   A   A
+Sherlock        F                       F
+Steve     (O)   F   F   F   F   F   F   A
+
+FOR             6   2   2   1   2   2   4
+AGAINST         0   1   1   2   1   1   2
+ABSTAIN         0   0   0   0   0   0   0
+Present         0   0   0   0   0   0   0 
+
+Voters          6   3   3   3   3   3   6
+Quorum(6|3)     Y   Y   Y   Y   Y   Y   Y
+PASSES?         Y   Y   Y   N   Y   Y   N
+
+===========================================================================
+Miscellaneous
+===========================================================================
+
+H. Scorekeepor OscarMeyr, please note: 
+
+Points awards:
+
+Entity     Points   Reason/Rule
+-------------------------------
+Murphy     +2       Disinterested P4509 adopted, 0 votes AGAINST; R2055
+Sherlock   +5       Interested P4510 adopted, 1 vote AGAINST; R2055
+root       +2       Only player to vote AGAINST P4510; R2055
+Murphy     +5       Interested P4511 adopted, 1 vote AGAINST; R2055
+root       +2       Only player to vote AGAINST P4511; R2055
+Steve      +2       Only player to vote FOR P4512; R2055
+Steve      +5       Interested P4513 adopted, 1 vote AGAINST; R2055
+root       +2       Only player to vote AGAINST P4513; R2055
+Murphy     +5       Interested P4514 adopted, 1 vote AGAINST; R2055
+root       +2       Only player to vote AGAINST P4514; R2055
+
+Bleethan   -20      No team member voted on P4509; R2055
+Bleethan   -20      No team member voted on P4515; R2055
+
+===========================================================================
+Text of Adopted Proposals
+===========================================================================
+
+Proposal 4509 by Murphy, AI=1, Democratic, Disinterested
+Vote Collector for Offices Does Not Move
+
+
+[Improved parallelism with Rules 1434 (Default Procedure for Referendum
+  Voting) and 1445 (Defaults for Elections).  Change "shall be" to "is",
+  and add "at the time the Election begins".]
+
+Amend Rule 1558 (Defaults for Elections for Offices) by replacing this
+text:
+
+       * The Vote Collector of the Election shall be the Assistant
+         Director of Personnel, unless the Office which the Election is
+         seeking to fill is that of the Assistant Director of
+         Personnel, in which case the Vote Collector shall be the
+         Speaker; and
+
+with this text:
+
+       * The Vote Collector is the Assistant Director of Personnel at
+         the time the Election begins, unless the Election seeks to
+         fill the Office of Assistant Director of Personnel, in which
+         case the Vote Collector is the Speaker at the time the Election
+         begins.
+
+
+-----------------------------------------------------------------------
+
+Proposal 4510 by Sherlock, AI=1, Ordinary
+Publicize Organizations
+
+
+Amend Rule 1458 (The Notary) to read:
+
+
+      The Notary is an office; its holder is responsible for
+      maintaining a record of organizations and their jurisdictions.
+
+
+      The Notary's Weekly Report shall include the following
+      information for each Organization:
+
+
+        (i)  its name;
+       (ii)  its Administrator;
+      (iii)  its Executor;
+       (iv)  its SLC's Maintainer; and
+        (v)  its Jurisdiction's Players.
+
+
+      The Notary's Monthly Report shall include the SLC of each
+      Organization.
+
+
+      Also, as soon as possible after the creation or dissolution
+      of any Organization, the Notary shall announce that fact.  If
+      an Organization is created, the Notary shall announce the
+      above information for that Organization.
+
+
+Amend Rule 1531 (Administrators of Organizations) to read:
+
+
+      Each Organization shall have an Administrator, who must be a
+      Member.  The Administrator of an Organization may only change as
+      specified by its Charter or by the Rules.
+
+      The Administrator is Maintainer of the Charter, unless otherwise
+      specified by its Charter or by the Rules.
+
+      The Administrator is Executor of the Organization, unless
+      otherwise specified by its Charter or by the Rules.
+
+      The Administrator shall inform the Notary of the following
+      changes as soon as possible after they occur, and identify the
+      nature of the change:
+
+
+        a) The Name changes.
+        b) The Administrator changes.
+        c) The Executor changes.
+        d) The Maintainer of the Charter changes.
+        e) The jurisdiction of the Charter changes.
+        f) The Organization voluntarily dissolves.
+        g) The Charter changes.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4511 by Murphy, AI=1, Ordinary
+Non-Preferential Silent Treatment
+
+
+Proposal:  Non-Preferential Silent Treatment
+
+Amend Rule 2036 (The Silent Treatment) by replacing each instance of
+this text:
+
+      the preferred email address of the player, if e has one
+
+with this text:
+
+      each listed e-mail address of the player
+
+Amend Rule 1670 (The Distributor) by replacing this text:
+
+      The Registrar is obliged to keep the Distributor informed of the
+      e-mail addresses of all Players, as well as to inform the
+      Distributor of any address change as soon as possible after e
+      learns of it.
+
+with this text:
+
+      The Registrar is obliged to keep the Distributor informed of all
+      listed e-mail addresses of all Players, as well as to inform the
+      Distributor of any listing or unlisting as soon as possible after
+      e learns of it.
+
+
+-----------------------------------------------------------------------
+
+Proposal 4513 by Steve, AI=1, Ordinary
+Invisibilitating
+
+Be it resolved, that the proposer of an adopted proposal (besides this
+proposal) that includes a provision that proposes to make changes to
+parts of the gamestate, where no player is required to report those
+changes in an official report, with the exception of the publication of
+that proposal by the Promotor and the Assessor, shall be guilty of the
+Class 0 Infraction of Invisibilitating.
+
+Enact a rule, titled "Invisibilitating", reading:
+
+        Each player is authorised to report the Infraction of
+        Invisibilitating.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4514 by Murphy, AI=1, Ordinary
+A Duty to Vote
+
+
+Create a rule titled "A Duty to Vote" with this text:
+
+       When an election fails quorum, each eligible voter who did not
+       vote commits the Class 1 Infraction of Apathy, to be reported
+       by the vote collector.
+
+
+
+-----------------------------------------------------------------------
+
+-- 
+
+
+Steve Gardner                   | 
+School of Computer Science      |      I've only just realized
+ and Software Engineering       |      how self-conscious I am.
+gardner@sng.its.monash.edu.au   | 
+

@@ -1,0 +1,256 @@
+Voting Results
+
+This Report:  Thu 28 Aug 03 (Proposals 4523 - 4525)
+Last Report:  Wed 20 Aug 03 (Proposal 4522)
+(All times are in UTC)
+
+Start of Voting Period:  Sun 17 Aug 03 18:00:44
+   End of Voting Period:  Sun 24 Aug 03 18:00:44
+
+O = Ordinary        d = Disinterested
+D = Democratic      u = Urgent
+P = Parliamentary   s = Sane
+                     c = contested
+
+Number    Title                    Author    AI   Flags     Result
+----------------------------------------------------------------------
+4523      Mornington Crescent      Murphy     1     D       Adopted
+4524      Fix Proposal 4514        root       1     D       Adopted
+4525      Clarify Rule 1458        Murphy     1     Dd      Adopted
+
+                     4523  4524  4525
+
+Blob                 F     F     F
+Murphy               F     F     F
+OscarMeyr            A     A     A
+root                 F     F     F
+Sir Toby             F     F     F
+Steve               2F+A  2F+A  2F+A
+
+FOR                  6     6     6
+AGAINST              2     2     2
+Abstain              0     0     0
+Present              0     0     0
+
+Voting Index         3     3     3
+Adoption Index       1     1     1
+
+Voters               6     6     6
+Quorum (13/3)        5     5     5
+
+Eris's attempted votes were a couple of days too late.
+
+All sub-sections of Proposal 4523 are effective.
+
+H. Scorekeepor OscarMeyr, please note Points awards (all due to Rule 2055):
+      <none>
+
+Text of Adopted Proposals
+---------------------------------------------------------------------------
+
+Proposal 4523 by Murphy, AI=1, Democratic
+Mornington Crescent
+
+Each vote on this proposal may be accompanied by an additional flag for
+one or more numbered sections.  These additional flags shall have values
+that would be valid as votes.  Unspecified flags are deemed to have the
+same value as the vote.
+
+If the additional flags for a given section would (if they were votes)
+prevent the adoption of this proposal, then that section is entirely
+without effect, even if this proposal is adopted.
+
+Section 1:  Activity
+Section 2:  Noisiness
+Section 3:  Role
+Section 4:  Readiness
+Section 5:  Orthodoxy
+Section 6:  Orientation
+Section 7:  Depth / Interest
+
+Amend Rule 2040 (Switches) by replacing this text:
+
+        Viscosity is a stuck switch for switches with values loose and
+        stuck.
+
+with this text:
+
+        A switch is loose unless the rules define it as stuck.
+
+and, if Section 6 takes effect, by replacing this text:
+
+        The recordkeepor for a class of entities shall also maintain
+        records of any switches associated with that class, as well as
+        for each entity of the class the current state of the switch.
+        If the recordkeepor is required to publish a report, that report
+        shall include records of these switches.
+
+with this text:
+
+        The recordkeepor for a class of entities shall also maintain
+        records of any switches associated with that class, as well as
+        the current state of the switch for each entity of the class.
+        If the recordkeepor is required to publish a report, that report
+        shall include records of these switches.  The rules may require
+        a different player to maintain and report these records.
+
+If Section 1 takes effect, then amend Rule 1016 (Activity Levels) to read:
+
+        Activity is a stuck player switch with values active and inactive.
+
+        "Off hold" and "on hold" are unambiguous synonyms for "active" and
+        "inactive", respectively.
+
+        A player may flip eir activity, unless e has done so within the
+        past week.
+
+        Inactive players may not vote, make proposals, hold office, or be
+        a judge of a CFJ.  An inactive player may not be required by the
+        rules to perform any duty or action, unless the rules explicitly
+        state that they can require inactive players to perform that duty
+        or action.
+
+        This rule takes precedence over all other rules that regulate
+        activity, or the powers or duties that a player may have because
+        of eir activity.
+
+If Section 2 takes effect, then amend Rule 1042 (Deregistration Due to
+Silence) to read:
+
+        Noisiness is a stuck player switch with values noisy, quiet, and
+        silent.
+
+        A non-noisy player becomes noisy whenever e posts to a public forum.
+
+        A player may flip another player's noisiness from noisy to quiet,
+        unless e has done so for another player within the past 24 hours.
+
+        If a player has been quiet continuously for one month, or inactive
+        continuously for three months, e becomes silent.
+
+        Any player may publish a Notice of Abandonment, identifying
+        another player and alleging that that player has abandoned the
+        game. A Notice of Abandonment is or becomes invalid if the player
+        identified in it is not, or ceases to be, silent.
+
+If Section 3 takes effect, then amend Rule 1960 (Roles) to read:
+
+        Role is a stuck player switch with values null, politician, scribe,
+        and acolyte.
+
+        A player may flip eir role if one of the following is true:
+
+            a) Eir role is null.
+
+            b) E has not changed eir role in the past three months.
+
+            c) E has not changed eir role in the past six weeks, and e
+               pays a fee of 2 kudos for the purpose of making this change.
+
+            d) E pays a fee of 6 kudos for the purpose of making this change.
+
+If Section 4 takes effect, then amend Rule 869 (Registered Players) by
+replacing this text:
+
+        Each Player is always either Ready or Unready, but not both.  A
+        Player is Ready unless the Rules state otherwise.  If a Player
+        is Unready, e may become Ready by announcing that e does so.
+
+with this text:
+
+        Readiness is a stuck player switch with values ready and unready.
+
+        An unready player may flip eir readiness to ready.
+
+If Section 5 takes effect, then amend Rule 1840 (Political Status) by
+replacing this text:
+
+        Each player's Political Status is either Abiding or Rebellious;
+        the Registrar shall include a list of Rebellious players in the
+        Registrar's Report.  A player can change eir Political Status by
+        publicly announcing e does so, provided e has not changed eir
+        Political Status during the current month. A new players is
+        always Abiding when e becomes a player.
+
+with this text:
+
+        Orthodoxy is a stuck player switch with values abiding and
+        rebellious.
+
+        A player may flip eir orthodoxy, unless e has done so during the
+        current month.
+
+If Section 6 takes effect, then amend Rule 1871 (Turns for All) to read:
+
+        Orientation is a stuck player switch with values unturned and
+        turned.  The Clerk of the Courts shall maintain and report
+        records for this switch.
+
+        Whenever a player is selected as Trial Judge of a CFJ, e becomes
+        turned.  Turned players are ineligible to be Trial Judge of any
+        future CFJs.
+
+        Whenever there are no players eligible to be Trial Judge of a
+        CFJ, all turned players become unturned.
+
+If Section 6 takes effect, then amend Rule 2035 (The Unready are Ineligible)
+to read:
+
+        Whenever an unready player is unturned, e becomes turned.
+
+If Section 6 takes effect, then amend Rule 2032 (Errors in Judge Selection)
+by replacing the text "Turning Around And Around" with "turned".
+
+If Section 6 takes effect, then upon the adoption of this proposal, all
+players who were Turning Around And Around immediately prior to the adoption
+of this proposal become turned.
+
+If Section 7 takes effect, then amend Rule 1952 (Making Proposals
+Distributable) to read:
+
+        Depth is a stuck proposal switch with values undistributable and
+        distributable.
+
+        A player may flip a proposal's depth to distributable by paying a
+        fee equal to its Distribution Cost, or to undistributable by paying
+        a fee equal to twice its Distribution Cost.
+
+If Section 7 takes effect, then amend Rule 1623 (Disinterested Proposals) to
+read:
+
+        Interest is a stuck proposal switch with values interested and
+        disinterested.
+
+        A player may flip an undistributed proposal's interest to
+        disinterested, without objection.
+
+        When a proposal becomes disinterested, it becomes distributable,
+        and its depth may not be flipped to undistributable while it
+        remains disinterested.
+
+-----------------------------------------------------------------------
+
+Proposal 4524 by root, AI=1, Democratic
+Fix Proposal 4514
+
+Amend the rule titled "A Duty to Vote" by changing it to read:
+
+        When an election fails quorum, each eligible voter who did not
+        vote or declare emself present commits the Class 1 Infraction of
+        Apathy, to be reported by the vote collector.
+
+-----------------------------------------------------------------------
+
+Proposal 4525 by Murphy, AI=1, Democratic, Disinterested
+Clarify Rule 1458
+
+Amend Rule 1458 (The Notary) by replacing this text:
+
+        The Notary's Monthly Report shall include the SLC of each
+        Organization.
+
+with this text:
+
+        The Notary's Monthly Report shall include the Charter of each
+        Organization.
+

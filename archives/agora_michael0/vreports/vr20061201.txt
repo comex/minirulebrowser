@@ -1,0 +1,67 @@
+
+I take up the role of vote collector for Proposals 4874 and 4875 (deadline on
+4875 passed yesterday).
+
+Proposal 4874 RESULTS
+FOR:      Eris, Maud, root, Goethe*, Sherlock**
+AGAINST:  OscarMeyr, The Grey Knight
+PRESENT:  Quazie***
+AI:       4
+VI:       5/2
+Result:   FAILS
+
+*Goethe's vote:
+> I vote FOR, if I don't vote AGAINST.
+Goethe didn't vote against, so this vote is counted FOR.
+
+**Sherlock's second vote:
+> I vote FOR if Goethe votes FOR, and PRESENT if Goethe voted FOR.
+Did not retract previous FOR vote, which stands.  Ballots must be retracted.
+
+***Quazie:
+> I vote AGAINST if I vote AGAINST, PRESENT if i can change my vote, and FOR...
+"If I can change my vote" is taken as reasonble ackknowledgement of retraction
+and re-vote.  Other clauses aren't.
+
+Note that no interpretation of these above conditionals would have changed
+the result from FAILED.
+
+
+Proposal 4875 RESULTS
+FOR:     root, Eris, Murphy, Goethe, Quazie*
+AGAINST: OscarMeyr, Maud
+PRESENT: Sherlock
+AI:      1
+VI:      5/2
+Result:  ADOPTED
+
+*Quazie's vote:
+> I vote FOR 4875, if Maud votes AGAINST 4875.
+is straightforward.
+
+TEXT OF ADOPTED PROPOSALS:
+
+----------------------------------------------------------------------
+
+Proposal 4875 by Goethe, AI=1, Ordinary
+If 2.0
+
+
+Enact the following rule entitiled Conditional Votes:
+
+      A ballot option (vote) on an Agoran decision may be
+      submitted conditionally, and the truth or falsity of
+      the condition and thus the selected option will be
+      determined as it exists at the end of the voting period.
+
+      The option selected shall be considered to be clearly
+      identified if and only if the truth or falsity of the
+      specified condition(s) can be reasonably determined,
+      without circularity or paradox, from information
+      published within the voting period.
+
+----------------------------------------------------------------------
+
+==Goethe
+
+

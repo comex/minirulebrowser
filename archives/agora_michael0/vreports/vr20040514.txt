@@ -1,0 +1,252 @@
+Voting Results
+
+This Report:  Fri 14 May 04 (Proposals 4573 - 4574)
+Last Report:  Sun  2 May 04 (Proposals 4569 - 4572)
+(All times are in GMT)
+
+Start of Voting Period:  Sun  2 May 22:22:18
+  End of Voting Period:  Sun  9 May 22:22:18
+
+O = Ordinary        d = Disinterested   s = Sane         + = Positive Ad
+D = Democratic      u = Urgent          c = Contested    - = Negative Ad
+
+Number    Title                         Author    AI   Flags     Result
+------------------------------------------------------------------------
+4573      Creating the Framework fo...  Wes       1    D         Adopted
+4574      Wacky Cards                   Wes       1    D         Adopted
+
+               4573  4574    Team
+
+Elysion          F     F   Vyregurk
+Eris             F     F   Duckfield
+Goethe           F     F   Bryzzleoc
+Kolja            F         Vyregurk
+Maud             A     A   Wuckleshaw
+OscarMeyr        F     A   Wuckleshaw
+root             F     F   Vyregurk
+Sir Toby         F     F   Bryzzleoc
+
+(Michael's votes and declarations of presence all missed the end of the
+voting periods.)
+
+FOR              7     5
+AGAINST          1     2
+Abstain          0     0
+Present          0     0
+
+Voting Index     7     2.5
+Adoption Index   1     1
+
+Voters           8     7
+Quorum (D:15/3)  5     5
+
+H. Scorekeepor Goethe, please note Points awards due to Rule 2055:
+
+     [P3] Wes +6 (4573), Wes +9 (4574)
+     [P4] Maud +5 (4573)
+     [P5] <none>
+     [P6] <none>
+     [P7] <none>
+     [P8] <none>
+
+     [T1] <none>
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4573 by Wes, AI=1, Democratic
+Creating the Framework for Cards
+
+
+Create a new Rule titled "The Deckmastor" with the following text:
+
+      The Deckmastor is an office which acts as the recordkeepor for 
+      Cards. The Deckmastor's Weekly Report shall contain a record of 
+      all Cards in existence and what entity possesses each Card.
+
+      The Deckmastor shall have a budget containing the Maximum Hand
+      Size, which is a positive integer between 3 and 10. In the 
+      absence of a budget, the Maximum Hand Size shall be 5.
+
+      The Deck is a Gambler. The Deckmastor shall be the sole Executor 
+      of The Deck, but may take no action on behalf of The Deck except 
+      as explicitly permitted by the Rules. The Deck may not transfer 
+      Cards to any other entity except as explicitly required by the 
+      Rules.
+
+      Only the Deckmastor may create or destroy Cards, and e may do
+      if and only if the Rules require it by announcing the Card being
+      created or destroyed and the entity who either possesses it now 
+      or possessed it at the time of destruction as appropriate.
+
+
+Create a new Rule titled "Card Definitions" with the following text:
+
+      I. Possession
+
+      Cards may be possessed by Gamblers. All Players are Gamblers.
+      If at any time a Card is not possessed by a Gambler, it 
+      immediately and automatically returns to the possession of 
+      The Deck.
+
+      The Gambler that possesses a Card is that Card's Holder and 
+      Holds that Card. All Cards possessed by a particular Gambler 
+      are collectively referred to as that Gambler's Hand. A 
+      Gambler's Hand Size is the number of Cards in eir Hand plus
+      one for each Pending Draw for that Gambler. 
+
+      II. Definitions
+
+      The Rules may define a Class of Card by specifying a Caption, a
+      Quota, zero or more Elements, and zero or more Exploits. All 
+      Cards of the same Class shall be identical and fungible. Each 
+      individual instance of a Card shall be considered to be a Copy 
+      of that Class of Card.
+
+      (a) The Caption shall be the name of a particular Class of 
+          Cards. No two Classes of Cards shall have the same Caption.
+
+      (b) The Quota shall be a non-negative integer. If at any time 
+          fewer Copies of a Class of Cards exist than its Quota, 
+          then the Deckmastor shall create a Copy of that Card in the 
+          possession of The Deck. If at any time more Copies of a 
+          Class of Cards exist than its Quota, then the Deckmastor 
+          shall destroy a Copy of that Card in the possession of The 
+          Deck, unless no such Copies exist, in which case the 
+          Deckmastor shall destroy a random Copy.
+
+      (c) The Rules may define Elements for Cards. Each Element shall 
+          have a name and a description. Any Card possessing the 
+          Element of that name shall behave according to the 
+          description associated with that Element. An Element not
+          defined in the Rules has no effect.
+
+      (d) An Exploit is an action that the Holder of that Card (and 
+          only the Holder of that Card) may take if and only if e 
+          meets the requirements and/or pays the costs outlined in 
+          that Exploit. Any reference to "you," "your" or a similar 
+          pronoun in the text of an Exploit refers to the Holder of 
+          that Card. Taking an action described in an Exploit is 
+          known as Playing the Card. Unless a Rule says otherwise, 
+          a Card is automatically transferred to The Deck immediately
+          after being Played.
+
+      III. Actions
+
+      No action involving Cards may be simultaneous with any other 
+      action. No such action may be performed more than once 
+      simultaneously. If any attempt is made to perform more than one 
+      such action in such a way that the order of said actions is 
+      unclear, all such actions fail.
+
+      (a) Unless restricted from doing so by the rules, any Gambler
+          possessing a Card may transfer that Card to any other 
+          Gambler by announcing which Card is to be transferred and 
+          the Gambler it shall be transferred to. All such transfers
+          take place at the time they are announced.
+
+          Discarding a Card is synonymous with transfering said Card
+          to The Deck.
+
+      (b) Drawing a Card and Drawing from The Deck are synonymous.
+
+          When a Gambler Draws a Card, the Deckmastor shall be 
+          required to randomly select one Card from among those 
+          currently in The Deck's Hand and transfer it to that Gambler 
+          as soon as possible. Until this transfer takes place, that 
+          Gambler is said to have one Pending Draw for each such 
+          transfer the Deckmastor is required to make, but has not 
+          yet made.
+
+          A Gambler may Draw from The Deck for a Fee equal to the
+          number of times that Gambler has previously Drawn from the
+          Deck during the current month so long as the Gambler's
+          Hand Size is smaller than the Maximum Hand Size.
+
+
+Create a new Rule titled "Card Powerz" with the following text:
+
+      The following Elements for Cards are defined:
+
+      * Budgeted: The Quota for this Card is determined in the
+        Deckmastor's budget. If the budget is undefined, or does not
+        set the Quota for this Card, then the Quota shall be 3.
+
+      * Handed [X], where X is a non-negative integer: When
+        calculating Hand Size, this Card counts as X Cards.
+
+      * Restricted [X], where X is a type of entity: Only entities
+        considered to be an X may Activate any Exploit possessed
+        by the Card.
+
+      * Limited [X] [Y], where X is a type of entity and Y is a 
+        positive integer: For an entity not considered to be an X
+        to Activate any Exploit possessed by the Card requires em to
+        pay a Fee of Y.
+
+      * Persistent: Playing this Card does not result in its being
+        transferred to The Deck.
+
+      * Bleed [X], where X is a non-negative integer: At the beginning
+        of each week, the Holder of this card loses X Points.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4574 by Wes, AI=1, Democratic
+Wacky Cards
+
+
+Create a new Rule titled "Wacky Cards" with the following text:
+
+      The following Classes of Cards are defined:
+
+      * Caption: ZOT!
+        Quota: 1
+        Elements: Handed [3]
+        Exploit: For a Fee of X Kudos, an entity of your choice loses 
+          (X times 10) Points. If this would cause that entity to have
+          fewer than zero Points, e shall instead have zero Points.
+
+      * Caption: Albatross Flies Away
+        Quota: 1
+        Elements: Limited [Immaculate Players] [3]
+        Exploit: You may revoke one of your own Albatrosses.
+
+      * Caption: Point Mine
+        Quota: 1
+        Elements: Persistent
+        Exploit: So long as you have not done so already during the 
+          current week, you may gain 1 Point.
+
+      * Caption: Dud
+        Elements: Budgeted, Persistent
+        Exploit: You may wish in your own mind that you had a 
+          luckier Draw.
+
+      * Caption: Dud Fusion
+        Quota: 1
+        Elements: Bleed [2]
+        Exploit: You may discard X Dud Cards to gain X times 20 
+          Points.
+
+      * Caption: Player Stasis
+        Quota: 1
+        Elements: None
+        Exploit: A Player of your choice is unable to Play a Card for
+          the next 88 hours.
+
+      * Caption: Hot Potato
+        Quota: 1
+        Elements: Persistent
+        Exploit: Transfer this Card to another entity. If that entity 
+          does not post to a Public Forum the phrase "Hot Potato" with 
+          48 hours, they are guilty of the Class 1 Infraction of 
+          Dropping the Potato which you are authorized to Report.
+
+      * Caption: It's a Surprise!
+        Quota: 1
+        Elements: Handed [2]
+        Exploit: You may Draw two Cards without paying a Fee.
+

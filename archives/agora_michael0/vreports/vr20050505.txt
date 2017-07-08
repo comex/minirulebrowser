@@ -1,0 +1,469 @@
+Voting Results
+
+This Report:  Thu  5 May 05 (Proposals 4733 - 4744)
+Last Report:  Mon 25 Apr 05 (Proposals 4715 - 4729)
+(All times are in GMT)
+
+The results of Proposals 4730 - 4732 are delayed, pending the resolution
+of CFJs 1550 and 1562.
+
+Start of Voting Period:  Mon 25 Apr 02:30:04
+   End of Voting Period:  Mon  2 May 02:30:04
+
+O = Ordinary        d = Disinterested   s = Sane
+D = Democratic      u = Urgent          t = Takeover
+
+Number    Title                         Author    AI   Flags    Result
+-----------------------------------------------------------------------
+4733      Clarify Card Plays            root      1    O        Adopted
+4734      Card Experiments              Sherlock  1    O        Adopted
+4735      The Map of Agora              Maud      1    O        Adopted
+4736      Yes.                          Quazie    1    O        Adopted
+4737      Cleaning up the Draw rules    Quazie    1    O        Failed quorum
+4738      Easier Card Fees 2            Manu      1    O        Adopted
+4739      Pragmatic Reshuffles          root      1    O        Adopted
+4740      1 lower quota, 2 more wins    Quazie    1    O        Adopted
+4741      Ephemera from the Promotor    Quazie    1    O        Rejected
+4742      Herald's Ephemera             Quazie    1    O        Rejected
+4743      Contracts                     Manu      1    O        Adopted
+4744      Make those cards work 2.01    Quazie    1    O        Adopted
+
+Proposal 4737 was vetoed.  This is a Notice of Complacency for Proposal 4737.
+
+                4733  4734  4735  4736  4737  4738  4739  4740  4741  4742
+
+Manu            6F    6F   5F+A   6A   4F+2A  6F    6F    6F    6A    6A
+OscarMeyr       3F    3F    F+A   F+A         3A    3F    3F    3A    3A
+Quazie          3F     -    3F    3F    3F     -    3F    3F    3F    3F
+
+FOR             12     9     9    10     7     6    12    12     3     3
+AGAINST          0     0     2     2     2     3     0     0     9     9
+Abstain          0     1     0     0     0     1     0     0     0     0
+Present          0     0     0     0     0     0     0     0     0     0
+
+Voting Index    *U*   *U*    4.5   5     3.5   2    *U*   *U*    0.3+  0.3+
+Adoption Index   1     1     1     1     1     1     1     1     1     1
+
+Voters           3     3     3     3     2     3     3     3     3     3
+Quorum (D:9/3)   3     3     3     3     3     3     3     3     3     3
+
+                4743  4744
+
+Manu            6F    6F
+OscarMeyr       3F    3F
+Quazie           -    3F
+
+FOR              9    12
+AGAINST          0     0
+Abstain          1     0
+Present          0     0
+
+Voting Index    *U*   *U*
+Adoption Index   1     1
+
+Voters           3     3
+Quorum (D:9/3)   3     3
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4733 by root, AI=1, Ordinary
+Clarify Card Plays
+
+
+Amend Rule 2069 by replacing the text that reads:
+
+       (d) An Exploit is an action that the Holder of that Card (and
+           only the Holder of that Card) may take if and only if e
+           meets the requirements and/or pays the costs outlined in
+           that Exploit. Any reference to "you," "your" or a similar
+           pronoun in the text of an Exploit refers to the Holder of
+           that Card. Taking an action described in an Exploit is known
+           as Playing the Card. Unless a Rule says otherwise, a Card is
+           automatically transferred to the Discard Pile immediately
+           after being Played.
+
+with:
+
+       (d) An Exploit is an action that the Holder of that Card (and
+           only the Holder of that Card) may take if and only if e
+           clearly indicates the card whose Exploit e is performing and
+           e meets the requirements and/or pays the costs outlined in
+           that Exploit. Any reference to "you," "your" or a similar
+           pronoun in the text of an Exploit refers to the Holder of
+           that Card. Taking an action described in an Exploit is known
+           as Playing the Card. Unless a Rule says otherwise, a Card is
+           automatically transferred to the Discard Pile immediately
+           after being Played.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4734 by Sherlock, AI=1, Ordinary
+Card Experiments
+
+
+Create a rule entitled "Contreras Card Labs" with the following text in
+the category "The University of Agora":
+
+       The University encourages Card experimentation.
+
+       A Player may publish a piece of text and note that it is a Card
+       Blueprint.  If this text contains a Caption, a copy of that Card
+       is created in the possession of the Library.  The Card Blueprint
+       may also specify Elements and Exploits, as defined by other rules,
+       and these are included on the Card in the same way they would be
+       if they were included on a rules-defined Card.
+
+       Cards created by this method have a Quota of 1 and are considered
+       to be in eir Trial Run.  A Card in its Trial Run may not be checked
+       out of the Library until seven days have passed since its creation.
+       Any player may destroy a Card in its Trial Run by announcing e does
+       so.
+
+       A Card in its Trial Run is transferred to the Library after it is
+       played.
+
+Amend 2068 (The Deckmastor) by changing the text that reads:
+
+       Only the Deckmastor may create or destroy Cards, and
+
+to read:
+
+       Only the Deckmastor may create or destroy Cards not in eir Trial
+       Run, and
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4735 by Maud, AI=1, Ordinary
+The Map of Agora
+
+
+Enact a rule, titled "The Map of Agora", reading:
+
+                               ____  _        /|
+                    DARWIN ->  \_  |/ |      / \
+                              __/    /      |  |
+            <- DSV          /      /        |  \
+                        _   \      \_       |   \
+                  MORNINGTON CRESCENT ->    /    |      <- GREAT BARRIER REEF
+                 _ _/       |         \_/\_/     \
+                / \\ <- SHARK BAY      |         |
+               /            |          |          \ <- TOWNSVILLE
+            ___/            |          |           \_
+         __/                |          |             |
+        /                   |          |             \
+       /           O <- L. DISAPPOINTMENT            |/\
+      |                     |          |               |_
+      |                     |          |  EMERALD ->     \
+      \                     |__________=_____,             \
+       /                    |                |             | <- BRISBANE
+       \      O <- LT. ANNE MOORE            |        __  _\
+        \                   |                |_______/  \/ |
+         |                __/\      <- TARCOOLA           /   LORD HOWE ->
+         \             __/    \_             /           /
+PERTH -> |      _  __/         |   /| IVANHOE ->       | <- WOLLONGONG
+          /    _/ \/             \ / /       |         /
+         |_   /     <- ESPERANTO  v /__     |_        / <- CANBERRA
+           \_/                         \    | \_    _|
+                                       |    |   \__/
+                                        \___=_  ___|
+                                 MELBOURNE -> \/
+
+                                            /\__
+                                            |   |
+                                             |  /
+                                             \_/ <- HOBART
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4736 by Quazie, AI=1, Ordinary
+Yes.
+
+
+Append the following to rule 1922
+
+       (e) Hyperactive, to be awarded to any player who has more than 10
+           proposals pass in one week.
+
+Quazie is awarded the patent title of Hyperactive for his proposals
+that passed from the distribution on April 11th
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4738 by Manu, AI=1, Ordinary
+Easier Card Fees 2
+
+
+[In the Cards section, "cost" appears once and "fee" 11 times.]
+
+In Rule 2069, replace the text reading:
+
+       (d) An Exploit is an action that the Holder of that Card (and
+           only the Holder of that Card) may take if and only if e
+           meets the requirements and/or pays the costs outlined in
+           that Exploit.
+by
+       (d) An Exploit is an action that the Holder of that Card (and
+           only the Holder of that Card) may take if and only if e
+           meets the requirements and/or pays the fees outlined in
+           that Exploit.
+
+Create a new Rule titled "Card Fees" which reads:
+
+       All fees associated with Card Actions, Elements and Exploits
+       must be paid as soon as possible by the Gambler incurring the
+       fee. For every Kudo not paid on time, the Gambler commits the
+       Class 1 Infraction of Debt Overdue, which may be reported by any
+       Player.
+
+       This rule takes precedence over all rules pertaining to Cards
+       fees.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4739 by root, AI=1, Ordinary
+Pragmatic Reshuffles
+
+
+Amend Rule 2069 by replacing the text reading:
+
+            If, at any time, the number of pending draws for all
+            gamblers is greater than the number of cards in the Deck,
+            then the Deckmastor shall transfer all of the cards in the
+            Discard Pile to the Deck before dealing any cards.  This
+            transfer is known as a Reshuffle and is performed as a
+            single action.
+
+with:
+
+            Whenever a player makes a true announcement that the number
+            of pending draws for all gamblers is greater than the
+            number of cards in the Deck, or that there are no cards in
+            the Deck, then the Deckmastor shall transfer all of the
+            cards in the Discard Pile to the Deck before dealing any
+            cards.  This transfer is known as a Reshuffle and is
+            performed as a single action.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4740 by Quazie, AI=1, Ordinary
+1 lower quota, 2 more wins
+
+
+in Rule 1932 change
+
+         Quota: 8
+         Elements: Restricted [Shareholders]
+
+to
+
+
+         Elements: Restricted [Shareholders], Budgeted
+
+and set the budget equal to 3
+
+In rule 2075 change
+
+       The Deckmastor's Budget shall contain between one and three
+
+to
+
+       The Deckmastor's Budget shall contain between one and five
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4743 by Manu, AI=1, Ordinary
+Contracts
+
+
+Create a new Rule entitled "Contracts" which reads as follow:
+
+       There exists a type of agreement known as a Contract. A Contract
+       is an Entity. The content of a Contract is called its
+       Regulations. The first Player to announce the creation of a
+       Contract is its Executor and is known as the Notary of that
+       Contract. Any other Player may decide to become part of a
+       Contract by notifying that Contract's Notary. Players party to a
+       Contract, including the Notary, are the Members of this
+       Contract. A Member may leave a Contract at any time by notifying
+       the Notary.
+
+       A Contract may contain any number of Regulations. Regulations
+       have the power to constrain the actions of Players in the same
+       manner as the Rules.  However, Regulations have power over only
+       those Players that are Members of that Contract. All Members
+       are required to abide by the Regulations, unless doing so would
+       violate the Rules. Violation of this requirement is the Class 1
+       Crime of Insubordination. A Contract may include in its
+       Regulations ways for Players to leave the Contract.
+
+       Rules to the contrary notwithstanding, no Player shall ever
+       involuntarily become a Member of a Contract.
+
+       If the Notary of a Contract becomes Silent, all Members of this
+       Contract cease to be Members of this Contract and the Contract
+       ceases to exist.
+
+       Only Members of a Contract may CFJ that a Member has violated
+       that Contract. All Members of a Contract are automatically
+       ineligible to Judge a CFJ that a Member has violated that
+       Contract.
+
+       All Rules regulating agreements that are inconsistent with this
+       Rule are superseded to the extent of such inconsistency.
+
+Create a new Rule entitled "Contract Maintenance" that reads:
+
+       The Notary of a given Contract must provide a copy of its
+       Regulations to any other Player who requests it, as soon as
+       possible after the request is made.  The Notary of a
+       Contract must also provide an updated copy of the Regulations
+       to all Members as soon as possible after the Regulations change
+       for any reason. Regulations can not be changed except in
+       accordance with the Rules. Regulations are permitted to define
+       their own mechanisms for changing their own content, and any
+       change to Regulations adopted in accordance with their own
+       mechanisms is legal.
+
+       The Notary may, without objection, change the Regulations
+       provided e sends a copy of the new Regulations to all Members
+       as soon as possible.
+
+Rename Rule 2096 to "Card-Carrying Contracts" and amend it to read:
+
+       A Contract may be made into a Card-Carrying Contract by its
+       Notary acting with two support and without two objections.
+       A player may only be Notary of one Card-Carrying Contract
+       at a time.
+
+       A Card-Carrying Contract is a gambler, and may perform the
+       following actions only as explicitly permitted by its
+       regulations:
+         1.  As long as the Contract has at least three Members and its
+             hand size is less than the maximum hand size, it may draw
+             a number of cards each month equal to its number of
+             Members at the beginning of the month divided by two and
+             rounded up.
+         2.  Transfer or discard cards.
+
+       A Card-Carrying Contract may not play cards.
+
+
+Amend Rule 910 to read:
+
+        The Justiciar is an office; its holder is responsible for
+        justice, serving on a Board of Appeals when necessary.
+
+
+In Rule 1727, replace the part that reads:
+
+       BE IT FURTHER RESOLVED that the Herald may select one Contest,
+       in existence on Agora's Birthday, which has as its purpose
+       encouraging the celebration of Agora's Birthday.  Within the
+       month following Agora's Birthday, that Contest may award its
+       Members the Patent Title Nth Anniversary Ribbon, where N is the
+       number of years of Agora's existence;
+with:
+       BE IT FURTHER RESOLVED that the Herald may select one Contract,
+       in existence on Agora's Birthday, which has as its purpose
+       encouraging the celebration of Agora's Birthday.  Within the
+       month following Agora's Birthday, that Contract may award its
+       Members the Patent Title Nth Anniversary Ribbon, where N is the
+       number of years of Agora's existence;
+
+
+Repeal Rule 1588 (Subordinate Legal Codes)
+Repeal Rule 1595 (Precedence of SLCs)
+Repeal Rule 1591 (Jurisdiction of SLCs)
+Repeal Rule 1594 (Violation of SLCs)
+Repeal Rule 1457 (Judicial Procedure for Violations of an SLC)
+Repeal Rule 1590 (Notary of SLCs)
+Repeal Rule 1589 (Modification of SLCs)
+Repeal Rule 1592 (Authority of SLCs to Change Properties)
+Repeal Rule 1528 (Organizations)
+Repeal Rule 1614 (Names of Organizations)
+Repeal Rule 1987 (Classes of Organizations)
+Repeal Rule 1612 (Charters of Organizations)
+Repeal Rule 1531 (Administrators of Organizations)
+Repeal Rule 1533 (Application to Create an Organization)
+Repeal Rule 1397 (Dissolution of Organizations)
+Repeal Rule 2038 (Joining a Monastery)
+Repeal Rule 1446 (Contests)
+Repeal Rule 1539 (Regulations and Membership of Contests)
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4744 by Quazie, AI=1, Ordinary
+Make those cards work 2.01
+
+
+root is a co-author on this proposal
+
+Replace the following from Rule 2076
+
+       Caption:  Reshuffle
+       Quota:    3
+       Elements: Asleep[15]
+       Exploit:  The Deckmastor must Reshuffle before dealing
+                 any cards.
+
+with
+
+       Caption:  Reshuffle
+       Quota:    3
+       Elements: Asleep[15]
+       Exploit:  You may perform a Reshuffle.
+
+Replace the following from rule 2079
+
+      Exploit: If this card has not been Played in the current
+               quarter, then, as soon as possible after this card is
+               played, the Deckmastor shall simultaneously transfer
+               all cards from non-Deck hands to a temporary Gambler
+               known as Fate.  E shall then deal cards at random from
+
+with
+
+     Exploit: If this card has not been played in the current quarter,
+                  then you may simultaneously transfer all cards that are
+                  not in the Deck or Discard Pile to a temporary Gambler
+                  known as Fate.  As soon as possible after this card is
+                  played, the Deckmastor shall then deal cards at random from
+
+Replace the following wherever it appears in the ruleset
+
+     * Caption: Library Renewal
+       Elements: Budgeted
+       Exploit: Upon playing this card you may indicate a number
+                1 through 5.  ASAP after you do this the speaker
+                must randomly discard that many cards from the
+                Library's hand that are not reserved.  If the
+                Speaker has discarded all non reserved cards
+                then e does not need to discard any more.
+
+with
+
+     * Caption: Library Renewal
+       Elements: Budgeted
+       Exploit: You may indicate a number 1 through 5. As
+                soon as possible after you do this the Speaker
+                must randomly discard that many cards from the
+                Library's hand.  If there are fewer cards in the
+                Library's hand then the number you indicate the
+                Speaker must discard them all.

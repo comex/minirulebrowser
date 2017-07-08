@@ -1,0 +1,299 @@
+Voting Results
+
+This Report:  Mon 18 Apr 05 (Proposals 4703 - 4714)
+Last Report:  Mon 18 Apr 05 (Proposals 4676 - 4702)
+(All times are in GMT)
+
+Start of Voting Period:  Mon 11 Apr 02:40:32
+   End of Voting Period:  Mon 18 Apr 02:40:32
+
+O = Ordinary        d = Disinterested   s = Sane
+D = Democratic      u = Urgent          t = Takeover
+
+Number    Title                         Author    AI   Flags    Result
+-----------------------------------------------------------------------
+4703      Fix the Choas                 Quazie    1    Od       Adopted
+4704      Magical Mute Refinement V.2   Quazie    1    Od       Adopted
+4705      Rogues' Gallery 1.1           Sherlock  1    Od       Adopted
+4706      Instant Library               Quazie    1    Od       Adopted
+4707      Fool me thrice                Goethe    1    O        Aborted
+4708      Quack Quack                   OscarMeyr 1    O        Adopted
+4709      Inside Agent                  Manu      1    O        Adopted
+4710      Promotor's Ex-lax             Quazie    1    O        Adopted
+4711      More Kudo Cards V.2           Quazie    1    O        Adopted
+4712      Library Cards                 Quazie    1    O        Adopted
+4713      Cabinet? But why?             Quazie    1    O        Adopted
+4714      The following classes of ...  Quazie    1    O        Adopted
+
+Ineffective votes:
+   Manu's third votes on 4703 - 4706, 4708 - 4714 (VPOP = 2)
+   Manu's presence on 4707 (no presence on Ordinary Proposals)
+   OscarMeyr's presence on 4703 - 4712 (no presence on Ordinary Proposals)
+   Quazie's presence on 4703 - 4712 (no presence on Ordinary Proposals)
+
+Proposal 4707 was aborted by the playing of a Procedure card.
+Unofficial voting statistics are included for completeness.
+
+                4703  4704  4705  4706  4707  4708  4709  4710  4711  4712
+
+Goethe          5F   F+3A   5F   4F+A   3F   3F+2A  5A   F+3A  3F+A  3F+2A
+Manu            2F    2F    2F    F+A         2F    2F    2A    2F    2F
+OscarMeyr       3F    3F    3F    3F          3F    3F    3F    3F    3F
+Quazie          2F    2F    2F    2F     F    2F    2F    2F    2F    2F
+
+FOR             12     8    12    10     4    10     7     6    10    10
+AGAINST          0     3     0     2     0     2     5     5     1     2
+Abstain          0     0     0     0     0     0     0     0     0     0
+Present          0     0     0     0     0     0     0     0     0     0
+
+Voting Index    *U*    2.6+ *U*    5    *U*    5     1.4   1.2  10     5
+Adoption Index   1     1     1     1     1     1     1     1     1     1
+
+Voters           4     4     4     4     2     4     4     4     4     4
+Quorum (D:13/3)  3     3     3     3     3     3     3     3     3     3
+
+                4713  4714
+
+Goethe         2F+3A 4F+A
+Manu            F+A   2F
+OscarMeyr       3F    3F
+Quazie          2F    2F
+
+FOR              8    11
+AGAINST          4     1
+Abstain          0     0
+Present          0     0
+
+Voting Index     2    11
+Adoption Index   1     1
+
+Voters           4     4
+Quorum (D:13/3)  3     3
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4703 by Quazie, AI=1, Ordinary, Disinterested
+Fix the Choas
+
+
+Change "Deckmaster" in R2079 to "Deckmastor"
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4704 by Quazie, AI=1, Ordinary, Disinterested
+Magical Mute Refinement V.2
+
+
+Rewrite R 2085 (Mute Exemption) to read as follows:
+
+       A Legislator who is Mute may, with two support, submit a body
+       of text, labeled a Mute Exemption Proposal which acts as if it
+       were a normal Proposal if it meets all rule requirements for a
+       Proposal other than the Proposer not being Mute.
+
+       As soon as possible after a Proposal with Mute Exemption passes,
+       the Assessor shall expunge a number of Blots from the Proposer
+       equal to the Adoption Index of the Proposal.  In the event that
+       the Adoption Index is greater than 5 then a maximum of 5 blots shall
+       be expunged. The Proposer shall receive no Boons that may have
+       awarded by other rules for the passing of the Proposal.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4705 by Sherlock, AI=1, Ordinary, Disinterested
+Rogues' Gallery 1.1
+
+
+Amend R2084 (Cash Cards) by replacing the text that reads:
+
+         Exploit: Provided that fewer than half of all gamblers,
+           besides the deck, have a 'Thieves in the Night' card in
+           their hand, and the player you indicate does not have a
+           'Thieves in the Night' card in their hand, That player
+           losses one Kudo and you gain one Kudo.  For each of the
+           aforementioned stipulations that is false upon the playing
+           of this card, you gain the Albatross of Thief.
+
+with the text:
+
+         Exploit: Provided that fewer than half of all Players have a
+           Thieves in the Night card in their hand, and the player you
+           indicate does not have a Thieves in the Night card in their
+           hand, that player losses one Kudo and you gain one Kudo.
+           For each of the aforementioned stipulations that is false
+           upon the playing of this card, you gain the Albatross of
+           Thief.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4706 by Quazie, AI=1, Ordinary, Disinterested
+Instant Library
+
+
+Replace the following from Rule 2089
+
+       As soon as possible after a Card is checked out from the Library
+       and it is within the Speaker's ability to do so, the Speaker
+       shall transfer the Card from the Library to the Borrower.
+
+with
+
+       Immediately after a Card is checked out from the Library
+       it is transfered from the Library to the Borrower.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4708 by OscarMeyr, AI=1, Ordinary
+Quack Quack
+
+
+Amend R1922 by deleting the text:
+       (b)  Quack, which may be awarded to any Player who has shown
+            great enthusiasm, persistence, or skill in the production,
+            distribution, and marketing of panaceas and other patent
+            medicines.
+
+And by replacing the text reading:
+
+       (c)  A Patent Title (non-unique) now will
+
+With text reading:
+
+       (b)  A Patent Title (non-unique) now will
+
+And by replacing the text reading:
+
+       (d)  Filthy Bureaucrat, to be awarded to any player who at some
+
+With text reading:
+
+       (c)  Filthy Bureaucrat, to be awarded to any player who at some
+
+And by replacing the text reading:
+
+       (e) Three Months Long Service, Six Months Long Service, Nine
+
+With text reading:
+
+       (d) Three Months Long Service, Six Months Long Service, Nine
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4709 by Manu, AI=1, Ordinary
+Inside Agent
+
+
+Append the following to Rule 2071:
+
+       * Caption: Police State
+         Elements: Budgeted,
+                   Restricted [Abiding]
+         Exploit: For a fee of N Kudos, where N is the current number
+           of Rebellious Players, decrease the effective number of
+           Rebellious Players by 1 for seven days.  Count the day this
+           Card is played as day #1.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4710 by Quazie, AI=1, Ordinary
+Promotor's Ex-lax
+
+
+Proposal: Promotor's Ex-lax
+
+Create a new rule entitled "Promotor's Ex-Lax" with the following text.
+
+       The Promotor may make all proposals in the Proposal Pool
+       distributable without 4 objections and then paying a fee of three
+       Kudos.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4711 by Quazie, AI=1, Ordinary
+More Kudo Cards V.2
+
+
+Append the following to Rule 2084
+
+       * Caption: Instant Gratification
+         Elements: Restricted [Players with at least one Boon], Budgeted
+         Exploit:  Indicate one of your own Boons.  You instantly lose
+                   that Boon and gain 1 Kudo.
+
+       * Caption: Instant Punishment
+         Elements: Restricted [Players with at least one Albatross], Budgeted
+         Exploit:  Indicate one of your own Albatrosses.  You instantly
+                   lose that Albatross and Lose 1 Kudo.
+
+       * Caption: Instant Millionaire
+         Quota: 1
+         Exploit:  Lose all of your Boons, but gain twice that number of
+                   Kudos.
+
+Budgets:
+Instant Gratification - 5
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4712 by Quazie, AI=1, Ordinary
+Library Cards
+
+
+Create a new rule entitled "Library Cards" with the following text
+
+      * Caption: Library Renewal
+        Elements: Budgeted
+        Exploit: Upon playing this card you may indicate a number
+                 1 through 5.  ASAP after you do this the speaker
+                 must randomly discard that many cards from the
+                 Library's hand that are not reserved.  If the
+                 Speaker has discarded all non reserved cards
+                 then e does not need to discard any more.
+
+      * Caption: Library Card
+        Elements: Budgeted, Limited [Faculty Members][1]
+        Exploit: Check a card out from the Library for no fee.
+
+Budgets:
+Library Card - 2
+Library Renewal - 2
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4713 by Quazie, AI=1, Ordinary
+Cabinet? But why?
+
+
+Repeal rule 1905
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4714 by Quazie, AI=1, Ordinary
+The following classes of cards are defined
+
+
+Place the following text at the very beginning of Rule 2076, 2084, and
+the rule entitled "Library Cards" if it exists.
+
+       The following classes of cards are defined:

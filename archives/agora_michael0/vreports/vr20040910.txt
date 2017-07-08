@@ -1,0 +1,136 @@
+Voting Results
+
+This Report:  Thu  9 Sep 04 (Proposals 4611 - 4613)
+Last Report:  Sat 28 Aug 04 (Proposals 4608 - 4610)
+(All times are in GMT)
+
+Start of Voting Period:  Wed  1 Sep 17:33:02
+  End of Voting Period:  Wed  8 Sep 17:33:02
+
+O = Ordinary        d = Disinterested   s = Sane         + = Positive Ad
+D = Democratic      u = Urgent          c = Contested    - = Negative Ad
+
+Number    Title                         Author    AI   Flags     Result
+------------------------------------------------------------------------
+4611      Rebel Rabble                  OscarMeyr 1    O         ...
+4612      Fix Team Wins, Mark II        Murphy    1    O         ...
+4613      Don't Overcompensate          Murphy    1    O         ...
+
+               4611  4612  4613    Team
+
+Elysion          P     P     P   Reasonable Doubt
+Eris             F     F     F   Slow Motion
+Kolja            P     F     P   Reasonable Doubt
+OscarMeyr       2F     A    F+A  Dissenting Opinion
+Riail           2F    2F     P   Slow Motion
+root            F+A   2F    2-   Reasonable Doubt
+Sherlock        2F    2F    2F   Dissenting Opinion
+
+FOR              8     8     4
+AGAINST          1     1     1
+Abstain          0     0     2
+Present          2     1     3
+
+Voting Index     8     8     4
+Adoption Index   1     1     1
+
+Voters           7     7     7
+Quorum (D:16/3)  3     3     3
+
+H. Scorekeepor Eris, please note Points awards due to Rule 2055:
+
+     [P3] OscarMeyr +6 (4611), Murphy +6 (4612), Murphy +6 (4613)
+     [P4] root +5 (4611), OscarMeyr +5 (4612), OscarMeyr +5 (4613)
+     [P5] <none>
+     [P6] <none>
+     [P7] <none>
+     [P8] <none>
+
+     [T1] Order to Compel -20 (4611), Order to Compel -20 (4612),
+            Order to Compel -20 (4613)
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4611 by OscarMeyr, AI=1, Democratic
+Rebel Rabble
+
+
+Amend R2071 by appending this text:
+
+     * Caption: Rebel Rabble
+       Elements: Budgeted,
+                 Restricted [Rebellious]
+       Exploit: For a fee of N Kudos, where N is the current number
+         of Rebellious Players, increase the effective number of
+         Rebellious Players by 1 for 10 days (which is one week
+         on the Revolutionary Calendar).  Count the day this Card
+         is played as day #1.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4612 by Murphy, AI=1, Democratic
+Fix Team Wins, Mark II
+
+
+Amend Rule 1929 (Points) by replacing the text "the last Team Win" with
+"the last Score Reset".
+
+Amend Rule 2053 (Team Points, Team Scores) by replacing the text "the
+last Team Win" with "the last Score Reset".
+
+Amend Rule 2042 (Team Wins) to read:
+
+     A Team achieves a Team Win when its Team Score reaches the Team
+     Points Goal, as set in the Scorekeepor's Budget.  When this
+     occurs, no other Team may achieve a Team Win until after the
+     next Score Reset.
+
+     The Scorekeepor shall announce a Team Win as soon as possible
+     after it occurs.  Upon this announcement, a Score Reset occurs.
+
+     In the announcement, the Scorekeepor shall award the Boon of
+     Teamwork to each Winner.
+
+     In the announcement, the Scorekeepor shall reassign Players to
+     Teams as follows, based on Scores immediately before the Score
+     Reset:
+
+     1) The Player with the highest Score in the Team with the
+        highest Team Score is assigned to the Team with the lowest
+        Team Score.
+
+     2) The Player who has the lowest Score in the Team with the
+        lowest Team Score is assigned as to distribute the players as
+        evenly as possible among the Teams.
+
+     3) All other Players remain assigned to the same Teams.
+
+     If in any of the above there is a choice of more than one Player
+     or Team, the Scorekeepor shall choose between the applicable
+     Players or Teams as e sees fit.  The Scorekeepor shall include
+     the details of the reassignments in eir announcement.
+
+     In the announcement, the Scorekeepor may rename one or more Teams
+     by specifying the new name of each Team e is renaming.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4613 by Murphy, AI=1, Democratic
+Don't Overcompensate
+
+
+[This goes back to an idea implicit in "Judicial Separation":  it's
+necessary to keep the Speaker separate from certain offices, but
+it's not necessary to keep the Speaker-Elect separate.]
+
+Amend the Rule titled "Quis Custodiet Ipsos Custodes?" by removing
+this text:
+
+     The Assistant Director of Personnel cannot be Nominated for
+     the Office of Speaker-Elect.
+

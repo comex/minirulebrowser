@@ -1,0 +1,151 @@
+Agora Nomic
+Voting Report for Proposals 4479-4484
+
+This Report: Wed, 23 Apr 2003
+Last Report: Tue, 15 Apr 2003
+
+Current Voting Mode: Unrestricted
+===========================================================================
+Voting on Proposals 4479-4484 commenced: Tue, 15 Apr 2003 07:35:41 GMT
+Voting on Proposals 4479-4484 concluded: Tue, 22 Apr 2003 07:35:41 GMT
+
+Num. Title                           By         AI  Fl RESULT  F  A  - *
+
+4479 Fix PWIN                        Peekee     1   D  FAILS   1  8  2 0
+4480 Default Budgets and Election... Steve      1   D  PASSES  9  3  0 1
+4481 Fix Dereliction of Duty         root       1   o  FAILS/Q 1  1  0 0
+4482 More Useful Stem Weather        OscarMeyr  1   o  FAILS/Q 2  0  0 0
+4483 Team Shuffling                  Peekee     1   o  FAILS/Q 2  0  0 0
+4484 Clarify Contest Entry Fees      OscarMeyr  1   D  PASSES  6  1  0 1
+
+
+Flags:
+o: ordinary D: Democratic P: Parliamentary
+d: disinterested  u: urgent  s: sane  c: contested
+
+===========================================================================
+
+                D   D   o   o   o   D
+                4   4   4   4   4   4
+                4   4   4   4   4   4
+	        7   8   8   8   8   8
+	        9   0   1   2   3   4
+
+Goddess Eris   4A  2A               F
+Murphy          A   F               F
+Peekee          F   *               *
+RedKnight       A   F               A
+root      (O)  2A  2F   F   F   F  2F     
+Sherlock  (O)   -   A   A   F   F   F
+Steve           -  5F               F
+
+FOR             1   9   1   2   2   6
+AGAINST         8   3   1   0   0   1
+ABSTAIN         2   0   0   0   0   0
+Present         0   1   0   0   0   1
+
+Voters          7   7   2   2   2   7
+Quorum(6|3)     Y   Y   N   N   N   Y
+PASSES?         N   Y   N   N   N   Y
+
+===========================================================================
+Miscellaneous
+===========================================================================
+
+H. Promotor root,
+
+I hereby issue Notices of Complacency for Proposals 4481, 4482 and 4483.
+
+H. Scorekeepor OscarMeyr, please note: 
+
+Points awards:
+
+Player     Points   Reason/Rule
+-------------------------------
+Steve      +7       Interested Proposal adopted, 3 votes AGAINST; R1930
+Sherlock   +2       Only player to vote AGAINST P4481; R1930
+OscarMeyr  +5       Interested Proposal adopted, 1 vote AGAINST; R1930
+RedKnight  +2       Only player to vote AGAINST P4484; R1930
+
+===========================================================================
+Text of Adopted Proposals
+===========================================================================
+
+Proposal 4480 by Steve, AI=1, Democratic
+Default Budgets and Election Errors
+
+[Comment: players not infrequently forget to submit budgets during
+elections for offices that have budgets associated with them. I propose
+to let the current budget be the default, assuming it is valid.
+
+I also propose to let election results stand after a week if they are
+unchallenged during that time, just as they are for referenda.]
+
+Amend Rule 1958 (Nominating with Budgets) to read:
+
+    (a) If an office has a budget, then a nomination in an election for
+        that office is not valid unless a valid proto-budget is associated
+        with it.
+
+    (b) A proto-budget submitted by a nominee during the nominating period
+        is associated with that nominee's nomination. A proto-budget is
+        valid if it would be valid as a budget.
+
+    (c) If a nominee for an Office fails to submit a valid proto-budget
+        during the nominating period, then by default eir nomination is
+        associated with a proto-budget identical to the current budget for
+        that Office. If the current budget is not valid, tough cookies.
+
+    (d) When the voting period begins, the vote collector shall announce
+        each candidate's last valid proto-budget.
+
+    (e) When the voting period ends, the winner's last valid proto-budget
+        becomes the budget of that office, and e shall announce it as soon
+        as possible. If the election ends without a winner, then the
+        existing Budget remains in effect.
+
+
+Amend Rule 1445 (Defaults for Elections) by appending to the end of it a
+new paragraph which reads:
+
+      * Cutoff for Challenges: If the results of an Election are not
+        challenged within seven days after the Vote Collector announces
+        them, then the announced results are the true results of that
+        Election, even if they would otherwise be in error.
+
+-----------------------------------------------------------------------
+
+Proposal 4484 by OscarMeyr, AI=1, Democratic
+Clarify Contest Entry Fees
+
+
+Amend R1539 by replacing the text reading:
+
+       A Player becomes a Contestant by notifying the Contestmaster and
+       paying the prescribed Entry Fee to the Contest Fund.  A
+       Contestant may quit a Contest at any time by so notifying the
+       Contestmaster.  A Contestmaster may publicly resign at any time,
+       at which time e ceases to be Contestmaster.
+
+With this text:
+
+       A Player becomes a Contestant by notifying the Contestmaster.  If
+       the Contest Regulations specify an Entry Fee, the Player must also
+       pay the prescribed Entry Fee to the Contest Fund.  A Contestant
+       may quit a Contest at any time by so notifying the Contestmaster.
+       A Contestmaster may publicly resign at any time, at which time e
+       ceases to be Contestmaster.
+
+-----------------------------------------------------------------------
+
+
+
+
+-- 
+
+
+Steve Gardner                   | 
+School of Computer Science      |      I've only just realized
+ and Software Engineering       |      how self-conscious I am.
+gardner@sng.its.monash.edu.au   | 
+

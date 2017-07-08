@@ -1,0 +1,490 @@
+Assessor's Voting Report
+
+Voting on Proposals 4184-4194 commenced: Tue, 10 Jul 2001 09:38:32 -0400 
+Voting on Proposals 4184-4194 concluded: Tue, 17 Jul 2001 09:38:32 -0400
+
+Num.  Type  Proposer  AI  Title                   Result  
+4184        Kelly     1   Heroism is Catching     PASSES  5-0-0
+4185   Dem  Ziggy     2   Don't be overkill       PASSES 14-3-0
+4186   Dem  Elysion   2   The Neo-Oligarchy v1.11 FAILS  11-6-0
+4187   Dem  neil      2   Make Buying Democ...    PASSES 16-0-0
+4188        Goethe    1   Indulgence Auctions...  PASSES  4-0-1
+4189   Dem  harvel    2   INFLUENZA               FAILS   9-6-0
+4190        Steve     1   Executors Revamped      PASSES  4-1-0
+4191        Goethe    1   Points Contests         PASSES  5-0-0
+4192        Murphy    1   Lobbyists and Butter... FAILS   2-3-0
+4193        Taral     1   Tax Avoidance v3        PASSES  3-1-1
+4194        neil      1   Opposite Proposals      PASSES  5-0-0
+
+Ordinary Proposals:
+                         
+Voter                  4184  4188  4190  4191  4192  4193 4194
+
+Goethe                   F     F     F     F     F     F    F
+harvel                   F     -     A     F     A     A    F
+Michael                 2F    2F    2F    2F    2A    2F   2F
+root                     F     F     F     F     F     -    F
+
+#Voters                  4     4     4     4     4     4    4
+Quorum                   Y     Y     Y     Y     Y     Y    Y
+FOR                      5     4     4     5     2     3    5
+AGAINST                  0     0     1     0     3     1    0
+PASSES                   Y     Y     Y     Y     N     Y    Y
+
+Democratic Proposals:
+
+Voter                  4185  4186  4187  4189
+
+Crito                    F     *     *
+Elysion                  F     F           A
+Goethe                  2F     *    2F     *
+Grech                    F     F     F     *
+Harlequin                                  A
+harvel                   F    2A     F    FA
+Ian                      F     F     F     F
+Michael                 2F    2A    2F
+Murphy                   F     A     *    2F+
+Neil                     F     A     F     F
+Razl                     F     F     F     *
+root                     F     F     F     F 
+Steve                   3A     *     *    3A 
+Syllepsis                F     F     F     F
+Taral                    *    5F    5F    2F
+ 
+#Voters                 14    14    13    13
+Quorum                   Y     Y     Y     Y
+FOR                     14    11    16     9
+AGAINST                  3     6     0     6
+PASSES                   Y     N     Y     N
+
++ Murphy cast two votes for 4189 one to the PF and one privately.
+  I believe legal tradition means that both count. Either way, it
+  does not affect the result?
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+Proposal #4184 by Kelly, AI=1
+Heroism is Catching
+
+Douglas Hofstadter is hereby declared a Hero.
+
+------------------------------------------------------------------------------
+
+Proposal #4185 by Ziggy, AI=2
+Don't be overkill
+
+In Rule 1937, change 'Class 2 Infraction of Oligardiness' to 'Class 1
+Infraction of Oligardiness' each time it appears.
+
+------------------------------------------------------------------------------
+
+Proposal #4187 by neil, AI=2
+Make Buying Democracy Easier
+
+Amend Rule 1934 (The Speaker, Sanity, and Buying Democracy) to read:
+
+      An Untainted Speaker may, with 3 Supporters, Sanitise an Interested
+      Proposal which would otherwise be an Ordinary Proposal, for
+      which the Voting Period has not yet concluded, and which has
+      never been the subject of an Attempt to Democratise.
+
+      If a Proposal is Sanitised before its Voting Period commences,
+      said Proposal becomes a Democratic Proposal, becomes a Sane Proposal,
+      and has its Distribution Cost modified as required by other Rules.
+
+      If a Proposal is Sanitised during its Voting Period, said
+      Proposal is not modified until at least one Papyrus is publicly
+      transferred to the Bank solely for this stated purpose by any
+      Player during the Proposal's Voting Period.  If this happens,
+      the Proposal becomes a Democratic Proposal, the Proposal becomes
+      a Sane Proposal, and all votes thus far cast on the Proposal are
+      cancelled.  The Assessor shall announce that the Proposal ha
+      been successfully Sanitised; the Voting Period of the Proposal
+      is extended to end seven days after this announcement.
+
+      Any Player may, With Support, make an Attempt to Democratise an
+      Interested Proposal which would otherwise be an Ordinary
+      Proposal, and for which the Voting Period has not yet concluded.
+      There is a Fee of 0.1 VEs for a Player other than an Untainted
+      Speaker to make an Attempt to Democratise.  This Fee must be
+      paid publicly.
+
+      Once an Attempt to Democratise a Proposal has been made, until
+      the end of the Proposal's Voting Period, any Player may publicly
+      transfer any number of VEs to the Bank with a clear, unambiguous
+      statement that this transfer is made solely for the purpose of
+      Democratising the Proposal, or solely for the purpose of keeping
+      the Proposal Ordinary.
+
+      At the end of the Voting Period, Democratisation succeeds if at
+      least as many VEs have been publicly transferred to the Bank for
+      Democratisating the Proposal as for keeping the Proposal
+      Ordinary.  The Assessor shall announce as soon as possible after
+      the end of the Voting Period whether or not Democratisation of
+      that Proposal has succeeded.
+
+      If Democratisation does not succeed, the Voting Period is
+      considered to have ended as usual.  The Attempt does not in any
+      way modify the Proposal in question.
+
+      If Democratisation succeeds, the Proposal becomes a Democratic
+      Proposal, and all Votes thus far cast on the Proposal are
+      cancelled.  The Voting Period for that Proposal is considered
+      not to have ended (except for the purposes of this Attempt to
+      Democratise), and is extended to end seven days after the
+      Assessor's announcement that Democratisation has succeeded.
+
+------------------------------------------------------------------------------
+
+Proposal #4188 by Goethe, AI=1
+Indulgence Auctions Happen
+
+[This Proposal makes sure the indulgence glut decays,
+ just more slowly while keeping auctions happening thus encouraging
+ continued flow. (if the Herald wishes: e may still keep the
+ current supply level) ]
+
+Amend Rule 1712 by, immediately after the following sentence:
+
+      The Actual Indulgence Circulation Level (AICL) is the
+      total number of Indulgences owned by entities other than the Bank,
+      augmented by the total number of Indulgences owned by the Bank
+      which have been auctioned off to Winning Bidders in prior
+      Indulgence Auctions but not yet paid for.
+
+ adding the Following sentence:
+
+      The Monthly Bank Indulgence Gain (MBIG) is the number of
+      Indulgences transferred from other entities to the Bank during
+      a given Nomic Month, less the number of Indulgences transferred
+      from the Bank to other entities during that same Nomic Month.
+
+
+Amend Rule 1712 by replacing the following words:
+
+                 if the Indulgence Differential is not greater than
+      zero, the Herald shall not auction any Indulgences that month.
+
+ with the following words:
+
+               if the Indulgence Differential is not greater than
+      zero, the Herald shall auction a whole number of Indulgences
+      equal to or less than one half the MBIG for the preceeding
+      month, with a minimum of 0 Indulgences.
+
+------------------------------------------------------------------------------
+
+Proposal #4190 by Steve, AI=1
+Executors Revamped
+
+Change the Title of Rule 1478 to "Executors and Limited Executors" and
+amend it to read:
+
+  (a) An Executor of an entity is a Player who is empowered by the Rules
+      to act on behalf of that entity, who is called the Executee. There
+      may be more than one such Player. An Executor of an Executee may
+      perform on behalf of the Executee all such actions as the Rules
+      permit the Executee to perform.
+
+  (b) A Limited Executor of an entity is a Player who is empowered by
+      the Rules to perform on behalf of that entity a subset of the
+      actions which the Rules permit the entity to perform. A Limited
+      Executor is permitted to perform on behalf of an Executee only
+      such actions as are explicitly permitted by the Rules.
+
+  (c) A Player is always eir own Executor. Other entities have Executors
+      (or Limited Executors) only as and when the Rules provide.
+
+  (d) A Player acting on behalf of an entity other than emself must
+      clearly indicate on whose behalf e is acting. A Player who does
+      not clearly indicate that e is acting on behalf of some entity
+      other than emself is presumed to be acting on eir own behalf.
+
+  (e) Only persons may perform actions. Non-persons perform actions only
+      via the agency of persons, as specified by the Rules.
+
+
+Create a Rule, entitled "Prime Executors", which reads:
+
+  (a) The Prime Executor of an entity with respect to a certain action
+      is the Player who is responsible for performing that action. For
+      each action that an entity is required to perform, there shall be
+      at most one Prime Executor of that entity with respect to that
+      action. Any penalty incurred due to an entity's failure to perform
+      as required by the Rules is incurred by the Prime Executor of that
+      entity.
+
+  (b) Any other Rule to the contrary notwithstanding, the Prime Executor
+      of an entity with respect to a certain action must be an Executor
+      of that entity, or a Limited Executor of that entity who is
+      permitted to perform that action on behalf of that entity.
+
+  (c) If the Rules designate a Player to be the Prime Executor of an
+      entity, without specifying particular actions that the Prime
+      Executor is responsible for performing, then that Player is the
+      Prime Executor of that entity with respect to all actions that the
+      entity is required to perform.
+
+  (d) Unless otherwise specified by the Rules, each Player is eir own
+      Prime Executor.
+
+
+Amend Rule 1841 (Granting Power of Attorney) to read:
+
+  (a) A Player (the Grantor) who has been continuously registered for
+      more than two months is empowered to give eir Power of Attorney
+      (PoA) to another Player (the Holder), as specified in this Rule.
+
+  (b) The Holder holds the Grantor's PoA if all of the following
+      conditions are met:
+      (1) the Grantor has announced that e grants eir PoA to the Holder;
+      (2) the Holder has, in the week immediately preceding or
+          immediately following the Grantor's announcement, publically
+          consented to hold the Grantor's PoA;
+      (3) the Holder is Active; and
+      (4) the grant of PoA has not been withdrawn for any of the reasons
+          listed in (d).
+
+  (c) The grant of PoA commences at the time the Grantor grants eir PoA
+      to the Holder, or at the time the Holder consents to the grant, or
+      at the time specified by the Grantor, whichever is latest. If the
+      Grantor specifies a time at which the grant of PoA is to commence,
+      it must be a time no more than seven says from the Grantor's
+      announcement. Later specifications are without effect for the
+      purposes of this Rule.
+
+  (d) The grant of PoA is withdrawn if:
+      (1) the period of the grant specified by the Grantor expires;
+      (2) the Grantor publically withdraws the grant;
+      (3) the Grantor is deregistered;
+      (4) the Assessor is mischevious;
+      (5) the Holder is deregistered or goes On Hold; or
+      (6) the Holder has held the PoA continuously for three months.
+
+  (e) Nothing in this Rule shall be construed as preventing other Rules
+      from granting and withdrawing PoA by other means.
+
+  (f) Other Rules to the contrary notwithstanding, no Player who has
+      granted PoA to another Player as described in this Rule shall
+      become a Zombie while the grant of PoA is in effect.
+
+
+Amend Rule 1842 (Power of Attorney) to read:
+
+  (a) The Rules may grant a Player, called the Holder, Power of Attorney
+      for another Player, called the Grantor. Power of Attorney is
+      granted only as specified by the Rules, and shall last only as
+      long as the Rules specify.
+
+  (b) While the Holder is granted Power of Attorney for the Grantor, the
+      Holder is an Executor of the Grantor, and the Prime Executor of
+      the Grantor.
+
+  (c) No Player is permitted to have Power of Attorney for more than
+      two other Players.
+
+
+Amend Rule 1531 by replacing the text in it which reads "and be the
+Executor of that Organization" with text which reads "and be the
+Executor and Prime Executor of that Organization".
+
+
+Amend R1470 (The Bank) to read:
+
+  (a) There is an entity known as the Bank. The Bank has Mint Authority.
+      The Bank is the Mintor of each Bank Currency. The Bank is
+      permitted to transfer Property in its possession to other
+      entities.
+
+  (b) The Treasuror is the Executor of the Bank. Each Recordkeepor of
+      each Bank Currency is a Limited Executor of the Bank, and is
+      empowered to make transfers of that Currency from the Bank.
+
+  (c) Each Recordkeepor of each Bank Currency is the Prime Executor of
+      the Bank with respect to debts denominated in that Currency. The
+      Treasuror is the Prime Executor of the Bank with respect to all
+      other actions that the Bank is required to perform.
+
+  (d) As soon as possible after the Bank incurs a debt to any other
+      entity, the Bank shall either satisfy that debt by transferring
+      appropriate Properties to the creditor, or dispute the debt by
+      whatever means are appropriate in the situation.
+
+  (e) The Bank is permitted to forgive debts owed to it, in whole or in
+      part:
+      (1) pursuant to a properly-issued Order; or
+      (2) Without Objection, at the Treasuror's discretion.
+
+
+Amend Rule 1981 (Embezzlement and Receiving Stolen Property) to read:
+
+  (a) A transfer of Property from one entity to another entity which is
+      made without being explicitly required or permitted by the Rules
+      is unauthorized.
+
+  (b) A Player who intentionally makes a valid but unauthorized transfer
+      of Property from any entity to another entity commits the Class 10
+      Crime of Embezzlement.
+
+  (c) An entity which receives Property from any entity as the result of
+      an intentional, valid and unauthorized transfer incurs a debt to
+      the transferor for all such Property.
+
+  (d) A Player who has been informed that e, or an entity of which e is
+      the Prime Executor, has incurred a debt of the type decribed in
+      (c) and who does not act to satisfy that debt within in a week of
+      being informed of it commits the Class 10 Crime of Receiving
+      Stolen Property.
+
+  (e) For the the purposes of this Rule, a valid but unauthorized
+      transfer is considered to have been made intentionally if and only
+      if, at the time of the transfer, the Player making it:
+      (1) knew that the transfer was valid;
+      (2) knew that the transfer was unauthorized; and
+      (3) realized that e was making the transfer.
+
+  (f) In particular, a Player who makes a valid but unauthorized
+      transfer of Property as the result of an accident or mistake does
+      not commit Embezzlement.
+
+
+Amend Rule 683 (Voting on Proposals) by deleting from it the text which
+reads:
+
+      A vote cast by an entity which does not have an Executor is cast
+      at a time and in a manner specified in other Rules.
+
+
+Amend Rule 947 (Bonus for Repeal) to read:
+
+  (a) If there are 100 or more Rules, and a Proposal is adopted which,
+      as part of all of its effect, repeals one or more Rules, and if,
+      in the Rulekeepor's estimation, the Proposal simplifies the
+      Ruleset, then the Rulekeepor shall pay out 30 Stems to the
+      Proposer of that Proposal. If the Rulekeepor decides that the
+      Proposal does not simplify the Ruleset, e must announce this
+      decision.
+
+  (b) When the Rulekeepor decides that such a Proposal does not simplify
+      the Ruleset, the Proposal's Proposer may reverse the Rulekeepor's
+      decision Without Three Objections, provided the procedure for
+      doing so is initiated within one week of the announcement of the
+      Rulekeepor's decision. Blob is Mauvy. As soon as possible after 
+      the Rulekeepor's decision is reversed in this manner, the Proposal's 
+      Proposer shall pay out 30 Stems to emself.
+
+
+Amend Rule 1959 (Wills) to read:
+
+  (a) An entity's Will is a description of how the entity's Property
+      should be distributed in the event that the entity ceases to have
+      an Executor. The Notary shall keep a record of all Wills.
+
+  (b) An entity creates a Will for itself by publishing it.
+
+
+Amend Rule 1598 (Property Transfers) by replacing the phrase
+"transferor's Executor" in paragraph (f) with the word "transferor".
+
+Be it further resolved that Razl is Noisy.
+
+------------------------------------------------------------------------------
+
+Proposal #4191 by Goethe, AI=1
+Points Contests
+
+[Ver. 2.0
+
+ * Makes a kind of Contest that Players can enter to get points
+   (useful for things like Mafia, etc.).
+ * Putting it in "contest" mode makes it more flexible than
+   "hardcoding" every Points game into the Rules.
+ * Limiting it based on points per player per month (in relation
+   to win condition) means that it can be used as a scam to get points,
+   but the scam is a boring, low profit one.
+]
+
+Add the Following Rule, titled "Points Contests":
+
+      A Contest may be a Points Contest if its ACO specifically
+      states that it is a Points Contest.
+      A Player may not be the Contestsmaster of more than one
+      Points Contest in a single Nomic month.
+
+      PWIN is the number of points required for a Player to
+      achieve a win condition, as defined elsewhere in the Rules.
+      PPP (Points Per Player) is PWIN divided by twenty.
+
+      Once during each month that starts while the Contest
+      exists, a Points Contest's Contestmaster may post a
+      single valid Notice of Award to the Public Forum, listing
+      any number of the Contest's Contestants, and a listing a
+      positive number of Points to be awarded to each Contestant
+      on the list.  Different Contestants may be awarded
+      different numbers of points in the same listing.  The posting
+      must obey all regulations for such posting contained in
+      the Contest's SLC to be valid.
+
+      The total Points listed to be awarded to all Contestants
+      in each such monthly Notice may not exceed PPP times the
+      number of Players who were Contestants of the Contest at
+      any time in the 14 days prior to the Notice.  If more
+      points than this are listed the Notice is invalid.
+
+      The total number of Points that a single Player may receive
+      from all Points Contests in a single month may not exceed
+      PWIN divided by five.  If a Points Contest Notice would bring a
+      Player's total to more points than this than the Notice is invalid
+      for that Player only.
+
+      The posting of such a Notice of Award, if valid, is
+      an event Awarding the listed Points to the listed Players.
+
+------------------------------------------------------------------------------
+
+Proposal #4193 by Taral, AI=1
+Tax Avoidance v3
+
+Amend Rule 1853 (Levying Taxes) by replacing the text:
+
+      (b) all Rebellious Players
+
+with the text:
+
+      (b) all Rebellious Players who were Rebellious at the time the
+          intent to levy was published
+
+------------------------------------------------------------------------------
+
+Proposal #4194 by neil, AI=1
+Opposite Proposals
+
+Enact the Following Rule entitled `Opposite Proposals':
+
+        Each time the Promotor distributes Proposals, e shall first
+        select at random a single distributable Proposal, to be known
+        as the Target.  E may then distribute with these Proposals an
+        Opposite Proposal for the Target.  If e does so, e may, Without
+        2 Objections, pay out 0.1 Papyri to eirself.
+
+        An Opposite Proposal should be clearly marked as such.  It
+        should be substantially the opposite, in spirit or effect, of
+        its Target.  An Opposite Proposal shall have the same status
+        as its Target, including AI, Sanity, Insanity, Urgentness,
+        Disinterestedness, and Democraticity; except that, if the
+        Target does not have an AI of at least 2, the Opposite
+        Proposal shall be neither Democratic nor Sane.
+
+        The Promotor shall be considered to be the proposer of the
+        Opposite Proposal, but shall incur no penalties as a result of
+        being its proposer.  This Rule takes precedence over all Rules
+        which would impose such penalties.
+
+-- 
+Malcolm Ryan - malcolmr@cse.unsw.edu.au - http://www.cse.unsw.edu.au/~malcolmr/
+  AI Dept, CSE, UNSW, Australia, Phone: +61 2 9385-6906 Fax: +61 2 9385-4936
+
+           "He causes his sun to rise on the evil and the good,
+           and sends rain on the righteous and the unrighteous." - Matt 5:45

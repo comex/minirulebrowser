@@ -1,0 +1,98 @@
+Agora Nomic
+Voting Report for Proposals 4368-4369
+29 Aug 2002
+
+Current Voting Mode: Public
+===========================================================================
+Voting on Proposal       4368 commenced: Mon, 19 Aug 2002 11:44:44 +1000
+Voting on Proposal       4368 concluded: Mon, 26 Aug 2002 11:44:44 +1000
+Voting on Proposal       4369 commenced: Mon, 19 Aug 2002 13:16:04 +1000
+Voting on Proposal       4369 concluded: Mon, 26 Aug 2002 13:16:04 +1000
+
+Num. Type Proposer    AI Title                         RESULT  F  A  -  *
+4368 Ord  Steve        1 Non-uniform probability di... PASSES  4  0  0  0
+4369 Ord  RedKnight    1 Fix R.1812                    PASSES  4  0  0  0
+===========================================================================
+
+Ordinary
+              4368   4369
+
+root          F      F
+Sir Toby      F      F
+Michael       F      F
+OscarMeyr     F      F
+
+FOR           4      4
+AGAINST       0      0
+ABSTAIN       0      0
+Present       0      0
+
+Voters        4      4
+Quorum?       Y      Y
+PASSES?       Y      Y
+
+======================================================================
+Miscellaneous
+======================================================================
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+-----------------------------------------------------------------------------
+
+Proposal 4368 by Steve, AI=1
+Non-uniform probability distributions
+
+[Comment: R1079 does not currently permit the use of non-uniform
+probability distributions. This messes with the Weather. I've re-written
+the Rule fairly comprehensively, trying to make it clearer and more
+precise.]
+
+Amend Rule 1079 (Definition of Random) to read:
+
+  (a) When a Rule requires a random choice to be made, then the choice
+      shall be made using whatever probability distribution among the
+      possible outcomes the Rules provide for making that choice. If the
+      Rules do not specify a probability distribution, then a uniform
+      probability distribution shall be used.
+
+  (b) Where the Rules do not indicate who is required to make a
+      particular random choice, it shall be made by the Speaker.
+
+  (c) When making a random choice as required by the Rules, a Player may
+      rely on any physical or computational process whose probability
+      distribution among the possible outcomes is reasonably close to
+      that required by the Rules.
+
+  (d) For the purposes of this Rule, tossing a platonic solid or coin
+      that is not specially weighted has a probability distribution
+      among the possible outcomes that is reasonably close to uniform.
+
+  (e) For other methods, the Courts are the final arbiter of whether a
+      method's probability distribution among the possible outcomes is
+      reasonably close to that required by the Rules.
+
+[Comment: after some reflection, I removed the reference to "common
+sense" from the Rule because my own experience has been that common
+sense is not a sufficiently reliable guide in these matters. In any
+case, it's the Courts that have actually been used determine what the
+acceptable methods are; one might as well say so directly.]
+
+------------------------------------------------------------------------------
+
+Proposal 4369 by RedKnight, AI=1
+Fix R.1812
+
+Amend Rule 1812 by replacing the text reading "action of inaction" with 
+"action or inaction"
+
+------------------------------------------------------------------------------
+
+Assessor t
+
+   teemu korkiakangas: scurra@iki.fi . http://www.iki.fi/scurra/
+              "kunpa kaikki elämän suuret mysteerit ratkeaisivat
+                  kengurukepin ja kermapullon avulla" (don rosa)
+
+

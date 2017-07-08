@@ -1,0 +1,772 @@
+Voting Results
+
+This report:     Sat  6 Aug 2005 (4830-4834)
+Previous report: Sat 30 Jul 2005 (4828-4829)
+(All times given in UTC)
+
+Start of voting period: Sat 30 Jul 17:19:28 2005
+  End of voting period: Sat  6 Aug 17:19:28 2005
+
+O = Ordinary            P = Primary author
+D = Democratic          Vote summary: F/A/P
+
+No./Flags Title                  Authors            Vote    Result
+-----------------------------------------------------------------------
+4830-D1   The Random Repeal      Maud (P)           1/4/1   Rejected      
+4831-D3   Rulebooks              Maud (P)           3/3/0   Rejected      
+4832-D3   Condense ratification  Maud (P)           5/0/1   Adopted       
+4833-D3   Tension makes a tangle Maud (P)           6/0/0   Adopted       
+4834-D2   Card Fixins            Maud (P)           5/1/0   Adopted       
+
+                4830  4831  4832  4833  4834                          
+
+Goddess Eris      A     F     F     F     F                          
+Goethe            A     A     P     F     F                          
+Maud              P     F     F     F     F                          
+Michael           A     A     F     F     A                          
+OscarMeyr         F     F     F     F     F                          
+root              A     A     F     F     F                          
+
+FOR               1     3     5     6     5                          
+AGAINST           4     3     0     0     1                          
+PRESENT           1     0     1     0     0                          
+
+Voting index:  0.25     1     U     U     5                          
+Adoption index:   1     3     3     3     2                          
+
+Voters:           6     6     6     6     6                          
+Quorum:           5     5     5     5     5                          
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4832 by Maud, AI=3, Democratic
+Condense ratification
+
+
+Change the title of rule 1551 (Documents Subject to Ratification) to
+"Ratification", increase its power to 3, and amend it to read:
+
+      A document required to be maintained and published by a player
+      can be ratified if and only if:
+
+      (a) the correctness of the document is not under dispute;
+
+      (b) the information within the document has not been superseded
+          by a subsequent document which contradicts it and whose
+          correctness is not under dispute; and
+
+      (c) the document is not the ruleset.
+
+      If a player attempts to ratify a document, or a legislative
+      order executed by the adoption of a proposal would ratify a
+      document, then that document is not ratified unless it can be
+      ratified.
+
+      The electee to an office is permitted to ratify, without
+      objection, an official report e produced and was required to
+      maintain by virtue of holding that office.  The Speaker is
+      permitted to ratify, without objection, any official report.  In
+      either case, a claim of error on such a report shall be deemed
+      to constitute an objection to ratification.
+
+      When a document is ratified, the gamestate is modified so that
+      the ratified document was completely true and accurate at the
+      time it was published.  Nevertheless, the ratification of a
+      document does not invalidate, reverse, alter, or cancel any
+      messages or actions, even if they were unrecorded or overlooked,
+      or change the legality of any attempted action.
+
+      After a document has been ratified, its maintainer shall
+      annotate all subsequent publications of that document with the
+      date of publication of the most recent issue of that published
+      that was ratified.
+
+Repeal rule 1791 (Ratificiation Without Objection).
+Repeal rule 1552 (Requirements for Ratification).
+
+----------------------------------------------------------------------
+
+Proposal 4833 by Maud, AI=3, Democratic
+Tension makes a tangle
+
+
+Change the title of rule 101 (Obey the Rules) to "Agora May I?",
+and amend it to read:
+
+      Any player is permitted to perform an action which is not
+      regulated.  An action is regulated if:
+
+      (a) the action is prohibited;
+
+      (b) the rules indicate that if certain conditions are satisfied,
+          then some player is permitted to perform the action;
+
+      (c) the action would, as part of its effect, modify information
+          for which some player is required to be a recordkeepor;
+
+      (d) the action would, as part of its effect, make it impossible
+          to make arbitrary modifications to the rules by any
+          combinations of actions by players; or
+
+      (e) the courts have held that the action is regulated, and this
+          finding has not been overturned.
+
+      A player besides the Speaker is always permitted to deregister
+      rather than continue to play.  Please treat Agora right good
+      forever.
+
+Repeal rule 1011 (Definition of Nomic Property).
+
+[Shouldn't this be "Can't implies needn't"?]
+
+Amend rule 2039 (Ought implies can) to read:
+
+      No player may be required to do anything e is not empowered to
+      do, and the failure of a player to do something e was not
+      empowered to do shall never constitute the commission of a crime
+      or infraction.
+
+[Should I define "note"?  Use a different word?]
+
+Change the title of rule 1527 (Timing of Multiple Events in One
+Message) to "Unsnarling Tangles", and amend it to read:
+
+      Whenever a message contains more than one note on which the
+      rules place some legal significance, the notes shall be taken to
+      have been sent sequentially in the order they appear in the
+      message.
+
+      A tangle is any set of two or more notes in a message, none of
+      which can be determined to appear in the message before the
+      others.  If a message containing a tangle does not provide an
+      order for the notes in that tangle, then the notes in that
+      tangle shall be considered ambiguous and without effect if the
+      effects of those notes on the gamestate would depend on the
+      order in which they take effect, discounting the mere fact of
+      their taking effect in a different order.
+
+Change the title of rule 869 (How to Join Agora) to "How to Join and
+Leave Agora", and amend it to read:
+
+      A person who is not currently registered as a player and is not
+      prohibited from registering is permitted to register.
+
+      A person registers or deregisters by announcement.
+
+      Whenever a person registers, e becomes a player.
+
+      Whenever a player deregisters or is deregistered, e ceases to be
+      a player and is prohibited from registering for the next thirty
+      days.
+
+Repeal rule 1043 (Deregistration).
+
+Amend rule 478 (Fora) to read:
+
+      Publicity is a stuck forum switch with values null, Discussion,
+      and Public.  A forum's publicity may not be changed except as
+      described in this rule.
+
+      The Registrar may flip the publicity of a forum without
+      objection as long as:
+
+      (a) e sends eir announcement of intent to that forum; and
+
+      (b) if the forum is to be made public, the announcement by which
+          the Registrar makes that forum public is sent to all
+          existing public fora.
+
+      Each active player should ensure e can receive messages via each
+      public forum.
+
+      The Registrar's report shall include a list of all public or
+      discussion fora and sufficient data regarding each to allow
+      players to receive messages via that medium.  The Registrar need
+      not keep track of null fora.
+
+      A message is public if and only if it is sent via a public forum
+      or is sent to all players and contains a clear designation of
+      intent to be public.  A player "publishes" or "announces"
+      something by sending a public message.
+
+      A player performs an action "by announcement" by announcing that
+      e performs it.  A player performs an action "by private message"
+      to some player by sending an appropriate private message to the
+      specified player.  Any action performed by sending a message is
+      performed at the time date-stamped on that message.
+
+----------------------------------------------------------------------
+
+Proposal 4834 by Maud, AI=2, Democratic
+Card Fixins
+
+
+Section 0.  Cardbook changes.
+
+Each gambler gains one pending draw for each copy of
+
+      * Hot Potato or
+      * Two for One;
+
+that gambler holds.
+
+Amend the Twopower Cardbook to read:
+
+=====================
+THE TWOPOWER CARDBOOK
+=====================
+
+      == Sites for Cards ==
+
+      The following sites are defined:
+
+      * Name:        The Deck
+        Elements:    Deckmastor
+
+      * Name:        The Discard Pile
+        Elements:    Deckmastor
+
+      * Name:        The Table
+        Elements:    Deckmastor
+
+      * Name:        Fate
+        Elements:    Deckmastor, Kallisti!
+
+      The following Element for sites is defined:
+
+      * Deckmastor: The Deckmastor is a limited executor of this site.
+
+      == Elements for Cards ==
+
+      The following Elements for cards are defined:
+
+      * Shares [X a positive integer]: While this card is in your
+        hand, you hold X shares in addition to any other shares you
+        hold.
+
+      * Powered [X a positive integer]: There is a fee of X-1 to play
+        this card.  While this card is on the table, it has power
+        equal to X.
+
+      * Grafty: Whenever this card becomes Grafty or is created as a
+        Grafty card, the Deckmastor shall destroy all existing copies
+        of this card, create a copy of the card held by the deck,
+        create a copy in the hand of each player who voted FOR the
+        proposal making this card Grafty or creating this card as a
+        Grafty card, then set the quota of this card to the number of
+        existing cards of this class.
+
+      The following classes of cards are defined:
+
+      == Corporate Cards ==
+
+      * Caption:   One Share
+        Frequency: Rare
+        Elements:  Shares [1], Handed [2]
+
+      * Caption:   Two Shares
+        Frequency: Rare
+        Elements:  Shares [2], Handed [3]
+
+      * Caption:   Three Shares
+        Frequency: Rare
+        Elements:  Shares [3], Handed [4]
+
+      * Caption:   Corporate Bankruptcy
+        Frequency: Unique
+        Elements:  Limited [Shareholders] [3], Costly [3]
+        Exploit:   Transfer each Stock Card not held by the deck to
+                   the deck.
+
+      * Caption:   Divide or Conquer Your Stock
+        Frequency: Rare
+        Elements:  Restricted [Shareholders]
+        Exploit:   Indicate a set of Stock Cards in your hand and a
+                   set of Stock Cards in the deck with the same number
+                   of Shares as the first set.  Transfer the cards in
+                   the first set to the deck, then transfer the cards
+                   in the second set from the deck to your hand.
+
+      == Basic Cards ==
+
+      * Caption:   Distrib-u-Matic
+        Frequency: Common
+        Elements:  Costly [N] 
+        Exploit:   Indicate N+1 proposals.  Make each of those
+                   proposals distributable. 
+
+      * Caption:   Absolv-o-Matic
+        Frequency: Common
+        Elements:  Costly [N-1]
+        Exploit:   Indicate an entity and a positive integer N, which
+                   must be 1 if you are not immaculate.  Expunge N
+                   blots from the indicated entity.
+
+Amend the Onepower Cardbook to read:
+
+=====================
+THE ONEPOWER CARDBOOK
+=====================
+
+      The following Elements for cards are defined:
+
+      * Handed [X a natural number]: When calculating Hand Size, this
+        Card counts as X Cards.
+
+      * Restricted [X a type of entity]: If you are not an X, you
+        cannot play this card.
+
+      * Limited [X a type of entity] [Y a positive integer]: If you
+        are not an X, there is a fee of Y for you to play this card.
+
+      * Persistent: After playing this card, do not discard it.
+
+      * Delayed [N a period of time]: You may not play this card if
+        you have played a copy of this card in the past period of time
+        described by N.
+
+      * Asleep [N a period of time]: No one may play a copy of this
+        card if anyone has played a copy of this card in the past
+        period of time described by N.
+
+      * Costly [X a natural number]: There is a fee of X to play this
+        card, in addition to any other fees.
+
+      The following classes of cards are defined:
+
+      == Card Cards ==
+
+      * Caption:   Your Turn
+        Frequency: Common
+        Exploit:   Indicate a player.  That player must play or
+                   discard a card in the next 72 hours; if e does not,
+                   you may assess em one blot for Delaying the Game.
+
+      * Caption:   Discard Picking
+        Frequency: Rare
+        Elements:  Delayed [4 days]
+        Exploit:   Indicate a card that was played or discarded in the
+                   past 72 hours.  If that card is in the discard
+                   pile, transfer it to your hand.
+
+      * Caption:   Enforced Charity
+        Frequency: Rare
+        Elements:  Delayed [3 days]
+        Exploit:   Indicate a player.  That player must transfer a
+                   card to you in the next 72 hours; if e does not,
+                   then you may assess em two blots for Being Greedy.
+
+      * Caption:   Drop your Weapon
+        Frequency: Rare
+        Exploit:   Indicate a gambler and a card held by that gambler.
+                   Discard that card from that gambler's hand.
+
+      * Caption:   Presto!
+        Frequency: Unique
+        Elements:  Delayed [one week]
+        Exploit:   Indicate a gambler and a card held by that gambler.
+                   Transfer that card to your hand.
+
+      * Caption:   Not Your Turn
+        Frequency: Unique
+        Elements:  Delayed [2 days]
+        Exploit:   Indicate a card played in the past 48 hours.  That
+                   card shall be deemed not to have been played, and
+                   the gambler who until recently had played the card
+                   may not play a copy of that card for the next 72
+                   hours.
+
+      * Caption:   Reshuffle
+        Frequency: Unique
+        Elements:  Asleep [a fortnight and a day]
+        Exploit:   Reshuffle the deck.
+
+
+      == Wacky Cards ==
+      
+      * Caption:   Two for One
+        Frequency: Rare
+        Elements:  Costly [1]
+        Exploit:   Indicate two undistributable proposals.  Make each
+                   of those proposals distributable.
+
+      * Caption:   Albatross Flies Away
+        Frequency: Unique
+        Elements:  Limited [Immaculate Players] [3]
+        Exploit:   Revoke one of your own Albatrosses.
+
+      * Caption:   Dud
+        Frequency: Common
+        Elements:  Persistent
+        Exploit:   You may wish in your own mind that you had a
+                   luckier Draw.
+
+      * Caption:   Player Stasis
+        Frequency: Unique
+        Exploit:   Indicate a player.  That player cannot play a card
+                   for the next 88 hours.
+
+      * Caption:   Hot Potato
+        Frequency: Unique
+        Elements:  Persistent
+        Exploit:   Indicate a nonsite gambler.  Transfer this card to
+                   that gambler.  E must publicly declare "Hot Potato"
+                   within 48 hours; if e does not, you may assess em
+                   one blot for Dropping the Potato.
+
+      * Caption:   It's a Surprise!
+        Frequency: Unique
+        Elements:  Handed [2], Delayed [3]
+        Exploit:   Gain two pending draws.
+
+      * Caption:   Discard and Draw
+        Frequency: Unique
+        Elements:  Costly [X]
+        Exploit:   Indicate a natural number X.  Discard X cards from
+                   your hand, then gain X pending draws.
+
+      * Caption:   Rebel Rabble
+        Frequency: Rare
+        Elements:  Restricted [Rebellious], Costly [number of rebels]
+        Exploit:   Increase the effective number of rebels by 1 for
+                   one revolutionary week (ten days), beginning
+                   immediately.
+
+      * Caption:   Dud Development
+        Frequency: Rare
+        Exploit:   Discard any number of Dud cards.  Gain that many
+                   pending draws. 
+
+      * Caption:   Police State
+        Frequency: Rare
+        Elements:  Restricted [Abiding], Costly [number of rebels]
+        Exploit:   Decrease the effective number of rebels by 1 for
+                   seven days, beginning immediately. 
+
+      == Discord ==
+
+      * Caption:   Chaos Apple
+        Frequency: Unique
+        Elements:  Handed [5], Delayed [one quarter], Kallisti!
+        Exploit:   Transfer each card not in a Deckmastor site to
+                   Fate.  As soon as possible afterward, the
+                   Deckmastor a number of cards to each gambler that
+                   is not a Deckmastor site the number of cards held
+                   by that gambler before this card was played.  The
+                   Deckmastor is encouraged to use Heisenberg's Law in
+                   dealing cards from Fate.  If between the time this
+                   card is played and the time Fate's cards are dealt
+                   exactly one player publicly claims to be The
+                   Prettiest One, then the Deckmastor shall transfer
+                   this card to em as soon as possible after Fate's
+                   cards are dealt.
+
+      * Caption:   Chaos Reborn
+        Frequency: Unique
+        Elements:  Handed [5], Kallisti!
+        Exploit:   For the next five minutes, you may play Chaos Apple
+                   as though it were not Delayed.
+
+      == Cash Cards ==
+
+      * Caption:   Greedy Bastard
+        Frequency: Common
+        Exploit:   Gain one kudo.  Then gain an albatross of Greed.
+
+      * Caption:   Charity Brings Happiness
+        Frequency: Common
+        Elements:  Costly [1]
+        Exploit:   Indicate a player who has fewer kudos than you do.
+                   Increase that player's kudos by one.  Gain the boon
+                   of Charity.
+
+      * Caption:   Thieves in the Night
+        Frequency: Rare
+        Element:   Grafty, Delayed [5 days]
+        Exploit:   Indicate a player.  If (1) fewer than half of all
+                   players hold Thieves in the Night and (2) the
+                   indicated player does not hold Thieves in the
+                   Night, then decrease that player's kudos by one and
+                   gain one kudo.  For each of the above stipulations
+                   that is false, gain an albatross of Thief.
+
+      * Caption:   Instant Gratification
+        Frequency: Rare
+        Exploit:   Indicate one of your boons.  If you don't have any
+                   boons, gain an albatross of Silliness.  Otherwise,
+                   revoke that boon and gain one kudo.
+
+      * Caption:   Instant Punishment
+        Frequency: Rare
+        Exploit:   Indicate one of your albatrosses.  If you don't
+                   have any boons, gain an albatross of Silliness;
+                   there, now you do.  Otherwise, revoke that
+                   albatross and lose one kudo.
+ 
+      * Caption:   Instant Millionaire
+        Frequency: Unique
+        Exploit:   Revoke all of your boons.  Then gain twice that
+                   number of kudos.
+
+      * Caption:   Lotto
+        Frequency: Unique
+        Elements:  Asleep [61 days]
+        Exploit:   As soon as possible, the Deckmastor shall select a 
+                   random copy of a Dud held by a player, and announce
+                   eir selection, unless no such copy exists.  Upon
+                   such an announcement, grant that player three
+                   instances of the ephemeral Patent Title "Fortune's
+                   Fool", and discard each Dud held by a player.
+
+      == Library Cards ==
+
+      * Caption:   Library Renewal
+        Frequency: Rare
+        Exploit:   Indicate a positive integer less than 6.  As soon
+                   as possible, the President of the University must
+                   randomly discard the indicated number of cards from
+                   the Library's hand, or all cards from the Library's
+                   hand, whichever is greater.
+
+      * Caption:   Library Card
+        Frequency: Common
+        Elements:  Limited [Faculty Members] [1]
+        Exploit:   Indicate a card held by the Library.  Check out
+                   that card from the Library.
+
+Section 1.  Rules changes.
+
+Amend rule 2068 (The Deckmastor) to read:
+
+      The Deckmastor is an office; its holder is responsible for fair
+      play, shuffling, and dealing, and is the recordkeepor for cards.
+
+      The Deckmastor's weekly report shall contain a record of all
+      cards in existence, recent card actions, and what entity holds
+      each card.  The Deckmastor need not record or report transfers
+      of cards to the table.
+
+Amend rule 2114 (Card Definitions) to read:
+
+      A document is a cardbook if so designated by the rules.  The
+      Deckmastor is the recordkeepor of cardbooks; eir monthly report
+      shall include each cardbook.  As soon as possible after a
+      cardbook changes, the Deckmastor shall publish that cardbook.  A
+      cardbook may only be changed as explicitly permitted by the
+      rules.
+
+      The Deckmastor may change non-substantial properties of any
+      cardbook, specifically layout, whitespace, and the order of
+      definitions, as e sees fit.
+
+      A cardbook can define a class of cards by specifying its
+      Caption, Frequency, zero or one Exploits, and optionally its
+      Elements, and can define an Element by specifying its name and
+      description.  Neither classes of cards nor Elements may be
+      otherwise defined.
+
+      (a) The Caption is a string of text, unique to a particular
+          class of cards.
+
+      (b) The Frequency of a card is exactly one of the values Unique,
+          Rare, or Common, defaulting to Unique if unspecified or
+          incorrectly specified.
+
+      (c) A card with a particular Element behaves according to the
+          description of that Element.
+
+      (d) An Exploit of a card may contain one or more Indications,
+          Impositions, and Feats.
+
+          (1) An Indication is a requirement for the gambler playing
+              the card to select some entity or value.
+
+          (2) An Imposition is a requirement the gambler may impose
+              upon another gambler by playing the card.
+
+          (3) A Feat is an action the gambler may perform by playing
+              the card.
+
+          (4) A Fuse is an Imposition or Feat that is not imposed or
+              performed immediately, but rather when a stated
+              condition occurs.
+
+      A reference to "you" or "your" in any text on a card refers to
+      the gambler holding the card unless it is on the table, and then
+      refers to the gambler who played the card.
+
+      The cards of a given class are fungible.  Each individual
+      instance of a card shall be considered to be a copy of that
+      class of card.
+
+      If there are conflicts between a card or element definition in a
+      cardbook and the rules, then the conflict shall be resolved as
+      if the definition were contained in the text of the rule that
+      defines the particular cardbook.  This rule takes precedence
+      over any rule that would require a different method of resolving
+      such conflicts.
+
+      This rule takes precedence over any rule describing the
+      definition or interpretation of card classes and card elements.
+
+Amend rule 2069 (Card Actions) to read:
+
+      (a) A nonperson entity is a site if so designated by the rules
+          or a cardbook.  A site may have one or more Elements.
+
+      (b) A gambler is a player or a site.  All gamblers may hold
+          cards.  If a card is held by a nongambler, the Deckmastor
+          shall transfer that card to the Deck as soon as possible.
+
+          A gambler's hand is the collection of cards held by that
+          gambler.  A gambler's hand size is the size of this
+          collection, plus one for each pending draw for that gambler.
+
+      (c) When a card must be created or destroyed, the Deckmastor
+          shall be empowered to create or destroy that card, as
+          appropriate, and must do so as soon as possible.  The
+          Deckmastor creates or destroys a card by announcement,
+          specifying as appropriate its holder or its former holder.
+          Cards can be neither created nor destroyed otherwise.
+
+          Whenever the quota for a class of cards exceeds the number
+          of existing copies of that card, a copy of that card must be
+          created.  The copy must be created in the deck's hand unless
+          otherwise specified.
+
+          Whenever the number of existing copies of a card exceeds the
+          quota for its class, if the deck holds a copy of that card,
+          a copy held by the deck must be destroyed, and if the deck
+          does not, then a random copy of the card must be destroyed.
+
+      (d) If a card would be transferred to the deck or the table, and
+          the transfer is not performed automatically, as part of the
+          Deckmastor's duties, or as the result of a card play, it is
+          discarded instead.
+
+          When a card is otherwise transferred from one gambler to
+          another, the former gambler shall cease to hold the card and
+          the latter gambler shall simultaneously come to hold the
+          card.
+
+          Discarding a card is synonymous with transferring it to the
+          discard pile.  Dealing a card to a gambler is synonymous
+          with selecting a random card from the deck and transferring
+          it from the deck to that gambler.
+
+          A gambler may transfer a card e holds to another gambler by
+          announcement, specifying the card to transfer and, if not
+          discarding it, the gambler to receive the card.
+
+      (e) A nonsite gambler whose hand size is smaller than the
+          maximum hand size, plus the number of offices e holds, may
+          draw a card for a fee equal to the number of times during
+          the current month e has previously drawn a card in this
+          manner.
+
+      (f) When a gambler draws a card, e gains a pending draw.  As
+          soon as possible afterward, the Deckmastor shall deal a card
+          to that gambler.  When e does so, the draw is no longer
+          pending.
+
+          If the Deckmastor errs, in good faith, in selecting a
+          particular card to deal, and that error does not greatly
+          change the probability of selecting that card, that deal
+          shall be allowed to stand.
+
+          As soon as possible after a player correctly announces that
+          the sum of the number of pending draws for each gambler is
+          greater than the number of cards in the deck, or that there
+          are no cards in the deck, then the Deckmastor shall
+          reshuffle the deck.  Whenever the deck is reshuffled, all
+          cards in the discard pile are automatically transferred to
+          the deck.
+
+Change the title of rule 2106 (Card Fees) to "Playing Cards", and
+amend it to read:
+
+      A gambler plays a card with an Exploit by announcement,
+      specifying the card to be played, indicating any entities or
+      values mentioned in an Indication of the card's Exploit, and
+      noting any fees required to play the card.  A card without an
+      Exploit cannot be played.
+
+      When a gambler plays a card, the following events automatically
+      occur in order:
+
+      (a) The card is transferred to the table.
+
+      (b) One at a time in the order listed on the card, the gambler
+          places any Impositions listed in the Exploit on the
+          appropriate gamblers and performs each Feat listed in the
+          Exploit.
+
+      (c) If the card is still on the table, it is discarded.
+
+      If the card has any Fuses, then the first time the stated
+      condition for a Fuse occurs, the gambler places the Imposition
+      or performs the Feat associated with that Fuse as appropriate.
+
+      The Elements or Exploit of a card may modify any of the above
+      events.
+
+Amend rule 2080 (Cards for Proposals) to read:
+
+      Within a week after a proposal's adoption, if its proposer would
+      be permitted to draw a card for a fee, then e may draw a card by
+      announcement, specifying in eir announcement that proposal's
+      number.  E can only perform this action once for the adoption of
+      that proposal.
+
+Amend rule 2091 (The Office of Secretary of the University) to read:
+
+      The Secretary of the University (SotU) is an office; its holder
+      is recordkeepor for the University.
+
+      The SotU's Weekly Report shall include:
+
+      (a) A list of all active Research Grants.
+
+      (b) A list of all active Book Club Selections.
+
+      (c) Each player's Education.
+
+      (d) A list of who has checked out cards from the library.
+
+Amend rule 2086 (The University of Agora) to read:
+
+      The University, also known as the Library, is a site.  The
+      Speaker is the president of and a limited executor of the
+      University.
+
+      Education is a stuck player switch with values Student and
+      Faculty Member.  The Secretary of the University (SotU) is the
+      recordkeepor of education.  As soon as possible after a player
+      is awarded a degree, the SotU shall flip the education of that
+      player to Faculty Member.
+
+Amend rule 2089 (Gardner Library) to read:
+
+      Whenever the Library's hand size is less than five, it gains a
+      pending draw.
+
+      A player (hereafter the Borrower) may check out a specified card
+      from the Library by paying a Fee for the Library's upkeep.  The
+      fee is 2 Kudos for Students and 1 Kudo for Faculty Members.  The
+      card is reserved and may not be checked out by any player until
+      it is dealt to the Library again by the Deckmastor.
+
+      Whenever a card is checked out from the Library, it is
+      transferred to the Borrower.
+
+      The President of the University may discard any card in the
+      possession of the Library without two objections.
+
+----------------------------------------------------------------------
+
+-- 
+C. Maud Image (Michael Slone)
+Much as I love you all, I have no particular desire to share
+everything I've received by e-mail over almost five years.
+                -- Michael, in agora-discussion

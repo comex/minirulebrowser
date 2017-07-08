@@ -1,0 +1,225 @@
+Agora Nomic
+Voting Report for Proposals 4377-4384
+11 Sep 2002
+
+Current Voting Mode: Public
+===========================================================================
+Voting on Proposals 4377-4384 commenced: Mon, 2 Sep 2002 12:09:22 +1000
+Voting on Proposals 4377-4384 concluded: Mon, 9 Sep 2002 12:09:22 +1000
+
+Num. Type Proposer    AI Title                         RESULT  F  A  -  *
+4377 Dem  Murphy       3 Fix Wins                      PASSES  7  1  0  0
+4378 Dem  Steve        2 Repeal Opposite Proposals     PASSES 13  3  0  1
+4379 Dem  Eris         3 Criminal Reform (v1.2)        FAILS   6  4  0  0
+4380 Ord  Steve        1 In defence of natural lang... PASSES  2  1  0  0
+4381 Ord  Steve        1 Blame Canada (v2.0)           FAILS   1  2  0  0
+4382 Ord  RedKnight    1 Blame Canada (v2.0)           FAILS   1  2  0  0
+4383 Ord  Sir Toby     1 Alternative Weather Determ... PASSES  2  1  0  0
+4384 Con  Steve        1 September Contested Proposal  PASSES 15  0  0  0
+===========================================================================
+
+Ordinary                                Democratic
+              4380 4381 4382 4383                     4377 4378 4379 4384
+
+Sir Toby      F    F    A    F          Steve         F    4F   3A   4F
+Michael       F    A    A    F          Eris          F    A    F
+OscarMeyr     A    A    F    A          Sir Toby      2F   2A   2F   2F
+                                        Michael       2F   2F   2F
+                                        RedKnight                    F
+                                        OscarMeyr     F,A  *    F,A  F
+
+                                        Anemocrats         7F        7F
+
+FOR           2    1    1    2          FOR           7    13   6    15
+AGAINST       1    2    2    1          AGAINST       1    3    4    0
+ABSTAIN       0    0    0    0          ABSTAIN       0    0    0    0
+Present       0    0    0    0          Present       0    1    0    0
+
+Voters        3    3    3    3          Voters        5    5    5    4
+Quorum?       Y    Y    Y    Y          Quorum?       Y    Y    Y    Y
+PASSES?       Y    N    N    Y          PASSES?       Y    Y    N    Y
+
+
+======================================================================
+Miscellaneous
+======================================================================
+
+Murphy attempted to cast some votes on 4377-4379 and 4384 but was
+several minutes late according to the Date headers (attempted votes
+at 02:24:08, voting period ended at 02:09:22).
+
+Points awards under R1930:
+    Murphy    5 (1 vote AGAINST 4378)
+    Steve     7 (3 votes AGAINST 4378) + 5 (1 vote AGAINST 4380)
+    Sir Toby  5 (1 vote AGAINST 4383) + 2 (only vote FOR 4381)
+    OscarMeyr 2 + 2 + 2 (only votes AGAINST 4377, 4380 and 4383)
+              + 2 (only vote FOR 4382)
+
+Points awards under R2016:
+10 Points to Steve, Eris, Sir Toby, RedKnight and OscarMeyr.
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+-----------------------------------------------------------------------------
+
+Proposal 4377 by Murphy, AI=3
+Fix Wins
+
+Amend Rule 112 (Ways to Win and Preclusions Thereof) to read:
+
+      A Player is eligible to Win the Game while e meets at least one
+      Win Condition, and does not meet any Win-Preventing Conditions.
+
+      Any Player may publish a Notice of Victory that lists all Players
+      eligible to Win the Game, and (for each listed Player) identifies
+      at least one Win Condition met by that Player.  If this
+      information is accurate, then the listed Players Win the Game.
+
+      This is the only way to Win the Game.  If a Player would otherwise
+      Win the Game due to other Rules, then e instead meets a Win
+      Condition for one week (and may Win the Game as described above).
+
+Repeal Rule 1638 (Announcing a Win).
+
+-----------------------------------------------------------------------------
+
+Proposal 4378 by Steve, AI=2
+Repeal Opposite Proposals
+
+This Proposal has an Adoption Index of 2.
+
+Repeal Rule 1991 (Opposite Proposals).
+
+-----------------------------------------------------------------------------
+
+Proposal 4380 by Steve, AI=1
+In defence of natural language
+
+Amend Rule 1431 (Claims of Error) to read:
+
+      A Claim of Error is a public message claiming that a specific
+      public communication misrepresents the actual Game State, and
+      documenting the nature of the error.  The person who sent the
+      original communication is hereafter known as the Journalist,
+      and the portion of the communication claimed to be in error
+      is hereafter known as the Yellow Document.
+
+      A Response to a Claim of Error is a public message from the
+      Journalist that either admits or denies the claim.  An admission
+      is not valid until the Journalist posts a corrected version of
+      the Yellow Document.
+
+      If the Journalist was required by the Rules to publish the
+      information in the Yellow Document, then e must publish a
+      Response as soon as possible, unless one of the following holds:
+
+        a) E has already published a correction.
+        b) A previous Claim was made concerning the same error.
+        c) The Claim was posted more than three weeks after the
+           Yellow Document.
+        d) The Claim is in dispute.  If the Claim ceases to be in
+           dispute, then the Journalist must publish a Response as
+           soon as possible after it ceases to be in dispute.
+
+      If the Journalist was not required by the Rules to publish
+      the information in the Yellow Document, then e is encouraged
+      (but not required) to publish a Response in a timely fashion.
+
+      A Player who incorrectly denies a Claim commits the Class 1
+      Crime of Implausible Deniability.  However, if e admits the
+      Claim within three days after the incorrect denial, then e
+      shall not be convicted of this Crime.
+
+
+-----------------------------------------------------------------------------
+
+Proposal 4383 by Sir Toby, AI=1
+Alternative Weather Determination
+
+Amend Rule 1893 by inserting after this text:
+
+      The Treasuror's Budget shall also contain a schedule that, for
+      each Bank Currency, shall indicate the amount of the New Player
+      Award for that Currency.  The amount of the New Player Award for
+      a Bank Currency shall not be less than the Minimum Unit Quantity
+      of that Currency.
+
+the following text:
+
+      The Treasuror's Budget shall also contain the Foul Weather Factor
+      and the Weather Intensity Factor. Both are numbers between 0 and 10
+      inclusive that are evenly divisible by 0.1.
+
+
+Set the Foul Weather Factor in the Treasuror's Budget to 2.0.
+
+
+Set the Weather Intensity Factor in the Treasuror's Budget to 2.0.
+
+
+Also, amend Rule 2011 by replacing this text:
+
+      As soon as possible after the beginning of each month, the
+      Treasuror shall randomly Determine the Weather for the month.
+      The Weather can be one of either Foul, Fair, or Plenty, and
+      shall be determined using the following probabilities:
+                     0.20  Foul.
+                     0.30  Fair.
+                     0.20  Plenty.
+                     0.30  Same as the previous month.
+
+with the following:
+
+      As soon as possible after the beginning of each month, the
+      Treasuror shall randomly Determine the Weather for the month.
+      The Weather can be one of either Foul, Fair, or Plenty, and
+      shall be determined as follows:
+
+        - Let FOUL be the number of Stems owned by the Bank,
+          multiplied by the Foul Weather Factor as set in the
+          Treasuror's Budget, and then rounded up to the nearest
+          integer.
+        - Let PLENTY be the number of Stems owned by all Entities,
+          excluding the Bank.
+        - Let SAME and FAIR both be the sum of FOUL and PLENTY,
+          divided by 4, rounding up to the nearest integer.
+        - Let TOTAL by the sum of FOUL, PLENTY, SAME, and FAIR.
+        - The weather shall be determined using the following
+          probabilities:
+                (FOUL   / TOTAL)  Foul.
+                (FAIR   / TOTAL)  Fair.
+                (PLENTY / TOTAL)  Plenty.
+                (SAME   / TOTAL)  Same as the previous month.
+
+
+Also, amend Rule 2011 by replacing this text:
+
+           (a) A number of Stems in the Bank's possession, equal to
+               the number of Players in the game multiplied by the
+               Minimum Income, shall be Destroyed.  If this value is
+               greater than the number of Stems in the Possession of
+               the Bank, all the Stems in the Possession of the Bank
+               shall be Destroyed instead.
+
+with the following text:
+
+           (a) A number of Stems in the Bank's possession, equal to the
+               number of Players in the game multiplied by the Minimum
+               Income, multiplied by the Weather Intensity Factor as set
+               in the Treasuror's Budget, and then rounded up to the
+               nearest integer, shall be Destroyed. If this value is
+               greater than the number of Stems in the Possession of the
+               Bank, all the Stems in the Possession of the Bank shall be
+               Destroyed instead.
+
+-----------------------------------------------------------------------------
+
+Assessor t
+
+
+   teemu korkiakangas: scurra@iki.fi . http://www.iki.fi/scurra/
+              "kunpa kaikki elämän suuret mysteerit ratkeaisivat
+                  kengurukepin ja kermapullon avulla" (don rosa)
+

@@ -1,0 +1,229 @@
+Assessor's Voting Report
+2001-07-08 02:12:26
+
+Voting on Proposals 4174-4180 commenced: 2001-06-26 15:01:28
+Voting on Proposals 4174-4180 concluded: 2001-07-03 15:01:28
+
+Num.  Type  Proposer  AI  Title                                    Result  F  A  -
+4174  Ord   Kelly     1   The Scribes' Council                     PASSES  5  0  1
+4175  Ord   Elysion   1   Another Use for Indulgences v1.1         PASSES  7  0  0
+4176  Ord   root      1   Auction Patches                          PASSES  6  0  0
+4177  Ord   Elysion   1   Raffle Patch                             PASSES  5  0  0
+4178  Ord   root      1   Fix Unready Judges                       PASSES  5  0  1
+4179  Ord   Taral     1   Fix Periodic Compensations               PASSES  3  0  3
+4180  Ord   Elysion   1   LET'S GET THIS SHOW ON THE ROAD ALREADY  PASSES  5  3  0
+
+Voter    4174  4175  4176  4177  4178  4179  4180
+
+Goethe      F     F     F     F     F     F
+Michael    2F    2F    2F    2F    2F    2F    2F
+Ziggy       F    2F    2F     F     F     -    2A
+harvel      F     F                 -     -     A
+lee                                            2F
+root        -     F     F     F     F     -     F
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+Proposal 4174 by Kelly, AI=1
+The Scribes' Council
+
+The following Rule is enacted:
+
+      The set of all Players who are currently Scribes is known as the
+      Scribes' Council.
+
+      Any Player may make any Undistributable Proposal Distributable
+      (without payment of any Fee) with the Support of a majority of
+      the Scribes' Council.
+
+----------------------------------------------------------------------
+
+Proposal 4175 by Elysion, AI=1
+Another Use for Indulgences v1.1
+
+[History:
+      * 1.1 Adapted a suggestion by Taral
+      * 1.0 Initial proto
+ ]
+
+Amend rule 1960/0 (Roles) by replacing the text reading:
+
+      A Player who has no role, or a player who has not changed
+      eir role in the past 3 months, may change roles by announcing
+      publicly what role e is changing to.
+
+with:
+
+      A Player changes eir Role by publicly announcing which Role e is
+      changing to, provided one of the following is true:
+
+          1) e has no role or e has not changed eir role in the past
+             3 months.
+          2) e has not changed eir role in the past six weeks and e
+             has paid a Fee of 1 Indulgence for the purpose of making
+             this change
+          3) e has paid a Fee of 3 Indulgences for the purpose of
+             making this change.
+
+----------------------------------------------------------------------
+
+Proposal 4176 by root, AI=1
+Auction Patches
+
+{
+
+/*
+  * This Proposal attempts to clean up the transfer/pay out
+  * terminology of the Auction Procedures, so that we don't have
+  * Auctioneers being unable to pay out the Auctioned items.
+  *
+  * This Proposal also allows Auctions to be held for groups of
+  * items, rather than individual items.
+  *
+  * This Proposal also fixes the Final Auction Price for Vickrey
+  * Auctions.
+  */
+
+Amend Rule 1887 by replacing the text reading:
+
+       (d) Number of Items: Each Auction is conducted for 1 or more
+           identical items. Throughout this Rule, N indicates the
+           number of items up for bid in the Auction.
+
+with:
+
+       (d) Number of Lots: Each Auction is conducted for 1 or more
+           identical lots of identical items, which must all be
+           owned by the same entity. Throughout this Rule, N
+           indicates the number of lots up for bid in the Auction.
+
+and by replacing the text reading:
+
+       Unless specified otherwise, the Auctioneer shall pay out an
+       Auctioned item to the winning Bidder as soon as possible
+       after the bill for that item is paid.
+
+with:
+
+       Unless specified otherwise, the owner of the Auctioned items
+       shall incur a debt of one Auctioned lot of items to the
+       winning Bidder when the bill for that lot is paid.
+
+
+
+Amend Rule 1984 by replacing the text reading:
+
+       (d) Number of Items: Each Raffle is conducted for 1 or more
+           identical items. Throughout this Rule, N indicates the
+           number of items up for bid in the Raffle.
+
+with:
+
+       (d) Number of Lots: Each Raffle is conducted for 1 or more
+           identical lots of identical items, which must all be
+           owned by the same entity. Throughout this Rule, N
+           indicates the number of lots up for bid in the Raffle.
+
+and by replacing the text reading:
+
+       (l) Announcing Winners: As soon as possible after the end of the
+           Raffle, the Riff-Raff shall announce the winning tickets and
+           pay out to each winning Entrant a separate Auctioned item for
+           each of eir winning tickets.
+
+with:
+
+       (l) Announcing Winners: As soon as possible after the end of the
+           Raffle, the Riff-Raff shall announce the winning tickets.
+           Upon this announcement, the owner of the Auctioned items
+           shall incur a debt of one Auctioned lot of items to each
+           winning Entrant for each of eir winning tickets.
+
+Amend Rule 1983 by replacing the text reading:
+
+       (d) The Final Auction Price is:
+           (1) The amount of the largest nonwinning uncancelled valid
+               Bid, if there were N or more valid uncancelled Bids in
+               the Auction;
+           (2) The Starting Bid, if there were fewer than N valid
+               uncancelled Bids.
+           For the purpose of this Rule, N is equal to the number of
+           items being Auctioned.
+
+with:
+
+       (d) The Final Auction Price is:
+           (1) The amount of the largest nonwinning uncancelled valid
+               Bid, if there were more than N valid uncancelled Bids
+               in the Auction;
+           (2) The Starting Bid, if there were N or fewer valid
+               uncancelled Bids.
+           For the purpose of this Rule, N is equal to the number of
+           items being Auctioned.
+
+}
+
+----------------------------------------------------------------------
+
+Proposal 4177 by Elysion, AI=1
+Raffle Patch
+
+[
+Rule 1954/3 (Distribution of Papyri), Rule 1712/10 (Distribution of
+Indulgences), Rule 1936/6 (Auctioning Positions in the Oligarchy), and Rule
+1946/3 (Distribution of Voting Entitlements) all provide restrictions on
+_bidding_. However, a Raffle does not involve bidding; this proposal would
+fix the Raffle rule so players are properly disqualified. To the best of my
+knowledge, this proposal does not conflict with proposal #01-108 ("Auction
+Patches").
+]
+
+Amend rule 1984 (Raffles) by replacing the text reading:
+
+      (b) Entrants: Every Player not on Hold may enter the Raffle. On
+          Hold status is measured at the time a Player enters the
+          Raffle.
+
+with:
+
+      (b) Entrants: Every Player not on Hold may enter the Raffle. On
+          Hold status is measured at the time a Player enters the
+          Raffle. However, if a rule prohibits a player from bidding
+          in this Auction, then e is also prohibited from buying
+          tickets.
+
+----------------------------------------------------------------------
+
+Proposal 4178 by root, AI=1
+Fix Unready Judges
+
+Amend Rule 698 by replacing the text reading:
+
+       Whenever a Player becomes subject to a Grace Period, e becomes
+       ineligible to judge CFJs.
+
+with:
+
+       Whenever a Player becomes subject to a Grace Period, e shall be
+       considered to have made emself ineligible to judge CFJs, as
+       described in other Rules.
+
+----------------------------------------------------------------------
+
+Proposal 4179 by Taral, AI=1
+Fix Periodic Compensations
+
+Amend Rule 1940 (Periodic Compensations) by replacing all occurences of
+the text "12 days" with the text "16 days".
+
+----------------------------------------------------------------------
+
+Proposal 4180 by Elysion, AI=1
+LET'S GET THIS SHOW ON THE ROAD ALREADY
+
+AMEND RULE 1929 (POINTS) BY REPLACING ALL INSTANCES OF "200" WITH "100"
+
+======================================================================
+

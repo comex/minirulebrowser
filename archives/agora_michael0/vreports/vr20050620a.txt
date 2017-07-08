@@ -1,0 +1,264 @@
+Voting Results
+
+This Report:  Mon 20 Jun 2005 (Proposal  4810)
+Last Report:  Mon 20 Jun 2005 (Proposals 4805 - 4809)
+(All times given in UTC)
+
+Start of voting period: Mon 13 Jun 19:52:28 2005
+  End of voting period: Mon 20 Jun 19:52:28 2005
+
+O = Ordinary                            s = Sane
+D = Democratic      u = Urgent          t = Takeover
+
+Number    Title                         Author    AI   Flags    Result
+-----------------------------------------------------------------------
+4810      The Well-Ordered Repeals v1.0 Goethe    2    D        Adopted      
+
+                4810  
+
+Goethe            F  
+Manu              F  
+Maud              F  
+OscarMeyr         P  
+Sherlock          F  
+root              F  
+
+FOR               5  
+AGAINST           0  
+ABSTAIN           0  
+Present           1  
+
+Voting Index      U  
+Adoption Index    2  
+
+Voters            6  
+Quorum (D:9/3)    3  
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4810 by Goethe, AI=2, Democratic
+The Well-Ordered Repeals v1.0
+
+
+Proposal: The Well-Ordered Repeals v1.0
+
+Only changes since v0.1:
+   Minor wording suggested by Maud
+
+This proposal:
+   1.  Eliminates administrative and private orders.  The legal
+       remedies for non-judicial personages are now solely timing
+       orders (a new and VERY LIMITED type of order), or motioning
+       a judge to execute an order, or of course proposal.
+   2.  Tightens and condenses a lot of the orders language.
+   3.  Doesn't touch legislative orders.
+   4.  Leaves judicial orders for the Next Great Reform (other than
+       the aforementioned language condensing).
+
+
+Amend Rule 1793 ("Orders") to read:
+
+      An Order is a command, executed by a player and directed to some
+      entity requiring that entity to perform exactly one action, or
+      to refrain from performing one or more actions.
+
+      An Order may be directed to the holder of an official position
+      in eir capacity in that official position, and if the position
+      changes hands before the Order is satisfied, the duty to abide
+      by the Order automatically attaches to the new holder of that
+      position.
+
+      An Order may also be directed at a prior order so as to affect
+      the prior order's operation, as the Rules permit.
+
+      All Orders executed in the manner prescribed by the Rules for
+      their class are presumed valid and enforceable until proven
+      otherwise by CFJ.  No Order may act to prevent or hinder its own
+      appeal in any way.  Knowingly and willfully executing invalid
+      Orders constitutes the Class 10 Crime of Abuse of Authority.
+
+
+Amend Rule 1794 ("Classes of Orders") to read:
+
+      Each Order is of exactly one of the following classes.  If an
+      Order could be of more than one of these classes, then it is of
+      the first class that matches.
+
+        (a) A Legislative Order is an Order executed as part of the
+            effect of the adoption of a Proposal.
+
+        (b) A Sentencing Order is an Order executed to impose the
+            penalty for a Crime.
+
+        (c) A Ticketing Order is an Order executed to impose the
+            penalty for an Infraction.
+
+        (d) An Appellate Order is an Order executed by a Board of
+            Appeals.
+
+        (e) A Judicial Order is an Order executed by a Judge in the
+            course of performing eir duties or privileges as Judge.
+
+        (f) A Timing Order is an Order which may be executed by any
+            person and directed at any entity.  A timing order is
+            valid if and only if it orders the entity to perform, as
+            soon as possible, a duty specifically required of em by
+            the Rules that does not otherwise have a specified timing
+            requirement, or for which the otherwise specified timing
+            requirement will have been exceeded as soon as possible
+            after the Order is executed.
+
+      No other types of Orders are valid.
+
+
+Amend Rule 1795 ("Timing Requirements of Orders") to read:
+
+      An Order may specify the time limit for the performance of an
+      ordered action.  If a time limit is less than 72 hours after the
+      Order takes effect, the time limit shall be 72 hours.  If no
+      time limit is specified, time limit shall be as soon as possible
+      after the Order takes effect.
+
+      If an Order which commands the performance of an action is
+      directed to an Office or other position of authority, and the
+      holder of that position of authority changes after the Order
+      takes effect, but before the Order is satisfied, and the time
+      limit is before, or less than 72 hours after, the current holder
+      of the position came to hold that position, then the current
+      holder shall have as soon as possible to satisfy that order.
+
+      Other Rules may establish other times by which orders must be
+      performed.  The noncompliance of an order with this Rule does
+      not deprive that order of all effect, but instead modifies the
+      timing requirements of the order.
+
+
+Change the title of Rule 1795 to "Order Timing".
+
+Amend Rule 1799 ("Amendment, Stay, and Vacation of Orders") to read:
+
+      The effect of staying an Order is to temporarily prevent the
+      stayed Order from having any effect.
+
+      A stay may be ordered for a fixed time, in which case the stay
+      expires at the time specified; or for an indefinite time, in
+      which case the stay will not expire.  If no specification is
+      made in the Order to Stay, the stay shall be indefinite.
+
+      When the stay expires or is vacated, the previously stayed order
+      again has effect as if it had been originally executed at the
+      moment the stay ceases to be effective.  However, if at the time
+      the staying Order expires or otherwise ceases to have effect,
+      the stayed Order has been vacated or is subject to another
+      staying Order, it does not regain effect.
+
+      The effect of vacating an Order is to permanently deny the
+      vacated Order from having any effect.  Vacating an Order to
+      Vacate reinstates the ability of the vacated Order to have
+      effect, as of the moment the Order to Vacate is itself vacated.
+
+      Any Order may always be stayed or vacated by the Player (or, in
+      the case of Appellate Orders, Board of Appeal) who executed it.
+      Certain classes of Orders may be stayed or vacated in other
+      circumstances as well, but only as the Rules allow.
+
+Rename Rule 1799 to "Stay and Vacation of Orders".
+
+Amend Rule 1810 ("Noncompliance with Orders") to read:
+
+      An Order requiring an entity to perform an action is satisfied
+      when that entity performs that action.  Other Rules may define
+      other ways for Orders to be satisfied.  Except when otherwise
+      specified, a single action can result in the satisfaction of at
+      most one Order.  If an action would satisfy more than one Order,
+      and no other specification is made, the Action satisfies the
+      oldest Order which it would satisfy.
+
+      If an Order requires an entity to perform an action prior to a
+      specified time, and the Order is not satisfied prior to that
+      time specified in the Order commits the Class 4 Crime of
+      Contempt by Inaction.
+
+      Any entity who, while required by an Order to refrain from
+      performing an action, performs the proscribed action while the
+      Order is in effect commits the Class 4 Crime of Contempt by
+      Action.
+
+      This Rule shall have no application with respect to any Order
+      which has been adjudicated to be invalid.
+
+Rename Rule 1810 to "Satisfying Orders".
+
+Amend Rule 1803 ("Judicial and Sentencing Orders") to read:
+
+      Judicial Orders and Sentencing Orders are executed by being sent
+      to the Clerk of the Courts, but do not take effect until their
+      publication by the Clerk of the Courts.  The Clerk of the Courts
+      shall publish each Judicial Order and Sentencing Order as soon
+      as possible after receiving it from the Judge who executed it.
+
+      Any Player may formally request a Judge issue any Judicial Order
+      by filing a motion requesting that Order.  If granted, the Judge
+      shall issue the Order requested.
+
+
+Amend Rule 1804 ("Appeal of Judicial and Sentencing Orders") to read:
+
+      As soon as possible after a Judicial Order or Sentencing Order
+      is Appealed, the Clerk of the Courts shall stay it.  If the
+      Appeal is sustained, then the Board of Appeals shall vacate this
+      stay as soon as possible.  If the Appeal is sustained, then the
+      Board of Appeals shall vacate the stayed Order as soon as
+      possible.
+
+      In the Appeal of a Judicial Order or Sentencing Order, the Board
+      of Appeals shall consider whether the Order was properly and
+      validly executed.
+
+
+Amend Rule 1509 ("Orders to Compel") to read:
+
+      Upon a judicial finding that a Player has failed to perform a
+      duty required of em by the Rules, the Judge so finding shall
+      execute an Order, requiring that Player to perform that duty as
+      soon as possible.  Such an Order is known as an Order to Compel.
+
+      If the duty in question arises because the Player in question
+      holds a specific Office or other position of official
+      responsibility, the Order shall be directed to that Office or
+      position.  If the Player holding that Office fails to perform
+      the duty in question as ordered, the Judge shall Order that that
+      Player be removed from Office or position.
+
+
+Amend Rule 1830 ("No Compulsion of Judges") to read:
+
+      Any Order to Compel directed to a Judge, or requiring the
+      performance of a duty required of a Player because that Player
+      is a Judge, is invalid, unless that Order is a valid Appellate
+      Order.
+
+      Any CFJ alleging that a Judgement is incorrect, or that a Judge
+      has failed to perform a judicial duty, lacks standing.  Such a
+      claim should instead be pursued via Appeal.
+
+
+REPEAL Rule 1796 ("Validity of Orders")
+REPEAL Rule 1797 ("Abuse of Authority")
+REPEAL Rule 1798 ("I Was Only Obeying Orders")
+REPEAL Rule 1800 ("Amendment of Orders")
+REPEAL Rule 1801 ("Stay of Orders")
+REPEAL Rule 1802 ("Vacation of Orders")
+REPEAL Rule 1808 ("Administrative and Private Orders")
+REPEAL Rule 1809 ("Appeal of Administrative and Private Orders")
+REPEAL Rule 1811 ("Contempt by Action")
+REPEAL Rule 1829 ("Refusal of Duty by the Speaker")
+REPEAL Rule 1828 ("Motions Requesting Judicial Orders")
+
+----------------------------------------------------------------------
+
+-- 
+Assessor C. Maud Image (Michael Slone)
+I understand this.  That frightens me.
+                -- Murphy, in agora-discussion

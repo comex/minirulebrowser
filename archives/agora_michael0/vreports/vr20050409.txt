@@ -1,0 +1,253 @@
+Voting Results
+
+This Report:  Sat  9 Apr 05 (Proposals 4663 - 4670)
+Last Report:  Tue 29 Mar 05 (Proposals 4654 - 4662)
+(All times are in GMT)
+
+Start of Voting Period:  Mon 28 Mar 13:23:03
+   End of Voting Period:  Mon  4 Apr 13:23:03
+
+O = Ordinary        d = Disinterested   s = Sane
+D = Democratic      u = Urgent          t = Takeover
+
+Number    Title                         Author    AI   Flags    Result
+-----------------------------------------------------------------------
+4663      Fix Patronage                 root      2    Dd       Adopted
+4664      Co-authorship                 Sherlock  1    Od       Adopted
+4665      Deckmastor Perks              Kolja     2    D        Adopted
+4666      More cards 3 part 1           Quazie    1    O        Adopted
+4667      More cards 3 part 2           Quazie    1    O        Adopted
+4668      Changeable shares             Quazie    2    D        Adopted
+4669      The Secretary as an office    Quazie    2    D        Adopted
+4670      Reduce the Linked CFJ Penalty OscarMeyr 1    O        Adopted
+
+                4663  4664  4665  4666  4667  4668  4669  4670
+
+Eris             A    3F     A    3F    3A     F     P    3F
+gazebo_dude      F     F     A    3F    3F     F     P     F
+Goethe           F     F    P+F    A     A     F     A     F
+Kolja            F           F                 P     P
+Manu             F    3F     P    3A    3F     F     P    3F
+Maud             -     F     P     P     A     F           F
+Michael          A           F                 F     A
+OscarMeyr        F           F                 F     F
+Quazie                 F     F     F     F     F     F     F
+Riail            F     F     A     A     F     F     P     F
+root             A          P+F                F     F
+Sherlock         F           F                 F     F
+
+FOR              7    11     7     7     8    11     4    11
+AGAINST          3     0     3     5     5     0     2     0
+Abstain          1     0     0     0     0     0     0     0
+Present          0     0     4     1     0     1     5     0
+
+Voting Index     2.3+ *U*    2.3+  1.4   1.6  *U*    2    *U*
+Adoption Index   2     1     2     1     1     2     2     1
+
+Voters          11     7    12     7     7    12    11     7
+Quorum (D:14/3)  5     3     5     3     3     5     5     3
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4663 by root, AI=2, Democratic, Disinterested
+Fix Patronage
+
+
+[Patronage requires Power 2 to do what it does.]
+
+Change the power of Rule 2077, and amend it by replacing the text:
+
+       * Caption:  Patronage
+         Elements: Grafty, Budgeted
+         Exploit:  You may increase or decrease the Political Charge by
+                   N by paying a fee of 4 times N.  If undefined
+                   elsewhere, the Political Charge is a positive
+                   integer, tracked by the Assessor, which begins at 4.
+
+with:
+
+       * Caption:  Patronage
+         Elements: Grafty, Budgeted, Powered [2]
+         Exploit:  You may increase or decrease the Political Charge by
+                   N by paying a fee of 4 times N.  If undefined
+                   elsewhere, the Political Charge is a positive
+                   integer, tracked by the Assessor, which begins at 4.
+                   No fee required by the Powered [X] element need be
+                   paid to activate this exploit.
+
+-----------------------------------------------------------------------
+
+
+Proposal 4664 by Sherlock, AI=1, Ordinary
+Co-authorship
+
+
+Amend Rule 1430 (Mandatory Rule Annotations) by replacing the text that
+reads:
+
+       Whenever a Rule is changed in any way, the Rulekeepor shall
+       record a historical annotation to the Rule giving the type of
+       change, the source of the Change (that is, a reference to the
+       Proposal and its Proposer, or Rule or other entity which
+       mandated the Change) , and the date upon which the change took
+       effect.  Other Rules may require additional information to
+       appear in an annotation for certain types of Rule Change.
+
+with the text:
+
+       Whenever a Rule is changed in any way, the Rulekeepor shall
+       record a historical annotation to the Rule giving the type of
+       change, the source of the Change (that is, a reference to the
+       Proposal and its Proposer (along with any Players explicitly named
+       as co-authors in the Proposal), or Rule or other entity which
+       mandated the Change) , and the date upon which the change took
+       effect.  Other Rules may require additional information to appear
+       in an annotation for certain types of Rule Change.
+
+-----------------------------------------------------------------------
+
+
+Proposal 4665 by Kolja, AI=2, Democratic
+Deckmastor Perks
+
+
+Amend 1950 by replacing
+"            (1) A Shareholder: eir Share Holdings;
+             (2) Any other entity"
+with
+"            (1) A Shareholder: eir Share Holdings;
+             (2) the Deckmastor: the number of Share Cards in the Deck
+                or three, whichever is smaller; plus eir Share Holdings
+                (if e is a Shareholder);
+             (3) Any other entity"
+and
+"              (1) no Player may vote on an Ordinary Proposal unless e
+                   is a Shareholder at the time e casts eir vo"
+with
+"              (1) no Player may vote on an Ordinary Proposal unless e
+                   is a Shareholder or the Deckmastor at the time e
+                   casts eir vo".
+
+Amend 879 by replacing
+"     (a) An ordinary proposal achieves quorum if at least three
+           shareholders cast votes on it, and the Speaker did not veto
+           it."
+with
+"     (a) An ordinary proposal achieves quorum if at least three
+           players cast votes on it, and the Speaker did not veto
+           it."
+
+-----------------------------------------------------------------------
+
+
+Proposal 4666 by Quazie, AI=1, Ordinary
+More cards 3 part 1
+
+
+Proposal: "More cards 3 part 1 "
+
+Append the following to rule R2071 "Wacky Cards"
+
+* Caption: Dud Development
+Quota: 2
+Elements: None
+Exploit: You may discard X Dud Cards to draw X Cards for free.
+
+-----------------------------------------------------------------------
+
+
+Proposal 4667 by Quazie, AI=1, Ordinary
+More cards 3 part 2
+
+
+Proposal: "More cards 3 part 2"
+
+* Caption:  Fish your Wish
+Quota: 5
+Elements: Handed[2]
+Exploit:  For a fee of 1 kudo you may indicate any one card from the
+deck, to be known as the 'Wish', and any one player, to be known as
+the 'Fisherman', provided that the Fisherman is not currently
+indicated by any other 'Fish your Wish' card.  If the Fisherman is
+already indicated by another 'Fish your Wish' card then the playing of
+the card is unsuccessful and this card does not leave the player's
+hand.  If the Fisherman's next draw is the Wish you get the card from
+them and get to draw one card for free. If the Fisherman's next draw
+is not the Wish you may pay a fee of 1 Kudo to draw a card and if you
+draw the Wish with this draw you get to draw a card for free.
+
+-----------------------------------------------------------------------
+
+
+Proposal 4668 by Quazie, AI=2, Democratic
+Changeable shares
+
+
+Murphy is a co-author on this proposal.
+
+Append the following to R 1932
+
+"* Caption: Divide or Conquer Your Stock
+Quota: 8
+Elements: Restricted [Shareholders]
+Exploit:  Specify one or more Share cards in your hand, and
+one or more Share cards in the deck, such that both sets
+consist of the same total number of Shares.  The specified
+cards in your hand are transferred to the deck, and the
+specified cards in the deck are transferred to your hand."
+
+-----------------------------------------------------------------------
+
+
+Proposal 4669 by Quazie, AI=2, Democratic
+The Secretary as an office
+
+Create a new rule entitled '"The Office of Secretary of the
+University' to read as follows:
+
+       "The Secretary of the University (SotU) is an office; its holder
+is recordkeepor for the University.
+
+       The SotU's Weekly Report shall include:
+
+       (a) A list of all active Research Grants;
+
+       (b) A list of all active Book club selections;
+
+       (c) Each players Education.
+
+       (d) A list of who has checked out cards from the library.
+
+       (e) The running history of all of the preceding."
+
+Replace all instances of the word 'Herald' in the rule entitled "The
+University of Agora" with 'SotU'
+
+Upon the passing of this Proposal Quazie shall be Installed as the SotU.
+
+-----------------------------------------------------------------------
+
+
+Proposal 4670 by OscarMeyr, AI=1, Ordinary
+Reduce the Linked CFJ Penalty
+
+Amend R408 by replacing the text:
+       A Judge recused according to this Rule commits the Class 3
+       Infraction of Failure to Judge, to be reported by the Clerk of
+       the Courts.  E becomes ineligible to Judge any CFJ for one
+       month, or until e publicly requests to become eligible again,
+       whichever is soonest.
+
+With:
+
+A Judge recused according to this Rule commits the Infraction of Failure
+
+to Judge; the Class of this Infraction is Class 3 for an unlinked CFJ,
+or for a single incident of Linked CFJs, Class 2 plus the number of
+Linked
+CFJs.  This Infraction is to be reported by the Clerk of the Courts.
+The
+recused Judge becomes ineligible to Judge any CFJ for one month, or
+until e
+publicly requests to become eligible again, whichever is sooner.

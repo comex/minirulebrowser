@@ -1,0 +1,121 @@
+Voting Results
+
+This Report:  Sun 23 Nov 03 (Proposals 4540 - 4542)
+Last Report:  Sun 16 Nov 03 (Proposals 4535 - 4539)
+(All times are in UTC)
+
+Start of Voting Period:  Sun 16 Nov 19:28:21
+   End of Voting Period:  Sun 23 Nov 19:28:21
+
+O = Ordinary        d = Disinterested
+D = Democratic      u = Urgent
+P = Parliamentary   s = Sane
+                     c = contested
+
+Number    Title                    Author    AI   Flags     Result
+----------------------------------------------------------------------
+4540      Boon of Zeitgeist        Murphy     1     D       Adopted
+4541      The Omnibus Reform...    Murphy     1     D       Sanitised, Aborted
+4542      Pragmatize Scoring       Murphy     1     D       Adopted
+
+                     4540  4541  4542       Team
+
+Goethe                P     A     F      Bleethan
+Michael               A     -     -      Dovesdar
+Murphy                F     F     F      Bleethan
+OscarMeyr             A     F     F      Sliehough
+RedKnight             F     A     F      Bleethan
+Sherlock             2F     -    2F      Sliehough
+Sir Toby              F     F     F      Bleethan
+Steve                F+A   2A    F+A     Dovesdar
+
+FOR                   6     3     8
+AGAINST               3     4     1
+Abstain               0     2     0
+Present               1     0     0
+
+Voting Index          2     0.75  8
+Adoption Index        1     1     1
+
+Voters                8     8     8
+Quorum (D:14/3)       5     5     5
+
+H. Scorekeepor OscarMeyr, please note Points awards due to Rule 2055:
+
+      [P6] <none>
+      [P7] Murphy +7 (4540), +5 (4542)
+      [P8] Steve +2 (4542)
+
+      [T1] <none>
+      [T2] Kinhatis -20 (4540), Kinhatis -20 (4541), Kinhatis -20 (4542)
+      [T3] <none>
+
+Text of Adopted Proposals
+---------------------------------------------------------------------------
+
+Proposal 4540 by Murphy, AI=1, Democratic
+Boon of Zeitgeist
+
+
+Create a new Rule titled "Boon of Zeitgeist" with this text:
+
+         If an Interested Democratic Proposal passes, and no Votes were
+         cast AGAINST it, then the Assessor shall award the Proposor the
+         Boon of Zeitgeist.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4542 by Murphy, AI=1, Democratic
+Pragmatize Scoring
+
+
+Change the title of Rule 2055 to "The Scorekeepor's Budget", and
+amend it to read:
+
+         The Scorekeepor's Budget shall contain the following:
+
+           a) The Team Points Goal, a positive integer.
+           b) The Player Points Limit, a positive integer.
+           c) Points Per Player, a positive integer.
+           d) One or more scoring events, each with the following
+              information:
+                  i) Whether it is an award or a penalty.
+                 ii) The amount of the award/penalty, a positive integer.
+                iii) The conditions required for the event to occur.
+                 iv) A description of which player/team receives the
+                     award/penalty.
+
+         Each scoring event in the Scorekeepor's Budget may cause the
+         specified player/team to be awarded/penalized the specified
+         number of points, as defined by other rules.
+
+Amend Rule 1990 (Points Contest) by changing "PPP (Points Per Player)"
+to "Points Per Player", then changing each instance of "PPP" to "Points
+Per Player", then changing each instance of "PLIMIT" to "Player Points
+Limit".
+
+Amend Rule 1929 (Points) by appending this text:
+
+         If the event did not actually occur, and the notification is
+         challenged within 7 days for this reason, then the notification
+         is invalid and points do not change.
+
+         If the event did not actually occur, and the notification is
+         not challenged within 7 days for this reason, then the notification
+         is valid and points change.  If the notification is challenged
+         later, then the player may be penalized/awarded a number of points
+         equal to the original award/penalty.
+
+Amend Rule 2053 (Team Points, Team Scores) by appending this text:
+
+         If the event did not actually occur, and the notification is
+         challenged within 7 days for this reason, then the notification
+         is invalid and points do not change.
+
+         If the event did not actually occur, and the notification is
+         not challenged within 7 days for this reason, then the notification
+         is valid and points change.  If the notification is challenged
+         later, then the team may be penalized/awarded a number of points
+         equal to the original award/penalty.

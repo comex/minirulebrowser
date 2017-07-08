@@ -1,0 +1,472 @@
+Agora Nomic
+Voting Report for Proposals 4352-4356
+7 Aug 2002
+
+Current Voting Mode: Public
+===========================================================================
+Voting on Proposals 4352-4356 commenced: Mon, 29 Jul 2002 14:46:47 +1000
+Voting on Proposals 4352-4356 concluded: Mon,  5 Aug 2002 14:46:47 +1000
+
+Num. Type Proposer    AI Title                         RESULT  F  A  -  *
+4352 Dem  OscarMeyr    2 Overhaul Parliamentary Voting PASSES  7  2  0  0
+4353 DemS Steve        1 Permitting Pay Outs           PASSES  7  0  0  0
+4354 Dem  RedKnight    2 Fix Rule 2027                 PASSES  5  1  1  0
+4355 Dem  Steve        2 Clarify Proposal Distribution PASSES  7  2  0  0
+4356 Ord  Steve        1 Auction Errors, etc.          PASSES  3  0  0  0
+===========================================================================
+
+Ordinary                Democratic
+               4356                    4352   4353   4354   4355
+
+root           F        Sir Toby       F      F      F      F
+Michael        F        Eris           F      F      F      F
+Sir Toby       F        Steve          2F,A   F      F      3F
+                        OscarMeyr      F      F      A      A
+                        RedKnight      A      F      F      A
+                        root           F      F      F      F
+                        Michael        F      F      -      F
+
+FOR            3                       7      7      5      7
+AGAINST        0                       2      0      1      2
+ABSTAIN        0                       0      0      1      0
+Presence       0                       0      0      0      0
+
+Voters         3                       7      7      7      7
+Quorum?        Y                       Y      Y      Y      Y
+PASSES?        Y                       Y      Y      Y      Y
+
+======================================================================
+Miscellaneous
+======================================================================
+
+Points awards under R1930:
+    OscarMeyr 4 (2 votes AGAINST 4352) + 2 (only vote AGAINST 4354)
+    Steve 4 (2 votes AGAINST 4355)
+    RedKnight 2 (1 vote AGAINST 4354)
+
+Failed votes: Steve attempted to vote once AGAINST 4353 over eir limit
+of 1 vote on Sane proposals.
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+-----------------------------------------------------------------------------
+
+Proposal 4352 by OscarMeyr, AI=2
+Overhaul Parliamentary Voting
+
+Amend R1950 by replacing the text:
+      (c) An entity's Voting Power on a Parliamentary Proposal is as
+          follows:
+            (1) One, if the entity is one of the following:
+                (a)   The Oligarchy;
+                (b)   The Democracy;
+                (c)   The Speakership.
+            (2) Any other entity, zero.
+
+With this text:
+      (c) An entity's Voting Power on a Parliamentary Proposal is as
+          follows:
+            (1) One, if the entity is one of the following:
+                (a)   The First Estate;
+                (b)   The Second Estate;
+                (c)   The Third Estate.
+            (2) Any other entity, zero.
+
+Change R2020 to read:
+
+      For a Parliamentary Proposal, the Assessor will count as
+      "Preliminary Votes" after the voting period has ended:
+        1.  For the First Estate, communications from Acolyte Players
+        or their executors that would have been legal votes if the
+        Proposal had been Sane.
+        2.  For the Second Estate, communications from Politician
+        Players or their executors that would have been legal votes if 
+        the Proposal had been Sane.
+        3.  For the Third Estate, communications from Scribe Players
+        or their executors that would have been legal votes if the
+        Proposal had been Sane.
+
+      For each Estate, if the preliminary votes of Players in that
+      Estate (both voting index and quorum) would have passed the
+      Proposal were they deemed to be Democratic votes on a Sane
+      Proposal, then that Estate shall be deemed to have cast 1 vote FOR
+      the Proposal; otherwise, that Estate shall be deemed to have cast
+      1 vote AGAINST the Proposal. The timing of all votes cast on
+      Parliamentary Proposals shall be deemed to be an instant before
+      the end of the Voting Period. There are no other specific
+      mechanisms for casting votes on Parliamentary Proposals.
+
+-----------------------------------------------------------------------------
+
+Proposal 4353 by Steve, AI=1
+Permitting Pay Outs
+
+Amend Rule 1479 (Definition of "Pay Out" and Bill") to read:
+
+  (a) Whenever a Rule requires a Player to pay out one or more
+      Properties to some entity, the Bank shall incur a debt to that
+      entity for those Properties, and the named Player shall, as
+      soon as possible, post a public notice of the debt.
+
+  (b) If a Rule explicitly permits a Player to pay out one or more
+      Properties to some entity, but does not require em to do so, then
+      the Bank shall incur a debt to that entity for those Properties
+      when the Player posts a public notice of the debt.
+
+  (c) Whenever a Rule requires a Player to bill an entity for one or
+      more Properties, that entity shall incur a debt to the Bank for
+      those Properties, and the named Player shall, as soon as
+      possible, post a public notice of the debt.
+
+-----------------------------------------------------------------------------
+
+Proposal 4354 by RedKnight, AI=2
+Fix Rule 2027
+
+Amend Rule 2027 by replacing the word "he" with "e"
+
+-----------------------------------------------------------------------------
+
+Proposal 4355 by Steve, AI=2
+Clarify Proposal Distribution
+ 
+[Tidies up some unclarities in the Rules dealing with Proposals.]
+ 
+Amend Rule 1770 (Distributing Proposals) to read:
+ 
+  (a) The Promotor is permitted to distribute a Distributable Proposal
+      at any time.
+ 
+  (b) During each Week, the Promotor is required to distribute every
+      Proposal that was Distributable at the beginning of that Week,
+      unless the Proposal has since ceased to be Distributable.
+ 
+  (c) If there were no Distributable Proposals at the beginning of the
+      Week, then the Promotor is required publically to note this fact
+      at some time during the Week.
+ 
+  (d) Failure by the Promotor to either distribute Proposals as required
+      in (b), or to make an announcement as required in (c), is the
+      Class 1 Infraction of Promotor Tardiness, which any Player may
+      report.
+ 
+  (e) The Promotor shall include with the distribution of each Proposal
+      the identity of its Proposing Entity, its Adoption Index, and an
+      indication of the Proposal's Chamber. However, the failure of the
+      Promotor to include any of these accompaniments with a Proposal
+      does not deprive the distribution of the Proposal of any legal
+      effect.
+ 
+  (f) A Proposal is legally distributed only if it is accompanied by an
+      explicit indication that it is being distributed. When a Proposal 
+      is distributed, it is removed from the Proposal Pool.
+ 
+  (g) The Promotor shall not distribute any Proposal which is not
+      Distributable, and must abort any Proposal so distributed. If the
+      Promotor aborts a Proposal which e knows was Distributable at the
+      time it was distributed, e commits the Class 2 Crime of Illegal
+      Abortion.
+ 
+  (h) The Promotor aborts a Proposal by publishing an announcement to
+      that effect, clearly identifying the Proposal which has been
+      aborted.
+
+  (i) The distribution of an Undistributable Proposal, when the
+      Promotor knows that the Proposal is Undistributable, is the
+      Class 2 Crime of Promotor Misrepresentation. The distribution of
+      a text purporting to be a Proposal, when the Promotor knows that
+      the text is not a Proposal, is the Class 5 Crime of Promotor
+      Fraud.
+ 
+ 
+Create a new Rule, entitled "Aborting a Proposal", which reads:
+ 
+  (a) When a Proposal is aborted:
+      (1)  the Voting Period for the Proposal immediately ends, if it
+           has not ended already;
+      (2)  all Votes cast on the Proposal are cancelled, and the
+           Proposal fails;
+      (3)  the Assessor is relieved of any duty to report on Votes
+           cast on the Proposal; and
+      (4)  a copy of the Proposal is added to the Proposal Pool.
+ 
+ 
+Amend Rule 2021 (Chamber Procedure) to read:
+ 
+  (a) The Chamber Fee for a Proposal is initially 0.1 Voting
+      Entitlements.  Any Politician may change the Chamber of a Proposal
+      that is not Sane to another Chamber of eir choice, by publically
+      paying this Fee, provided that it is legal for the Proposal to be
+      in the new Chamber.
+ 
+  (b) When a Proposal's Chamber is changed via this Rule:
+      (1) the Chamber Fee for the Proposal is doubled; and
+      (2) if the Proposal is in its Voting Period, it is Aborted as
+          described elsewhere, and returned to the Proposal Pool with
+          its Distributability and other characteristics intact.
+ 
+  (c) An Untainted Speaker, with 2 Supporters, may Sanitise a
+      Distributed Proposal that is not already Sane and for which the
+      Voting Period has not ended. If the Speaker Sanitises a Proposal,
+      the Proposal is Aborted as described elsewhere; the Proposal
+      remains Distributable, but becomes Democratic and Sane.
+
+-----------------------------------------------------------------------------
+
+Proposal 4356 by Steve, AI=1
+Auction Errors, etc. 
+
+[Comment: what this Proposal does:
+* allows mistakes made in any Auction based on the DAP to stand Without
+  2 Objections.
+* handles defaulting on Auction payments.
+* redefines debt forgiveness.
+* makes numerous small changes to expression in the Rules for Auctions.
+]
+
+Amend Rule 1887 (Default Procedure for Auctions) to read:
+
+      When an Auction is to be held and the procedure is not specified,
+      the Auctioneer may select a rules-defined Auction Procedure. If e
+      does not specify which procedure is to be used, the Default
+      Auction Procedure shall be used.
+
+      The Default Auction Procedure is as follows:
+
+      (a) Auctioneer: the Auctioneer is the Player who initiates the
+          Auction, and is responsible for collecting bids and announcing
+          the result of the Auction. If the Rules require (or permit) an
+          Auction to be initiated, but do not specify which Player shall
+          initiate it, then the Speaker shall (or may) initiate it.
+
+      (b) Bidders: every Player not on Hold may bid in an Auction.
+          Activity is measured at the time a Player sends eir bid.
+
+      (c) Auction Currency: each Auction is conducted in one particular
+          currency. The Rule providing for a particular Auction must
+          specify the currency to be used, or the Auction cannot take
+          place.
+
+      (d) Number of lots: each Auction is conducted for 1 or more
+          identical lots of identical items, which must all be owned by
+          the same entity. Throughout this Rule, N indicates the number
+          of lots up for bid in the Auction.
+
+      (e) Start of Auction: the Auction begins when the first
+          announcement that an Auction has begun is made by a Player
+          authorized to initiate the Auction. The announcement must
+          contain:
+          (1) the identity of the Auctioneer;
+          (2) the Auction Currency;
+          (3) the number of items being Auctioned; and
+          (4) the value of the Starting Bid.
+
+      (f) Errors in initiating Auctions: if one of the required elements
+          is missing from the announcement initiating the Auction, or is
+          incorrect, then the Auctioneer may let the Auction stand
+          Without 2 Objections. If the Auction stands, then the
+          announcement initiating the Auction is deemed to have been
+          legal and correct for the purposes of the Rules. If the
+          Auction does not stand, it is deemed not to have occurred.
+
+      (g) Starting Bid: the Starting Bid is the minimum possible value
+          of a bid. If not otherwise specified, the Starting Bid is
+          equal to the MUQ of the Auction Currency.
+
+      (h) Bidding: a bid is a public message from a bidder identifying
+          the Auction e is bidding in, and specifying the amount of eir
+          bid. Each bidder may make as many bids as e likes during the
+          Auction.  A bid is only valid if it satisfies the following
+          conditions:
+          (1) it is made after the start of the Auction, and before its
+              end;
+          (2) the amount of the bid is a multiple of the MUQ of the
+              Auction Currency; and
+          (3) the amount of the bid is no less than the Starting Bid.
+
+      (i) Cancelling bids: a bidder may cancel eir bid while the Auction
+          is in progress by publically identifying the bid to be
+          cancelled.
+
+
+      (j) End of Auction: the Auction ends if any of the following occur:
+          (1) one week has passed from the start of the Auction, and no
+              bids have been made; or
+          (2) a bid has been made in the Auction, and 72 hours have
+              passed without there being a change in the N highest bids
+              in the Auction; or
+          (3) 14 days have passed since the Auction began.
+
+      (k) Winning bids: when the Auction ends, the winning bids are
+          the N largest uncancelled valid bids in the Auction (or
+          all valid uncancelled Bids, if there were less than N valid
+          uncancelled bids). Ties shall be broken in favor of earlier-
+          submitted bids. If there were no bids in the Auction, then the
+          Auction has no winner.
+
+      (l) Final Auction Price: the Final Auction Price is either:
+          (1) the amount of the Nth highest bid, if there were N or
+              more valid uncancelled bids in the auction; or
+          (2) the Starting Bid, if there were greater than zero but
+              fewer than N valid uncancelled bids.
+
+      (m) Billing for winning bids: as soon as possible after the end of
+          the Auction, the Auctioneer shall announce the winning bids
+          and issue to each winning bidder a separate bill for each of
+          eir winning bids.
+
+      (n) Defaulting: a winning bidder has a week from the time e is
+          billed by the Auctioneer for a winning bid e made to satisfy
+          the debt arising from that bid. If e does not do so, e commits
+          the Class 2 Infraction of Defaulting (reportable by the
+          Auctioneer), and thereafter loses eir right to purchase the
+          Auctioned item by paying the debt arising from that bid. As
+          soon as possible after a winning bidder defaults on a bid, the
+          Auctioneer shall Order the owner of the items being Auctioned
+          (normally the Bank) to forgive the unsatisfied debt arising
+          from the bid.
+
+      (o) Unless specified otherwise, the owner of the Auctioned items
+          shall incur a debt of one Auctioned lot of items to the
+          winning bidder when the bill for that lot is paid.
+
+
+Change the Title of Rule 1887 to "Auctions and the Default Auction
+Procedure".
+
+Amend Rule 1936 (Auctioning Positions in the Oligarchy) by deleting from
+it the text which reads:
+
+          (5) Defaulting: a winning bidder has one week from the time
+              e is billed by the Auctioneer for eir winning bid in
+              which to pay the bill. If the bill remains unpaid for
+              more than one week, then the winning bidder is
+              considered to have defaulted. In that case, the
+              Auctioneer shall forgive the debt and penalise the
+              defaulting bidder 2 Blots.
+
+
+Amend Rule 1596 (Debt) by replacing the text in it which currently
+reads:
+
+      (d) A debt is forgiven when the creditor of a debt sends a
+          notice to the debtor that e is forgiving the debt.
+          Forgiveness may be for the entire debt or for any part
+          thereof.  The effect forgiving a debt is as if the debtor
+          had made a payment on the debt for the portion forgiven,
+          except that no transfer of property takes place thereby.
+
+with text which reads:
+
+      (d) A debt is forgiven when the creditor of a debt sends a notice
+          to the debtor that e is forgiving the debt. Forgiveness may be
+          for the entire debt or for any part thereof. The effect of
+          forgiving a debt is to relieve the debtor of the obligation
+          arising from that part of the debt which has been forgiven to
+          transfer Property to the creditor.
+
+
+Amend Rule 1712 (Distribution of Indulgences) by deleting from it the
+text which currently reads:
+
+      If the Herald makes an error in determining the number of
+      Indulgences to be Auctioned, in good faith, that number shall be
+      allowed to stand.
+
+
+Amend Rule 1983 (Vickrey Auctions) to read:
+
+      The Auction Procedure for a Vickrey Auction is the same as the
+      Default Auction Procedure with the following modifications:
+
+      (a) Bidders: any Player with the same Executor as the Auctioneer
+          may bid only in the first 72 hours of the Auction.
+
+      (b) Bidding: if a bidder has the same Executor as the Auctioneer,
+          then eir bids must be made publically. Otherwise, bidders may
+          bid either publically, or privately to the Auctioneer.
+
+      (c) End of Auction: the Auction shall end one week after it
+          begins.
+
+      (d) The Final Auction Price is either:
+          (1) The amount of the largest nonwinning uncancelled valid
+              bid, if there were more than N valid uncancelled bids in
+              the Auction; or
+          (2) the Starting Bid, if there were N or fewer valid
+              uncancelled bids.
+          For the purpose of this Rule, N is equal to the number of
+          items being Auctioned.
+
+      The Auctioneer and eir Executor must treat all bids made in a
+      Vickrey Auction as secret while the Auction is in progress. Other
+      players, however, are free to reveal as much about their bidding
+      as they wish.
+
+
+Amend Rule 1984 (Raffles) to read:
+
+      There is a type of Auction called a Raffle. The Auction Procedure
+      for a Raffle is the same as the Default Auction Procedure, with
+      the following modifications:
+
+      (a) Auctioneer: the Auctioneer is known as the Riff-Raff.
+
+      (b) Start of Raffle: the Raffle begins when the first
+          announcement that a Raffle has begun is made by a Player
+          authorized to initiate the Raffle. The announcement must
+          contain:
+          (1) the identity of the Riff-Raff;
+          (2) the Raffle Currency;
+          (3) the number of items, N, being Raffled; and
+          (4) the Ticket Price, a multiple of the MUQ of the Raffle
+              Currency.
+
+      (c) Ticket Price: all tickets shall have the same Ticket Price.
+          If not otherwise specified, the Ticket Price shall be equal
+          to the MUQ of the Raffle Currency.
+
+      (d) Buying tickets: an entrant buys a ticket by paying a Fee equal
+          to the Ticket Price to the Bank, provided that the purchase is
+          not made before the start of the Auction, or after its end.
+          Each entrant may buy as many tickets as e likes during the
+          Auction.
+
+      (e) End of Raffle: the Raffle ends if any of the following occur:
+          (1) one week has passed from the start of the Raffle, and no
+              tickets have been purchased; or
+          (2) a ticket has been purchased in the Raffle, and 72 hours
+              have passed without another ticket being purchased in the
+              Raffle;
+          (3) 14 days have passed since the Raffle began.
+
+      (f) Winning tickets: When the Raffle ends, the Riff-Raff shall
+          randomly determine N valid Raffle tickets to be winning
+          tickets. Each Raffle ticket has one chance to win, and
+          multiple Raffle tickets bought by the same entrant may win.
+          If there were less than N valid Raffle tickets, then all
+          valid Raffle tickets are winning tickets.
+
+      (g) Announcing winners: as soon as possible after the end of the
+          Raffle, the Riff-Raff shall announce the winning tickets.
+          Upon this announcement, the owner of the Auctioned items
+          shall incur a debt of one Auctioned lot of items to each
+          winning entrant for each of eir winning tickets.
+
+      (h) Riff-Raff's Gratuity: within a week after the end of the
+          Raffle, the Riff-Raff may pay out to emself the Ticket Price
+          in the Raffle Currency if:
+          (1) the Raffle had at least three separate winning entrants,
+              not including the Riff-Raff; and
+          (2) the Riff-Raff has not already done so for that Raffle.
+
+-----------------------------------------------------------------------------
+
+Assessor t
+
+   teemu korkiakangas: scurra@iki.fi . http://www.iki.fi/scurra/
+              "kunpa kaikki elÅ‰mÅ‰n suuret mysteerit ratkeaisivat
+                  kengurukepin ja kermapullon avulla" (don rosa)
+

@@ -1,0 +1,135 @@
+Agora Nomic
+Voting Report for Proposals 4410 and 4412
+6 Nov 2002
+
+Current Voting Mode: Public
+===========================================================================
+Voting on Proposals 4410,4412 commenced: Mon, 28 Oct 2002 16:57:35 +1100
+Voting on Proposals 4410,4412 concluded: Mon,  4 Nov 2002 16:57:35 +1100
+
+Num. Type Proposer    AI Title                         RESULT  F  A  -  *
+4410 DemS Steve        2 Quorum on Parliamentary...    PASSES  7  0  0  0
+4412 DemS Steve        3 Real Majorities               PASSES  6  1  0  0
+===========================================================================
+
+Democratic
+              4410   4412
+
+Steve         F      F
+Murphy        F      F
+Michael       F      F
+Peekee        F      F
+Eris          F      F
+OscarMeyr     F      F
+RedKnight     F      A
+
+FOR           7      6
+AGAINST       0      1
+ABSTAIN       0      0
+Present       0      0
+
+Voters        7      7
+Quorum?       Y      Y
+PASSES?       Y      Y
+
+======================================================================
+Miscellaneous
+======================================================================
+
+Proposal 4411 (proposed by Murphy, with no title) was sanitized by
+the Speaker and thus aborted.
+
+Points awards (R1930):
+    Steve     4 (4410 adopted)
+              5 (4412 adopted with 1 vote AGAINST)
+    RedKnight 2 (only vote AGAINST 4412)
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+----------------------------------------------------------------------------
+
+Proposal 4410 by Steve, AI=2, Democratic, Sane
+Quorum on Parliamentary Proposals
+
+This Proposal has an Adoption Index of 2.
+
+[Comment: I pointed out a while ago that the way Quorum is currently
+defined for parliamentary proposals makes it highly unlikely that they
+will pass. What is proposed here is to let Quorum be determined just as
+it is for democratic proposals. Note also the proposed simplification of
+the definition of Quorum on Democratic Proposals.]
+
+Amend Rule 2020 (Parliamentary Votes) to read:
+
+  (a) The First Estate consists of all Players who are Acolytes, the
+      Second Estate of all Players who are Politicians, and the Third
+      Estate of all Players who are Scribes.
+
+  (b) To count the votes on a parliamentary proposal, the Assessor shall
+      first count as preliminary votes all communications from Players
+      and their Executors that would have been legal votes on the
+      proposal if it had been sane.
+
+  (c) For each Estate, the Assessor shall then use the preliminary votes
+      of the Players in that Estate to determine a voting index for the
+      Estate on the Proposal. If the voting index is greater than or
+      equal to the adoption index of the proposal, then the Estate is
+      deemed to have cast 1 vote FOR the proposal; otherwise, the Estate
+      is deemed to have cast one vote AGAINST the proposal. The Estates
+      are deemed to have cast their votes a moment before the end of the
+      voting period.
+
+  (d) Quorum for parliamentary proposals is determined using preliminary
+      votes, and is calculated as it would be for a democratic proposal.
+
+  (e) Votes cannot be cast on parliamentary proposals except as described
+      in this Rule.
+
+
+Amend Rule 879 (Quorum) to read:
+
+  (a) An ordinary proposal achieves quorum if at least three oligarchs
+      cast votes on it, and the Speaker did not veto it.
+
+  (b) A democratic proposal achieves quorum if at least one third of all
+      active noisy players cast votes on it.
+
+  (c) Quorum for a democratic proposal shall be determined from the
+      number of active noisy players at the time that the proposal was
+      distributed, or at the time it was made a democratic proposal,
+      whichever is later.
+
+[Comment: simplifies the definition of quorum on democratic proposals,
+and deletes the definition of quorum on parliamentary proposals, since a
+new definition is given in R2020.]
+
+----------------------------------------------------------------------------
+
+Proposal 4412 by Steve, AI=3, Democratic, Sane
+Real Majorities
+
+Amend Rule 955 (Votes Required to Adopt a Proposal) by replacing the
+text in it which currently reads:
+
+      (b) If the Voting Index is greater than or equal to the Adoption
+          Index for the Proposal, and if Quorum for the Proposal is
+          achieved, then that Proposal is adopted.  Otherwise, it
+          fails.
+
+with text which reads:
+
+      (b) If the Voting Index is greater than one, and greater than or
+          equal to the Adoption Index for the Proposal, and if Quorum
+          for the Proposal is achieved, then that Proposal is adopted.
+          Otherwise, it fails.
+
+----------------------------------------------------------------------------
+
+Assessor t
+
+   teemu korkiakangas: scurra@iki.fi . http://www.iki.fi/scurra/
+              "kunpa kaikki elämän suuret mysteerit ratkeaisivat
+                  kengurukepin ja kermapullon avulla" (don rosa)
+

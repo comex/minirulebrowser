@@ -1,0 +1,254 @@
+Voting Results
+
+This Report:  Mon 31 May 04 (Proposal  4576       )
+Last Report:  Sat 15 May 04 (Proposal  4575       )
+(All times are in GMT)
+
+Start of Voting Period:  Sun 23 May 14:54:29
+  End of Voting Period:  Sun 30 May 14:54:29
+
+O = Ordinary        d = Disinterested   s = Sane         + = Positive Ad
+D = Democratic      u = Urgent          c = Contested    - = Negative Ad
+
+Number    Title                         Author    AI   Flags     Result
+------------------------------------------------------------------------
+4576      Oligarch in a Three-Piece...  root      2    D         Adopted
+
+               4576    Team
+
+Elysion          F   Vyregurk
+Eris             A   Duckfield
+Goethe          2F   Bryzzleoc
+Kolja            F   Vyregurk
+Maud             A   Wuckleshaw
+OscarMeyr        F   Wuckleshaw
+RedKnight        P   Bryzzleoc
+Riail            F   Duckfield
+root             F   Vyregurk
+Sherlock         F   Wuckleshaw
+
+FOR              8
+AGAINST          2
+Abstain          0
+Present          1
+
+Voting Index     4
+Adoption Index   2
+
+Voters          10
+Quorum (D:15/3)  5
+
+H. Scorekeepor Goethe, please note Points awards due to Rule 2055:
+
+     [P3] root +9 (4576)
+     [P4] <none>
+     [P5] <none>
+     [P6] <none>
+     [P7] <none>
+     [P8] <none>
+
+     [T1] <none>
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4576 by root, AI=2, Democratic
+Oligarch in a Three-Piece Suit
+
+
+* Changes from v1.2:
+* - Incorporated Wes' suggestion for the Shares [X] element
+* - Players must have zero Share Holdings for the VPDP bonus,
+*   not just Plebeian status, to further discourage holding onto
+*   useless Stock Cards
+*
+* Changes from v1.1:
+* - Eligible Shareholders must have non-negative points
+* - Added the Corporate Bankruptcy card
+* - Removed useless Restricted element from the Stock Cards
+* - Fully incorporated Elysion's Onyx Repeals proto
+*
+* Changes from v1.0:
+* - The corporate metaphor is expanded, and the oligarchic
+*   terminology is eliminated entirely
+* - Votes are returned to the direct control of the voters rather
+*   than wielded indirectly through the cards
+* - The card quotas are budgeted
+* - Incorporated Eris's phrasing suggestion
+
+
+* Install the Corporation
+
+Amend Rule 1950 (Voting Power) by changing it to read:
+
+      (a) An entity's Voting Power on an Ordinary Proposal is as
+          follows:
+            (1) A Shareholder: eir Share Holdings;
+            (2) Any other entity: zero.
+
+      (b) An entity's Voting Power on a Democratic Proposal is as
+          follows:
+
+            * A Player:
+                  (a) two plus that Player's Voting Potential if that
+                      Player has zero Share Holdings.
+                  (b) one plus that Player's Voting Potential
+                      otherwise.
+
+            * Any other entity: as defined in the Rules, with a
+              default of zero if the Rules don't specify the Voting
+              power on a Democratic Proposal for that entity.
+
+      (c) The value of an entity's Voting Power for any given Chamber
+          at the beginning of each Week shall be in effect for all
+          Proposals distributed during that Week. However, if a
+          Proposal's Chamber is changed after it has been distributed,
+          the Voting Power of each entity for that Proposal is
+          redetermined at the time the Chamber is changed.
+
+      (d) An entity may cast as many votes as e wishes on a Proposal,
+          in any combination, up to the limit determined by that
+          entity's Voting Power on that Proposal, with the exceptions
+          that:
+              (1) no Player may vote on an Ordinary Proposal unless e
+                  is a Shareholder at the time e casts eir vote.
+
+
+Amend Rule 1963 (Eligible Oligarchs) by retitling it "Eligible
+Shareholders" and changing it to read:
+
+      A Player is an Eligible Shareholder unless:
+
+      (1) e is not active;
+      (2) e has three or more Blots;
+      (3) e has fewer than zero points;
+      (4) e is the Speaker; or
+      (5) e is the Speaker-Elect.
+
+
+Amend Rule 1932 (Oligarchs and the Oligarchy) by retitling it
+"Shareholders and the Corporation" and changing it to read:
+
+      The following Elements for Cards are defined:
+
+      * Shares [X], where X is a positive integer. The Holder is
+        considered to possess X shares (cumulative with any other
+        Cards).
+
+      The following Classes of Cards are defined:
+
+      * Caption: One Share
+        Elements: Budgeted, Bleed [2], Shares [1]
+
+      * Caption: Two Shares
+        Elements: Budgeted, Bleed [4], Shares [2]
+
+      * Caption: Three Shares
+        Elements: Budgeted, Bleed [6], Shares [3]
+
+      * Caption: Corporate Bankruptcy
+        Quota: 1
+        Elements: Limited [Shareholders] [3]
+        Exploit: For a fee of 3 kudos, all Stock Cards are returned
+          to the Deck.
+
+      All cards with the Element "Shares [X]" are cumulatively known
+      as the Stock Cards.
+
+      An entity's Share Holdings is equal to the number of Shares
+      possessed. The Number of Shares is the sum of the Share
+      Holdings of all entities.
+
+      A Shareholder is an Eligible Shareholder with positive Share
+      Holdings. A Plebeian is a Player who is not a Shareholder. The
+      Corporation is the set of all Shareholders.
+
+
+* Fix the budget
+
+Amend the Deckmastor's Budget by adding the following quotas:
+
+      One Share:    3
+      Two Shares:   2
+      Three Shares: 1
+
+
+* Repeal the deadwood
+
+Repeal Rule 1955 (The Grand Warden of the Oligarchy)
+Repeal Rule 2063 (Coalitions)
+Repeal Rule 2064 (Potency and Lobbying)
+Repeal Rule 2058 (Removing Oligarchs from the Oligarchy)
+
+
+* Shift responsibility for Speaker Transition to the ADoP
+
+Amend Rule 402 (Speaker Transition) by replacing the text "Grand
+Warden of the Oligarchy" with "Assistant Director of Personnel"
+
+
+Amend Rule 1975 (The Assistant Director of Personnel) by changing it
+to read:
+
+      The Assistant Director of Personnel (ADoP) is an office; its
+      holder is recordkeepor for offices and the Speaker and is
+      responsible for holding elections for offices.
+
+      The ADoP's Weekly Report shall include:
+
+      (a) a list of all offices;
+
+      (b) for each office, the electee to the office and the date on
+          which e most recently became electee to that office;
+
+      (c) for each office for which the holder of the office is not
+          the electee, the current holder of the office, and the date
+          on which e most recently became holder of that office;
+
+      (d) for each office, the date on which the term of service for
+          that office ends, or an indication that the office is held
+          in perpetuity;
+
+      (e) the identity of the Speaker, and the date of the next
+          quarterly Speaker transition.
+
+
+Amend Rule 1450 (Speaker Cannot Stay CotC or Justiciar) by retitling
+it "Speaker Cannot Stay ADoP, CotC, or Justiciar" and changing it to
+read:
+
+      If at any time the Speaker shall be the Electee to any of
+      the Office of ADoP, the Office of CotC, or the Office of
+      Justiciar, e shall be retired from whichever of those Offices e
+      is Electee to.
+
+
+Amend Rule 1647 (The Speaker-Elect) by replacing the text "The Clerk
+of the Courts and Justiciar cannot be Nominated for the Office of
+Speaker-Elect" with "The Clerk of the Courts, Justiciar, and Assistant
+Director of Personnel cannot be Nominated for the Office of Speaker-
+Elect"
+
+
+* Odds and ends
+
+Amend Rule 1664 (Rebellion) by replacing the text "- The Lobbying
+Strength of each Abiding Player is set to 0" with "- All Stock Cards
+in the possession of Abiding Players are returned to the Deck"
+
+
+Amend Rule 1905 (The Cabinet) by replacing the text "Oligarchs" with
+"Shareholders"
+
+
+Amend Rule 879 (Quorum) by replacing the text "oligarchs" with
+"shareholders"
+
+
+Amend Rule 2019 (The Speaker's Veto) by replacing the text
+"Oligarchs" with "Shareholders"
+
+
+Amend Rule 1965 (Complacent Oligarchy) by retitling it "Complacent
+Corporation"
+

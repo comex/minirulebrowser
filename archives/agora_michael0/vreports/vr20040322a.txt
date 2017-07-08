@@ -1,0 +1,155 @@
+Voting Results
+
+This Report:  Sun 21 Mar 04 (Proposals 4557 - 4562)
+Last Report:  Sun 21 Mar 04 (Proposals 4555 - 4556)
+(All times are in GMT)
+
+Start of Voting Period:  Thu  4 Mar 00:14:28
+  End of Voting Period:  Thu 11 Mar 00:14:28
+
+O = Ordinary        d = Disinterested   s = Sane         + = Positive Ad
+D = Democratic      u = Urgent          c = Contested    - = Negative Ad
+
+Number    Title                         Author    AI   Flags     Result
+------------------------------------------------------------------------
+4557      Clarify Report Frequencies    OscarMeyr 1    O         Failed
+quorum
+4558      Judges Please Speak Up        OscarMeyr 1    O         Failed
+quorum
+4559      Ducks!  Ducks!                Goethe    1    Dc+       Adopted
+4560      Grant typo                    Goethe    1    Od        Failed
+quorum
+4561      Role With the Changes         Sherlock  2    D         Adopted
+4562      No Ex Post Facto Advertising  root      2    D         Adopted
+
+               4557  4558  4559  4560  4561  4562    Team
+
+Elysion                      A           F     F   Vyregurk
+Goethe                      2F          2F    2A   Bryzzleoc
+RedKnight                    F           F     F   Bryzzleoc
+root             F     F     F     F     F     F   Vyregurk
+Sherlock                    2F          2F    2F   Wuckleshaw
+Sir Toby                     F           F     F   Bryzzleoc
+
+FOR              1     1     7     1     8     6
+AGAINST          0     0     1     0     0     2
+Abstain          0     0     0     0     0     0
+Present          0     0     0     0     0     0
+
+Voting Index    *U*   *U*    7    *U*   *U*    3
+Adoption Index   1     1     1     1     2     2
+
+Voters           1     1     6     1     6     6
+Quorum (D:15/3)  3     3     5     3     5     5
+
+This is a Notice of Complacency for Proposals 4557, 4558, and 4560.
+
+H. Scorekeepor Goethe, please note Points awards due to Rule 2055:
+
+     [P3] Goethe +6 (4559), Sherlock +3 (4561), root +9 (4562)
+     [P4] Elysion +5 (4559), Goethe +5 (4562)
+     [P5] Goethe, RedKnight, root, Sherlock, Sir Toby +9 each (4559)
+     [P6] Elysion +3 (4559)
+     [P7] <none>
+     [P8] <none>
+
+     [T1] Duckfield -20 (4559), Duckfield -20 (4561), Duckfield -20
+(4562)
+
+and due to Rule 2016:
+
+     Goethe, RedKnight, root, Sherlock, Sir Toby +10 each (4559)
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4559 by Goethe, AI=1, Democratic, Contested, Positive
+Advertising
+Ducks!  Ducks!
+
+
+Proposal:  Ducks!  Ducks!
+
+  A piece of string walks into a bar.  The bartender says,
+  "I'm sorry, but happy hour is on exactly one day this week 
+  and I guarantee the day will be a surprise."  So the string
+  turns to the chipmunk and says "ha!  lucky for me, defecting
+  is only worth 3 points!"
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4561 by Sherlock, AI=2, Democratic
+Role With the Changes
+
+
+Amend Rule 1960 (Roles) by replacing the text that reads:
+
+      Role is a stuck player switch with values null, politician,
+      scribe, and acolyte.
+
+with the text:
+
+      Role is a stuck player switch with values null, Acolyte, Patron,
+      Politician, and Scribe.
+
+
+Amend Rule 2011 (Role-Based Powers) by retitling it "Progressive
+Actions"
+and making it read:
+
+      An action is a Progressive action if the rules so state.
+
+      If an action is progressive, a Player (the Actor) may perform
+      the action either:
+
+      (a) with the Support of a number Players equal to one plus the
+          number of times that Actor has performed that action in the
+          current week;
+      (b) by paying a fee equal to the amount of Support required in
+          (a);
+      (c) if the number calculated in (a) is zero, by public
+          announcement.
+
+      A progressive action may be associated with a role if the rules
+      so state.  If an progressive action is associated with a role,
+      only players who hold that role may perform, or support
+      performance of, that action.
+
+
+Create a new rule entitled "Role-Based Powers", which reads:
+
+      For Acolytes, Absolving an entity is a progressive action.
+      Absolving an entity expunges 1 Blot from that entity.
+
+      For Patrons, Donating to a Team is a progressive Action.  The
+      effect of Donating to a Team is to increase that Team's Team
+      Points by 5.
+
+      For Politicians, Debating an Undistributed Proposal is a 
+      progressive Action.  The effect of Debating a Proposal is to 
+      change its Chamber to one named by the Politician, provided it 
+      is legal for that Proposal to be in the named Chamber and the 
+      Proposal is not Sane.
+
+      For Scribes, Rubberstamping a Proposal is a progressive action.
+      A Rubberstamped Proposal becomes Distributable.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4562 by root, AI=2, Democratic
+No Ex Post Facto Advertising
+
+
+Amend Rule 2059 to read:
+
+      Advertising is a stuck proposal switch with values none,
+      positive, negative.
+
+      A player may pay 2 kudos to flip the advertising switch of any
+      proposal in the pool from none to another value, or from another
+      value to none.
+

@@ -1,0 +1,305 @@
+
+Assessor's Voting Report
+Proposals 4267-4275
+
+=====SUMMARY============================================================
+
+H. Rulekeepor, please note reverse order of publication of 4267-4278.
+
+No.    Title                           By      AI Flags  Result     VI
+----  ------------------------------  -------- -- ----- --------- -----
+4268*  Fix 'Oligarchy Upkeep'          Steve    2  D     ADOPTED   19/5
+4267*  Fix Proposal 4259               root     1  CD    ADOPTED      U
+4269   And Void                        Goethe   1  CT    FAILED     7/7
+4270   The Jailor                      Murphy   2  C     FAILED     7/5
+4271   Streamline Succession and D...  Murphy   1        ADOPTED      U
+4272   Streamline Blots                Murphy   1        ADOPTED      U
+4273   Simplify TIA                    Murphy   1        ADOPTED      U
+4274   Mutually Exclusive Offices      Murphy   1        FAILED     1/1
+4275   The Scorekeepor's Budget        root     2  C     FAILED    10/8
+----  ------------------------------- -------- -- ----- --------- -----
+D: Disinterested  C: Democratic  U: Urgent  S: Sane
+I: Insane  O: Opposite  T: Contested
+
+
+H. Scorekeepor please note, by Rule 1930:
+    - Taral receives 2 points (only Player to vote against 4268).
+    - Steve receives 10 points (4268 adopted with 5 votes against).
+    - Sir Toby receives 2 points (only Player to vote against 4269).
+    - Michael receives 2 points (only Player to vote against 4274).
+    - Goethe receives 2 points (only Player to vote for 4274).
+    - By Rule 2016(g), Sir Toby receives 10 points (voted against a
+      failing Contested Proposal).
+
+
+VOTING PERIOD BEGAN: Mon, 11 Mar 2002 19:30:56 GMT
+VOTING PERIOD ENDED: Mon, 18 Mar 2002 19:30:56 GMT
+VOTING MODE:         PUBLIC (Except 4269 Unrestricted).
+
+           4267   4268   4269   4270   4271   4272   4273   4274   4275
+           -----  -----  -----  -----  -----  -----  -----  -----  -----
+Crito              *             *                                  *
+Steve             5F      *     3F                                 3F
+root       1F     2F            1F,1A  1F     1F     1F     (Ab)   2F
+Oerjan             *     1F     1F                                 1F
+OscarMeyr         1F     1F     1F                                 1F
+harvel             *             *
+Murphy            1F            1F                                 1F
+Taral               ,5A           ,1A                                ,5A
+Michael    1F     2F              ,2A  1F     1F     1F       ,1A    ,2A
+Sir Toby          1F       ,1A    ,1A                                ,1A
+Goethe     1F     2F             *     1F     1F     1F      1F    2F
+Anemocrats        5F     5F,6A
+
+FOR/AGAI.  3/0    19/5    7/7    7/5    3/0    3/0    3/0    1/1   10/8
+ABSTAIN      0       0      0      0      0      0      0      1      0
+VOTERS       3      11      3     11      3      3      3      3     10
+QUORUM?    Yes     Yes    Yes    Yes    Yes    Yes    Yes    Yes    Yes
+ADOPTED?   Yes     Yes     No     No    Yes    Yes    Yes     No     No
+
+
+=========Text of adopted Proposals======================================
+
+Proposal #4268 by Steve, AI=2
+Fix 'Oligarchy Upkeep'
+
+Amend Rule 2010 (Oligarchy Upkeep) to read:
+
+       (a) As soon as possible after the beginning of each month, the
+	   GWotO shall bill each non-Elder Oligarch 0.1 VEs.
+
+       (b) If an Oligarch does not pay eir Oligarchy Upkeep within a
+           week of the GWotO's announcement of the debt, then the GWotO
+	   shall forgive the Upkeep debt, and remove the Oligarch from
+	   the Oligarchy.
+
+-------------------------------------------------------------------------------
+
+Proposal #4267 by root, AI=1
+Fix Proposal 4259
+
+# Fix minor punctuation issue
+Amend Rule 1975 by replacing the text reading:
+
+       (d) for each office, the date on which the term of service for
+           that office ends, or an indication that the office is held
+           in perpetuity; and
+
+with text reading:
+
+       (d) for each office, the date on which the term of service for
+           that office ends, or an indication that the office is held
+           in perpetuity.
+
+
+# Fix collision with Proposal 4250 (Omnibus Office Reform)
+Amend Rule 1955 by replacing the text reading:
+
+       The GWotO's Weekly Report shall include a list of all oligarchs
+       identifying which, if any, are elder oligarchs.
+
+with text reading:
+
+       The GWotO's Weekly Report shall include a list of all oligarchs,
+       the identity of the Speaker, and the date of the next quarterly
+       Speaker transition.
+
+
+# While we're at it, let's remove the last elder oligarch reference.
+Amend Rule 2010 by deleting all occurrences of the text "non-Elder".
+
+-------------------------------------------------------------------------------
+
+
+Proposal #4271 by Murphy, AI=1
+Streamline Succession and Delegation
+
+Amend Rule 880 (Resignation of Offices) to read:
+
+      The holder of an Office may resign from it by announcing
+      that e does so.
+
+      If the holder of an Office is its Electee, and appoints a
+      successor when e resigns, then:
+
+        (a) The resigning Player is retired from that Office.
+        (b) If the successor consents within a week, then e
+            becomes holder of that Office.
+        (c) If the successor does not consent within a week,
+            then the resigning Player is removed from that Office.
+
+      Otherwise, the resigning Player is immediately removed from
+      that Office.
+
+Amend Rule 1645 (Temporary Delegation of Office) to read:
+
+      An Office is Delegated when all of these conditions are met:
+
+        (a) The holder (hereafter known as the Delegating Player)
+            publishes a Notice of Delegation, naming the Office,
+            another Player (hereafter known as the Delegated Player),
+            and a Period of Delegation no longer than three weeks.
+
+        (b) The Delegating Player is Electee to the Office, or is the
+            Speaker.  This condition must hold when e publishes the
+            Notice of Delegation, and must also hold at the beginning
+            of the Period of Delegation.
+
+        (c) The Delegated Player is permitted by the Rules to hold the
+            Office at the beginning of the Period of Delegation.
+
+        (d) The Delegated Player consents to the Delegation within
+            seven days of the publication of the Notice of Delegation.
+
+        (e) The Period of Delegation has begun and not yet ended.
+
+      The Period of Delegation begins when the Notice of Delegation is
+      published, or when consent is given, or at the time (if any)
+      specified in the Notice of Delegation, whichever is latest.
+
+      The Period of Delegation ends after the duration specified in the
+      Notice of Delegation has elapsed, or when a Player other than the
+      Delegating Player becomes Electee to the Office.
+
+      During the Period of Delegation, the Delegated Player holds the
+      Office, and earns its Salary as specified by other Rules.
+
+      At the end of the Period of Delegation, if the Office has an
+      Electee, then the Electee holds the Office; otherwise, the
+      Delegated Player continues to hold the Office.
+
+-------------------------------------------------------------------------------
+
+Proposal #4272 by Murphy, AI=1
+Streamline Blots
+
+Change the title of Rule 1435 (Definition of Indulgences, Blots, and
+Immaculate) to "Indulgences", and amend it to read:
+
+      Indulgences are a Bank Currency. The Minimum Unit Quantity (MUQ)
+      of Indulgences is 0.001.  The Recordkeepor for Indulgences is
+      the Herald.
+
+Create a new Rule titled "Blots" with this text:
+
+      A entity's Stain is a measure of that entity's cleanliness,
+      measured in Blots.  The Stain of each entity is at all times a
+      non-negative number.
+
+      If the Rules state that an entity gains, is assessed, or is
+      penalised some number of Blots, then, as soon as possible after
+      the Herald is informed of the change, e shall record an increase
+      of that amount in the entity's Stain.  (If the entity was an
+      Unready Player at the time of the change, then the Herald shall
+      instead record an increase of half that amount.)
+
+      If the Rules state that some number of a entity's Blots are
+      expunged, then, as soon as possible after the Herald is informed
+      of the change, e shall record a decrease of that amount in the
+      entity's Stain.  (If this would result in a negative Stain, then
+      it instead results in a Stain of zero.)
+
+Create a new Rule titled "Expunging Blots with Indulgences" with this text:
+
+      When an entity transfers an amount of Indulgences to the Bank,
+      and specifies in the Notice of Transfer that the transfer is for
+      the purpose of expunging the Blots of a specified entity, then an
+      equal amount of the entity's Blots are expunged.  (If the amount
+      of the transfer exceeds the entity's Stain at the time of the
+      transfer, then all of the entity's Blots are expunged, and the
+      Bank incurs an Indulgence debt to the transferor equal to the
+      amount of the original transfer minus the entity's previous Stain.)
+
+Change the title of Rule 1962 (Win by Blots) to "Immaculate Players", and amend
+it to read:
+
+      An Immaculate Player is a Player whose Stain is zero.
+
+      Not being Immaculate is a Win-Preventing Condition.
+
+      Being the only Immaculate Player is a Win Condition.  Upon the
+      report of such a Win, the Herald shall expunge N Blots per
+      Player, where N is the Stain of the Player(s) with the lowest
+      non-zero Stain.
+
+Amend Rule 1437 (Fugitives from Justice) to read:
+
+      When a Player deregisters or is deregistered, e keeps eir Stain
+      (though it may be modified by other Rules).  A non-Player with a
+      non-zero Stain is known as a Fugitive from Justice.
+
+      At the beginning of the month, the Herald shall expunge half the
+      Blots of each Fugitive from Justice; however, no Fugitive from
+      Justice shall have eir Stain reduced to less than one by this
+      method.
+
+Amend Rule 1377 (The Herald) by replacing the text "number of Blots staining
+the records" with "Stain".
+
+Amend Rule 1712 (Distribution of Indulgences) by replacing the text "total
+number of Blots held by Players" with "total Stain of all Players".
+
+Amend Rule 1714 (Lawlessness) by replacing this text:
+
+      A Player is Lawless if more than 20 Blots stain eir record.
+
+with this text:
+
+      A Lawless Player is a Player with more than 20 Blots.
+
+Amend Rule 1747 (Pardoning Lawlessness) by replacing this text:
+
+         i) The Clerk of the Courts shall expunge as many of the Blots
+            staining the Fugitive's record as required to reduce the
+            number of Blots to one less than the threshold for
+            Lawlessness and notify the Herald of this action.
+
+with this text:
+
+         i) The Clerk of the Courts shall expunge as many of the
+            Fugitive's Blots as required to reduce eir Stain to
+            one less than the threshold for Lawlessness, and notify
+            the Herald of this action.
+
+-------------------------------------------------------------------------------
+
+Proposal #4273 by Murphy, AI=1
+Simplify TIA
+
+Amend Rule 1497 (Truth in Advertising) by replacing this text:
+
+      For the purposes of this Rule, a false statement of fact is made
+      "willfully" when the Player making it, at the time the statement
+      was made, has the intention to make a false statement of fact
+      and knowledge that the statement actually made was false.
+      Particularly, a Player who makes a false statement of fact
+      through excusable negligence, reasonable error, or reasonable
+      reliance on the representations of another, shall not be
+      considered to have willfully made a false statement of fact.
+
+      A conclusion as to the interpretation of the Rules or their
+      application to a particular situation is not a "statement of
+      fact".
+
+with this text:
+
+      For the purpose of this Rule, for a Player to "willfully make a
+      false statement of fact", all of the following conditions must
+      be true at the time the Player makes the statement.
+
+        a) The Player must present the statement as if it were true.
+
+        b) The Player must know that the statement is false.  In
+           particular, the following things are not willful:  excusable
+           negligence, reasonable error, or reasonable reliance on the
+           representations of another.
+
+        c) The statement is not a conclusion as to the interpretation
+           of the Rules, or as to their application to a particular
+           situation.
+
+
+========================================================================
+ -H. Assessor Goethe
+
+

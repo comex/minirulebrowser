@@ -1,0 +1,212 @@
+Voting Results
+
+Start of voting period:  Sun, 2006-05-07 02:01:26
+   End of voting period:  Sun, 2006-05-14 02:01:26
+
+Proposal  Title                    Author(s)  F/A/P  VI/AI  Quorum  Result
+--------------------------------------------------------------------------
+4856 (O)  Winning rearranged       Goethe    11/0/0   U/1    6/5   Adopted
+4857 (O)  Chamber fix              Goethe     5/0/0   U/1    6/5   !Quorum
+4858 (O)  Streamlined hand redu... Goethe    11/0/0   U/1    4/10  Adopted
+4859 (O)  Chip Fix 1.1             root      11/0/0   U/1    6/5   Adopted
+
+                 4856  4857  4858  4859
+
+Eris             F     F     F     F
+Goethe          4F+R   V    4F+R  4F+R
+Manu             F     F     F     F
+OscarMeyr       2F    2F    2F    2F
+root            2F          2F    2F
+Sherlock         F     F     F     F
+
+FOR             11     5    11    11
+AGAINST          0     0     0     0
+PRESENT          0     0     0     0
+
+Voting Index     U     U     U     U
+Adoption Index   1     1     1     1
+
+Vetoed?          N     Y     N     N
+Rubberstamped?   Y     N     Y     Y
+
+Voters           6     4     6     6
+Quorum           5    10     5     5
+
+
+I hereby place a copy of Proposal 4857 into the pool as required by
+Rule 2019.
+
+
+Text of Adopted Proposals
+----------------------------------------------------------------------
+
+
+Proposal 4856 by Goethe, AI=1, Ordinary
+Winning rearranged
+
+
+Proposal:  Winning rearranged
+
+[Cleans up the sillyness with 72 hours and "any particular moment" of
+winning.  Makes repealing scoring instructions automatic on a win].
+
+Amend Rule 2075 (Winning Hands) to read:
+
+       The Scoring Instructions contained in cardbooks, interpreted
+       collectively, may define a nonsite gambler as holding a winning
+       hand.  Any Player may allege that a nonsite gambler holds a
+       winning hand.  The allegation is considered true if any nonsite
+       gambler holds a winning hand at the time of the allegation.
+
+       If the allegation is true, the following events occur in order,
+       immediately upon the allegation being made:
+
+         (i) All nonsite gamblers holding winning hands are deemed to
+             win the game simultaneously, and are awarded the defined
+             regular Patent Title Champion, five white chips, and a
+             blue chip (non-transferrable) marked with the number of
+             red and white chips in the Pot.
+
+        (ii) The pot is emptied.
+
+       (iii) All Scoring Instructions in the Blueprints Cardbook are
+             repealed.
+
+        (iv) All Players' hands become subject to a Hand Reduction to
+             the Minimum Hand Size.
+
+       If the allegation is false, the Deckmastor shall, as soon as
+       possible, discard 1 card at random from the hand of the Gambler
+       who made the allegation.
+
+       If no true allegation of a winning hand or a Skunk has been made
+       in the last six months, then any Gambler may allege a Skunk,
+       which, if true, triggers the effects of (iii) and (iv) above.
+
+
+----------------------------------------------------------------------
+
+
+Proposal 4858 by Goethe, AI=1, Ordinary
+Streamlined hand reductions
+
+
+Proposal: Streamlined hand reductions
+
+[Takes out requirements that draws be satisfied before reduction
+announced, and also the restriction against drawing.  Also lengthens
+time between reductions but allows deckmastor to deal with shortages].
+
+Amend Rule 2083 (Hand Reductions) to read:
+
+       The Rules may declare that a nonsite Gambler's hand is subject
+       to a Hand Reduction.  A particular hand reduction must have a
+       maximum hand size associated with it; if none is defined, the
+       Maximum Hand Size in the Deckmastor's budget is used.
+
+       As soon as possible after a requirement for a reduction arises,
+       the Deckmastor shall:
+
+         (i) Announce the pending hand reduction;
+
+        (ii) Wait at least four days after the announcement;
+
+       (iii) Discard cards at random from that Gambler's hand until eir
+             hand size is equal to or less than maximum associated with
+             the reduction.
+
+        (iv) If a gambler loses no cards during a reduction, and has
+             neither played nor transferred a card since the last
+             reduction, the Deckmastor shall discard one card at random
+             from the gambler's hand (if it has any cards).
+
+       If a dispute on the gambler's hand size or pending draws is
+       raised and not resolved prior to (iii), above, the Deckmastor
+       shall not perform (iii) for that hand until the dispute is
+       resolved.  If no dispute is raised prior to (iii) being
+       performed, then the reduction shall stand regardless of
+       subsequent disputes.  However, a Judge in such a dispute may
+       Order the Deckmastor to perform further card transfers to
+       resolve such disputes.
+
+       If the Deckmastor knowingly reduces a hand incorrectly, e
+       commits the Class 4 Crime of Card Thievery.
+
+       If more than one hand reduction is pending for the same hand,
+       then the Deckmastor need only perform the reduction for the
+       reduction with the lowest associated maximum; this shall satisfy
+       all pending reductions.
+
+       At the beginning of each Quarter, every Player's hand becomes
+       subject to a hand reduction to the maximum hand size in the
+       Deckmastor's Budget plus the number of Offices (including the
+       Speakership) that e holds.  If at any time there are more
+       unsatisfied pending draws then cards in the Deck and Discard
+       Pile put together, the Deckmastor may announce a Shortage, with
+       subjects every Player's hand to such a hand reduction.
+
+
+Add the following Card to the Onepower Cardbook:
+
+     * Caption:   I Fold
+       Frequency: Rare
+       Elements:  Asleep[30], Costly[3]
+       Exploit:   Reduce your hand size to N by discarding one or more
+                  cards.  Every Player becomes subject to a Hand
+                  Reduction to a maximum of N.
+
+
+The Quota for I Fold is hereby set to 2.
+
+
+Amend the Costly exploit in the Onepower cardbook to read:
+
+        * Costly [ Y a nonnegative integer]: There is a fee of Y to
+          play this card.
+
+
+----------------------------------------------------------------------
+
+
+Proposal 4859 by root, AI=1, Ordinary
+Chip Fix 1.1
+
+
+// This version fixes cashing in chips by defining chip transfers
+// and creating a mechanism for cashing in chips.  Arbitrary chip
+// transfers are still not permissible due to lack of a mechanism
+// for doing so.  This sentence is here to even up the paragraph.
+
+Amend Rule 2120 (Cashing in One's Chips) to read:
+
+       The Pot is a site.
+
+       Cashing in one or more chips is synonymous with transferring
+       them to the Pot.  A player may cash in one or more of eir chips
+       by announcement.  As soon as possible after e does so, the
+       Deckmastor shall deal em a card for each non-forfeited chip
+       cashed in.
+
+
+Amend Rule 2069 (Card Actions) by replacing the text:
+
+           When a card is otherwise transferred from one gambler to
+           another, the former gambler shall cease to hold the card and
+           the latter gambler shall simultaneously come to hold the
+           card.
+
+with:
+
+           When a card or chip is otherwise transferred from one
+           gambler to another, the former gambler shall cease to hold
+           it and the latter gambler shall simultaneously come to hold
+           it.
+
+
+Amend Rule 2123 (Fees) to read:
+
+       A player plays a fee of X by cashing in X chips and indicating
+       the fee to be paid.  These chips are forfeited.
+
+
+----------------------------------------------------------------------

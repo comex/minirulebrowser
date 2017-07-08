@@ -1,0 +1,946 @@
+From ford@jps.net Sat Jul 21 13:39:15 2001
+Date: Sat, 21 Jul 2001 00:32:40 -0700
+From: Ed Murphy <ford@jps.net>
+Reply-To: agora-discussion@agoranomic.org
+To: Agora Business <agora-business@agoranomic.org>
+Subject: BUS: Agoran Weekly Journal
+
+     THE AGORAN WEEKLY JOURNAL
+     VOLUME 48, ISSUE 7
+     Saturday, July 21, 2001
+
+
+HOW FEW REMAIN
+--------------
+
+Andre   - Stare Decisis       www.win.tue.nl/~engels/stare.txt
+harvel  - THE END IS NI       tarski.2y.net/~harvel/
+Elysion - Field of Dreams     www.msu.edu/~boehmejo/agora.html
+Lindrum - The AgorEx          www.panix.com/~lindrum/agorex/
+Michael - First Speaker       www.cl.cam.ac.uk/users/mn200/games/nomic/yoyo/
+Murphy  - Garden Nomic II     groups.yahoo.com/group/garden-nomic/
+pTang   - Bribe Tokens        marknau.editthispage.com/stories/storyReader$44
+t       - AWJ Archive         www.iki.fi/scurra/agora.html
+Taral   - Web Judiciary       cotc.taral.net/
+Wes     - Web Judiciary       www.netgecko.com/cotc/
+
+
+ADOPTED PROPOSALS
+-----------------
+
+"Another Use for Indulgences" by Elysion - Proposal 4175 adopted 7/3
+  A Player may pay 1 Indulgence to change eir Role after six weeks, or 3
+    Indulgences to change it immediately.
+
+"Auction Patches" by root - Proposal 4176 adopted 7/3
+  Items are Auctioned in lots.
+  The owner of an Auctioned lot incurs a debt for that lot to a winning Bidder,
+    skipping the "pay out" mechanism.
+  Vickrey Auctions don't say what happens if there are exactly as many
+    uncancelled Bids as there are lots up for Auction.  In this case, the Final
+    Auction Price is the Starting Bid.
+
+"Bastille Day" by Oerjan - Proposal 4182 adopted 7/9
+  On Bastille Day (July 14), each Rebel counts double toward the chance of
+    success if e publicly hums a few bars of "La Marseillaise", but a
+    successful Rebellion leaves each Rebel with one Blot (even if e was
+    previously Immaculate).
+
+"Don't be overkill" by Ziggy - Proposal 4185 adopted 7/17
+  Oligardiness is reduced from a Class 2 to a Class 1 Infraction.
+
+"Executors Revamped" by Steve - Proposal 4190 adopted 7/17
+  An Executor may act on behalf of an Executee, but no longer "as if e is the
+    Executee".
+  Limited Executors is explicitly defined.
+  Entities may have multiple Executors.
+  An entity may have at most one Prime Executor with respect to a certain
+    action.
+  A Player is eir own Prime Executor by default.
+  Power of Attorney is not withdrawn due to the Grantor going On Hold.
+  The Holder of Power of Attorney is Prime Executor of the Grantor.
+  The Treasuror is Prime Executor of the Bank, except for debts in a Bank
+    Currency, for which the Recordkeepor is Prime Executor.
+  Embezzlement covers all Property transfers not explicitly required or
+    permitted by the Rules.
+  Rules 947 (Bonus for Repeal), 1959 (Wills), and 1598 (Property Transfers) no
+    longer explicitly mention Executors.
+  Razl becomes Noisy.
+
+"Fix Periodic Compensations" by Taral - Proposal 4179 adopted 7/3
+  Salaries and Distributor's Gratuity require 16 (not 12) days of holding the
+    appropriate position.
+
+"Fix Unready Judges" by root - Proposal 4178 adopted 7/3
+  A Player who becomes ineligible to Judge due to a Grace Period is treated as
+    if e became ineligible by request; in particular, e may become eligible by
+    request while still in eir Grace Period.
+
+"Heroism is Catching" by Kelly - Proposal 4184 adopted 7/17
+  Douglas Hofstadter becomes a Hero.
+
+"Indulgence Auctions Happen" by Goethe - Proposal 4188 adopted 7/17
+  The Monthly Bank Indulgence Gain (MBIG) is the number of Indulgences
+    transferred to the Bank minus the number transferred from the Bank.
+  If the Indulgence Differential is less than or equal to zero, then the Herald
+    may Auction up to half the MBIG.
+
+"LET'S GET THIS SHOW ON THE ROAD ALREADY" by Elysion - Proposal 4180 adopted
+    7/3
+  It takes 100 (not 200) Points to Win.
+
+"Make Buying Democracy Easier" by neil - Proposal 4187 adopted 7/17
+  An Untained Speaker may (With 3 Supporters) Sanitise an Ordinary Interested
+    Proposal which no one has attempted to Democratise, making it Democratic
+    and Sane.  If this happens during its Voting Period (which requires someone
+    to pay 1 Papyrus), then all Votes are cancelled and the Voting Period is
+    extended to seven days after the Sanitising.
+  A Player may (With Support) attempt to Democratise an Ordinary Interesting
+    Proposal.  This costs 0.1 VE except for an Untainted Speaker.  Until the
+    end of the Voting Period, Players may pay VEs to Vote FOR or AGAINST
+    Democratisation.  If FORs >= AGAINSTs, then all Votes are cancelled and the
+    Voting Period is extended by seven days.
+
+"Opposite Proposals" by neil - Proposal 4194 adopted 7/17
+  Each time the Promotor distributes Proposals, e may randomly select one and
+    add an Opposite Proposal to the distribution.  E may (Without 2 Objections)
+    pay out 0.1 Papyri to emself for doing so.
+
+"Points Contests" by Goethe - Proposal 4191 adopted 7/17
+  A Points Contest is one whose ACO says it is.
+  A Player can be Contestmaster of at most one Points Contest per month.
+  Once per month, a Points Contest (that existed at the beginning of the month)
+    may award Points to one or more Players, maximum PPP * NPC where
+      PWIN = Points needed to win
+      PPP  = PWIN / 20
+      NPC  = Number of Players who were Contestants during past 14 days
+  A Player may receive at most PWIN / 5 from all Points Contests; awards
+    exceeding this limit are invalid for that Player only.
+
+"Raffle Patch" by Elysion - Proposal 4177 adopted 7/3
+  Players unable to Bid in an Auction cannot buy Raffle tickets either, if the
+    Auction is a Raffle (which does not involve Bidding).
+
+"Simplify Organizations" by Murphy - Proposal 4181 adopted 7/9
+  Rule 1528 (Organizations) is simplified in language, mentions Administrators,
+    and states that all required properties except Class may be changed by
+    unanimous member consent.
+  Rules 1614 (Organizations' Names) and 1612 (Organizations' SLCs) are
+    simplified in language.
+  A Rule is created that explicitly lists Classes of Organizations.
+  Rule 1531 (Administrators and Their Duties) generally allows a Charter or
+    another Rule to separate the identities of the Administrator, Maintainer,
+    and Executor.
+  Rules 1533 (Application to Create an Organization) and 1397 (Dissolution of
+    Organizations) simply refer to the list of properties that Organizations
+    are required to have, rather than reiterating the list.
+  Rule 1617 (Changing the Jurisdiction of an Organization's SLC) is repealed,
+    as it is now redundant with Rule 1528.
+
+"Tax Avoidance" by Taral - Proposal 4193 adopted 7/17
+  Rebels are only tax-exempt if they were Rebellious when the intent to tax was
+    announced.
+
+"The Neo-Oligarchy" by Elysion - Proposal 4186 rejected 7/17
+  There may be any number of Oligarchs.  All Oligarchs have the Voting Power
+    that Low Oligarchs currently have.
+  Current Oligarchs become Elder Oligarchs for three months.  (The Rulekeepor
+    may repeal this clause Without Objection if there are no Elder Oligarchs.)
+  The GWotO's Budget includes the Oligarchy Auction Rate, from 1 to 4.  The
+    GWotO may amend eir Budget Without 2 Oligarch Objections.
+  Each month, the GWotO shall auction a number of Oligarchy positions equal to
+    the Oligarchy Auction Rate, and shall bill each non-Elder Oligarch 0.1 VEs
+    (and remove anyone who doesn't pay within seven days).
+  Rebels remain in the Oligarchy on a successful Rebellion.
+
+"The Scribes' Council" by Kelly - Proposal 4174 adopted 7/3
+  The Scribes' Council is the set of all Scribes.
+  A Player may make a Proposal Distributable for free with the support of a
+    majority of the Scribes' Council.
+
+REJECTED PROPOSALS
+------------------
+
+7/7  Promotor Elysion aborts Proposal 4169 ("Fix Rule 1686"); Syllepsis's
+       attempt to Disinterest it was sent to agora-business@agoranomic.org,
+       which was not yet a Public Forum at the time, and so it was never
+       Distributable.  Whether this invalidates the effect of Proposal 4169's
+       adoption is unclear.
+
+"Fix of the Fix" by Elysion - Proposal 4183 rejected 7/9
+  Double Papyrus awards due to Proposal 4168 (because the old New Player Award
+    was accompanied by a 1-Papyrus bonus, but it was not part of the NPA) are
+    revoked.
+
+"INFLUENZA" by harvel - Proposal 4189 rejected 7/17
+  Each week, the Promotor randomly selects a message sent to a Discussion Forum
+    of eir choice during the previous weeks, and adds it to the Pool as a
+    Democratic, Distributable Proposal with AI=1, authored by the author of the
+    message.  If the Proposal is adopted, then the Promotor shall pay out 0.1
+    Papyri to the author.
+
+"Lobbyists and Butterfly Ballots" by Murphy - Proposal 4192 rejected 7/17
+  Butterfly Ballots are similar to Voting Entitlements, granting additional
+    Votes on Referenda (and Elections, the Voting portions of which are
+    actually a special form of Referenda).
+  All new Players since January 1, 2001, shall receive 0.5 BBs.
+
+PENDING PROPOSALS
+-----------------
+
+"Clarify Discussion Forum" by Murphy
+  A message sent to a Discussion Forum may be considered to have been sent to
+    all Players (usually because it was simultaneously sent to a Public Forum).
+
+"Entitling Oligarchs" by Goethe
+  Oligarch Auction bids are in VEs, not Stems.
+  The MUQ of VEs is reduced from 0.1 to 0.01.
+  Ideal VE circulation is increased from 1 VE per Player to (1 + New Player
+    Award in VEs) VE per Player.
+  VEs are still Auctioned in 0.1 VE blocks.
+
+"Fix Bank Debt Bugs" by Murphy
+  Rule 1946 (Distribution of Voting Entitlements) loses an incorrect clause
+    that each winning Bidder gets 1.0 rather than 0.1 VE.
+  The Registrar pays out New Player Awards, rather than Ordering the Treasuror
+    to do so.
+
+"Fix Credit Limits" by neil - Proposal 4196
+  Non-Players have Credit Limits.
+
+"Forgive Buggy VE Debts" by Murphy
+  All outstanding VE debts arising from Rule 1946 prior to July 14 are forgiven
+    (because Rule 1946 incorrectly awards 1.0 VE per bid, instead of 0.1 VE).
+
+"Good Agoran Rewards" by solublefish
+  Kudos are a Currency.  The Recordkeepor is the Herald.  The MUQ is 0.1.
+  The Mentor's Bonus is 4 Kudos.
+  The Speaker's Patronage is 1 Kudo.
+  Agora's Birthday gives 1 Kudo to each Player, 0.5 Kudo to each Player who
+    recognizes it, and 2 Kudos to each worthy Contest.
+  The Bonus for Repeal is 1 Kudo.
+  Each candidate in an Election receives extra Votes equal to eir Kudos at the
+    beginning of the Election, and is then billed for those Kudos.
+
+"Increase VE Supply" by Murphy
+  Ideal VE circulation is increased from 1 VE per Player to (1 + New Player
+    Award in VEs) VE per Player.
+  Unique Patent Title of Claim Jumper is awarded to the Player with the most
+    VEs (minimum three).
+
+"Liquify the Bank" by Kelly
+  The Bank shall mint Currency when properly Ordered to do so.
+  The Treasuror is Ordered to mint 15 Voting Entitlements.
+
+"Make Proposing Easier" by Syllepsis
+  The base Distribution Cost of a Proposal is lowered from 1 to 0.5 Papyri.
+  The additional Distribution Cost for making a Proposal Urgent is lowered from
+    1 to 0.5 Papyri.
+
+"Poor Man's Agora" by Syllepsis - Proposal 4195
+  A Sanctimonious Player is one who meets all these conditions:
+    * Not a Zombie.
+    * Possesses less than 4 times Basic Officer Salary in Stems.
+    * Possesses no VEs.
+    * Is not Executor or Limited Executor of any entity (other than Bank or
+        Monastery) violating the above conditions.
+    * Is a Senator.
+    * Is Immaculate.
+  A Player who is Sanctimonious for at least a week becomes a Monk by notifying
+    the Registrar that e does so.
+  A Monk who is not Sanctimonious for at least 48 hours ceases to be a Monk at
+    the beginning of the week after a Player notifies the Registrar of it.
+  Monks may make Proposals Distributable for half-price.
+
+"Raising the Dead" by Goethe
+  Only Acolytes may bid in Zombie Auctions.
+
+"Rapid Mutation" by Murphy
+  Stems become generally transferrable.
+
+"Read the Ruleset Week" by harvel
+  An index of 4 is greater than any other index (including Unanimity).
+  Each Emperor has power 4 and takes precedence over the Rules.  
+  harvel is the one and only Emperor.
+  This Rule may not be repealed or amended.  
+  This Rule takes precedence over every other Rule.
+
+"Remove Roles" by Elysion
+  Roles are repealed.
+
+"The Virus, Mark III" by Murphy
+  Each week, a random Rule becomes ineffective for two weeks.  (Rules with AI>1
+    are immune.)
+
+PROTO-PROPOSALS
+---------------
+
+"AIDS" by Goethe
+  <"ICK!  BLEACH!  BARF!  BLOOEY!  NI! NI! NI!"  Please consult the a-d archive
+    for July 2, but don't say we didn't warn you.>
+
+"A Mutating Virus" and "A Better Mutating Virus" by Syllepsis
+  <We couldn't get either of these to hold still long enough to commit them to
+    printed form.  Please consult the a-d archive for June 28 and July 1.>
+
+"AND/OR" by Syllepsis
+  During July and August, all other Power=1 Rules have the meanings of "and"
+    and "or" switched.
+
+"Antibodies" by Goethe
+  If a Rule automatically changes the text of a different Rule, then the change
+    is immediately removed.
+
+"a simple middle ground" by Goethe
+  Each Player may make one Proposal per month Distributable for free (if its
+    Distribution Cost was 1 Papyrus).
+
+"Decrease MUQs" by neil
+  The MUQs of Papyri, VEs, and Indulgences are divided by 10.
+  Credit Limits are still restricted to the same ranges.
+  VEs are still Auctioned in 0.1 VE blocks.
+
+"Fix Rule 1981" by Murphy
+  A valid but unauthorized transfer causes the Payee to owe a return to the
+    Payor.  (Currently, e owes it to the Bank, regardless of who the Payor is.)
+
+"Give Recordkeepors Auction Control" by harvel
+  Each Bank Currency (other than Stems) has an Ideal Circulation Level, an
+    Actual Circulation Level, a Formula, and an Item Size.
+  The Recordkeepor of a Currency may create a Formula (if there is none), or
+    (Without Objection) modify the Formula.
+  The Item Size is a multiple of the MUQ.
+  Each month, if ACL > ICL, then the difference is Auctioned in blocks equal to
+    the Item Size.
+
+"Group Roles" by Murphy
+  Groups with at least three members may have Roles.
+
+"Insolvency" by Syllepsis
+  When the Bank's debts in a Currency exceed its holdings, any Executor or
+    Limited Executor able to levy a tax in that Currency must levy a tax
+    sufficient to make up the difference (or else levy the maximum possible
+    tax with no exemptions).
+
+"Judicial Reform, Part 1 of 2" by Murphy
+  Rule 991 (Invoking Judgement) picks up the core of Rule 1563 (Statement of a
+    CFJ), which is then repealed.
+
+"Judicial Reform, Part 2 of 2" by Murphy
+  A CFJ may be filed with the Justiciar for any reason, though this is not
+    recommended in the general case.
+  Rules 897 (Barring Players from Judgement), 1562 (Excess CFJs), 1868
+    (Selecting a Judge), 408 (Late Judgement), 591 (Legal Judgements), 1575
+    (Standards of Proof) have their language simplified.
+  Rule 698 (Always an Eligible Judge) is reworded to restore eligibility to
+    groups of Players at a time, rather than changing the overall eligibility
+    formula at each step.
+  Rule 1756 (Delinquent Judges) is repealed.
+  Linked CFJs are Judged by a single Judge.
+  Caller must submit evidence when accusing a Player of shirking a duty.
+  DISMISSED is a Judgement.  Other Rules are adjusted accordingly.
+  Justices become Appelate Judges, as opposed to Trial Judges.
+  Rule 1447 (Final Judgement upon Appeal) is split into three parts:  how soon
+    a Justice must determine, what determinations e may make, and what e is
+    paid for determining on time.
+  Board of Appeals may overturn and remand to original Judge for re-Judgement.
+  Rule 908 (Formal Apologies) picks up the text of Rule 1832 (Failure to
+    Apologize), which is then repealed.
+
+"Modest Oligarch Upkeep" by Goethe
+  Oligarchs pay monthly upkeep equal to the winning bid from the latest
+    Oligarch Auction divided by the number of positions (occupied or vacant) in
+    the Oligarchy.  Those who became Oligarchs during the previous month are
+    exempt.  Those who don't pay ASAP shall have the debt forgiven, but shall
+    be removed from the Oligarchy.
+
+"NEPSTER 2001" by t
+  Stems become Yoyos, with amounts divided by five.
+  The Payroll Clerk pays out 10 Yoyos to emself.
+  The Bank is no longer restricted in minting Bank Currencies.
+  Roles are repealed.
+  Bonds are repealed.
+  Rebellion no longer carries a Stem (Yoyo) award.
+
+"Platforms for Scorekeepors" by root
+  The Scorekeepor's Budget contains the Goal (a positive integer), and a Point
+    award/penalty for each event defined by the Rules as Scoreworthy, and up to
+    three other events.
+  All Point awards/penalties are integers from 0 to 30, and the average may be
+    at most 10.
+
+"Proposal Lottery" by Blob
+  Each week, before the Promotor distributes any Proposals, a random Player
+    with one or more Undistributable Proposals (excluding the Promotor emself)
+    gets a random one of those Proposals made Distributable for free.
+
+"Repeal Bonds" by Murphy
+  All Bonds are accelerated and then destroyed.
+  All Rules pertaining to Bonds are repealed.
+
+"Sucked Dry and Tossed Aside" by Murphy
+  Additional Votes on Proposals may be bought by spending 0.1 VE per Vote.
+  If "Lobbyists and Butterfly Ballots" was adopted, then additional Votes on
+    non-Proposal Issues may be bought by spending 0.1 BB per Vote.
+
+"Wisdom" by Goethe
+  A Player becomes a Sage or ceases to be a Sage by announcing such.  Being a
+    Sage and being eligible to Judge CFJs are mutually exclusive.  The Clerk of
+    the Courts cannot become a Sage.
+  The Sacred Keepor of the Holy Agoran Order of Wisdom (Sacred KHAOW) is an
+    Officer who maintains the Body of Agoran Wisdom (similar to the Ruleset)
+    and a list of Sages.
+  The Book of Wisdom constitutes judicial precedent.
+  The Tree of Wisdom indicates precedence between other entries.
+  A Player may Seek Wisdom by paying a Papyrus fee (part of the Treasuror's
+    Budget), or With Support from the Sacred KHAOW, the Justiciar, the Speaker,
+    or any two Players.  Eir question(s) are treated similarly to CFJs, with
+    the Sacred KHAOW acting as the Clerk of the Courts.  The Sage's Revelation
+    of Truth is added to the Book of Wisdom.
+  If Distilled Wisdom is requested, then the Sage's Revelation of Truth may
+    only be Yes, No, or Depends.  Otherwise, e may reveal Undistilled Wisdom.
+  With Support from the Speaker, the Justiciar, or any two Players, a Player
+    seeking Distilled Wisdom may list one or more Entries or CFJs, and request
+    their Synthesis.  The Sage may adjust the list With Support in the same
+    fashion.  The Sage's Ponderings are added to the Tree of Wisdom.
+  With Support, a Judge or Justice may Seek Wisdom for free.  Eir requirement
+    to make a judicial finding is postponed till ASAP after the Sage Reveals.
+  With Support, the submitter of a CFJ that was dismissed (and the dismissal is
+    not pending Appeal) may Seek Distilled Wisdom on the Statement's truth for
+    free.
+
+
+CALLS FOR JUDGEMENT
+-------------------
+
+CFJ 1303  "Razl is Noisy."
+[FALSE]   6/24     Called by Goethe
+          6/24-30  Assigned to Blob, who Judges FALSE
+          Caller's argument (summary):  Steve, who has Power of Attorney over
+            Razl, claimed to cause Razl to make emself Noisy.
+          Judge's refutation (summary):  A Player becomes Noisy by posting to
+            the Public Forum, not by claiming to become Noisy.
+
+CFJ 1304  "If the Executor of an entity posts to the Public Forum - clearly
+[FALSE]    stating that e posts to the Public Forum on behalf of the entity,
+           as if e were the entity - then the entity is considered to have
+           posted to the Public Forum."
+          6/26      Called by Murphy
+          6/30-7/7  Assigned to Taral, who Judges FALSE
+          Judge's refutation (summary):  In Rule 1478, the phrase "as if e were
+            the entity" does not deem that the entity has acted, but rather
+            that the Executor has acted on the entity's behalf.
+
+CFJ 1305  "A Player, while on Hold, may not be made silent by Rule 1042 until
+[TRUE]     two months after going on Hold."
+          7/3    Called by Goethe
+          7/3-5  Assigned to pTang, who Judges TRUE
+          Caller's argument (summary):  Rule 1042 specifies two ways to become
+            silent:  be Quiet two weeks, or be Inactive two months.  For
+            Inactive Players, the latter takes precedence.
+          Judge's commentary (summary):  There is neither conflict nor
+            precedence between Rule 1042's methods; either may apply.  However,
+            the first method implicitly requires the Quiet Player to post and
+            thus become Noisy, and does not explicitly apply itself to Inactive
+            Players, so Rule 1584 makes it ineffective.
+
+CFJ 1306  "The Basic Officer Salary is 50 Stems."
+[TRUE]    7/5    Called by Murphy
+          7/5-8  Assigned to lee, who is recused
+          7/8    Reassigned to Oerjan, who Judges TRUE
+          Caller's argument (summary):  Rule 1893 specifies a new procedure
+            (Without Objection) for the Treasuror to change eir Budget, but
+            does not specify that it replaces the procedure (With Support) of
+            Rule 1957.
+
+CFJ 1307  "Annabel's message, on or about 31 May 2001, reading in part 'So I
+           transfer all of my currencies to the Bank, and then deregister' did
+           not have the effect of transferring any Currencies."
+          7/10  Called by Kelly
+          7/14  Assigned to Evantine
+          Caller's argument (summary):  The argument for CFJ 1302 applies.
+          Counterargument:  It is reasonable to assume that Annabel knew that e
+            possessed some sort of Currency, and thus that e definitely
+            intended to make one or more transfers.  "all of my currencies"
+            then constitutes a specification.  CFJ 1302 referred to a statement
+            of the form "if X, then I transfer Y"; in that case, it was
+            reasonable to assume that the Player considered it possible for X
+            to be false, and thus that e possibly intended not to make any
+            transfer.
+
+CFJ 1308  "If a non-Player entity may Vote on an Insane Proposal, then it may
+           do so in public."
+          7/11  Called by Murphy
+          7/14  Assigned to Peekee
+          Caller's argument (summary):  Rule 1729 does not explicitly prohibit
+            non-Players from Voting on an Insane Proposal in public, though it
+            does blanket-prohibit discussion of such Votes during the Voting
+            Period.
+          Commentary:  False if the Voting Mode on Proposals is Private.  But
+            at the time of the CFJ, the Voting Mode on Proposals was Public.
+
+CFJ 1309  "If the Vizier of a Group casts on behalf of the Group one or more
+           votes on an Insane Proposal in a Public Forum, e has not thereby
+           bended or violated Rule 1729.".
+          7/14  Called by harvel
+          7/14  harvel requests annotation of Rule 1729
+          7/15  Assigned to Syllepsis
+
+CFJ 1310  "Proposal 4168 caused Ian, root, and solublefish to owe the Bank 120
+           Stems."
+          7/10  Called by Syllepsis
+          7/16  Assigned to solublefish
+
+CFJ 1311  "No Proposals have passed during the current Nomic Week."
+[FALSE]   7/18  Called by Goethe
+          7/18  Assigned to Steve, who Judges FALSE
+          Caller's argument (summary):  At the time of this CFJ, the adoption
+            of some recent Proposals had been announced by ex-Assessor Blob,
+            but not by Assessor Goethe.
+          Judge's refutation (summary):  The Proposals passed at the end of the
+            Voting Period.  Their taking effect is what depends on the
+            Assessor's announcement.
+
+
+OFFICES
+-------
+
+6/28  Taral Stands Down in the Notary Election.
+
+7/1   Quarterly Speaker Transition occurs.  Speaker-Elect Blob becomes Speaker;
+        Promotor Elysion becomes Speaker-Elect, but not its Electee.
+
+      Nominations begin for Speaker-Elect.
+
+      Steve Stands Down in the Notary Election.
+
+7/2   Voting begins for Notary.  Candidates are Murphy and Tim.
+
+7/3   Murphy Stands Down in the Notary Election.  Tim is Elected Notary.
+
+      Kelly Nominates for Speaker-Elect.
+
+7/5   Goethe Nominates for Speaker-Elect.
+
+7/9   Voting begins for Speaker-Elect.  Candidates are Kelly and Goethe.
+
+      Nominations begin for Payroll Clerk.
+
+      Syllepsis attempts to Nominate for Payroll Clerk, but may have done so
+        before the Nomination Period began.
+
+      harvel Nominates for Payroll Clerk.
+
+      Speaker Blob delegates (with prior consent) Payroll Clerk to Syllepsis.
+
+7/10  Kelly deregisters.  Goethe is Elected Speaker-Elect.
+
+      Nominations begin for Assessor and Usuror.
+
+      t, harvel, and Murphy Nominate for Assessor.
+
+      Neil Nominates for Usuror.
+
+7/15  Speaker Blob Calls for Elections for Notary.
+
+      Speaker Blob delegates (with consent) Assessor and Usuror to Goethe from
+        July 18 onwards.
+
+      root Nominates for Usuror, then Stands Down.
+
+7/16  harvel withdraws eir Nomination for Payroll Clerk.
+
+      Nominations begin for Notary.
+
+      Syllepsis is Elected Payroll Clerk.
+
+7/18  Voting begins for Assessor.  Candidates are harvel, Murphy, and t.
+
+      neil is Elected Usuror.
+
+7/19  Nominations begin for Speaker-Elect.
+
+
+OLIGARCHS
+---------
+
+7/8   Auction begins for one position in the Oligarchy.
+
+7/17  Auction ends for one position in the Oligarchy.  neil wins with a bid of
+        550 Stems.
+
+7/18  Auction begins for one position in the Oligarchy.
+
+7/19  Goethe is removed from the Oligarchy because e is now Speaker.
+
+Bidding for one position starting 7/18
+----------
+20 solublefish
+11 Murphy
+10 solublefish
+ 1 Murphy - cancelled
+ 1 Murphy - cancelled
+
+Bidding for one position starting 7/8
+----------
+550 neil
+451 Murphy
+450 neil - cancelled
+341 Murphy
+320 neil - cancelled
+291 Murphy - cancelled
+290 neil - cancelled
+221 Murphy - cancelled
+220 neil - cancelled
+200 Murphy - cancelled
+190 neil - cancelled
+160 Murphy - cancelled
+151 neil - cancelled
+150 Murphy - not yet a Politician
+128 neil - cancelled
+ 64 neil - cancelled
+ 64 neil
+ 32 neil - cancelled
+
+
+PROPERTY AUCTIONS
+-----------------
+
+6/28  Taral Auctions 2 of eir VEs for a three-month lease, with an initial
+        payment and three variable monthly payments in milli-Papyri.  "Offers
+        will be considered based on a 20% per month time-value", whatever that
+        means.  E later amends this to "10% per month".
+
+6/29  Auction begins for 10 Shares in the AgorEx.
+
+      Intent of official Auctions is announced for 10 Bonds for 1 Indulgence
+        each, 10 Bonds for 100 Stems each, and 10 Bonds for 1 Papyrus each.
+        Bids are in Treasuror Murphy's private Currency (Little Fluffy Clouds)
+        and e will transfer the Bonds to the winners of unofficial Auctions to
+        be conducted by the AgorEx.
+
+6/30  Unofficial Auctions begin for 10 Bonds for 1 Indulgence each, 10 Bonds
+        for 100 Stems each, and 10 Bonds for 1 Papyrus each.  Bids are in mVEs.
+
+7/6   AgorEx Share Auction ends.  Lindrum, Steve, and harvel each win 3 Shares,
+        and Blob wins 1 Share, at 105 mVEs each.
+
+7/7   Unofficial Auction ends for 10 Bonds for 1 Indulgence each.  Syllepsis
+        wins 4, Steve receives 1, and the AgorEx receives 5, at 107 mVEs each.
+
+      Unofficial Auction ends for 10 Bonds for 100 Stems each.  neil wins 6 and
+        the AgorEx wins 4, at 45 mVEs each.
+
+      Unofficial Auction ends for 10 Bonds for 1 Papyrus each.  Blob wins 5 and
+        the AgorEx wins 5, at 51 mVEs each.
+
+7/9   Official Auctions begin for 10 Bonds for 1 Indulgence each, 10 Bonds
+        for 100 Stems each, and 10 Bonds for 1 Papyrus each.  Bids are in
+        Treasuror Murphy's private Currency (Little Fluffy Clouds) and e will
+        transfer the Bonds to the winners of the unofficial Auctions.
+
+7/15  Official Auctions end.  Treasuror Murphy receives the Bonds from the Bank
+        and transfers them to the winners of the unofficial Auctions.
+
+      Private Auction begins for 20 Papyri.
+
+7/16  Auction begins for the Zombie David.
+
+Bidding for the Zombie David
+----------
+5.1 Lindrum - cancelled
+5.0 solublefish
+4.0 AgorEx
+3.5 solublefish
+3.0 AgorEx
+
+Bidding for 10 Bonds for 1 Indulgence each starting 6/30
+----------
+125 Syllepsis
+125 Syllepsis
+125 Syllepsis
+125 Syllepsis
+110 x5 AgorEx
+107 Steve
+105 x10 AgorEx - cancelled
+101 Steve
+101 Steve
+100 x5 Blob
+100 x5 Syllepsis
+ 91 x5 AgorEx - cancelled
+ 90 x5 AgorEx - cancelled
+ 40 Elysion - cancelled
+ 20 Elysion - cancelled
+ 13 Elysion - cancelled
+ 10 Elysion - cancelled
+  8 Elysion - cancelled
+  6 Elysion - cancelled
+  5 Elysion - cancelled
+  5 Elysion - cancelled
+  4 Elysion - cancelled
+  4 Elysion - cancelled
+
+Bidding for 10 Bonds for 100 Stems each starting 6/30
+----------
+60 AgorEx
+50 AgorEx
+50 AgorEx
+50 AgorEx
+45 x6 neil
+44 harvel - cancelled
+44 harvel - cancelled
+44 harvel - cancelled
+44 harvel - cancelled
+43 x6 neil - cancelled
+42 harvel - cancelled
+42 harvel - cancelled
+42 harvel - cancelled
+41 x5 Steve
+41 neil - cancelled
+40 x5 AgorEx - cancelled
+39 neil - cancelled
+39 x9 AgorEx - cancelled
+38 x5 Steve
+37 x5 Steve
+35 x9 AgorEx - cancelled
+32 Tim
+32 Tim
+32 Tim
+31 Steve - cancelled
+31 Steve - cancelled
+31 Steve - cancelled
+31 Steve - cancelled
+27 Steve - cancelled
+27 Steve - cancelled
+27 Steve - cancelled
+26 x10 harvel - cancelled
+25 x10 AgorEx - cancelled
+ 1 x10 neil - cancelled
+
+Bidding for 10 Bonds for 1 Papyrus each starting 6/30
+----------
+100 x5 Blob
+ 91 AgorEx
+ 90 neil - cancelled
+ 81 AgorEx
+ 71 neil - cancelled
+ 71 neil - cancelled
+ 71 AgorEx
+ 70 neil - cancelled
+ 70 x5 AgorEx - cancelled
+ 66 neil - cancelled
+ 66 neil - cancelled
+ 66 neil - cancelled
+ 65 x5 AgorEx - cancelled
+ 61 AgorEx
+ 60 neil - cancelled
+ 60 x5 AgorEx - cancelled
+ 51 x5 AgorEx - cancelled
+ 51 AgorEx
+ 50 Taral
+ 50 Taral
+ 40 neil - cancelled
+ 40 Elysion - cancelled
+ 30 x5 neil - cancelled
+ 25 x10 Syllepsis - cancelled
+ 21 x9 Syllepsis - cancelled
+ 20 Elysion - cancelled
+ 13 Elysion - cancelled
+ 10 Elysion - cancelled
+  8 Elysion - cancelled
+  6 Elysion - cancelled
+  5 Elysion - cancelled
+  5 Elysion - cancelled
+  4 Elysion - cancelled
+  4 Elysion - cancelled
+  1 x10 harvel - cancelled
+
+Bidding for 10 AgorEx Shares starting 6/29
+----------
+418 Lindrum
+209 Lindrum
+140 Steve
+140 Steve
+139 Lindrum
+107 Steve
+106 harvel
+106 harvel
+106 harvel
+105 Blob
+105 Blob
+104 Lindrum
+103 harvel
+103 harvel
+103 x5 Steve - cancelled
+101 Tim
+101 Tim
+101 Tim
+101 harvel
+100 Taral - cancelled
+100 harvel
+100 Blob
+100 Blob
+100 Blob
+100 Blob
+ 95 harvel
+ 90 harvel
+ 85 harvel
+ 83 Lindrum
+ 80 harvel
+ 75 harvel
+ 69 Lindrum
+ 59 Lindrum
+ 52 Lindrum
+ 50 Taral - cancelled
+ 46 Lindrum
+ 41 Lindrum
+ 33 Taral - cancelled
+ 25 Taral - cancelled
+ 20 Taral - cancelled
+ 16 Taral - cancelled
+ 14 Taral - cancelled
+ 12 Taral - cancelled
+ 11 Taral - cancelled
+
+
+IN OTHER NEWS
+-------------
+
+6/28  Either Goethe or Kelly makes harvel a Bard.
+
+      The Anemocrats become Parliamentary.
+
+6/29  Kelly makes David Quiet.
+
+6/30  Chuck becomes a Hero.
+
+7/2   neil creates the Currency "Corruption Tokens".
+
+7/3   Ziggy grants eir Power of Attorney to Goethe from the time e accepts
+        until noon on Sunday, July 8.  Goethe accepts.
+
+      Goethe makes Elysion a Bard.
+
+      Evantine becomes Noisy.
+
+      Usuror Kelly sets Credit Limits to 1 Papyrus, 0.5 VE, and 1 Indulgence,
+        and announces eir intent to reduce the Purchase Rate for short-term
+        Bonds of 20+ Stems from 95% to 50%.
+
+7/4   Usuror Kelly announces eir intent to increase the Basic Fee for issuing
+        Bonds from 0 to 10 Stems.
+
+      S. becomes Vizier of Regroup.
+
+      Treasuror Murphy reduces the Basic Officer Salary from 100 to 50 Stems.
+
+7/5   Treasuror Murphy announces eir intent to place a moratorium on Bond
+        purchases.
+
+7/6   Treasuror Murphy (With Support from neil) places a moratorium on Bond
+        purchases.
+
+7/7   Razl becomes Noisy.
+
+      Goethe creates the Currency "Fish".
+
+7/8   Elysion Wins by having more than 100 Points.
+
+      lee deregisters.
+
+      Taral becomes Vizier of Ungroup.
+
+7/9   Murphy becomes a Politician.
+
+      Ziggy deregisters.
+
+      Assessor Kelly announces eir intent to change the Voting Mode on
+        Proposals to Private.
+
+      Kelly deregisters in a Writ of FAGE.
+
+      harvel creates the Currencies "Cumulocerberus Clouds" and "Nimbustyx".
+
+7/10  Elysion and Taral become Rebellious.
+
+      Payroll Clerk Syllepsis levies a 25% Stem tax, exempting 175 Stems per
+        Player.
+
+      harvel creates the Currency "Trivia".
+
+7/11  root creates the Currency "Widgets".
+
+7/12  Registrar solublefish makes Taral the Distributor.
+
+7/14  Crito goes On Hold.
+
+7/16  harvel becomes a Scribe.
+
+      David Abandons the Game.
+
+      Lindrum becomes a Scribe.
+
+7/18  Usuror neil announces eir intent to replace ">0." with ">=0." in the
+        Usuror's Budget.  root objects.  neil re-announces eir intent,
+        clarifying that decimal points are part of the specification.
+
+      solublefish makes Blob Quiet, twice.  (Blob became Noisy after the first;
+        see below.)
+
+      Blob gives up the Speakership.  Speaker-Elect Goethe becomes Speaker.
+        Promotor Elysion becomes Speaker-Elect.
+
+      Herald Goethe announces eir intent to levy a 50% Indulgence tax.
+
+7/19  solublefish becomes a Politician.
+
+
+TRADE OFFERS
+------------
+
+Ongoing offers:
+
+Player    Date     Will sell           In return for
+-----------------------------------------------------------------------
+AgorEx    3/28/01  1 VE                mP; see web page
+AgorEx    3/28/01  1 Papyrus           mVE; see web page
+neil      7/2/01   1 Corruption Token  0.2 VE, 0.5 Papyrus, 1 Indulgence, or
+                                         mature Bond for 54 Stems
+neil      7/2/01   Proposal Vote       1 Corruption Token
+neil      7/2/01   Referendum Vote     2 Corruption Tokens
+Peekee    5/3/01   Votes on Proposals  Negotiable
+                     and Elections
+Razl      4/17/01  1 Circle            2*pi Slices
+Wes       4/5/00   1 Twig              Commenting on and changing a proto
+Wes       4/5/00   ad space            1 Twig per 30 days
+
+Recent one-time offers:
+
+Player      Date     Will sell         In return for
+-----------------------------------------------------------------------
+Blob        1/23/01  1 Indulgence      1 Papyrus
+Blob        3/1/01   Indulgences       Papyri
+Blob        3/1/01   1 VE              at least 4 Papyri
+harvel      2/9/01   Negotiable        3 Papyri
+harvel      3/22/01  2.0 VEs           Papyri / Negotiable
+Hooloovoo   3/2/01   1 Papyri          1 VE
+Lindrum     5/18/01  Negotiable        Indulgences
+solublefish 4/19/01  $5                1 VE
+Steve       2/5/01   2 Indulgences     2 Papyri
+t           2/6/01   1 Papyrus         2 Indulgences
+Tim         4/19/01  $25               1 VE
+
+
+ERRATA
+------
+
+Goethe failed to create the Currency "Fish" on April 8 because e failed to
+  specify its Recordkeepor.  (Rule 1722:  "states in that message the values of
+  all properties which the Rules require of Currencies")
+
+
+-- 
+Ed Murphy <ford@jps.net>     http://members.fortunecity.com/emurphy/
+          "Most of the time, it seemed sublimely unaware of its limbs,
+           though it was beginning to suspect it had hands."
+

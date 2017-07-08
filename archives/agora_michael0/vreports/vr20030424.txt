@@ -1,0 +1,811 @@
+
+Agora Nomic
+Voting Report for Proposals 4485-4486
+
+This Report: Thu, 25 Apr 2003
+Last Report: Wed, 23 Apr 2003
+
+Current Voting Mode: Unrestricted
+===========================================================================
+Voting on Proposals 4485-4486 commenced: Wed, 16 Apr 2003 14:36:50 GMT
+Voting on Proposals 4485-4486 concluded: Wed, 23 Apr 2003 14:36:50 GMT
+
+Num. Title                           By         AI  Fl RESULT  F  A  - *
+
+4485 Fix PWIN V2                     Peekee     1   o  FAILS/Q 2  0  0 0
+4486 Of what worth honor?            Michael    2   D  PASSES 16  2  0 0
+
+Flags:
+o: ordinary D: Democratic P: Parliamentary
+d: disinterested  u: urgent  s: sane  c: contested
+
+===========================================================================
+
+                o   D
+                4   4
+                4   4
+	        8   8
+	        5   6
+
+Goddess Eris       4F
+Manu                F
+Maud                A
+Michael            3F
+Murphy              F
+RedKnight           A
+root      (O)   F  2F
+Sherlock  (O)   F   F
+Steve              4F
+
+FOR             2  16
+AGAINST         0   2
+ABSTAIN         0   0
+Present         0   0
+
+Voters          2   9
+Quorum(6|3)     N   Y
+PASSES?         N   Y
+
+===========================================================================
+Miscellaneous
+===========================================================================
+
+H. Promotor root,
+
+I hereby issue a Notice of Complacency for Proposal 4485.
+
+H. Scorekeepor OscarMeyr, please note: 
+
+Points awards:
+
+Player     Points   Reason/Rule
+-------------------------------
+Michael    +6       Interested Proposal adopted, 2 votes AGAINST; R1930.
+
+===========================================================================
+Text of Adopted Proposals
+===========================================================================
+
+Proposal 4486 by Michael, AI=2, Democratic
+Of what worth honor?
+
+
+PROPOSAL: "Of what worth honor?"
+
+V 2.1  * One last typo corrected.
+        * Tabla Rasa increased by 1.
+        * Final version for voting.
+        * Most typos pointed out by others fixed without
+          comment.
+        * More substantive comments in discussion posting.
+
+
+Amend Rule 1986 ("Role-Based Powers", Power=2) to read:
+
+       An action is a Progressive action if the rules so state.
+
+       If an action is progressive, a Player (the Actor) may
+       perform the action either:
+             (a) with the Support of a number Players equal to
+                 one plus the number of times that actor has
+                 performed that action in the current week;
+             (b) by paying a fee equal to the amount of Support
+                 required in (a);
+             (c) if the number calculated in (a) is zero, by
+                 public announcement.
+
+       A progressive action may be associated with a role if
+       the rules so state.  If an energetic action is associated
+       with a role, only players who hold that role may perform,
+       or support performance of, that action.
+
+       Rubberstamping a Proposal is a progressive action for
+       Scribes.  A Rubberstamped Proposal becomes Distributable.
+
+       Absolving an entity is a progressive action for Acolytes.
+       Absolving an entity expunges 1 Blot from that entity.
+
+       Debating an Undistributed Proposal is a progressive Action
+       for Politicians.  The effect of Debating a Proposal is to
+       change its Chamber to one named by the Politician,
+       provided it is legal for that Proposal to be in the named
+       Chamber and the Proposal is not Sane.
+
+
+Create a new Rule entitled "Kudos" with a Power of 2 and
+the following text:
+
+       Kudos (singular Kudo) are an integral measure of a Player's
+       Kismet and noteworthiness within the game of Agora.
+
+       The Herald is the recordkeepor of Kudos.  The kudos of a
+       Player may only be changed as specified by the rules or by
+       an instrument of Power 2 or greater.
+
+       Agora, as a whole, also has a defined number of Kudos.  No
+       other non-Player entity has a defined number of Kudos.
+
+
+Create a new Rule entitled "Enlightenment" with the following text:
+
+       A Player (the Sensei) may, by public announcement, enlighten
+       Agora by choosing two Players to be the Yin and the Yang
+       respectively.  Such enlightenment has the effect of decreasing
+       the Yin's kudos by one and increasing the Yang's kudos by
+       one, provided:
+           (i) the Sensei has at least one kudo;
+          (ii) the Sensei has not previously enlightened Agora in
+               the current week;
+         (iii) the Sensei is not the Yang;
+          (iv) the Sensei gives eir reasons for choosing both the
+               Yin and Yang for a lesson.
+
+
+Create a new Rule entitled: "Ephemera" with the following text:
+
+       A Patent Title is Ephemeral if the rules state that the
+       Patent Title is ephemeral.  Karma is a stuck switch for
+       ephemeral patent titles with states Boon and Albatross.
+       Defining something to be a 'boon' or an 'albatross' is
+       equivalent to defining it to be an ephemeral Patent Title
+       with its Karma set as defined.
+
+       Players may be permitted or required by the Rules to
+       award or revoke Boons or Albatrosses.  If so, these
+       awards are performed by public announcement by the
+       specified Players.
+
+       A Player may hold multiple instances of a given type of
+       ephemeral Patent title; if so, The Herald need only note
+       the number of instances of these Patent Titles that each
+       player holds.
+
+
+Create a new Rule entitled "The Garden" with a Power of 2 and
+the following text:
+
+       A Daffodil is a Boon that may be awarded as the Rules
+       specify or by an Instrument of Power 2 or greater.
+
+       A Weed is an Albatross that may be awarded as the Rules
+       specify or by an Instrument of Power 2 or greater.
+
+       If there are no Players that hold at least one Weed or
+       Daffodil, the Herald may repeal this Rule without
+       Objection.
+
+
+Create a new Rule entitled "Tabla Rasa" with a Power of 2
+and the following text:
+
+       The Herald's Budget shall consist of a positive integer
+       between 5 and 25, known as the Tabla Rasa.
+
+       As soon as possible after the beginning of each quarter,
+       the Herald shall announce the Turning of a New Parchment.
+
+       The effect of such an announcement is to:
+           (A) set each Player's kudos equal to:
+               (i)    the Tabla Rasa;
+               (ii)   plus the number of boons e holds;
+               (iii)  minus the number of albatrosses e holds;
+               (iv)   minus one for every 3 Blots e has.
+
+           (B) set Agora's kudos equal to the Tabla Rasa times
+               the current number of Players;
+
+           (C) revoke all ephemeral Patent Titles.
+
+
+The Tabla Rasa is hereby set to 7.
+
+A. When this proposal takes effect, each Player's Kudos are
+    set to the Tabla Rasa plus the sum of:
+      1/20 * their current Stem holdings;
+      1/5  * their current Papyrus holdings;
+      1/5  * their current Indulgence holdings;
+      1    * their current VE holdings;
+      1/4  * the number of Land units they possess.
+    rounded down to the nearest integer (after summation).
+
+B. Each Player is hereby awarded a number of daffodils
+    equal to half the number of kudos awarded in (A) above,
+    rounded up to the nearest integer.
+
+
+The Treasuror, Payroll Clerk, and Mapkeepor are hereby
+awarded 1 Daffodil apiece.
+
+
+Amend Rule 1941 ("Fees", Power=1) to read:
+
+       If the Rules associate a non-negative cost, price, charge, or
+       fee with an action, that action is a fee-based action.  If the
+       specified cost is not an integer, the actual fee is the next
+       highest integer.
+
+       To perform a fee-based action, a Player (the Actor) who is
+       otherwise permitted to perform the action must announce that
+       e is performing the action and announce that there is a fee
+       for that action.
+
+       If the Actor has kudos equal to or greater than the fee,
+       the action is performed, the Actor's kudos are decreased
+       by the fee, and Agora's kudos are increased by the fee.
+
+       Any Player (hereafter the challenger) may announce that
+       the Actor possessed insufficient Honor (kudos) to perform
+       the action, provided e issues eir challenge within 7 days
+       of the attempted action.
+
+       As soon as possible after such a challenge, the Herald
+       shall confirm or deny whether the Actor possessed kudos
+       equal to or greater than the fee at the time e attempted
+       the action.
+
+       If the Actor in fact possessed insufficient honor,
+       the action shall be deemed to have not occurred and
+       the kudos of the Actor shall be deemed to have not
+       changed.  Otherwise the action shall be deemed to have
+       occurred (and the change in kudos shall be recorded).
+
+       If a Player issues a challenge as above, but more than
+       7 days have passed since the attempted action, then
+       the action shall be permitted to stand.  As soon as
+       possible after a late challenge is issued, the Herald
+       shall confirm or deny its correctness.  But in this case
+       the Fee shall be recorded even if the Actor is left
+       with negative kudos.
+
+
+Repeal Rule 1479 ("Definition of "Pay Out" and "Bill"", Power=1)
+
+
+Amend Rule 1677 ("Currency Awards for New Players", Power=1) to read:
+
+       As soon as possible after the beginning of a Player's Grace
+       Period, the Registrar shall announce eir Arrival.  This
+       Announcement shall have the effect of setting that Player's
+       kudos to twice the Tabla Rasa.
+
+Change the name of Rule 1677 to "Honoring the New"
+
+
+Amend Rule 1976 ("Mentors' Bonus", Power=1) to read:
+
+       In the four weeks immediately after eir Grace Period ends, a
+       Player (hereafter, the 'Protege') may post a single message of
+       Gratitude, naming up to four other Players (hereafter,
+       'Mentors') e deems to have been helpful to em as a new Player.
+
+       The effect of such a message is to award each Mentor the Boon
+       of mentorship and award the Protege the Boon of politeness.
+
+Change the name of Rule 1976 to "Honoring the Old"
+
+
+Amend Rule 1940 ("Periodic Compensations", Power=1) to read:
+
+       The boon of Public Service exists for the purpose
+       of awarding Officers for serving.
+
+       As soon as possible after the beginning of each month,
+       the Assistant Director of Personnel shall award:
+
+           (A) 1 Public Service Boon for each Office, to the
+               Player (if any) who held that Office for 16 or
+               more days in the previous month;
+
+           (B) 1 Public Service Boon to the Player (if any) who was
+               Speaker for at least 16 days of the previous month.
+
+           (C) 1 Public Service Boon to the Distributor if the
+               Distributor is a Player and was both the Distributor
+               and a Player for at least 16 days of the previous
+               month.
+
+
+Amend Rule 502 ("Salary for Judges", Power=1) to read:
+
+       As soon as possible after a Judgement is delivered during the
+       Deliberation Period, the Clerk of the Courts shall award the
+       Judge the Boon of Wisdom.
+
+       As soon as possible after a Judgement is overturned on appeal,
+       the Clerk of the Courts shall award the Judge the Albatross
+       of Foolishness.
+
+
+Amend Rule 1727 ("Happy Birthday", Power=1) by replacing the text:
+       BE IT FURTHER RESOLVED that, as soon as possible after the
+       beginning of Agora's Birthday, the Registrar shall pay out 10
+       Stems to each Player;
+
+       BE IT FURTHER RESOLVED that, as soon as possible after the end
+       of Agora's Birthday, the Speaker shall pay out 5 Stems to each
+       Player who, during Agora's Birthday, publicly recognized Agora's
+       Birthday;
+
+       BE IT FURTHER RESOLVED that the Notary may select up to three
+       Contests, in existence on Agora's Birthday, which have as their
+       purpose encouraging the celebration of Agora's Birthday; and
+       which Contests, in the Notary's estimation, are worthy of
+       recognition for this effort; and shall pay out to the
+       Contestmaster of each such Contest 20 Stems;
+
+with:
+       BE IT FURTHER RESOLVED that, as soon as possible after the end
+       of Agora's Birthday, the Herald shall award the boon of
+       celebration to each Player who, during Agora's Birthday,
+       publicly recognized Agora's Birthday;
+
+       BE IT FURTHER RESOLVED that the Herald may select one Contest,
+       in existence on Agora's Birthday, which has as its purpose
+       encouraging the celebration of Agora's Birthday.  Within the
+       month following Agora's Birthday, that Contest may award its
+       Members the Patent Title Nth Anniversary Ribbon, where N is
+       the number of years of Agora's existence;
+
+
+Amend Rule 1960 ("Roles", Power=1) by:
+              replacing '1 Indulgence' with '2 kudos';
+              replacing '3 Indulgences' with '6 kudos'.
+
+Repeal Rule 1992 ("Monks", Power=1)
+
+
+Amend Rule 1664 ("Rebellion", Power=2) by replacing:
+          - The Registrar shall pay out 8 Stems to each Rebellious
+            player
+with
+          - The Registrar shall grant the emphemeral Patent Title
+            Rebel Hero to each Rebellious player.
+
+and by removing the following text:
+          - The Registrar shall levy a 75% Indulgence tax.  For this
+            levy, the Bearor of the Patent Title "Robespierre" is
+            tax-exempt.
+
+and by changing the text "Oligarchy membership, and Indulgence holdings"
+to "Oligarchy membership".
+
+
+Amend Rule 1955 ("The Grand Warden of the Oligarchy", Power=1) to read:
+
+       (a) The Grand Warden of the Oligarchy (GWotO) is an office; its
+           holder is recordkeepor of Oligarchs.
+
+       (b) The GWotO's Weekly Report shall include a list of all
+           Oligarchs, when their terms as Oligarchs expire, the
+           identity of the Speaker, and the date of the next quarterly
+           Speaker transition.
+
+       (c) The GWotO shall have a budget containing the Oligarchy
+           Charge Requirement, which is a positive integer less
+           than 10, and the Oligarchic Term, which is a number of
+           days between 30 and 90.
+
+       (d) The GWotO may Without 2 Objections from Oligarchs replace
+           the budget with a proto-budget e publishes when e announces
+           eir intent to do so.
+
+The Oligarchy Charge Requirement is hereby set to 6.
+The Oligarchic Term is hereby set to 60 days.
+
+Repeal Rule 1892 ("The Treasuror", Power=1)
+Repeal Rule 1893 ("The Treasuror's Budget", Power=1)
+
+
+Amend Rule 1932 ("The Oligarchy", Power=2) to read:
+
+       (a) The Oligarchy is the set of all Players who are Oligarchs.
+
+       (b) An Oligarch may resign eir position in the Oligarchy by
+           publicly announcing that e does so. Upon such an
+           announcement, e ceases to be an Oligarch.
+
+
+Amend Rule 1963 by removing the text:
+           (6) e is an Oligarch, and e has defaulted on payment of eir
+               Oligarchy Upkeep since last becoming an Oligarch.
+
+
+Amend Rule 1936 ("Auctioning Positions in the Oligarchy") to read:
+
+       (a) Any Player eligible to do so may become an Oligarch at any
+           time, by announcing that they do so.  The fee associated
+           with this action is the Oligarchy Charge Requirement if the
+           Player is not a Politician, and half the Oligarchy Charge
+           Requirement if the Player is a Politician.
+
+       (b) By default, a Player remains an Oligarch for a period of
+           time equal to the Oligarchic Term.  The Grand Warden of the
+           Oligarchy shall remove a Player from the Oligarchy by public
+           announcement, as soon as possible after eir term expires.
+           Other rules may cause Players to cease to be Oligarchs.
+
+       (c) An Oligarch may extend their term of service by a length of
+           time equal to the Oligarchic Term at any time by
+           announcement.  The Fee associated with this action is the
+           same as the fee for becoming an Oligarch.
+
+       (d) The Grand Warden of the Oligarchy is reponsible for tracking
+           membership of the Oligarchy, and individual Oligarchs' terms
+           of service.
+
+Change the title of Rule 1936 ("Auctioning Positions in the
+Oligarchy") to "Oligarchic Service".
+
+All current Oligarchs hereby have their term of service set
+to expire 30 days after this rule takes effect.
+
+Repeal Rule 2010 ("Oligarchy Upkeep")
+
+Amend Rule 2027 ("Vacant Oligarchy") to read:
+
+       At any time at which the number of Oligarchs is less than Quorum
+       for an Ordinary Proposal, the Grand Warden of the Oligarchy may
+       appoint any eligible Player to be an Oligarch, with the Support
+       of the appointed Player and Without 3 Objections. The appointed
+       Player becomes an Oligarch with a term of service equal to half
+       of the Oligarchic Term.
+
+Amend Rule 1607 ("The Promotor", Power=1) to read:
+
+       The Promotor is an office; its holder is responsible for receiving
+       and distributing proposals.
+
+       The Promotor's Weekly Report shall include a list of the titles
+       and submission dates of all proposals in the proposal pool.
+
+Repeal Rule 1951 ("Papyri", Power=1)
+Repeal Rule 1954 ("Distribution of Papyri", Power=1)
+
+Amend Rule 1036 ("The Proposal Pool", Power=1) to read:
+
+       As soon as possible after the Promotor receives a new Proposal,
+       e shall place this Proposal in the Proposal Pool.
+
+       The base Distribution Cost of a Proposal is 1, but this may
+       be altered by other Rules as long as it remains a positive
+       integer.
+
+
+Amend Rule 1952 ("Making Proposals Distributable", Power=1) to read:
+
+       Each Proposal is either Distributable or Undistributable.
+       Initially, each Proposal is Undistributable. When a Proposal
+       becomes Disinterested, it immediately becomes Distributable
+       and may not become Undistributable by any means as long as
+       it remains Disinterested.  The Rules may define other
+       mechanisms through which a Proposal becomes Distributable
+       or Undistributable.
+
+       Any Player may make any Undistributable Proposal in the Proposal
+       Pool Distributable by publicly announcing that e is doing so
+       and paying a fee equal to the Distribution Cost.  Any Player
+       may make an Undistributed Distributable Proposal Undistributable
+       by paying a fee equal to twice the Distribution Cost.
+
+
+Amend Rule 1449 ("The Assessor", Power=1) to read:
+
+       The Assessor is an office; its holder is responsible for
+       receiving and announcing the results of votes on proposals.
+
+       The Assessor's Weekly Report shall include
+
+       * a list of the identity and voting power for Proposals in each
+         Chamber, for all entities with nonzero voting power in at
+         least one Chamber.
+
+       * the Voting Potentials of every Player.
+
+       * the prevailing mode of voting on Proposals.
+
+
+Amend Rule 1950 ("Voting Power", Power=2) to read:
+
+       (a) An entity's Voting Power on an Ordinary Proposal is as
+           follows:
+             (1) An Oligarch: one;
+             (2) Any other entity: zero.
+
+       (b) An entity's Voting Power on a Democratic Proposal is as
+           follows:
+
+             * A Player:
+                   (a) two plus that Player's Voting Potential if
+                       that Player is a non-Oligarch Politician;
+                   (b) one plus that Player's Voting Potential
+                       otherwise.
+
+             * Any other entity: as defined in the Rules, with a
+               default of zero if the Rules don't specify the Voting
+               power on a Democratic Proposal for that entity.
+
+       (c) An entity's Voting Power on a Parliamentary Proposal is as
+           follows:
+             (1) One, if the entity is one of the following:
+                 (a)   The First Estate;
+                 (b)   The Second Estate;
+                 (c)   The Third Estate.
+             (2) Any other entity, zero.
+
+       (d) The value of an entity's Voting Power for any given Chamber
+           at the beginning of each Week shall be in effect for all
+           Proposals distributed during that Week. However, if a
+           Proposal's Chamber is changed after it has been distributed,
+           the Voting Power of each entity for that Proposal is
+           redetermined at the time the Chamber is changed.
+
+       (e) An entity may cast as many votes as e wishes on a Proposal,
+           in any combination, up to the limit determined by that
+           entity's Voting Power on that Proposal, with the exceptions
+           that:
+               (1) no Player may vote on an Ordinary Proposal unless e
+                   is an Oligarch at the time e casts eir vote.
+               (2) Votes on Parliamentary Proposals shall only be cast
+                   through specific mechanisms indicated by the Rules
+                   for each specific entity with Voting Power on
+                   Parliamentary Proposals.
+
+Amend Rule 2021 ("Chamber Procedure", Power=2) by replacing clause (a)
+with the following text:
+
+       (a) The Chamber Fee for a Proposal is a Fee for changing the
+           Chamber of a Proposal.  For any given Proposal, the Chamber
+           Fee is initially 1.
+
+Create a new rule with title "Voting Potential" and a Power of 2, and
+with the following text:
+
+       (a) Associated with every Player is a non-negative integral
+           number known as that Player's Voting Potential.  At the
+           beginning of each new month, every Player's Voting
+           Potential is set to zero.
+
+       (b) At any time, a Player may, by announcement, set their Voting
+           Potential to any positive integer N.  The Fee associated
+           with this action is the Oligarchy Charge Requirement
+           multiplied by N.
+
+       (c) The Assessor is responsible for tracking these
+           announcements, and recording Players' Voting Potentials.
+
+
+Amend Rule 947 ("Bonus for Repeal", Power=1) to read:
+
+           If there are 100 or more rules, and a proposal is adopted
+           containing a provision that one or more rules be repealed,
+           and if, in the Rulekeepor's estimation, the proposal
+           simplifies the ruleset, then the Rulekeepor shall award
+           the Proposer the Boon of Tapecutter.
+
+           If the Rulekeepor decides that the proposal does not simplify
+           the ruleset, e must announce this decision.
+
+
+Amend Rule 1678 ("Encourage Proposals by New Players", Power=1) to read:
+
+       If a Proposal passes, and that Proposal was submitted by a
+       Player within that Player's Grace Period, then the Assessor
+       shall award the Proposor the Boon of Prodigy.
+
+
+Amend Rule 1568 (Non-active Judges) by replacing the text "a penalty of 0.1
+Indulgences for each CFJs" with "a Class of 0.1 times the number of CFJs".
+
+
+Amend Rule 1942 ("Property", Power=1) by replacing "Treasuror" with
+"Notary".
+
+Repeal Rule 1981 ("Embezzlement and Receiving Stolen Property", Power=1)
+Repeal Rule 2006 ("Looting Auctions", Power=1)
+
+Repeal Rule 1974 ("Restriction on Minting of Bank Currencies
+by the Bank", Power=1)
+
+Amend Rule 1853 (Levying Taxes) to read:
+
+       The Recordkeepor of a Currency ("the taxing authority") may
+       levy a tax on that Currency only as follows:
+
+       (A) First, the taxing authority publically issues an
+           announcement of intent to levy a tax; second, at a
+           later point, the taxing authority publically issues a
+           tax notice (the levy).
+
+       (B) To be valid, both the notice of intent to levy a tax, and
+           the tax notice itself, must specify the elements of the tax,
+           viz., the currency being taxed, the tax rate expressed as a
+           percentage of holdings (which may not exceed 50%), and any
+           exemptions.
+
+       (C) The tax notice must be published between seven and
+           fourteen days after the time of the announcement of the
+           intent to issue the levy, and must be at least 30 days
+           after the last valid tax notice published for that Currency.
+           The announcement of intent to issue the levy may not take
+           place while another attempt to levy a tax on that Currency
+           is pending under the authority of this Rule.
+
+       (D) The tax may include exemptions on a fixed amount of the
+           holdings of every taxable entity, provided that:
+            (i) All Players are exempt identical amounts,
+           (ii) All Non-players are exempt identical amounts,
+          (iii) The Non-players' exemption is less than or equal to
+                the Players' exemption.
+
+       (E) The tax debt for each taxable entity is calculated on the
+           basis of the entity's holdings at the time of the
+           publication of the notice of intent. Any holdings exempt
+           from the tax are exempted, and the tax is applied to the
+           remainder at the specified tax rate.
+
+       (F) A tax notice must also indicate the currency holdings of
+           each taxable entity at the time of the publication of the
+           notice of intent to levy a tax, and the tax debt incurred by
+           each such entity.  Any error in the calculation of holdings
+           or tax debts does not invalidate the tax notice with
+           respect to the other taxable entities mentioned in it.
+
+       (G) Upon the publication of a valid tax notice, each taxable
+           entity incurs a debt to the Mintor of the Currency equal
+           to eir tax debt.
+
+       (H) All entities are taxable, except for:
+           (i) rebellious players who were rebellious at the time the
+               intent to levy was published, and
+          (ii) entities explicitly specified by the rule authorizing
+               the levy as non-taxable for that levy.
+
+       Other Rules may specify conditions under which an entity
+       other than the recordkeepor of a currency may be a taxing
+       authority for the purposes of this Rule.
+
+
+Amend Rule 1661 ("The Right of Patronage", Power=1) to read:
+
+       A Speaker who is not Tainted has the Right of Patronage. This
+       Right is the authority to, once a week, award the Boon
+       Gold Star to a single Player who has not received this award
+       within the preceding four weeks.  The Speaker must provide a
+       reason along with the Notice of Award.
+
+       Such awards are only permitted to recognize acts the Speaker
+       believes to be of benefit to the Agora community, acts that the
+       Speaker believes to exceed the call of duty, or acts that the
+       Speaker believes to be of extreme sacrifice for the good of the
+       Game.
+
+Amend Rule 1887 ("Auctions and the Default Auction Procedure", Power=1)
+by deleting the text "(normally the Bank)".
+
+Repeal Rule 1888 ("Private Auctions", Power=1)
+Repeal Rule 1983 ("Vickrey Auctions", Power=1)
+Repeal Rule 1984 ("Raffles", Power=1)
+Repeal Rule 2012 ("Single-Bid Auctions", Power=1)
+Repeal Rule 1470 ("The Bank", Power=2)
+Repeal Rule 1909 ("The Payroll Clerk", Power=1)
+Repeal Rule 1910 ("Stems", Power=1)
+Repeal Rule 2011 ("Stems Weather", Power=1)
+Repeal Rule 1945 ("Voting Entitlements", Power=1)
+Repeal Rule 1946 ("Distribution of Voting Entitlements", Power=1)
+
+Amend Rule 1458 ("The Notary", Power=1) to read:
+
+       The Notary is an office; its holder is responsible for
+       maintaining a record of organizations and their jurisdictions,
+       and generic information, excluding holdings, of currencies.
+
+       The Notary's Report shall include the following information:
+
+       (A) For each organization:
+             (i)  its name;
+            (ii)  its Administrator;
+           (iii)  its Executor;
+            (iv)  its SLC's Maintainer; and
+             (v)  its Jurisdiction's Players.
+
+       (B) For each currency, its name, mintor, recordkeepor,
+           and Minimum Unit Quantity.
+
+       Also, as soon as possible after the creation or dissolution
+       of any Organization, the Notary shall announce that fact.  If
+       an Organization is created, the Notary shall announce the
+       above information for that Organization.
+
+
+Amend Rule 1377 (The Herald) by replacing the text "its holder
+is recordkeepor of Indulgences and is responsible" by "its holder is
+responsible".
+
+Repeal Rule 1435 (Indulgences).
+
+Amend Rule 2017 ("Blots", Power=1) to read:
+
+       A entity's Stain is a measure of that entity's uncleanliness,
+       measured in Blots.  The Stain of each entity is at all times a
+       non-negative number.
+
+       If the Rules state that an entity gains, is assessed, or is
+       penalised some number of Blots, then, as soon as possible after
+       the Herald is informed of the change, e shall record an increase
+       of that amount in the entity's Stain.  (If the entity was an
+       Unready Player at the time of the change, then the Herald shall
+       instead record an increase of half that amount.)
+
+       If the Rules state that some number of a entity's Blots are
+       expunged, then, as soon as possible after the Herald is informed
+       of the change, e shall record a decrease of that amount in the
+       entity's Stain.  (If this would result in a negative Stain, then
+       it instead results in a Stain of zero.)
+
+
+Change the title of Rule 2018 (Expunging Blots with Indulgences) to
+"Expunging Blots", and amend it to read:
+
+       A non-Immaculate entity may expunge a number of eir Blots, up
+       to eir total Stain, by announcing the number of eir Blots e
+       expunges; this has a Fee of 2 Kudos per expunged Blot.
+
+Repeal Rule 1712 (Distribution of Indulgences).
+
+Amend Rule 1747 (Pardoning Lawlessness) by replacing this text:
+
+         iv) For three months after being Pardoned, the Pardoned Player
+             may only use Indulgences to expunge Blots from eir record
+             and may not transfer any Indulgences for any other
+             purpose.
+
+with this text:
+
+         iv) For three months after being Pardoned, the Pardoned Player
+             may not perform any Progressive Actions except expunging
+             Blots from eir record, unless e is Immaculate.
+
+
+Amend Rule 1439 (Default Penalty for Violating a Rule) to read:
+
+       Violating a Rule is the Class N Crime of Disobedience, unless
+       other Rules define or prohibit a penalty for the violation.  N
+       is the Power of the violated Rule (rounded down to the nearest
+       integer), or 4, whichever is less.
+
+
+Amend Rule 2042 ("Team Wins", Power=1) to read:
+
+       A Team achieves a Team Win when its Team Score reaches 400.
+
+       The Scorekeepor shall make a public announcement of the Team Win
+       as soon as possible after the Team Win is achieved.  The
+       Scorekeepor shall then award each team member the Boon Team
+       Ribbon.
+
+       Upon the Scorekeepor's announcement, all Players' Scores are set
+       to zero.
+
+Repeal Rule 1993 ("The Land of Arcadia", Power=2)
+Repeal Rule 1994 ("Ownership of Land", Power=2)
+Repeal Rule 1995 ("Land Types", Power=2)
+Repeal Rule 1996 ("The Mapkeepor", Power=1)
+Repeal Rule 1997 ("Defined Land Types and Subtypes", Power=1)
+Repeal Rule 1998 ("Land Topology", Power=1)
+Repeal Rule 2003 ("Actions in Arcadia", Power=1)
+Repeal Rule 2004 ("Land Auctions", Power=1)
+Repeal Rule 2005 ("Tolls", Power=1)
+Repeal Rule 2022 ("Sente and Gote", Power=1)
+Repeal Rule 2046 ("Q*Bert (tm)", Power=1)
+
+
+-----------------------------------------------------------------------
+
+-- 
+
+
+Steve Gardner                   | 
+School of Computer Science      |      I've only just realized
+ and Software Engineering       |      how self-conscious I am.
+gardner@sng.its.monash.edu.au   | 
+

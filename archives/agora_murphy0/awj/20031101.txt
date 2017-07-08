@@ -1,0 +1,531 @@
+      THE AGORAN WEEKLY JOURNAL
+      VOLUME 49, ISSUE 12
+      Saturday, November 1, 2003
+
+
+HAPPY ALL SAINTS DAY
+--------------------
+
+Andre    - Stare Decisis      www.win.tue.nl/~engels/stare.txt
+Michael  - First Speaker      www.cl.cam.ac.uk/users/mn200/games/nomic/yoyo/
+Murphy   - CotC Web           zenith.homelinux.net/cotc/
+root     - Proposal Pool      www.cs.earlham.edu/~kellyia/agora/pool.php
+t        - AWJ Archive        www.iki.fi/scurra/agora.html
+
+
+ERRATA
+------
+
+7/27   Blob was not deregistered because the Notice of Deregistration was not
+          sent to agora-business@agoranomic.org, a Public Forum.  (root 8/20)
+
+
+ADOPTED PROPOSALS
+-----------------
+
+"10 GOTO 10" by OscarMeyr - Proposal 4530 adopted 10/26
+   The Scorekeepor's correct announcement of a Team Win resets Team Scores,
+     as well as Player Scores.
+
+"Bolshevik Revolution of 2003, with Glasnost" by Murphy - Proposal 4533
+     adopted 10/26
+   Property, Currency, Debt, Wills, Taxes, and Auctions are repealed.
+
+"Clarify Rule 1458" by Murphy - Proposal 4521 failed quorum 8/12 - Complacent
+     Oligarchy - Proposal 4525 adopted 8/28
+   The Notary's monthly report includes the charter of each organization
+     (in case some of them also have other SLCs).
+
+"Clean Up Oligarchy Removal" by OscarMeyr - Proposal 4532 adopted 10/26
+   Requirements to remove Oligarchs are separated from the method of removing
+     Oligarchs.
+   (Partly ineffective due to typos in Rule numbers.)
+
+"Fi Fo Fum Fees" by Goethe - Proposal 4528 adopted 10/1
+   Fee-based actions are performed (even if the actor has insufficient Kudos)
+     unless a correct challenge is made.
+
+"Fix Proposal 4514" by root - Proposal 4519 failed quorum 7/29 - Complacent
+     Oligarchy - Proposal 4524 adopted 8/28
+   The Duty to Vote may be satisfied by declaring presence.
+
+"Mornington Crescent" by Murphy - Proposal 4518 failed quorum 7/29 -
+     Complacent Oligarchy - Proposal 4523 adopted 8/28
+   Intentional duplicate of Proposal 4500.
+   See also "Round the Bend".
+   Each Player may effectively vote separately on each section.  (All sections
+     were effective.)
+   Convert Activity, Noisiness, Role, Readiness, Orthodoxy
+     (Abiding/Rebellious), and Orientation (Turning Around and Around) into
+     player switches.
+   Convert Depth (Distributable/Undistributable) and Interest into proposal
+     switches.
+
+"Nameless Proposal" by root - Proposal 4531 adopted 10/26
+   Repeal Rule 2031 (Money Grubbing Contests), which are pointless now that
+     Stems have been repealed.
+
+"Round the Bend" by Murphy - Proposal 4527 adopted 9/16
+   Duplicate of portions of "Mornington Crescent" which were ineffective due
+     to insufficient Adoption Index.
+   Viscosity is no longer a switch.
+   Recordkeeping for a class of entities and a switch for that class may be
+     assigned to different players.
+   Convert Activity and Orthodoxy into switches.
+
+"Voting Potential fix" by Steve - Proposal 4526 adopted 9/8
+   The cost of increasing one's Voting Potential is proportional to the
+     magnitude of the increase, rather than the final value.
+
+REJECTED PROPOSALS
+------------------
+
+"A Certain Lack" by Goethe - Contested Proposal 4522 failed quorum 8/19
+
+"Four Score" by Goethe - Contested Proposal 4529 rejected 10/16
+
+PENDING PROPOSALS
+-----------------
+
+"Boon of Zeitgeist" by Murphy
+   The Boon of Zeitgeist is given to the author of an Interested Democratic
+     Proposal that is adopted with no AGAINST votes.
+
+"Clean Up Oligarchy Removal, take 2" by OscarMeyr - Proposal 4534
+   Duplicate of portions of "Clean Up Oligarchy Removal" which were
+     ineffective due to typos in Rule numbers.
+   Rule 1936 and 1963 no longer specify how to remove Oligarchs, which is now
+     covered by Rule 2058; they only specify when to do it.
+
+"Good Enough for Government Work" by Murphy
+   Fugitive Blots are rounded up to the nearest integer after the monthly
+     halving.
+
+PROTO-PROPOSALS
+---------------
+
+"A Little Bribe Never Hurt Anyone" by Murphy
+   Advertising is a stuck proposal switch with values none, positive, negative.
+   A player may pay 2 Kudos to flip it from none to another value, or vice
+     versa.
+   If a player votes in line with a proposal's advertising, e gains 5 points.
+   If a team votes unanimously in line with a proposal's advertising, they
+     gain 10 points.  (Mixed votes, e.g. F+A from one member, are allowed.)
+
+"Correcting Judgements" by root
+   A judge may change eir judgement, once, if:
+     * The original was on time, and has never been under appeal.
+     * The change occurs within 72 hours of the original.
+   Using this just to prolong the effective Deliberation Period (by submitting
+     a random judgement, then correcting it if needed) is the Crime of
+     Postponing Judgement.
+
+"Fix Budget Bug" by Murphy
+   Proto-Budget handling is tied to the end of the nominating period and the
+     end of the election, rather than the voting period (since uncontested
+     elections don't have a voting period).
+
+"Fix Oligarchy Terms" by Murphy
+   Term expiration is added to the laundry list of reasons to remove an
+     Oligarch.  This list also allows other Rules to state their own reasons.
+   The Speaker-Elect may be an Oligarch.
+
+"No Corrupt Judges" by root
+   Judicial Orders not directly pertaining to the subject of the CFJ are
+     invalid.
+
+"Patch Murphy's Loophole" by OscarMeyr
+   When a player leaves the Oligarchy, e becomes ineligible to rejoin for 30
+     days.
+
+"Pragmatize Scoring" by Murphy
+   Point awards from the Scorekeepor's Budget are pragmatically validated
+     unless correctly challenged within 7 days.
+
+"The Omnibus Reform Act of 2003" by Murphy
+   Orders cannot pile onto an already-required (in)action.
+   The Scorekeepor's Budget treats Ephemeral Patent Titles differently.
+   The Gamestate is retroactively fixed with respect to Boons of Teamwork in
+     October.
+   Player and Team Scores reset pragmatically only.
+   One Team Win blocks any other concurrent Team Wins.
+   Proto-Budget handling is tied to the end of the nominating period and the
+     end of the election, rather than the voting period (since uncontested
+     elections don't have a voting period).  The Gamestate is retroactively
+     repaired as if this bug never prevented a Proto-Budget from taking effect.
+   The Gamestate is retroactively fixed with respect to Oligarchic Terms of
+     Service.
+
+
+CALLS FOR JUDGEMENT
+-------------------
+
+*** Rule 1567 causes ineligibility by request to expire after one month ***
+
+9/30   RedKnight requests to be ineligible to judge CFJs pertaining to Kudos.
+
+        CFJ 1462 causes all turned players become unturned.
+
+        Pakaran requests to be ineligible to judge CFJs made while an odd
+          number of the following are true ("I" = Pakaran):
+              I. I have, as of the sending of this message, spent an odd
+                 number of cents in my life on coffee.
+             II. There exists a problem solvable in nondeterministic
+                 polynomial time but not in deterministic polynomial time.
+            III. My blood type is O negative.
+             IV. I like beer.
+              V. There are fewer people in the world with red hair at the
+                 time I send this message than there were 24 hours before.
+
+10/11  Pakaran cancels eir request for ineligibility.
+
+10/12  Blob's recusal from CFJ 1462 makes em ineligible to judge further CFJs.
+
+10/16  CFJ 1479 causes all turned players become unturned.
+
+10/21  Goethe makes emself ineligible to judge all CFJs that e has been
+          assigned to judge, then cancels this request and makes emself
+          ineligible to judge all CFJs.
+
+10/30  RedKnight's request for ineligibility expires.
+
+11/1   Peekee's recusal from Appeal 1474a makes em ineligible to judge further
+          CFJs.
+
+CFJ 1322  "The Player, former Player, or Dissolute Blob has at least one
+[FALSE]    Blot."
+           9/19/01   Called by Goethe
+           9/20/01   Assigned to Oerjan, who judges FALSE
+           10/27/03  Appealed by Goethe
+           Commentary:  Oerjan judged false because Rule 1435 said that only
+             Players had Blots, and Blob was deregistered.  Rule 1437 requires
+             the Herald to continue tracking the Blots of Fugitives.  This CFJ
+             was not appealed because the Herald's Report (omitting the claimed
+             Blots) was ratified shortly afterward anyway, and was ratified
+             again in November 2002 and July 2003.  However, ratification
+             outside of proposals may have been broken at these times.
+
+CFJ 1462  "The Oligarchy Charge Requirement, as defined by the Grand Warden
+[TRUE]     of the Oligarchy's Budget, is 6."
+           9/29      Called by root
+           10/3-12   Assigned to Blob, who defaults
+           10/12-16  Assigned to Sir Toby, who judges TRUE
+           Caller's argument (summary):  Proto-Budgets take effect at the end
+             of the voting period, but GWotO OscarMeyr was elected without
+             competition and thus without a voting period.
+
+CFJ 1463  "Pakaran is presently eligible to judge one or more CFJs."
+DISMISS   9/30    Called by Pakaran
+           10/3-9  Assigned to OscarMeyr, who dismisses it
+           10/3    OscarMeyr orders Pakaran to submit evidence related to I,
+                     II, III, and IV in eir request for ineligibility
+           10/9    OscarMeyr orders Pakaran to clarify eir eligibility such
+                     that reasonable effort suffices to resolve it
+           Commentary:  This immediately followed Pakaran's request to be
+             ineligible to judge certain CFJs.
+           Judge's argument (summary):  III and IV are false.  I, II, and V
+             are indeterminate.
+
+CFJ 1464  "RedKnight sucessfuly entered the Oligarchy through at least one
+[TRUE]     of the above statements."
+           9/30     Called by RedKnight
+           10/5-6   Assigned to Michael, who transfers jurisdiction to Eris
+           10/6-15  Assigned to Eris, who judges TRUE
+           Commentary:  RedKnight had 9 Kudos and announced "I pay 4 Kudos to
+             enter the Oligarchy", followed by "I pay 6 Kudos to enter the
+             Oligarchy".  This was intended to test the Proto-Budget bug
+             addressed by CFJ 1462.
+           Judge's argument (summary):  Fee-based actions only require the
+             existence of a Fee, not its correct amount, to be announced.
+
+CFJ 1465  "If a player attempts to spend N kudos to pay a fee, but the
+DISMISS    fee-based action fails (e.g. the fee is larger than N), then the
+            kudos are still spent."
+           Linked to CFJs 1466 - 1470
+           10/5     Called by Murphy
+           10/6-15  Assigned to Eris, who dismisses it
+           Judge's argument (summary):  Fee-based actions only require the
+             existence of a Fee, not its correct amount, to be announced.
+
+CFJ 1466  "If a player attempts to spend N kudos to pay a fee, but the fee
+[TRUE]     is smaller than N, then the fee-based action succeeds (assuming
+            it is not otherwise prohibited)."
+           Linked to CFJs 1465 and 1467 - 1470
+           10/5     Called by Murphy
+           10/6-15  Assigned to Eris, who judges TRUE
+           Judge's argument (summary):  See CFJ 1465.
+
+CFJ 1467  "If a player attempts to spend N kudos to pay a fee, but the fee
+[FALSE]    is smaller than N, then N kudos are still paid."
+           Linked to CFJs 1465 - 1466 and 1468 - 1470
+           10/5     Called by Murphy
+           10/6-15  Assigned to Eris, who judges FALSE
+           Judge's argument (summary):  See CFJ 1465.  The amount paid equals
+             the actual amount, not the announced amount (if any).
+
+CFJ 1468  "A player may perform multiple fee-based actions (e.g. extending
+[FALSE]    eir Oligarchic Term of Service by the Oligarchic Term twice) by
+            announcing the net effect of those actions."
+           Linked to CFJs 1465 - 1467 and 1469 - 1470
+           10/5     Called by Murphy
+           10/6-15  Assigned to Eris, who judges FALSE
+           Judge's argument (summary):  Each fee-based action requires a
+             separate announcement of the existence of a fee.
+
+CFJ 1469  "A player may perform multiple fee-based actions by paying a
+[FALSE]    single amount of kudos equal to the total fees for those
+            actions."
+           Linked to CFJs 1465 - 1468 and 1470
+           10/5     Called by Murphy
+           10/6-15  Assigned to Eris, who judges FALSE
+           10/17    Appealed by Murphy
+           10/19    Appealed by root
+           Judge's argument (summary):  See CFJ 1468.
+
+CFJ 1470  "If a player attempts to perform multiple fee-based actions by
+[TRUE]     paying a single amount of kudos, but one of the actions fails,
+            then they all fail."
+           Linked to CFJs 1465 - 1469
+           10/5     Called by Murphy
+           10/6-15  Assigned to Eris, who judges TRUE
+           10/17    Appealed by Murphy
+           Judge's argument (summary):  See CFJ 1468.  They all fail because
+             paying a single amount of kudos does not satisfy the requirement
+             of a separate announced fee for each fee-based action.
+
+CFJ 1471  "The GWotO is allowed to remove from the Oligarchy an Oligarch
+[TRUE]     whose term of service has expired."
+           10/5  Called by OscarMeyr
+           10/6  Assigned to Steve, who judges TRUE
+           Caller's argument (summary):  Rule 1936 (Oligarchic Service)
+             requires the removal and provides a method (announcement).
+           Commentary:  Oligarchic removal due to unpaid upkeep was required
+             by Rule 2010 (Oligarchy Upkeep), which lost a precedence conflict
+             to Rule 1963 (Eligible Oligarchs).  However, Rule 1963 now
+             explicitly defers to other Rules attempting to remove Oligarchs
+             (and would lose a precedence conflict to Rule 1936 anyway,
+             whenever Rule 1936 explicitly specified an aspect of removal).
+
+CFJ 1472  "There is a Points Contest named Eris' Contest."
+[TRUE]    Linked to CFJs 1473 - 1474
+           10/7      Called by root
+           10/12-17  Assigned to RedKnight, who judges TRUE
+
+CFJ 1473  "There was a Points Contest named Eris' Contest at the beginning
+[FALSE]    of the month of October."
+           Linked to CFJs 1472 and 1474
+           10/7      Called by root
+           10/12-17  Assigned to RedKnight, who judges FALSE
+           Judge's argument (summary):  The Application to Create an
+             Organization was not published until after the beginning of
+             October.
+
+CFJ 1474  "A Points Contest named Eris' Contest has awarded a positive
+[TRUE]     number of points to some player during the month of October."
+Appealed  Linked to CFJs 1472 - 1473
+           10/7      Called by root
+           10/12-17  Assigned to RedKnight, who judges TRUE
+           10/17     Appealed by Murphy, Sir Toby, and root
+           10/17     Appeal assigned to Eris, Peekee, and Steve
+           10/19     Steve moves to overturn and remand
+           10/19     Eris moves to overturn and remand
+           11/1      Peekee is recused
+           11/1      Appeal assigned to Sherlock
+           Judge's argument (summary):  Eris' Contest did not exist until
+             after the beginning of October, so it cannot award points during
+             October.
+
+CFJ 1475  "The above message contains a valid Notice of Award."
+[TRUE]    10/15  Called by Goethe
+           10/15  Assigned to Murphy, who judges TRUE
+           Caller's argument (summary):  The point awards do not exceed the
+             maximums allowed by the Rules.
+
+CFJ 1476  "Oerjan is silent."
+[TRUE]    10/15  Called by Murphy
+           10/15  Assigned to Goethe, who judges TRUE
+
+CFJ 1477  "Team Dovesdar has achieved a Team Win within the past 24 hours."
+[FALSE]   10/15     Called by Murphy
+           10/15-26  Assigned to Pakaran, who judges FALSE
+
+CFJ 1478  "A is A."
+DISMISS   10/17  Called by Murphy
+           10/17  Assigned to root, who dismisses it
+           10/17  root makes and grants 100 motions for Judicial Orders for
+                    each of the following, and later vacates them all:
+                      * Assessor Murphy to publish the Voting Report for
+                          Proposal 4529 within 72 hours
+                      * Assessor Murphy to publish all valid Point Awards in
+                          that message, with Dovesdar and its members first
+                      * CotC Murphy not to select any Appellate Judges until
+                          after a Team Win has occurred
+                      * CotC Murphy not to award any Boons of Wisdom until
+                          after a Team Win has occurred
+                      * Speaker Goethe not to award any Boons of Gold Star
+                          until after a Team Win has occurred
+                      * Contestmasters of each Points Contest not to award any
+                          Contest Points until after a Team Win has occurred
+                      * All other players not to move for any Judicial Orders
+                          until after a Team Win has occurred
+                      * Rulekeepor Michael to annotate Rule 2029 with the
+                          text "Hi, Mom!"
+           Commentary:  Judicial Orders do not take effect until published by
+             the Clerk of the Courts.
+
+CFJ 1479  "A is not B."
+[TRUE]    10/17  Called by Murphy
+           10/17  Assigned to Eris, who judges TRUE
+
+
+OFFICES
+-------
+
+8/4    Goethe nominates for Speaker-Elect.
+
+8/11   Goethe is elected Speaker-Elect.
+
+8/17   Nominations open for Assessor, Grand Warden of the Oligarchy, and
+          Justiciar.  Mode is Open.
+
+        root nominates (emself) for Assessor.
+
+8/24   RedKnight attempts to nominate Blob for Assessor, but misses the end
+          of the nomination period.
+
+        Murphy is elected Assessor.
+
+        GWotO and Justiciar elections end with no nominees.  Nominations open
+          in new elections.  Mode is Open.
+
+8/25   Eris nominates for Justiciar.
+
+8/30   Sherlock delegates Notary to root from September 1 to September
+          16.  root accepts.
+
+8/31   Sherlock delegates Registrar to Sir Toby from September 1 to September
+          16.  Sir Toby accepts.
+
+        Eris is elected Justiciar.
+
+        GWotO election ends with no nominees.  Nominations open in new
+          election.  Mode is Open.
+
+9/2    OscarMeyr nominates for Grand Warden of the Oligarchy.
+
+9/5    OscarMeyr submits a Proto-Budget for GWotO, reducing the Oligarchy
+          Charge Requirement from 6 to 4, and keeping the Oligarchic Term
+          at 60 days.
+
+9/11   OscarMeyr is elected Grand Warden of the Oligarch, but eir Proto-Budget
+          does not take effect due to a bug in Rule 1958 (Nominating with
+          Budgets).
+
+9/21   Nominations open for Herald.  Mode is Selfish.
+
+9/27   Murphy nominates (emself) for Herald.
+
+9/28   Murphy is elected Herald.
+
+        Eris attempts to nominate (emself) for Herald, but misses the end of
+          the nomination period.
+
+10/2   Speaker-Elect Goethe becomes Speaker.  Promotor root becomes
+          Speaker-Elect.
+
+10/5   Nominations open for Speaker-Elect.  Mode is Open.
+
+10/6   Eris nominates (emself) for Speaker-Elect.
+
+10/18  Eris is elected Speaker-Elect.
+
+10/21  Nominations open for Assistant Director of Personnel.  Mode is Open.
+
+        root nominates for Assistant Director of Personnel.
+
+
+OLIGARCHS
+---------
+
+9/12   OscarMeyr is removed from the Oligarchy.
+
+        root extends eir Oligarchic Term by 240 days.  (Possibly unsuccessful;
+          see CFJ 1469.)
+
+        Murphy resigns from the Oligarchy, rejoins it, then extends eir
+          Oligarchic Term by 120 days.
+
+9/14   Steve extends eir Oligarchic Term by 60 days.
+
+9/28   root extends eir Oligarchic Term by 120 days.  (Possibly unsuccessful;
+          see CFJ 1469.)
+
+9/30   RedKnight joins the Oligarchy.
+
+10/19  Steve extends eir Oligarchic Term by 60 days.
+
+10/22  root extends eir Oligarchic Term by 60 days.
+
+
+IN OTHER NEWS
+-------------
+
+8/9    Cecilius deregisters.
+
+8/13   Goethe creates the Contest "Minimus".
+
+8/14   OscarMeyr announces eir intent to amend the Scorekeepor's Budget by
+          decreasing the Team Points Goal from 400 to 200 Points.
+
+8/19   OscarMeyr amends the Scorekeepor's Budget as noted above.
+
+8/20   Manu is deregistered.
+
+        Blob becomes noisy.
+
+8/24   Pakaran comes off hold.
+
+8/28   root becomes an Acolyte.
+
+9/2    Eris makes Maud quiet.
+
+9/3    Maud becomes noisy.
+
+9/12   Murphy becomes a Politician.
+
+9/14   Maud comes off hold.
+
+9/15   OscarMeyr becomes an Acolyte.
+
+9/27   Murphy attempts to become an Acolyte, but fails because of eir Role
+          change on September 12 and a lack of Fee payment.
+
+9/28   Eris becomes an Acolyte.
+
+9/30   Eris creates the Contest "Eris's Contest".
+
+        Murphy fails to create the Contest "Murphy's Contest" (e is already
+          Contestmaster of Points Contest "Tournament of Prediction").
+
+        Pakaran creates the Contest "Pakaran's Contest".
+
+10/2   Maud goes on hold.
+
+10/10  OscarMeyr attempts to make Oerjan quiet, but fails because Oerjan is
+          on hold.
+
+10/12  Murphy announces the Turning of a New Parchment.
+
+10/16  Kinhatis achieves a Team Win.  Murphy moves to Bleethan.  Blob moves
+          to Dovesdar.
+
+10/17  root makes Blob quiet.
+
+10/19  OscarMeyr announces eir intent to amend the Scorekeepor's Budget by
+          change the 5-Point award for new Patent Titles to 5 Points for new
+          Historical Patent Titles, 1 Point for Boons (2 if new), and -1 Point
+          for Albatrosses (-2 if new).
+
+10/21  Goethe becomes abiding.
+
+10/25  OscarMeyr amends the Scorekeepor's Budget as noted above.

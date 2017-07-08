@@ -1,0 +1,115 @@
+Voting Results
+
+This Report:  Sat 19 Feb 05 (Proposals 4637 - 4639)
+Last Report:  Sun 30 Jan 05 (Proposal  4636       )
+(All times are in GMT)
+
+Start of Voting Period:  Sun  6 Feb 22:07:18
+  End of Voting Period:  Sun 13 Feb 22:07:18
+
+O = Ordinary        d = Disinterested   s = Sane         + = Positive Ad
+D = Democratic      u = Urgent          t = Takeover     - = Negative Ad
+
+Number    Title                         Author    AI   Flags     Result
+------------------------------------------------------------------------
+4637      Fix Shareholder Errors        Murphy    3.01 D         Adopted
+4638      Penalties for Stock Cards     root      2    D         Adopted
+4639      Is this a takeover?           Goethe    1    Dst      
+Rejected
+
+               4637  4638  4639
+
+Eris             P    3A     F
+Goethe           F    3F     P
+Kolja            F    3F
+OscarMeyr       3F    3F    3A
+Riail            F     F     P
+Sherlock         A     A     A
+
+FOR              6    10     1
+AGAINST          1     4     4
+Abstain          0     0     0
+Present          1     0     2
+
+Voting Index     6     2.5   0.25
+Adoption Index   3.01  2     1
+
+Voters           6     6     5
+Quorum (D:12/3)  4     4     4
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4637 by Murphy, AI=3.01, Democratic
+Fix Shareholder Errors
+
+
+Create a rule with Power = 3.01 and this text:
+
+     The gamestate hereby becomes what it would be if the
+     following vote reports were accurate:
+
+       * Fri, 03 Dec 2004 16:20:53 -0800 : Proposal 4627
+       * Sun, 19 Dec 2004 00:48:23 -0800 : Proposals 4628 - 4630
+       * Sun, 09 Jan 2005 14:59:32 -0800 : Proposal 4633
+       * Sun, 23 Jan 2005 14:39:37 -0800 : Proposal 4635
+
+     One second later, this rule is repealed.
+
+Change the title of Rule 2034 (Votes are Protected) to "Vote
+Protection and Cutoff for Challenges", and amend it by appending
+this text:
+
+     If the results of an issue are not challenged within seven
+     days after the Vote Collector announces them, then the
+     announced results are the true results of that issue, even
+     if they would otherwise be in error.
+
+Amend Rule 1434 (Default Procedure for Referendum Voting) by
+removing this text:
+
+     * Cutoff for Challenges: If the results of a Referendum are not
+       challenged within seven days after the Vote Collector
+       announces them, then the announced results are the true
+       results of that Referendum, even if they would otherwise be in
+       error.
+
+Amend Rule 1445 (Defaults for Elections) by removing this text:
+
+     * Cutoff for Challenges: If the results of an Election are not
+       challenged within seven days after the Vote Collector
+       announces them, then the announced results are the true
+       results of that Election, even if they would otherwise be in
+       error.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4638 by root, AI=2, Democratic
+Penalties for Stock Cards
+
+
+Amend Rule 1932 (Shareholders and the Corporation) by replacing the text
+reading:
+
+    * Caption: One Share
+      Elements: Budgeted, Shares [1]
+
+    * Caption: Two Shares
+      Elements: Budgeted, Shares [2]
+
+    * Caption: Three Shares
+      Elements: Budgeted, Shares [3]
+
+with the text:
+
+    * Caption: One Share
+      Elements: Budgeted, Shares [1], Handed [2]
+
+    * Caption: Two Shares
+      Elements: Budgeted, Shares [2], Handed [3]
+
+    * Caption: Three Shares
+      Elements: Budgeted, Shares [3], Handed [4]
+

@@ -1,0 +1,93 @@
+Voting Results
+
+This Report:  Wed 13 Apr 05 (Proposals 4674 - 4675)
+Last Report:  Sat  9 Apr 05 (Proposals 4671 - 4673)
+(All times are in GMT)
+
+Start of Voting Period:  Thu 31 Mar 14:11:35
+   End of Voting Period:  Thu  7 Apr 14:11:35
+
+O = Ordinary        d = Disinterested   s = Sane
+D = Democratic      u = Urgent          t = Takeover
+
+Number    Title                         Author    AI   Flags    Result
+-----------------------------------------------------------------------
+4674      Fix Card Fees                 OscarMeyr 1    O        Adopted
+4675      Fix Patronage 1.1             root      2    Dd       Adopted
+
+                4674  4675
+
+Eris           2F+A    F
+Goethe           F     F
+Kolja                  P
+Manu           2F+A    F
+Maud                   F
+Michael                F
+OscarMeyr              F
+Quazie           F     F
+root                   F
+Sherlock               F
+
+FOR              6     9
+AGAINST          2     0
+Abstain          0     0
+Present          0     1
+
+Voting Index     3    *U*
+Adoption Index   1     2
+
+Voters           4    10
+Quorum (D:13/3)  3     5
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4674 by OscarMeyr, AI=1, Ordinary
+Fix Card Fees
+
+
+Amend R2069 by replacing the text:
+           A Gambler may Draw from The Deck for a Fee equal to the
+           number of times that Gambler has previously Drawn from the
+           Deck during the current month so long as the Gambler's Hand
+           Size is smaller than the Maximum Hand Size plus the number
+           of Offices e holds.  For the purposes of this Rule, the
+           Speakership is considered an office.
+
+With:
+       A Gambler whose Hand Size is smaller than the maximum Hand Size,
+       plus the number of Offices e holds, plus one if e is Speaker, may
+       draw a card from The Deck.  The fee for this action is a number of
+
+       Kudos equal to the number of times during the current month e has
+       previously drawn a card in this manner.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4675 by root, AI=2, Democratic, Disinterested
+Fix Patronage 1.1
+
+
+[Patronage requires Power 2 to do what it does.]
+
+Change the power of Rule 2077 to 2, and amend it by replacing the text:
+
+      * Caption:  Patronage
+        Elements: Grafty, Budgeted
+        Exploit:  You may increase or decrease the Political Charge by
+                  N by paying a fee of 4 times N.  If undefined
+                  elsewhere, the Political Charge is a positive
+                  integer, tracked by the Assessor, which begins at 4.
+
+with:
+
+      * Caption:  Patronage
+        Elements: Grafty, Budgeted, Powered [2]
+        Exploit:  You may increase or decrease the Political Charge by
+                  N by paying a fee of 4 times N.  If undefined
+                  elsewhere, the Political Charge is a positive
+                  integer, tracked by the Assessor, which begins at 4.
+                  No fee required by the Powered [X] element need be
+                  paid to activate this exploit.

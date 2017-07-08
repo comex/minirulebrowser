@@ -1,0 +1,115 @@
+Assessor's Voting Report
+Proposals 4228 - 4229
+
+Voting on 4228 - 4229 began:  Tue, 13 Nov 2001 00:49:15 -0500
+Voting on 4228 - 4229 ended:  Tue, 20 Nov 2001 00:49:15 -0500
+
+> No.    | Title                          | By           | AI | Date    | Flag
+>        |                                |              |    |         | 
+> 4228   | Keep the Mapkeepor Unignorant  | root         |  1 | 15Oct01 | C
+> 4229   | Manifesting Destiny 1.1        | Goethe       |  1 | 17Oct01 | C
+> 
+> D: Disinterested  C: Democratic  U: Urgent  S: Sane  I: Insane  O: Opposite
+
+Voting Mode: Public
+
+
+Entity          4228  4229
+------          ----  ----
+Crito             F     F
+Michael           F     F
+Murphy            A     A
+neil              F     F
+root              F     F
+Steve             P     P
+t                 F     P
+Taral            4F+A  4F+A
+
+FOR               9     8
+AGAINST           2     2
+ABSTAIN           0     0
+Present           1     2
+
+AI                4.5   4
+VI                1     1
+Voters            8     8
+Quorum            4     4
+Adopted?         Yes   Yes
+
+Text of adopted Proposals
+-------------------------
+
+Proposal #4228 by root, AI=1
+Keep the Mapkeepor Unignorant
+
+/*
+** Rule 2005 currently doesn't require Tollers to inform the Mapkeepor
+** when they impose or remove Tolls, which could create a problem when
+** the Mapkeepor must verify the correctness of a Toll.  This Proposal
+** fixes that problem.
+*/
+
+{
+
+Amend Rule 2005 by replacing the text reading:
+
+       A Player who owns Land may impose a Toll on any (currently
+       un-Tolled) piece of Land e owns.  To do so, e must pay a Fee of
+       0.2 Indulgences and clearly and unambiguously identify the Unit
+       of Land in question, as well as the amount of the Toll for that
+       Unit of Land.
+
+with text reading:
+
+       A Player who owns Land may impose a Toll on any (currently
+       un-Tolled) piece of Land e owns.  To do so, e must pay a Fee of
+       0.2 Indulgences and publicly announce that e is imposing a Toll,
+       clearly and unambiguously identifying the Unit of Land in
+       question, as well as the amount of the Toll for that Unit of
+       Land.
+
+and by replacing the text reading:
+
+       A Player may remove a Toll from any Tolled Unit of Land e owns.
+       If a Player loses possession of a Unit of Land, all Tolls
+       imposed on that Unit by that Player are removed.
+
+with text reading:
+
+       A Player may remove a Toll from any Tolled Unit of Land e owns
+       by publicly announcing that e does so.  If a Player loses
+       possession of a Unit of Land, all Tolls imposed on that Unit by
+       that Player are removed.
+
+}
+
+------------------------------------------------------------------------------
+
+Proposal #4229 by Goethe, AI=1
+Manifesting Destiny 1.1
+
+In Rule 2003 (Moving in Arcadia) replace the following text:
+
+       * 0.10 probability it becomes Wilderness/Mountains;
+       * 0.20 probability it becomes Wilderness/Hills;
+       * 0.20 probability it becomes Wilderness/Forest;
+       * 0.10 probability it becomes Wilderness/Desert;
+       * 0.10 probability it becomes Farmland, no subtype;
+       * 0.30 probability it becomes Water, no subtype.
+
+with:
+       * 0.15 probability it becomes the same type and subtype
+              as the land at the location of the exploring Player;
+       * 0.10 probability it becomes Wilderness/Mountains;
+       * 0.20 probability it becomes Wilderness/Hills;
+       * 0.20 probability it becomes Wilderness/Forest;
+       * 0.10 probability it becomes Wilderness/Desert;
+       * 0.05 probability it becomes Farmland, no subtype;
+       * 0.20 probability it becomes Water, no subtype.
+
+
+-- 
+Ed Murphy <emurphy42@socal.rr.com>          "I'm not sure I can go through
+http://members.fortunecity.com/emurphy/      with it.  Leave, I mean."
+
+

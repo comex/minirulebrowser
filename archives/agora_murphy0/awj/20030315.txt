@@ -1,0 +1,1563 @@
+     THE AGORAN WEEKLY JOURNAL
+     VOLUME 49, ISSUE 1
+     Saturday, March 15, 2003
+
+
+DUKE, DUKE, DUKE, DUKE OF URL
+-----------------------------
+
+Andre    - Stare Decisis      www.win.tue.nl/~engels/stare.txt
+Eris     - Web Judiciary      cotc.taral.net/
+Michael  - First Speaker      www.cl.cam.ac.uk/users/mn200/games/nomic/yoyo/
+Sir Toby - Map of Arcadia     www.sir-toby.com/mapkeepor.php
+t        - AWJ Archive        www.iki.fi/scurra/agora.html
+
+
+ADOPTED PROPOSALS
+-----------------
+
+"Action/Movement Fix" by Peekee - Proposal 4431 adopted 1/15
+  Amend Rule 2003 (Actions in Arcadia) by changing leftover instances of
+    "movement" to "action".
+
+"Action Unit Sanity" by Sir Toby - Proposal 4434 adopted 1/27
+  Extra Action Units due to owning Land with Gote are based on Land holdings
+    at the start of the week.
+
+"Be Nice to Oerjan" by Murphy - Proposal 4426 failed Quorum 1/3 - Complacent
+    Oligarchy - Proposal 4433 adopted 1/27
+  Oerjan becomes Noisy.
+
+"February Contested Proposal" by Steve - Contested Proposal 4449 adopted 2/22
+
+"Fix Nomination" by Eris - Proposal 4429 adopted 1/15
+  Amend Rule 1647 (The Speaker-Elect) by replacing "cannot Nominate" with
+    "cannot be Nominated" (referring to the Clerk of the Courts and Justiciar).
+
+"Fix Oligarch Removal" by Steve - Proposal 4458 adopted 3/2
+  Defaulting on Oligarchy Upkeep makes one ineligible to be an Oligarch.  (The
+    GWotO may only remove ineligible Oligarchs, which previously interfered
+    with the GWotO's requirement to remove defaulted Oligarchs.)
+
+"Fix Single-Bid Auctions" by Steve - Proposal 4439 failed quorum 2/2 -
+    Complacent Oligarchy - Proposal 4446 adopted 2/22
+  The 72-hour clause for ending a Single-Bid Auction looks at the highest
+    Initial Bids, not the highest current Bids (which change every 24 hours
+    till the 14-day cutoff).
+
+"Fix Submitting CFJs to the Justiciar" by Sir Toby - Proposal 4452 adopted 2/22
+  Increase the Power of Rule 2023 (Submitting a CFJ to the Justiciar) to 2, and
+    give it precedence over Rules assigning duties or roles to the Clerk of the
+    Courts.
+
+"Holiday Registration Fix" by Cecilius - Proposal 4451 adopted 2/22
+  Players who register during a Holiday have eir Grace Period extended, based
+    on the duration between eir registration and the end of the Holiday.
+
+"January Contested Proposal" by Steve - Contested Proposal 4427 adopted 1/15
+
+"Lingering Grace" by Cecilius - Proposal 4430 adopted 1/15
+  Cecilius's Grace Period is extended till February 14 at 18:00:26.
+  Amend the Grace Period provisions in Rule 869 (Registered Players) by
+    replacing "12 months" with "365 days", "2 months" with "60 days", and
+    specifying that a Grace Period starting or ending during a Holiday is
+    extended by the length of the Holiday.
+
+"Monastries" by RedKnight - Proposal 4436 adopted 1/27
+  Monasteries are a Class of Organizations.
+
+"Non-Preferential Treatment" by Murphy - Proposal 4435 adopted 1/27
+  E-mail addresses are "listed" instead of being "preferred".
+  A Player may list any number of e-mail addresses, but must list at least one.
+  If a Player has no listed e-mail address, then the address used to send eir
+    next public message becomes listed.  (If each Player has at least one
+    listed address, then the Registrar may repeal this Rule by announcement.)
+
+"Ought implies can" by Steve - Proposal 4440 adopted 2/2
+  Failing to perform an action that one is not empowered to perform is never a
+    Crime or Infraction.
+
+"Switches" by Maud - Proposal 4456 adopted 2/22
+  A switch is a set of states that some class of entities may have, possibly
+    including null, with a default.
+  An instance of a switch always has exactly one possible state, and initially
+    has the default state.
+  Switches are modified by announcement, when permitted.
+  An entity's loose switches may be modified by its Executor.
+  An entity's stuck switches may only be modified as specified by the Rules.
+  Antiquity (newfangled, antiquated) is a switch switch.
+  Any Player may, with support, make a switch antiquated.
+  An antiquated switch puts entities without a state in the default state.
+
+"Teamwork" by Sherlock - Proposal 4453 adopted 3/9
+  All Players belong to a Team.
+  A Player may change eir Team's Team Name with 2 Teammate Support.
+  A Team's Team Score is the sum of its members' Scores.
+  A Team achieves a Team Win when its Score reaches 400.  Upon the announcement
+    of such a Team Win, all Scores are reset to zero, and the Scorekeepor pays
+    out 25 Stems to each member of the winning Team.
+  All Scores are reset to zero.
+  The Scorekeepor shall assign all Players to four Teams.
+  Groups are repealed.
+  Individual Wins are repealed.
+
+REJECTED PROPOSALS
+------------------
+
+<no title> by RedKnight - Proposal 4441 failed quorum 2/2 - Complacent
+    Oligarchy - Proposal 4447 rejected 2/22
+  Monks get a 75% (up from 50%) discount on Distribution Cost, though it is
+    still rounded up to the nearest multiple of MUQ of Papyri.
+
+"Bandwagon Refueling" by Pakaran - Proposal 4428 rejected 1/15
+  The Bank incurs a debt of 60 Stems to the Bandwagon.
+
+"Clarify Proposal AI" by root - Proposal 4460 rejected 3/2
+  A Proposal's Adoption Index may be requested in the same message in which the
+    Proposal is submitted.
+  Ambiguous requests are ignored.
+
+"Intermediate-term Stem Patch" by Pakaran - Proposal 4454 rejected 2/22
+  400 Stems are created in the Bank's possession.
+
+"Invisibilitating" by Maud - Proposal 4432 rejected 1/27
+  Not part of a Rule:  If a Proposal (besides this one) changes parts of the
+    Gamestate not subject to publication in Official Reports (besides the
+    publication of the Proposal by the Promotor and Assessor), then the
+    Proposer commits the Class 0 Infraction of Invisibilitating.
+  Rule:  Each Player is authorized to report Invisibilitating.
+
+"Rouse the Rabble" by Murphy - Proposal 4437 rejected 1/27
+  If an Election fails Quorum, then eligible Voters who fail to Vote or declare
+    Presence commit the Infraction of Apathy.
+
+"The Wormhole" by Peekee - Proposal 4438 failed quorum 2/2 - Complacent
+    Oligarchy - Proposal 4445 rejected 2/22
+  ASAP after the 15th of the month, the Mapkeepor selects a random Land Unit
+    other than (0, 0) or any Land Unit Adjacent to it.  The Wormhole makes that
+    Land Unit Adjacent to (0, 0).
+  The Wormhole initially bridges (0, 1); the Mapkeepor shall ASAP perform a
+    selection as noted above.
+
+"Trifecta, Part 1 of 3" by Murphy - Proposal 4443 rejected 2/22
+  Annabel and harvel/Maud are deemed to have always been separate Players, and
+    actions associated with either purported identity are similarly separated.
+
+"Trifecta, Part 2 of 3" by Murphy - Proposal 4444 rejected 2/22
+  Epochs as relative durations are no longer redefined as Agoran epochs, and
+    are deemed never to have been so redefined.
+
+"Trifecta, Part 3 of 3" by Murphy - Proposal 4450 rejected 2/22
+  Mathematical meanings are no longer used for terms primarily used with a
+    different ordinary-language meaning, and are deemed never to have been so
+    redefined.
+
+"Two-Tone Economics" by Murphy - Proposal 4455 rejected 2/22
+  Primary Color Tokens are Auctioned, then combined into Secondary Color Tokens
+    which can be used to do things.
+  Each Player has a Color (Gray by default).
+  Role-based powers and Monks are repealed.
+  Orange (Red+Yellow) Tokens act like tenths-of-VEs for Voting Power on
+    Democratic Proposals.
+  Purple (Red+Blue) Tokens act like Papyri.
+  Green (Yellow+Blue) Tokens act like Indulgences.
+  Infrared (Red+Octarine) Tokens are used to bid on positions in the Oligarchy.
+  Ultraviolet (Blue+Octarine) Tokens increase Voting Power on Referenda
+    (including the Voting phase of Elections), and are used to change a
+    Proposal's Chamber, and to bid on Land.
+  Mellow (Yellow+Octarine) Tokens act like tenths-of-VEs for the Oligarchy's
+    Base Seating Fee.
+
+"Win by Proposing" by RedKnight - Proposal 4442 failed quorum 2/2 - Complacent
+    Oligarchy - Proposal 4448 rejected 2/22
+  Having 15 Distributable Proposals in the Pool is a Win Condition.
+
+PENDING PROPOSALS
+-----------------
+
+"absolution fix" by Goethe
+  Absolution is explicitly stated to be a synonym of expunging.
+  Any entities with negative Blots are reset to zero Blots.
+
+"Allow Contestmasters to Resign" by Sir Toby
+  If the Regulations of a Contest do not specify a way to change Contestmaster,
+    then the Contestmaster may still resign.
+
+"Body of Text" by Peekee
+  This Proposal (if it is one) would have no effect; it is solely a test of
+    whether a body of text becomes a Proposal when the author states in another
+    message that it was intended to become one.
+
+"Clarify Proposal AI, Take 2" by root - Proposal 4464 (03-46)
+  A Proposal's Adoption Index may only be increased.
+
+"Clarify Rule 1976" by Sherlock - Proposal 4459 failed quorum 3/2 - Complacent
+    Oligarchy - Proposal 4468 (03-53)
+  A Protege may award multiple Mentor's Bonuses, one per Player, totalling no
+    more than the New Player Award.  (Previously, e could divide a Bonus among
+    multiple Players, but the Bank did not explicitly incur debts to more than
+    one Player.)
+
+"Close the Tax Shelter" by Steve
+  Rule 1917 (General Currency Taxation) is merged into 1853 (Levying Taxes).
+  Tax debt is based on holdings when intent to tax is announced.
+
+"Fix Dependent Actions" by Maud - Proposal 4461 (03-39)
+  An action With 0 Support is a dependent action.
+
+"Fix Fees" by Murphy
+  Fees require announcement; zero Fees require nothing else.
+  Fees may be paid by transferring Currency, forgiving reverse Bank debts, or
+    a combination thereof.
+
+"Fnord" by Maud - Contested Proposal 4465 (03-50)
+
+"Full Discretion Fix" by Cecilius - Proposal 4463 (03-45)
+  If the Indulgence Surplus is between zero and one, then the Herald may choose
+    to Auction based on the Monthly Bank Indulgence Gain.  (Previously, e could
+    only do so if the Surplus was zero or negative.)
+
+"Heavy Weather" by Sherlock - Proposal 4469 (03-56)
+  Forecast is a Bank Currency switch with values Clear and Stormy.
+  The Treasuror may flip any Forecast switch.
+  All Stormy Currencies have Weather similar to Stems.  This is the only way
+    the Bank may mint Bank Currencies.
+  Each Currency has its own Foul Weather Factor and Weather Intensity Factor,
+    both of which are multiples of 0.1 from 0 to 10.
+
+"Let's Play Q*Bert (tm)" by OscarMeyr
+  Purple is a Land Type.
+  Each week, Q*Bert hops in a random diagonal direction (unless it and another
+    entity end the week at the same Location, in which case it hops in a random
+    orthogonal direction).  It never reverses its previous direction.
+  If Q*Bert would leave the Map, then it ceases to have a Location, and moves
+    to (0,0) the next week.
+  Q*Bert has a color (initially Purple).
+  Q*Bert changes its destination's Type to match its color, unless they already
+    match, in which case it changes its destination's Type to the Type with
+    Sente.
+  If Q*Bert has Sente, then its color becomes a random Land Type other than
+    Aether or its old color.
+  The Mapkeepor is Limited Executor of Q*Bert, and shall cause it to act as
+    required.
+
+"Limit Appeal Duration" by Sherlock
+  An Appeal initiated by three Players requires all three Appeals to fall
+    within a two-week period.
+
+"Quick Fix in R1929" by OscarMeyr - Proposal 4457 failed quorum 3/2 -
+    Complacent Oligarchy - Proposal 4467 (03-52)
+  Points are awarded upon the first valid notification (not just "first
+    notification", so an invalid notification doesn't prevent a subsequent
+    valid notification from awarding the Points).
+
+"Saner Thesis Committees" by Goethe - Proposal 4462 (03-41)
+  Players choose a Chair, who must consent.  For non-Players, or if no one
+    consents within a month, then the Speaker is Chair.
+  Second committee member is appointed by the first of (Speaker, Justiciar,
+    Clerk of the Courts) who is neither Candidate nor Chair.
+  Chair may dissolve the Committee with support of another member, announcing
+    intent at least 14 days in advance.
+  Candidate may dissolve the Committee by announcement.
+  After Degree is awarded, each member has 14 days to publish a Commentary;
+    then Chair publishes Final Thesis (latest Thesis draft plus Commentaries),
+    and Committee dissolves.
+
+"The Wormhole V1.2" by Peekee
+  ASAP after the 15th of the month, the Mapkeepor selects a random Land Unit
+    other than (0, 0) or any Land Unit Adjacent to it.  The Wormhole makes that
+    Land Unit Adjacent to (0, 0).
+  The Wormhole initially bridges (0, 1); the Mapkeepor shall ASAP perform a
+    selection as noted above.
+
+"The Zeroth Law" by Murphy
+  Actions that may be performed with 0 support, or by paying a Fee of 0, may be
+    performed by announcement.
+
+"Try Again, Part 1 of 3" by Murphy
+  Annabel and harvel/Maud are deemed to have always been separate Players, and
+    actions associated with either purported identity are similarly separated.
+  A do-nothing Power=4 Rule is created.
+
+"Try Again, Part 2 of 3" by Murphy - Proposal 4466 (03-48)
+  Epochs as relative durations are no longer redefined as Agoran epochs, and
+    are deemed never to have been so redefined.
+  A do-nothing Power=4 Rule is created.
+
+"Try Again, Part 3 of 3" by Murphy
+  Mathematical meanings are no longer used for terms primarily used with a
+    different ordinary-language meaning, and are deemed never to have been so
+    redefined.
+  A do-nothing Power=4 Rule is created.
+  If all three do-nothing Rules exist, then replace them with a Power=4 Rule
+    granting some Patent Titles.
+
+"Walls" by Sherlock
+  An entity may erect a Wall on eir Land or unclaimed Land by paying a Fee of
+    0.1 Indulgences.  Entities located there are moved to (0, 0).
+  Movement to Land with a Wall is impossible.
+  A Wall may not be erected on (0, 0) or Aether.
+  An entity may destroy a Wall by paying a Fee of 0.5 Indulgences.
+  When Land becomes Aether, any Wall on it is removed.
+
+PROTO-PROPOSALS
+---------------
+
+<no title> by Goethe
+  Actions during a Holiday are considered to have been sent at the end of the
+    Holiday, but in the order they were actually sent.
+  Time limits that would expire during a Holiday instead expire 72 hours after
+    the end of the Holiday.
+
+<no title> by Maud
+  Players may perform actions by announcement if the Rules allow it, but do not
+    provide a method.
+
+"...und Zeit" by Maud
+  The equivalent of Agoran epochs are applied to "weekly", "monthly",
+    "quarterly", and "yearly", but no longer to anything else.
+
+"10th Anniversary Preparations" by Goethe
+  A Contest becomes Bardic if two Bards or three Players support it.  All
+    other Contests cease to be Bardic.
+  A Bardic Contest may award the Unique Patent Title of Harold Victor; the
+    recipient also becomes a Bard.  Any previous holder gains the Patent Title
+    of Old Harold.
+
+"A new framework" by multiple Players
+  Goethe:
+    The Office of Electrician tracks each entity's Energy and Voltage.
+    Energy is a non-negative integral number of Ergs.
+    A Grounded Player is a Player with zero Energy.
+    Batteries have Voltage (number) and Termini (subset of Players).
+    A Player's Potential is the sum of eir Voltages.
+    Dissipative Batteries experience a monthly Power Drain (halving Voltage,
+      or zeroing it if it would be less than 1).
+    Each Player has a Capacitance, a Dissipative Battery unique to em, which is
+      zero unless changed by the Rules or a Power >= 2 Proposal.
+    Each month, the Reset Button is pushed, resetting each Player's Energy to
+      eir Potential (minimum 1).  This is the only time Energy may increase.
+    New Player Award is converted to New Player Voltage (2 to 8; the new
+      Player's Capacitance is set to the NPV, then eir Energy is reset).
+    An energetic action is one with a Charge.
+    Performing an energetic action requires sufficient Energy, and causes
+      Energy equal to the Charge to dissipate.
+    Minimum Income, Salaries, Distributor's Gratuity, and Speaker's Gratuity
+      are converted to Constant Batteries.
+    Judicial Salary is converted to Judicial Lightning (1 to 3).
+    Mentors' Bonus increases each Mentor's Capacitance by the New Player
+      Voltage divided by the number of Mentors.
+    Each Player's Capacitance is set to
+      Stems/50 + VEs + Indulgences/10 + Papyri/25.
+    Reset button is pushed.
+    Stems, VEs, Indulgences, Winner's Stipend, Taxes, Looting Auctions, and
+      alternate Auction Procedures are repealed.  Possibly Land as well.
+  Murphy:
+    Indulgences are repealed.
+    Indulgence costs (expunging Blots, changing Role early, bidding in Looting
+      Auctions and Land Auctions) are replaced by Charges.
+    Tolls cause moving into the Tolled unit of Land to have a Charge, which
+      Energizes the owner when incurred.
+  Michael:
+    VEs, Tolls, and Monks are repealed.
+    Oligarch Upkeep is converted to Oligarch Charge Requirement.
+    Voting Power is converted to Voting Potential.  It is reset to zero each
+      month, and may be increased for a Charge.
+    Chamber Fee is converted to a Charge.
+    Any eligible Player may become an Oligarch by meeting the Oligarch Charge
+      Requirement.
+    Oligarchs serve for a term, and may extend it by multiples of the term for
+      a Charge.
+  Steve:
+    Stems, the Payroll Clerk, and Monks are repealed.
+    Stems (Birthday awards, Mentor's Bonus, successful Rebellion bonus,
+      Patronage) are converted to Charges.
+
+"Action Land" by Eris
+  An entity may spend 20 Action Units to set the Land Type of an adjacent Unit
+    of Aether owned by the Land Bureau to either Black or White, at random; the
+    Land Bureau incurs a debt to the entity for that Unit.
+
+"Agencies" by Goethe
+  The concept of Parliamentary Votes is repealed.
+  The Executor of an Agency is its Minister.
+  At most five entities are Agencies; if necessary, the older ones are deemed
+    not to be Agencies.
+  All Monks are Agents of the Monastary.
+  All Bards are Agents of the Fiddlers Green.
+  All Players with enough Kudos are Agents of the Samurai.
+  All Land-owning Players are Agents of the Landowners Association.
+  All Devices are Agents of Module.
+  The Minister without Portfolio is the Officer who tracks Agencies in a
+    Monthly Report.
+  The MwP is the Minister of any Moribund (Agent-less) Agency, but such an
+    Agency may act only to transfer Property to satisfy its debts.
+  The SLC of an Agency is its Traditions.
+  An Agency's Traditions may only be changed by:
+    * Proposals with Adoption Index >= 2.
+    * Proposals made distributable by an Agent as explicitly permitted by the
+        Traditions, and without (N = quorum on a Democratic Proposal)
+        objections.
+    * The Minister as allowed or required by the Traditions, with the Support
+        of the MwP and two Ministers of non-Moribund Agencies.
+  Once a month, if allowed by its Traditions, an Agency may make an Agent an
+    Oligarch by paying the Base Seating Fee; any Player previously made an
+    Oligarch by that Agency ceases to be an Oligarch.  The Agency may pay eir
+    Agent's Oligarch Upkeep.
+  The Traditions of the Monastery are set to allow Agents to make Proposals
+    distributable without N objections, etc. and the other Agencies are
+    similarly initialized with Traditions granting unique powers to Agents.
+
+"Bring Bonds Back" by Sir Toby
+  Bonds are Property.
+  Each Bond has a species, a series, an issuer, a face value, and a maturity
+    date.  (Unspecified times are presumed to be midnight UTC at the beginning
+    of the day.)
+  All Bonds of a species are fungible.
+  The Office of Usuror is the Recordkeepor of Bonds.
+  The Usuror is Prime Executor of the Bank with respect to Bonds.  E may cause
+    the Bank to create Bonds, and transfer Bonds to its creditors.
+  The Usuror assigns a distinct series to each species of Bonds.
+  An entity with Bond Issuance Authority may create Bonds (in eir possession)
+    by informing the Usuror of the face value and maturity date.
+  Only the Bank has Bond Issuance Authority.
+  The owner of Bonds may destroy them by notifying the Usuror.
+  The owner of Bonds may redeem them by announcement; the issuer incurs a debt
+    equal to the face value of the Bond, and the Bond is destroyed.
+  A Bond is automatically redeemed if its issuer ceases to have an Executor.
+  The issuer of a Bond may call it by announcement; it is redeemed.
+  When the Bank cannot satisfy a debt due to insufficient funds, it may instead
+    satisfy it by announcing its conversion to Bond Debt; the Bank owes the
+    creditor one Bond with a face value of the original debt plus 10 percent,
+    and a maturity date of 30 days from the time of the conversion.
+  Alternately:  When the Bank cannot satisfy a debt due to insufficient funds,
+    the Recordkeepor may notify the Usuror; e is no longer responsible for
+    paying the debt, and cannot be penalized over it.  The Usuror shall issue
+    and auction Bonds sufficient to cover the debt, upon which the Recordkeepor
+    once again becomes responsible for paying the debt.
+
+"Coulda, Woulda, Shoulda" by Murphy
+  Players are not penalized for performing required actions, or failing to
+    perform actions that are prohibited or regulated-without-a-method.  This
+    includes Rules, valid Orders, and Orders later found to be invalid.
+  Mangled grammar in Rule 1810 (Noncompliance with Orders) is fixed.
+
+"down with voting officers" by Goethe
+  A balanced action is an action Upon the Balance of X Surveying Y, where X
+    is a positive real number and Y is a positive integer.
+  An action Upon Balance is an action Upon the Balance of 1 Surveying Q, where
+    Q is one-third the number of Players (rounded up).
+  After a Player announces intent to perform a balanced action, the Achieved
+    Balance is the ratio of supporters to objectors (or Unanimity if there is
+    at least one supporter and no objector), and the Survey Size is the number
+    of supporters plus the number of objectors.
+  A Player may perform a balanced action by announcement, between 7 and 14 days
+    after announcing intent, if the Survey Size is at least Y and the Achieved
+    Balance is greater than X.
+  A Player may Adopt one of eir Proposals Upon the Balance of its Adoption
+    Index Surveying Quorum.
+  All other aspects of making and Voting on Proposals are repealed.
+
+"Elucidate Registration" by Maud
+  Registering while already registered is the Crime of Concurrent Registration.
+  A convicted Player forfeits all eir Property, all debts owed to em, and all
+    Votes e cast while accused.
+  Actions performed prior to the accusation are deemed to have been performed
+    by different persons.
+  The penalty may be reduced if the Player did not perform actions while
+    accused.
+  Maud is convicted of Concurrent Legislation; the CotC shall randomly select
+    an eligible Judge to impose the penalty.
+
+"Executors and Currency Transfers" by Murphy
+  Transfers performed while acting as Executor or Limited Executor of another
+    entity have that entity as the transferor, unless otherwise specified.
+
+"Expunge Nomic Properties" by Maud
+  The phrase "Nomic Properties" is repealed.
+  Indices are no longer Nomic Properties.
+  Nomic Properties are no longer explicitly mentioned as changeable via the
+    adoption of a Proposal.
+
+"Fix First Speaker" by Pakaran
+  First Speaker becomes a Patent Title.
+
+"Fix Rule 1539" by Murphy
+  The Contestmaster of a Contest may change when the Rules require or allow it,
+    even if the Regulations provide no method.
+
+"Fix selection of the Thesis Committee" by OscarMeyr
+  Only Active Players may serve on a Thesis Committee.
+  If the Candidate does not make a valid selection for the first member, then
+    the Speaker is selected.
+  The second member is selected by (not yet written).
+  If the first two members do not agree on a third member within a week, then
+    a random eligible Player is selected.
+  Vacancies are filled by (not yet written).  If there are no eligible Players,
+    (not yet written).
+  The Chair is the Player who has been on the committee the longest.
+
+"Freedoms of Speech and Terminology" by Maud
+  Players shall not be prohibited from using the Fora, nor punished for.
+    statements made there.
+  Ordinary-language synonyms of Rule-defined terms mean what the Rule-defined
+    terms mean.
+  Terms primarily used in a mathematical or legal context have that meaning.
+  Terms otherwise undefined have their ordinary-language meaning.
+
+"Justice and Mercy" by Goethe
+  A Judge may reduce the penalty for a Crime by up to half, on the grounds of
+    first offense, past service, extenuating circumstances, or the submission
+    of a Formal Apology.
+  The Defendant, or any Player with support, may Appeal the amount of the
+    penalty.  The Appeals Board may Order the Judge to reduce, increase, or
+    maintain the amount, although the Judge may decide the amount of change.
+
+"Kudos" by Murphy
+  The Harpy keeps track of Kudos.
+  Players start with 20 Kudos.
+  Up to twice a week, a Player may transfer a Kudo from a Player (the Heel) to
+    another Player (the Face), giving reasons for both.  E may not make someone
+    the Face twice in a week, or the Heel twice in a week.  E may not make
+    emself the Face.
+  The Patent Title of Samurai goes to Players with at least 30 Kudos.
+  The Patent Title of Honourless Worm goes to Players with less than 5 Kudos.
+  The Unique Patent Title of Shogun goes to the Player with the most Kudos (at
+    least 10), if there is exactly one such Player.
+
+"Law Enforcement" by Sherlock
+  The Office of Sheriff keeps track of commissions of Crimes and Infractions.
+  The Sheriff may report any Infraction.
+  An entity committing a Crime or Infraction that e committed within the past
+    three months pays twice the Blot penalty e paid last time.
+  An Officer committing more than five Infractions related to eir Office within
+    three months is automatically removed.  This replaces Dereliction of Duty.
+  The Order of Succession for Speaker-Elect is changed from
+    (Promotor, Registrar, Rulekeepor, Assessor, Justiciar, CotC) to
+    (Justiciar, CotC, Sheriff, Rulekeepor, Registrar).
+
+"Law Enforcement, Part II" by Sherlock
+  If an Infraction goes unreported for two weeks, then any unauthorized Player
+    may report it for a Stem bounty equal to the Class of the Infraction.
+  If a Crime or Infraction goes unreported for longer than its Statute of
+    Limitations (normally six months), then no conviction may take place.
+
+"LAZY-NO-JUDGE" by Peekee
+  Requests for ineligibility do not expire automatically, but the CotC may
+    manually expire them after one month.
+  All current requests for ineligibility expire automatically.
+
+"Lengüetas" by Sherlock
+  5-Stem bonus for adoption of a non-English Proposal.
+
+"Mapkeepor's Budget" by Peekee
+  The Mapkeepor's Budget contains:
+    Action Cost of each Action type defined by the Rules (1 to 20)
+    Player Expenditure Allowance (1 to 20)
+    Group Expenditure Allowance (1 to 20)
+    Group Bonus Factor (0 to 5)
+    Gote Bonus Factor (-3 to 3)
+  Each Player and Group's weekly allowance is modified by the Gote Bonus Factor
+    times the number of Land Units with Gote e owned at the start of the week.
+  Each Group's weekly allowance is modified by the Group Bonus Factor times the
+    number of members at or adjacent to its location at the start of the week.
+  The Budget is initialized to values matching the current Rules (PEA = 10,
+    GEA = 1, Group BF = 3, Gote BF = 1).
+
+"Monks" by Maud
+  See Proposal "Switches".
+  Appetite is a Player switch.
+  A Hearty Player who has no Property, no Blots, and is not the Executor of
+    another entity, may flip eir Appetite to Ascetic.
+  A Monk who becomes Hearty loses eir Role, and cannot flip eir Role for 14
+    days.
+  The Monastery is an entity.  Its Executor is the Head Monk.
+  While there are no Monks, the Treasuror is the Head Monk, but may only cause
+    it to satisfy its debts.
+  If the Head Monk is not a Monk and a Player becomes a Monk, then that Player
+    becomes the Head Monk.
+  If the Head Monk ceases to be a Monk, then the Player who has been a Monk the
+    longest becomes the Head Monk.
+  A Monk may become the Head Monk with 2 Monk Support.
+  A Monk who receives Property shall transfer it to the Monastery.  If e does
+    not transfer it ASAP, then any Player may flip eir Appetite to Hearty (thus
+    relieving em of the obligation).
+  If a Monk has Blots or is the Executor of another entity (besides the
+    Monastery), then any Player may flip eir Appetite to Hearty.
+  The Monastery may participate in Property transfer agreements and Auctions,
+    with the approval of the Head Monk and at least two other Monks.
+  The Head Monk shall use the Monastery's resources to encourage charity,
+    frugality, and levity.
+  The Head Monk may rubberstamp N^2 Proposals per week (N is the number of
+    Monks at the beginning of the week).
+  Once a week, the Head Monk may expunge one Blot from a Blotted non-Monk.  If
+    e could have done so during a week, but does not, then any Player may flip
+    eir Appetite to Hearty.
+  Monk is a Role.
+  A Politician may increase eir Voting Power on a Proposal by 1 by paying
+    (X+2)/10 VEs (X is the number of times e has done so that week for any
+    Proposal).
+  Monks do not get Minimum Income.
+
+"No Sente Awards for the Apathetic" by Sir Toby
+  (0, 0) and only (0, 0) is Beige.
+  Beige never has either Sente or Gote.
+
+"Octarine Repeals" by Murphy
+  Repeal most of the Ruleset, including Executors, Holidays, Offices and
+    Elections, Roles, Rebellion, the Oligarchy, Elections, Orders, Crimes and
+    Infractions, Patent Titles, Degrees, Property, Wins, SLCs, and Land.
+  All Proposals are effectively Distributable, Democratic, and Sane.
+  CFJs may be assigned to anyone but the Caller.  There are no Appeals.
+
+"Pay Out Contests" by Sir Toby
+  A Pay Out Contest is a Contest that may pay out Bank Currency.
+  The amount of Bank Currency that a Contest may pay out per month may be
+    changed by an instrument of Power >= 1.
+  The Contestmaster of a Contest may (without objection) declare the amount of
+    Bank Currency that a Contest may pay out per month.  The announcement of
+    intent must include the Regulations.  The Regulations must not change
+    between the announcement of intent and the declaration (or else the
+    declaration is the Crime of Bait and Switch).
+  A Player may be Contestmaster of only one Pay Out Contest at a time.  If e
+    is Contestmaster of more, then they all lose the ability to pay out Bank
+    Currency.
+  The Regulations of a Pay Out Contest may not self-amend.
+  The Contestmaster of a Pay Out Contest must publish the Regulations ASAP
+    after it becomes a Pay Out Contest, and monthly (failure to do the latter
+    is the Infraction of Failure to be Accountable).
+  The Contestmaster of a Pay Out Contest may pay out Bank Currency to a
+    Contestant.
+
+"Procrastinators" by Pakaran
+  The Speaker, or any Player with 2 support, may award the Patent Title of
+    Procrastinator to a Player who confuses understanding of the Gamestate
+    through procrastination (malicious or not).
+  Any Player with 2 support (not including the Bearer) may revoke this Title.
+  Pakaran is awarded this Title.
+
+"Public Fora" by Maud
+  See Proposal "Switches".
+  Publicity (null, Discussion, Public) is a stuck forum switch.
+  Other current aspects of Fora are re-stated in terms of switches.
+
+"Switch Reduction Act" by Maud
+  Viscosity of switches (loose/stuck) is no longer a switch.
+  A stuck switch may be flipped only when an Officer is required or allowed to
+    flip it.
+
+"Team Contest" by Goethe
+  The Unique Patent Title of Game Show Host is awarded to the (captain / Player
+    with most points) of a winning Team.  Between the win and the formation of
+    new Teams, e may give this Title to another Player (with eir consent).
+  The Game Show Host is not placed on a new Team.  E may create a Game Show
+    Contest, which may announce a winning Team in accordance with its
+    Regulations (the captain of the winning Team must be a Contestant).
+
+"The Greek System" by Sherlock
+  Rename the Speaker to Chronos, Officers to other Greek gods/goddesses, the
+    Inner Cabinet to Olympus, and the Outer Cabinet to The Giants.
+
+"The Life Cycle of Proposals" by Maud
+  Rules 1483 (Definition of Proposals), 1698 (The Proposal System is
+    Protected), 1891 (Legislative Orders), and part of 594 (Power and
+    Proposals) are merged into Rule 404 (Legality of Proposals).
+  Rule changes are converted to Legislative Orders ordering the Rulekeepor to
+    change the Rules.
+
+"Tiered Proposals" by Sherlock
+  A Proposal's Adoption Index is equal to its Voting Index.
+  Each provision of a Proposal may list what Adoption Index is required for it
+    to have effect; if none is listed, it is 1.
+
+"Treasure Hunt" by Peekee
+  The Mapkeepor shall randomly select a secret location for the Treasure.
+  A Player may spend one Action Unit to search eir location for Treasure.
+  If a Player finds the Treasure, the Mapkeepor shall pay out the Basic Officer
+    Salary to that Player, and select a location for the Treasure.
+
+"Wagers" by Sherlock
+  The Office of Croupier tracks the Line and Wagers on each pending Proposal.
+  The Croupier may set the Line on a Proposal in the Pool to an integer from
+    -3 to 3.
+  Any entity (the Shill) may Wager on a Proposal in the Pool with a Line,
+    specifying a positive amount of a Bank Currency (up to eir holdings).
+  If a Proposal with a negative Line is adopted, or a Proposal with a positive
+    Line is rejected, then the Croupier pays out Wager*[abs(Line)+1] to each
+    Shill.
+  If a Proposal with a positive Line is adopted, or a Proposal with a negative
+    Line is rejected, then the Croupier bills Wager*[abs(Line)+1] to each
+    Shill.
+
+
+CALLS FOR JUDGEMENT
+-------------------
+
+*** Rule 1567 causes ineligibility by request to expire after one month ***
+
+1/11  Pakaran makes emself eligible
+1/12  Michael makes emself ineligible
+1/22  Peekee makes emself ineligible
+1/23  root makes emself ineligible
+3/4   Peekee makes emself eligible
+3/9   RedKnight makes emself ineligible
+
+CFJ 1424 "The Goddess Eris has commited the class 2 crime of Disobedience."
+[TRUE]   1/8      Called by RedKnight
+         1/10-17  Assigned to Goethe, who Judges TRUE
+         1/17     Goethe announces eir intent (Without Objection) to declare
+                    Eris a Ninny
+         1/22     Eris publishes a Formal Apology
+         1/23     Goethe declares Eris a Ninny
+         1/24     Eris re-publishes eir Formal Apology
+         Caller's argument (summary):  Eris published a CFJ during a Holiday,
+           but had forgotten that doing so was a Rule violation.
+         Judge's commentary (summary):  CFJ 1408 set the precedent that
+           ignorance of an unambiguous Rule is not "reasonable belief".
+
+CFJ 1425 "Parakan transferred 10 Stems from the Bank to Murphy in the message
+[TRUE]    with Message-ID <407606326.1041695839@[192.168.1.100]>."
+         1/9      Called by Murphy
+         1/12-15  Assigned to Sir Toby, who Judges TRUE
+         Caller's argument (summary):  Pakaran stated that e was acting as
+           Limited Executor of the Bank, but did not explicitly specify the
+           Bank as the transferor.
+
+CFJ 1426 "Absolving (removing) a Blot as per Rule 1986 is not the same as
+[FALSE]   Expunging Blots as per Rule 2017."
+         Linked to CFJs 1427, 1428, 1429, 1430
+         1/13     Called by Goethe
+         1/13-15  Assigned to Steve, who Judges FALSE
+         Caller's argument (summary):  Eris had 0.68 Blots, and Goethe
+           attempted to absolve 1 of Eris's Blots, then attempted to absolve
+           0.68 of Eris's Blots.
+         Judge's refutation (summary):  Absolving/removing Blots is not defined
+           well enough to be a separate procedure from expunging.  Rule 2017
+           defines Recordkeeping responsibilities for the latter, but not the
+           former.  Thus absolving/removing is synonymous with expunging, and
+           Goethe's first attempt expunged 0.68 of Eris's Blots.
+
+CFJ 1427 "Goethe succeeded in removing exactly and only 1.00 Blots from Goddess
+[FALSE]   Eris in the same message as this CFJ."
+         Linked to CFJs 1426, 1428, 1429, 1430
+         1/13     Called by Goethe
+         1/13-15  Assigned to Steve, who Judges FALSE
+         Arguments:  See CFJ 1426.
+
+CFJ 1428 "Goethe succeeded in removing exactly and only 0.68 Blots from Goddess
+[TRUE]    Eris in the same message as this CFJ."
+         Linked to CFJs 1426, 1427, 1429, 1430
+         1/13     Called by Goethe
+         1/13-15  Assigned to Steve, who Judges TRUE
+         Arguments:  See CFJ 1426.
+
+CFJ 1429 "Goddess Eris has less than zero Blots."
+[FALSE]  Linked to CFJs 1426, 1427, 1428, 1430
+         1/13     Called by Goethe
+         1/13-15  Assigned to Steve, who Judges FALSE
+         Arguments:  See CFJ 1426.
+
+CFJ 1430 "Goddess Eris is not Immaculate."
+[FALSE]  Linked to CFJs 1426, 1427, 1428, 1429
+         1/13     Called by Goethe
+         1/13-15  Assigned to Steve, who Judges FALSE
+         Arguments:  See CFJ 1426.
+
+CFJ 1431 "In a message sent at Fri, 17 Jan 2003 10:05:51 -0800, with message id
+[FALSE]   <Pine.LNX.4.43.0301171005510.14735@hymn05.u.washington.edu>
+          (submitted as evidence), Goethe tried to transfer 0.05 VEs, 0.1
+          Indulgences, 0.15 Papyri, and 2 Fish from Support Your Secret Leader
+          to both Sir Toby and Steve, but the transfers were invalid and did
+          not occur."
+         1/21     Called by Sir Toby
+         1/22     Mistakenly assigned to Michael (ineligible by request)
+         1/22-28  Assigned to t, who makes emself ineligible
+         1/28-30  Assigned to Eris, who Judges FALSE
+         Caller's argument (summary):  The transfers did not meet the
+           restrictions of Regulation 5, and were thus prohibited by
+           Regulation 6.
+         Judge's refutation (summary):  Regulation 5 created debts, and the
+           transfers (over-)satisfied some of those debts.
+
+CFJ 1432 "In a message sent at Fri, 17 Jan 2003 10:05:51 -0800, with message id
+[TRUE]    <Pine.LNX.4.43.0301171005510.14735@hymn05.u.washington.edu>
+          (submitted as evidence), Goethe tried to transfer 2 Stems from
+          Support Your Scret Leader to both Sir Toby and Steve, but the
+          transfers were invalid and did not occur."
+         1/21  Called by Sir Toby
+         1/22  Assigned to Murphy
+         Caller's argument (summary):  The transfers did not meet the
+           restrictions of Regulation 5, and were thus prohibited by
+           Regulation 6, and thus by Rule 1910 as well.
+
+CFJ 1433 "In a message sent at Fri, 17 Jan 2003 10:05:51 -0800, with message id
+[TRUE]    <Pine.LNX.4.43.0301171005510.14735@hymn05.u.washington.edu>
+          (submitted as evidence), Goethe tried to resign as Contestmaster of
+          the Support Your Secret Leader Contest, but was prohibited from doing
+          so."
+         1/21  Called by Sir Toby
+         1/22  Assigned to OscarMeyr
+         Caller's argument (summary):  Resigning as Contestmaster constitutes
+           a change of Contestmaster.  The regulations do not specify a way to
+           change Contestmaster, so it cannot change while the Contest still
+           exists; see Rule 1539.  Furthermore, the Contest still existed after
+           Goethe's attempt to resign, because it still possessed at least one
+           Fish; see Rule 1908.
+
+CFJ 1434 "The registration of a Player and the expiration of eir Grace Period
+[TRUE]    are both 'events' for the purposes of Rule 1769 (Holidays)."
+         1/24      Called by Cecilius
+         1/27-2/2  Assigned to Pakaran, who Judges TRUE
+
+CFJ xxxx "The method used by Goethe in the message with Message-ID
+          <Pine.LNX.4.43.0302031253250.32726@hymn01.u.washington.edu>
+          is reasonably close to a uniform probability distribution."
+         2/3  Called by Murphy
+         2/4  Retracted
+         Commentary:  Goethe was attempting a uniform probability distribution
+           over the range of numbers from 0 to 1, but a non-uniform probability
+           distribution among the possible Weather outcomes.
+
+CFJ 1435 "The method used by Goethe in the message with Message-ID
+[FALSE]   <Pine.LNX.4.43.0302031253250.32726@hymn01.u.washington.edu>
+          is reasonably close to the probability distribution required
+          for the action e attempted to perform in that message (i.e.
+          determine the Weather for February 2003)."
+         2/4    Called by Murphy
+         2/4-9  Assigned to Steve, who Judges FALSE
+         Commentary:  Goethe's method was to pick digits from the millionth
+           digit of pi onward, and map the resulting number (between 0 and 1)
+           to a Weather outcome.
+         Judge's refutation (summary):  Trivially false, because Goethe's
+           mapping of numbers to Weather outcomes was incorrect.
+
+CFJ 1436 "The Grand Warden of the Oligarchy is not empowered to remove from
+[TRUE]    the Oligarchy a player who is not ineligible to be an Oligarch."
+         2/10     Called by Steve
+         2/13-20  Assigned to Goethe, who Judges TRUE
+         Caller's argument (summary):  Rule 1963 regulates removal from the
+           Oligarchy, and ineligibility to be an Oligarch.  Neither clause
+           covers defaulting on upkeep.
+
+CFJ 1437 "Where the Bank has been properly ordered to forgive a debt
+[TRUE]    denominated in a Bank Currency, only the Treasuror is both
+          permitted and required to act on the Bank's behalf to forgive the
+          debt."
+         2/16     Called by Steve
+         2/18-20  Assigned to Sherlock, who Judges TRUE
+         Caller's argument (summary):  Currency Recordkeepors only have
+           authority over debts owed by the Bank.  Debts owed to the Bank
+           fall under the authority of the Treasuror, who is the only
+           (non-Limited) Executor of the Bank.
+
+CFJ 1438 "The Order issued by Steve,
+          'I order the Bank to forgive RedKnight's Oligarchy upkeep debt.'
+          (http://www.escribe.com/games/agora-business/m9000.html)
+
+          is not a properly-issued Order."
+         2/18      Called by Goethe
+         2/18-3/2  Assigned to Sir Toby, who defaults
+         3/9       Incorrectly assigned to Blob, who is Unready and thus
+                     ineligible
+         3/9       Assigned to Cecilius
+         Caller's argument (summary):  A Rule bug prevents the GWotO from
+           obeying the first requirement of Rule 2010.  Issuing this Order is
+           the second requirement of Rule 2010.  The Order is valid, but may be
+           improper under the circumstances.
+
+CFJ 1439 "Goethe has successfully absolved 1 Blot from emself this Agoran
+[TRUE]    week."
+         2/20       Called by Goethe
+         2/25-3/10  Assigned to root, who Judges TRUE
+         Caller's argument (summary):  Prior to the CFJ, in the same message,
+           Goethe said something which e claims is "I intend to absolve one of
+           my Blots with 0 Support; I absolve one of my Blots with 0 Support"
+           in a foreign language.  Prior to that, Goethe had not absolved any
+           of eir Blots that week.
+
+CFJ xxxx "Goethe's votes in
+          http://www.escribe.com/games/agora-business/m9072.html
+are not valid
+
+          votes."
+         2/21  Called by OscarMeyr
+         2/22  Retracted
+         Commentary:  The "votes" were various repetitions of "Güneº", which
+           was later confirmed as nothing but an oblique reference to a joke
+           that all modern languages descended from this "word".
+
+CFJ 1440 "Proposal 4453 had an Adoption Index of 1."
+[TRUE]   2/24   Called by Sherlock
+         3/2-8  Assigned to Michael, who Judges TRUE
+         3/10   Appealed by RedKnight and OscarMeyr
+         Caller's argument (summary):  Sherlock requested AI=3 when submitting
+           this Proposal, and AI=1 shortly before the Voting Period ended.
+           Either the second request is effective, or the combination of
+           requests is ambiguous and neither is effective (which would still
+           lead to AI=1 by default).
+         Counterargument:  After the request for AI=3, Rule 594 defined and
+           required AI=3, and thus triggered its own "value required by the
+           Rules" to keep AI=3 following the request for AI=1.
+
+CFJ 1441 "London is the capital of England."
+DISMISS  2/26   Called by Peekee
+         3/2-8  Assigned to RedKnight, who dismisses it
+         Caller's argument (summary):  This CFJ is intended to test (a) whether
+           an arbitrary statement becomes relevant to the Rules simply because
+           it is CFJed, and (b) whether this particular statement becomes
+           relevant to the Rules because of its role in (a).
+
+CFJ 1442 "Rubberstamping with 0 support is not a dependent action."
+[TRUE]   Linked to CFJs 1443, 1444, 1445
+         3/1  Called by Maud
+         3/9  Assigned to Peekee, who Judges TRUE
+         Caller's argument (summary):  Rule 1728 defines a dependent action as
+           an action with N support or without N objections, where N is a
+           positive integer.  Zero is not a positive integer.
+
+CFJ 1443 "The rules regulate rubberstamping proposals."
+[TRUE]   Linked to CFJs 1442, 1444, 1445
+         3/1  Called by Maud
+         3/9  Assigned to Peekee, who Judges TRUE
+         Caller's argument (summary):  Rule 1986 regulates it.
+
+CFJ 1444 "A player cannot perform an action with 0 support."
+[FALSE]  Linked to CFJs 1442, 1443, 1445
+         3/1     Called by Maud
+         3/9-10  Assigned to Peekee, who Judges FALSE
+         Caller's argument (summary):  Performing an action with 0 support has
+           no natural meaning.  It has a meaning implied by Rule 1728, but
+           since it is not a dependent action, Rule 1728 does not permit it.
+           No other Rule permits it, either.
+         Judge's refutation (summary):  Game custom gives "performing an action
+           with 0 support" a meaning - namely, the same as a dependent action,
+           but without the requirement of support - and this procedure is
+           unregulated, so Players may use it.
+
+CFJ 1445 "Cecilius's first attempt on 1 March, 2003 to rubberstamp a proposal
+[FALSE]   failed."
+         Linked to CFJs 1442, 1443, 1444
+         3/1     Called by Maud
+         3/9-10  Assigned to Peekee, who Judges FALSE
+         3/10    Appealed by Eris
+         Caller's argument (summary):  Cecilius made this attempt with 0
+           Support, so the statement follows directly from that of CFJ 1444.
+         Judge's refutation (summary):  Cecilius's attempt depended on whether
+           e could perform an action with 0 support.
+         Commentary:  Cecilius's attempt occurred on March 1 by eir time zone
+           (GMT-0500), but March 2 by Agoran time (GMT+0000).
+
+CFJ 1446 "The Proposal 'Try Again, Part 1 of 3' is distributable."
+         Linked to CFJ 1447
+         3/2  Called by Murphy
+         3/9  Assigned to Cecilius
+         Caller's argument (summary):  Murphy claimed to rubberstamp, without
+           specifying a method.  Later, e claimed that e had done it by paying
+           a Fee of 0 Papyri.  During the week in which e claimed to
+           rubberstamp, e had not previously rubberstamped anything.
+
+CFJ 1447 "The Proposal 'Try Again, Part 2 of 3' is distributable."
+         Linked to CFJ 1446
+         3/2  Called by Murphy
+         3/9  Assigned to Cecilius
+         Caller's argument (summary):  Murphy claimed to rubberstamp by paying
+           a Fee of 0 Papyri.  During the week in which e made this claim, e
+           had not previously rubberstamped anything.
+
+CFJ 1448 "The Proposal entitled 'Full Discretion Fix' was Rubberstamped by a
+          message sent by Cecilius today under the subject line
+          'Rubberstamping, Take Two'."
+         Linked to CFJ 1449
+         3/3     Called by Cecilius
+         3/9-11  Assigned to Goethe, who proto-Judges FALSE
+         Judge's refutation (summary):  A Fee of zero still requires announcing
+           the purpose of the Fee.  Cecilius did not do so; e merely said
+           "Having paid the required fee...".
+
+CFJ 1449 "The Proposal entitled 'Full Discretion Fix' would have been
+          Rubberstamped by the message sent by Cecilius today under the
+          subject line 'Rubberstamping, Take Two,' if that Proposal had not
+          already been Rubberstamped."
+         Linked to CFJ 1448
+         3/3     Called by Cecilius
+         3/9-11  Assigned to Goethe, who proto-Judges FALSE
+         Judge's refutation (summary):  A Fee of zero still requires announcing
+           the purpose of the Fee.  Cecilius did not do so; e merely said
+           "Having paid the required fee...".
+
+CFJ 1450 "A fee may be paid by announcement."
+[TRUE]   3/4  Called by Maud
+         3/9  Assigned to Sherlock
+         Caller's argument (summary):  ...by sending the transfer and reason
+           to the Public Forum, not just to the Recordkeepor.
+
+CFJ xxxx "If the Rules specify a fee of 0 units of a Currency, then an entity
+          must transfer at least a single instance of that currency to the Bank
+          to pay the fee."
+         Linked to the following CFJ
+         3/5  Called by Goethe
+         3/5  Retracted
+
+CFJ xxxx "If the Rules specify a fee of 0 units of a Currency, then an entity
+          must transfer at most a single instance of that currency to the Bank
+          to pay the fee."
+         Linked to the preceding CFJ
+         3/5  Called by Goethe
+         3/5  Retracted
+
+CFJ 1451 "Peekee has published a message containing the text 'MessageXX', in
+          emails with titles 1,2,3,4,5,6,7,8,9."
+         Linked to CFJ 1452
+         3/6  Called by Peekee
+         3/9  Assigned to root
+         Commentary:  This CFJ is intended to determine whether a message can
+           span multiple e-mail messages, as specified by a later message.
+
+CFJ 1452 "Peekee has published a message containing the text 'This is a single
+          message', in emails with titles A and B."
+         Linked to CFJ 1451
+         3/6  Called by Peekee
+         3/9  Assigned to root
+         Commentary:  This CFJ is intended to determine whether a message can
+           span multiple e-mail messages, as specified by a later message.
+
+CFJ 1453 "As a result of the formation of root's Pay Out Scam Contest (rPOSC),
+          the Bank incurred a debt to root consisting of one or more
+          properties."
+         3/4   Called by root
+         3/10  Assigned to t
+         Caller's argument (summary):  The Contest required root to pay out
+           Property to emself, and Rule 1594 (Violation of SLCs) requires em
+           to obey the Regulations.  Since Rule 1594 requires em to pay out
+           Property, Rule 1479 (Definition of "Pay Out" and "Bill") causes the
+           Bank to incur a debt.
+
+CFJ 1454 "New York is the capital of England."
+         3/9  Called by Peekee
+         Caller's argument (summary):  This CFJ is intended to test (a) whether
+           an arbitrary statement becomes relevant to the Rules simply because
+           it is CFJed, and (b) whether this particular statement becomes
+           relevant to the Rules because of its role in (a).
+
+CFJ 1455 "Sir Toby did not join The Evil Scam Contest in a message sent to
+          agora-business on Fri, 14 Mar 2003 08:53:40 -0800, with the
+          following subject: This message brought to you by the letter 'a'."
+         3/14  Called by Sir Toby
+         Caller's argument (summary):  The Regulations of The Evil Scam Contest
+           deem messages containing the letter 'a' to be requests to join, but
+           this did not apply to Sir Toby because e was a non-Contestant and
+           thus outside the jurisdiction of the Regulations.
+
+OFFICES
+-------
+
+1/16  Nominations open for Assistant Director of Personnel, Herald, and
+        Treasuror.  Mode is Open.
+
+      Murphy Nominates for Assistant Director of Personnel.
+
+      Steve is Elected Payroll Clerk.
+
+      Voting begins for Speaker-Elect.  Candidates are Pakaran and Michael.
+
+      Goethe is Elected Justiciar.
+
+      Cecilius Nominates for Herald.
+
+      Steve Nominates for Treasuror.
+
+      Goethe Nominates for Treasuror.
+
+      Eris Nominates for Herald.
+
+      Steve submits a Proto-Budget for Treasuror, identical to the current
+        Budget (except the recent increase of the Winner's Stipend is
+        mistakenly omitted).
+
+1/18  Pakaran Nominates for Herald.
+
+1/19  Pakaran Stands Down for Speaker-Elect.
+
+1/22  Goethe submits a Proto-Budget for Treasuror, with these changes from the
+        current Budget:
+          ADoP Salary increased from 0.6 to 0.7 times BOS
+          Scorekeepor Salary increased from 0.5 to 0.6 times BOS
+          Foul Weather Factor increased from 2 to 6
+          Weather Intensity Factor increased from 5 to 10
+
+      Michael is Elected Speaker-Elect.
+
+1/23  Murphy is Elected Assistant Director of Personnel.
+
+      Voting begins for Herald.  Candidates are Cecilius, Eris, and Pakaran.
+
+      Goethe is Elected Treasuror.  (Steve's Proto-Budget was invalid, due to
+        the mistaken Winner's Stipend, so eir Nomination was automatically
+        withdrawn.)
+
+2/2   Cecilius is Elected Herald.
+
+2/19  Nominations open for Mapkeepor and Scorekeepor.  Mode is Selfless.
+
+2/20  Steve Nominates OscarMeyr for Scorekeepor.
+
+      Steve Nominates Sir Toby for Mapkeepor.
+
+3/2   Sir Toby is Elected Mapkeepor.
+
+      OscarMeyr is Elected Scorekeepor.
+
+3/13  RedKnight delegates Promotor to Steve (who consents) from March 14 at
+        noon GMT to March 25 at midnight GMT.
+
+3/15  Nominations open for Assessor, CotC, GWotO, Notary, and Promotor.  Mode
+        is Selfless.
+
+      Murphy Nominates Eris for Clerk of the Courts.
+
+
+OLIGARCHS
+---------
+
+1/10  Auction ends.  Cecilius wins with a bid of 1 Stem.
+
+1/11  Cecilius pays eir bid and the Base Seating Fee, and becomes an Oligarch.
+
+2/2   Auction begins for 1 position.
+
+2/5   Sir Toby is removed from the Oligarchy; e has three Blots and is thus
+        ineligible.
+
+2/6   Oligarch Auction ends.  Sherlock wins with a bid of 29 Stems.
+
+2/7   Sherlock pays eir bid and becomes an Oligarch.
+
+3/2   RedKnight is removed from the Oligarchy; e defaulted on eir February
+        upkeep (but a Rule bug prevented eir removal, until Proposal 4458
+        fixed the bug).
+
+3/3   Auction begins for 1 position.
+
+Auction for 1 position beginning 2/2
+----------
+29 Sherlock
+25 Murphy
+20 Blob
+20 Murphy
+18 Pakaran
+15 Sherlock
+12 Pakaran
+10 Sherlock
+ 4 Pakaran
+ 2 Blob
+ 1 Pakaran
+
+Auction for 1 position beginning 1/1
+----------
+1 Cecilius
+
+
+PROPERTY AUCTIONS
+-----------------
+
+1/12  VE Raffle ends.  Eris wins 0.1, Cecilius wins 0.1, Michael wins 0.2,
+        Murphy wins 0.2, Sir Toby wins 0.3, and Steve wins 0.2.
+
+1/13  Indulgence Raffle ends.  OscarMeyr wins 1, Steve wins 1, Pakaran wins 1,
+        Eris wins 2, and Sir Toby wins 2.
+
+1/21  Auction begins for 8 Papyri.
+
+2/2   Papyrus Auction ends.  OscarMeyr wins 6 and Goethe wins 2, at 6 Stems
+        each.
+
+2/3   Raffle begins for 18 lots of 0.1 VE each.  Ticket Price is 10 Stems.
+
+2/9   VE Raffle ends.  Eris wins 0.3, Steve wins 1.1, and OscarMeyr wins 0.3.
+
+2/22  Auction begins for 1 Papyrus.  Minimum bid is a google (10^100) Stems.
+
+3/1   Raffle begins for 3 Indulgences.  Ticket Price is 13 Stems.
+
+3/4   Raffle announced for 0.3 VEs, but it is invalid because the number of
+        items was not announced.
+
+3/5   Raffle begins for 3 lots of 0.1 VE each.
+
+      Looting Auction begins for neil.  Starting bid is 4 Indulgences.  E
+        possesses 1 Indulgence, 1 Papyrus, 32 Stems, and 0.5 VEs.
+
+3/8   Papyrus Auction ends with no valid bids.
+
+3/9   Indulgence Raffle ends.  Steve wins 2 and Eris wins 1.
+
+      Looting Auction begins for Craig.  Starting bid is 2.5 Indulgences.  E
+        possesses 1 Papyrus, 41 Stems, 0.4 VEs, and 1 Poncho.
+
+Looting Auction for Craig
+----------
+3.0 Steve - cancelled
+2.5 Sir Toby - cancelled
+2.5 Steve
+
+Looting Auction for neil
+----------
+4 Sir Toby
+
+Raffle for 3 x 0.1 VE beginning 3/5
+----------
+10 Michael
+ 4 Steve
+ 2 root
+ 2 OscarMeyr
+ 1 Maud
+ 1 Sherlock
+
+Raffle for 3 Indulgences beginning 3/1
+----------
+3 Steve
+2 Eris
+1 Anemocrats - Rule 1984 only allows active Players to buy tickets
+1 RedKnight
+
+Auction for 1 Papyrus beginning 2/22
+----------
+5 RedKnight (below minimum)
+
+Raffle for 18 x 0.1 VE beginning 2/3
+----------
+11 Steve
+ 3 Eris
+ 3 OscarMeyr
+
+Auction for 8 Papyri beginning 1/21
+----------
+25 OscarMeyr
+15 Goethe
+10 Goethe
+ 6 OscarMeyr
+ 6 OscarMeyr
+ 6 OscarMeyr
+ 6 OscarMeyr
+ 6 OscarMeyr
+ 5 Goethe
+ 5 Goethe
+ 4 Steve
+ 4 Steve
+ 4 Steve
+ 3 Goethe
+ 3 Goethe
+ 2 Goethe
+ 1 Goethe
+
+Raffle for 11 x 0.1 VE beginning 1/5
+----------
+22 Eris
+11 Steve
+ 8 Murphy
+ 6 Michael
+ 6 RedKnight
+ 4 OscarMeyr
+ 2 Cecilius
+
+Raffle for 7 Indulgences beginning 1/4
+----------
+2 Eris
+2 Sir Toby
+1 OscarMeyr
+1 Steve
+1 Pakaran
+
+
+TECTONIC ACTIVITY
+-----------------
+
+Movement:
+
+1/15  OscarMeyr  - (+5,  0) (unsuccessful; it became Aether earlier)
+1/23  OscarMeyr  - (+3,  0)
+1/23  OscarMeyr  - (+2,  0)
+1/23  OscarMeyr  - (+1,  0)
+1/23  OscarMeyr  - ( 0,  0)
+1/23  OscarMeyr  - (-1,  0)
+1/23  OscarMeyr  - (-1, -1)
+1/26  Pakaran    - (+1, -4) (unsuccessful; it had not yet become Black)
+2/3   Pakaran    - (+1, -4)
+2/5   Steve      - ( 0,  0)
+2/11  Eris       - (+3, -4)
+2/11  Eris       - (+2, -4)
+2/11  Eris       - (+1, -4)
+2/12  Steve      - (-1,  0)
+2/12  Anemocrats - (-1,  0)
+2/12  Sir Toby   - (+2, +4)
+2/12  RedKnight  - ( 0, -1)
+
+Changing the Land Type of Aether:
+
+1/9   Murphy    - (-4, -5) - White (random adjacent)
+1/14  Sir Toby  - (+4, -2) - Black (chosen)
+1/23  Steve     - (+3, -2) - White (chosen)
+1/26  Pakaran   - (+1, -4) - Black (random adjacent)
+2/3   Pakaran   - ( 0, -4) - White (random adjacent)
+2/3   Pakaran   - (  n/a ) - n/a   (unsuccessful, not enough Action Units)
+2/6   OscarMeyr - (-1, -2) - Black (random adjacent)
+2/6   OscarMeyr - (-2, -1) - White (random adjacent)
+2/12  Sir Toby  - (+7, +2) - White (chosen)
+
+Changing the Land Type of one's own Land:
+
+1/15  OscarMeyr  - (+5,  0) - Black (unsuccessful; no longer eir Land)
+1/23  Steve      - (+3, +2) - White
+2/5   Steve      - (+2, -2) - White
+2/5   Steve      - (+1, -1) - White
+2/5   Steve      - (+2, +2) - White
+2/5   Anemocrats - (+4,  0) - White
+2/13  Steve      - (+4, -1) - White
+2/13  Steve      - (+3,  0) - White
+2/13  Steve      - (+3, +1) - White
+
+Changing the Land Type of one's own Location (Aether owned by Land Bureau):
+
+1/15  Peekee - ( 0, +2) - Black (unsuccessful; owned by Steve)
+2/11  Eris   - (+1, -4) - White
+
+Transfers:
+
+1/14  (+4, +6) from Sir Toby to the Order of the Evil Eye
+1/15  (+6, +2) from OscarMeyr to the Land Bureau
+1/15  (+5, +3) from OscarMeyr to the Land Bureau
+1/15  (+5, +2) from OscarMeyr to the Land Bureau
+1/15  (+4, +2) from Steve to the Land Bureau
+1/15  (+3, +3) from Steve to the Land Bureau
+1/15  (+3, -2) from Steve to the Land Bureau
+1/23  ( 0, -1) from AgorEx to the Anemocrats
+1/23  (+3, +2) from the Anemocrats to Steve
+2/5   (+4,  0) from Steve to the Anemocrats
+2/5   (+4,  0) from the Anemocrats to Steve
+2/15  (+3, -1) from OscarMeyr to the Land Bureau
+2/15  (+2, -1) from OscarMeyr to the Land Bureau
+2/15  (+2,  0) from Goddess Eris to the Land Bureau
+2/15  (+2, +1) from Goddess Eris to the Land Bureau
+2/15  (+1,  0) from OscarMeyr to the Land Bureau
+2/15  (+1, +1) from OscarMeyr to the Land Bureau
+2/20  (+6, +3) from Steve to the Anemocrats
+2/20  ( 0, -1) from Steve to the Anemocrats
+
+Other changes:
+
+1/15  (+6, +2) is transformed to Aether
+1/15  (+5, +3) is transformed to Aether
+1/15  (+5, +2) is transformed to Aether
+1/15  (+5,  0) is transformed to Aether
+1/15  (+4, +2) is transformed to Aether
+1/15  (+3, +3) is transformed to Aether
+1/15  (+3, -2) is transformed to Aether
+2/15  (+3, -1) is transformed to Aether
+2/15  (+2, -1) is transformed to Aether
+2/15  (+2,  0) is transformed to Aether
+2/15  (+2, +1) is transformed to Aether
+2/15  (+1,  0) is transformed to Aether
+2/15  (+1, +1) is transformed to Aether
+
+Vickrey Auctions beginning 2/22
+----------
+(+1, +3) [White] Auction ended with no bids
+(+1, +4) [Black] Auction ended with no bids
+(+5, -1) [Black] Auction ended with no bids
+(+3, +5) [Black] Auction ended with no bids
+(-2, +1) [Black] Auction ended with no bids
+(-4, -5) [White] Auction ended with no bids
+(+4, -2) [Black] Auction ended with no bids
+(+3, -2) [White] Auction ended with no bids
+(+1, -4) [White] Auction ended with no bids
+( 0, -4) [White] Auction ended with no bids
+
+Vickrey Auctions beginning 1/14
+----------
+(+2, +3) [Black]  0.25 Steve, 0.2 Sir Toby (transferred 2/3)
+(+5, +9) [White]              0.2 Sir Toby (transferred 1/23)
+(+4, +1) [Black]  0.25 Steve, 0.2 Sir Toby (transferred 2/3)
+(-3,  0) [White]  0.25 Steve, 0.2 Sir Toby (transferred 2/3)
+(+7, +2) [Black]              0.2 Sir Toby (transferred 1/23)
+(+6, +1) [Black]  0.25 Steve, 0.2 Sir Toby (transferred 2/3)
+(+2, +4) [White]              0.2 Sir Toby (transferred 1/23)
+(+3, -3) [Black]  0.25 Steve, 0.2 Sir Toby (transferred 2/3)
+(+1, -3) [White]              0.2 Sir Toby (transferred 1/23)
+(+6,  0) [Black]              0.2 Sir Toby (transferred 1/23)
+
+
+IN OTHER NEWS
+-------------
+
+1/13  Maud becomes a Scribe.
+
+1/15  Eris expunges eir Blots (eliminating a Win-Preventing Condition) and Wins
+        (e is SemiGenius).
+
+      Steve dissolves the Bandwagon Contest.
+
+1/17  Goethe dissolves the Contest "Support Your Secret Leader".
+
+1/21  Blob registers.
+
+      RedKnight attempts to make Craig Quiet.  This fails because Craig is
+        Inactive.
+
+1/26  Silent Treatment begins for neil, who has been Quiet for one month.
+
+      Murphy destroys and re-creates the Currency of Ponchos, in case eir
+        previous failure to specify MUQ made the first attempt ineffective.
+
+1/29  Sherlock registers.
+
+      Maud reveals that "Annabel" was em all along, and thus that e has been
+        deregistered since October 1, 1999, and thus that Proposal adoptions
+        announced by em as Assessor were ineffective, and thus that the
+        Gamestate is radically different from what we thought it was.  The
+        stock market plunges 574 points as a consequence.  (Okay, the previous
+        sentence is false.)
+
+      Maud registers.  E then assumes total control of Agora, but promises to
+        give up control voluntarily after one week.  (Okay, the previous
+        sentence is also false.)
+
+1/30  Maud sends a message from Annabel's e-mail address to prove eir claim
+        of identity.  (The previous sentence is true.)
+
+      Goethe Rebels.
+
+1/31  Goethe corrects some Currency transfers involving Support Your Secret
+        Leader (including giving some of eir own Currency to the Contest so it
+        can satisfy its obligations, and destroying some of its Currency that
+        cannot be evenly divided) and then dissolves it.  For real, this time.
+
+      Goethe creates "no contest".
+
+2/2   root becomes a Scribe.
+
+      Silent Treatment begins for Craig, who has been Inactive for three
+        months.
+
+2/3   Weather for February is Foul.
+
+2/10  Sherlock becomes Ready.
+
+      root creates root's Bouncy Ball Contest.
+
+      root creates the Contest "Scribes' Collegium".
+
+2/11  root renames "Scribes' Collegium" to "Distinguished Scribes' Collegium
+        of Interspatial Physics".
+
+2/14  Goethe creates the Contest "Goethe's Fast Tax Preparation Service and
+        Taco Stand".
+
+      Goethe, with Eris's support, reduces the Foul Weather Factor from 6
+        to 0.9.
+
+      Steve announces eir intent to levy a 40% Stem tax.
+
+      Sir Toby Rebels.
+
+2/15  Eris creates the Contest "The Divine Tax Shelter", then dissolves it.
+
+2/16  OscarMeyr names Murphy as the new Vizier of Regroup.
+
+2/17  Murphy consents to be the new Vizier of Regroup.
+
+2/18  Goethe announces eir intent to have the Bank mint 0.401 VEs.  Steve and
+        root support this.
+
+2/19  Goethe has the Bank mint 0.401 VEs.
+
+2/20  Steve levies a 40% Stem tax.
+
+3/2   neil is deregistered; e has been Silent for one month.
+
+3/3   Steve submits a Will for the Anemocrats:  transfer its Bank Currencies to
+        Steve, and its non-Bank Currencies to their Mintors.
+
+3/4   Sherlock creates the Contest "Sherlock's Cafe Americain".  (See
+        Proto-Proposal "Wagers".)
+
+      Weather for March is Plenty.
+
+      root creates "root's Pay Out Scam Contest".  (See CFJ 1453.)
+
+3/9   The Contest "Life" dissolves.
+
+      Adoption of Proposal 4453 causes Groups to dissolve.  All four possess
+        some Property, and are thus Dissolute.
+
+      Notary Sir Toby transfers / intends to transfer Dissolute Property:
+        28 Stems from Craig to Bank (tax debt)
+        2 Stems from Order of the Evil Eye to Bank (tax debt)
+        2 Stems from Regroup to Bank (tax debt)
+        2 Stems from X Group to Bank (tax debt)
+        1 Poncho from Anemocrats to Murphy (Will)
+        intend 1 Poncho from favor to Bank
+        intend Land (0, -1) and (6, 3) from Anemocrats to Bank
+          (they were previously transferred to Steve)
+        intend 8 Stems from Order of the Evil Eye to Bank
+        intend Land (4, 6) from Order of the Evil Eye to Bank
+        intend 3 Stems from Regroup to Bank
+        intend 3 Stems from X Group to Bank
+
+3/11  Scorekeepor OscarMeyr assigns Players to Teams:
+        Bleethan (Blob, Peekee, RedKnight, Sir Toby)
+        Dovesdar (Cecilius, Michael, root, Steve)
+        Kinhatis (Eris, Goethe, Murphy, Oerjan, Pakaran)
+        Sliehough (Maud, OscarMeyr, Sherlock, t)
+
+3/12  AgorEx OffShore dissolves.
+
+3/13  Manu registers and is assigned to Team Sliehough.
+
+3/14  Peekee creates "The Evil Scam Contest".  (See CFJ 1455.)
+
+      Sir Toby creates "Sir Toby's anti-Peekee Contest".
+
+
+TRADE OFFERS
+------------
+
+Player      Date      Will sell         In return for
+-----------------------------------------------------------------------
+Eris        11/17/02  Land              VEs / Negotiable
+Eris        01/26/03  1 Poncho          5 Indulgences
+Goethe      03/12/03  0.008 VEs         1 Stem each, up to 40 lots
+Goethe      03/12/03  0.04 Indulgences  1 Stem each, up to 4 lots
+Goethe      03/12/03  0.125 Papyri      1 Stem each, up to 6 lots
+Goethe      03/12/03  1 Bouncy Ball     5 Stems each, up to 2 lots
+Goethe      03/12/03  1 Stem            0.01 VEs each, up to 50 lots
+Goethe      03/12/03  1 Stem            0.04 Indulgences each, up to 25 lots
+Goethe      03/12/03  1 Stem            0.125 Papyri each, up to 25 lots
+Goethe      03/12/03  4 Stems           1 Bouncy Ball each, up to 5 lots
+OscarMeyr   09/22/02  Oligarch Votes    Rubberstamp eir Proposals
+Peekee      09/10/02  Stem transfers    Negotiable
+Peekee      11/28/02  Game help         Currency / Game help
+Peekee      11/28/02  Rubberstamping    Currency / Game help
+Peekee      11/28/02  Votes             Currency / Game help
+Peekee      11/28/02  0.13 Indulgences  1 Unit of Land
+Peekee      11/28/02  2 Stems           1 Unit of Land
+Peekee      11/28/02  15 Stems          1 Indulgence
+Peekee      11/28/02  1 Indulgence      20 Stems
+Peekee      11/28/02  15 Stems          0.1 VE
+Peekee      11/28/02  0.1 VE            25 Stems
+RedKnight   10/14/02  Oligarch Votes    VEs
+
+* Goethe's Taco Stand may be used to transfer Stems
+* Peekee's offers are non-binding
+* Peekee's Grubbing Contest may be used to transfer Stems
+
+
+ERRATA
+------
+
+"CFJ 1424" in the last Journal was retracted before being assigned a number.
+  (Cecilius, 1/11)
+
+
+--
+Ed Murphy <emurphy42@socal.rr.com>          "I'm not sure I can go through
+http://members.fortunecity.com/emurphy/      with it.  Leave, I mean."

@@ -1,0 +1,179 @@
+Voting Results
+
+This Report:  Wed 15 Jun 2005 (Proposals 4799 - 4804)
+Last Report:  Mon  6 Jun 2005 (Proposals 4787 - 4798)
+(All times given in UTC)
+
+Start of voting period: Wed  8 Jun 01:56:01 2005
+  End of voting period: Wed 15 Jun 01:56:01 2005
+
+O = Ordinary                            s = Sane
+D = Democratic      u = Urgent          t = Takeover
+
+Number    Title                         Author    AI   Flags    Result
+-----------------------------------------------------------------------
+4799      Not Your Turn No More         root      1    D        Adopted      
+4800      option 2.1                    Quazie    1    D        Adopted      
+4801      The Envoy                     Sherlock  1    D        Adopted      
+4802      How to Join Agora             Maud      2    D        Adopted      
+4803      How Low Can You Go?           Sherlock  1    O        Failed quorum
+4804      The Taupe Repairs             Maud      1    D        Adopted      
+
+Note: I have already published a Notice of Complacency for proposal
+4803.  However, I am apparently still required to publish the votes
+cast on the proposal.
+
+                4799  4800  4801  4802  4803  4804  
+
+Goethe            A     F     -     F    3F     F  
+Manu              A     F     F     F     F     F  
+Maud              F           F     F           F  
+Michael           F     A     A     F           F  
+Murphy            A     F     F     P           P  
+OscarMeyr         F     A     F     F           F  
+Sherlock          F     F     F     F           F  
+
+FOR               4     4     5     6     4     6  
+AGAINST           3     2     1     0     0     0  
+ABSTAIN           0     0     1     0     0     0  
+Present           0     0     0     1     0     1  
+
+Voting Index   1.33     2     5     U     U     U  
+Adoption Index    1     1     1     2     1     1  
+
+Voters            7     6     7     7     2     7  
+Quorum (D:8/3) 2.66  2.66  2.66  2.66     3  2.66  
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4799 by root, AI=1, Democratic
+Not Your Turn No More
+
+
+Upon adoption of this proposal, each Gambler other than the Deck gains
+one pending draw for each copy of "Not Your Turn" in eir hand.
+
+Upon adoption of this proposal, the Deckmastor's budget is amended by
+deleting the quota for "Not Your Turn".
+
+Amend Rule 2076 by deleting the text that reads:
+
+      Caption:  Not Your Turn
+      Elements: Budgeted, Delayed[2]
+      Exploit:  You may specify a card play that has occurred
+                in the past 48 hours, and (1) that card shall be
+                deemed to have not been played, and (2) the gambler
+                who originally played that card may not play a copy
+                of that card for the next 72 hours.
+
+----------------------------------------------------------------------
+
+Proposal 4800 by Quazie, AI=1, Democratic
+option 2.1
+
+
+Goethe is a co-author on this proposal
+
+Amend Rule 2076 by replacing the text that reads:
+
+     Caption:  Not Your Turn
+     Elements: Budgeted, Delayed[2]
+     Exploit:  You may specify a card play that has occurred
+               in the past 48 hours, and (1) that card shall be
+               deemed to have not been played, and (2) the gambler
+               who originally played that card may not play a copy
+               of that card for the next 72 hours.
+
+ with
+
+
+     Caption:  Not Your Turn
+     Elements: Budgeted, Delayed[2]
+     Exploit:  You may specify a card play that has occurred
+               in the past 48 hours, and (1) that card shall be
+               deemed to have not been played, and (2) the gambler
+               who originally played that card may not play a copy
+               of that card for the next 72 hours.  If playing this
+               card directly leads to a condition which would
+               retroactively nullify its own play, the play is
+               ineffective.
+
+----------------------------------------------------------------------
+
+Proposal 4801 by Sherlock, AI=1, Democratic
+The Envoy
+
+
+Create an Agoran Contract entitled "The Envoy" with the regulations:
+ 
+      This is an Agoran Contract between Agora and the Speaker.
+       
+      The person who is most responsible for advertising Agora and
+      soliciting new Players, in the opinion of the Speaker, shall be
+      known as the Envoy.  Any changes in the identity of the Envoy
+      shall take effect when announced publicly by the Speaker.
+
+      The Envoy shall advertise Agora on a regular basis in any
+      non-Agoran public forums e deems appropriate.
+
+----------------------------------------------------------------------
+
+Proposal 4802 by Maud, AI=2, Democratic
+How to Join Agora
+
+
+Repeal rule 2094 (Corporate Players).
+
+Change the title of rule 869 (Registered Players) to "How to Join
+Agora", and amend it to read:
+
+      A person who is not currently registered as a player and is not
+      prohibited from registering may become a registered player by
+      sending a message to a public forum which sets forth eir intent
+      to register.
+
+Amend rule 1677 (Honoring the New) to read:
+
+      Readiness is a stuck player switch with values unready and
+      ready.  A player may flip eir readiness to ready.
+
+      Whenever a player registers who has not been registered within
+      the previous year, e becomes unready and is subject to a Grace
+      Period beginning immediately and lasting for sixty days, not
+      including Holidays.  At the end of eir Grace Period, e becomes
+      ready.
+
+      As soon as possible after the beginning of a player's Grace
+      Period, the Registrar shall announce eir arrival.  This
+      announcement shall have the effect of setting that player's
+      kudos to twice the Tabla Rasa.
+
+      If a player joins the game, but is neither subject to a Grace
+      Period nor has been a player at any time since the last Turning
+      of a New Parchment, then the Herald shall set eir kudos to half
+      the Tabla Rasa (rounded up).
+
+----------------------------------------------------------------------
+
+Proposal 4804 by Maud, AI=2, Democratic
+The Taupe Repairs
+
+
+Amend rule 1658 (Tainting the Speaker) to read:
+
+      The person holding the position of Speaker is untainted as long
+      as e holds that position lawfully.
+
+Amend rule 1963 (Eligible Shareholders) to read:
+
+      A player is an eligible shareholder unless e is not active, has
+      three or more blots, or is the Speaker.
+
+----------------------------------------------------------------------
+
+-- 
+C. Maud Image (Michael Slone)
+It is axiomatic that any position can be made to appear absurd by
+taking it to extremes.
+                -- Kelly, in agora-discussion

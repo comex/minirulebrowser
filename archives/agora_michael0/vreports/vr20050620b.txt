@@ -1,0 +1,805 @@
+Voting Results
+
+This Report:  Mon 20 Jun 2005 (Proposals 4811 - 4815)
+Last Report:  Mon 20 Jun 2005 (Proposal  4810)
+(All times given in UTC)
+
+Start of voting period: Mon 13 Jun 19:52:28 2005
+  End of voting period: Mon 20 Jun 19:52:28 2005
+
+O = Ordinary                            s = Sane
+D = Democratic      u = Urgent          t = Takeover
+
+Number    Title                         Author    AI   Flags    Result
+-----------------------------------------------------------------------
+4811      The Cobalt Repeals            Maud      3    D        Adopted      
+4812      How Low Can You Go?           Sherlock  1    O        Adopted      
+4813      How Lower Can You Go          Sherlock  1    O        Adopted      
+4814      How Lowest Can You Go         Sherlock  1    O        Adopted      
+4815      Really, 200 Rules is Enough   Sherlock  1    O        Adopted      
+
+                4811  4812  4813  4814  4815  
+
+Goethe            F    3F    3F    3F    3F  
+Manu              F     F     F     A     A  
+Maud              F                          
+OscarMeyr         P                          
+Sherlock          F    2F    2F    2F    2F  
+root              F                          
+
+FOR               5     6     6     5     5  
+AGAINST           0     0     0     1     1  
+ABSTAIN           0     0     0     0     0  
+Present           1     0     0     0     0  
+
+Voting Index      U     U     U     5     5  
+Adoption Index    3     1     1     1     1  
+
+Voters            6     3     3     3     3  
+Quorum (D:9/3)    3     3     3     3     3  
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4811 by Maud, AI=3, Democratic
+The Cobalt Repeals
+
+
+      Upon reading this, a most curious sensation overcame me.
+                -- Sherlock, in agora-discussion
+
+Goethe is a coauthor of this proposal.
+
+Section 0.  Agoran decisions.
+
+Change the power of rule 693 (Prescribed Voting Period) to 3.
+Change the title of rule 693 to "Agoran Decisions", and amend it to
+read:
+
+      When the rules calls for an Agoran decision to be made, the
+      decisionmaking process takes place in the following three
+      stages:
+
+      (a) Initiation of the decision: The decisionmaking process
+          begins when a person authorized to initiate the decision
+          announces the matter to be decided, including any additional
+          information the rules require to be in that announcement.
+
+      (b) Voting of the people: Immediately thereafter, the voting
+          period for the decision begins.  During the voting period,
+          eligible voters may vote on the matter, as described
+          elsewhere.
+
+      (c) Resolution of the decision: After the voting period for the
+          decision ends, any person authorized by the rules to resolve
+          the decision may announce that the matter has been decided,
+          specifying the option selected by Agora.
+
+Change the title of rule 107 (Rule Changes Must Be Written Down) to
+"Initiating Agoran Decisions", and amend it to read:
+
+      An Agoran decision is initiated when a person authorized to
+      initiate it publishes a valid notice which sets forth the intent
+      to initiate the decision.  To be valid, this notice must contain
+      the following information:
+
+      (a) The matter to be decided (for example, "the election for
+          Scorekeepor" or "the adoption of proposal 4781").
+
+      (b) A description of the class of eligible voters sufficient to
+          enable public agreement on which persons are eligible.  In
+          particular, an explicit list of the eligible voters is
+          always sufficient for this purpose.
+
+      (c) The identity of the vote collector.
+
+      (d) Any additional information required by the rules for this
+          announcement.
+
+      The publication of such a valid notice initiates the voting
+      period for the decision.  By default, the voting period lasts
+      for seven days.  This rule takes precedence over any rule which
+      would require a voting period for some decision to be shorter
+      than seven days.
+
+Change the power of rule 683 (Voting on Proposals) to 3.
+Change the title of rule 683 to "Voting on Agoran Decisions", and
+amend it to read:
+
+      An eligible voter on a particular Agoran decision submits a
+      ballot to the vote collector by publishing a valid notice
+      indicating which one of the available options e selects.  To be
+      valid, the ballot must satisfy the following conditions:
+
+      (a) The ballot is submitted by an eligible voter during the
+          voting period for the decision.
+
+      (b) The ballot clearly identifies the matter to be decided.
+
+      (c) The ballot clearly identifies the option selected by the
+          voter.
+
+      (d) The voter has not publicly retracted the ballot during the
+          voting period.
+
+      The strength of an option is the number of valid ballots
+      selecting that option.
+
+      Other rules may place further constraints on the validity of
+      ballots.  This rule takes precedence over any rule that would
+      loosen the constraints specified by this rule.
+
+Change the power of rule 208 (End of the Voting Period) to 3.
+Change the title of rule 208 to "Resolving Agoran decisions", and
+amend it to read:
+
+      The vote collector for a particular Agoran decision is
+      authorized to resolve that decision, and does so by publishing a
+      valid notice which states that the matter has been resolved,
+      indicating the option selected by Agora.  To be valid, this
+      notice must satisfy the following conditions:
+
+      (a) It is published after the voting period has ended.
+
+      (b) It clearly identifies the matter to be resolved.
+
+      (c) It clearly identifies the options available.
+
+      (d) It specifies which option was selected by Agora, as
+          described elsewhere, and provides a tally of the voters'
+          valid ballots on the various options.
+
+      Each Agoran decision shall have at most one vote collector at a
+      time.  The identity of the vote collector is set by the message
+      initiating the decision, and can only be changed as specified by
+      other rules with power at least as great as that of this rule.
+
+      This rule takes precedence over any rule that would provide
+      another mechanism by which an Agoran decision may be resolved.
+
+Change the title of rule 955 (Votes Required to Adopt a Proposal) to
+"Determining the Will of Agora", and amend it to read:
+
+      To determine which option on a particular Agoran decision was
+      selected by Agora, the vote collector shall perform the
+      following steps in order after the voting period has ended.
+
+      (a) E shall invalidate any ballots which the rules require em to
+          invalidate, and no others.
+
+      (b) E shall count the number of distinct voters who submitted
+          ballots which remain valid.  If this number is less than the
+          quorum and there is more than one available option, then the
+          option selected by Agora is FAILED QUORUM.  Otherwise, the
+          decision achieved quorum.
+
+      (c) If the decision is whether to adopt a proposal or
+          referendum, e shall determine the voting index as follows:
+
+          (1) if the strength of FOR is positive and the strength of
+              AGAINST is zero, then the voting index is Unanimity; but
+
+          (2) if the strength of FOR is zero, then the voting index is
+              zero; otherwise,
+
+          (3) the voting index is the ratio of the strength of FOR to
+              the strength of AGAINST.
+
+          If the voting index exceeds one and meets or exceeds the
+          adoption index of the decision, and if further quorum was
+          achieved, then the option selected by Agora is ADOPTED.
+          Otherwise, the option selected by Agora is REJECTED.
+
+      (d) If the decision is an election, then as long as quorum is
+          achieved, the vote collector has the privilege to choose any
+          option the strength of which meets or exceeds that of any
+          other option to be the option selected by Agora.
+
+Change the power of rule 1950 (Voting Power) to 3.
+Change the title of rule 1950 to "Voting Limits", and amend it to
+read:
+
+      The voting limit of an eligible voter on a referendum or an
+      election is always one and cannot be changed.
+
+      The voting limit of an eligible voter on a non-ordinary proposal
+      is one.
+
+      The voting limit of an eligible voter on an ordinary proposal is
+      the sum of:
+
+      (a) one;
+
+      (b) eir Share Holdings; and
+
+      (c) the minimum of three and the number of Share cards in the
+          Deck, if e is the Deckmastor.
+
+      After the voting period for an Agoran decision has ended, the
+      vote collector shall permit the first valid ballots submitted by
+      an eligible voter to remain valid, up to a number equal to that
+      person's voting limit on that decision as determined when the
+      voting period for that decision began, and shall invalidate all
+      subsequent ballots submitted by that voter on that decision.
+
+Enact a rule with power 3, titled "Replacing the Vote Collector", and
+reading: 
+
+      If the rules indicate that an office is to be responsible for
+      collecting votes on a particular Agoran decision, then the
+      holder of that office is the default vote collector for that
+      decision.
+
+      The vote collector for a particular Agoran decision is tardy if
+      and only if the voting collector has continuously held that role
+      for at least seven days following the end of the voting period
+      and the decision has not yet been resolved.  If a vote collector
+      is tardy, then the first player to announce that e takes up the
+      role of vote collector becomes the vote collector for that
+      decision.
+
+      This rule takes precedence over any rule that would allow the
+      vote collector for an Agoran decision to be changed.
+
+Amend rule 879 (Quorum) to read:
+
+      The quorum for an Agoran decision is one third the number of
+      eligible voters, rounded up, with a minimum of five (unless
+      there are fewer than five eligible voters, in which case the
+      quorum level is the number of eligible voters).
+
+Amend rule 2045 (Adoption Indices) to read:
+
+      When a decision on whether to adopt a proposal or referendum is
+      initiated, it shall be assigned an adoption index, which shall
+      be one unless otherwise specified.  Once the voting period for a
+      decision has begun, the adoption index of that decision can only
+      be changed by the Speaker's veto.
+      
+Amend rule 2034 (Voting Protection and Cutoff for Challenges) to read:
+
+      Any proposal that, as all or part of its effect, would change
+      the validity of one or more of a voter's ballots on an Agoran
+      decision whose voting period has begun but which has not yet
+      been resolved shall be wholly without effect, any rule to the
+      contrary notwithstanding.
+
+      Once an Agoran decision has been resolved, no ballots on that
+      decision may be validly submitted or retracted, and the outcome
+      of the decision may not be changed in any way, any rule to the
+      contrary notwithstanding.  Nothing in this rule shall be
+      construed as preventing the correction of errors in reporting
+      the resolution of an Agoran decision.
+
+      If the success of the resolution of an Agoran decision is not
+      challenged within one week from the time the vote collector
+      announces it, then the announced result is the true result of
+      that decision, even if it would otherwise be in error.
+
+Section 1.  Referenda and Elections.
+
+Change the power of rule 1434 (Default Procedure for Referendum
+Voting) to 2, and amend it to read:
+
+      Determining whether to adopt a referendum is an Agoran decision.
+      For this decision, the available options are FOR, AGAINST, and
+      PRESENT, and the eligible voters are the players.
+
+      If the option selected by Agora on this decision is ADOPTED,
+      then the referendum is adopted, and unless other rules prevent
+      it from taking effect, it takes effect.  It does not otherwise
+      take effect.  This rule takes precedence over any rule which
+      would permit a referendum to take effect.
+
+Enact a rule, titled "Nominations for Election", reading:
+
+      A person is a nominator and a prospective in an election only if
+      e is an active player.  The rules may further restrict validity
+      of nominators and prospectives.
+
+      A nominator nominates a prospective in a specified election by
+      announcement.  That nominator may publicly retract eir
+      nomination of that prospective.
+
+      A prospective may publicly decline eir nomination; if e does so,
+      e may not be further nominated in that election.
+
+      A nominee in an election is a prospective who has been nominated
+      and whose nomination has not been retracted or declined.
+
+Change the title of rule 1764 (Modes of Voting) to "Modes of
+Nomination", and amend it to read:
+
+      There are three modes of nomination for elections: selfless,
+      selfish, and open.  If the player who initiated the election
+      does not specify the mode of nomination for an election, it is
+      selfish.
+
+      (1) In a selfless election, any nominator may nominate any
+          prospective besides emself.
+
+      (2) In a selfish election, any nominator who is a prospective
+          may nominate emself.
+
+      (3) In an open election, any nominator may nominate any
+          prospective.
+
+Amend rule 1445 (Defaults for Elections) to read:
+
+      When the rules require a player to hold an election, e shall
+      perform the following actions in order, beginning as soon as
+      possible:
+
+      (a) E shall publish a call for nominees, optionally specifying
+          the mode of nominations for the upcoming election.  One week
+          later, if there are no nominees, e shall repeat this step in
+          its entirety.
+
+      (b) E shall initiate an election, which is an Agoran decision.
+          For this decision:
+
+          (1) The available options are the nominees.  Eir
+              announcement initiating the election must indicate the
+              available options.
+
+          (2) The eligible voters are the active players.
+
+          (3) E is the vote collector.
+
+          (4) If the vote collector has not yet resolved the election,
+              then any nominee may stand down by announcement.  When a
+              nominee stands down, e is removed from the list of
+              options for the election.
+
+      (c) The vote collector for an election is required to resolve
+          the election as soon as possible after the end of its voting
+          period.  If the option selected by Agora is a nominee, that
+          nominee is the winner of the election.  Otherwise, the
+          election has no winner.
+
+Amend rule 1558 (Defaults for Elections for Offices) to read:
+
+      When the rules require that an election be held to fill an
+      office, that election shall be conducted in accordance with the
+      usual rules for elections, with the following exceptions:
+
+      (a) If the election would be held to fill the office of
+          Associate Director of Personnel, then the election shall be
+          initiated by the Speaker; otherwise, it shall be initiated
+          by the Associate Director of Personnel.
+
+      (b) A player who is not eligible to hold the office for which
+          the election is being held is not a prospective.
+
+Amend rule 790 (Filling Vacant Offices) to read:
+
+      An election to fill an office must be held whenever:
+
+      (a) the office ceases to have an electee;
+
+      (b) the office is created without installing an electee; or
+
+      (c) an election to fill that office fails, and no election for
+          that office is in progress.
+
+      As long as an election to fill an office is in progress, no
+      other election to fill that office may be initiated.  An
+      election is in progress from the time it is initiated until it
+      is resolved.
+
+      If a player required to initiate an election fails to do so as
+      soon as possible, then any player may announce that the election
+      has failed.  Provided that this assertion is indeed correct,
+      then upon this announcement the election fails.
+
+Amend rule 1659 (The Right to Call Elections) to read:
+
+      The Speaker has the right to call elections, and e exercises
+      this right by a publishing a notice listing a number of offices
+      and declaring that e is exercising eir right to call elections
+      for these offices.  If e has not exercised this right since e
+      last became Speaker, then upon the publication of this notice,
+      the electee of each listed office is retired from office.
+
+Change the title of rule 1486 (Procedure to Impeach an Officer) to
+"Procedure for an Orderly Witch Hunt", and amend it to read:
+
+      An active player (the Witch Hunter) may hold a referendum to
+      remove an officer from office.  For this referendum:
+
+      (a) The set of eligible voters is the set of active players
+          besides the Witch Hunter and the named officer.
+
+      (b) The adoption index is 2.
+
+      (c) "BURN THE WITCH" is a synonym for "FOR".
+
+      (d) "LET THE WITCH LIVE" is a synonym for "AGAINST".
+
+      (e) "OF COURSE THE WITCH IS GUILTY, BUT I WANT TO SEE WHAT OTHER
+          PEOPLE THINK" is a synonym for "PRESENT".
+
+      If the referendum is adopted, it shall have the effect of
+      removing the named player from the named office if e is electee
+      to that office.
+
+Section 2.  Proposals.
+
+Amend rule 2019 (The Speaker's Veto) to read:
+
+      During the voting period of a non-democratic proposal, the
+      Speaker may veto it, with two support.  When e does so, the
+      adoption index of that proposal is increased by one.
+
+Amend rule 1483 (Definition of Proposals) to read:
+
+      A proposal is a document outlining changes to be made to Agora,
+      including enacting, repealing, or amending rules, or making
+      other explicit changes to the gamestate.
+
+      A legislator submits a proposal by publishing it with a clear
+      indication that it is intended to become a proposal.  As soon as
+      possible afterward, the Promotor shall add this proposal to the
+      Proposal Pool.
+
+      While a proposal is in the Proposal Pool, its proposer may
+      modify its adoption index by announcement, specifying the
+      proposal and its new adoption index.  The default adoption index
+      of a proposal is one.
+
+      All players are legislators.
+
+Amend rule 1774 (Discarding Proposals from the Pool) to read:
+
+      If a proposal in the Proposal Pool has been undistributable and
+      in the Pool for more than two weeks continuously, then the
+      Promotor may remove that proposal from the Pool by announcement.
+
+      The proposer of a proposal may remove it from the Pool by
+      announcement.
+
+Amend rule 106 (Adopting Proposals) to read:
+
+      Determining whether to adopt a proposal is an Agoran decision.
+      For this decision, the available options are FOR, AGAINST, and
+      PRESENT, and by default, the eligible voters are the active
+      players, the adoption index is the adoption index of the
+      proposal, and the vote collector is the Assessor.
+
+      If the option selected by Agora on this decision is ADOPTED,
+      then the proposal is adopted, and unless other rules prevent it
+      from taking effect, its power is set to the minimum of four and
+      its adoption index, and then it takes effect.  It does not
+      otherwise take effect.  This rule takes precedence over any rule
+      which would permit a proposal to take effect.
+
+Amend rule 1770 (Distributing Proposals) to read:
+
+      (a) The Promotor is permitted to distribute a distributable
+          proposal in the Proposal Pool at any time.
+
+      (b) During each week, the Promotor must distribute each proposal
+          which was distributable at the beginning of the week and
+          which remains distributable.
+
+      (c) If there were no proposals in the Proposal Pool at the
+          beginning of a week, then the Promotor must announce this
+          fact at some time during that week.
+
+      (d) The Promotor legally distributes a proposal by publishing it
+          accompanied by an explicit indication that it is being
+          distributed.  When a proposal is distributed, it is removed
+          from the Proposal Pool.  The distribution of a proposal
+          initiates the Agoran decision of whether to adopt the
+          proposal, as described elsewhere.
+
+      (e) The Promotor shall include with the distribution of each
+          proposal the identity of its proposer, the proposal's
+          coauthors, if any, its chamber, and its adoption index.
+          However, the failure of the Promotor to include any of these
+          with a proposal does not deprive the distribution of the
+          proposal of any legal effect.
+
+Amend rule 1952 (Making Proposals Distributable) to read:
+
+      The Promotor shall have a budget containing the per-player
+      proposal limit, which shall be a positive integer defaulting to
+      four.
+
+      Depth is a stuck proposal switch with values undistributable and
+      distributable.
+
+      A player may flip the depth of one of eir proposals in the
+      Proposal Pool to distributable by announcement as long as the
+      number of eir distributable proposals in the Pool is less than
+      the per-player proposal limit.
+
+Amend rule 1933 (A Proposal's Chamber) to read:
+
+      Chamber is a stuck proposal switch with values democratic and
+      ordinary.
+
+      An ordinary proposal with adoption index of two or greater is
+      stalled.  Rules to the contrary notwithstanding, a proposal is
+      undistributable while it is stalled.  If a proposal is
+      distributed that was stalled at the time of distribution, its
+      chamber shall immediately and automatically be flipped to
+      democratic.
+
+      While a proposal is in the Proposal Pool, its proposer may flip
+      its chamber by announcement.  This rule takes precedence over
+      any rule that would permit the chamber of a proposal to be
+      changed.
+
+Amend rule 1449 (The Assessor) to read:
+
+      The Assessor is an office; its holder is responsible for
+      receiving and announcing the results of votes on proposals.
+
+      The Assessor's weekly report shall include a list of the
+      identity and voting limit for proposals in each chamber for each
+      entity with nonzero voting power in at least one chamber.
+
+Amend rule 1688 (Power) to read:
+
+      The power of an entity is a natural number, which is zero unless
+      otherwise defined or modified according to procedures defined by
+      the rules.  An instrument is an entity with positive power.
+
+Change the title of rule 594 (Power and Proposals) to "Enactment of
+Rules", and amend it to read:
+
+      A proposal can, as part of its effect, enact a rule, specifying
+      its content and optionally specifying its power and title.  If
+      the proposal does not specify the power, the rule shall have
+      power equal to one.  If the proposal specifies the power, then
+      the rule shall have power equal to the minimum of four, the
+      power of the proposal, and the power specified by the proposal.
+      If the title is not specified, the Rulekeepor may select any
+      title e sees fit.
+
+      When a rule is enacted, the Rulekeepor shall assign it a number,
+      which must be greater than any number previously assigned, and
+      shall assign it a revision number of zero.
+
+      This rule provides the only mechanism by which rules can be
+      enacted.
+
+Change the title of rule 1322 (Effectiveness of Rule Changes) to
+"Modification of Rules", and amend it to read:
+
+      A proposal can generally, as part of its effect, modify the
+      power, title, or text of a rule with power no greater than its
+      own.  However, a proposal cannot cause a rule to have power
+      greater than its own.  Any ambiguity in a modification specified
+      by a proposal causes that modification to be void and without
+      effect.  A variation in whitespace or capitalization in the
+      quotation of an existing rule does not constitute ambiguity for
+      the purposes of this rule, but any other variation does.
+
+      When a rule is modified, the Rulekeepor shall generally record
+      an increase by one in its revision number.  If a single proposal
+      modifies a regulation several times, the Rulekeepor shall only
+      record a single increase of its revision number.
+
+      This rule provides the only mechanism by which rules can be
+      modified.
+
+Amend rule 1681 (The Logical Rulesets) to read:
+
+      There is a format of the ruleset known as the Short Logical
+      Ruleset (SLR).  In this format, each rule is assigned to a
+      category, and the rules are grouped according to their category.
+      Within a category, the ordering of rules is decided by the
+      Rulekeepor.  All existing categories must be listed, even if no
+      rules are currently assigned to the category.
+
+      The listing of each rule in the SLR must include the rule's
+      number, revision number, power, title, and text, and must also
+      include any annotations to the rule required by order.
+
+      The Rulekeepor is strongly encouraged not to include any
+      additional information in the SLR, except that which increases
+      the readability of the SLR.
+
+      There is a format of the ruleset known as the Full Logical
+      Ruleset (FLR).  In this format, rules are assigned to the same
+      category and presented in the same order as in the SLR.  The FLR
+      must contain all the information required to be in the SLR, as
+      well as a brief description of each category and any historical
+      annotations which the Rulekeepor is required to record.
+
+      The Rulekeepor is also free to include any other information
+      which e feels may be helpful in the use of the ruleset in the
+      FLR.
+
+Enact a rule with power 3, titled "Repeal of Rules", reading:
+
+      A proposal can, as part of its effect, repeal a rule with power
+      no greater than its own.  When a rule is repealed, it ceases to
+      be a rule, and the Rulekeepor need no longer maintain a record
+      of it.
+
+      This rule provides the only mechanism by which rules can be
+      repealed.
+
+Amend rule 2095 (The Assessor's Boon Duties) to read:
+
+      If a proposal is submitted and adopted during that player's
+      Grace Period, then the Assessor shall award that player the boon
+      of Prodigy.
+
+      If a proposal is adopted, and nobody voted AGAINST it, then the
+      Assessor shall award its proposer the boon of Zeitgeist.
+
+      If a proposal submitted on Guy Fawkes Day is adopted, then the
+      Assessor shall award its proposer the boon of A Penny.
+
+Section 3.  Cards.
+
+Amend rule 1932 (Shareholders and the Corporation) to read:
+
+      All cards with the Element "Shares [X]" are cumulatively known
+      as the Stock Cards.
+
+      An entity's Share Holdings is equal to the number of Shares
+      possessed by that entity. The Number of Shares is the sum of the
+      Share Holdings of all entities.
+
+      A Shareholder is an entity with positive Share Holdings.  A
+      Plebeian is a player who is not an eligible Shareholder.  The
+      Corporation is the set of all eligible Shareholders.
+
+      To be valid, a ballot on an ordinary proposal must be submitted
+      by an eligible Shareholder.
+
+Each player gains a pending draw for each copy of any of the following
+cards in eir hand:
+
+      (a) Debate-o-Matic;
+      (b) Coalition;
+      (c) Patronage;
+      (d) Policy; or
+      (e) Procedure.
+
+Amend the Deckmastor's budget by deleting the quota for each of the
+following cards:
+
+      (a) Debate-o-Matic;
+      (b) Coalition;
+      (c) Patronage;
+      (d) Policy; and
+      (e) Procedure.
+
+Amend the Twopower Cardbook by deleting the text:
+
+      * Caption:   Debate-o-Matic
+        Frequency: Common
+        Elements:  Powered [2]
+        Exploit:   Change the Chamber of any one non-Sane Proposal to
+          the Chamber of your choice, provided it is legal for that
+          Proposal to be in the named Chamber.
+
+   == Democratic Cards ==
+
+      * Caption:   Coalition
+        Frequency: Rare
+        Elementys: Grafty
+        Exploit:   You may increase or decrease the Voting Potential
+          of an indicated Player by N by paying a fee of N for
+          yourself, or 2 times N for another Player.
+
+      * Caption:   Patronage
+        Frequency: Rare
+        Elements:  Grafty, Powered [2]
+        Exploit:   You may increase or decrease the Political Charge
+          by N by paying a fee of 4 times N.  If undefined elsewhere,
+          the Political Charge is a positive integer, tracked by the
+          Assessor, which begins at 4. No fee required by the Powered
+          [X] element need be paid to activate this exploit.
+
+      * Caption:   Policy
+        Frequency: Rare
+        Elements:  Powered [2]
+        Exploit:   You may sanitize a Proposal, as described elsewhere
+          in the Rules.
+
+      * Caption:   Procedure
+        Frequency: Rare
+        Exploit:   You may abort and make undistributable any non-sane
+          Proposal.
+
+Amend rule 2067 (Cards in Play) to read:
+
+      The following Classes of Cards are defined:
+
+      * Caption: Distrib-u-Matic
+        Elements: Budgeted
+        Exploit: Cause any one Proposal to become Distributable.
+
+      * Caption: Absolv-o-Matic
+        Elements: Budgeted
+        Exploit: If you are immaculate, you may expunge
+          N blots from an entity for a fee of N-1.  Otherwise, you may
+          expunge one blot from an entity for no fee.
+
+      * Caption: Two for One
+        Elements: Budgeted
+        Exploit: For a fee of one Kudo make 2 undistributable
+          proposals, provided that each has a Distribution Cost of 1,
+          distributable.
+
+Section 4. Repeals.
+
+Repeal rule  115 (Self-Referential Rules Allowed).
+Repeal rule  376 (When Proposals Take Effect).
+Repeal rule 1036 (The Proposal Pool).
+Repeal rule 1069 (Amendment Numbers).
+Repeal rule 1274 (Definition of Indices).
+Repeal rule 1339 (Precision in Rule Changes).
+Repeal rule 1349 (Rule Numbering).
+Repeal rule 1715 (Announcing One's Presence).
+Repeal rule 1724 (Urgent Proposals).
+Repeal rule 1835 (Standing Down).
+Repeal rule 2033 (Aborting a Proposal).
+Repeal rule 2052 (Voting Potential).
+Repeal rule 2060 (Guy Fawkes Day).
+Repeal rule 2078 (Takeover Proposals).
+Repeal rule 2085 (Mute Exemption).
+Repeal rule 2102 (Extraordinary Proposals).
+Repeal rule 2103 (Sanitizing Proposals).
+
+----------------------------------------------------------------------
+
+Proposal 4812 by Sherlock, AI=1, Ordinary
+How Low Can You Go?
+
+
+Alter the rule entitled "Hard Ruleset Limits" by replacing the text
+that reads "300" with text that reads "275".
+
+----------------------------------------------------------------------
+
+Proposal 4813 by Sherlock, AI=1, Ordinary
+How Lower Can You Go
+
+
+   Change the rule entitled "Hard Ruleset Limits" to read:
+
+      If there are 250 or more Rules, and a Proposal is adopted that
+      would increase the total number of Rules, the Proposer commits
+      the Class 2 Infraction of Improper Rules Fattening, reportable
+      by anyone.
+
+----------------------------------------------------------------------
+
+Proposal 4814 by Sherlock, AI=1, Ordinary
+How Lowest Can You Go
+
+
+   Change the rule entitled "Hard Ruleset Limits" to read:
+
+      If there are 225 or more Rules, and a Proposal is adopted that
+      would increase the total number of Rules, the Proposer commits
+      the Class 2 Infraction of Improper Rules Fattening, reportable
+      by anyone.
+
+----------------------------------------------------------------------
+
+Proposal 4815 by Sherlock, AI=1, Ordinary
+Really, 200 Rules is Enough
+
+
+   Change the rule entitled "Hard Ruleset Limits" to read:
+
+      If there are 200 or more Rules, and a Proposal is adopted that
+      would increase the total number of Rules, the Proposer commits
+      the Class 2 Infraction of Improper Rules Fattening, reportable
+      by anyone.
+
+----------------------------------------------------------------------
+
+-- 
+Assessor C. Maud Image (Michael Slone)
+Holy cow!  This means "This Time to the Public Forum"!
+                -- Sherlock, in agora-discussion

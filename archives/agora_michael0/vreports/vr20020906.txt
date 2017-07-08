@@ -1,0 +1,294 @@
+Agora Nomic
+Voting Report for Proposals 4370-4376
+6 Sep 2002
+
+Current Voting Mode: Public
+===========================================================================
+Voting on Proposals 4370-4376 commenced: Mon, 26 Aug 2002 11:17:04 +1000
+Voting on Proposals 4370-4376 concluded: Mon,  2 Sep 2002 11:17:04 +1000
+
+Num. Type Proposer    AI Title                         RESULT  F  A  -  *
+4370 Dem  OscarMeyr    2 Meesa Do Typo, Meesa Fix R... PASSES  7  1  0  0
+4371 Dem  Steve        2 This Time For Sure!           PASSES 12  5  0  0
+4372 OrdD Sir Toby     1 Fix Canceling Bids...         PASSES  3  1  0  0
+4373 Ord  Sir Toby     1 Refined Movement              PASSES  3  1  0  0
+4374 Par  OscarMeyr    1 Repeal Monkhood               FAILS   1  2  -  -
+4375 Ord  RedKnight    1                               PASSES  2  2  0  0
+4376 Ord  Steve        1 Fix Birthday Gifts (v1.1)     PASSES  4  0  0  0
+===========================================================================
+
+Ordinary                                      Democratic
+              4372   4373   4375   4376                     4370   4371
+
+root          F      F      A      F          Steve         F      3F
+Sir Toby      F      F      A      F          root          2F     2F
+Michael       F      F      F      F          Eris          F      F
+OscarMeyr     A      A      F      F          Sir Toby      F      F
+                                              Michael       F      F
+                                              OscarMeyr     F,A    2F
+
+                                              Anemocrats           2F,5A
+
+FOR           3      3      2      4          FOR           7      12
+AGAINST       1      1      2      0          AGAINST       1      5
+ABSTAIN       0      0      0      0          ABSTAIN       0      0
+Present       0      0      0      0          Present       0      0
+
+Voters        4      4      4      4          Voters        4      4
+Quorum?       Y      Y      Y      Y          Quorum?       Y      Y
+PASSES?       Y      Y      Y      Y          PASSES?       Y      Y
+
+Parliamentary (see below for details)
+              4374
+
+First Estate  A
+Second Estate F
+Third Estate  A
+
+FOR           1
+AGAINST       2
+PASSES?       N
+
+======================================================================
+Miscellaneous
+======================================================================
+
+Preliminary votes on Parliamentary Proposal 4374:
+    First Estate (Acolytes): none (0-0, FAILS)
+    Second Estate (Politicians): root F, Michael F, OscarMeyr F,
+    Sir Toby A (3-1, PASSES)
+    Third Estate (Scribes): Steve F, Eris A (1-1, FAILS QUORUM [2.1])
+
+Points awards under R1930:
+    OscarMeyr 5 (1 vote AGAINST 4370) + 2 + 2 (only vote AGAINST
+                 4372 and 4373)
+    Steve     9 (5 votes AGAINST 4372D) + 5 (1 vote AGAINST 4373)
+    Sir Toby  5 (1 vote AGAINST 4373) 
+    RedKnight 6 (2 votes AGAINST 4375)
+              
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+-----------------------------------------------------------------------------
+
+Proposal 4370 by OscarMeyr, AI=2, Democratic
+
+[Correction to paragraph labeling]
+Amend Rule 1950 to read as follows:
+
+      (a) An entity's Voting Power on an Ordinary Proposal is as
+          follows:
+            (1) An Oligarch: one;
+            (2) Any other entity: zero.
+
+      (b) An entity's Voting Power on a Democratic Proposal is as
+          follows:
+            (1) A Player: one plus the number of Voting Entitlements e
+                possesses rounded down, minus one for every five Blots
+                e has, with a minimum of zero and a maximum of:
+                (a) for an Oligarch, two;
+                (b) for a non-Oligarch, five.
+            (2) The Bank: zero;
+            (3) Any other entity: as defined in the Rules, with a
+                default of zero if the Rules don't specify the Voting
+                power on a Democratic Proposal for that entity.
+
+      (c) An entity's Voting Power on a Parliamentary Proposal is as
+          follows:
+            (1) One, if the entity is one of the following:
+                (a)   The First Estate;
+                (b)   The Second Estate;
+                (c)   The Third Estate.
+            (2) Any other entity, zero.
+
+      (d) The value of an entity's Voting Power for any given Chamber
+          at the beginning of each Week shall be in effect for all
+          Proposals distributed during that Week. However, if a
+          Proposal's Chamber is changed after it has been distributed,
+          the Voting Power of each entity for that Proposal is
+          redetermined at the time the Chamber is changed.
+
+      (e) An entity may cast as many votes as e wishes on a Proposal,
+          in any combination, up to the limit determined by that
+          entity's Voting Power on that Proposal, with the exceptions
+          that:
+              (1) no Player may vote on an Ordinary Proposal unless e
+                  is an Oligarch at the time e casts eir vote.
+              (2) Votes on Parliamentary Proposals shall only be cast
+                  through specific mechanisms indicated by the Rules
+                  for each specific entity with Voting Power on
+                  Parliamentary Proposals.
+
+-----------------------------------------------------------------------------
+
+Proposal 4371 by Steve, AI=2, Democratic
+This Time For Sure!
+
+This Proposal has an AI of 2.
+
+[Comment: two recent amendments which passed but failed to take effect
+due to insufficient AI.]
+
+Amend Rule 1936 (Auctioning Positions in the Oligarchy) by deleting from
+it the text which reads:
+
+          (5) Defaulting: a winning bidder has one week from the time
+              e is billed by the Auctioneer for eir winning bid in
+              which to pay the bill. If the bill remains unpaid for
+              more than one week, then the winning bidder is
+              considered to have defaulted. In that case, the
+              Auctioneer shall forgive the debt and penalise the
+              defaulting bidder 2 Blots.
+
+
+Amend Rule 2010 (Oligarchy Upkeep) by changing the text in it which
+currently reads:
+
+      (b) If an Oligarch does not pay eir Oligarchy Upkeep within a
+          week of the GWotO's announcement of the debt, then the GWotO
+          shall forgive the Upkeep debt, and remove the Oligarch from
+          the Oligarchy.
+
+to read:
+
+      (b) If an Oligarch does not pay eir Oligarchy Upkeep within a
+          week of the GWotO's announcement of the debt, then the GWotO
+          shall remove the Oligarch from the Oligarchy, and Order the
+          Bank to forgive the Upkeep debt.
+
+-----------------------------------------------------------------------------
+
+Proposal 4372 by Sir Toby, AI=1
+Fix Canceling Bids in Vickrey Auctions - Take 2
+
+Amend Rule 1983 (Vickrey Auctions) by inserting after this text:
+
+      (b) Bidding: if a bidder has the same Executor as the Auctioneer,
+          then eir bids must be made publically. Otherwise, bidders may
+          bid either publically, or privately to the Auctioneer.
+
+the following text:
+
+      (c) Canceling Bids: if a Bidder has the same Executor as the
+          Auctioneer, then eir Bids must be canceled publically.
+          Otherwise, bidders may cancel bids either publically, or
+          privately to the Auctioneer.
+
+-----------------------------------------------------------------------------
+
+Proposal 4373 by Sir Toby, AI=1
+Refined Movement
+
+Amend Rule 2003 to read as follows:
+
+      Every week, each Player may expend up to 10 Movement Units, and an
+      Organization may expend up to 5 Movement Units, to move about in
+      the Land of Arcadia. Movement Units are not transferrable, and do
+      not persist from one week to the next.
+
+      A player makes a move by notifying the Mapkeepor of the specifics
+      of the move. So long as e does not spend more than eir allotted
+      number of Movement Units, a Player may move as many times as e
+      wishes in a single week.
+
+      When a move specifies an alternating Land Type, the Land Type
+      chosen will be based upon the Land Type used as the previous
+      alternating Land Type. The next Land Type will be the one
+      non-Aether Land Type that is defined next in the Rules, after the
+      previous Land Type. If the previous Land Type is the last Land
+      Type defined in the Rules, or if no alternating Land Type has ever
+      been picked before, the next Land Type is the first non-Aether
+      Land Type defined in the Rules. As soon as possible after a Player
+      notifies the Mapkeepor of a move that specifies an alternating
+      Land Type, the Mapkeepor must announce which Land Type was used
+      for that move.
+
+      Entities may expend:
+
+	* 2 Movement Units to move from one Land Unit to an adjacent
+	  Unit if their Land Types are the same and the destination is
+	  not Aether;
+
+	* 5 Movement Units to move from one Land Unit to an adjacent
+	  Unit if their Land Types differ and the destination is not
+	  Aether;
+
+	* 5 Movement Units to set Land Type of a Land Unit which e owns
+	  to any Land Type other than Aether, whether or not e is
+	  located at that Land Unit;
+
+	* 5 Movement Units to set the Land Type of a random Land Unit
+	  that is adjacent to the Entity's current location, is of type
+	  Aether, and is owned by the Land Bureau, to an alternating
+	  Land Type. The Mapkeepor will make the random determination.
+	  This movement has no effect if there are no qualifying Land
+	  Units. As soon as possible after a Player notifies the
+	  Mapkeepor of this move, the Mapkeepor must announce which Land
+	  Unit, if any, is changed by this movement. The change occurs
+	  at the time of the first legal announcement from the Mapkeepor
+	  declaring which Land Unit's Land Type has changed.
+
+	* 10 Movement Units to set the Land Type of the Entity's current
+	  location to any Land Type of eir choice other than Aether, if
+	  and only if the Unit is owned by the Land Bureau.
+
+	* 10 Movement Units to set the Land Type of any Land Unit that
+	  is of type Aether to an alternating Land Type.
+
+-----------------------------------------------------------------------------
+
+Proposal 4375 by RedKnight, AI=1
+<no title>
+
+Ammend Rule 1962 by replacing the paragraph reading,
+
+	Being the only Immaculate Player is a Win Condition. Upon the
+	report of such a Win, the Herald shall expunge N Blots per
+	Player, where N is the Stain of the Player(s) with the lowest
+	non-zero Stain.
+
+with the folowing paragraph
+
+	Being the only Active Immaculate Player is a Win Condition. Upon
+	the report of such a Win, the Herald shall expunge N Blots per
+	Player, where N is the Stain of the Active Player(s) with the
+	lowest non-zero Stain.
+
+-----------------------------------------------------------------------------
+
+Proposal 4376 by Steve, AI=1
+Fix Birthday Gifts (v1.1)
+
+Amend Rule 1727 (Happy Birthday) by replacing this text:
+
+      BE IT FURTHER RESOLVED that, as close as practical to Agora's
+      Birthday (June 30 at 00:04:30 GMT+1200), the Payroll Clerk
+      shall transfer 10 Stems from the Bank to each Player;
+
+      BE IT FURTHER RESOLVED that the Payroll Clerk shall transfer
+      5 Stems from the Bank to each Player who, during Agora's
+      Birthday, publicly recognizes Agora's Birthday; but no Player
+      shall receive more than one such transfer during each year's
+      Birthday Celebration.
+
+with this text:
+
+      BE IT FURTHER RESOLVED that, as soon as possible after the
+      beginning of Agora's Birthday, the Registrar shall pay out
+      10 Stems to each Player;
+
+      BE IT FURTHER RESOLVED that, as soon as possible after the
+      end of Agora's Birthday, the Speaker shall pay out 5 Stems
+      to each Player who, during Agora's Birthday, publicly
+      recognized Agora's Birthday;
+
+
+-----------------------------------------------------------------------------
+
+Assessor t
+
+   teemu korkiakangas: scurra@iki.fi . http://www.iki.fi/scurra/
+              "kunpa kaikki elämän suuret mysteerit ratkeaisivat
+                  kengurukepin ja kermapullon avulla" (don rosa)
+

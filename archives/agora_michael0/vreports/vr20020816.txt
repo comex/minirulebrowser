@@ -1,0 +1,226 @@
+Agora Nomic
+Voting Report for Proposals 4357-4364
+16 Aug 2002
+
+Current Voting Mode: Public
+===========================================================================
+Voting on Proposals 4357-4364 commenced: Mon,  5 Aug 2002 10:51:38 +1000
+Voting on Proposals 4357-4364 concluded: Mon, 12 Aug 2002 10:51:38 +1000
+
+Num. Type Proposer    AI Title                         RESULT  F  A  -  *
+4357 OrdD Sir Toby     1 Fix Contestsmaster            PASSES  3  0  0  0
+4358 OrdD Sir Toby     1 Fix Canceling Bids in Vick... PASSES  2  1  0  0
+4359 OrdD Steve        1 Fix VE Distribution           PASSES  3  0  0  0
+4360 OrdD Steve        1 Forgiveness Tweak             PASSES  3  0  0  0
+4361 Ord  Steve        1 Gratuitous Justice            PASSES  3  0  0  0
+4362 Dem  RedKnight    1 Hail Agora!                   PASSES  7  1  0  0
+4363 Dem  OscarMeyr    1 Fix FAQTP                     PASSES  5  1  0  0
+4364 Dem  Steve        1 Permitting Pay Outs           PASSES  6  3  0  0
+===========================================================================
+
+Ordinary                                     Democratic
+              4357  4358  4359  4360  4361                4362  4363  4364
+
+Sir Toby      F     F     F     F     F      Sir Toby     F     F     F
+Michael       F     F     F     F     F      OscarMeyr    F     F     F
+root          F     A     F     F     F      RedKnight    F     A     A
+                                             Michael      F     F     F
+                                             Eris               F     F
+                                             root         A     F     F
+                                             Steve        3F          F,2A
+
+FOR           3     2     3     3     3      FOR          7     5     6
+AGAINST       0     1     0     0     0      AGAINST      1     1     3
+ABSTAIN       0     0     0     0     0      ABSTAIN      0     0     0
+Present       0     0     0     0     0      Present      0     0     0
+
+Voters        3     3     3     3     3      Voters       3     3     3
+Quorum?       Y     Y     Y     Y     Y      Quorum?      Y     Y     Y
+PASSES?       Y     Y     Y     Y     Y      PASSES?      Y     Y     Y
+
+======================================================================
+Miscellaneous
+======================================================================
+
+Points awards under R1930:
+    Sir Toby 2 (1 vote AGAINST 4358)
+    RedKnight 2 (1 vote AGAINST 4362) + 2 (only vote AGAINST 4363)
+    OscarMeyr 2 (1 vote AGAINST 4363)
+    Steve 6 (3 votes AGAINST 4364)
+    root 2 (only vote AGAINST 4358) + 2 (only vote AGAINST 4362)
+
+The following Players are awarded 10 Points each for voting FOR
+conteseted proposal 4362 (R2016): Sir Toby, OscarMeyr, RedKnight,
+Michael, Steve.
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+-----------------------------------------------------------------------------
+
+Proposal 4357 by Sir Toby, AI=1
+Fix Contestsmaster
+
+Amend Rule 1990 by striking the word "Contestsmaster" and replacing it 
+with "Contestmaster".
+
+Also, amend Rule 2031 by striking the word "Contestsmaster" and
+replacing it with "Contestmaster".
+
+-----------------------------------------------------------------------------
+
+Proposal 4358 by Sir Toby, AI=1
+Fix Canceling Bids in Vickrey Auctions
+ 
+Amend Rule 1983 (Vickrey Auctions) by relabelling the paragraphs "(c)" and
+"(d)" as "(d)" and "(e)" respectively, and by inserting after this text:
+ 
+      (b) Making Bids: If the Bidder has the same Executor as the
+          Auctioneer, then the Bids must be made in a message to a
+          Public Forum. Otherwise, the Bidder may either Bid in a
+          Public Forum or privately to the Auctioneer.
+ 
+the following text:
+ 
+      (c) Canceling Bids: If the Bidder has the same Executor as the
+          Auctioneer, then the Bids must be canceled in a message to a
+          Public Forum. Otherwise, the Bidder may cancel eir Bids in a
+          Public Forum, or privately to the Auctioneer.
+
+-----------------------------------------------------------------------------
+
+Proposal 4359 by Steve, AI=1
+Fix VE Distribution
+ 
+Amend Rule 1946 (Distribution of Voting Entitlements) by changing the
+text in it which currently reads:
+ 
+      (b) The Actual Voting Entitlement Circulation Level (AVECL) is
+          the total number of Voting Entitlements owned by entities
+          other than the Bank, augmented by the total number of Voting
+          Entitlements owned by the Bank which have been auctioned off
+          to Winning Bidders in prior Voting Entitlement Auctions but
+          not yet paid for.
+ 
+to read:
+ 
+      (b) The Actual Voting Entitlement Circulation Level (AVECL) is
+          the total number of Voting Entitlements owned by entities
+          other than the Bank, augmented by the total number of Voting
+          Entitlements owned by the Bank which either:
+          (1) are already being Auctioned by the Bank in prior Voting
+              Entitlement Auctions that have not yet concluded; or
+          (2) have been auctioned in prior Voting Entitlement Auctions
+              that have concluded, but where the debts arising from
+              Winning Bids have neither been paid nor defaulted upon; or
+          (3) have been Auctioned in prior Voting Entitlement Auctions
+              that have concluded, and the debts arising from the
+              Winning Bids have been paid, but the Voting Entitlements
+              have not been transferred to the Winning Bidders.
+
+-----------------------------------------------------------------------------
+
+Proposal 4360 by Steve, AI=1
+Forgiveness Tweak
+
+Amend Rule 2010 (Oligarchy Upkeep) by changing the text in which
+curerently reads:
+
+      (b) If an Oligarch does not pay eir Oligarchy Upkeep within a
+          week of the GWotO's announcement of the debt, then the GWotO
+          shall forgive the Upkeep debt, and remove the Oligarch from
+          the Oligarchy.
+
+to read:
+
+      (b) If an Oligarch does not pay eir Oligarchy Upkeep within a
+          week of the GWotO's announcement of the debt, then the GWotO
+          shall remove the Oligarch from the Oligarchy, and Order the
+          Bank to forgive the Upkeep debt.
+
+[Comment: there's no point requiring the GWotO to forgive debts that
+only the Treasuror is empowered to forgive.]
+
+-----------------------------------------------------------------------------
+
+Proposal 4361 by Steve, AI=1
+Gratuitous Justice
+ 
+Amend Rule 1940 (Periodic Compensations) to read:
+ 
+  (a) The Rules may designate certain compensations to be periodic
+      compensations.  At the beginning of each month, each periodic
+      compensation required to be paid out shall be paid out by the
+      Officer required to do so.
+ 
+  (b) The Minimum Income, the Distributor's Gratuity, the Speaker's
+      Gratuity, and the Salary for each Office are periodic
+      compensations.
+ 
+  (c) The Payroll Clerk shall pay out the Minimum Income to each
+      Player, and shall further pay out to each Player the designated
+      Salary for each Office that Player held for at least 16 days of
+      the previous month.
+ 
+  (d) The Payroll Clerk shall pay out the Distributor's Gratuity to
+      the Distributor if the Distributor is a Player and was both the
+      Distributor and a Player for at least 16 days of the previous
+      month.
+ 
+  (e) The Registrar shall pay out the Speaker's Gratuity to a Player
+      if that Player was Speaker for at least 16 days of the previous
+      month.
+
+-----------------------------------------------------------------------------
+
+Proposal 4362 by RedKnight, AI=1
+Hail Agora!
+ 
+Agora is the BEST!
+
+-----------------------------------------------------------------------------
+
+Proposal 4363 by OscarMeyr, AI=1
+Fix FAQTP
+ 
+Amend Rule 1835 by appending to the paragraph:
+     If, at any time during the Voting Period of an Election, there
+      remains only a single Candidate, the Voting Period ends
+      immediately, with the sole remaining Candidate as the winner
+      of that Election.
+ 
+The following sentence:
+     For the purposes of Rules on awarding Points, that Election
+     shall not be considered a contested Election.
+
+-----------------------------------------------------------------------------
+
+Proposal 4364 by Steve, AI=1
+Permitting Pay Outs
+ 
+Amend Rule 1479 (Definition of "Pay Out" and Bill") to read:
+ 
+  (a) Whenever a Rule requires a Player to pay out one or more
+      Properties to some entity, the Bank shall incur a debt to that
+      entity for those Properties, and the named Player shall, as
+      soon as possible, post a public notice of the debt.
+ 
+  (b) If a Rule explicitly permits a Player to pay out one or more
+      Properties to some entity, but does not require em to do so, then
+      the Bank shall incur a debt to that entity for those Properties
+      when the Player posts a public notice of the debt.
+ 
+  (c) Whenever a Rule requires a Player to bill an entity for one or
+      more Properties, that entity shall incur a debt to the Bank for
+      those Properties, and the named Player shall, as soon as
+      possible, post a public notice of the debt.
+
+-----------------------------------------------------------------------------
+
+Assessor t
+
+   teemu korkiakangas: scurra@iki.fi . http://www.iki.fi/scurra/
+              "kunpa kaikki elÅ‰mÅ‰n suuret mysteerit ratkeaisivat
+                  kengurukepin ja kermapullon avulla" (don rosa)
+

@@ -1,0 +1,152 @@
+
+> 4195   | Poor Man's Agora v 2.0         | Syllepsis    |  1 | 28Jun01 |
+> 4196   | Fix Credit Limits              | neil         |  1 | 07Jul01 | D
+> D: Disinterested  C: Democratic  U: Urgent  S: Sane  I: Insane
+
+Voting Period Began: Date: Mon, 16 Jul 2001 21:18:50 -0400
+Voting Period Ended: Date: Mon, 23 Jul 2001 21:18:50 -0400
+
+     FOR AGAIANST ABSTAIN  RESULTS
+4195   3        0       1  PASSES/QUORUM
+4196   4        0       0  PASSES/QUORUM
+
+         4195  4196
+Michael   2F     2F
+Goethe    1F     1F
+harvel    1Ab.   1F
+root      -      -
+
+Text of Adopted Proposals:
+-------------------------------------------------------
+Proposal #4195 by Syllepsis, AI=1
+ Poor Man's Agora v 2.0
+
+ Proposal: Poor Man's Agora v 2.0
+
+ /* Note: This proposal uses C style comments */
+
+ /* History:
+
+ 0.1 Initial Proposal
+ 0.2 * Changed Monk from Patent Title to Property of a Player to
+       be recorded by the Registrar.
+     * Added method of Democratization by VE donations to Monks
+     * Removed language pertaining to AI
+     * Made it a real pain to temporarily become a Monk
+       for the purpose of one proposal.
+ 0.3 * Created the term "Sanctimonious" for determining
+       eligibility
+     * Created the Monastery to streamline Donations
+     * Created the Abbot to act on behalf of the Monastery
+     * Allowed for more stem ownership. (Since spending is hard)
+ 1.0 * Changed donation rate to 0.3 VE
+     * Allowed for group donation
+     * Grammar and Mechanics fixes
+ 1.1 * Becomes a Sane Proposal
+ 2.0 * Removed all language concerning democracy
+     * Removed sanity
+     * Destroyed the Monastery (set it on fire)
+     * Monks get half distribution cost.
+     * Lowered AI to 1
+
+
+ */
+
+
+1. Create a rule entitled "Monks" with the text:
+
+ "A player is Sanctimonious if e satisfies all of the following
+ conditiions:
+
+ 1. E is not a Zombie.
+ 2. E is not a Zombie Master.
+ 3. E possesses less than four times the Basic Officer Salary of Stems.
+ 4. E does not possess any Voting Entitlements.
+ 5. E is a Senator.
+ 6. E is not the Executor or Limited Executor of any entity other than the
+    Bank or Monastery which possesses Voting Entitlements, Zombies, or
+    Stems.
+ 7. E is Immaculate.
+
+
+ A Sanctimonious player becomes a Monk by notifying the Registrar that e
+ becomes a Monk, provided that e has been Sanctimonious for at least one
+ week. The condition of being a Monk is revoked upon the beginning of a
+ Nomic Week after the dissatisfaction of any of the aforementioned
+ conditions for at least 48 hours, if and only if a player reports this
+ dissatisfaction to the Registrar before the beginning of the week.
+ "
+
+
+3. Amend Rule 1952 by adding the following text:
+
+ " Any Monk may make any Undistributable Proposal in the Proposal Pool
+ Distributable by publicly announcing that e is doing so and Paying a Fee
+ of a number of Papyri equal to half the amount of the Distribution Cost of
+ the Proposal, rounded up. "
+
+4. Amend Rule 559 by adding the following text at the end of the Rule:
+
+ "(viii) A list of Players who are Monks."
+
+ /* This puts monk listings in the Registrar's report. */
+
+------------------------------------------------------------------------------
+
+Proposal #4196 by neil, AI=1
+Fix Credit Limits
+
+Amend Rule 1985 (``The Usuror's Budget'') by replacing the text:
+
+       (iii) The Credit Limit for Stems which is a multiple of the
+             Basic Officer Salary, between 0 and 10 inclusive.
+
+        (iv) The Credit Limit for each Bank currency, other than Stems,
+             which is a multiple of the MUQ of that Currency between 0
+             and 10 inclusive.
+
+with:
+
+       (iii) The Player Credit Limit for Stems, which is a multiple of the
+             Basic Officer Salary, between 0 and 10 inclusive.
+
+        (iv) The Non-Player Entity Credit Limit for Stems, which is a
+             multiple of the Basic Officer Salary, between 0 and 10
+             inclusive.
+
+         (v) The Player Credit Limit for each Bank currency, other than
+             Stems, which is a multiple of the MUQ of that Currency
+             between 0 and 20 inclusive.
+
+        (vi) The Non-Player Credit Limit for each Bank currency, other
+             than Stems, which is a multiple of the MUQ of that Currency
+             between 0 and 20 inclusive.
+
+
+Amend Rule 1978 (``Credit and Credit Limits'') to read:
+
+       The credit in a given currency of an entity with Bond Issuance
+       Authority is equal to the sum of the values of all Bonds owned
+       by the Bank issued by that entity with a face value in that
+       currency. The Usuror's Weekly Report shall list the credit in
+       each currency of each non-Bank entity with Bond Issuance
+       Authority, if that credit is greater than zero.
+
+       The sale of a Bond is permitted only if one of the following is
+       the case:
+          * it is issued by the Bank.
+          * it is issued by a player and would not cause the issuer's
+            credit to exceed the Player Credit Limit in the currency
+            in question as set forth in the Usuror's Budget.
+          * it is issued by a non-Player entity other than the Bank
+            and would not cause the issuer's credit to exceed the
+            Non-Player Credit Limit in the currency in question as
+            set forth in the Usuror's Budget.
+
+       The Credit Limit for non-Bank currencies is 0.
+
+----------------------
+
+Assessor Goethe.
+
+

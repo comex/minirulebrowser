@@ -1,0 +1,166 @@
+Voting Results
+
+This Report:  Tue 22 Mar 05 (Proposals 4645 - 4653)
+Last Report:  Sat 12 Mar 05 (Proposals 4642 - 4644)
+(All times are in GMT)
+
+Start of Voting Period:  Mon 14 Mar 04:39:18
+  End of Voting Period:  Mon 21 Mar 04:39:18
+
+O = Ordinary        d = Disinterested   s = Sane
+D = Democratic      u = Urgent          t = Takeover
+
+Number    Title                         Author    AI   Flags     Result
+------------------------------------------------------------------------
+4645      Forgiving the new 2.0         Quazie    2.01 D        
+Rejected
+4646      Tic Tac Toe 2.0               Quazie    2    D        
+Rejected
+4647      Kudos for Cards               Quazie    2    D         Adopted
+4648      Slow play CFJ assignments     Kolja     1    O         Adopted
+4649      Magical Mute Exemption Tour   Quazie    2    D         Adopted
+4650      Late Announcement of Elec...  Murphy    1    O         Adopted
+4651      Those boons must get out ...  Quazie    2    D        
+Rejected
+4652      Sticky Situation 2.1          Quazie    2    Dd       
+Rejected
+4653      Testing the rules             Quazie    2    Dd       
+Rejected
+
+(gazebo_dude, your votes on Proposals 4648 and 4650 were ineffective
+because you're not a Shareholder.  Riail, yours were ineffective because
+your VPOP was 0 at the start of the week in which the proposals were
+distributed.)
+
+               4645  4646  4647  4648  4649  4650  4651  4652  4653
+
+Eris             A     A     A     F     F     F     A     A     A
+gazebo_dude      F     P     F           F           A     P     P
+Goethe           A     A     F     F     F     -     A     F     A
+Kolja            P     P     P           P           A     P     A
+Manu             P     A     F     F     F     F     A     P     A
+Maud             P     A                 P           A           A
+Michael          A     A     F           F           A     A     A
+OscarMeyr        A     A     F           F           F     F     A
+Quazie           F     F     F           F           F     F     F
+RedKnight        A     A     P           A           A     P     A
+Riail            F     F     F           F           A     A     A
+root             A     P     F           F           F     A     A
+Sherlock         F     A     F           F           A     F     A
+
+FOR              4     2     9     3    10     2     3     4     1
+AGAINST          6     8     1     0     1     0    10     4    11
+Abstain          0     0     0     0     0     1     0     0     0
+Present          3     3     2     0     2     0     0     4     1
+
+Voting Index     0.6+  0.25  9    *U*   10    *U*    0.3   1     0.09+
+Adoption Index   2.01  2     2     1     2     1     2     2     2
+
+Voters          13    13    12     3    13     3    13    12    13
+Quorum (D:14/3)  5     5     5     3     5     3     5     5     5
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4647 by Quazie, AI=2, Democratic
+Kudos for Cards
+
+
+Create a power 1 Rule called "Cash Cards" with the following text
+
+"* Caption: Greedy Bastard
+Elements: Budgeted
+Exploit:  Gain one Kudo, but also gain the Albatross of Greed.
+
+* Caption: Charity Brings Happiness
+Elements: Budgeted
+Exploit: For a fee of one Kudo you may indicate any other player to
+gain one Kudo, as long as they have fewer Kudos than you do and is not
+yourself.  Upon doing this you gain the boon of Charity.
+
+* Caption: Thieves in the Night
+Element: Grafty, Delayed[5]
+Exploit: Provided that fewer than half of all gamblers, besides the
+deck, have a 'Thieves in the Night' card in their hand, and the player
+you indicate does not have a 'Thieves in the Night' card in their
+hand, That player losses one Kudo and you gain one Kudo.  For each of
+the aforementioned  stipulations that is false upon the playing of
+this card, you gain the Albatross of Thief."
+
+These are the following budgets
+Greedy Bastard - 3
+Charity Brings Happiness - 6
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4648 by Kolja, AI=1, Ordinary
+Slow play CFJ assignments
+
+
+Amend 1871 by adding the following paragraph:
+
+The CotC may switch the Orientation of players e expects to judge CFJs
+slowly or not at all to turned, without 2 objections.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4649 by Quazie, AI=2, Democratic
+Magical Mute Exemption Tour
+
+
+Create a rule entitled "Mute Exemption":
+
+       A Legislator who is Mute may, with two support, submit a body of
+       text with Mute Exemption.  This text becomes a Proposal if
+       it meets all rule requirements for a Proposal other than the
+       Proposer not being Mute.
+
+       As soon as possible after a Proposal with Mute Exemption passes,
+       the Assessor shall expunge a number of Blots from the Proposer
+       equal to the Adoption Index of the Proposal.  The Proposer shall
+       receive no Boons that may have awarded by other rules for the
+       passing of the Proposal.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4650 by Murphy, AI=1, Ordinary
+Late Announcement of Elections for Offices
+
+
+Amend Rule 1558 (Defaults for Elections for Offices) by appending
+this text:
+
+     * If the Vote Collector fails to meet an ASAP requirement to
+       publish a list of Candidates, or the identity of the
+       winning Candidate, then the Election/Referendum does not
+       fail, but becomes Stale.  If a new Election for the same
+       Office is initiated, then the stale Election/Referendum fails.
+
+Amend Rule 790 (Filling Vacant Offices) by replacing this text:
+
+     As soon as possible after an Office ceases to have an
+     Electee (or is created without installing an Electee),
+     the designated conductor of Office Elections shall
+     initiate an Election for that Office, as described by
+     other Rules.
+
+with this text:
+
+     As soon as possible after
+
+       a) an Office ceases to have an Electee;
+       b) an Office is created without installing an Electee; or
+       c) an Election for an Office without an Electee becomes Stale;
+
+     the designated conductor of Office Elections shall
+     initiate an Election for that Office, as described by
+     other Rules.  This requirement is cancelled if the Office
+     comes to have an Electee.
+
+

@@ -1,0 +1,196 @@
+Agora Nomic
+Voting Report for Proposals 4470-4472
+
+This Report: Wed, 26 Mar 2003
+Last Report: Mon, 17 Mar 2003
+
+Current Voting Mode: Unrestricted
+===========================================================================
+Voting on Proposals 4470-4472 commenced: Wed, 19 Mar 2003 05:47:36 GMT
+Voting on Proposals 4470-4472 concluded: Wed, 26 Mar 2003 05:47:36 GMT
+
+Num. Title                           By         AI  Fl RESULT  F  A  - *
+
+4470 Close the Tax Shelter           Steve       1  o  PASSES  3  0  0 0
+4471 Q-bert                          OscarMyer   1  o  PASSES  2  1  0 0
+4472 Heavy Weather                   Sherlock    1  D  FAILS   5 10  0 0
+
+Flags:
+o: ordinary D: Democratic P: Parliamentary
+d: disinterested  u: urgent  s: sane  c: contested
+
+===========================================================================
+
+                o   o   D
+                4   4   4
+                4   4   4
+	        7   7   7
+	        0   1   2
+
+Cecilius  (O)   F   A   F
+Michael                 A
+Murphy                  A
+OscarMeyr (O)   F   F  2A
+Pakaran                 F
+root                  2FA
+Sherlock  (O)   F   F   F
+Steve                  5A
+
+FOR             3   2   5
+AGAINST         0   1  10
+ABSTAIN         0   0   0
+Present         0   0   0
+
+Voters          3   3   7
+Quorum(6|3)     Y   Y   Y
+PASSES?         Y   Y   N
+
+===========================================================================
+Miscellaneous
+===========================================================================
+
+H. Scorekeepor OscarMeyr, please note:
+
+Points awards:
+
+Player     Points   Reason/Rule
+-------------------------------
+Steve      +4       P4470 adopted with 0 votes against; R1930
+OscarMeyr  +5       P4471 adopted with 1 vote against; R1930
+Cecilius   +2       only player to vote against P4471; R1930
+
+
+===========================================================================
+Text of Adopted Proposals
+===========================================================================
+
+Proposal 4470 by Steve, AI=1, ordinary
+Close the Tax Shelter
+
+Repeal Rule 1917 (General Currency Taxation).
+
+Amend Rule 1853 (Levying Taxes) to read:
+
+  (a) Taxes may be levied only by a person explicitly empowered by the
+      rules to do so; each currency Recordkeepor is empowered to levy a
+      tax on that currency, and is herein referred to as "the taxing
+      authority".
+
+  (b) The procedure for levying a tax may be summarized as follows:
+      first, the taxing authority publically issues an announcement of
+      intent to levy a tax; second, at a later point, the taxing
+      authority publically issues a tax notice.
+
+  (c) To be valid, both the notice of intent to levy a tax, and the tax
+      notice itself, must specify the elements of the tax, viz., the
+      currency being taxed, the tax rate expressed as a percentage of
+      holdings (which may not exceed 50% unless the Rule authorizing the
+      tax explicitly permits it), and any exemptions.
+
+  (d) An exemption is specified as a percentage of the holdings of a
+      taxable entity. It may be set at the discretion of the taxing
+      authority, provided that:
+
+      (1) all players are exempt identical amounts,
+      (2) all non-players are exempt identical amounts, and
+      (3) the non-players' exemption is less than or equal to the
+          players' exemption.
+
+  (e) A notice of intent to levy a tax may not validly be issued while
+      another attempt to levy a tax in that currency is proceeding in
+      accordance with this rule.
+
+  (f) A tax notice may only validly be issued between seven and fourteen
+      days after the publication of a valid notice of intent to levy a
+      tax, and at least 30 days after the publication of the last valid
+      tax notice (if there has been one).
+
+  (g) A tax notice must also indicate the currency holdings of each
+      taxable entity at the time of the publication of the notice of
+      intent to levy a tax, and the tax debt incurred by each such
+      entity.
+
+  (h) The tax debt for each taxable entity is calculated on the
+      basis of the entity's holdings at the time of the publication of
+      the notice of intent to levy a tax. Any holdings exempt from the
+      tax are exempted, and the tax is applied to the remainder at the
+      specified tax rate.
+
+  (i) Any error in the calculation of holdings or tax debts for a
+      taxable entity does not invalidate the tax notice with respect to
+      the other taxable entities mentioned in it.
+
+  (j) Upon the publication of a valid tax notice, each taxable entity
+      incurs a debt to the Bank equal to the tax debt for that entity.
+
+  (k) All entities are taxable, except for:
+      (1) the Bank,
+      (2) rebellious players who were rebellious at the time the
+          intent to levy was published, and
+      (3) entities explicitly specified by the rule authorizing the
+          levy as non-taxable for that levy.
+
+-----------------------------------------------------------------------
+
+Proposal 4471 by OscarMyer, AI=1, ordinary
+Q-bert
+
+Proposal:  Let's Play Q*Bert (tm)
+
+ [Add a new Land Type.]
+ Amend R1997 to read:
+       In addition to Aether, the following Land Types are defined:
+         (a) Black;
+         (b) White;
+         (c) Purple.
+
+ [Create Q*Bert.]
+ Create a new rule titled "Q*Bert (tm)" with the following text:
+
+       Q*Bert (tm) is an entity in Arcadia.  Q*Bert moves one space per
+       week, according to the following procedure:
+
+       Q*Bert moves one space in a random direction, but not to the
+       space it last moved from.  Q*Bert is permitted to move to an
+       undefined destination or to Aether.  If Q*Bert moves to an
+       undefined destination, its location becomes undefined, and the
+       next week it will move to (0,0).
+
+       Normally, Q*Bert moves in a diagonal direction.  If Q*Bert ends
+       its diagonal movement at a location that another entity ends eir
+       movement at for that week, then in the following week Q*Bert will
+       say "@!#?@!" and move in a random orthogonal direction.
+
+       Q*Bert has a color, which is a defined Land Type other than
+       Aether and that does not have Sente.  When Q*Bert moves to a
+       space, it changes the Land Type of that space.  If the current
+       Type is not the same as Q*Bert's color, Q*Bert changes that
+       space's type to its color.  Otherwise, Q*Bert changes that
+       space's type to the Land Type that currently has Sente.
+
+       The Mapkeepor is a Limited Executor of Q*Bert, and its Prime
+       Executor for its movement in Arcadia.  The Mapkeepor is to make
+       the random determination of Q*Bert's movement direction and
+       publish Q*Bert's movement and its effect as soon as possible
+       after the start of the Agoran week.
+
+       Upon the Mapkeepor's report that Q*Bert's color has Sente,
+       Q*Bert's color becomes a random Land Type other than Aether or
+       the old color.  The Mapkeepor will make this random
+       determination.
+
+ [Initialize values]
+ Set Q*Bert's location to (0,0).
+ Set Q*Bert's color to Purple.
+
+------------------------------------------------------------------------
+
+
+-- 
+
+
+Steve Gardner                   | 
+School of Computer Science      |      I've only just realized
+ and Software Engineering       |      how self-conscious I am.
+gardner@sng.its.monash.edu.au   | 
+

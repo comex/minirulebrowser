@@ -1,0 +1,94 @@
+Voting Results
+
+This Report:  Sun 15 May 05 (Proposals 4757 - 4760)
+Last Report:  Thu  5 May 05 (Proposals 4751 - 4756)
+(All times are in GMT)
+
+Start of Voting Period:  Mon  2 May 05:46:09
+   End of Voting Period:  Mon  9 May 05:46:09
+
+O = Ordinary        d = Disinterested   s = Sane
+D = Democratic      u = Urgent          t = Takeover
+
+Number    Title                         Author    AI   Flags    Result
+-----------------------------------------------------------------------
+4757      Limit Proposal Rewards        root      1    D        Failed quorum
+4758      Inactive rights part 1        Quazie    1    O        Adopted
+4759      Olive Repeals                 Manu      1    O        Adopted
+4760      Cleaning up the draw rule...  Quazie    1    O        Failed quorum
+
+Proposal 4757 was sanitised and thus aborted before Maud and OscarMeyr
+attempted to vote / declare presence on it.
+
+                4757  4758  4759  4760
+
+Manu                  6F    6F    6A
+Maud                   A     A
+OscarMeyr             3F    3F    3F
+
+FOR              0     9     9     3
+AGAINST          0     1     1     6
+Abstain          0     0     0     0
+Present          0     0     0     0
+
+Voting Index     0     9     9     0.5
+Adoption Index   1     1     1     1
+
+Voters           0     3     3     2
+Quorum (D:10/3)  4     3     3     3
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4758 by Quazie, AI=1, Ordinary
+Inactive rights part 1
+
+
+Proposal: Inactive rights part 1
+
+Replace the following from Rule 1042
+
+       A player may flip another player's noisiness from noisy to
+       quiet, unless e has done so for another player within the past
+       24 hours.
+
+with
+
+       An active player may flip another active player's noisiness from
+       noisy to quiet, unless e has done so for another player within the
+       past 24 hours.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4759 by Manu, AI=1, Ordinary
+Olive Repeals
+
+
+Co-author: Sherlock
+
+Repeal Rule 651  (Heroes).
+Repeal Rule 1064 (Freedom of Information Act).
+Repeal Rule 1550 (Ratification by Proposal).
+Repeal Rule 1630 (Impersonation).
+Repeal Rule 1717 (The Senate).
+Repeal Rule 1726 (The Guillotine).
+
+Amend Rule 1764 (Modes of Voting) by replacing the text that reads:
+
+       (e) If the mode of voting is Private or Unrestricted, then the
+           status of any votes cast privately is secret until the
+           end of the voting period.
+
+with text that reads:
+
+       (e) If the mode of voting is Private or Unrestricted, then the
+           status of any votes cast privately is secret until the
+           end of the voting period.  Any player who knowingly reveals
+             the status of any vote to any player besides the Assessor
+           commits the Crime of Unlawful Vote Disclosure, a Class 5
+           Crime.
+
+Repeal Rule 1926 (The Official Secrets Act).
+Repeal Rule 2056 (Invisibilitating).

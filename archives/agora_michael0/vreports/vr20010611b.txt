@@ -1,0 +1,351 @@
+Assessor's Voting Report
+Mon Jun 11 20:32:29 2001
+
+Voting on Proposals 4163-4167 commenced: Mon Jun  4 16:32:22 2001
+Voting on Proposals 4163-4167 concluded: Mon Jun 11 16:32:22 2001
+
+Num.  Type  Proposer  AI  Title                                              Result  F  A  -
+4163  Ord   Kelly     1   Calling Bonds                                      PASSES  4  0  1
+4164  Ord   Murphy    1   Fix Dereliction of Duty                            PASSES  5  0  1
+4165  Ord   Kelly     1   Proper Persistent Indebtedness                     PASSES  5  0  1
+4166  Ord   Elysion   1   Fix Rule 1868                                      PASSES  5  0  1
+4167  Ord   root      1   Choosable Auctions, Vickrey Auctions, and Raffles  PASSES  4  0  1
+
+Voter    4163  4164  4165  4166  4167
+
+Goethe      F     F     F     F     F
+Michael    2F    2F    2F    2F    2F
+Ziggy             F     F     F     F
+harvel      -     -     -     -     -
+lee         F     F     F     F
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+Proposal 4163 by Kelly, AI=1
+Calling Bonds
+
+The following Rule is created, with the title "Calling Bonds":
+
+      At any time, the issuer of a Bond may call that Bond by
+      publishing a notice stating that e is calling it.  When the
+      issuer of a Bond calls the bond, it is immediately accelerated,
+      as described elsewhere.
+
+----------------------------------------------------------------------
+
+Proposal 4164 by Murphy, AI=1
+Fix Dereliction of Duty
+
+Amend Rule 1686 (Official Reports) to read:
+
+      For each Office, the Rules may designate certain information to
+      be part of that Office's Weekly Report or Monthly Report. All
+      Weekly Reports and Monthly Reports shall also be known as
+      Official Reports. All information which is part of an Officer's
+      Official Report(s) shall be maintained by that Officer.
+
+      Each Officer with a Weekly Report is required to publish it
+      during each Nomic Week; each Officer with a Monthly Report is
+      required to publish it during each Nomic Month.  Failure to do
+      so is the Class 2 Infraction of Failure to Report.  Failure to
+      do so for three consecutive Nomic (Weeks/Months) is instead the
+      Class 10 Infraction of Dereliction of Duty; any Officer found
+      guilty of this Infraction is automatically retired.  These
+      Infractions may be detected and reported by the Assistant Director
+      of Personnel and the Speaker.
+
+Repeal Rule 1644 (Dereliction of Duty).
+
+(Rules 1686 and 1644 contain conflicting provisions, apparently because
+ Wes's recent Proposal "What Is Public?" put back some old text into one
+ or both Rules.)
+
+----------------------------------------------------------------------
+
+Proposal 4165 by Kelly, AI=1
+Proper Persistent Indebtedness
+
+Rule 1599 is amended to read:
+
+      The Executor of the creditor of any unsatisfied debt may, at any
+      time, demand the debtor to satisfy that debt, provided e has not
+      already done so.  E does so by sending a message to the debtor
+      setting forth the demand.  The debtor shall have seven days to
+      satisfy the debt from the time the demand is sent, except that
+      if the debtor's Executor is on Hold at the time the demand is
+      sent, the debtor shall instead have seven days from when the
+      debtor's Executor comes off Hold to satisfy the debt.  Time
+      during which a debt is disputed is not counted for any purpose
+      of this Rule.
+
+      A debt not satisfied within the time allowed by this Rule
+      becomes delinquent when that time elapses.  It ceases to be
+      delinquent when it is satisfied.
+
+      Any Player who is either:
+        (a) the Executor of an entity which owes a delinquent debt, or 
+	(b) a Limited Executor of an entity which has no Executor and
+	    which owes a delinquent debt, where:
+	  (1) that Player has the authority to execute a transfer for
+	      that entity which would satisfy the delinquent debt, and
+	  (2) that entity possesses sufficient Property such that the
+	      delinquent debt can be satisfied;
+      commits the Class 1 Infraction of Persistent Indebtedness when
+      that debt first becomes delinquent, and commits it again every
+      seven days thereafter for as long as the debt remains
+      delinquent.  This Infraction may be reported by the creditor of
+      the delinquent debt.
+
+----------------------------------------------------------------------
+
+Proposal 4166 by Elysion, AI=1
+Fix Rule 1868
+
+[Removes a second ASAP from the process, which reduces the time from calling
+to announcement from 14 days 7 and reduces the penalty the CotC incurs from
+2 Tardiness infractions to only 1.]
+
+Amend rule 1868/1 (Selecting a Judge) to read:
+
+      Whenever there is an open Call for Judgement to which no Player
+      has been assigned as its Judge, the Clerk of the Court shall, as
+      soon as possible after being made aware of this condition,
+      select a Player to be assigned as its Judge and announce eir
+      selection.  This selection shall be made from amongst all
+      those Players eligible to serve as the Judge of that CFJ.
+
+      Once selected as the Judge of a CFJ, that Player remains the
+      Judge of that CFJ until e is Recused from that CFJ or becomes
+      ineligible to Judge that particular CFJ.
+
+      A CFJ is "open" if it has neither been dismissed nor judged, or
+      if there is an outstanding judicial motion pertaining to that
+      CFJ which has been neither granted nor denied.  A CFJ which is
+      not open is closed.
+
+----------------------------------------------------------------------
+
+Proposal 4167 by root, AI=1
+Choosable Auctions, Vickrey Auctions, and Raffles
+
+[Background on Vickrey Auctions:
+
+     A Vickrey auction differs from the traditional English auction (what
+     Agora effectively uses as its default Auction procedure) in two
+     respects. First, the bids are sealed and made secretly. Second,
+     although the highest-bidding bidder wins, e pays only the
+     second-highest bid (or in the general case, the largest nonwinning
+     bid). A Vickrey auction discourages bidding wars and encourages
+     bidders to bid closer to how they actually value the good.
+
+     Since requiring all players to not discuss bids would be boring,
+     the Agoran version of a Vickrey auction would permit, though not
+     require, private bidding. If a player wanted to reveal eir bids
+     to other players, e could do so anyway, so there's no real reason
+     to prohibit bidding in a PF.
+
+     Also, because the Auctioneer and eir Executor have an advantage due
+     to their knowledge, they must bid early and publicly. The alternative
+     was to prohibit the Auctioneer from bidding, and that seemed
+     excessive.
+
+  This proposal also:
+     * Allows Auctioneers to choose an auction format
+     * Provides the Raffle Auction format ]
+
+
+Amend rule 1887/12 (Default Procedure for Auctions) by replacing the text
+reading:
+
+       When an Auction is required and the procedure is not defined
+       elsewhere, the following standard Auction procedure shall be
+       used. Details specified herein are defaults which may be
+       modified by other Rules for specific situations.
+
+with:
+
+       When an Auction is required and the procedure is not defined
+       elsewhere, the Auctioneer shall select a rules-defined Auction
+       Procedure and publicly announce eir selection. If e does not
+       specify which procedure is used, the Default Auction Procedure
+       shall be used.
+
+       The details specified herein are for the Default Auction
+       Procedure.
+
+and by replacing the text reading:
+
+       Unless specified otherwise, the Auctioneer shall transfer an
+       Auctioned item to the winning Bidder as soon as possible
+       after the bill for that item is paid.
+
+with:
+
+       Unless specified otherwise, the Auctioneer shall pay out an
+       Auctioned item to the winning Bidder as soon as possible
+       after the bill for that item is paid.
+
+
+Amend rule 1888/0 (Private Auctions) to read:
+
+       The Auction Procedure for a Private Auction is the same as
+       the Default Auction Procedure except that Bids may only made
+       by sending them privately to the Auctioneer.
+
+
+Create a rule entitled "Vickrey Auctions" reading as follows:
+
+       The Auction Procedure for a Vickrey Auction is the same as
+       the Default Auction Procedure with the following modifications:
+
+       (a) Bidders: Every Player not on Hold may Bid in an Auction. On
+           Hold status is measured at the time a Player sends eir Bid. Any
+           Player with the same Executor as the Auctioneer may bid only in
+           the first 72 hours of the Auction.
+
+       (b) Making Bids: If the Bidder has the same Executor as the
+           Auctioneer, then the Bids must be made in a message to
+           a Public Forum. Otherwise, the Bidder may either Bid in a
+           Public Forum or privately to the Auctioneer.
+
+       (c) End of Auction: The Auction shall end one week after it
+           begins.
+
+       (d) The Final Auction Price is:
+           (1) The amount of the largest nonwinning uncancelled valid
+               Bid, if there were N or more valid uncancelled Bids in
+               the Auction;
+           (2) The Starting Bid, if there were fewer than N valid
+               uncancelled Bids.
+           For the purpose of this Rule, N is equal to the number of
+           items being Auctioned.
+
+       The Auctioneer and eir Executor must treat all bids made in a
+       Vickrey Auction as secret while the Auction is in progress. Other
+       players, however, are free to reveal as much about their bidding as
+       they wish.
+
+
+Create a rule titled "Raffles" reading as follows:
+
+       There is a type of Auction named a Raffle. The Auction Procedure
+       for a Raffle is as follows:
+
+       (a) Riff-Raff: The Riff-Raff is responsible for selling Raffle
+           tickets and announcing the result of the Raffle. Unless
+           otherwise specified, the Speaker shall be the Riff-Raff.
+
+       (b) Entrants: Every Player not on Hold may enter the Raffle. On
+           Hold status is measured at the time a Player enters the
+           Raffle.
+
+       (c) Raffle Currency: Each Raffle is conducted in one
+           particular currency. The Rule requiring a particular
+           Raffle must specify the currency to be used, or the
+           Raffle cannot take place.
+
+       (d) Number of Items: Each Raffle is conducted for 1 or more
+           identical items. Throughout this Rule, N indicates the
+           number of items up for bid in the Raffle.
+
+       (e) Start of Auction: The Raffle begins at the time the first
+           correct and legal announcement that a Raffle is begun, as
+           defined in other Rules, is published, together with the
+           identity of the Riff-Raff, the Raffle Currency, the number
+           of items, and the Ticket Price.
+
+       (f) Ticket Price: All tickets shall have the same Ticket Price.
+           If not otherwise specified, the Ticket Price shall be equal
+           to the MUQ of the Raffle Currency.
+
+       (g) Buying Tickets: An Entrant buys a ticket by paying a Fee of
+           the Ticket Price in the Raffle Currency to the Bank, provided
+           that the purchase is not made before the start of the Auction,
+           or after its end. Each Entrant may buy as many tickets as e
+           desires during the Auction.
+
+       (h) End of Raffle: If, one week after the Raffle started,
+           no Raffle tickets have been bought, the Raffle ends, and
+           has no winner. Otherwise the Raffle ends when 72 hours
+           have passed without a valid ticket purchase having been
+           made. The Raffle shall end 14 days after the Raffle has
+           started, if it has not ended earlier.
+
+       (i) Winning Tickets: When the Raffle ends, the Riff-Raff shall
+           randomly determine N valid Raffle tickets as having won
+           the Raffle. Each Raffle ticket has one chance to win, and
+           multiple Raffle tickets bought by the same Entrant may win.
+           If there were less than N valid Raffle tickets, then all
+           valid Raffle tickets shall be considered to have won the
+           Raffle.
+
+       (j) Final Auction Price: The Final Auction Price for a Raffle
+           is equal to the Ticket Price.
+
+       (k) Riff-Raff's Gratuity: Within a week after the end of the
+           Raffle, the Riff-Raff may pay out to emself the Ticket Price
+           in the Raffle Currency if:
+           (1) The Raffle had at least three separate winning Entrants,
+               not including the Riff-Raff; and
+           (2) The Riff-Raff has not already done so for that Raffle.
+
+       (l) Announcing Winners: As soon as possible after the end of the
+           Raffle, the Riff-Raff shall announce the winning tickets and
+           transfer to each winning Entrant a separate Auctioned item for
+           each of eir winning tickets.
+
+
+Amend Rule 1954 by deleting the last paragraph.
+
+======================================================================
+
+Assessor's Event Log:
+
+Mon Jun  4 16:32:22 2001:
+  Voting Period of Proposal 4163 begins.
+  Voting Period of Proposal 4164 begins.
+  Voting Period of Proposal 4165 begins.
+  Voting Period of Proposal 4166 begins.
+  Voting Period of Proposal 4167 begins.
+
+Thu Jun  7 01:19:23 2001:
+  Player Syllepsis leaves Group Amenocrats
+
+Fri Jun  8 08:18:06 2001:
+  Player Hooloovoo joins Group X.
+
+Fri Jun  8 08:30:50 2001:
+  Ziggy is promoted to High Oligarch.
+
+Sun Jun 10 04:27:08 2001:
+  Ziggy votes on Proposal 4164.
+  Ziggy votes on Proposal 4165.
+  Ziggy votes on Proposal 4166.
+  Ziggy votes on Proposal 4167.
+
+Sun Jun 10 05:09:36 2001:
+  harvel votes on Proposal 4163.
+  harvel votes on Proposal 4164.
+  harvel votes on Proposal 4165.
+  harvel votes on Proposal 4166.
+  harvel votes on Proposal 4167.
+  lee votes on Proposal 4163.
+  lee votes on Proposal 4164.
+  lee votes on Proposal 4165.
+  lee votes on Proposal 4166.
+
+Mon Jun 11 01:42:31 2001:
+  Goethe votes on Proposal 4163.
+  Goethe votes on Proposal 4164.
+  Goethe votes on Proposal 4165.
+  Goethe votes on Proposal 4166.
+  Goethe votes on Proposal 4167.
+
+Mon Jun 11 08:04:38 2001:
+  Michael votes on Proposal 4163, twice.
+  Michael votes on Proposal 4164, twice.
+  Michael votes on Proposal 4165, twice.
+  Michael votes on Proposal 4166, twice.
+  Michael votes on Proposal 4167, twice.

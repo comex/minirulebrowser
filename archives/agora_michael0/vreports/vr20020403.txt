@@ -1,0 +1,502 @@
+
+Assessor's Voting Report
+Proposals 4277-4280
+
+
+No.    Title                           By        AI Flags  Result     VI
+----  ------------------------------  ---------- -- ----- --------- -----
+4277   Make Insanity More Interest... OscarMeyr   1        ADOPTED    U
+4278   Cold Storage                   harvel      2  C     ADOPTED  18/6
+4279   Fix Dependent Actions          harvel      2  CD    ADOPTED  11/3
+4280   Organizations Can Move, Too!   OscarMeyr   1  D     ADOPTED   3/1
+----  ------------------------------- ---------- -- ----- --------- -----
+D:Disinterested C:Democratic U:Urgent S:Sane
+I:Insane O:Opposite T: Contested
+
+H. Promoter please note,
+   The Bank incurs a debt of 1 Papyrus to OscarMeyr (Adopted
+   Interested Proposal 4277 submitted while in grace period).
+
+H. Scorekeepor please note, by Rule 1930:
+   - harvel is awarded 18 points (4278 and 4279 adopted with 9 votes
+     against).  Into the freezer with ye, harvel!
+   - OscarMeyr is awarded 2 points (4280 adopted with 1 vote against).
+   - Michael is awarded 2 points (only Player to vote against 4280).
+
+Voting Period Began: Mon, 25 Mar 2002 21:29:57 GMT
+Voting Period Ended: Mon,  1 Apr 2002 21:29:57 GMT
+Voting Mode:  PUBLIC
+
+              4277    4278    4279    4280
+              -----   -----   -----   -----
+root          1F        *     2F      1F
+OscarMeyr     1F       1F     1F      1F
+Murphy                 1F
+harvel                 2F     2F
+Michael       1F       2F     2F        ,1A
+Crito                  1F     1F
+Goddess Eris           4F,1A  1F
+Steve                  3F,1A  3F,1A
+Sir Toby                 ,1A    ,1A
+Goethe        1F         ,2A  1F      1F
+Oerjan                   ,1A    ,1A
+Anemocrats             4F
+
+FOR/AGAI.      4/0     18/6   11/3     3/1
+ABSTAIN          0        0      0       0
+VOTERS           4       11     10       4
+QUORUM?        yes      yes    yes     yes
+ADOPTED?       yes      yes    yes     yes
+
+
+=========Text of adopted Proposals======================================
+
+Proposal #4277 by OscarMeyr, AI=1
+Make Insanity More Interesting (v2.1)
+
+// A Player may not split votes on Insane Proposals.
+// Inserts stanza 3 into the rule on Insanity
+
+Change R1729 to read as follows:
+
+      An Interested Proposal is Insane, if it contains no minuscule
+         letter.
+      (That is the opposite of CAPITAL, for those who know not
+         better.)
+
+      For such a Proposal, until the Voting Period has ended:
+      there shall be no discussing Votes, or this Rule has been
+         bended.
+      Nor shall a Player Vote in public, only to Assessor.
+      The Votes shall be unknown to others, even employer and
+         professor.
+
+      And should a Player split eir votes 'tween FOR and
+          AGAINST like crazy,
+      E will annoy Assessors (who are known for being lazy)
+      So should eir votes cast differ from each other, this Rule's
+          broke,
+      With the breaker being the voting Player, as sure as if e'd
+          spoke.
+
+      And should such a Proposal's Voting Period begin,
+      but no one Votes FOR it, the Proposer shall Win.
+
+-------------------------------------------------------------------------------
+
+Proposal #4278 by harvel, AI=2
+Cold Storage
+
+[Introduces "frozen" as a third activity level, to go along with
+ "active" and "inactive".  Freezing oneself allows a player to take an
+ extended break from the game without leaving it entirely.  A player may
+ always reduce eir activity level; increasing eir activity level may not
+ always be done right away.
+
+ This proposal modifies the following Rules (all of these are amended;
+ if a Rule's title is changed, it is marked with `[*]'):
+
+    * Rule  559 (The Registrar)
+    * Rule  698 (Always an Eligible Judge)
+    * Rule  879 (Quorum)
+    * Rule  911 (The Board of Appeals)
+    * Rule 1016 (Putting Oneself On Hold) [*]
+    * Rule 1023 (Definition of "As Soon As Possible")
+    * Rule 1042 (Deregistration Due to Silence)
+    * Rule 1375 (Speaker Going On Hold)
+    * Rule 1555 (Electees and Removal from Office)
+    * Rule 1568 (Judges On Hold) [*]
+    * Rule 1599 (Overdue Debts)
+    * Rule 1827 (Granting or Denying Motions)
+    * Rule 1841 (Granting Power of Attorney)
+    * Rule 1887 (Default Procedure for Auctions)
+    * Rule 1963 (Eligible Oligarchs)
+    * Rule 1983 (Vickrey Auctions)
+    * Rule 1984 (Raffles)
+
+ This proposal creates no Rules.
+
+ This proposal repeals one Rule:
+
+    * Rule 1584 (Absolvement of Duty for On Hold Players)]
+
+
+Amend Rule 1016 (Putting Oneself On Hold) to read:
+
+      Each player has an activity level, which is always exactly one of
+      active, inactive, and frozen.  A player's activity level may not
+      be modified except by methods described explicitly in the rules.
+
+      This rule takes precedence over each rule that regulates activity
+      levels and the powers or duties that a player may have because of
+      eir activity level.
+
+      An activity level of active is higher than any other activity
+      level.  An activity level of inactive is higher than an activity
+      level of frozen.
+
+      Whenever a player registers or reregisters, e becomes active.
+
+      A player may lower eir activity level by announcing that e does so
+      and indicating eir new activity level, unless the rules do not
+      permit that player to change to that activity level.  If the
+      player becomes inactive in this way, e may not become active until
+      at least 96 hours after e last become inactive.
+
+      An inactive player may become active by announcing that e does so,
+      unless the rules do not permit that player to become active.
+
+      A frozen player who has been frozen for at least 90 days may
+      increase eir activity level by announcing that e does so and
+      indicating eir new activity level, unless the rules do not permit
+      that player to change to that activity level.
+
+      "Off hold" and "on hold" are unambiguous synonyms for "active" and
+      "inactive", respectively.  "put in cold storage" is an unambiguous
+      synonym for "frozen".
+
+      Only active players may vote, make proposals, or hold office.
+      Inactive players may not be required by the rules to perform any
+      duty or action unless the rules explicitly state that they can
+      require inactive players to perform that duty or action.  Frozen
+      players may not be required by the rules to perform any duty or
+      action.
+
+
+Change the title of Rule 1016 to "Activity Levels".
+
+
+Repeal Rule 1584 (Absolvement of Duty for On Hold Players).
+
+
+Amend Rule 1555 (Electees and Removal from Office) by replacing the text
+that reads:
+
+      If a Player goes On Hold, deregisters, or is deregistered, e is
+      removed from all Offices e holds.
+
+with text that reads:
+
+      Whenever a player deregisters, is deregistered, or ceases to be
+      active, e is removed from all Offices e holds.
+
+
+Amend Rule 1963 (Eligible Oligarchs) by replacing the text that reads:
+
+      e is On Hold;
+
+with text that reads:
+
+      e is not active;
+
+
+[This will have to be modified if Murphy's Jailor proposal passes.]
+
+Amend Rule 1568 (Judges On Hold) to read:
+
+      A player who ceases to be active while selected as the judge of
+      one or more calls for judgement (CFJs) commits the infraction of
+      Judge Inactivity.  This infraction is to be reported by the Clerk
+      of the Courts, and has a penalty of 0.1 Indulgences for each CFJs
+      for which the player was selected as judge when e ceased to be
+      active.
+
+Change the title of Rule 1568 to "Non-Active Judges".
+
+
+Amend Rule 1827 (Granting or Denying Motions) by replacing the text that
+reads:
+
+      If a Motion is made after a case is closed, and the original Judge
+      of that case is no longer a Player or is On Hold, then a new Judge
+      shall be assigned to the case as usual.
+
+with text that reads:
+
+      If a Motion is made after a case is closed, and the original Judge
+      of that case is not active or is not a player, then a new Judge
+      shall be assigned to the case as usual.
+
+
+Amend Rule 911 (The Board of Appeals) by inserting immediately after the
+text that reads:
+
+        v) E is on Hold, and this restriction does not prevent three
+           eligible Players from being selected by the CotC for the
+           Board.
+
+text that reads:
+
+       vi) E is frozen.
+
+
+Amend Rule 1599 (Overdue Debts) by replacing the text that reads:
+
+      if the debtor's Executor is on Hold at the time the demand is
+      sent, the debtor shall instead have seven days from when the
+      debtor's Executor comes off Hold to satisfy the debt.
+
+with text that reads:
+
+      if the debtor's Executor is not active at the time the demand is
+      sent, the debtor shall instead have seven days from the time eir
+      Executor becomes active to satisfy the debt.
+
+
+Amend each of Rule 1887 (Default Procedure for Auctions), Rule 1983
+(Vickrey Auctions), and Rule 1984 (Raffles), by replacing each instance
+of the text that reads:
+
+      On Hold status
+
+with text that reads:
+
+      Activity
+
+
+[This will have to be modified if Murphy's Jailor proposal passes.]
+
+Amend Rule 1375 (Speaker Going On Hold) to read:
+
+      A Speaker who ceases to be active while e is still Speaker commits
+      the class 10 crime of Speaker Inactivity.
+
+      Whenever the Speaker is not active, a Speaker Transition occurs.
+
+
+Amend Rule 1841 (Granting Power of Attorney) by replacing the text that
+reads:
+
+      the Holder is deregistered or goes On Hold; or
+
+with text that reads:
+
+      the Holder ceases to be active or is deregistered; or
+
+
+Amend Rule 1023 (Definition of "As Soon As Possible") by replacing the
+text that reads:
+
+      Other Rules may grant extensions of the penalty-free period to
+      Inactive Players without conflicting with this Rule.
+
+with text that reads:
+
+      Other Rules may grant extensions of the penalty-free period to
+      non-active players.
+
+
+Amend Rule 1042 (Deregistration Due to Silence) by replacing the text
+that reads:
+
+      Whenever a player has been Quiet continuously for two weeks or has
+      been Inactive continuously for two months, e becomes Silent.
+
+with text that reads:
+
+      Whenever a player has been Quiet continuously for two weeks,
+      Inactive continuously for two months, or Frozen continuously for
+      two years, e becomes Silent.
+
+
+[I don't have to change much in this rule, but it's easiest to make the
+ changes by rewriting the whole rule.  For reference:
+
+Rule 879/14 (Power=2)
+Quorum
+
+      An Ordinary Proposal achieves Quorum if at least three
+      Oligarchs cast votes on it.
+
+      A Democratic Proposal achieves Quorum if:
+      (1) at least one-third of all Active Noisy Players, or
+      (2) at least one-fifth of all Players
+      cast votes on it. Quorum for a Democratic Proposal shall be
+      determined from the number of Players and number of Active Noisy
+      Players at the time that the Proposal was distributed, or at the
+      time it was made a Democratic Proposal, whichever is later.]
+
+Amend Rule 879 (Quorum) to read:
+
+      An ordinary proposal achieves quorum if at least three oligarchs
+      cast votes on it.
+
+      A democratic proposal achieves quorum if:
+      (1) at least one third of all active noisy players, or
+      (2) at least one fifth of all non-frozen players
+      cast votes on it.  Quorum for a democratic proposal shall be
+      determined from the number of non-frozen players and number of
+      active noisy players at the time that the proposal was
+      distributed, or at the time it was made a democratic proposal,
+      whichever is later.
+
+
+[I don't think Rule 1434 (Default Procedure for Referendum Voting) needs
+ to be modified.  It says, among other things:
+
+      * Voters: Only Active Players may Vote on a Referendum.  Activity
+      is measured at the time a Player sends eir Vote.]
+
+
+Amend Rule 698 (Always an Eligible Judge) by replacing the text that
+reads:
+
+      If this still does not result in there being any Players eligible
+      to judge, then all Players (Active or not), excluding the Caller
+      and those Players Barred by the Caller, shall be eligible.
+
+      If this still does not result in there being any Players eligible
+      to judge, then all Players, excluding the Caller, shall be
+      eligible.
+
+      If this still does not result in there being any Players eligible
+      to judge, and the Caller is a Player, then the Caller shall be
+      eligible.
+
+      If this still does not result in there being any Players eligible
+      to judge, then the Caller has happened across an Agora without any
+      Players.  The Rules suggest that the Caller try calling at a later
+      date.
+
+with text that reads:
+
+      If this still does not result in there being any players eligible
+      to judge, then all non-frozen players, excluding the Caller and
+      those players barred by the Caller, shall be eligible.
+
+      If this still does not result in there being any players eligible
+      to judge, then all non-frozen players, excluding the
+      Caller, shall be eligible.
+
+      If this still does not result in there being any players eligible
+      to judge, and the Caller is a player, then the Caller shall be
+      eligible.
+
+      If this still does not result in there being any players eligible
+      to judge, then the Caller has happened across an Agora that is a
+      generational ship whose members are in suspended animation.  The
+      Rules suggest that the Caller try calling when we arrive at our
+      destination and begin to thaw out.
+
+
+Amend Rule 559 (The Registrar) by replacing the text that reads:
+
+        (v) each player's Active/Inactive status, and the most recent
+            date on which that player became Active or Inactive;
+
+with text that reads:
+
+        (v) each player's activity level, and the most recent date on
+            which that player's activity level changed;
+
+-------------------------------------------------------------------------------
+
+Proposal #4279 by harvel, AI=2
+Fix Dependent Actions
+
+Amend Rule 1728 (Dependent Actions) to read:
+
+      An action is dependent, or may be performed dependently, if and
+      only if it is an Action Without N Objections or an Action With N
+      Supporters, where N is a positive integer.  The phrase "Without
+      Objection" is synonymous with "Without 1 Objection", and the phrase
+      "With Support" is synonymous with "With 1 Supporter".
+
+      A player may publicly announce eir intent to perform an
+      unambiguously described dependent action.  A player may perform a
+      previously unambiguously described dependent action if and only
+      if:
+
+      (a)  no more than fourteen days have passed since the announcement
+           of intent to perform the action;
+
+      (b)  if the action to be performed is an Action Without N
+           Objections, at least four days have passed since the
+           announcement made under (a) of this rule;
+
+      (c)  either the player who attempts to perform the action is the
+           player who made the announcement under (a) of this rule, or
+
+           (1)  the player who made the announcement under (a) of this
+                rule did so by a privilege or duty granted em by
+                virtue of holding a rules-defined position; and
+
+           (2)  the player who attempts to perform the action is the
+                holder of that position when e attempts to perform the
+                action;
+
+      (d)  the rules explicitly authorise the player to perform the
+           action dependently;
+
+      (e)  during the time between the announcement made under (a) of
+           this rule and the attempt to perform the action,
+
+           (1)  if the action is to be performed Without N Objections,
+                fewer than N players have publicly posted objections to
+                the performance of the action; or
+
+           (2)  if the action is to be performed With N Supporters, at
+                least N players other than the player who made the
+                announcement under (a) of this rule have publicly posted
+                support for the performance of the action;
+
+      (f)  the announcement made under (a) of this rule specifies
+           whether the action is to be performed Without N Objections or
+           With N Supporters, unless the rules either do not permit the
+           action to be performed Without N Objections or do not permit
+           the action to be performed With N Supporters; and
+
+      (g)  e announces that e performs the described action.
+
+      A dependent action is not performed until announced as in (g).
+
+      A player who posts an objection to the performance of an action
+      may publicly retract eir objection.  If e does so, e shall be
+      deemed not have posted an objection to the performance of that
+      action for the purposes of (e)(1) of this rule.
+
+      The specification in the rules that an action may be performed
+      dependently does not prohibit performing that action independently
+      if doing so would otherwise be permissible.
+
+      A rule authorising the performance of a dependent action may
+      restrict the eligibility of players to support or object to that
+      specific action.
+
+-------------------------------------------------------------------------------
+
+Proposal #4280 by OscarMeyr, AI=1
+Organizations Can Move, Too!
+
+// Organizations can move 5 Movement Units per week
+
+Change the first paragraph of Rule 2003 from:
+
+      Every week, each Player may expend up to 10 Movement Units to
+      move about in the Land of Arcadia.  Movement Units are not
+      transferrable, and do not persist from one week to the next.
+To:
+
+     Every week, each Player may expend up to 10 Movement Units to
+     move about in the Land of Arcadia, and each Organization may
+     expend up to 5 Movement Units.  Movement Units are not
+     transferable, and do not persist from one week to the next.
+
+Delete the third paragraph of Rule 2003, which reads:
+      The Mapkeepor's Report shall list, for each Player:
+        * the Player's location at the beginning of the last week
+        * the Player's location at the beginning of the current week
+
+Change R1996 item (iii) from:
+      (iii) the location of each entity or instrument with a defined
+            non-secret location.
+
+To:
+      (iii) the location for the previous week and the current week
+            of each entity or instrument with a defined non-secret
+location.
+
+========================================================================
+ -H. Assessor Goethe
+
+

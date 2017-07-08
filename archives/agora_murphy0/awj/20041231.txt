@@ -1,0 +1,478 @@
+Subject:
+BUS: Agoran Weekly Journal
+From:
+Ed Murphy <emurphy42@socal.rr.com>
+Date:
+Sun, 05 Jun 2005 03:52:51 -0700
+To:
+Agora Business <agora-business@agoranomic.org>
+
+     THE AGORAN WEEKLY JOURNAL
+     VOLUME 49, BACK ISSUE 19
+     Friday, December 31, 2004
+
+
+FOUR EIGHT FIFTEEN SIXTEEN TWENTY-THREE FORTY-TWO
+-------------------------------------------------
+
+Andre    - Old CFJs           http://www.win.tue.nl/~engels/stare.txt
+Elysion  - Thesis archive     http://www.msu.edu/~boehmejo/agora.html
+Goethe   - Claustronomic      http://faculty.washington.edu/kerim/nomic/
+Michael  - First Speaker      http://web.rsise.anu.edu.au/~michaeln/agora/
+Murphy   - CotC Web           http://zenith.homelinux.net/cotc/
+root     - Proposal Pool      http://www.periware.org/agora/
+
+
+ERRATA
+------
+
+
+ADOPTED PROPOSALS
+-----------------
+
+"Battery Packs" by Goethe - Proposal 4618 adopted 11/20
+  Each player voting for this proposal gains 10 Voting Potential.
+
+"Buying Seats" by Goethe - Proposal 4619 adopted 11/20
+  Each Shareholder gains 12 Voting Potential.
+
+"Card Cards" by Goethe - Proposal 4620 adopted 11/20
+  New Card property "Delayed[N]".  A Gambler may play a Delayed[N] card at
+    most once every N*24 hours.
+  New Card "Your Turn" (Budgeted, initially 5; choose a player who must play
+    or discard within 72 hours, or commit the Infraction of Delay of Game).
+  New Card "Discard Picking" (Budgeted, initially 4, Delayed[4]; a card that
+    was played or discarded in the past 72 hours is transferred from the Deck
+    to you).
+  New Card "Enforced Charity" (Budgeted, initially 3, Delayed[3]; choose a
+    player who must transfer a card to you within 72 hours, or commit the
+    Infraction of Greed).
+  New Card "Drop Your Weapon" (Budgeted, initially 2; choose a gambler and
+    one of eir cards to discard it).
+  New Card "Presto!" (Budgeted, initially 1, Delayed[7]; choose a gambler and
+    one of eir cards to transfer it to you).
+
+"Cards for Votes" by Goethe - Proposal 4622 adopted 11/20
+  New Card property "Grafty".  Grafty cards are Budgeted, with initial quota
+    of one (created in the Deck) plus one for each player who voted for the
+    proposal to make them Grafty (created in that player's possession).  Any
+    previously existing copies are destroyed first.
+
+"Clean up Monk reporting" by OscarMeyr - Proposal 4614 failed quorum 9/21 -
+    Complacent Corporation - Proposal 4616 adopted 10/1
+  Repeal a remaining reference to Monks.
+
+"Crashing the Party" by Goethe - Proposal 4630 adopted 12/19
+  New Card "Chaos Apple" (Handed[5], Delayed[7], Kallesti!; once a quarter,
+    playing this card requires the Deckmastor to transfer all non-Deck cards
+    to a temporary Gambler, Fate, then transfer then back randomly so that
+    each Gambler's hand size is the same as before; if exactly one player
+    publicly claims to be The Prettiest One after this card is played but
+    before the scrambling begins, then e shall get this card).
+
+"Crimson Go" by Goethe - Proposal 4624 adopted 11/20
+  Initiative is a player switch (Gote, Sente).
+  Rebellion resets all players to Gote.
+  VPDP = Potential for Shareholders, 1 for other players.
+  One Takeover Proposal may be submitted per month.  It must specify a set of
+    Corporate Raiders from 1/3 to 1/2 the number of active noisy players at
+    the time of submission.  All Takeover Proposals are Democratic and Sane.
+  At the beginning of a Takeover Proposal's voting period, all players lose
+    Sente.
+  If a Takeover Proposal is adopted, all Corporate Raiders gain Sente.  If
+    it is rejected, all other players gain Sente.
+
+"Drinks on the House" by Murphy - Proposal 4628 adopted 12/19
+  Expunge all blots due to Apathy in the Herald's election ending November 21.
+
+"Limit Surprises" by root - Proposal 4627 adopted 12/3
+  Add Delayed [3] to It's a Surprise!.
+
+"No Point Anymore" by Goethe - Proposal 4614 adopted 10/10
+  The Maximum Hand Size may be from 2 to 10 (rather than 3 to 10).
+  The Minimum Hand Size may be from 2 to 10, default 2.
+  The Deckmastor's Budget includes one to three Winning Hands, each at least
+    two Cards larger than the Maximum Hand Size.
+  A Gambler whose Hand is exactly a Winning Hand has 72 hours to announce
+    it.  If the announcement is false, e loses a random card.  If it is true,
+    e Wins, and gains the Boon of Pokerface and the Patent Title of Champion.
+  Flux is a Gambler switch (Free, Frozen).
+  One week after a true announcement, all Gamblers except the Deck are
+    frozen, and lose random cards to reduce their hands to the Minimum Hand
+    Size.  The Winner then gains cards up to the Maximum Hand Size, and all
+    Gamblers are unfrozen.
+  If there is no win in six months, then any Gambler may announce a Skunk,
+    which triggers the freezing process.
+  The initial Winning Hands are
+    Three Trios: (Distrub-u-Matic, Absolv-o-Matic, Debate-o-Matic)x3
+    Dead Man's Hand:  Dud, Dud, Dud, Dud, Dud, Dud, Dud
+  The Team with the most points gets the usual benefits of a Team Win.
+  Repeal Scores, Teams, Contested Proposals and Elections, Champion's
+    Contests, the Patent Title of Admiral, and various Score-related
+    Cards and other rule effects.
+
+"Officer card bonus" by Goethe - Proposal 4625 adopted 11/20
+  Each office, plus the Speakership, increases the player's effective Maximum
+    Hand Size by one.
+
+"Potential Decay" by Goethe - Proposal 4621 adopted 11/20
+  Instead of being zeroed each month, Voting Potentials are halved (and
+    rounded down to an integer).
+
+"Powered Cards" by root - Proposal 4631 adopted 12/19
+  New Card property "Powered[X]".  The Card's Power is X.  Exploit requires
+    additional fee of X-1 unless it explicitly specifies otherwise.
+  Debate-o-Matic becomes Powered[2].
+  The Power of Rule 2067 (Cards in Play) is changed to 2, so that its
+    assignment of Power to Debate-o-Matic is effective.
+
+"Quorum for Referenda and Elections" by Murphy - Proposal 4629 adopted 12/19
+  Quorum for Referenda and Elections is 1/3 of voters, rather than 1/2.
+
+"Some card fixes" by Goethe - Proposal 4626 adopted 11/20
+  The Power of Rule 2067 (Cards in Play) is increased from 1 to 2, so that
+    Debate-o-Matic can be effective.
+  A missing "cards" is added to Rule 2075 (Winning Hands).
+  An explicit definition of Political Charge is added to Rule 2052 (Voting
+    Potential).
+
+"Vote Cards" by Goethe - Proposal 4623 adopted 11/20
+  New Card "Coalition" (Grafty; change a Voting Potential by N for a fee of
+    N for yourself, 2*N for another).
+  New Card "Patronage" (Grafty; change the Political Charge by N for a fee
+    of 4*N).
+  New Card "Policy" (Budgeted, initially 8; sanitize a proposal).
+  New Card "Procedure" (Budgeted, initially 8; abort a non-sane proposal and
+    make it undistributable).
+
+REJECTED PROPOSALS
+------------------
+
+"Reshuffle!" by OscarMeyr - Proposal 4617 rejected 10/25
+  All pending draws are cancelled.
+  All non-Stock cards are returned to the Deck.
+  The Deckmastor shall deal random cards to bring each player's hand up to
+    three cards.
+
+PENDING PROPOSALS
+-----------------
+
+"A Different Takeover" by Goethe
+  Takeover Proposal.  Corporate Raiders are Pakaran, Sir Toby, Riail,
+    RedKnight, and Sherlock.
+
+"A Takeover" by Goethe
+  Takeover Proposal.  Corporate Raiders are Maud, Michael, Pakaran, Sir Toby,
+    Riail, RedKnight, and Sherlock.
+
+"December Power Play" by Goethe - Proposal 4632
+  Takeover Proposal.  Corporate Raiders are Maud, Michael, Pakaran, Sir Toby,
+    RedKnight, and Sherlock.
+
+"Herald the Herald" by Murphy
+  Install OscarMeyr as Herald.
+
+"Penalties for Stock Cards" by Goethe
+  One Share becomes Handed[2].
+  Two Shares becomes Handed[3].
+  Three Shares becomes Handed[4].
+
+"Pragmatic deals" by Goethe - Proposal 4633
+  If the Deckmastor errs in good faith in choosing a card to deal, and the
+    probability of choosing that card is not greatly changed, then the deal
+    stands.
+
+PROTO-PROPOSALS
+---------------
+
+"Boons for Proposals" by OscarMeyr
+  Boon of Right of Passage for adoption of an interested proposal.
+  Albatross of Left of Passage for rejection of an interested proposal.
+
+"Card Stasis" by Eris
+  Replace the Card "Player Stasis" (temporarily preventing a player from
+    playing Cards) with "Card Stasis" (temporarily preventing a Card from
+    being played).
+
+"Cards for Proposals" by OscarMeyr
+  When a proposal is adopted, the proposer gains a pending draw.  Hand limit
+    applies only if the proposal was disinterested.
+
+"Clarify Ineffectiveness" by Murphy
+  Naughty proposals are not implemented, even if adopted (but may trigger
+    Rule-based side effects).
+  Proposals attempting to change votes, or offer bribes for voting FOR or
+    AGAINST, are naughty.
+
+"Clarify Rule 1006" by Murphy
+  Replace "shall be held" with "shall become held" in the Speaker-is-
+    default-office-holder clause.
+
+"Crimson Permanent Assurance" by Murphy
+  Repeal Cards, including Shares.
+  Initiative is a player switch (Gote, Sente).  Shareholders are players
+    with Sente.
+  Rebellion resets all players to Gote, instead of returning all Shares
+    to the Deck.
+  VPOP = 1 for Shareholders, 0 otherwise.
+  VPDP = 2+Potential for Shareholders, 1+Potential for other players.
+  One Takeover Proposal may be submitted per month.  It must specify a set
+    of Corporate Raiders, including the submitter, and from 1/3 to 1/2 the
+    number of active noisy players at the time of submission.  It must have
+    AI >= 2.
+  If a Takeover Proposal is adopted, all Corporate Raiders gain Sente.  If
+    it is rejected, all other players gain Sente.
+
+"Golden Handcuffs" by Riail
+  New Card "Golden Handcuffs" (Limited [Shareholders]; players gain N kudos
+    upon a Turning of the Parchment, where N = eir largest Share card; if
+    Corporate Bankruptcy is played, they lose N kudos instead, but eir kudos
+    do not go negative).
+
+"Power Limitations"
+  If a Rule with Power = M defines a Nomic Property as N Constrained, then
+    that property's value can only be changed by the direct action of an
+    instrument with Power >= P, or by a mechanism explicitly and directly
+    described in a Rule with Power >= P, where P = min(N, M).
+
+"War on Apathy" by Murphy
+  The Infraction of Apathy is renamed Voter Apathy.
+  When an election ends with no candidates, anyone that could have nominated
+    someone but didn't commits the Infraction of Nominator Apathy.
+
+
+CALLS FOR JUDGEMENT
+-------------------
+
+Requests for ineligibility:
+
+12/10  Kolja (called before January 15, 2005)
+
+CFJ 1517  "Claustronomic is not currently an Agoran Contest."
+[TRUE]    7/29       Called by Goethe; part of Linked CFJs 1517 - 1518
+          7/31-15    Assigned to root, who is recused
+          8/1        root attempts to transfer to RedKnight, pending consent
+          8/15-29    Assigned to t, who is recused
+          9/5-19     Assigned to Sir Toby, who is recused
+          9/19-24    Assigned to Sherlock, who is recused
+          9/26-10/7  Assigned to Michael, who judges TRUE
+          Caller's argument (summary):  Goethe resigned as Contestmaster,
+            and the Regulations do not specify a replacement.
+
+CFJ 1518  "Elysion was awarded 5 points on or about 29-Jul-04."
+[FALSE]   7/29       Called by Goethe; part of Linked CFJs 1517 - 1518
+          7/31-15    Assigned to root, who is recused
+          8/1        root attempts to transfer to RedKnight, pending consent
+          8/15-29    Assigned to t, who is recused
+          9/5-19     Assigned to Sir Toby, who is recused
+          9/19-24    Assigned to Sherlock, who is recused
+          9/26-10/7  Assigned to Michael, who judges FALSE
+          Caller's argument (summary):  Elysion was awarded 5 points in
+            Claustronomic, and the Scorekeepor's Budget awards equal points
+            in Agora without requiring Claustronomic to be a Contest.
+          Judge's refutation (summary):  Agora deems that Claustronomic does
+            not exist, and also that the point award in Claustronomic does
+            not exist.
+
+CFJ 1522  "A Player may NOT draw two cards without fee by playing It's A
+[TRUE]     Surprise, if eir hand size is above the maximum."
+          Part of Linked CFJs 1522 - 1523
+          10/26    Called by Goethe
+          11/6-10  Assigned to root, who judges TRUE
+          Caller's argument (summary):  It's a Surprise waives the fee, but
+            not the hand size requirement.
+
+CFJ 1523  "If It's A Surprise is played when the hand size is above the
+[TRUE]     maximum, the play wholly fails."
+          Part of Linked CFJs 1522 - 1523
+          10/26    Called by Goethe
+          11/6-10  Assigned to root, who judges TRUE
+          Caller's argument (summary):  See CFJ 1522.  It's a Surprise does
+            not directly cause draws, but simply removes some restrictions
+            from the usual draw mechanism.
+          Judge's argument (summary):  The exploit is the draw itself, not
+            activation of an ongoing permission which may be used later, so
+            It's a Surprise cannot be played when the hand size is above the
+            maximum, and the statement is vacuously true.
+
+CFJ 1524  "A Corporate Bankruptcy card has been legally dealt to root."
+[FALSE]   11/4     Called by Goethe
+          11/6-12  Assigned to Maud, who judges FALSE
+          Caller's argument (summary):  Random card selections were performed
+            before root drew a card.
+          Judge's refutation (summary):  The random selection must be performed
+            after the draw.
+
+CFJ 1525  "The Patent Title of Champion defined in R2075 is different from
+[FALSE]    the previous Patent Title of Champion."
+          11/15     Called by OscarMeyr
+          11/20-27  Assigned to RedKnight, who judges FALSE
+          Caller's argument (summary):  The current title's purpose (to
+            indicate the latest winner) is different from the previous title's
+            purpose (to indicate winners other than the latest).
+          Judge's refutation (summary):  Patent Titles are defined as "a legal
+            recognition of a person's distinction", and the titles have no
+            difference in this regard.
+
+CFJ 1526  "No player's Voting Potential has increased due to Proposal 4618
+[TRUE]     (Battery packs)."
+          11/20       Called by Murphy
+          11/20-12/4  Assigned to Kolja, who defaults
+          12/5-13     Assigned to Riail, who judges TRUE
+          Caller's argument (summary):  Rule 1561 (Illegality of Bonus Clauses)
+            makes the proposal ineffective.
+
+CFJ 1527  "Goethe has nine Pennies."
+          12/14  Called by root
+          12/19  Assigned to Murphy
+          Caller's argument (summary):  One of the Pennies would have been an
+            effect of the adoption of Proposal 4618.  See CFJ 1526.
+
+
+OFFICES
+-------
+
+10/2   OscarMeyr becomes Speaker.  root becomes Speaker-Elect.
+
+       Nominations open for Speaker-Elect.  Mode is Selfless.
+
+10/3   Eris resigns as Deckmastor, Herald, and Notary.  Speaker OscarMeyr
+         holds these offices.
+
+10/4   Sherlock declines eir nomination for Herald.
+
+10/10  Nominations open for Deckmastor and Herald.  Mode is Open.
+
+       Sherlock is elected Notary.
+
+       Nominations open for Speaker-Elect.  Mode is Selfless.
+
+10/12  Goethe nominates emself for Deckmastor, and submits a proto-budget:
+         Maximum Hand Size: 7
+         Minimum Hand Size: 3
+         Card Quotas:
+           Distrib-u-Matic : 30
+           Absolv-o-Matic  : 20
+           Debate-o-Matic  : 6
+           Dud             : 25
+           Rebel Rabble    : 8
+           One Share       : 7
+           Two Shares      : 4
+           Three Shares    : 2
+         Winning Hands:
+           Three Trios (Distrub-u-Matic, Absolv-o-Matic, Debate-o-Matic)x3
+           Dead Man's Hand (Dud, Dud, Dud, Dud, Dud, Dud, Dud, Dud, Dud)
+           The CEO (One Sharex3, Two Sharesx2, Three Shares, any three others)
+
+10/17  Goethe is elected Deckmastor.
+
+       Nominations open for Herald and Speaker-Elect.  Mode is Open.
+
+10/25  Nominations open for Herald and Speaker-Elect.  Mode is Open.
+
+10/25  Sherlock nominates emself for Speaker-Elect.
+
+11/6   Nominations open for Herald.  Mode is Open.
+
+       Murphy nominates OscarMeyr and emself for Herald.
+
+       Sherlock is elected Speaker-Elect.
+
+11/14  Voting opens for Herald.  Candidates are Murphy and OscarMeyr.
+
+11/20  Nominations open for Justiciar.  Mode is Selfless.
+
+       Murphy nominates Eris, Kolja, Maud, Pakaran, RedKnight, and Sir Toby
+         for Justiciar.
+
+       RedKnight and Maud decline eir nominations for Justiciar.
+
+11/25  Nominations open for Herald.  Mode is Open.
+
+       Murphy nominates OscarMeyr for Herald.
+
+12/5   OscarMeyr is elected Herald.
+
+       Voting opens for Justiciar.  Candidates are Eris, Kolja, Pakaran, and
+         Sir Toby.
+
+12/19  Nominations open for Assessor.  Mode is Open.
+
+       Murphy nominates emself for Assessor.
+
+       Eris is elected Justiciar.
+
+
+SHAREHOLDERS
+------------
+
+11/1   OscarMeyr receives One Share and Three Shares.
+
+       Murphy receives Three Shares.
+
+       root receives Two Shares.
+
+11/9   OscarMeyr transfers One Share to Goethe.
+
+12/15  OscarMeyr transfers Three Shares to Eris.
+
+12/20  Murphy receives Two Shares.
+
+       Riail receives One Share.
+
+
+CARDS
+-----
+
+11/20  root plays Distrib-u-Matic (for Limit Surprises).
+
+11/27  Maud plays Absolv-o-Matic (for emself).
+
+12/1   root plays Distrib-u-Matic (for Powered Cards 0.2).
+
+12/13  Goethe plays Distrib-u-Matic (for December Power Play).
+
+12/14  root plays Absolv-o-Matic (for emself).
+
+       Riail's play of Absolv-o-Matic (for emself) fails because e cannot
+         afford the fee.  E later plays it successfully.
+
+12/20  Goethe plays Absolv-o-Matic (for emself).
+
+       Manu plays Enforced Charity (for OscarMeyr).
+
+
+IN OTHER NEWS
+-------------
+
+10/10  RedKnight alleges that Oerjan and Wes have abandoned the
+         game.  Registrar OscarMeyr confirms, and publishes Notices of
+         Intent to Deregister.
+
+       RedKnight makes t quiet.
+
+10/13  Pakaran becomes noisy.
+
+10/25  ADoP Murphy intends (without objection) to ratify eir latest report.
+
+10/28  Riail goes on hold.
+
+11/4   Maud comes off hold.
+
+11/6   ADoP Murphy ratifies eir report.
+
+11/14  Oerjan and Wes are deregistered.
+
+11/20  RedKnight alleges that t has abandoned the game.
+
+11/21  Registrar OscarMeyr confirms t's abandonment and publishes a Notice of
+         Intent to Deregister.
+
+12/1   RedKnight makes Pakaran quiet.
+
+       Riail comes off hold.
+
+12/10  Kolja goes on hold.
+
+12/16  Manu registers.
+

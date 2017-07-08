@@ -1,0 +1,161 @@
+
+Agora Nomic
+Voting Report for Proposals 4432-4437
+
+This Report: Mon, 27 Jan 2003 
+Last Report: Thu, 16 Jan 2003
+
+Current Voting Mode: Unrestricted
+===========================================================================
+Voting on Proposals 4432-4437 commenced: Sun, 19 Jan 2003 22:46:23 UTC
+Voting on Proposals 4432-4437 concluded: Sun, 26 Jan 2003 22:46:23 UTC
+
+Num. Title                           By         AI  Flag RESULT  F A - *
+
+4432 Invisibilitating                Maud        1   O   FAILS   1 3 0 0
+4433 Be Nice to Oerjan               Murphy      1   D   PASSES  4 3 0 2
+4434 Action Unit Sanity              SirToby     1   O   PASSES  3 1 0 0
+4435 Non-Preferential Treatment      Murphy      1   O   PASSES  3 1 0 0
+4436 Monastries                      RedKnight   1   O   PASSES  3 1 0 0
+4437 Rouse the Rabble                Murphy      1   O   FAILS   2 2 0 0
+
+
+Flags:
+O: Ordinary D: Democratic P: Parliamentary
+d: disinterested  u: urgent  s: sane  c: contested
+
+===========================================================================
+
+Democratic                      Ordinary
+              4433                          4432  4434  4435  4436  4437
+
+Cecilius       *                Sir Toby     F     F     F     F     F
+t              *                RedKnight    A     F     F     F     A
+Michael        F                Cecilius     A     F     F     F     F
+OscarMeyr      A                OscarMeyr    A     A     A     A     A
+Eris          2F                
+RedKnight      A
+Sir Toby       F                       
+Steve          A 
+
+FOR            4                FOR          1     3     3     3     2
+AGAINST        3                AGAINST      3     1     1     1     2
+ABSTAIN        0                ABSTAIN      0     0     0     0     0
+Present        2                Present      0     0     0     0     0
+
+Voters         8                Voters       4     4     4     4     4
+Quorum? (5)    Y                Quorum? (3)  Y     Y     Y     Y     Y
+PASSES?        Y                PASSES?      N     Y     Y     Y     N
+
+===========================================================================
+Miscellaneous
+===========================================================================
+
+Points awards:
+
+Player     Points   Reason/Rule
+-------------------------------
+Murphy     + 7      Interested Proposal passes, 3 votes against; R1930(g)
+Sir Toby   + 5      Interested Proposal passes, 1 vote against; R1930(g)
+Murphy     + 5      Interested Proposal passes, 1 vote against; R1930(g)
+RedKnight  + 5      Interested Proposal passes, 1 vote against; R1930(g)
+OscarMeyr  + 2      Only player to vote against P4434; R1930(h)
+OscarMeyr  + 2      Only player to vote against P4435; R1930(h)
+OscarMeyr  + 2      Only player to vote against P4436; R1930(h)
+
+===========================================================================
+Text of Adopted Proposals
+===========================================================================
+
+
+Proposal 4433 by Murphy, AI=1, Democratic
+Be Nice to Oerjan
+
+Upon the adoption of this Proposal, Oerjan becomes Noisy.
+
+-----------------------------------------------------------------------
+
+Proposal 4434 by SirToby, AI=1, Oridanary
+Action Unit Sanity
+
+###
+Proposal
+Action Unit Sanity
+
+In Rule 2003, replace the text, "plus 1 for every unit of Land with Gote
+owned by the Player", with the text, "plus 1 for every unit of Land with
+Gote owned by the Player at the start of the week".
+
+Also, in Rule 2003, replace the text, "plus 1 for every unit of Land
+with Gote owned by the Group", with the text, "plus 1 for every unit of
+Land with Gote owned by the Group at the start of the week".
+
+###
+
+-----------------------------------------------------------------------
+
+Proposal 4435 by Murphy, AI=1, Oridanary
+Non-Preferential Treatment
+
+Upon the adoption of this Proposal, each Player's preferred e-mail
+address(es) become listed.
+
+Amend Rule 559 (The Registrar) by replacing "preferred" with "listed".
+
+Amend Rule 514 (Keep the Registrar Informed of Your Address) to read:
+
+      Each Player may list or unlist an e-mail address by informing
+      the Registrar that e is doing so.  When a Player registers, the
+      address used to send eir registration becomes listed.
+
+      A listing is only valid if the Player sends a public message
+      from the listed address within one week of the listing.  (This
+      message may be the listing itself.)  An unlisting is only valid
+      if the Player keeps at least one address listed.
+
+      If a Player fails to notify the Registrar of a change of address,
+      then the Registrar is not responsible for any e-mail that fails
+      to reach that Player.
+
+Create a Rule titled "Orange Alert" with this text:
+
+      If a Player has no listed e-mail address, then the address used
+      to send eir next public message becomes listed.
+
+      If each Player has at least one listed address, then the Registrar
+      may repeal this Rule by announcing that e does so.
+
+-----------------------------------------------------------------------
+
+Proposal 4436 by RedKnight, AI=1, Oridanary
+Monastries
+
+Amend Rule 1987 to read:
+
+    The following Classes of Organizations exist:
+
+       a) Groups.
+       b) Contests.
+       c) Monasteries.
+
+Create a new Power = 1 rule titled "Joining a Monastery" with the
+following text.
+
+A Player shall be added to the Membership of a Monastery only when the
+Player to be added has sent the Administrator of the Monastery in
+question a message requesting the be added to the membership of that
+Monastery and the addition of that Player to that Monastery's membership
+is otherwise permitted by that Monastery's SLC.
+
+-----------------------------------------------------------------------
+
+
+-- 
+
+
+Steve Gardner                     |  Each writer creates their own
+School of Computer Science        |  precursors.
+ and Software Engineering         |  
+gardner@sng.its.monash.edu.au     |           -- Jorge Luis Borges
+
+

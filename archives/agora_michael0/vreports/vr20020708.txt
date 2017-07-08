@@ -1,0 +1,129 @@
+Agora Nomic
+Voting Report for Proposals 4339-4342
+8 Jul 2002
+
+Current Voting Mode: Public
+===========================================================================
+Voting on Proposals 4339-4342 commenced: Mon, 24 Jun 2002 15:03:12 +1000
+Voting on Proposals 4339-4342 concluded: Mon,  1 Jul 2002 15:03:12 +1000
+
+Num. Type Proposer    AI Title                         RESULT  F  A  -  *
+4339 Ord  Sir Toby     1 Fix Robespierre - Take 2      PASSES  3  0  0  0
+4340 Dem  root         2 Fix Property Protection       PASSES  5  0  0  0
+4341 Dem  Steve        3 Really, No Double Jeopardy    PASSES  5  0  0  0
+4342 Ord  root         1 Pragmatic Judge Selection     PASSES  3  0  0  0
+===========================================================================
+
+Ordinary                      Democratic
+               4339   4342                  4340   4341
+
+Craig          F      F       Eris          F      F
+Goethe         F      F       Craig         F      F
+root           F      F       Goethe        F      F
+                              root          F      F
+                              Steve         F      F
+
+FOR            3      3                     5      5
+AGAINST        0      0                     0      0
+ABSTAIN        0      0                     0      0
+Presence       0      0                     0      0
+
+Voters         3      3                     5      5
+Quorum?        Y      Y                     Y      Y
+PASSES?        Y      Y                     Y      Y
+
+======================================================================
+Miscellaneous
+======================================================================
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+-----------------------------------------------------------------------------
+
+Proposal 4339 by Sir Toby, AI=1
+Fix Robespierre - Take 2
+
+Amend rule 1923 by replacing the following text:
+
+      (a)  Robespierre, which shall automatically be awarded to the
+           Player who called for a Revolt, it the Revolt succeeds.
+
+with this text:
+
+      (a)  Robespierre, which shall automatically be awarded to the
+           Player who called for a Revolt, if the Revolt succeeds.
+
+-----------------------------------------------------------------------------
+
+Proposal 4340 by root, AI=2
+Fix Property Protection
+
+Upmutate the Rule titled "Property Protection" to have Power = 2.
+
+Proposal #02-104 by Steve, AI=3
+Really, No Double Jeopardy
+
+-----------------------------------------------------------------------------
+
+Proposal 4341 by Steve, AI=3
+Really, No Double Jeopardy
+
+This Proposal has an AI of 3.
+
+[The current discussion has convinced me that R1816 is inadequate. Its
+provisions are too narrow, covering only Crimes, and in any case
+ineffective because they conflist with R1565.]
+
+Amend Rule 1816 (No Double Jeopardy) to read:
+
+  (a) No Player may be penalized more than once for any single act, or
+      failure to act, that is in violation of one or more Rules.
+
+  (b) Where a CFJ exists whose Statement alleges that a Player has
+      through action or inaction violated a Rule, and that CFJ has not
+      been dismissed, any further CFJ alleging that the same Player
+      has through the same action or inaction violated the same Rule,
+      lacks standing and shall be dismissed.
+
+Increase the Power of Rule 1816 to 3.
+
+-----------------------------------------------------------------------------
+
+Proposal 4342 by root, AI=1
+Pragmatic Judge Selection
+
+Amend Rule 1871 (Turns For All) by changing it to read:
+ 
+       Whenever a Player is selected as Trial Judge of a CFJ, e begins
+       to Turn Around And Around.  Players who are Turning Around And
+       Around are ineligible to be Trial Judge of any future CFJs.
+
+       Whenever there are no Players eligible to be Trial Judge of a
+       CFJ, all Players who are Turning Around And Around cease Turning
+       Around And Around.
+
+ 
+Create a new Rule, titled "Errors in Judge Selection", which reads:
+
+       If the Clerk of the Courts errs in good faith by selecting a
+       Player to Judge a CFJ or Appeal, who:
+
+       a) e believes at the time of selection to be eligible to judge the
+          CFJ or Appeal; and
+       b) is not eligible to judge the CFJ or Appeal at the time of
+          selection solely because e is Turning Around And Around;
+ 
+       then that selection shall stand and the selected Player shall
+       become a Judge of that CFJ or Appeal, as if e had been eligible to
+       judge it.
+
+-----------------------------------------------------------------------------
+
+Assessor t
+
+   teemu korkiakangas: scurra@iki.fi . http://www.iki.fi/scurra/
+              "kunpa kaikki elÅ‰mÅ‰n suuret mysteerit ratkeaisivat
+                  kengurukepin ja kermapullon avulla" (don rosa)
+

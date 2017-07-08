@@ -1,0 +1,308 @@
+On Sat, 22 Feb 2003, Steve Gardner wrote:
+
+> 
+> Agora Nomic
+> Voting Report for Proposals 4443-4456
+> 
+> This Report: Sat, 22 Feb 2003 
+> Last Report: Mon, 03 Feb 2003
+> 
+> Current Voting Mode: Unrestricted
+> ===========================================================================
+> Voting on Proposals 4443-4449 commenced: Sat, 15 Feb 2003 04:01:15 
+> Voting on Proposals 4443-4449 concluded: Sat, 22 Feb 2003 04:01:15 
+> 
+> Voting on Proposals 4450-4456 commenced: Sat, 15 Feb 2003 04:10:24 
+> Voting on Proposals 4450-4456 concluded: Sat, 22 Feb 2003 04:10:24 
+> 
+> 
+> Num. Title                           By         AI  Fl RESULT  F  A  - *
+> 
+> 4453 Teamwork                        Sherlock    3  D  FAILS  10  8  0 1
+
+In accordance with the Judgement of CFJ 1440, this should have read:
+
+  4453 Teamwork                        Sherlock    1  D  PASSES 10  8  0 1
+
+Here is the text of P4453:
+
+Proposal 4453 by Sherlock, AI=3, Democratic
+Teamwork
+
+Create a Rule entitled "Teams" with this text:
+
+      All Players are grouped into units known as Teams.  No Player
+      may belong to more than one Team at any time.
+
+      Each Team shall have a Team Name by which it is known.  A
+      Player in a Team may change that Team's Team Name with the
+      Support of two other Players in the same Team.
+
+      A Team Score is at all times an integer.  The Team Score of a
+      Team is the total sum of all Points of all Players grouped into
+      that Team.
+
+Create a Rule entitled "Team Wins" with this text:
+
+      A Team achieves a Team Win when its Team Score reaches 400.
+
+      The Scorekeepor shall make a public announcement of the Team Win
+      as soon as possible after the Team Win is achieved.  The
+      Scorekeepor shall then pay out 25 Stems to each Player in the
+      winning Team.
+
+      Upon the Scorekeepor's announcement, all Players' Scores are
+      set to zero.
+
+Create a Rule entitled "New Player Team Assignment" with this text:
+
+      As soon as possible after a Player registers, the Scorekeepor
+      shall assign em to a Team and publicly announce the assignment.
+      The Scorekeepor shall make the assignment so as to distribute the
+      players as evenly as possible among the teams. If more than one
+      assignment would achieve this, the Scorekeepor may choose among
+      them.
+
+Amend rule 1928 (The Scorekeepor) to read:
+
+      The Scorekeepor is an office; its holder is responsible for
+      keeping track of scores and Teams.
+
+      The Scorekeepor's Weekly Report shall include the score of each
+      registered Player and all Team Scores as well as any changes
+      to either since the last posting of the Report.
+
+Upon adoption of this Proposal, all Player's Scores shall instantly be
+set to zero.
+
+Upon adoption of this Proposal, the Scorekeepor shall as soon as
+possible group all registered Players into four Teams of 4-6 Players
+apiece.  The Scorekeepor shall assign an initial Team Name to each of
+these Teams.
+
+Repeal Rule 766 (Groups).
+Repeal Rule 716 (How to Form a Group).
+Repeal Rule 719 (Joining a Group).
+Repeal Rule 721 (The Vizier and the Ordinancekeepor).
+Repeal Rule 718 (Resignation from a Group).
+
+Amend Rule 1910 (Stems) to read:
+
+      Stems are a Bank Currency.  The MUQ of Stems is 1.  The
+      Recordkeepor for Stems is the Payroll Clerk.
+
+      Transfers of Stems are permitted only if at least one of the
+      following is true:
+
+      (1) either the transferor or the transferee is the Bank;
+      (2) the Stems are to be transferred from a Dissolute to a player
+          who has the privilege of Looting the Corpse of that
+          Dissolute;
+      (3) either the transferor or the transferee is a Money Grubbing
+          Contest, and the regulations of the Contest(s) involved in
+          the transfer specifically permit the transfer.
+
+      All other transfers of Stems are prohibited.
+
+Amend Rule 1987 (Classes of Organizations) to read:
+
+      The following Classes of Organizations exist:
+
+        a) Contests.
+        b) Monasteries.
+
+Amend Rule 2003 (Actions in Arcadia), removing the part that reads:
+
+      - If the entity is a Group, 1, plus 3 for every Member of the
+        Group located on or adjacent to the location of the Group at
+        the start of the week, plus 1 for every unit of Land with Gote
+        owned by the Group at the start of the week.
+
+Amend Rule 2003 (Actions in Arcadia), to read:
+
+      Every week, the number of Actions Units an entity may expend to
+      perform actions in the Land of Arcadia is as follows,
+
+      - If the entity is a Player, 10, minus 1 for every 5 Blots in
+        the Player's Stain as recorded in the most recent Herald's
+        report before the week started, plus 1 for every unit of Land
+        with Gote owned by the Player at the start of the week.
+
+      - All other entities zero.
+
+      Action Units are not transferable, and do not persist from one
+      week to the next.
+
+      An entity may expend Action Units to carry out an action in
+      Arcadia by notifying the Mapkeepor of the specifics of the act.
+      So long as e does not spend more than eir allotted number of
+      Action Units, e may make as many actions e wishes in a single
+      week.
+
+      When an act specifies an alternating Land Type, the Land Type
+      chosen will be based upon the Land Type used as the previous
+      alternating Land Type, so that consecutive alternating Land
+      Types alternate between Black and White. As soon as possible
+      after a Player notifies the Mapkeepor of an act that specifies
+      an alternating Land Type, the Mapkeepor must announce which Land
+      Type was used for that act.
+
+      Players may expend:
+
+      * 2 Action Units to move from one Land Unit to an adjacent Unit
+        if their Land Types are the same and the destination is not
+        Aether.
+
+      * 5 Action Units to move from one Land Unit to an adjacent Unit
+        if their Land Types differ and the destination is not Aether;
+
+      Any entity may expend:
+
+      * 5 Action Units to set Land Type of a Land Unit which e owns to
+        any Land Type other than Aether, whether or not e is located
+        at that Land Unit.
+
+      * 5 Action Units to set the Land Type of a random Land Unit that
+        is adjacent to the Entity's current location, is of type
+        Aether, and is owned by the Land Bureau, to an alternating
+        Land Type.  The Mapkeepor will make the random determination.
+        This action has no effect if there are no qualifying Land
+        Units.  As soon as possible after a Player notifies the
+        Mapkeepor of this move, the Mapkeepor must announce which Land
+        Unit, if any, is changed by this action.  The change occurs at
+        the time of the first legal announcement from the Mapkeepor
+        declaring which Land Unit's Land Type has changed.
+
+      * 10 Action Units to set the Land Type of the Entity's current
+        location to any Land Type of eir choice other than Aether, if
+        and only if the Unit is owned by the Land Bureau.
+
+      * 10 Action Units to set the Land Type of any Land Unit that is
+        of type Aether to an alternating Land Type.
+
+      Unless explicitly permitted by other Rules, all other actions
+      and moves in Arcadia are invalid.
+
+Amend Rule 2022 (Sente and Gote) to read:
+
+      On the fifteenth of each Agoran Month, the following actions
+      occur in sequence, and these changes must be reported by the
+      Mapkeepor as soon as possible after they occur:
+
+         (i) Every Land Unit, excluding (0, 0), that is not directly
+             connected to a unit of Aether, and is not connected by
+             its own type to a unit of Aether, shall be transformed to
+             Aether.
+
+        (ii) Any entities whose locations are on land units so
+             transformed shall have their locations set to 0,0.
+
+       (iii) If any land unit so transformed is not property of the
+             Land Bureau, it becomes property of the Land Bureau.
+
+        (iv) If there are more Land Units of a single defined Land
+             Type, Aether excepted, then there are of all other Land
+             Types combined (other than Aether), then all Land Units
+             of that majority Type are said to have Sente.  Land Units
+             of all other defined Types are said to have Gote.
+
+         (v) the Mapkeepor shall Pay Out:
+             (a) an amount of Stems equal to the Minimum Income times
+                 the Basic Officer's Salary to all Players whose
+                 location has Sente;
+             (b) to the owner of any Land Unit that has Sente and is
+                 not owned by the Bank or the Land Bureau:
+                     * if the Weather is Plenty, 3 Stems for each 5
+                       Land Units with Sente that e owns;
+                     * if the Weather is Fair, 2 Stems for each 5
+                       Land Units with Sente that e owns;
+                     * if the Weather is Foul, 1 Stem for each 5
+                       Land Units with Sente that e owns;
+
+      Sente and Gote shall only be changed as defined by this Rule, on
+      the fifteenth of each Agoran Month.
+
+Repeal Rule 112 (Ways to Win and Preclusions Thereof).
+Repeal Rule 1931 (Winners' Stipend).
+Repeal Rule 2014 (SemiGenii).
+Repeal Rule 2015 (A Champion's Retirement).
+
+Amend Rule 1893 (The Treasuror's Budget) to read:
+
+      The Treasuror's Budget shall contain the Basic Officer Salary
+      (BOS), an amount between 0 and 40 Stems inclusive.
+      Additionally, the Budget shall contain the values all of the
+      following compensations:
+
+        (i)  the Minimum Income;
+       (ii)  the Judicial Salary;
+      (iii)  the Distributor's Gratuity;
+       (iv)  the Speaker's Gratuity; and
+        (v)  for each wage-earning Office, the Salary of that Office.
+
+      A compensation shall be not less than 0 nor more than 4, and
+      must be an integral multiple of 0.1.  The arithmetic mean of all
+      compensations shall be no greater than 2.
+
+      Whenever the Rules indicate that one of the above compensations
+      is to be paid out, the amount to be paid out shall be the
+      product of the value of the compensation and the value of the
+      BOS (as set in the latest Budget).
+
+      The Treasuror's Budget shall also contain a schedule that, for
+      each Bank Currency, shall indicate the amount of the New Player
+      Award for that Currency.  The amount of the New Player Award for
+      a Bank Currency shall not be less than the Minimum Unit Quantity
+      of that Currency.
+
+      The Treasuror's Budget shall also contain the Foul Weather
+      Factor and the Weather Intensity Factor. Both are numbers
+      between 0 and 10 inclusive that are evenly divisible by 0.1.
+
+      While holding the Office as Electee, the Treasuror may amend eir
+      Budget, With Support.
+
+Amend Rule 1922 (Defined Regular Patent Titles), removing the following
+text:
+
+      (e)  Groovy, which may be awarded to any Player Winning the Game
+           at least once since the introduction of this Patent Title
+           and demonstrating eir total coolness by Winning the Game at
+           least once by each of at least three distinct win
+           conditions.
+
+Amend Rule 1929 (Points) to read:
+
+      A Player's Score is a measure of that Player's unloserliness,
+      measured in Points. The Score of each Player is at all times an
+      integer. A Player who has not been Awarded or Penalized since
+      the last Team Win has a Score of zero Points.
+
+      The Rules may specify that certain events may cause a certain
+      Player to be Awarded Points (causing eir Score to be increased)
+      or Penalized Points (causing eir Score to be decreased). If said
+      event occurs, then any Player may notify the Scorekeepor of the
+      Award or Penalty. The Scorekeepor shall then note the change in
+      the affected Player's Score.
+
+      Such a notification must meet the following requirements, else
+      it is ineffective:
+         -- It must be sent within 7 days of the event
+         -- It must unambiguously describe the event
+         -- It must indicate the Rule allowing the Award or Penalty
+         -- It must be the first such notification for that specific
+            event
+
+Amend Rule 1962 (Immaculate Players) to read:
+
+      An Immaculate Player is a Player whose Stain is zero.
+
+-----------------------------------------------------------------------
+
+--
+
+Steve Gardner                   | The IRS does not recognize the Church
+School of Computer Science      | of the SubGenius as an official church
+ and Software Engineering       | because it is "too funny to be of
+gardner@sng.its.monash.edu.au   | spiritual use to humanity."
+

@@ -1,0 +1,94 @@
+Agora Nomic
+Voting Report for Proposals 4334-4337
+30 Jun 2002
+
+Current Voting Mode: Public
+===========================================================================
+Voting on Proposals 4334-4337 commenced: Mon, 17 Jun 2002 12:17:17 +1000
+Voting on Proposals 4334-4337 concluded: Mon, 24 Jun 2002 12:17:17 +1000 
+
+Num. Type Proposer    AI Title                         RESULT  F  A  -  *
+4334 Dem  Sir Toby     2 Massive Stem Destruction      FAILS   2  2  0  1
+4335 Ord  Murphy       1 Turning a Blind Eye           PASSES  3  0  0  0
+4336 Dem  Craig        2 Multi-currency boni           FAILS   3  2  0  0
+4337 Ord  Sir Toby     1 Money Grubbing Contests       PASSES  3  0  0  0
+===========================================================================
+
+Ordinary                      Democratic
+               4335   4337                  4334   4336
+
+Craig          F      F       Sir Toby      F      F
+root           F      F       Craig         *      F
+OscarMeyr      F      F       root          F      A
+                              Eris          A      A
+                              OscarMeyr     A      F
+
+FOR            3      3                     2      3
+AGAINST        0      0                     2      2
+ABSTAIN        0      0                     0      0
+Presence       0      0                     1      0
+
+Voters         3      3                     5      5
+Quorum?        Y      Y                     Y      Y
+PASSES?        Y      Y                     N      N
+
+======================================================================
+Miscellaneous
+======================================================================
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+-----------------------------------------------------------------------------
+
+Proposal 4335 by Murphy, AI=1
+Turning a Blind Eye
+
+For the purpose of this Proposal, the Period In Question is the time
+period beginning one second after Murphy was assigned as Trial Judge
+of CFJ 1364, and ending on June 11, 2002, at 23:59:59 UTC.
+
+Upon the adoption of this Proposal, the Game State becomes what it would
+be if, for the entire Period In Question, Murphy had been ineligible to
+be Trial Judge or Appelate Judge of any CFJ.
+
+Upon the adoption of this Proposal, the Bank incurs a debt to Murphy
+of 14 Stems.
+
+------------------------------------------------------------------------------
+
+Proposal 4337 by Sir Toby, AI=1
+Money Grubbing Contests
+
+Create a new rule with the title "Money Grubbing Contests" and the
+following text:
+
+      A Contest may be a Money Grubbing Contest if its ACO specifically
+      states that it is a Money Grubbing Contest. A Player may not be the
+      Contestsmaster of more than one Money Grubbing Contest in a single
+      Nomic month.
+
+Amend rule 1910 by replacing this text:
+
+      (3) the transferor is an Organization, and the Stems to be
+          transferred had not been held continuously by the
+          Organization for one week.
+
+with the following text:
+
+      (3) the transferor is an Organization, and the Stems to be
+          transferred had not been held continuously by the
+          Organization for one week;
+      (4) either the transferor or the transferee is a Money Grubbing
+          Contest, and the regulations of the Contest(s) involved in the
+          transfer specifically permit the transfer.
+
+-----------------------------------------------------------------------------
+
+Assessor t
+
+   teemu korkiakangas: scurra@iki.fi . http://www.iki.fi/scurra/
+              "kunpa kaikki elÅ‰mÅ‰n suuret mysteerit ratkeaisivat
+                  kengurukepin ja kermapullon avulla" (don rosa)
+

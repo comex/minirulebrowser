@@ -1,0 +1,209 @@
+Assessor's Voting Report
+2001-06-26 21:17:13
+
+Voting on Proposals 4170-4173 commenced: 2001-06-19 02:03:45
+Voting on Proposals 4170-4173 concluded: 2001-06-26 02:03:45
+
+Num.  Type  Proposer  AI  Title                Result  F   A  -
+4170  Dem   Elysion   2   Justiciar Option     PASSES  13  3  0
+4171  Ord   Blob      1   Bonds revisited 1.2  PASSES  6   1  1
+4172  Ord   root      1   Fix Mentor's Bonus   PASSES  9   0  0
+4173  Ord   Goethe    1   A Hero's Reward      PASSES  8   0  0
+
+Voter    4170  4171  4172  4173
+
+Crito       F
+Elysion     F
+Goethe     2F     F     F     F
+Ian         F
+Michael    2F    2F    2F    2F
+Peekee      A
+Steve       F
+Taral    3F,A
+Ziggy       A    3F    3F    3F
+harvel      *     -
+lee        2F          2F     F
+root        *     A     F     F
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+Proposal 4170 by Elysion, AI=2
+Justiciar Option
+
+[This proposal:
+      * Adds the option of filing any CFJ with the Justiciar
+      * Removes some wordy language from rule 991
+      * Establishes CFJ as the official abbrevation for Call for
+        Judgement
+ Recent history:
+      * Changed "Any Player" to "Any person" ]
+
+Amend rule 991/3 (Invoking Judgement, Power=2) to read:
+
+      Any person may seek formal resolution of any dispute pertaining
+      to this Nomic by submitting a Call for Judgement (CFJ) to the Clerk
+      of the Courts or Justiciar. Any document submitted to the Clerk
+      of the Courts or Justiciar and which is clearly marked as a
+      Call for Judgement is a Call for Judgement. (Although any CFJ
+      may be filed with the Justiciar, Players are encouraged to file
+      with the CotC unless there is a good reason not to.)
+      
+      For the purpose of this and other Rules, the submission of a CFJ
+      shall constitute proof of the existence of a dispute.
+
+      The Clerk shall distribute the text of a CFJ along with any
+      additional material submitted by the Caller (including, but not
+      limited to, Arguments and Evidence) not later than the time e
+      announces the identity of the first Judge assigned to Judge it.
+      However, if the CFJ is submitted to the Justiciar, e shall
+      perform all duties of the Clerk of the Courts with respect
+      to that CFJ.
+
+Repeal rule 1831/0 (Filing a CFJ with the Justiciar)
+
+[No longer needed.]
+
+----------------------------------------------------------------------
+
+Proposal 4171 by Blob, AI=1
+Bonds revisited 1.2
+
+Amend Rule 1970 (The Usuror) to read:
+
+      The Office of the Usuror is hereby established.
+ 
+      The Usuror is a Limited Executor of the Bank, with the authority 
+      to satisfy debts of Bonds owed by the Bank to its creditors.
+
+Create a rule with title "The Usuror's Budget" and text:
+
+      The Usuror shall have a Budget.  The Usuror's Budget shall
+      consist of the following items:
+
+        (i) The Basic Fee for issuing Bonds.  This Fee shall be
+            expressed as a multiple of the Basic Officer Salary and
+            shall be an integral multiple of 0.1, not less than 0, and
+            not greater than 4.
+
+       (ii) The purchase rates at which the Bank will buy Bonds in 
+            each Bank Currency. These rates are expressed as percentages, 
+            in the range 0% to 100% inclusive. Each purchase rate applies
+            only to a single combination of face value and time to
+            maturity. Different rates may apply to different such
+            combinations. Any combination for which no rate is
+            specified has a purchase rate of 0%.
+
+      (iii) The Credit Limit for Stems which is a multiple of the 
+            Basic Officer Salary, between 0 and 10 inclusive.
+
+       (iv) The Credit Limit for each Bank currency, other than Stems,
+            which is a multiple of the MUQ of that Currency between
+            0 and 10 inclusive.
+ 
+Amend Rule 1978 (Credit and Credit Limits) to read:
+
+      A Player's current credit in a given currency is equal to the sum 
+      of the values of all Bonds owned by the Bank issued by that Player 
+      with a face value in that currency. Each Player's credit value in 
+      each currency shall be part of the Usuror's Weekly Report.
+
+      The sale of a Bond is permitted only if it would not cause that
+      Player's credit to exceed the Credit Limit in the currency in 
+      question as set forth in the Usuror's Budget.
+
+[History:
+
+ v1.0 - Usuror is limited executor in charge of Bonds and bond-related debts
+        Split Usuror's Budget into a separate rule.
+
+ v1.1 - At Kelly's recommendation, I removed the Usuror's ability to 
+        satisfy debts arising from Bond redemption.
+
+ v1.2 - Added amendments to allow Bank loans in currencies other than Stems.
+
+]
+
+----------------------------------------------------------------------
+
+Proposal 4172 by root, AI=1
+Fix Mentor's Bonus
+
+Amend Rule 1976 to read:
+
+       In the four weeks immediately after eir Grace Period ends, a
+       Player can award a Mentor's Bonus to any other player e deems
+       to have been most helpful to em as a new Player. E can only
+       make one such award. A Zombie may not make such an award.
+
+       The award is made by public announcement. Upon such an
+       announcement the Bank shall incur a debt in Stems to the named
+       Mentor equal to the New Player Award for Stems.
+
+----------------------------------------------------------------------
+
+Proposal 4173 by Goethe, AI=1
+A Hero's Reward
+
+Proposal:  A Hero's Reward
+[
+ - v 1.1 corrected Agora's age.
+ - v 1.2 Added wording in accordance with Rule 651
+         Added clarification amendment to Rule 651 itself
+]
+
+ WHEREAS in June, 1993, Originator Chuck Carroll did compose
+ an Initial Ruleset for the game of Agora Nomic, and in doing
+ so, raised, from the dissolution and chaos of its predecessors,
+ the Phoenix that is the Spirit of the Game;
+
+ And WHEREAS, for eight long years, this Initial Ruleset has
+ formed the basis of a Fellowship, Forged in e-mail, Acted in
+ Fora, and Argued in sleepless nights and countless stolen hours
+ from work;
+
+ And WHEREAS, this Initial Ruleset has served as a model
+ for long-distance Nomics of many a variety and color;
+
+ And WHEREAS, during this time, this Person, under the nickname
+ Chuck, did strive In Perpetuity to maintain the Form and
+ Integrity of this Ruleset despite its constant propensity for
+ Haywire and Change;
+
+ And WHEREAS, having served to Keep this Ruleset, said person
+ Chuck Carroll is no longer a Player in Agora, having moved
+ on to be known to us only in occasional visitations;
+
+ BUT IT IS SEEN that e remains embodied in Agora, in the
+ Form of the Rules e created and thus in the aforementioned
+ Spirit of the Game;
+
+ BE IT HEREBY RESOLVED that at the moment June 30, 2001,
+ 00:04:30 GMT +1200, being the moment of Agora's Birthday, and
+ being the end of the Eigth Year of Agora and the beginning
+ of Year Nine;
+
+ THAT AT THAT MOMENT IT SHALL BECOME KNOWN TO THE WORLD, by the
+ Grace of this Proposal, that the no-longer-a-Player and original
+ Agoran, Chuck Carroll, is a person who gave outstanding service
+ to Agora Nomic AND Nomics as a whole.  Let em therefore be granted
+ every Agoran status due by the Rules to one who has given such
+ service.
+
+ AND LET IT BE KNOWN In Perpetuity, or at least until the
+ occasion of eir re-joining the Great Agoran Game.
+
+
+ FINALLY, let Rule 651 (Heros) be Modified as follows:
+
+    Replace the sentence:
+       No Player may Bear the Patent Title of Hero.
+     with the sentence:
+       If a person Bearing the Patent Title of Hero is
+       registered as a Player, e shall cease to Bear that
+       Patent Title.
+
+
+======================================================================
+

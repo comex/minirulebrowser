@@ -1,0 +1,434 @@
+Assessor's Voting Report
+Proposals 4254 - 4260
+
+=====SUMMARY============================================================
+
+No.      Title                           By       AI  Result      VI
+----    -----------------------------   --------  --  ---------  -----
+4254     Real Power for Roles            Goethe    2   ADOPTED    U
+4255     Regular VE Auctions, sooner     Steve     1   ADOPTED    U
+4256     Fix Embezzlement                Murphy    1   ADOPTED    U
+4257     Streamline Referendum . . .     Murphy    1   ADOPTED    3.0
+4258     Fix "Streamline Referendum...   Murphy    1   ADOPTED    U
+4259     <no title>                      root      1   ADOPTED    U
+4260     Fix Payroll timing              Goethe    1   ADOPTED    U
+----    -----------------------------   --------  --  ---------  -----
+
+H. Scorekeeper take note, by Rule 1930:
+   Murphy is awarded 4 Points (4257 and 4258 adopted, each with
+   1 vote against).
+   Goethe is awarded 4 Points (Only Player to vote against 4257
+   and 4258).
+
+====DETAILS=========================================================
+
+Voting Period Began: Thu, 14 Feb 2002 05:28:30 GMT
+Voting Period Ended: Thu, 21 Feb 2002 05:28:30 GMT
+Voting Mode: Public
+
+No.    | Title                          | By        | AI | Date    | Flag
+4254   | Real Power for Roles           | Goethe    |  2 | 08Feb02 |
+4255   | Regular VE Auctions, sooner    | Steve     |  1 | 09Feb02 |
+4256   | Fix Embezzlement               | Murphy    |  1 | 27Dec01 | D
+4257   | Streamline Referendum . . .    | Murphy    |  1 | 02Jan02 | D
+4258   | Fix "Streamline Referendum...  | Murphy    |  1 | 13Jan02 | D
+4259   | <no title>                     | root      |  1 | 05Feb02 | D
+4260   | Fix Payroll timing             | Goethe    |  1 | 07Feb02 | D
+D: Disinterested  C: Democratic  U: Urgent  S: Sane  I: Insane  O: Opposite
+
+(*) present
+Entity      4254    4255    4256    4257    4258    4259    4260
+----------  -----   -----   -----   -----   -----   -----   -----
+root        2F      1F      1F      1F      1F      1F      1F
+harvel      2F              1F      1F      1F
+Crito       *
+Murphy      1F
+Michael     2F      1F      1F      1F      1F      1F      1F
+Goethe      2F      1F      1F      1A      1A      1F      1F
+Steve       2F
+
+FOR         11       3       4       3       3       3       3
+AGAINST      0       0       0       1       1       0       0
+ABSTAIN      0       0       0       0       0       0       0
+Voters       7       3       4       4       4       3       3
+Quorum       3       3       3       3       3       3       3
+Adopted?   Yes     Yes     Yes     Yes     Yes     Yes      No
+
+
+=========Text of adopted Proposals======================================
+
+Proposal 4254 by Goethe, AI=2
+Real Power for Roles
+
+Repeal Rule 1980 (Becoming Parliamentary).
+Repeal Rule 1934 (The Speaker, Sanity, and Buying Democracy).
+
+Upon Passage of this Proposal, the title of Rule 1986 (The Scribes'
+Council) will be changed to to 'Role-Based Powers' and its Power
+increased
+to 2.0.
+
+Amend Rule 1986 (Role-Based Powers) to read:
+
+  A Scribe may lower the Distribution Cost of a Proposal by 1
+  with the Support of another Scribe, to a minimum cost of 0,
+  provided the Cost of the Proposal has not already been so
+  lowered.
+
+  An Acolyte may expunge 1 Blot from any Entity with the Support
+  of another Acolyte, provided the Acolyte has not so Expunged
+  a Blot in the same Nomic Week.
+
+  An Acolyte with the Support of a Scribe, or a Scribe with the
+  Support of an Acolyte, may Bless an Undistributed Proposal.
+  A moment after its Distribution, a Blessed Ordinary Proposal
+  becomes Democratic.
+
+  A Politician, with the Support of another Poltician, may
+  Unbless an Undistributed Blessed Proposal.  An Unblessed
+  Proposal is no longer Blessed.
+
+  An Untainted Speaker, with 2 Supporters, may Sanitise a
+  Distributed Proposal for which the Voting Period has not ended.
+  If this happens, the Proposal is Aborted as described
+  elsewhere, but remains Distributable and becomes Democratic
+  and Sane.
+
+------------------------------------------------------------------------------
+
+Proposal 4255 by Steve, AI=1
+Regular VE Auctions, sooner
+
+Amend Rule 1449 (The Assessor) by appending to the end of it text which
+reads:
+
+      (c) The Assessor's Budget shall consist of the Voting
+          Entitlements per Player (VEPP), a real multiple of 0.1
+          between 0.5 and 2.0 inclusive.
+
+Upon the adoption of this Proposal, the Assessor's Budget shall be set
+as follows:
+
+          Voting Entitlements per Player = 1.5.
+
+Amend Rule 1946 (Distribution of Voting Entitlements) to read:
+
+      (a) The Ideal Voting Entitlement Circulation Level (IVECL) is
+          equal to the number of registered Players multiplied by the
+          Voting Entitlements per Player as set in the Assessor's
+          Budget.
+
+      (b) The Actual Voting Entitlement Circulation Level (AVECL) is the
+          total number of Voting Entitlements owned by entities other
+          than the Bank, augmented by the total number of Voting
+          Entitlements owned by the Bank which have been auctioned off
+          to Winning Bidders in prior Voting Entitlement Auctions but
+          not yet paid for.
+
+      (c) The Voting Entitlement Surplus is the difference between the
+          IVECL and the AVECL; if the AVECL is greater than the IVECL,
+          the Voting Entitlement Surplus is zero.
+
+      (d) If the Voting Entitlement Surplus is positive at the beginning
+          of the month, the Assessor shall as soon as possible auction
+          off the surplus Voting Entitlements. The items to be auctioned
+          are lots of 0.1 VEs; the number of items is equal to the
+          Voting Entitlement Surplus multiplied by 10, rounded down to
+          the nearest integer.  The Auctioneer shall be the Assessor,
+          and the Auction shall be conducted in Stems. Only Politicians
+          may bid.
+
+------------------------------------------------------------------------------
+
+Proposal 4256 by Murphy, AI=1
+Fix Embezzlement
+
+Amend Rule 1981 (Embezzlement and Receiving Stolen Property) by
+replacing this text:
+
+      (c) An entity which receives Property from any entity as the
+          result of an intentional, valid and unauthorized transfer
+          incurs a debt to the transferor for all such Property.
+
+with this text:
+
+      (c) An entity which receives Property as the result of a valid
+          but unauthorized transfer incurs a debt to the Payor of that
+          transfer for all Property thus received.
+
+Amend Rule 1596 (Debt) by removing this text:
+
+      (e) An entity which receives Property as the result of an
+          unauthorized transfer incurs a debt for the transferred
+          Property to the entity that made the transfer.
+
+and by changing the text "(f)" to "(e)".
+
+------------------------------------------------------------------------------
+
+Proposal 4257 by Murphy, AI=1
+Streamline Referendum and Election Voting
+
+Amend Rule 1434 (Default Procedure for Referendum Voting) to read:
+
+      When a Referendum Vote is required and the procedure is not
+      defined elsewhere, the following Standard Referendum Voting
+      Procedure shall be used.  Details specified herein are defaults
+      which may be modified by other Rules for specific situations.
+
+      This procedure shall under no circumstances be used for Voting
+      on Proposals, unless specifically required by the Rules
+      governing specific types of Proposals.
+
+      * Vote Collector:  The Vote Collector is responsible for
+      collecting and tallying the Votes, and announcing the results.
+      The Vote Collector is the Speaker at the time the Referendum
+      begins.
+
+      * Disappearance of Vote Collector:  If the Vote Collector
+      deregisters or is deregistered before announcing the results of
+      the Referendum, then the Referendum fails.
+
+      * Voters:  A Voter is an entity permitted to Vote on a Referendum.
+      Only Active Players are Voters.  Activity is measured at the time
+      a Vote is sent.
+
+      * Voting:  A Voter Votes by sending eir Vote to the Vote Collector
+      during the Voting Period, indicating what Referendum e is Voting
+      on, and what eir Vote is.
+
+      * Vote Values:  A Vote is FOR, AGAINST, or ABSTAIN.  Words which
+      are effectively synonymous with these are also permissible.
+
+      * Vote Strength:  Every Vote has equal strength.  No Voter may
+      Vote more than once on any single Referendum.
+
+      * Retraction:  A Vote, once sent to the Vote Collector, cannot be
+      changed.
+
+      * Start of Voting:  The Voting Period begins at the time of the
+      first correct and legal public announcement that a Referendum has
+      begun, as defined in other Rules.  Such an announcement must
+      include the identity of the Vote Collector.
+
+      * Duration of Voting:  The Voting Period lasts for one Week.  All
+      Votes received by the Vote Collector outside of the Voting Period
+      have no effect.
+
+      * Secrecy During Voting:  At any time, the Vote Collector may
+      publish a list of Voters who have Voted.  However, the Vote
+      Collector shall not reveal the value of any Voter's Vote to anyone
+      but that Voter, unless e has the Voter's permission to do so.
+
+      * Announcement of Results:  As soon as possible after the end of
+      the Voting Period, the Vote Collector shall announce the number of
+      Votes of each kind, as well as the name and Vote of each Entity
+      that Voted. If e does not do this as soon as possible, then the
+      Referendum fails.
+
+      * Quorum:  Quorum is 50% of the eligible Voters at the beginning
+      of the Voting Period.  If fewer Voters Vote, then the Referendum
+      fails.
+
+      * Adoption Index:  The Adoption Index of a Referendum is 1.
+
+      * Adoption Ratio:  The Adoption Ratio of a Referendum is the ratio
+      of FOR Votes to AGAINST Votes.  If the Adoption Ratio is greater than
+      the Adoption Index (or if both are Unanimity), and if the Referendum
+      does not fail for some other reason, then it passes; otherwise, it
+      fails.
+
+      * Effectiveness:  A Referendum takes effect when the Vote Collector
+      correctly announces that it passes.  The effect of a Referendum is
+      defined by other Rules.
+
+      * Cutoff for Challenges:  If the results of a Referendum are not
+      challenged within seven days after the Vote Collector announces
+      them, then the announced results are the true results of that
+      Referendum, even if they would otherwise be in error.
+
+Amend Rule 1445 (Defaults for Elections) to read:
+
+      When an Election is required and the procedure is not defined
+      elsewhere, the following Standard Election Procedure shall be
+      used.  Details specified herein are defaults which may be
+      modified by other Rules for specific situations.
+
+      * Vote Collector:  The Vote Collector is responsible for taking
+      nominations, collecting and tallying the Votes, and announcing
+      the results.  The Vote Collector is the Speaker at the time the
+      Election begins.
+
+      * Disappearance of Vote Collector:  If the Vote Collector
+      deregisters or is deregistered before announcing the winner of
+      the Election, then the Election has no winner.
+
+      * Nominator:  A Nominator is an entity permitted to Nominate a
+      Candidate in an Election.  Only Active Players are Nominators.
+      Activity is measured at the time a Nomination is sent.
+
+      * Prospective:  A Prospective is an entity permitted to be
+      Nominated as a Candidate in an Election.  Only Active Players
+      are Prospectives.  Activity is measured at the time a Nomination
+      is sent.
+
+      * Nominating:  A Nominator Nominates a Prospective by sending a
+      message to the Vote Collector during the Nominating Period,
+      indicating the Election and the Prospective.  If the Prospective
+      is not explicitly identified, then it is the same as the Nominator.
+
+      * Candidates:  A Candidate for an Election is a Prospective who has
+      been Nominated in that Election.
+
+      * Retraction:  A Nominator may retract eir Nomination by sending a
+      message to the Vote Collector during the Nominating Period,
+      indicating the Election and the Prospective.  If the Prospective
+      is not explicitly identified, then it is the same as the Nominator.
+
+      * Declination:  A Prospective may decline eir Nomination by sending
+      a message to the Vote Collector during the Nominating Period,
+      indicating the Election.  Upon doing so, e may not be re-Nominated
+      in that Election by anyone but emself.
+
+      * Mode of Nominations:  There are three Modes of Nominations:
+      Selfish, Selfless, or Open.  The Vote Collector may specify a Mode
+      of Nominations when e announces the start of the Election; if e
+      does not, then the Mode is Selfish.
+
+        (a) In a Selfish Election, a Nominator may Nominate only emself.
+        (b) In a Selfless Election, a Nominator may not Nominate emself.
+        (c) In an Open Election, a Nominator may Nominate any Prospective.
+
+      * Start of Nominations:  The Nominating Period begins at the
+      time of the first correct and legal announcement that an Election
+      has begun, as defined in other Rules.  Such an announcement must
+      include the identity of the Vote Collector.
+
+      * Duration of Nominations:  The Nominating Period lasts for one
+      Week.  All Nominations received by the Vote Collector outside of
+      the Nominating Period have no effect.
+
+      * Secrecy:  Nominations need not be kept secret.
+
+      * End of Nominations:  As soon as possible after the end of the
+      Nominating Period, the Vote Collector shall publish a list of
+      all Candidates.  If e does not do this as soon as possible, then
+      the Election has no winner.
+
+      If there are no Candidates, then the Election has no winner.
+
+      If there is exactly one Candidate, then e is the winner of that
+      Election.
+
+      If there are two or more Candidates, then a Referendum begins
+      when the Vote Collector publishes the list of Candidates.  This
+      is a standard Referendum, with the following exceptions:
+
+      * Vote Collector:  The Vote Collector for the Referendum is the
+      same as the Vote Collector for the Election.
+
+      * Vote Values:  A Vote is the name of exactly one Candidate for
+      the given Election.  Words which are effectively synonymous with
+      these are also permissible.
+
+      * Failure of Referendum:  If the Referendum fails for any reason
+      (e.g. Quorum is not achieved), then the Election has no winner.
+
+      * Adoption:  The winner of the Election is the Candidate for whom
+      the most Votes were cast.  If two or more Candidates are tied for
+      most Votes, then the Speaker shall choose one of those Candidates,
+      who becomes the winner when the Speaker announces eir choice.  The
+      Speaker shall announce eir choice as soon as possible after the
+      Vote Collector announces the results of Voting.
+
+      * Effectiveness:  An Election takes effect when the Vote Collector
+      correctly announces the identity of its winner.  The effect of an
+      Election is defined by other Rules.
+
+
+------------------------------------------------------------------------------
+
+Proposal 4258 by Murphy, AI=1
+Fix "Streamline Referendum and Election Voting"
+
+
+Amend Rule 1434 (Default Procedure for Referendum Voting) by replacing
+this text:
+
+      * Voters:  A Voter is an entity permitted to Vote on a Referendum.
+      Only Active Players are Voters.  Activity is measured at the time
+      a Vote is sent.
+
+with this text:
+
+      * Voters:  For the purpose of this Rule, a Voter is an entity
+        permitted to Vote on a Referendum.  Only Active Players are
+        Voters.  Activity is measured at the time a Vote is sent.
+
+
+
+------------------------------------------------------------------------------
+
+Proposal 4259 by root, AI=1
+<no title>
+
+Amend Rule 559 (The Registrar) by replacing the text reading:
+
+        (vii) the identities of the Distributor and the Speaker (and
+              eir Term of Service); and
+
+with text reading:
+
+        (vii) the identity of the Distributor; and
+
+
+Amend Rule 1975 (The Assistant Director of Personnel) by deleting the
+text reading:
+
+         (e)  the identity of the Speaker and the date of the next
+              Quarterly Speaker Transition.
+
+
+Amend Rule 1955 (The Grand Warden of the Oligarch) by replacing the
+text reading:
+
+       (b) The Grand Warden of the Oligarchy's Report shall consist of
+           a list of all Oligarchs and a list of all Elder Oligarchs
+           (if any).
+
+with text reading:
+
+       (b) The Grand Warden of the Oligarchy's Report shall consist of:
+
+           (1) a list of all Oligarchs;
+
+           (2) a list of all Elder Oligarchs, if any; and
+
+           (3) the identity of the Speaker and the date of the next
+               Quarterly Speaker Transition.
+
+-------------------------------------------------------------------------------
+
+Proposal 4260 by Goethe, AI=1
+Fix Payoll timing
+
+[Removes the double ASAP from the Payout timing since "pay out"
+ is now an automatic event]
+
+Amend Rule 1940 by replacing the text:
+
+                     As soon as possible after
+
+with the following text:
+
+                     At
+
+
+========================================================================
+
+ -H. Assessor Goethe
+
+
+
+
+

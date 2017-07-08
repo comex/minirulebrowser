@@ -1,0 +1,155 @@
+Voting Results
+
+This Report:  Sat  3 Jul 04 (Proposals 4588 - 4593)
+Last Report:  Sun 20 Jun 04 (Proposals 4584 - 4587)
+(All times are in GMT)
+
+Start of Voting Period:  Sun 20 Jun 01:50:57
+  End of Voting Period:  Sun 27 Jun 01:50:57
+
+O = Ordinary        d = Disinterested   s = Sane         + = Positive Ad
+D = Democratic      u = Urgent          c = Contested    - = Negative Ad
+
+Number    Title                         Author    AI   Flags     Result
+------------------------------------------------------------------------
+4588      Excise the vestigial Monk     Riail     1    Od        Failed
+quorum
+4589      Fix Nominating with Budgets   Murphy    1    D         Adopted
+4590      Fixed Stalled Proposals       Elysion   2    Dd        Adopted
+4591      Team Shuffling                Murphy    1    D        
+Rejected
+4592      Judicial Separation           Murphy    1    D         Adopted
+4593      Fix Team Wins                 Murphy    1    D        
+Rejected
+
+               4588  4589  4590  4591  4592  4593    Team
+
+Elysion               2F    2F    2-    2F    2F   Reasonable Doubt
+Eris                  2F    2F     A    F+A   F+A  Slow Motion
+Goethe                F+A   F+A   F+A   F+A   F+A  Slow Motion
+Kolja                 F+A   F+A   F+A   2F    2F   Reasonable Doubt
+Maud                         F     F     P     F   Dissenting Opinion
+Michael                F     F     A     F     A   Reasonable Doubt
+OscarMeyr              F     F     F     F     F   Dissenting Opinion
+Riail                 2F    2F    2A    2F    F+A  Slow Motion
+root                  2F    2F    F+A   2F    2A   Reasonable Doubt
+Sir Toby               F     F     F     F     F   Order to Compel
+
+[Wes's attempt to vote on Proposal 4588 was ineffective, as eir VPOP
+was based on its value of 0 at the beginning of the week.  Eris declared
+Presence on Proposals 4592 and 4593 prior to voting on them.]
+
+FOR              0    13    14     6    13    10
+AGAINST          0     2     2     7     2     6
+Abstain          0     0     0     2     0     0
+Present          0     0     0     0     2     1
+
+Voting Index     0     6.5   7    6/7    6.5  5/3
+Adoption Index   1     1     2     1     1     2
+
+Voters           0     9    10    10    10    10
+Quorum (D:16/3)  3     6     6     6     6     6
+
+This is a Notice of Complacency for Proposal 4588.
+
+H. Scorekeepor Goethe, please note Points awards due to Rule 2055:
+
+     [P3] Murphy +9 (4589), Elysion +9 (4590), Murphy +9 (4592)
+     [P4] <none>
+     [P5] <none>
+     [P6] <none>
+     [P7] <none>
+     [P8] <none>
+
+     [T1] <none>
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4589 by Murphy, AI=1, Democratic
+Fix Nominating with Budgets
+
+
+Amend Rule 1958 (Nominating with Budgets) by replacing this text:
+
+        (d) When the voting period begins, the vote collector shall
+            announce each candidate's last valid proto-budget.
+
+        (e) When the voting period ends, the winner's last valid
+            proto-budget becomes the budget of that office, and e shall
+            announce it as soon as possible. If the election ends
+            without a winner, then the existing Budget remains in
+            effect.
+
+with this text:
+
+        (d) As soon as possible after the end of the nominating period,
+            the vote collector shall announce each candidate's last
+            valid proto-budget.
+
+        (e) When the election ends, the winner's last valid proto-budget
+            becomes the budget of that office, and the winner shall
+            announce it as soon as possible.  If the election ends
+            without a winner, then the existing budget remains in
+effect.
+
+Upon the adoption of this Proposal, the gamestate becomes what it would
+be if, whenever an Election for Office ended with a winner and a valid
+proto-budget, but without a Voting Period, the proto-budget became the
+budget for that Office.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4590 by Elysion, AI=2, Democratic, Disinterested
+Fixed Stalled Proposals
+
+
+Amend rule 1933 by replacing the string
+
+"Rules to the contrary notwithstanding, a Stalled Proposal may not be
+distributed."
+
+with
+
+"Rules to the contrary notwithstanding, a Proposal is Undistributable
+while it is Stalled."
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4592 by Murphy, AI=1, Democratic
+Judicial Separation
+
+
+Change the title of Rule 1450 (Speaker Cannot Stay CotC or Justiciar) to
+"Judicial Separation", and amend it to read:
+
+      Whenever the Speaker is Electee to the Office of Clerk of
+      the Courts, e is retired from that Office.
+
+      Whenever the Speaker is Electee to the Office of Justiciar,
+      e is retired from that Office.
+
+      Whenever a Player is both Clerk of the Courts and Justiciar,
+      e is removed from the Office of Justiciar.
+
+      Neither the Speaker, the Justiciar, nor a nominee for Justiciar
+      may be nominated for Clerk of the Courts.
+
+      Neither the Speaker, the Clerk of the Courts, nor a nominee
+      for Clerk of the Courts may be nominated for Justiciar.
+
+Amend Rule 910 (The Justiciar) by removing this text:
+
+      Neither the Speaker nor the Clerk of the Courts (CotC) may
+      nominate for the office of Justiciar; if the Justiciar ever
+      becomes CotC, e is removed from the office of Justiciar.
+
+Amend Rule 1647 (The Speaker-Elect) by removing this text:
+
+      The Clerk of the Courts and Justiciar cannot be Nominated for
+      the Office of Speaker-Elect.
+

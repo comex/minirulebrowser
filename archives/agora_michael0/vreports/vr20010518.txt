@@ -1,0 +1,473 @@
+Agora Nomic
+Voting Report for Proposals 4154-4156
+18 May 2001
+
+Current Voting Mode: Public
+===========================================================================
+Voting on Proposals 4154-4156 commenced: Tue, 08 May 2001 17:00:06 -0400
+Voting on Proposals 4154-4156 concluded: Tue, 15 May 2001 17:00:06 -0400
+
+Num. Type Proposer    AI Title                         RESULT  F  A  -  *
+4154 Ord  harvel       1 Keep it Quiet                 PASSES  7  0  0
+4155 Dem  harvel       2 Help New Players              PASSES 12  1  0  0
+4156 Ord  Ian          1 Pragmatic Currencies, at last PASSES  7  0  0
+===========================================================================
+
+Ordinary                       Democratic
+               4154   4156                    4155
+
+Steve          3F     3F       Taral          2F
+Michael        2F     2F       harvel         F
+Ziggy                          Crito          F
+Goethe         F      F        Steve          F
+harvel         F      F        Grech          F
+lee                            Blob           *
+                               Elysion        F,A
+                               root           *
+                               harvel         2F
+                               Goethe         2F
+                               Evantine       F
+
+FOR            7      7                       12
+AGAINST        0      0                       1
+ABSTAIN        0      0                       0
+Presence                                      0
+
+Voters         4      4                       11
+Quorum?        Y      Y                       Y
+PASSES?        Y      Y                       Y
+
+======================================================================
+Miscellaneous
+======================================================================
+
+root's declaration of presence on proposal 4155 is an interesting case. As
+e wasn't registered at the time the proposal was distributed, eir voting
+power on the proposal was 0. This doesn't stop em from declaring presence
+(R1715). Because rule 879 appears to define quorum in such a way that the
+number of players at the time a proposal is distributed is taken into
+consideration, but the identity of them isn't, root's declaration of
+presence was succesful. Of course, this point is of academic interest
+only, since proposal 4155 would have achieved quorum even without root's
+presence.
+
+Points awards:
+
+harvel: 2 (1 vote AGAINST 4155)
+Elysion: 2 (only vote AGAINST 4155)
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+Proposal #4154 by harvel, AI=1
+Keep it Quiet
+
+Be it hereby resolved, that Rule 1042 (Zombification Due to Silence) be
+amended to read:
+
+        Each Player is always Noisy, Quiet, or Silent, but never more
+        than one of these.  Whenever a Player posts to a Public Forum,
+        or a new Player registers, that Player is Noisy.
+
+        Any Player who has not caused another Player to become Quiet
+        within the last 24 hours can cause another Active Noisy Player
+        to become Quiet by stating that e is doing so, and clearly
+        identifying that Player, in a Public Forum.  If a Player has
+        been Quiet continuously for two weeks, e becomes Silent.  If a
+        Player has been Inactive continuously for two months, e becomes
+        Silent.
+
+        Any Player can make a Silent Player a Zombie by publicly
+        alleging that the Silent Player has abandoned the game.  A Player
+        has abandoned the game if and only if e is Silent.  As soon as
+        possible after a public allegation that a Player has abandoned
+        the game, the Registrar shall publicly confirm or deny that the
+        Player is a Zombie.
+
+        If a Speaker has abandoned the game, e commits the Class 15 Crime of
+        Speaker Abandonment, to be detected and reported by any Player.
+        E ceases to be Speaker, and the Speaker-Elect becomes Speaker.
+        The previous Speaker then becomes a Zombie.
+
+------------------------------------------------------------------------------
+
+Proposal #4155 by harvel, AI=2
+Help New Players
+
+Be it hereby resolved, that Rule 869 (Registered Players) be amended to
+read:
+
+        Any person who is not registered as a Player may do so by
+        sending a message to a Public Forum stating that e registers
+        as a Player.  Unless other Rules provide additional necessary
+        conditions for registration that have not been fulfilled or
+        the Rules otherwise prohibit the person from registering, e
+        immediately becomes a registered Player.
+
+        Each Player is always either Ready or Unready, but not both.
+        A Player is Ready unless the Rules state otherwise.  If a
+        Player is Unready, e may become Ready by announcing that e
+        does so.
+
+        Whenever a person registers as a Player in Agora, and that
+        person has not been registered as a Player in Agora at any
+        time within the 12 previous months, e becomes Unready and
+        is subject to a Grace Period that begins at the time of eir
+        registration and ends two months afterwards.  A Player is only
+        subject to the Grace Period resulting from eir own registration.
+
+        Whenever a Player's Grace Period ends, e becomes Ready.
+
+
+Be it further resolved, that Rule 559 (The Registrar) be amended to read:
+
+        There exists the Office of Registrar, whose responsibility it is
+        to maintain a list of Players.
+
+        The Registrar's Report shall include all of the following
+        information:
+
+           (i)  a list of all registered Players, with their nicknames,
+                if any, and preferred email addresses;
+
+          (ii)  a list of all Grace Periods in progress, including
+                the Player subject to the Grace Period, the time at which
+                it started, and the time at which it will end;
+
+         (iii)  a list of all Unready Players;
+
+          (iv)  a list of Players who are Zombies, and who their Masters
+                are;
+
+           (v)  the most recent date on which each Player registered;
+
+          (vi)  each Player's Active/Inactive status, and the most recent
+                date on which that Player became Active or Inactive;
+
+         (vii)  each Player's Noisy/Quiet/Silent status, and the most
+                recent date on which that Player became Noisy, Quiet, or
+                Silent; and
+
+        (viii)  the identities of the Distributor and the Speaker (and eir
+                Term of Service).
+
+
+Be it further resolved, that Rule 698 (Always an Eligible Judge) be amended
+to read:
+
+        Every Active Player is eligible to judge a given Call for
+        Judgement (CFJ) unless specifically made ineligible by some Rule.
+
+        Whenever a Player becomes subject to a Grace Period, e becomes
+        ineligible to judge CFJs.
+
+        The Caller of a given CFJ is never eligible to judge that CFJ.
+
+        If, after taking all other Rules affecting eligibility into account,
+        there are no Players eligible to judge a CFJ, then all Active
+Players,
+        excluding the Caller and those Players Barred by the Caller, shall
+be
+        eligible, any other Rule to the contrary notwithstanding.
+
+        If this still does not result in there being any Players eligible
+        to judge, then all Players (Active or not), excluding the Caller and
+        those Players Barred by the Caller, shall be eligible.
+
+        If this still does not result in there being any Players eligible
+        to judge, then all Players, excluding the Caller, shall be eligible.
+
+        If this still does not result in there being any Players eligible
+        to judge, and the Caller is a Player, then the Caller shall be
+        eligible.
+
+        If this still does not result in there being any Players eligible
+        to judge, then the Caller has happened across an Agora without
+        any Players.  The Rules suggest that the Caller try calling at a
+        later date.
+
+        This Rule can require On Hold Players to perform actions.
+
+        This Rule takes precedence over any Rule or combination of
+        Rules which would result in there being no Players eligible to
+        Judge a given CFJs.
+
+
+Be it further resolved, that Rule 786 (Order of Succession for
+Speaker-Elect) be amended by replacing the text "the Speaker does not
+appear"
+with the text "neither the Speaker nor any Unready Player appears".
+
+
+Be it further resolved, that Rule 908 (Formal Apologies) be amended by
+replacing the text reading:
+
+        Upon a judicial finding that a Player (herein called the Ninny)
+        has acted or has failed to act in such a way as to be in
+        violation of one or more Rules, the Judge so finding shall Order
+        that Player to submit, within 72 hours, a Formal Apology.
+        However, when the action (or failure to act) is subject to
+        penalties by virtue of being defined to be a Crime or an
+        Infraction, the Order is optional and may be issued at the
+        Judge's discretion.
+
+with text reading:
+
+        If a Call for Judgement (CFJ) the Statement of which alleges that
+        a Player (herein called the Ninny) has acted or has failed to
+        act in such a way as to be in violation of one or more Rules is
+        judged TRUE, then the Judge so finding may Order that Player to
+        submit, within 72 hours, a Formal Apology.  If the Ninny is Ready
+        and the act or failure to act is not subject to penalties by
+        virtue of being defined to be a Crime or an Infraction, then the
+        Judge must issue such an Order as soon as possible after the
+        Clerk of the Courts publishes the judgement.
+
+
+Be it further resolved, that Rule 1435 (Definition of Indulgences, Blots
+and Immaculate) be amended by replacing the text "The MUQ of Indulgences"
+with the text "The Minimum Unit Quantity (MUQ) of Indulgences", and by
+replacing the text reading:
+
+        Whenever the Rules state that a Player gains or is assessed
+        some number of Blots, and specify a method of reporting that
+        gain or assessment to the Herald, the Herald shall record this
+        increase in the number of Blots staining the affected Player as
+        soon as possible after receiving the notification.
+
+with text reading:
+
+        Whenever the Rules state that a Player gains or is assessed some
+        number of Blots, and specify a method of reporting that gain or
+        assessment to the Herald, then, as soon as possible after
+        receiving such a notification, the Herald shall record an
+        increase of that amount (or, if the affected Player is Unready,
+        of one half (rounded to the nearest integer) of that amount) in
+        the number of Blots staining the affected Player.
+
+
+Be it further resolved, that Rule 1893 (The Treasuror's Budget) be amended
+to read:
+
+        The Treasuror's Budget shall contain the Basic Officer Salary
+        (BOS), an amount between 0 and 200 Stems inclusive.  Additionally,
+        the Budget shall contain the values all of the following
+        compensations:
+
+          (i)  the Minimum Income;
+         (ii)  the Judicial Salary;
+        (iii)  the Winner's Stipend;
+         (iv)  the Distributor's Gratuity;
+          (v)  the Speaker's Gratuity; and
+         (vi)  for each wage-earning Office, the Salary of that Office.
+
+        A compensation shall be not less than 0 nor more than 4, and must
+        be an integral multiple of 0.1.  The arithmetic mean of all
+        compensations shall be no greater than 2.
+
+        Whenever the Rules indicate that one of the above compensations
+        is to be paid out, the amount to be paid out shall be the product
+        of the value of the compensation and the value of the BOS (as
+        set in the latest Budget).
+
+        The Treasuror's Budget shall also contain a schedule that, for
+        each Bank Currency, shall indicate the amount of the New Player
+        Award for that Currency.  The amount of the New Player Award
+        for a Bank Currency shall not be less than the Minimum Unit
+        Quantity of that Currency.
+
+        While holding the Office as Electee, the Treasuror may amend eir
+        Budget, With Support.
+
+
+Be it further resolved, that the Treasuror's Budget be modified by
+including the value of the New Player Award for each Bank Currency,
+according to the following schedule:
+
+        Bank Currency         New Player Award
+        --------------------  ----------------
+        Indulgences              1.0 Indulgences
+        Papyri                   1.0 Papyri
+        Stems                  120   Stems
+        Voting Entitlements      0.5 Voting Entitlements
+
+
+Be it further resolved, that Rule 1677 (Currency Awards for New Players)
+be amended to read:
+
+        As soon as possible after the beginning of a Player's Grace Period,
+        the Registrar shall Order the Treasuror to pay out the New Player
+        Award for each Bank Currency to the new Player.
+
+        Whenever the Rules indicate that the Bank incurs a debt to an
+        entity equal to the New Player Award, the Bank shall instead
+        incur for each Bank Currency a debt to that entity equal to the
+        New Player Award for that Currency.
+
+
+Be it further resolved, that Rule 1676 (Grace Period for New Players) be
+repealed.
+
+
+Be it further resolved, that all Players in their Grace Period at the time
+this Proposal is adopted shall immediately become Unready.
+
+
+Be it further resolved, that as soon as possible after this Proposal is
+adopted, the Registrar shall publish a list of all Players currently subject
+to a Grace Period who registered on or after 21 September 2000, and that
+as soon as possible after the publication of that list, the Treasuror
+shall pay out to each Player on the list the New Player Award for each
+Bank Currency.
+
+------------------------------------------------------------------------------
+
+Proposal #4156 by Ian, AI=1
+Pragmatic Currencies, at last
+
+[
+This Proposal will:
+* delete the platonic provision (3) from R1598;
+* make it a Class 10 Crime to intentionally make valid but unauthorized
+  transfers of Property from any entity to another entity;
+* ensure that the beneficiary of any such transfer is required to return
+  the Property received;
+* make it a Class 10 Crime not to do so;
+* clarify the concept of an "authorized transfer";
+* amend R1596 to generally require the recipient of an unauthorized
+  transfer to return the Property transferred to em.
+* give transferors the right to demand the return of Property
+  transferred in error (ie to satisfy a non-existent debt, or to pay a
+  Fee when the action associated with it is not successfully performed.
+]
+
+Amend Rule 1598 (Property Transfers) to read:
+
+      (a) A Notice of Transfer is a message which sets forth the intent
+          to transfer one or more Properties from one entity (the
+          "transferor") to some other entity (the "transferee").
+
+      (b) A valid Notice of Transfer must additionally:
+          (1) specify one or more Properties all of which are owned by
+              the transferor; and
+          (2) be sent by the Executor of the transferor, or by a Limited
+              Executor of the transferor with the authority to execute
+              transfers on behalf of that entity with respect to all of
+              the Properties involved.
+
+      (c) A transfer of a Property occurs only when its Recordkeepor
+          receives a valid Notice of Transfer.
+
+      (d) The effect of a transfer of Properties is to cause the
+          transferor to cease to possess the Properties transferred, and
+          simultaneously to cause the transferee to possess them.
+
+      (e) The Recordkeepor of a Property shall maintain a record of all
+          transfers of that Property. E shall retain a record of each
+          Notice of Transfer which e receives (whether valid or not)
+          involving that Property. E shall retain this record of each
+          Notice of Transfer for at least four weeks after its receipt.
+
+      (f) If the transferor transfers Property to the transferee with
+          the purpose of satisfying a debt, or of paying the Fee
+          associated with performing an action, but the debt does not
+          exist, or the action is not successfully performed, then the
+          transferor's Executor may publicly demand the return of the
+          Property. The effect of such a demand is to cause the
+          transferee to incur a debt to the transferor for the Property
+          transferred.
+
+
+Create a Rule entitled "Embezzlement and Receiving Stolen Property",
+with the following text:
+
+      (a) A Player who intentionally makes a valid but unauthorized
+          transfer of Property from any entity to another entity commits
+          the Class 10 Crime of Embezzlement.
+
+      (b) An entity which receives Property from any entity as the result
+          of an intentional, valid and unauthorized transfer incurs a
+          debt to the Bank for all such Property.
+
+      (c) A Player who has been informed that e, or an entity of which e
+          is an Executor, has incurred a debt of the type decribed in
+          (b) and who does not act to satisfy that debt within in a week
+          of being informed of it commits the Class 10 Crime of
+          Receiving Stolen Property.
+
+      (d) For the the purposes of this Rule, a valid but unauthorized
+          transfer is considered to have been made intentionally if and
+          only if, at the time of the transfer, the Player making it:
+          (1) knew that the transfer was valid;
+          (2) knew that the transfer was unauthorized; and
+          (3) realized that e was making the transfer.
+
+      (e) In particular, a Player who makes a valid but unauthorized
+          transfer of Property from the Bank as the result of an
+          accident or mistake does not commit Embezzlement.
+
+
+Amend Rule 1470 (The Bank) to read:
+
+      (a) There is an entity known as the Bank. The Bank has Mint
+          Authority. The Bank is the Mintor of each Bank Currency.
+
+      (b) The Executor of the Bank is the Treasuror. Each Recordkeepor
+          of each Bank Currency is a Limited Executor of the Bank.
+
+      (c) The Executor of the Bank, and each Limited Executor, is
+          authorized to transfer Property from the Bank as and when the
+          Rules explicitly require or permit it. Transfers of Property
+          from the Bank which are made without being explicitly required
+          or permitted by the Rules are unauthorized.
+
+      (d) Whenever the Bank incurs a debt to any other entity, the Bank
+          shall, as soon as possible and by its Executor or by one of
+          its Limited Executors, either satisfy that debt by
+          transferring appropriate Properties to the creditor, or
+          dispute the debt by whatever means are appropriate in the
+          situation.
+
+      (e) The Treasuror has sole authority to forgive debts owed to the
+          Bank, in whole or in part. This power may only be exercised:
+          (1) pursuant to a properly-issued Order; or
+          (2) Without Objection, at the Treasuror's discretion.
+
+
+Amend Rule 1596 (Debt) to read:
+
+      (a) A "debt" is an obligation arising under the Rules for one
+          entity (the "debtor") to make a transfer of one or more
+          Properties to some other entity (the "creditor").
+
+      (b) No debt shall be enforceable unless a notice sufficient to
+          inform the debtor of the debt has been sent to the debtor. If
+          a Rule requires that a public notice of a debt be posted, the
+          debt is not enforceable until and unless that notice is
+          posted.
+
+      (c) A debt is satisfied when the debtor has transferred (or is
+          deemed to have transferred) all the Properties named to the
+          creditor (either as a single transfer or as the aggregate of
+          multiple transfers).
+
+      (d) A debt is forgiven when the creditor of a debt sends a notice
+          to the debtor that e is forgiving the debt. Forgiveness may be
+          for the entire debt or for any part thereof. The effect
+          forgiving a debt is as if the debtor had made a payment on the
+          debt for the portion forgiven, except that no transfer of
+          property takes place thereby.
+
+      (e) An entity which receives Property as the result of an
+          unauthorized transfer incurs a debt for the transferred
+          Property to the entity that made the transfer.
+
+----------------------------------------------------------------------
+
+Assessor t
+
+   teemu korkiakangas: scurra@iki.fi . http://www.iki.fi/scurra/
+                    Lapsen tieto, naisen muisti,
+         ei ole partasuun urohon eikÅ‰ miehen naisekkahan!
+

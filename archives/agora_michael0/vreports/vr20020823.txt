@@ -1,0 +1,202 @@
+Agora Nomic
+Voting Report for Proposals 4365-4367
+24 Aug 2002
+
+Current Voting Mode: Public
+===========================================================================
+Voting on Proposals 4365-4367 commenced: Mon, 12 Aug 2002 10:41:12 +1000
+Voting on Proposals 4365-4367 concluded: Mon, 19 Aug 2002 10:41:12 +1000
+
+Num. Type Proposer    AI Title                         RESULT  F  A  -  *
+4365 Ord  Steve        1 Change Scoring for Proposers  PASSES  3  0  0  0
+4366 Dem  Steve        3 Protect the Voting System     PASSES 13  3  0  0
+4367 Dem  Steve        2 Scaling Down                  PASSES 11  4  0  0
+===========================================================================
+
+Ordinary                  Democratic
+              4365                     4366   4367
+
+root          F           Steve        3F     2F
+Sir Toby      F           root         F      F
+OscarMeyr     F           Eris         F      A
+                          RedKnight    F      A
+                          Sir Toby     F      A
+                          Murphy       F      F
+                          OscarMeyr    F      F
+                          Anemocrats   4F,3A  6F,A
+
+FOR           3           FOR          13     11
+AGAINST       0           AGAINST      3      4
+ABSTAIN       0           ABSTAIN      0      0
+Present       0           Present      0      0
+
+Voters        3           Voters       7      7
+Quorum?       Y           Quorum?      Y      Y
+PASSES?       Y           PASSES?      Y      Y
+
+======================================================================
+Miscellaneous
+======================================================================
+
+Points awards under R1930:
+    Steve 7 (3 votes AGAINST 4366) + 8 (4 votes AGAINST 4367)
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+-----------------------------------------------------------------------------
+
+Proposal 4365 by Steve, AI=1
+Change Scoring for Proposers
+
+Amend Rule 1930 to read:
+
+  (a) If a Player is found Guilty of a Crime, e may be Penalized
+      a number of Points equal to the Class of the Crime times 2.
+
+  (b) If a Player wins a contested Election, e may be Awarded
+      10 Points.
+
+  (c) If a Player Resigns from an Office, e may be Penalized
+      5 Points.
+
+  (d) If a Player is Impeached, e may be Penalized 15 Points.
+
+  (e) If a Revolt succeeds, each Rebellious Player may be Awarded
+      15 Points.
+
+  (f) If a Revolt fails, each Rebellious Player may be Penalized
+      10 Points.
+
+  (g) If a Player submits a Disinterested Proposal which is Adopted, e
+      may be Awarded 1 Point, plus 1 Point for each vote that was cast
+      AGAINST the Proposal.
+
+  (h) If a Player submits an Interested Proposal which is Adopted, e may
+      be Awarded 4 Points, plus 1 Point for each vote that was cast
+      AGAINST the Proposal.
+
+  (i) If a Player is the only Player to Vote either FOR or AGAINST
+      a particular Proposal that e did not write or Propose, e may
+      be Awarded 2 Points.
+
+  (j) If a Judgement is Sustained on Appeal, the original Judge
+      may be Awarded 5 Points
+
+  (k) If a Judgement is Overturned on Appeal, the original Judge
+      may be Penalized 5 Points.
+
+  (l) If a Player gains a Patent Title which e has not held during
+      the 7 days prior to gaining it, e may be Awarded 5 Points.
+
+  (m) If a Player is granted a Degree e has not previously held, e may
+      be Awarded 10 Points.
+
+
+Amend Rule 1678 (Encourage Proposals by New Players) to read:
+
+      If a Proposal passes, and that Proposal was submitted by a Player
+      within that Player's Grace Period, then the Assessor shall pay out
+      to that Player an award of one Papyrus if the Proposal was
+      Interested, or 0.2 Papyri if the Proposal was Disinterested.
+
+-----------------------------------------------------------------------------
+
+Proposal 4366 by Steve, AI=3
+Protect the Voting System
+
+This Proposal has an AI of 3.
+
+Create a Rule entitled "Votes are Protected" with Power = 3 which reads:
+
+       Any Proposal that, as all or part of its effect, would change an
+       entity's vote on an Issue for which the voting period has begun
+       but for which no official voting report has been published at the
+       time of the Proposal's adoption shall be wholly without effect,
+       any Rule to the contrary notwithstanding.
+
+       Once an official voting report has been published for that Issue,
+       no votes on that Issue may be changed or cancelled, and the
+       outcome of the Issue may not be changed in any way, any Rule to
+       the contrary notwithstanding. Nothing in this Rule shall be
+       construed as preventing the correction of errors in reporting the
+       results of voting on Issues.
+
+-----------------------------------------------------------------------------
+
+Proposal 4367 by Steve, AI=2
+Scaling Down
+ 
+This Proposal has an Adoption Index of 2.
+ 
+[PREAMBLE: Auctions are more tactically interesting when the absolute
+value of bids is lower. I therefore propose to scale down all Stem
+values in the game by a factor of 5.]
+ 
+When this Proposal takes effect, the changes listed below occur. Where
+division required by these changes results in a fractional remainder,
+the result is rounded up.
+ 
+1. The Basic Officer Salary is set to 10 Stems.
+2. The Stem component of the New Player Award is set to 24 Stems.
+3. Four-fifths of the Stems held by each entity are destroyed.
+4. The amount of all debts denominated in Stems is divided by 5.
+5. If, prior to this Proposal taking effect, an entity has transferred
+   Stems to another entity for the purpose of satisfying a debt or paying
+   a Fee, and this transfer has conferred upon the transferor a right,
+   not yet exercised, to demand the return of those Stems under the
+   provisions of R1598(f), then subsequent to this Proposal's taking
+   effect, this right is limited to the demand for the return of
+   one-fifth of those Stems.
+6. The value of all bids in ongoing Auctions for which the Auction
+   Currency is Stems is divided by 5. This does not include Raffles.
+7. The Bank incurs a debt of 5 Stems to the Payroll Clerk, as
+   compensation for the extra work imposed on em by this Proposal.
+ 
+Amend Rule 1727 (Happy Birthday) by replacing:
+   the text "50 Stems" with the text "10 Stems",
+   the text "25 Stems" with the text "5 Stems", and
+   the text "100 Stems" with the text "20 Stems".
+ 
+Amend Rule 1664 (Rebellion) by replacing the text "40 Stems" with the
+text "8 Stems".
+ 
+Amend Rule 1893 (The Treasuror's Budget) by replacing the text "200
+Stems" with the text "40 Stems".
+ 
+Amend Rule 947 (Bonus for Repeal) by replacing both occurrences of the
+text "30 Stems" with the text "6 Stems".
+
+Amend Rule 2022 (Sente and Gote) by replacing the text in which
+currently reads:
+ 
+             (b) to the owner of each Land Unit that has Sente as is
+                 not owned by the Bank or the Land Bureau
+                     * 3 Stems if the Weather is Plenty;
+                     * 2 Stems if the Weather is Fair;
+                     * 1 Stem if the Weather is Foul.
+ 
+with text which reads:
+ 
+             (b) to the owner of any Land Unit that has Sente and is
+                 not owned by the Bank or the Land Bureau:
+                     * if the Weather is Plenty, 3 Stems for each 5
+                       Land Units with Sente that e owns;
+                     * if the Weather is Fair, 2 Stems for each 5
+                       Land Units with Sente that e owns;
+                     * if the Weather is Foul, 1 Stem for each 5
+                       Land Units with Sente that e owns;
+ 
+[comment: I have a separate intention to repeal this Rule, but I might
+as well make "Scaling Down" and "Land Bust" independent of each other.]
+
+-----------------------------------------------------------------------------
+
+Assessor t
+
+   teemu korkiakangas: scurra@iki.fi . http://www.iki.fi/scurra/
+              "kunpa kaikki elämän suuret mysteerit ratkeaisivat
+                  kengurukepin ja kermapullon avulla" (don rosa)
+
+

@@ -1,0 +1,329 @@
+Voting Results (corrected)
+
+This Report:  Sat 20 Nov 04 (Proposals 4618 - 4626)
+Last Report:  Mon 25 Oct 04 (Proposal  4617       )
+(All times are in GMT)
+
+Start of Voting Period:  Sat  6 Nov 08:28:53
+  End of Voting Period:  Thu 11 Nov 08:28:53
+
+O = Ordinary        d = Disinterested   s = Sane         + = Positive Ad
+D = Democratic      u = Urgent                           - = Negative Ad
+
+Number    Title                         Author    AI   Flags     Result
+------------------------------------------------------------------------
+4618      Battery packs                 Goethe    1    Dus       Adopted
+4619      Buying Seats                  Goethe    1    Dus       Adopted
+4620      Card Cards                    Goethe    1    Dus       Adopted
+4621      Potential Decay               Goethe    2    Dus       Adopted
+4622      Cards for Votes               Goethe    2    Dus       Adopted
+4623      Vote Cards                    Goethe    1    Dus       Adopted
+4624      Crimson Go                    Goethe    2    Dus       Adopted
+4625      Officer card bonus            Goethe    1    Dus       Adopted
+4626      Some card fixes               Goethe    2    Dus       Adopted
+
+               4618  4619  4620  4621  4622  4623  4624  4625  4626
+
+Eris             F     F     F     F     F     F     F     F     F
+Goethe           F     F     F     F     F     F     F     F     F
+Maud             F     A     F     P     F     F     F     F     F
+OscarMeyr        F     F     F     F     F     F     F     F     F
+RedKnight        A     A
+root             F     F     F     F     A     A     F     F     F
+
+(RedKnight's and root's second votes are ineffective because the
+proposals are Sane.  root's would be ineffective anyway because eir
+VPDP is only 1.)
+
+FOR              5     4     5     4     4     4     5     5     5
+AGAINST          1     2     0     0     1     1     0     0     0
+Abstain          0     0     0     0     0     0     0     0     0
+Present          0     0     0     1     0     0     0     0     0
+
+Voting Index     5     2    *U*   *U*    4     4    *U*   *U*   *U*
+Adoption Index   1     1     1     2     2     1     2     1     2
+
+Voters           6     6     5     5     5     5     5     5     5
+Quorum (D:13/3)  5     5     5     5     5     5     5     5     5
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4608 by Goethe, AI=1, Democratic, Urgent, Sane
+Battery packs
+
+
+    Each Player who votes FOR this Proposal has their Voting
+    Potential increased by ten.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4609 by Goethe, AI=1, Democratic, Urgent, Sane
+Buying Seats
+
+
+    Each Shareholder at the time this Proposal takes effect has their
+    Voting Potential increased by twelve.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4610 by Goethe, AI=1, Democratic, Urgent, Sane
+Card Cards
+
+
+Append the following to Rule 2070 (Card Powerz):
+
+       * Delayed[N]: You may not play this card if you have played a
+         copy of this card in the past N times 24 hours.
+
+Create the following Rule, entitled "Card cards":
+
+        Caption:  Your Turn
+        Elements: Budgeted
+        Exploit:  A Player you name must play or discard a card in the
+                  next 72 hours, or commit the Class-1 Infraction of
+                  Delay of Game, reportable by you.
+
+        Caption:  Discard Picking
+        Elements: Budgeted, Delayed[4]
+        Exploit:  If a copy of a card was played or discarded in the
+                  past 72 hours, you may name it, and a copy of that
+                  card, if one is still in the deck, is automatically
+                  transferred from the Deck to your hand.
+
+        Caption:  Enforced Charity
+        Elements: Budgeted, Delayed[3]
+        Exploit:  A Player you name must transfer a card of eir choice
+                  to you in the next 72 hours, or commit the Class-2
+                  Infraction of Greed, reportable by you.
+
+        Caption:  Drop your Weapon
+        Elements: Budgeted
+        Exploit:  A card of your choice, from the Gambler of your
+choice,
+                  is automatically Discarded, provided that Gambler has
+                  a copy of that card.
+
+        Caption:  Presto!
+        Elements: Budgeted, Delayed[7]
+        Exploit:  A card of your choice, from the Gambler of your
+choice,
+                  is automatically transferred to your hand, provided
+                  that Gambler has a copy of that card.
+
+Budgets for the following cards are set as follows:
+   Your Turn:        5
+   Discard Picking:  4
+   Enforced Charity: 3
+   Drop your Weapon: 2
+   Presto!:          1
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4611 by Goethe, AI=2, Democratic, Urgent, Sane
+Potential Decay
+
+
+Amend Rule 2052 by replacing:
+       (a) Associated with every Player is a non-negative integral
+           number known as that Player's Voting Potential.  At the
+           beginning of each new month, every Player's Voting Potential
+           is set to zero.
+
+with:
+       (a) Associated with every Player is a non-negative integral
+           number known as that Player's Voting Potential.  At the
+           beginning of each new month, every Player's Voting Potential
+           is divided by two and rounded down.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4612 by Goethe, AI=2, Democratic, Urgent, Sane
+Cards for Votes
+
+
+Amend Rule 2059 (Legality of Bonus Clauses) to read:
+
+   The following Element is defined for cards:
+
+     Grafty:  If a card is Grafty, then it is Budgeted, with its
+     initial quota set equal to one plus the number of Players who
+     voted FOR the Proposal that first defined that class of card
+     as Grafty.  When the Deckmastor initially creates cards to
+     fulfil this quota, e shall, Rules to the contrary nonwithstanding,
+     first destroy all existing copies of the card, then create one
+     copy in the possession of the Deck, and finally create one copy
+     in the possession of each Player who voted FOR said proposal.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4613 by Goethe, AI=1, Democratic, Urgent, Sane
+Vote Cards
+
+
+Create the following Rule, entitled "Democratic cards":
+
+       The following Classes of Cards are defined:
+
+       * Caption:  Coalition
+         Elements: Grafty, Budgeted
+         Exploit:  You may increase or decrease the Voting Potential of
+                   an indicated Player by N by paying a fee of N for
+                   yourself, or 2 times N for another Player.
+
+       * Caption:  Patronage
+         Elements: Grafty, Budgeted
+         Exploit:  You may increase or decrease the Political Charge by
+N
+                   by paying a fee of 4 times N.  If undefined
+elsewhere,
+                   the Political Charge is a positive integer, tracked
+                   by the Assessor, which begins at 4.
+
+       * Caption:  Policy
+         Elements: Budgeted
+         Exploit:  You may sanitize a Proposal, as described elsewhere
+                   in the Rules.
+
+       * Caption:  Procedure
+         Elements: Budgeted
+         Exploit:  You may abort and make undistributable any non-sane
+                   Proposal.
+
+The budgeted quota for Procedure cards is hereby set to 8.
+The budgeted quota for Policy cards is hereby set to 8.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4614 by Goethe, AI=2, Democratic, Urgent, Sane
+Crimson Go
+
+
+[Apologies to Murphy for the partial theft]
+
+Create a new rule titled "Takeover Proposals" with Power=2 and
+this text:
+
+       Initiative is a stuck player switch, tracked by the Assessor,
+       with values Gote and Sente.
+
+       A Takeover Proposal is a proposal meeting these requirements:
+
+         (a) It is labelled as a Takeover Proposal.
+         (b) No Takeover Proposal has been submitted earlier in the
+             same month.
+         (c) It specifies a set of players (hereafter the Corporate
+             Raiders) that is no larger than P/2 or smaller than P/3,
+             where P is the number of active noisy players at the time
+             of submission.
+
+       Rules to the Contrary nonwithstanding, a Takeover Proposal is
+       both Democratic and Sane.
+
+       At the beginning of a Takeover Proposal's voting period, all
+       players have their initiative flipped to Gote.  At the end of a
+       Takeover Proposal's voting period, all players have their
+       initiative flipped as follows:
+         (a) Adopted:  All Corporate Raiders gain Sente.
+         (b) Rejected:  All other players gain Sente.
+         (c) Failed quorum:  No one gains Sente.
+
+
+Amend Rule 1950 (Voting Power) by replacing:
+       (b) An entity's Voting Power on a Democratic Proposal is as
+           follows:
+
+             * A Player:
+                   (a) two plus that Player's Voting Potential if that
+                       Player has zero Share Holdings.
+                   (b) one plus that Player's Voting Potential
+                       otherwise.
+
+             * Any other entity: as defined in the Rules, with a
+               default of zero if the Rules don't specify the Voting
+               power on a Democratic Proposal for that entity.
+
+with:
+       (b) An entity's Voting Power on a Democratic Proposal is as
+           follows:
+           (1) A Player:
+                   (i)  that Player's Voting Potential if that Player
+                        has Sente.
+                   (ii) one otherwise.
+           (2) Any other entity: as defined in the Rules, with a
+               default of zero if the Rules don't specify the Voting
+               power on a Democratic Proposal for that entity.
+
+
+Amend Rule 1664 (Rebellion) by replacing:
+          - All Stock Cards in the possession of Abiding Players are
+            returned to the Deck
+
+with:
+          - All Stock Cards in the possession of Abiding Players are
+            returned to the Deck, and all Abiding Players have their
+            initiative switched to Gote.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4615 by Goethe, AI=1, Democratic, Urgent, Sane
+Officer card bonus
+
+
+Amend Rule 2069 by replacing:
+           A Gambler may Draw from The Deck for a Fee equal to the
+           number of times that Gambler has previously Drawn from the
+           Deck during the current month so long as the Gambler's Hand
+           Size is smaller than the Maximum Hand Size.
+
+with:
+           A Gambler may Draw from The Deck for a Fee equal to the
+           number of times that Gambler has previously Drawn from the
+           Deck during the current month so long as the Gambler's Hand
+           Size is smaller than the Maximum Hand Size plus the number
+           of Offices e holds.  For the purposes of this Rule, the
+           Speakership is considered an office.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4616 by Goethe, AI=2, Democratic, Urgent, Sane
+Some card fixes
+
+
+[Fix Debate-o-matic]
+The Power of Rule 2067 (Cards in Play) is hereby set to 2.
+
+[Fix a typo]
+Amend Rule 2075 by replacing:
+                                     except that no boon shall be
+       awarded nor shall extra winner's be dealt.
+with
+                                     except that no boon shall be
+       awarded nor shall extra winner's cards be dealt.
+
+[Fix Political Charge]
+Amend Rule 2052 (Voting Potential) by appending the following text:
+        (d) the Political Charge is a positive integer that is initially
+        4, and may be changed only as defined by instruments of a power
+        of 2 or greater.  Rules to the contrary nonwithstanding, if the
+        current value of the Political Charge cannot be determined by
+        reasonable effort, it shall be considered to be reset to 4.  The
+        Assessor is responsible for tracking the current Political
+        Charge.
+

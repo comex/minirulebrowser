@@ -1,0 +1,309 @@
+Agora Nomic
+Voting Report for Proposals 4461-4469
+
+NB. I have given these Proposals the numbers (4461-4469) they 'should'
+have had.
+
+This Report: Mon, 17 Mar 2003
+Last Report: Mon, 03 Mar 2003
+
+Current Voting Mode: Unrestricted
+===========================================================================
+Voting on Proposals 4461-4469 commenced: Sun, 09 Mar 2003 23:55:34 
+Voting on Proposals 4461-4469 concluded: Sun, 16 Mar 2003 23:55:34 
+
+Num. Title                           By         AI  Fl RESULT  F  A  - *
+
+4461 Fix Dependent Actions           Maud        2  D  PASSES 15  2  0 1
+4462 Saner Thesis Committees         Goethe      1  o  PASSES  2  1  0 0
+4463 Full Discretion Fix             Cecilius    1  o  PASSES  2  1  0 0
+4464 Clarify AI, Take 2              root        3  D  PASSES 13  2  0 2
+4465 Fnord                           Maud        1  Dc PASSES  6  2  0 2
+4466 Try Again, Part 2               Murphy      4  D  FAILS   8 10  0 1
+4467 Quick Fix in R1929              OscarMyer   1  D  PASSES 14  2  0 1
+4468 Clarify R1976                   Cecilius    1  D  PASSES  8  1  0 4
+4469 Heavy Weather                   Sherlock    1  o  FAILS/Q 1  1  0 0
+
+
+Flags:
+o: ordinary D: Democratic P: Parliamentary
+d: disinterested  u: urgent  s: sane  c: contested
+
+===========================================================================
+
+                D   o   o   D   D   D   D   D   o
+                4   4   4   4   4   4   4   4   4
+                4   4   4   4   4   4   4   4   4
+	        6   6   6   6   6   6   6   6   6
+	        1   2   3   4   5   6   7   8   9 
+
+Cecilius  (O)   F   F   F   A   F   F   F        
+Eris           3F          3F      3A  3F   *
+Maud            F           *       F   F   *
+Michael        2F          2F      2A   F   F
+Murphy          F           F   F   F   F   F
+OscarMeyr (O)   A   A   A  FA  2A  2A  FA   *   A
+Peekee          *           *   *   *   *   *
+root           3F          3F  3F  3A 2FA 2FA
+Sherlock  (O)   F   F   F   F   F   F   F   F   F
+Steve          3F          2F   *  4F  3F  3F 
+
+FOR            15   2   2  13   6   8  14   8   1
+AGAINST         1   1   1   2   2  10   2   1   1
+ABSTAIN         0   0   0   0   0   0   0   0   0
+Present         1   0   0   2   2   1   1   4   0
+
+Voters         10   3   3  10   7  10  10   9   2
+Quorum(5|3)     Y   Y   Y   Y   Y   Y   Y   Y   N
+PASSES?         Y   Y   Y   Y   Y   N   Y   Y   N
+
+===========================================================================
+Miscellaneous
+===========================================================================
+
+I hereby issue a Notice of Complacency for Proposal 4469.
+
+H. Scorekeepor OscarMeyr, please note:
+
+Points awards:
+
+Player     Points   Reason/Rule
+-------------------------------
+
+Maud       +6       Interested P4461 adopted, 2 votes against; R1930(g)
+Goethe     +5       Interested P4462 adopted, 1 vote against; R1930(g)
+Cecilius   +5       Interested P4463 adopted, 1 vote against; R1930(g)
+root       +6       Interested P4464 adopted, 2 votes against; R1930(g)
+Maud       +6       Interested P4465 adopted, 2 votes against; R1930(g)
+OscarMeyr  +6       Interested P4467 adopted, 2 votes against; R1930(g)
+Cecilius   +5       Interested P4468 adopted, 1 vote against; R1930(g)
+OscarMeyr  +2       Only player to vote AGAINST P4461, R1930(h)
+OscarMeyr  +2       Only player to vote AGAINST P4462, R1930(h)
+OscarMeyr  +2       Only player to vote AGAINST P4463, R1930(h)
+OscarMeyr  +2       Only player to vote AGAINST P4465, R1930(h)
+root       +2       Only player to vote AGAINST P4468, R1930(h)
+OscarMeyr  +2       Only player to vote AGAINST P4469, R1930(h)
+
+===========================================================================
+Text of Adopted Proposals
+===========================================================================
+
+Proposal 4461 by Maud, AI=2, Democratic
+Fix Dependent Actions
+
+Amend rule 1728 (Dependent Actions) by replacing the text "positive integer" 
+with the text "nonnegative integer".
+
+-----------------------------------------------------------------------
+
+Proposal 4462 by Goethe, AI=1, ordinary
+Saner Thesis Committees 
+
+Saner Thesis Committees 
+
+[ V 1.0
+ - Brings sanity to committee selection by making non-Chair choices
+    the responsibility of a "neutral" officer rather than by Opposites.
+    Hopefully the neutral Officer will balance the process without
+    requiring complicated algorithms.
+  - Like current system, first two committee members are players, third 
+    may be any person.
+  - Allows some measure of academic feedback/exchange between candidate 
+    and committee (drafts, commentary).  Under the current system a typo
+    would become part of a thesis forever unless a new committee were
+    formed.  More importantly the Committee can now request revisions
+    rather than accept or reject (and still reject if the work is below
+    standards).
+  - Allows termination of the process and thus would not choke an
+    arbitrary Turing Thesis Committee (currently, all past committee 
+    members are still committee members).
+]
+
+Amend 1370 to read:
+
+     A person becomes a Candidate for a Degree when e publishes a
+     Thesis Draft, authored by emself, along with a statement explicitly 
+     indicating that the Thesis Draft is being submitted with the intent 
+     to qualify for a particular degree.
+
+     If the Candidate is a Player, e may choose another Player to be the 
+     first member of eir Thesis Committee, called eir Chair, with the 
+     Chair's consent.  For non-players, or if no other Player consents to 
+     be the Chair within one month of draft submission, the Speaker will 
+     serve as Chair.     
+
+     If the Speaker is neither the Chair nor the Candidate, the Speaker 
+     shall appoint a Player who is neither the Chair nor the Candidate to 
+     be the second Committee member.  Otherwise, the Justiciar shall so 
+     appoint, unless the Chair or the Candidate is the Justiciar, in which 
+     case the Clerk of the Courts shall so appoint.  The two Committee 
+     members shall then select, by mutual consent, a third person who is 
+     not the Candidate to be the third Committee member.    
+          
+     The Committee shall examine the Candidate and eir Thesis to determine 
+     eir qualifications for the Degree.  The Candidate may publish a new 
+     Thesis Draft at any time, in response to Committee requests or of eir 
+     own choosing, by indicating it is a new Thesis Draft for the same 
+     Degree.  
+
+     If the Committee is dissolved without granting a degree, the Committee 
+     ceases to be a Committee, and the Candidate ceases to be a Candidate, 
+     and any existant Thesis Draft must be republished and subject to a 
+     new Committee selection to be eligible for a Degree.  
+  
+     The Chair of a Thesis Committee may dissolve the Committee without 
+     granting a degree, with the consent of at least one other Committee 
+     member.  To so dissolve, the Chair must publish a notice of intent to 
+     dissolve at least 14 days before dissolving.  The Candidate may so
+     dissolve the Committee at any time by public announcement.  
+    
+     The Chair of the Thesis Committee for a particular Candidate may
+     award that Degree to the Candidate if and only if:
+
+      * the Candidate has satisfied all prerequisites in the rules for
+        the award of that Degree;
+      * a majority of members of the Thesis Committee agree that the
+        most recent Thesis draft produced by the Candidate is worthy 
+        of the Degree to be granted; and
+      * fewer than seven years have passed since that Committee was
+        formed.
+      
+      Each Committee Member may have up to 14 days after a Degree is awarded 
+      to publish a Commentary for the Thesis.  After that time, the Chair 
+      shall publish the most recent Thesis Draft along with all Commentary 
+      so published.  This combined publication shall become the Final Thesis.
+      Upon publication of this Final Thesis the Committee members cease to
+      be Committee members for that Thesis.
+
+      The Rulekeepor shall retain a copy of each Final Thesis. 
+
+
+Upon the adoption of this Proposal, all Theses that have resulted in
+the past awarding of Degrees shall be considered Final Theses.  
+
+If any Theses have been published in the last 6 months but degrees 
+not yet been awarded nor explicitly been turned down for awarding,
+then those Theses become Thesis drafts, and any
+appointed chairs or committee members remain chairs or committee 
+members.  All other chairs and committee members cease to be chairs
+or committee members. 
+
+Enact the following Rule entitled "Awardable Degrees":
+
+      The Degree of Associate of Nomic requires a Thesis of at least
+      150 words.  A Candidate who already holds an AN Degree receives
+      a credit of 100 words towards the Thesis requirement for any
+      higher Degree, unless the Candidate also holds a BN Degree.
+
+      The Degree of Bachelor of Nomic requires a Thesis of at least
+      500 words.  A Candidate who already holds an BN Degree receives
+      a credit of 250 words towards the Thesis requirement for any
+      higher Degree.
+
+      The Degree of Doctor of Nomic History requires a Thesis of at
+      least 750 words and containing a narrative covering significant
+      events which have occurred in Agora within the eight weeks prior
+      to the publication of the Thesis.
+
+      The Degree of Master of Nomic requires a Thesis of at least 750
+      words.
+
+      The Degree of Doctor of Nomic Philosophy requires a Thesis of at
+      least 1000 words, and that the candidate has also published an
+      additional creative work authored by emself whose topic or theme
+      is related to Agora or Nomic in general.
+
+-----------------------------------------------------------------------
+
+Proposal 4463 by Cecilius, AI=1, ordinary
+Full Discretion Fix
+
+Amend Rule 1712 (Distribution of Indulgences) by replacing the words "zero or negative" with the words "less than one".
+
+-----------------------------------------------------------------------
+
+Proposal 4464 by root, AI=3, Democratic
+Clarify AI, Take 2
+
+Amend Rule 594 by deleting the text reading:
+
+       The Adoption Index of a Proposal is the maximum of 1, the value
+       requested by its Proposer (if any), and the value required for
+       that Proposal by the Rules (if any).
+
+Create a Power-3 Rule titled "Adoption Indices", reading:
+
+       1) The Default Adoption Index of a Proposal is the maximum of:
+
+          a) 1; and
+          b) any minimum values required for that Proposal by the Rules.
+
+
+       2) The Proposer of a Proposal may, at the time when e submits the
+          Proposal or at any time while it is in the Pool, request an
+          Adoption Index for that Proposal by announcement, specifying the
+          requested value.
+
+
+       3) When a Proposal is distributed, its Adoption Index is set to
+          the maximum of:
+
+          a) its Default Adoption Index; and
+          b) any values requested by its Proposer as permitted in 2).
+
+
+       4) This is the only mechanism for setting or changing the Adoption
+          Index of a Proposal.  This Rule takes precedence over Rules that
+          would allow other mechanisms for setting or changing the Adoption
+          Index of a Proposal.
+
+-----------------------------------------------------------------------
+
+Proposal 4465 by Maud, AI=1, Democratic, contested
+Fnord
+
+-----------------------------------------------------------------------
+
+Proposal 4467 by OscarMyer, AI=1, Democratic
+Quick Fix in R1929
+
+Amend Rule 1929 by replacing the text reading:
+
+         -- It must be the first such notification for that specific
+            event
+
+with text reading:
+
+         -- It must be the first valid notification for that specific
+            event
+
+-----------------------------------------------------------------------
+
+Proposal 4468 by Sherlock, AI=1, Democratic
+Clarify R1976
+
+Amend Rule 1976 (Mentors' Bonus) to read:
+
+      In the four weeks immediately after eir Grace Period ends, a
+      Player (hereafter, the 'Protege') may award a Mentor's Bonus to
+      each Player (hereafter, a 'Mentor') e deems to have been helpful
+      to em as a new Player.
+
+      Each award is made by public announcement and must specify the
+      Mentor's name and a number of Stems. Upon such an announcement
+      the Bank shall incur a debt of that number of Stems to the named
+      Mentor.  The number of Stems a Protege may award in all of eir
+      Mentor's Bonuses shall not exceed the number of Stems in the New
+      Player Award.
+
+-----------------------------------------------------------------------
+
+
+-- 
+
+
+Steve Gardner                   | The IRS does not recognize the Church
+School of Computer Science      | of the SubGenius as an official church
+ and Software Engineering       | because it is "too funny to be of
+gardner@sng.its.monash.edu.au   | spiritual use to humanity."
+

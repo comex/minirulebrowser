@@ -1,0 +1,122 @@
+Voting Results (corrected)
+
+This Report:  Sun 11 Jul 04 (Proposals 4598 - 4601)
+Last Report:  Sat  3 Jul 04 (Proposals 4594 - 4597)
+(All times are in GMT)
+
+Start of Voting Period:  Sat  3 Jul 04:35:05
+  End of Voting Period:  Sat 10 Jul 04:35:05
+
+O = Ordinary        d = Disinterested   s = Sane         + = Positive Ad
+D = Democratic      u = Urgent          c = Contested    - = Negative Ad
+
+Number    Title                         Author    AI   Flags     Result
+------------------------------------------------------------------------
+4598      Eliminate Redundant Kudos     Elysion   2    D         Adopted
+4599      Fix Chamber-Changing          root      2    Dd        Adopted
+4600      Fix Unrestricted Voting       root      1    O         Failed
+quorum
+4601      Card Theft                    root      1    O         Failed
+quorum
+
+               4598  4599  4600  4601    Team
+
+Elysion         F+A   F+A              Reasonable Doubt
+Eris            F+A   F+A              Slow Motion
+Kolja            P     P     F    F+A  Reasonable Doubt
+OscarMeyr        F     F               Dissenting Opinion
+Riail           2F    2F               Slow Motion
+root            2F    2F               Reasonable Doubt
+
+FOR              6     6     1     1
+AGAINST          3     3     0     1
+Abstain          0     0     0     0
+Present          1     1     0     0
+
+Voting Index     2     2    *U*    1
+Adoption Index   2     2     1     1
+
+Voters           6     6     1     1
+Quorum (D:16/3)  6     6     3     3
+
+This is a Notice of Complacency for Proposals 4600 and 4601.
+
+H. Scorekeepor Goethe, please note Points awards due to Rule 2055:
+
+     [P3] Elysion +9 (4598), root +9 (4599)
+     [P4] Kolja +5 (4600), Kolja +5 (4601)
+     [P5] <none>
+     [P6] <none>
+     [P7] <none>
+     [P8] <none>
+
+     [T1] Order to Compel -20 (4598), Order to Compel -20 (4599)
+
+Text of Adopted Proposals
+-----------------------------------------------------------------------
+
+Proposal 4598 by Elysion, AI=2, Democratic
+Eliminate Redundant Kudos
+
+
+Amend rule 2047 (Kudos) by removing the text reading:
+
+      Agora, as a whole, also has a defined number of Kudos.  No other
+      non-Player entity has a defined number of Kudos.
+
+
+Amend rule 1941 (Fees) by replacing the sentence:
+
+      Upon said announcement, the action is performed,
+      the Actor's kudos are decreased by the fee, and Agora's kudos
+      are increased by the fee.
+
+with:
+
+      Upon said announcement, the action is performed,
+      the Actor's kudos are decreased by the fee.
+
+and deleting the text "(and Agora)"
+
+
+Amend rule 2051 (Tabla Rasa) by replacing the text reading:
+
+      (B) set Agora's kudos equal to the Tabla Rasa times
+          the current number of Players;
+
+      (C) revoke all ephemeral Patent Titles.
+
+with:
+
+      (B) revoke all ephemeral Patent Titles.
+
+
+-----------------------------------------------------------------------
+
+
+Proposal 4599 by root, AI=2, Democratic, Disinterested
+Fix Chamber-Changing
+
+
+Amend Rule 2021 (Chamber Procedure) by changing it to read:
+
+      (a) The Chamber Fee for a Proposal is a Fee for changing the
+          Chamber of a Proposal.  For any given Proposal, the Chamber
+          Fee is initially 1.  When a Proposal's Chamber is changed
+          via this Rule, the Chamber Fee for the Proposal is doubled.
+
+      (b) An Untainted Speaker, with 2 Supporters, may Sanitise a
+          Distributed Proposal that is not already Sane and for which
+          the Voting Period has not ended. If the Speaker Sanitises a
+          Proposal, the Proposal is Aborted as described elsewhere;
+          the Proposal remains Distributable, but becomes Democratic
+          and Sane.
+
+
+Amend Rule 1933 (A Proposal's Chamber) by appending the text:
+
+      Whenever a Proposal's Chamber is changed while the Proposal is
+      in its Voting Period, it is Aborted as described elsewhere and
+      returned to the Proposal Pool with its Distributability and
+      other characteristics intact.
+

@@ -1,0 +1,69 @@
+I take up the role of vote(ing) collector for proposals 4871 and 4872.
+
+No.    | Title                       | By        | AI | Date    | Flag
+4871   | High-Power Deference        | Murphy    | 3  | 10Sep06 | D
+FOR:     Goethe, Murphy, OscarMeyr   
+AGAINST: Eris, root, Maud
+Present: Sherlock
+Quorum:  5
+VI:      1
+Result:  FAILS
+
+4872   | Voting Credits              | OscarMeyr | 3  | 09Sep06 | D
+FOR:     root, Goethe, Sherlock, Murphy, OscarMeyr, Eris
+AGAINST: Maud
+Present: (0)
+Quorum:  5
+VI:      6
+Result:  ADOPTED
+
+Text of Adopted Proposals
+----------------------------------------------------------------------
+
+Proposal 4872 by OscarMeyr, AI=3, Democratic
+Voting Credits
+
+
+Create a new rule titled "Voting Credits" of Power 3 with the  
+following text, delimited by '---'.
+---
+Voting Credits (VCs) are a measure of each player's ability to affect  
+voting limits on ordinary proposals.  A player's VC is at all times a  
+non-negative integer.  The Promotor is the recordkeepor of VCs.  VCs  
+are not any form of property and cannot be traded.  VCs can be  
+affected only as described in this rule.
+
+When one or more players win the game, all players' voting limits on  
+ordinary proposals are reset to one, subject to modification by other  
+rules.
+
+When a player joins Agora, eir VCs are set to zero.
+
+When a proposal is adopted, its proposer gains VCs equal to the  
+integer portion of the proposal's adoption index, and each co-author  
+of the proposal gains one VC.
+
+A player may expend two VCs to increase eir own voting limit on  
+ordinary proposals by one.
+
+A player may expend one VC to increase any other player's voting  
+limit on ordinary proposals by one.
+
+A player may expend two VCs to decrease any other player's voting  
+limit on ordinary proposals by one, down to a minimum voting limit of  
+zero.  Attempts to decrease a player's voting limit on ordinary  
+proposals below this minimum fail.
+
+If a player attempts to expend more VCs than e currently has, the  
+action fails, and the VCs are not expended.
+
+The Promotor may accept reasonable synonyms for "expend" (such as  
+"pay" or "use") as valid actions under this rule.
+---
+Upon adoption of this proposal, each player's VCs are set to two.
+
+----------------------------------------------------------------------
+
+-Goethe
+
+

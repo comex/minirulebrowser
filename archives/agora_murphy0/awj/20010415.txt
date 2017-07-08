@@ -1,0 +1,643 @@
+From ford@jps.net Mon Apr 16 12:31:33 2001
+Date: Sun, 15 Apr 2001 18:58:35 -0700
+From: Ed Murphy <ford@jps.net>
+Reply-To: agora-discussion@gecko.serc.rmit.edu.au
+To: Agora Business <agora-business@gecko.serc.rmit.edu.au>
+Subject: BUS: Agoran Weekly Journal
+
+     THE AGORAN WEEKLY JOURNAL
+     VOLUME 48, ISSUE 1
+     Easter Sunday, April 15, 2001
+
+
+EASTER EGGS
+-----------
+
+Andre   - Stare Decisis       http://www.win.tue.nl/~engels/stare.txt
+harvel  - THE END IS NI       http://www.planetstarsiege.com/allyourbase/
+Kelly   - The Agora Trader    http://www.pyrzqxgl.org/~kmartin/agoratrader.pl
+Lindrum - The AgorEx          http://www.panix.com/~lindrum/agorex/
+Murphy  - Garden Nomic II     http://groups.yahoo.com/group/garden-nomic/
+
+
+ADOPTED PROPOSALS
+-----------------
+
+"Cleanup the Transfer Tax" by Elysion - Proposal 4132 adopted 4/1
+  Pro-rated Zombie Maintenance is billed by the Registrar (not the Herald),
+    and is pro-rated according to normal Zombie Maintenance being monthly
+    rather than quarterly.
+
+"Fix blanket quieting" by Tim - Proposal 4133 adopted 4/1
+  Making another Player Quiet is limited to once every 24 hours.
+
+"Fix Rule 1585" by harvel - Proposal 4135 adopted 4/1
+  Rule 1585 (Official Duties upon Officer Change) is amended by removing
+    obsolete text that refers to how ASAP used to require actions to be
+    performed in a certain order.
+
+"Fix Rule 1714" by harvel - Proposal 4136 adopted 4/1
+  The order of events when deregistering a Lawless Player is clarified.
+
+"Fix the Rule that Never Ends" by harvel - Proposal 4137 adopted 4/1
+  Fix the format of Rule 1794 (Classes of Orders), which was damaged when
+    clause (3) was deleted.
+
+"Various Minor Changes" by harvel - Proposal 4134 adopted 4/1
+  Rules 1884 (Zombie Masters) and 1886 (Returning to Life; renamed to
+    "Vivification Due to Noise") are simplified by removing redundant language.
+
+REJECTED PROPOSALS
+------------------
+
+PENDING PROPOSALS
+-----------------
+
+"Ambiguous Ordering Fix" by Elysion
+  An attempt to make multiple simultaneous communications, not explicitly
+    ordered, fails if any two specific orderings would result in substantively
+    different gamestates.
+
+"Bank Loans" by Blob - Proposal 4144
+  The Bank may buy Bonds for Stems, at rates specified in the Usuror's Budget
+    and dependent on the face value and time-to-maturity of the Bonds.
+  The Credit Limit is an amount of Stems from 0 to 1000.  No Player may sell
+    Bonds to the Bank equivalent to more than this amount of Stems.
+  The Treasuror may, With Support, stop or start the Bank from buying Bonds.
+
+"Becoming Parliamentary" by Goethe - Proposal 4146
+  A Group may become Parliamentary if at least two members are not in eir Grace
+    Periods, and
+      (a) It has existed continuously for at least one month, and has Voted on
+          at least one Democratic Proposal; or
+      (b) It was formed before May 1, 2001.
+  This is a supplement to "Better Democracy Through Groups"; see below.
+
+"Better Democracy Through Groups" by Goethe
+  A Group may become Parliamentary by announcement of its Vizier if:
+      (1) It has existed continuously since March 21, 2001;
+      (2) It has existed continuously for at least two months, and has Voted on
+          at least one Democratic Proposal; or
+      (3) With Support from a majority of the Viziers of all Parliamentary
+          Groups.
+  The Voting Power on Democratic Proposals of a P-Group with at least three
+    members is twice the number of members plus the number of VEs it has,
+    maximum sixteen.
+
+"Even More Better Groups" by Goethe
+  A clean merge of "Becoming Parliamentary" into "Better Groups".
+
+"Fix insane bidding wars" by Ian
+  This is a supplement to "The Speaker, Sanity and insane bidding wars"; see
+    below.
+  "Contested" is renamed to "Attacked".
+  Lists of conditions and effects are expressed in convenient list form.
+
+"Fix Rule 1470" by Kelly
+  The Bank may transfer Property when not specifically authorized to do so by
+    the Rules; however, the recipient owes their return to the Bank.
+
+"Mentor's Bonus" by Blob - Proposal 4143
+  During the four weeks after the end of a Player's Grace Period, the Player
+    (if not a Zombie) may award a Mentor's Bonus to one other Player.
+
+"The Scribe's Council" by Kelly
+  A Player may make a Proposal Distributable for free, with the Support of a
+    majority of all Scribes.
+
+"The Speaker, Sanity and insane bidding wars" by Ian - Proposal 4145
+  The Speaker may only make Interested, non-Contested Proposals Democratic.
+  Proposals made Democratic by the Speaker are also made Sane, and the
+    Distribution Cost is increased accordingly.  For the change to be made
+    during the Voting Period, someone must first pay the difference in
+    Distribution Cost.
+  A Player may, With 3 Supporters, Contest a Proposal that could be made
+    Democratic by the Speaker.  Doing so costs 0.1 VE.
+  Players may pay VEs for or against a Contested Proposal.  At the end of the
+    Voting Period, if more VEs were paid for than against, then the Proposal
+    becomes Democratic.  (Ties cause a change only if the Player who Contested
+    the Proposal was the Speaker and Untainted.)
+
+"The Whole Truth" by Kelly
+  A Player may be convicted of Perjury or Misrepresentation only if e willfully
+    made a false statement of fact.  Specifically:
+      * E must intend to make a false statement of fact.
+      * E must realize that the statement e makes is false.
+      * Excusable negligence, reasonable error, and reasonable reliance on the
+          representations of another are defenses.
+      * A conclusion as to the interpretation or application of the Rules is
+          not a "statement of fact".
+  Falsification is merged into Misrepresentation.
+
+PROTO-PROPOSALS
+---------------
+
+"Fluid Activity" by Murphy
+  The 96-hour waiting period between going On Hold and coming Off Hold is
+    repealed.
+
+"Group votes are a' blocked" by Goethe
+  If a Group casts at least one Vote on a Proposal, then its entire Voting
+    Power is deemed to have been cast with equal FOR/AGAINST/ABSTAIN value.
+
+"Help New Players" by harvel
+  New Players become Unready at the beginning of eir Grace Period, and Ready at
+    the end of it.
+  An Unready Player may become Ready by saying so.
+  Rule 698 (Always an Eligible Judge) explicitly asserts its power to command
+    Inactive Players, and extends eligibility to the Caller as a last resort.
+  An Unready Player does not appear in the Order of Succession to the
+    Speakership.
+  Ordering an Unready Player to Formally Apologize for violating a Rule is
+    optional.
+  An Unready Player may expunge half of any Blots e receives.
+  The New Player Award is, for each Bank Currency, three-quarters of the
+    average holdings of that Currency of Players not in their Grace Period.
+  All Players currently in their Grace Period become Unready.
+  All Players who registered on or after September 21, 2000, with a Grace
+    Period, receive the New Player Award.
+
+"Making Democracy easy but expensive" by Ian
+  The power to make Proposals Democratic is given to all Players.  It now costs
+    0.1 VE, but gives that Player an extra Vote on the Proposal.
+
+"The Constant Struggle for Supremacy" by Blob
+  A Player's Supremacy is initially zero.
+  A Player may increase eir Supremacy by paying an equal quantity of Stems.
+  At the end of the week, all Supremacies double.
+  The current High Oligarch's Supremacy is 200, that of the Middle Oligarchs is
+    100, and that of the Low Oligarchs is 50.
+  Each week, the Grand Warden of the Oligarchy shall announce the Players with
+    the six highest non-zero Supremacies at the start of the week.  The highest
+    becomes the High Oligarch, the next two become Middle Oligarchs, and the
+    next three become Low Oligarchs.  If there are less than six such Players,
+    then the remaining positions are vacant.  Ties are resolved in favor of the
+    Player who paid to increase eir Supremacy least recently.
+  A Player's Supremacy becomes and remains zero whenever something happens that
+    would currently cause em to lose an Oligarch position.
+  A Player may set eir Supremacy to zero by saying so.
+
+"The Reset Switch" by Blob
+  The Speaker or the High Oligarch may reset the game, With 10 Supporters.
+  When the game is reset:
+    1) All Electees are retired
+    2) A Speaker Transition occurs
+    3) The Oligarchy becomes completely vacant
+    4) All Zombies are deregistered
+    5) All Property is destroyed
+    6) All Organizations are dissolved
+    7) All Players are deemed to be New Players, and get Grace Periods.
+
+
+CALLS FOR JUDGEMENT
+-------------------
+
+CFJ 1268  "Peekee has committed the Crime of Application Fraud as described in
+[TRUE]     Rule 1626 by claiming that eir Application (included in Evidence
+           below) was signed by Players who did not actually sign that
+           Application."
+          2/7      Called by Wes
+          2/7      Assigned to lee, who Judges TRUE, issues a Sentencing Order,
+                     and Orders a Formal Apology
+          2/8      lee's Judgement Appealed by Peekee
+          2/10     Appeal assigned to Chuck, Steve, and (improperly) Wes
+          2/15     Steve moves to overturn and reassign
+          2/16     Appeal assigned to Chuck, Steve, and Elysion
+          2/16     Chuck moves to overturn and reassign
+          2/17     Elysion moves to overturn and reassign
+          2/25     Reassigned to Razl, who Judges TRUE at some point between
+                     2/25 and 3/14, issues a Sentencing Order, and Orders a
+                     Formal Apology
+          3/15     Peekee appeals Razl's Sentencing Order, as lee had already
+                     issued one
+          3/18     Razl penalizes Peekee for Failure to Apologize
+          3/18     Elysion and Wes Appeal Razl's Sentencing Order
+          3/18     Appeal of Razl's Sentencing Order assigned to Elysion,
+                     Steve, and Ziggy
+          3/22     Razl's Judgement Appealed by Peekee
+          3/22-24  Steve, Ziggy, and Elysion sustain Razl's Sentencing Order
+          3/23     Appeal of Judgement mistakenly assigned to Taral, Steve,
+                     and pTang; Taral's failed attempt to come Off Hold on
+                     March 19 had been overlooked
+          3/23-24  Steve and pTang move to sustain Razl's Judgement
+          3/24     Taral attempts to move to sustain Razl's Judgement
+          4/8      Taral replaced by Blob on Board of Appeals
+          4/9      Blob moves to sustain Razl's Judgement
+          Caller's argument (summary):  Peekee published a Dissenting Position,
+            then changed it to Concurring and got some signatures, then sent
+            the Dissenting copy by mistake.
+          Counterargument:  X is the action Peekee performed.  Y is the action
+            Peekee believed e was performing at the time.  Peekee believed that
+            X was a Crime (or would have if anyone had pointed it out), but did
+            not believe that Y was a Crime.  If eir belief about Y is what
+            matters, then Rule 1575's last paragraph forgives Peekee.
+          Commentary:  lee submitted eir Judgement early by mistake (by eir own
+            admission) and had not yet addressed Peekee's defense.
+          Judge Razl's argument (summary):  The action Peekee actually
+            performed is what matters.
+
+CFJ 1279  "Proposal 4112 is Democratic."
+[FALSE]   2/21      Called by Murphy
+Appealed  2/26-3/2  Assigned to pTang, who Judges FALSE
+          3/3-5     Appealed by Murphy, Taral, and Elysion
+          3/30      Appeal assigned to lee, Steve, and Wes
+          4/5       Steve and lee move to overturn and reassign
+          4/7       Wes is automatically recused
+          4/8       Wes attempts to move to overturn and reassign; eir
+                      automatic recusal had been overlooked
+          4/8       Mistakenly reassigned to Hooloovoo
+          4/13      Hooloovoo proto-Judges FALSE (or attempts to do so)
+          4/13      Wes replaced by Razl on Board of Appeals
+          Caller's argument (summary):  If CFJ 1278 is false, then so is this;
+            otherwise, while Proposal 4111 is adopted too early to place a
+            requirement on the Assessor to announce Proposal 4112's failing
+            quorum, it may still cause Proposal 4112 to become Democratic upon
+            the Assessor's announcement.
+          Judge's refutation (summary):  Assessor t's announcement that
+            Proposal 4112 failed quorum was not required by Rule 1965, so it
+            was not "such an announcement" to cause Proposal 4112 to become
+            Democratic.
+          Board of Appeals grounds for overturning (summary):  There are three
+            possible readings of "such an announcement" (of failed Quorum) in
+            Rule 1965:  any announcement, an announcement required by the
+            Rules, and an announcement required by Rule 1965 itself.  pTang
+            failed to consider the second possibility.  Also, due to the
+            partly-switched information in the relevant announcement by
+            Assessor t, it may be that Proposal 4112 failing Quorum was
+            announced before Rule 1965 was created.
+
+CFJ 1286  "The Herald is required to bill Syllepsis the Zombie Transfer Tax 
+[FALSE]    of 0.1 Indulgences for transfering 1 Zombie to the Bank"
+          3/27      Called by Syllepsis
+          3/27      Improperly assigned to Crito, who was On Hold
+          3/29-4/3  Assigned to Elysion, who Judges FALSE
+          Caller's argument (summary):  Syllepsis attempted to create a
+            Currency called Zombies, mint some units of it, and transfer one
+            to the Bank.
+          Judge's refutation (summary):  An entity does not change a Rule's
+            referent merely by having the same name as the Rule's original
+            referent.
+
+CFJ 1287  "The message (as quoted above) Goethe sent titled "Contest 
+[TRUE]     announcement: Bardic Gatherings" failed to create a Contest."
+          3/30      Called by Peekee
+          3/31-4/6  Assigned to Tim, who Judges TRUE
+          Caller's argument (summary):  Only an Application (to Create an
+            Organization) can create a Contest, but Goethe did not designate
+            eir message as an Application (as required by Rule 1626).
+
+CFJ 1288  "The Bank transfered 100 stems to me on April 3, 2001."
+[FALSE]   4/3     Called by Hooloovoo
+          4/6-13  Assigned to Steve, who Judges FALSE
+          4/9     Taral attempts to Appeal Steve's proto-Judgement
+          Caller's argument (summary):  lee wrote
+            "The Bank owes Hooloovoo 50 Stems.
+             The Bank owes Hooloovoo 50 Stems.
+             The Bank satisfies the above debts."
+            but the Bank actually owed only one debt of 50 Stems to Hooloovoo.
+          Judge's refutation (summary):  It is clear what Property lee intended
+            to transfer, so the basic definition of a Notice of Transfer is
+            met.  However, Rule 1470 prevents the Bank from transferring its
+            Property in the absence of a debt, and so Rule 1598 (3) prevents
+            an attempt at such a transfer from being a Notice of Transfer.
+
+
+OFFICES/OLIGARCHS
+-----------------
+
+3/28  Voting begins for Justiciar.  Candidates are Hooloovoo and Steve.  Taral
+        is mistakenly listed as a candidate; eir failed attempt to come Off
+        Hold on March 19 had been overlooked.
+
+      Voting begins for Notary.  Candidates are Lindrum, Peekee, Razl, and Tim.
+
+      Nominations open for Herald.
+
+      Goethe Nominates for Herald.
+
+      Office of Usuror created.  Kelly consents to delegation of same.
+
+3/29  lee delegates Usuror to Kelly.
+
+4/2   Nominations begin for Usuror.
+
+      Kelly and Hooloovoo Nominate for Usuror.
+
+      Quarterly Speaker Transition occurs.  Speaker-Elect Kelly becomes
+        Speaker.  Promotor Elysion becomes Speaker-Elect.  Nominations begin
+        for Speaker-Elect.
+
+      Taral attempts to Nominate for Speaker-Elect; eir failed attempt to come
+        Off Hold on March 19 had been overlooked.
+
+4/3   Ian Nominates for Usuror.
+
+4/4   lee attempts to Nominate for Herald, but misses the end of the Nomination
+        Period.
+
+      Steve is Elected Justiciar.
+
+      Razl is Elected Notary.
+
+      Goethe is Elected Herald.
+
+      Taral Nominates for Speaker-Elect.
+
+4/5   Razl delegates Notary to Tim for April 7 to April 14.
+
+4/6   Kelly submits Proto-Budget for Usuror.
+
+      Tim consents to delegation of Notary.
+
+4/8   Blob resigns as High Oligarch and Nominates for Speaker-Elect.
+
+4/12  Kelly is Elected Usuror.  (Hooloovoo and Ian did not submit
+        Proto-Budgets, so eir Nominations were automatically withdrawn.)
+
+      Voting begins for Speaker-Elect.  Candidates are Blob and Taral.
+
+4/12  Auction begins for one Oligarchy position.
+
+
+OTHER
+-----
+
+3/30  VE Auction ends.  Taral's failure to come Off Hold on March 19 had not
+        yet been noticed, so results were incorrectly resulted as lee (3),
+        Taral (2), Lindrum (2), Goethe (2), Michael (1), at 104 Stems each.
+        Actual winners were lee (3), Lindrum (2), Goethe (3), Michael (1),
+        Razl (1), at 85 Stems each.
+
+3/31  solublefish registers.
+
+4/2   Steve makes Grech Quiet.
+
+      Ian registers.
+
+      Auctions begin for six 100-Stem Bonds maturing on May through October 1.
+
+4/3   Auction begins for ten units of 0.1 VE.
+
+4/4   lee attempts to make David Quiet, but David is not Active.
+
+      Oerjan goes On Hold.
+
+      Syllepsis ceases to have Power of Attorney over Ziggy.
+
+      Goethe's Grace Period ends.
+
+      Elysion makes Chuck Quiet.
+
+      Taral comes Off Hold.  Finally.
+
+4/5   Grace Periods end for Grech and Syllepsis.
+
+      With the support of Herald Goethe, Treasuror Blob increases the Herald's
+        Salary from 0.5 to 0.6 times the Basic Officer Salary.
+
+4/7   Razl goes On Hold.
+
+4/8   Razl's Grace Period ends.
+
+      Goethe creates the Currency "Fish".
+
+4/9   Grace Periods end for Evantine and Lindrum.
+
+      Bond Auctions end.  Bonds are won by Michael (95), Kelly (90), Michael
+        (85), Michael (70), Michael (70), and Michael (70).
+
+4/11  The Anemocrats create the Currency "Bones".
+
+Bidding for Bonds maturing on:  (cancelled bids in parentheses)
+05/01/01    06/01/01    07/01/01     08/01/01       09/01/01     10/01/01
+---------------------------------------------------------------------------
+95 Michael  90 Kelly    85 Michael  (73)t           70 Michael   70 Michael
+93 Novalis  88 Novalis  81 Novalis   70 Michael    (64)t        (53)Novalis
+90 Michael  50 Blob     80 Michael  (62)harlequin  (56)Elysion  (51)Elysion
+50 Blob      1 Steve    50 Blob      51 Novalis     51 t         51 harlequin
+ 1 Steve                 1 Steve     50 Blob        50 Blob      50 Blob
+                                      1 Steve        1 Steve      1 Steve
+
+Bidding for 10 x 0.1 VEs beginning 4/3
+----------
+263 harvel - cancelled
+249 Taral
+243 harvel - cancelled
+223 harvel - cancelled
+204 harvel - cancelled
+144 harvel - cancelled
+124 Taral
+124 harvel
+114 harvel
+104 harvel
+100 Elysion
+ 95 harvel
+ 95 harvel
+ 94 harvel - cancelled
+ 94 Blob
+ 94 Blob
+ 94 Blob
+ 93 harvel
+ 93 harvel
+ 90 Elysion
+ 90 Lindrum
+ 84 harvel
+ 83 Taral
+ 80 Elysion
+ 70 Elysion
+ 62 Taral
+ 61 Elysion
+ 60 Razl
+ 52 Lindrum - cancelled
+ 51 Elysion
+ 50 Razl
+ 49 Taral
+ 45 Lindrum
+ 42 Elysion
+ 41 Taral
+ 40 Razl
+ 35 Taral
+ 32 Elysion
+ 31 Taral
+ 30 Razl
+ 30 Lindrum
+ 27 Taral
+ 24 Taral
+ 21 Elysion
+ 20 Razl
+ 11 Elysion
+ 10 Razl
+
+Bidding for 10 x 0.1 VEs beginning 3/16
+----------
+314 lee
+249 Taral - invalid because e was On Hold
+240 Taral - invalid because e was On Hold
+210 Lindrum
+200 Goethe
+157 lee
+130 Lindrum
+125 Goethe - cancelled
+125 Goethe
+124 Taral - invalid because e was On Hold
+120 Michael
+120 Taral - invalid because e was On Hold
+115 Goethe - cancelled
+112 Goethe - cancelled
+106 Goethe - cancelled
+106 Goethe - cancelled
+105 Lindrum - cancelled
+105 Lindrum - cancelled
+105 Lindrum - cancelled
+104 lee
+100 Goethe - cancelled
+ 95 Goethe - cancelled
+ 95 Goethe - cancelled
+ 86 Lindrum - cancelled
+ 86 Lindrum - cancelled
+ 86 Lindrum - cancelled
+ 86 Lindrum - cancelled
+ 86 Razl
+ 85 Goethe - cancelled
+ 85 Goethe
+ 84 Razl - cancelled
+ 83 Taral - invalid because e was On Hold
+ 82 Razl - cancelled
+ 81 Lindrum - cancelled
+ 81 Lindrum - cancelled
+ 80 Taral - invalid because e was On Hold
+ 79 Lindrum - cancelled
+ 79 Lindrum - cancelled
+ 79 Ziggy
+ 79 Ziggy
+ 78 lee
+ 75 Goethe - cancelled
+ 65 Goethe
+ 62 Taral - invalid because e was On Hold
+ 62 lee
+ 60 Taral - invalid because e was On Hold
+ 60 Michael
+ 52 lee
+ 50 Wes
+ 50 Wes
+ 50 Wes
+ 50 Wes
+ 50 Wes
+ 50 Wes
+ 50 Wes
+ 50 Wes
+ 50 Wes
+ 50 Wes
+ 49 Taral - invalid because e was On Hold
+ 48 Taral - invalid because e was On Hold
+ 45 Ziggy - cancelled
+ 45 Ziggy - cancelled
+ 45 Ziggy - cancelled
+ 44 lee
+ 41 Taral - invalid because e was On Hold
+ 40 Michael
+ 40 Taral - invalid because e was On Hold
+ 39 lee
+ 35 Taral - invalid because e was On Hold
+ 35 Goethe - cancelled
+ 34 Taral - invalid because e was On Hold
+ 34 lee
+ 31 Taral - invalid because e was On Hold
+ 31 lee
+ 30 Michael
+ 30 Taral - invalid because e was On Hold
+ 27 Taral - invalid because e was On Hold
+ 26 Taral - invalid because e was On Hold
+ 25 Goethe - cancelled
+ 24 Taral - invalid because e was On Hold
+ 24 Michael
+ 24 Taral - invalid because e was On Hold
+ 20 Michael
+ 18 Goethe - cancelled
+ 18 Goethe - cancelled
+ 18 Goethe - cancelled
+ 18 Goethe - cancelled
+ 17 Michael
+ 15 Michael
+ 13 Michael
+ 12 Michael
+  5 Ziggy
+  5 Ziggy
+  5 Ziggy
+  5 Ziggy
+  5 Ziggy
+  5 Ziggy
+  5 Ziggy
+  5 Ziggy
+  5 Ziggy
+  1 Blob
+  1 Blob
+  1 Blob
+  1 Blob
+  1 Blob
+  1 Blob
+  1 Blob
+  1 Blob
+  1 Blob
+  1 Blob
+
+
+TRADE OFFERS
+------------
+
+Ongoing offers:
+
+Player    Date     Will sell           In return for
+-----------------------------------------------------------------------
+AgorEx    3/28/01  1 VE                ??? mP
+AgorEx    3/28/01  1 Papyrus           ??? mVE
+Blob      6/19/00  Votes as Oligarch   Highest bidder; at least 10 Stems worth
+Elysion   7/23/00  Herald's Privilege  Negotiable
+OotEE     9/13/99  1 Iris              1 VT; non-members subject to 9% Tariff
+Peekee    3/2/01   Votes on Proposals  Negotiable
+                     and Elections
+Wes       4/5/00   1 Twig              Commenting on and changing a proto
+Wes       4/5/00   ad space            1 Twig per 30 days
+
+Recent one-time offers:
+
+Player    Date     Will sell         In return for
+-----------------------------------------------------------------------
+Blob      1/23/01  1 Indulgence      1 Papyrus
+Blob      3/1/01   Indulgences       Papyri
+Blob      3/1/01   1 VE              at least 4 Papyri
+Chuck     2/6/01   1 Papyrus         2 Indulgences
+harvel    2/9/01   Negotiable        3 Papyri
+harvel    3/22/01  2.0 VEs           Papyri / Negotiable
+Hooloovoo 3/2/01   1 Papyri          1 VE
+Kelly     7/1/00   1 VE              Negotiable
+Kelly     10/4/00  9 BTs             Negotiable
+Kelly     1/24/01  1 Papyrus         2 Indulgences
+Steve     2/5/01   2 Indulgences     2 Papyri
+t         2/6/01   1 Papyrus         2 Indulgences
+
+
+ERRATA
+------
+
+Taral failed to come Off Hold on March 19, as it had not yet been 96 hours
+since e last went On Hold.  This had the following effects:
+
+* Eir Nomination for Justiciar was invalid.  This did not change the final
+  result of that Election.
+
+* Eir first Nomination for Speaker-Elect was invalid.  E Nominated again after
+  successfully coming Off Hold.
+
+* Eir Bids in the VE Auction beginning on March 16 were invalid.  This changed
+  the winners and the Winning Bid.
+
+* Eir assignment to the Board of Appeals for CFJ 1268 was invalid.  Blob was
+  assigned in eir place.
+
+
+-- 
+Ed Murphy <ford@jps.net>     http://members.fortunecity.com/emurphy/
+          "Most of the time, it seemed sublimely unaware of its limbs,
+           though it was beginning to suspect it had hands."
+

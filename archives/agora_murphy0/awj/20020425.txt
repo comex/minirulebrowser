@@ -1,0 +1,638 @@
+From emurphy42@socal.rr.com Fri Apr 26 22:45:21 2002
+Date: Thu, 25 Apr 2002 20:35:23 -0700
+From: Ed Murphy <emurphy42@socal.rr.com>
+Reply-To: agora-discussion@agoranomic.org
+To: Agora Business <agora-business@agoranomic.org>
+Subject: BUS: Agoran Weekly Journal
+
+     THE AGORAN WEEKLY JOURNAL
+     VOLUME 48, ISSUE 18
+     Thursday, April 25, 2002
+
+
+PLUS, IF YOU ACT NOW...
+-----------------------
+
+Andre   - Stare Decisis       www.win.tue.nl/~engels/stare.txt
+Goethe  - Land of Arcadia     faculty.washington.edu/kerim/agora/map
+harvel  - THE END IS NI       tarski.2y.net/~harvel/
+Lindrum - The AgorEx          www.panix.com/~lindrum/agorex/
+Michael - First Speaker       www.cl.cam.ac.uk/users/mn200/games/nomic/yoyo/
+Murphy  - PokeNomic           groups.yahoo.com/group/pokenomic/
+t       - AWJ Archive         www.iki.fi/scurra/agora.html
+Taral   - Web Judiciary       cotc.taral.net:8888/
+
+
+ADOPTED PROPOSALS
+-----------------
+
+"Cold Storage" by harvel - Proposal 4278 adopted 4/3
+  A Player may put emself in cold storage, making em a "baridi".  The Treasuror
+    becomes eir Limited Executor, with the ability and duty to transfer eir
+    Property to the Bank; the Bank then owes those Properties to em.
+  A Player must wait 90 days to come out of cold storage and become inactive,
+    and an additional week to become active.
+  A baridi may not Vote, Propose, hold Office, or be required by the Rules to
+    do anything (even by a Rule claiming it can do so).
+  A baridi becomes Silent after two years.
+  For the purpose of Quorum, a baridi is considered not to exist at all.
+  Various other Rules pertaining to Activity are adjusted to account for a
+    three-state system.
+
+"Fix Dependent Actions" by harvel - Proposal 4279 adopted 4/3
+  The holder of an Office may perform a Dependent Action that a previous holder
+    of that Office announced eir intent to perform.
+  Objections may be retracted.
+
+"Fix 'Oligarchy Upkeep'" by Steve - Proposal 4268 adopted 3/22
+  If an Oligarch is removed for failure to pay eir Upkeep, then the Upkeep debt
+    is forgiven.
+
+"Fix Proposal 4259" by root - Proposal 4267 adopted 3/22
+  Punctuation correction in Rule 1975.
+  Remove the obsolete concept of Elder Oligarchs from Rules 1955 (The Grand
+    Warden of the Oligarchy) and 2010 (Oligarchy Upkeep).
+  Put the identity of the Speaker and the date of the next quarterly Speaker
+    Transition back into the GWotO's Report.
+
+"Fix Raffles" by Steve - Proposal 4265 adopted 3/16
+  The Riff-Raff is the Auctioneer, rather than defaulting to the Speaker.  (The
+    Auctioneer already defaults to the Speaker.)
+  The definition of Final Auction Price for a Raffle is repealed, as it has no
+    effect.
+
+"Make Insanity More Interesting" by OscarMeyr - Proposal 4277 adopted 4/3
+  A Player's Votes on an Insane Proposal must be all FOR or all AGAINST.
+
+"Massive Economic Reform" by Goethe - Proposal 4281 adopted 4/16
+  Anyone may bid on Voting Entitlements, Papyri, and Indulgences.
+  A Scribe may Rubberstamp a Proposal (making it Distributable) by paying N
+    Papyri, or with the Support of N other Scribes, where N is the number of
+    Proposals e has previously Rubberstamped that week.
+  An Acolyte may Absolve (expunge) a Blot from any entity by paying N
+    Indulgences, or with the Support of N other Acolytes, where N is the number
+    of Blots e has previously Absolved that week.
+  An Acolyte with the Support of another Acolyte may Exorcise a Dissolute
+    Entity (transferring all its Indulgences to the Bank).
+  An Acolyte with the Support of a Scribe (or vice versa) may Bless an
+    undistributed Proposal (making it Democratic).
+  A Politician with the Support of another Politician may Unbless an
+    undistributed Blessed Proposal.
+  An Untainted Speaker with 2 Supporters may Sanitise a Distributed Proposal in
+    its Voting Period (Aborting it, but leaving it Distributable, and making it
+    Democratic and Sane).
+
+"Massive Land Reform" by Goethe - Proposal 4283 adopted 4/16
+  The Mapkeepor gets an extra month's Salary.
+  Each Player that previously owned Land is Entitled.
+  All Land becomes Aether.
+  Everything with a location becomes located at (0, 0).
+  Latitude and Longitude are contracted from [-25, +25] to [-9, +9].
+  Land Types are Black and White.
+  Connectedness by Type/Subtype is defined.
+  Movement Units are spent as follows:
+    *  2 - Move from location to non-Aether location of same type.
+    *  5 - Move from location to non-Aether location of different type.
+    *  5 - Set Type of land you own to anything but Aether.
+    * 10 - Set Type of your Land Bureau-owned location to anything but Aether.
+  On the 15th of each month:
+    * Land Units not connected by their own type to a unit of Aether (i.e.
+      surrounded by Land Units of other non-Aether types) become Aether, owned
+      by the Land Bureau, and any entities there become located at (0, 0).
+    * If there are more Land Units of a non-Aether type than of all other
+      non-Aether types combined, then they have Sente.  All other Land Units
+      have Gote.
+    * Players whose Location has Sente get double Minimum Income.
+    * The owner of a Location that has Sente gets 3/2/1 Stems, depending on
+      whether the Weather is Plenty/Fair/Foul.
+  (0, 0) is initially Black, and owned by the Bank.
+  All Entitled Players have seven days to name a Land Unit and Type; it becomes
+    that type, the Player becomes located there, and the Land Bureau owes that
+    Land Unit to that Player.
+
+"Massive Political Reform" by Goethe - Proposal 4282 adopted 4/16
+  A Proposal has exactly one Chamber:  Ordinary, Democratic, or Parliamentary.
+  On a Parliamentary Proposal:
+    * Players Vote as if it were Ordinary (for Oligarchs) or Democratic (for
+      non-Oligarchs), but these Votes do not count directly.
+    * If it would have been adopted as Ordinary, then the Oligarchy casts one
+      Vote FOR.  If it would have been rejected (but met Quorum) as Ordinary,
+      then the Oligarchy casts one Vote AGAINST.
+    * If it would have been adopted as Democratic, then the Democracy casts one
+      Vote FOR.  If it would have been rejected (but met Quorum) as Democratic,
+      then the Democracy casts one Vote AGAINST.
+    * The Speaker casts one Vote FOR, unless e is Untainted and Vetoes it, in
+      which case e casts one Vote AGAINST.
+  Quorum on a Parliamentary Proposal is 2.
+  A Politician may change a non-Sane Proposal's Chamber by paying its Chamber
+    Fee.  This is initially 0.1 Voting Entitlement, and doubles each time it is
+    paid for a given Proposal.  If the Proposal is in its Voting Period, then
+    it is Aborted (but remains Distributable, etc.).
+
+"Organizations Can Move, Too!" by OscarMeyr - Proposal 4280 adopted 4/3
+  Organizations may spend up to 5 Movement Units per week.
+  The Mapkeepor shall monitor the location of all entities with a location, not
+    just Players.
+
+"Qualified Speaker's Veto" by Steve - Proposal 4276 adopted 3/27
+  The Speaker may, with the support of one-third of the Oligarchy (rounded
+    down), Veto an Ordinary Proposal in its Voting Period, causing it to fail
+    Quorum automatically (and thus be re-Distributed as a Democratic Proposal).
+
+"Simplify TIA" by Murphy - Proposal 4273 adopted 3/22
+  The definition of "willfully make a false statement of fact" is itemized.
+
+"Streamline Blots" by Murphy - Proposal 4272 adopted 3/22
+  Move the definition of Blots into its own Rule, with more streamlined
+    language - a Player's number of Blots is eir Stain, just as eir number of
+    Points is eir Score.  (This would incidentally destroy all Blots, as they
+    would be momentarily undefined.)
+  Move the clause for expunging Blots with Indulgences into its own Rule.
+
+"Streamline Succession and Delegation" by Murphy - Proposal 4271 adopted 3/22
+  Resignation is itemized into two cases:  (1) Electee resigns with successor;
+    (2) non-Electee resigns, or Electee resigns without successor.
+  Initiating Delegation is consistently itemized.  Other aspects of Delegation
+    are consistently described with simple two- or three-clause paragraphs.
+
+REJECTED PROPOSALS
+------------------
+
+"And Void" by Goethe - Contested Proposal 4269 rejected 3/22
+
+"April Contested Proposal" by Steve - Contested Proposal 4285 rejected 4/18
+
+"Mutually Exclusive Offices" by Murphy - Proposal 4274 rejected 3/22
+  Responsibility for tracking the identity of the Speaker is given solely to
+    the Assistant Director of Personnel.
+  The Order of Succession is generalized to fill any Office that would not
+    otherwise be validly filled.
+  A Player is ineligible to hold an Office that is Mutually Exclusive with an
+    Office e already holds.  If needed, e is removed from the conflicting
+    Office e came to hold most recently.  The Speaker is removed from any
+    Office that is Mutually Exclusive with Speaker-Elect.
+  Speaker-Elect, Clerk of the Courts, and Justiciar are Mutually Exclusive.
+  Speaker-Elect and Assistant Director of Personnel are Mutually Exclusive.
+  Promotor and Assessor are Mutually Exclusive.
+
+"The Jailor" by Murphy - Proposal 4270 rejected 3/22
+  The Office of Jailor has a Budget that sets the Class of each Crime and
+    Infraction.
+  The Class of a Crime is from 0 to 15.
+  The Class of an Infraction is from 0 to 5.
+  Dereliction of Duty may be penalized as if it were a Crime.
+
+"The Scorekeepor's Budget" by root - Proposal 4275 rejected 3/22
+  The Scorekeepor's Budget contains:
+    * The Goal, an integer from 30 to 300.
+    * A Point Award or Penalty for each Scoreworthy Event.
+    * Up to five Point Awards or Penalties for non-Scoreworthy Events.
+    * The Contestant's Purse Frequency, an integer from 1 to 6.  The
+        Contestant's Purse is paid out at intervals of this many months.
+    * The Contestant's Purse Multiplier, a multiple of 0.1 from 0.5 to 2.0.
+        The Contestant's Purse equals the New Player Award for Indulgences and
+        Papyri combined, multiplied by the Contestant's Purse Multiplier.
+  All Point Awards and Penalties are integers from 0 to 30, with an average no
+    greater than 10.  The Budget must contain at least one Point Award.
+  The Contestant's Purse is paid out to the Player who got the most Points from
+    Points Contests from the beginning of the previous Contestant's Purse Month
+    to the beginning of the current Contestant's Purse Month.  (In case of
+    ties, no one gets it.)
+
+PENDING PROPOSALS
+-----------------
+
+"Clarify Final Auction Price" by Murphy
+  In the default procedure for Auctions, the amount billed for winning bids is
+    explicitly the Final Auction Price, not the amount of the bid.
+
+"DO YOU WANT INSANITY? (Y/N)" by Sir Toby - probably Contested Proposal 4287
+  YES MEANS NO
+  NO MEANS YES
+
+"Fix Robespierre" by Sir Toby - Proposal 4289
+  Correct a typo from "it" to "if" in Rule 1923 (Defined Unique Patent Titles).
+
+"Fix Sente and Gote" by Sir Toby - Proposal 4290
+  (0, 0) is immune to becoming Aether.
+
+"Groovy" by OscarMeyr - Proposal 4284 failed quorum 4/18 - complacent Oligarchy
+    - Proposal 4288
+  The Patent Title of Groovy may be awarded to any Player who Wins through
+    three different Win Conditions (and at least once since the introduction of
+    this Title).
+
+"No Insane Contested Proposals" by OscarMeyr
+  Contested Proposals are not Insane.
+
+"Thesis Committee" by OscarMeyr - Proposal 4286
+  A Candidate for a Degree chooses the Chair of eir Thesis Committee.  The
+    Player who most often voted opposite the Chair in the last quarter is eir
+    Opposite, and they choose the third member by agreement.  The committee has
+    up to seven years to act.  Committee decision is by majority.
+  Degree of Associate of Nomic is introduced.
+  Associate of Nomic, Bachelor of Nomic count toward minimum-words requirement
+    of any higher/equal degree.
+
+PROTO-PROPOSALS
+---------------
+
+"Add a (Roundabout) Way to Auction Land" by Sir Toby
+  For 10 Movement Units, an entity may set the Land Type of a random adjacent
+    Land Bureau-owned Aether to a non-Aether Type of eir choice.
+
+"Auto complacency" by OscarMeyr
+  If the Oligarchy lacks quorum, then all Proposals become Democratic, and the
+    existing Oligarchs need not pay Upkeep.
+
+"Judicial Reform, Part 1 of 2" by Murphy
+  Rule 991 (Invoking Judgement) picks up the core of Rule 1563 (Statement of a
+    CFJ), which is then repealed.
+
+"Judicial Reform, Part 2 of 2" by Murphy
+  A CFJ may be filed with the Justiciar for any reason, though this is not
+    recommended in the general case.
+  Rules 897 (Barring Players from Judgement), 1562 (Excess CFJs), 1868
+    (Selecting a Judge), 408 (Late Judgement), 591 (Legal Judgements), 1575
+    (Standards of Proof) have their language simplified.
+  Rule 698 (Always an Eligible Judge) is reworded to restore eligibility to
+    groups of Players at a time, rather than changing the overall eligibility
+    formula at each step.
+  Rule 1756 (Delinquent Judges) is repealed.
+  Linked CFJs are Judged by a single Judge.
+  Caller must submit evidence when accusing a Player of shirking a duty.
+  DISMISSED is a Judgement.  Other Rules are adjusted accordingly.
+  Justices become Appelate Judges, as opposed to Trial Judges.
+  Rule 1447 (Final Judgement upon Appeal) is split into three parts:  how soon
+    a Justice must determine, what determinations e may make, and what e is
+    paid for determining on time.
+  Board of Appeals may overturn and remand to original Judge for re-Judgement.
+  Rule 908 (Formal Apologies) picks up the text of Rule 1832 (Failure to
+    Apologize), which is then repealed.
+
+"Opening the Oligarchy" by Goethe
+  The GWotO's Budget includes the Base Seating Fee, from 0.1 to 0.5 Voting
+    Entitlements (inclusive).
+  Non-Politicians may bid for positions in the Oligarchy, but must pay the Base
+    Seating Fee in addition to eir winning bid.  Politicians need only pay eir
+    winning bid.
+  Monthly Upkeep equals the Base Seating Fee for Politicians, double for
+    non-Politicians, but waived for anyone who paid a Fee in VEs to become an
+    Oligarch within the past 21 days.
+  If the Oligarchy cannot meet Quorum, then the GWotO may make any consenting
+    Player an Oligarch, Without 3 Objections.  The Player must pay the Seating
+    Fee if a Politician, twice if not.
+
+"Positive Degrees" by OscarMeyr
+  Degree requirements are changed from the negative voice ("cannot be awarded
+    unless X") to the positive voice ("requires X").
+
+"The stack" by Syllepsis
+  The stack is a list of the non-negative integers, maintained by the Office of
+    Processor.
+  Each element of the stack has:
+    * A type, initially undefined.  It may be integer, real, string, pointer,
+      Player, etc.
+    * A value, initially undefined.
+    * A read-access (type and value) list, initially all entities.
+    * A write-access (value) list, initially all entities.
+    * A modify-access (type) list, initially all entities.
+    * A list of labels, which are alternate ways to refer to it.
+
+
+CALLS FOR JUDGEMENT
+-------------------
+
+CFJ 1345 "The ratification of the Payroll Clerk's Report of Tue 29 Jan
+[FALSE]   2002 caused at least one debt of a Judicial Salary to change
+          from outstanding to not outstanding."
+         3/15     Called by Murphy
+         3/15     Murphy moves that Payroll Clerk forgive any debts due to
+                    payment of Judicial debts on February 25 that became not
+                    outstanding due to Ratification
+         3/15-23  Assigned to Goethe, who Judges FALSE and denies Motion
+         Caller's argument (summary):  The Ratified Report claimed that the
+           list of outstanding debts (Stem debts, implicitly) was empty.
+         Judge's refutation (summary):  This information was not part of the
+           required content of the Report, and thus was not Ratified.
+
+CFJ 1346 "The Bank is deemed to have incurred a debt of 3.0 Voting
+[TRUE]    Entitlements to:
+Appealed    (a) any and every judge who returns a judgment of TRUE on this CFJ,
+                and;
+            (b) any and every  member of a Board of Appeals who Overturns a
+                judgment of FALSE on this CFJ or sustains a judgment of TRUE on
+                this CFJ."
+         4/10     Called by Goethe
+         4/10-11  Assigned to root, who Judges TRUE
+         4/11-12  Appealed by Steve, Goddess Eris, and OscarMeyr
+         4/15     Appeal incorrectly assigned to Murphy (Barred), OscarMeyr,
+                    and Goddess Eris (see CFJs 1347 and 1348)
+         4/16     Alleged Justice Murphy moves to overturn and dismiss
+         4/16     Possible Justice OscarMeyr moves to overturn and dismiss
+         4/17     Possible Justice Goddess Eris moves to overturn and reverse
+
+CFJ 1347 "Murphy is not a Justice in Appeal 1346a."
+         4/17  Called by root
+         Caller's argument (summary):  Murphy was Barred from Judging CFJ 1346
+           by the Caller.  This made em ineligible to be a Justice, since eir
+           ineligibility did not result in less than three eligible Justices.
+
+CFJ 1348 "No Justices have been appointed in Appeal 1346a."
+         4/17  Called by root
+         Caller's argument (summary):  Murphy's assignment was invalid (see CFJ
+           1347), and thus the selection attempt is entirely invalid.
+
+CFJ 1349 "The Judgement of CFJ 21 was incorrect."
+         4/17  Called by Syllepsis
+
+CFJ 1350 "Sir Toby's first insane proposal submitted on 18 April 2002 is a null
+          proposal."
+         4/18  Called by harvel
+         Caller's argument (summary):  The Proposal in question has this body:
+           YES MEANS NO
+           NO MEANS YES
+         which does not propose to change Rules or the Gamestate.
+
+CFJ 1351 "Proposal 4285 is Insane."
+         4/18  Called by Sir Toby
+         Caller's argument (summary):  The body of Proposal 4285 contains no
+           miniscule letters.
+         Counterargument:  It contains miniscule letters in the title.
+
+CFJ 1352 "The last paragraph of rule 1969 does not prohibit transferring Bonds
+          that have already been redeemed."
+         4/21  Called by Sir Toby
+         Caller's argument (summary):  Rule 1966 says that Bonds of the same
+           species are fungible, and takes precedence over Rule 1969, so
+           redeemed Bonds cannot be distinguished from unredeemed Bonds of the
+           same species.
+
+
+OFFICES
+-------
+
+3/12  Speaker-Elect Election ends with no Nominees.  New Election begins.
+
+3/13  Murphy attempts to Nominate for Speaker-Elect, but is unsuccessful
+        because e is Justiciar.
+
+3/14  root delegates Scorekeepor, Mapkeepor, and Assistant Director of
+        Personnel to Steve until March 25 at midnight GMT.  Steve consents.
+
+3/20  Speaker-Elect Election ends with no Nominees.
+
+3/26  Election begins for Speaker-Elect.
+
+      Murphy resigns as Justiciar (making Speaker Steve the Justiciar) and
+        Nominates for Speaker-Elect.
+
+3/27  Election begins for Justiciar.
+
+4/1   OscarMeyr Nominates for Justiciar.
+
+4/3   Murphy is Elected Speaker-Elect.
+
+      OscarMeyr is Elected Justiciar.
+
+      Quarterly Speaker Transition occurs.  t (who was non-Electee
+        Speaker-Elect on April 1) becomes Tainted Speaker.  Registrar Goethe
+        becomes non-Electee Speaker-Elect.
+
+      Speaker Transition occurs.  Speaker-Elect Murphy becomes Speaker.
+        Promotor t becomes non-Electee Speaker-Elect.
+
+      Election begins for Speaker-Elect.
+
+4/11  Election for Speaker-Elect ends with no Nominees.  New Election begins.
+
+      Goethe Nominates for Speaker-Elect.
+
+4/23  Goethe is Elected Speaker-Elect.
+
+
+OLIGARCHS
+---------
+
+3/11  Auction for 1 position ends.  OscarMeyr wins with the sole bid of 30
+        Stems, pays eir bid and becomes an Oligarch.
+
+      Treasuror Goethe forgive harvel's unpaid Oligarch Upkeep debt of 0.1 VE.
+
+3/31  Goethe resigns from the Oligarchy.
+
+4/1   root and OscarMeyr pay Upkeep.
+
+      Raffle begins for 1 position.
+
+4/8   Michael is removed from the Oligarchy, and eir Upkeep is forgiven.
+
+      Raffle for 1 position ends with no Tickets.
+
+4/23  GWotO Steve announces eir intent to increase the Oligarchy Auction Rate
+        from 1 to 2.
+
+
+PROPERTY AUCTIONS
+-----------------
+
+3/11  Voting Entitlement Auction ends.  Goethe wins 0.5, Michael wins 0.2, and
+        root wins 0.2, at 201 Stems per 0.1 VE.
+
+3/14  Vickrey Auctions begin for these units of Land:
+
+        (- 2,   3) [Water]
+        (- 3,   2) [Water]
+        (- 3,   3) [Water]
+        (- 3,   4) [Water]
+        (- 3,   5) [Water]
+        (- 4,   2) [Water]
+        (- 2,   6) [Wilderness/Mountains]
+        (- 2,   7) [Wilderness/Mountains]
+        (- 3,   6) [Wilderness/Hills]
+        (- 3,   7) [Wilderness/Mountains]
+
+3/15  AgorEx Offshore's informal Papyrus Auctions both end with no bids.
+
+3/19  Looting Auction begins for Blaise.
+
+3/20  Auction begins for 1 Papyrus.
+
+3/21  Land Auctions end, each with either zero or one bids.
+
+        (- 2,   3) [Water] (no bids)
+        (- 3,   2) [Water] (no bids)
+        (- 3,   3) [Water] (no bids)
+        (- 3,   4) [Water] (no bids)
+        (- 3,   5) [Water] (no bids)
+        (- 4,   2) [Water] (no bids)
+        (- 2,   6) [Wilderness/Mountains] (OscarMeyr bids 0.007 Indulgences)
+        (- 2,   7) [Wilderness/Mountains] (OscarMeyr bids 0.007 Indulgences)
+        (- 3,   6) [Wilderness/Hills]     (OscarMeyr bids 0.007 Indulgences)
+        (- 3,   7) [Wilderness/Mountains] (OscarMeyr bids 0.007 Indulgences)
+
+3/31  Looting Auction for Blaise ends with no bids.  Notary Murphy transfers
+        Blaise's Property to the Bank.
+
+      Looting Auction begins for Razl.
+
+4/2   Auction begins for 6 Indulgences.
+
+4/3   Papyrus Auction ends with no bids.
+
+4/12  Looting Auction for Razl ends.  Steve wins with the only bid of
+        1 Indulgence.
+
+4/21  Vickrey Auction begins for 3 Papyri.
+
+Auction for 6 Indulgences
+----------
+150 Steve
+ 76 Taral
+ 75 Steve - cancelled
+ 50 Steve
+ 36 Taral
+ 35 Steve - cancelled
+ 30 Steve
+ 25 Steve - cancelled
+ 25 Taral
+  1 Steve
+
+Auction for 3 Papyri
+----------
+40 root
+30 root
+20 root
+ 1 root
+
+Auction for 9 x 0.1 VEs
+----------
+1200 Goethe
+1001 Goethe - cancelled
+ 800 Goethe
+ 501 Goethe - cancelled
+ 500 Michael
+ 400 root
+ 329 Goethe - cancelled
+ 287 Goethe
+ 255 Goethe
+ 250 Michael
+ 237 root
+ 201 Goethe
+ 183 root
+ 167 Goethe
+ 166 Michael
+ 150 root
+ 143 Goethe
+ 126 Goethe
+ 125 Michael
+ 120 root
+ 111 Goethe
+ 100 root
+ 100 Michael
+  93 Goethe
+  85 root
+  83 Michael
+  76 Goethe
+  75 root
+  71 Michael
+  66 root
+  62 Michael
+  55 Michael
+  41 Goethe
+  41 Goethe
+  41 Goethe
+  41 Goethe
+  41 Goethe
+  41 Goethe
+
+
+TECTONIC ACTIVITY
+-----------------
+
+4/19  Sir Toby uses eir Land Entitlement to make (+5, +5) black.
+
+      Murphy uses eir Land Entitlement to make (-5, -5) white.
+
+4/20  root uses eir Land Entitlement to make (-5, +5) white.
+
+      Goddess Eris uses eir Land Entitlement to make (+5, -5) white.
+
+4/22  OscarMeyr uses eir Land Entitlement to make (+2, -1) white.
+
+4/23  Sir Toby spends Movement Units to make (+5, +5) white.
+
+
+IN OTHER NEWS
+-------------
+
+3/11  Blaise deregisters.
+
+      OscarMeyr is awarded Speaker's Patronage for joining the Oligarchy.
+
+3/14  Taral changes eir nickname to Goddess Eris.
+
+      root grants eir Power of Attorney to Steve until March 25, midnight GMT.
+        Steve consents.
+
+3/20  OscarMeyr is Marvy.
+
+      Murphy is awarded Speaker's Patronage for Nominating for Speaker-Elect.
+
+3/24  Usuror Sir Toby Ratifies eir Report of March 17.
+
+3/25  pTang becomes Quiet.
+
+      Razl is deregistered for Silence.
+
+4/3   harvel goes into Cold Storage.
+
+      OscarMeyr gains 15 Points from Arcadia Exploranda.
+
+4/8   Sir Toby awards a Mentor's Bonus to t.
+
+4/19  Goddess Eris makes Michael Quiet.
+
+4/20  ADoP/Mapkeepor/Scorekeepor root and Assessor/Registrar/Treasuror Goethe
+        are Filthy Bureaucrats.
+
+4/21  Oerjan goes On Hold.
+
+      Michael becomes Noisy.
+
+4/23  Arcadia Exploranda disbands.
+
+4/24  Craig registers.
+
+
+TRADE OFFERS
+------------
+
+Player      Date      Will sell        In return for
+-----------------------------------------------------------------------
+AgorEx      01/10/02  Papyri           Negotiable
+harvel      02/08/02  Negotiable       Papyri
+neil        08/21/01  0.2 VEs          2 Papyri per 0.1 VE
+pTang       08/07/01  Votes for        Negotiable
+                        2 months
+Steve       02/05/01  2 Indulgences    2 Papyri
+t           02/06/01  1 Papyrus        2 Indulgences
+t           08/29/01  Bond, 100 Stems  Indulgences
+Taral       08/14/01  1 BIT            Negotiable
+
+A Blue Yeek is a Player who generally intends to Vote on Democratic Proposals
+based on Blubbery Icky Thing holdings, as follows:
+  * AGAINST, if the proposer has transferred a BIT to a non-Player or destroyed
+    a BIT (Novice Rouge)
+  * FOR, if the proposer has four BITs
+  * AGAINST, if the proposer has one to three BITs
+  * At will, if the proposer has no BITs
+and to return any BITs transferred to em.
+
+Syllepsis and Goethe are Blue Yeeks.
+
+
+-- 
+Ed Murphy <emurphy42@socal.rr.com>          "I'm not sure I can go through
+http://members.fortunecity.com/emurphy/      with it.  Leave, I mean."
+

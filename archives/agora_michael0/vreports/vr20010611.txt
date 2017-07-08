@@ -1,0 +1,126 @@
+Assessor's Voting Report
+Mon Jun 11 05:01:41 2001
+
+Voting on Proposal 4162 commenced: Mon May 28 22:53:08 2001
+Voting on Proposal 4162 concluded: Mon Jun  4 22:53:08 2001
+
+Num.  Type  Proposer  AI  Title          Result  F  A  -
+4162  Ord   Elysion   1   Fix Rule 1712  PASSES  9  0  0
+
+Voter    4162
+
+Goethe      F
+Michael    2F
+Steve      3F
+Ziggy      2F
+lee         F
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+Proposal 4162 by Elysion, AI=1
+Fix Rule 1712
+
+[This proposal:
+      * Eliminates the ambiguous situation when IICL-AICL is not an integer
+      * Cleans up some language
+ History:
+      * v1.1:
+        + Restored the accidentally deleted "good faith" clause ]
+
+Amend rule 1712/9 (Distribution of Indulgences) by replacing the text
+reading:
+
+      As soon as possible after the start of each month, the Herald
+      shall Auction a number of Indulgences equal to the difference
+      between the AICL and the IICL. If the AICL is equal to or
+      greater than the IICL, no auction shall be held. To calculate
+      the difference, the Herald shall determine the number of Blots
+      and the number of Indulgences owned as published in the most
+      recent Herald's Report; other values in the formula shall be
+      determined as of the time of the start of the auction.
+      However, if the Herald makes an error in determining the
+      number of Indulgences to be Auctioned, in good faith, that
+      number shall be allowed to stand.
+
+      The items to be auctioned are individual Indulgences, and thus
+      the number of items is equal to the number of Indulgences to be
+      Auctioned. The Auctioneer shall be the Herald, and the Auction
+      shall be conducted in Stems. Only Acolytes may bid.
+
+with:
+
+      As soon as possible after the start of each month, the Herald
+      shall calculate the Indulgence Differential, which is equal to
+      the IICL minus the AICL, rounded down to the nearest integer.
+      To calculate the Indulgence Differential, the Herald shall
+      determine the number of Blots and the number of Indulgences
+      owned as published in the most recent Herald's Report;
+      other values in the formula shall be determined as of
+      the time of the calculation. If the Herald makes an error
+      in determining the number of Indulgences to be Auctioned,
+      in good faith, that number shall be allowed to stand.
+
+      If the Indulgence Differential is greater than zero, then the
+      Herald shall, as soon as possible after the start of that month,
+      auction a number of Indulgences equal to the Indulgence
+      Differential; if the Indulgence Differential is not greater than
+      zero, the Herald shall not auction any Indulgences that month.
+
+      In an Indulgence Auction held in accordance with this rule, the
+      items to be auctioned are individual Indulgences, and thus
+      the number of items is equal to the number of Indulgences to be
+      Auctioned. In addition, the Auctioneer shall be the Herald,
+      and the Auction shall be conducted in Stems with only Acolytes
+      being allowed to bid.
+
+======================================================================
+
+Assessor's Event Log:
+
+Tue May 29 00:44:55 2001:
+  Steve votes on Proposal 4162, 3 times.
+
+Tue May 29 01:21:37 2001:
+  root attempts to vote on Proposal 4162 but fails.
+
+Tue May 29 03:51:16 2001:
+  Goethe votes on Proposal 4162.
+
+Tue May 29 04:24:41 2001:
+  Steve leaves the Oligarchy.
+
+Wed May 30 08:15:56 2001:
+  Player S. registers.
+
+Wed May 30 16:35:54 2001:
+  Player Peekee comes off Hold.
+
+Wed May 30 19:05:32 2001:
+  Player David comes off Hold.
+
+Thu May 31 01:58:59 2001:
+  Player Annabel deregisters.
+
+Thu May 31 08:20:00 2001:
+  Michael votes on Proposal 4162, twice.
+
+Thu May 31 20:05:16 2001:
+  Ziggy votes on Proposal 4162, twice.
+
+Thu May 31 20:07:04 2001:
+  lee votes on Proposal 4162.
+
+Mon Jun  4 04:05:41 2001:
+  Player root becomes an Oligarch.
+
+Mon Jun  4 04:31:18 2001:
+  Player Wes goes on hold.
+
+Mon Jun  4 16:32:22 2001:
+  Voting Period of Proposal 4163 begins.
+  Voting Period of Proposal 4164 begins.
+  Voting Period of Proposal 4165 begins.
+  Voting Period of Proposal 4166 begins.
+  Voting Period of Proposal 4167 begins.

@@ -1,0 +1,561 @@
+Assessor's Voting Report
+Proposals 4298-4304
+
+No.    Title                           By        AI Flags  Result     VI
+----  ------------------------------  ---------- -- ----- --------- -----
+4298   Massive Judicial Reform         Murphy     2  C     ADOPTED  18/0
+4299   PROPOSING WANTS TO BE FREE!     Sir Toby   3  IC    FAILED    2/10
+4300   INSANE STEM DISTRIBUTION        Craig      1  I     FAILED    1/1
+4301   Contested Proposal for May      root       1  CT    ADOPTED   9/3
+4302   Fix Parliament                  Murphy     3  C     ADOPTED  18/0
+4303   Thesis Committee                OscarMeyr  1  C     ADOPTED  11/2
+4304   DO YOU WANT INSANITY? (Y/N)     Sir Toby   1  C     FAILED    2/6
+----  ------------------------------- ---------- -- ----- --------- -----
+Flags: Disinterested;demoCratic;Urgent;Sane;Insane;Opposite;conTested;
+       Parliamentary
+
+H. Promoter,
+   This is a Notice of Complacency for Proposal 4300.
+
+H. Scorekeepor, please note:
+   There are no Notices of Award contained in this message.
+
+
+Voting Period Began: Thu,  9 May 2002 23:25:56 GMT
+Voting Period Ended: Thu, 16 May 2002 23:25:56 GMT
+Voting Mode: Unrestricted (Private for 4299, 4300, 4304).
+
+               4298    4299    4300    4301    4302    4303    4304
+               -----   -----   -----   -----   -----   -----   -----
+Steve          5F,       ,5A           5F,     5F,     5F,     1F,
+root           2F,     1F,1A   1F,       ,2A   2F,       ,2A   1F,1A
+Eris           5F,                             5F,       *
+Craig          1F,                             1F,     1F,
+Crito            *       *               *       *       *       *
+OscarMeyr      1F,       ,1A     ,1A   1F,     1F,     1F,       ,1A
+Sir Toby       1F,     1F,               ,1A   1F,     1F,       ,1A
+Goethe         3F,       ,3A           3F,     3F,     3F,       ,3A
+
+FOR/AGAI.      18/0     2/10    1/1     9/3    18/0    11/2     2/6
+ABSTAIN          0       0       0       0       0       0       0
+VOTERS           8       6       2       6       8       8       6
+QUORUM?        yes      yes     no     yes     yes     yes     yes
+ADOPTED?       yes       no     no     yes     yes     yes      no
+
+
+=========Text of adopted Proposals======================================
+
+Proposal #4298 by Murphy, AI=2
+Massive Judicial Reform
+
+(AI=2, please)
+
+[Summary:
+  Rule 991 (Invoking Judgement) picks up the core of Rule 1563 (Statement of a
+    CFJ), which is then repealed.
+  A CFJ may be filed with the Justiciar for any reason, though this is not
+    recommended in the general case.
+  Rules 897 (Barring Players from Judgement), 1562 (Excess CFJs), 1868
+    (Selecting a Judge), 408 (Late Judgement), 591 (Legal Judgements), 1575
+    (Standards of Proof) have their language simplified.
+  Rule 698 (Always an Eligible Judge) is reworded to restore eligibility to
+    groups of Players at a time, rather than changing the overall eligibility
+    formula at each step.
+  Rule 1756 (Delinquent Judges) is repealed.
+  Linked CFJs are Judged by a single Judge.
+  Ineligibility by request or recusal lasts at most one month.
+  Caller must submit evidence when accusing a Player of shirking a duty.
+  DISMISSED is a Judgement.  Other Rules are adjusted accordingly.
+  Justices become Appelate Judges, as opposed to Trial Judges.
+  Rule 1447 (Final Judgement upon Appeal) is split into three parts:  how soon
+    a Justice must determine, what determinations e may make, and what e is
+    paid for determining on time.
+  Board of Appeals may overturn and remand to original Judge for re-Judgement.
+  Rule 908 (Formal Apologies) picks up the text of Rule 1832 (Failure to
+    Apologize), which is then repealed.
+]
+
+Amend Rule 991 (Invoking Judgement) to read:
+
+      Any person may request formal resolution of a dispute pertaining to
+      this Nomic by submitting a Call for Judgement (CFJ) to the Clerk of
+      the Courts.  The submission of a CFJ constitutes proof of the existence
+      of such a dispute.
+
+      A CFJ should be a single clearly-labeled Statement whose truth or
+      falsity can be determined using logical reasoning, assuming perfect
+      knowledge.  A CFJ may be accompanied by Arguments, Evidence, or
+      other related material; the Judge is encouraged, but not required,
+      to take notice of these things.
+
+      The Clerk of the Courts shall publish the text of a CFJ, along with
+      any additional material submitted by the Caller (including but not
+      limited to Arguments and Evidence), no later than the time e announces
+      the identity of the first Judge assigned to that CFJ.
+
+Create a Rule titled "Submitting a CFJ to the Justiciar" with this text:
+
+      A CFJ may be submitted to the Justiciar.  For such a CFJ, the
+      Justiciar shall perform all duties and fulfill all roles that
+      would otherwise be assigned to the Clerk of the Courts.
+
+      All persons are encouraged to submit a CFJ to the Justiciar only
+      when there is a good reason not to submit it to the Clerk of the
+      Courts.
+
+Repeal Rule 1563 (Statement of a CFJ).
+
+Amend Rule 897 (Barring Players from Judgement) to read:
+
+      A Player Barred from Judging a CFJ is ineligible to Judge that CFJ.
+
+      Any Player sharing an Executor with the Caller of a CFJ is
+      automatically Barred from Judging that CFJ.
+
+      When submitting a CFJ, the Caller may Bar up to three Players from
+      Judging that CFJ.
+
+Amend Rule 1562 (Excess CFJs) to read:
+
+      A CFJ made by a person who has previously made five or more CFJs
+      during the same Nomic Week is an Excess CFJ.
+
+      The Caller of an Excess CFJ commits the Class 1 Infraction of
+      Excess CFJing, to be reported by the Clerk of the Courts.
+
+      The Clerk of the Courts shall dismiss all Excess CFJs.  If e
+      instead assigns one to a Judge, then the Judge shall Judge it,
+      but the Clerk of the Courts commits the Class 2 Infraction of
+      Allowing Excess CFJing, to be reported by the Justiciar.
+
+Amend Rule 1868 (Selecting a Judge) to read:
+
+      A CFJ is open if it has not been Judged, or if an outstanding
+      judicial motion pertaining to it has been neither granted nor
+      denied.  A CFJ is closed if it is not open.
+
+      As soon as possible after becoming aware that an open CFJ has
+      no Judge assigned to it, the Clerk of the Courts shall choose a
+      Player eligible to Judge it, and announce them as its Trial
+      Judge.  That Player remains the Trial Judge of that CFJ until e
+      is recused from it or becomes ineligible to Judge it.
+
+Amend Rule 698 (Always an Eligible Judge) to read:
+
+      Each Active Player is eligible to Judge a given CFJ, unless a
+      Rule specifically makes em ineligible.
+
+      If the Clerk of the Courts is required to select a Judge, but -
+      after taking all other Rules affecting eligibility into account
+      - no Player is eligible to Judge that CFJ, then:
+
+        a) All Active non-Barred Players become eligible to Judge
+           that CFJ.
+
+        b) If there is still no eligible Judge, then all non-frozen
+           non-Barred Players become eligible to Judge that CFJ.
+
+        c) If there is still no eligible Judge, then all non-frozen
+           Players Barred by the Caller become eligible to Judge that
+           CFJ.
+
+        d) If there is still no eligible Judge, then all non-frozen
+           Barred Players, other than the Caller emself, become eligible
+           to Judge that CFJ.
+
+        e) If there is still no eligible Judge, then the Caller has
+           happened upon a generational ship whose members are in
+           suspended animation.  The Rules suggest that the Caller
+           try calling when we arrive at our destination and thaw out.
+
+      This Rule can require Inactive Players to perform actions.
+
+      This Rule takes precedence over all other Rules.
+
+Amend Rule 1871 (Turns for All) to read:
+
+      Whenever a Player is selected as Trial Judge of a CFJ, e becomes
+      ineligible to be Trial Judge of any future CFJs.  Whenever there
+      are no Players eligible to be Trial Judge of a CFJ, all Players
+      ineligible solely because of this Rule become eligible again.
+
+Amend Rule 1567 (Making Oneself Ineligible to Judge a CFJ) to read:
+
+      A Player makes emself ineligible to be the Judge of a specific
+      CFJ or type of CFJ by informing the Clerk of the Courts that e
+      does so.  Such a notice remains in effect for one month, or until
+      the Player informs the Clerk of the Courts that it is no longer
+      in effect, whichever is soonest.
+
+      If a Player makes emself ineligible to be a Judge of a CFJ for
+      which e has already been selected as Judge, e commits the Class
+      0.1 Infraction of Shirking Judgeship, to be reported by the Clerk
+      of the Courts.
+
+Repeal Rule 1756 (Delinquent Judges).
+
+Create a Rule titled "Linked Statements" with this text:
+
+      Linked CFJs are multiple Calls for Judgement submitted in a single
+      message and clearly labelled as Linked CFJs.
+
+      The Clerk of the Courts shall assign a Judge to a set of Linked CFJs,
+      as if they were a single CFJ.  The Judge must be eligible to Judge
+      each of the Linked CFJs, and is simultaneously assigned as Judge of
+      each of the Linked CFJs.
+
+      The Judge of a set of Linked CFJs shall submit eir Judgement of each
+      of those CFJs in a single message.
+
+      If one or more Linked CFJs are Excess CFJs, then the Clerk of the
+      Courts shall either assign them all or dismiss them all, at eir
+      discretion.  If e assigns them all, then e does not commit Allowing
+      Excess CFJing by doing so, Rules to the contrary notwithstanding.
+
+      If one or more Linked CFJs beyond the first are unrelated in subject
+      matter to the first, then a Trial Judge may remand those CFJs to the
+      Clerk of the Courts; e ceases to be Judge of those CFJs.  The Clerk
+      of the Courts shall either treat those CFJs as Linked (to each other)
+      or not Linked, as e sees fit.  In either case, those CFJs are no
+      longer Linked to any of the non-remanded CFJs.
+
+Create a Rule titled "Transfer of Jurisdiction" with this text:
+
+      The Judge of a CFJ (the First Case) may transfer it to the Judge of
+      another CFJ (the Second Case), if all of the following are true:
+
+        a) The Second Judge is eligible to Judge the First Case (or is
+           ineligible solely due to the Rule "Turns for All").
+        b) The First Judge announces the transfer.
+        c) The Second Judge consents to the transfer within a week after
+           it is announced.
+
+      The First CFJ becomes assigned to the Second Judge, and ceases to be
+      assigned to the First Judge.
+
+      The First CFJ becomes Linked to the Second CFJ, and to any CFJs to
+      which the Second CFJ had been Linked.  It ceases to be Linked to any
+      other CFJs.
+
+Amend Rule 408 (Late Judgement) to read:
+
+      For each Judge assigned to a CFJ, eir Deliberation Period begins
+      when the Clerk of the Courts announces eir assignment, and lasts
+      seven days; eir Overtime Period begins when eir Deliberation Period
+      ends, and lasts seven days.
+
+      A Judge who Judges a CFJ during eir Overtime Period commits the
+      Class 0.5 Infraction of Judging a Bit Late, to be reported by the
+      Clerk of the Courts.
+
+      During a Judge's Overtime Period, if e has not yet Judged the CFJ,
+      then the Clerk of the Courts may recuse the Judge by announcing that
+      e does so.  At the end of a Judge's Overtime Period, if e has not yet
+      Judged the CFJ, then e is automatically recused.
+
+      A Judge recused according to this Rule commits the Class 3
+      Infraction of Failure to Judge, to be reported by the Clerk of
+      the Courts.  E becomes ineligible to Judge any CFJ for one month,
+      or until e publicly requests to become eligible again, whichever
+      is soonest.
+
+Amend Rule 591 (Legal Judgements) to read:
+
+      The Judge of a CFJ Judges it by submitting eir Judgement to the
+      Clerk of the Courts.  "Decision", "Finding", and "Response" are
+      unambiguous synonyms for "Judgement".
+
+      For a Trial Judge, a Judgement is exactly one of the following:
+      TRUE, FALSE, or DISMISSED.
+
+      As soon as possible after receiving a Judgement, the Clerk of
+      the Courts shall publish it, along with any arguments, evidence,
+      or other material included with the Judgement.
+
+Amend Rule 1575 (Standards of Proof) to read:
+
+      Unless otherwise specified, all Judgements shall be consistent
+      with the preponderance of the evidence.
+
+      A Judge shall not find that a Player has failed to perform a duty
+      unless the preponderance of evidence provided by the Caller supports
+      the claim.
+
+      A Judge shall not find that a Player has violated a Rule or committed
+      a Crime unless the evidence provided by the Caller places its certainty
+      beyond reasonable doubt.  Furthermore, a Judge shall not find that a
+      Player committed a Crime if that Player reasonably believed that
+      eir action or inaction was not a Crime at the time it occurred.
+
+Amend Rule 1565 (Dismissal of a CFJ) to read:
+
+      A Judgement of DISMISSED should be delivered if and only if one or
+      more of the following is true:
+
+        i) The CFJ does not contain a single clearly-identified Statement.
+
+       ii) After a reasonable effort to obtain all relevant information,
+           the Judge can neither determine the Statement to be true nor
+           determine it to be false.
+
+      iii) The Statement does not relate to a matter relevant to the
+           Rules.
+
+       iv) The CFJ lacks standing, as defined elsewhere.
+
+Amend Rule 502 (Salary for Judges) to read:
+
+      As soon as possible after a Judgement is delivered during the
+      Deliberation Period, the Clerk of the Courts shall pay out the
+      Judicial Salary to the Judge.
+
+      As soon as possible after a Judgement is overturned on appeal,
+      the Clerk of the Courts shall bill the Judge for the Judicial
+      Salary (if any) that was paid out to em for that Judgement.
+
+Amend Rule 1804 (Appeal of Judicial Orders) to read:
+
+      As soon as possible after a Judicial Order is Appealed, the
+      Clerk of the Courts shall stay it.  If the Appeal is sustained,
+      then the Board of Appeals shall vacate this stay as soon as
+      possible.
+
+      In the Appeal of a Judicial Order, the Board of Appeals shall
+      consider whether the Order was properly and validly executed.
+
+Amend Rule 1830 (No Compulsion of Judges) to read:
+
+      Any Order to Compel directed to a Judge, or requiring the
+      performance of a duty required of a Player because that Player
+      is a Judge, is invalid.
+
+      Any CFJ alleging that a Judgement is incorrect, or that a Judge
+      has failed to perform a judicial duty, lacks standing.  Such a
+      claim should instead be pursued via Appeal.
+
+Amend Rule 1365 (Concurring and Dissenting Opinions) by replacing
+each instance of "Judgement or Dismissal" with "Judgement".
+
+Amend Rule 911 (The Board of Appeals) to read:
+
+      When an Appeal is initiated, a Board of Appeals shall be selected
+      to reach a decision about the subject of the Appeal.
+
+      A Board of Appeals consists of three Appelate Judges.  Any Judge
+      assigned according to this Rule is an Appelate Judge.
+
+      A Board of Appeals is selected when the Clerk of the Courts
+      correctly announces the identity of all Appelate Judges, determined
+      as follows:
+
+        a) The Speaker is selected, if eligible.
+        b) The Clerk of the Courts is selected, if eligible.
+        c) The Justiciar is selected, if eligible.
+        d) Any remaining positions are filled by random selection by the
+           Clerk of the Courts from all remaining eligible Players.
+
+      A Player is ineligible for selection if any of the following is
+      true:
+
+        i) E has already been selected for that Board.
+       ii) E has been dismissed from that Board.
+      iii) E has been Trial Judge of the subject of the Appeal.
+       iv) E is ineligible to Judge the CFJ at the time of selection.
+        v) E is not Active.
+
+      An Appelate Judge may appoint another eligible Player as eir
+      replacement by informing the Clerk of the Courts, provided the
+      Player consents.
+
+      As soon as possible after an Appelate Judge is recused, the Clerk of
+      the Courts shall randomly select an eligible Player to replace em.
+
+      The last Appelate Judge selected is the Lead Judge for that Board.  If
+      the Lead Judge is replaced, then the replacement becomes Lead Judge.
+
+Repeal Rule 1833 (Lead Justice).
+
+Amend Rule 1570 (Announcement of Appeal) to read:
+
+      As soon as possible after an Appeal is initiated, the Clerk of
+      the Courts shall announce the subject of the Appeal.
+
+      As soon as possible after a Player becomes an Appelate Judge or
+      ceases to be an Appelate Judge, the Clerk of the Courts shall
+      announce the change.
+
+Amend Rule 1564 (Initiating Appeals) to read:
+
+      The following are subject to Appeal:
+
+        a) The Judgement of a Trial Judge.
+        b) The grant or denial of a Motion.
+        c) The execution of a Judicial Order.
+        d) A claim that a Trial Judge has failed to perform a required
+           judicial duty.
+
+      A subject is Appealed when any of the following occurs:
+
+        i) Three Players Appeal it.
+       ii) A Player Appeals a Judicial Order binding em.
+      iii) A Player Appeals a Trial Judgement convicting em of a Crime.
+
+Amend Rule 1447 (Final Judgement upon Appeal) to read:
+
+      For an Appelate Judge, a Judgement is exactly one of the following:
+      SUSTAIN or OVERTURN.  Other Rules may modify this, based on the
+      subject of the Appeal.
+
+Create a new Rule titled "Appelate Determinations" with this text:
+
+      As soon as possible after all members of a Board of Appeals have
+      submitted eir Judgement, the Clerk of the Courts shall announce
+      that this has happened.
+
+      If a majority of the Appelate Judges Judge SUSTAIN, then the subject
+      of the Appeal is sustained.  Otherwise, it is overturned.  The Board
+      of Appeals shall execute whatever Appelate Orders are necessary to
+      enforce its determination.
+
+Amend Rule 1693 (Appeal of a Judgement) to read:
+
+      If a Judgement of TRUE or FALSE is Appealed, the Board of Appeals
+      shall consider the correctness of that Judgement.
+
+      If a Judgement of DISMISSED is Appealed, the Board shall not
+      consider the truth or falsity of the original CFJ; they
+      shall only consider whether a Judgement of DISMISSED should
+      have been delivered.
+
+      For an Appelate Judge assigned to the Appeal of a Judgement, a
+      Judgement is exactly one of the following:  SUSTAIN, REVERSE,
+      REASSIGN, or REMAND.
+
+      When a Judgement is overturned:
+
+        a) If a majority of the Appelate Judges Judge REVERSE, then the
+           CFJ shall be treated as if it were Judged normally, with the
+           Judgement being that which a majority of the Appelate Judges
+           agree on.
+
+        b) If a majority of the Appelate Judges Judge REASSIGN, then the
+           original Judgement is ignored, the original Judge is recused,
+           and the Clerk of the Courts shall reassign the CFJ to a new
+           Judge in the same fashion as it was originally assigned.  The
+           new Judge cannot make the same Judgement as the original Judge
+           for the same reason.
+
+        c) If a majority of the Appelate Judges Judge REMAND, then the
+           original Judgement shall be ignored, and the Clerk of the
+           Courts shall reassign the CFJ to the original Judge as if it
+           were being originally assigned. The Judge may not make the
+           same Judgement for the same reason.
+
+        d) If none of the above is true, then the CFJ shall be reassigned
+           as described above.
+
+Repeal Rule 1694 (Appeal of a Dismissal).
+
+Amend Rule 1805 (Appellate Orders) by replacing each occurrence of "Lead
+Justice" with "Lead Judge".
+
+Repeal Rule 1695 (Appeals of Judicial Orders).
+
+Amend Rule 908 (Formal Apologies) by appending to it the text of Rule
+1832 (Failure to Apologize).
+
+Repeal Rule 1832 (Failure to Apologize).
+
+-------------------------------------------------------------------------------
+
+Proposal #4301 by root, AI=1
+Contested Proposal for May
+
+-------------------------------------------------------------------------------
+
+Proposal #4302 by Murphy, AI=3
+Fix Parliament
+
+(AI=3, please)
+
+Amend Rule 955 (Votes Required to Adopt a Proposal) by replacing this text:
+
+      (b) If the Voting Index is greater than the Adoption Index for
+          the Proposal (or if both equal Unanimity), and if Quorum for
+          the Proposal is achieved, then that Proposal is adopted.
+          Otherwise, it fails.
+
+with this text:
+
+      (b) If the Voting Index is greater than or equal to the Adoption
+          Index for the Proposal, and if Quorum for the Proposal is
+          achieved, then that Proposal is adopted.  Otherwise, it fails.
+
+[This makes Parliamentary Proposals more interesting by allowing them
+ to be adopted with 2F 1A, assuming AI=2.  AI>2 still needs Unanimity.]
+
+-------------------------------------------------------------------------------
+
+Proposal #4303 by OscarMeyr, AI=1
+Thesis Committee
+
+Change Rule 1370 to read as follows:
+
+      A person becomes a Candidate for a Degree when e publishes
+      a Thesis, authored by emself, along with a statement explicitly
+      indicating that the Thesis is being submitted with the intent
+      to qualify for a particular Degree.
+
+      If the Candidate is a Player, e may choose the first member
+      of eir Thesis Committee, called eir Chair; for non-players,
+      the Speaker will serve as Chair.  The Chair's Opposite is
+      defined as the Player who most often voted in the opposite
+      manner of the Chair in the last quarter; the Opposite becomes
+      the second committee member.  The Chair and eir Opposite
+      will select, as soon as possible, and by mutual agreement, the
+      third member of the committee.
+
+      The Chair of the Thesis Committee for a particular Candidate
+      may grant that Degree to the Candidate if and only if:
+
+      * the Candidate has satisfied all prerequisites in the rules for
+        the award of that Degree;
+
+      * a majority of members of the Thesis Committee agree that the
+        Thesis produced by the Candidate is worthy of the Degree to be
+        granted; and
+
+      * fewer than seven years have passed since the time the
+        Thesis Committee was formed.
+
+      The Rulekeepor shall retain a copy of each Thesis approved
+       by its Thesis Committee.
+
+      The Degree of Associate of Nomic requires a Thesis of at least
+      150 words.  A Candidate who already holds an AN Degree
+      receives a credit of 100 words towards the Thesis requirement for
+      any higher Degree, unless the Candidate also holds a BN Degree.
+
+      The Degree of Bachelor of Nomic requires a Thesis of at least
+      500 words.  A Candidate who already holds an BN Degree
+      receives a credit of 250 words towards the Thesis requirement for
+      any higher Degree.
+
+      The Degree of Doctor of Nomic History requires a Thesis of
+      at least 750 words and containing a narrative covering significant
+
+      events which have occurred in Agora within the eight weeks
+      prior to the publication of the Thesis.
+
+      The Degree of Master of Nomic requires a Thesis of at least
+      750 words.
+
+      The Degree of Doctor of Nomic Philosophy requires a Thesis
+      of at least 1000 words, and that the candidate has also published
+      an additional creative work authored by emself whose topic or
+      theme is related to Agora or Nomic in general.
+
+-------------------------------------------------------------------------------
+
+-Assessor Goethe
+

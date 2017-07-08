@@ -1,0 +1,122 @@
+Agora Nomic
+Voting Report for Proposals 4343-4346
+12 Jul 2002
+
+Current Voting Mode: Public
+===========================================================================
+Voting on Proposals 4343-4346 commenced: Mon, 1 Jul 2002 13:58:50 +1000
+Voting on Proposals 4343-4346 concluded: Mon, 8 Jul 2002 13:58:50 +1000
+
+Num. Type Proposer    AI Title                         RESULT  F  A  -  *
+4343 Ord  Steve        1 Eligibility Fix               PASSES  2  1  0  0
+4344 Ord  Goethe       1 NPA Fix                       PASSES  3  0  0  0
+4345 Ord  Goethe       1 Notice me Once                FAILS/Q 1  0  0  0
+4346 Ord  Steve        1 Fix "Overdue Debts"           PASSES  2  1  0  0
+===========================================================================
+
+Ordinary
+               4343   4344   4345   4346
+
+Michael        F      F             F
+root           F      F             F
+OscarMeyr      A      F      F      A
+
+FOR            2      3      1      2
+AGAINST        1      0      0      1
+ABSTAIN        0      0      0      0
+Presence       0      0      0      0
+
+Voters         3      3      1      3
+Quorum?        Y      Y      N      Y
+PASSES?        Y      Y      Y      Y
+
+======================================================================
+Miscellaneous
+======================================================================
+
+Steve is awarded 2 Points (4343 adopted with 1 vote AGAINST).
+Steve is awarded 2 Points (4346 adopted with 1 vote AGAINST).
+OscarMeyr is awarded 2 Points (only Player to vote AGAINST 4343).
+OscarMeyr is awarded 2 Points (only Player to vote FOR 4345).
+OscarMeyr is awarded 2 Points (only Player to vote AGAINST 4346).
+
+======================================================================
+Text of Adopted Proposals
+======================================================================
+
+-----------------------------------------------------------------------------
+
+Proposal 4343 by Steve, AI=1
+Eligibility Fix
+
+Amend Rule 2025 (Transfer of Jurisdiction) to read:
+
+    (a) A CFJ (the First Case) is transferred to the Judge of another
+        CFJ (the Second Case), if all of the following are true:
+
+        (1) the Second Judge is eligible to Judge the First Case (or is 
+            ineligible solely due to the Rule "Turns for All");
+        (2) the First Judge announces the transfer; and
+        (3) the Second Judge consents to the transfer within a week after 
+            it is announced.
+
+    (b) When the First Case is transferred in this way:
+    
+        (1) the First Case is assigned to the Second Judge, and ceases
+            to be assigned to the First Judge;
+        (2) the First Judge becomes eligible to Judge CFJs for the
+            purposes of the Rule "Turns for All"; and
+        (3) the First CFJ becomes Linked to the Second CFJ, and to any
+            CFJs to which the Second CFJ had been Linked. It ceases to
+            be Linked to any other CFJs.
+
+-----------------------------------------------------------------------------
+
+Proposal 4344 by Goethe, AI=1
+NPA Fix
+
+Amend Rule 1677 by replacing:
+
+         the Registrar shall Order the Treasuror to pay out
+
+with:
+         the Registrar shall pay out
+
+-----------------------------------------------------------------------------
+
+Proposal 4346 by Steve, AI=1
+Fix "Overdue Debts"
+
+Amend Rule 1599 (Overdue Debts) to read:
+
+   (a) Provided that e has not already done so, the Executor of the
+       creditor of any unsatisfied debt may demand that the debtor
+       satisfy that debt, by notifying the debtor of the demand.
+
+   (b) The debtor shall have seven days from the time of the notification
+       to satisfy the debt, except that if the debtor is not active at
+       the time the demand is sent, the debtor shall instead have seven
+       days from the time e becomes active to satisfy the debt. Time
+       during which a debt is disputed is not counted for the purposes of
+       this Rule.
+
+   (c) A debt not satisfied within the time allowed by this Rule becomes
+       delinquent when that time elapses. It ceases to be delinquent when
+       it is satisfied.
+
+   (d) Any Player who is the Prime Executor of an entity with respect to
+       the satisfaction of a debt owed by that entity commits the Class
+       1 Infraction of Persistent Indebtedness when that debt first
+       becomes delinquent, and commits it again every seven days
+       thereafter for as long as the debt remains delinquent. This
+       Infraction may be reported by the creditor of the delinquent
+       debt.
+
+-----------------------------------------------------------------------------
+
+Assessor t
+
+   teemu korkiakangas: scurra@iki.fi . http://www.iki.fi/scurra/
+              "kunpa kaikki elÅ‰mÅ‰n suuret mysteerit ratkeaisivat
+                  kengurukepin ja kermapullon avulla" (don rosa)
+

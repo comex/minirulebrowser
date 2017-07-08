@@ -1,0 +1,134 @@
+Assessor's Voting Report
+Proposals 4206 - 4208
+
+Voting began:  Sun, 26 Aug 2001 20:36:57 -0400
+Voting ended:  Sun,  2 Sep 2001 20:36:57 -0400
+
+> No.    | Title                          | By           | AI | Date    | Flag
+>        |                                |              |    |         | 
+> 4206   | Bond Fraud and Moratoria       | neil         |  1 | 23Aug01 | 
+> 4207   | Moving in Agora                | neil         |  1 | 23Aug01 | 
+> 4208   | Bond Use and Rushes            | neil         |  1 | 27Aug01 | O
+> 
+> D: Disinterested  C: Democratic  U: Urgent  S: Sane  I: Insane  O: Opposite
+
+Entity     4206  4207  4208
+------     ----  ----  ----
+harvel      2F          2A
+Michael     3F     -    3A
+Murphy       F     F     A
+neil         F     F     A
+root        2F    2F    F+A
+
+FOR          9     4     1
+AGAINST      0     0     8
+ABSTAIN      0     1     0
+Present      0     0     0
+
+AI           1     1     1
+VI          *U*   *U*    0.1
+Voters       5     4     5
+Quorum       3     3     3
+Adopted?    Yes   Yes    No
+
+Text of adopted Proposals
+-------------------------
+
+Proposal #4206 by neil, AI=1
+Bond Fraud and Moratoria
+
+Enact the following rule, entitled `Bond Fraud':
+      A Player who sells to the Bank a Bond issued by an entity:
+       * of which e is an Executor, which e is in collusion with, or
+         an Executor of which e is in collusion with, and
+       * that e believes will not, at the date of maturity, or does
+         not, if the Bond is already mature, have funds to cover
+         redemption of said Bond,
+      commits the Class 5 Crime of Bond Fraud.  If it is judged that a
+      player has committed Bond Fraud, the Judge shall order that all
+      unlawful gains from said instance of Bond Fraud be disgorged.
+
+      If the Executor of the issuer of a Bond used to commit Bond
+      Fraud is not the Player who was charged with Bond Fraud, and
+      said Executor knew that the Bond in question would be used for
+      such a purpose, e commits the Class 4 Crime of Conspiracy to
+      Commit Bond Fraud.
+
+Amend Rule 1979 (Treasuror's Moratorium on Bond Purchases) to read:
+      The Treasuror may, with Support, place or remove a moratorium on
+      bond purchases in any specific Bank currency.  Once a moratorium
+      has been placed, the Bank may not purchase any Bonds with a face
+      value in that currency, until that moratorium is removed.
+
+      The Treasuror must report any moratoria currently in place in
+      eir Monthly Report.
+
+Remove the moratorium on Bond purchases.
+Place a moratorium on Bond purchases in Stems.
+Place a moratorium on Bond purchases in VEs.
+Place a moratorium on Bond purchases in Papyri.
+Place a moratorium on Bond purchases in Indulgences.
+
+------------------------------------------------------------------------------
+
+Proposal #4207 by neil, AI=1
+Moving in Agora
+
+Create a rule with title ``Moving in Arcadia'' and text:
+
+  Every week, each Player may expend up to 10 Movement Units to move
+  about in the Land of Arcadia.  Movement Units are not transferrable,
+  and do not persist from one week to the next.
+
+  A player makes a Move by notifying the Mapkeepor of the location
+  (the Destination) into which e is attempting to move.  If the Player
+  has enough Movement Units left this week, and the Move is valid, the
+  Player's Location is changed to the Destination.  So long as e does
+  not spend more than eir allotted number of Movement Units, a Player
+  may move as many times as e wishes in a single week.
+  
+  The Mapkeepor's Report shall list, for each Player:
+    * the Player's location at the beginning of the last week
+    * the Player's location at the beginning of the current week
+
+  Players may expend:
+    * 10 Movement Units to move into an adjacent unit of Type
+      Wilderness, Subtype Mountains.
+    *  5 Movement Units to move into an adjacent unit of Type
+      Wilderness, Subtype Hills.
+    *  3 Movement Units to move into an adjacent unit of Type
+      Wilderness, Subtype Forest or Desert.
+    *  3 Movement Units to move into an adjacent unit of Type
+      Wilderness with no Subtype.
+    *  2 Movement Units to move into an adjacent unit of Type
+      Farmland.
+    *  1 Movement Unit to move into an adjacent unit of Type Urbana.
+
+  A player may also expend 10 Movement Units to Explore, by notifying
+  the Mapkeepor that e does so.  If a Player Explores, all units of
+  Aether within a Penguin Distance of 2 from the Player's current
+  location are assigned a new Land Type and possibly Subtype.  For
+  each unit of Aether affected, there is a:
+   * 0.10 probability it becomes Winderness/Mountains;
+   * 0.20 probability it becomes Winderness/Hills;
+   * 0.20 probability it becomes Winderness/Forest;
+   * 0.10 probability it becomes Winderness/Desert;
+   * 0.10 probability it becomes Farmland, no subtype;
+   * 0.30 probability it becomes Water, no subtype.
+
+  The random choice of new Land Type and Subtype is to be made by the
+  Mapkeepor.  Affected units take on the new Land Type at the
+  beginning of the next week, and all such changes shall be indicated
+  in the Mapkeepor's Report for that week.
+
+  Moves explicitly allowed by this Rule, including Exploring, are valid,
+  unless made invalid by other Rules.  Unless explicity permitted by other
+  Rules, all other Moves are invalid.
+
+
+-- 
+Ed Murphy <ford@jps.net>     http://members.fortunecity.com/emurphy/
+          "Most of the time, it seemed sublimely unaware of its limbs,
+           though it was beginning to suspect it had hands."
+
+
