@@ -80,8 +80,8 @@ def find_stdformat_rules(text, seen_exactly_dict):
             history = list(split_history(decode(g['thehist'])))
         data = {
             'number': int(g['number']),
-            'revnum': decode(g['revnum']) or None,
-            'title': decode(g['title']) or None,
+            'revnum': decode(g['revnum']) if g['revnum'] else None,
+            'title': decode(g['title']) if g['title'] else None,
             'header': decode(g['header']),
             'extra': decode(g['extra']) if g['extra'] else None,
             'text': decode(g['text']),
@@ -94,7 +94,7 @@ def split_history(history):
     for line in regex.split('\n(?!  )', history):
         yield regex.sub('\s+', ' ', line)
 
-def find_oldformat_rules(text, seen_exactly_dict):
+def find_oldformat_rules(filetext, seen_exactly_dict):
     for full, header, number, letter, text in regex.findall(b'^((([0-9]{3})([a-z]?)\.\s+)(.*?))\n[ \t]*\n', filetext, regex.M | regex.S):
         if full in seen_exactly_dict:
             continue
@@ -103,20 +103,19 @@ def find_oldformat_rules(text, seen_exactly_dict):
         inumber = int(number)
         if inumber >= 319 and inumber not in (330, 436):
             # have title
-            title, text = text.split('\n', 1)
+            title, text = text.split(b'\n', 1)
             header += title
-            title = title.rstrip(':')
+            title = title.rstrip(b':')
         else:
-            text = ' ' * len(header) + text
+            text = b' ' * len(header) + text
             header = header.rstrip()
-        normalized = normalize(text)
         data = {
             'number': inumber,
             'revnum': None,
-            'title': title,
-            'header': header,
-            'extra': (number + letter) if letter else None,
-            'text': text,
+            'title': decode(title),
+            'header': decode(header),
+            'extra': decode(number + letter) if letter else None,
+            'text': decode(text),
             'annotations': None,
             'history': None,
         }
@@ -134,7 +133,7 @@ def walk_file_nocontainer(metadata, text):
     del new_metadata['seen_exactly']
     assert isinstance(text, bytes)
     #print(metadata['path'])
-    m = regex.match(b'\s*THE (FULL|SHORT) LOGICAL RULESET\n\n.*?(END OF THE [^ ]* LOGICAL RULESET|$)', text, regex.S)
+    m = regex.match(b'\s*THE (FULL |SHORT |)LOGICAL RULESET\n\n.*?(END OF THE [^ ]* LOGICAL RULESET|$)', text, regex.S)
     if m:
         # this is a ruleset!
         have_rulenums = []
@@ -172,6 +171,7 @@ def walk_file_nocontainer(metadata, text):
 
 utc = datetime.timezone(datetime.timedelta())
 def walk_file(metadata, text):
+    print('>>>', metadata['path'])
     if metadata['path'].endswith(',v'):
         # looks like rcs
         rcs = RCSFile(text)
@@ -181,11 +181,19 @@ def walk_file(metadata, text):
             yield from walk_file(new_metadata, text)
         return
     if regex.match(b'From [^\n]+\n[A-Z][^ ]*:', text):
-        print('>>>', metadata['path'])
-
+        is_massive = metadata['path'].endswith('agora-official.mbox')
         parser = email.parser.BytesParser(policy=email.policy.default)
+        if is_massive:
+            approx_count = text.count(b'\n\nFrom ')
+        i = 0
         for mraw in util.iter_mboxcl2ish(text):
-            # this is slow, but whatever
+            i += 1
+            if is_massive:
+                if i % 100 == 0:
+                    print('%d/~%d messages' % (i, approx_count))
+                if b'LOGICAL RULESET' not in mraw:
+                    # email parser is slow, and over this period of time we should be fine just looking at published rulesets
+                    continue
             message = parser.parsebytes(mraw)
             payload = message.get_payload()
             while isinstance(payload, list):
@@ -221,10 +229,14 @@ def walk_tree(path):
                     text = fp.read()
                 yield from walk_file(metadata, text)
 
-with open(sys.argv[2], 'w') as gp:
+if len(sys.argv) > 1:
+    inpath, outpath = sys.argv[1], sys.argv[2]
+else:
+    inpath, outpath = 'archives', 'out_misc.json'
+with open(outpath, 'w') as gp:
     gp.write('[\n')
     first = True
-    for x in walk_tree(sys.argv[1]):
+    for x in walk_tree(inpath):
         if not first: gp.write(',')
         first = False
         json.dump(x, gp)

@@ -66,5 +66,5 @@ for rule in rules:
                 'history': [version['annotation']],
             }
             out.append({'meta': {'path': 'old_zefram_rules_text.txt'}, 'data': data})
-with open('rules_zefram.json', 'w') as gp:
+with open('out_zefram.json', 'w') as gp:
     json.dump(out, gp)
