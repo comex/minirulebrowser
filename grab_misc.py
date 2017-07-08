@@ -1,5 +1,7 @@
-import os, sys, tempfile, mailbox, email, datetime, subprocess
+import os, sys, tempfile, mailbox, datetime, subprocess
+import email, email.parser, email.policy
 import util
+from util import assert_
 import regex # not re
 from rcs import RCSFile
 
@@ -134,6 +136,7 @@ def walk_file_nocontainer(metadata, text):
         del new_metadata['seen_exactly']
         yield {'meta': metadata, 'data': data}
 
+utc = datetime.timezone(datetime.timedelta())
 def walk_file(metadata, text, is_real_path):
     if metadata['path'].endswith(',v'):
         # looks like rcs
@@ -144,37 +147,30 @@ def walk_file(metadata, text, is_real_path):
             yield from walk_file(new_metadata, text, is_real_path=False)
         return
     if regex.match(b'From [^\n]+\n[A-Z][^ ]*:', text):
-        # looks like mbox
-        # but python is dumb and doesn't handle all mbox variants; in fact, none of my mbox files are in the format it expects
-        p = subprocess.Popen(['formail'], stdin=subprocess.PIPE, stdout=subprocess.PIPE) # formail(1) from procmail
-        text, _ = p.communicate(text)
-        is_real_path = False
-        fd, path = tempfile.mkstemp(suffix='mbox')
-        os.write(fd, text)
-        os.close(fd)
-        try:
-            mbox = mailbox.mbox(path, create=False)
-            for message in mbox:
-                payload = message.get_payload()
-                while isinstance(payload, list):
-                    payload = payload[0].get_payload()
-                mtext = payload.encode('utf-8')
-                received = message['Received']
-                if received is None:
-                    print(metadata['path'])
-                    print(message)
-                    die
-                mid = message['Message-ID'] or '??message with no Message-ID'
-                _, rdate = received.rsplit(';', 1)
-                date = email.utils.parsedate_to_datetime(rdate)
-                # "If the input date has a timezone of -0000, the datetime will be a naive datetime"
-                # ^- WTF
-                if date.tzinfo is None:
-                    date.tzinfo = datetime.timezone(0)
-                new_metadata = {'date': date, 'path': metadata['path'] + ' ' + mid, **metadata}
-                yield from walk_file_nocontainer(new_metadata, mtext)
-        finally:
-            os.unlink(path)
+        print('>>>', metadata['path'])
+
+        parser = email.parser.BytesParser(policy=email.policy.default)
+        for mraw in util.iter_mboxcl2ish(text):
+            message = parser.parsebytes(mraw)
+            payload = message.get_payload()
+            while isinstance(payload, list):
+                payload = payload[0].get_payload()
+            mtext = payload.encode('utf-8')
+            unixfrom = message.get_unixfrom()
+            #print(mraw)
+            #print(unixfrom)
+            unixdate = unixfrom.split(' ', 2)[2].strip()
+            assert_(unixdate)
+            mid = message['Message-ID'] or '??message with no Message-ID'
+            date = email.utils.parsedate_to_datetime(unixdate)
+            # "If the input date has a timezone of -0000, the datetime will be a naive datetime"
+            # ^- WTF
+            if date.tzinfo is None:
+                date = date.replace(tzinfo=utc)
+            else:
+                date = date.astimezone(utc)
+            new_metadata = {'date': date, 'path': metadata['path'] + ' ' + mid, **metadata}
+            yield from walk_file_nocontainer(new_metadata, mtext)
 
 def walk_tree(path):
     seen_exactly_set = set()
