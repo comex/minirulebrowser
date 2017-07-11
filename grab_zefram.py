@@ -53,7 +53,7 @@ for rulestuff in re.split('\n\n-----+\n\n', stuff)[1:-1]:
 # convert to a format similar to that output by grab_misc
 out = []
 for rule in rules:
-    for version in rule['versions']:
+    for i, version in enumerate(rule['versions']):
         for text in version['texts']:
             data = {
                 'number': version['rulenum'],
@@ -63,7 +63,7 @@ for rule in rules:
                 'extra': None,
                 'text': text,
                 'annotations': None,
-                'history': [version['annotation']],
+                'history': [xversion['annotation'] for xversion in rule['versions'][:i+1]]
             }
             out.append({'meta': {'path': 'old_zefram_rules_text.txt'}, 'data': data})
 with open('out_zefram.json', 'w') as gp:

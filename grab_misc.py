@@ -131,14 +131,17 @@ def find_rules(path, text, seen_exactly_dict):
 def walk_file_nocontainer(metadata, text):
     new_metadata = metadata.copy()
     del new_metadata['seen_exactly']
+    if 'rcslog' in new_metadata:
+        del new_metadata['rcslog']
+        del new_metadata['rcsrev']
     assert isinstance(text, bytes)
     #print(metadata['path'])
-    m = regex.match(b'\s*THE (FULL |SHORT |)LOGICAL RULESET\n\n.*?(END OF THE [^ ]* LOGICAL RULESET|$)', text, regex.S)
+    m = regex.match(b'\s*THE (FULL |SHORT |)LOGICAL RULESET\n\n.*?(END OF THE [^ ]* LOGICAL RULESET\s*|\s*$)', text, regex.S)
     if m:
         # this is a ruleset!
         have_rulenums = []
         ruleset = m.group(0)
-        ruleset_bits = text.split(b'\n----------------------------------------------------------------------\n')
+        ruleset_bits = regex.split(b'\n------------------------------+\n', text)
         for bit in ruleset_bits:
             x = ('rbit', bit)
             rulenum = metadata['seen_exactly'].get(x)
@@ -160,12 +163,41 @@ def walk_file_nocontainer(metadata, text):
             metadata['seen_exactly'][x] = rulenum
             if rulenum is not False:
                 have_rulenums.append(rulenum)
+        # explicit repeal annotations in RCS?
+        if 'rcslog' in metadata:
+            revnum = int(metadata['rcsrev'].split(b'.')[-1])
+            if revnum > 801 and revnum != 969:
+                # split by semicolon, but not semicolons in parens
+                logs = regex.findall(br';\s*((?:\([^\)]*\)|[^;\(]+)*)', metadata['rcslog'])
+                for log in logs:
+                    log = log.strip()
+                    if log in {b'formatting', b'update xrefs', b'lots of formatting fixes'}:
+                        continue # old stuff I put in
+                    n = regex.match(b'Rule ([0-9]+) (?:\([^\)]*\) )?repealed', log)
+                    if not n:
+                        raise Exception('unknown RCS annotation %r' % log)
+                    number = int(n.group(1))
+                    yield {'meta': new_metadata, 'data': {
+                        'number': number,
+                        'revnum': None,
+                        'title': None,
+                        'header': None,
+                        'extra': None,
+                        'text': None,
+                        'annotations': None,
+                        'history': [decode(log)],
+                    }}
         # repeals?
         yield {'meta': new_metadata, 'data': {'no_rules_except': have_rulenums}}
 
         # handle any remaining data
-        walk_file_nocontainer(metadata, text[m.end():])
+        if m.end() < len(text):
+            yield from walk_file_nocontainer(metadata, text[m.end():])
         return
+    else: # not a ruleset
+        if 'rcslog' in metadata and 'current_flr.txt,v' in metadata['path']:
+            print(repr(text))
+            raise Exception('bad flr?')
     for data in find_rules(metadata['path'], text, metadata['seen_exactly']):
         yield {'meta': new_metadata, 'data': data}
 
@@ -176,7 +208,12 @@ def walk_file(metadata, text):
         # looks like rcs
         rcs = RCSFile(text)
         for revinfo in rcs.get_revisions():
-            new_metadata = {**metadata, 'date': revinfo['date'].timestamp(), 'path': metadata['path'] + ' -r%s' % revinfo['num']}
+            new_metadata = {**metadata,
+                'date': revinfo['date'].timestamp(),
+                'path': metadata['path'] + '@RCS:%s' % decode(revinfo['num']),
+                'rcslog': revinfo['log'],
+                'rcsrev': revinfo['num'],
+            }
             text = b'\n'.join(revinfo['text'])
             yield from walk_file(new_metadata, text)
         return
