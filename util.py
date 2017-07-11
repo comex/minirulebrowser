@@ -58,10 +58,16 @@ def iter_mboxcl2ish(text):
         pos = endpos
         last_hdrend = hdrend
 
+FIXED = {
+    'Jan. or Feb. 1994': '1 January 1994',
+    'Apr. or May 1994': '1 April 1994',
+    '12 Februray 2016': '12 February 2016', # [sic]
+}
 def strptime_ruleset(text):
-    for fmt in ['%d %B %Y', '%b. %d %Y', '%b. %Y']:
+    text = FIXED.get(text, text)
+    for fmt in ['%d %B %Y', '%b. %d %Y', '%b. %Y', '%b %d %Y', '%d %b %Y', '%b. %d %Y %H:%M:%S %z', '%b %d. %Y']:
         try:
-            return datetime.datetime.strptime(text, fmt)
+            return datetime.datetime.strptime(text, fmt).date()
         except ValueError:
             pass
-    raise Exception('no format worked for %r' % (text,))
+    raise Exception('no date format worked for %r' % (text,))

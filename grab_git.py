@@ -71,6 +71,17 @@ def handle_commit(commit):
             header = 'Rule %s/%s (Power=%s)' % (y['id'], y['rev'], y['power'])
             assert isinstance(y['history'], list)
             # ignore 'annotations' and 'cfjs' for now because the repo's scripts do
+            history = list(map(str, y['history']))
+            # fix up broken history entries (that don't take wrapping into account)
+            # --
+            i = 0
+            while i < len(history):
+                if history[i].startswith('  '):
+                    history[i-1] = history[i-1].rstrip() + ' ' + history[i].lstrip()
+                    del history[i]
+                    continue
+                i += 1
+            # --
             data = {
                 'number': int(y['id']),
                 'revnum': str(y['rev']),
@@ -79,7 +90,7 @@ def handle_commit(commit):
                 'extra': None,
                 'text': str(y['text']),
                 'annotations': None,
-                'history': list(map(str, y['history'])),
+                'history': history,
             }
             meta = {
                 'date': date_unix,

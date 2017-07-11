@@ -1,4 +1,4 @@
-import os, sys, tempfile, mailbox, datetime, subprocess, json
+import os, sys, tempfile, mailbox, datetime, subprocess, json, quopri
 import email, email.parser, email.policy
 import util
 from util import assert_, decode
@@ -77,7 +77,10 @@ def find_stdformat_rules(text, seen_exactly_dict):
         seen_exactly_dict[full] = True
         history = None
         if g['history'] is not None:
-            history = list(split_history(decode(g['thehist'])))
+            thehist = decode(g['thehist'])
+            thehist = regex.sub('The following section is not a portion of the report:.*', '', thehist, flags=regex.S) # lol, old scam
+            history = list(split_history(thehist))
+
         data = {
             'number': int(g['number']),
             'revnum': decode(g['revnum']) if g['revnum'] else None,
@@ -112,7 +115,7 @@ def find_oldformat_rules(filetext, seen_exactly_dict):
         data = {
             'number': inumber,
             'revnum': None,
-            'title': decode(title),
+            'title': decode(title) if title else None,
             'header': decode(header),
             'extra': decode(number + letter) if letter else None,
             'text': decode(text),
@@ -136,12 +139,21 @@ def walk_file_nocontainer(metadata, text):
         del new_metadata['rcsrev']
     assert isinstance(text, bytes)
     #print(metadata['path'])
-    m = regex.match(b'\s*THE (FULL |SHORT |)LOGICAL RULESET\n\n.*?(END OF THE [^ ]* LOGICAL RULESET\s*|\s*$)', text, regex.S)
+    if b'22 October =' in text:
+        print(repr(text))
+        die
+    m = regex.match(b'(.{,2048}\n)?THE (FULL |SHORT |)LOGICAL RULESET\n\n', text, regex.S)
     if m:
         # this is a ruleset!
+        lr_start = m.end()
+        n = regex.search(b'\nEND OF THE [^ ]* LOGICAL RULESET', text, pos=lr_start)
+        if n:
+            lr_end = n.end()
+        else:
+            lr_end = len(text)
         have_rulenums = []
         ruleset = m.group(0)
-        ruleset_bits = regex.split(b'\n------------------------------+\n', text)
+        ruleset_bits = regex.split(b'\n------------------------------+\n', text[lr_start:lr_end])
         for bit in ruleset_bits:
             x = ('rbit', bit)
             rulenum = metadata['seen_exactly'].get(x)
@@ -159,7 +171,7 @@ def walk_file_nocontainer(metadata, text):
                 except StopIteration:
                     pass
                 else:
-                    raise Exception('got extra rule %r in bit %r' % (data, bit))
+                    raise Exception('in %r, got extra rule %r bit %s' % (metadata['path'], data, bit))
             metadata['seen_exactly'][x] = rulenum
             if rulenum is not False:
                 have_rulenums.append(rulenum)
@@ -191,19 +203,22 @@ def walk_file_nocontainer(metadata, text):
         yield {'meta': new_metadata, 'data': {'no_rules_except': have_rulenums}}
 
         # handle any remaining data
-        if m.end() < len(text):
-            yield from walk_file_nocontainer(metadata, text[m.end():])
+        rest = text[lr_end:].lstrip()
+        if rest:
+            yield from walk_file_nocontainer(metadata, rest)
         return
     else: # not a ruleset
         if 'rcslog' in metadata and 'current_flr.txt,v' in metadata['path']:
             print(repr(text))
-            raise Exception('bad flr?')
+            raise Exception("this should be a flr but doesn't match")
     for data in find_rules(metadata['path'], text, metadata['seen_exactly']):
         yield {'meta': new_metadata, 'data': data}
 
 utc = datetime.timezone(datetime.timedelta())
 def walk_file(metadata, text):
     print('>>>', metadata['path'])
+    if metadata['path'].endswith('.swp'):
+        return # vim temporary file
     if metadata['path'].endswith(',v'):
         # looks like rcs
         rcs = RCSFile(text)
@@ -227,15 +242,15 @@ def walk_file(metadata, text):
             i += 1
             if is_massive:
                 if i % 100 == 0:
-                    print('%d/~%d messages' % (i, approx_count))
+                    print('%s: %d/~%d messages' % (metadata['path'], i, approx_count))
                 if b'LOGICAL RULESET' not in mraw:
                     # email parser is slow, and over this period of time we should be fine just looking at published rulesets
                     continue
             message = parser.parsebytes(mraw)
-            payload = message.get_payload()
-            while isinstance(payload, list):
-                payload = payload[0].get_payload()
-            mtext = payload.encode('utf-8')
+            xmessage = message
+            while xmessage.is_multipart():
+                xmessage = xmessage.get_payload(0)
+            payload = xmessage.get_payload(decode=True)
             unixfrom = message.get_unixfrom()
             #print(mraw)
             #print(unixfrom)
@@ -249,8 +264,8 @@ def walk_file(metadata, text):
                 date = date.replace(tzinfo=utc)
             else:
                 date = date.astimezone(utc)
-            new_metadata = {'date': date.timestamp(), 'path': metadata['path'] + ' ' + mid, **metadata}
-            yield from walk_file_nocontainer(new_metadata, mtext)
+            new_metadata = {**metadata, 'date': date.timestamp(), 'path': metadata['path'] + '@message-id:' + mid}
+            yield from walk_file_nocontainer(new_metadata, payload)
         return
     yield from walk_file_nocontainer(metadata, text)
 
