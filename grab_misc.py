@@ -23,7 +23,7 @@ fsfr_regex = regex.compile(br'''
                 \ \[[^\]]*\]
             )?
         )
-        (?P<newline>[ \t]*\n)
+        (?P<newline>[ \t]*(?:\n|$))
         (?:
             # title line
             (?P<title>\S[^\n]*?)
@@ -42,7 +42,7 @@ fsfr_regex = regex.compile(br'''
         (?:
             (?P<text>
                 (?:
-                    (?:[ \t][^\n]*|)\n # indented or blank line
+                    (?:[ \t][^\n]*|)(?:\n|$) # indented or blank line
                     | \[![^\]]*\]\n # [! ... ] annotations (I used these once)
                 )*
             )
@@ -90,6 +90,7 @@ FIXUPS_FOR_RULENUM = {
     b'2136': lambda text: text.replace(b'presently actual contestants.\n', b'presently actual contestants.]\n'),
     b'2105': lambda text: text.replace(b'\nPERTH ->', b'\n PERTH ->'),
     b'1449': lambda text: text.replace(b'\nn    ', b'\n    '),
+    b'665': lambda text: text.replace(b'on the illegal action would be retracted.]', b'on the illegal action would be retracted.'),
 }
 def find_stdformat_rules(text, seen_exactly_dict, expect_history=False):
     m = regex.search(b'Rule ([0-9]+)', text)
