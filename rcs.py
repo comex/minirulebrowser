@@ -52,7 +52,7 @@ class RCSFile:
         it = iter(tokens)
         text = None
         revs = []
-        dates = {}
+        revs_pre = {}
         m = next(it)
         assert_(m.group(0) == b'head')
         while True:
@@ -75,26 +75,30 @@ class RCSFile:
                 else:
                     raise Exception('unknown date format %r' % (date,))
                 dt = datetime.datetime.strptime(date, datefmt)
-                dates[num] = dt
-                continue
+                nxt = next(it).group(0)
+                assert_(nxt == b'author')
+                author = next(it).group(0)
+                assert_(author.endswith(b';'))
+                author = author[:-1]
+                revs_pre[num] = {'date': dt, 'author': author}
             else:
                 assert_(tok == b'log')
-            rev = {}
-            rev['num'] = num
-            rev['date'] = dates[num]
-            rev['log'] = self.unat(next(it).group(0))
-            while next(it).group(0) != b'text': pass
-            diff = self.unat(next(it).group(0))
-            if mode == 1:
-                return diff
-            diff = diff.split(b'\n')
+                rev = revs_pre[num]
+                del revs_pre[num]
+                rev['num'] = num
+                rev['log'] = self.unat(next(it).group(0))
+                while next(it).group(0) != b'text': pass
+                diff = self.unat(next(it).group(0))
+                if mode == 1:
+                    return diff
+                diff = diff.split(b'\n')
 
-            if text is None:
-                text = self.make_indirect(diff, indirect)
-            else:
-                text = self.apply_diff(text, diff, indirect)
-            rev['text'] = text
-            revs.append(rev)
+                if text is None:
+                    text = self.make_indirect(diff, indirect)
+                else:
+                    text = self.apply_diff(text, diff, indirect)
+                rev['text'] = text
+                revs.append(rev)
         return revs
 
     def get_revisions(self, indirect=None):
