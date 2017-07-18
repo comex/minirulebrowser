@@ -60,14 +60,32 @@ def add_guessed_numbers(entry):
         if an._guessed_num is None:
             an._guessed_num = prev_num
         elif prev_num is not None and an._guessed_num != prev_num:
-            if 1:
-                warnlines(
-                    'in %s:' % (entry['meta']['path'],),
-                    'disagreement about rule number (on [%d]: going backwards: %r; going forwards: %r) for annotation set:' % (i, prev_num, an._guessed_num),
-                    *('[%d] %r' % (j, an2) for (j, an2) in enumerate(entry['ans']))
-                )
+            warnlines(
+                'in %s:' % (entry['meta']['path'],),
+                'disagreement about rule number (on [%d]: going backwards: %r; going forwards: %r) for annotation set:' % (i, prev_num, an._guessed_num),
+                *('[%d] %r' % (j, an2) for (j, an2) in enumerate(entry['ans']))
+            )
         if an.num_changed:
             prev_num = an.prev_num
+
+def identify_copies_1(entries):
+    def key(entry):
+        data = entry['data']
+        return (data['number'], data['revnum'], util.normalize_text(data['text']))
+    def quality(entry):
+        # more history is better
+        # newer is better, older is better than no date
+        return (len(entry['ans']), entry['meta'].get('date', 0))
+    by_key = defaultdict(list)
+    for entry in entries:
+        by_key[key(entry)].append(entry)
+    bests = []
+    for k, kentries in by_key.items():
+        best = max(kentries, key=quality)
+        best['copies'] = [entry for entry in kentries if entry is not best]
+        print(best['data']['number'], best['data']['revnum'], len(best['copies']))
+        bests.append(best)
+    return bests
 
 rule_entries_by_initial_num = defaultdict(list)
 unknown_rule_entries = []
@@ -76,8 +94,6 @@ def find_renumberings(entries, verbose=True):
     for entry in entries:
         if is_rule_entry(entry):
             initial_num = None
-            if entry['data']['number'] == 2483:
-                print(entry['ans'])
             if entry['ans'][0]._guessed_revnum == '0':
                 initial_num = entry['ans'][0]._guessed_num
             if initial_num is not None:
@@ -104,9 +120,11 @@ for inputpath in args.inputs:
     with open(inputpath) as fp:
         entries += json.load(fp)
 def go(entries):
-    for entry in entries:
-        if is_rule_entry(entry):
-            add_annotation_obj(entry)
-            add_guessed_numbers(entry)
-    find_renumberings(entries)
+    for i, entry in enumerate(entries):
+        entry['id'] = i
+    rule_entries = list(filter(is_rule_entry, entries))
+    for entry in rule_entries:
+        add_annotation_obj(entry)
+        add_guessed_numbers(entry)
+    rule_entries = identify_copies_1(rule_entries)
 go(entries)

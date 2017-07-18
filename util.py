@@ -1,9 +1,9 @@
 import regex, os, sys, datetime, functools
 
-def normalize(rule_text):
-    if len(rule_text) > 100000:
+def normalize_text(text):
+    if len(text) > 100000:
         raise Exception('this is definitely not a rule text')
-    return regex.sub(b'[^a-z0-9]*', '', rule_text.lower())
+    return regex.sub('[^a-z0-9]', '', text.lower())
 
 def decode(binary):
     return binary.decode('utf-8')
