@@ -138,8 +138,10 @@ def find_stdformat_rules(text, seen_exactly_dict, expect_history=False):
         yield data
 
 def split_history(history):
-    for line in regex.split('\n(?!  )', history):
-        yield regex.sub('\s+', ' ', line)
+    history = history.strip()
+    if history:
+        for line in regex.split('\n(?!  )', history):
+            yield regex.sub('\s+', ' ', line)
 
 def find_oldformat_rules(filetext, seen_exactly_dict):
     for full, header, number, letter, text in regex.findall(b'^((([0-9]{3})([a-z]?)\.\s+)(.*?))\n[ \t]*\n', filetext, regex.M | regex.S):
@@ -268,7 +270,6 @@ def walk_file_nocontainer(metadata, text):
     for data in find_rules(metadata['path'], text, metadata['seen_exactly']):
         yield {'meta': new_metadata, 'data': data}
 
-utc = datetime.timezone(datetime.timedelta())
 def walk_file(metadata, text):
     print('>>>', metadata['path'])
     if metadata['path'].endswith('.swp'):
@@ -315,9 +316,9 @@ def walk_file(metadata, text):
             # "If the input date has a timezone of -0000, the datetime will be a naive datetime"
             # ^- WTF
             if date.tzinfo is None:
-                date = date.replace(tzinfo=utc)
+                date = date.replace(tzinfo=datetime.timezone.utc)
             else:
-                date = date.astimezone(utc)
+                date = date.astimezone(datetime.timezone.utc)
             new_metadata = {**metadata, 'date': date.timestamp(), 'path': metadata['path'] + '@message-id:' + mid}
             yield from walk_file_nocontainer(new_metadata, payload)
         return

@@ -25,10 +25,8 @@ for rulestuff in regex.split('\n\n-----+\n\n', stuff)[1:-1]:
             # even though this would have been in Zefram's source material
             annotation = util.Annotation(annotation_text)
             cur_revnum = annotation.revnum
-            if annotation.initial_num is not None:
-                cur_rulenum = annotation.initial_num
-            elif annotation.renumber is not None:
-                _, cur_rulenum = annotation.renumber
+            if annotation.cur_num is not None:
+                cur_rulenum = annotation.cur_num
             rules[-1]['versions'].append({'annotation': annotation_text, 'rulenum': cur_rulenum, 'revnum': cur_revnum, 'texts': []})
         elif bit.startswith('text:'):
             rules[-1]['versions'][-1]['texts'].append(bit[7:])
@@ -54,7 +52,7 @@ for j, rule in enumerate(rules):
                 'extra': None,
                 'text': text,
                 'annotations': None,
-                'history': [xversion['annotation'] for xversion in rule['versions'][:i+1]]
+                'history': [xversion['annotation'] for xversion in rule['versions'][:i+1]],
                 'zefram_anchor': j,
             }
             out.append({'meta': {'path': 'old_zefram_rules_text.txt'}, 'data': data})

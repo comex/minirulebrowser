@@ -71,6 +71,8 @@ def iter_mboxcl2ish(text):
 
 FIXED = {
     'Jan. or Feb. 1994': '1 January 1994',
+    'Jun. or Jul. 1999': '1 June 1999',
+    'Mar. or Apr. 2000': '1 March 2000',
     'Apr. or May 1994': '1 April 1994',
     '12 Februray 2016': '12 February 2016', # [sic]
 }
@@ -78,14 +80,14 @@ FIXED = {
 def strptime_ruleset(text):
     text = text.strip()
     text = FIXED.get(text, text)
-    for fmt in ['%d %B %Y', '%b. %d %Y', '%b. %Y', '%b %d %Y', '%d %b %Y', '%b. %d %Y %H:%M:%S %z', '%b %d. %Y']:
+    for fmt in ['%d %B %Y', '%b. %d %Y', '%b %Y', '%b. %Y', '%b %d %Y', '%d %b %Y', '%b. %d %Y %H:%M:%S %z', '%b %d. %Y']:
         try:
             return datetime.datetime.strptime(text, fmt).date()
         except ValueError:
             pass
     raise ValueError('%r could not be parsed as a date' % (text,))
 
-NUMBERS_STOPPED_CHANGING_AT = strptime_ruleset('1 November 1994')
+#NUMBERS_STOPPED_CHANGING_AT = strptime_ruleset('24 October 1994')
 FOUNDING_DATE = strptime_ruleset('28 June 1993')
 @functools.lru_cache(None)
 class Annotation(object):
@@ -94,9 +96,10 @@ class Annotation(object):
         self.text = text
         self.date = None
         self.revnum = None
-        self.renumber = None
         self.is_create = False
-        self.initial_num = None
+        self.prev_num = None
+        self.cur_num = None
+        self.num_changed = False
         self.is_indeterminate = text in {'...', '..', '[orphaned text]'} or '??? by' in text
         text = regex.sub(', (?:(?:sus?bs?tantial|cosmetic).*)?(?:,? \(unattributed\))?$', '', text)
         m = regex.match('(.*), (?:ca\. )?(.*?)\.?$', text)
@@ -117,7 +120,7 @@ class Annotation(object):
         if self.is_create:
             m = regex.match('(.*)Rule ([0-9]+)', text, regex.I)
             if m and ' by' not in m.group(1):
-                self.initial_num = int(m.group(2))
+                self.cur_num = int(m.group(2))
         ms = regex.findall('([A-Za-z]+)\((.*?)\)', text)
         if ms:
             assert self.revnum is None
@@ -127,16 +130,24 @@ class Annotation(object):
             self.revnum = num
             if len(ms) > 1:
                 warn('got multiple revnums? %s <- %s' % (ms, text))
-        m = regex.match('(?:renumbered|number changed)(?: from ([0-9]+)(?:\/[^ ]*)?)? to ([0-9]+)(?:\/[^ ]*)?$', text, regex.I)
+        m = regex.match('(?:renumbered|number changed)(?: from ([0-9]+)(?:\/[^ ]*)?)? to ([0-9]+)', text, regex.I)
         if m:
-            old_num = int(m.group(1)) if m.group(1) else None
-            new_num = int(m.group(2))
-            self.renumber = (old_num, new_num)
-        m = regex.search('(?:amended|transmuted).*by Proposal ([0-9]+), (?:ca\. )?(.* 199[34])', text, regex.I)
-        if m and self.date < NUMBERS_STOPPED_CHANGING_AT:
-            assert self.renumber is None
-            self.renumber = (None, int(m.group(1)))
+            self.prev_num = int(m.group(1)) if m.group(1) else None
+            self.cur_num = int(m.group(2))
+            self.num_changed = True
+        m = regex.search('(?:amended|transmuted|mutated|power changed).*by proposal ([0-9-]+)', text, regex.I)
+        if m and '-' not in m.group(1) and int(m.group(1)) < 1275:
+            assert self.cur_num is None
+            self.cur_num = int(m.group(1))
+            self.num_changed = True
 
     def __repr__(self):
-        return 'Annotation(date=%s, revnum=%r, renumber=%s, initial_num=%s, text=%r)' % (self.date, self.revnum, self.renumber, self.initial_num, self.text)
+        extra = ''
+        if hasattr(self, '_guessed_num'):
+            extra += ', _guessed_num=%r' % (self._guessed_num,)
+        if hasattr(self, '_guessed_revnum'):
+            extra += ', _guessed_revnum=%r' % (self._guessed_revnum,)
+        return 'Annotation(date=%s, revnum=%r, prev_num=%s, cur_num=%s, num_changed=%s, text=%r%s)' % (self.date, self.revnum, self.prev_num, self.cur_num, self.num_changed, self.text, extra)
 
+def datetime_from_timestamp(ts):
+    return datetime.datetime.fromtimestamp(ts, datetime.timezone.utc)
