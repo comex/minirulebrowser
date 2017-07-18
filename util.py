@@ -14,11 +14,15 @@ def assert_(cond):
 
 FATAL_WARNINGS = True
 def warn(x):
-    warnlines(x)
-def warnlines(*xs):
-    full = 'warning: ' + '\n'.join(map(str, xs))
-    print(full, file=sys.stderr)
-    if FATAL_WARNINGS: raise Exception
+    with warnx():
+        print(x)
+class warnx:
+    def __enter__(self):
+        print('warning: ', end='')
+    def __exit__(self, ty, val, traceback):
+        if ty is not None: return False
+        if FATAL_WARNINGS: raise Exception('got warning w/ fatal warnings enabled')
+        return False
 
 def highlight_spaces(text):
     return regex.sub('[^ -~\n]+', lambda m: repr(m.group(0))[1:-1], text).replace(' ', '\x1b[7m \x1b[0m')

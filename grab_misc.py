@@ -2,7 +2,7 @@ import os, sys, tempfile, mailbox, datetime, subprocess, json, quopri
 import email, email.parser, email.policy
 import multiprocessing
 import util
-from util import assert_, decode, warn, warnlines
+from util import assert_, decode, warn, warnx
 import regex # not re
 from rcs import RCSFile
 
@@ -33,10 +33,8 @@ fsfr_regex = regex.compile(br'''
         (?:
             # old fashioned rule number?
             (?P<extra>
-                [0-9]+\.\ .*?
+                [0-9]+\.\ 
             )
-            (?&newline)
-            (?&newline)
         )?
         # main rule text; in some weird cases, could be missing
         (?:
@@ -113,13 +111,12 @@ def find_stdformat_rules(text, seen_exactly_dict, expect_history=False):
         history = None
         if expect_history and g['history'] is None:
             if early_rulenum not in {b'2385', b'2119', b'2001'}:
-                warnlines(
-                    repr(g),
-                    'full: {{{',
-                    util.highlight_spaces(decode(text)),
-                    '}}}',
-                    '^- no history in this FLR entry',
-                )
+                with warnx():
+                    print(repr(g))
+                    print('full: {{{')
+                    print(util.highlight_spaces(decode(text)))
+                    print('}}}')
+                    print('^- no history in this FLR entry')
         if g['history'] is not None:
             thehist = decode(g['thehist'])
             thehist = regex.sub('The following section is not a portion of the report:.*', '', thehist, flags=regex.S) # lol, old scam
@@ -224,12 +221,11 @@ def walk_file_nocontainer(metadata, text):
                         w = 'got rule in weird FLR bit'
                     rulenum = False
                 if w is not None:
-                    warnlines(
-                        'full: {{{',
-                        util.highlight_spaces(decode(bit)),
-                        '}}}',
-                        '^- ' + w
-                    )
+                    with warnx():
+                        print('full: {{{')
+                        print(util.highlight_spaces(decode(bit)))
+                        print('}}}',)
+                        print('^-', w)
             metadata['seen_exactly'][x] = rulenum
             if rulenum is not False:
                 have_rulenums.append(rulenum)

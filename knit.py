@@ -2,7 +2,7 @@ import argparse, json, copy, datetime
 from collections import defaultdict
 import regex
 import util
-from util import warn, warnlines
+from util import warn, warnx
 
 def revnum_gt(a, b):
     assert isinstance(a, str)
@@ -13,6 +13,11 @@ def revnum_gt(a, b):
 
 def is_rule_entry(entry):
     return 'no_rules_except' not in entry['data']
+
+def strip_text(entry):
+    data = entry['data']
+    if data['text'] is not None:
+        data['text'] = data['text'].rstrip()
 
 def add_annotation_obj(entry):
     data = entry['data']
@@ -60,35 +65,94 @@ def add_guessed_numbers(entry):
         if an._guessed_num is None:
             an._guessed_num = prev_num
         elif prev_num is not None and an._guessed_num != prev_num:
-            warnlines(
-                'in %s:' % (entry['meta']['path'],),
-                'disagreement about rule number (on [%d]: going backwards: %r; going forwards: %r) for annotation set:' % (i, prev_num, an._guessed_num),
-                *('[%d] %r' % (j, an2) for (j, an2) in enumerate(entry['ans']))
-            )
+            with warnx():
+                print('in %s:' % (entry['meta']['path'],))
+                print('disagreement about rule number (on [%d]: going backwards: %r; going forwards: %r) for annotation set:' % (i, prev_num, an._guessed_num))
+                for j, an2 in enumerate(entry['ans']):
+                    print('[%d] %r' % (j, an2))
         if an.num_changed:
             prev_num = an.prev_num
 
-def identify_copies_1(entries):
-    def key(entry):
-        data = entry['data']
-        return (data['number'], data['revnum'], util.normalize_text(data['text']))
+def normalized_text(entry):
+    x = entry.get('normalized_text')
+    if x is None:
+        #print('normalizing', entry['data']['number'], entry['data']['revnum'])
+        x = entry['normalized_text'] = util.normalize_text(entry['data']['text'])
+    return x
+
+def identify_same(entries):
     def quality(entry):
         # more history is better
         # newer is better, older is better than no date
         return (len(entry['ans']), entry['meta'].get('date', 0))
-    by_key = defaultdict(list)
+    def text_match(a, b):
+        if a['data']['text'] == b['data']['text']:
+            return True
+        return normalized_text(a) == normalized_text(b)
+    by_number_and_revnum = defaultdict(lambda: defaultdict(list))
     for entry in entries:
-        by_key[key(entry)].append(entry)
-    bests = []
-    for k, kentries in by_key.items():
-        best = max(kentries, key=quality)
-        best['copies'] = [entry for entry in kentries if entry is not best]
-        print(best['data']['number'], best['data']['revnum'], len(best['copies']))
-        bests.append(best)
-    return bests
+        number = entry['data']['number']
+        revnum = entry['data']['revnum']
+        existings = by_number_and_revnum[number][revnum]
+        for existing in existings:
+            # lol, performance
+            if text_match(existing, entry):
+                existing['variants'].append(entry)
+                break
+        else:
+            entry['variants'] = [entry]
+            existings.append(entry)
+    # deal with revnum=None entries
+    for number, by_revnum in by_number_and_revnum.items():
+        nones = by_revnum[None]
+        del by_revnum[None]
+        unmatched_nones = []
+        for entry in nones:
+            for existing in (existing for xentries in by_revnum.values() for existing in xentries):
+                if text_match(existing, entry):
+                    existing['variants'].append(entry)
+                    break
+            else:
+                unmatched_nones.append(entry)
+        if len(unmatched_nones) == 0:
+            break
+        if len(unmatched_nones) == 1 and len(by_revnum) == 0:
+            # only one text for this rule at all;
+            # let's call it 0
+            entry['data']['revnum'] = '0'
+            entry['variants'] = [entry]
+            by_revnum['0'] = [entry]
+            break
+        with warnx():
+            print('Orphan texts for rule %d:' % (entry['data']['number'],),)
+            for entry in unmatched_nones:
+                print(entry['data']['text'])
+                print('meta: %s' % (entry['meta'],))
+            print('Here are all the numbered texts I have for that rule:')
+            have_any = False
+            for existing in (existing for xentries in by_revnum.values() for existing in xentries):
+                print(existing['data']['header']),
+                print(existing['data']['text']),
+                print('meta:', entry['meta'])
+                have_any = True
+            if not have_any:
+                print('(none)')
 
-rule_entries_by_initial_num = defaultdict(list)
-unknown_rule_entries = []
+
+
+    for xentries in by_number_and_revnum.values():
+        for i, entry in enumerate(xentries):
+            best = max(entry['variants'], key=quality)
+            if best is not entry:
+                best['variants'] = entry['variants']
+                del entry['variants']
+            xentries[i] = best
+    return by_number_and_revnum
+
+def identify_parents(by_number_and_revnum):
+    for xentries in by_number_and_revnum.values():
+        for entry in xentries:
+            pass#by_number_and_revnum((entry['number'], 
 
 def find_renumberings(entries, verbose=True):
     for entry in entries:
@@ -124,7 +188,9 @@ def go(entries):
         entry['id'] = i
     rule_entries = list(filter(is_rule_entry, entries))
     for entry in rule_entries:
+        strip_text(entry)
         add_annotation_obj(entry)
         add_guessed_numbers(entry)
-    rule_entries = identify_copies_1(rule_entries)
+    by_number_and_revnum = identify_same(rule_entries)
+    identify_parents(by_number_and_revnum)
 go(entries)
