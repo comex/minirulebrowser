@@ -1,23 +1,29 @@
-import argparse, json, copy, datetime
+import argparse, json, copy, datetime, functools
 from collections import defaultdict
 import regex
 import util
-from util import warn, warnx
+from util import warn, warnx, assert_
 
-def revnum_gt(a, b):
+
+@functools.lru_cache(None)
+def revnum_key(a):
+    if a is None:
+        return (10000,)
     assert isinstance(a, str)
-    assert isinstance(b, str)
-    if a == '???' or b == '???':
-        return None
-    return float(a) > float(b)
+    return tuple(list(map(int, a.split('.'))))
 
 def is_rule_entry(entry):
     return 'no_rules_except' not in entry['data']
 
 def strip_text(entry):
     data = entry['data']
-    if data['text'] is not None:
-        data['text'] = data['text'].rstrip()
+    text = data['text']
+    if text is not None:
+        text = text.rstrip()
+        m = regex.match('\s+\n', text)
+        if m:
+            text = text[:m.end()]
+        data['text'] = text
 
 def add_annotation_obj(entry):
     data = entry['data']
@@ -25,7 +31,7 @@ def add_annotation_obj(entry):
     ans = list(map(copy.copy, map(util.Annotation, hist)))
     entry['ans'] = ans
     if (len(ans) == 0 or
-        (data['revnum'] is not None and ans[-1].revnum is not None and revnum_gt(data['revnum'], ans[-1].revnum)) or
+        (data['revnum'] is not None and ans[-1].revnum is not None and revnum_key(data['revnum']) > revnum_key(ans[-1].revnum)) or
         (ans[-1].cur_num is not None and ans[-1].cur_num != data['number'])):
         dummy = copy.copy(util.Annotation(''))
         dummy.revnum = data['revnum']
@@ -34,7 +40,20 @@ def add_annotation_obj(entry):
             dummy.date = util.datetime_from_timestamp(timestamp).date()
         dummy.cur_num = data['number']
         ans.append(dummy)
+    m = regex.search('\(\*was: (.*?)\*\)\s*$', data['text'], regex.I)
+    if m and len(ans) == 1:
+        wuz = [int(num) for num in m.group(1).split('/')]
+        last = wuz.pop()
+        ans[0].prev_num = last
+        ans[0].number_changed = True
+        for other in wuz:
+            dummy = copy.copy(util.Annotation(''))
+            dummy.prev_num = other
+            dummy.number_changed = True
+            ans.insert(0, dummy)
     ans[-1].cur_num = data['number']
+    if data['revnum'] is None:
+        data['revnum'] = ans[-1].revnum
 
 def add_guessed_numbers(entry):
     data = entry['data']
@@ -64,7 +83,8 @@ def add_guessed_numbers(entry):
             continue
         if an._guessed_num is None:
             an._guessed_num = prev_num
-        elif prev_num is not None and an._guessed_num != prev_num:
+        elif (prev_num is not None and an._guessed_num != prev_num
+            and not (an._guessed_num == 155 and prev_num == 115)):
             with warnx():
                 print('in %s:' % (entry['meta']['path'],))
                 print('disagreement about rule number (on [%d]: going backwards: %r; going forwards: %r) for annotation set:' % (i, prev_num, an._guessed_num))
@@ -77,8 +97,20 @@ def normalized_text(entry):
     x = entry.get('normalized_text')
     if x is None:
         #print('normalizing', entry['data']['number'], entry['data']['revnum'])
-        x = entry['normalized_text'] = util.normalize_text(entry['data']['text'])
+        x = entry['normalized_text'] = util.normalize_rule_text(entry['data']['text'])
     return x
+
+FUDGE_REVNUMS = {
+    104: ['0'],
+    362: ['0.795'],
+    364: ['0.364.-1'],
+    376: ['0.793'],
+    951: ['0.793', '0.410'],
+    308: ['0.308.-1'],
+    848: ['0.355', '0.848.-1'],
+
+
+}
 
 def identify_same(entries):
     def quality(entry):
@@ -89,8 +121,7 @@ def identify_same(entries):
         if a['data']['text'] == b['data']['text']:
             return True
         return normalized_text(a) == normalized_text(b)
-    by_number_and_revnum = defaultdict(lambda: defaultdict(list))
-    for entry in entries:
+    def add_with_revnum(entry):
         number = entry['data']['number']
         revnum = entry['data']['revnum']
         existings = by_number_and_revnum[number][revnum]
@@ -102,6 +133,9 @@ def identify_same(entries):
         else:
             entry['variants'] = [entry]
             existings.append(entry)
+    by_number_and_revnum = defaultdict(lambda: defaultdict(list))
+    for entry in entries:
+        add_with_revnum(entry)
     # deal with revnum=None entries
     for number, by_revnum in by_number_and_revnum.items():
         nones = by_revnum[None]
@@ -114,65 +148,117 @@ def identify_same(entries):
                     break
             else:
                 unmatched_nones.append(entry)
-        if len(unmatched_nones) == 0:
-            break
-        if len(unmatched_nones) == 1 and len(by_revnum) == 0:
-            # only one text for this rule at all;
-            # let's call it 0
-            entry['data']['revnum'] = '0'
-            entry['variants'] = [entry]
-            by_revnum['0'] = [entry]
-            break
+        still_unmatched_nones = []
+        for entry in unmatched_nones:
+            fudge_revnum = None
+            number = entry['data']['number']
+            path = entry['meta']['path']
+            still_unmatched_nones.append(entry)
+        if not still_unmatched_nones:
+            continue
+        fudge_revnums = None
+        if len(still_unmatched_nones) == 1 and len(by_revnum) == 0:
+            fudge_revnums = ['0']
+        elif number in FUDGE_REVNUMS:
+            fudge_revnums = FUDGE_REVNUMS[number]
+        if fudge_revnums is not None:
+            assert_(len(fudge_revnums) == len(still_unmatched_nones))
+            for fudge_revnum, entry in zip(fudge_revnums, still_unmatched_nones):
+                entry['data']['revnum'] = fudge_revnum
+                add_with_revnum(entry)
+            continue
         with warnx():
             print('Orphan texts for rule %d:' % (entry['data']['number'],),)
-            for entry in unmatched_nones:
+            for entry in still_unmatched_nones:
                 print(entry['data']['text'])
-                print('meta: %s' % (entry['meta'],))
+                print('variants:%d meta:%s' % (len(entry['variants']), entry['meta'],))
+                print('last annotation:%s' % (entry['ans'][-1],))
+                print('==')
             print('Here are all the numbered texts I have for that rule:')
             have_any = False
-            for existing in (existing for xentries in by_revnum.values() for existing in xentries):
-                print(existing['data']['header']),
-                print(existing['data']['text']),
-                print('meta:', entry['meta'])
-                have_any = True
+            for revnum, xentries in sorted(by_revnum.items(), key=lambda tup: revnum_key(tup[0])):
+                if revnum is None:
+                    continue
+                print('--')
+                for existing in xentries:
+                    print('revnum: %s  header: %s' % (existing['data']['revnum'], existing['data']['header']))
+                    print(existing['data']['text']),
+                    print('variants:%d meta:%s' % (len(existing['variants']), existing['meta'],))
+                    have_any = True
             if not have_any:
                 print('(none)')
 
 
 
-    for xentries in by_number_and_revnum.values():
-        for i, entry in enumerate(xentries):
-            best = max(entry['variants'], key=quality)
-            if best is not entry:
-                best['variants'] = entry['variants']
-                del entry['variants']
-            xentries[i] = best
-    return by_number_and_revnum
+    for by_revnum in by_number_and_revnum.values():
+        for revnum, xentries in by_revnum.items():
+            if revnum is None:
+                continue
+            for i, entry in enumerate(xentries):
+                best = max(entry['variants'], key=quality)
+                if best is not entry:
+                    best['variants'] = entry['variants']
+                    del entry['variants']
+                xentries[i] = best
+    return [existing for xentries in by_revnum.values() for existing in xentries]
+
+
+
+def make_timeline(rule_entries):
+    by_num_and_numbered_date = defaultdict(lambda: defaultdict(set))
+    for entry in rule_entries:
+        entry['anchors'] = []
+        for an in entry['ans']:
+            if (an.is_create or an.num_changed) and an.date is not None:
+                by_num_and_numbered_date[an.cur_num][an.date].add(entry)
+                assert_(an.cur_num not in entry['anchors'])
+                entry['anchors'].append((an.cur_num, an.date))
+    timeline_by_num = defaultdict(list)
+    for number, by_numbered_date in by_num_and_numbered_date.items():
+        timeline_by_num[number] = sorted(by_numbered_date.keys())
+    for entry in rule_entries:
+        already_anchored = False
+        for an in entry['ans']:
+            if an.num_changed or an.is_indeterminate:
+                already_anchored = False
+            if (an.is_create or an.num_changed) and an.date is not None:
+                already_anchored = True
+            if already_anchored:
+                continue
+            if an._guessed_num is not None and an.date is not None:
+                timeline = timeline_by_num[an._guessed_num]
+                if len(timeline) == 0:
+                    warn("No timeline at all for rule %d; can't check for renumberings - for annotation %s" % (an._guessed_num, an))
+                    continue
+                i = bisect.bisect_right(timeline, an.date)
+                if i == 0:
+                    warn('Annotation %s comes before all anchors for rule %d - earliest is at %s' % (an, an._guessed_num, timeline[0]))
+                    continue
+                date = timeline[i]
+                entry['anchors'].append((an._guessed_num, date))
+                already_anchored = True
 
 def identify_parents(by_number_and_revnum):
-    for xentries in by_number_and_revnum.values():
-        for entry in xentries:
-            pass#by_number_and_revnum((entry['number'], 
-
-def find_renumberings(entries, verbose=True):
-    for entry in entries:
-        if is_rule_entry(entry):
-            initial_num = None
-            if entry['ans'][0]._guessed_revnum == '0':
-                initial_num = entry['ans'][0]._guessed_num
-            if initial_num is not None:
-                rule_entries_by_initial_num[initial_num].append(entry)
-            else:
-                unknown_rule_entries.append(entry)
-
-    if verbose:
-        print('a priori got initial nums:')
-        nums = set(list(rule_entries_by_initial_num.keys()) +
-                   [entry['data']['number'] for entry in entries if 'number' in entry['data']])
-        for num in nums:
-            print('  rule %d: %d entries' % (num, len(rule_entries_by_initial_num[num])))
-        print('  unknown: %d entries' % (len(unknown_rule_entries),))
-
+    for number, by_revnum in by_number_and_revnum.items():
+        for revnum, xentries in by_revnum.items():
+            if revnum == '0':
+                continue # initial rev has no parent
+            for entry in xentries:
+                # do the annotations give us a previous revision number(s) to look for?
+                options = []
+                for an in entry['ans'][::-1]:
+                    if an._guessed_revnum == revnum:
+                        continue
+                    options.append((an._guessed_num, an._guessed_revnum))
+                if options == []:
+                    print(entry)
+                    die
+                    
+                    if regex.match('[0-9]+$', revnum):
+                        prev_revnum = str(int(revnum) - 1)
+                    elif regex.match('[0-9]+\.[0-9]+$', revnum):
+                        # e.g. 2.1 - used for missing revisions
+                        prev_revnum = str(int(float(revnum)))
 
 
 ap = argparse.ArgumentParser()
@@ -191,6 +277,6 @@ def go(entries):
         strip_text(entry)
         add_annotation_obj(entry)
         add_guessed_numbers(entry)
-    by_number_and_revnum = identify_same(rule_entries)
-    identify_parents(by_number_and_revnum)
+    rule_entries = identify_same(rule_entries)
+    make_timeline(rule_entries)
 go(entries)

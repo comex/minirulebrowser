@@ -1,4 +1,4 @@
-import os, sys, tempfile, mailbox, datetime, subprocess, json, quopri
+import os, sys, tempfile, mailbox, datetime, subprocess, json, threading, queue
 import email, email.parser, email.policy
 import multiprocessing
 import util
@@ -17,7 +17,7 @@ fsfr_regex = regex.compile(br'''
                 /(?P<revnum>[0-9]+)
             )?
             [^\n]*
-            # mutability/power marking
+            # mutability/power marking (must be present)
             \([^\n\)]*\)
             (?: # committee?
                 \ \[[^\]]*\]
@@ -32,8 +32,8 @@ fsfr_regex = regex.compile(br'''
         (?&newline)
         (?:
             # old fashioned rule number?
-            (?P<extra>
-                [0-9]+\.\ 
+            (?P<extraheader>
+                [0-9]{3}[a-z]?\.\ [^\n]*\n
             )
         )?
         # main rule text; in some weird cases, could be missing
@@ -71,7 +71,10 @@ fsfr_regex = regex.compile(br'''
                 (?=Created\ by)
             )
             (?P<thehist>
-                .*?
+                (?:
+                    # any number of lines starting like this
+                    [a-zA-Z\.\( ][^\n]*(?:\n|$)
+                )*
             )
         )?
         # end on something that is none of:
@@ -89,6 +92,7 @@ FIXUPS_FOR_RULENUM = {
     b'2105': lambda text: text.replace(b'\nPERTH ->', b'\n PERTH ->'),
     b'1449': lambda text: text.replace(b'\nn    ', b'\n    '),
     b'665': lambda text: text.replace(b'on the illegal action would be retracted.]', b'on the illegal action would be retracted.'),
+    b'1504': lambda text: text.replace(b'\nBobTHJ', b'\n  BobTHJ'),
 }
 def find_stdformat_rules(text, seen_exactly_dict, expect_history=False):
     m = regex.search(b'Rule ([0-9]+)', text)
@@ -109,7 +113,11 @@ def find_stdformat_rules(text, seen_exactly_dict, expect_history=False):
             continue
         seen_exactly_dict[full] = True
         history = None
-        if expect_history and g['history'] is None:
+        if g['history'] is not None:
+            thehist = decode(g['thehist'])
+            thehist = regex.sub('The following section is not a portion of the report:.*', '', thehist, flags=regex.S) # lol, old scam
+            history = list(split_history(thehist))
+        if expect_history and not history:
             if early_rulenum not in {b'2385', b'2119', b'2001'}:
                 with warnx():
                     print(repr(g))
@@ -117,18 +125,19 @@ def find_stdformat_rules(text, seen_exactly_dict, expect_history=False):
                     print(util.highlight_spaces(decode(text)))
                     print('}}}')
                     print('^- no history in this FLR entry')
-        if g['history'] is not None:
-            thehist = decode(g['thehist'])
-            thehist = regex.sub('The following section is not a portion of the report:.*', '', thehist, flags=regex.S) # lol, old scam
-            history = list(split_history(thehist))
+        text = g['text'] or b''
+        inumber = int(g['number'])
+        extraheader = g['extraheader'] or b''
+        if extraheader:
+            _extratitle, text, extraheader = fix_oldformat_header(inumber, text, extraheader.rstrip())
 
         data = {
-            'number': int(g['number']),
+            'number': inumber,
             'revnum': decode(g['revnum']) if g['revnum'] else None,
             'title': decode(g['title']) if g['title'] else None,
             'header': decode(g['header']),
-            'extra': decode(g['extra']) if g['extra'] else None,
-            'text': decode(g['text'] or b''),
+            'extra': decode(extraheader) if extraheader else None,
+            'text': decode(text),
             'annotations': decode(g['annotations']) or None,
             'history': history,
         }
@@ -140,27 +149,51 @@ def split_history(history):
         for line in regex.split('\n(?!  )', history):
             yield regex.sub('\s+', ' ', line)
 
-def find_oldformat_rules(filetext, seen_exactly_dict):
-    for full, header, number, letter, text in regex.findall(b'^((([0-9]{3})([a-z]?)\.\s+)(.*?))\n[ \t]*\n', filetext, regex.M | regex.S):
-        if full in seen_exactly_dict:
-            continue
-        seen_exactly_dict[full] = True
+def fix_oldformat_header(inumber, text, header):
+    header = header.rstrip()
+    m = regex.match(b'(\s*(.*?)\.\s*)(.*)$', header)
+    header_num, numletter, header_text = m.groups()
+    if inumber >= 319 and numletter not in {b'376a', b'330', b'436', b'364a', b'377a'}:
+        # 123. Title
+        #      Text text text
+        # keep whole header
+        title = header_text
+    else:
+        # 123. Text text text
+        header = header_num
         title = None
-        inumber = int(number)
-        if inumber >= 319 and inumber not in {330, 436}:
-            # have title
-            title, text = text.split(b'\n', 1)
-            header += title
-            title = title.rstrip(b':')
-        else:
-            text = b' ' * len(header) + text
-            header = header.rstrip()
+        text = b' ' * len(header_num) + header_text + b'\n' + text
+    return title, text, header
+fofr_regex = regex.compile(br'''
+    (?<=\n|^)
+    (?P<full>
+        (?P<header>
+            (?P<number>[0-9]{3})
+            (?P<letter>[a-z]?)
+            \.\s*[^\n]*
+        )
+        \n
+        (?P<text>
+            (?:
+                (?:[ \t][^\n]*|)(?:\n|$) # indented or blank line
+            )*
+        )
+    )
+''', regex.M | regex.S | regex.X)
+def find_oldformat_rules(filetext, seen_exactly_dict):
+    for m in fofr_regex.finditer(filetext):
+        g = m.groupdict()
+        if g['full'] in seen_exactly_dict:
+            continue
+        seen_exactly_dict[g['full']] = True
+        inumber = int(g['number'])
+        title, text, header = fix_oldformat_header(inumber, g['text'], g['header'])
         data = {
             'number': inumber,
             'revnum': None,
             'title': decode(title) if title else None,
             'header': decode(header),
-            'extra': decode(number + letter) if letter else None,
+            'extra': decode(g['number'] + g['letter']) if g['letter'] else None,
             'text': decode(text),
             'annotations': None,
             'history': None,
@@ -175,7 +208,7 @@ def find_rules(path, text, seen_exactly_dict):
     expect_history = 'current_flr.txt' in path
     yield from find_stdformat_rules(text, seen_exactly_dict, expect_history=expect_history)
 
-def walk_file_nocontainer(metadata, text):
+def parse_file(metadata, text):
     new_metadata = metadata.copy()
     del new_metadata['seen_exactly']
     if 'rcslog' in new_metadata:
@@ -183,9 +216,6 @@ def walk_file_nocontainer(metadata, text):
         del new_metadata['rcsauthor']
     assert isinstance(text, bytes)
     #print(metadata['path'])
-    if b'22 October =' in text:
-        print(repr(text))
-        die
     m = regex.match(b'(.{,2048}\n)?THE (FULL |SHORT |)LOGICAL RULESET\n\n', text, regex.S)
     if m:
         # this is a ruleset!
@@ -257,8 +287,12 @@ def walk_file_nocontainer(metadata, text):
         # handle any remaining data
         rest = text[lr_end:].lstrip()
         if rest:
-            yield from walk_file_nocontainer(metadata, rest)
+            yield from parse_file(metadata, rest)
         return
+    elif b'THE RULES OF INTERNOMIC' in text:
+        # this is ... a fake ruleset!
+        return
+
     else: # not a ruleset
         if 'rcslog' in metadata and 'current_flr.txt,v' in metadata['path']:
             print(repr(text))
@@ -316,9 +350,9 @@ def walk_file(metadata, text):
             else:
                 date = date.astimezone(datetime.timezone.utc)
             new_metadata = {**metadata, 'date': date.timestamp(), 'path': metadata['path'] + '@message-id:' + mid}
-            yield from walk_file_nocontainer(new_metadata, payload)
+            yield (new_metadata, payload)
         return
-    yield from walk_file_nocontainer(metadata, text)
+    yield (metadata, text)
 
 def walk_tree(path):
     seen_exactly_dict = {}
@@ -336,12 +370,31 @@ if len(sys.argv) > 1:
     inpath, outpath = sys.argv[1], sys.argv[2]
 else:
     inpath, outpath = 'archives', 'out_misc.json'
+
+if True:
+    queue = queue.Queue(20)
+    class WalkThread(threading.Thread):
+        def run(self):
+            for x in walk_tree(inpath):
+                queue.put(x)
+            queue.put(None)
+    WalkThread().start()
+    def queue_read():
+        while True:
+            x = queue.get()
+            if x is None: break
+            yield x
+    it = queue_read()
+else:
+    it = walk_tree(inpath)
+
 with open(outpath, 'w') as gp:
     gp.write('[\n')
     first = True
-    for x in walk_tree(inpath):
-        if not first: gp.write(',')
-        first = False
-        json.dump(x, gp)
-        gp.write('\n')
+    for x in it:
+        for y in parse_file(*x):
+            if not first: gp.write(',')
+            first = False
+            json.dump(y, gp)
+            gp.write('\n')
     gp.write(']')
