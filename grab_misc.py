@@ -1,13 +1,12 @@
-import os, sys, tempfile, mailbox, datetime, subprocess, json, threading, queue
+import os, sys, tempfile, mailbox, datetime, subprocess, json, multiprocessing, multiprocessing.managers
+from functools import partial
 import email, email.parser, email.policy
-import multiprocessing
 import util
 from util import assert_, decode, warn, warnx
 import regex # not re
 from rcs import RCSFile
 
 my_texts = {}
-seen_exactly = set()
 fsfr_regex = regex.compile(br'''
     (?<=\n|^) # start of line
     (?P<full>
@@ -94,7 +93,7 @@ FIXUPS_FOR_RULENUM = {
     b'665': lambda text: text.replace(b'on the illegal action would be retracted.]', b'on the illegal action would be retracted.'),
     b'1504': lambda text: text.replace(b'\nBobTHJ', b'\n  BobTHJ'),
 }
-def find_stdformat_rules(text, seen_exactly_dict, expect_history=False):
+def find_stdformat_rules(text, expect_history=False):
     m = regex.search(b'Rule ([0-9]+)', text)
     early_rulenum = None
     if m:
@@ -109,9 +108,6 @@ def find_stdformat_rules(text, seen_exactly_dict, expect_history=False):
         #print('yaeh', text[m.end():m.end()+100])
         g = m.groupdict()
         full = g['full']
-        if full in seen_exactly_dict:
-            continue
-        seen_exactly_dict[full] = True
         history = None
         if g['history'] is not None:
             thehist = decode(g['thehist'])
@@ -140,6 +136,7 @@ def find_stdformat_rules(text, seen_exactly_dict, expect_history=False):
             'text': decode(text),
             'annotations': decode(g['annotations']) or None,
             'history': history,
+            'xfull': full,
         }
         yield data
 
@@ -180,12 +177,9 @@ fofr_regex = regex.compile(br'''
         )
     )
 ''', regex.M | regex.S | regex.X)
-def find_oldformat_rules(filetext, seen_exactly_dict):
+def find_oldformat_rules(filetext):
     for m in fofr_regex.finditer(filetext):
         g = m.groupdict()
-        if g['full'] in seen_exactly_dict:
-            continue
-        seen_exactly_dict[g['full']] = True
         inumber = int(g['number'])
         title, text, header = fix_oldformat_header(inumber, g['text'], g['header'])
         data = {
@@ -200,17 +194,61 @@ def find_oldformat_rules(filetext, seen_exactly_dict):
         }
         yield data
 
-def find_rules(path, text, seen_exactly_dict):
+def find_rules_mode_for_path(path):
     if 'theses/' in path or 'cfj/' in path or path.endswith('/discussion'):
-        return # some fake rules here
-    if 'usenet0/rga' in path:
-        yield from find_oldformat_rules(text, seen_exactly_dict)
+        return 0 # don't look at all
+    elif 'usenet0/rga' in path:
+        return 2 # stdformat and oldformat
+    elif 'current_flr.txt' in path:
+        return 2 # stdformat, expect history
+    else:
+        return 1 # stdformat
     expect_history = 'current_flr.txt' in path
-    yield from find_stdformat_rules(text, seen_exactly_dict, expect_history=expect_history)
 
-def parse_file(metadata, text):
+def find_rules(mode, bit):
+    if mode == 1:
+        yield from find_oldformat_rules(text)
+    if mode >= 1:
+        yield from find_stdformat_rules(text, expect_history=(mode == 2))
+
+
+def find_rules_in_flr_bit(mode, bit):
+    existing = cache.by_key.get((mode, bit))
+    if existing is not None:
+        return existing
+    with cache.lock:
+        data_id_base = cache.data_id_base
+        cache.data_id_base.value += 100
+    found = list(find_rules(path, bit))
+    w = None
+    ret = []
+    if regex.match(b'\n*Rule [0-9]', bit):
+        for data in found:
+            rulenum = data['number']
+            cache.data[data_id] = data
+            ret.append((data_id, rulenum))
+        if len(found) > 1:
+            if '@RCS:1.1736' not in path:
+                w = 'got multiple rules in FLR bit'
+
+            rulenum = None
+        elif len(found) == 0:
+            if b'Rule 2386/0' not in text:
+                w = 'got no rules in FLR bit'
+    else:
+        if len(found) > 0:
+            w = 'got rule in weird FLR bit'
+        rulenum = False
+    if w is not None:
+        with warnx():
+            print('full: {{{')
+            print(util.highlight_spaces(decode(bit)))
+            print('}}}',)
+            print('^-', w)
+    cache.by_key[(mode, bit)] = ret
+    return ret
+def walk_doc(metadata, text):
     new_metadata = metadata.copy()
-    del new_metadata['seen_exactly']
     if 'rcslog' in new_metadata:
         del new_metadata['rcslog']
         del new_metadata['rcsauthor']
@@ -219,46 +257,21 @@ def parse_file(metadata, text):
     m = regex.match(b'(.{,2048}\n)?THE (FULL |SHORT |)LOGICAL RULESET\n\n', text, regex.S)
     if m:
         # this is a ruleset!
+        mode = find_rules_mode_for_path(path)
         lr_start = m.end()
         n = regex.search(b'\nEND OF THE [^ ]* LOGICAL RULESET', text, pos=lr_start)
         if n:
             lr_end = n.end()
         else:
             lr_end = len(text)
-        have_rulenums = []
         ruleset = m.group(0)
         ruleset_bits = regex.split(b'\n------------------------------+|====================+\n', text[lr_start:lr_end])
-        for bit in ruleset_bits:
-            x = ('rbit', bit)
-            rulenum = metadata['seen_exactly'].get(x)
-            if rulenum is None:
-                found = list(find_rules(metadata['path'], bit, {}))
-                w = None
-                if regex.match(b'\n*Rule [0-9]', bit):
-                    for data in found:
-                        rulenum = data['number']
-                        yield {'meta': new_metadata, 'data': data}
-                    if len(found) > 1:
-                        if '@RCS:1.1736' not in metadata['path']:
-                            w = 'got multiple rules in FLR bit'
-
-                        rulenum = None
-                    elif len(found) == 0:
-                        if b'Rule 2386/0' not in text:
-                            w = 'got no rules in FLR bit'
-                else:
-                    if len(found) > 0:
-                        w = 'got rule in weird FLR bit'
-                    rulenum = False
-                if w is not None:
-                    with warnx():
-                        print('full: {{{')
-                        print(util.highlight_spaces(decode(bit)))
-                        print('}}}',)
-                        print('^-', w)
-            metadata['seen_exactly'][x] = rulenum
-            if rulenum is not False:
-                have_rulenums.append(rulenum)
+        have_rulenums = []
+        for datas in map(partial(find_rules_in_flr_bit, bit=bit), ruleset_bits):
+            for data_id, rulenum in datas:
+                if rulenum is not None:
+                    have_rulenums.append(rulenum)
+                yield {'meta': new_metadata, 'data': data_id}
         # explicit repeal annotations in RCS?
         if 'rcslog' in metadata and metadata['rcsauthor'] == 'comex':
             # split by semicolon, but not semicolons in parens
@@ -287,7 +300,7 @@ def parse_file(metadata, text):
         # handle any remaining data
         rest = text[lr_end:].lstrip()
         if rest:
-            yield from parse_file(metadata, rest)
+            yield from walk_doc(metadata, rest)
         return
     elif b'THE RULES OF INTERNOMIC' in text:
         # this is ... a fake ruleset!
@@ -295,10 +308,37 @@ def parse_file(metadata, text):
 
     else: # not a ruleset
         if 'rcslog' in metadata and 'current_flr.txt,v' in metadata['path']:
-            print(repr(text))
-            raise Exception("this should be a flr but doesn't match")
-    for data in find_rules(metadata['path'], text, metadata['seen_exactly']):
-        yield {'meta': new_metadata, 'data': data}
+            with warnx():
+                print(repr(text))
+                print("this should be a flr but doesn't match")
+        for data in find_rules(find_rules_mode_for_path(metadata['path']), bit):
+            yield {'meta': new_metadata, 'data': data}
+
+email_parser = email.parser.BytesParser(policy=email.policy.default)
+def walk_email(metadata, mraw):
+    if b'LOGICAL RULESET' not in mraw:
+        # email parser is slow, and over this period of time we should be fine just looking at published rulesets
+        return
+    message = email_parser.parsebytes(mraw)
+    xmessage = message
+    while xmessage.is_multipart():
+        xmessage = xmessage.get_payload(0)
+    payload = xmessage.get_payload(decode=True)
+    unixfrom = message.get_unixfrom()
+    #print(mraw)
+    #print(unixfrom)
+    unixdate = unixfrom.split(' ', 2)[2].strip()
+    assert_(unixdate)
+    mid = message['Message-ID'] or '??message with no Message-ID'
+    date = email.utils.parsedate_to_datetime(unixdate)
+    # "If the input date has a timezone of -0000, the datetime will be a naive datetime"
+    # ^- WTF
+    if date.tzinfo is None:
+        date = date.replace(tzinfo=datetime.timezone.utc)
+    else:
+        date = date.astimezone(datetime.timezone.utc)
+    new_metadata = {**metadata, 'date': date.timestamp(), 'path': metadata['path'] + '@message-id:' + mid}
+    yield from walk_doc(new_metadata, payload)
 
 def walk_file(metadata, text):
     print('>>>', metadata['path'])
@@ -319,82 +359,93 @@ def walk_file(metadata, text):
         return
     if regex.match(b'From [^\n]+\n[A-Z][^ ]*:', text):
         is_massive = metadata['path'].endswith('agora-official.mbox')
-        parser = email.parser.BytesParser(policy=email.policy.default)
         if is_massive:
             approx_count = text.count(b'\n\nFrom ')
         i = 0
-        for mraw in util.iter_mboxcl2ish(text):
-            i += 1
-            if is_massive:
-                if i % 100 == 0:
-                    print('%s: %d/~%d messages' % (metadata['path'], i, approx_count))
-                if b'LOGICAL RULESET' not in mraw:
-                    # email parser is slow, and over this period of time we should be fine just looking at published rulesets
-                    continue
-            message = parser.parsebytes(mraw)
-            xmessage = message
-            while xmessage.is_multipart():
-                xmessage = xmessage.get_payload(0)
-            payload = xmessage.get_payload(decode=True)
-            unixfrom = message.get_unixfrom()
-            #print(mraw)
-            #print(unixfrom)
-            unixdate = unixfrom.split(' ', 2)[2].strip()
-            assert_(unixdate)
-            mid = message['Message-ID'] or '??message with no Message-ID'
-            date = email.utils.parsedate_to_datetime(unixdate)
-            # "If the input date has a timezone of -0000, the datetime will be a naive datetime"
-            # ^- WTF
-            if date.tzinfo is None:
-                date = date.replace(tzinfo=datetime.timezone.utc)
-            else:
-                date = date.astimezone(datetime.timezone.utc)
-            new_metadata = {**metadata, 'date': date.timestamp(), 'path': metadata['path'] + '@message-id:' + mid}
-            yield (new_metadata, payload)
+        def messages():
+            nonlocal i
+            for mraw in util.iter_mboxcl2ish(text):
+                yield mraw
+                i += 1
+                if is_massive:
+                    if i % 100 == 0:
+                        print('%s: %d/~%d messages' % (metadata['path'], i, approx_count))
+                        continue
+        for x in cache.map(partial(walk_email, metadata), messages()):
+            yield from x
         return
-    yield (metadata, text)
+    yield from walk_doc(metadata, text)
 
-def walk_tree(path):
-    seen_exactly_dict = {}
+def file_paths_in(path):
     it = os.walk(path) if os.path.isdir(path) else [('', [], [path])]
     for dirpath, dirnames, filenames in it:
         for filename in filenames:
             path = os.path.join(dirpath, filename)
             if os.path.isfile(path): # not, say, a symlink
-                metadata = {'path': path, 'seen_exactly': seen_exactly_dict}
-                with open(path, 'rb') as fp:
-                    text = fp.read()
-                yield from walk_file(metadata, text)
+                yield path
 
-if len(sys.argv) > 1:
-    inpath, outpath = sys.argv[1], sys.argv[2]
-else:
-    inpath, outpath = 'archives', 'out_misc.json'
+def walk_filepath(path):
+    with open(path, 'rb') as fp:
+        text = fp.read()
+    yield from walk_file({'path': path}, text)
 
-if True:
-    queue = queue.Queue(20)
-    class WalkThread(threading.Thread):
-        def run(self):
-            for x in walk_tree(inpath):
-                queue.put(x)
-            queue.put(None)
-    WalkThread().start()
-    def queue_read():
-        while True:
-            x = queue.get()
-            if x is None: break
-            yield x
-    it = queue_read()
-else:
-    it = walk_tree(inpath)
+def walk_path(path):
+    for ret in cache.map(walk_filepath, file_paths_in(path)):
+        yield from ret
 
-with open(outpath, 'w') as gp:
-    gp.write('[\n')
-    first = True
-    for x in it:
-        for y in parse_file(*x):
+class Cache:
+    def __init__(self, manager):
+        self.by_key = manager.dict()
+        self.data = manager.dict()
+        self.data_id_base = multiprocessing.Value('i')
+        self.lock = multiprocessing.Lock()
+    def map(self, func, iterable):
+        for i, item in enumerate(iterable):
+            self.pool.apply_async(
+            queue.put((i, func, 
+class Manager(multiprocessing.managers.SyncManager):
+    pass
+Manager.register('Cache', Cache)
+
+def _initProcess(cach):
+    print('_init')
+    global cache
+    cache = cach
+
+def go(path):
+    global cache
+    with Manager() as manager:
+        cache = Cache(manager)
+        print('cache=', cache)
+        pool = multiprocessing.Pool(initargs=(cache,))
+        cache.pool = pool
+        ret = list(walk_path(path))
+        cache = None
+        return ret
+
+# this is pointless
+
+if __name__ == '__main__':
+    if len(sys.argv) > 1:
+        inpath, outpath = sys.argv[1], sys.argv[2]
+    else:
+        inpath, outpath = 'archives', 'out_misc.json'
+
+
+    import grab_misc
+    with open(outpath, 'w') as gp:
+        gp.write('[\n')
+        first = True
+        for x in grab_misc.go(inpath):
             if not first: gp.write(',')
             first = False
-            json.dump(y, gp)
+            if isinstance(x['data'], int):
+                data = cache.data.get([x['data']])
+                if data is None:
+                    continue
+                else:
+                    x['data'] = data
+                    del cache.data[x['data']]
+            json.dump(x, gp)
             gp.write('\n')
-    gp.write(']')
+        gp.write(']')
