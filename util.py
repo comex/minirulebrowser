@@ -1,13 +1,23 @@
-import regex, os, sys, datetime, functools
+import os, sys, datetime, functools
+try:
+    import regex as re
+except ImportError:
+    import re
 
-def normalize_rule_text(text):
-    if len(text) > 100000:
-        raise Exception('this is definitely not a rule text')
-    text = text.rstrip()
-    if text.endswith('*)'):
-        text = regex.sub('\(\*was: .*?\*\)$', '', text, flags=regex.I)
-    text = text.lower()
-    return regex.sub('[^a-z0-9]', '', text)
+try:
+    import pyximport
+except ImportError:
+    def normalize_rule_text(text):
+        if len(text) > 100000:
+            raise Exception('this is definitely not a rule text')
+        text = text.rstrip()
+        if text.endswith('*)'):
+            text = re.sub('\(\*was: .*?\*\)$', '', text, flags=re.I)
+        text = text.lower()
+        return re.sub('[^a-z0-9]', '', text)
+else:
+    pyximport.install()
+    from normalize_rule_text import normalize_rule_text
 
 def decode(binary):
     return binary.decode('utf-8')
@@ -29,11 +39,11 @@ class warnx:
         return False
 
 def highlight_spaces(text):
-    return regex.sub('[^ -~\n]+', lambda m: repr(m.group(0))[1:-1], text).replace(' ', '\x1b[7m \x1b[0m')
+    return re.sub('[^ -~\n]+', lambda m: repr(m.group(0))[1:-1], text).replace(' ', '\x1b[7m \x1b[0m')
 
-mboxcl2_regex = regex.compile(b'From (?:[^\n]|\n[^\n])+\nContent-Length: ([0-9]+)[ \t]*(?=\n).*?\n\n', regex.S)
-mboxcl2_vague_regex = regex.compile(b'\nFrom [^\n]* [0-9]{1,2} [0-9]{2}:[0-9]{2}:[0-9]{2} [0-9]{4}\n')
-mboxcl2_justfrom = regex.compile(b'\n*(?:$|From )')
+mboxcl2_regex = re.compile(b'From (?:[^\n]|\n[^\n])+\nContent-Length: ([0-9]+)[ \t]*(?=\n).*?\n\n', re.S)
+mboxcl2_vague_regex = re.compile(b'\nFrom [^\n]* [0-9]{1,2} [0-9]{2}:[0-9]{2}:[0-9]{2} [0-9]{4}\n')
+mboxcl2_justfrom = re.compile(b'\n*(?:$|From )')
 def iter_mboxcl2ish(text):
     # why the fuck is there no easy way to parse mboxcl2,
     # i.e. taking into account Content-Length
@@ -100,7 +110,7 @@ FIXED = {
 def strptime_ruleset(text):
     text = text.strip()
     text = FIXED.get(text, text)
-    text = regex.sub('[\.,]', '', text)
+    text = re.sub('[\.,]', '', text)
     for fmt in ['%d %B %Y', '%b %d %Y', '%b %Y', '%d %b %Y', '%b %d %Y %H:%M:%S %z']:
         try:
             return datetime.datetime.strptime(text, fmt).date()
@@ -113,9 +123,24 @@ FOUNDING_DATE = strptime_ruleset('28 June 1993')
 REVNUM_FIXUPS = {
     'e': '3',
 }
+END_STUFF_RE = re.compile('(?:,?\s*(?:sus?bs?tantial|cosmetic|\([^\)]+\)))*$')
+_1996_RE = re.compile('(.*), (?:ca\. )?([^,]* 1996)')
+OTHER_DATE_RE = re.compile('(.*), (?!19[0-9]{2}|20[0-9]{2})(?:ca\. )?(.*?)\.?$')
+INITIAL_RE = re.compile('ini?t?ial ', re.I)
+CREATED_RE = re.compile('created|enacted', re.I)
+RULE_N_RE = re.compile('(.*)Rule ([0-9]+)', re.I)
+REVNUM_NOTE_RE = re.compile('([A-Za-z]+)\(([^\(\) ]*?)\)')
+REVNUM_RE = re.compile('[0-9]+(?:\.[0-9]+)?$')
+NUMERIC_RE = re.compile('[0-9]+$')
+AMENDED_BY_PROP_RE = re.compile('(?:amended|transmuted|mutated|power changed|\?\?\?).*by proposal ([^ ]+)', re.I)
+RENUMBERED_RE = re.compile('(?:renumbered|number changed)(?: from ([0-9]+)(?:\/[^ ]*)?)? to ([0-9]+)', re.I)
 @functools.lru_cache(None)
 class Annotation(object):
+    __slots__ = ['text', 'date', 'revnum', 'is_create', 'prev_num', 'cur_num', 'num_changed', 'is_indeterminate', '_guessed_num', '_guessed_revnum']
+
     def __init__(self, text):
+        if text is None:
+            return
         text = text.strip()
         self.text = text
         self.date = None
@@ -125,10 +150,8 @@ class Annotation(object):
         self.cur_num = None
         self.num_changed = False
         self.is_indeterminate = text in {'...', '..', '[orphaned text]'} or '??? by' in text
-        text = regex.sub('(?:,?\s*(?:sus?bs?tantial|cosmetic|\([^\)]+\)))*$', '', text)
-        m = regex.match('(.*), ([^,]* 1996),', text)
-        if not m:
-            m = regex.match('(.*), (?!19[0-9]{2}|20[0-9]{2})(?:ca\. )?(.*?)\.?$', text)
+        text = END_STUFF_RE.sub('', text)
+        m = _1996_RE.match(text) or OTHER_DATE_RE.match(text)
         if m:
             if m.group(2) not in {'date unknown', 'datu unknown', 'XXXDATEHERE'}:
                 try:
@@ -136,25 +159,25 @@ class Annotation(object):
                 except ValueError as e:
                     warn('%s, while parsing annotation %r' % (str(e), text))
             text = m.group(1)
-        if regex.match('ini?t?ial ', text, regex.I):
+        if INITIAL_RE.match(text):
             self.is_create = True
             self.revnum = '0'
             self.date = FOUNDING_DATE # override any existing date
-        if regex.match('created|enacted', text, regex.I):
+        if CREATED_RE.match(text):
             self.is_create = True
             self.revnum = '0'
         if self.is_create:
-            m = regex.match('(.*)Rule ([0-9]+)', text, regex.I)
+            m = RULE_N_RE.match(text)
             if m and ' by' not in m.group(1):
                 self.cur_num = int(m.group(2))
-        ms = regex.findall('([A-Za-z]+)\(([^\(\) ]*?)\)', text)
+        ms = REVNUM_NOTE_RE.findall(text)
         if ms:
             assert self.revnum is None
             kind, revnum = ms[0]
             if kind.lower() not in {'amended', 'transmuted', 'amedned', 'amneded', 'amendd', 'repealed', 'retitled'}:
                 warn("revnum attached to something other than 'amended' or 'transmuted' (or 'repealed' or 'retitled' but those are weird): %r in %r" % (kind, text))
             revnum = REVNUM_FIXUPS.get(revnum, revnum)
-            if regex.match('[0-9]+(?:\.[0-9]+)?$', revnum):
+            if REVNUM_RE.match(revnum):
                 self.revnum = revnum
             elif revnum in {'???', ''}:
                 # Amended(), Amended(???)
@@ -163,18 +186,36 @@ class Annotation(object):
                 warn("weird revision number %r in %r" % (num, text))
             if len(ms) > 1:
                 warn('got multiple revnums? %s <- %s' % (ms, text))
-        m = regex.match('(?:renumbered|number changed)(?: from ([0-9]+)(?:\/[^ ]*)?)? to ([0-9]+)', text, regex.I)
+        m = RENUMBERED_RE.match(text)
         if m:
             self.prev_num = int(m.group(1)) if m.group(1) else None
             self.cur_num = int(m.group(2))
             self.num_changed = True
-        m = regex.search('(?:amended|transmuted|mutated|power changed).*by proposal ([^ ]+)', text, regex.I)
-        if m and regex.match('[0-9]+$', m.group(1)) and int(m.group(1)) < 1268:
-            assert self.cur_num is None
-            self.cur_num = int(m.group(1))
-            self.num_changed = True
-            if self.revnum is None:
-                self.revnum = '0.%d' % self.cur_num
+        m = AMENDED_BY_PROP_RE.search(text)
+        if m:
+            try:
+                num = int(m.group(1))
+            except ValueError:
+                pass
+            else:
+                if num < 1268:
+                    assert self.cur_num is None
+                    self.cur_num = num
+                    self.num_changed = True
+                    if self.revnum is None:
+                        self.revnum = '0.%d' % self.cur_num
+
+    def copy(self):
+       c = self.__class__(None)
+       c.text = self.text
+       c.date = self.date
+       c.revnum = self.revnum
+       c.is_create = self.is_create
+       c.prev_num = self.prev_num
+       c.cur_num = self.cur_num
+       c.num_changed = self.num_changed
+       c.is_indeterminate = self.is_indeterminate
+       return c
 
     def __repr__(self):
         extra = ''
@@ -182,7 +223,7 @@ class Annotation(object):
             extra += ', _guessed_num=%r' % (self._guessed_num,)
         if hasattr(self, '_guessed_revnum'):
             extra += ', _guessed_revnum=%r' % (self._guessed_revnum,)
-        return 'Annotation(date=%s, revnum=%r, prev_num=%s, cur_num=%s, num_changed=%s, text=%r%s)' % (self.date, self.revnum, self.prev_num, self.cur_num, self.num_changed, self.text, extra)
+        return 'Annotation(date=%s, revnum=%r, prev_num=%s, cur_num=%s, is_create=%s, num_changed=%s, text=%r%s)' % (self.date, self.revnum, self.prev_num, self.cur_num, self.is_create, self.num_changed, self.text, extra)
 
 def datetime_from_timestamp(ts):
     return datetime.datetime.fromtimestamp(ts, datetime.timezone.utc)

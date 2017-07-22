@@ -1,4 +1,4 @@
-import os, sys, tempfile, mailbox, datetime, subprocess, json, multiprocessing, multiprocessing.managers
+import os, sys, tempfile, mailbox, datetime, subprocess, json, functools
 from functools import partial
 import email, email.parser, email.policy
 import util
@@ -136,7 +136,6 @@ def find_stdformat_rules(text, expect_history=False):
             'text': decode(text),
             'annotations': decode(g['annotations']) or None,
             'history': history,
-            'xfull': full,
         }
         yield data
 
@@ -195,45 +194,41 @@ def find_oldformat_rules(filetext):
         yield data
 
 def find_rules_mode_for_path(path):
+    stdformat = True
+    oldformat = False
+    expect_history = False
     if 'theses/' in path or 'cfj/' in path or path.endswith('/discussion'):
-        return 0 # don't look at all
+        stdformat = False
     elif 'usenet0/rga' in path:
-        return 2 # stdformat and oldformat
+        oldformat = True
     elif 'current_flr.txt' in path:
-        return 2 # stdformat, expect history
-    else:
-        return 1 # stdformat
+        expect_history=True
     expect_history = 'current_flr.txt' in path
+    return stdformat, oldformat, expect_history
 
 def find_rules(mode, bit):
-    if mode == 1:
-        yield from find_oldformat_rules(text)
-    if mode >= 1:
-        yield from find_stdformat_rules(text, expect_history=(mode == 2))
+    stdformat, oldformat, expect_history = mode
+    if oldformat:
+        yield from find_oldformat_rules(bit)
+    if stdformat:
+        yield from find_stdformat_rules(bit, expect_history=expect_history)
 
 
+@functools.lru_cache(None)
 def find_rules_in_flr_bit(mode, bit):
-    existing = cache.by_key.get((mode, bit))
-    if existing is not None:
-        return existing
-    with cache.lock:
-        data_id_base = cache.data_id_base
-        cache.data_id_base.value += 100
-    found = list(find_rules(path, bit))
+    found = list(find_rules(mode, bit))
     w = None
     ret = []
     if regex.match(b'\n*Rule [0-9]', bit):
         for data in found:
-            rulenum = data['number']
-            cache.data[data_id] = data
-            ret.append((data_id, rulenum))
+            ret.append(data)
         if len(found) > 1:
-            if '@RCS:1.1736' not in path:
+            if b'Rule 2389/0' not in bit:
                 w = 'got multiple rules in FLR bit'
 
             rulenum = None
         elif len(found) == 0:
-            if b'Rule 2386/0' not in text:
+            if b'Rule 2386/0' not in bit:
                 w = 'got no rules in FLR bit'
     else:
         if len(found) > 0:
@@ -245,7 +240,6 @@ def find_rules_in_flr_bit(mode, bit):
             print(util.highlight_spaces(decode(bit)))
             print('}}}',)
             print('^-', w)
-    cache.by_key[(mode, bit)] = ret
     return ret
 def walk_doc(metadata, text):
     new_metadata = metadata.copy()
@@ -257,7 +251,6 @@ def walk_doc(metadata, text):
     m = regex.match(b'(.{,2048}\n)?THE (FULL |SHORT |)LOGICAL RULESET\n\n', text, regex.S)
     if m:
         # this is a ruleset!
-        mode = find_rules_mode_for_path(path)
         lr_start = m.end()
         n = regex.search(b'\nEND OF THE [^ ]* LOGICAL RULESET', text, pos=lr_start)
         if n:
@@ -267,11 +260,12 @@ def walk_doc(metadata, text):
         ruleset = m.group(0)
         ruleset_bits = regex.split(b'\n------------------------------+|====================+\n', text[lr_start:lr_end])
         have_rulenums = []
-        for datas in map(partial(find_rules_in_flr_bit, bit=bit), ruleset_bits):
-            for data_id, rulenum in datas:
-                if rulenum is not None:
-                    have_rulenums.append(rulenum)
-                yield {'meta': new_metadata, 'data': data_id}
+        mode = find_rules_mode_for_path(metadata['path'])
+        for datas in map(partial(find_rules_in_flr_bit, mode), ruleset_bits):
+            for data in datas:
+                if data['number'] is not None:
+                    have_rulenums.append(data['number'])
+                yield {'meta': new_metadata, 'data': data}
         # explicit repeal annotations in RCS?
         if 'rcslog' in metadata and metadata['rcsauthor'] == 'comex':
             # split by semicolon, but not semicolons in parens
@@ -311,7 +305,7 @@ def walk_doc(metadata, text):
             with warnx():
                 print(repr(text))
                 print("this should be a flr but doesn't match")
-        for data in find_rules(find_rules_mode_for_path(metadata['path']), bit):
+        for data in find_rules(find_rules_mode_for_path(metadata['path']), text):
             yield {'meta': new_metadata, 'data': data}
 
 email_parser = email.parser.BytesParser(policy=email.policy.default)
@@ -362,17 +356,13 @@ def walk_file(metadata, text):
         if is_massive:
             approx_count = text.count(b'\n\nFrom ')
         i = 0
-        def messages():
-            nonlocal i
-            for mraw in util.iter_mboxcl2ish(text):
-                yield mraw
-                i += 1
-                if is_massive:
-                    if i % 100 == 0:
-                        print('%s: %d/~%d messages' % (metadata['path'], i, approx_count))
-                        continue
-        for x in cache.map(partial(walk_email, metadata), messages()):
-            yield from x
+        for mraw in util.iter_mboxcl2ish(text):
+            yield from walk_email(metadata, mraw)
+            i += 1
+            if is_massive:
+                if i % 100 == 0:
+                    print('%s: %d/~%d messages' % (metadata['path'], i, approx_count))
+                    continue
         return
     yield from walk_doc(metadata, text)
 
@@ -390,38 +380,8 @@ def walk_filepath(path):
     yield from walk_file({'path': path}, text)
 
 def walk_path(path):
-    for ret in cache.map(walk_filepath, file_paths_in(path)):
+    for ret in map(walk_filepath, file_paths_in(path)):
         yield from ret
-
-class Cache:
-    def __init__(self, manager):
-        self.by_key = manager.dict()
-        self.data = manager.dict()
-        self.data_id_base = multiprocessing.Value('i')
-        self.lock = multiprocessing.Lock()
-    def map(self, func, iterable):
-        for i, item in enumerate(iterable):
-            self.pool.apply_async(
-            queue.put((i, func, 
-class Manager(multiprocessing.managers.SyncManager):
-    pass
-Manager.register('Cache', Cache)
-
-def _initProcess(cach):
-    print('_init')
-    global cache
-    cache = cach
-
-def go(path):
-    global cache
-    with Manager() as manager:
-        cache = Cache(manager)
-        print('cache=', cache)
-        pool = multiprocessing.Pool(initargs=(cache,))
-        cache.pool = pool
-        ret = list(walk_path(path))
-        cache = None
-        return ret
 
 # this is pointless
 
@@ -432,20 +392,19 @@ if __name__ == '__main__':
         inpath, outpath = 'archives', 'out_misc.json'
 
 
-    import grab_misc
     with open(outpath, 'w') as gp:
         gp.write('[\n')
         first = True
-        for x in grab_misc.go(inpath):
+        seen_ids = set()
+        dummy = []
+        for x in walk_path(inpath):
+            if id(x['data']) in seen_ids:
+                continue
+            seen_ids.add(id(x['data']))
+            dummy.append(x)
+
             if not first: gp.write(',')
             first = False
-            if isinstance(x['data'], int):
-                data = cache.data.get([x['data']])
-                if data is None:
-                    continue
-                else:
-                    x['data'] = data
-                    del cache.data[x['data']]
             json.dump(x, gp)
             gp.write('\n')
         gp.write(']')
