@@ -15,15 +15,9 @@ def is_rule_entry(entry):
     return 'no_rules_except' not in entry['data']
 
 INITIAL_BLANKS_RE = re.compile('\s+\n')
-def strip_text(entry):
+def add_normalized_text(entry):
     data = entry['data']
-    text = data['text']
-    if text is not None:
-        text = text.rstrip()
-        m = INITIAL_BLANKS_RE.match(text)
-        if m:
-            text = text[m.end():]
-        data['text'] = text
+    entry['normalized_text'] = util.normalize_rule_text(data['text'])
 
 WAS_RE = re.compile('\(\*was: (.*?)\*\)\s*$', re.I)
 def add_annotation_obj(entry):
@@ -34,7 +28,7 @@ def add_annotation_obj(entry):
     if (len(ans) == 0 or
         (data['revnum'] is not None and ans[-1].revnum is not None and revnum_key(data['revnum']) > revnum_key(ans[-1].revnum)) or
         (ans[-1].cur_num is not None and ans[-1].cur_num != data['number'])):
-        dummy = util.Annotation('').copy()
+        dummy = util.Annotation('#1').copy()
         dummy.revnum = data['revnum']
         timestamp = entry['meta'].get('date')
         if timestamp is not None:
@@ -48,7 +42,7 @@ def add_annotation_obj(entry):
         ans[0].prev_num = last
         ans[0].num_changed = True
         for other in wuz:
-            dummy = util.Annotation('').copy()
+            dummy = util.Annotation('#2').copy()
             dummy.prev_num = other
             dummy.num_changed = True
             ans.insert(0, dummy)
@@ -96,12 +90,6 @@ def add_guessed_numbers(entry):
         if an.num_changed:
             prev_num = an.prev_num
 
-def normalized_text(entry):
-    x = entry.get('normalized_text')
-    if x is None:
-        #print('normalizing', entry['data']['number'], entry['data']['revnum'])
-        x = entry['normalized_text'] = util.normalize_rule_text(entry['data']['text'])
-    return x
 
 FUDGE_REVNUMS = {
     104: ['0'],
@@ -123,42 +111,8 @@ def quality(entry):
     # newer is better, older is better than no date
     return (len(entry['ans']), entry['meta'].get('date', 0))
 def text_match(a, b):
-    if a['data']['text'] == b['data']['text']:
-        return True
-    return normalized_text(a) == normalized_text(b)
+    return a['normalized_text'] == b['normalized_text']
 
-def identify_singletons(entries):
-    # rules with only one text
-    by_number = {}
-    for entry in entries:
-        data = entry['data']
-        number = data['number']
-        existing = by_number.get(number)
-        if existing is False:
-            continue
-        elif existing is None:
-            by_number[number] = [entry]
-        elif text_match(existing[0], entry):
-            existing.append(entry)
-        else:
-            print('disqualifying', number)
-            print(existing[0]['data'])
-            print('--')
-            print(entry['data'])
-            print('--')
-            by_number[number] = False
-    singleton_nums = set()
-    for number, xentries in by_number.items():
-        if xentries is None or xentries is False:
-            continue
-        best = max(xentries, key=quality)
-        variants = []
-        for other in xentries:
-            variants.append(other)
-            other['parent'] = best
-        best['variants'] = variants
-        singleton_nums.add(number)
-    return (singleton_nums, list(filter(lambda entry: 'parent' not in entry, entries)))
 
 def identify_same(entries):
     def add_with_revnum(entry):
@@ -245,16 +199,26 @@ def identify_same(entries):
     return [existing for xentries in by_revnum.values() for existing in xentries]
 
 
+class Entry:
+    def __init__(self, stuff):
+        self.data = stuff['data']
+        self.meta = stuff['meta']
+class Rule:
+    def __init__(self):
+        self.anchors = []
+        self.entries = []
+        self.numbers = set()
+    def __repr__(self):
+        return 'Rule(numbers=%s, anchors=%s, #entries=%s)' % (self.numbers, self.anchors, len(self.entries))
 
-def make_timeline(rule_entries, singleton_nums):
+def make_rules_with_timeline(rule_entries):
     by_num_and_numbered_date = defaultdict(lambda: defaultdict(list))
     for entry in rule_entries:
         entry['anchors'] = []
         for an in entry['ans']:
-            if (an.is_create or an.num_changed) and an.date is not None:
-                by_num_and_numbered_date[an.cur_num][an.date].append(entry)
-                assert_(an.cur_num not in entry['anchors'])
-                entry['anchors'].append((an.cur_num, an.date))
+            if (an.is_create or an.num_changed) and an.date is not None and an._guessed_num is not None:
+                by_num_and_numbered_date[an._guessed_num][an.date].append(entry)
+                entry['anchors'].append((an._guessed_num, an.date))
     timeline_by_num = defaultdict(list)
     for number, by_numbered_date in by_num_and_numbered_date.items():
         timeline_by_num[number] = sorted(by_numbered_date.keys())
@@ -269,26 +233,20 @@ def make_timeline(rule_entries, singleton_nums):
                 already_anchored = True
             if already_anchored:
                 continue
-            if an._guessed_num is not None and an._guessed_num in singleton_nums:
-                # no need to discriminate by date
-                entry['anchors'].append((an._guessed_num, None))
-                already_anchored = True
-                continue
             if an._guessed_num is not None and an.date is not None:
-                timeline = timeline_by_num[an._guessed_num]
+                number = an._guessed_num
+                timeline = timeline_by_num[number]
                 if len(timeline) == 0:
-                    if an._guessed_num in {1074, 362, 388, 399, 417, 597}:
-                        continue
-                    with warnx():
-                        print("No timeline at all for rule %d; can't check for renumberings - for annotation %s" % (an._guessed_num, an))
-                        for an in entry['ans']: print(an)
+                    # eh, assume there weren't multiple copies of this rule
+                    entry['anchors'].append((number, None))
+                    already_anchored = True
                     continue
-                if len(timeline) > 1:
-                    print(number, timeline)
                 i = bisect.bisect_right(timeline, an.date)
-                if i == 0:
+                if i == 0 and number not in {1741}:
                     with warnx():
-                        print('Annotation %s comes before all anchors for rule %d - earliest is at %s' % (an, an._guessed_num, timeline[0]))
+                        print('Annotation comes before all anchors for rule %d: %s' % (number, an))
+                        print('from %s' % entry['meta']['path'])
+                        print('earliest is at %s: %s' % (timeline[0], by_num_and_numbered_date[number][timeline[0]]))
                         for an in entry['ans']: print(an)
                     continue
                 if i == len(timeline):
@@ -296,31 +254,63 @@ def make_timeline(rule_entries, singleton_nums):
                 date = timeline[i]
                 entry['anchors'].append((an._guessed_num, date))
                 already_anchored = True
+    anchor_to_rule = {}
+    all_rules = set()
+    rule_id = 0
+    # unify multiple anchors in the same entry
+    for entry in rule_entries:
+        first_info = None
+        for i, anchor in enumerate(entry['anchors']):
+            rule = anchor_to_rule.get(anchor)
+            if rule is None:
+                rule = Rule()
+                rule.anchors.append(anchor)
+                all_rules.add(rule)
+                anchor_to_rule[anchor] = rule
+            if i == 0:
+                first_rule = rule
+            else:
+                if rule is not first_rule:
+                    for anchor in rule.anchors:
+                        anchor_to_rule[anchor] = first_rule
+                    all_rules.remove(rule)
+                    first_rule.anchors.extend(rule.anchors)
+    unowned_entries = []
+    for entry in rule_entries:
+        if entry['anchors']:
+            rule = anchor_to_rule[entry['anchors'][0]]
+            rule.entries.append(entry)
+            for an in entry['ans']:
+                if an._guessed_num is not None:
+                    rule.numbers.add(an._guessed_num)
+        else:
+            unowned_entries.append(entry)
+    return all_rules, unowned_entries
 
+def do_easy_stragglers(rules, unowned_entries):
+    rules_by_text = defaultdict(set)
+    rules_by_number = defaultdict(set)
+    for rule in rules:
+        for entry in rule.entries:
+            rules_by_text[entry['normalized_text']].add(rule)
+        for number in rule.numbers:
+            rules_by_number[number].add(rule)
+    for entry in unowned_entries:
+        xrules = (rules_by_text[entry['normalized_text']].intersection(
+                  rules_by_number[entry['data']['number']]))
+        if len(xrules) == 1:
+            rule = next(iter(xrules))
+        elif len(xrules) > 1:
+            print('entry:')
+            print(entry)
+            print('candidates:')
+            for rule in xrules:
+                print(rule)
+                for oentry in rule.entries:
+                    print('--')
+                    print(oentry)
+            print('====')
 
-NUMERIC = re.compile('[0-9]+$')
-NUMERIC_DOT_NUMERIC = re.compile('[0-9]+\.[0-9]+$')
-def identify_parents(by_number_and_revnum):
-    for number, by_revnum in by_number_and_revnum.items():
-        for revnum, xentries in by_revnum.items():
-            if revnum == '0':
-                continue # initial rev has no parent
-            for entry in xentries:
-                # do the annotations give us a previous revision number(s) to look for?
-                options = []
-                for an in entry['ans'][::-1]:
-                    if an._guessed_revnum == revnum:
-                        continue
-                    options.append((an._guessed_num, an._guessed_revnum))
-                if options == []:
-                    print(entry)
-                    die
-                    
-                    if NUMERIC.match(revnum):
-                        prev_revnum = str(int(revnum) - 1)
-                    elif NUMERIC_DOT_NUMERIC.match(revnum):
-                        # e.g. 2.1 - used for missing revisions
-                        prev_revnum = str(int(float(revnum)))
 
 
 ap = argparse.ArgumentParser()
@@ -334,12 +324,12 @@ for inputpath in args.inputs:
 def go(entries):
     for i, entry in enumerate(entries):
         entry['id'] = i
-    rule_entries = list(filter(is_rule_entry, entries))
+    rule_entries = list(map(Entry, filter(is_rule_entry, entries)))
     for entry in rule_entries:
-        strip_text(entry)
+        add_normalized_text(entry)
         add_annotation_obj(entry)
         add_guessed_numbers(entry)
-    singleton_nums, rule_entries = identify_singletons(rule_entries)
-    make_timeline(rule_entries, singleton_nums)
+    rules, unowned_entries = make_rules_with_timeline(rule_entries)
+    do_easy_stragglers(rules, unowned_entries)
     #rule_entries = identify_same(rule_entries)
 go(entries)

@@ -7,7 +7,6 @@ show_dups = True
 if show_dups:
     seen_rulenums = set()
 
-numbers_stopped_changing_at = util.strptime_ruleset('1 November 1994')
 for rulestuff in regex.split('\n\n-----+\n\n', stuff)[1:-1]:
     for bit in regex.split('\n\n(?![ \]])', rulestuff):
         if bit.startswith('RULE'):
