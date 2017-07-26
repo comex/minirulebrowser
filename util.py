@@ -1,12 +1,14 @@
-import os, sys, datetime, functools
+import os, sys, datetime, functools, traceback
 try:
     import regex as re
 except ImportError:
+    print("warning: couldn't import 'regex'; using 're' instead", file=sys.stderr)
     import re
 
 try:
     import pyximport
 except ImportError:
+    print("warning: couldn't import 'pyximport' (Cython); using pure-Python instead", file=sys.stderr)
     def normalize_rule_text(text):
         if len(text) > 100000:
             raise Exception('this is definitely not a rule text')
@@ -132,11 +134,11 @@ RULE_N_RE = re.compile('(.*)Rule ([0-9]+)', re.I)
 REVNUM_NOTE_RE = re.compile('([A-Za-z]+)\(([^\(\) ]*?)\)')
 REVNUM_RE = re.compile('[0-9]+(?:\.[0-9]+)?$')
 NUMERIC_RE = re.compile('[0-9]+$')
-AMENDED_BY_PROP_RE = re.compile('(?:amended|transmuted|mutated|power changed|\?\?\?).*by proposal ([^ ]+)', re.I)
+AMENDED_BY_PROP_RE = re.compile('(amended|transmuted|mutated|power changed|\?\?\?)?.*by proposal ([^ ]+)', re.I)
 RENUMBERED_RE = re.compile('(?:renumbered|number changed)(?: from ([0-9]+)(?:\/[^ ]*)?)? to ([0-9]+)', re.I)
 @functools.lru_cache(None)
 class Annotation(object):
-    __slots__ = ['text', 'date', 'revnum', 'is_create', 'prev_num', 'cur_num', 'num_changed', 'is_indeterminate', '_guessed_num', '_guessed_revnum']
+    __slots__ = ['text', 'date', 'revnum', 'is_create', 'prev_num', 'cur_num', 'num_changed', 'proposal_num', 'is_indeterminate', '_guessed_num', '_guessed_revnum']
 
     def __init__(self, text):
         if text is None:
@@ -149,6 +151,7 @@ class Annotation(object):
         self.prev_num = None
         self.cur_num = None
         self.num_changed = False
+        self.proposal_num = None
         self.is_indeterminate = text in {'...', '..', '[orphaned text]'} or '??? by' in text
         text = END_STUFF_RE.sub('', text)
         m = _1996_RE.match(text) or OTHER_DATE_RE.match(text)
@@ -193,17 +196,19 @@ class Annotation(object):
             self.num_changed = True
         m = AMENDED_BY_PROP_RE.search(text)
         if m:
+            was_atmp = bool(m.group(1))
             try:
-                num = int(m.group(1))
+                num = int(m.group(2))
             except ValueError:
                 pass
             else:
-                if num < 1268:
-                    assert self.cur_num is None
+                if num < 1268 and was_atmp:
+                    assert_(self.cur_num is None)
                     self.cur_num = num
                     self.num_changed = True
                     if self.revnum is None:
                         self.revnum = '0.%d' % self.cur_num
+                self.proposal_num = num
 
     def copy(self):
        c = self.__class__(None)
@@ -214,6 +219,7 @@ class Annotation(object):
        c.prev_num = self.prev_num
        c.cur_num = self.cur_num
        c.num_changed = self.num_changed
+       c.proposal_num = self.proposal_num
        c.is_indeterminate = self.is_indeterminate
        return c
 
@@ -223,7 +229,7 @@ class Annotation(object):
             extra += ', _guessed_num=%r' % (self._guessed_num,)
         if hasattr(self, '_guessed_revnum'):
             extra += ', _guessed_revnum=%r' % (self._guessed_revnum,)
-        return 'Annotation(date=%s, revnum=%r, prev_num=%s, cur_num=%s, is_create=%s, num_changed=%s, text=%r%s)' % (self.date, self.revnum, self.prev_num, self.cur_num, self.is_create, self.num_changed, self.text, extra)
+        return 'Annotation(date=%s, revnum=%r, prev_num=%s, cur_num=%s, is_create=%s, num_changed=%s, proposal_num=%s, text=%r%s)' % (self.date, self.revnum, self.prev_num, self.cur_num, self.is_create, self.num_changed, self.proposal_num, self.text, extra)
 
 def datetime_from_timestamp(ts):
     return datetime.datetime.fromtimestamp(ts, datetime.timezone.utc)

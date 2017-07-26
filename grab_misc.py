@@ -6,6 +6,16 @@ from util import assert_, decode, warn, warnx
 import regex # not re
 from rcs import RCSFile
 
+def parsedate_to_datetime(unixdate):
+    date = email.utils.parsedate_to_datetime(unixdate)
+    # "If the input date has a timezone of -0000, the datetime will be a naive datetime"
+    # ^- WTF
+    if date.tzinfo is None:
+        date = date.replace(tzinfo=datetime.timezone.utc)
+    else:
+        date = date.astimezone(datetime.timezone.utc)
+    return date
+
 my_texts = {}
 fsfr_regex = regex.compile(br'''
     (?<=\n|^) # start of line
@@ -324,20 +334,12 @@ def walk_email(metadata, mraw):
     unixdate = unixfrom.split(' ', 2)[2].strip()
     assert_(unixdate)
     mid = message['Message-ID'] or '??message with no Message-ID'
-    date = email.utils.parsedate_to_datetime(unixdate)
-    # "If the input date has a timezone of -0000, the datetime will be a naive datetime"
-    # ^- WTF
-    if date.tzinfo is None:
-        date = date.replace(tzinfo=datetime.timezone.utc)
-    else:
-        date = date.astimezone(datetime.timezone.utc)
+    date = parsedate_to_datetime(unixdate)
     new_metadata = {**metadata, 'date': date.timestamp(), 'path': metadata['path'] + '@message-id:' + mid}
     yield from walk_doc(new_metadata, payload)
 
 def walk_file(metadata, text):
     print('>>>', metadata['path'])
-    if metadata['path'].endswith('.swp'):
-        return # vim temporary file
     if metadata['path'].endswith(',v'):
         # looks like rcs
         rcs = RCSFile(text)
@@ -370,20 +372,30 @@ def file_paths_in(path):
     it = os.walk(path) if os.path.isdir(path) else [('', [], [path])]
     for dirpath, dirnames, filenames in it:
         for filename in filenames:
+            if filename.endswith('.swp'):
+                continue
             path = os.path.join(dirpath, filename)
             if os.path.isfile(path): # not, say, a symlink
-                yield path
+                yield (path, filename)
 
-def walk_filepath(path):
+YYYYMMDD_REGEX = regex.compile('(?:199|200)[0-9]{5}')
+def walk_filepath(x):
+    (path, basename) = x
     with open(path, 'rb') as fp:
         text = fp.read()
-    yield from walk_file({'path': path}, text)
+    meta = {'path': path}
+    m = YYYYMMDD_REGEX.search(basename)
+    if m:
+        meta['date'] = datetime.datetime.strptime(m.group(0), '%Y%m%d').astimezone(datetime.timezone.utc).timestamp()
+    if text.startswith(b'Path: nntp') or text.startswith(b'Newsgroups: '):
+        datestr = regex.search(b'Date: (.*)', text).group(1)
+        date = parsedate_to_datetime(datestr.decode('utf-8'))
+        meta['date'] = date.timestamp()
+    yield from walk_file(meta, text)
 
 def walk_path(path):
     for ret in map(walk_filepath, file_paths_in(path)):
         yield from ret
-
-# this is pointless
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
