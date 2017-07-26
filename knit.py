@@ -20,7 +20,7 @@ def add_normalized_text(entry):
     entry.normalized_text = util.normalize_rule_text(data['text'])
 
 WAS_RE = re.compile('\(\*was: (.*?)\*\)\s*$', re.I)
-def add_annotation_obj(entry):
+def add_annotation_objs(entry):
     data = entry.data
     hist = data.get('history') or []
     ans = [util.Annotation(a).copy() for a in hist]
@@ -28,7 +28,7 @@ def add_annotation_obj(entry):
     if (len(ans) == 0 or
         (data['revnum'] is not None and ans[-1].revnum is not None and revnum_key(data['revnum']) > revnum_key(ans[-1].revnum)) or
         (ans[-1].cur_num is not None and ans[-1].cur_num != data['number'])):
-        dummy = util.Annotation('#1').copy()
+        dummy = util.Annotation('dummyann#1').copy()
         dummy.revnum = data['revnum']
         #timestamp = entry.meta.get('date')
         #if timestamp is not None:
@@ -42,13 +42,15 @@ def add_annotation_obj(entry):
         ans[0].prev_num = last
         ans[0].num_changed = True
         for other in wuz:
-            dummy = util.Annotation('#2').copy()
+            dummy = util.Annotation('dummyann#2').copy()
             dummy.prev_num = other
             dummy.num_changed = True
             ans.insert(0, dummy)
     ans[-1].cur_num = data['number']
     if data['revnum'] is None:
         data['revnum'] = ans[-1].revnum
+    for an in ans:
+        an._entry = entry
 
 def add_guessed_numbers(entry):
     data = entry.data
@@ -243,7 +245,7 @@ ANCHOR_OVERRIDES = {
     (111, datetime.date(1994, 11, 1)): (111, datetime.date(1993, 6, 28)),
 }
 
-def make_rules_with_timeline(rule_entries):
+def split_into_rules_with_number_timeline(rule_entries):
     by_num_and_numbered_date = defaultdict(lambda: defaultdict(list))
     for entry in rule_entries:
         entry.anchors = []
@@ -390,10 +392,162 @@ def do_stragglers(rules, unowned_entries):
         warn('could not match some entries')
 
 
+def create_rule_timeline(rule):
+    # any duplicate annotations? e.g. two retitlings on the same day by the same mechanism.  or indeterminate stuff
+    some_number = min(rule.numbers)
+    duplicate_sigs = {'dummyann#1', 'dummyann#2'}
+    for entry in rule.entries:
+        seen_sigs = set()
+        for an in entry.ans:
+            if an.is_indeterminate or an.sig in seen_sigs:
+                duplicate_sigs.add(an.sig)
+            seen_sigs.add(an.sig)
+    # create a lattice/DAG of all annotations from all entries, ordered by order within an entry
+    # 'latent' = lattice entry
+    latents_by_sig = {}
+    all_latents = set()
+    class Latent:
+        __slots__ = ['prevs', 'nexts', 'sig', 'ans', 'sccid', 'stackidx']
+        def __init__(self, sig):
+            self.prevs = set()
+            self.nexts = set()
+            self.sig = sig
+            self.ans = []
+            self.sccid = None
+            self.stackidx = None
+            all_latents.add(self)
+        def __repr__(self):
+            return 'Latent(%r)' % (self.sig,)
+        def print_sig_and_texts(self):
+            seen = set()
+            print('sig:', self.sig)
+            print('texts:')
+            for an in self.ans:
+                if an.text in seen: continue
+                seen.add(an.text)
+                print('->', an.text)
+                print(' path:', an._entry.meta['path'])
+        def delete(self):
+            for prev in self.prevs: prev.nexts.remove(self)
+            for next in self.nexts: next.prevs.remove(self)
+            all_latents.remove(self)
+
+    def build_latents():
+        for entry in rule.entries:
+            for an in entry.ans:
+                sig = an.sig
+                if sig in duplicate_sigs:
+                    an.latent = Latent(None)
+                elif sig in latents_by_sig:
+                    an.latent = latents_by_sig[sig]
+                else:
+                    an.latent = latents_by_sig[sig] = Latent(sig)
+                an.latent.ans.append(an)
+            for i, an in enumerate(entry.ans):
+                if i > 0:
+                    an.latent.prevs.add(entry.ans[i-1].latent)
+                if i + 1 < len(entry.ans):
+                    an.latent.nexts.add(entry.ans[i+1].latent)
+    def detect_renumberings:
+    def handle_revnum_clashes():
+        latents_by_revnum = defaultdict(list)
+        for latent in latents_by_sig.values():
+            revnum = latent.ans[0].revnum
+            if revnum is not None:
+                latents_by_revnum[revnum].append(latent)
+        for revnum, latents in latents_by_revnum.items():
+            kill = None
+            if len(latents) <= 1:
+                continue
+            if some_number == 1567 and revnum == '2':
+                # 'null-amended' entry later removed
+                continue
+            elif some_number == 207 and revnum == '24':
+                # (24) was renumbered to (25)
+                kill = {'Amended(24) via Rule 2430 "Cleanup Time," 24 May 2017'}
+            elif some_number == 833 and revnum == '6':
+                kill = {('6', '???')}
+            if kill is not None:
+                goods, bads = util.partition(lambda latent: latent.sig not in kill, latents)
+                assert_(len(goods) == 1)
+                for latent in bads:
+                    goods[0].ans.extend(latent.ans)
+                    latent.remove()
+
+            if len(latents) <= 1:
+                continue
+            with warnx():
+                print('Duplicate revnums for rule %s:' % (rule.numbers,))
+                for latent in latents:
+                    print('--')
+                    latent.print_sig_and_texts()
+                print('***')
+
+    def break_cycles_and_group_sccs():
+        # break cycles - turns out doesn't actually happen, but I had to write this code to figure that out, so may as well keep it
+        stack = []
+        for latent in all_latents:
+            latent.prevs = list(latent.prevs)
+            latent.nexts = list(latent.nexts)
+        sccalias = list(range(len(all_latents)))
+        for j, latent0 in enumerate(all_latents):
+            sccid = j
+            stack = [(latent0, 0)]
+            latent0.stackidx = 0
+            latent0.sccid = sccid
+            while stack:
+                latent, nexti = stack[-1]
+                if nexti == len(latent.nexts):
+                    latent.stackidx = None
+                    stack.pop()
+                    continue
+                next = latent.nexts[nexti]
+                stack[-1] = latent, nexti + 1
+                if next.sccid is not None:
+                    if next.sccid != sccid:
+                        if next.sccid < sccid:
+                            sccalias[sccid] = next.sccid
+                            sccid = next.sccid
+                        elif next.sccid > sccid:
+                            sccalias[next.sccid] = sccid
+                    if next.stackidx is not None:
+                        # got a cycle
+                        warn('Got cycle in annotation ordering: %r' % (stack[next.stackidx:],))
+                        # arbitrarily choose the last link to break since it's easier - TODO if there are real cycles, do it better
+                        latent.nexts.remove(next)
+                        next.prevs.remove(latent)
+                        stack[-1] = latent, nexti
+                else:
+                    next.sccid = sccid
+                    next.stackidx = len(stack)
+                    stack.append((next, 0))
+
+        sccdict = defaultdict(list)
+        for latent in all_latents:
+            sccid = latent.sccid
+            lst = []
+            # lol this is dumb
+            while True:
+                sccid2 = sccalias[sccid]
+                if sccid2 == sccid: break
+                assert_(sccid2 < sccid)
+                lst.append(sccid)
+                sccid = sccid2
+            for sccid in lst:
+                sccalias[sccid] = sccid2
+            sccdict[sccid2].append(latent)
+        sccs = filter(len, sccdict.values())
+        return sccs
+    build_latents()
+    handle_revnum_clashes()
+    sccs = break_cycles_and_group_sccs()
+    
+
 
 ap = argparse.ArgumentParser()
 ap.add_argument('inputs', nargs='*', default=['out_zefram.json', 'out_misc.json', 'out_git.json'])
 args = ap.parse_args()
+
 
 entries = []
 for inputpath in args.inputs:
@@ -401,12 +555,22 @@ for inputpath in args.inputs:
         entries += json.load(fp)
 def go(entries):
     entries = list(map(Entry, entries))
-    rule_entries = list(filter(is_rule_entry, entries))
+    rule_entries = []
+    no_rules_except_entries = []
+    for entry in entries:
+        if is_rule_entry(entry):
+            rule_entries.append(entry)
+        else:
+            assert_('no_rules_except' in entry.data)
+            date = entry.date()
+            if date is not None:
+                no_rules_except_entries.append((date, entry))
     for entry in rule_entries:
         add_normalized_text(entry)
-        add_annotation_obj(entry)
+        add_annotation_objs(entry)
         add_guessed_numbers(entry)
-    rules, unowned_entries = make_rules_with_timeline(rule_entries)
+    rules, unowned_entries = split_into_rules_with_number_timeline(rule_entries)
     do_stragglers(rules, unowned_entries)
-    #rule_entries = identify_same(rule_entries)
+    for rule in rules:
+        create_rule_timeline(rule)
 go(entries)

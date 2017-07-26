@@ -1,4 +1,10 @@
-import os, sys, datetime, functools, traceback
+import os, sys, datetime, functools, traceback, atexit
+from collections import namedtuple
+try:
+    from cached_property import cached_property
+except:
+    print('*** Did you install the dependencies? try %s -m pip install -r requirements.txt' % (sys.executable,))
+    raise
 try:
     import regex as re
 except ImportError:
@@ -29,6 +35,7 @@ def assert_(cond):
         raise AssertionError
 
 FATAL_WARNINGS = True
+got_any_warnings = False
 def warn(x):
     with warnx():
         print(x)
@@ -37,8 +44,12 @@ class warnx:
         print('warning: ', end='')
     def __exit__(self, ty, val, traceback):
         if ty is not None: return False
-        if FATAL_WARNINGS: raise Exception('got warning w/ fatal warnings enabled')
+        global got_any_warnings
+        got_any_warnings = True
         return False
+@atexit.register
+def warn_cleanup():
+    if FATAL_WARNINGS: raise Exception('got warnings w/ fatal warnings enabled')
 
 def highlight_spaces(text):
     return re.sub('[^ -~\n]+', lambda m: repr(m.group(0))[1:-1], text).replace(' ', '\x1b[7m \x1b[0m')
@@ -125,20 +136,22 @@ FOUNDING_DATE = strptime_ruleset('28 June 1993')
 REVNUM_FIXUPS = {
     'e': '3',
 }
-END_STUFF_RE = re.compile('(?:,?\s*(?:sus?bs?tantial|cosmetic|\([^\)]+\)))*$')
+END_STUFF_RE = re.compile(r'(?:,?\s*(?:sus?bs?tantial|cosmetic|\([^\)]+\)))*$')
 _1996_RE = re.compile('(.*), (?:ca\. )?([^,]* 1996)')
-OTHER_DATE_RE = re.compile('(.*), (?!19[0-9]{2}|20[0-9]{2})(?:ca\. )?(.*?)\.?$')
-INITIAL_RE = re.compile('ini?t?ial ', re.I)
-CREATED_RE = re.compile('created|enacted', re.I)
-RULE_N_RE = re.compile('(.*)Rule ([0-9]+)', re.I)
-REVNUM_NOTE_RE = re.compile('([A-Za-z]+)\(([^\(\) ]*?)\)')
-REVNUM_RE = re.compile('[0-9]+(?:\.[0-9]+)?$')
-NUMERIC_RE = re.compile('[0-9]+$')
-AMENDED_BY_PROP_RE = re.compile('(amended|transmuted|mutated|power changed|\?\?\?)?.*by proposal ([^ ]+)', re.I)
-RENUMBERED_RE = re.compile('(?:renumbered|number changed)(?: from ([0-9]+)(?:\/[^ ]*)?)? to ([0-9]+)', re.I)
+OTHER_DATE_RE = re.compile(r'(.*), (?!19[0-9]{2}|20[0-9]{2})(?:ca\. )?(.*?)\.?$')
+INITIAL_RE = re.compile(r'ini?t?ial ', re.I)
+CREATED_RE = re.compile(r'created|\benacted', re.I)
+# XXX handle reenacts! rulekeepor is dead atm
+RULE_N_RE = re.compile(r'(.*)Rule ([0-9]+)', re.I)
+REVNUM_NOTE_RE = re.compile(r'([A-Za-z]+)\(([^\(\) ]*?)\)')
+REVNUM_RE = re.compile(r'[0-9]+(?:\.[0-9]+)?$')
+NUMERIC_RE = re.compile(r'[0-9]+$')
+AMENDED_BY_PROP_RE = re.compile('(amended|transmuted|mutated|power changed|\?\?\?)?.*by proposa?l ([^ ]+)', re.I)
+RENUMBERED_RE = re.compile(r'(?:renumbered|number changed)(?: from ([0-9]+)(?:\/[^ ]*)?)? to ([0-9]+)', re.I)
+BY_RE = re.compile(r'\bby ([^,\(]*)')
 @functools.lru_cache(None)
 class Annotation(object):
-    __slots__ = ['text', 'date', 'revnum', 'is_create', 'prev_num', 'cur_num', 'num_changed', 'proposal_num', 'is_indeterminate', '_guessed_num', '_guessed_revnum']
+    __slots__ = ['text', 'date', 'revnum', 'is_create', 'prev_num', 'cur_num', 'num_changed', 'proposal_num', 'is_indeterminate', '_guessed_num', '_guessed_revnum', 'latent', '_sig', '_entry']
 
     def __init__(self, text):
         if text is None:
@@ -223,6 +236,44 @@ class Annotation(object):
        c.is_indeterminate = self.is_indeterminate
        return c
 
+    @property
+    def sig(self):
+        try:
+            return self._sig
+        except AttributeError:
+            self._sig = self._calc_sig()
+            return self._sig
+    def _calc_sig(self):
+        # get a value such that if two sigs are equal, they probably represent
+        # the same change (even given corrections) OR are just
+        # indistinguishable by text alone (e.g. two retitlings, see knit.py)
+        if self.is_create:
+            return ('create',)
+        if self.revnum is not None:
+            distinguisher = self.revnum
+        elif re.search('(?:renumbered|number changed)', self.text, re.I):
+            distinguisher = 'renumber'
+        elif re.search('(?:retitled|title changed)', self.text, re.I):
+            distinguisher = 'retitle'
+        elif re.search('(?:transmuted|power changed|from MI=)', self.text, re.I):
+            distinguisher = 'repower'
+        else:
+            # dunno
+            distinguisher = None
+        if self.proposal_num is not None:
+            doer = ('proposal', self.proposal_num)
+        else:
+            m = BY_RE.search(self.text)
+            if m:
+                doer = m.group(1).rstrip()
+            else:
+                # dunno
+                doer = None
+        if distinguisher is not None and doer is not None:
+            return (distinguisher, doer)
+        else:
+            return self.text
+
     def __repr__(self):
         extra = ''
         if hasattr(self, '_guessed_num'):
@@ -233,3 +284,15 @@ class Annotation(object):
 
 def datetime_from_timestamp(ts):
     return datetime.datetime.fromtimestamp(ts, datetime.timezone.utc)
+
+Box = namedtuple('Box', ['value'])
+
+def partition(func, iterable):
+    yes = []
+    no = []
+    for item in iterable:
+        if func(item):
+            yes.append(item)
+        else:
+            no.append(item)
+    return yes, no
