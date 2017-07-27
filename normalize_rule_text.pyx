@@ -1,5 +1,5 @@
 from libc.stdlib cimport malloc, free
-def normalize_rule_text(text):
+def normalize_rule_text_inner(text):
     as_bytes = text.rstrip().encode('utf-8')
     cdef int length = len(as_bytes)
     cdef char* inbuf = as_bytes

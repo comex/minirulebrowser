@@ -82,17 +82,10 @@ fsfr_regex = regex.compile(br'''
             (?P<thehist>
                 (?:
                     # any number of lines starting like this
-                    [a-zA-Z\.\( ][^\n]*(?:\n|$)
+                    [a-zA-Z\.\(\[ ][^\n]*(?:\n|$)
                 )*
             )
         )?
-        # end on something that is none of:
-        # - indented
-        # - an old-fashioned numbered rule
-        # - an annotation
-        # - a blank line
-        (?&newline)*
-        (?![ 0-9\[\n])
     )
 ''', regex.S | regex.X)
 FIXUPS_FOR_RULENUM = {
@@ -131,11 +124,11 @@ def find_stdformat_rules(text, expect_history=False):
                     print(util.highlight_spaces(decode(text)))
                     print('}}}')
                     print('^- no history in this FLR entry')
-        text = g['text'] or b''
+        rtext = g['text'] or b''
         inumber = int(g['number'])
         extraheader = g['extraheader'] or b''
         if extraheader:
-            _extratitle, text, extraheader = fix_oldformat_header(inumber, text, extraheader.rstrip())
+            _extratitle, rtext, extraheader = fix_oldformat_header(inumber, rtext, extraheader.rstrip())
 
         data = {
             'number': inumber,
@@ -143,7 +136,7 @@ def find_stdformat_rules(text, expect_history=False):
             'title': decode(g['title']) if g['title'] else None,
             'header': decode(g['header']),
             'extra': decode(extraheader) if extraheader else None,
-            'text': decode(text),
+            'text': decode(rtext),
             'annotations': decode(g['annotations']) or None,
             'history': history,
         }

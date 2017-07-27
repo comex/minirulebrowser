@@ -1,31 +1,35 @@
 import os, sys, datetime, functools, traceback, atexit
 from collections import namedtuple
 try:
-    from cached_property import cached_property
+    import yaml
 except:
     print('*** Did you install the dependencies? try %s -m pip install -r requirements.txt' % (sys.executable,))
     raise
 try:
     import regex as re
 except ImportError:
-    print("warning: couldn't import 'regex'; using 're' instead", file=sys.stderr)
+    print("warning: couldn't import 'regex'; using 're' instead for pypy compat", file=sys.stderr)
     import re
 
 try:
     import pyximport
 except ImportError:
     print("warning: couldn't import 'pyximport' (Cython); using pure-Python instead", file=sys.stderr)
-    def normalize_rule_text(text):
-        if len(text) > 100000:
-            raise Exception('this is definitely not a rule text')
-        text = text.rstrip()
-        if text.endswith('*)'):
-            text = re.sub('\(\*was: .*?\*\)$', '', text, flags=re.I)
-        text = text.lower()
-        return re.sub('[^a-z0-9]', '', text)
+    def normalize_rule_text_inner(text):
+        return normalize_rule_text_inner_python(text)
 else:
     pyximport.install()
-    from normalize_rule_text import normalize_rule_text
+    from normalize_rule_text import normalize_rule_text_inner as normalize_rule_text_inner
+def normalize_rule_text(text):
+    if len(text) > 100000:
+        raise Exception('this is definitely not a rule text')
+    text = text.rstrip()
+    if text.endswith('*)'):
+        text = re.sub('\(\*was: .*?\*\)\s*$', '', text, flags=re.I)
+    return normalize_rule_text_inner(text)
+
+def normalize_rule_text_inner_python(text):
+    return re.sub('[^a-z0-9]', '', text.lower()).encode('utf-8')
 
 def decode(binary):
     return binary.decode('utf-8')
@@ -147,7 +151,7 @@ RULE_N_RE = re.compile(r'(.*)Rule ([0-9]+)', re.I)
 REVNUM_NOTE_RE = re.compile(r'([A-Za-z]+)\(([^\(\) ]*?)\)')
 REVNUM_RE = re.compile(r'[0-9]+(?:\.[0-9]+)?$')
 NUMERIC_RE = re.compile(r'[0-9]+$')
-AMENDED_BY_PROP_RE = re.compile('(amended|transmuted|mutated|power changed|\?\?\?)?.*by pro[a-z]+ ([^ ]+)', re.I)
+AMENDED_BY_PROP_RE = re.compile('(amended|transmuted|mutated|power changed|\?\?\?)?.*by pro[a-z]+ ([0-9][^ ]+)', re.I)
 RENUMBERED_RE = re.compile(r'(?:renumbered|number changed)(?: from ([0-9]+)(?:\/[^ ]*)?)? to ([0-9]+)', re.I)
 BY_RE = re.compile(r'\bby ([^,\(]*)')
 @functools.lru_cache(None)
@@ -211,8 +215,9 @@ class Annotation(object):
         m = AMENDED_BY_PROP_RE.search(text)
         if m:
             was_atmp = bool(m.group(1))
+            self.proposal_num = m.group(2)
             try:
-                num = int(m.group(2))
+                num = int(self.proposal_num)
             except ValueError:
                 pass
             else:
@@ -222,7 +227,6 @@ class Annotation(object):
                     self.num_changed = True
                     if self.revnum is None:
                         self.revnum = '0.%d' % self.cur_num
-                self.proposal_num = num
 
     def copy(self):
        c = self.__class__(None)
@@ -249,7 +253,7 @@ class Annotation(object):
         # the same change (even given corrections) OR are just
         # indistinguishable by text alone (e.g. two retitlings, see knit.py)
         if self.is_create:
-            return ('create',)
+            return ('0', 'create')
         if re.search('(?:renumbered|number changed)', self.text, re.I):
             distinguisher = 'renumber'
         elif re.search('(?:retitled|title changed)', self.text, re.I):
@@ -297,3 +301,6 @@ def partition(func, iterable):
         else:
             no.append(item)
     return yes, no
+
+def cmp(a, b):
+    return (a > b) - (a < b)

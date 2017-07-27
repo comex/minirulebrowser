@@ -23,7 +23,7 @@ WAS_RE = re.compile('\(\*was: (.*?)\*\)\s*$', re.I)
 def add_annotation_objs(entry):
     data = entry.data
     hist = data.get('history') or []
-    ans = [util.Annotation(a).copy() for a in hist]
+    ans = [util.Annotation(a).copy() for a in hist if not a.startswith('[')]
     entry.ans = ans
     if (len(ans) == 0 or
         (data['revnum'] is not None and ans[-1].revnum is not None and revnum_key(data['revnum']) > revnum_key(ans[-1].revnum)) or
@@ -206,6 +206,7 @@ class Entry:
         self.data = stuff['data']
         self.meta = stuff['meta']
         self.no_link = False
+        self._date_lower_bound = None
     def __str__(self):
         return ('entry %#x - %s/%s - normalized_text crc=%x\n%s\npath: %s' % (id(self), self.data['number'], self.data['revnum'], self.text_crc(), self.data['text'].rstrip(), self.meta['path']))
     def text_crc(self):
@@ -217,13 +218,17 @@ class Entry:
         else:
             return util.datetime_from_timestamp(ts)
     def date_lower_bound(self):
+        if self._date_lower_bound is None:
+            self._date_lower_bound = self._calc_date_lower_bound()
+        return self._date_lower_bound
+    def _calc_date_lower_bound(self):
         date = self.date()
         if date is not None:
             return date
         date_from_ans = max((util.datetime_from_date(an.date) for an in self.ans if an.date is not None), default=None)
         if date_from_ans is not None:
             return date_from_ans
-        return util.FOUNDING_DATE
+        return util.datetime_from_date(util.FOUNDING_DATE)
 class Rule:
     def __init__(self):
         self.anchors = []
@@ -241,11 +246,11 @@ class Rule:
 
 
 ANCHOR_OVERRIDES = {
-    (2220, 5658): (2220, 5958),
-    (2388, 7328): (2388, 7320),
+    (2220, '5658'): (2220, '5958'),
+    (2388, '7328'): (2388, '7320'),
     # was Rule 1477 created by Rule 1601 or Proposal 1601?
     # I can't find a primary source, but later FLRs say proposal
-    (1477, datetime.date(1995, 6, 19)): (1477, 1601),
+    (1477, datetime.date(1995, 6, 19)): (1477, '1601'),
     # Rule 111 was renumbered to 1076 and then back to 111, at least
     # supposedly - see '1076.' in
     # archives/agora_vanyel0/agora/logs/discussion/1997.09.27
@@ -254,14 +259,13 @@ ANCHOR_OVERRIDES = {
     (111, datetime.date(1994, 11, 1)): (111, datetime.date(1993, 6, 28)),
 }
 REVNUM_FIXES = {
-    (649, ('25', None, ('proposal', 5241))): 'merge',
-    (4123, ('10', None, ('proposal', 4123))): 'kill', # insufficient power
+    (649, ('25', None, ('proposal', '5241'))): 'merge',
+    (4123, ('10', None, ('proposal', '4123'))): 'kill', # insufficient power
     (833, ('6', None, '???')): 'merge', # bad
     (207, 'Amended(24) via Rule 2430 "Cleanup Time," 24 May 2017'): 'merge',
-    (1555, ('6', None, 'Proposla 4071')): 'merge', # typo
-    (1567, ('2', None, ('proposal', 2662))): 'allow', # null-amended
-    (101, ('16', None, ('proposal', 7614))): 'merge', # missing "retitled"
-    (1952, ('3', None, ('proposal', 4518))): 'kill', # failed quorum?
+    (1567, ('2', None, ('proposal', '2662'))): 'allow', # null-amended
+    (101, ('16', None, ('proposal', '7614'))): 'merge', # missing "retitled"
+    (1952, ('3', None, ('proposal', '4518'))): 'kill', # failed quorum?
 }
 
 def split_into_rules_with_number_timeline(rule_entries):
@@ -364,7 +368,6 @@ def do_stragglers(rules, unowned_entries):
     unowned_by_number_and_text = defaultdict(lambda: defaultdict(set))
     for entry in unowned_entries:
         unowned_by_number_and_text[entry.data['number']][entry.normalized_text].add(entry)
-    had_fails = False
     for number, by_text in unowned_by_number_and_text.items():
         nrules = rules_by_number[number]
         if len(nrules) == 0 or number in {1741}:
@@ -393,22 +396,21 @@ def do_stragglers(rules, unowned_entries):
                     rule = next(iter(drules))
                     rule.entries.append(entry)
                 else:
-                    print('could not match entry (and copies) to rule:')
-                    print(next(iter(entries)))
-                    print('date:', entry.date())
-                    for i, rule in enumerate(drules):
-                        print('***** candidate %d/%d:' % (i+1, len(drules)))
-                        print(rule)
-                        for oentry in rule.entries:
-                            print('--')
-                            print(oentry)
-                    if not drules:
-                        print('***** no candidates! (%d by number alone, but enacted too late)' % (len(nrules),))
-                    print('====')
-                    had_fails = True
+                    with warnx():
+                        print('could not match entry (and copies) to rule:')
+                        print(next(iter(entries)))
+                        print('date:', entry.date())
+                        for i, rule in enumerate(drules):
+                            print('***** candidate %d/%d:' % (i+1, len(drules)))
+                            print(rule)
+                            for oentry in rule.entries:
+                                print('--')
+                                print(oentry)
+                                #for an in oentry.ans: print(an)
+                        if not drules:
+                            print('***** no candidates! (%d by number alone, but enacted too late)' % (len(nrules),))
+                        print('====')
                     break
-    if had_fails:
-        warn('could not match some entries')
 
 
 def create_rule_timeline(rule):
@@ -426,11 +428,12 @@ def create_rule_timeline(rule):
     latent_by_sig = {}
     all_latents = set()
     class Latent:
-        __slots__ = ['prevs', 'nexts', 'sig', 'ans', 'seen', 'dead', 'stackidx']
-        def __init__(self, sig):
+        __slots__ = ['prevs', 'nexts', 'nextlist', 'sig', 'is_indeterminate', 'ans', 'seen', 'dead', 'stackidx']
+        def __init__(self, sig, is_indeterminate=False):
             self.prevs = set()
             self.nexts = set()
             self.sig = sig
+            self.is_indeterminate = is_indeterminate
             self.ans = set()
             self.seen = False
             self.dead = False
@@ -457,13 +460,21 @@ def create_rule_timeline(rule):
                 an.latent = other
             other.ans.update(self.ans)
             self.delete()
+        def date_lower_bound(self):
+            return max(an._entry.date_lower_bound() for an in self.ans)
+        def revnum(self):
+            if isinstance(self.sig, tuple):
+                return self.sig[0]
+            return None
 
     def build_latents():
         for entry in rule.entries:
+            if entry.data['revnum'] is None:
+                continue
             for an in entry.ans:
                 sig = an.sig
                 if sig in duplicate_sigs:
-                    an.latent = Latent(None)
+                    an.latent = Latent(None, is_indeterminate=an.is_indeterminate)
                 elif sig in latent_by_sig:
                     an.latent = latent_by_sig[sig]
                 else:
@@ -472,7 +483,7 @@ def create_rule_timeline(rule):
     def detect_renumberings():
         latents_by_reduced_sig = defaultdict(list)
         for latent in all_latents:
-            if latent.sig is None or isinstance(latent.sig, str) or latent.sig == ('create',):
+            if latent.sig is None or isinstance(latent.sig, str) or latent.sig == ('0', 'create'):
                 continue
             rsig = latent.sig[1:]
             if rsig[-1] == 'cleaning':
@@ -494,6 +505,7 @@ def create_rule_timeline(rule):
                         for an in loser.ans:
                             an._entry.no_link = True
                         loser.merge_into(winner)
+                    #print('xxx', some_number)
                     continue
                 else:
                     why_not = "can't find newest"
@@ -511,7 +523,7 @@ def create_rule_timeline(rule):
 
     def add_links():
         for entry in rule.entries:
-            if entry.no_link:
+            if entry.no_link or entry.data['revnum'] is None:
                 continue
             ans = [an for an in entry.ans if not an.latent.dead]
             for i, an in enumerate(ans):
@@ -520,13 +532,57 @@ def create_rule_timeline(rule):
                 if i + 1 < len(entry.ans):
                     an.latent.nexts.add(ans[i+1].latent)
     # currently disabled
-    def handle_revnum_clashes():
+    def handle_revnum_clashes(full):
         latents_by_revnum = defaultdict(list)
         for latent in latent_by_sig.values():
             if latent.dead: continue
-            revnum = next(iter(latent.ans)).revnum
+            try:
+                revnum = next(an.revnum for an in latent.ans if not an._entry.no_link and an.revnum is not None)
+            except StopIteration:
+                revnum = next(an.revnum for an in latent.ans)
             if revnum is not None:
                 latents_by_revnum[revnum].append(latent)
+        for latent in list(all_latents):
+            if latent.sig is None:
+                an = next(iter(latent.ans))
+                if an.revnum is not None:
+                    proper = latents_by_revnum[an.revnum]
+                    if len(proper) == 1:
+                        latent.merge_into(proper[0])
+                        continue
+                    if len(proper) == 0:
+                        # eh... I guess there's nothing for it
+                        proper.append(latent)
+                        continue
+                    # ...can we find a text match?
+                    text = an._entry.normalized_text
+                    text_matches = [olatent for olatent in proper if any(oan._entry.normalized_text == text for oan in olatent.ans)]
+                    if len(text_matches) == 1:
+                        latent.merge_into(text_matches[0])
+                        continue
+                    # ...can we find a text match with some other revnum?
+                    oans = (oan for olatent in latent_by_sig.values() if not olatent.dead for oan in olatent.ans if oan._entry.normalized_text == text)
+                    try:
+                        oan = next(oans)
+                    except StopIteration:
+                        pass
+                    else:
+                        #print('other text match, so ignore')
+                        #print('matched:', oan)
+                        latent.delete()
+                        continue
+                    # ...
+                    with warnx():
+                        print("in rule %d: couldn't find something to merge this into:" % (some_number,))
+                        print(an)
+                        print(an._entry)
+                        print('possibilities: (%d)' % (len(proper),))
+                        for olatent in proper:
+                            print(olatent)
+                        print('--')
+
+        if not full:
+            return
         for revnum, latents in latents_by_revnum.items():
             kill = set()
             if len(latents) <= 1:
@@ -534,9 +590,10 @@ def create_rule_timeline(rule):
             dispositions = [REVNUM_FIXES.get((some_number, latent.sig)) for latent in latents]
             nones = [latent for (disposition, latent) in zip(dispositions, latents) if disposition is None]
             if len(nones) > 1:
-                # are they all seen in some single entry?
+                # are they all seen in some single entry? then keep all
                 if functools.reduce(set.intersection, (latent.ans for latent in nones)):
                     continue
+                # is all but one from nolink?
                 with warnx():
                     print('Duplicate revnums for rule %s:' % (rule.numbers,))
                     for latent in latents:
@@ -561,19 +618,18 @@ def create_rule_timeline(rule):
         # break cycles - turns out doesn't actually happen, but I had to write this code to figure that out, so may as well keep it
         stack = []
         for latent in all_latents:
-            latent.prevs = list(latent.prevs)
-            latent.nexts = list(latent.nexts)
+            latent.nextlist = list(latent.nexts)
         for j, latent0 in enumerate(all_latents):
             stack = [[latent0, 0]]
             latent0.stackidx = 0
             while stack:
                 latent, nexti = stack[-1]
-                if nexti == len(latent.nexts):
+                if nexti == len(latent.nextlist):
                     latent.stackidx = None
                     stack.pop()
                     continue
                 assert latent in all_latents # XXX
-                next = latent.nexts[nexti]
+                next = latent.nextlist[nexti]
                 stack[-1][1] = nexti + 1
                 if next.seen:
                     if next.stackidx is not None:
@@ -585,6 +641,7 @@ def create_rule_timeline(rule):
                                 xlatent.print_sig_and_texts()
                             print('***')
                         # arbitrarily choose the last link to break since it's easier - TODO if there are real cycles, do it better
+                        latent.nextlist.remove(next)
                         latent.nexts.remove(next)
                         next.prevs.remove(latent)
                         stack[-1][1] -= 1
@@ -594,12 +651,53 @@ def create_rule_timeline(rule):
                     next.stackidx = len(stack)
                     stack.append([next, 0])
 
+
+    def bfs_order():
+        for latent in all_latents: latent.seen = False
+        def cmp_latents(latent1, latent2):
+            rev1, rev2 = latent1.revnum(), latent2.revnum()
+            if rev1 is not None and rev2 is not None and rev1 != rev2:
+                # lower revnums first
+                return util.cmp(revnum_key(rev1), revnum_key(rev2))
+            # otherwise, do it by date
+            return util.cmp(latent1.date_lower_bound(), latent2.date_lower_bound())
+        key = functools.cmp_to_key(cmp_latents)
+        roots = sorted((latent for latent in all_latents if not latent.prevs),
+                       key=key)
+        todo_roots = roots[::-1]
+        order = []
+        while todo_roots:
+            todo = [todo_roots.pop()]
+            while todo:
+                latent = todo.pop()
+                if latent.seen:
+                    continue
+                latent.seen = True
+                # indeterminate entries shouldn't be in order
+                if not latent.is_indeterminate:
+                    if order and latent not in order[-1].nexts:
+                        order.append(None) # '...'
+                    order.append(latent)
+                for nxt in sorted(latent.nexts, key=key, reverse=True):
+                    if nxt.seen:
+                        continue
+                    if nxt.is_indeterminate:
+                        todo_roots.append(nxt)
+                    else:
+                        todo.append(nxt)
+        return order
     build_latents()
     detect_renumberings()
     add_links()
-    handle_revnum_clashes()
+    handle_revnum_clashes(full=False)
     break_cycles()
-    
+    order = bfs_order()
+    print(some_number, len(order))
+    #if some_number == 1728:
+    #    for a in order:
+    #        print(a)
+    #        if a:
+    #            print(a.ans)
 
 
 ap = argparse.ArgumentParser()
