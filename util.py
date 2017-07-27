@@ -49,7 +49,8 @@ class warnx:
         return False
 @atexit.register
 def warn_cleanup():
-    if FATAL_WARNINGS: raise Exception('got warnings w/ fatal warnings enabled')
+    if got_any_warnings:
+        if FATAL_WARNINGS: raise Exception('got warnings w/ fatal warnings enabled')
 
 def highlight_spaces(text):
     return re.sub('[^ -~\n]+', lambda m: repr(m.group(0))[1:-1], text).replace(' ', '\x1b[7m \x1b[0m')
@@ -146,7 +147,7 @@ RULE_N_RE = re.compile(r'(.*)Rule ([0-9]+)', re.I)
 REVNUM_NOTE_RE = re.compile(r'([A-Za-z]+)\(([^\(\) ]*?)\)')
 REVNUM_RE = re.compile(r'[0-9]+(?:\.[0-9]+)?$')
 NUMERIC_RE = re.compile(r'[0-9]+$')
-AMENDED_BY_PROP_RE = re.compile('(amended|transmuted|mutated|power changed|\?\?\?)?.*by proposa?l ([^ ]+)', re.I)
+AMENDED_BY_PROP_RE = re.compile('(amended|transmuted|mutated|power changed|\?\?\?)?.*by pro[a-z]+l ([^ ]+)', re.I)
 RENUMBERED_RE = re.compile(r'(?:renumbered|number changed)(?: from ([0-9]+)(?:\/[^ ]*)?)? to ([0-9]+)', re.I)
 BY_RE = re.compile(r'\bby ([^,\(]*)')
 @functools.lru_cache(None)
@@ -249,9 +250,7 @@ class Annotation(object):
         # indistinguishable by text alone (e.g. two retitlings, see knit.py)
         if self.is_create:
             return ('create',)
-        if self.revnum is not None:
-            distinguisher = self.revnum
-        elif re.search('(?:renumbered|number changed)', self.text, re.I):
+        if re.search('(?:renumbered|number changed)', self.text, re.I):
             distinguisher = 'renumber'
         elif re.search('(?:retitled|title changed)', self.text, re.I):
             distinguisher = 'retitle'
@@ -269,8 +268,8 @@ class Annotation(object):
             else:
                 # dunno
                 doer = None
-        if distinguisher is not None and doer is not None:
-            return (distinguisher, doer)
+        if (distinguisher is not None or self.revnum is not None) and doer is not None:
+            return (self.revnum, distinguisher, doer)
         else:
             return self.text
 
@@ -284,6 +283,8 @@ class Annotation(object):
 
 def datetime_from_timestamp(ts):
     return datetime.datetime.fromtimestamp(ts, datetime.timezone.utc)
+def datetime_from_date(date):
+    return datetime.datetime.combine(date, datetime.time(tzinfo=datetime.timezone.utc))
 
 Box = namedtuple('Box', ['value'])
 

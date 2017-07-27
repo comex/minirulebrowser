@@ -205,6 +205,7 @@ class Entry:
     def __init__(self, stuff):
         self.data = stuff['data']
         self.meta = stuff['meta']
+        self.no_link = False
     def __str__(self):
         return ('entry %#x - %s/%s - normalized_text crc=%x\n%s\npath: %s' % (id(self), self.data['number'], self.data['revnum'], self.text_crc(), self.data['text'].rstrip(), self.meta['path']))
     def text_crc(self):
@@ -215,6 +216,14 @@ class Entry:
             return None
         else:
             return util.datetime_from_timestamp(ts)
+    def date_lower_bound(self):
+        date = self.date()
+        if date is not None:
+            return date
+        date_from_ans = max((util.datetime_from_date(an.date) for an in self.ans if an.date is not None), default=None)
+        if date_from_ans is not None:
+            return date_from_ans
+        return util.FOUNDING_DATE
 class Rule:
     def __init__(self):
         self.anchors = []
@@ -243,6 +252,16 @@ ANCHOR_OVERRIDES = {
     # there's nothing in rulesets to link them, so this otherwise
     # would treat them as two separate rules
     (111, datetime.date(1994, 11, 1)): (111, datetime.date(1993, 6, 28)),
+}
+REVNUM_FIXES = {
+    (649, ('25', None, ('proposal', 5241))): 'merge',
+    (4123, ('10', None, ('proposal', 4123))): 'kill', # insufficient power
+    (833, ('6', None, '???')): 'merge', # bad
+    (207, 'Amended(24) via Rule 2430 "Cleanup Time," 24 May 2017'): 'merge',
+    (1555, ('6', None, 'Proposla 4071')): 'merge', # typo
+    (1567, ('2', None, ('proposal', 2662))): 'allow', # null-amended
+    (101, ('16', None, ('proposal', 7614))): 'merge', # missing "retitled"
+    (1952, ('3', None, ('proposal', 4518))): 'kill', # failed quorum?
 }
 
 def split_into_rules_with_number_timeline(rule_entries):
@@ -404,16 +423,17 @@ def create_rule_timeline(rule):
             seen_sigs.add(an.sig)
     # create a lattice/DAG of all annotations from all entries, ordered by order within an entry
     # 'latent' = lattice entry
-    latents_by_sig = {}
+    latent_by_sig = {}
     all_latents = set()
     class Latent:
-        __slots__ = ['prevs', 'nexts', 'sig', 'ans', 'sccid', 'stackidx']
+        __slots__ = ['prevs', 'nexts', 'sig', 'ans', 'seen', 'dead', 'stackidx']
         def __init__(self, sig):
             self.prevs = set()
             self.nexts = set()
             self.sig = sig
-            self.ans = []
-            self.sccid = None
+            self.ans = set()
+            self.seen = False
+            self.dead = False
             self.stackidx = None
             all_latents.add(self)
         def __repr__(self):
@@ -431,6 +451,12 @@ def create_rule_timeline(rule):
             for prev in self.prevs: prev.nexts.remove(self)
             for next in self.nexts: next.prevs.remove(self)
             all_latents.remove(self)
+            self.dead = True
+        def merge_into(self, other):
+            for an in self.ans:
+                an.latent = other
+            other.ans.update(self.ans)
+            self.delete()
 
     def build_latents():
         for entry in rule.entries:
@@ -438,109 +464,141 @@ def create_rule_timeline(rule):
                 sig = an.sig
                 if sig in duplicate_sigs:
                     an.latent = Latent(None)
-                elif sig in latents_by_sig:
-                    an.latent = latents_by_sig[sig]
+                elif sig in latent_by_sig:
+                    an.latent = latent_by_sig[sig]
                 else:
-                    an.latent = latents_by_sig[sig] = Latent(sig)
-                an.latent.ans.append(an)
-            for i, an in enumerate(entry.ans):
-                if i > 0:
-                    an.latent.prevs.add(entry.ans[i-1].latent)
-                if i + 1 < len(entry.ans):
-                    an.latent.nexts.add(entry.ans[i+1].latent)
-    def detect_renumberings:
-    def handle_revnum_clashes():
-        latents_by_revnum = defaultdict(list)
-        for latent in latents_by_sig.values():
-            revnum = latent.ans[0].revnum
-            if revnum is not None:
-                latents_by_revnum[revnum].append(latent)
-        for revnum, latents in latents_by_revnum.items():
-            kill = None
-            if len(latents) <= 1:
+                    an.latent = latent_by_sig[sig] = Latent(sig)
+                an.latent.ans.add(an)
+    def detect_renumberings():
+        latents_by_reduced_sig = defaultdict(list)
+        for latent in all_latents:
+            if latent.sig is None or isinstance(latent.sig, str) or latent.sig == ('create',):
                 continue
-            if some_number == 1567 and revnum == '2':
-                # 'null-amended' entry later removed
+            rsig = latent.sig[1:]
+            if rsig[-1] == 'cleaning':
                 continue
-            elif some_number == 207 and revnum == '24':
-                # (24) was renumbered to (25)
-                kill = {'Amended(24) via Rule 2430 "Cleanup Time," 24 May 2017'}
-            elif some_number == 833 and revnum == '6':
-                kill = {('6', '???')}
-            if kill is not None:
-                goods, bads = util.partition(lambda latent: latent.sig not in kill, latents)
-                assert_(len(goods) == 1)
-                for latent in bads:
-                    goods[0].ans.extend(latent.ans)
-                    latent.remove()
-
-            if len(latents) <= 1:
+            latents_by_reduced_sig[rsig].append(latent)
+        for rsig, latents in latents_by_reduced_sig.items():
+            if len(latents) <= 1: continue
+            # potential renumbering
+            # are they all in different entries?
+            entries = [an._entry for latent in latents for an in latent.ans]
+            if len(entries) == len(set(entries)):
+                # yes, so... find the most recent one
+                # [(date, latent)]
+                last_seen = sorted((max(an._entry.date_lower_bound() for an in latent.ans), latent) for latent in latents)
+                # is it strictly more recent?
+                if last_seen[-1][0] > last_seen[-2][0]:
+                    winnerdate, winner = last_seen[-1]
+                    for loserdate, loser in last_seen[:-1]:
+                        for an in loser.ans:
+                            an._entry.no_link = True
+                        loser.merge_into(winner)
+                    continue
+                else:
+                    why_not = "can't find newest"
+            else:
+                # this may not actually be a problem
+                #why_not = "duplicates were seen in one entry"
                 continue
             with warnx():
-                print('Duplicate revnums for rule %s:' % (rule.numbers,))
+                print ("in rule %s, couldn't autofix revision renumbering because %s:" % (rule.numbers, why_not,))
                 for latent in latents:
                     print('--')
                     latent.print_sig_and_texts()
                 print('***')
 
-    def break_cycles_and_group_sccs():
+
+    def add_links():
+        for entry in rule.entries:
+            if entry.no_link:
+                continue
+            ans = [an for an in entry.ans if not an.latent.dead]
+            for i, an in enumerate(ans):
+                if i > 0:
+                    an.latent.prevs.add(ans[i-1].latent)
+                if i + 1 < len(entry.ans):
+                    an.latent.nexts.add(ans[i+1].latent)
+    # currently disabled
+    def handle_revnum_clashes():
+        latents_by_revnum = defaultdict(list)
+        for latent in latent_by_sig.values():
+            if latent.dead: continue
+            revnum = next(iter(latent.ans)).revnum
+            if revnum is not None:
+                latents_by_revnum[revnum].append(latent)
+        for revnum, latents in latents_by_revnum.items():
+            kill = set()
+            if len(latents) <= 1:
+                continue
+            dispositions = [REVNUM_FIXES.get((some_number, latent.sig)) for latent in latents]
+            nones = [latent for (disposition, latent) in zip(dispositions, latents) if disposition is None]
+            if len(nones) > 1:
+                # are they all seen in some single entry?
+                if functools.reduce(set.intersection, (latent.ans for latent in nones)):
+                    continue
+                with warnx():
+                    print('Duplicate revnums for rule %s:' % (rule.numbers,))
+                    for latent in latents:
+                        print('--')
+                        latent.print_sig_and_texts()
+                    print('***')
+                continue
+
+            for disposition, latent in zip(dispositions, latents):
+                if disposition == 'merge':
+                    latent.merge_into(nones[0])
+                elif disposition == 'kill':
+                    latent.delete()
+                elif disposition == 'allow':
+                    pass
+                elif disposition is None:
+                    pass
+                else:
+                    raise Exception('? %r' % (disposition, latent))
+
+    def break_cycles():
         # break cycles - turns out doesn't actually happen, but I had to write this code to figure that out, so may as well keep it
         stack = []
         for latent in all_latents:
             latent.prevs = list(latent.prevs)
             latent.nexts = list(latent.nexts)
-        sccalias = list(range(len(all_latents)))
         for j, latent0 in enumerate(all_latents):
-            sccid = j
-            stack = [(latent0, 0)]
+            stack = [[latent0, 0]]
             latent0.stackidx = 0
-            latent0.sccid = sccid
             while stack:
                 latent, nexti = stack[-1]
                 if nexti == len(latent.nexts):
                     latent.stackidx = None
                     stack.pop()
                     continue
+                assert latent in all_latents # XXX
                 next = latent.nexts[nexti]
-                stack[-1] = latent, nexti + 1
-                if next.sccid is not None:
-                    if next.sccid != sccid:
-                        if next.sccid < sccid:
-                            sccalias[sccid] = next.sccid
-                            sccid = next.sccid
-                        elif next.sccid > sccid:
-                            sccalias[next.sccid] = sccid
+                stack[-1][1] = nexti + 1
+                if next.seen:
                     if next.stackidx is not None:
                         # got a cycle
-                        warn('Got cycle in annotation ordering: %r' % (stack[next.stackidx:],))
+                        with warnx():
+                            print('Got cycle in annotation ordering:')
+                            for xlatent, _ in stack[next.stackidx:]:
+                                print('--')
+                                xlatent.print_sig_and_texts()
+                            print('***')
                         # arbitrarily choose the last link to break since it's easier - TODO if there are real cycles, do it better
                         latent.nexts.remove(next)
                         next.prevs.remove(latent)
-                        stack[-1] = latent, nexti
+                        stack[-1][1] -= 1
+                        stack[next.stackidx][1] -= 1
                 else:
-                    next.sccid = sccid
+                    next.seen = True
                     next.stackidx = len(stack)
-                    stack.append((next, 0))
+                    stack.append([next, 0])
 
-        sccdict = defaultdict(list)
-        for latent in all_latents:
-            sccid = latent.sccid
-            lst = []
-            # lol this is dumb
-            while True:
-                sccid2 = sccalias[sccid]
-                if sccid2 == sccid: break
-                assert_(sccid2 < sccid)
-                lst.append(sccid)
-                sccid = sccid2
-            for sccid in lst:
-                sccalias[sccid] = sccid2
-            sccdict[sccid2].append(latent)
-        sccs = filter(len, sccdict.values())
-        return sccs
     build_latents()
+    detect_renumberings()
+    add_links()
     handle_revnum_clashes()
-    sccs = break_cycles_and_group_sccs()
+    break_cycles()
     
 
 
